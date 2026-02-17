@@ -1,0 +1,51 @@
+<svg width="300" height="450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f766e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="450" fill="url(#grad1)"/>
+  
+  <!-- Decorative top bar -->
+  <rect width="300" height="20" fill="#dc2626"/>
+  
+  <!-- Main content area -->
+  <rect x="20" y="60" width="260" height="330" fill="rgba(255,255,255,0.1)" stroke="white" stroke-width="2"/>
+  
+  <!-- Title -->
+  <text x="150" y="120" font-size="24" font-weight="bold" fill="white" text-anchor="middle" font-family="Arial, sans-serif">
+    Future-Proofing
+  </text>
+  <text x="150" y="150" font-size="24" font-weight="bold" fill="white" text-anchor="middle" font-family="Arial, sans-serif">
+    the University
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="150" y="190" font-size="12" fill="#e2e8f0" text-anchor="middle" font-family="Arial, sans-serif">
+    Innovations in Learning
+  </text>
+  <text x="150" y="210" font-size="12" fill="#e2e8f0" text-anchor="middle" font-family="Arial, sans-serif">
+    Technology and Finances
+  </text>
+  <text x="150" y="230" font-size="12" fill="#e2e8f0" text-anchor="middle" font-family="Arial, sans-serif">
+    in the Age of AI
+  </text>
+  
+  <!-- Author -->
+  <text x="150" y="290" font-size="14" fill="white" text-anchor="middle" font-family="Arial, sans-serif" font-weight="600">
+    Prof. Bryan E. Penprase
+  </text>
+  
+  <!-- Publisher -->
+  <text x="150" y="320" font-size="11" fill="#fca5a5" text-anchor="middle" font-family="Arial, sans-serif">
+    Published by Routledge
+  </text>
+  
+  <!-- Decorative elements -->
+  <circle cx="40" cy="360" r="3" fill="white" opacity="0.6"/>
+  <circle cx="150" cy="370" r="3" fill="white" opacity="0.6"/>
+  <circle cx="260" cy="360" r="3" fill="white" opacity="0.6"/>
+</svg>
