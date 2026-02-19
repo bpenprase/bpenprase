@@ -18,6 +18,7 @@
                 <li><a href="#chapters">Chapters</a></li>
                 <li><a href="#editors">Editors</a></li>
                 <li><a href="#contributors">Contributing Authors</a></li>
+                <li><a href="#authors-page">Authors Page</a></li>
                 <li><a href="#books">Other Works</a></li>
             </ul>
         </div>
@@ -170,6 +171,73 @@
         </div>
     </section>
 
+    <!-- Authors Page Section -->
+    <section class="authors-page-section" id="authors-page">
+        <div class="container">
+            <h2>Authors Page</h2>
+            
+            <!-- Login Form -->
+            <div class="auth-container" id="auth-container">
+                <div class="auth-form">
+                    <h3>Secure Access for Contributing Authors</h3>
+                    <form id="login-form">
+                        <div class="form-group">
+                            <label for="username">Username:</label>
+                            <input type="text" id="username" name="username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                    <div id="login-error" class="login-error"></div>
+                </div>
+            </div>
+            
+            <!-- Authors Content (Hidden until authenticated) -->
+            <div class="authors-content" id="authors-content" style="display:none;">
+                <div class="authors-info">
+                    <p>This page is for contributing authors to our volume. Thanks for contributing your piece, and we will look forward to reviewing your piece and bringing it together into our new book!</p>
+                    
+                    <h3>Chapter Guidelines</h3>
+                    <p>Most of our contributed chapters will need to be in the range of <strong>2000-2500 words</strong>, or about <strong>10 double spaced pages</strong>.</p>
+                    
+                    <h3>Submission Requirements</h3>
+                    <ul class="submission-list">
+                        <li>Format: <strong>MS Word document</strong></li>
+                        <li>Citations: Standard format (<strong>CMS preferred; MLA or APA also acceptable</strong>)</li>
+                        <li>References: Use <strong>endnotes</strong></li>
+                    </ul>
+                    
+                    <p>Additional guidance for your piece can be found at the <a href="https://www.routledge.com/rsc/downloads/Page_16_-_Guidelines_for_Chapter_Contributors.pdf" target="_blank">Taylor and Francis website for authors</a>.</p>
+                </div>
+                
+                <!-- File Upload Form -->
+                <div class="upload-form-container">
+                    <h3>Upload Your Chapter</h3>
+                    <form id="upload-form" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="author-name">Your Name:</label>
+                            <input type="text" id="author-name" name="author-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="chapter-title">Chapter Title:</label>
+                            <input type="text" id="chapter-title" name="chapter-title" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="file-upload">Chapter File (MS Word):</label>
+                            <input type="file" id="file-upload" name="file-upload" accept=".doc,.docx" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Upload Chapter</button>
+                    </form>
+                    <div id="upload-status" class="upload-status"></div>
+                </div>
+                
+                <button id="logout-btn" class="btn btn-secondary">Logout</button>
+            </div>
+        </div>
+    </section>
     <!-- Books Section -->
     <section class="books-section" id="books">
         <div class="container">

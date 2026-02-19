@@ -589,6 +589,190 @@ p {
    BOOKS SECTION
    ============================================ */
 
+/* ============================================
+   AUTHORS PAGE SECTION
+   ============================================ */
+
+.authors-page-section {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.auth-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+.auth-form {
+    background: var(--light-bg);
+    padding: 3rem 2rem;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    width: 100%;
+}
+
+.auth-form h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--dark-text);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(107, 76, 154, 0.1);
+}
+
+#login-form button {
+    width: 100%;
+}
+
+.login-error {
+    color: var(--accent-color);
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.authors-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.authors-info {
+    background: var(--light-bg);
+    padding: 2.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.authors-info h3 {
+    color: var(--primary-color);
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.authors-info p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    color: var(--gray-text);
+}
+
+.authors-info strong {
+    color: var(--primary-color);
+}
+
+.authors-info a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.authors-info a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.submission-list {
+    list-style: none;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+.submission-list li {
+    padding: 0.75rem 0 0.75rem 2rem;
+    position: relative;
+    color: var(--gray-text);
+}
+
+.submission-list li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.upload-form-container {
+    background: white;
+    padding: 2rem;
+    border: 2px solid var(--light-bg);
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.upload-form-container h3 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+#upload-form {
+    margin-bottom: 1rem;
+}
+
+#upload-form button {
+    width: 100%;
+}
+
+.upload-status {
+    padding: 1rem;
+    border-radius: 4px;
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.upload-status.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.upload-status.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+#logout-btn {
+    background-color: var(--accent-color);
+    color: white;
+    width: 100%;
+}
+
+#logout-btn:hover {
+    background-color: #a71830;
+}
+
+/* ============================================
+   BOOKS SECTION
+   ============================================ */
 .books-section {
     padding: 80px 0;
     background-color: var(--light-bg);

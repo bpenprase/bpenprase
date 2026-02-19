@@ -2,23 +2,23 @@
 const contributors = [
     { name: "Bryan Penprase", title: "Vice President of Sponsored Research and External Academic Relations, Soka University of America" },
     { name: "Kyle Farley", title: "Partner, Cross Borders Education" },
-    { name: "Sara Pervaiz Amjad", title: "Associate Dean of Student Affairs at NYU Abu Dhabi" },
+    { name: "Sara Pervaiz Amjad", title: "Associate Dean of Student Affairs at New York University Abu Dhabi" },
     { name: "Jeff Lehman", title: "Vice Chancellor of NYU Shanghai" },
-    { name: "Noah Pickus", title: "Head of Global Studies and Partnerships, Duke University" },
-    { name: "Pericles Lewis", title: "Dean of the College, Yale University / Inaugural President, Yale-NUS College" },
-    { name: "Joanne Roberts", title: "Vice President for Academic Affairs and Dean of the College, Bates College" },
-    { name: "Dave Stanfield", title: "Vice President of Student Affairs and Dean of Students, Sarah Lawrence College" },
+    { name: "Noah Pickus", title: "Head of Global Strategy and Partnerships, Duke University (Duke Kunshan University)" },
+    { name: "Pericles Lewis", title: "Dean of the College, Yale University / inaugural President, Yale-NUS College" },
+    { name: "Joanne Roberts", title: "Vice President for Academic Affairs and Dean of the College, Bates College (formerly President, Yale-NUS College)" },
+    { name: "Dave Stanfield", title: "Vice President of Student Affairs and Dean of Students, Sarah Lawrence College (formerly Dean of Students, Yale-NUS College)" },
     { name: "Al Bloom", title: "Swarthmore, NYU Abu Dhabi, Duke Kunshan University" },
-    { name: "Fatiah Touray", title: "Chancellor, Global Access and Engagement, NYU" },
+    { name: "Fatiah Touray", title: "Assistant Vice Chancellor, Global Access and Engagement, NYU" },
     { name: "Zhana Sandeva", title: "Associate Director, NUS (formerly at Yale-NUS College)" },
-    { name: "Bryan Waterman", title: "Associate Professor of English, NYU (formerly at NYU Abu Dhabi)" },
-    { name: "Kaashif Hajee", title: "NYUAD Alumnus" },
-    { name: "Aisha Al-Naqbi", title: "Senior Dean of Students, NYUAD" },
-    { name: "Melanie Koenderman", title: "Partner, Cross Borders Education (formerly with Quest University)" },
-    { name: "Ryan Derby-Talbot", title: "Inaugural President, Experiential College of the UAE (formerly with Fulbright Vietnam and Quest University Canada)" },
-    { name: "Khoo Hoon Eng", title: "Emeritus Professor, NUS (formerly with Asian University for Women, Yale-NUS College)" },
-    { name: "Catherine Shea Stough", title: "Intentional Education Consulting (formerly with Yale-NUS College)" },
-    { name: "Priya Thomas", title: "ICCET at Bristol" }
+    { name: "Bryan Waterman", title: "Associate Professor of English, NYU, (formerly at NYU Abu Dhabi)" },
+    { name: "Kaashif Hajee", title: "NYUAD alum" },
+    { name: "Aisha Al Naqbi", title: "Senior Dean of Students, NYUAD" },
+    { name: "Melanie Koenderman", title: "Partner, Cross Borders Education (formerly with Quest University, Schwarzman Scholars Program)" },
+    { name: "Ryan Derby-Talbot", title: "inaugural President, Experiential College of the UAE (formerly with Fulbright Vietnam and Quest University Canada)" },
+    { name: "Khoo Hoon Eng", title: "Emeritus Professor, NUS (formerly with Asian University for Women, Yale-NUS College, Asian Women’s Leadership University College)" },
+    { name: "Catherine Shea Sanger", title: "Intentional Education Consulting (formerly with Yale-NUS College)" },
+    { name: "Thais Thomas", title: "NYU Office of Social Responsibility (NYUAD alum)" }
 ];
 
 // Chapter data organized by parts
@@ -213,3 +213,84 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+
+// Authors Page Authentication
+const VALID_USERNAME = 'AHEAauthor';
+const VALID_PASSWORD = 'AHEAauthor2026';
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Check if user is authenticated when page loads
+    const isAuthenticated = sessionStorage.getItem('authorsPageAuth') === 'true';
+    if (isAuthenticated) {
+        showAuthorsContent();
+    }
+    
+    // Login form handler
+    const loginForm = document.getElementById('login-form');
+    if (loginForm) {
+        loginForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const errorDiv = document.getElementById('login-error');
+            
+            if (username === VALID_USERNAME && password === VALID_PASSWORD) {
+                sessionStorage.setItem('authorsPageAuth', 'true');
+                errorDiv.textContent = '';
+                showAuthorsContent();
+            } else {
+                errorDiv.textContent = 'Invalid username or password. Please try again.';
+            }
+        });
+    }
+    
+    // Logout button handler
+    const logoutBtn = document.getElementById('logout-btn');
+    if (logoutBtn) {
+        logoutBtn.addEventListener('click', function() {
+            sessionStorage.removeItem('authorsPageAuth');
+            document.getElementById('login-form').reset();
+            showAuthsContainer();
+        });
+    }
+    
+    // File upload form handler
+    const uploadForm = document.getElementById('upload-form');
+    if (uploadForm) {
+        uploadForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const authorName = document.getElementById('author-name').value;
+            const chapterTitle = document.getElementById('chapter-title').value;
+            const fileInput = document.getElementById('file-upload');
+            const statusDiv = document.getElementById('upload-status');
+            
+            if (fileInput.files.length === 0) {
+                statusDiv.textContent = 'Please select a file.';
+                statusDiv.className = 'upload-status error';
+                return;
+            }
+            
+            const file = fileInput.files[0];
+            // Note: In a real implementation, this would send to a server
+            // For now, we'll just show a success message
+            statusDiv.textContent = `Thank you! Your chapter "${chapterTitle}" by ${authorName} has been received. We will review your submission and contact you shortly.`;
+            statusDiv.className = 'upload-status success';
+            
+            // Reset form after 3 seconds
+            setTimeout(() => {
+                uploadForm.reset();
+                statusDiv.textContent = '';
+            }, 3000);
+        });
+    }
+});
+
+function showAuthorsContent() {
+    document.getElementById('auth-container').style.display = 'none';
+    document.getElementById('authors-content').style.display = 'block';
+}
+
+function showAuthsContainer() {
+    document.getElementById('auth-container').style.display = 'block';
+    document.getElementById('authors-content').style.display = 'none';
+}
