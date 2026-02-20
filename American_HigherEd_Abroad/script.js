@@ -16,7 +16,7 @@ const contributors = [
     { name: "Nancy Gleason", title: "Director of Undergraduate Academic Excellence, MBZUAI, (former Director, Hillary Ballon Center for Teaching and Learning, NYUAD)" },
     { name: "Aisha Al Naqbi", title: "Senior Dean of Students, NYUAD" },
     { name: "Melanie Koenderman", title: "Partner, Cross Borders Education (formerly with Quest University, Schwarzman Scholars Program)" },
-    { name: "Ryan Derby-Talbot", title: "Inaugural President, Experiential College of the UAE (formerly with Fulbright Vietnam and Quest University Canada)" },
+    { name: "Ryan Derby-Talbot", title: "inaugural President, Experiential College of the UAE (formerly with Fulbright Vietnam and Quest University Canada)" },
     { name: "Khoo Hoon Eng", title: "Emeritus Professor, NUS (formerly with Asian University for Women, Yale-NUS College, Asian Women’s Leadership University College)" },
     { name: "Catherine Shea Sanger", title: "Intentional Education Consulting (formerly with Yale-NUS College)" },
     { name: "Thais Thomas", title: "NYU Office of Social Responsibility (NYUAD alum)" },
