@@ -365,7 +365,7 @@ p {
 }
 
 .chapter-body {
-    padding: 1.5rem;
+    padding: 0.85rem 1.5rem 1.5rem 1.5rem;
     display: none;
     max-height: 0;
     overflow: hidden;
@@ -384,6 +384,7 @@ p {
     color: var(--gray-text);
     line-height: 1.8;
     font-size: 0.95rem;
+    white-space: pre-wrap;
 }
 
 .abstract-excerpt {
