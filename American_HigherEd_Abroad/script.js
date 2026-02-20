@@ -9,16 +9,21 @@ const contributors = [
     { name: "Joanne Roberts", title: "Vice President for Academic Affairs and Dean of the College, Bates College (formerly President, Yale-NUS College)" },
     { name: "Dave Stanfield", title: "Vice President of Student Affairs and Dean of Students, Sarah Lawrence College (formerly Dean of Students, Yale-NUS College)" },
     { name: "Al Bloom", title: "Swarthmore, NYU Abu Dhabi, Duke Kunshan University" },
-    { name: "Fatiah Touray", title: "Assistant Vice Chancellor, Global Access and Engagement, NYU" },
+    { name: "Fatiha Touray", title: "Assistant Vice Chancellor, Global Access and Engagement, NYU" },
     { name: "Zhana Sandeva", title: "Associate Director, NUS (formerly at Yale-NUS College)" },
     { name: "Bryan Waterman", title: "Associate Professor of English, NYU, (formerly at NYU Abu Dhabi)" },
     { name: "Kaashif Hajee", title: "NYUAD alum" },
+    { name: "Nancy Gleason", title: "Director of Undergraduate Academic Excellence, MBZUAI, (former Director, Hillary Ballon Center for Teaching and Learning, NYUAD)" },
     { name: "Aisha Al Naqbi", title: "Senior Dean of Students, NYUAD" },
     { name: "Melanie Koenderman", title: "Partner, Cross Borders Education (formerly with Quest University, Schwarzman Scholars Program)" },
-    { name: "Ryan Derby-Talbot", title: "inaugural President, Experiential College of the UAE (formerly with Fulbright Vietnam and Quest University Canada)" },
+    { name: "Ryan Derby-Talbot", title: "Inaugural President, Experiential College of the UAE (formerly with Fulbright Vietnam and Quest University Canada)" },
     { name: "Khoo Hoon Eng", title: "Emeritus Professor, NUS (formerly with Asian University for Women, Yale-NUS College, Asian Women’s Leadership University College)" },
     { name: "Catherine Shea Sanger", title: "Intentional Education Consulting (formerly with Yale-NUS College)" },
-    { name: "Thais Thomas", title: "NYU Office of Social Responsibility (NYUAD alum)" }
+    { name: "Thais Thomas", title: "NYU Office of Social Responsibility (NYUAD alum)" },
+    { name: "Mara Steiner", title: "Global Director for Student Life, Minerva University" },
+    { name: "Dollie Davis", title: "Vice President of Global Learning and Academic Operations, Minerva University" },
+    { name: "Matthew Erskine", title: "Global Director of Student Life, Minerva University" },
+    { name: "Jason Lindo", title: "Associate Dean and Global Director, Student Life, Minerva University" }
 ];
 
 // Chapter data organized by parts
@@ -26,13 +31,18 @@ const contributors = [
 const chaptersByPart = {
     1: [
         {
+            number: 1,
+            title: "The Idea of the Global American University and Fostering Cosmopolitanism and Global Citizenship in the 21st Century",
+            authors: "Bryan Penprase (SUA)"
+        },
+        {
             number: 2,
             title: "The History and Evolution of Global Universities",
             authors: "Bryan Penprase, Kyle Farley and Sara Pervaiz Amjad"
         },
         {
             number: 3,
-            title: "\"Don't Burn the Last Bridge\": The Special Duty of Universities When Nations Start To Decouple",
+            title: "Don't Burn the Last Bridge: The Special Duty of Universities When Nations Start To Decouple",
             authors: "Jeff Lehman (NYU Shanghai)"
         },
         {
@@ -70,7 +80,7 @@ const chaptersByPart = {
         {
             number: 10,
             title: "Undergraduate Research for a Global Student Body",
-            authors: "Zhana Zendhaya (Yale-NUS)"
+            authors: "Zhana Sandheva (Yale-NUS)"
         },
         {
             number: 11,
@@ -79,13 +89,13 @@ const chaptersByPart = {
         },
         {
             number: 12,
-            title: "Unwrapping the Global University: Inclusion, Exclusion, and the Search for Meaning",
-            authors: "Kaashif Hajee (NYUAD alum, India)"
+            title: "Unravelling the Global University: Inclusion, Exclusion, and the Search for Meaning",
+            authors: "Kaashif Hajee (NYUAD)"
         },
         {
             number: 13,
             title: "Minerva University: Reimagining Education in the Global Era",
-            authors: "Martina Mikulan (Otto-Benecke-Stiftung) and Jason Lindo (Minerva University)"
+            authors: "Mara Steiner, Dollie Davis, Matthew Erskine and Jason Lindo (Minerva University)"
         }
     ],
     3: [
@@ -102,27 +112,27 @@ const chaptersByPart = {
         {
             number: 16,
             title: "Navigating Multicultural Understandings of an Intercultural Student Community",
-            authors: "Sara PervaizAmjad (Yale-NUS + NYUAD)"
+            authors: "Sara Pervaiz Amjad (Yale-NUS + NYUAD)"
         },
         {
             number: 17,
             title: "Cultural Sensitivity and Global Ambition: A UAE Perspective on International Higher Education",
-            authors: "Aisha Al-Naqbi (NYUAD)"
+            authors: "Aisha Al Naqbi (NYUAD)"
         },
         {
             number: 18,
             title: "Creating International Campus Communities",
-            authors: "Melanie Koenderman (Quest/Schwartzman) and Ryan Derby-Talbot (Quest, Fulbright Vietnam)"
+            authors: "Melanie Koenderman (Quest/Schwarzman) and Ryan Derby-Talbot (Quest, Fulbright Vietnam)"
         },
         {
             number: 19,
             title: "Intercultural Pedagogy and the Global University",
-            authors: "Kate Sanger (Yale-NUS) and Hoon Eng Khoo (Yale-NUS, Asian University for Women)"
+            authors: "Catherine Shea Sanger (Yale-NUS) and Hoon Eng Khoo (Yale-NUS, Asian University for Women)"
         },
         {
             number: 20,
             title: "Assume Goodwill? Balancing Ideals and Reality at a Global University",
-            authors: "Priya Thomas (NYUAD)"
+            authors: "Thais Thomas (NYUAD)"
         }
     ]
 };
@@ -134,35 +144,54 @@ function togglePart(partNumber) {
 }
 
 // Populate chapters on page load
-document.addEventListener('DOMContentLoaded', function() {
-    // Populate chapters for each part
+function renderChapters() {
     for (let partNum = 1; partNum <= 3; partNum++) {
         const chaptersGrid = document.getElementById(`chapters-part-${partNum}`);
+        if (!chaptersGrid) continue;
+        chaptersGrid.innerHTML = '';
         const chapters = chaptersByPart[partNum] || [];
-        
         chapters.forEach(chapter => {
             const chapterCard = document.createElement('div');
             chapterCard.className = 'chapter-card';
-            
             const numberCircle = document.createElement('div');
             numberCircle.className = 'chapter-number';
             numberCircle.textContent = chapter.number;
-            
             const title = document.createElement('h3');
             title.className = 'chapter-title';
             title.textContent = chapter.title;
-            
             const authors = document.createElement('p');
             authors.className = 'chapter-authors';
             authors.textContent = chapter.authors;
-            
             chapterCard.appendChild(numberCircle);
             chapterCard.appendChild(title);
             chapterCard.appendChild(authors);
-            
             chaptersGrid.appendChild(chapterCard);
         });
     }
+}
+
+function renderContributors() {
+    const contributorsGrid = document.getElementById('contributors-grid');
+    if (!contributorsGrid) return;
+    contributorsGrid.innerHTML = '';
+    contributors.forEach(contributor => {
+        const contributorCard = document.createElement('div');
+        contributorCard.className = 'contributor-card';
+        const nameElement = document.createElement('h3');
+        nameElement.className = 'contributor-name';
+        nameElement.textContent = contributor.name;
+        const titleElement = document.createElement('p');
+        titleElement.className = 'contributor-title';
+        titleElement.textContent = contributor.title;
+        contributorCard.appendChild(nameElement);
+        contributorCard.appendChild(titleElement);
+        contributorsGrid.appendChild(contributorCard);
+    });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    renderChapters();
+    renderContributors();
     
     // Populate contributors
     const contributorsGrid = document.getElementById('contributors-grid');
@@ -254,35 +283,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // File upload form handler
-    const uploadForm = document.getElementById('upload-form');
-    if (uploadForm) {
-        uploadForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            const authorName = document.getElementById('author-name').value;
-            const chapterTitle = document.getElementById('chapter-title').value;
-            const fileInput = document.getElementById('file-upload');
-            const statusDiv = document.getElementById('upload-status');
-            
-            if (fileInput.files.length === 0) {
-                statusDiv.textContent = 'Please select a file.';
-                statusDiv.className = 'upload-status error';
-                return;
-            }
-            
-            const file = fileInput.files[0];
-            // Note: In a real implementation, this would send to a server
-            // For now, we'll just show a success message
-            statusDiv.textContent = `Thank you! Your chapter "${chapterTitle}" by ${authorName} has been received. We will review your submission and contact you shortly.`;
-            statusDiv.className = 'upload-status success';
-            
-            // Reset form after 3 seconds
-            setTimeout(() => {
-                uploadForm.reset();
-                statusDiv.textContent = '';
-            }, 3000);
-        });
-    }
+    // Upload form handler removed for GitHub Pages version
 });
 
 function showAuthorsContent() {
