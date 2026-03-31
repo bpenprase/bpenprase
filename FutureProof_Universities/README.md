@@ -18,7 +18,7 @@ FutureProof_Universities/
 ├── index.html          # Main HTML file
 ├── styles.css          # CSS styling
 ├── script.js           # JavaScript for interactivity
-├── book.cover.mockup.nearfinal.001.jpeg  # Book cover image used in the hero section
+├── book-cover.jpeg     # Book cover image used in the hero section
 └── README.md           # This file
 ```
 
@@ -36,7 +36,7 @@ Update the hero image reference in `index.html` if you want to use a different c
 1. Ensure the repository is public (or Pages is enabled on private repos)
 2. Go to repository Settings → Pages
 3. Set source to: `main` branch → `/FutureProof_Universities` folder
-4. Your site will be available at: `https://bpenprase.github.io/FutureProof_Universities/`
+4. Your site will be available at: `https://bpenprase.github.io/bpenprase/FutureProof_Universities/`
 
 ### 3. Customize (Optional)
 
