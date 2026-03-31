@@ -18,7 +18,7 @@ FutureProof_Universities/
 ├── index.html          # Main HTML file
 ├── styles.css          # CSS styling
 ├── script.js           # JavaScript for interactivity
-├── book-cover.jpg      # Book cover image (add your cover here)
+├── book.cover.mockup.nearfinal.001.jpeg  # Book cover image used in the hero section
 └── README.md           # This file
 ```
 
@@ -26,7 +26,7 @@ FutureProof_Universities/
 
 ### 1. Add Your Book Cover
 
-Replace the `book-cover.jpg` file with your actual book cover image:
+Update the hero image reference in `index.html` if you want to use a different cover file:
 - Recommended size: 300px width (scales responsively)
 - Formats: JPG, PNG, or WebP
 - The image will display in the hero section

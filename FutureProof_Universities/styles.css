@@ -133,12 +133,17 @@ p {
 
 .book-cover-design {
     width: 300px;
-    background: linear-gradient(135deg, #0a1428 0%, #1a2a4a 100%);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: var(--shadow-lg);
     transform: translateZ(20px);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book-cover-image {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .book-cover-design:hover {
