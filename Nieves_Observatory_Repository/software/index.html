@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Software | Nieves Observatory Repository</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Spectral:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/site.css">
+</head>
+<body data-section="software" data-view="files">
+  <div class="site-bg" aria-hidden="true"></div>
+  <header class="site-header inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-kicker">Nieves Observatory</span>
+      <span class="brand-title">Software Suite</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Toggle navigation">Menu</button>
+    <nav class="main-nav" id="main-nav">
+      <a href="../publications/index.html">Publications</a>
+      <a href="../datasets/index.html">Datasets</a>
+      <a href="../software/index.html">Software</a>
+      <a href="../gallery/index.html">Gallery</a>
+      <a href="../contacts/index.html">Contacts</a>
+    </nav>
+  </header>
+
+  <main class="inner-main">
+    <section class="landing fade-up">
+      <p class="eyebrow">NSUT Software Overview</p>
+      <h1>Astronomical Image Processing Suite</h1>
+      <p>
+        Based on your uploaded software overview guide, this section describes the four core programs used for
+        Nieves Soka University Telescope data analysis. Upload Python scripts to <strong>content/software</strong>
+        and they will appear in the file listing below.
+      </p>
+    </section>
+
+    <section class="workflow-strip fade-up delay-1">
+      <h2>Typical End-To-End Workflow</h2>
+      <ol>
+        <li><strong>ExposeCheck</strong>: identify saturated FITS frames and remove overexposed images.</li>
+        <li><strong>FITS Image Combiner</strong>: create master calibrations and aligned stacked science frames.</li>
+        <li><strong>PhotoCalib</strong>: perform robust differential photometry across the time-series stack.</li>
+        <li><strong>Differential Photometry Plotter</strong>: generate publication-ready light curves and diagnostics.</li>
+      </ol>
+    </section>
+
+    <section class="software-grid fade-up delay-2">
+      <article class="software-card">
+        <h3>ExposeCheck</h3>
+        <p>Scans FITS directories for saturation using target, center, or full-frame modes, then exports CSV diagnostics.</p>
+        <p class="meta">Primary file: exposecheck.py</p>
+      </article>
+      <article class="software-card">
+        <h3>FITS Image Combiner</h3>
+        <p>Combines and aligns FITS frames using average, median, sigma-clip, or brightest-pixel rejection methods.</p>
+        <p class="meta">Primary file: fits-image-combiner.py</p>
+      </article>
+      <article class="software-card">
+        <h3>PhotoCalib</h3>
+        <p>Computes differential photometry from WCS-solved images with target/reference tracking and diagnostics.</p>
+        <p class="meta">Primary file: photcalib_robust_fixed.py</p>
+      </article>
+      <article class="software-card">
+        <h3>Differential Photometry Plotter</h3>
+        <p>Converts photometry CSV output into two-page, publication-quality multi-panel light curve reports.</p>
+        <p class="meta">Primary file: plot_differential_photometry.py</p>
+      </article>
+    </section>
+
+    <section class="content-panel fade-up delay-3">
+      <h2>Software File Listing</h2>
+      <div id="file-grid" class="file-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Nieves Observatory Repository</p>
+  </footer>
+
+  <script src="../assets/site.js"></script>
+</body>
+</html>
