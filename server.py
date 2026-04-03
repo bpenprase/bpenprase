@@ -42,7 +42,7 @@ SECTION_LIST_DIRS = {
 SECTION_ALLOWED_EXTENSIONS = {
     'publications': {'pdf'},
     'datasets': {'fits', 'fit', 'fts', 'csv', 'txt', 'png', 'jpg', 'jpeg', 'webp', 'gif', 'zip', 'tar', 'gz', 'tgz', 'bz2', 'xz'},
-    'software': {'py', 'ipynb', 'txt', 'md', 'zip'},
+    'software': {'py', 'ipynb', 'txt', 'md', 'zip', 'pdf'},
     'gallery': {'png', 'jpg', 'jpeg', 'webp', 'gif'},
 }
 
