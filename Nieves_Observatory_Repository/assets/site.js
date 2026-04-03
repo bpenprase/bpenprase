@@ -3,7 +3,16 @@
     owner: 'bpenprase',
     repo: 'bpenprase',
     branch: 'main',
-    contentRoot: 'Nieves_Observatory_Repository/content'
+    contentRoot: 'Nieves_Observatory_Repository/content',
+    sectionRoots: {
+      publications: ['Nieves_Observatory_Repository/content/publications'],
+      datasets: ['Nieves_Observatory_Repository/content/datasets'],
+      software: [
+        'Nieves_Observatory_Repository/software',
+        'Nieves_Observatory_Repository/content/software'
+      ],
+      gallery: ['Nieves_Observatory_Repository/content/gallery']
+    }
   };
 
   function initMenuToggle() {
@@ -56,7 +65,7 @@
   function normalizeGitHubFiles(items) {
     return items
       .filter(function (item) {
-        return item.type === 'file';
+        return item.type === 'file' && item.name !== 'index.html';
       })
       .sort(function (a, b) {
         return a.name.localeCompare(b.name);
@@ -72,26 +81,35 @@
   }
 
   async function fetchFromGitHub(section) {
-    var endpoint =
-      'https://api.github.com/repos/' + githubConfig.owner + '/' + githubConfig.repo +
-      '/contents/' + githubConfig.contentRoot + '/' + section + '?ref=' + githubConfig.branch;
+    var roots = githubConfig.sectionRoots[section] || [githubConfig.contentRoot + '/' + section];
+    var results = await Promise.all(
+      roots.map(async function (root) {
+        var endpoint =
+          'https://api.github.com/repos/' + githubConfig.owner + '/' + githubConfig.repo +
+          '/contents/' + root + '?ref=' + githubConfig.branch;
 
-    var response = await fetch(endpoint, {
-      headers: {
-        Accept: 'application/vnd.github+json'
-      }
+        var response = await fetch(endpoint, {
+          headers: {
+            Accept: 'application/vnd.github+json'
+          }
+        });
+
+        if (!response.ok) {
+          throw new Error('GitHub content request failed with status ' + response.status);
+        }
+
+        var payload = await response.json();
+        if (!Array.isArray(payload)) {
+          return [];
+        }
+
+        return normalizeGitHubFiles(payload);
+      })
+    );
+
+    return results.flat().sort(function (a, b) {
+      return a.name.localeCompare(b.name);
     });
-
-    if (!response.ok) {
-      throw new Error('GitHub content request failed with status ' + response.status);
-    }
-
-    var payload = await response.json();
-    if (!Array.isArray(payload)) {
-      return [];
-    }
-
-    return normalizeGitHubFiles(payload);
   }
 
   function createFileCard(file) {

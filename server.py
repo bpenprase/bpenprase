@@ -15,8 +15,18 @@ ALLOWED_EXTENSIONS = {'doc', 'docx'}
 SECTION_DIRS = {
     'publications': os.path.join(REPOSITORY_CONTENT_ROOT, 'publications'),
     'datasets': os.path.join(REPOSITORY_CONTENT_ROOT, 'datasets'),
-    'software': os.path.join(REPOSITORY_CONTENT_ROOT, 'software'),
+    'software': os.path.join(REPOSITORY_ROOT, 'software'),
     'gallery': os.path.join(REPOSITORY_CONTENT_ROOT, 'gallery'),
+}
+
+SECTION_LIST_DIRS = {
+    'publications': [os.path.join(REPOSITORY_CONTENT_ROOT, 'publications')],
+    'datasets': [os.path.join(REPOSITORY_CONTENT_ROOT, 'datasets')],
+    'software': [
+        os.path.join(REPOSITORY_ROOT, 'software'),
+        os.path.join(REPOSITORY_CONTENT_ROOT, 'software'),
+    ],
+    'gallery': [os.path.join(REPOSITORY_CONTENT_ROOT, 'gallery')],
 }
 
 SECTION_ALLOWED_EXTENSIONS = {
@@ -34,6 +44,10 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 for directory in SECTION_DIRS.values():
     os.makedirs(directory, exist_ok=True)
 
+for directories in SECTION_LIST_DIRS.values():
+    for directory in directories:
+        os.makedirs(directory, exist_ok=True)
+
 
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
@@ -47,28 +61,34 @@ def section_allowed_file(filename, section):
 
 
 def list_section_files(section):
-    directory = SECTION_DIRS.get(section)
-    if directory is None:
+    directories = SECTION_LIST_DIRS.get(section)
+    if directories is None:
         return None
 
     entries = []
-    for filename in sorted(os.listdir(directory), key=str.lower):
-        if filename.startswith('.'):
-            continue
+    for directory in directories:
+        for filename in sorted(os.listdir(directory), key=str.lower):
+            if filename.startswith('.'):
+                continue
+            if section == 'software' and filename == 'index.html':
+                continue
 
-        filepath = os.path.join(directory, filename)
-        if not os.path.isfile(filepath):
-            continue
+            filepath = os.path.join(directory, filename)
+            if not os.path.isfile(filepath):
+                continue
 
-        stat = os.stat(filepath)
-        entries.append(
-            {
-                'name': filename,
-                'size': stat.st_size,
-                'modified': datetime.fromtimestamp(stat.st_mtime, timezone.utc).isoformat(),
-                'url': f'/repository/files/{section}/{filename}',
-            }
-        )
+            relative_path = os.path.relpath(filepath, REPOSITORY_ROOT).replace(os.sep, '/')
+            stat = os.stat(filepath)
+            entries.append(
+                {
+                    'name': filename,
+                    'size': stat.st_size,
+                    'modified': datetime.fromtimestamp(stat.st_mtime, timezone.utc).isoformat(),
+                    'url': f'/repository/{relative_path}',
+                }
+            )
+
+    entries.sort(key=lambda item: item['name'].lower())
 
     return entries
 
