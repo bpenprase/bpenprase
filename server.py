@@ -1,4 +1,5 @@
 import os
+import json
 from datetime import datetime, timezone
 
 from flask import Flask, abort, jsonify, redirect, request, send_from_directory
@@ -13,25 +14,34 @@ REPOSITORY_CONTENT_ROOT = os.path.join(REPOSITORY_ROOT, 'content')
 ALLOWED_EXTENSIONS = {'doc', 'docx'}
 
 SECTION_DIRS = {
-    'publications': os.path.join(REPOSITORY_CONTENT_ROOT, 'publications'),
-    'datasets': os.path.join(REPOSITORY_CONTENT_ROOT, 'datasets'),
+    'publications': os.path.join(REPOSITORY_ROOT, 'publications'),
+    'datasets': os.path.join(REPOSITORY_ROOT, 'datasets'),
     'software': os.path.join(REPOSITORY_ROOT, 'software'),
-    'gallery': os.path.join(REPOSITORY_CONTENT_ROOT, 'gallery'),
+    'gallery': os.path.join(REPOSITORY_ROOT, 'gallery'),
 }
 
 SECTION_LIST_DIRS = {
-    'publications': [os.path.join(REPOSITORY_CONTENT_ROOT, 'publications')],
-    'datasets': [os.path.join(REPOSITORY_CONTENT_ROOT, 'datasets')],
+    'publications': [
+        os.path.join(REPOSITORY_ROOT, 'publications'),
+        os.path.join(REPOSITORY_CONTENT_ROOT, 'publications'),
+    ],
+    'datasets': [
+        os.path.join(REPOSITORY_ROOT, 'datasets'),
+        os.path.join(REPOSITORY_CONTENT_ROOT, 'datasets'),
+    ],
     'software': [
         os.path.join(REPOSITORY_ROOT, 'software'),
         os.path.join(REPOSITORY_CONTENT_ROOT, 'software'),
     ],
-    'gallery': [os.path.join(REPOSITORY_CONTENT_ROOT, 'gallery')],
+    'gallery': [
+        os.path.join(REPOSITORY_ROOT, 'gallery'),
+        os.path.join(REPOSITORY_CONTENT_ROOT, 'gallery'),
+    ],
 }
 
 SECTION_ALLOWED_EXTENSIONS = {
     'publications': {'pdf'},
-    'datasets': {'fits', 'fit', 'fts', 'csv', 'txt', 'png', 'jpg', 'jpeg', 'webp', 'gif', 'zip'},
+    'datasets': {'fits', 'fit', 'fts', 'csv', 'txt', 'png', 'jpg', 'jpeg', 'webp', 'gif', 'zip', 'tar', 'gz', 'tgz', 'bz2', 'xz'},
     'software': {'py', 'ipynb', 'txt', 'md', 'zip'},
     'gallery': {'png', 'jpg', 'jpeg', 'webp', 'gif'},
 }
@@ -70,7 +80,7 @@ def list_section_files(section):
         for filename in sorted(os.listdir(directory), key=str.lower):
             if filename.startswith('.'):
                 continue
-            if section == 'software' and filename == 'index.html':
+            if filename in {'index.html', 'external-files.json'}:
                 continue
 
             filepath = os.path.join(directory, filename)
@@ -88,9 +98,47 @@ def list_section_files(section):
                 }
             )
 
+    for directory in directories:
+        manifest_path = os.path.join(directory, 'external-files.json')
+        if not os.path.isfile(manifest_path):
+            continue
+
+        try:
+            with open(manifest_path, 'r', encoding='utf-8') as manifest_file:
+                manifest_items = json.load(manifest_file)
+
+            if not isinstance(manifest_items, list):
+                continue
+
+            for item in manifest_items:
+                if not isinstance(item, dict):
+                    continue
+                if not item.get('name') or not item.get('url'):
+                    continue
+
+                entries.append(
+                    {
+                        'name': item['name'],
+                        'size': item.get('size'),
+                        'modified': item.get('modified'),
+                        'url': item['url'],
+                    }
+                )
+        except (json.JSONDecodeError, OSError):
+            continue
+
     entries.sort(key=lambda item: item['name'].lower())
 
-    return entries
+    unique_entries = []
+    seen_names = set()
+    for item in entries:
+        normalized_name = item['name'].lower()
+        if normalized_name in seen_names:
+            continue
+        seen_names.add(normalized_name)
+        unique_entries.append(item)
+
+    return unique_entries
 
 
 @app.route('/upload', methods=['POST'])

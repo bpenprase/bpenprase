@@ -5,13 +5,22 @@
     branch: 'main',
     contentRoot: 'Nieves_Observatory_Repository/content',
     sectionRoots: {
-      publications: ['Nieves_Observatory_Repository/content/publications'],
-      datasets: ['Nieves_Observatory_Repository/content/datasets'],
+      publications: [
+        'Nieves_Observatory_Repository/publications',
+        'Nieves_Observatory_Repository/content/publications'
+      ],
+      datasets: [
+        'Nieves_Observatory_Repository/datasets',
+        'Nieves_Observatory_Repository/content/datasets'
+      ],
       software: [
         'Nieves_Observatory_Repository/software',
         'Nieves_Observatory_Repository/content/software'
       ],
-      gallery: ['Nieves_Observatory_Repository/content/gallery']
+      gallery: [
+        'Nieves_Observatory_Repository/gallery',
+        'Nieves_Observatory_Repository/content/gallery'
+      ]
     }
   };
 
@@ -65,7 +74,7 @@
   function normalizeGitHubFiles(items) {
     return items
       .filter(function (item) {
-        return item.type === 'file' && item.name !== 'index.html';
+        return item.type === 'file' && item.name !== 'index.html' && item.name !== 'external-files.json';
       })
       .sort(function (a, b) {
         return a.name.localeCompare(b.name);
@@ -76,6 +85,45 @@
           size: item.size,
           modified: null,
           url: item.download_url || item.html_url
+        };
+      });
+  }
+
+  function isWebImage(fileName) {
+    var lower = String(fileName || '').toLowerCase();
+    return lower.endsWith('.jpg') || lower.endsWith('.jpeg') || lower.endsWith('.png') || lower.endsWith('.webp') || lower.endsWith('.gif');
+  }
+
+  async function fetchExternalManifest(root) {
+    var endpoint =
+      'https://raw.githubusercontent.com/' + githubConfig.owner + '/' + githubConfig.repo + '/' + githubConfig.branch +
+      '/' + root + '/external-files.json';
+
+    var response = await fetch(endpoint, {
+      headers: {
+        Accept: 'application/json'
+      }
+    });
+
+    if (!response.ok) {
+      return [];
+    }
+
+    var payload = await response.json();
+    if (!Array.isArray(payload)) {
+      return [];
+    }
+
+    return payload
+      .filter(function (item) {
+        return item && item.name && item.url;
+      })
+      .map(function (item) {
+        return {
+          name: item.name,
+          size: item.size,
+          modified: item.modified || null,
+          url: item.url
         };
       });
   }
@@ -107,7 +155,13 @@
       })
     );
 
-    return results.flat().sort(function (a, b) {
+    var externalResults = await Promise.all(
+      roots.map(function (root) {
+        return fetchExternalManifest(root);
+      })
+    );
+
+    return results.flat().concat(externalResults.flat()).sort(function (a, b) {
       return a.name.localeCompare(b.name);
     });
   }
@@ -186,6 +240,11 @@
 
       container.innerHTML = '';
       files.forEach(function (file) {
+        if (viewType === 'gallery' && !isWebImage(file.name)) {
+          container.appendChild(createFileCard(file));
+          return;
+        }
+
         container.appendChild(viewType === 'gallery' ? createGalleryItem(file) : createFileCard(file));
       });
     } catch (error) {
@@ -198,6 +257,11 @@
 
         container.innerHTML = '';
         githubFiles.forEach(function (file) {
+          if (viewType === 'gallery' && !isWebImage(file.name)) {
+            container.appendChild(createFileCard(file));
+            return;
+          }
+
           container.appendChild(viewType === 'gallery' ? createGalleryItem(file) : createFileCard(file));
         });
       } catch (githubError) {
