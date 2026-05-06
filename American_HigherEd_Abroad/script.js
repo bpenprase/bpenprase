@@ -5,7 +5,7 @@ const contributors = [
     { name: "Sara Pervaiz Amjad", title: "Associate Dean of Student Affairs at New York University Abu Dhabi" },
     { name: "Jeff Lehman", title: "Vice Chancellor of NYU Shanghai" },
     { name: "Noah Pickus", title: "Head of Global Strategy and Partnerships, Duke University (Duke Kunshan University)" },
-    { name: "Pericles Lewis", title: "Dean of the College, Yale University / inaugural President, Yale-NUS College" },
+    { name: "Pericles Lewis", title: "Dean of Yale College, Yale University" },
     { name: "Joanne Roberts", title: "Vice President for Academic Affairs and Dean of the College, Bates College (formerly President, Yale-NUS College)" },
     { name: "Dave Stanfield", title: "Vice President of Student Affairs and Dean of Students, Sarah Lawrence College (formerly Dean of Students, Yale-NUS College)" },
     { name: "Al Bloom", title: "Swarthmore, NYU Abu Dhabi, Duke Kunshan University" },
