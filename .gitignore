@@ -1,3 +1,7 @@
 Nieves_Observatory_Repository/datasets/August_2025_flats.tar
 Nieves_Observatory_Repository/datasets/ngc_7331_Aug18.tar
 Nieves_Observatory_Repository/gallery/final.image.ver2.Image32_DBE_clone1.tif
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
