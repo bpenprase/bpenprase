@@ -1,6 +1,6 @@
 {
  "observatory": "Nieves Observatory",
- "generated": "2026-06-13 13:37 PDT",
+ "generated": "2026-06-13 13:41 PDT",
  "night_of": "2026-06-13",
  "window": {
   "start": "21:46",
@@ -29,9 +29,9 @@
    "source": "TheSkyLive",
    "notes": "Asteroid 20 Massalia  mag 11.1",
    "ra": "11:56:27",
-   "dec": "+00:20:40",
+   "dec": "+00:20:39",
    "ra_h": 11.941,
-   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=179.1125&dec=0.34444444444444444&format=png",
+   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=179.1125&dec=0.3441666666666666&format=png",
    "alts": [
     {
      "t": "22:00",
@@ -826,10 +826,10 @@
    "link": "https://theskylive.com/c2023r1-info",
    "source": "TheSkyLive",
    "notes": "Comet C/2023 R1 (PANSTARRS)  mag 12.0",
-   "ra": "17:32:17",
-   "dec": "-07:15:25",
+   "ra": "17:32:16",
+   "dec": "-07:15:26",
    "ra_h": 17.538,
-   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=263.0708333333334&dec=-7.256944444444445&format=png",
+   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=263.0666666666667&dec=-7.2572222222222225&format=png",
    "alts": [
     {
      "t": "22:00",
@@ -868,10 +868,10 @@
    "link": "https://theskylive.com/irene-info",
    "source": "TheSkyLive",
    "notes": "Asteroid 14 Irene  mag 9.4",
-   "ra": "17:35:26",
-   "dec": "-22:38:58",
-   "ra_h": 17.591,
-   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=263.8583333333333&dec=-22.649444444444445&format=png",
+   "ra": "17:35:25",
+   "dec": "-22:38:59",
+   "ra_h": 17.59,
+   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=263.85416666666663&dec=-22.649722222222223&format=png",
    "alts": [
     {
      "t": "22:00",
@@ -1373,9 +1373,9 @@
    "source": "TheSkyLive",
    "notes": "Asteroid 8 Flora  mag 9.7",
    "ra": "19:38:32",
-   "dec": "-19:38:47",
+   "dec": "-19:38:48",
    "ra_h": 19.642,
-   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=294.6333333333333&dec=-19.64638888888889&format=png",
+   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=294.6333333333333&dec=-19.646666666666665&format=png",
    "alts": [
     {
      "t": "22:00",
@@ -1625,9 +1625,9 @@
    "source": "TheSkyLive",
    "notes": "Comet 10P/Tempel  mag 12.7",
    "ra": "20:33:52",
-   "dec": "-09:04:39",
+   "dec": "-09:04:40",
    "ra_h": 20.564,
-   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=308.46666666666664&dec=-9.0775&format=png",
+   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=308.46666666666664&dec=-9.077777777777778&format=png",
    "alts": [
     {
      "t": "22:00",
