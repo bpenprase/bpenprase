@@ -291,6 +291,37 @@ h1 {
   color: #ffe08f;
 }
 
+.table-wrap {
+  overflow-x: auto;
+  margin-top: 0.7rem;
+}
+
+.file-summary-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 680px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.file-summary-table th,
+.file-summary-table td {
+  text-align: left;
+  padding: 0.68rem 0.75rem;
+  border-bottom: 1px solid rgba(164, 197, 255, 0.2);
+}
+
+.file-summary-table thead th {
+  background: rgba(18, 50, 90, 0.72);
+  color: #e9f2ff;
+  font-weight: 600;
+}
+
+.file-summary-table tbody tr:nth-child(even) {
+  background: rgba(8, 29, 58, 0.32);
+}
+
 .gallery-item {
   border: 1px solid var(--line);
   border-radius: 16px;

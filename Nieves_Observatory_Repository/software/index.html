@@ -31,23 +31,41 @@
       <p class="eyebrow">NSUT Software Overview</p>
       <h1>Astronomical Image Processing Suite</h1>
       <p>
-        Based on your uploaded software overview guide, this section describes the four core programs used for
-        Nieves Soka University Telescope data analysis. Python programs placed in <strong>software</strong> and
-        supporting downloads placed in <strong>content/software</strong> will appear in the download listing below.
+        This page now includes the latest NSUT software upload set, including the GUI workflow tutorial and updated
+        Python tools for image quality checks, calibration, photometry, plotting, and RGB image generation.
+        Files placed in <strong>software</strong> and <strong>content/software</strong> appear in the download listing below.
       </p>
     </section>
 
-    <section class="workflow-strip fade-up delay-1">
+    <section class="content-panel fade-up delay-1">
+      <h2>Start Here: GUI Tutorial</h2>
+      <p>
+        The recommended first step is the GUI tutorial, which walks through setup and operation of the
+        NSUT graphical workflow for the software suite.
+      </p>
+      <p>
+        <a class="btn btn-primary" href="./NSUT_GUI_Tutorial.pdf" target="_blank" rel="noopener">Open NSUT GUI Tutorial (PDF)</a>
+      </p>
+    </section>
+
+    <section class="workflow-strip fade-up delay-2">
       <h2>Typical End-To-End Workflow</h2>
       <ol>
+        <li><strong>NSUT GUI</strong>: launch and coordinate major image-processing tasks through a single interface.</li>
         <li><strong>ExposeCheck</strong>: identify saturated FITS frames and remove overexposed images.</li>
         <li><strong>FITS Image Combiner</strong>: create master calibrations and aligned stacked science frames.</li>
         <li><strong>PhotoCalib</strong>: perform robust differential photometry across the time-series stack.</li>
         <li><strong>Differential Photometry Plotter</strong>: generate publication-ready light curves and diagnostics.</li>
+        <li><strong>RGB Image GUI</strong>: build color composites for outreach and visual quality checks.</li>
       </ol>
     </section>
 
-    <section class="software-grid fade-up delay-2">
+    <section class="software-grid fade-up delay-3">
+      <article class="software-card">
+        <h3>NSUT GUI</h3>
+        <p>Primary graphical interface for running software-suite tasks with guided controls and workflow support.</p>
+        <p class="meta">Primary file: nsut_gui.py</p>
+      </article>
       <article class="software-card">
         <h3>ExposeCheck</h3>
         <p>Scans FITS directories for saturation using target, center, or full-frame modes, then exports CSV diagnostics.</p>
@@ -68,6 +86,67 @@
         <p>Converts photometry CSV output into two-page, publication-quality multi-panel light curve reports.</p>
         <p class="meta">Primary file: plot_differential_photometry.py</p>
       </article>
+      <article class="software-card">
+        <h3>RGB Image GUI</h3>
+        <p>Interactive utility for combining calibrated channels into science-ready or outreach-ready RGB images.</p>
+        <p class="meta">Primary file: rgb_image_gui.py</p>
+      </article>
+    </section>
+
+    <section class="content-panel fade-up delay-3">
+      <h2>New File Quick Reference</h2>
+      <div class="table-wrap">
+        <table class="file-summary-table">
+          <thead>
+            <tr>
+              <th>File</th>
+              <th>Purpose</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>NSUT_GUI_Tutorial.pdf</td>
+              <td>Step-by-step guide for installing and operating the NSUT GUI workflow.</td>
+            </tr>
+            <tr>
+              <td>NSUT_Software_Suite_Overview.pdf</td>
+              <td>High-level overview of the complete software suite and recommended workflow.</td>
+            </tr>
+            <tr>
+              <td>nsut_gui.py</td>
+              <td>Main graphical launcher for coordinating image-processing tasks.</td>
+            </tr>
+            <tr>
+              <td>exposecheck.py</td>
+              <td>Finds saturated FITS frames and exports exposure diagnostics.</td>
+            </tr>
+            <tr>
+              <td>fits-image-combiner.py</td>
+              <td>Stacks/calibrates FITS images into cleaned and aligned products.</td>
+            </tr>
+            <tr>
+              <td>photcalib_robust_fixed.py</td>
+              <td>Performs robust differential photometry on calibrated time-series data.</td>
+            </tr>
+            <tr>
+              <td>plot_differential_photometry.py</td>
+              <td>Generates publication-ready differential-photometry plots.</td>
+            </tr>
+            <tr>
+              <td>rgb_image_gui.py</td>
+              <td>Creates RGB composites from calibrated astronomical image channels.</td>
+            </tr>
+            <tr>
+              <td>sample_diagnostic.pdf</td>
+              <td>Example output report used for quick quality-control checks.</td>
+            </tr>
+            <tr>
+              <td>sn2025_lightcurve.pdf</td>
+              <td>Example light-curve output from the updated plotting pipeline.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
 
     <section class="content-panel fade-up delay-3">

@@ -6,6 +6,24 @@ Key improvements:
 - Verifies reference stars exist in ALL images before finalizing
 - Uses WCS coordinates to track stars across images with shifts
 - Ensures consistent reference stars throughout entire stack
+- Supports flat field correction
+- Shows flux per pixel in diagnostic plots
+- FIXED: Automatically adjusts criteria for low-SNR targets
+- NEW: Online catalog matching (APASS DR9, Pan-STARRS DR1, SDSS DR12 via
+  astroquery/Vizier) to obtain known magnitudes for reference stars
+- NEW: Per-image photometric zero points and calibrated target magnitudes
+- NEW: Quality-control flags, reference star coordinates, and catalog
+  magnitudes in the output CSV
+- NEW: Saturated sources are excluded from detection (peakmax cut)
+
+Example for an exoplanet time series with full calibration:
+
+    python3 photcalib_robust_fixed.py ~/data/WASP-135b -f "r'" \\
+        -o wasp135b_photometry.csv \\
+        --target-ra "17:49:08.39" --target-dec "+29:52:44.8" \\
+        --catalog auto --create-diagnostics --verbose
+
+Use --catalog none for purely differential work or offline processing.
 """
 import argparse
 import os
@@ -27,12 +45,33 @@ from astropy.io import fits
 from astropy.wcs import WCS
 from astropy.coordinates import SkyCoord
 import astropy.units as u
-from astropy.stats import sigma_clipped_stats
+from astropy.stats import sigma_clipped_stats, sigma_clip
 from astropy.wcs.utils import proj_plane_pixel_scales
 
 from photutils.detection import DAOStarFinder
 from photutils.aperture import CircularAperture, CircularAnnulus, aperture_photometry
 from photutils.centroids import centroid_sources, centroid_2dg, centroid_com, centroid_quadratic
+
+# --- photutils 2.x / 3.x compatibility -------------------------------
+# photutils 3.0 renamed DAOStarFinder's 'peakmax' parameter to 'peak_max'
+# and the output columns 'xcentroid'/'ycentroid' to 'x_centroid'/'y_centroid'.
+import inspect as _inspect
+_PEAK_KW = ('peak_max' if 'peak_max' in
+            _inspect.signature(DAOStarFinder.__init__).parameters else 'peakmax')
+
+def make_daofinder(fwhm, threshold, peak_max=None, **kwargs):
+    """Construct a DAOStarFinder, mapping peak_max to the installed API."""
+    if peak_max is not None:
+        kwargs[_PEAK_KW] = peak_max
+    return DAOStarFinder(fwhm=fwhm, threshold=threshold, **kwargs)
+
+def source_xy(sources):
+    """Return (x, y) arrays from a DAOStarFinder table, any photutils version."""
+    if 'xcentroid' in sources.colnames:
+        return np.array(sources['xcentroid']), np.array(sources['ycentroid'])
+    return np.array(sources['x_centroid']), np.array(sources['y_centroid'])
+# ----------------------------------------------------------------------
+
 
 # Optional modules
 try:
@@ -53,7 +92,7 @@ except ImportError:
 warnings.filterwarnings("ignore", category=UserWarning)
 warnings.filterwarnings("ignore", category=RuntimeWarning)
 
-SUPPORTED_FILTERS = ["r'", "g'", "i'", "z'", "u'"]  # Sloan filters
+SUPPORTED_FILTERS = ["r'", "g'", "i'", "z'", "u'", "B", "V", "H-a", "OIII", "SII"]  # narrowband: differential photometry only (no catalog magnitudes)
 
 def parse_args():
     """Parse command line arguments."""
@@ -62,10 +101,12 @@ def parse_args():
     )
     p.add_argument("imagedir", help="Directory containing FITS images")
     p.add_argument("-f", "--filter", required=True, choices=SUPPORTED_FILTERS,
-                   help="Photometric filter (Sloan system)")
+                   help="Photometric filter (Sloan g'r'i'z'u' or Johnson B/V; "
+                        "B and V catalog magnitudes come from APASS)")
     p.add_argument("-o", "--output", required=True, help="Output CSV filename")
     p.add_argument("--target-ra", required=True, help="Target RA (hh:mm:ss or decimal degrees)")
     p.add_argument("--target-dec", required=True, help="Target Dec (dd:mm:ss or decimal degrees)")
+    p.add_argument("--flat", type=str, default=None, help="Flat field FITS file for calibration")
     p.add_argument("--fwhm", type=float, default=None, help="FWHM in pixels (default: auto-estimate)")
     p.add_argument("--threshold-sigma", type=float, default=5.0, 
                    help="Detection threshold in sigma (default: 5.0)")
@@ -89,8 +130,355 @@ def parse_args():
                    help="Number of images to sample for verification (default: 10, 0=all)")
     p.add_argument("--create-diagnostics", action="store_true",
                    help="Create diagnostic PDF for each image")
+    p.add_argument("--object-name", default=None, metavar="NAME",
+                   help="Target name for plot titles and the output CSV "
+                        "(default: read from the first image's OBJECT "
+                        "header)")
+    p.add_argument("--catalog", default="auto",
+                   choices=["auto", "apass", "panstarrs", "sdss", "none"],
+                   help="Online catalog for photometric calibration via astroquery "
+                        "(default: auto = try APASS, then Pan-STARRS, then SDSS; "
+                        "'none' disables catalog matching)")
+    p.add_argument("--catalog-radius", type=float, default=3.0,
+                   help="Match radius in arcsec for catalog cross-matching (default: 3.0)")
     p.add_argument("--verbose", action="store_true", help="Verbose output")
     return p.parse_args()
+
+def load_flat_field(flat_file: str, verbose: bool = False) -> Optional[np.ndarray]:
+    """
+    Load and normalize a flat field image.
+    
+    Parameters:
+    -----------
+    flat_file : str
+        Path to flat field FITS file
+    verbose : bool
+        Print verbose output
+    
+    Returns:
+    --------
+    np.ndarray or None if loading fails
+    """
+    if not os.path.exists(flat_file):
+        print(f"Warning: Flat field file {flat_file} does not exist")
+        return None
+    
+    try:
+        with warnings.catch_warnings():
+            warnings.filterwarnings("ignore")
+            with fits.open(flat_file) as hdul:
+                flat_data = None
+                for hdu in hdul:
+                    if hasattr(hdu, 'data') and isinstance(hdu.data, np.ndarray) and hdu.data.ndim == 2:
+                        flat_data = hdu.data.astype(np.float32)
+                        break
+                
+                if flat_data is None:
+                    print(f"Warning: No 2D image data found in flat field {flat_file}")
+                    return None
+                
+                # Normalize flat field by its median
+                flat_median = np.median(flat_data[flat_data > 0])
+                if flat_median > 0:
+                    flat_data = flat_data / flat_median
+                else:
+                    print(f"Warning: Flat field has non-positive median")
+                    return None
+                
+                # Replace any zeros or negative values with 1 to avoid division issues
+                flat_data[flat_data <= 0] = 1.0
+                
+                if verbose:
+                    print(f"Loaded flat field from {flat_file}")
+                    print(f"  Shape: {flat_data.shape}")
+                    print(f"  Normalized median: {np.median(flat_data):.3f}")
+                    print(f"  Min: {np.min(flat_data):.3f}, Max: {np.max(flat_data):.3f}")
+                
+                return flat_data
+                
+    except Exception as e:
+        print(f"Error loading flat field: {e}")
+        return None
+
+def apply_flat_field(data: np.ndarray, flat_field: np.ndarray, verbose: bool = False) -> np.ndarray:
+    """
+    Apply flat field correction to an image with masking of extreme flat values.
+    
+    Parameters:
+    -----------
+    data : np.ndarray
+        Science image data
+    flat_field : np.ndarray
+        Normalized flat field
+    verbose : bool
+        Print diagnostic information
+    
+    Returns:
+    --------
+    np.ndarray
+        Flat-fielded data
+    """
+    if flat_field is None:
+        return data
+    
+    # Check dimensions match
+    if data.shape != flat_field.shape:
+        print(f"Warning: Image shape {data.shape} doesn't match flat field shape {flat_field.shape}")
+        print("Skipping flat field correction")
+        return data
+    
+    # Create a modified flat field that limits extreme corrections
+    flat_clipped = flat_field.copy()
+    
+    # Limit flat field values to prevent extreme corrections
+    # Don't correct by more than a factor of 2 in either direction
+    min_flat = 0.5  # Don't divide by less than 0.5 (2x amplification max)
+    max_flat = 2.0  # Don't divide by more than 2.0 (0.5x reduction max)
+    
+    # Count problematic pixels
+    n_low = np.sum(flat_clipped < min_flat)
+    n_high = np.sum(flat_clipped > max_flat)
+    
+    if verbose and (n_low > 0 or n_high > 0):
+        print(f"  Flat field correction:")
+        print(f"    Clipping {n_low} pixels with flat < {min_flat}")
+        print(f"    Clipping {n_high} pixels with flat > {max_flat}")
+    
+    # Clip the flat field values
+    flat_clipped = np.clip(flat_clipped, min_flat, max_flat)
+    
+    # Apply the correction
+    corrected_data = data / flat_clipped
+    
+    # Check for NaN or inf
+    if np.any(np.isnan(corrected_data)) or np.any(np.isinf(corrected_data)):
+        print("Warning: Flat field correction created NaN/inf values, reverting to original")
+        return data
+    
+    if verbose:
+        _, bkg_orig, std_orig = estimate_background(data)
+        _, bkg_corr, std_corr = estimate_background(corrected_data)
+        print(f"    Background: {bkg_orig:.1f} -> {bkg_corr:.1f}")
+        print(f"    Std: {std_orig:.1f} -> {std_corr:.1f}")
+    
+    return corrected_data
+
+# ----------------------------------------------------------------------
+# Online catalog matching (astroquery / Vizier)
+# ----------------------------------------------------------------------
+#
+# Catalogs that report magnitudes in (or very close to) the Sloan system.
+# APASS DR9 uses true Sloan-prime g'r'i' filters; Pan-STARRS grizy and SDSS
+# ugriz are close cousins of the Sloan-prime system, with systematic
+# differences typically at the few-percent level for ordinary stars. The
+# catalog actually used is recorded in the output so any small systematic
+# offsets can be traced. Gaia G is a very broad band and is deliberately not
+# offered here: converting it to Sloan magnitudes requires color
+# transformations that would add more uncertainty than the catalogs below.
+
+CATALOG_DEFINITIONS = {
+    'apass': {
+        'vizier_id': 'II/336/apass9',
+        'name': 'APASS DR9',
+        'filters': {"g'": ("g'mag", "e_g'mag"),
+                    "r'": ("r'mag", "e_r'mag"),
+                    "i'": ("i'mag", "e_i'mag"),
+                    "B": ("Bmag", "e_Bmag"),
+                    "V": ("Vmag", "e_Vmag")},
+    },
+    'panstarrs': {
+        'vizier_id': 'II/349/ps1',
+        'name': 'Pan-STARRS DR1',
+        'filters': {"g'": ('gmag', 'e_gmag'),
+                    "r'": ('rmag', 'e_rmag'),
+                    "i'": ('imag', 'e_imag'),
+                    "z'": ('zmag', 'e_zmag')},
+    },
+    'sdss': {
+        'vizier_id': 'V/147/sdss12',
+        'name': 'SDSS DR12',
+        'filters': {"u'": ('umag', 'e_umag'),
+                    "g'": ('gmag', 'e_gmag'),
+                    "r'": ('rmag', 'e_rmag'),
+                    "i'": ('imag', 'e_imag'),
+                    "z'": ('zmag', 'e_zmag')},
+    },
+}
+
+
+def query_catalog_magnitudes(coords: List[SkyCoord], filter_name: str,
+                             catalog_choice: str = 'auto',
+                             match_radius_arcsec: float = 3.0,
+                             verbose: bool = False) -> List[Optional[Dict]]:
+    """
+    Query an online catalog for known magnitudes at a list of positions.
+
+    A single Vizier cone search is made around the centroid of all requested
+    positions (radius covering the whole set plus a margin), then each star
+    is matched to its nearest catalog entry within match_radius_arcsec.
+
+    Returns one entry per input coordinate: either a dict with keys
+    cat_mag, cat_mag_err, catalog, match_dist_arcsec, or None when no match
+    was found. Returns all-None (with a warning) if astroquery is missing,
+    the network is unavailable, or no catalog covers the requested filter.
+    """
+    n = len(coords)
+    empty = [None] * n
+
+    if not CATALOGS_AVAILABLE:
+        print("Catalog matching skipped: astroquery is not installed "
+              "(pip install astroquery)")
+        return empty
+
+    if catalog_choice == 'auto':
+        order = ['apass', 'panstarrs', 'sdss']
+    else:
+        order = [catalog_choice]
+
+    # Search field: center of all positions, radius spanning them plus margin.
+    ras = np.array([c.ra.deg for c in coords])
+    decs = np.array([c.dec.deg for c in coords])
+    center = SkyCoord(np.mean(ras) * u.deg, np.mean(decs) * u.deg)
+    seps = center.separation(SkyCoord(ras * u.deg, decs * u.deg))
+    search_radius = (seps.max() if n > 1 else 0 * u.deg) + 1.0 * u.arcmin
+
+    for cat_key in order:
+        cat = CATALOG_DEFINITIONS.get(cat_key)
+        if cat is None or filter_name not in cat['filters']:
+            if verbose and cat is not None:
+                print(f"  {cat['name']} does not cover filter {filter_name}; skipping")
+            continue
+
+        mag_col, err_col = cat['filters'][filter_name]
+        try:
+            if verbose:
+                print(f"  Querying {cat['name']} ({cat['vizier_id']}) "
+                      f"within {search_radius.to(u.arcmin):.1f} of field center...")
+            vizier = Vizier(columns=['RAJ2000', 'DEJ2000', mag_col, err_col],
+                            row_limit=10000, timeout=60)
+            tables = vizier.query_region(center, radius=search_radius,
+                                         catalog=cat['vizier_id'])
+            if len(tables) == 0 or len(tables[0]) == 0:
+                if verbose:
+                    print(f"  No {cat['name']} sources in this field")
+                continue
+
+            table = tables[0]
+            cat_coords = SkyCoord(np.array(table['RAJ2000'], dtype=float) * u.deg,
+                                  np.array(table['DEJ2000'], dtype=float) * u.deg)
+            cat_mags = np.array(table[mag_col], dtype=float)
+            try:
+                cat_errs = np.array(table[err_col], dtype=float)
+            except Exception:
+                cat_errs = np.full(len(table), np.nan)
+
+            results: List[Optional[Dict]] = []
+            n_matched = 0
+            for c in coords:
+                sep = c.separation(cat_coords)
+                i = int(np.argmin(sep))
+                if (sep[i].arcsec <= match_radius_arcsec
+                        and np.isfinite(cat_mags[i]) and cat_mags[i] > 0):
+                    results.append({
+                        'cat_mag': float(cat_mags[i]),
+                        'cat_mag_err': (float(cat_errs[i])
+                                        if np.isfinite(cat_errs[i]) else np.nan),
+                        'catalog': cat['name'],
+                        'match_dist_arcsec': float(sep[i].arcsec),
+                    })
+                    n_matched += 1
+                else:
+                    results.append(None)
+
+            print(f"  Catalog match: {n_matched}/{n} stars matched in {cat['name']} "
+                  f"({filter_name} band, radius {match_radius_arcsec:.1f}\")")
+            if n_matched > 0:
+                return results
+        except Exception as e:
+            print(f"  Warning: {cat['name']} query failed ({e}); "
+                  f"trying next catalog" if catalog_choice == 'auto'
+                  else f"  Warning: {cat['name']} query failed ({e})")
+            continue
+
+    print("  Catalog matching unavailable: no catalog returned matches "
+          "(offline, field not covered, or filter unsupported). "
+          "Calibrated magnitudes will not be computed.")
+    return empty
+
+
+def compute_zero_point(matched_standards: List[Dict],
+                       reference_stars: List[Dict]) -> Tuple[float, float, int]:
+    """
+    Compute the photometric zero point of one image from its reference stars.
+
+    For each matched reference star with a catalog magnitude, the per-star
+    zero point is zp_i = cat_mag - inst_mag. The image zero point is the
+    inverse-variance-weighted mean of the per-star values after 2.5-sigma
+    clipping (which rejects variables, mismatches, and bad measurements).
+
+    Returns (zp, zp_err, n_stars_used); (nan, nan, 0) when no reference star
+    has a catalog magnitude.
+    """
+    zps, weights = [], []
+    for std in matched_standards:
+        ref = reference_stars[std['ref_id']]
+        cat_mag = ref.get('cat_mag')
+        if cat_mag is None or not np.isfinite(std.get('inst_mag', np.nan)):
+            continue
+        zp_i = cat_mag - std['inst_mag']
+        err_inst = std.get('inst_mag_err', np.nan)
+        err_cat = ref.get('cat_mag_err', np.nan)
+        var = (err_inst**2 if np.isfinite(err_inst) else 0.0) + \
+              (err_cat**2 if np.isfinite(err_cat) else 0.0)
+        zps.append(zp_i)
+        weights.append(1.0 / max(var, 1e-6))
+
+    if len(zps) == 0:
+        return np.nan, np.nan, 0
+
+    zps = np.array(zps)
+    weights = np.array(weights)
+
+    if len(zps) >= 4:
+        # Robust outlier rejection (e.g. one variable star among the
+        # references). Deviations are judged against the median with a
+        # MAD-based scale, floored at a few times the typical per-star
+        # measurement error so ordinary noise is never clipped. With
+        # fewer than 4 stars an outlier cannot be identified reliably,
+        # so no rejection is attempted.
+        med = float(np.median(zps))
+        mad_std = 1.4826 * float(np.median(np.abs(zps - med)))
+        err_floor = 3.0 * float(np.median(1.0 / np.sqrt(weights)))
+        threshold = max(2.5 * mad_std, err_floor, 0.02)
+        keep = np.abs(zps - med) <= threshold
+        if np.sum(keep) >= 2:
+            zps, weights = zps[keep], weights[keep]
+
+    zp = float(np.average(zps, weights=weights))
+    if len(zps) > 1:
+        # Scatter-based error (does not assume perfect input errors).
+        zp_err = float(np.sqrt(np.average((zps - zp)**2, weights=weights)
+                               / (len(zps) - 1)))
+    else:
+        zp_err = float(1.0 / np.sqrt(np.sum(weights)))
+    return zp, zp_err, int(len(zps))
+
+
+def build_quality_flags(target: Dict, n_standards: int, n_references: int,
+                        zp: float, min_snr_flag: float = 5.0) -> str:
+    """Assemble a pipe-separated quality-control string for one image."""
+    flags = []
+    if target.get('saturated', False):
+        flags.append('SATURATED')
+    snr = target.get('snr', np.nan)
+    if not np.isfinite(snr) or snr < min_snr_flag:
+        flags.append('LOW_SNR')
+    if n_standards < max(2, n_references // 2 + 1):
+        flags.append('FEW_REFS')
+    if not np.isfinite(zp):
+        flags.append('NO_ZP')
+    return '|'.join(flags) if flags else 'OK'
+
 
 def parse_coordinates(ra_str: str, dec_str: str) -> SkyCoord:
     """Parse RA/Dec strings into SkyCoord object."""
@@ -105,8 +493,15 @@ def parse_coordinates(ra_str: str, dec_str: str) -> SkyCoord:
             raise ValueError(f"Could not parse coordinates: {e}")
 
 def estimate_background(data: np.ndarray) -> Tuple[float, float, float]:
-    """Estimate background statistics using sigma clipping."""
-    mean, median, std = sigma_clipped_stats(data, sigma=3.0, maxiters=5)
+    """Estimate background statistics using sigma clipping.
+
+    Very large frames are subsampled to ~1 million pixels first, which is
+    statistically equivalent for global statistics but far faster and far
+    lighter on memory (important for 50+ megapixel sensors)."""
+    flat = data.ravel()
+    if flat.size > 1_000_000:
+        flat = flat[:: flat.size // 1_000_000]
+    mean, median, std = sigma_clipped_stats(flat, sigma=3.0, maxiters=5)
     return mean, median, std
 
 def iterative_centroid(data: np.ndarray, x_init: float, y_init: float, 
@@ -266,8 +661,11 @@ def estimate_fwhm_single_star(data: np.ndarray, x_center: float, y_center: float
     return 10.0
 
 def detect_sources(data: np.ndarray, fwhm: float, threshold_sigma: float, 
-                  verbose: bool = False) -> Optional[pd.DataFrame]:
-    """Detect sources using DAOStarFinder."""
+                  verbose: bool = False,
+                  saturation: Optional[float] = None) -> Optional[pd.DataFrame]:
+    """Detect sources using DAOStarFinder, excluding saturated stars when
+    a saturation level is given (peakmax cut on the background-subtracted
+    peak value)."""
     _, bkg_median, bkg_std = estimate_background(data)
     threshold = threshold_sigma * bkg_std
     
@@ -275,21 +673,26 @@ def detect_sources(data: np.ndarray, fwhm: float, threshold_sigma: float,
         print(f"  Background: median={bkg_median:.2f}, std={bkg_std:.2f}")
         print(f"  Detection threshold: {threshold:.2f} ADU")
     
-    finder = DAOStarFinder(fwhm=fwhm, threshold=threshold)
+    peak_max = (saturation - bkg_median) if saturation is not None else None
+    finder = make_daofinder(fwhm=fwhm, threshold=threshold, peak_max=peak_max)
     sources = finder(data - bkg_median)
     
     if sources is None or len(sources) == 0:
         return None
     
     df = sources.to_pandas()
-    df = df.rename(columns={'xcentroid': 'x', 'ycentroid': 'y'})
+    df = df.rename(columns={'xcentroid': 'x', 'ycentroid': 'y',
+                            'x_centroid': 'x', 'y_centroid': 'y'})
     
     # Quality cuts based on sharpness and roundness values
-    if 'sharpness' in df.columns and 'roundness' in df.columns:
+    # (photutils provides 'roundness1'/'roundness2' in recent versions,
+    # or a single 'roundness' in some older releases)
+    if 'sharpness' in df.columns:
         df = df[(df['sharpness'] > 0.3) & (df['sharpness'] < 0.9)]
-        df = df[(df['roundness'] > -0.5) & (df['roundness'] < 0.5)]
-    elif 'sharpness' in df.columns:
-        df = df[(df['sharpness'] > 0.3) & (df['sharpness'] < 0.9)]
+    round_col = ('roundness' if 'roundness' in df.columns
+                 else 'roundness1' if 'roundness1' in df.columns else None)
+    if round_col is not None:
+        df = df[(df[round_col] > -0.5) & (df[round_col] < 0.5)]
     
     if verbose:
         print(f"  Detected {len(df)} sources after quality cuts")
@@ -307,12 +710,18 @@ def check_saturation(data: np.ndarray, x_center: float, y_center: float,
         max_value: Maximum pixel value within aperture
     """
     ny, nx = data.shape
-    y_grid, x_grid = np.ogrid[:ny, :nx]
+    # Work on a local cutout around the star: building full-frame distance
+    # arrays costs ~0.5 GB per call on 50+ megapixel sensors.
+    r = int(np.ceil(aperture_radius)) + 2
+    y0, y1 = max(0, int(y_center) - r), min(ny, int(y_center) + r + 1)
+    x0, x1 = max(0, int(x_center) - r), min(nx, int(x_center) + r + 1)
+    cut = data[y0:y1, x0:x1]
+    y_grid, x_grid = np.ogrid[y0:y1, x0:x1]
     
     distances = np.sqrt((x_grid - x_center)**2 + (y_grid - y_center)**2)
     aperture_mask = distances <= aperture_radius
     
-    aperture_pixels = data[aperture_mask]
+    aperture_pixels = cut[aperture_mask]
     
     if len(aperture_pixels) == 0:
         return False, 0, 0
@@ -450,7 +859,7 @@ def verify_star_exists_in_image(data: np.ndarray, wcs: WCS, star_coord: SkyCoord
         return False, None
 
 def select_and_verify_reference_stars(fits_files: List[str], args: argparse.Namespace,
-                                     target_coord: SkyCoord) -> Optional[List[Dict]]:
+                                     target_coord: SkyCoord, flat_field: Optional[np.ndarray] = None) -> Optional[List[Dict]]:
     """
     Select reference stars from first image and verify they exist in all images.
     
@@ -477,8 +886,14 @@ def select_and_verify_reference_stars(fits_files: List[str], args: argparse.Name
                 print("ERROR: No image HDU found in first file")
                 return None
             
-            data = hdu.data.astype(float)
+            data = hdu.data.astype(np.float32)
             header = hdu.header
+        
+        # Apply flat field if provided
+        if flat_field is not None:
+            data = apply_flat_field(data, flat_field)
+            if args.verbose:
+                print("  Applied flat field correction")
         
         try:
             wcs = WCS(header)
@@ -488,18 +903,28 @@ def select_and_verify_reference_stars(fits_files: List[str], args: argparse.Name
     
     ny, nx = data.shape
     
-    # Estimate FWHM
-    _, median, std = estimate_background(data)
+    # Estimate FWHM from bright stars in the central ~30% of the frame
+    fy0, fy1 = int(ny * 0.35), int(ny * 0.65)
+    fx0, fx1 = int(nx * 0.35), int(nx * 0.65)
+    fcrop = np.ascontiguousarray(data[fy0:fy1, fx0:fx1])
+    _, median, std = estimate_background(fcrop)
     threshold = 10.0 * std
-    finder = DAOStarFinder(fwhm=10.0, threshold=threshold)
-    bright_sources = finder(data - median)
+    finder = make_daofinder(fwhm=10.0, threshold=threshold)
+    bright_sources = finder(fcrop - median)
+    if bright_sources is None or len(bright_sources) == 0:
+        # Nothing at 10 sigma: retry at 5 sigma before giving up, since a
+        # wrong FWHM cascades into bad apertures and bad reference SNRs.
+        finder = make_daofinder(fwhm=10.0, threshold=5.0 * std)
+        bright_sources = finder(fcrop - median)
     
     if bright_sources is not None and len(bright_sources) > 0:
-        bright_x = bright_sources['xcentroid']
-        bright_y = bright_sources['ycentroid']
-        fwhm = estimate_fwhm_from_stars(data - median, bright_x, bright_y, args.saturation)
+        bright_x, bright_y = source_xy(bright_sources)
+        fwhm = estimate_fwhm_from_stars(fcrop - median, bright_x, bright_y, args.saturation)
     else:
-        fwhm = 10.0
+        fwhm = 6.0
+        print("  WARNING: no bright stars found for FWHM estimation; "
+              "assuming 6.0 px (use --fwhm to set it explicitly).")
+    fwhm = float(np.clip(fwhm, 2.0, 15.0))
     
     print(f"  FWHM: {fwhm:.1f} pixels")
     
@@ -519,13 +944,25 @@ def select_and_verify_reference_stars(fits_files: List[str], args: argparse.Name
         ap_radius, (ann_inner, ann_outer)
     )
     target_flux = target_phot['flux'][0]
-    print(f"  Target flux: {target_flux:.0f}, SNR: {target_phot['snr'][0]:.1f}")
+    target_snr = target_phot['snr'][0]
+    print(f"  Target flux: {target_flux:.0f}, SNR: {target_snr:.1f}")
     
     # Detect sources in first image
-    sources = detect_sources(data, fwhm, args.threshold_sigma, args.verbose)
+    # Detect candidate sources in the central region only: reference
+    # candidates are restricted to that region anyway, and full-frame
+    # detection on very large sensors is slow and memory-hungry.
+    cf = args.center_fraction
+    x_lo, x_hi = int(nx * (1 - cf) / 2), int(nx * (1 + cf) / 2)
+    y_lo, y_hi = int(ny * (1 - cf) / 2), int(ny * (1 + cf) / 2)
+    crop = np.ascontiguousarray(data[y_lo:y_hi, x_lo:x_hi])
+    sources = detect_sources(crop, fwhm, args.threshold_sigma, args.verbose,
+                             saturation=args.saturation)
     if sources is None:
         print("ERROR: No sources detected in first image")
         return None
+    sources = sources.copy()
+    sources['x'] = sources['x'] + x_lo
+    sources['y'] = sources['y'] + y_lo
     
     # Refine centroids
     x_refined, y_refined = refine_centroids(data, sources['x'].values, sources['y'].values)
@@ -544,64 +981,115 @@ def select_and_verify_reference_stars(fits_files: List[str], args: argparse.Name
     print(f"\n2. Selecting reference candidates from central {center_fraction*100:.0f}% of image")
     print(f"   Region: x=[{x_min:.0f}, {x_max:.0f}], y=[{y_min:.0f}, {y_max:.0f}]")
     
-    candidates = []
+    # FIXED: Adjust minimum SNR based on target SNR
+    # If target has low SNR, we need to be more flexible with reference star requirements
+    effective_min_snr = args.min_snr
+    effective_flux_ratio_limit = args.flux_ratio_limit
+    
+    if target_snr < args.min_snr:
+        # Target has lower SNR than our minimum requirement for reference stars
+        # This means reference stars will likely be much brighter
+        # So we need to either lower SNR requirement or increase flux ratio tolerance
+        
+        # Option 1: Lower SNR requirement to be closer to target SNR (but not below it)
+        effective_min_snr = max(target_snr * 1.5, 10.0)  # At least 1.5x target SNR, but minimum 10
+        
+        # Option 2: Increase flux ratio limit to accommodate brighter reference stars
+        # If target SNR is 8.5 and we want ref stars with SNR 20, they'll be ~2.5x brighter minimum
+        snr_ratio = args.min_snr / target_snr if target_snr > 0 else 3.0
+        effective_flux_ratio_limit = max(args.flux_ratio_limit, snr_ratio * 1.5)
+        
+        print(f"   Adjusting selection criteria due to low target SNR:")
+        print(f"     Original min SNR: {args.min_snr:.1f} -> Adjusted: {effective_min_snr:.1f}")
+        print(f"     Original flux ratio limit: {args.flux_ratio_limit:.1f} -> Adjusted: {effective_flux_ratio_limit:.1f}")
+    
     min_separation = 30  # pixels
-    
-    for i in range(len(x_refined)):
-        x, y = x_refined[i], y_refined[i]
-        
-        # Must be in central region
-        if x < x_min or x > x_max or y < y_min or y > y_max:
-            continue
-        
-        # Skip if too close to target
-        dist_to_target = np.sqrt((x - target_x_ref)**2 + (y - target_y_ref)**2)
-        if dist_to_target < min_separation:
-            continue
-        
-        # Check saturation
-        is_sat, _, _ = check_saturation(data, x, y, ap_radius, args.saturation)
-        if is_sat:
-            continue
-        
-        # Check SNR
-        if phot['snr'][i] < args.min_snr:
-            continue
-        
-        # Check flux ratio with target
-        flux_ratio = phot['flux'][i] / target_flux if target_flux > 0 else np.inf
-        if flux_ratio > args.flux_ratio_limit or flux_ratio < 1.0/args.flux_ratio_limit:
-            continue
-        
-        # Calculate quality score
-        snr_score = min(phot['snr'][i] / 100.0, 1.0)
-        flux_score = 1.0 - abs(np.log10(flux_ratio)) / np.log10(args.flux_ratio_limit) if flux_ratio > 0 else 0
-        center_score = 1.0 - 2.0 * max(abs(x - nx/2), abs(y - ny/2)) / nx  # Prefer center
-        quality_score = snr_score * 0.3 + flux_score * 0.3 + center_score * 0.4
-        
-        # Convert to RA/Dec coordinates
-        star_coord = wcs.pixel_to_world(x, y)
-        
-        candidates.append({
-            'index': i,
-            'x': x,
-            'y': y,
-            'ra': star_coord.ra.deg,
-            'dec': star_coord.dec.deg,
-            'coord': star_coord,
-            'flux': phot['flux'][i],
-            'flux_err': phot['flux_err'][i],
-            'magnitude': phot['magnitude'][i],
-            'magnitude_err': phot['magnitude_err'][i],
-            'snr': phot['snr'][i],
-            'flux_ratio': flux_ratio,
-            'quality_score': quality_score
-        })
-    
+
+    def collect_candidates(min_snr_eff, ratio_lim_lo, ratio_lim_hi):
+        """One pass over the photometered detections with the given limits.
+
+        ratio_lim_lo bounds how much FAINTER than the target a reference
+        may be (flux_ratio >= 1/ratio_lim_lo); ratio_lim_hi bounds how much
+        BRIGHTER (flux_ratio <= ratio_lim_hi). For faint targets, brighter
+        references are desirable (they carry less noise into the
+        differential light curve), so relaxation widens the bright side
+        much more aggressively than the faint side."""
+        found = []
+        for i in range(len(x_refined)):
+            x, y = x_refined[i], y_refined[i]
+            if x < x_min or x > x_max or y < y_min or y > y_max:
+                continue
+            dist_to_target = np.sqrt((x - target_x_ref)**2 + (y - target_y_ref)**2)
+            if dist_to_target < min_separation:
+                continue
+            is_sat, _, _ = check_saturation(data, x, y, ap_radius, args.saturation)
+            if is_sat:
+                continue
+            if phot['snr'][i] < min_snr_eff:
+                continue
+            flux_ratio = phot['flux'][i] / target_flux if target_flux > 0 else np.inf
+            if flux_ratio > ratio_lim_hi or flux_ratio < 1.0 / ratio_lim_lo:
+                continue
+            snr_score = min(phot['snr'][i] / max(min_snr_eff * 2, 100.0), 1.0)
+            flux_score = 1.0 - abs(np.log10(flux_ratio)) / np.log10(max(ratio_lim_hi, 1.1)) \
+                if flux_ratio > 0 else 0
+            center_score = 1.0 - 2.0 * max(abs(x - nx/2), abs(y - ny/2)) / nx
+            quality_score = snr_score * 0.3 + flux_score * 0.3 + center_score * 0.4
+            star_coord = wcs.pixel_to_world(x, y)
+            found.append({
+                'index': i,
+                'x': x,
+                'y': y,
+                'ra': star_coord.ra.deg,
+                'dec': star_coord.dec.deg,
+                'coord': star_coord,
+                'flux': phot['flux'][i],
+                'flux_err': phot['flux_err'][i],
+                'magnitude': phot['magnitude'][i],
+                'magnitude_err': phot['magnitude_err'][i],
+                'snr': phot['snr'][i],
+                'flux_ratio': flux_ratio,
+                'quality_score': quality_score
+            })
+        return found
+
+    # Progressive relaxation: rather than aborting when the first pass
+    # finds nothing (common for faint targets in sparse fields), the
+    # criteria are widened in stages, each stage announced, until enough
+    # candidates appear. The bright-side flux limit grows fastest because
+    # bright references are good references.
+    relaxation_stages = [
+        (effective_min_snr, effective_flux_ratio_limit,
+         effective_flux_ratio_limit),
+        (max(effective_min_snr * 0.75, 8.0), effective_flux_ratio_limit,
+         max(effective_flux_ratio_limit * 4, 12.0)),
+        (6.0, effective_flux_ratio_limit * 2,
+         max(effective_flux_ratio_limit * 12, 40.0)),
+    ]
+    candidates = []
+    for stage_i, (snr_lim, lo, hi) in enumerate(relaxation_stages):
+        candidates = collect_candidates(snr_lim, lo, hi)
+        if len(candidates) >= 2:
+            if stage_i > 0:
+                print(f"   Relaxation stage {stage_i}: min SNR {snr_lim:.1f}, "
+                      f"flux ratio window [1/{lo:.0f}, {hi:.0f}] -> "
+                      f"{len(candidates)} candidates")
+            break
+        if stage_i + 1 < len(relaxation_stages):
+            nxt = relaxation_stages[stage_i + 1]
+            print(f"   Only {len(candidates)} candidate(s) at min SNR "
+                  f"{snr_lim:.1f}, flux ratio window [1/{lo:.0f}, {hi:.0f}]; "
+                  f"relaxing to min SNR {nxt[0]:.1f}, window "
+                  f"[1/{nxt[1]:.0f}, {nxt[2]:.0f}]...")
+
     print(f"   Found {len(candidates)} potential reference stars")
     
     if len(candidates) == 0:
         print("ERROR: No suitable reference candidates found")
+        print("   Consider adjusting parameters:")
+        print(f"     --min-snr (current: {args.min_snr})")
+        print(f"     --flux-ratio-limit (current: {args.flux_ratio_limit})")
+        print(f"     --center-fraction (current: {args.center_fraction})")
         return None
     
     # Sort by quality score
@@ -618,66 +1106,93 @@ def select_and_verify_reference_stars(fits_files: List[str], args: argparse.Name
         sample_files = fits_files
         print(f"\n3. Verifying candidates in all {len(sample_files)} images")
     
-    # Verify each candidate exists in sampled images
+    # Verify each candidate exists in the sampled images. Acceptance is
+    # NOT all-or-nothing: a candidate found in at least 80% of the sampled
+    # images is kept, which tolerates the occasional cloudy, trailed, or
+    # badly aligned frame. Failures are also counted per image, so when a
+    # specific image breaks most candidates (typically a frame without a
+    # WCS solution or one grossly misaligned), it gets named explicitly.
     verified_candidates = []
     min_flux_threshold = target_flux * 0.1  # Minimum flux threshold
-    
+    image_fail_counts = {}
+    n_candidates_checked = 0
+
     for j, candidate in enumerate(candidates):
         if len(verified_candidates) >= args.max_standards * 2:  # Check more than needed
             break
-        
+
         print(f"   Checking candidate {j+1}: SNR={candidate['snr']:.1f}, "
               f"flux_ratio={candidate['flux_ratio']:.2f}")
-        
-        found_in_all = True
-        positions_in_images = []
-        
+
+        n_found, n_tested = 1, 1  # the first image was already measured
+        positions_in_images = [(candidate['x'], candidate['y'])]
+
         for k, fits_file in enumerate(sample_files):
-            if k == 0:  # Skip first image (already measured)
-                positions_in_images.append((candidate['x'], candidate['y']))
+            if k == 0:
                 continue
-            
-            # Load image
+            ok = False
             try:
                 with warnings.catch_warnings():
                     warnings.filterwarnings("ignore")
                     with fits.open(fits_file) as hdul:
                         for h in hdul:
                             if hasattr(h, 'data') and isinstance(h.data, np.ndarray) and h.data.ndim == 2:
-                                test_data = h.data.astype(float)
+                                test_data = h.data.astype(np.float32)
                                 test_header = h.header
                                 break
-                    
+
+                    if flat_field is not None:
+                        test_data = apply_flat_field(test_data, flat_field)
+
                     test_wcs = WCS(test_header)
-                    
-                    # Verify star exists
+
                     exists, position = verify_star_exists_in_image(
                         test_data, test_wcs, candidate['coord'],
                         args.search_radius, min_flux_threshold
                     )
-                    
-                    if exists:
-                        positions_in_images.append(position)
-                    else:
-                        found_in_all = False
-                        if args.verbose:
-                            print(f"     Not found in image {k+1}")
-                        break
-                        
+                    ok = bool(exists)
+                    positions_in_images.append(position if exists else None)
             except Exception as e:
-                found_in_all = False
+                positions_in_images.append(None)
                 if args.verbose:
                     print(f"     Error checking image {k+1}: {e}")
-                break
-        
-        if found_in_all:
+
+            n_tested += 1
+            if ok:
+                n_found += 1
+            else:
+                image_fail_counts[k] = image_fail_counts.get(k, 0) + 1
+                if args.verbose:
+                    print(f"     Not found in image {k+1}")
+
+        n_candidates_checked += 1
+        if n_found / n_tested >= 0.7:
             candidate['verified'] = True
             candidate['positions'] = positions_in_images
             verified_candidates.append(candidate)
-            print(f"     ✓ Verified in all sampled images")
-    
-    print(f"\n   {len(verified_candidates)} candidates verified in all sampled images")
-    
+            print(f"     \u2713 Found in {n_found}/{n_tested} sampled images")
+        else:
+            print(f"     \u2717 Found in only {n_found}/{n_tested} sampled images")
+
+    print(f"\n   {len(verified_candidates)} candidates verified "
+          f"(present in >= 70% of sampled images)")
+
+    # Name the images that broke most candidates: they are the problem,
+    # not the stars.
+    if n_candidates_checked:
+        bad_images = [(k, c) for k, c in image_fail_counts.items()
+                      if c >= 0.8 * n_candidates_checked]
+        if bad_images:
+            print("   NOTE: the following sampled image(s) failed for most "
+                  "candidates and are likely misaligned, missing a WCS "
+                  "plate solution, or of poor quality:")
+            for k, c in sorted(bad_images):
+                print(f"     {os.path.basename(sample_files[k])} "
+                      f"({c}/{n_candidates_checked} candidates not found)")
+            print("   Pre-aligning the series first (the GUI's alignment "
+                  "option 'shift' or 'shift and rotate') usually fixes "
+                  "this, as can excluding the affected files.")
+
     # Select final reference stars
     final_references = []
     for candidate in verified_candidates:
@@ -696,6 +1211,7 @@ def select_and_verify_reference_stars(fits_files: List[str], args: argparse.Name
     
     if len(final_references) == 0:
         print("\nERROR: No reference stars could be verified across the image stack")
+        print("Consider adjusting parameters or checking image quality")
         return None
     
     print(f"\n4. Selected {len(final_references)} verified reference stars:")
@@ -763,9 +1279,14 @@ def find_reference_star_in_image(data: np.ndarray, wcs: WCS, ref_coord: SkyCoord
 
 def get_radial_profile(data: np.ndarray, x_center: float, y_center: float, 
                        max_radius: float = 30, n_bins: int = 50) -> Tuple:
-    """Calculate radial profile around a given position."""
+    """Calculate radial profile around a given position (computed on a
+    local cutout to stay fast and memory-light on very large sensors)."""
     ny, nx = data.shape
-    y_grid, x_grid = np.ogrid[:ny, :nx]
+    r = int(np.ceil(max_radius)) + 2
+    y0, y1 = max(0, int(y_center) - r), min(ny, int(y_center) + r + 1)
+    x0, x1 = max(0, int(x_center) - r), min(nx, int(x_center) + r + 1)
+    data = data[y0:y1, x0:x1]
+    y_grid, x_grid = np.ogrid[y0:y1, x0:x1]
     
     distances = np.sqrt((x_grid - x_center)**2 + (y_grid - y_center)**2)
     
@@ -785,12 +1306,28 @@ def get_radial_profile(data: np.ndarray, x_center: float, y_center: float,
             cumulative_flux[i] = np.sum(data[mask_cumulative]) if np.sum(mask_cumulative) > 0 else 0
             mean_brightness[i] = np.mean(data[mask_annulus]) if np.sum(mask_annulus) > 0 else 0
     
+    # Calculate flux in each annulus
     flux_in_annulus = np.zeros(n_bins)
     flux_in_annulus[0] = cumulative_flux[0]
     for i in range(1, n_bins):
         flux_in_annulus[i] = cumulative_flux[i] - cumulative_flux[i-1]
     
-    return radii, cumulative_flux, mean_brightness, flux_in_annulus
+    # Calculate flux per pixel for each annulus
+    flux_per_pixel = np.zeros(n_bins)
+    for i in range(n_bins):
+        if i == 0:
+            # First bin is a circle
+            area = np.pi * radii[0]**2 if radii[0] > 0 else 1
+        else:
+            # Subsequent bins are annuli
+            area = np.pi * (radii[i]**2 - radii[i-1]**2)
+        
+        if area > 0:
+            flux_per_pixel[i] = flux_in_annulus[i] / area
+        else:
+            flux_per_pixel[i] = 0
+    
+    return radii, cumulative_flux, mean_brightness, flux_in_annulus, flux_per_pixel
 
 def create_diagnostic_plots(data: np.ndarray, positions: List[Tuple], labels: List[str],
                           fwhm: float, image_name: str, pdf_file: str,
@@ -822,15 +1359,16 @@ def create_diagnostic_plots(data: np.ndarray, positions: List[Tuple], labels: Li
         for idx, ((x, y), label) in enumerate(zip(positions[:4], labels[:4])):
             ax = axes[idx]
             
-            radii, cumulative_flux, mean_brightness, flux_in_annulus = get_radial_profile(
+            radii, cumulative_flux, mean_brightness, flux_in_annulus, flux_per_pixel = get_radial_profile(
                 data - background_median, x, y, max_radius=max_radius, n_bins=60
             )
             
             ax2 = ax.twinx()
             
-            ax.plot(radii, flux_in_annulus, 'b-', label='Flux in annulus', linewidth=2)
+            # Plot flux per pixel instead of flux in annulus
+            ax.plot(radii, flux_per_pixel, 'b-', label='Flux per pixel', linewidth=2)
             ax.set_xlabel('Radius (pixels)')
-            ax.set_ylabel('Flux in annulus', color='b')
+            ax.set_ylabel('Flux per pixel', color='b')
             ax.tick_params(axis='y', labelcolor='b')
             
             ax2.plot(radii, cumulative_flux, 'r--', label='Cumulative flux', linewidth=2)
@@ -991,7 +1529,8 @@ def create_diagnostic_plots(data: np.ndarray, positions: List[Tuple], labels: Li
     return measurements
 
 def process_image(filename: str, args: argparse.Namespace, 
-                 reference_stars: List[Dict], target_coord: SkyCoord) -> Dict:
+                 reference_stars: List[Dict], target_coord: SkyCoord,
+                 flat_field: Optional[np.ndarray] = None) -> Dict:
     """
     Process a single FITS image using pre-verified reference stars.
     
@@ -1005,6 +1544,8 @@ def process_image(filename: str, args: argparse.Namespace,
         Verified reference stars with RA/Dec coordinates
     target_coord : SkyCoord
         Target coordinates
+    flat_field : Optional[np.ndarray]
+        Normalized flat field for calibration
     
     Returns:
     --------
@@ -1037,8 +1578,14 @@ def process_image(filename: str, args: argparse.Namespace,
                     result['message'] = "No image HDU found"
                     return result
                 
-                data = hdu.data.astype(float)
+                data = hdu.data.astype(np.float32)
                 header = hdu.header
+            
+            # Apply flat field if provided
+            if flat_field is not None:
+                data = apply_flat_field(data, flat_field)
+                if args.verbose:
+                    print("  Applied flat field correction")
             
             try:
                 wcs = WCS(header)
@@ -1052,22 +1599,32 @@ def process_image(filename: str, args: argparse.Namespace,
             jd = header.get(args.jd_key, np.nan)
             exptime = header.get(args.exptime_key, 1.0)
             
-            # Estimate FWHM
+            # Estimate FWHM from bright stars in the central ~30% of the
+            # frame (full-frame detection is needlessly slow and memory
+            # hungry on very large sensors; the center is representative)
             if args.fwhm is not None:
                 fwhm = args.fwhm
             else:
-                _, median, std = estimate_background(data)
+                ny_f, nx_f = data.shape
+                fy0, fy1 = int(ny_f * 0.35), int(ny_f * 0.65)
+                fx0, fx1 = int(nx_f * 0.35), int(nx_f * 0.65)
+                fcrop = np.ascontiguousarray(data[fy0:fy1, fx0:fx1])
+                _, median, std = estimate_background(fcrop)
                 threshold = 10.0 * std
                 temp_fwhm = 10.0
-                finder = DAOStarFinder(fwhm=temp_fwhm, threshold=threshold)
-                bright_sources = finder(data - median)
+                finder = make_daofinder(fwhm=temp_fwhm, threshold=threshold)
+                bright_sources = finder(fcrop - median)
+                if bright_sources is None or len(bright_sources) == 0:
+                    finder = make_daofinder(fwhm=temp_fwhm,
+                                            threshold=5.0 * std)
+                    bright_sources = finder(fcrop - median)
                 
                 if bright_sources is not None and len(bright_sources) > 0:
-                    bright_x = bright_sources['xcentroid']
-                    bright_y = bright_sources['ycentroid']
-                    fwhm = estimate_fwhm_from_stars(data - median, bright_x, bright_y, args.saturation)
+                    bright_x, bright_y = source_xy(bright_sources)
+                    fwhm = estimate_fwhm_from_stars(fcrop - median, bright_x, bright_y, args.saturation)
                 else:
-                    fwhm = 10.0
+                    fwhm = 6.0
+                fwhm = float(np.clip(fwhm, 2.0, 15.0))
             
             # Set aperture parameters
             ap_radius = args.aperture_factor * fwhm
@@ -1141,6 +1698,29 @@ def process_image(filename: str, args: argparse.Namespace,
                     if args.verbose:
                         print(f"    WARNING: Could not find reference {i+1} in this image")
             
+            # ----------------------------------------------------------
+            # Photometric calibration: zero point from catalog-matched
+            # reference stars, then calibrated target magnitude.
+            #   calib_mag = inst_mag + zp,  where zp_i = cat_mag - inst_mag
+            # ----------------------------------------------------------
+            zp, zp_err, zp_nstars = compute_zero_point(matched_standards,
+                                                       reference_stars)
+            if np.isfinite(zp):
+                target_calib_mag = target_result['inst_mag'] + zp
+                target_calib_mag_err = float(np.sqrt(
+                    target_result['inst_mag_err']**2 + zp_err**2))
+                if args.verbose:
+                    print(f"  Zero point: {zp:.3f} +/- {zp_err:.3f} "
+                          f"({zp_nstars} stars); "
+                          f"calibrated mag = {target_calib_mag:.3f}")
+            else:
+                target_calib_mag = np.nan
+                target_calib_mag_err = np.nan
+            
+            quality_flags = build_quality_flags(target_result,
+                                                len(matched_standards),
+                                                len(reference_stars), zp)
+            
             # Create diagnostic plots if requested
             if args.create_diagnostics:
                 positions = []
@@ -1148,11 +1728,15 @@ def process_image(filename: str, args: argparse.Namespace,
                 
                 if target_result:
                     positions.append((target_result['x'], target_result['y']))
-                    labels.append('Target')
+                    labels.append('Target' + (' [SAT]' if target_result['saturated'] else ''))
                 
                 for i, std in enumerate(matched_standards[:3]):
+                    ref = reference_stars[std['ref_id']]
+                    if ref.get('cat_mag') is not None:
+                        labels.append(f"Ref{i+1} (cat {ref['cat_mag']:.2f})")
+                    else:
+                        labels.append(f'Ref{i+1}')
                     positions.append((std['x'], std['y']))
-                    labels.append(f'Ref{i+1}')
                 
                 _, median, _ = estimate_background(data)
                 pdf_file = filename.replace('.fits', '').replace('.fts', '') + '_diagnostic.pdf'
@@ -1171,16 +1755,26 @@ def process_image(filename: str, args: argparse.Namespace,
                 'n_sources': len(matched_standards) + 1,
                 'n_standards': len(matched_standards),
                 'standards': matched_standards,
-                'target': target_result
+                'target': target_result,
+                'flat_applied': flat_field is not None,
+                'zp': zp,
+                'zp_err': zp_err,
+                'zp_nstars': zp_nstars,
+                'target_calib_mag': target_calib_mag,
+                'target_calib_mag_err': target_calib_mag_err,
+                'quality_flags': quality_flags
             }
             
             # Print summary
-            print(f"{basename}: {len(matched_standards)}/{len(reference_stars)} references, FWHM={fwhm:.1f}")
+            flat_status = " (flat-fielded)" if flat_field is not None else ""
+            print(f"{basename}: {len(matched_standards)}/{len(reference_stars)} references, FWHM={fwhm:.1f}{flat_status}")
             
             if target_result and np.isfinite(target_result['inst_mag']):
                 status = " (SATURATED)" if target_result.get('saturated', False) else ""
-                print(f"  Target: inst_mag={target_result['inst_mag']:.3f}{status}, "
-                      f"SNR={target_result['snr']:.1f}")
+                calib_str = (f", calib_mag={target_calib_mag:.3f}"
+                             if np.isfinite(target_calib_mag) else "")
+                print(f"  Target: inst_mag={target_result['inst_mag']:.3f}{status}{calib_str}, "
+                      f"SNR={target_result['snr']:.1f} [{quality_flags}]")
             
     except Exception as e:
         result['message'] = str(e)
@@ -1206,11 +1800,26 @@ def main():
         print(f"Error parsing target coordinates: {e}")
         sys.exit(1)
     
+    # Load flat field if provided
+    flat_field = None
+    if args.flat:
+        flat_field = load_flat_field(args.flat, args.verbose)
+        if flat_field is not None:
+            print(f"Loaded flat field from {args.flat}")
+        else:
+            print("Warning: Failed to load flat field, continuing without flat field correction")
+    
     # Find all FITS files
     patterns = ['*.fits', '*.fit', '*.fts', '*.FITS', '*.FIT', '*.FTS', '*.fz']
     fits_files = []
     for pattern in patterns:
         fits_files.extend(glob.glob(os.path.join(args.imagedir, pattern)))
+    
+    # Exclude the flat field file from processing if it's in the same directory
+    if args.flat and os.path.abspath(args.flat) in [os.path.abspath(f) for f in fits_files]:
+        fits_files = [f for f in fits_files if os.path.abspath(f) != os.path.abspath(args.flat)]
+        if args.verbose:
+            print(f"Excluded flat field file from processing list")
     
     if len(fits_files) == 0:
         print("No FITS files found in directory")
@@ -1218,15 +1827,70 @@ def main():
     
     fits_files = sorted(fits_files)
     print(f"Found {len(fits_files)} FITS files")
+
+    # Resolve the target's display name: explicit argument first, then the
+    # OBJECT (or TARGET/TARGNAME) keyword of the first image's header.
+    object_label = (args.object_name or '').strip()
+    if not object_label:
+        try:
+            hdr0 = fits.getheader(fits_files[0])
+            for key in ('OBJECT', 'TARGET', 'TARGNAME', 'OBJNAME'):
+                v = hdr0.get(key)
+                if v and str(v).strip():
+                    object_label = str(v).strip()
+                    break
+        except Exception:
+            pass
+    if object_label:
+        print(f"Target name: {object_label}")
     
     # Select and verify reference stars across the stack
-    reference_stars = select_and_verify_reference_stars(fits_files, args, target_coord)
+    reference_stars = select_and_verify_reference_stars(fits_files, args, target_coord, flat_field)
     
     if reference_stars is None:
         print("ERROR: Failed to select and verify reference stars")
         sys.exit(1)
     
+    # ------------------------------------------------------------------
+    # Online catalog matching: look up known magnitudes for the target
+    # and every reference star, in the requested filter (or the closest
+    # available band). Results are attached to the star dictionaries and
+    # used later to compute per-image zero points and calibrated mags.
+    # ------------------------------------------------------------------
+    target_catalog = None
+    if args.catalog != 'none':
+        print("\nCatalog matching:")
+        all_coords = [target_coord] + [SkyCoord(r['ra'] * u.deg, r['dec'] * u.deg)
+                                       for r in reference_stars]
+        cat_results = query_catalog_magnitudes(
+            all_coords, args.filter, args.catalog,
+            args.catalog_radius, args.verbose)
+        target_catalog = cat_results[0]
+        for ref, match in zip(reference_stars, cat_results[1:]):
+            if match is not None:
+                ref['cat_mag'] = match['cat_mag']
+                ref['cat_mag_err'] = match['cat_mag_err']
+                ref['catalog'] = match['catalog']
+                ref['cat_match_dist'] = match['match_dist_arcsec']
+        n_with_cat = sum(1 for r in reference_stars if r.get('cat_mag') is not None)
+        if n_with_cat > 0:
+            print(f"  Zero points will be computed from {n_with_cat} "
+                  f"catalog-matched reference star(s)")
+            for i, r in enumerate(reference_stars):
+                if r.get('cat_mag') is not None:
+                    print(f"    Reference {i+1}: {r['catalog']} "
+                          f"{args.filter}={r['cat_mag']:.3f} "
+                          f"+/- {r.get('cat_mag_err', np.nan):.3f} "
+                          f"(match {r['cat_match_dist']:.2f}\")")
+        if target_catalog is not None:
+            print(f"  Target also matched in catalog: "
+                  f"{target_catalog['catalog']} {args.filter}="
+                  f"{target_catalog['cat_mag']:.3f} "
+                  f"(useful as a sanity check for non-variable targets)")
+    
     print(f"Processing {len(fits_files)} images with {len(reference_stars)} verified reference stars...")
+    if flat_field is not None:
+        print("Flat field correction will be applied to all images")
     
     if args.create_diagnostics:
         print("Diagnostic PDFs will be created for each image")
@@ -1234,7 +1898,7 @@ def main():
     # Process all images
     results = []
     for fits_file in fits_files:
-        result = process_image(fits_file, args, reference_stars, target_coord)
+        result = process_image(fits_file, args, reference_stars, target_coord, flat_field)
         results.append(result)
     
     # Create output CSV
@@ -1243,6 +1907,7 @@ def main():
         if not result['success']:
             row = {
                 'filename': result['filename'],
+                'object': object_label,
                 'jd': np.nan,
                 'filter': args.filter,
                 'exptime': np.nan,
@@ -1260,15 +1925,27 @@ def main():
                 'target_flux_err': np.nan,
                 'target_saturated': False,
                 'target_n_sat_pixels': 0,
+                'flat_applied': False,
+                'zp': np.nan,
+                'zp_err': np.nan,
+                'zp_nstars': 0,
+                'target_calib_mag': np.nan,
+                'target_calib_mag_err': np.nan,
+                'quality_flags': 'PROCESSING_FAILED',
                 'error': result['message']
             }
             
             for i in range(args.max_standards):
                 row[f'std{i+1}_x'] = np.nan
                 row[f'std{i+1}_y'] = np.nan
+                row[f'std{i+1}_ra'] = np.nan
+                row[f'std{i+1}_dec'] = np.nan
                 row[f'std{i+1}_inst_mag'] = np.nan
                 row[f'std{i+1}_inst_mag_err'] = np.nan
                 row[f'std{i+1}_snr'] = np.nan
+                row[f'std{i+1}_cat_mag'] = np.nan
+                row[f'std{i+1}_cat_mag_err'] = np.nan
+                row[f'std{i+1}_catalog'] = ''
             
             csv_rows.append(row)
             continue
@@ -1276,6 +1953,7 @@ def main():
         data = result['data']
         row = {
             'filename': result['filename'],
+            'object': object_label,
             'jd': data['jd'] if data['jd'] is not None else np.nan,
             'filter': args.filter,
             'exptime': data['exptime'],
@@ -1293,13 +1971,24 @@ def main():
             'target_flux_err': data['target'].get('flux_err', np.nan) if data['target'] else np.nan,
             'target_saturated': data['target'].get('saturated', False) if data['target'] else False,
             'target_n_sat_pixels': data['target'].get('n_saturated_pixels', 0) if data['target'] else 0,
+            'flat_applied': data.get('flat_applied', False),
+            'zp': data.get('zp', np.nan),
+            'zp_err': data.get('zp_err', np.nan),
+            'zp_nstars': data.get('zp_nstars', 0),
+            'target_calib_mag': data.get('target_calib_mag', np.nan),
+            'target_calib_mag_err': data.get('target_calib_mag_err', np.nan),
+            'quality_flags': data.get('quality_flags', ''),
             'error': ''
         }
         
-        # Add reference star measurements
+        # Add reference star measurements (with sky coordinates and any
+        # catalog magnitudes, indexed by the verified reference list so
+        # columns stay consistent even when a star is missing in one image)
+        std_by_id = {s['ref_id']: s for s in data['standards']}
         for i in range(args.max_standards):
-            if i < len(data['standards']):
-                std = data['standards'][i]
+            std = std_by_id.get(i)
+            ref = reference_stars[i] if i < len(reference_stars) else {}
+            if std is not None:
                 row[f'std{i+1}_x'] = std['x']
                 row[f'std{i+1}_y'] = std['y']
                 row[f'std{i+1}_inst_mag'] = std['inst_mag']
@@ -1311,6 +2000,12 @@ def main():
                 row[f'std{i+1}_inst_mag'] = np.nan
                 row[f'std{i+1}_inst_mag_err'] = np.nan
                 row[f'std{i+1}_snr'] = np.nan
+            row[f'std{i+1}_ra'] = ref.get('ra', np.nan)
+            row[f'std{i+1}_dec'] = ref.get('dec', np.nan)
+            cat_mag = ref.get('cat_mag')
+            row[f'std{i+1}_cat_mag'] = cat_mag if cat_mag is not None else np.nan
+            row[f'std{i+1}_cat_mag_err'] = ref.get('cat_mag_err', np.nan)
+            row[f'std{i+1}_catalog'] = ref.get('catalog', '')
         
         csv_rows.append(row)
     
@@ -1327,9 +2022,10 @@ def main():
     # Add this as a column to all rows
     df['target_inst_mag_stddev_all'] = target_inst_mag_stddev
     
-    # Note: No global zero point since we're using field reference stars
-    df['global_zp_mean'] = np.nan
-    df['global_zp_n_standards'] = 0
+    # Global zero point summary across the run (mean of per-image values)
+    valid_zp = df['zp'][np.isfinite(df['zp'])]
+    df['global_zp_mean'] = np.mean(valid_zp) if len(valid_zp) > 0 else np.nan
+    df['global_zp_n_standards'] = int(df['zp_nstars'].max()) if len(df) else 0
     
     df.to_csv(args.output, index=False)
     print(f"\nWrote results to {args.output}")
@@ -1340,6 +2036,8 @@ def main():
     print(f"  Total images: {len(results)}")
     print(f"  Successful: {len(successful)}")
     print(f"  Failed: {len(results) - len(successful)}")
+    if flat_field is not None:
+        print(f"  Flat field correction: Applied")
     
     if successful:
         # Calculate statistics
@@ -1355,6 +2053,17 @@ def main():
             print(f"  Std:  {np.std(target_mags):.3f}")
             print(f"  Min:  {np.min(target_mags):.3f}")
             print(f"  Max:  {np.max(target_mags):.3f}")
+        
+        calib_mags = [r['data'].get('target_calib_mag', np.nan) for r in successful]
+        calib_mags = [m for m in calib_mags if np.isfinite(m)]
+        if calib_mags:
+            print(f"\nCalibrated target magnitude statistics ({args.filter} band):")
+            print(f"  Mean: {np.mean(calib_mags):.3f}")
+            print(f"  Std:  {np.std(calib_mags):.3f}")
+            zp_values = [r['data'].get('zp', np.nan) for r in successful]
+            zp_values = [z for z in zp_values if np.isfinite(z)]
+            print(f"  Mean zero point: {np.mean(zp_values):.3f} "
+                  f"(scatter {np.std(zp_values):.3f}) over {len(zp_values)} images")
         
         if fwhm_values:
             print(f"\nFWHM statistics:")

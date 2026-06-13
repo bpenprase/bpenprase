@@ -213,6 +213,52 @@
     return article;
   }
 
+  function applySoftwarePriority(section, files) {
+    if (section !== 'software') {
+      return files;
+    }
+
+    var supersededFiles = {
+      'exposecheck_modified.py': true,
+      'photcalib_robust_improved2.py': true,
+      'plot_differential_fixed.py': true,
+      'exposecheck tutorial.pdf': true,
+      'fits image combiner tutorial.pdf': true,
+      'new differential photometry plotting tutorial.pdf': true,
+      'new photocalib tutorial.pdf': true
+    };
+
+    var preferredOrder = [
+      'nsut_gui_tutorial.pdf',
+      'nsut_software_suite_overview.pdf',
+      'nsut_gui.py',
+      'exposecheck.py',
+      'fits-image-combiner.py',
+      'photcalib_robust_fixed.py',
+      'plot_differential_photometry.py',
+      'rgb_image_gui.py',
+      'sample_diagnostic.pdf',
+      'sn2025_lightcurve.pdf'
+    ];
+
+    return files
+      .filter(function (file) {
+        return !supersededFiles[String(file.name || '').toLowerCase()];
+      })
+      .sort(function (a, b) {
+      var aIndex = preferredOrder.indexOf(String(a.name || '').toLowerCase());
+      var bIndex = preferredOrder.indexOf(String(b.name || '').toLowerCase());
+      var aRank = aIndex === -1 ? Number.MAX_SAFE_INTEGER : aIndex;
+      var bRank = bIndex === -1 ? Number.MAX_SAFE_INTEGER : bIndex;
+
+      if (aRank !== bRank) {
+        return aRank - bRank;
+      }
+
+      return String(a.name || '').localeCompare(String(b.name || ''));
+      });
+  }
+
   async function loadRepositorySection() {
     var section = document.body.getAttribute('data-section');
     var viewType = document.body.getAttribute('data-view');
@@ -232,7 +278,7 @@
       }
 
       var payload = await response.json();
-      var files = payload.files || [];
+      var files = applySoftwarePriority(section, payload.files || []);
       if (files.length === 0) {
         renderEmptyState(container, 'No files found yet. Add files to content/' + section + ' and refresh this page.');
         return;
@@ -249,7 +295,7 @@
       });
     } catch (error) {
       try {
-        var githubFiles = await fetchFromGitHub(section);
+        var githubFiles = applySoftwarePriority(section, await fetchFromGitHub(section));
         if (githubFiles.length === 0) {
           renderEmptyState(container, 'No files found yet. Add files to content/' + section + ' and push your changes.');
           return;
