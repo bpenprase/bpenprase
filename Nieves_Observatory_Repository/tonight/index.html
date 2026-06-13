@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tonight at the Nieves Observatory</title>
+<meta name="description" content="Tonight's observable galaxies, nebulae, supernovae, comets, and exoplanet transits from the Nieves Observatory at Soka University of America.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --night:#0D1322; --panel:#161E33; --panel-2:#1B2440; --line:#27314D;
+  --text:#E8ECF6; --muted:#98A2BE; --torch:#FF6A55; --gold:#F4CE6E;
+  --c-galaxy:#8FA8FF; --c-nebula:#6FD3C0; --c-cluster:#F4CE6E;
+  --c-supernova:#FF8E7A; --c-comet:#9BE08A; --c-asteroid:#C9A6FF;
+  --c-planet:#FFC36B; --c-transit:#74C7E8;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--night);color:var(--text);
+  font:16px/1.55 "IBM Plex Sans",system-ui,sans-serif;
+  background-image:radial-gradient(1200px 600px at 75% -10%,#17203B 0%,transparent 60%);}
+a{color:var(--torch);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1180px;margin:0 auto;padding:0 22px}
+
+/* ---------- header ---------- */
+header{padding:54px 0 8px}
+.eyebrow{font:500 12px/1 "IBM Plex Mono",monospace;letter-spacing:.22em;
+  color:var(--muted);text-transform:uppercase}
+h1{font:650 clamp(34px,5vw,56px)/1.06 "Fraunces",serif;margin:.35em 0 .25em;
+  letter-spacing:-.01em}
+.nightline{font:400 14px/1.6 "IBM Plex Mono",monospace;color:var(--muted)}
+.nightline strong{color:var(--text);font-weight:500}
+.planlink{display:inline-block;margin-top:14px;padding:9px 16px;
+  border:1px solid var(--line);border-radius:999px;color:var(--text);
+  font:500 14px "IBM Plex Sans",sans-serif;transition:border-color .2s}
+.planlink:hover{border-color:var(--torch);text-decoration:none;color:var(--torch)}
+
+/* ---------- darkness timeline (signature) ---------- */
+.timeline{margin:34px 0 8px;padding:18px 0 30px;position:relative}
+.tl-track{position:relative;height:10px;border-radius:999px;
+  background:linear-gradient(90deg,#3A2C4F 0%,#10182E 16%,#0A0F1F 50%,#10182E 84%,#3A2C4F 100%);
+  border:1px solid var(--line)}
+.tl-tick{position:absolute;top:16px;transform:translateX(-50%);
+  font:400 11px "IBM Plex Mono",monospace;color:var(--muted)}
+.tl-tick::before{content:"";position:absolute;left:50%;top:-9px;width:1px;
+  height:6px;background:var(--line)}
+.tl-dot{position:absolute;top:50%;width:9px;height:9px;border-radius:50%;
+  transform:translate(-50%,-50%);cursor:pointer;border:1px solid rgba(0,0,0,.4);
+  transition:transform .15s}
+.tl-dot:hover{transform:translate(-50%,-50%) scale(1.7);z-index:3}
+.tl-now{position:absolute;top:-7px;bottom:-7px;width:2px;background:var(--torch);
+  transform:translateX(-50%);border-radius:2px;box-shadow:0 0 8px var(--torch)}
+.tl-caption{margin-top:30px;font:400 12px "IBM Plex Mono",monospace;color:var(--muted)}
+
+/* ---------- controls ---------- */
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;
+  padding:14px 0 6px;border-top:1px solid var(--line)}
+.chip{padding:7px 14px;border-radius:999px;border:1px solid var(--line);
+  background:transparent;color:var(--muted);font:500 13px "IBM Plex Sans",sans-serif;
+  cursor:pointer;transition:all .15s}
+.chip[aria-pressed="true"]{color:var(--night);border-color:transparent}
+.chip:focus-visible{outline:2px solid var(--torch);outline-offset:2px}
+.spacer{flex:1}
+select{background:var(--panel);color:var(--text);border:1px solid var(--line);
+  border-radius:8px;padding:8px 10px;font:500 13px "IBM Plex Sans",sans-serif}
+.count{font:400 12px "IBM Plex Mono",monospace;color:var(--muted)}
+
+/* ---------- cards ---------- */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(265px,1fr));
+  gap:18px;padding:22px 0 60px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;
+  padding:20px 18px 16px;display:flex;flex-direction:column;gap:10px;
+  animation:rise .5s both}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1}}
+@media (prefers-reduced-motion: reduce){.card{animation:none}.tl-dot{transition:none}}
+.eyepiece{width:158px;height:158px;margin:0 auto;border-radius:50%;
+  position:relative;overflow:hidden;background:#05070F;
+  border:2px solid var(--line);box-shadow:inset 0 0 24px #000}
+.eyepiece img{width:100%;height:100%;object-fit:cover;display:block;
+  filter:saturate(1.15)}
+.eyepiece::before,.eyepiece::after{content:"";position:absolute;
+  background:rgba(232,236,246,.28);pointer-events:none}
+.eyepiece::before{left:50%;top:6px;bottom:6px;width:1px}
+.eyepiece::after{top:50%;left:6px;right:6px;height:1px}
+.eyepiece .ring{position:absolute;inset:14px;border:1px solid rgba(232,236,246,.18);
+  border-radius:50%;pointer-events:none}
+.eyepiece .glyph{position:absolute;inset:0;display:flex;align-items:center;
+  justify-content:center;font:650 54px "Fraunces",serif;color:var(--muted)}
+.cardname{font:650 21px/1.2 "Fraunces",serif;margin:2px 0 0}
+.badge{display:inline-flex;align-items:center;gap:7px;
+  font:500 11.5px/1 "IBM Plex Mono",monospace;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--muted)}
+.badge i{width:8px;height:8px;border-radius:50%;display:inline-block}
+.data{font:400 13px/1.8 "IBM Plex Mono",monospace;color:var(--muted);
+  border-top:1px solid var(--line);padding-top:9px;margin:0}
+.data b{color:var(--text);font-weight:500}
+.best{font:500 13.5px "IBM Plex Sans",sans-serif;color:var(--gold)}
+.best.crit{color:var(--torch)}
+.notes{font:400 13.5px/1.5 "IBM Plex Sans",sans-serif;color:var(--muted);
+  min-height:1.4em}
+.more{margin-top:auto;font:500 13.5px "IBM Plex Sans",sans-serif}
+.card:target{border-color:var(--torch)}
+
+/* ---------- footer / states ---------- */
+.state{padding:60px 0;color:var(--muted);font:400 15px "IBM Plex Sans",sans-serif}
+footer{border-top:1px solid var(--line);padding:26px 0 50px;
+  font:400 12.5px/1.8 "IBM Plex Mono",monospace;color:var(--muted)}
+footer a{color:var(--muted);text-decoration:underline}
+footer a:hover{color:var(--torch)}
+@media (max-width:560px){header{padding-top:36px}.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="eyebrow">Soka University of America · Aliso Viejo, California</div>
+  <h1>Tonight at the Nieves&nbsp;Observatory</h1>
+  <p class="nightline" id="nightline">Loading tonight's sky&hellip;</p>
+  <a class="planlink" id="planlink" href="tonight_plan.txt" download>Download tonight's ACP plan</a>
+</header>
+
+<section class="timeline" aria-label="Tonight's darkness timeline">
+  <div class="tl-track" id="tltrack"></div>
+  <div class="tl-caption">Astronomical darkness · each dot marks a target at
+  its best observing time · click a dot to jump to its card</div>
+</section>
+
+<nav class="controls" id="controls" aria-label="Filter targets"></nav>
+
+<main class="grid" id="grid"></main>
+<div class="state" id="state" hidden></div>
+
+<footer>
+  <span id="credit-when"></span><br>
+  Target data: deep-sky catalog from <a href="https://github.com/mattiaverga/OpenNGC">OpenNGC</a> ·
+  supernovae from David Bishop's <a href="https://www.rochesterastronomy.org/snimages/">Latest Supernovae</a> ·
+  comets &amp; asteroids from <a href="https://theskylive.com">TheSkyLive</a> ·
+  exoplanet transits from the <a href="https://astro.swarthmore.edu/transits.cgi">Swarthmore Transit Finder</a>
+  (Jensen 2013, Tapir, ascl:1306.007) ·
+  sky images via <a href="https://alasky.cds.unistra.fr/hips-image-services/hips2fits">CDS hips2fits</a> / DSS2.<br>
+  Targets are listed in Right Ascension order from the western horizon eastward —
+  the same order the telescope visits them.
+</footer>
+</div>
+
+<script>
+(function(){
+"use strict";
+const CLASSES = ["galaxy","nebula","cluster","supernova","comet","asteroid","planet","transit"];
+const LABELS  = {galaxy:"Galaxies", nebula:"Nebulae", cluster:"Clusters",
+  supernova:"Supernovae", comet:"Comets", asteroid:"Asteroids",
+  planet:"Planets", transit:"Transits"};
+const COLORS  = {galaxy:"--c-galaxy", nebula:"--c-nebula", cluster:"--c-cluster",
+  supernova:"--c-supernova", comet:"--c-comet", asteroid:"--c-asteroid",
+  planet:"--c-planet", transit:"--c-transit"};
+const GLYPHS  = {planet:"\u2295", asteroid:"\u2726", comet:"\u2604"};
+
+let DATA=null, active=new Set(CLASSES), hour="any";
+
+const $=(s,el)=>(el||document).querySelector(s);
+const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const mins=hm=>{const[a,b]=hm.split(":").map(Number);return a*60+b;};
+// minutes since window start, handling the midnight wrap
+function sinceStart(hm,start){let m=mins(hm)-mins(start);if(m<0)m+=1440;return m;}
+
+fetch("targets.json",{cache:"no-store"}).then(r=>{
+  if(!r.ok)throw new Error("HTTP "+r.status);return r.json();
+}).then(d=>{DATA=d;init();}).catch(err=>{
+  $("#state").hidden=false;
+  $("#state").textContent="Tonight's target list isn't available ("
+    +err.message+"). The page looks for targets.json in the same folder "
+    +"as this index.html — if you are setting the site up, check that "
+    +"generate_site.py wrote its files into this folder; if you are a "
+    +"visitor, the list refreshes every afternoon, so check back soon.";
+  $("#nightline").textContent="";
+});
+
+function init(){
+  const w=DATA.window;
+  $("#nightline").innerHTML="Night of <strong>"+DATA.night_of+"</strong> · astronomical darkness <strong>"
+    +w.start+" → "+w.end+"</strong> local · LST at dusk <strong>"+w.lst_start
+    +"</strong> · "+DATA.targets.length+" targets above "
+    +DATA.min_altitude+"° tonight";
+  $("#credit-when").textContent="Generated "+DATA.generated
+    +" · refreshed daily by the Nieves Observatory planning system.";
+  buildTimeline(); buildControls(); render();
+}
+
+/* ----- darkness timeline ----- */
+function buildTimeline(){
+  const track=$("#tltrack"), w=DATA.window;
+  const span=sinceStart(w.end,w.start)||1;
+  DATA.hours.forEach(h=>{
+    const t=document.createElement("div");t.className="tl-tick";
+    t.style.left=(100*sinceStart(h,w.start)/span)+"%";t.textContent=h;
+    track.appendChild(t);
+  });
+  DATA.targets.forEach((t,i)=>{
+    const m=/^(\d{1,2}:\d{2})/.exec(t.time_str||"");if(!m)return;
+    const d=document.createElement("button");d.className="tl-dot";
+    d.style.left=Math.min(100,Math.max(0,100*sinceStart(m[1],w.start)/span))+"%";
+    d.style.background="var("+(COLORS[t.class]||"--muted")+")";
+    d.title=t.name+" — "+t.time_str;
+    d.setAttribute("aria-label",d.title);
+    d.addEventListener("click",()=>{const c=$("#t"+i);
+      if(c){c.scrollIntoView({block:"center"});history.replaceState(null,"","#t"+i);}});
+    track.appendChild(d);
+  });
+  // live "now" marker, only while it is actually night
+  function tick(){
+    const old=$(".tl-now");if(old)old.remove();
+    const now=new Date(),hm=String(now.getHours()).padStart(2,"0")+":"
+      +String(now.getMinutes()).padStart(2,"0");
+    const m=sinceStart(hm,w.start);
+    if(m<=span){const n=document.createElement("div");n.className="tl-now";
+      n.style.left=(100*m/span)+"%";n.title="now";track.appendChild(n);}
+  }
+  tick();setInterval(tick,60000);
+}
+
+/* ----- filter controls ----- */
+function buildControls(){
+  const c=$("#controls");
+  const all=chip("All types",true);
+  all.addEventListener("click",()=>{active=new Set(CLASSES);sync();render();});
+  c.appendChild(all);
+  CLASSES.forEach(k=>{
+    if(!DATA.targets.some(t=>t.class===k))return;
+    const b=chip(LABELS[k],true);b.dataset.k=k;
+    b.addEventListener("click",()=>{
+      if(active.size===CLASSES.length){active=new Set([k]);}
+      else if(active.has(k)){active.delete(k);if(!active.size)active=new Set(CLASSES);}
+      else active.add(k);
+      sync();render();
+    });
+    c.appendChild(b);
+  });
+  const sp=document.createElement("div");sp.className="spacer";c.appendChild(sp);
+  const lab=document.createElement("label");lab.className="count";
+  lab.textContent="Visible at ";
+  const sel=document.createElement("select");sel.id="hoursel";
+  sel.innerHTML='<option value="any">any time tonight</option>'+
+    DATA.hours.map(h=>'<option value="'+h+'">'+h+'</option>').join("");
+  sel.addEventListener("change",()=>{hour=sel.value;render();});
+  lab.appendChild(sel);c.appendChild(lab);
+  const n=document.createElement("span");n.className="count";n.id="count";
+  c.appendChild(n);
+  sync();
+  function chip(txt){const b=document.createElement("button");
+    b.className="chip";b.type="button";b.textContent=txt;
+    b.setAttribute("aria-pressed","true");return b;}
+  function sync(){
+    c.querySelectorAll(".chip").forEach(b=>{
+      const k=b.dataset.k;
+      const on=k? active.has(k) : active.size===CLASSES.length;
+      b.setAttribute("aria-pressed",on);
+      b.style.background=on?(k?("var("+COLORS[k]+")"):"var(--text)"):"transparent";
+      b.style.color=on?"var(--night)":"var(--muted)";
+    });
+  }
+}
+
+/* ----- cards ----- */
+function passes(t){
+  if(!active.has(t.class))return false;
+  if(hour==="any")return true;
+  if(t.class==="transit")return true;         // time-critical: always listed
+  if(!t.alts)return true;                      // moving target, position varies
+  const a=t.alts.find(x=>x.t===hour);
+  return !!a && a.alt>=DATA.min_altitude;
+}
+function render(){
+  const g=$("#grid");g.innerHTML="";
+  let shown=0;
+  DATA.targets.forEach((t,i)=>{
+    if(!passes(t))return;shown++;
+    const card=document.createElement("article");
+    card.className="card";card.id="t"+i;
+    card.style.animationDelay=Math.min(shown*35,420)+"ms";
+    const col="var("+(COLORS[t.class]||"--muted")+")";
+    const crit=t.class==="transit";
+    card.innerHTML=
+      '<div class="eyepiece">'+(t.thumb
+        ? '<img loading="lazy" src="'+t.thumb+'" alt="Sky image of '+esc(t.name)+'">'
+        : '<div class="glyph">'+(GLYPHS[t.class]||"\u2737")+"</div>")
+      +'<div class="ring"></div></div>'
+      +'<h2 class="cardname">'+esc(t.name)+"</h2>"
+      +'<span class="badge"><i style="background:'+col+'"></i>'+esc(t.type)+"</span>"
+      +'<p class="data">'
+        +(t.ra? "RA <b>"+t.ra+"</b> · Dec <b>"+t.dec+"</b><br>":"")
+        +(t.mag!==""&&t.mag!=null? "Mag <b>"+t.mag+"</b>":"")
+        +(t.size? " · Size <b>"+t.size+"&prime;</b>":"")
+      +"</p>"
+      +'<div class="best'+(crit?" crit":"")+'">'+esc(t.time_str||"")+"</div>"
+      +'<p class="notes">'+esc(t.notes||"")+"</p>"
+      +(t.link? '<a class="more" href="'+t.link
+        +'" target="_blank" rel="noopener">More about this object →</a>':"");
+    g.appendChild(card);
+  });
+  $("#count").textContent=" · showing "+shown+" of "+DATA.targets.length;
+  $("#state").hidden=shown>0;
+  if(!shown)$("#state").textContent=
+    "Nothing matches those filters at that hour — try another time of night or more object types.";
+}
+function esc(s){return String(s).replace(/[&<>"]/g,
+  c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+})();
+</script>
+</body>
+</html>

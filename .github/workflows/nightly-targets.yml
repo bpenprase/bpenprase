@@ -1,0 +1,50 @@
+name: Nightly observing targets
+
+# Regenerates tonight's target list for the Nieves Observatory page.
+# Runs every day at 19:00 UTC (noon PDT / 11am PST, well before dark in
+# Aliso Viejo) and can also be triggered by hand from the Actions tab.
+
+on:
+  schedule:
+    - cron: "0 19 * * *"
+  workflow_dispatch:
+
+# Allow the workflow to push the regenerated files back to the repo.
+permissions:
+  contents: write
+
+env:
+  # Folder containing nieves_planner.py, nieves_catalog.csv,
+  # and generate_site.py (change to match your repository layout)
+  PLANNER_DIR: Nieves_Observatory_Repository/planner
+  # Folder that GitHub Pages serves, where index.html lives and where
+  # targets.json and tonight_plan.txt are written
+  OUTPUT_DIR: Nieves_Observatory_Repository/tonight
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate tonight's targets
+        run: |
+          python "$PLANNER_DIR/generate_site.py" --outdir "$OUTPUT_DIR"
+
+      - name: Commit the refreshed target list
+        run: |
+          git config user.name "nieves-observatory-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add "$OUTPUT_DIR/targets.json" "$OUTPUT_DIR/tonight_plan.txt"
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Tonight's targets"
+            git push
+          fi

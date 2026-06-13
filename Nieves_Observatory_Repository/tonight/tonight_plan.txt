@@ -1,0 +1,514 @@
+; ACP observing plan -- Nieves Observatory
+; Generated 2026-06-13 13:37 PDT
+; Observing window starts 2026-06-13 21:46 PDT  (LST 14:25:04)
+; Targets sorted by RA from the western horizon eastward.
+
+#AUTOFOCUS
+#TRACKON
+
+; Asteroid 20 Massalia  mag 11.1
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+MP Massalia
+#WAITINLIMITS 60
+
+; Galaxy  mag 9.8  size 5.04'  Coma Pinwheel,Virgo Cluster Pinwheel
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 99
+
+; Galaxy  mag 11.0  size 3.03'  Eyes
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 4435
+
+; Galaxy  mag 10.9  size 9.16'  Eyes
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 4438
+
+; Galaxy  mag 9.0  size 7.11'  Virgo Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 87
+
+; Galaxy  mag 10.9  size 16.75'  Needle Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 4565
+
+; Galaxy  mag 11.3  size 2.74'  Butterfly Galaxies,Siamese Twins
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 4567
+
+; Galaxy  mag 10.8  size 4.31'  Butterfly Galaxies,Siamese Twins
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 4568
+
+; Galaxy  mag 8.6  size 8.45'  Sombrero Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 104
+
+; Galaxy  mag 9.2  size 14.45'  Whale Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 4631
+
+; Galaxy  mag 10.8  size 3.87'  Umbrella Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 4651
+
+; Galaxy  mag 8.2  size 7.74'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 94
+
+; Galaxy  mag 8.5  size 10.52'  Black Eye Galaxy,Evil Eye Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 64
+
+; Galaxy  mag 8.6  size 11.83'  Sunflower Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 63
+
+; Galaxy  mag 8.4  size 13.71'  Whirlpool Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 51
+
+; Galaxy  mag 7.9  size 23.99'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 101
+
+; Nebula  mag 5.1  size 60.00'  rho Oph Nebula
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,3,3,3
+#filter r',Ha,OIII,SII
+IC 4604
+
+; Globular Cluster  mag 5.8  size 16.50'  Hercules Globular Cluster
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 13
+
+; Globular Cluster  mag 5.0  size 9.30'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 10
+
+; Comet C/2023 R1 (PANSTARRS)  mag 12.0
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT C/2023 R1
+#WAITINLIMITS 60
+
+; Asteroid 14 Irene  mag 9.4
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+MP Irene
+#WAITINLIMITS 60
+
+; Open Cluster  mag 4.2  size 24.60'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+IC 4665
+
+; Open Cluster  mag 5.5  size 16.80'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 23
+
+; Nebula  mag 5.8  size 45.00'  Lagoon Nebula
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,3,3,3
+#filter r',Ha,OIII,SII
+M 8
+
+; Nebula  mag 6.0  size 120.00'  Eagle Nebula
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,3,3,3
+#filter r',Ha,OIII,SII
+M 16
+
+; Nebula  mag 6.0  size 5.05'  Eagle Nebula,Star Queen
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,3,3,3
+#filter r',Ha,OIII,SII
+IC 4703
+
+; Nebula  mag 7.0  size 12.60'  Checkmark Nebula,Lobster Nebula,Swan Nebula,omega Nebula
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,3,3,3
+#filter r',Ha,OIII,SII
+M 17
+
+; Open Cluster  mag 4.6  size 12.00'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 6633
+
+; Open Cluster  mag 4.6  size 14.10'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 25
+
+; Open Cluster  mag 4.6  size 24.00'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+IC 4756
+
+; Open Cluster  mag 5.8  size 9.00'  Amas de l'Ecu de Sobieski,Wild Duck Cluster
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 11
+
+; Asteroid 18 Melpomene  mag 9.7
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+MP Melpomene
+#WAITINLIMITS 60
+
+; Asteroid 8 Flora  mag 9.7
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+MP Flora
+#WAITINLIMITS 60
+
+; Open Cluster  mag 7.3  size 6.90'  Foxhead Cluster
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 6819
+
+; Galaxy  mag 10.1  size 17.38'  Barnard's Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 6822
+
+; Planetary Nebula  mag 7.4  size 6.70'  Dumbbell Nebula
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,3,3,3
+#filter r',Ha,OIII,SII
+M 27
+
+; Open Cluster  mag 5.2  size 9.30'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 6871
+
+; HII Region  mag 7.4  size 20.00'  Crescent Nebula
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,3,3,3
+#filter r',Ha,OIII,SII
+NGC 6888
+
+; Comet 10P/Tempel  mag 12.7
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 10P/Tempel
+#WAITINLIMITS 60
+
+; Galaxy  mag 9.1  size 11.40'  Fireworks Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 6946
+
+; Asteroid 3 Juno  mag 9.8
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+MP Juno
+#WAITINLIMITS 60
+
+; Supernova Remnant  mag 7.0  size 210.00'  Veil Nebula,Filamentary Nebula,Western Veil
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,3,3,3
+#filter r',Ha,OIII,SII
+NGC 6960
+
+; HII Region  mag 8.0  size 60.00'  Pelican Nebula
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,3,3,3
+#filter r',Ha,OIII,SII
+IC 5070
+
+; Supernova Remnant  mag 7.0  size 60.00'  Eastern Veil,Network Nebula
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,3,3,3
+#filter r',Ha,OIII,SII
+NGC 6992
+
+; Supernova Remnant  mag 7.0  size 12.00'  Eastern Veil,Network Nebula
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,3,3,3
+#filter r',Ha,OIII,SII
+NGC 6995
+
+; HII Region  mag 4.0  size 120.00'  North America Nebula
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,3,3,3
+#filter r',Ha,OIII,SII
+NGC 7000
+
+; Nebula  mag 7.2  size 10.00'  Iris Nebula
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,3,3,3
+#filter r',Ha,OIII,SII
+NGC 7023
+
+; Open Cluster  mag 4.6  size 19.50'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 39
+
+; Cluster + Nebula  mag 7.2  size 10.00'  Cocoon Nebula
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,3,3,3
+#filter r',Ha,OIII,SII
+IC 5146
+
+; Supernova 2026fov in NGC 7292  Type II  mag 14.0  z=0.003292
+#posang 0
+#count 3,3
+#interval 300,300
+#binning 1,1
+#filter r',g'
+2026fov	22:28:27.241	+30:17:54.46
+
+; Asteroid 9 Metis  mag 11.0
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+MP Metis
+#WAITINLIMITS 60
+
+; Open Cluster  mag 5.6  size 3.60'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 7686
+
+; Galaxy  mag 8.2  size 16.22'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 110
+
+; Galaxy  mag 8.1  size 7.74'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 32
+
+; Galaxy  mag 3.4  size 177.83'  Andromeda Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 31
+
+; Open Cluster  mag 6.4  size 7.80'  Owl Cluster
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 0457
+
+; Open Cluster  mag 3.7  size 14.40'  h Persei Cluster
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 0869
+
+; Galaxy  mag 11.3  size 4.33'  Helix Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 2685
+
+; Galaxy  mag 6.9  size 21.63'  Bode's Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 81
+
+; Galaxy  mag 8.3  size 10.99'  Cigar Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 82
+
+; Galaxy  mag 10.5  size 12.91'  Coddington's Nebula
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+IC 2574
+
+; Comet 29P/Schwassmann-Wachmann  mag 13.5
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 29P/Schwassmann-Wachmann
+#WAITINLIMITS 60
+
+#SHUTDOWN
