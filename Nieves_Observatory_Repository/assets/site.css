@@ -288,6 +288,68 @@ h1 {
   line-height: 1.55;
 }
 
+.image-feature {
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: var(--panel);
+  backdrop-filter: blur(7px);
+  box-shadow: 0 22px 55px rgba(2, 6, 18, 0.45);
+  padding: 1.05rem 1.2rem;
+}
+
+.image-feature h2 {
+  margin-top: 0;
+}
+
+.image-feature img {
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  border: 1px solid rgba(164, 197, 255, 0.28);
+  display: block;
+}
+
+.image-feature.captioned figcaption {
+  margin-top: 0.75rem;
+  color: rgba(231, 240, 255, 0.92);
+  line-height: 1.5;
+}
+
+.rgb-start-panel {
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: linear-gradient(145deg, rgba(8, 24, 48, 0.82), rgba(12, 35, 67, 0.8));
+  backdrop-filter: blur(7px);
+  box-shadow: 0 22px 55px rgba(2, 6, 18, 0.45);
+  padding: 1.2rem;
+}
+
+.rgb-start-panel h2 {
+  margin-top: 0;
+}
+
+.rgb-main-btn {
+  font-size: 1.02rem;
+  padding-inline: 1.25rem;
+}
+
+.rgb-mini-grid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(260px, 1fr));
+  gap: 0.95rem;
+}
+
+.rgb-mini-card {
+  min-height: 200px;
+}
+
+.rgb-link-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
 .file-card {
   border: 1px solid var(--line);
   border-radius: 16px;
@@ -407,6 +469,10 @@ h1 {
   }
 
   .gui-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .rgb-mini-grid {
     grid-template-columns: 1fr;
   }
 
