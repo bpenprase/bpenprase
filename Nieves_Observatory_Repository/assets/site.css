@@ -340,6 +340,10 @@ h1 {
   gap: 0.95rem;
 }
 
+.rgb-mini-grid.single-card {
+  grid-template-columns: 1fr;
+}
+
 .rgb-mini-card {
   min-height: 200px;
 }
