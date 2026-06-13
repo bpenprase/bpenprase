@@ -267,6 +267,27 @@ h1 {
   font-size: 0.9rem;
 }
 
+.gui-grid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(280px, 1fr));
+  gap: 0.95rem;
+}
+
+.gui-card {
+  padding: 1.2rem;
+  min-height: 220px;
+}
+
+.gui-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.gui-card p {
+  line-height: 1.55;
+}
+
 .file-card {
   border: 1px solid var(--line);
   border-radius: 16px;
@@ -382,6 +403,10 @@ h1 {
 
 @media (max-width: 900px) {
   .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .gui-grid {
     grid-template-columns: 1fr;
   }
 

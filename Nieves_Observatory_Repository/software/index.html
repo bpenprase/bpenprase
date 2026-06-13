@@ -31,9 +31,15 @@
       <p class="eyebrow">NSUT Software Overview</p>
       <h1>Astronomical Image Processing Suite</h1>
       <p>
+        The entire Nieves Observatory software system makes interactive GUI-controlled image processing possible for students.
+      </p>
+      <p>
         This page now includes the latest NSUT software upload set, including the GUI workflow tutorial and updated
-        Python tools for image quality checks, calibration, photometry, plotting, and RGB image generation.
+        Python tools for image quality checks, calibration, stacking, photometry, plotting, and RGB image generation.
         Files placed in <strong>software</strong> and <strong>content/software</strong> appear in the download listing below.
+      </p>
+      <p>
+        <a class="btn btn-primary" href="./NSUT_GUI_Tutorial.pdf" target="_blank" rel="noopener">Open NSUT GUI Tutorial (PDF)</a>
       </p>
     </section>
 
@@ -60,12 +66,22 @@
       </ol>
     </section>
 
-    <section class="software-grid fade-up delay-3">
-      <article class="software-card">
+    <section class="gui-grid fade-up delay-3">
+      <article class="software-card gui-card">
         <h3>NSUT GUI</h3>
-        <p>Primary graphical interface for running software-suite tasks with guided controls and workflow support.</p>
+        <p>A fully automated system for image processing, creating stack additions, flat fielding, and even differential photometry.</p>
         <p class="meta">Primary file: nsut_gui.py</p>
+        <p><a class="btn btn-ghost" href="./nsut_gui.py" target="_blank" rel="noopener">Open NSUT GUI</a></p>
       </article>
+      <article class="software-card gui-card">
+        <h3>RGB Image GUI</h3>
+        <p>An easy-to-use system for creating composite color (RGB) images with image alignment and interactive color-balance controls.</p>
+        <p class="meta">Primary file: rgb_image_gui.py</p>
+        <p><a class="btn btn-ghost" href="./rgb_image_gui.py" target="_blank" rel="noopener">Open RGB Image GUI</a></p>
+      </article>
+    </section>
+
+    <section class="software-grid fade-up delay-3">
       <article class="software-card">
         <h3>ExposeCheck</h3>
         <p>Scans FITS directories for saturation using target, center, or full-frame modes, then exports CSV diagnostics.</p>
@@ -85,11 +101,6 @@
         <h3>Differential Photometry Plotter</h3>
         <p>Converts photometry CSV output into two-page, publication-quality multi-panel light curve reports.</p>
         <p class="meta">Primary file: plot_differential_photometry.py</p>
-      </article>
-      <article class="software-card">
-        <h3>RGB Image GUI</h3>
-        <p>Interactive utility for combining calibrated channels into science-ready or outreach-ready RGB images.</p>
-        <p class="meta">Primary file: rgb_image_gui.py</p>
       </article>
     </section>
 
