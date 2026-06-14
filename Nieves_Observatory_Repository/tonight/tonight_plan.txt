@@ -1,19 +1,10 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-06-13 13:41 PDT
-; Observing window starts 2026-06-13 21:46 PDT  (LST 14:25:04)
+; Generated 2026-06-14 12:37 PDT
+; Observing window starts 2026-06-14 21:46 PDT  (LST 14:29:01)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
 #TRACKON
-
-; Asteroid 20 Massalia  mag 11.1
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-MP Massalia
-#WAITINLIMITS 60
 
 ; Galaxy  mag 9.8  size 5.04'  Coma Pinwheel,Virgo Cluster Pinwheel
 #posang 0
@@ -159,7 +150,7 @@ M 13
 #filter r',g',i',z'
 M 10
 
-; Comet C/2023 R1 (PANSTARRS)  mag 12.0
+; Comet C/2023 R1 (PANSTARRS)  mag 12.7
 #posang 0
 #count 3
 #interval 300
@@ -315,15 +306,6 @@ NGC 6871
 #filter r',Ha,OIII,SII
 NGC 6888
 
-; Comet 10P/Tempel  mag 12.7
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 10P/Tempel
-#WAITINLIMITS 60
-
 ; Galaxy  mag 9.1  size 11.40'  Fireworks Galaxy
 #posang 0
 #count 1,1,1,1
@@ -331,6 +313,15 @@ CT 10P/Tempel
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 6946
+
+; Comet 10P/Tempel  mag 12.9
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 10P/Tempel
+#WAITINLIMITS 60
 
 ; Asteroid 3 Juno  mag 9.8
 #posang 0
@@ -405,6 +396,15 @@ M 39
 #filter r',Ha,OIII,SII
 IC 5146
 
+; Asteroid 349 Dembowska (1892 T)  mag 10.7
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+MP Dembowska (1892 T)
+#WAITINLIMITS 60
+
 ; Supernova 2026fov in NGC 7292  Type II  mag 14.0  z=0.003292
 #posang 0
 #count 3,3
@@ -413,7 +413,7 @@ IC 5146
 #filter r',g'
 2026fov	22:28:27.241	+30:17:54.46
 
-; Asteroid 9 Metis  mag 11.0
+; Asteroid 9 Metis  mag 10.9
 #posang 0
 #count 3
 #interval 300
@@ -421,14 +421,6 @@ IC 5146
 #filter r'
 MP Metis
 #WAITINLIMITS 60
-
-; Open Cluster  mag 5.6  size 3.60'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 7686
 
 ; Galaxy  mag 8.2  size 16.22'
 #posang 0
@@ -469,6 +461,14 @@ NGC 0457
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 0869
+
+; Open Cluster  mag 3.8  size 10.50'  chi Persei Cluster
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 0884
 
 ; Galaxy  mag 11.3  size 4.33'  Helix Galaxy
 #posang 0
