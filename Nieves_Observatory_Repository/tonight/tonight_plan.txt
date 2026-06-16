@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-06-15 13:14 PDT
-; Observing window starts 2026-06-15 21:48 PDT  (LST 14:34:58)
+; Generated 2026-06-16 13:07 PDT
+; Observing window starts 2026-06-16 21:48 PDT  (LST 14:38:54)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -150,7 +150,7 @@ M 13
 #filter r',g',i',z'
 M 10
 
-; Comet C/2023 R1 (PANSTARRS)  mag 12.7
+; Comet C/2023 R1 (PANSTARRS)  mag 13.6
 #posang 0
 #count 3
 #interval 300
@@ -314,7 +314,7 @@ NGC 6888
 #filter r',g',i',z'
 NGC 6946
 
-; Asteroid 3 Juno  mag 9.8
+; Asteroid 3 Juno  mag 9.7
 #posang 0
 #count 3
 #interval 300
