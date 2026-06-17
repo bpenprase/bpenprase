@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-06-16 13:07 PDT
-; Observing window starts 2026-06-16 21:48 PDT  (LST 14:38:54)
+; Generated 2026-06-17 12:46 PDT
+; Observing window starts 2026-06-17 21:48 PDT  (LST 14:42:51)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -150,7 +150,7 @@ M 13
 #filter r',g',i',z'
 M 10
 
-; Comet C/2023 R1 (PANSTARRS)  mag 13.6
+; Comet C/2023 R1 (PANSTARRS)  mag 12.6
 #posang 0
 #count 3
 #interval 300
@@ -159,7 +159,7 @@ M 10
 CT C/2023 R1
 #WAITINLIMITS 60
 
-; Asteroid 14 Irene  mag 9.4
+; Asteroid 14 Irene  mag 9.5
 #posang 0
 #count 3
 #interval 300
@@ -257,7 +257,7 @@ M 11
 MP Melpomene
 #WAITINLIMITS 60
 
-; Asteroid 8 Flora  mag 9.7
+; Asteroid 8 Flora  mag 9.6
 #posang 0
 #count 3
 #interval 300
@@ -306,14 +306,6 @@ NGC 6871
 #filter r',Ha,OIII,SII
 NGC 6888
 
-; Galaxy  mag 9.1  size 11.40'  Fireworks Galaxy
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 6946
-
 ; Asteroid 3 Juno  mag 9.7
 #posang 0
 #count 3
@@ -323,7 +315,15 @@ NGC 6946
 MP Juno
 #WAITINLIMITS 60
 
-; Comet 10P/Tempel  mag 11.4
+; Galaxy  mag 9.1  size 11.40'  Fireworks Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 6946
+
+; Comet 10P/Tempel  mag 10.2
 #posang 0
 #count 3
 #interval 300
@@ -439,6 +439,14 @@ MP Metis
 Neptune
 #WAITINLIMITS 60
 
+; Galaxy  mag 8.2  size 16.22'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 110
+
 ; Galaxy  mag 8.1  size 7.74'
 #posang 0
 #count 1,1,1,1
@@ -486,14 +494,6 @@ NGC 0869
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 0884
-
-; Galaxy  mag 11.3  size 4.33'  Helix Galaxy
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 2685
 
 ; Galaxy  mag 6.9  size 21.63'  Bode's Galaxy
 #posang 0
