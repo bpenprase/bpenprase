@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-06-17 12:46 PDT
-; Observing window starts 2026-06-17 21:48 PDT  (LST 14:42:51)
+; Generated 2026-06-18 12:48 PDT
+; Observing window starts 2026-06-18 21:48 PDT  (LST 14:46:48)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -118,6 +118,14 @@ M 63
 #filter r',g',i',z'
 M 51
 
+; Supernova AT2026pme in M51  Type unk  mag 14.0  z=n/a
+#posang 0
+#count 3,3
+#interval 300,300
+#binning 1,1
+#filter r',g'
+AT2026pme	13:29:52.700	+47:11:40.00
+
 ; Galaxy  mag 7.9  size 23.99'
 #posang 0
 #count 1,1,1,1
@@ -150,7 +158,7 @@ M 13
 #filter r',g',i',z'
 M 10
 
-; Comet C/2023 R1 (PANSTARRS)  mag 12.6
+; Comet C/2023 R1 (PANSTARRS)  mag 13.4
 #posang 0
 #count 3
 #interval 300
@@ -323,7 +331,7 @@ MP Juno
 #filter r',g',i',z'
 NGC 6946
 
-; Comet 10P/Tempel  mag 10.2
+; Comet 10P/Tempel  mag 10.9
 #posang 0
 #count 3
 #interval 300
@@ -404,14 +412,6 @@ IC 5146
 #filter r'
 MP Dembowska (1892 T)
 #WAITINLIMITS 60
-
-; Supernova 2026fov in NGC 7292  Type II  mag 14.0  z=0.003292
-#posang 0
-#count 3,3
-#interval 300,300
-#binning 1,1
-#filter r',g'
-2026fov	22:28:27.241	+30:17:54.46
 
 ; Planetary Nebula  mag 7.3  size 16.33'  Helix Nebula
 #posang 0
