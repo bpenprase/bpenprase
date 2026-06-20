@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-06-19 12:38 PDT
-; Observing window starts 2026-06-19 21:48 PDT  (LST 14:50:44)
+; Generated 2026-06-20 12:36 PDT
+; Observing window starts 2026-06-20 21:48 PDT  (LST 14:54:41)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -142,15 +142,6 @@ IC 4604
 #filter r',g',i',z'
 M 13
 
-; Comet 235P/LINEAR  mag 13.1
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 235P/LINEAR
-#WAITINLIMITS 60
-
 ; Globular Cluster  mag 5.0  size 9.30'
 #posang 0
 #count 1,1,1,1
@@ -159,7 +150,7 @@ CT 235P/LINEAR
 #filter r',g',i',z'
 M 10
 
-; Comet C/2023 R1 (PANSTARRS)  mag 13.3
+; Comet C/2023 R1 (PANSTARRS)  mag 13.8
 #posang 0
 #count 3
 #interval 300
@@ -168,7 +159,7 @@ M 10
 CT C/2023 R1
 #WAITINLIMITS 60
 
-; Asteroid 14 Irene  mag 9.5
+; Asteroid 14 Irene  mag 9.6
 #posang 0
 #count 3
 #interval 300
@@ -332,15 +323,6 @@ MP Juno
 #filter r',g',i',z'
 NGC 6946
 
-; Comet 10P/Tempel  mag 10.3
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 10P/Tempel
-#WAITINLIMITS 60
-
 ; Supernova Remnant  mag 7.0  size 210.00'  Veil Nebula,Filamentary Nebula,Western Veil
 #posang 0
 #count 1,1,1,1
@@ -348,6 +330,15 @@ CT 10P/Tempel
 #binning 1,3,3,3
 #filter r',Ha,OIII,SII
 NGC 6960
+
+; Comet 10P/Tempel  mag 12.3
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 10P/Tempel
+#WAITINLIMITS 60
 
 ; Supernova Remnant  mag 7.0  size 60.00'  Eastern Veil,Network Nebula
 #posang 0
@@ -422,7 +413,7 @@ MP Dembowska (1892 T)
 #filter r',Ha,OIII,SII
 NGC 7293
 
-; Asteroid 9 Metis  mag 10.9
+; Asteroid 9 Metis  mag 10.8
 #posang 0
 #count 3
 #interval 300
@@ -463,6 +454,15 @@ M 32
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 31
+
+; Comet 220P/McNaught  mag 11.6
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 220P/McNaught
+#WAITINLIMITS 60
 
 ; Open Cluster  mag 6.4  size 7.80'  Owl Cluster
 #posang 0
