@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-06-20 12:36 PDT
-; Observing window starts 2026-06-20 21:48 PDT  (LST 14:54:41)
+; Generated 2026-06-21 12:37 PDT
+; Observing window starts 2026-06-21 21:48 PDT  (LST 14:58:37)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -257,7 +257,7 @@ M 11
 MP Melpomene
 #WAITINLIMITS 60
 
-; Asteroid 8 Flora  mag 9.6
+; Asteroid 8 Flora  mag 9.5
 #posang 0
 #count 3
 #interval 300
@@ -306,7 +306,7 @@ NGC 6871
 #filter r',Ha,OIII,SII
 NGC 6888
 
-; Asteroid 3 Juno  mag 9.7
+; Asteroid 3 Juno  mag 9.6
 #posang 0
 #count 3
 #interval 300
@@ -331,7 +331,7 @@ NGC 6946
 #filter r',Ha,OIII,SII
 NGC 6960
 
-; Comet 10P/Tempel  mag 12.3
+; Comet 10P/Tempel  mag 10.4
 #posang 0
 #count 3
 #interval 300
@@ -455,7 +455,7 @@ M 32
 #filter r',g',i',z'
 M 31
 
-; Comet 220P/McNaught  mag 11.6
+; Comet 220P/McNaught  mag 11.7
 #posang 0
 #count 3
 #interval 300
