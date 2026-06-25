@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-06-24 12:37 PDT
-; Observing window starts 2026-06-24 21:50 PDT  (LST 15:12:27)
+; Generated 2026-06-25 12:39 PDT
+; Observing window starts 2026-06-25 21:50 PDT  (LST 15:16:24)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -159,7 +159,7 @@ M 10
 CT C/2023 R1
 #WAITINLIMITS 60
 
-; Asteroid 14 Irene  mag 9.7
+; Asteroid 14 Irene  mag 9.8
 #posang 0
 #count 3
 #interval 300
@@ -257,7 +257,7 @@ M 11
 MP Melpomene
 #WAITINLIMITS 60
 
-; Asteroid 8 Flora  mag 9.5
+; Asteroid 8 Flora  mag 9.4
 #posang 0
 #count 3
 #interval 300
@@ -331,7 +331,7 @@ NGC 6946
 #filter r',Ha,OIII,SII
 NGC 6960
 
-; Comet 10P/Tempel  mag 10.0
+; Comet 10P/Tempel  mag 9.4
 #posang 0
 #count 3
 #interval 300
@@ -396,7 +396,7 @@ M 39
 #filter r',Ha,OIII,SII
 IC 5146
 
-; Asteroid 349 Dembowska (1892 T)  mag 10.6
+; Asteroid 349 Dembowska (1892 T)  mag 10.5
 #posang 0
 #count 3
 #interval 300
@@ -455,15 +455,6 @@ M 31
 Saturn
 #WAITINLIMITS 60
 
-; Comet 220P/McNaught  mag 12.0
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 220P/McNaught
-#WAITINLIMITS 60
-
 ; Asteroid 2 Pallas  mag 10.0
 #posang 0
 #count 3
@@ -471,6 +462,15 @@ CT 220P/McNaught
 #binning 1
 #filter r'
 MP Pallas
+#WAITINLIMITS 60
+
+; Comet 220P/McNaught  mag 12.0
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 220P/McNaught
 #WAITINLIMITS 60
 
 ; Open Cluster  mag 6.4  size 7.80'  Owl Cluster
