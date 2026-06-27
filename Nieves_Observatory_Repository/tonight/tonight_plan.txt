@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-06-26 12:37 PDT
-; Observing window starts 2026-06-26 21:50 PDT  (LST 15:20:20)
+; Generated 2026-06-27 12:34 PDT
+; Observing window starts 2026-06-27 21:50 PDT  (LST 15:24:17)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -160,15 +160,7 @@ CT C/2023 R1
 MP Irene
 #WAITINLIMITS 60
 
-; Open Cluster  mag 4.2  size 24.60'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-IC 4665
-
-; Asteroid 152637 (1997 NC1)  mag 10.5
+; Asteroid 152637 (1997 NC1)  mag 10.1
 #posang 0
 #count 3
 #interval 300
@@ -176,6 +168,14 @@ IC 4665
 #filter r'
 MP (1997 NC1)
 #WAITINLIMITS 60
+
+; Open Cluster  mag 4.2  size 24.60'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+IC 4665
 
 ; Nebula  mag 5.8  size 45.00'  Lagoon Nebula
 #posang 0
@@ -332,15 +332,6 @@ NGC 6960
 #filter r',Ha,OIII,SII
 NGC 6992
 
-; Comet 10P/Tempel  mag 8.8
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 10P/Tempel
-#WAITINLIMITS 60
-
 ; Supernova Remnant  mag 7.0  size 12.00'  Eastern Veil,Network Nebula
 #posang 0
 #count 1,1,1,1
@@ -348,6 +339,15 @@ CT 10P/Tempel
 #binning 1,3,3,3
 #filter r',Ha,OIII,SII
 NGC 6995
+
+; Comet 10P/Tempel  mag 9.0
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 10P/Tempel
+#WAITINLIMITS 60
 
 ; HII Region  mag 4.0  size 120.00'  North America Nebula
 #posang 0
@@ -448,7 +448,7 @@ Saturn
 MP Pallas
 #WAITINLIMITS 60
 
-; Comet 220P/McNaught  mag 12.3
+; Comet 220P/McNaught  mag 11.8
 #posang 0
 #count 3
 #interval 300
