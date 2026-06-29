@@ -1,26 +1,10 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-06-28 12:35 PDT
-; Observing window starts 2026-06-28 21:50 PDT  (LST 15:28:13)
+; Generated 2026-06-29 12:38 PDT
+; Observing window starts 2026-06-29 21:50 PDT  (LST 15:32:10)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
 #TRACKON
-
-; Galaxy  mag 8.3  size 10.21'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 49
-
-; Galaxy  mag 9.0  size 7.11'  Virgo Galaxy
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 87
 
 ; Galaxy  mag 10.9  size 16.75'  Needle Galaxy
 #posang 0
@@ -250,7 +234,7 @@ NGC 6819
 #filter r',g',i',z'
 NGC 6822
 
-; Comet C/2024 J3 (ATLAS)  mag 13.9
+; Comet C/2024 J3 (ATLAS)  mag 13.7
 #posang 0
 #count 3
 #interval 300
@@ -332,15 +316,6 @@ NGC 6995
 #filter r',Ha,OIII,SII
 NGC 7000
 
-; Comet 10P/Tempel  mag 10.3
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 10P/Tempel
-#WAITINLIMITS 60
-
 ; Nebula  mag 7.2  size 10.00'  Iris Nebula
 #posang 0
 #count 1,1,1,1
@@ -349,13 +324,14 @@ CT 10P/Tempel
 #filter r',Ha,OIII,SII
 NGC 7023
 
-; Supernova AT2026ped in none  Type unk  mag 14.1  z=n/a
+; Comet 10P/Tempel  mag 10.7
 #posang 0
-#count 3,3
-#interval 300,300
-#binning 1,1
-#filter r',g'
-AT2026ped	21:31:13.883	+04:04:18.31
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 10P/Tempel
+#WAITINLIMITS 60
 
 ; Open Cluster  mag 4.6  size 19.50'
 #posang 0
@@ -432,15 +408,6 @@ Saturn
 MP Pallas
 #WAITINLIMITS 60
 
-; Comet 220P/McNaught  mag 13.9
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 220P/McNaught
-#WAITINLIMITS 60
-
 ; Asteroid 4 Vesta  mag 7.9
 #posang 0
 #count 3
@@ -448,6 +415,15 @@ CT 220P/McNaught
 #binning 1
 #filter r'
 MP Vesta
+#WAITINLIMITS 60
+
+; Comet 220P/McNaught  mag 12.3
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 220P/McNaught
 #WAITINLIMITS 60
 
 ; Open Cluster  mag 6.4  size 7.80'  Owl Cluster
@@ -537,5 +513,21 @@ NGC 4435
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 4438
+
+; Galaxy  mag 8.3  size 10.21'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 49
+
+; Galaxy  mag 9.0  size 7.11'  Virgo Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 87
 
 #SHUTDOWN
