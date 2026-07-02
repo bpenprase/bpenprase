@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-07-01 12:37 PDT
-; Observing window starts 2026-07-01 21:48 PDT  (LST 15:38:03)
+; Generated 2026-07-02 12:33 PDT
+; Observing window starts 2026-07-02 21:48 PDT  (LST 15:41:59)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -86,7 +86,7 @@ M 13
 #filter r',g',i',z'
 M 10
 
-; Asteroid 14 Irene  mag 9.9
+; Asteroid 14 Irene  mag 10.0
 #posang 0
 #count 3
 #interval 300
