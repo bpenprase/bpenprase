@@ -1,26 +1,10 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-07-02 12:33 PDT
-; Observing window starts 2026-07-02 21:48 PDT  (LST 15:41:59)
+; Generated 2026-07-03 12:33 PDT
+; Observing window starts 2026-07-03 21:48 PDT  (LST 15:45:56)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
 #TRACKON
-
-; Galaxy  mag 9.2  size 14.45'  Whale Galaxy
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 4631
-
-; Galaxy  mag 10.8  size 3.87'  Umbrella Galaxy
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 4651
 
 ; Galaxy  mag 8.2  size 7.74'
 #posang 0
@@ -77,6 +61,15 @@ IC 4604
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 13
+
+; Comet C/2023 R1 (PANSTARRS)  mag 13.2
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT C/2023 R1
+#WAITINLIMITS 60
 
 ; Globular Cluster  mag 5.0  size 9.30'
 #posang 0
@@ -282,7 +275,7 @@ NGC 7000
 #filter r',Ha,OIII,SII
 NGC 7023
 
-; Comet 10P/Tempel  mag 12.2
+; Comet 10P/Tempel  mag 11.5
 #posang 0
 #count 3
 #interval 300
@@ -511,5 +504,21 @@ NGC 4567
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 4568
+
+; Galaxy  mag 9.2  size 14.45'  Whale Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 4631
+
+; Galaxy  mag 10.8  size 3.87'  Umbrella Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 4651
 
 #SHUTDOWN
