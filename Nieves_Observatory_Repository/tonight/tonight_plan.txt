@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-07-03 12:33 PDT
-; Observing window starts 2026-07-03 21:48 PDT  (LST 15:45:56)
+; Generated 2026-07-04 12:32 PDT
+; Observing window starts 2026-07-04 21:48 PDT  (LST 15:49:52)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -169,7 +169,7 @@ M 11
 MP Melpomene
 #WAITINLIMITS 60
 
-; Asteroid 8 Flora  mag 9.2
+; Asteroid 8 Flora  mag 9.1
 #posang 0
 #count 3
 #interval 300
@@ -359,6 +359,14 @@ Saturn
 MP Pallas
 #WAITINLIMITS 60
 
+; Open Cluster  mag 6.4  size 7.80'  Owl Cluster
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 0457
+
 ; Asteroid 4 Vesta  mag 7.8
 #posang 0
 #count 3
@@ -367,14 +375,6 @@ MP Pallas
 #filter r'
 MP Vesta
 #WAITINLIMITS 60
-
-; Open Cluster  mag 6.4  size 7.80'  Owl Cluster
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 0457
 
 ; Comet 220P/McNaught  mag 12.7
 #posang 0
