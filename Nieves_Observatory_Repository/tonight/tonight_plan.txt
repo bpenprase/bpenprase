@@ -1,18 +1,10 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-07-04 12:32 PDT
-; Observing window starts 2026-07-04 21:48 PDT  (LST 15:49:52)
+; Generated 2026-07-05 12:33 PDT
+; Observing window starts 2026-07-05 21:48 PDT  (LST 15:53:49)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
 #TRACKON
-
-; Galaxy  mag 8.2  size 7.74'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 94
 
 ; Galaxy  mag 8.5  size 10.52'  Black Eye Galaxy,Evil Eye Galaxy
 #posang 0
@@ -54,14 +46,6 @@ M 101
 #filter r',Ha,OIII,SII
 IC 4604
 
-; Globular Cluster  mag 5.8  size 16.50'  Hercules Globular Cluster
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 13
-
 ; Comet C/2023 R1 (PANSTARRS)  mag 13.2
 #posang 0
 #count 3
@@ -71,6 +55,14 @@ M 13
 CT C/2023 R1
 #WAITINLIMITS 60
 
+; Globular Cluster  mag 5.8  size 16.50'  Hercules Globular Cluster
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 13
+
 ; Globular Cluster  mag 5.0  size 9.30'
 #posang 0
 #count 1,1,1,1
@@ -79,7 +71,7 @@ CT C/2023 R1
 #filter r',g',i',z'
 M 10
 
-; Asteroid 14 Irene  mag 10.0
+; Asteroid 14 Irene  mag 10.1
 #posang 0
 #count 3
 #interval 300
@@ -160,7 +152,7 @@ IC 4756
 #filter r',g',i',z'
 M 11
 
-; Asteroid 18 Melpomene  mag 9.2
+; Asteroid 18 Melpomene  mag 9.1
 #posang 0
 #count 3
 #interval 300
@@ -218,7 +210,7 @@ NGC 6871
 #filter r',Ha,OIII,SII
 NGC 6888
 
-; Asteroid 3 Juno  mag 9.4
+; Asteroid 3 Juno  mag 9.3
 #posang 0
 #count 3
 #interval 300
@@ -275,7 +267,7 @@ NGC 7000
 #filter r',Ha,OIII,SII
 NGC 7023
 
-; Comet 10P/Tempel  mag 11.5
+; Comet 10P/Tempel  mag 10.4
 #posang 0
 #count 3
 #interval 300
@@ -392,6 +384,15 @@ CT 220P/McNaught
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 33
+
+; Comet 88P/Howell  mag 12.3
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 88P/Howell
+#WAITINLIMITS 60
 
 ; Open Cluster  mag 3.7  size 14.40'  h Persei Cluster
 #posang 0
@@ -520,5 +521,13 @@ NGC 4631
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 4651
+
+; Galaxy  mag 8.2  size 7.74'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 94
 
 #SHUTDOWN
