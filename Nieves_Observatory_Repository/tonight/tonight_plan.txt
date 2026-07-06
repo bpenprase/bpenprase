@@ -1,18 +1,10 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-07-05 12:33 PDT
-; Observing window starts 2026-07-05 21:48 PDT  (LST 15:53:49)
+; Generated 2026-07-06 12:36 PDT
+; Observing window starts 2026-07-06 21:48 PDT  (LST 15:57:46)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
 #TRACKON
-
-; Galaxy  mag 8.5  size 10.52'  Black Eye Galaxy,Evil Eye Galaxy
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 64
 
 ; Galaxy  mag 8.6  size 11.83'  Sunflower Galaxy
 #posang 0
@@ -46,7 +38,7 @@ M 101
 #filter r',Ha,OIII,SII
 IC 4604
 
-; Comet C/2023 R1 (PANSTARRS)  mag 13.2
+; Comet C/2023 R1 (PANSTARRS)  mag 14.0
 #posang 0
 #count 3
 #interval 300
@@ -161,6 +153,14 @@ M 11
 MP Melpomene
 #WAITINLIMITS 60
 
+; Supernova AT2026rdg in none  Type FeII  mag 12.5  z=n/a
+#posang 0
+#count 3,3
+#interval 300,300
+#binning 1,1
+#filter r',g'
+AT2026rdg	19:14:31.366	+12:03:53.60
+
 ; Asteroid 8 Flora  mag 9.1
 #posang 0
 #count 3
@@ -267,7 +267,7 @@ NGC 7000
 #filter r',Ha,OIII,SII
 NGC 7023
 
-; Comet 10P/Tempel  mag 10.4
+; Comet 10P/Tempel  mag 11.4
 #posang 0
 #count 3
 #interval 300
@@ -366,15 +366,6 @@ NGC 0457
 #binning 1
 #filter r'
 MP Vesta
-#WAITINLIMITS 60
-
-; Comet 220P/McNaught  mag 12.7
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 220P/McNaught
 #WAITINLIMITS 60
 
 ; Galaxy  mag 5.8  size 62.09'  Triangulum Galaxy,Triangulum Pinwheel
@@ -529,5 +520,13 @@ NGC 4651
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 94
+
+; Galaxy  mag 8.5  size 10.52'  Black Eye Galaxy,Evil Eye Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 64
 
 #SHUTDOWN
