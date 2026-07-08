@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-07-07 12:36 PDT
-; Observing window starts 2026-07-07 21:48 PDT  (LST 16:01:42)
+; Generated 2026-07-08 12:34 PDT
+; Observing window starts 2026-07-08 21:46 PDT  (LST 16:03:38)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -38,7 +38,7 @@ M 101
 #filter r',Ha,OIII,SII
 IC 4604
 
-; Comet C/2023 R1 (PANSTARRS)  mag 13.5
+; Comet C/2023 R1 (PANSTARRS)  mag 13.6
 #posang 0
 #count 3
 #interval 300
@@ -153,14 +153,6 @@ M 11
 MP Melpomene
 #WAITINLIMITS 60
 
-; Supernova AT2026rdg in none  Type FeII  mag 12.5  z=n/a
-#posang 0
-#count 3,3
-#interval 300,300
-#binning 1,1
-#filter r',g'
-AT2026rdg	19:14:31.366	+12:03:53.60
-
 ; Asteroid 8 Flora  mag 9.0
 #posang 0
 #count 3
@@ -267,7 +259,7 @@ NGC 7000
 #filter r',Ha,OIII,SII
 NGC 7023
 
-; Comet 10P/Tempel  mag 8.8
+; Comet 10P/Tempel  mag 9.3
 #posang 0
 #count 3
 #interval 300
@@ -342,7 +334,7 @@ M 31
 Saturn
 #WAITINLIMITS 60
 
-; Asteroid 2 Pallas  mag 9.9
+; Asteroid 2 Pallas  mag 9.8
 #posang 0
 #count 3
 #interval 300
@@ -376,22 +368,13 @@ MP Vesta
 #filter r',g',i',z'
 M 33
 
-; Comet 220P/McNaught  mag 12.5
+; Comet 220P/McNaught  mag 13.3
 #posang 0
 #count 3
 #interval 300
 #binning 1
 #filter r'
 CT 220P/McNaught
-#WAITINLIMITS 60
-
-; Comet 88P/Howell  mag 12.3
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 88P/Howell
 #WAITINLIMITS 60
 
 ; Open Cluster  mag 3.7  size 14.40'  h Persei Cluster
@@ -401,6 +384,15 @@ CT 88P/Howell
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 0869
+
+; Comet 88P/Howell  mag 12.4
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 88P/Howell
+#WAITINLIMITS 60
 
 ; Open Cluster  mag 3.8  size 10.50'  chi Persei Cluster
 #posang 0
@@ -441,6 +433,14 @@ M 82
 #binning 1,1,1,1
 #filter r',g',i',z'
 IC 2574
+
+; Supernova AT2026sqf in NGC 3310  Type unk  mag 13.9  z=n/a
+#posang 0
+#count 3,3
+#interval 300,300
+#binning 1,1
+#filter r',g'
+AT2026sqf	10:38:48.000	+53:30:34.00
 
 ; Galaxy  mag 9.8  size 5.04'  Coma Pinwheel,Virgo Cluster Pinwheel
 #posang 0
