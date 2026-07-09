@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-07-08 12:34 PDT
-; Observing window starts 2026-07-08 21:46 PDT  (LST 16:03:38)
+; Generated 2026-07-09 12:35 PDT
+; Observing window starts 2026-07-09 21:46 PDT  (LST 16:07:35)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -63,7 +63,7 @@ M 13
 #filter r',g',i',z'
 M 10
 
-; Asteroid 14 Irene  mag 10.1
+; Asteroid 14 Irene  mag 10.2
 #posang 0
 #count 3
 #interval 300
@@ -153,7 +153,7 @@ M 11
 MP Melpomene
 #WAITINLIMITS 60
 
-; Asteroid 8 Flora  mag 9.0
+; Asteroid 8 Flora  mag 8.9
 #posang 0
 #count 3
 #interval 300
@@ -259,7 +259,7 @@ NGC 7000
 #filter r',Ha,OIII,SII
 NGC 7023
 
-; Comet 10P/Tempel  mag 9.3
+; Comet 10P/Tempel  mag 9.5
 #posang 0
 #count 3
 #interval 300
@@ -368,7 +368,7 @@ MP Vesta
 #filter r',g',i',z'
 M 33
 
-; Comet 220P/McNaught  mag 13.3
+; Comet 220P/McNaught  mag 13.0
 #posang 0
 #count 3
 #interval 300
@@ -434,13 +434,13 @@ M 82
 #filter r',g',i',z'
 IC 2574
 
-; Supernova AT2026sqf in NGC 3310  Type unk  mag 13.9  z=n/a
+; Supernova 2026sqf in NGC 3310  Type II  mag 13.4  z=0.003310
 #posang 0
 #count 3,3
 #interval 300,300
 #binning 1,1
 #filter r',g'
-AT2026sqf	10:38:48.000	+53:30:34.00
+2026sqf	10:38:47.961	+53:30:34.10
 
 ; Galaxy  mag 9.8  size 5.04'  Coma Pinwheel,Virgo Cluster Pinwheel
 #posang 0
