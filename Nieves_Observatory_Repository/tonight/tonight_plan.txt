@@ -1,18 +1,10 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-07-11 12:28 PDT
-; Observing window starts 2026-07-11 21:46 PDT  (LST 16:15:28)
+; Generated 2026-07-12 12:28 PDT
+; Observing window starts 2026-07-12 21:44 PDT  (LST 16:17:24)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
 #TRACKON
-
-; Galaxy  mag 8.6  size 11.83'  Sunflower Galaxy
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 63
 
 ; Galaxy  mag 8.4  size 13.71'  Whirlpool Galaxy
 #posang 0
@@ -38,7 +30,7 @@ M 101
 #filter r',Ha,OIII,SII
 IC 4604
 
-; Comet C/2023 R1 (PANSTARRS)  mag 13.8
+; Comet C/2023 R1 (PANSTARRS)  mag 13.6
 #posang 0
 #count 3
 #interval 300
@@ -62,15 +54,6 @@ M 13
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 10
-
-; Asteroid 14 Irene  mag 10.2
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-MP Irene
-#WAITINLIMITS 60
 
 ; Open Cluster  mag 4.2  size 24.60'
 #posang 0
@@ -160,6 +143,15 @@ MP Melpomene
 #binning 1
 #filter r'
 MP Flora
+#WAITINLIMITS 60
+
+; Comet C/2024 J3 (ATLAS)  mag 13.7
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT C/2024 J3
 #WAITINLIMITS 60
 
 ; Open Cluster  mag 7.3  size 6.90'  Foxhead Cluster
@@ -259,7 +251,7 @@ NGC 7000
 #filter r',Ha,OIII,SII
 NGC 7023
 
-; Comet 10P/Tempel  mag 9.7
+; Comet 10P/Tempel  mag 8.8
 #posang 0
 #count 3
 #interval 300
@@ -283,6 +275,15 @@ M 39
 #binning 1,3,3,3
 #filter r',Ha,OIII,SII
 IC 5146
+
+; Asteroid 349 Dembowska (1892 T)  mag 10.2
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+MP Dembowska (1892 T)
+#WAITINLIMITS 60
 
 ; Planetary Nebula  mag 7.3  size 16.33'  Helix Nebula
 #posang 0
@@ -368,7 +369,7 @@ MP Vesta
 #filter r',g',i',z'
 M 33
 
-; Comet 220P/McNaught  mag 13.6
+; Comet 220P/McNaught  mag 13.9
 #posang 0
 #count 3
 #interval 300
@@ -537,5 +538,13 @@ M 94
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 64
+
+; Galaxy  mag 8.6  size 11.83'  Sunflower Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 63
 
 #SHUTDOWN
