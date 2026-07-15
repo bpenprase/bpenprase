@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-07-14 12:33 PDT
-; Observing window starts 2026-07-14 21:44 PDT  (LST 16:25:17)
+; Generated 2026-07-15 12:31 PDT
+; Observing window starts 2026-07-15 21:42 PDT  (LST 16:27:14)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -22,7 +22,7 @@ M 51
 #filter r',g',i',z'
 M 101
 
-; Comet C/2023 R1 (PANSTARRS)  mag 13.0
+; Comet C/2023 R1 (PANSTARRS)  mag 13.6
 #posang 0
 #count 3
 #interval 300
@@ -426,6 +426,14 @@ IC 2574
 #filter r',g',i',z'
 M 99
 
+; Galaxy  mag 9.1  size 6.95'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 85
+
 ; Galaxy  mag 8.9  size 11.53'
 #posang 0
 #count 1,1,1,1
@@ -449,14 +457,6 @@ NGC 4435
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 4438
-
-; Galaxy  mag 8.3  size 10.21'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 49
 
 ; Galaxy  mag 9.0  size 7.11'  Virgo Galaxy
 #posang 0
