@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-16T09:39:15.717306+00:00",
-  "generated_human": "16 July 2026, 09:39 UTC",
-  "total_items": 111,
+  "generated": "2026-07-16T09:40:03.351182+00:00",
+  "generated_human": "16 July 2026, 09:40 UTC",
+  "total_items": 117,
   "channels": [
     {
       "key": "ai",
@@ -22,6 +22,27 @@
           "source": "IEEE Spectrum",
           "summary": "Shaped like dogs, stars, and the Mona Lisa, you could mistake these DNA structures for fun-shaped macaroni if they weren’t only nanometers wide.",
           "published": "2026-07-15T13:00:01+00:00"
+        },
+        {
+          "title": "CenSegNet: a generalist high-throughput deep learning framework for centrosome phenotyping at spatial and single-cell resolution in heterogeneous tissues",
+          "link": "https://www.nature.com/articles/s41467-026-75393-y",
+          "source": "Machine learning : nature.com subject feeds",
+          "summary": "",
+          "published": "2026-07-15T00:00:00+00:00"
+        },
+        {
+          "title": "AI avatars are reshaping society in China — the law is trying to catch up",
+          "link": "https://www.nature.com/articles/d41586-026-01674-7",
+          "source": "Machine learning : nature.com subject feeds",
+          "summary": "",
+          "published": "2026-07-15T00:00:00+00:00"
+        },
+        {
+          "title": "Doctored data sets could trick AI agents",
+          "link": "https://www.nature.com/articles/d41586-026-02071-w",
+          "source": "Machine learning : nature.com subject feeds",
+          "summary": "",
+          "published": "2026-07-15T00:00:00+00:00"
         },
         {
           "title": "How I Turned AI to the Dark Side",
@@ -59,11 +80,46 @@
           "published": "2026-07-13T10:19:51+00:00"
         },
         {
+          "title": "Prediction of microvascular invasion in hepatocellular carcinoma using contrast-enhanced ultrasound and deep learning",
+          "link": "https://www.nature.com/articles/s41467-026-74985-y",
+          "source": "Machine learning : nature.com subject feeds",
+          "summary": "",
+          "published": "2026-07-10T00:00:00+00:00"
+        },
+        {
+          "title": "Four questions for AI-ready biological data",
+          "link": "https://www.nature.com/articles/s42256-026-01270-4",
+          "source": "Machine learning : nature.com subject feeds",
+          "summary": "",
+          "published": "2026-07-10T00:00:00+00:00"
+        },
+        {
+          "title": "Which ‘AI scientist’ suits your lab? A guide for the perplexed",
+          "link": "https://www.nature.com/articles/d41586-026-02091-6",
+          "source": "Machine learning : nature.com subject feeds",
+          "summary": "",
+          "published": "2026-07-10T00:00:00+00:00"
+        },
+        {
           "title": "Anthropic found a hidden space where Claude puzzles over concepts",
           "link": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
           "source": "Artificial intelligence – MIT Technology Review",
           "summary": "The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what’s really going on inside large language models as they answer questions or carry out tasks.",
           "published": "2026-07-09T20:22:28+00:00"
+        },
+        {
+          "title": "A unified vision-language model for precision oncology and biomarker prediction in neuroblastoma",
+          "link": "https://www.nature.com/articles/s41467-026-74865-5",
+          "source": "Machine learning : nature.com subject feeds",
+          "summary": "",
+          "published": "2026-07-09T00:00:00+00:00"
+        },
+        {
+          "title": "Decoding cancer circulating transcriptomic signatures with language models",
+          "link": "https://www.nature.com/articles/s41467-026-74411-3",
+          "source": "Machine learning : nature.com subject feeds",
+          "summary": "",
+          "published": "2026-07-09T00:00:00+00:00"
         },
         {
           "title": "AI Models Overthink Problems—and It’s a Security Risk",
@@ -87,6 +143,13 @@
           "published": "2026-07-07T11:10:52+00:00"
         },
         {
+          "title": "‘Humanizer’ tool can erase signs of AI-written text — alarming scientists",
+          "link": "https://www.nature.com/articles/d41586-026-02105-3",
+          "source": "Machine learning : nature.com subject feeds",
+          "summary": "",
+          "published": "2026-07-07T00:00:00+00:00"
+        },
+        {
           "title": "Your family’s $300 stake in OpenAI",
           "link": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
           "source": "Artificial intelligence – MIT Technology Review",
@@ -101,18 +164,18 @@
           "published": "2026-07-06T16:06:23+00:00"
         },
         {
-          "title": "AI’s Volatile Power Use Quietly Tests Grid Limits",
-          "link": "https://spectrum.ieee.org/data-centers-grid-instability",
-          "source": "IEEE Spectrum",
-          "summary": "The rapid expansion of artificial intelligence infrastructure is typically framed as an energy problem. Data centers are projected to consume a growing share of global electricity demand: The International Energy Agency…",
-          "published": "2026-07-03T12:00:01+00:00"
+          "title": "Universities are relying on AI-detection software to catch cheating. How well do the programs work?",
+          "link": "https://www.nature.com/articles/d41586-026-01358-2",
+          "source": "Machine learning : nature.com subject feeds",
+          "summary": "",
+          "published": "2026-07-06T00:00:00+00:00"
         },
         {
-          "title": "Achieving operational excellence with AI",
-          "link": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
-          "source": "Artificial intelligence – MIT Technology Review",
-          "summary": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations.",
-          "published": "2026-07-02T15:37:08+00:00"
+          "title": "Interpretable deep learning to predict one year glycemic control in type 1 diabetes using real world data",
+          "link": "https://www.nature.com/articles/s41598-026-59937-2",
+          "source": "Machine learning : nature.com subject feeds",
+          "summary": "",
+          "published": "2026-07-04T00:00:00+00:00"
         }
       ]
     },
@@ -130,165 +193,144 @@
           "published": "2026-07-16T04:16:48+00:00"
         },
         {
-          "title": "Magnetic spin and orbital Hall effects in centrosymmetric ferromagnets",
-          "link": "https://www.nature.com/articles/s42005-026-02754-w",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-16T00:00:00+00:00"
+          "title": "New dark matter theory could solve multiple cosmic mysteries at once",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260711010128.htm",
+          "source": "Materials Science News -- ScienceDaily",
+          "summary": "Dark matter may be far more complicated than scientists once believed. A new study suggests it could consist of at least two different kinds of particles that slowly separate over time, with heavier particles sinking…",
+          "published": "2026-07-14T02:30:53+00:00"
         },
         {
-          "title": "Corrosion-resistant Ti–Zr–Sn–Ta–Mo alloys with enhanced passivation for orthopedic implant applications",
-          "link": "https://www.nature.com/articles/s41598-026-61404-x",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-16T00:00:00+00:00"
+          "title": "A 200-year-old physics experiment could help build future computers",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260713000755.htm",
+          "source": "Materials Science News -- ScienceDaily",
+          "summary": "Scientists at Nanyang Technological University in Singapore have discovered a surprisingly simple way to create exotic light structures called optical skyrmions using a 200-year-old optical effect known as the Poisson…",
+          "published": "2026-07-13T12:49:50+00:00"
         },
         {
-          "title": "Effect of manufacturing method on metal ion release from orthodontic brackets and tubes",
-          "link": "https://www.nature.com/articles/s41598-026-60944-6",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-16T00:00:00+00:00"
+          "title": "Metamaterial boosts heat transfer on the nanoscale",
+          "link": "https://physicsworld.com/a/metamaterial-boosts-heat-transfer-on-the-nanoscale/",
+          "source": "Materials Archives – Physics World",
+          "summary": "New finding could help improve technologies such as on-chip cooling and thermophotovoltaic systems The post Metamaterial boosts heat transfer on the nanoscale appeared first on Physics World .",
+          "published": "2026-07-13T08:15:11+00:00"
         },
         {
-          "title": "Dual-physics programmable metasurfaces for dynamical controls of acoustics and electromagnetics",
-          "link": "https://www.nature.com/articles/s41467-026-75628-y",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-16T00:00:00+00:00"
+          "title": "Physicists recreate black hole energy extraction in the lab",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260711010120.htm",
+          "source": "Materials Science News -- ScienceDaily",
+          "summary": "Researchers have recreated the physics of extracting energy from a spinning black hole using a stationary device that produces synthetic ultrafast rotation.",
+          "published": "2026-07-12T12:28:41+00:00"
         },
         {
-          "title": "Compaction characteristics and lump crushing behavior of homologous gangue powder grouted uncemented backfill",
-          "link": "https://www.nature.com/articles/s41598-026-62078-1",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-16T00:00:00+00:00"
+          "title": "Why gold never tarnishes has finally been explained",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260710003511.htm",
+          "source": "Materials Science News -- ScienceDaily",
+          "summary": "Gold may have a secret self-defense system that helps it resist tarnishing. Researchers discovered that atoms on gold surfaces reorganize themselves into patterns that block oxygen from reacting with the metal,…",
+          "published": "2026-07-12T02:36:05+00:00"
         },
         {
-          "title": "Effect of deep margin elevation with different base materials on periodontal health in a clinical study",
-          "link": "https://www.nature.com/articles/s41598-026-61409-6",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-16T00:00:00+00:00"
+          "title": "This electric field trick boosted heat flow by nearly 300%",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260709160651.htm",
+          "source": "Materials Science News -- ScienceDaily",
+          "summary": "Researchers discovered that electricity can dramatically reshape how heat flows through certain ceramic materials, increasing heat conduction by almost threefold in a preferred direction.",
+          "published": "2026-07-11T12:18:02+00:00"
         },
         {
-          "title": "Interactively addressable organic metadevices",
-          "link": "https://www.nature.com/articles/s41467-026-75757-4",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-16T00:00:00+00:00"
+          "title": "The biggest problem with solid-state batteries may finally be solved",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260710003533.htm",
+          "source": "Materials Science News -- ScienceDaily",
+          "summary": "Researchers solved the mystery of how soft lithium dendrites crack the hard ceramic inside solid-state batteries, triggering short circuits.",
+          "published": "2026-07-10T12:29:27+00:00"
         },
         {
-          "title": "Channel-resolved excitation trends in Si, GaAs, and NiO for sub-GeV dark matter detection",
-          "link": "https://www.nature.com/articles/s41598-026-61355-3",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-16T00:00:00+00:00"
+          "title": "Frost spreads across surfaces via suspended ‘ice bridges’",
+          "link": "https://physicsworld.com/a/frost-spreads-across-surfaces-via-suspended-ice-bridges/",
+          "source": "Materials Archives – Physics World",
+          "summary": "Previously unknown pathway involving superhydrophobic surfaces could influence the development of new anti-icing techniques The post Frost spreads across surfaces via suspended ‘ice bridges’ appeared first on Physics…",
+          "published": "2026-07-09T09:17:53+00:00"
         },
         {
-          "title": "Improving the performance of lead-free perovskite solar cells",
-          "link": "https://www.nature.com/articles/s43246-026-01277-9",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-16T00:00:00+00:00"
+          "title": "Scientists finally solved a 150-year-old gallium mystery",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260707054119.htm",
+          "source": "Materials Science News -- ScienceDaily",
+          "summary": "Scientists have rewritten the story of gallium after discovering that its unusual atomic bonds re-form at high temperatures, contradicting decades of accepted theory.",
+          "published": "2026-07-09T07:40:57+00:00"
         },
         {
-          "title": "The effect of compaction pressure and sintering temperature on phase evolution and technological properties of alumina mullite zirconia ceramics",
-          "link": "https://www.nature.com/articles/s41598-026-60881-4",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-16T00:00:00+00:00"
+          "title": "Heidelberg physicists just united two opposing quantum theories",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260708022154.htm",
+          "source": "Materials Science News -- ScienceDaily",
+          "summary": "A new quantum theory bridges two rival models of how impurities behave inside many-particle systems, resolving a problem that has challenged physicists for decades.",
+          "published": "2026-07-09T00:15:58+00:00"
         },
         {
-          "title": "Single-particle atomic-scale strain-gradient engineering for high-performance fuel cells",
-          "link": "https://www.nature.com/articles/s41467-026-75485-9",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
+          "title": "Scientists used AI to crack one of water's biggest mysteries",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260707025047.htm",
+          "source": "Materials Science News -- ScienceDaily",
+          "summary": "Water’s odd behavior becomes even more dramatic when it is supercooled, but scientists have struggled to compare the many different ways of describing its microscopic structure.",
+          "published": "2026-07-08T22:31:30+00:00"
         },
         {
-          "title": "Physics-informed acquisition weighting for stoichiometry-constrained Bayesian optimization of oxide thin-film growth",
-          "link": "https://www.nature.com/articles/s41427-026-00668-1",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
+          "title": "Machine vision begins to work like the human eye",
+          "link": "https://physicsworld.com/a/machine-vision-begins-to-work-like-the-human-eye/",
+          "source": "Materials Archives – Physics World",
+          "summary": "New artificial vision system adapts faster to changing light conditions The post Machine vision begins to work like the human eye appeared first on Physics World .",
+          "published": "2026-07-08T08:15:40+00:00"
         },
         {
-          "title": "Fast lithium-ion transport in polymer electrolytes with rigid polyanions",
-          "link": "https://www.nature.com/articles/s41565-026-02229-7",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
+          "title": "Schrödinger’s anthill: Quantum entanglement found in a crystal large enough to hold",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260701015242.htm",
+          "source": "Materials Science News -- ScienceDaily",
+          "summary": "A centimeter-sized crystal has revealed clear signs of quantum entanglement, showing that large, everyday objects can display surprisingly deep quantum behavior.",
+          "published": "2026-07-08T00:46:06+00:00"
         },
         {
-          "title": "Deep learning assisted prediction of microstructure and wear behaviour in plasma nitrided 316 L stainless steel",
-          "link": "https://www.nature.com/articles/s41598-026-55448-2",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
+          "title": "Quantum sensor breakthrough could reveal dark matter and ancient gravitational waves",
+          "link": "https://www.sciencedaily.com/releases/2026/06/260622014303.htm",
+          "source": "Materials Science News -- ScienceDaily",
+          "summary": "Scientists have taken an important step toward building quantum detectors that could reveal some of the universe’s biggest secrets.",
+          "published": "2026-07-07T09:22:35+00:00"
         },
         {
-          "title": "Structure distortion-driven optical properties and temperature thermometry in one-dimensional hybrid lead halides",
-          "link": "https://www.nature.com/articles/s41598-026-62514-2",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
+          "title": "AI just supercharged the race to find room temperature superconductors",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260701205006.htm",
+          "source": "Nanotechnology News -- ScienceDaily",
+          "summary": "Scientists have combined machine learning with quantum physics to discover two new superconductors and create a much faster way to search for many more.",
+          "published": "2026-07-07T05:39:51+00:00"
         },
         {
-          "title": "Adhesive bond durability and corrosion resistance of AA6060-T6 flash-PEO treated in Mo-Si solutions",
-          "link": "https://www.nature.com/articles/s41529-026-00841-5",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
+          "title": "Quantum mechanics once baffled scientists. Now it's changing the world",
+          "link": "https://www.sciencedaily.com/releases/2026/06/260624025516.htm",
+          "source": "Nanotechnology News -- ScienceDaily",
+          "summary": "Quantum mechanics has journeyed from a strange and controversial idea to the foundation of some of humanity’s most advanced technologies.",
+          "published": "2026-07-05T18:13:44+00:00"
         },
         {
-          "title": "AI-assisted 6G-IoT system for environmental monitoring and risk management in mining sites",
-          "link": "https://www.nature.com/articles/s41598-026-61649-6",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
+          "title": "Scientists may have finally solved the black hole information paradox",
+          "link": "https://www.sciencedaily.com/releases/2026/06/260624025506.htm",
+          "source": "Materials Science News -- ScienceDaily",
+          "summary": "Researchers have proposed that black holes stop evaporating at the last moment, leaving behind tiny remnants that preserve all the information they contain.",
+          "published": "2026-07-05T03:12:55+00:00"
         },
         {
-          "title": "Design of high-efficiency ultrathin perovskite solar cells using embedded plasmonic Au nanowires and SiO₂ antireflection nanoparticles",
-          "link": "https://www.nature.com/articles/s41598-026-62295-8",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
+          "title": "New optical centrifuge unlocks the secrets of frictionless superfluids",
+          "link": "https://www.sciencedaily.com/releases/2026/06/260625014840.htm",
+          "source": "Materials Science News -- ScienceDaily",
+          "summary": "Physicists have developed a new optical centrifuge that can precisely spin molecules inside a superfluid for the first time.",
+          "published": "2026-07-04T08:32:34+00:00"
         },
         {
-          "title": "Rotaxane synthesis inside out",
-          "link": "https://www.nature.com/articles/s44160-026-01129-x",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
+          "title": "New research reveals the hidden pollution left behind by fireworks",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260701205009.htm",
+          "source": "Materials Science News -- ScienceDaily",
+          "summary": "Scientists have uncovered new evidence that fireworks can pollute both the air and water in ways that extend beyond the visible smoke.",
+          "published": "2026-07-04T02:48:09+00:00"
         },
         {
-          "title": "An efficient AI-assisted approach for retrieving knowledge of polymer biodegradability from a corpus of publications",
-          "link": "https://www.nature.com/articles/s43246-026-01267-x",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
-        },
-        {
-          "title": "Comparative performance evaluation of photoluminescent concrete coatings containing strontium aluminate and calcium aluminate in epoxy and polyurethane resin matrices",
-          "link": "https://www.nature.com/articles/s41598-026-62465-8",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
-        },
-        {
-          "title": "Machine learning prediction of DFT-derived electrical conductivity in perovskite and double perovskite materials using physically motivated descriptors",
-          "link": "https://www.nature.com/articles/s41598-026-62107-z",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
-        },
-        {
-          "title": "A green electrochemical sensor based on Fe/N-graphene hybrid nanostructure for trace-level determination of apremilast in biological and pharmaceutical samples",
-          "link": "https://www.nature.com/articles/s41598-026-62081-6",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
+          "title": "New superconducting diode gives greater control over the flow of electrons",
+          "link": "https://physicsworld.com/a/new-superconducting-diode-gives-greater-control-over-the-flow-of-electrons/",
+          "source": "Materials Archives – Physics World",
+          "summary": "Device based on two-dimensional oxide interface superconductors can be “edited” using atomic force microscope lithography The post New superconducting diode gives greater control over the flow of electrons appeared…",
+          "published": "2026-07-02T14:00:08+00:00"
         }
       ]
     },
