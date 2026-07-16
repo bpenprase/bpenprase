@@ -25,7 +25,9 @@ To tune a channel: edit its include / require / exclude keyword lists.
 """
 
 # ---- broad, verified, high-quality feeds reused across all channels ----
-SCIAM = "https://rss.sciam.com/ScientificAmerican-Global"
+# Scientific American's newer syndication endpoint (proper SSL; the older
+# rss.sciam.com host has a broken TLS handshake that fails on CI runners).
+SCIAM = "https://www.scientificamerican.com/platform/syndication/rss/"
 BBC_SCIENCE = "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
 SCIENCE_AAAS = "https://www.science.org/rss/news_current.xml"
 BROAD = [SCIAM, BBC_SCIENCE, SCIENCE_AAAS]
@@ -82,7 +84,6 @@ CHANNELS = {
         "feeds": [
             "https://www.sciencedaily.com/rss/matter_energy/materials_science.xml",
             "https://www.sciencedaily.com/rss/matter_energy/nanotechnology.xml",
-            "https://www.nature.com/subjects/materials-science.rss",
             "https://www.sciencedaily.com/rss/matter_energy/chemistry.xml",
         ] + BROAD,
         "filter": {
@@ -107,9 +108,7 @@ CHANNELS = {
         "feeds": [
             "https://www.sciencedaily.com/rss/plants_animals/biotechnology.xml",
             "https://www.sciencedaily.com/rss/plants_animals/genetically_modified.xml",
-            "https://www.sciencedaily.com/rss/plants_animals/genetic_engineering.xml",
-            "https://www.nature.com/subjects/synthetic-biology.rss",
-            "https://press.asimov.com/feed",
+            "https://www.sciencedaily.com/rss/plants_animals/genetics.xml",
         ] + BROAD,
         "filter": {
             "include": [
@@ -151,7 +150,6 @@ CHANNELS = {
             "https://www.sciencedaily.com/rss/matter_energy/solar_energy.xml",
             "https://www.sciencedaily.com/rss/earth_climate/renewable_energy.xml",
             "https://www.sciencedaily.com/rss/earth_climate/water.xml",
-            "https://www.nature.com/subjects/energy.rss",
         ] + BROAD,
         "filter": {
             "include": [
@@ -177,7 +175,6 @@ CHANNELS = {
             "https://www.esa.int/rssfeed/Our_Activities/Human_and_Robotic_Exploration",
             "https://www.esa.int/rssfeed/TopNews",
             "https://www.sciencedaily.com/rss/space_time/space_exploration.xml",
-            "https://spectrum.ieee.org/topic/aerospace/feed",
         ] + BROAD,
         # Captures missions from any agency (ISRO, JAXA, CNES, CNSA, SpaceX,
         # Blue Origin) reported by NASA/ESA or the broad outlets.
@@ -209,7 +206,6 @@ CHANNELS = {
             "https://www.eso.org/public/news/feed/",
             "https://skyandtelescope.org/feed/",
             "https://www.sciencedaily.com/rss/space_time/astrophysics.xml",
-            "https://www.nature.com/subjects/astronomy-and-planetary-science.rss",
         ] + BROAD,
         "filter": {
             "include": [

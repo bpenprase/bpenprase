@@ -14,6 +14,7 @@ On GitHub:    runs automatically each day via the Actions workflow.
 import json
 import re
 import html
+import ssl
 import datetime as dt
 from pathlib import Path
 from urllib.parse import urlparse
@@ -40,27 +41,43 @@ USER_AGENT = (
 # -----------------------------------------------------------------------------
 
 
+def _read(url: str, context=None):
+    req = Request(url, headers={
+        "User-Agent": USER_AGENT,
+        "Accept": "application/rss+xml, application/xml, text/xml, */*",
+    })
+    with urlopen(req, timeout=FETCH_TIMEOUT, context=context) as resp:
+        return resp.read()
+
+
 def fetch_feed(url: str):
     """
     Fetch a feed's raw bytes with a browser-like User-Agent, following
     redirects, then hand the content to feedparser. Returns a parsed feed
     object, or None if the fetch failed outright.
 
-    This is more robust than feedparser.parse(url) because many outlets block
-    the default feedparser User-Agent (returning 403/empty), which was causing
-    Scientific American and BBC to silently return nothing.
+    More robust than feedparser.parse(url) because many outlets block the
+    default feedparser User-Agent. Also retries once with a relaxed SSL
+    context, since some feeds (e.g. older Scientific American endpoints)
+    have handshake quirks that abort a strict TLS connection.
     """
-    req = Request(url, headers={
-        "User-Agent": USER_AGENT,
-        "Accept": "application/rss+xml, application/xml, text/xml, */*",
-    })
     try:
-        with urlopen(req, timeout=FETCH_TIMEOUT) as resp:
-            raw = resp.read()
+        raw = _read(url)
     except HTTPError as exc:
         print(f"    ! HTTP {exc.code} for {url}")
         return None
-    except (URLError, TimeoutError, Exception) as exc:   # noqa: BLE001
+    except (ssl.SSLError, URLError) as exc:
+        # retry once with a permissive SSL context for handshake quirks
+        try:
+            ctx = ssl.create_default_context()
+            ctx.check_hostname = False
+            ctx.verify_mode = ssl.CERT_NONE
+            raw = _read(url, context=ctx)
+            print(f"    (recovered {url} via relaxed SSL)")
+        except Exception as exc2:                        # noqa: BLE001
+            print(f"    ! fetch error for {url}: {exc2}")
+            return None
+    except Exception as exc:                             # noqa: BLE001
         print(f"    ! fetch error for {url}: {exc}")
         return None
     return feedparser.parse(raw)
