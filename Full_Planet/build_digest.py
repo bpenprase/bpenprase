@@ -205,6 +205,30 @@ SOURCE_NAMES = {
     "theconversation.com": "The Conversation",
     "downtoearth.org.in": "Down To Earth",
     "dialogue.earth": "Dialogue Earth",
+    # China (state-affiliated sources are labeled transparently)
+    "scmp.com": "South China Morning Post",
+    "xinhuanet.com": "Xinhua (state media)",
+    "chinadaily.com.cn": "China Daily (state media)",
+    "technode.com": "TechNode",
+    # East & Southeast Asia
+    "sj.jst.go.jp": "Science Japan",
+    "koreaherald.com": "The Korea Herald",
+    "asianscientist.com": "Asian Scientist",
+    "rappler.com": "Rappler",
+    # Middle East
+    "timesofisrael.com": "The Times of Israel",
+    "al-fanarmedia.org": "Al-Fanar Media",
+    "thenationalnews.com": "The National (UAE)",
+    "aljazeera.com": "Al Jazeera",
+    # Continental Europe
+    "dw.com": "Deutsche Welle",
+    "rss.dw.com": "Deutsche Welle",
+    "mpg.de": "Max Planck Society",
+    "home.cern": "CERN",
+    "cern.ch": "CERN",
+    "news.cnrs.fr": "CNRS News",
+    "cnrs.fr": "CNRS News",
+    "swissinfo.ch": "SWI swissinfo",
 }
 
 

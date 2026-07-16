@@ -32,33 +32,76 @@ BBC_SCIENCE = "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
 SCIENCE_AAAS = "https://www.science.org/rss/news_current.xml"
 BROAD = [SCIAM, BBC_SCIENCE, SCIENCE_AAAS]
 
-# ---- regional / Global South feeds (second pass, appended after primary) ----
-# These broaden coverage to science from China, India, Africa, Latin America,
-# and the wider Global South. English-language RSS is scarce for some regions
-# (notably China, where most English science coverage is state-affiliated or
-# paywalled), so this set leans on the strongest independent feeds available:
-#   - SciDev.Net: the leading Global South science outlet (Africa, Asia, LatAm)
-#   - The Hindu (Science): one of India's most respected science desks
-#   - Indian Express (Technology): strong Indian science & space coverage
-#   - The Conversation (Africa): African academics writing on African research
-#   - Down To Earth: India-based environment/science (energy, water)
-# All are run through each channel's filter, so only on-topic stories appear.
-SCIDEV = "https://www.scidev.net/global/global_rss.xml"
+# ---- regional / global feeds (second pass, appended after primary) ----
+# These broaden coverage to science from China, East and Southeast Asia, the
+# Middle East, continental Europe, India, Africa, and Latin America. All are
+# run through each channel's regional filter, so only on-topic stories appear.
+#
+# STATE-AFFILIATION LABELS: sources whose display name is tagged in
+# build_digest.py's SOURCE_NAMES map (e.g. "Xinhua (state media)") are
+# state-owned or state-funded outlets, shown transparently so readers can weigh
+# them accordingly. Public research bodies (Max Planck, CERN, DW, CNRS) are
+# government-funded but editorially credible and are NOT tagged as state media.
+
+# --- India & Global South (already established, verified working) ---
+SCIDEV = "https://www.scidev.net/global/global_rss.xml"          # Global South nonprofit
 HINDU_SCI = "https://www.thehindu.com/sci-tech/science/feeder/default.rss"
 HINDU_TECH = "https://www.thehindu.com/sci-tech/technology/feeder/default.rss"
 INDIAN_EXPRESS_TECH = "https://indianexpress.com/section/technology/feed/"
 CONVERSATION_AFRICA = "https://theconversation.com/africa/articles.atom"
 DOWN_TO_EARTH = "https://www.downtoearth.org.in/rss/all"
 
-# Regional set reused across most channels; space/astronomy add India space news.
-REGIONAL = [SCIDEV, HINDU_SCI, INDIAN_EXPRESS_TECH, CONVERSATION_AFRICA]
+# --- China (mix of independent-leaning and clearly-labeled state media) ---
+SCMP_SCIENCE = "https://www.scmp.com/rss/318224/feed"            # Alibaba-owned, HK
+SCMP_CHINA_TECH = "https://www.scmp.com/rss/320663/feed"         # Alibaba-owned, HK
+XINHUA_SCITECH = "http://www.xinhuanet.com/english/rss/scirss.xml"  # PRC state media
+TECHNODE = "https://technode.com/feed/"                          # independent China-tech
+
+# --- East Asia (Japan, Korea) ---
+SCIENCE_JAPAN = "https://sj.jst.go.jp/feed/rss.xml"              # Japan govt research agency
+KOREA_HERALD_BIZ = "https://www.koreaherald.com/rss/kh_Business"  # independent (tech under Business)
+
+# --- Southeast Asia ---
+ASIAN_SCIENTIST = "https://www.asianscientist.com/feed/"         # independent, Singapore
+RAPPLER_SCIENCE = "https://www.rappler.com/science/feed"         # independent, Philippines
+RAPPLER_TECH = "https://www.rappler.com/technology/feed"         # independent, Philippines
+RAPPLER_ENV = "https://www.rappler.com/environment/feed"         # independent, Philippines
+CONVERSATION_ID = "https://theconversation.com/id/articles.atom"  # Indonesia academics
+
+# --- Middle East ---
+TIMES_OF_ISRAEL = "https://www.timesofisrael.com/feed/"          # independent
+AL_FANAR = "https://al-fanarmedia.org/feed/"                     # independent nonprofit, Arab HE/science
+
+# --- Continental Europe (English) ---
+DW_SCIENCE = "https://rss.dw.com/xml/rss_en_science"             # German public broadcaster
+DW_ENVIRONMENT = "https://rss.dw.com/xml/rss_en_environment"     # German public broadcaster
+MAX_PLANCK = "https://www.mpg.de/en/research.rss"                # independent research org
+CERN_NEWS = "https://home.cern/api/news/news/feed.rss"           # intergovernmental physics lab
+CNRS_NEWS = "https://news.cnrs.fr/rss"                           # French public research agency
+
+# Region groupings for convenient reuse.
+ASIA_GENERAL = [SCMP_SCIENCE, SCMP_CHINA_TECH, XINHUA_SCITECH, TECHNODE,
+                SCIENCE_JAPAN, KOREA_HERALD_BIZ, ASIAN_SCIENTIST]
+GLOBAL_SOUTH = [SCIDEV, HINDU_SCI, INDIAN_EXPRESS_TECH, CONVERSATION_AFRICA,
+                RAPPLER_SCIENCE, CONVERSATION_ID, TIMES_OF_ISRAEL, AL_FANAR]
+EUROPE = [DW_SCIENCE, MAX_PLANCK, CERN_NEWS, CNRS_NEWS]
+
+# Default broad regional set: a balanced world mix used by most channels.
+REGIONAL = (
+    [SCIDEV, HINDU_SCI, INDIAN_EXPRESS_TECH, CONVERSATION_AFRICA]   # India / Africa / Global South
+    + [SCMP_SCIENCE, SCMP_CHINA_TECH, XINHUA_SCITECH]               # China (indep + state)
+    + [SCIENCE_JAPAN, KOREA_HERALD_BIZ, ASIAN_SCIENTIST]           # East & SE Asia
+    + [TIMES_OF_ISRAEL, AL_FANAR]                                   # Middle East
+    + [DW_SCIENCE, MAX_PLANCK]                                      # Europe
+)
+
 
 CHANNELS = {
     "ai": {
         "name": "Artificial Intelligence",
         "tagline": "AI put to work in science and engineering \u2014 new materials, proteins, medicines, and discoveries.",
         "accent": "#5AA9E6",
-        "regional_feeds": REGIONAL,
+        "regional_feeds": REGIONAL + [TECHNODE, RAPPLER_TECH],
         "regional_filter": {
             "require": ["AI", "A.I.", "artificial intelligence", "machine learning",
                         "neural network", "deep learning", "algorithm", "generative"],
@@ -117,7 +160,7 @@ CHANNELS = {
         "name": "Advanced Materials",
         "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
         "accent": "#E8A13A",
-        "regional_feeds": REGIONAL + [DOWN_TO_EARTH],
+        "regional_feeds": REGIONAL + [CERN_NEWS, CNRS_NEWS],
         "regional_filter": {
             "require": ["material", "nanotech", "nanomaterial", "biosensor",
                         "polymer", "molecule", "catalyst", "chemistry", "graphene",
@@ -148,7 +191,7 @@ CHANNELS = {
         "name": "Synthetic Biology",
         "tagline": "Engineered organisms and programmed DNA \u2014 cells built for computing, data storage, and chemical synthesis.",
         "accent": "#5FBF9B",
-        "regional_feeds": REGIONAL,
+        "regional_feeds": REGIONAL + [ASIAN_SCIENTIST],
         "feeds": [
             "https://www.sciencedaily.com/rss/plants_animals/biotechnology.xml",
             "https://www.sciencedaily.com/rss/plants_animals/genetically_modified.xml",
@@ -189,7 +232,7 @@ CHANNELS = {
         "name": "Energy & Water",
         "tagline": "New ways to generate clean energy, capture carbon, and bring fresh water and power to people, cities, and transport.",
         "accent": "#33C6D6",
-        "regional_feeds": REGIONAL + [DOWN_TO_EARTH],
+        "regional_feeds": REGIONAL + [DOWN_TO_EARTH, DW_ENVIRONMENT, RAPPLER_ENV, CNRS_NEWS],
         "regional_filter": {
             "require": ["solar", "wind", "renewable", "battery", "hydrogen",
                         "clean energy", "clean water", "drinking water", "water access",
@@ -248,7 +291,8 @@ CHANNELS = {
         "name": "Space Exploration",
         "tagline": "New missions, spacecraft, and technologies \u2014 NASA, ESA, ISRO, JAXA, SpaceX, CNES, and more.",
         "accent": "#F0894E",
-        "regional_feeds": [SCIDEV, HINDU_SCI, HINDU_TECH, INDIAN_EXPRESS_TECH],
+        "regional_feeds": [SCIDEV, HINDU_SCI, HINDU_TECH, INDIAN_EXPRESS_TECH,
+                            SCMP_SCIENCE, XINHUA_SCITECH, SCIENCE_JAPAN, CNRS_NEWS],
         "regional_filter": {
             "require": ["ISRO", "space", "rocket", "launch", "satellite", "mission",
                         "spacecraft", "Chandrayaan", "Gaganyaan", "orbit", "lunar",
@@ -286,7 +330,8 @@ CHANNELS = {
         "name": "Astronomy & Astrophysics",
         "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
         "accent": "#B98CE0",
-        "regional_feeds": [SCIDEV, HINDU_SCI, INDIAN_EXPRESS_TECH],
+        "regional_feeds": [SCIDEV, HINDU_SCI, INDIAN_EXPRESS_TECH,
+                            SCMP_SCIENCE, SCIENCE_JAPAN, MAX_PLANCK, CNRS_NEWS],
         "regional_filter": {
             "require": ["galaxy", "star", "cosmic", "telescope", "astronomer",
                         "astronomy", "astrophysics", "black hole", "universe",
