@@ -235,6 +235,18 @@ main,.site-head,.site-foot{position:relative;z-index:1;}
 .entry .arrow{
   color:var(--accent);opacity:0;margin-left:6px;transition:opacity .2s;
 }
+
+/* divider between the primary harvest and the regional / global second pass */
+.region-divider{
+  display:flex;align-items:center;gap:14px;
+  margin:30px 4px 14px;color:var(--muted-dim);
+  font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;
+}
+.region-divider::before,
+.region-divider::after{
+  content:"";flex:1;height:1px;background:var(--line);
+}
+.entry.regional{opacity:.92;}
 .entry:hover .arrow{opacity:1;}
 
 .loading,.empty{

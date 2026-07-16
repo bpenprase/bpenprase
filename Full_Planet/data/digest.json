@@ -1,27 +1,62 @@
 {
-  "generated": "2026-07-16T13:52:35.870509+00:00",
-  "generated_human": "16 July 2026, 13:52 UTC",
-  "total_items": 66,
+  "generated": "2026-07-16T09:00:00+00:00",
+  "generated_human": "16 July 2026, 09:00 UTC",
+  "total_items": 24,
+  "note": "Sample data for layout preview. Replaced automatically by live feeds when build_digest.py runs.",
   "channels": [
     {
       "key": "ai",
       "name": "Artificial Intelligence",
-      "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
+      "tagline": "Machine intelligence turned toward medicine, materials, energy, and discovery.",
       "accent": "#5AA9E6",
       "items": [
         {
-          "title": "ChatGPT just proved another 50-year-old math conjecture",
-          "link": "https://www.scientificamerican.com/article/chatgpt-just-proved-another-50-year-old-math-conjecture/",
-          "source": "Scientific American",
-          "summary": "What’s the secret to prompting an AI to solve math problems that have left humans stumped? Tell it to believe in itself",
-          "published": "2026-07-14T12:30:00+00:00"
+          "title": "AI model designs enzymes that break down PET plastic at room temperature",
+          "link": "https://example.org/a1",
+          "source": "MIT Technology Review",
+          "summary": "A generative protein model proposed candidate enzymes; three degraded common bottle plastic in hours during lab tests.",
+          "published": "2026-07-16T07:12:00+00:00",
+          "regional": false
         },
         {
-          "title": "The AI Arms Race in Technical Interviews Is Escalating",
-          "link": "https://spectrum.ieee.org/technical-interview-ai-arms-race",
-          "source": "IEEE Spectrum",
-          "summary": "Software engineering jobs are under threat from artificial intelligence . Some applicants are fighting back by using AI in the interview process, employing AI assistants that suggest responses on the fly during remote…",
-          "published": "2026-07-13T15:15:03+00:00"
+          "title": "Machine learning speeds hunt for room-temperature superconductors",
+          "link": "https://example.org/a2",
+          "source": "Quanta Magazine",
+          "summary": "A model trained on known crystal structures ranked thousands of untested compounds, narrowing the search.",
+          "published": "2026-07-15T15:40:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Diagnostic AI matches specialists on rare childhood diseases in India trial",
+          "link": "https://example.org/a3",
+          "source": "SciDev.Net",
+          "summary": "A tool developed with hospitals in Bengaluru flagged uncommon genetic conditions from routine records.",
+          "published": "2026-07-15T09:05:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Chinese lab releases open weather model rivaling numerical forecasts",
+          "link": "https://example.org/a4",
+          "source": "Rest of World",
+          "summary": "The system produces ten-day forecasts in seconds on a single GPU, with strong monsoon-region results.",
+          "published": "2026-07-14T08:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Latin America unites on ethical AI roadmap",
+          "link": "https://www.scidev.net/global/news/latin-america-unites-on-ethical-ai-roadmap/",
+          "source": "SciDev.Net",
+          "summary": "A regional AI plan agreed by 20 countries includes a new expert group to combat disinformation.",
+          "published": "2026-07-06T01:21:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "Indian researchers use AI to map groundwater depletion",
+          "link": "https://www.thehindu.com/sci-tech/science/",
+          "source": "The Hindu",
+          "summary": "A machine learning model trained on satellite data tracks aquifer decline across northern India.",
+          "published": "2026-07-05T09:00:00+00:00",
+          "regional": true
         }
       ]
     },
@@ -32,74 +67,36 @@
       "accent": "#E8A13A",
       "items": [
         {
-          "title": "Quantum breakthrough links light and magnetism in atomically thin materials",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260715083523.htm",
+          "title": "Porous crystal captures CO2 directly from flue gas at low temperature",
+          "link": "https://example.org/m1",
+          "source": "Knowable Magazine",
+          "summary": "A metal-organic framework grabs carbon dioxide selectively and releases it with gentle heating.",
+          "published": "2026-07-16T06:10:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Self-healing polymer extends the life of wind-turbine blades",
+          "link": "https://example.org/m2",
           "source": "ScienceDaily",
-          "summary": "A new review highlights exciting progress in atomically thin quantum materials where light and magnetism work together in ways never before possible.",
-          "published": "2026-07-16T04:16:48+00:00"
+          "summary": "Microscopic capsules release a resin that seals cracks as they form, reducing offshore maintenance.",
+          "published": "2026-07-15T11:00:00+00:00",
+          "regional": false
         },
         {
-          "title": "Scientists spot sugar in interstellar space for the first time ever",
-          "link": "https://www.scientificamerican.com/article/scientists-spot-sugar-in-interstellar-space-for-the-first-time-ever/",
-          "source": "Scientific American",
-          "summary": "Erythrulose—a sugar found in raspberries—is also prevalent in a giant molecular cloud close to our galaxy’s core, scientists have discovered",
-          "published": "2026-07-13T15:00:00+00:00"
+          "title": "Biodegradable plastic made from sugarcane waste passes durability tests",
+          "link": "https://example.org/m3",
+          "source": "Agência FAPESP",
+          "summary": "A Brazilian team turned cane residue into a sturdy film that composts within months.",
+          "published": "2026-07-14T09:30:00+00:00",
+          "regional": false
         },
         {
-          "title": "Why gold never tarnishes has finally been explained",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260710003511.htm",
-          "source": "ScienceDaily",
-          "summary": "Gold may have a secret self-defense system that helps it resist tarnishing. Researchers discovered that atoms on gold surfaces reorganize themselves into patterns that block oxygen from reacting with the metal,…",
-          "published": "2026-07-12T02:36:05+00:00"
-        },
-        {
-          "title": "How a 1,900-year-old latrine helps explain why Roman concrete lasts",
-          "link": "https://www.scientificamerican.com/article/how-a-1-900-year-old-latrine-helps-explain-why-roman-concrete-lasts/",
-          "source": "Scientific American",
-          "summary": "An ancient sample shows calcite threading through this material’s cracks and pores, offering possible lessons for making modern concrete last longer",
-          "published": "2026-07-11T15:00:00+00:00"
-        },
-        {
-          "title": "This electric field trick boosted heat flow by nearly 300%",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260709160651.htm",
-          "source": "ScienceDaily",
-          "summary": "Researchers discovered that electricity can dramatically reshape how heat flows through certain ceramic materials, increasing heat conduction by almost threefold in a preferred direction.",
-          "published": "2026-07-11T12:18:02+00:00"
-        },
-        {
-          "title": "The biggest problem with solid-state batteries may finally be solved",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260710003533.htm",
-          "source": "ScienceDaily",
-          "summary": "Researchers solved the mystery of how soft lithium dendrites crack the hard ceramic inside solid-state batteries, triggering short circuits.",
-          "published": "2026-07-10T12:29:27+00:00"
-        },
-        {
-          "title": "Schrödinger’s anthill: Quantum entanglement found in a crystal large enough to hold",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260701015242.htm",
-          "source": "ScienceDaily",
-          "summary": "A centimeter-sized crystal has revealed clear signs of quantum entanglement, showing that large, everyday objects can display surprisingly deep quantum behavior.",
-          "published": "2026-07-08T00:46:06+00:00"
-        },
-        {
-          "title": "Why are the steel beams inside a Manhattan skyscraper buckling? Experts explain",
-          "link": "https://www.scientificamerican.com/article/why-are-the-steel-beams-inside-a-manhattan-skyscraper-buckling-experts-explain/",
-          "source": "Scientific American",
-          "summary": "Steel support columns in the Midtown building, which is being converted from offices into apartments, may have been overloaded, experts say",
-          "published": "2026-07-07T19:35:00+00:00"
-        },
-        {
-          "title": "AI just supercharged the race to find room temperature superconductors",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260701205006.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have combined machine learning with quantum physics to discover two new superconductors and create a much faster way to search for many more.",
-          "published": "2026-07-07T05:39:51+00:00"
-        },
-        {
-          "title": "New optical centrifuge unlocks the secrets of frictionless superfluids",
-          "link": "https://www.sciencedaily.com/releases/2026/06/260625014840.htm",
-          "source": "ScienceDaily",
-          "summary": "Physicists have developed a new optical centrifuge that can precisely spin molecules inside a superfluid for the first time.",
-          "published": "2026-07-04T08:32:34+00:00"
+          "title": "New alloy stays strong at temperatures that melt ordinary steel",
+          "link": "https://example.org/m4",
+          "source": "Nature",
+          "summary": "The material could enable more efficient jet engines and industrial furnaces.",
+          "published": "2026-07-13T13:20:00+00:00",
+          "regional": false
         }
       ]
     },
@@ -113,227 +110,113 @@
           "title": "Did scientists just create synthetic life?",
           "link": "https://www.scientificamerican.com/article/did-scientists-just-create-synthetic-life/",
           "source": "Scientific American",
-          "summary": "The SpudCell certainly resembles a living cell, but a key structure inside the cell falls short of the real thing",
-          "published": "2026-07-14T15:00:00+00:00"
+          "summary": "The SpudCell certainly resembles a living cell, but a key structure inside the cell falls short of the real thing.",
+          "published": "2026-07-14T15:00:00+00:00",
+          "regional": false
         },
         {
-          "title": "BBC Inside Science",
-          "link": "https://www.bbc.co.uk/sounds/play/w3ct977v?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Researchers say they have created a synthetic cell-like system that can grow and divide.",
-          "published": "2026-07-09T20:00:00+00:00"
+          "title": "Living cells store and retrieve data using DNA-based logic circuits",
+          "link": "https://example.org/s1",
+          "source": "Asimov Press",
+          "summary": "Engineered genetic circuits record signals over time, letting a colony of cells act as a rewritable biological memory.",
+          "published": "2026-07-16T05:50:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Engineered yeast becomes a microbial factory for industrial solvents",
+          "link": "https://example.org/s2",
+          "source": "Asimov Press",
+          "summary": "Metabolic engineering reprogrammed the yeast's pathways to secrete a chemical normally made from petroleum.",
+          "published": "2026-07-15T12:10:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Synthetic cell with a minimal genome divides on its own",
+          "link": "https://example.org/s3",
+          "source": "Nature News",
+          "summary": "Researchers pared a bacterium down to a designed, minimal set of genes, then coaxed it to grow and split normally.",
+          "published": "2026-07-14T10:40:00+00:00",
+          "regional": false
         }
       ]
     },
     {
       "key": "energywater",
       "name": "Energy & Water",
-      "tagline": "New ways to generate clean energy, capture carbon, and bring fresh water and power to people, cities, and transport.",
+      "tagline": "Science and technology for sustainable energy and clean, fresh water for more of humanity.",
       "accent": "#33C6D6",
       "items": [
         {
-          "title": "The Perseid meteor shower aligns with a total solar eclipse this year—here’s how to see it",
-          "link": "https://www.scientificamerican.com/article/the-perseid-meteor-shower-aligns-with-a-total-solar-eclipse-this-year-heres-how-to-see-it/",
-          "source": "Scientific American",
-          "summary": "Skygazers are in for a treat in August, as one of the most spectacular meteor showers coincides with a total solar eclipse",
-          "published": "2026-07-15T10:30:00+00:00"
+          "title": "Sponge-like material pulls drinking water from desert air overnight",
+          "link": "https://example.org/e1",
+          "source": "ScienceDaily",
+          "summary": "A low-cost hydrogel absorbs moisture in dry conditions and releases it with mild sunlight.",
+          "published": "2026-07-16T06:30:00+00:00",
+          "regional": false
         },
         {
-          "title": "August's solar eclipse inspires science involving jets, balloons and Einstein’s general theory of relativity",
-          "link": "https://www.scientificamerican.com/article/augusts-solar-eclipse-inspires-science-involving-jets-balloons-and-einsteins-general-theory-of-relativity/",
-          "source": "Scientific American",
-          "summary": "Solar eclipses are a rare and brief opportunity for scientists to gather data on everything from the physics of the sun to air pressure in the upper atmosphere",
-          "published": "2026-07-15T10:00:00+00:00"
+          "title": "New membrane cuts the energy cost of seawater desalination by a third",
+          "link": "https://example.org/e2",
+          "source": "ScienceDaily",
+          "summary": "An ultrathin filter lets water through while blocking salt, lowering the power a plant needs.",
+          "published": "2026-07-15T13:15:00+00:00",
+          "regional": false
         },
         {
-          "title": "Scandinavian radar array will probe mysteries of the northern lights",
-          "link": "https://www.science.org/content/article/scandinavian-radar-array-will-probe-mysteries-northern-lights",
-          "source": "Science (AAAS)",
-          "summary": "EISCAT_3D will paint a new picture of the upper atmosphere as it is roiled by solar outbursts",
-          "published": "2026-07-15T05:00:00+00:00"
+          "title": "Perovskite-silicon solar cell reaches record efficiency in outdoor test",
+          "link": "https://example.org/e3",
+          "source": "IEEE Spectrum",
+          "summary": "The tandem design converted more sunlight to power than either layer alone, holding up over months.",
+          "published": "2026-07-14T14:00:00+00:00",
+          "regional": false
         },
         {
-          "title": "Is Earth the only planet with total solar eclipses?",
-          "link": "https://www.scientificamerican.com/article/is-earth-the-only-planet-with-total-solar-eclipses/",
-          "source": "Scientific American",
-          "summary": "Other planets have moons, too. Do they get eclipses like we do?",
-          "published": "2026-07-10T10:45:00+00:00"
+          "title": "Low-cost filter removes arsenic from village wells in Bangladesh",
+          "link": "https://example.org/e4",
+          "source": "SciDev.Net",
+          "summary": "A simple iron-based cartridge brought contaminated water within safe limits in field trials.",
+          "published": "2026-07-13T09:10:00+00:00",
+          "regional": false
         }
       ]
     },
     {
       "key": "spaceexploration",
       "name": "Space Exploration",
-      "tagline": "New missions, spacecraft, and technologies — NASA, ESA, ISRO, JAXA, SpaceX, CNES, and more.",
+      "tagline": "New missions, spacecraft, and technologies for reaching and developing the space environment.",
       "accent": "#F0894E",
       "items": [
         {
-          "title": "Expedition Sound podcast series",
-          "link": "https://www.esa.int/Science_Exploration/Space_Science/Expedition_Sound_podcast_series",
+          "title": "India's lunar rover confirms subsurface ice near the south pole",
+          "link": "https://example.org/x1",
+          "source": "The Hindu",
+          "summary": "Instruments detected buried water ice, a resource that could support future crewed landings.",
+          "published": "2026-07-16T08:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Reusable heavy-lift rocket completes its first orbital flight",
+          "link": "https://example.org/x2",
+          "source": "NASA",
+          "summary": "The vehicle delivered its payload and returned both stages intact, a milestone toward cheaper orbit access.",
+          "published": "2026-07-15T12:45:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Europe's Mars sample-return mission passes critical design review",
+          "link": "https://example.org/x3",
           "source": "ESA",
-          "summary": "Expedition Sound is a podcast series by the European Space Agency (ESA) in which you’re invited to explore the Universe through your ears.",
-          "published": "2026-07-16T11:30:00+00:00"
+          "summary": "Engineers cleared the spacecraft that will retrieve rock cores and bring them to Earth.",
+          "published": "2026-07-14T10:30:00+00:00",
+          "regional": false
         },
         {
-          "title": "Watch SpaceX’s Starship flight 13 launch tonight",
-          "link": "https://www.scientificamerican.com/article/watch-spacexs-starship-flight-13-launch-tonight/",
-          "source": "Scientific American",
-          "summary": "SpaceX is launching the latest version of its Starship megarocket for a test flight that—if all goes to plan—should look a lot like the last one",
-          "published": "2026-07-16T10:00:00+00:00"
-        },
-        {
-          "title": "FLEX and Sentinel-3C arrive at Europe’s Spaceport",
-          "link": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_arrive_at_Europe_s_Spaceport",
-          "source": "ESA",
-          "summary": "With liftoff scheduled for September, excitement is building at Europe’s Spaceport in French Guiana as two cutting-edge Earth observation satellites, FLEX and Copernicus Sentinel-3C, have arrived to begin their launch…",
-          "published": "2026-07-16T07:00:00+00:00"
-        },
-        {
-          "title": "NASA's James Webb Space Telescope reveals a strange atmosphere on a hellish lava planet",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260712011743.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA's James Webb Space Telescope has revealed new details about the blistering lava planet 55 Cancri e, where temperatures are high enough to melt rock.",
-          "published": "2026-07-16T03:19:50+00:00"
-        },
-        {
-          "title": "SpaceX share price drops below stock market debut",
-          "link": "https://www.bbc.co.uk/news/articles/clyl33q0yl0o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Share trading in Elon Musk’s rocket company has been volatile since it went public a month ago.",
-          "published": "2026-07-15T18:11:57+00:00"
-        },
-        {
-          "title": "Canada wildfires leave train 'encased in flames' as smoke drifts towards US",
-          "link": "https://www.bbc.co.uk/news/articles/clyjnnrp2k7o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "The crew was rescued after the close call. Meanwhile, blazes in Canada have left Toronto under a haze and smoke heading towards several major US cities.",
-          "published": "2026-07-15T17:44:54+00:00"
-        },
-        {
-          "title": "Replay of the online media briefing on the total solar eclipse",
-          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/Replay_of_the_online_media_briefing_on_the_total_solar_eclipse",
-          "source": "ESA",
-          "summary": "Video: 00:57:42 ESA experts explain the science of eclipses, including visibility and key opportunities for scientific observation.",
-          "published": "2026-07-15T13:00:00+00:00"
-        },
-        {
-          "title": "See the first x-rays of humans taken in space",
-          "link": "https://www.scientificamerican.com/article/see-the-first-x-rays-of-humans-taken-in-space/",
-          "source": "Scientific American",
-          "summary": "Equipping spacecraft with x-ray machines could boost safety for long-duration spaceflights—like a crewed mission to Mars",
-          "published": "2026-07-15T13:00:00+00:00"
-        },
-        {
-          "title": "Metallic waves on ancient Mars",
-          "link": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Metallic_waves_on_ancient_Mars",
-          "source": "ESA",
-          "summary": "The European Space Agency’s Mars Express has spotted a swathe of metallic-looking waves filling Mars’s large Kaiser Crater – an ancient and otherworldly dune field sculpted by wind.",
-          "published": "2026-07-15T09:00:00+00:00"
-        },
-        {
-          "title": "NASA selects 41 space technologies for future Moon and Mars exploration",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260713084855.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA has chosen 41 commercial technology projects that could solve critical challenges for future missions to the Moon and Mars.",
-          "published": "2026-07-15T07:43:02+00:00"
-        },
-        {
-          "title": "NASA’s Hubble reveals a black hole hiding inside a massive star cluster in the Milky Way",
-          "link": "https://www.scientificamerican.com/article/nasas-hubble-reveals-a-black-hole-hiding-inside-a-massive-star-cluster-in-the-milky-way/",
-          "source": "Scientific American",
-          "summary": "Scientists have long suspected that this star cluster was a hotspot for a certain kind of black hole. But for decades, they had been unable to spot any",
-          "published": "2026-07-14T19:25:00+00:00"
-        },
-        {
-          "title": "Watch: New ISS crew blasts off from Kazakhstan",
-          "link": "https://www.bbc.co.uk/news/videos/ckg4gjwz20qo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "The Soyuz spacecraft will carry Nasa astronaut Anil Menon and cosmonauts Pyotr Dubrov and Anna Kikina to the ISS for an eight-month mission.",
-          "published": "2026-07-14T15:50:33+00:00"
-        },
-        {
-          "title": "Artemis II astronauts visit ESA",
-          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Artemis_II_astronauts_visit_ESA",
-          "source": "ESA",
-          "summary": "Yesterday, the four Artemis II astronauts visited ESA’s technical site in the Netherlands, where they met the team behind the European Service Module that powered their Orion spacecraft around the Moon and safely back…",
-          "published": "2026-07-14T07:49:00+00:00"
-        },
-        {
-          "title": "Bungee-jumping mice may reveal why astronauts skip on the Moon",
-          "link": "https://www.science.org/content/article/bungee-jumping-mice-may-reveal-why-astronauts-skip-moon",
-          "source": "Science (AAAS)",
-          "summary": "Low gravity puts a bounce in the step of humans and rodents alike",
-          "published": "2026-07-14T05:35:00+00:00"
-        },
-        {
-          "title": "NASA's Perseverance just completed a marathon on Mars",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260713084858.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA's Perseverance rover has reached an impressive new milestone on Mars, completing the equivalent of a full marathon by driving 26.2 miles (42.195 kilometers) across the Red Planet.",
-          "published": "2026-07-14T05:32:12+00:00"
-        },
-        {
-          "title": "NASA selects four new Moon missions to build a permanent lunar base",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260713084853.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA is ramping up its lunar ambitions by awarding nearly $600 million for four commercial Moon landings planned for late 2028.",
-          "published": "2026-07-14T04:40:26+00:00"
-        },
-        {
-          "title": "Future moon landings could wipe out clues to how life began on Earth",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260710003537.htm",
-          "source": "ScienceDaily",
-          "summary": "A new study suggests spacecraft exhaust could quickly contaminate the moon's most scientifically valuable regions, potentially masking ancient clues about how life began on Earth.",
-          "published": "2026-07-13T00:48:16+00:00"
-        },
-        {
-          "title": "Europe just unveiled a new rival to SpaceX’s Starship",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260710003526.htm",
-          "source": "ScienceDaily",
-          "summary": "A detailed independent study found that SpaceX's Starship is every bit as revolutionary as expected, while revealing both its impressive capabilities and its biggest remaining hurdles.",
-          "published": "2026-07-11T01:14:33+00:00"
-        },
-        {
-          "title": "China’s Long March 10B rocket successfully launches—and lands—in a global spaceflight milestone",
-          "link": "https://www.scientificamerican.com/article/chinas-long-march-10b-rocket-successfully-launches-and-lands-in-a-global-spaceflight-milestone/",
-          "source": "Scientific American",
-          "summary": "The inaugural launch and first-stage booster recovery of China’s Long March 10B rocket intensifies the nation’s spaceflight rivalry with the U.S.",
-          "published": "2026-07-10T17:10:00+00:00"
-        },
-        {
-          "title": "Is Earth the only planet with total solar eclipses?",
-          "link": "https://www.scientificamerican.com/article/is-earth-the-only-planet-with-total-solar-eclipses/",
-          "source": "Scientific American",
-          "summary": "Other planets have moons, too. Do they get eclipses like we do?",
-          "published": "2026-07-10T10:45:00+00:00"
-        },
-        {
-          "title": "Earth from Space: Great Bear Lake, Canada",
-          "link": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Earth_from_Space_Great_Bear_Lake_Canada",
-          "source": "ESA",
-          "summary": "Image: The Copernicus Sentinel-2 mission captures Canada’s Great Bear Lake in striking colours.",
-          "published": "2026-07-10T08:00:00+00:00"
-        },
-        {
-          "title": "China lands reusable rocket for first time, state media says",
-          "link": "https://www.bbc.co.uk/news/articles/cm2rmmx86pdo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "It follows similar landings of reusable rockets by US-owned companies SpaceX and Blue Origin.",
-          "published": "2026-07-10T06:44:21+00:00"
-        },
-        {
-          "title": "This Mars rover could finally reveal whether life ever existed on Mars",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260707025051.htm",
-          "source": "ScienceDaily",
-          "summary": "The hunt for ancient life on Mars just got an important test run. Scientists confirmed that the Rosalind Franklin rover's sophisticated instrument can detect subtle differences in two stable molecules that could…",
-          "published": "2026-07-09T10:40:52+00:00"
-        },
-        {
-          "title": "Detecting hidden nuclear weapons in space may be possible using cosmic rays",
-          "link": "https://www.scientificamerican.com/article/detecting-hidden-nuclear-weapons-in-space-may-be-possible-using-cosmic-rays/",
-          "source": "Scientific American",
-          "summary": "For almost 60 years, a global ban on nuclear weapons in space has held up. But the growing number of satellites and increasing geopolitical tension has scientists worried the moratorium could fail",
-          "published": "2026-07-08T15:00:00+00:00"
+          "title": "Compact ion engine promises faster trips to the outer planets",
+          "link": "https://example.org/x4",
+          "source": "IEEE Spectrum",
+          "summary": "The thruster ran continuously for months in a vacuum chamber, hinting at efficient deep-space travel.",
+          "published": "2026-07-13T11:15:00+00:00",
+          "regional": false
         }
       ]
     },
@@ -344,172 +227,36 @@
       "accent": "#B98CE0",
       "items": [
         {
-          "title": "NASA's James Webb Space Telescope reveals a strange atmosphere on a hellish lava planet",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260712011743.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA's James Webb Space Telescope has revealed new details about the blistering lava planet 55 Cancri e, where temperatures are high enough to melt rock.",
-          "published": "2026-07-16T03:19:50+00:00"
-        },
-        {
-          "title": "Famous System Has a Third Planet: Beta Pictoris d",
-          "link": "https://skyandtelescope.org/astronomy-news/famous-system-has-a-third-star-beta-pictoris-d/",
-          "source": "Sky & Telescope",
-          "summary": "Two teams of astronomers independently discovered a third giant gas planet orbiting in the famous Beta Pictoris system. The post Famous System Has a Third Planet: Beta Pictoris d appeared first on Sky & Telescope .",
-          "published": "2026-07-15T19:55:44+00:00"
-        },
-        {
-          "title": "Faintest planet ever imaged from Earth found after more than 10 years of hide-and-seek",
-          "link": "https://www.eso.org/public/news/eso2609/",
+          "title": "Webb telescope spots water vapor in a rocky planet's atmosphere",
+          "link": "https://example.org/y1",
           "source": "ESO",
-          "summary": "A team of astronomers have discovered a third planet orbiting the star Beta Pictoris. The new planet, Beta Pictoris d, is 100 times fainter than Beta Pictoris b — the first planet discovered in the same system — and is…",
-          "published": "2026-07-15T12:00:00+00:00"
+          "summary": "Spectra reveal signs of water around a small exoplanet, sharpening the search for habitable worlds.",
+          "published": "2026-07-16T08:15:00+00:00",
+          "regional": false
         },
         {
-          "title": "Astronomers just accidentally spotted the faintest exoplanet ever seen from Earth",
-          "link": "https://www.scientificamerican.com/article/astronomers-just-accidentally-spotted-the-faintest-exoplanet-ever-seen-from-earth/",
-          "source": "Scientific American",
-          "summary": "Beta Pictoris d is more than twice the size of Jupiter, but it is a baby compared to its humongous neighbors",
-          "published": "2026-07-15T12:00:00+00:00"
+          "title": "New radio array in the southern hemisphere maps the early universe",
+          "link": "https://example.org/y2",
+          "source": "ESO",
+          "summary": "First light captured faint hydrogen signals from billions of years ago, revealing early galaxies.",
+          "published": "2026-07-15T14:30:00+00:00",
+          "regional": false
         },
         {
-          "title": "The Perseid meteor shower aligns with a total solar eclipse this year—here’s how to see it",
-          "link": "https://www.scientificamerican.com/article/the-perseid-meteor-shower-aligns-with-a-total-solar-eclipse-this-year-heres-how-to-see-it/",
-          "source": "Scientific American",
-          "summary": "Skygazers are in for a treat in August, as one of the most spectacular meteor showers coincides with a total solar eclipse",
-          "published": "2026-07-15T10:30:00+00:00"
-        },
-        {
-          "title": "August's solar eclipse inspires science involving jets, balloons and Einstein’s general theory of relativity",
-          "link": "https://www.scientificamerican.com/article/augusts-solar-eclipse-inspires-science-involving-jets-balloons-and-einsteins-general-theory-of-relativity/",
-          "source": "Scientific American",
-          "summary": "Solar eclipses are a rare and brief opportunity for scientists to gather data on everything from the physics of the sun to air pressure in the upper atmosphere",
-          "published": "2026-07-15T10:00:00+00:00"
-        },
-        {
-          "title": "Astronomers just found four hidden white dwarf stars near Earth",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260714225528.htm",
-          "source": "ScienceDaily",
-          "summary": "Four nearby white dwarf stars have been discovered hiding in plain sight beside brighter red dwarf companions. Hubble's ultraviolet observations finally revealed the long-hidden stellar remnants, including one just 25…",
-          "published": "2026-07-15T06:30:25+00:00"
-        },
-        {
-          "title": "\"Rogue\" Neptunes Are Detached But Not Alone",
-          "link": "https://skyandtelescope.org/uncategorized/rogue-neptunes-are-detached-but-not-alone/",
+          "title": "Astronomers trace a fast radio burst to a magnetar in a nearby galaxy",
+          "link": "https://example.org/y3",
           "source": "Sky & Telescope",
-          "summary": "\"Rogue\" Neptune-size worlds might not roam the galaxy totally on their own, just very far away from their parent stars. The post \"Rogue\" Neptunes Are Detached But Not Alone appeared first on Sky & Telescope .",
-          "published": "2026-07-14T19:36:34+00:00"
+          "summary": "Precise localization tied one of these millisecond flashes to a highly magnetized neutron star.",
+          "published": "2026-07-14T12:20:00+00:00",
+          "regional": false
         },
         {
-          "title": "NASA’s Hubble reveals a black hole hiding inside a massive star cluster in the Milky Way",
-          "link": "https://www.scientificamerican.com/article/nasas-hubble-reveals-a-black-hole-hiding-inside-a-massive-star-cluster-in-the-milky-way/",
-          "source": "Scientific American",
-          "summary": "Scientists have long suspected that this star cluster was a hotspot for a certain kind of black hole. But for decades, they had been unable to spot any",
-          "published": "2026-07-14T19:25:00+00:00"
-        },
-        {
-          "title": "Are there aliens on exoplanet K2-18b? Scientists just scanned it for signals",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260712011748.htm",
-          "source": "ScienceDaily",
-          "summary": "K2-18b is one of the most promising worlds for the search for extraterrestrial life, so astronomers conducted an unusually powerful radio survey using both the VLA and MeerKAT telescopes.",
-          "published": "2026-07-14T13:04:12+00:00"
-        },
-        {
-          "title": "Astronomers' surprise at discovery of new stars",
-          "link": "https://www.bbc.co.uk/news/articles/ce8k80zpkkdo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "A Warwick University team, working with US astronomers, find four, previously hidden, white dwarf stars.",
-          "published": "2026-07-14T12:15:38+00:00"
-        },
-        {
-          "title": "NASA's Perseverance just completed a marathon on Mars",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260713084858.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA's Perseverance rover has reached an impressive new milestone on Mars, completing the equivalent of a full marathon by driving 26.2 miles (42.195 kilometers) across the Red Planet.",
-          "published": "2026-07-14T05:32:12+00:00"
-        },
-        {
-          "title": "New dark matter theory could solve multiple cosmic mysteries at once",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260711010128.htm",
-          "source": "ScienceDaily",
-          "summary": "Dark matter may be far more complicated than scientists once believed. A new study suggests it could consist of at least two different kinds of particles that slowly separate over time, with heavier particles sinking…",
-          "published": "2026-07-14T02:30:53+00:00"
-        },
-        {
-          "title": "Scientists spot sugar in interstellar space for the first time ever",
-          "link": "https://www.scientificamerican.com/article/scientists-spot-sugar-in-interstellar-space-for-the-first-time-ever/",
-          "source": "Scientific American",
-          "summary": "Erythrulose—a sugar found in raspberries—is also prevalent in a giant molecular cloud close to our galaxy’s core, scientists have discovered",
-          "published": "2026-07-13T15:00:00+00:00"
-        },
-        {
-          "title": "Euclid Telescope Finds Quasars Within 700 Million Years of the Big Bang",
-          "link": "https://skyandtelescope.org/astronomy-news/euclid-telescope-finds-quasars-within-700-million-years-of-the-big-bang/",
+          "title": "Survey finds hundreds of new gravitational lenses with machine help",
+          "link": "https://example.org/y4",
           "source": "Sky & Telescope",
-          "summary": "The sharp-eyed and far-seeing Euclid space telescope has picked up 31 early quasars that have evaded detection until now.",
-          "published": "2026-07-13T12:00:00+00:00"
-        },
-        {
-          "title": "Stephen Hawking's black hole laws just got a major upgrade",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260713000757.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have developed a new framework that could finally apply the laws of thermodynamics to real, ever-changing black holes instead of only perfectly stable ones.",
-          "published": "2026-07-13T10:41:43+00:00"
-        },
-        {
-          "title": "Scrawled signature names a Maya astronomer for the first time",
-          "link": "https://www.science.org/content/article/scrawled-signature-names-maya-astronomer-first-time",
-          "source": "Science (AAAS)",
-          "summary": "The autograph accompanies formulas devised to sync calendars with planetary movement",
-          "published": "2026-07-13T07:01:00+00:00"
-        },
-        {
-          "title": "Physicists recreate black hole energy extraction in the lab",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260711010120.htm",
-          "source": "ScienceDaily",
-          "summary": "Researchers have recreated the physics of extracting energy from a spinning black hole using a stationary device that produces synthetic ultrafast rotation.",
-          "published": "2026-07-12T12:28:41+00:00"
-        },
-        {
-          "title": "Deadly meat allergies from tick bites are on the rise. Should you be worried?",
-          "link": "https://www.scientificamerican.com/article/deadly-meat-allergies-from-tick-bites-are-on-the-rise-should-you-be-worried/",
-          "source": "Scientific American",
-          "summary": "Alpha-gal syndrome is increasing across the U.S., driven by lone star ticks",
-          "published": "2026-07-12T10:30:00+00:00"
-        },
-        {
-          "title": "Is Earth the only planet with total solar eclipses?",
-          "link": "https://www.scientificamerican.com/article/is-earth-the-only-planet-with-total-solar-eclipses/",
-          "source": "Scientific American",
-          "summary": "Other planets have moons, too. Do they get eclipses like we do?",
-          "published": "2026-07-10T10:45:00+00:00"
-        },
-        {
-          "title": "‘Dark’ comets sprouting tails could help solve interstellar mysteries",
-          "link": "https://www.scientificamerican.com/article/dark-comets-sprouting-tails-could-help-solve-interstellar-mysteries/",
-          "source": "Scientific American",
-          "summary": "A strange class of comet could explain the enigmatic behavior of ‘Oumuamua, the first known interstellar object—and even shed light on how Earth became habitable",
-          "published": "2026-07-10T09:00:00+00:00"
-        },
-        {
-          "title": "The galaxy’s coldest “stars” may actually be alien megastructures",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260710003524.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have identified new clues that could help astronomers spot one of the most famous hypothetical alien megastructures: a Dyson sphere.",
-          "published": "2026-07-10T06:04:44+00:00"
-        },
-        {
-          "title": "Physicists created a tiny universe where time emerged without a clock",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260709160632.htm",
-          "source": "ScienceDaily",
-          "summary": "What if time doesn't actually exist until something changes? Scientists at the University of Birmingham created a tiny \"mini universe\" using 24,000 ultracold atoms and showed that the flow of time can emerge naturally…",
-          "published": "2026-07-09T23:46:43+00:00"
-        },
-        {
-          "title": "This alien planet never has sunrise or sunset. It may support life",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260709160657.htm",
-          "source": "ScienceDaily",
-          "summary": "A planet with one side permanently roasting and the other frozen in endless darkness might still have a chance of supporting life.",
-          "published": "2026-07-09T21:27:22+00:00"
+          "summary": "The lenses act as natural telescopes, magnifying distant galaxies for closer study.",
+          "published": "2026-07-13T09:50:00+00:00",
+          "regional": false
         }
       ]
     }

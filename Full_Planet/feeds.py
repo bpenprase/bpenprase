@@ -32,11 +32,39 @@ BBC_SCIENCE = "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
 SCIENCE_AAAS = "https://www.science.org/rss/news_current.xml"
 BROAD = [SCIAM, BBC_SCIENCE, SCIENCE_AAAS]
 
+# ---- regional / Global South feeds (second pass, appended after primary) ----
+# These broaden coverage to science from China, India, Africa, Latin America,
+# and the wider Global South. English-language RSS is scarce for some regions
+# (notably China, where most English science coverage is state-affiliated or
+# paywalled), so this set leans on the strongest independent feeds available:
+#   - SciDev.Net: the leading Global South science outlet (Africa, Asia, LatAm)
+#   - The Hindu (Science): one of India's most respected science desks
+#   - Indian Express (Technology): strong Indian science & space coverage
+#   - The Conversation (Africa): African academics writing on African research
+#   - Down To Earth: India-based environment/science (energy, water)
+# All are run through each channel's filter, so only on-topic stories appear.
+SCIDEV = "https://www.scidev.net/global/global_rss.xml"
+HINDU_SCI = "https://www.thehindu.com/sci-tech/science/feeder/default.rss"
+HINDU_TECH = "https://www.thehindu.com/sci-tech/technology/feeder/default.rss"
+INDIAN_EXPRESS_TECH = "https://indianexpress.com/section/technology/feed/"
+CONVERSATION_AFRICA = "https://theconversation.com/africa/articles.atom"
+DOWN_TO_EARTH = "https://www.downtoearth.org.in/rss/all"
+
+# Regional set reused across most channels; space/astronomy add India space news.
+REGIONAL = [SCIDEV, HINDU_SCI, INDIAN_EXPRESS_TECH, CONVERSATION_AFRICA]
+
 CHANNELS = {
     "ai": {
         "name": "Artificial Intelligence",
         "tagline": "AI put to work in science and engineering \u2014 new materials, proteins, medicines, and discoveries.",
         "accent": "#5AA9E6",
+        "regional_feeds": REGIONAL,
+        "regional_filter": {
+            "require": ["AI", "A.I.", "artificial intelligence", "machine learning",
+                        "neural network", "deep learning", "algorithm", "generative"],
+            "include": [],  # any AI story from the Global South qualifies
+            "exclude": ["chatbot subscription", "stock", "valuation"],
+        },
         "feeds": [
             "https://www.technologyreview.com/topic/artificial-intelligence/feed",
             "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
@@ -89,6 +117,13 @@ CHANNELS = {
         "name": "Advanced Materials",
         "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
         "accent": "#E8A13A",
+        "regional_feeds": REGIONAL + [DOWN_TO_EARTH],
+        "regional_filter": {
+            "require": ["material", "nanotech", "nanomaterial", "biosensor",
+                        "polymer", "molecule", "catalyst", "chemistry", "graphene",
+                        "coating", "membrane", "semiconductor", "battery", "alloy"],
+            "include": [], "exclude": [],
+        },
         "feeds": [
             "https://www.sciencedaily.com/rss/matter_energy/materials_science.xml",
             "https://www.sciencedaily.com/rss/matter_energy/nanotechnology.xml",
@@ -113,6 +148,7 @@ CHANNELS = {
         "name": "Synthetic Biology",
         "tagline": "Engineered organisms and programmed DNA \u2014 cells built for computing, data storage, and chemical synthesis.",
         "accent": "#5FBF9B",
+        "regional_feeds": REGIONAL,
         "feeds": [
             "https://www.sciencedaily.com/rss/plants_animals/biotechnology.xml",
             "https://www.sciencedaily.com/rss/plants_animals/genetically_modified.xml",
@@ -153,6 +189,15 @@ CHANNELS = {
         "name": "Energy & Water",
         "tagline": "New ways to generate clean energy, capture carbon, and bring fresh water and power to people, cities, and transport.",
         "accent": "#33C6D6",
+        "regional_feeds": REGIONAL + [DOWN_TO_EARTH],
+        "regional_filter": {
+            "require": ["solar", "wind", "renewable", "battery", "hydrogen",
+                        "clean energy", "clean water", "drinking water", "water access",
+                        "desalination", "sanitation", "grid", "electricity access",
+                        "off-grid", "solar power", "biogas", "irrigation", "groundwater",
+                        "power", "energy", "water purification", "microgrid"],
+            "include": [], "exclude": ["dinosaur", "wildlife"],
+        },
         "feeds": [
             "https://www.sciencedaily.com/rss/matter_energy/energy_technology.xml",
             "https://www.sciencedaily.com/rss/matter_energy/solar_energy.xml",
@@ -203,6 +248,13 @@ CHANNELS = {
         "name": "Space Exploration",
         "tagline": "New missions, spacecraft, and technologies \u2014 NASA, ESA, ISRO, JAXA, SpaceX, CNES, and more.",
         "accent": "#F0894E",
+        "regional_feeds": [SCIDEV, HINDU_SCI, HINDU_TECH, INDIAN_EXPRESS_TECH],
+        "regional_filter": {
+            "require": ["ISRO", "space", "rocket", "launch", "satellite", "mission",
+                        "spacecraft", "Chandrayaan", "Gaganyaan", "orbit", "lunar",
+                        "astronaut", "moon", "Mars", "PSLV", "GSLV", "space agency"],
+            "include": [], "exclude": [],
+        },
         "feeds": [
             "https://www.nasa.gov/feed/",
             "https://www.esa.int/rssfeed/Our_Activities/Human_and_Robotic_Exploration",
@@ -234,6 +286,14 @@ CHANNELS = {
         "name": "Astronomy & Astrophysics",
         "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
         "accent": "#B98CE0",
+        "regional_feeds": [SCIDEV, HINDU_SCI, INDIAN_EXPRESS_TECH],
+        "regional_filter": {
+            "require": ["galaxy", "star", "cosmic", "telescope", "astronomer",
+                        "astronomy", "astrophysics", "black hole", "universe",
+                        "exoplanet", "supernova", "cosmology", "observatory",
+                        "planet", "nebula", "asteroid", "comet"],
+            "include": [], "exclude": [],
+        },
         "feeds": [
             "https://www.sciencedaily.com/rss/space_time/astronomy.xml",
             "https://www.eso.org/public/news/feed/",

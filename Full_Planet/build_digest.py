@@ -26,7 +26,8 @@ import feedparser
 from feeds import CHANNELS
 
 # ---- tuning knobs -----------------------------------------------------------
-MAX_ITEMS_PER_CHANNEL = 24      # how many headlines to show per channel
+MAX_ITEMS_PER_CHANNEL = 24      # how many primary headlines to show per channel
+MAX_REGIONAL_PER_CHANNEL = 10   # how many regional (2nd-pass) items to append
 LOOKBACK_DAYS = 14             # ignore anything older than this
 SNIPPET_CHARS = 220           # target length of the one-to-two sentence blurb
 FETCH_TIMEOUT = 25            # seconds to wait per feed before giving up
@@ -197,6 +198,13 @@ SOURCE_NAMES = {
     "physicsworld.com": "Physics World",
     "eos.org": "AGU Eos",
     "restofworld.org": "Rest of World",
+    # regional / Global South sources
+    "scidev.net": "SciDev.Net",
+    "thehindu.com": "The Hindu",
+    "indianexpress.com": "Indian Express",
+    "theconversation.com": "The Conversation",
+    "downtoearth.org.in": "Down To Earth",
+    "dialogue.earth": "Dialogue Earth",
 }
 
 
@@ -212,24 +220,25 @@ def source_name(feed_meta, url: str) -> str:
     return host
 
 
-def gather_channel(channel_key: str, channel: dict) -> dict:
-    cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=LOOKBACK_DAYS)
-    flt = compile_filter(channel.get("filter"))
-    items = []
-    seen_links = set()
+def harvest(feed_urls, flt, cutoff, seen_links, region_label=None):
+    """
+    Fetch a list of feeds, filter their entries, and return matching items.
+    Shared by both the primary pass and the regional (second) pass.
+    `seen_links` is shared across passes so the same story never appears twice.
+    """
+    out = []
     filtered_out = 0
-
-    for feed_url in channel["feeds"]:
+    for feed_url in feed_urls:
         parsed = fetch_feed(feed_url)
         if parsed is None:
             continue
 
-        # feedparser sets .bozo when a feed is malformed or unreachable
         n_entries = len(parsed.entries)
         if n_entries == 0:
             print(f"    ! FEED EMPTY (check URL): {feed_url}")
         else:
-            print(f"    \u00b7 {n_entries:>3} items from {feed_url}")
+            tag = " [regional]" if region_label else ""
+            print(f"    \u00b7 {n_entries:>3} items from {feed_url}{tag}")
 
         src = source_name(parsed.feed, feed_url)
         for entry in parsed.entries:
@@ -246,37 +255,63 @@ def gather_channel(channel_key: str, channel: dict) -> dict:
                 entry.get("summary") or entry.get("description") or ""
             )
 
-            # topic filter: title + summary must clear the channel's keywords
             if flt and not passes_filter(title + " " + summary, flt):
                 filtered_out += 1
                 continue
 
             seen_links.add(link)
-            items.append(
-                {
-                    "title": title,
-                    "link": link,
-                    "source": src,
-                    "summary": summary,
-                    "published": when.isoformat() if when else None,
-                    # sort key: unknown dates sink to the bottom
-                    "_sort": when.timestamp() if when else 0,
-                }
-            )
+            out.append({
+                "title": title,
+                "link": link,
+                "source": src,
+                "summary": summary,
+                "published": when.isoformat() if when else None,
+                "regional": bool(region_label),
+                "_sort": when.timestamp() if when else 0,
+            })
+    return out, filtered_out
 
-    items.sort(key=lambda x: x["_sort"], reverse=True)
+
+def gather_channel(channel_key: str, channel: dict) -> dict:
+    cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=LOOKBACK_DAYS)
+    flt = compile_filter(channel.get("filter"))
+    seen_links = set()
+
+    # ---- PASS 1: primary high-quality feeds ----
+    primary, primary_dropped = harvest(
+        channel["feeds"], flt, cutoff, seen_links
+    )
+    primary.sort(key=lambda x: x["_sort"], reverse=True)
+    primary = primary[:MAX_ITEMS_PER_CHANNEL]
+
+    # ---- PASS 2: regional / Global South feeds, appended AFTER ----
+    regional = []
+    if channel.get("regional_feeds"):
+        print("    -- second pass: regional sources --")
+        # A channel may use a looser filter for its regional pass (some regional
+        # outlets phrase things differently); fall back to the main filter.
+        rflt = compile_filter(channel.get("regional_filter") or channel.get("filter"))
+        regional, regional_dropped = harvest(
+            channel["regional_feeds"], rflt, cutoff, seen_links,
+            region_label="regional"
+        )
+        regional.sort(key=lambda x: x["_sort"], reverse=True)
+        regional = regional[:MAX_REGIONAL_PER_CHANNEL]
+        print(f"      (regional kept {len(regional)}, set aside {regional_dropped})")
+
+    items = primary + regional
     for it in items:
         it.pop("_sort", None)
 
     if flt:
-        print(f"      (topic filter kept {len(items)}, set aside {filtered_out})")
+        print(f"      (primary filter kept {len(primary)}, set aside {primary_dropped})")
 
     return {
         "key": channel_key,
         "name": channel["name"],
         "tagline": channel["tagline"],
         "accent": channel["accent"],
-        "items": items[:MAX_ITEMS_PER_CHANNEL],
+        "items": items,
     }
 
 

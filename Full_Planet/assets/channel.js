@@ -59,11 +59,20 @@
         return;
       }
 
+      let regionalStarted = false;
       feedEl.innerHTML = channel.items
         .map((it) => {
           const date = fmtDate(it.published);
+          let divider = "";
+          if (it.regional && !regionalStarted) {
+            regionalStarted = true;
+            divider =
+              '<div class="region-divider"><span>More from around the world</span></div>';
+          }
           return (
-            '<a class="entry" href="' + esc(it.link) + '" target="_blank" rel="noopener">' +
+            divider +
+            '<a class="entry' + (it.regional ? " regional" : "") + '" href="' +
+            esc(it.link) + '" target="_blank" rel="noopener">' +
             (date ? '<div class="entry-top"><span class="date">' + date + "</span></div>" : "") +
             "<h2>" + esc(it.title) + '<span class="arrow">→</span></h2>' +
             (it.summary ? '<p class="summary">' + esc(it.summary) + "</p>" : "") +
