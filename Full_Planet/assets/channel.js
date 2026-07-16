@@ -64,12 +64,10 @@
           const date = fmtDate(it.published);
           return (
             '<a class="entry" href="' + esc(it.link) + '" target="_blank" rel="noopener">' +
-            '<div class="entry-top">' +
-            '<span class="src">' + esc(it.source) + "</span>" +
-            (date ? '<span class="dot">•</span><span class="date">' + date + "</span>" : "") +
-            "</div>" +
+            (date ? '<div class="entry-top"><span class="date">' + date + "</span></div>" : "") +
             "<h2>" + esc(it.title) + '<span class="arrow">→</span></h2>' +
             (it.summary ? '<p class="summary">' + esc(it.summary) + "</p>" : "") +
+            '<p class="src-line">Source: <span class="src-name">' + esc(it.source) + "</span></p>" +
             "</a>"
           );
         })

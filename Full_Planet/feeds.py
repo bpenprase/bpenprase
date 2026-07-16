@@ -8,22 +8,57 @@ Europe, China, India, and the Global South wherever public feeds exist.
 To add a source: find its RSS feed URL and drop it into the right channel.
 To create a new channel: add a new entry with name/tagline/accent/feeds.
 
+A channel may also carry an optional "filter" with include/exclude keyword
+lists (see the "ai" and "synbio" channels). A story is kept only if it matches
+an include term and avoids every exclude term; exclude always wins.
+
 Accent colors are per-channel and echoed by the website.
+
+Note: phys.org feeds were intentionally removed in favor of higher-quality,
+more distinctive sources.
 """
 
 CHANNELS = {
     "ai": {
         "name": "Artificial Intelligence",
-        "tagline": "Machine intelligence turned toward medicine, materials, energy, and discovery.",
+        "tagline": "AI put to work in science and engineering \u2014 new materials, proteins, medicines, and discoveries.",
         "accent": "#5AA9E6",   # luminous blue
         "feeds": [
             "https://www.technologyreview.com/topic/artificial-intelligence/feed",
             "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
-            "https://phys.org/rss-feed/technology-news/machine-learning-ai/",
             "https://spectrum.ieee.org/topic/artificial-intelligence/feed",
             "https://www.quantamagazine.org/feed/",
-            "https://restofworld.org/feed/latest/",
+            "https://www.nature.com/subjects/machine-learning.rss",
+            "https://www.sciencedaily.com/rss/matter_energy/materials_science.xml",
         ],
+        # This channel is specifically AI FOR SCIENCE & ENGINEERING, not
+        # general AI industry/policy/product news. Keep a story only if it
+        # connects machine intelligence to research or engineering, and drop
+        # the chatbot / gadget / business / regulation coverage.
+        "filter": {
+            "include": [
+                "protein", "materials", "material", "molecule", "molecular",
+                "drug discovery", "drug design", "catalyst", "chemistry",
+                "genomics", "genome", "biology", "biological", "medicine",
+                "medical", "clinical", "diagnosis", "disease", "cancer",
+                "physics", "quantum", "climate", "weather", "fusion",
+                "battery", "solar", "energy", "engineering", "engineer",
+                "simulation", "simulate", "microscopy", "telescope",
+                "astronomy", "astrophysics", "neuroscience", "brain",
+                "crystal", "semiconductor", "superconductor", "chip design", "robotics",
+                "scientific discovery", "research", "laboratory", "experiment",
+                "prediction", "predict", "model predicts", "AlphaFold",
+                "algorithm discovers", "machine learning model", "enzyme",
+            ],
+            "exclude": [
+                "chatbot", "chatbots", "copilot", "smartphone", "gadget",
+                "stock", "shares", "valuation", "startup funding", "raises $",
+                "lawsuit", "regulation", "regulators", "copyright",
+                "layoffs", "hiring", "CEO", "advertising", "social media",
+                "deepfake", "election", "misinformation", "chatgpt subscription",
+                "app store", "gaming", "video game", "influencer",
+            ],
+        },
     },
     "materials": {
         "name": "Advanced Materials",
@@ -31,9 +66,9 @@ CHANNELS = {
         "accent": "#E8A13A",   # warm amber
         "feeds": [
             "https://www.sciencedaily.com/rss/matter_energy/materials_science.xml",
-            "https://phys.org/rss-feed/chemistry-news/materials-science/",
             "https://www.sciencedaily.com/rss/matter_energy/nanotechnology.xml",
-            "https://phys.org/rss-feed/nanotech-news/",
+            "https://www.nature.com/subjects/materials-science.rss",
+            "https://www.sciencedaily.com/rss/matter_energy/chemistry.xml",
         ],
     },
     "synbio": {
@@ -42,17 +77,11 @@ CHANNELS = {
         "accent": "#5FBF9B",   # living green
         "feeds": [
             "https://www.sciencedaily.com/rss/plants_animals/biotechnology.xml",
-            "https://phys.org/rss-feed/biology-news/biotechnology/",
             "https://www.sciencedaily.com/rss/plants_animals/genetically_modified.xml",
             "https://www.sciencedaily.com/rss/plants_animals/genetic_engineering.xml",
-            "https://phys.org/rss-feed/biology-news/molecular-biology/",
+            "https://www.nature.com/subjects/synthetic-biology.rss",
             "https://press.asimov.com/feed",
         ],
-        # Biology is enormous. This channel is specifically SYNTHETIC BIOLOGY:
-        # human-designed organisms and directly programmed cells and DNA.
-        # An item is kept only if it matches an "include" term AND avoids the
-        # "exclude" terms (which strip out ordinary medical-genetics and
-        # disease-biology stories that these broad feeds also carry).
         "filter": {
             "include": [
                 "synthetic biology", "synthetic cell", "synthetic organism",
@@ -94,9 +123,8 @@ CHANNELS = {
             "https://www.sciencedaily.com/rss/matter_energy/energy_technology.xml",
             "https://www.sciencedaily.com/rss/matter_energy/solar_energy.xml",
             "https://www.sciencedaily.com/rss/earth_climate/renewable_energy.xml",
-            "https://phys.org/rss-feed/technology-news/energy-green-tech/",
             "https://www.sciencedaily.com/rss/earth_climate/water.xml",
-            "https://phys.org/rss-feed/earth-news/environment/",
+            "https://www.nature.com/subjects/energy.rss",
         ],
     },
     "spaceexploration": {
@@ -106,7 +134,6 @@ CHANNELS = {
         "feeds": [
             "https://www.nasa.gov/feed/",
             "https://www.esa.int/rssfeed/Our_Activities/Human_and_Robotic_Exploration",
-            "https://phys.org/rss-feed/space-news/space-exploration/",
             "https://www.sciencedaily.com/rss/space_time/space_exploration.xml",
             "https://spectrum.ieee.org/topic/aerospace/feed",
         ],
@@ -117,11 +144,10 @@ CHANNELS = {
         "accent": "#B98CE0",   # nebula violet
         "feeds": [
             "https://www.sciencedaily.com/rss/space_time/astronomy.xml",
-            "https://phys.org/rss-feed/space-news/astronomy/",
             "https://www.eso.org/public/news/feed/",
             "https://skyandtelescope.org/feed/",
             "https://www.sciencedaily.com/rss/space_time/astrophysics.xml",
-            "https://phys.org/rss-feed/space-news/astronomy/cosmology/",
+            "https://www.nature.com/subjects/astronomy-and-planetary-science.rss",
         ],
     },
 }

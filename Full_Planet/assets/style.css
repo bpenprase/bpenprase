@@ -216,20 +216,22 @@ main,.site-head,.site-foot{position:relative;z-index:1;}
   transform:translateX(3px);
 }
 .entry-top{
-  display:flex;align-items:center;gap:10px;margin-bottom:8px;flex-wrap:wrap;
+  display:flex;align-items:center;gap:10px;margin-bottom:6px;flex-wrap:wrap;
 }
-.entry .src{
-  font-size:.76rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;
-  color:var(--accent);
+.entry .date{
+  font-size:.78rem;color:var(--muted-dim);letter-spacing:.04em;
+  text-transform:uppercase;font-weight:600;
 }
-.entry .dot{color:var(--muted-dim);font-size:.7rem;}
-.entry .date{font-size:.8rem;color:var(--muted-dim);}
 .entry h2{
   font-family:"Fraunces",serif;font-weight:500;font-size:1.28rem;line-height:1.25;
   margin:0 0 8px;
 }
 .entry:hover h2{color:#fff;}
-.entry .summary{color:var(--muted);font-size:.98rem;margin:0;}
+.entry .summary{color:var(--muted);font-size:.98rem;margin:0 0 10px;}
+.entry .src-line{
+  font-size:.78rem;color:var(--muted-dim);margin:0;letter-spacing:.01em;
+}
+.entry .src-name{color:var(--accent);font-weight:600;}
 .entry .arrow{
   color:var(--accent);opacity:0;margin-left:6px;transition:opacity .2s;
 }

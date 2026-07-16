@@ -37,14 +37,17 @@ def as_word_pattern(term: str) -> re.Pattern:
 
     - Multi-word phrases (e.g. "DNA data storage") match as a phrase.
     - Single alphabetic words match on word boundaries so "gene" does not
-      match "generous" and "cell" does not match "excellent".
+      match "generous" and "cell" does not match "excellent". Single words
+      also match a simple plural, so "protein" matches "proteins" and
+      "catalyst" matches "catalysts".
     - Terms that already contain non-word characters (like "CRISPR-") are
       used as-is.
     """
     term = term.strip()
     if " " in term or not term.isalnum():
         return re.compile(re.escape(term), re.IGNORECASE)
-    return re.compile(r"\b" + re.escape(term) + r"\b", re.IGNORECASE)
+    # allow an optional simple plural ending (s / es) on single words
+    return re.compile(r"\b" + re.escape(term) + r"(?:es|s)?\b", re.IGNORECASE)
 
 
 def passes_filter(text: str, flt: dict) -> bool:
