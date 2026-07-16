@@ -17,6 +17,8 @@ import html
 import datetime as dt
 from pathlib import Path
 from urllib.parse import urlparse
+from urllib.request import Request, urlopen
+from urllib.error import URLError, HTTPError
 
 import feedparser
 
@@ -26,7 +28,43 @@ from feeds import CHANNELS
 MAX_ITEMS_PER_CHANNEL = 24      # how many headlines to show per channel
 LOOKBACK_DAYS = 14             # ignore anything older than this
 SNIPPET_CHARS = 220           # target length of the one-to-two sentence blurb
+FETCH_TIMEOUT = 25            # seconds to wait per feed before giving up
+# A real browser-like User-Agent. Several major outlets (Scientific American,
+# BBC, and others) reject or throttle the default Python/feedparser agent, so
+# we present a normal browser UA to fetch the feed bytes ourselves.
+USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/124.0 Safari/537.36 FullPlanet/1.0 (+https://github.com)"
+)
 # -----------------------------------------------------------------------------
+
+
+def fetch_feed(url: str):
+    """
+    Fetch a feed's raw bytes with a browser-like User-Agent, following
+    redirects, then hand the content to feedparser. Returns a parsed feed
+    object, or None if the fetch failed outright.
+
+    This is more robust than feedparser.parse(url) because many outlets block
+    the default feedparser User-Agent (returning 403/empty), which was causing
+    Scientific American and BBC to silently return nothing.
+    """
+    req = Request(url, headers={
+        "User-Agent": USER_AGENT,
+        "Accept": "application/rss+xml, application/xml, text/xml, */*",
+    })
+    try:
+        with urlopen(req, timeout=FETCH_TIMEOUT) as resp:
+            raw = resp.read()
+    except HTTPError as exc:
+        print(f"    ! HTTP {exc.code} for {url}")
+        return None
+    except (URLError, TimeoutError, Exception) as exc:   # noqa: BLE001
+        print(f"    ! fetch error for {url}: {exc}")
+        return None
+    return feedparser.parse(raw)
+
 
 OUT = Path(__file__).parent / "data" / "digest.json"
 
@@ -120,12 +158,41 @@ def entry_datetime(entry) -> dt.datetime | None:
     return None
 
 
+# Map feed domains to clean, human-friendly source names. Falls back to the
+# feed's own title (tidied) or the domain if a source isn't listed here.
+SOURCE_NAMES = {
+    "rss.sciam.com": "Scientific American",
+    "scientificamerican.com": "Scientific American",
+    "feeds.bbci.co.uk": "BBC Science",
+    "bbc.co.uk": "BBC Science",
+    "science.org": "Science (AAAS)",
+    "nature.com": "Nature",
+    "sciencedaily.com": "ScienceDaily",
+    "rss.sciencedaily.com": "ScienceDaily",
+    "technologyreview.com": "MIT Technology Review",
+    "spectrum.ieee.org": "IEEE Spectrum",
+    "quantamagazine.org": "Quanta Magazine",
+    "press.asimov.com": "Asimov Press",
+    "nasa.gov": "NASA",
+    "esa.int": "ESA",
+    "eso.org": "ESO",
+    "skyandtelescope.org": "Sky & Telescope",
+    "physicsworld.com": "Physics World",
+    "eos.org": "AGU Eos",
+    "restofworld.org": "Rest of World",
+}
+
+
 def source_name(feed_meta, url: str) -> str:
+    host = urlparse(url).netloc.replace("www.", "")
+    if host in SOURCE_NAMES:
+        return SOURCE_NAMES[host]
     title = feed_meta.get("title")
     if title:
-        # trim common noise like " - RSS" or " | Latest"
-        return re.sub(r"\s*[|\-–].*(rss|feed|latest|news)\s*$", "", title, flags=re.I).strip() or title
-    return urlparse(url).netloc.replace("www.", "")
+        # trim common noise like " - RSS", " | Latest", " Content: Global"
+        cleaned = re.sub(r"\s*[:|\-–].*$", "", title).strip()
+        return cleaned or title
+    return host
 
 
 def gather_channel(channel_key: str, channel: dict) -> dict:
@@ -136,10 +203,8 @@ def gather_channel(channel_key: str, channel: dict) -> dict:
     filtered_out = 0
 
     for feed_url in channel["feeds"]:
-        try:
-            parsed = feedparser.parse(feed_url)
-        except Exception as exc:                     # noqa: BLE001
-            print(f"    ! FEED FAILED: {feed_url} ({exc})")
+        parsed = fetch_feed(feed_url)
+        if parsed is None:
             continue
 
         # feedparser sets .bozo when a feed is malformed or unreachable

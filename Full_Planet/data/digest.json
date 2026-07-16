@@ -1,181 +1,42 @@
 {
-  "generated": "2026-07-16T09:56:34.454325+00:00",
-  "generated_human": "16 July 2026, 09:56 UTC",
-  "total_items": 120,
+  "generated": "2026-07-16T09:00:00+00:00",
+  "generated_human": "16 July 2026, 09:00 UTC",
+  "total_items": 24,
+  "note": "Sample data for layout preview. Replaced automatically by live feeds when build_digest.py runs.",
   "channels": [
     {
       "key": "ai",
       "name": "Artificial Intelligence",
-      "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
+      "tagline": "Machine intelligence turned toward medicine, materials, energy, and discovery.",
       "accent": "#5AA9E6",
       "items": [
         {
-          "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
-          "link": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
-          "source": "Artificial intelligence – MIT Technology Review",
-          "summary": "OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring partner to help its other models boost their defenses against cyberattacks.",
-          "published": "2026-07-15T17:09:37+00:00"
+          "title": "AI model designs enzymes that break down PET plastic at room temperature",
+          "link": "https://example.org/a1",
+          "source": "MIT Technology Review",
+          "summary": "A generative protein model proposed candidate enzymes; three degraded common bottle plastic in hours during lab tests.",
+          "published": "2026-07-16T07:12:00+00:00"
         },
         {
-          "title": "This AI Folds DNA Into Mini Masterpieces",
-          "link": "https://spectrum.ieee.org/ai-dna-origami",
-          "source": "IEEE Spectrum",
-          "summary": "Shaped like dogs, stars, and the Mona Lisa, you could mistake these DNA structures for fun-shaped macaroni if they weren’t only nanometers wide.",
-          "published": "2026-07-15T13:00:01+00:00"
+          "title": "Machine learning speeds hunt for room-temperature superconductors",
+          "link": "https://example.org/a2",
+          "source": "Quanta Magazine",
+          "summary": "A model trained on known crystal structures ranked thousands of untested compounds, narrowing the search.",
+          "published": "2026-07-15T15:40:00+00:00"
         },
         {
-          "title": "CenSegNet: a generalist high-throughput deep learning framework for centrosome phenotyping at spatial and single-cell resolution in heterogeneous tissues",
-          "link": "https://www.nature.com/articles/s41467-026-75393-y",
-          "source": "Machine learning : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
+          "title": "Diagnostic AI matches specialists on rare childhood diseases in India trial",
+          "link": "https://example.org/a3",
+          "source": "SciDev.Net",
+          "summary": "A tool developed with hospitals in Bengaluru flagged uncommon genetic conditions from routine records.",
+          "published": "2026-07-15T09:05:00+00:00"
         },
         {
-          "title": "AI avatars are reshaping society in China — the law is trying to catch up",
-          "link": "https://www.nature.com/articles/d41586-026-01674-7",
-          "source": "Machine learning : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
-        },
-        {
-          "title": "Doctored data sets could trick AI agents",
-          "link": "https://www.nature.com/articles/d41586-026-02071-w",
-          "source": "Machine learning : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
-        },
-        {
-          "title": "How I Turned AI to the Dark Side",
-          "link": "https://spectrum.ieee.org/jailbreaking-llms",
-          "source": "IEEE Spectrum",
-          "summary": "Summary Researcher Dave Kuszmar discovered multiple systemic vulnerabilities that let him bypass LLM safety and obtain dangerous instructions .",
-          "published": "2026-07-14T15:59:35+00:00"
-        },
-        {
-          "title": "Alan Turing's biggest AI assumption may have been wrong",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260713084850.htm",
-          "source": "Artificial Intelligence News -- ScienceDaily",
-          "summary": "A new book claims AI has been built on a flawed assumption dating back to Alan Turing's famous 1950 paper. Peter J.",
-          "published": "2026-07-14T03:12:35+00:00"
-        },
-        {
-          "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
-          "link": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
-          "source": "Artificial intelligence – MIT Technology Review",
-          "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here.",
-          "published": "2026-07-13T18:00:00+00:00"
-        },
-        {
-          "title": "The AI Arms Race in Technical Interviews Is Escalating",
-          "link": "https://spectrum.ieee.org/technical-interview-ai-arms-race",
-          "source": "IEEE Spectrum",
-          "summary": "Software engineering jobs are under threat from artificial intelligence . Some applicants are fighting back by using AI in the interview process, employing AI assistants that suggest responses on the fly during remote…",
-          "published": "2026-07-13T15:15:03+00:00"
-        },
-        {
-          "title": "Building a Foundation Stack for General-Purpose Robots",
-          "link": "https://spectrum.ieee.org/x-square-robot-embodied-ai-stack",
-          "source": "IEEE Spectrum",
-          "summary": "This article is brought to you by X Square Robot . Large language models gave artificial intelligence a working recipe. Pretrain a large model on broad data, and general capability follows. Robotics has no such recipe.",
-          "published": "2026-07-13T10:19:51+00:00"
-        },
-        {
-          "title": "Prediction of microvascular invasion in hepatocellular carcinoma using contrast-enhanced ultrasound and deep learning",
-          "link": "https://www.nature.com/articles/s41467-026-74985-y",
-          "source": "Machine learning : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-10T00:00:00+00:00"
-        },
-        {
-          "title": "Four questions for AI-ready biological data",
-          "link": "https://www.nature.com/articles/s42256-026-01270-4",
-          "source": "Machine learning : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-10T00:00:00+00:00"
-        },
-        {
-          "title": "Which ‘AI scientist’ suits your lab? A guide for the perplexed",
-          "link": "https://www.nature.com/articles/d41586-026-02091-6",
-          "source": "Machine learning : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-10T00:00:00+00:00"
-        },
-        {
-          "title": "Anthropic found a hidden space where Claude puzzles over concepts",
-          "link": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
-          "source": "Artificial intelligence – MIT Technology Review",
-          "summary": "The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what’s really going on inside large language models as they answer questions or carry out tasks.",
-          "published": "2026-07-09T20:22:28+00:00"
-        },
-        {
-          "title": "A unified vision-language model for precision oncology and biomarker prediction in neuroblastoma",
-          "link": "https://www.nature.com/articles/s41467-026-74865-5",
-          "source": "Machine learning : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-09T00:00:00+00:00"
-        },
-        {
-          "title": "Decoding cancer circulating transcriptomic signatures with language models",
-          "link": "https://www.nature.com/articles/s41467-026-74411-3",
-          "source": "Machine learning : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-09T00:00:00+00:00"
-        },
-        {
-          "title": "AI Models Overthink Problems—and It’s a Security Risk",
-          "link": "https://spectrum.ieee.org/ai-reasoning-models-security-risk",
-          "source": "IEEE Spectrum",
-          "summary": "Large language models (LLMs) that can think through problems step-by-step have significantly increased the scope of tasks that AI can tackle.",
-          "published": "2026-07-08T11:00:01+00:00"
-        },
-        {
-          "title": "What Makes AI Art Worth Collecting?",
-          "link": "https://spectrum.ieee.org/ai-art-market",
-          "source": "IEEE Spectrum",
-          "summary": "In May, an anonymous artist who goes by SHL0MS on X posted that he had used AI to generate an image inspired by Claude Monet and asked people to weigh in on how it missed the mark.",
-          "published": "2026-07-07T14:00:02+00:00"
-        },
-        {
-          "title": "The foundational elements of AI architecture that IT leaders need to scale",
-          "link": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
-          "source": "Artificial intelligence – MIT Technology Review",
-          "summary": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow.",
-          "published": "2026-07-07T11:10:52+00:00"
-        },
-        {
-          "title": "‘Humanizer’ tool can erase signs of AI-written text — alarming scientists",
-          "link": "https://www.nature.com/articles/d41586-026-02105-3",
-          "source": "Machine learning : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-07T00:00:00+00:00"
-        },
-        {
-          "title": "Your family’s $300 stake in OpenAI",
-          "link": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
-          "source": "Artificial intelligence – MIT Technology Review",
-          "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here.",
-          "published": "2026-07-06T18:00:00+00:00"
-        },
-        {
-          "title": "Small AI Models Gain Traction Around the World",
-          "link": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals",
-          "source": "IEEE Spectrum",
-          "summary": "One morning in 2019, Adebayo Alonge was in a Cape Town hotel room, preparing to demonstrate his startup’s AI answer to a serious problem in African health care: counterfeit medication, which kills thousands of people…",
-          "published": "2026-07-06T16:06:23+00:00"
-        },
-        {
-          "title": "Universities are relying on AI-detection software to catch cheating. How well do the programs work?",
-          "link": "https://www.nature.com/articles/d41586-026-01358-2",
-          "source": "Machine learning : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-06T00:00:00+00:00"
-        },
-        {
-          "title": "Interpretable deep learning to predict one year glycemic control in type 1 diabetes using real world data",
-          "link": "https://www.nature.com/articles/s41598-026-59937-2",
-          "source": "Machine learning : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-04T00:00:00+00:00"
+          "title": "Chinese lab releases open weather model rivaling numerical forecasts",
+          "link": "https://example.org/a4",
+          "source": "Rest of World",
+          "summary": "The system produces ten-day forecasts in seconds on a single GPU, with strong monsoon-region results.",
+          "published": "2026-07-14T08:00:00+00:00"
         }
       ]
     },
@@ -186,172 +47,32 @@
       "accent": "#E8A13A",
       "items": [
         {
-          "title": "Quantum breakthrough links light and magnetism in atomically thin materials",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260715083523.htm",
-          "source": "Materials Science News -- ScienceDaily",
-          "summary": "A new review highlights exciting progress in atomically thin quantum materials where light and magnetism work together in ways never before possible.",
-          "published": "2026-07-16T04:16:48+00:00"
+          "title": "Porous crystal captures CO2 directly from flue gas at low temperature",
+          "link": "https://example.org/m1",
+          "source": "Knowable Magazine",
+          "summary": "A metal-organic framework grabs carbon dioxide selectively and releases it with gentle heating.",
+          "published": "2026-07-16T06:10:00+00:00"
         },
         {
-          "title": "Magnetic spin and orbital Hall effects in centrosymmetric ferromagnets",
-          "link": "https://www.nature.com/articles/s42005-026-02754-w",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-16T00:00:00+00:00"
+          "title": "Self-healing polymer extends the life of wind-turbine blades",
+          "link": "https://example.org/m2",
+          "source": "ScienceDaily",
+          "summary": "Microscopic capsules release a resin that seals cracks as they form, reducing offshore maintenance.",
+          "published": "2026-07-15T11:00:00+00:00"
         },
         {
-          "title": "Corrosion-resistant Ti–Zr–Sn–Ta–Mo alloys with enhanced passivation for orthopedic implant applications",
-          "link": "https://www.nature.com/articles/s41598-026-61404-x",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-16T00:00:00+00:00"
+          "title": "Biodegradable plastic made from sugarcane waste passes durability tests",
+          "link": "https://example.org/m3",
+          "source": "Agência FAPESP",
+          "summary": "A Brazilian team turned cane residue into a sturdy film that composts within months.",
+          "published": "2026-07-14T09:30:00+00:00"
         },
         {
-          "title": "Effect of manufacturing method on metal ion release from orthodontic brackets and tubes",
-          "link": "https://www.nature.com/articles/s41598-026-60944-6",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-16T00:00:00+00:00"
-        },
-        {
-          "title": "Dual-physics programmable metasurfaces for dynamical controls of acoustics and electromagnetics",
-          "link": "https://www.nature.com/articles/s41467-026-75628-y",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-16T00:00:00+00:00"
-        },
-        {
-          "title": "Compaction characteristics and lump crushing behavior of homologous gangue powder grouted uncemented backfill",
-          "link": "https://www.nature.com/articles/s41598-026-62078-1",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-16T00:00:00+00:00"
-        },
-        {
-          "title": "Effect of deep margin elevation with different base materials on periodontal health in a clinical study",
-          "link": "https://www.nature.com/articles/s41598-026-61409-6",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-16T00:00:00+00:00"
-        },
-        {
-          "title": "Interactively addressable organic metadevices",
-          "link": "https://www.nature.com/articles/s41467-026-75757-4",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-16T00:00:00+00:00"
-        },
-        {
-          "title": "Channel-resolved excitation trends in Si, GaAs, and NiO for sub-GeV dark matter detection",
-          "link": "https://www.nature.com/articles/s41598-026-61355-3",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-16T00:00:00+00:00"
-        },
-        {
-          "title": "Improving the performance of lead-free perovskite solar cells",
-          "link": "https://www.nature.com/articles/s43246-026-01277-9",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-16T00:00:00+00:00"
-        },
-        {
-          "title": "The effect of compaction pressure and sintering temperature on phase evolution and technological properties of alumina mullite zirconia ceramics",
-          "link": "https://www.nature.com/articles/s41598-026-60881-4",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-16T00:00:00+00:00"
-        },
-        {
-          "title": "Single-particle atomic-scale strain-gradient engineering for high-performance fuel cells",
-          "link": "https://www.nature.com/articles/s41467-026-75485-9",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
-        },
-        {
-          "title": "Physics-informed acquisition weighting for stoichiometry-constrained Bayesian optimization of oxide thin-film growth",
-          "link": "https://www.nature.com/articles/s41427-026-00668-1",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
-        },
-        {
-          "title": "Fast lithium-ion transport in polymer electrolytes with rigid polyanions",
-          "link": "https://www.nature.com/articles/s41565-026-02229-7",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
-        },
-        {
-          "title": "Deep learning assisted prediction of microstructure and wear behaviour in plasma nitrided 316 L stainless steel",
-          "link": "https://www.nature.com/articles/s41598-026-55448-2",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
-        },
-        {
-          "title": "Structure distortion-driven optical properties and temperature thermometry in one-dimensional hybrid lead halides",
-          "link": "https://www.nature.com/articles/s41598-026-62514-2",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
-        },
-        {
-          "title": "Adhesive bond durability and corrosion resistance of AA6060-T6 flash-PEO treated in Mo-Si solutions",
-          "link": "https://www.nature.com/articles/s41529-026-00841-5",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
-        },
-        {
-          "title": "AI-assisted 6G-IoT system for environmental monitoring and risk management in mining sites",
-          "link": "https://www.nature.com/articles/s41598-026-61649-6",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
-        },
-        {
-          "title": "Design of high-efficiency ultrathin perovskite solar cells using embedded plasmonic Au nanowires and SiO₂ antireflection nanoparticles",
-          "link": "https://www.nature.com/articles/s41598-026-62295-8",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
-        },
-        {
-          "title": "Rotaxane synthesis inside out",
-          "link": "https://www.nature.com/articles/s44160-026-01129-x",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
-        },
-        {
-          "title": "An efficient AI-assisted approach for retrieving knowledge of polymer biodegradability from a corpus of publications",
-          "link": "https://www.nature.com/articles/s43246-026-01267-x",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
-        },
-        {
-          "title": "Comparative performance evaluation of photoluminescent concrete coatings containing strontium aluminate and calcium aluminate in epoxy and polyurethane resin matrices",
-          "link": "https://www.nature.com/articles/s41598-026-62465-8",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
-        },
-        {
-          "title": "Machine learning prediction of DFT-derived electrical conductivity in perovskite and double perovskite materials using physically motivated descriptors",
-          "link": "https://www.nature.com/articles/s41598-026-62107-z",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
-        },
-        {
-          "title": "A green electrochemical sensor based on Fe/N-graphene hybrid nanostructure for trace-level determination of apremilast in biological and pharmaceutical samples",
-          "link": "https://www.nature.com/articles/s41598-026-62081-6",
-          "source": "Materials science : nature.com subject feeds",
-          "summary": "",
-          "published": "2026-07-15T00:00:00+00:00"
+          "title": "New alloy stays strong at temperatures that melt ordinary steel",
+          "link": "https://example.org/m4",
+          "source": "Nature",
+          "summary": "The material could enable more efficient jet engines and industrial furnaces.",
+          "published": "2026-07-13T13:20:00+00:00"
         }
       ]
     },
@@ -360,7 +81,36 @@
       "name": "Synthetic Biology",
       "tagline": "Engineered organisms and programmed DNA — cells built for computing, data storage, and chemical synthesis.",
       "accent": "#5FBF9B",
-      "items": []
+      "items": [
+        {
+          "title": "Did scientists just create synthetic life?",
+          "link": "https://www.scientificamerican.com/article/did-scientists-just-create-synthetic-life/",
+          "source": "Scientific American",
+          "summary": "The SpudCell certainly resembles a living cell, but a key structure inside the cell falls short of the real thing.",
+          "published": "2026-07-14T15:00:00+00:00"
+        },
+        {
+          "title": "Living cells store and retrieve data using DNA-based logic circuits",
+          "link": "https://example.org/s1",
+          "source": "Asimov Press",
+          "summary": "Engineered genetic circuits record signals over time, letting a colony of cells act as a rewritable biological memory.",
+          "published": "2026-07-16T05:50:00+00:00"
+        },
+        {
+          "title": "Engineered yeast becomes a microbial factory for industrial solvents",
+          "link": "https://example.org/s2",
+          "source": "Asimov Press",
+          "summary": "Metabolic engineering reprogrammed the yeast's pathways to secrete a chemical normally made from petroleum.",
+          "published": "2026-07-15T12:10:00+00:00"
+        },
+        {
+          "title": "Synthetic cell with a minimal genome divides on its own",
+          "link": "https://example.org/s3",
+          "source": "Nature News",
+          "summary": "Researchers pared a bacterium down to a designed, minimal set of genes, then coaxed it to grow and split normally.",
+          "published": "2026-07-14T10:40:00+00:00"
+        }
+      ]
     },
     {
       "key": "energywater",
@@ -369,172 +119,32 @@
       "accent": "#33C6D6",
       "items": [
         {
-          "title": "These “Clumped” Molecules Could Offer Clues About Earth’s Climate",
-          "link": "https://eos.org/articles/these-clumped-molecules-could-offer-clues-about-earths-climate",
-          "source": "Eos",
-          "summary": "Researchers used firn samples gathered during a 2018 expedition in Greenland to improve understanding of atmospheric methane. Credit: Thomas Röckmann",
-          "published": "2026-07-15T18:00:43+00:00"
+          "title": "Sponge-like material pulls drinking water from desert air overnight",
+          "link": "https://example.org/e1",
+          "source": "ScienceDaily",
+          "summary": "A low-cost hydrogel absorbs moisture in dry conditions and releases it with mild sunlight.",
+          "published": "2026-07-16T06:30:00+00:00"
         },
         {
-          "title": "NASA captured the Black Sea turning brilliant turquoise from space",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260713084900.htm",
-          "source": "Water News -- ScienceDaily",
-          "summary": "NASA's PACE satellite captured the Black Sea glowing turquoise during its annual phytoplankton bloom. The vivid color comes from massive numbers of coccolithophores, microscopic organisms whose reflective shells…",
-          "published": "2026-07-15T13:21:38+00:00"
+          "title": "New membrane cuts the energy cost of seawater desalination by a third",
+          "link": "https://example.org/e2",
+          "source": "ScienceDaily",
+          "summary": "An ultrathin filter lets water through while blocking salt, lowering the power a plant needs.",
+          "published": "2026-07-15T13:15:00+00:00"
         },
         {
-          "title": "For the Birds: Solar Panels over Peatlands May Increase Avian Biodiversity",
-          "link": "https://eos.org/articles/for-the-birds-solar-panels-over-peatlands-may-increase-avian-biodiversity",
-          "source": "Eos",
-          "summary": "A meadow pipit perches atop a solar panel. Credit: Wattmanufactur , CC BY",
-          "published": "2026-07-15T12:44:33+00:00"
+          "title": "Perovskite-silicon solar cell reaches record efficiency in outdoor test",
+          "link": "https://example.org/e3",
+          "source": "IEEE Spectrum",
+          "summary": "The tandem design converted more sunlight to power than either layer alone, holding up over months.",
+          "published": "2026-07-14T14:00:00+00:00"
         },
         {
-          "title": "How Tides and River Water Combine to Amplify Floods",
-          "link": "https://eos.org/research-spotlights/how-tides-and-river-water-combine-to-amplify-floods",
-          "source": "Eos",
-          "summary": "The Yangtze River, seen here near Nanjing, experiences floods that can be exacerbated by tidal dynamics. Credit: Cheol Ryu/Wikimedia Commons , CC BY-SA 3.0",
-          "published": "2026-07-14T12:43:07+00:00"
-        },
-        {
-          "title": "Changes in Funding Could Tank Quality of Ocean Heat Content Data",
-          "link": "https://eos.org/articles/changes-in-funding-could-tank-quality-of-ocean-heat-content-data",
-          "source": "Eos",
-          "summary": "A buoy, part of the Prediction and Research Moored Array in the Tropical Atlantic program, or PIRATA, awaits deployment in 2020.",
-          "published": "2026-07-13T12:04:35+00:00"
-        },
-        {
-          "title": "火箭发射与重返大气层过程如何损害地球臭氧层",
-          "link": "https://eos.org/research-spotlights/rocket-launches-and-reentries-harm-earths-ozone-layer-chinese",
-          "source": "Eos",
-          "summary": "NASA 的“阿尔忒弥斯 2 号”（Artemis II）任务于 2026 年 4 月 1 日从佛罗里达州的肯尼迪航天中心发射升空。最新研究表明，用于此次发射助推器的固体火箭燃料比其他类型的火箭燃料更严重地破坏了臭氧层。图片来源: NASA/John Kraus",
-          "published": "2026-07-13T11:58:51+00:00"
-        },
-        {
-          "title": "Deep-sea life has a secret food source scientists never expected",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260711010127.htm",
-          "source": "Water News -- ScienceDaily",
-          "summary": "Scientists discovered that extreme deep-sea pressure squeezes valuable nutrients out of sinking organic particles, providing an unexpected food source for ocean microbes.",
-          "published": "2026-07-12T12:14:55+00:00"
-        },
-        {
-          "title": "Scientists finally solved the mystery of Earth's greatest mass extinction",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260711010122.htm",
-          "source": "Water News -- ScienceDaily",
-          "summary": "Why do beaches today have seashells from clams and snails instead of brachiopods? A new study suggests the answer lies in Earth's greatest mass extinction, when warming oceans and falling oxygen levels wiped out animals…",
-          "published": "2026-07-12T04:02:00+00:00"
-        },
-        {
-          "title": "This electric field trick boosted heat flow by nearly 300%",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260709160651.htm",
-          "source": "Energy Technology News -- ScienceDaily",
-          "summary": "Researchers discovered that electricity can dramatically reshape how heat flows through certain ceramic materials, increasing heat conduction by almost threefold in a preferred direction.",
-          "published": "2026-07-11T12:18:02+00:00"
-        },
-        {
-          "title": "NASA satellites are watching Earth's newest island rise from the sea",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260710003517.htm",
-          "source": "Water News -- ScienceDaily",
-          "summary": "A newly discovered underwater volcanic eruption north of Papua New Guinea is unfolding in one of the world's most poorly mapped ocean basins.",
-          "published": "2026-07-10T22:57:49+00:00"
-        },
-        {
-          "title": "Typhoons Mix Up Bacteria and Biochemistry",
-          "link": "https://eos.org/research-spotlights/typhoons-mix-up-bacteria-and-biochemistry",
-          "source": "Eos",
-          "summary": "Researchers aboard the R/V Ocean Researcher I took samples of the southern East China Sea to better understand how Typhoon Maria affected the waters. Credit: Yiing Jang Yang",
-          "published": "2026-07-10T12:02:00+00:00"
-        },
-        {
-          "title": "Extended Reality Offers Opportunities for Scientific Show-and-Tell",
-          "link": "https://eos.org/features/extended-reality-offers-opportunities-for-scientific-show-and-tell",
-          "source": "Eos",
-          "summary": "Three-dimensional models representing Earth and space science data and information can be viewed using various extended reality technologies, including augmented reality (AR) tools, as seen here.",
-          "published": "2026-07-10T12:00:00+00:00"
-        },
-        {
-          "title": "The 7 July 2026 Kalladi landslide in Kerala, India",
-          "link": "https://eos.org/thelandslideblog/kalladi-landslide-1",
-          "source": "Eos",
-          "summary": "Still from a video posted to Youtube of the site of the site of the 7 July 2026 Kalladi Landslide in India. Video posted by Asianet News.",
-          "published": "2026-07-10T08:54:21+00:00"
-        },
-        {
-          "title": "A Climate Skeptic Will Oversee the National Climate Assessment",
-          "link": "https://eos.org/research-and-developments/a-climate-skeptic-will-oversee-the-national-climate-assessment",
-          "source": "Eos",
-          "summary": "Credit: NASA/JPL , Public Domain",
-          "published": "2026-07-09T18:27:15+00:00"
-        },
-        {
-          "title": "Calculating the Costs of Wetland Loss",
-          "link": "https://eos.org/articles/calculating-the-costs-of-wetland-loss",
-          "source": "Eos",
-          "summary": "An area near Houston’s Tom Bass Park experienced flooding after Hurricane Beryl made landfall in summer 2024. New research suggests that the loss of wetlands since 1985 has cost more than $10 billion in residential…",
-          "published": "2026-07-09T12:48:21+00:00"
-        },
-        {
-          "title": "Patterned Frozen Soils Get Their Shape from Gravity and Funky Physics",
-          "link": "https://eos.org/research-spotlights/patterned-frozen-soils-get-their-shape-from-gravity-and-funky-physics",
-          "source": "Eos",
-          "summary": "New research uses Oobleck, the non-Newtonian substance and common classroom experiment, to improve understanding of how permafrost moves down a slope. Credit: Joel Rowland",
-          "published": "2026-07-09T12:47:49+00:00"
-        },
-        {
-          "title": "Proposed OMB Rule Change Attracts 340,000+ Public Comments",
-          "link": "https://eos.org/research-and-developments/proposed-omb-rule-change-approaches-100000-public-comments",
-          "source": "Eos",
-          "summary": "Credit: Suzy Brooks, Unsplash",
-          "published": "2026-07-09T12:22:13+00:00"
-        },
-        {
-          "title": "Ocean temperatures may be shielding Earth from a planet-wide drought",
-          "link": "https://www.sciencedaily.com/releases/2026/06/260621031531.htm",
-          "source": "Water News -- ScienceDaily",
-          "summary": "Ocean temperature patterns appear to act as a natural brake on the global spread of drought, preventing vast areas of the planet from drying out simultaneously.",
-          "published": "2026-07-09T01:30:50+00:00"
-        },
-        {
-          "title": "宇宙轰击为前生物化学反应创造了条件",
-          "link": "https://eos.org/research-spotlights/cosmic-bombardment-created-potential-for-prebiotic-chemistry-chinese",
-          "source": "Eos",
-          "summary": "这幅描绘冥古宙早期地球的艺术构想图展示了一个地表特征：频繁的撞击、局部的熔融以及存在持续液态水的区域。早期的地球既非完全如地狱般可怕，也非一片宁静，而是一个因撞击而不断被重塑的动态环境。图片来源：SwRI/Simone Marchi",
-          "published": "2026-07-08T13:22:46+00:00"
-        },
-        {
-          "title": "Comparing Machine Learning Models of Raindrop Formation",
-          "link": "https://eos.org/research-spotlights/comparing-machine-learning-models-of-raindrop-formation",
-          "source": "Eos",
-          "summary": "Researchers used simulated “superdroplets” as training data in three machine learning models designed to improve understanding of how droplets in rain clouds coalesce.",
-          "published": "2026-07-08T13:15:55+00:00"
-        },
-        {
-          "title": "A Satellite-Based Global Carbon Flux Product is Sensitive to Droughts",
-          "link": "https://eos.org/editor-highlights/a-satellite-based-global-carbon-flux-product-is-sensitive-to-droughts",
-          "source": "Eos",
-          "summary": "A U.S. Drought Monitor map for 15 June 2021 of the western U.S. (a) shows a similar spatial pattern with the monthly gross primary productivity (GPP) anomaly for June 2021 (b) constrained by NASA’s Soil Moisture Active…",
-          "published": "2026-07-08T12:00:00+00:00"
-        },
-        {
-          "title": "Record-breaking ocean drilling reveals why Japan's 2011 tsunami was so deadly",
-          "link": "https://www.sciencedaily.com/releases/2026/06/260625060220.htm",
-          "source": "Water News -- ScienceDaily",
-          "summary": "Scientists have uncovered a hidden weakness beneath the Pacific Ocean that helps explain why Japan’s catastrophic 2011 earthquake and tsunami became so devastating.",
-          "published": "2026-07-05T19:41:58+00:00"
-        },
-        {
-          "title": "New research reveals the hidden pollution left behind by fireworks",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260701205009.htm",
-          "source": "Water News -- ScienceDaily",
-          "summary": "Scientists have uncovered new evidence that fireworks can pollute both the air and water in ways that extend beyond the visible smoke.",
-          "published": "2026-07-04T02:48:09+00:00"
-        },
-        {
-          "title": "A popular climate fix could accidentally trigger massive changes to global weather",
-          "link": "https://www.sciencedaily.com/releases/2026/06/260626030448.htm",
-          "source": "Water News -- ScienceDaily",
-          "summary": "A new study found that not all geoengineering ideas are created equal. Brightening marine clouds over the eastern Pacific could dramatically weaken the El Niño cycle, triggering major changes to global weather patterns,…",
-          "published": "2026-07-03T17:31:51+00:00"
+          "title": "Low-cost filter removes arsenic from village wells in Bangladesh",
+          "link": "https://example.org/e4",
+          "source": "SciDev.Net",
+          "summary": "A simple iron-based cartridge brought contaminated water within safe limits in field trials.",
+          "published": "2026-07-13T09:10:00+00:00"
         }
       ]
     },
@@ -545,172 +155,32 @@
       "accent": "#F0894E",
       "items": [
         {
-          "title": "NASA's James Webb Space Telescope reveals a strange atmosphere on a hellish lava planet",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260712011743.htm",
-          "source": "Space Exploration News -- ScienceDaily",
-          "summary": "NASA's James Webb Space Telescope has revealed new details about the blistering lava planet 55 Cancri e, where temperatures are high enough to melt rock.",
-          "published": "2026-07-16T03:19:50+00:00"
+          "title": "India's lunar rover confirms subsurface ice near the south pole",
+          "link": "https://example.org/x1",
+          "source": "The Hindu",
+          "summary": "Instruments detected buried water ice, a resource that could support future crewed landings.",
+          "published": "2026-07-16T08:00:00+00:00"
         },
         {
-          "title": "NASA Uses Subscale Aircraft to Accelerate Flight Innovation",
-          "link": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-uses-subscale-aircraft-to-accelerate-flight-innovation/",
+          "title": "Reusable heavy-lift rocket completes its first orbital flight",
+          "link": "https://example.org/x2",
           "source": "NASA",
-          "summary": "Testing new aerospace concepts in flight remains one of NASA’s most effective ways to advance knowledge and reduce risk.",
-          "published": "2026-07-15T21:56:38+00:00"
+          "summary": "The vehicle delivered its payload and returned both stages intact, a milestone toward cheaper orbit access.",
+          "published": "2026-07-15T12:45:00+00:00"
         },
         {
-          "title": "NASA Study of Pristine Meteorite Adds to Story of Ancient Asteroids",
-          "link": "https://science.nasa.gov/science-research/astromaterials/nasa-study-of-pristine-meteorite-adds-to-story-of-ancient-asteroids/",
-          "source": "NASA",
-          "summary": "A meteorite recovered immediately upon its fall to Earth on July 16, 2024, is helping NASA scientists uncover new clues about ancient water, the chemical evolution of primitive asteroids, and the ingredients that may…",
-          "published": "2026-07-15T19:28:53+00:00"
+          "title": "Europe's Mars sample-return mission passes critical design review",
+          "link": "https://example.org/x3",
+          "source": "ESA",
+          "summary": "Engineers cleared the spacecraft that will retrieve rock cores and bring them to Earth.",
+          "published": "2026-07-14T10:30:00+00:00"
         },
         {
-          "title": "How NASA’s Artemis III Lander Test Will Pave Way for Moon Landings",
-          "link": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/how-nasas-artemis-iii-lander-test-will-pave-way-for-moon-landings/",
-          "source": "NASA",
-          "summary": "Before Artemis astronauts land on the Moon’s surface in 2028, NASA will conduct the Artemis III demonstration mission in 2027, allowing teams on Earth and in orbit to practice rendezvous and docking operations between…",
-          "published": "2026-07-15T18:50:52+00:00"
-        },
-        {
-          "title": "Anil Menon Launches to Space Station",
-          "link": "https://www.nasa.gov/image-article/anil-menon-launches-to-space-station/",
-          "source": "NASA",
-          "summary": "NASA astronaut candidate Anna Menon and her children watch as a Soyuz rocket launches to the International Space Station with NASA astronaut Anil Menon and Roscosmos cosmonauts Pyotr Dubrov and Anna Kikina, Tuesday,…",
-          "published": "2026-07-15T18:48:36+00:00"
-        },
-        {
-          "title": "NASA’s Perseverance Rover Provides Sweeping View of Broom Point",
-          "link": "https://science.nasa.gov/photojournal/nasas-perseverance-rover-provides-sweeping-view-of-broom-point/",
-          "source": "NASA",
-          "summary": "Description This view looking back up at the outside lip of the 490-foot-tall (150-meter-tall) rim of Jezero Crater was taken by the Mastcam-Z instrument aboard NASA’s Perseverance on May 15, 2025, the 1,505th day, or…",
-          "published": "2026-07-15T17:59:50+00:00"
-        },
-        {
-          "title": "Perseverance’s Trip to ‘Broom Point’",
-          "link": "https://science.nasa.gov/photojournal/perseverances-trip-to-broom-point/",
-          "source": "NASA",
-          "summary": "Description This orbital map shows the path NASA’s Perseverance Mars rover took to get to a location the science team has dubbed the “Broom Point member,” a sequence of layered bedrock likely more than 3.9 billion years…",
-          "published": "2026-07-15T17:27:10+00:00"
-        },
-        {
-          "title": "NASA’s Perseverance Rover Reads Record of Ancient Mars Impacts",
-          "link": "https://www.nasa.gov/solar-system/planets/mars/nasas-perseverance-rover-reads-record-of-ancient-mars-impacts/",
-          "source": "NASA",
-          "summary": "NASA’s Perseverance Mars rover has uncovered evidence that a 245-foot-thick (75-meter-thick) stack of ancient rock on the rim of Jezero Crater was built by repeated asteroid impacts.",
-          "published": "2026-07-15T15:30:04+00:00"
-        },
-        {
-          "title": "NASA selects 41 space technologies for future Moon and Mars exploration",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260713084855.htm",
-          "source": "Space Exploration News -- ScienceDaily",
-          "summary": "NASA has chosen 41 commercial technology projects that could solve critical challenges for future missions to the Moon and Mars.",
-          "published": "2026-07-15T07:43:02+00:00"
-        },
-        {
-          "title": "Artemis II astronauts visit ESA",
-          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Artemis_II_astronauts_visit_ESA",
-          "source": "ESA Human and Robotic Exploration",
-          "summary": "Yesterday, the four Artemis II astronauts visited ESA’s technical site in the Netherlands, where they met the team behind the European Service Module that powered their Orion spacecraft around the Moon and safely back…",
-          "published": "2026-07-14T07:49:00+00:00"
-        },
-        {
-          "title": "NASA's Perseverance just completed a marathon on Mars",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260713084858.htm",
-          "source": "Space Exploration News -- ScienceDaily",
-          "summary": "NASA's Perseverance rover has reached an impressive new milestone on Mars, completing the equivalent of a full marathon by driving 26.2 miles (42.195 kilometers) across the Red Planet.",
-          "published": "2026-07-14T05:32:12+00:00"
-        },
-        {
-          "title": "NASA selects four new Moon missions to build a permanent lunar base",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260713084853.htm",
-          "source": "Space Exploration News -- ScienceDaily",
-          "summary": "NASA is ramping up its lunar ambitions by awarding nearly $600 million for four commercial Moon landings planned for late 2028.",
-          "published": "2026-07-14T04:40:26+00:00"
-        },
-        {
-          "title": "Future moon landings could wipe out clues to how life began on Earth",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260710003537.htm",
-          "source": "Space Exploration News -- ScienceDaily",
-          "summary": "A new study suggests spacecraft exhaust could quickly contaminate the moon's most scientifically valuable regions, potentially masking ancient clues about how life began on Earth.",
-          "published": "2026-07-13T00:48:16+00:00"
-        },
-        {
-          "title": "Europe just unveiled a new rival to SpaceX’s Starship",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260710003526.htm",
-          "source": "Space Exploration News -- ScienceDaily",
-          "summary": "A detailed independent study found that SpaceX's Starship is every bit as revolutionary as expected, while revealing both its impressive capabilities and its biggest remaining hurdles.",
-          "published": "2026-07-11T01:14:33+00:00"
-        },
-        {
-          "title": "This Mars rover could finally reveal whether life ever existed on Mars",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260707025051.htm",
-          "source": "Space Exploration News -- ScienceDaily",
-          "summary": "The hunt for ancient life on Mars just got an important test run. Scientists confirmed that the Rosalind Franklin rover's sophisticated instrument can detect subtle differences in two stable molecules that could…",
-          "published": "2026-07-09T10:40:52+00:00"
-        },
-        {
-          "title": "New European exercise device begins testing with first rope-pulling workout in space",
-          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/New_European_exercise_device_begins_testing_with_first_rope-pulling_workout_in_space",
-          "source": "ESA Human and Robotic Exploration",
-          "summary": "ESA astronaut Sophie Adenot has begun testing the European Enhanced Exploration Exercise Device (E4D) on the International Space Station.",
-          "published": "2026-07-08T08:36:00+00:00"
-        },
-        {
-          "title": "Scientists want to quarantine alien life on the Moon before it reaches Earth",
-          "link": "https://www.sciencedaily.com/releases/2026/06/260623083144.htm",
-          "source": "Space Exploration News -- ScienceDaily",
-          "summary": "Scientists are calling for a lunar quarantine facility where samples from Mars, the Moon, and beyond would be examined before being brought to Earth.",
-          "published": "2026-07-06T14:39:56+00:00"
-        },
-        {
-          "title": "NASA's Hubble spots a stellar sparkler for the Fourth of July",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260704232642.htm",
-          "source": "Space Exploration News -- ScienceDaily",
-          "summary": "NASA's Hubble Space Telescope has captured a spectacular red, white, and blue view of one of the Milky Way's oldest star clusters to celebrate the nation's 250th anniversary.",
-          "published": "2026-07-05T04:10:58+00:00"
-        },
-        {
-          "title": "NASA's Hubble captures a star-spangled sea of 500,000 stars",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260704232634.htm",
-          "source": "Space Exploration News -- ScienceDaily",
-          "summary": "Celebrating the United States' 250th anniversary, NASA released a stunning Hubble portrait of Messier 3, an ancient globular cluster with more than 500,000 stars.",
-          "published": "2026-07-05T03:39:18+00:00"
-        },
-        {
-          "title": "NASA celebrates America's 250th birthday with incredible views of space",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260702230859.htm",
-          "source": "Space Exploration News -- ScienceDaily",
-          "summary": "NASA is marking the United States' 250th birthday with four striking red, white, and blue images of deep space from the Chandra X-ray Observatory.",
-          "published": "2026-07-04T09:30:33+00:00"
-        },
-        {
-          "title": "The most spectacular aurora of the εpsilon mission (so far!)",
-          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/The_most_spectacular_aurora_of_the_epsilon_mission_so_far!",
-          "source": "ESA Human and Robotic Exploration",
-          "summary": "Video: 00:01:17 This timelapse was published on social media by ESA astronaut Sophie Adenot with the following caption: Day 139, orbit 2155 — After the pictures (available in HD on my Flickr account), I'm so happy to…",
-          "published": "2026-07-03T14:30:00+00:00"
-        },
-        {
-          "title": "3D-printed metal: unlocking crew autonomy",
-          "link": "https://www.esa.int/ESA_Multimedia/Images/2026/07/3D-printed_metal_unlocking_crew_autonomy",
-          "source": "ESA Human and Robotic Exploration",
-          "summary": "Image: When it comes to the future of human exploration, 3D printers hold the key to crew autonomy in areas ranging from maintenance to medicine.",
-          "published": "2026-07-02T15:00:00+00:00"
-        },
-        {
-          "title": "Supporting εpsilon from Earth",
-          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Supporting_epsilon_from_Earth",
-          "source": "ESA Human and Robotic Exploration",
-          "summary": "Every space mission has two crews: one in space and one on Earth. While ESA astronaut Sophie Adenot carries out experiments and daily tasks aboard the International Space Station, teams across Europe are working to…",
-          "published": "2026-07-02T14:54:00+00:00"
-        },
-        {
-          "title": "3D-printed metal",
-          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/3D-printed_metal",
-          "source": "ESA Human and Robotic Exploration",
-          "summary": "Video: 00:01:28 This video was published by ESA astronaut Sophie Adenot on social media with the following caption: Day 133, orbit 2063 — In this timelapse, I’m retrieving the fourth sample printed with the first 3D…",
-          "published": "2026-07-02T13:00:00+00:00"
+          "title": "Compact ion engine promises faster trips to the outer planets",
+          "link": "https://example.org/x4",
+          "source": "IEEE Spectrum",
+          "summary": "The thruster ran continuously for months in a vacuum chamber, hinting at efficient deep-space travel.",
+          "published": "2026-07-13T11:15:00+00:00"
         }
       ]
     },
@@ -721,172 +191,32 @@
       "accent": "#B98CE0",
       "items": [
         {
-          "title": "NASA's James Webb Space Telescope reveals a strange atmosphere on a hellish lava planet",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260712011743.htm",
-          "source": "Astronomy News -- ScienceDaily",
-          "summary": "NASA's James Webb Space Telescope has revealed new details about the blistering lava planet 55 Cancri e, where temperatures are high enough to melt rock.",
-          "published": "2026-07-16T03:19:50+00:00"
+          "title": "Webb telescope spots water vapor in a rocky planet's atmosphere",
+          "link": "https://example.org/y1",
+          "source": "ESO",
+          "summary": "Spectra reveal signs of water around a small exoplanet, sharpening the search for habitable worlds.",
+          "published": "2026-07-16T08:15:00+00:00"
         },
         {
-          "title": "Famous System Has a Third Star: Beta Pictoris d",
-          "link": "https://skyandtelescope.org/astronomy-news/famous-system-has-a-third-star-beta-pictoris-d/",
+          "title": "New radio array in the southern hemisphere maps the early universe",
+          "link": "https://example.org/y2",
+          "source": "ESO",
+          "summary": "First light captured faint hydrogen signals from billions of years ago, revealing early galaxies.",
+          "published": "2026-07-15T14:30:00+00:00"
+        },
+        {
+          "title": "Astronomers trace a fast radio burst to a magnetar in a nearby galaxy",
+          "link": "https://example.org/y3",
           "source": "Sky & Telescope",
-          "summary": "Two teams of astronomers independently discovered a third giant gas planet orbiting in the famous Beta Pictoris system. The post Famous System Has a Third Star: Beta Pictoris d appeared first on Sky & Telescope .",
-          "published": "2026-07-15T19:55:44+00:00"
+          "summary": "Precise localization tied one of these millisecond flashes to a highly magnetized neutron star.",
+          "published": "2026-07-14T12:20:00+00:00"
         },
         {
-          "title": "Faintest planet ever imaged from Earth found after more than 10 years of hide-and-seek",
-          "link": "https://www.eso.org/public/news/eso2609/",
-          "source": "ESO Top News",
-          "summary": "A team of astronomers have discovered a third planet orbiting the star Beta Pictoris. The new planet, Beta Pictoris d, is 100 times fainter than Beta Pictoris b — the first planet discovered in the same system — and is…",
-          "published": "2026-07-15T12:00:00+00:00"
-        },
-        {
-          "title": "Astronomers just found four hidden white dwarf stars near Earth",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260714225528.htm",
-          "source": "Astronomy News -- ScienceDaily",
-          "summary": "Four nearby white dwarf stars have been discovered hiding in plain sight beside brighter red dwarf companions. Hubble's ultraviolet observations finally revealed the long-hidden stellar remnants, including one just 25…",
-          "published": "2026-07-15T06:30:25+00:00"
-        },
-        {
-          "title": "\"Rogue\" Neptunes Are Detached But Not Alone",
-          "link": "https://skyandtelescope.org/uncategorized/rogue-neptunes-are-detached-but-not-alone/",
+          "title": "Survey finds hundreds of new gravitational lenses with machine help",
+          "link": "https://example.org/y4",
           "source": "Sky & Telescope",
-          "summary": "\"Rogue\" Neptune-size worlds might not roam the galaxy totally on their own, just very far away from their parent stars. The post \"Rogue\" Neptunes Are Detached But Not Alone appeared first on Sky & Telescope .",
-          "published": "2026-07-14T19:36:34+00:00"
-        },
-        {
-          "title": "Are there aliens on exoplanet K2-18b? Scientists just scanned it for signals",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260712011748.htm",
-          "source": "Astronomy News -- ScienceDaily",
-          "summary": "K2-18b is one of the most promising worlds for the search for extraterrestrial life, so astronomers conducted an unusually powerful radio survey using both the VLA and MeerKAT telescopes.",
-          "published": "2026-07-14T13:04:12+00:00"
-        },
-        {
-          "title": "NASA's Perseverance just completed a marathon on Mars",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260713084858.htm",
-          "source": "Astronomy News -- ScienceDaily",
-          "summary": "NASA's Perseverance rover has reached an impressive new milestone on Mars, completing the equivalent of a full marathon by driving 26.2 miles (42.195 kilometers) across the Red Planet.",
-          "published": "2026-07-14T05:32:12+00:00"
-        },
-        {
-          "title": "New dark matter theory could solve multiple cosmic mysteries at once",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260711010128.htm",
-          "source": "Astronomy News -- ScienceDaily",
-          "summary": "Dark matter may be far more complicated than scientists once believed. A new study suggests it could consist of at least two different kinds of particles that slowly separate over time, with heavier particles sinking…",
-          "published": "2026-07-14T02:30:53+00:00"
-        },
-        {
-          "title": "Euclid Telescope Finds Quasars Within 700 Million Years of the Big Bang",
-          "link": "https://skyandtelescope.org/astronomy-news/euclid-telescope-finds-quasars-within-700-million-years-of-the-big-bang/",
-          "source": "Sky & Telescope",
-          "summary": "The sharp-eyed and far-seeing Euclid space telescope has picked up 31 early quasars that have evaded detection until now.",
-          "published": "2026-07-13T12:00:00+00:00"
-        },
-        {
-          "title": "Stephen Hawking's black hole laws just got a major upgrade",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260713000757.htm",
-          "source": "Astronomy News -- ScienceDaily",
-          "summary": "Scientists have developed a new framework that could finally apply the laws of thermodynamics to real, ever-changing black holes instead of only perfectly stable ones.",
-          "published": "2026-07-13T10:41:43+00:00"
-        },
-        {
-          "title": "Physicists recreate black hole energy extraction in the lab",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260711010120.htm",
-          "source": "Astronomy News -- ScienceDaily",
-          "summary": "Researchers have recreated the physics of extracting energy from a spinning black hole using a stationary device that produces synthetic ultrafast rotation.",
-          "published": "2026-07-12T12:28:41+00:00"
-        },
-        {
-          "title": "The galaxy’s coldest “stars” may actually be alien megastructures",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260710003524.htm",
-          "source": "Astronomy News -- ScienceDaily",
-          "summary": "Scientists have identified new clues that could help astronomers spot one of the most famous hypothetical alien megastructures: a Dyson sphere.",
-          "published": "2026-07-10T06:04:44+00:00"
-        },
-        {
-          "title": "Physicists created a tiny universe where time emerged without a clock",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260709160632.htm",
-          "source": "Astrophysics News -- ScienceDaily",
-          "summary": "What if time doesn't actually exist until something changes? Scientists at the University of Birmingham created a tiny \"mini universe\" using 24,000 ultracold atoms and showed that the flow of time can emerge naturally…",
-          "published": "2026-07-09T23:46:43+00:00"
-        },
-        {
-          "title": "This alien planet never has sunrise or sunset. It may support life",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260709160657.htm",
-          "source": "Astronomy News -- ScienceDaily",
-          "summary": "A planet with one side permanently roasting and the other frozen in endless darkness might still have a chance of supporting life.",
-          "published": "2026-07-09T21:27:22+00:00"
-        },
-        {
-          "title": "Tianwen 2 Arrives at Quasi-Moon Kamoʻoalewa, Returns Images",
-          "link": "https://skyandtelescope.org/astronomy-news/tianwen-2-arrives-at-quasi-moon-kamo%ca%bboalewa-returns-images/",
-          "source": "Sky & Telescope",
-          "summary": "China’s Tianwen 2 mission returns its close view of Earth's tiny \"quasi-moon\" Kamoʻoalewa. The post Tianwen 2 Arrives at Quasi-Moon Kamoʻoalewa, Returns Images appeared first on Sky & Telescope .",
-          "published": "2026-07-09T17:11:13+00:00"
-        },
-        {
-          "title": "Steamy Nights at the Galactic Equator",
-          "link": "https://skyandtelescope.org/astronomy-news/steamy-nights-at-the-galactic-equator/",
-          "source": "Sky & Telescope",
-          "summary": "Here's an observing guide to both familiar and lesser-known deep-sky objects that inhabit our galaxy's equatorial zone. The post Steamy Nights at the Galactic Equator appeared first on Sky & Telescope .",
-          "published": "2026-07-08T17:40:11+00:00"
-        },
-        {
-          "title": "Did a Passing Star Shower Us with Comets?",
-          "link": "https://skyandtelescope.org/astronomy-news/did-a-passing-star-shower-us-with-comets/",
-          "source": "Sky & Telescope",
-          "summary": "We might be living through a comet shower created by a star that millions of years ago jostled the Oort Cloud surrounding the solar system. The post Did a Passing Star Shower Us with Comets?",
-          "published": "2026-07-08T14:25:13+00:00"
-        },
-        {
-          "title": "New AI model reveals how neutron star mergers forge heavy elements",
-          "link": "https://www.sciencedaily.com/releases/2026/06/260626030426.htm",
-          "source": "Astronomy News -- ScienceDaily",
-          "summary": "Researchers have created an AI-based simulation that makes it much faster to model how neutron star mergers produce many of the universe's heaviest elements.",
-          "published": "2026-07-08T04:07:40+00:00"
-        },
-        {
-          "title": "Hayabusa 2 Completes Flyby Past Asteroid Torifune",
-          "link": "https://skyandtelescope.org/astronomy-news/hayabusa-2-completes-flyby-past-asteroid-torifune/",
-          "source": "Sky & Telescope",
-          "summary": "Japan’s Hayabusa 2 mission has revealed another \"snowman\" asteroid — a pair of asteroids attached with a narrow neck. The contact binary could help shed light on planet formation.",
-          "published": "2026-07-07T13:39:10+00:00"
-        },
-        {
-          "title": "Making Peace with Terrible Astrophotography",
-          "link": "https://skyandtelescope.org/astronomy-blogs/making-peace-with-terrible-astrophotography/",
-          "source": "Sky & Telescope",
-          "summary": "We all might aspire to such a captivating image, but there's a real learning curve to astrophotography. The post Making Peace with Terrible Astrophotography appeared first on Sky & Telescope .",
-          "published": "2026-07-07T12:00:00+00:00"
-        },
-        {
-          "title": "Quantum sensor breakthrough could reveal dark matter and ancient gravitational waves",
-          "link": "https://www.sciencedaily.com/releases/2026/06/260622014303.htm",
-          "source": "Astronomy News -- ScienceDaily",
-          "summary": "Scientists have taken an important step toward building quantum detectors that could reveal some of the universe’s biggest secrets.",
-          "published": "2026-07-07T09:22:35+00:00"
-        },
-        {
-          "title": "These ancient quasars shouldn't exist so soon after the Big Bang",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260707025049.htm",
-          "source": "Astronomy News -- ScienceDaily",
-          "summary": "Astronomers have uncovered 31 of the oldest known quasars, including the two earliest ever detected, shining from a time when the universe was only about 670 million years old.",
-          "published": "2026-07-07T06:50:49+00:00"
-        },
-        {
-          "title": "Scientists thought the universe was uniform. New evidence says otherwise",
-          "link": "https://www.sciencedaily.com/releases/2026/06/260622014308.htm",
-          "source": "Astronomy News -- ScienceDaily",
-          "summary": "What if one of the biggest assumptions in cosmology is wrong? New research suggests the universe may not be perfectly uniform in every direction, as scientists have long believed.",
-          "published": "2026-07-07T06:14:03+00:00"
-        },
-        {
-          "title": "Older than the Sun: Astronomers find new clues to the origin of interstellar comet 3I/ATLAS",
-          "link": "https://www.eso.org/public/news/eso2608/",
-          "source": "ESO Top News",
-          "summary": "Astronomers have used the European Southern Observatory's Very Large Telescope (ESO's VLT) to study the composition of 3I/ATLAS, the brightest interstellar object ever seen, in detail.",
-          "published": "2026-07-06T09:00:00+00:00"
+          "summary": "The lenses act as natural telescopes, magnifying distant galaxies for closer study.",
+          "published": "2026-07-13T09:50:00+00:00"
         }
       ]
     }

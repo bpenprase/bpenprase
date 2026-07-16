@@ -1,117 +1,121 @@
 """
 Feed configuration for Full Planet.
 
-Each channel maps to a curated list of RSS/Atom feed URLs drawn from the
-project bibliography. Feeds were chosen to spread coverage across the US,
-Europe, China, India, and the Global South wherever public feeds exist, and
-to foreground the highest-quality outlets (Scientific American, Science/AAAS,
-Nature, Physics World, APS Physics, AGU Eos) alongside topical wire feeds.
+Design principle (important):
+Broad, high-quality outlets — Scientific American, BBC Science & Environment,
+Science/AAAS — carry a little of everything. Rather than drop them (which
+loses their quality) or dump them raw into one channel (which pollutes it),
+we feed them into EVERY channel and let each channel's keyword filter keep
+only the on-topic stories. That means every channel needs a filter. Niche
+topical feeds (ScienceDaily sections, Nature subjects, NASA, ESA, ESO) are
+already on-topic, but they pass through the same filter harmlessly.
 
-To add a source: find its RSS feed URL and drop it into the right channel.
-To create a new channel: add a new entry with name/tagline/accent/feeds.
+Verified-live feeds (fetched and confirmed working July 2026):
+  - https://rss.sciam.com/ScientificAmerican-Global   (Scientific American)
+  - https://feeds.bbci.co.uk/news/science_and_environment/rss.xml  (BBC)
+  - https://www.science.org/rss/news_current.xml       (Science / AAAS)
 
-A channel may also carry an optional "filter" with include/exclude keyword
-lists (see the "ai" and "synbio" channels). A story is kept only if it matches
-an include term and avoids every exclude term; exclude always wins.
+Space agencies: NASA and ESA publish reliable English RSS. ISRO, JAXA, CNES,
+and the Chinese agencies largely do not, but their missions (and SpaceX
+launches) are covered by BBC / Scientific American, so the Space Exploration
+filter captures them by keyword regardless of which outlet reports them.
 
-Accent colors are per-channel and echoed by the website.
-
-Note: phys.org feeds were intentionally removed in favor of higher-quality,
-more distinctive sources. Scientific American publishes section-specific feeds,
-so each channel pulls the SciAm section that best matches it.
+To add a source: paste its RSS URL into the right channel's "feeds" list.
+To tune a channel: edit its include / require / exclude keyword lists.
 """
 
-# High-quality general-science feeds reused across several channels.
-# Scientific American's main global feed and the Science/AAAS news feed both
-# carry a broad mix; the per-channel keyword filters (where present) keep them
-# on-topic, and channels without a filter simply get their most relevant
-# section feed instead of the firehose.
-SCIAM_GLOBAL = "https://rss.sciam.com/ScientificAmerican-Global"
-SCIENCE_NEWS = "https://www.science.org/rss/news_current.xml"
+# ---- broad, verified, high-quality feeds reused across all channels ----
+SCIAM = "https://rss.sciam.com/ScientificAmerican-Global"
+BBC_SCIENCE = "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+SCIENCE_AAAS = "https://www.science.org/rss/news_current.xml"
+BROAD = [SCIAM, BBC_SCIENCE, SCIENCE_AAAS]
 
 CHANNELS = {
     "ai": {
         "name": "Artificial Intelligence",
         "tagline": "AI put to work in science and engineering \u2014 new materials, proteins, medicines, and discoveries.",
-        "accent": "#5AA9E6",   # luminous blue
+        "accent": "#5AA9E6",
         "feeds": [
             "https://www.technologyreview.com/topic/artificial-intelligence/feed",
             "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+            "https://rss.sciencedaily.com/computers_math/artificial_intelligence.xml",
             "https://spectrum.ieee.org/topic/artificial-intelligence/feed",
             "https://www.quantamagazine.org/feed/",
-            "https://www.nature.com/subjects/machine-learning.rss",
-            SCIAM_GLOBAL,
-            SCIENCE_NEWS,
-        ],
-        # This channel is specifically AI FOR SCIENCE & ENGINEERING, not
-        # general AI industry/policy/product news. Keep a story only if it
-        # connects machine intelligence to research or engineering, and drop
-        # the chatbot / gadget / business / regulation coverage.
+        ] + BROAD,
+        # Must mention AI/ML (require) AND a science/engineering topic (include),
+        # AND avoid business/consumer noise (exclude).
         "filter": {
-            "include": [
-                "AI", "artificial intelligence", "machine learning",
-                "neural network", "deep learning", "algorithm", "model",
-                "protein", "materials", "material", "molecule", "molecular",
-                "drug discovery", "drug design", "catalyst", "chemistry",
-                "genomics", "genome", "biology", "biological", "medicine",
-                "medical", "clinical", "diagnosis", "disease", "cancer",
-                "physics", "quantum", "climate", "weather", "fusion",
-                "battery", "solar", "energy", "engineering", "engineer",
-                "simulation", "simulate", "microscopy", "telescope",
-                "astronomy", "astrophysics", "neuroscience", "brain",
-                "crystal", "semiconductor", "superconductor", "chip design", "robotics",
-                "scientific discovery", "research", "laboratory", "experiment",
-                "prediction", "predict", "AlphaFold", "enzyme",
-                "math", "mathematics", "mathematical", "conjecture", "proof",
-                "theorem", "computation", "computational",
+            "require": [
+                "AI", "A.I.", "artificial intelligence", "machine learning",
+                "neural network", "deep learning", "algorithm", "generative",
+                "AlphaFold", "ChatGPT", "language model", "GPT", "large language",
+                "foundation model", "machine-learning",
             ],
-            # For this channel a story must ALSO mention AI/ML to qualify; the
-            # builder enforces that via require_all below. Exclude strips the
-            # business / consumer / policy coverage.
-            "require": ["AI", "artificial intelligence", "machine learning",
-                        "neural network", "deep learning", "algorithm",
-                        "A.I.", "generative", "AlphaFold", "ChatGPT",
-                        "language model", "GPT", "large language"],
+            "include": [
+                "protein", "materials", "material", "molecule", "molecular",
+                "drug", "catalyst", "chemistry", "genomics", "genome",
+                "biology", "biological", "medicine", "medical", "clinical",
+                "disease", "physics", "quantum", "climate", "weather", "fusion",
+                "battery", "solar", "energy", "engineering", "engineer",
+                "simulation", "simulate", "microscopy", "telescope", "astronomy",
+                "astrophysics", "neuroscience", "brain", "crystal",
+                "semiconductor", "superconductor", "robotics", "discovery",
+                "research", "laboratory", "experiment", "predict", "enzyme",
+                "math", "mathematics", "mathematical", "conjecture", "proof",
+                "theorem", "computation", "computational", "scientists",
+                "researchers", "model",
+            ],
             "exclude": [
-                "chatbot", "chatbots", "copilot", "smartphone", "gadget",
-                "stock", "shares", "valuation", "startup funding", "raises $",
-                "lawsuit", "regulation", "regulators", "copyright",
-                "layoffs", "hiring", "CEO", "advertising", "social media",
-                "deepfake", "election", "misinformation", "subscription",
-                "app store", "gaming", "video game", "influencer", "CES 2026",
+                "chatbot", "copilot", "smartphone", "gadget", "stock", "shares",
+                "valuation", "funding", "raises $", "billion", "lawsuit",
+                "regulation", "regulators", "copyright", "layoffs", "hiring",
+                "CEO", "advertising", "social media", "deepfake", "election",
+                "misinformation", "subscription", "app store", "gaming",
+                "video game", "influencer", "CES", "executive order",
             ],
         },
     },
     "materials": {
         "name": "Advanced Materials",
         "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
-        "accent": "#E8A13A",   # warm amber
+        "accent": "#E8A13A",
         "feeds": [
             "https://www.sciencedaily.com/rss/matter_energy/materials_science.xml",
             "https://www.sciencedaily.com/rss/matter_energy/nanotechnology.xml",
             "https://www.nature.com/subjects/materials-science.rss",
             "https://www.sciencedaily.com/rss/matter_energy/chemistry.xml",
-            "https://physicsworld.com/c/materials/feed/",
-        ],
+        ] + BROAD,
+        "filter": {
+            "include": [
+                "material", "materials", "polymer", "alloy", "metal", "crystal",
+                "nanomaterial", "nanotech", "nanoparticle", "molecule",
+                "molecular", "catalyst", "composite", "graphene", "ceramic",
+                "semiconductor", "superconductor", "coating", "membrane",
+                "battery", "electrode", "chemistry", "chemical", "compound",
+                "fabric", "textile", "concrete", "steel", "photonic",
+            ],
+            "exclude": [
+                "dinosaur", "fossil", "wildlife", "butterfly", "capybara",
+                "horse", "gecko", "dementia", "cancer", "heatwave",
+            ],
+        },
     },
     "synbio": {
         "name": "Synthetic Biology",
         "tagline": "Engineered organisms and programmed DNA \u2014 cells built for computing, data storage, and chemical synthesis.",
-        "accent": "#5FBF9B",   # living green
+        "accent": "#5FBF9B",
         "feeds": [
             "https://www.sciencedaily.com/rss/plants_animals/biotechnology.xml",
             "https://www.sciencedaily.com/rss/plants_animals/genetically_modified.xml",
             "https://www.sciencedaily.com/rss/plants_animals/genetic_engineering.xml",
             "https://www.nature.com/subjects/synthetic-biology.rss",
             "https://press.asimov.com/feed",
-            SCIAM_GLOBAL,
-        ],
+        ] + BROAD,
         "filter": {
             "include": [
                 "synthetic biology", "synthetic cell", "synthetic organism",
                 "synthetic life", "synthetic lifeform", "spudcell", "spud cell",
-                "artificial life", "created life",
-                "synthetic genome", "artificial cell", "minimal cell",
+                "artificial cell", "minimal cell", "cell-like system",
                 "engineered bacteria", "engineered microbe", "engineered microbes",
                 "engineered cell", "engineered organism", "engineered yeast",
                 "engineered microorganism", "designer microbe", "designer organism",
@@ -119,86 +123,94 @@ CHANNELS = {
                 "genetic circuit", "genetic circuits", "gene circuit",
                 "biological computer", "biological computing", "cellular computing",
                 "DNA computing", "DNA data storage", "DNA storage",
-                "DNA synthesis", "genome synthesis", "genome writing",
+                "DNA synthesis", "DNA writing", "genome synthesis", "genome writing",
                 "programmable cell", "programmed cell", "reprogrammed bacteria",
-                "biosynthesis", "bio-based production", "microbial factory",
-                "cell factory", "metabolic engineering", "biomanufacturing",
-                "biofoundry", "gene editing", "CRISPR", "base editing", "prime editing",
-                "synthetic microbe", "chassis organism", "xenobot", "living material",
-                "living machine", "living robot", "biological robot", "biobot",
-                "biocomputing", "biocomputer", "DNA-based", "DNA logic",
-                "cell-free", "synthetic DNA", "artificial DNA", "orthogonal",
-                "engineered plant", "engineered crop",
+                "biosynthesis", "microbial factory", "cell factory",
+                "metabolic engineering", "biomanufacturing", "biofoundry",
+                "gene editing", "CRISPR", "base editing", "prime editing",
+                "synthetic microbe", "chassis organism", "xenobot",
+                "living material", "living machine", "living robot", "biobot",
+                "biocomputing", "biocomputer", "DNA-based", "synthetic DNA",
+                "engineered plant", "engineered crop", "grow and divide",
             ],
             "exclude": [
                 "cancer", "tumor", "tumour", "alzheimer", "parkinson",
-                "clinical trial", "patients", "patient ", "symptom",
-                "diagnosis", "diagnostic", "vaccine", "antibody", "antibodies",
-                "dinosaur", "fossil", "evolutionary history", "wildlife",
-                "conservation", "endangered", "biodiversity", "ecosystem",
-                "obesity", "diabetes", "depression", "mental health",
-                "human embryo", "IVF", "fertility",
+                "clinical trial", "patients", "symptom", "vaccine", "antibody",
+                "dinosaur", "fossil", "wildlife", "conservation", "endangered",
+                "biodiversity", "obesity", "diabetes", "depression",
+                "human embryo", "IVF", "fertility", "gum disease",
             ],
         },
     },
     "energywater": {
         "name": "Energy & Water",
         "tagline": "Science and technology for sustainable energy and clean, fresh water for more of humanity.",
-        "accent": "#33C6D6",   # bright cyan-teal
+        "accent": "#33C6D6",
         "feeds": [
             "https://www.sciencedaily.com/rss/matter_energy/energy_technology.xml",
             "https://www.sciencedaily.com/rss/matter_energy/solar_energy.xml",
             "https://www.sciencedaily.com/rss/earth_climate/renewable_energy.xml",
             "https://www.sciencedaily.com/rss/earth_climate/water.xml",
             "https://www.nature.com/subjects/energy.rss",
-            "https://eos.org/feed",
-        ],
+        ] + BROAD,
+        "filter": {
+            "include": [
+                "energy", "solar", "wind", "battery", "batteries", "hydrogen",
+                "fuel cell", "renewable", "grid", "power", "electricity",
+                "photovoltaic", "nuclear", "fusion", "geothermal", "biofuel",
+                "desalination", "water", "freshwater", "clean water",
+                "wastewater", "aquifer", "filtration", "purification",
+                "carbon capture", "electrolysis", "turbine", "storage",
+            ],
+            "exclude": [
+                "dinosaur", "fossil fuel lobby", "wildlife", "cancer",
+                "dementia", "election",
+            ],
+        },
     },
     "spaceexploration": {
         "name": "Space Exploration",
-        "tagline": "New missions, spacecraft, and technologies for reaching and developing the space environment.",
-        "accent": "#F0894E",   # coral / rocket orange
+        "tagline": "New missions, spacecraft, and technologies \u2014 NASA, ESA, ISRO, JAXA, SpaceX, CNES, and more.",
+        "accent": "#F0894E",
         "feeds": [
             "https://www.nasa.gov/feed/",
             "https://www.esa.int/rssfeed/Our_Activities/Human_and_Robotic_Exploration",
+            "https://www.esa.int/rssfeed/TopNews",
             "https://www.sciencedaily.com/rss/space_time/space_exploration.xml",
             "https://spectrum.ieee.org/topic/aerospace/feed",
-            SCIAM_GLOBAL,
-        ],
-        # SciAm's Global feed is broad, and this channel shares the topic of
-        # "space" with the astronomy channel. Keep the hardware/mission stories
-        # here (rockets, spacecraft, crews, launches) and let telescope /
-        # discovery stories flow to Astronomy instead.
+        ] + BROAD,
+        # Captures missions from any agency (ISRO, JAXA, CNES, CNSA, SpaceX,
+        # Blue Origin) reported by NASA/ESA or the broad outlets.
         "filter": {
             "include": [
                 "rocket", "launch", "spacecraft", "satellite", "mission",
-                "astronaut", "crew", "space station", "ISS", "lunar", "moon",
-                "Mars", "orbit", "orbital", "booster", "lander", "rover",
-                "propulsion", "thruster", "spaceflight", "reusable",
-                "NASA", "ESA", "SpaceX", "space agency", "payload",
-                "space telescope", "deep space", "human spaceflight",
-                "cargo", "docking", "reentry", "spaceport", "constellation",
+                "astronaut", "cosmonaut", "crew", "space station", "ISS",
+                "lunar", "moon", "Mars", "orbit", "orbital", "booster",
+                "lander", "rover", "propulsion", "thruster", "spaceflight",
+                "reusable", "NASA", "ESA", "ISRO", "JAXA", "CNES", "CNSA",
+                "SpaceX", "Blue Origin", "Soyuz", "Artemis", "Gaganyaan",
+                "Chandrayaan", "space agency", "payload", "deep space",
+                "spaceport", "docking", "reentry", "asteroid sample",
+                "Long March", "Starship", "Hayabusa", "space telescope",
+                "Gateway", "Perseverance",
             ],
             "exclude": [
-                "cyclosporiasis", "allergy", "creatine", "sleep", "diet",
-                "shark", "seal", "mice", "cats", "tick", "diarrhea",
+                "dinosaur", "heatwave", "typhoon", "capybara", "butterfly",
+                "depression", "soulmate", "mushroom",
             ],
         },
     },
     "astronomy": {
         "name": "Astronomy & Astrophysics",
         "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
-        "accent": "#B98CE0",   # nebula violet
+        "accent": "#B98CE0",
         "feeds": [
             "https://www.sciencedaily.com/rss/space_time/astronomy.xml",
             "https://www.eso.org/public/news/feed/",
             "https://skyandtelescope.org/feed/",
             "https://www.sciencedaily.com/rss/space_time/astrophysics.xml",
             "https://www.nature.com/subjects/astronomy-and-planetary-science.rss",
-            SCIAM_GLOBAL,
-        ],
-        # Keep the astronomy/astrophysics discovery stories; the SciAm Global
-        # feed is broad, so require a cosmos-related term.
+        ] + BROAD,
         "filter": {
             "include": [
                 "galaxy", "galaxies", "star", "stars", "stellar", "quasar",
@@ -207,9 +219,12 @@ CHANNELS = {
                 "astronomy", "astrophysics", "dark matter", "dark energy",
                 "gravitational wave", "neutron star", "pulsar", "comet",
                 "asteroid", "interstellar", "Milky Way", "eclipse", "cosmos",
-                "observatory", "Webb", "Hubble", "redshift", "spectra",
+                "observatory", "Webb", "Hubble", "white dwarf", "redshift",
+                "planetary", "meteor", "solar flare",
             ],
-            "exclude": [],
+            "exclude": [
+                "dinosaur", "heatwave", "typhoon", "capybara",
+            ],
         },
     },
 }
