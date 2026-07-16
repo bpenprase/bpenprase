@@ -1,0 +1,74 @@
+{
+  "generated": "2026-07-16T09:00:00+00:00",
+  "generated_human": "16 July 2026, 09:00 UTC",
+  "total_items": 24,
+  "note": "Sample data for layout preview. Replaced automatically by live feeds when build_digest.py runs.",
+  "channels": [
+    {
+      "key": "ai", "name": "Artificial Intelligence",
+      "tagline": "Machine intelligence turned toward medicine, materials, energy, and discovery.",
+      "accent": "#5AA9E6",
+      "items": [
+        {"title": "AI model designs enzymes that break down PET plastic at room temperature", "link": "https://example.org/a1", "source": "MIT Technology Review", "summary": "A generative protein model proposed candidate enzymes; three degraded common bottle plastic in hours during lab tests.", "published": "2026-07-16T07:12:00+00:00"},
+        {"title": "Machine learning speeds hunt for room-temperature superconductors", "link": "https://example.org/a2", "source": "Quanta Magazine", "summary": "A model trained on known crystal structures ranked thousands of untested compounds, narrowing the search.", "published": "2026-07-15T15:40:00+00:00"},
+        {"title": "Diagnostic AI matches specialists on rare childhood diseases in India trial", "link": "https://example.org/a3", "source": "SciDev.Net", "summary": "A tool developed with hospitals in Bengaluru flagged uncommon genetic conditions from routine records.", "published": "2026-07-15T09:05:00+00:00"},
+        {"title": "Chinese lab releases open weather model rivaling numerical forecasts", "link": "https://example.org/a4", "source": "Rest of World", "summary": "The system produces ten-day forecasts in seconds on a single GPU, with strong monsoon-region results.", "published": "2026-07-14T08:00:00+00:00"}
+      ]
+    },
+    {
+      "key": "materials", "name": "Advanced Materials",
+      "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
+      "accent": "#E8A13A",
+      "items": [
+        {"title": "Porous crystal captures CO2 directly from flue gas at low temperature", "link": "https://example.org/m1", "source": "Knowable Magazine", "summary": "A metal-organic framework grabs carbon dioxide selectively and releases it with gentle heating.", "published": "2026-07-16T06:10:00+00:00"},
+        {"title": "Self-healing polymer extends the life of wind-turbine blades", "link": "https://example.org/m2", "source": "ScienceDaily", "summary": "Microscopic capsules release a resin that seals cracks as they form, reducing offshore maintenance.", "published": "2026-07-15T11:00:00+00:00"},
+        {"title": "Biodegradable plastic made from sugarcane waste passes durability tests", "link": "https://example.org/m3", "source": "Agência FAPESP", "summary": "A Brazilian team turned cane residue into a sturdy film that composts within months.", "published": "2026-07-14T09:30:00+00:00"},
+        {"title": "New alloy stays strong at temperatures that melt ordinary steel", "link": "https://example.org/m4", "source": "Phys.org", "summary": "The material could enable more efficient jet engines and industrial furnaces.", "published": "2026-07-13T13:20:00+00:00"}
+      ]
+    },
+    {
+      "key": "synbio", "name": "Synthetic Biology",
+      "tagline": "Engineered organisms and programmed DNA — cells built for computing, data storage, and chemical synthesis.",
+      "accent": "#5FBF9B",
+      "items": [
+        {"title": "Living cells store and retrieve data using DNA-based logic circuits", "link": "https://example.org/s1", "source": "Asimov Press", "summary": "Engineered genetic circuits record signals over time, letting a colony of cells act as a rewritable biological memory.", "published": "2026-07-16T05:50:00+00:00"},
+        {"title": "Engineered yeast becomes a microbial factory for industrial solvents", "link": "https://example.org/s2", "source": "Phys.org", "summary": "Metabolic engineering reprogrammed the yeast's pathways to secrete a chemical normally made from petroleum.", "published": "2026-07-15T12:10:00+00:00"},
+        {"title": "Synthetic cell with a minimal genome divides on its own", "link": "https://example.org/s3", "source": "Nature News", "summary": "Researchers pared a bacterium down to a designed, minimal set of genes, then coaxed it to grow and split normally.", "published": "2026-07-14T10:40:00+00:00"},
+        {"title": "CRISPR-programmed microbe digests toxic mining waste in the field", "link": "https://example.org/s4", "source": "SciDev.Net", "summary": "A South African trial used a genetically engineered organism to neutralize heavy metals in tailings ponds.", "published": "2026-07-13T08:00:00+00:00"}
+      ]
+    },
+    {
+      "key": "energywater", "name": "Energy & Water",
+      "tagline": "Science and technology for sustainable energy and clean, fresh water for more of humanity.",
+      "accent": "#33C6D6",
+      "items": [
+        {"title": "Sponge-like material pulls drinking water from desert air overnight", "link": "https://example.org/e1", "source": "ScienceDaily", "summary": "A low-cost hydrogel absorbs moisture in dry conditions and releases it with mild sunlight.", "published": "2026-07-16T06:30:00+00:00"},
+        {"title": "New membrane cuts the energy cost of seawater desalination by a third", "link": "https://example.org/e2", "source": "Phys.org", "summary": "An ultrathin filter lets water through while blocking salt, lowering the power a plant needs.", "published": "2026-07-15T13:15:00+00:00"},
+        {"title": "Perovskite-silicon solar cell reaches record efficiency in outdoor test", "link": "https://example.org/e3", "source": "IEEE Spectrum", "summary": "The tandem design converted more sunlight to power than either layer alone, holding up over months.", "published": "2026-07-14T14:00:00+00:00"},
+        {"title": "Low-cost filter removes arsenic from village wells in Bangladesh", "link": "https://example.org/e4", "source": "SciDev.Net", "summary": "A simple iron-based cartridge brought contaminated water within safe limits in field trials.", "published": "2026-07-13T09:10:00+00:00"}
+      ]
+    },
+    {
+      "key": "spaceexploration", "name": "Space Exploration",
+      "tagline": "New missions, spacecraft, and technologies for reaching and developing the space environment.",
+      "accent": "#F0894E",
+      "items": [
+        {"title": "India's lunar rover confirms subsurface ice near the south pole", "link": "https://example.org/x1", "source": "The Hindu", "summary": "Instruments detected buried water ice, a resource that could support future crewed landings.", "published": "2026-07-16T08:00:00+00:00"},
+        {"title": "Reusable heavy-lift rocket completes its first orbital flight", "link": "https://example.org/x2", "source": "Phys.org", "summary": "The vehicle delivered its payload and returned both stages intact, a milestone toward cheaper orbit access.", "published": "2026-07-15T12:45:00+00:00"},
+        {"title": "Europe's Mars sample-return mission passes critical design review", "link": "https://example.org/x3", "source": "ESA", "summary": "Engineers cleared the spacecraft that will retrieve rock cores and bring them to Earth.", "published": "2026-07-14T10:30:00+00:00"},
+        {"title": "Compact ion engine promises faster trips to the outer planets", "link": "https://example.org/x4", "source": "IEEE Spectrum", "summary": "The thruster ran continuously for months in a vacuum chamber, hinting at efficient deep-space travel.", "published": "2026-07-13T11:15:00+00:00"}
+      ]
+    },
+    {
+      "key": "astronomy", "name": "Astronomy & Astrophysics",
+      "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
+      "accent": "#B98CE0",
+      "items": [
+        {"title": "Webb telescope spots water vapor in a rocky planet's atmosphere", "link": "https://example.org/y1", "source": "ESO", "summary": "Spectra reveal signs of water around a small exoplanet, sharpening the search for habitable worlds.", "published": "2026-07-16T08:15:00+00:00"},
+        {"title": "New radio array in the southern hemisphere maps the early universe", "link": "https://example.org/y2", "source": "ESO", "summary": "First light captured faint hydrogen signals from billions of years ago, revealing early galaxies.", "published": "2026-07-15T14:30:00+00:00"},
+        {"title": "Astronomers trace a fast radio burst to a magnetar in a nearby galaxy", "link": "https://example.org/y3", "source": "Sky & Telescope", "summary": "Precise localization tied one of these millisecond flashes to a highly magnetized neutron star.", "published": "2026-07-14T12:20:00+00:00"},
+        {"title": "Survey finds hundreds of new gravitational lenses with machine help", "link": "https://example.org/y4", "source": "Phys.org", "summary": "The lenses act as natural telescopes, magnifying distant galaxies for closer study.", "published": "2026-07-13T09:50:00+00:00"}
+      ]
+    }
+  ]
+}

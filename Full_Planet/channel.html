@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Full Planet — Channel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="channel-page">
+
+<div class="starfield" aria-hidden="true"></div>
+
+<header class="site-head">
+  <a class="wordmark" href="index.html">Full&nbsp;Planet</a>
+  <nav class="head-nav">
+    <a href="index.html#channels">All channels</a>
+    <a href="index.html#about">About</a>
+  </nav>
+</header>
+
+<main class="channel-main">
+  <a class="back-link" href="index.html#channels">← All channels</a>
+
+  <div class="channel-hero" id="channel-hero">
+    <!-- filled by JS -->
+  </div>
+
+  <div class="channel-meta" id="channel-meta"></div>
+
+  <div class="feed" id="feed">
+    <p class="loading">Loading the latest headlines…</p>
+  </div>
+</main>
+
+<footer class="site-foot">
+  <p>Updated daily · Built with open RSS feeds · <a href="index.html#about">About this project</a></p>
+  <p class="foot-fine">Headlines link to their original publishers. Full Planet is a non-commercial educational project.</p>
+</footer>
+
+<script src="assets/channel.js"></script>
+</body>
+</html>
