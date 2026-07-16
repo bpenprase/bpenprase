@@ -56,10 +56,13 @@ def passes_filter(text: str, flt: dict) -> bool:
 
     A channel's optional "filter" dict may contain:
       include: keep only items matching at least one of these terms
+      require: if present, the item must ALSO match at least one of these
+               (used to demand, e.g., an AI mention on top of a science topic)
       exclude: drop items matching any of these terms (takes priority)
 
-    With no filter, everything passes. Exclude always wins over include,
-    so an item matching both an include and an exclude term is dropped.
+    With no filter, everything passes. Exclude always wins. When both include
+    and require are present, an item must satisfy include AND require AND avoid
+    exclude — this is how the AI channel demands "AI + a science topic."
     """
     if not flt:
         return True
@@ -70,18 +73,23 @@ def passes_filter(text: str, flt: dict) -> bool:
         if pat.search(haystack):
             return False
 
+    requires = flt.get("_require_compiled", [])
+    if requires and not any(pat.search(haystack) for pat in requires):
+        return False
+
     includes = flt.get("_include_compiled", [])
     if not includes:
-        return True                       # exclude-only filter
+        return True                       # exclude/require-only filter
     return any(pat.search(haystack) for pat in includes)
 
 
 def compile_filter(flt: dict | None) -> dict | None:
-    """Pre-compile a channel's include/exclude term lists once, up front."""
+    """Pre-compile a channel's include/require/exclude term lists once."""
     if not flt:
         return None
     return {
         "_include_compiled": [as_word_pattern(t) for t in flt.get("include", [])],
+        "_require_compiled": [as_word_pattern(t) for t in flt.get("require", [])],
         "_exclude_compiled": [as_word_pattern(t) for t in flt.get("exclude", [])],
     }
 
@@ -131,8 +139,15 @@ def gather_channel(channel_key: str, channel: dict) -> dict:
         try:
             parsed = feedparser.parse(feed_url)
         except Exception as exc:                     # noqa: BLE001
-            print(f"  ! {channel_key}: failed {feed_url} ({exc})")
+            print(f"    ! FEED FAILED: {feed_url} ({exc})")
             continue
+
+        # feedparser sets .bozo when a feed is malformed or unreachable
+        n_entries = len(parsed.entries)
+        if n_entries == 0:
+            print(f"    ! FEED EMPTY (check URL): {feed_url}")
+        else:
+            print(f"    \u00b7 {n_entries:>3} items from {feed_url}")
 
         src = source_name(parsed.feed, feed_url)
         for entry in parsed.entries:

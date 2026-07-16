@@ -3,7 +3,9 @@ Feed configuration for Full Planet.
 
 Each channel maps to a curated list of RSS/Atom feed URLs drawn from the
 project bibliography. Feeds were chosen to spread coverage across the US,
-Europe, China, India, and the Global South wherever public feeds exist.
+Europe, China, India, and the Global South wherever public feeds exist, and
+to foreground the highest-quality outlets (Scientific American, Science/AAAS,
+Nature, Physics World, APS Physics, AGU Eos) alongside topical wire feeds.
 
 To add a source: find its RSS feed URL and drop it into the right channel.
 To create a new channel: add a new entry with name/tagline/accent/feeds.
@@ -15,8 +17,17 @@ an include term and avoids every exclude term; exclude always wins.
 Accent colors are per-channel and echoed by the website.
 
 Note: phys.org feeds were intentionally removed in favor of higher-quality,
-more distinctive sources.
+more distinctive sources. Scientific American publishes section-specific feeds,
+so each channel pulls the SciAm section that best matches it.
 """
+
+# High-quality general-science feeds reused across several channels.
+# Scientific American's main global feed and the Science/AAAS news feed both
+# carry a broad mix; the per-channel keyword filters (where present) keep them
+# on-topic, and channels without a filter simply get their most relevant
+# section feed instead of the firehose.
+SCIAM_GLOBAL = "https://rss.sciam.com/ScientificAmerican-Global"
+SCIENCE_NEWS = "https://www.science.org/rss/news_current.xml"
 
 CHANNELS = {
     "ai": {
@@ -29,7 +40,8 @@ CHANNELS = {
             "https://spectrum.ieee.org/topic/artificial-intelligence/feed",
             "https://www.quantamagazine.org/feed/",
             "https://www.nature.com/subjects/machine-learning.rss",
-            "https://www.sciencedaily.com/rss/matter_energy/materials_science.xml",
+            SCIAM_GLOBAL,
+            SCIENCE_NEWS,
         ],
         # This channel is specifically AI FOR SCIENCE & ENGINEERING, not
         # general AI industry/policy/product news. Keep a story only if it
@@ -37,6 +49,8 @@ CHANNELS = {
         # the chatbot / gadget / business / regulation coverage.
         "filter": {
             "include": [
+                "AI", "artificial intelligence", "machine learning",
+                "neural network", "deep learning", "algorithm", "model",
                 "protein", "materials", "material", "molecule", "molecular",
                 "drug discovery", "drug design", "catalyst", "chemistry",
                 "genomics", "genome", "biology", "biological", "medicine",
@@ -47,16 +61,24 @@ CHANNELS = {
                 "astronomy", "astrophysics", "neuroscience", "brain",
                 "crystal", "semiconductor", "superconductor", "chip design", "robotics",
                 "scientific discovery", "research", "laboratory", "experiment",
-                "prediction", "predict", "model predicts", "AlphaFold",
-                "algorithm discovers", "machine learning model", "enzyme",
+                "prediction", "predict", "AlphaFold", "enzyme",
+                "math", "mathematics", "mathematical", "conjecture", "proof",
+                "theorem", "computation", "computational",
             ],
+            # For this channel a story must ALSO mention AI/ML to qualify; the
+            # builder enforces that via require_all below. Exclude strips the
+            # business / consumer / policy coverage.
+            "require": ["AI", "artificial intelligence", "machine learning",
+                        "neural network", "deep learning", "algorithm",
+                        "A.I.", "generative", "AlphaFold", "ChatGPT",
+                        "language model", "GPT", "large language"],
             "exclude": [
                 "chatbot", "chatbots", "copilot", "smartphone", "gadget",
                 "stock", "shares", "valuation", "startup funding", "raises $",
                 "lawsuit", "regulation", "regulators", "copyright",
                 "layoffs", "hiring", "CEO", "advertising", "social media",
-                "deepfake", "election", "misinformation", "chatgpt subscription",
-                "app store", "gaming", "video game", "influencer",
+                "deepfake", "election", "misinformation", "subscription",
+                "app store", "gaming", "video game", "influencer", "CES 2026",
             ],
         },
     },
@@ -69,6 +91,7 @@ CHANNELS = {
             "https://www.sciencedaily.com/rss/matter_energy/nanotechnology.xml",
             "https://www.nature.com/subjects/materials-science.rss",
             "https://www.sciencedaily.com/rss/matter_energy/chemistry.xml",
+            "https://physicsworld.com/c/materials/feed/",
         ],
     },
     "synbio": {
@@ -81,10 +104,13 @@ CHANNELS = {
             "https://www.sciencedaily.com/rss/plants_animals/genetic_engineering.xml",
             "https://www.nature.com/subjects/synthetic-biology.rss",
             "https://press.asimov.com/feed",
+            SCIAM_GLOBAL,
         ],
         "filter": {
             "include": [
                 "synthetic biology", "synthetic cell", "synthetic organism",
+                "synthetic life", "synthetic lifeform", "spudcell", "spud cell",
+                "artificial life", "created life",
                 "synthetic genome", "artificial cell", "minimal cell",
                 "engineered bacteria", "engineered microbe", "engineered microbes",
                 "engineered cell", "engineered organism", "engineered yeast",
@@ -125,6 +151,7 @@ CHANNELS = {
             "https://www.sciencedaily.com/rss/earth_climate/renewable_energy.xml",
             "https://www.sciencedaily.com/rss/earth_climate/water.xml",
             "https://www.nature.com/subjects/energy.rss",
+            "https://eos.org/feed",
         ],
     },
     "spaceexploration": {
@@ -136,7 +163,27 @@ CHANNELS = {
             "https://www.esa.int/rssfeed/Our_Activities/Human_and_Robotic_Exploration",
             "https://www.sciencedaily.com/rss/space_time/space_exploration.xml",
             "https://spectrum.ieee.org/topic/aerospace/feed",
+            SCIAM_GLOBAL,
         ],
+        # SciAm's Global feed is broad, and this channel shares the topic of
+        # "space" with the astronomy channel. Keep the hardware/mission stories
+        # here (rockets, spacecraft, crews, launches) and let telescope /
+        # discovery stories flow to Astronomy instead.
+        "filter": {
+            "include": [
+                "rocket", "launch", "spacecraft", "satellite", "mission",
+                "astronaut", "crew", "space station", "ISS", "lunar", "moon",
+                "Mars", "orbit", "orbital", "booster", "lander", "rover",
+                "propulsion", "thruster", "spaceflight", "reusable",
+                "NASA", "ESA", "SpaceX", "space agency", "payload",
+                "space telescope", "deep space", "human spaceflight",
+                "cargo", "docking", "reentry", "spaceport", "constellation",
+            ],
+            "exclude": [
+                "cyclosporiasis", "allergy", "creatine", "sleep", "diet",
+                "shark", "seal", "mice", "cats", "tick", "diarrhea",
+            ],
+        },
     },
     "astronomy": {
         "name": "Astronomy & Astrophysics",
@@ -148,6 +195,21 @@ CHANNELS = {
             "https://skyandtelescope.org/feed/",
             "https://www.sciencedaily.com/rss/space_time/astrophysics.xml",
             "https://www.nature.com/subjects/astronomy-and-planetary-science.rss",
+            SCIAM_GLOBAL,
         ],
+        # Keep the astronomy/astrophysics discovery stories; the SciAm Global
+        # feed is broad, so require a cosmos-related term.
+        "filter": {
+            "include": [
+                "galaxy", "galaxies", "star", "stars", "stellar", "quasar",
+                "black hole", "supernova", "nebula", "cosmic", "cosmology",
+                "universe", "exoplanet", "planet", "telescope", "astronomer",
+                "astronomy", "astrophysics", "dark matter", "dark energy",
+                "gravitational wave", "neutron star", "pulsar", "comet",
+                "asteroid", "interstellar", "Milky Way", "eclipse", "cosmos",
+                "observatory", "Webb", "Hubble", "redshift", "spectra",
+            ],
+            "exclude": [],
+        },
     },
 }
