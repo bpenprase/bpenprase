@@ -54,18 +54,26 @@ CHANNELS = {
                 "foundation model", "machine-learning",
             ],
             "include": [
-                "protein", "materials", "material", "molecule", "molecular",
-                "drug", "catalyst", "chemistry", "genomics", "genome",
-                "biology", "biological", "medicine", "medical", "clinical",
-                "disease", "physics", "quantum", "climate", "weather", "fusion",
-                "battery", "solar", "energy", "engineering", "engineer",
-                "simulation", "simulate", "microscopy", "telescope", "astronomy",
-                "astrophysics", "neuroscience", "brain", "crystal",
-                "semiconductor", "superconductor", "robotics", "discovery",
-                "research", "laboratory", "experiment", "predict", "enzyme",
+                # Specific science & engineering DOMAINS only. A story must
+                # tie AI to one of these to qualify — the generic words
+                # "research / researchers / scientists / model / discovery"
+                # were removed because nearly every AI story contains them,
+                # which let general AI news slip through.
+                "protein", "materials science", "material", "molecule", "molecular",
+                "drug discovery", "drug design", "catalyst", "chemistry",
+                "genomics", "genome", "genetic", "biology", "biological",
+                "medicine", "medical", "clinical", "disease", "diagnosis",
+                "physics", "quantum", "climate", "weather forecast", "fusion",
+                "battery", "solar", "materials", "engineering", "protein folding",
+                "simulation", "microscopy", "telescope", "astronomy",
+                "astrophysics", "neuroscience", "crystal", "semiconductor",
+                "superconductor", "enzyme", "chemical", "biochemistry",
                 "math", "mathematics", "mathematical", "conjecture", "proof",
-                "theorem", "computation", "computational", "scientists",
-                "researchers", "model",
+                "theorem", "scientific discovery", "particle physics",
+                "weather prediction", "protein structure", "materials discovery",
+                "vaccine design", "antibiotic", "antibody design", "fluid dynamics",
+                "genomic", "cell biology", "structural biology", "drug",
+                "reaction", "spectroscopy", "microscope", "sensor",
             ],
             "exclude": [
                 "chatbot", "copilot", "smartphone", "gadget", "stock", "shares",
@@ -143,7 +151,7 @@ CHANNELS = {
     },
     "energywater": {
         "name": "Energy & Water",
-        "tagline": "Science and technology for sustainable energy and clean, fresh water for more of humanity.",
+        "tagline": "New ways to generate clean energy, capture carbon, and bring fresh water and power to people, cities, and transport.",
         "accent": "#33C6D6",
         "feeds": [
             "https://www.sciencedaily.com/rss/matter_energy/energy_technology.xml",
@@ -151,18 +159,43 @@ CHANNELS = {
             "https://www.sciencedaily.com/rss/earth_climate/renewable_energy.xml",
             "https://www.sciencedaily.com/rss/earth_climate/water.xml",
         ] + BROAD,
+        # Focus tightly on ENERGY GENERATION, CARBON CAPTURE, CLEAN WATER, and
+        # POWERING CITIES & TRANSPORT — not general climate/environment news.
+        # The "require" gate demands a specific solution/technology term, so we
+        # get "a new way to generate/store/capture/purify", not broad "climate
+        # is changing" coverage. Exclude strips the wildlife/disaster/health
+        # stories the broad feeds also carry.
         "filter": {
-            "include": [
-                "energy", "solar", "wind", "battery", "batteries", "hydrogen",
-                "fuel cell", "renewable", "grid", "power", "electricity",
-                "photovoltaic", "nuclear", "fusion", "geothermal", "biofuel",
-                "desalination", "water", "freshwater", "clean water",
-                "wastewater", "aquifer", "filtration", "purification",
-                "carbon capture", "electrolysis", "turbine", "storage",
+            "require": [
+                "solar", "wind power", "wind turbine", "wind farm", "battery",
+                "batteries", "hydrogen", "fuel cell", "renewable", "power grid",
+                "photovoltaic", "nuclear power", "nuclear reactor", "fusion",
+                "geothermal", "biofuel", "desalination", "electrolysis",
+                "carbon capture", "carbon sequestration", "direct air capture",
+                "carbon dioxide removal", "CO2 capture", "energy storage",
+                "grid storage", "clean energy", "clean water", "fresh water",
+                "freshwater", "water purification", "water filtration",
+                "wastewater", "solar cell", "solar panel", "power plant",
+                "electric vehicle", "EV battery", "energy efficiency",
+                "green hydrogen", "green technology", "tidal energy",
+                "wave energy", "hydropower", "hydroelectric", "microgrid",
+                "smart grid", "supercapacitor", "sustainable energy",
+                "power generation", "solid-state battery", "perovskite",
+                "electrolyzer", "heat pump", "atmospheric water", "sea water",
+                "seawater", "solar power", "wind energy", "nuclear fusion",
+                "grid-scale", "clean power", "water treatment", "aquifer",
+                "photovoltaics", "biogas", "ammonia fuel", "sodium-ion",
+                "drinking water", "safe water", "water access", "well water",
+                "arsenic", "water scarcity", "water supply", "potable water",
+                "sanitation", "clean drinking",
             ],
+            "include": [],  # require gate is specific enough; keep all that pass
             "exclude": [
-                "dinosaur", "fossil fuel lobby", "wildlife", "cancer",
-                "dementia", "election",
+                "dinosaur", "fossil discovery", "wildlife", "extinction",
+                "endangered", "species", "coral", "shark", "whale", "insect",
+                "butterfly", "bird", "heatwave", "hurricane", "typhoon",
+                "wildfire smoke", "cancer", "dementia", "vaccine", "election",
+                "lawsuit", "stock market", "El Ni", "sea level rise",
             ],
         },
     },
