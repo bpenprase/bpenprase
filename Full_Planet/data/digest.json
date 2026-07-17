@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-16T23:40:39.971132+00:00",
-  "generated_human": "16 July 2026, 23:40 UTC",
-  "total_items": 116,
+  "generated": "2026-07-17T01:30:22.492521+00:00",
+  "generated_human": "17 July 2026, 01:30 UTC",
+  "total_items": 115,
   "channels": [
     {
       "key": "ai",
@@ -24,6 +24,14 @@
           "summary": "Software engineering jobs are under threat from artificial intelligence . Some applicants are fighting back by using AI in the interview process, employing AI assistants that suggest responses on the fly during remote…",
           "published": "2026-07-13T15:15:03+00:00",
           "regional": false
+        },
+        {
+          "title": "From humanoids to Huawei: what to watch as Xi attends China’s WAIC amid US AI rivalry",
+          "link": "https://www.scmp.com/tech/big-tech/article/3360800/humanoids-huawei-what-watch-xi-attends-chinas-waic-amid-us-ai-rivalry?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "China will use its largest annual artificial intelligence gathering this week to showcase an ambition that extends beyond catching up with the United States in foundation models to building dominance in autonomous…",
+          "published": "2026-07-17T01:00:05+00:00",
+          "regional": true
         },
         {
           "title": "40% long posts on LinkedIn are AI-generated, highest among social platforms: Study",
@@ -95,14 +103,6 @@
           "source": "The Korea Herald",
           "summary": "Samsung Electronics is set to unveil its next-generation foldable phones and wearable devices at Galaxy Unpacked in London on July 22, with a new wider book-style foldable phone, a separate Ultra foldable model and an…",
           "published": "2026-07-16T02:44:37+00:00",
-          "regional": true
-        },
-        {
-          "title": "KT trains AI field engineers with Palantir for B2B push",
-          "link": "https://www.koreaherald.com/article/10811054",
-          "source": "The Korea Herald",
-          "summary": "KT Corp. is stepping up efforts to train forward-deployed engineers, or FDEs, with US artificial intelligence software company Palantir Technologies as it seeks to expand its business-to-business AI transformation…",
-          "published": "2026-07-16T02:44:02+00:00",
           "regional": true
         }
       ]
@@ -178,14 +178,6 @@
           "regional": false
         },
         {
-          "title": "Why are the steel beams inside a Manhattan skyscraper buckling? Experts explain",
-          "link": "https://www.scientificamerican.com/article/why-are-the-steel-beams-inside-a-manhattan-skyscraper-buckling-experts-explain/",
-          "source": "Scientific American",
-          "summary": "Steel support columns in the Midtown building, which is being converted from offices into apartments, may have been overloaded, experts say",
-          "published": "2026-07-07T19:35:00+00:00",
-          "regional": false
-        },
-        {
           "title": "AI just supercharged the race to find room temperature superconductors",
           "link": "https://www.sciencedaily.com/releases/2026/07/260701205006.htm",
           "source": "ScienceDaily",
@@ -242,14 +234,6 @@
           "regional": true
         },
         {
-          "title": "Combining easily reducible iron with hard-to-reduce tantalum — Iron-based oxyhydride realized by Kyoto University and partners",
-          "link": "https://sj.jst.go.jp/news/202607/n0714-02k.html",
-          "source": "Science Japan",
-          "summary": "Oxyhydrides, materials in which negative hydrogen ions (hydrides) are introduced into oxides, are expected to find applications as next-generation battery materials and high-performance catalysts for ammonia synthesis.",
-          "published": "2026-07-14T06:09:02+00:00",
-          "regional": true
-        },
-        {
           "title": "Material filters tritium from nuclear wastewater at record speed",
           "link": "https://www.thehindu.com/sci-tech/science/new-mesh-filters-tritium-from-nuclear-wastewater-at-record-speed/article71216070.ece",
           "source": "The Hindu",
@@ -279,6 +263,14 @@
           "source": "The Hindu",
           "summary": "The researchers say that the biological material they developed provides a sustainable and environment-friendly method to tackle the lead-contaminated water challenge in the country",
           "published": "2026-07-09T05:47:35+00:00",
+          "regional": true
+        },
+        {
+          "title": "Nanotech scientist spots early clues for TB, cancer",
+          "link": "https://www.scidev.net/global/role-models/nanotech-scientist-spots-early-clues-for-tb-cancer/",
+          "source": "SciDev.Net",
+          "summary": "South Africa scientist Jaymi Leigh January says her biosensors can detect disease biomarkers before serious harm is caused.",
+          "published": "2026-07-09T01:58:51+00:00",
           "regional": true
         }
       ]
@@ -426,11 +418,11 @@
           "regional": true
         },
         {
-          "title": "World's first fully integrated demonstration of green hydrogen production, transport, and utilization at room temperature and atmospheric pressure",
-          "link": "https://sj.jst.go.jp/news/202607/n0714-01k.html",
-          "source": "Science Japan",
-          "summary": "The Kono Laboratory of the Research Center for Advanced Science and Technology (RCAST) at the University of Tokyo, together with ARM Technologies (Sagamihara City, Kanagawa Prefecture) and AISIN CORPORATION (Kariya…",
-          "published": "2026-07-14T06:10:22+00:00",
+          "title": "OnePlus Nord Buds 4 Review: Big on battery life and ANC",
+          "link": "https://indianexpress.com/article/technology/tech-reviews/oneplus-nord-buds-4-review-big-on-battery-life-and-anc-10782207/",
+          "source": "Indian Express",
+          "summary": "",
+          "published": "2026-07-11T14:47:31+00:00",
           "regional": true
         }
       ]
@@ -441,6 +433,14 @@
       "tagline": "New missions, spacecraft, and technologies — NASA, ESA, ISRO, JAXA, SpaceX, CNES, and more.",
       "accent": "#F0894E",
       "items": [
+        {
+          "title": "SpaceX’s latest Starship launch attempt ends in a scrub",
+          "link": "https://www.scientificamerican.com/article/spacexs-latest-starship-launch-attempt-ends-in-a-scrub/",
+          "source": "Scientific American",
+          "summary": "SpaceX’s first attempt to launch its Starship megarocket on its thirteenth flight test ended before it could properly begin, aborting just before liftoff",
+          "published": "2026-07-16T23:45:00+00:00",
+          "regional": false
+        },
         {
           "title": "NASA Welcomes Serbia as Newest Artemis Accords Signatory",
           "link": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-serbia-as-newest-artemis-accords-signatory/",
@@ -626,12 +626,20 @@
           "regional": false
         },
         {
-          "title": "NASA's Perseverance just completed a marathon on Mars",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260713084858.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA's Perseverance rover has reached an impressive new milestone on Mars, completing the equivalent of a full marathon by driving 26.2 miles (42.195 kilometers) across the Red Planet.",
-          "published": "2026-07-14T05:32:12+00:00",
-          "regional": false
+          "title": "Domestic first without boosters: Successful launch of H3 rocket No. 6",
+          "link": "https://sj.jst.go.jp/stories/2026/s0717-01p.html",
+          "source": "Science Japan",
+          "summary": "The large-scale H3 rocket No. 6 was launched from the Tanegashima Space Center in Kagoshima Prefecture at 9:53:59 a.m. on June 12.",
+          "published": "2026-07-17T06:39:35+00:00",
+          "regional": true
+        },
+        {
+          "title": "SpaceX Starship launch aborted on pad at last moment",
+          "link": "https://www.thehindu.com/sci-tech/spacex-starship-launch-aborted-on-pad-at-last-moment/article71232548.ece",
+          "source": "The Hindu",
+          "summary": "t was supposed to be the 13th flight for Starship, which, at 407 feet (124 metres) tall with 33 main engines, is the world’s biggest and most powerful rocket",
+          "published": "2026-07-17T01:16:19+00:00",
+          "regional": true
         },
         {
           "title": "OpenAI marks hardware debut with mini-keyboard designed for Codex users",
@@ -695,22 +703,6 @@
           "source": "Indian Express",
           "summary": "",
           "published": "2026-07-15T13:22:40+00:00",
-          "regional": true
-        },
-        {
-          "title": "NASA astronaut Anil Menon, two others reach International Space Station",
-          "link": "https://www.thehindu.com/sci-tech/science/nasa-astronaut-anil-menon-two-others-reach-international-space-station/article71224239.ece",
-          "source": "The Hindu",
-          "summary": "The Roscosmos spacecraft carrying Anil Menon and Russian cosmonauts Pyotr Dubrov and Anna Kikina lifted off from Baikonur at 8:17 pm IST on Tuesday (July 14, 2026) just as the orbital laboratory flew over the cosmodrome",
-          "published": "2026-07-15T10:23:58+00:00",
-          "regional": true
-        },
-        {
-          "title": "How the Gaganyaan crew module is built to survive",
-          "link": "https://www.thehindu.com/sci-tech/science/how-the-gaganyaan-crew-module-is-built-to-survive/article71221059.ece",
-          "source": "The Hindu",
-          "summary": "What happens to the crew and service modules during descent?",
-          "published": "2026-07-15T07:05:50+00:00",
           "regional": true
         }
       ]
