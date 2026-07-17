@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-07-16 12:30 PDT
-; Observing window starts 2026-07-16 21:42 PDT  (LST 16:31:10)
+; Generated 2026-07-17 12:29 PDT
+; Observing window starts 2026-07-17 21:42 PDT  (LST 16:35:07)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -14,7 +14,7 @@
 #filter r',g',i',z'
 M 101
 
-; Comet C/2023 R1 (PANSTARRS)  mag 13.6
+; Comet C/2023 R1 (PANSTARRS)  mag 13.4
 #posang 0
 #count 3
 #interval 300
@@ -128,7 +128,7 @@ M 11
 MP Melpomene
 #WAITINLIMITS 60
 
-; Asteroid 8 Flora  mag 9.1
+; Asteroid 8 Flora  mag 9.2
 #posang 0
 #count 3
 #interval 300
@@ -226,7 +226,7 @@ NGC 7000
 #filter r',Ha,OIII,SII
 NGC 7023
 
-; Comet 10P/Tempel  mag 9.1
+; Comet 10P/Tempel  mag 8.9
 #posang 0
 #count 3
 #interval 300
@@ -251,7 +251,7 @@ M 39
 #filter r',Ha,OIII,SII
 IC 5146
 
-; Asteroid 349 Dembowska (1892 T)  mag 10.2
+; Asteroid 349 Dembowska (1892 T)  mag 10.1
 #posang 0
 #count 3
 #interval 300
@@ -276,6 +276,14 @@ NGC 7293
 #filter r'
 Neptune
 #WAITINLIMITS 60
+
+; Galaxy  mag 9.2  size 12.94'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 0185
 
 ; Galaxy  mag 8.2  size 16.22'
 #posang 0
@@ -327,6 +335,14 @@ NGC 0457
 MP Pallas
 #WAITINLIMITS 60
 
+; Galaxy  mag 5.8  size 62.09'  Triangulum Galaxy,Triangulum Pinwheel
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 33
+
 ; Asteroid 4 Vesta  mag 7.7
 #posang 0
 #count 3
@@ -335,14 +351,6 @@ MP Pallas
 #filter r'
 MP Vesta
 #WAITINLIMITS 60
-
-; Galaxy  mag 5.8  size 62.09'  Triangulum Galaxy,Triangulum Pinwheel
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 33
 
 ; Comet 220P/McNaught  mag 13.2
 #posang 0
@@ -369,7 +377,7 @@ NGC 0869
 #filter r',g',i',z'
 NGC 0884
 
-; Comet 88P/Howell  mag 12.5
+; Comet 88P/Howell  mag 12.7
 #posang 0
 #count 3
 #interval 300
@@ -409,14 +417,6 @@ NGC 1499
 #binning 1,1,1,1
 #filter r',g',i',z'
 IC 2574
-
-; Galaxy  mag 9.8  size 5.04'  Coma Pinwheel,Virgo Cluster Pinwheel
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 99
 
 ; Galaxy  mag 9.1  size 6.95'
 #posang 0
