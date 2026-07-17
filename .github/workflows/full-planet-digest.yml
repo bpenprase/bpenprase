@@ -1,15 +1,12 @@
 name: Full Planet daily digest
 
-# Rebuilds Full_Planet/data/digest.json from the RSS feeds each day and commits
-# it, so the Full Planet pages on your GitHub site show fresh headlines.
-
 on:
   schedule:
-    - cron: "0 9 * * *"
-  workflow_dispatch:
+    - cron: "0 9 * * *"    # 09:00 UTC daily — adjust to taste
+  workflow_dispatch:         # lets you trigger a build by hand from the Actions tab
 
 permissions:
-  contents: write
+  contents: write            # allows the action to commit the updated digest
 
 jobs:
   build:
@@ -24,11 +21,18 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install feedparser
+        run: pip install feedparser google-api-python-client google-auth
 
       - name: Build the digest
         working-directory: Full_Planet
         run: python build_digest.py
+
+      - name: Sync channels to Google Drive (for NotebookLM)
+        working-directory: Full_Planet
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+        run: python sync_to_drive.py
 
       - name: Commit updated digest
         run: |
@@ -39,5 +43,12 @@ jobs:
             echo "No changes today."
           else
             git commit -m "Full Planet daily digest: $(date -u '+%Y-%m-%d')"
-            git push
+            for attempt in 1 2 3; do
+              if git push; then
+                echo "Pushed on attempt $attempt."
+                break
+              fi
+              echo "Push rejected; pulling latest and retrying ($attempt)..."
+              git pull --rebase --autostash origin main
+            done
           fi
