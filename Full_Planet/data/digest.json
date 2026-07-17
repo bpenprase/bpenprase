@@ -1,77 +1,132 @@
 {
-  "generated": "2026-07-16T09:00:00+00:00",
-  "generated_human": "16 July 2026, 09:00 UTC",
-  "total_items": 24,
-  "note": "Sample data for layout preview. Replaced automatically by live feeds when build_digest.py runs.",
+  "generated": "2026-07-17T08:39:40.253432+00:00",
+  "generated_human": "17 July 2026, 08:39 UTC",
+  "total_items": 125,
   "channels": [
     {
       "key": "ai",
       "name": "Artificial Intelligence",
-      "tagline": "Machine intelligence turned toward medicine, materials, energy, and discovery.",
+      "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
         {
-          "title": "AI model designs enzymes that break down PET plastic at room temperature",
-          "link": "https://example.org/a1",
-          "source": "MIT Technology Review",
-          "summary": "A generative protein model proposed candidate enzymes; three degraded common bottle plastic in hours during lab tests.",
-          "published": "2026-07-16T07:12:00+00:00",
+          "title": "This AI Folds DNA Into Mini Masterpieces",
+          "link": "https://spectrum.ieee.org/ai-dna-origami",
+          "source": "IEEE Spectrum",
+          "summary": "Shaped like dogs, stars, and the Mona Lisa, you could mistake these DNA structures for fun-shaped macaroni if they weren’t only nanometers wide.",
+          "published": "2026-07-15T13:00:01+00:00",
           "regional": false
         },
         {
-          "title": "Machine learning speeds hunt for room-temperature superconductors",
-          "link": "https://example.org/a2",
-          "source": "Quanta Magazine",
-          "summary": "A model trained on known crystal structures ranked thousands of untested compounds, narrowing the search.",
-          "published": "2026-07-15T15:40:00+00:00",
+          "title": "The AI Arms Race in Technical Interviews Is Escalating",
+          "link": "https://spectrum.ieee.org/technical-interview-ai-arms-race",
+          "source": "IEEE Spectrum",
+          "summary": "Software engineering jobs are under threat from artificial intelligence . Some applicants are fighting back by using AI in the interview process, employing AI assistants that suggest responses on the fly during remote…",
+          "published": "2026-07-13T15:15:03+00:00",
           "regional": false
         },
         {
-          "title": "Diagnostic AI matches specialists on rare childhood diseases in India trial",
-          "link": "https://example.org/a3",
-          "source": "SciDev.Net",
-          "summary": "A tool developed with hospitals in Bengaluru flagged uncommon genetic conditions from routine records.",
-          "published": "2026-07-15T09:05:00+00:00",
+          "title": "AI’s Volatile Power Use Quietly Tests Grid Limits",
+          "link": "https://spectrum.ieee.org/data-centers-grid-instability",
+          "source": "IEEE Spectrum",
+          "summary": "The rapid expansion of artificial intelligence infrastructure is typically framed as an energy problem. Data centers are projected to consume a growing share of global electricity demand: The International Energy Agency…",
+          "published": "2026-07-03T12:00:01+00:00",
           "regional": false
         },
         {
-          "title": "Chinese lab releases open weather model rivaling numerical forecasts",
-          "link": "https://example.org/a4",
-          "source": "Rest of World",
-          "summary": "The system produces ten-day forecasts in seconds on a single GPU, with strong monsoon-region results.",
-          "published": "2026-07-14T08:00:00+00:00",
+          "title": "As AI Reshapes Global Energy Systems, Melbourne Leads Through Engineering Collaboration",
+          "link": "https://spectrum.ieee.org/ai-energy-systems-melbourne",
+          "source": "IEEE Spectrum",
+          "summary": "This article is brought to you by Melbourne Convention Bureau (MCB) supported by Business Events Australia . As artificial intelligence accelerates global demand for compute, a parallel constraint is emerging with equal…",
+          "published": "2026-07-01T16:01:27+00:00",
           "regional": false
         },
         {
-          "title": "China unveils AI system that designs novel battery materials",
-          "link": "https://www.scmp.com/example",
+          "title": "Millions of exploding stars could soon reveal dark energy's secrets",
+          "link": "https://www.sciencedaily.com/releases/2026/06/260621060315.htm",
+          "source": "ScienceDaily",
+          "summary": "A new AI-powered framework could transform how astronomers measure the expansion of the Universe. By analyzing images of Type Ia supernovae and modeling their environments in unprecedented detail, researchers can…",
+          "published": "2026-06-29T21:57:17+00:00",
+          "regional": false
+        },
+        {
+          "title": "Xi Jinping calls for ‘openness’, opposes ‘one country’ rule in AI – as it happened",
+          "link": "https://www.scmp.com/tech/policy/article/3360858/chinas-xi-jinping-addresses-world-ai-conference-us-tech-rivalry-heats?utm_source=rss_feed",
           "source": "South China Morning Post",
-          "summary": "Researchers at a Shenzhen lab used a generative model to propose electrode chemistries, several now in testing.",
-          "published": "2026-07-15T10:00:00+00:00",
+          "summary": "President Xi Jinping spoke on Friday at the opening of the 2026 World Artificial Intelligence Conference (WAIC), China’s largest annual event for the AI industry.",
+          "published": "2026-07-17T02:01:07+00:00",
           "regional": true
         },
         {
-          "title": "Japanese team uses machine learning to accelerate fusion research",
-          "link": "https://sj.jst.go.jp/example",
-          "source": "Science Japan",
-          "summary": "A neural network trained on plasma data helps stabilize experimental reactors at Japan's National Institute for Fusion Science.",
-          "published": "2026-07-14T08:00:00+00:00",
+          "title": "From humanoids to Huawei: what to watch as Xi attends China’s WAIC amid US AI rivalry",
+          "link": "https://www.scmp.com/tech/big-tech/article/3360800/humanoids-huawei-what-watch-xi-attends-chinas-waic-amid-us-ai-rivalry?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "China will use its largest annual artificial intelligence gathering this week to showcase an ambition that extends beyond catching up with the United States in foundation models to building dominance in autonomous…",
+          "published": "2026-07-17T01:00:05+00:00",
           "regional": true
         },
         {
-          "title": "Latin America unites on ethical AI roadmap",
-          "link": "https://www.scidev.net/example",
-          "source": "SciDev.Net",
-          "summary": "A regional AI plan agreed by 20 countries includes a new expert group to combat disinformation.",
-          "published": "2026-07-06T01:21:00+00:00",
+          "title": "KT trains AI field engineers with Palantir for B2B push",
+          "link": "https://www.koreaherald.com/article/10811054",
+          "source": "The Korea Herald",
+          "summary": "KT Corp. is stepping up efforts to train forward-deployed engineers, or FDEs, with US artificial intelligence software company Palantir Technologies as it seeks to expand its business-to-business AI transformation…",
+          "published": "2026-07-16T02:44:02+00:00",
           "regional": true
         },
         {
-          "title": "Max Planck researchers train AI to predict protein interactions",
-          "link": "https://www.mpg.de/example",
-          "source": "Max Planck Society",
-          "summary": "The model maps how thousands of proteins bind, speeding drug-target discovery.",
-          "published": "2026-07-05T09:00:00+00:00",
+          "title": "Business leaders seek AI-led growth at Jeju Forum",
+          "link": "https://www.koreaherald.com/article/10810240",
+          "source": "The Korea Herald",
+          "summary": "South Korea’s leading business figures gathered Wednesday on Jeju Island to seek new sources of growth as artificial intelligence reshapes the country’s industries, workplaces and education system.",
+          "published": "2026-07-15T09:20:21+00:00",
+          "regional": true
+        },
+        {
+          "title": "KB Financial launches AI Lab for workplace AI",
+          "link": "https://www.koreaherald.com/article/10809813",
+          "source": "The Korea Herald",
+          "summary": "KB Financial Group has launched a hands-on AI talent program as part of efforts to accelerate artificial intelligence adoption across the group and integrate the technology more deeply into everyday work.",
+          "published": "2026-07-15T05:26:17+00:00",
+          "regional": true
+        },
+        {
+          "title": "Ulsan joins SK’s push to train AI talent",
+          "link": "https://www.koreaherald.com/article/10809801",
+          "source": "The Korea Herald",
+          "summary": "Ulsan, together with SK AX, launched the SK AI Leader Academy on Wednesday as part of efforts to nurture industry-ready artificial intelligence professionals outside the Seoul metropolitan area.",
+          "published": "2026-07-15T05:19:44+00:00",
+          "regional": true
+        },
+        {
+          "title": "Chinese AI labs to challenge Thinking Machines Lab with new industry focus",
+          "link": "https://www.scmp.com/tech/big-tech/article/3360411/chinese-ai-labs-challenge-thinking-machines-lab-new-industry-focus?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Two former Chinese AI lab leaders said they aim to challenge Thinking Machines Lab, a US start-up founded by ex-OpenAI executive Mira Murati, and focus on building industry-specific artificial intelligence solutions and…",
+          "published": "2026-07-14T02:00:17+00:00",
+          "regional": true
+        },
+        {
+          "title": "Zhipu AI founder outlines Touch High plan for AGI research",
+          "link": "https://technode.com/2026/07/13/zhipu-ai-founder-outlines-touch-high-plan-for-agi-research/",
+          "source": "TechNode",
+          "summary": "Zhipu AI founder Tang Jie told employees in an internal letter that the Chinese foundation model developer will launch a “Touch High” plan, focusing on AGI research rather than short-term commercialization, according to…",
+          "published": "2026-07-13T09:30:37+00:00",
+          "regional": true
+        },
+        {
+          "title": "DeepSeek begins in-house AI chip development to cut reliance on NVIDIA, sources say",
+          "link": "https://technode.com/2026/07/08/deepseek-begins-in-house-ai-chip-development-to-cut-reliance-on-nvidia-sources-say/",
+          "source": "TechNode",
+          "summary": "In recent years, as generative AI has shifted from model training toward large-scale inference, an increasing number of AI model developers have turned their attention to underlying hardware.",
+          "published": "2026-07-08T02:34:26+00:00",
+          "regional": true
+        },
+        {
+          "title": "Glass crashes slashed? Ant Group embodied AI unit claims breakthrough in robot sensing",
+          "link": "https://www.scmp.com/tech/big-tech/article/3359747/glass-crashes-slashed-ant-group-embodied-ai-unit-claims-breakthrough-robot-sensing?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Robbyant, the embodied artificial intelligence arm of Chinese fintech giant Ant Group, launched a new vision model that it claims can help robots overcome a long-standing challenge: accurately perceiving glass, mirrors…",
+          "published": "2026-07-07T11:30:31+00:00",
           "regional": true
         }
       ]
@@ -83,36 +138,188 @@
       "accent": "#E8A13A",
       "items": [
         {
-          "title": "Porous crystal captures CO2 directly from flue gas at low temperature",
-          "link": "https://example.org/m1",
-          "source": "Knowable Magazine",
-          "summary": "A metal-organic framework grabs carbon dioxide selectively and releases it with gentle heating.",
-          "published": "2026-07-16T06:10:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Self-healing polymer extends the life of wind-turbine blades",
-          "link": "https://example.org/m2",
+          "title": "Quantum breakthrough links light and magnetism in atomically thin materials",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260715083523.htm",
           "source": "ScienceDaily",
-          "summary": "Microscopic capsules release a resin that seals cracks as they form, reducing offshore maintenance.",
-          "published": "2026-07-15T11:00:00+00:00",
+          "summary": "A new review highlights exciting progress in atomically thin quantum materials where light and magnetism work together in ways never before possible.",
+          "published": "2026-07-16T04:16:48+00:00",
           "regional": false
         },
         {
-          "title": "Biodegradable plastic made from sugarcane waste passes durability tests",
-          "link": "https://example.org/m3",
-          "source": "Agência FAPESP",
-          "summary": "A Brazilian team turned cane residue into a sturdy film that composts within months.",
-          "published": "2026-07-14T09:30:00+00:00",
+          "title": "DNA from African graves provides surprising window into slave trade",
+          "link": "https://www.science.org/content/article/dna-african-graves-provides-surprising-window-slave-trade",
+          "source": "Science (AAAS)",
+          "summary": "Adults and children were taken from deep within continent’s interior, genetic material from remote island of St. Helena suggests",
+          "published": "2026-07-16T02:00:00+00:00",
           "regional": false
         },
         {
-          "title": "New alloy stays strong at temperatures that melt ordinary steel",
-          "link": "https://example.org/m4",
-          "source": "Nature",
-          "summary": "The material could enable more efficient jet engines and industrial furnaces.",
-          "published": "2026-07-13T13:20:00+00:00",
+          "title": "Scientists spot sugar in interstellar space for the first time ever",
+          "link": "https://www.scientificamerican.com/article/scientists-spot-sugar-in-interstellar-space-for-the-first-time-ever/",
+          "source": "Scientific American",
+          "summary": "Erythrulose—a sugar found in raspberries—is also prevalent in a giant molecular cloud close to our galaxy’s core, scientists have discovered",
+          "published": "2026-07-13T15:00:00+00:00",
           "regional": false
+        },
+        {
+          "title": "Why gold never tarnishes has finally been explained",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260710003511.htm",
+          "source": "ScienceDaily",
+          "summary": "Gold may have a secret self-defense system that helps it resist tarnishing. Researchers discovered that atoms on gold surfaces reorganize themselves into patterns that block oxygen from reacting with the metal,…",
+          "published": "2026-07-12T02:36:05+00:00",
+          "regional": false
+        },
+        {
+          "title": "How a 1,900-year-old latrine helps explain why Roman concrete lasts",
+          "link": "https://www.scientificamerican.com/article/how-a-1-900-year-old-latrine-helps-explain-why-roman-concrete-lasts/",
+          "source": "Scientific American",
+          "summary": "An ancient sample shows calcite threading through this material’s cracks and pores, offering possible lessons for making modern concrete last longer",
+          "published": "2026-07-11T15:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "This electric field trick boosted heat flow by nearly 300%",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260709160651.htm",
+          "source": "ScienceDaily",
+          "summary": "Researchers discovered that electricity can dramatically reshape how heat flows through certain ceramic materials, increasing heat conduction by almost threefold in a preferred direction.",
+          "published": "2026-07-11T12:18:02+00:00",
+          "regional": false
+        },
+        {
+          "title": "The biggest problem with solid-state batteries may finally be solved",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260710003533.htm",
+          "source": "ScienceDaily",
+          "summary": "Researchers solved the mystery of how soft lithium dendrites crack the hard ceramic inside solid-state batteries, triggering short circuits.",
+          "published": "2026-07-10T12:29:27+00:00",
+          "regional": false
+        },
+        {
+          "title": "Schrödinger’s anthill: Quantum entanglement found in a crystal large enough to hold",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260701015242.htm",
+          "source": "ScienceDaily",
+          "summary": "A centimeter-sized crystal has revealed clear signs of quantum entanglement, showing that large, everyday objects can display surprisingly deep quantum behavior.",
+          "published": "2026-07-08T00:46:06+00:00",
+          "regional": false
+        },
+        {
+          "title": "AI just supercharged the race to find room temperature superconductors",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260701205006.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have combined machine learning with quantum physics to discover two new superconductors and create a much faster way to search for many more.",
+          "published": "2026-07-07T05:39:51+00:00",
+          "regional": false
+        },
+        {
+          "title": "New optical centrifuge unlocks the secrets of frictionless superfluids",
+          "link": "https://www.sciencedaily.com/releases/2026/06/260625014840.htm",
+          "source": "ScienceDaily",
+          "summary": "Physicists have developed a new optical centrifuge that can precisely spin molecules inside a superfluid for the first time.",
+          "published": "2026-07-04T08:32:34+00:00",
+          "regional": false
+        },
+        {
+          "title": "Scientists create quantum sound device that could transform communications",
+          "link": "https://www.sciencedaily.com/releases/2026/06/260626030435.htm",
+          "source": "ScienceDaily",
+          "summary": "A new quantum device can generate precisely controlled bursts of sound-like particles, or phonons, by forcing electrons through an ultra-thin crystal at extremely low temperatures.",
+          "published": "2026-07-02T02:11:12+00:00",
+          "regional": false
+        },
+        {
+          "title": "A rare supernova peeled back a star’s layers and revealed a hidden secret",
+          "link": "https://www.sciencedaily.com/releases/2026/06/260616103133.htm",
+          "source": "ScienceDaily",
+          "summary": "Astronomers studying the rare supernova SN 2021yfj discovered material from one of the deepest layers of a dying star, providing a rare look at its hidden interior.",
+          "published": "2026-06-28T01:14:15+00:00",
+          "regional": false
+        },
+        {
+          "title": "New solid-state material converts sunlight into higher-energy UV light",
+          "link": "https://www.sciencedaily.com/releases/2026/06/260623083058.htm",
+          "source": "ScienceDaily",
+          "summary": "A new sunlight-powered material can convert visible light into higher-energy UV light, overcoming a challenge that has frustrated scientists for years.",
+          "published": "2026-06-26T15:21:17+00:00",
+          "regional": false
+        },
+        {
+          "title": "Constant hydrogen generation from high-level radioactive liquid waste measured",
+          "link": "https://sj.jst.go.jp/news/202607/n0716-01k.html",
+          "source": "Science Japan",
+          "summary": "A research group including Researcher Tomohiro Toigawa and Leader Yuta Kumagai of the Research Group for Nuclear Chemistry, Nuclear Science and Engineering Center, Japan Atomic Energy Agency (JAEA), in collaboration…",
+          "published": "2026-07-16T05:59:31+00:00",
+          "regional": true
+        },
+        {
+          "title": "How protein biosensors can shrink the timeline of medical emergencies",
+          "link": "https://www.thehindu.com/sci-tech/science/how-protein-biosensors-can-shrink-the-timeline-of-medical-emergencies/article71221365.ece",
+          "source": "The Hindu",
+          "summary": "Proteins are important diagnostic targets because they are involved in almost every biological process; over the last two decades, scientists have developed aptamers for hundreds of disease-relevant proteins and have…",
+          "published": "2026-07-15T07:21:39+00:00",
+          "regional": true
+        },
+        {
+          "title": "SK On-Hyundai battery joint venture begins US production",
+          "link": "https://www.koreaherald.com/article/10809681",
+          "source": "The Korea Herald",
+          "summary": "Hyundai SK Battery Manufacturing America, the US battery joint venture between SK On and Hyundai Motor Group, has begun mass production and is supplying batteries to Hyundai's electric vehicle plant in Georgia,…",
+          "published": "2026-07-15T02:45:22+00:00",
+          "regional": true
+        },
+        {
+          "title": "Why scientists watched a gene hop from a predator into its prey",
+          "link": "https://www.thehindu.com/sci-tech/science/why-scientists-watched-a-gene-hop-from-a-predator-into-its-prey/article71220657.ece",
+          "source": "The Hindu",
+          "summary": "Jumping genes are responsible for the spread of antibiotic resistance and in the development of many cancers. Scientists are also studying circular RNA molecules, like the one derived from the jumping intron, as next…",
+          "published": "2026-07-14T09:25:01+00:00",
+          "regional": true
+        },
+        {
+          "title": "\"Graphene oxide\" lubricant in active fault discovered by Tohoku University: Possible link to slow earthquakes",
+          "link": "https://sj.jst.go.jp/news/202607/n0714-01p.html",
+          "source": "Science Japan",
+          "summary": "A research group of Tohoku University and other institutions has discovered the lubricant substance \"graphene oxide\" in the Atotsugawa Fault System, which spans across Gifu and Toyama Prefectures.",
+          "published": "2026-07-14T06:12:45+00:00",
+          "regional": true
+        },
+        {
+          "title": "Material filters tritium from nuclear wastewater at record speed",
+          "link": "https://www.thehindu.com/sci-tech/science/new-mesh-filters-tritium-from-nuclear-wastewater-at-record-speed/article71216070.ece",
+          "source": "The Hindu",
+          "summary": "The research team, from across China, achieved this using a metal-organic framework, work on which won the Nobel Prize for chemistry last year",
+          "published": "2026-07-13T05:31:02+00:00",
+          "regional": true
+        },
+        {
+          "title": "OnePlus Nord Buds 4 Review: Big on battery life and ANC",
+          "link": "https://indianexpress.com/article/technology/tech-reviews/oneplus-nord-buds-4-review-big-on-battery-life-and-anc-10782207/",
+          "source": "Indian Express",
+          "summary": "",
+          "published": "2026-07-11T14:47:31+00:00",
+          "regional": true
+        },
+        {
+          "title": "Chinese chip start-up aims to build 5-nanometre equivalent chips without using EUV by 2029",
+          "link": "https://www.scmp.com/tech/big-tech/article/3360208/chinese-chip-start-aims-build-5-nanometre-equivalent-chips-without-using-euv-2029?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "A Chinese chip start-up has launched what it claims to be the world’s first 8-inch production line for two-dimensional (2D) semiconductors, marking the country’s latest push to develop alternative chip technologies amid…",
+          "published": "2026-07-11T05:20:15+00:00",
+          "regional": true
+        },
+        {
+          "title": "IIT Guwahati team finds blue-green algae can remove lead from water",
+          "link": "https://www.thehindu.com/sci-tech/science/iit-guwahati-team-finds-blue-green-algae-can-remove-lead-from-water/article71198226.ece",
+          "source": "The Hindu",
+          "summary": "The researchers say that the biological material they developed provides a sustainable and environment-friendly method to tackle the lead-contaminated water challenge in the country",
+          "published": "2026-07-09T05:47:35+00:00",
+          "regional": true
+        },
+        {
+          "title": "Rice University and the Max Planck Society establish a partnership on quantum materials",
+          "link": "https://www.mpg.de/26861217/rice-university-and-the-max-planck-society-establish-a-partnership-on-quantum-materials",
+          "source": "Max Planck Society",
+          "summary": "Through the “Quantum Materials – Rice and Max Planck Partnership” they advance global leadership in quantum materials and technology",
+          "published": "2026-07-06T22:00:00+00:00",
+          "regional": true
         }
       ]
     },
@@ -126,113 +333,481 @@
           "title": "Did scientists just create synthetic life?",
           "link": "https://www.scientificamerican.com/article/did-scientists-just-create-synthetic-life/",
           "source": "Scientific American",
-          "summary": "The SpudCell certainly resembles a living cell, but a key structure inside the cell falls short of the real thing.",
+          "summary": "The SpudCell certainly resembles a living cell, but a key structure inside the cell falls short of the real thing",
           "published": "2026-07-14T15:00:00+00:00",
           "regional": false
         },
         {
-          "title": "Living cells store and retrieve data using DNA-based logic circuits",
-          "link": "https://example.org/s1",
-          "source": "Asimov Press",
-          "summary": "Engineered genetic circuits record signals over time, letting a colony of cells act as a rewritable biological memory.",
-          "published": "2026-07-16T05:50:00+00:00",
+          "title": "BBC Inside Science",
+          "link": "https://www.bbc.co.uk/sounds/play/w3ct977v?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Researchers say they have created a synthetic cell-like system that can grow and divide.",
+          "published": "2026-07-09T20:00:00+00:00",
           "regional": false
         },
         {
-          "title": "Engineered yeast becomes a microbial factory for industrial solvents",
-          "link": "https://example.org/s2",
-          "source": "Asimov Press",
-          "summary": "Metabolic engineering reprogrammed the yeast's pathways to secrete a chemical normally made from petroleum.",
-          "published": "2026-07-15T12:10:00+00:00",
+          "title": "Scientists turned red lettuce green and something surprising happened",
+          "link": "https://www.sciencedaily.com/releases/2026/06/260614011854.htm",
+          "source": "ScienceDaily",
+          "summary": "Researchers used genome editing to block the production of red pigments in lettuce, causing other beneficial plant compounds to build up instead.",
+          "published": "2026-06-15T08:57:07+00:00",
           "regional": false
         },
         {
-          "title": "Synthetic cell with a minimal genome divides on its own",
-          "link": "https://example.org/s3",
-          "source": "Nature News",
-          "summary": "Researchers pared a bacterium down to a designed, minimal set of genes, then coaxed it to grow and split normally.",
-          "published": "2026-07-14T10:40:00+00:00",
-          "regional": false
+          "title": "Why engineering evolution is a high-stakes race between cure and chaos",
+          "link": "https://www.thehindu.com/sci-tech/science/engineering-evolution-is-a-high-stakes-race-between-cure-and-chaos/article71215952.ece",
+          "source": "The Hindu",
+          "summary": "The safest aircraft is one that does not take off. How we balance the risks and benefits of the flight of gene drives is a challenge that each country will address in different ways.",
+          "published": "2026-07-13T04:33:14+00:00",
+          "regional": true
         }
       ]
     },
     {
       "key": "energywater",
       "name": "Energy & Water",
-      "tagline": "Science and technology for sustainable energy and clean, fresh water for more of humanity.",
+      "tagline": "New ways to generate clean energy, capture carbon, and bring fresh water and power to people, cities, and transport.",
       "accent": "#33C6D6",
       "items": [
         {
-          "title": "Sponge-like material pulls drinking water from desert air overnight",
-          "link": "https://example.org/e1",
+          "title": "Beyond the Big Beautiful Bill: Building and financing clean energy after a critical tax credit deadline | Factor This Policycast",
+          "link": "https://www.renewableenergyworld.com/energy-business/policy-and-regulation/beyond-the-big-beautiful-bill-building-and-financing-clean-energy-after-a-critical-tax-credit-deadline-factor-this-policycast/",
+          "source": "Renewable Energy World",
+          "summary": "On this episode of the Factor This Policycast, Walter McLeod and Bryan Didier of Monarch Private Capital share how clean energy projects are being financed for construction in the second half of 2026 and beyond.",
+          "published": "2026-07-16T10:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Could hydropower credits undermine New York City’s climate law?",
+          "link": "https://www.renewableenergyworld.com/hydro-power/could-hydropower-credits-undermine-new-york-citys-climate-law/",
+          "source": "Renewable Energy World",
+          "summary": "Mayor Mamdani is facing pressure to limit an avenue for large building owners to buy credits instead of cutting emissions.",
+          "published": "2026-07-13T19:52:31+00:00",
+          "regional": false
+        },
+        {
+          "title": "Aker Solutions wins contract for Norwegian hydropower plant",
+          "link": "https://www.renewableenergyworld.com/hydro-power/aker-solutions-wins-contract-for-norwegian-hydropower-plant/",
+          "source": "Renewable Energy World",
+          "summary": "The Tussa II hydropower plant will feature two 75MW Pelton turbine units providing a total installed capacity of 150MW.",
+          "published": "2026-07-13T19:07:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Drax invests £2m to preserve iconic Tongland hydro plant",
+          "link": "https://www.renewableenergyworld.com/hydro-power/dams-civil-structures/drax-invests-2m-to-preserve-iconic-tongland-hydro-plant/",
+          "source": "Renewable Energy World",
+          "summary": "Drax's investment has revitalised the 90-year-old Tongland Power Station, preserving a key part of Scotland's hydroelectric heritage",
+          "published": "2026-07-13T16:27:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Chinese sodium battery surprised scientists by matching key Tesla benchmarks",
+          "link": "https://www.sciencedaily.com/releases/2026/06/260621060305.htm",
           "source": "ScienceDaily",
-          "summary": "A low-cost hydrogel absorbs moisture in dry conditions and releases it with mild sunlight.",
-          "published": "2026-07-16T06:30:00+00:00",
+          "summary": "Researchers found that a Chinese sodium-ion battery performs far better than expected, with production quality and design features comparable to Tesla’s batteries.",
+          "published": "2026-06-21T14:06:09+00:00",
           "regional": false
         },
         {
-          "title": "New membrane cuts the energy cost of seawater desalination by a third",
-          "link": "https://example.org/e2",
+          "title": "As lakes turn brown, trout and bass decline while pike and walleye thrive",
+          "link": "https://www.sciencedaily.com/releases/2026/06/260621060322.htm",
           "source": "ScienceDaily",
-          "summary": "An ultrathin filter lets water through while blocking salt, lowering the power a plant needs.",
-          "published": "2026-07-15T13:15:00+00:00",
+          "summary": "Freshwater lakes across North America and Europe are becoming noticeably browner, reducing underwater visibility and reshaping fish populations.",
+          "published": "2026-06-21T13:40:21+00:00",
           "regional": false
         },
         {
-          "title": "Perovskite-silicon solar cell reaches record efficiency in outdoor test",
-          "link": "https://example.org/e3",
-          "source": "IEEE Spectrum",
-          "summary": "The tandem design converted more sunlight to power than either layer alone, holding up over months.",
-          "published": "2026-07-14T14:00:00+00:00",
+          "title": "Scientists built a battery-free device that turns sunlight into fuel",
+          "link": "https://www.sciencedaily.com/releases/2026/06/260611024601.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have developed an artificial photosynthesis system that essentially regulates itself, eliminating the need for batteries used in many current designs.",
+          "published": "2026-06-11T13:44:58+00:00",
           "regional": false
         },
         {
-          "title": "Low-cost filter removes arsenic from village wells in Bangladesh",
-          "link": "https://example.org/e4",
-          "source": "SciDev.Net",
-          "summary": "A simple iron-based cartridge brought contaminated water within safe limits in field trials.",
-          "published": "2026-07-13T09:10:00+00:00",
+          "title": "Scientists sound the alarm as dangerous amoebas spread globally",
+          "link": "https://www.sciencedaily.com/releases/2026/06/260606015137.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists warn that free-living amoebae may be an underappreciated public health threat, capable of causing deadly infections and shielding other dangerous microbes from water treatment.",
+          "published": "2026-06-06T11:35:28+00:00",
           "regional": false
+        },
+        {
+          "title": "New solar desalination breakthrough makes fresh water without toxic brine",
+          "link": "https://www.sciencedaily.com/releases/2026/05/260530053418.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have developed a solar desalination system that turns seawater into drinking water without creating environmentally damaging brine.",
+          "published": "2026-05-30T09:34:18+00:00",
+          "regional": false
+        },
+        {
+          "title": "Scientists just found a faster, cleaner way to extract lithium for EV batteries",
+          "link": "https://www.sciencedaily.com/releases/2026/05/260522023132.htm",
+          "source": "ScienceDaily",
+          "summary": "A breakthrough lithium-extraction method could help solve one of clean energy’s dirtiest problems. Researchers at Columbia Engineering have developed a fast new technique that pulls lithium directly from salty…",
+          "published": "2026-05-23T13:42:24+00:00",
+          "regional": false
+        },
+        {
+          "title": "Power grids face unexpected slow-burn threat from solar storms",
+          "link": "https://www.thehindu.com/sci-tech/science/power-grids-face-unexpected-slow-burn-threat-from-solar-storms/article71226651.ece",
+          "source": "The Hindu",
+          "summary": "Instead of briefly and intensely spiking the strength of currents in a New Zealand power grid, a geomagnetic storm in 2015 was found to have ramped up induced currents over 90 minutes",
+          "published": "2026-07-17T05:11:56+00:00",
+          "regional": true
+        },
+        {
+          "title": "Constant hydrogen generation from high-level radioactive liquid waste measured",
+          "link": "https://sj.jst.go.jp/news/202607/n0716-01k.html",
+          "source": "Science Japan",
+          "summary": "A research group including Researcher Tomohiro Toigawa and Leader Yuta Kumagai of the Research Group for Nuclear Chemistry, Nuclear Science and Engineering Center, Japan Atomic Energy Agency (JAEA), in collaboration…",
+          "published": "2026-07-16T05:59:31+00:00",
+          "regional": true
+        },
+        {
+          "title": "Running dry: How to store more groundwater for dry seasons",
+          "link": "https://www.dw.com/en/running-dry-how-to-store-more-groundwater-for-dry-seasons/a-77501486?maca=en-rss_en_environment-22607-xml-mrss",
+          "source": "Deutsche Welle",
+          "summary": "More frequent weather extremes are leading to water shortages during droughts and flooding during heavy rain. But groundwater storage can help secure water for dry seasons while mitigating extreme rain.",
+          "published": "2026-07-15T09:24:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "LG Energy Solution to supply batteries for Google’s largest solar-storage project",
+          "link": "https://www.koreaherald.com/article/10809938",
+          "source": "The Korea Herald",
+          "summary": "LG Energy Solution will supply batteries for Google’s largest solar and energy storage project, extending its push into power infrastructure tied to surging demand from AI data centers, industry sources said Wednesday.",
+          "published": "2026-07-15T06:11:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "SK On-Hyundai battery joint venture begins US production",
+          "link": "https://www.koreaherald.com/article/10809681",
+          "source": "The Korea Herald",
+          "summary": "Hyundai SK Battery Manufacturing America, the US battery joint venture between SK On and Hyundai Motor Group, has begun mass production and is supplying batteries to Hyundai's electric vehicle plant in Georgia,…",
+          "published": "2026-07-15T02:45:22+00:00",
+          "regional": true
+        },
+        {
+          "title": "OnePlus Nord Buds 4 Review: Big on battery life and ANC",
+          "link": "https://indianexpress.com/article/technology/tech-reviews/oneplus-nord-buds-4-review-big-on-battery-life-and-anc-10782207/",
+          "source": "Indian Express",
+          "summary": "",
+          "published": "2026-07-11T14:47:31+00:00",
+          "regional": true
+        },
+        {
+          "title": "Stored water can develop slimy bacterial films: nanotechnology may be a solution",
+          "link": "https://theconversation.com/stored-water-can-develop-slimy-bacterial-films-nanotechnology-may-be-a-solution-280107",
+          "source": "The Conversation",
+          "summary": "Scientists are exploring light-activated nanoparticles to kill biofilms in stored drinking water, aiming to make household water safer in South Africa.",
+          "published": "2026-07-06T13:48:49+00:00",
+          "regional": true
+        },
+        {
+          "title": "Free electricity in Australia, and the week's other eco wins",
+          "link": "https://www.dw.com/en/free-electricity-in-australia-and-the-week-s-other-eco-wins/a-77824448?maca=en-rss_en_environment-22607-xml-mrss",
+          "source": "Deutsche Welle",
+          "summary": "Germans save an ancient woodland from coal mining, Australia gives away surplus solar power, and how one city became the world's best place for cyclists?",
+          "published": "2026-07-03T14:41:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "South Africa’s move to renewable power is complex, but clearing 5 bottlenecks would speed it up",
+          "link": "https://theconversation.com/south-africas-move-to-renewable-power-is-complex-but-clearing-5-bottlenecks-would-speed-it-up-286002",
+          "source": "The Conversation",
+          "summary": "South Africa is struggling to move to renewable energy because of: Eskom’s dominance, weak planning, a poor grid, failing municipal networks and unused solar.",
+          "published": "2026-06-30T10:56:04+00:00",
+          "regional": true
+        },
+        {
+          "title": "Towards a faster hydrogen-based steel production",
+          "link": "https://www.mpg.de/26790836/catalysts-boost-hydrogen-based-steel-production",
+          "source": "Max Planck Society",
+          "summary": "Catalysts like Nickel oxides accelerate hydrogen-based steel production and make it more energy efficient",
+          "published": "2026-06-12T09:00:00+00:00",
+          "regional": true
         }
       ]
     },
     {
       "key": "spaceexploration",
       "name": "Space Exploration",
-      "tagline": "New missions, spacecraft, and technologies for reaching and developing the space environment.",
+      "tagline": "New missions, spacecraft, and technologies — NASA, ESA, ISRO, JAXA, SpaceX, CNES, and more.",
       "accent": "#F0894E",
       "items": [
         {
-          "title": "India's lunar rover confirms subsurface ice near the south pole",
-          "link": "https://example.org/x1",
-          "source": "The Hindu",
-          "summary": "Instruments detected buried water ice, a resource that could support future crewed landings.",
-          "published": "2026-07-16T08:00:00+00:00",
+          "title": "SpaceX’s latest Starship launch attempt ends in a scrub",
+          "link": "https://www.scientificamerican.com/article/spacexs-latest-starship-launch-attempt-ends-in-a-scrub/",
+          "source": "Scientific American",
+          "summary": "SpaceX’s first attempt to launch its Starship megarocket on its thirteenth flight test ended before it could properly begin, aborting just before liftoff",
+          "published": "2026-07-16T23:45:00+00:00",
           "regional": false
         },
         {
-          "title": "Reusable heavy-lift rocket completes its first orbital flight",
-          "link": "https://example.org/x2",
+          "title": "NASA Welcomes Serbia as Newest Artemis Accords Signatory",
+          "link": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-serbia-as-newest-artemis-accords-signatory/",
           "source": "NASA",
-          "summary": "The vehicle delivered its payload and returned both stages intact, a milestone toward cheaper orbit access.",
-          "published": "2026-07-15T12:45:00+00:00",
+          "summary": "The Republic of Serbia signed the Artemis Accords Thursday during a ceremony hosted by NASA at the agency’s Headquarters in Washington, becoming the 69th nation to join a large community of like-minded nations committed…",
+          "published": "2026-07-16T22:37:19+00:00",
           "regional": false
         },
         {
-          "title": "Europe's Mars sample-return mission passes critical design review",
-          "link": "https://example.org/x3",
+          "title": "NASA Study Finds Near-Earth Asteroid Is Actually Comet",
+          "link": "https://www.nasa.gov/solar-system/comets/nasa-study-finds-near-earth-asteroid-is-actually-comet/",
+          "source": "NASA",
+          "summary": "New research led by scientists at NASA’s Jet Propulsion Laboratory in Southern California has revealed the identity of a puzzling near-Earth object by precisely tracking its motion through space and using powerful…",
+          "published": "2026-07-16T18:40:26+00:00",
+          "regional": false
+        },
+        {
+          "title": "Watch SpaceX’s Starship Flight 13 launch tonight",
+          "link": "https://www.scientificamerican.com/article/watch-spacexs-starship-flight-13-launch-tonight/",
+          "source": "Scientific American",
+          "summary": "SpaceX is launching the latest version of its Starship megarocket for a test flight that—if all goes to plan—should look a lot like the last one",
+          "published": "2026-07-16T10:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "FLEX and Sentinel-3C arrive at Europe’s Spaceport",
+          "link": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_arrive_at_Europe_s_Spaceport",
           "source": "ESA",
-          "summary": "Engineers cleared the spacecraft that will retrieve rock cores and bring them to Earth.",
-          "published": "2026-07-14T10:30:00+00:00",
+          "summary": "With liftoff scheduled for September, excitement is building at Europe’s Spaceport in French Guiana as two cutting-edge Earth observation satellites, FLEX and Copernicus Sentinel-3C, have arrived to begin their launch…",
+          "published": "2026-07-16T07:00:00+00:00",
           "regional": false
         },
         {
-          "title": "Compact ion engine promises faster trips to the outer planets",
-          "link": "https://example.org/x4",
-          "source": "IEEE Spectrum",
-          "summary": "The thruster ran continuously for months in a vacuum chamber, hinting at efficient deep-space travel.",
-          "published": "2026-07-13T11:15:00+00:00",
+          "title": "NASA's James Webb Space Telescope reveals a strange atmosphere on a hellish lava planet",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260712011743.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA's James Webb Space Telescope has revealed new details about the blistering lava planet 55 Cancri e, where temperatures are high enough to melt rock.",
+          "published": "2026-07-16T03:19:50+00:00",
           "regional": false
+        },
+        {
+          "title": "How NASA’s Artemis III Lander Test Will Pave Way for Moon Landings",
+          "link": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/how-nasas-artemis-iii-lander-test-will-pave-way-for-moon-landings/",
+          "source": "NASA",
+          "summary": "Before Artemis astronauts land on the Moon’s surface in 2028, NASA will conduct the Artemis III demonstration mission in 2027, allowing teams on Earth and in orbit to practice rendezvous and docking operations between…",
+          "published": "2026-07-15T18:50:52+00:00",
+          "regional": false
+        },
+        {
+          "title": "Anil Menon Launches to Space Station",
+          "link": "https://www.nasa.gov/image-article/anil-menon-launches-to-space-station/",
+          "source": "NASA",
+          "summary": "NASA astronaut candidate Anna Menon and her children watch as a Soyuz rocket launches to the International Space Station with NASA astronaut Anil Menon and Roscosmos cosmonauts Pyotr Dubrov and Anna Kikina, Tuesday,…",
+          "published": "2026-07-15T18:48:36+00:00",
+          "regional": false
+        },
+        {
+          "title": "SpaceX share price drops below stock market debut",
+          "link": "https://www.bbc.co.uk/news/articles/clyl33q0yl0o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Share trading in Elon Musk’s rocket company has been volatile since it went public a month ago.",
+          "published": "2026-07-15T18:11:57+00:00",
+          "regional": false
+        },
+        {
+          "title": "See the first x-rays of humans taken in space",
+          "link": "https://www.scientificamerican.com/article/see-the-first-x-rays-of-humans-taken-in-space/",
+          "source": "Scientific American",
+          "summary": "Equipping spacecraft with x-ray machines could boost safety for long-duration spaceflights—like a crewed mission to Mars",
+          "published": "2026-07-15T13:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Metallic waves on ancient Mars",
+          "link": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Metallic_waves_on_ancient_Mars",
+          "source": "ESA",
+          "summary": "The European Space Agency’s Mars Express has spotted a swathe of metallic-looking waves filling Mars’s large Kaiser Crater – an ancient and otherworldly dune field sculpted by wind.",
+          "published": "2026-07-15T09:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA selects 41 space technologies for future Moon and Mars exploration",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260713084855.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA has chosen 41 commercial technology projects that could solve critical challenges for future missions to the Moon and Mars.",
+          "published": "2026-07-15T07:43:02+00:00",
+          "regional": false
+        },
+        {
+          "title": "Watch: New ISS crew blasts off from Kazakhstan",
+          "link": "https://www.bbc.co.uk/news/videos/ckg4gjwz20qo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "The Soyuz spacecraft will carry Nasa astronaut Anil Menon and cosmonauts Pyotr Dubrov and Anna Kikina to the ISS for an eight-month mission.",
+          "published": "2026-07-14T15:50:33+00:00",
+          "regional": false
+        },
+        {
+          "title": "Artemis II astronauts visit ESA",
+          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Artemis_II_astronauts_visit_ESA",
+          "source": "ESA",
+          "summary": "Yesterday, the four Artemis II astronauts visited ESA’s technical site in the Netherlands, where they met the team behind the European Service Module that powered their Orion spacecraft around the Moon and safely back…",
+          "published": "2026-07-14T07:49:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA's Perseverance just completed a marathon on Mars",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260713084858.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA's Perseverance rover has reached an impressive new milestone on Mars, completing the equivalent of a full marathon by driving 26.2 miles (42.195 kilometers) across the Red Planet.",
+          "published": "2026-07-14T05:32:12+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA selects four new Moon missions to build a permanent lunar base",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260713084853.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA is ramping up its lunar ambitions by awarding nearly $600 million for four commercial Moon landings planned for late 2028.",
+          "published": "2026-07-14T04:40:26+00:00",
+          "regional": false
+        },
+        {
+          "title": "Future moon landings could wipe out clues to how life began on Earth",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260710003537.htm",
+          "source": "ScienceDaily",
+          "summary": "A new study suggests spacecraft exhaust could quickly contaminate the moon's most scientifically valuable regions, potentially masking ancient clues about how life began on Earth.",
+          "published": "2026-07-13T00:48:16+00:00",
+          "regional": false
+        },
+        {
+          "title": "Europe just unveiled a new rival to SpaceX’s Starship",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260710003526.htm",
+          "source": "ScienceDaily",
+          "summary": "A detailed independent study found that SpaceX's Starship is every bit as revolutionary as expected, while revealing both its impressive capabilities and its biggest remaining hurdles.",
+          "published": "2026-07-11T01:14:33+00:00",
+          "regional": false
+        },
+        {
+          "title": "China’s Long March 10B rocket successfully launches—and lands—in a global spaceflight milestone",
+          "link": "https://www.scientificamerican.com/article/chinas-long-march-10b-rocket-successfully-launches-and-lands-in-a-global-spaceflight-milestone/",
+          "source": "Scientific American",
+          "summary": "The inaugural launch and first-stage booster recovery of China’s Long March 10B rocket intensifies the nation’s spaceflight rivalry with the U.S.",
+          "published": "2026-07-10T17:10:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "China lands reusable rocket for first time, state media says",
+          "link": "https://www.bbc.co.uk/news/articles/cm2rmmx86pdo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "It follows similar landings of reusable rockets by US-owned companies SpaceX and Blue Origin.",
+          "published": "2026-07-10T06:44:21+00:00",
+          "regional": false
+        },
+        {
+          "title": "This Mars rover could finally reveal whether life ever existed on Mars",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260707025051.htm",
+          "source": "ScienceDaily",
+          "summary": "The hunt for ancient life on Mars just got an important test run. Scientists confirmed that the Rosalind Franklin rover's sophisticated instrument can detect subtle differences in two stable molecules that could…",
+          "published": "2026-07-09T10:40:52+00:00",
+          "regional": false
+        },
+        {
+          "title": "Scientists want to quarantine alien life on the Moon before it reaches Earth",
+          "link": "https://www.sciencedaily.com/releases/2026/06/260623083144.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists are calling for a lunar quarantine facility where samples from Mars, the Moon, and beyond would be examined before being brought to Earth.",
+          "published": "2026-07-06T14:39:56+00:00",
+          "regional": false
+        },
+        {
+          "title": "The most spectacular aurora of the εpsilon mission (so far!)",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/The_most_spectacular_aurora_of_the_epsilon_mission_so_far!",
+          "source": "ESA",
+          "summary": "Video: 00:01:17 This timelapse was published on social media by ESA astronaut Sophie Adenot with the following caption: Day 139, orbit 2155 — After the pictures (available in HD on my Flickr account), I'm so happy to…",
+          "published": "2026-07-03T14:30:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Supporting εpsilon from Earth",
+          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Supporting_epsilon_from_Earth",
+          "source": "ESA",
+          "summary": "Every space mission has two crews: one in space and one on Earth. While ESA astronaut Sophie Adenot carries out experiments and daily tasks aboard the International Space Station, teams across Europe are working to…",
+          "published": "2026-07-02T14:54:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "SpaceX Starship launch aborted on pad at last moment",
+          "link": "https://www.thehindu.com/sci-tech/spacex-starship-launch-aborted-on-pad-at-last-moment/article71232548.ece",
+          "source": "The Hindu",
+          "summary": "It was supposed to be the 13th flight for Starship, which, at 407 feet (124 metres) tall with 33 main engines, is the world’s biggest and most powerful rocket",
+          "published": "2026-07-17T03:33:19+00:00",
+          "regional": true
+        },
+        {
+          "title": "India’s first privately developed orbital-class rocket Vikram-1 set for July 18 lift-off",
+          "link": "https://www.thehindu.com/news/national/karnataka/indias-first-privately-developed-orbital-class-rocket-vikram-1-set-to-liff-off-on-july-18/article71229535.ece",
+          "source": "The Hindu",
+          "summary": "Private space launch company Skyroot Aerospace on July 16, 2026 announced that it will attempt to launch Vikram-1 from the space port’s first launch pad at 11.30 a.m..",
+          "published": "2026-07-16T12:25:09+00:00",
+          "regional": true
+        },
+        {
+          "title": "ISRO issues memo to curb exodus of scientists and engineers from Gaganyaan and other key missions",
+          "link": "https://www.thehindu.com/sci-tech/science/isro-issues-memo-to-curb-exodus-of-scientists-and-engineers-from-gaganyaan-and-other-key-missions/article71228542.ece",
+          "source": "The Hindu",
+          "summary": "Won’t accept any request for voluntary retirement or resignation from scientific and technical personnel of Group ‘A’ associated with the Gaganyaan, or other important missions or projects till their realisation",
+          "published": "2026-07-16T12:23:04+00:00",
+          "regional": true
+        },
+        {
+          "title": "NASA astronaut Anil Menon, two others reach International Space Station",
+          "link": "https://www.thehindu.com/sci-tech/science/nasa-astronaut-anil-menon-two-others-reach-international-space-station/article71224239.ece",
+          "source": "The Hindu",
+          "summary": "The Roscosmos spacecraft carrying Anil Menon and Russian cosmonauts Pyotr Dubrov and Anna Kikina lifted off from Baikonur at 8:17 pm IST on Tuesday (July 14, 2026) just as the orbital laboratory flew over the cosmodrome",
+          "published": "2026-07-15T10:23:58+00:00",
+          "regional": true
+        },
+        {
+          "title": "Who is Anil Menon, the Indian-origin NASA astronaut of Malayali descent now in Earth orbit?",
+          "link": "https://www.thehindu.com/sci-tech/science/who-is-dr-anil-menon-first-nasa-astronaut-of-malayali-descent-journeys-to-space-expedition-74-space-news/article71220010.ece",
+          "source": "The Hindu",
+          "summary": "Anil Menon, NASA’s first astronaut of Malayali origin, embarks on a historic ISS mission, conducting groundbreaking research in space.",
+          "published": "2026-07-15T06:02:43+00:00",
+          "regional": true
+        },
+        {
+          "title": "Space junk cloud discovered in key satellite orbit raises collision concerns",
+          "link": "https://indianexpress.com/article/technology/science/space-junk-cloud-discovered-in-key-satellite-orbit-raise-collision-concerns-10787053/",
+          "source": "Indian Express",
+          "summary": "",
+          "published": "2026-07-15T05:13:51+00:00",
+          "regional": true
+        },
+        {
+          "title": "Nasa's Anil Menon, two Russians blast off for 8-month International Space Station mission",
+          "link": "https://www.thehindu.com/sci-tech/science/nasas-anil-menon-two-russians-blast-off-for-8-month-international-space-station-mission/article71222648.ece",
+          "source": "The Hindu",
+          "summary": "Mr. Menon will \"conduct scientific research and technology demonstrations aimed at advancing human space exploration and benefiting life on Earth,\" according to NASA",
+          "published": "2026-07-14T17:18:10+00:00",
+          "regional": true
+        },
+        {
+          "title": "Nasa’s Anil Menon, 2 Russian cosmonauts head to ISS: How to watch launch live",
+          "link": "https://indianexpress.com/article/technology/science/nasas-anil-menon-2-russian-cosmonauts-head-to-iss-how-to-watch-launch-live-10786298/",
+          "source": "Indian Express",
+          "summary": "",
+          "published": "2026-07-14T13:26:44+00:00",
+          "regional": true
+        },
+        {
+          "title": "U.S. regulator green-lights mission to launch giant mirror to orbit",
+          "link": "https://www.thehindu.com/sci-tech/science/us-regulator-green-lights-mission-to-launch-giant-mirror-to-orbit/article71213314.ece",
+          "source": "The Hindu",
+          "summary": "Eärendil-1 — named for a character in the Tolkien fantasy epic ‘The Silmarillion’ — will be a single satellite in a non-geostationary orbit",
+          "published": "2026-07-12T06:31:03+00:00",
+          "regional": true
+        },
+        {
+          "title": "Mission Drishti, world’s first OptoSAR satellite from private Indian company, loses communication after solar storm",
+          "link": "https://www.thehindu.com/sci-tech/science/mission-drishti-indias-largest-privately-developed-earth-observation-satellite-loses-communication-after-solar-storm/article71192310.ece",
+          "source": "The Hindu",
+          "summary": "Mission Drishti was launched on May 3, 2026 aboard a Falcon 9 by SpaceX from Vandenberg, California",
+          "published": "2026-07-07T06:36:59+00:00",
+          "regional": true
         }
       ]
     },
@@ -243,36 +818,236 @@
       "accent": "#B98CE0",
       "items": [
         {
-          "title": "Webb telescope spots water vapor in a rocky planet's atmosphere",
-          "link": "https://example.org/y1",
-          "source": "ESO",
-          "summary": "Spectra reveal signs of water around a small exoplanet, sharpening the search for habitable worlds.",
-          "published": "2026-07-16T08:15:00+00:00",
+          "title": "NASA's James Webb Space Telescope reveals a strange atmosphere on a hellish lava planet",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260712011743.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA's James Webb Space Telescope has revealed new details about the blistering lava planet 55 Cancri e, where temperatures are high enough to melt rock.",
+          "published": "2026-07-16T03:19:50+00:00",
           "regional": false
         },
         {
-          "title": "New radio array in the southern hemisphere maps the early universe",
-          "link": "https://example.org/y2",
-          "source": "ESO",
-          "summary": "First light captured faint hydrogen signals from billions of years ago, revealing early galaxies.",
-          "published": "2026-07-15T14:30:00+00:00",
+          "title": "Astronomers just accidentally spotted the faintest exoplanet ever seen from Earth",
+          "link": "https://www.scientificamerican.com/article/astronomers-just-accidentally-spotted-the-faintest-exoplanet-ever-seen-from-earth/",
+          "source": "Scientific American",
+          "summary": "Beta Pictoris d is more than twice the size of Jupiter, but it is a baby compared to its humongous neighbors",
+          "published": "2026-07-15T12:00:00+00:00",
           "regional": false
         },
         {
-          "title": "Astronomers trace a fast radio burst to a magnetar in a nearby galaxy",
-          "link": "https://example.org/y3",
+          "title": "The Perseid meteor shower aligns with a total solar eclipse this year—here’s how to see it",
+          "link": "https://www.scientificamerican.com/article/the-perseid-meteor-shower-aligns-with-a-total-solar-eclipse-this-year-heres-how-to-see-it/",
+          "source": "Scientific American",
+          "summary": "Skygazers are in for a treat in August, as one of the most spectacular meteor showers coincides with a total solar eclipse",
+          "published": "2026-07-15T10:30:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Astronomers just found four hidden white dwarf stars near Earth",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260714225528.htm",
+          "source": "ScienceDaily",
+          "summary": "Four nearby white dwarf stars have been discovered hiding in plain sight beside brighter red dwarf companions. Hubble's ultraviolet observations finally revealed the long-hidden stellar remnants, including one just 25…",
+          "published": "2026-07-15T06:30:25+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Hubble reveals a black hole hiding inside a massive star cluster in the Milky Way",
+          "link": "https://www.scientificamerican.com/article/nasas-hubble-reveals-a-black-hole-hiding-inside-a-massive-star-cluster-in-the-milky-way/",
+          "source": "Scientific American",
+          "summary": "Scientists have long suspected that this star cluster was a hotspot for a certain kind of black hole. But for decades, they had been unable to spot any",
+          "published": "2026-07-14T19:25:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Astronomers' surprise at discovery of new stars",
+          "link": "https://www.bbc.co.uk/news/articles/ce8k80zpkkdo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "A Warwick University team, working with US astronomers, find four, previously hidden, white dwarf stars.",
+          "published": "2026-07-14T12:15:38+00:00",
+          "regional": false
+        },
+        {
+          "title": "New dark matter theory could solve multiple cosmic mysteries at once",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260711010128.htm",
+          "source": "ScienceDaily",
+          "summary": "Dark matter may be far more complicated than scientists once believed. A new study suggests it could consist of at least two different kinds of particles that slowly separate over time, with heavier particles sinking…",
+          "published": "2026-07-14T02:30:53+00:00",
+          "regional": false
+        },
+        {
+          "title": "Euclid Telescope Finds Quasars Within 700 Million Years of the Big Bang",
+          "link": "https://skyandtelescope.org/astronomy-news/euclid-telescope-finds-quasars-within-700-million-years-of-the-big-bang/",
           "source": "Sky & Telescope",
-          "summary": "Precise localization tied one of these millisecond flashes to a highly magnetized neutron star.",
-          "published": "2026-07-14T12:20:00+00:00",
+          "summary": "The sharp-eyed and far-seeing Euclid space telescope has picked up 31 early quasars that have evaded detection until now.",
+          "published": "2026-07-13T12:00:00+00:00",
           "regional": false
         },
         {
-          "title": "Survey finds hundreds of new gravitational lenses with machine help",
-          "link": "https://example.org/y4",
-          "source": "Sky & Telescope",
-          "summary": "The lenses act as natural telescopes, magnifying distant galaxies for closer study.",
-          "published": "2026-07-13T09:50:00+00:00",
+          "title": "Is Earth the only planet with total solar eclipses?",
+          "link": "https://www.scientificamerican.com/article/is-earth-the-only-planet-with-total-solar-eclipses/",
+          "source": "Scientific American",
+          "summary": "Other planets have moons, too. Do they get eclipses like we do?",
+          "published": "2026-07-10T10:45:00+00:00",
           "regional": false
+        },
+        {
+          "title": "‘Dark’ comets sprouting tails could help solve interstellar mysteries",
+          "link": "https://www.scientificamerican.com/article/dark-comets-sprouting-tails-could-help-solve-interstellar-mysteries/",
+          "source": "Scientific American",
+          "summary": "A strange class of comet could explain the enigmatic behavior of ‘Oumuamua, the first known interstellar object—and even shed light on how Earth became habitable",
+          "published": "2026-07-10T09:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "The galaxy’s coldest “stars” may actually be alien megastructures",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260710003524.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have identified new clues that could help astronomers spot one of the most famous hypothetical alien megastructures: a Dyson sphere.",
+          "published": "2026-07-10T06:04:44+00:00",
+          "regional": false
+        },
+        {
+          "title": "Did a Passing Star Shower Us with Comets?",
+          "link": "https://skyandtelescope.org/astronomy-news/did-a-passing-star-shower-us-with-comets/",
+          "source": "Sky & Telescope",
+          "summary": "We might be living through a comet shower created by a star that millions of years ago jostled the Oort Cloud surrounding the solar system. The post Did a Passing Star Shower Us with Comets?",
+          "published": "2026-07-08T14:25:13+00:00",
+          "regional": false
+        },
+        {
+          "title": "New AI model reveals how neutron star mergers forge heavy elements",
+          "link": "https://www.sciencedaily.com/releases/2026/06/260626030426.htm",
+          "source": "ScienceDaily",
+          "summary": "Researchers have created an AI-based simulation that makes it much faster to model how neutron star mergers produce many of the universe's heaviest elements.",
+          "published": "2026-07-08T04:07:40+00:00",
+          "regional": false
+        },
+        {
+          "title": "Quantum sensor breakthrough could reveal dark matter and ancient gravitational waves",
+          "link": "https://www.sciencedaily.com/releases/2026/06/260622014303.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have taken an important step toward building quantum detectors that could reveal some of the universe’s biggest secrets.",
+          "published": "2026-07-07T09:22:35+00:00",
+          "regional": false
+        },
+        {
+          "title": "Older than the Sun: Astronomers find new clues to the origin of interstellar comet 3I/ATLAS",
+          "link": "https://www.eso.org/public/news/eso2608/",
+          "source": "ESO",
+          "summary": "Astronomers have used the European Southern Observatory's Very Large Telescope (ESO's VLT) to study the composition of 3I/ATLAS, the brightest interstellar object ever seen, in detail.",
+          "published": "2026-07-06T09:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Astronomers witness the birth of a magnetar for the first time",
+          "link": "https://www.sciencedaily.com/releases/2026/06/260626030450.htm",
+          "source": "ScienceDaily",
+          "summary": "A strange \"chirping\" signal from a distant supernova has revealed the birth of a magnetar, confirming that these incredibly magnetic neutron stars can power the universe's brightest stellar explosions.",
+          "published": "2026-07-06T08:15:49+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA's Hubble spots a stellar sparkler for the Fourth of July",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260704232642.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA's Hubble Space Telescope has captured a spectacular red, white, and blue view of one of the Milky Way's oldest star clusters to celebrate the nation's 250th anniversary.",
+          "published": "2026-07-05T04:10:58+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA's Hubble captures a crimson stellar nursery sparkling with blue and white stars",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260704232639.htm",
+          "source": "ScienceDaily",
+          "summary": "Hubble has captured a spectacular view of LH 95, where about 2,500 young stars are still on their journey to becoming full-fledged stars.",
+          "published": "2026-07-05T04:03:07+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA's Hubble captures a star-spangled sea of 500,000 stars",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260704232634.htm",
+          "source": "ScienceDaily",
+          "summary": "Celebrating the United States' 250th anniversary, NASA released a stunning Hubble portrait of Messier 3, an ancient globular cluster with more than 500,000 stars.",
+          "published": "2026-07-05T03:39:18+00:00",
+          "regional": false
+        },
+        {
+          "title": "390 gravitational wave detections reveal hidden population of black holes",
+          "link": "https://www.sciencedaily.com/releases/2026/06/260625060203.htm",
+          "source": "ScienceDaily",
+          "summary": "Astronomers have released the largest gravitational wave catalog ever, revealing 161 new black hole collisions and pushing the total number of detections to 390.",
+          "published": "2026-07-02T03:52:02+00:00",
+          "regional": false
+        },
+        {
+          "title": "The Milky Way’s weird gamma-ray glow may be dark matter after all",
+          "link": "https://www.sciencedaily.com/releases/2026/06/260619101334.htm",
+          "source": "ScienceDaily",
+          "summary": "A strange gamma-ray glow at the center of the Milky Way has long sparked debate over whether it comes from hidden neutron stars or elusive dark matter.",
+          "published": "2026-07-01T03:13:34+00:00",
+          "regional": false
+        },
+        {
+          "title": "Millions of exploding stars could soon reveal dark energy's secrets",
+          "link": "https://www.sciencedaily.com/releases/2026/06/260621060315.htm",
+          "source": "ScienceDaily",
+          "summary": "A new AI-powered framework could transform how astronomers measure the expansion of the Universe. By analyzing images of Type Ia supernovae and modeling their environments in unprecedented detail, researchers can…",
+          "published": "2026-06-29T21:57:17+00:00",
+          "regional": false
+        },
+        {
+          "title": "A rare supernova peeled back a star’s layers and revealed a hidden secret",
+          "link": "https://www.sciencedaily.com/releases/2026/06/260616103133.htm",
+          "source": "ScienceDaily",
+          "summary": "Astronomers studying the rare supernova SN 2021yfj discovered material from one of the deepest layers of a dying star, providing a rare look at its hidden interior.",
+          "published": "2026-06-28T01:14:15+00:00",
+          "regional": false
+        },
+        {
+          "title": "Astronomers found two rare super puff planets lighter than cotton candy",
+          "link": "https://www.sciencedaily.com/releases/2026/06/260626124659.htm",
+          "source": "ScienceDaily",
+          "summary": "Two newly confirmed \"super-puff\" planets are so diffuse that they are less dense than cotton candy, despite being about the size of Jupiter.",
+          "published": "2026-06-27T01:09:31+00:00",
+          "regional": false
+        },
+        {
+          "title": "Samsung teases ‘brand new shape’ for Galaxy Z Fold 8 in Spider-Man short film",
+          "link": "https://indianexpress.com/article/technology/mobile-tabs/samsung-teases-brand-new-shape-for-galaxy-z-fold-8-in-spider-man-teaser10788910-10788910/",
+          "source": "Indian Express",
+          "summary": "",
+          "published": "2026-07-16T05:48:15+00:00",
+          "regional": true
+        },
+        {
+          "title": "Samsung Galaxy Z Fold 8 to have minimal crease with new Flex Titanium display",
+          "link": "https://indianexpress.com/article/technology/tech-news-technology/samsung-galaxy-z-fold-8-to-have-minimal-crease-with-new-flex-titanium-display-10787400/",
+          "source": "Indian Express",
+          "summary": "",
+          "published": "2026-07-15T08:18:21+00:00",
+          "regional": true
+        },
+        {
+          "title": "Oldest quasars ever found deepen 'perplexing' space mystery",
+          "link": "https://www.thehindu.com/sci-tech/science/oldest-quasars-ever-found-deepen-perplexing-space-mystery/article71188588.ece",
+          "source": "The Hindu",
+          "summary": "As more powerful telescopes allow us to see further back in time, galaxies and other cosmic objects have turned out to be far bigger than had been thought possible at such an early age",
+          "published": "2026-07-06T08:30:42+00:00",
+          "regional": true
+        },
+        {
+          "title": "A nearby black hole as a window into the early universe",
+          "link": "https://www.mpg.de/26857971/a-nearby-black-hole-as-a-window-into-the-early-universe",
+          "source": "Max Planck Society",
+          "summary": "A black hole in our cosmic neighborhood is proving to be just as voracious as those that existed shortly after the universe's formation",
+          "published": "2026-07-03T06:00:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "The distant past catches up with the Universe",
+          "link": "https://news.cnrs.fr/articles/the-distant-past-catches-up-with-the-universe",
+          "source": "CNRS News",
+          "summary": "In April, the researchers involved in the French-Chinese SVOM space mission presented an update on its initial findings.",
+          "published": "2026-06-29T15:34:50+00:00",
+          "regional": true
         }
       ]
     }
