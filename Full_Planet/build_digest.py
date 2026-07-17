@@ -297,7 +297,9 @@ def harvest(feed_urls, flt, cutoff, seen_links, region_label=None):
             print(f"    ! FEED EMPTY (check URL): {feed_url}")
         else:
             tag = " [regional]" if region_label else ""
-            print(f"    \u00b7 {n_entries:>3} items from {feed_url}{tag}")
+            capped = min(n_entries, MAX_ENTRIES_PER_FEED)
+            cap_note = f" (capped to {capped})" if n_entries > MAX_ENTRIES_PER_FEED else ""
+            print(f"    \u00b7 {n_entries:>3} items from {feed_url}{tag}{cap_note}")
 
         src = source_name(parsed.feed, feed_url)
         # Cap how many entries we take from any single feed so an oversized
@@ -395,6 +397,7 @@ def gather_channel(channel_key: str, channel: dict) -> dict:
 
 def main() -> None:
     print("Building Full Planet digest\u2026")
+    print("  [build version: 2026-07-17-excludefix+cap — energy/synbio exclude trimmed, per-feed cap active]")
     channels_out = []
     for key, channel in CHANNELS.items():
         print(f"  \u2022 {channel['name']}")
