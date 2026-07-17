@@ -147,7 +147,34 @@ CHANNELS = {
                 "foundation model", "machine-learning", "deep-learning",
                 "transformer model", "diffusion model", "reinforcement learning",
             ],
-            "include": [],  # require + exclude is enough; keep all AI that isn't noise
+            "include": [
+                # AI story must ALSO touch a science/engineering DOMAIN. This
+                # is what keeps the channel focused on "AI used to solve science
+                # & engineering problems" rather than general AI news. There's
+                # ample AI-for-science volume, so this gate doesn't starve it.
+                "protein", "proteins", "molecule", "molecules", "molecular",
+                "drug", "drugs", "material", "materials", "catalyst", "catalysis",
+                "chemistry", "chemical", "genome", "genomic", "genomics", "gene",
+                "genes", "medicine", "medical", "disease", "diagnosis", "diagnostic",
+                "clinical", "physics", "quantum", "fusion", "plasma", "climate",
+                "weather", "battery", "batteries", "solar", "astronomy",
+                "astrophysics", "telescope", "galaxy", "galaxies", "cosmic",
+                "cosmology", "exoplanet", "black hole", "neutron star",
+                "neuroscience", "brain", "enzyme", "enzymes", "biology",
+                "biological", "biomedical", "cell", "cells", "crystal",
+                "semiconductor", "superconductor", "biochemistry", "spectroscopy",
+                "mathematics", "mathematical", "theorem", "proof", "vaccine",
+                "antibiotic", "antibody", "cancer", "tumor", "microscopy",
+                "microscope", "simulation", "fluid dynamics", "seismic",
+                "earthquake", "nanoparticle", "photonic", "laser", "atom",
+                "atoms", "particle", "biomolecule", "RNA", "DNA", "scientific",
+                "science", "research", "discovery", "engineering", "biotech",
+                "biotechnology", "materials science", "drug discovery",
+                "protein structure", "weather forecast", "fusion reactor",
+                "particle physics", "quantum computing", "gene expression",
+                "biomarker", "genetic", "microbiome", "bacteria", "virus",
+                "photosynthesis", "energy", "renewable", "battery material",
+            ],
             "exclude": [
                 # consumer / product / business / policy / general-tech AI noise
                 "chatbot", "chatbots", "copilot", "smartphone", "gadget",
@@ -188,8 +215,6 @@ CHANNELS = {
                 "fluid dynamics", "seismic", "nanoparticle", "battery material",
                 "solar cell", "chemical synthesis", "quantum chemistry",
                 "biomolecule", "genome sequencing", "material properties",
-                "simulation", "microscopy", "discovery", "research", "scientist",
-                "scientists", "engineering", "laboratory",
             ],
         },
         "top_n": 12,  # show the 12 most science-relevant AI stories
@@ -229,6 +254,9 @@ CHANNELS = {
         "name": "Synthetic Biology",
         "tagline": "Engineered organisms and programmed DNA \u2014 cells built for computing, data storage, and chemical synthesis.",
         "accent": "#5FBF9B",
+        # Biotech/genetics ScienceDaily feeds also update slowly, so look back
+        # further to surface genuine synthetic-biology research.
+        "lookback_days": 45,
         "regional_feeds": REGIONAL + [ASIAN_SCIENTIST],
         "regional_filter": {
             # Looser than the primary but still SPECIFIC. Earlier this list had
@@ -348,6 +376,10 @@ CHANNELS = {
         "name": "Energy & Water",
         "tagline": "New ways to generate clean energy, capture carbon, and bring fresh water and power to people, cities, and transport.",
         "accent": "#33C6D6",
+        # ScienceDaily's energy category feeds update slowly (newest items are
+        # often 6-8 weeks old), so this channel looks back 60 days to still
+        # surface that research, and adds daily-updating renewable-news feeds.
+        "lookback_days": 60,
         "regional_feeds": REGIONAL + [DW_ENVIRONMENT, RAPPLER_ENV, CNRS_NEWS],
         "regional_filter": {
             "require": ["solar power", "solar energy", "solar panel", "solar farm",
@@ -374,6 +406,10 @@ CHANNELS = {
             "https://www.sciencedaily.com/rss/matter_energy/alternative_fuels.xml",
             "https://www.sciencedaily.com/rss/matter_energy/wind_energy.xml",
             "https://www.sciencedaily.com/rss/earth_climate/energy.xml",
+            # daily-updating renewable-energy news outlets (fix for stale
+            # ScienceDaily category feeds — these carry current stories)
+            "https://renewablesnow.com/feed/",
+            "https://www.renewableenergyworld.com/feed/",
         ] + BROAD,
         # Focus tightly on (1) GENERATING clean/green energy — solar, wind,
         # fusion, nuclear, geothermal, hydro, hydrogen — and (2) SOURCING and

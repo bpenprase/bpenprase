@@ -264,6 +264,8 @@ SOURCE_NAMES = {
     "news.cnrs.fr": "CNRS News",
     "cnrs.fr": "CNRS News",
     "swissinfo.ch": "SWI swissinfo",
+    "renewablesnow.com": "Renewables Now",
+    "renewableenergyworld.com": "Renewable Energy World",
 }
 
 
@@ -341,7 +343,11 @@ def harvest(feed_urls, flt, cutoff, seen_links, region_label=None):
 
 
 def gather_channel(channel_key: str, channel: dict) -> dict:
-    cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=LOOKBACK_DAYS)
+    # Channels can override the global lookback window. Energy & Water research
+    # feeds (ScienceDaily categories) update slowly — their newest items can be
+    # 6-8 weeks old — so that channel looks back further to still surface them.
+    lookback = channel.get("lookback_days", LOOKBACK_DAYS)
+    cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=lookback)
     flt = compile_filter(channel.get("filter"))
     seen_links = set()
 
@@ -397,7 +403,7 @@ def gather_channel(channel_key: str, channel: dict) -> dict:
 
 def main() -> None:
     print("Building Full Planet digest\u2026")
-    print("  [build version: 2026-07-17-excludefix+cap — energy/synbio exclude trimmed, per-feed cap active]")
+    print("  [build version: 2026-07-17-stalefeeds — energy/synbio lookback widened, fresh energy feeds, AI science-gated]")
     channels_out = []
     for key, channel in CHANNELS.items():
         print(f"  \u2022 {channel['name']}")
