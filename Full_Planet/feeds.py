@@ -68,31 +68,30 @@ RAPPLER_ENV = "https://www.rappler.com/environment/feed"         # independent, 
 CONVERSATION_ID = "https://theconversation.com/id/articles.atom"  # Indonesia academics
 
 # --- Middle East ---
-# Times of Israel and Al-Fanar both hard-block automated fetches (HTTP 403),
-# so they're replaced with ISRAEL21c, a nonprofit covering Israeli science &
-# innovation via a standard WordPress feed.
-ISRAEL21C = "https://www.israel21c.org/feed/"                    # nonprofit, Israeli innovation
+# Note: Times of Israel and Al-Fanar hard-block bots (403), and ISRAEL21c's
+# feed returned empty, so we currently have no reliable Middle East science
+# feed. The regional mix still spans China, India, Japan, Korea, SE Asia,
+# Africa, and Europe. (Al Jazeera's all-news feed is state-funded; omitted.)
 
 # --- Continental Europe (English) ---
 DW_SCIENCE = "https://rss.dw.com/xml/rss_en_science"             # German public broadcaster
 DW_ENVIRONMENT = "https://rss.dw.com/xml/rss_en_environment"     # German public broadcaster
 MAX_PLANCK = "https://www.mpg.de/en/research.rss"                # independent research org
-CERN_NEWS = "https://home.cern/api/news/news/feed.rss"           # intergovernmental physics lab
+# CERN_NEWS removed: https://home.cern/api/news/news/feed.rss returns HTTP 404.
 CNRS_NEWS = "https://news.cnrs.fr/rss"                           # French public research agency
 
 # Region groupings for convenient reuse.
 ASIA_GENERAL = [SCMP_SCIENCE, SCMP_CHINA_TECH, XINHUA_SCITECH, TECHNODE,
                 SCIENCE_JAPAN, KOREA_HERALD_BIZ, ASIAN_SCIENTIST]
 GLOBAL_SOUTH = [SCIDEV, HINDU_SCI, INDIAN_EXPRESS_TECH, CONVERSATION_AFRICA,
-                RAPPLER_SCIENCE, CONVERSATION_ID, ISRAEL21C]
-EUROPE = [DW_SCIENCE, MAX_PLANCK, CERN_NEWS, CNRS_NEWS]
+                RAPPLER_SCIENCE, CONVERSATION_ID]
+EUROPE = [DW_SCIENCE, MAX_PLANCK, CNRS_NEWS]
 
 # Default broad regional set: a balanced world mix used by most channels.
 REGIONAL = (
     [SCIDEV, HINDU_SCI, INDIAN_EXPRESS_TECH, CONVERSATION_AFRICA]   # India / Africa / Global South
     + [SCMP_SCIENCE, SCMP_CHINA_TECH, XINHUA_SCITECH]               # China (indep + state)
     + [SCIENCE_JAPAN, KOREA_HERALD_BIZ, ASIAN_SCIENTIST]           # East & SE Asia
-    + [ISRAEL21C]                                                   # Middle East
     + [DW_SCIENCE, MAX_PLANCK]                                      # Europe
 )
 
@@ -199,7 +198,7 @@ CHANNELS = {
         "name": "Advanced Materials",
         "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
         "accent": "#E8A13A",
-        "regional_feeds": REGIONAL + [CERN_NEWS, CNRS_NEWS],
+        "regional_feeds": REGIONAL + [CNRS_NEWS],
         "regional_filter": {
             "require": ["material", "nanotech", "nanomaterial", "biosensor",
                         "polymer", "molecule", "catalyst", "chemistry", "graphene",
@@ -333,10 +332,15 @@ CHANNELS = {
                 "environment", "plastic", "waste", "biosensor",
             ],
             "exclude": [
-                "dinosaur", "fossil", "wildlife", "conservation", "endangered",
-                "biodiversity", "human embryo", "IVF", "fertility clinic",
+                # Only clearly off-topic terms. The specific require gate keeps
+                # this channel focused, so we DON'T exclude context words like
+                # "wildlife"/"endangered" that legitimately appear in summaries
+                # of engineered-organism stories (e.g. "microbe that protects
+                # endangered habitats"). We keep astronomy/space terms to block
+                # the leaks seen earlier, plus a couple of paleontology terms.
+                "dinosaur", "fossil", "human embryo", "IVF", "fertility clinic",
                 "telescope", "galaxy", "exoplanet", "rocket", "spacecraft",
-                "asteroid", "diamond",
+                "asteroid", "lab-grown diamond",
             ],
         },
     },
@@ -431,14 +435,14 @@ CHANNELS = {
                 "efficiency", "breakthrough", "generate", "generation", "renewable",
             ],
             "exclude": [
-                "dinosaur", "fossil discovery", "wildlife", "extinction",
-                "endangered", "species", "coral", "shark", "whale", "insect",
-                "butterfly", "bird", "heatwave", "hurricane", "typhoon",
-                "wildfire smoke", "cancer", "dementia", "vaccine", "election",
-                "lawsuit", "stock market", "El Ni", "sea level rise",
+                # Only truly off-topic terms. We rely on the REQUIRE gate (which
+                # demands a specific energy/water technology term) to keep the
+                # channel focused. The old list wrongly killed real energy
+                # stories whose summaries mentioned "climate", "species",
+                # "sea level rise", etc. as ordinary context.
+                "goldfish", "aquarium", "dinosaur", "horoscope", "astrology",
                 "solar flare", "solar wind", "solar system", "solar eclipse",
-                "coronal mass", "sunspot", "solar storm", "solar panel installer",
-                "goldfish", "aquarium",
+                "coronal mass", "sunspot", "solar storm",
             ],
         },
     },
