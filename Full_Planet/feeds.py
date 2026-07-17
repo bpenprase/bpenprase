@@ -125,26 +125,36 @@ CHANNELS = {
                 "foundation model", "machine-learning",
             ],
             "include": [
-                # Specific science & engineering DOMAINS only. A story must
-                # tie AI to one of these to qualify — the generic words
-                # "research / researchers / scientists / model / discovery"
-                # were removed because nearly every AI story contains them,
-                # which let general AI news slip through.
-                "protein", "materials science", "material", "molecule", "molecular",
-                "drug discovery", "drug design", "catalyst", "chemistry",
-                "genomics", "genome", "genetic", "biology", "biological",
-                "medicine", "medical", "clinical", "disease", "diagnosis",
-                "physics", "quantum", "climate", "weather forecast", "fusion",
-                "battery", "solar", "materials", "engineering", "protein folding",
-                "simulation", "microscopy", "telescope", "astronomy",
-                "astrophysics", "neuroscience", "crystal", "semiconductor",
-                "superconductor", "enzyme", "chemical", "biochemistry",
-                "math", "mathematics", "mathematical", "conjecture", "proof",
-                "theorem", "scientific discovery", "particle physics",
-                "weather prediction", "protein structure", "materials discovery",
-                "vaccine design", "antibiotic", "antibody design", "fluid dynamics",
-                "genomic", "cell biology", "structural biology", "drug",
-                "reaction", "spectroscopy", "microscope", "sensor",
+                # SPECIFIC scientific-discovery domains only. A story must tie
+                # AI to one of these to qualify. Broad tech words (robot, sensor,
+                # engineering, energy, cell) were REMOVED because they let
+                # general AI/robotics/business stories through. This keeps the
+                # channel squarely on "AI used to do science": discovering
+                # medicines, proteins, molecules, materials, and advancing
+                # physics, chemistry, astronomy, and biology research.
+                "protein", "proteins", "protein folding", "protein structure",
+                "materials science", "materials discovery", "new material",
+                "new materials", "molecule", "molecules", "molecular",
+                "drug discovery", "drug design", "new drug", "drug candidate",
+                "catalyst", "catalysis", "chemistry", "chemical reaction",
+                "genomics", "genome", "genomic", "gene expression",
+                "medicine", "disease diagnosis", "diagnose", "medical imaging",
+                "physics", "quantum", "fusion", "plasma", "particle physics",
+                "materials", "superconductor", "semiconductor design",
+                "protein design", "enzyme", "enzymes", "biochemistry",
+                "crystal structure", "spectroscopy", "microscopy image",
+                "math conjecture", "mathematical proof", "theorem",
+                "scientific discovery", "cosmic", "cosmology", "astrophysics",
+                "astronomy", "astronomical", "telescope data", "star", "stars",
+                "galaxy", "galaxies", "exoplanet", "black hole", "neutron star",
+                "vaccine design", "antibiotic", "antibody", "cancer",
+                "structural biology", "cell biology", "neuroscience research",
+                "climate model", "weather forecast", "weather prediction",
+                "fluid dynamics", "earthquake prediction", "seismic",
+                "nanoparticle", "photonic", "battery material", "solar cell",
+                "chemical synthesis", "reaction pathway", "quantum chemistry",
+                "biomolecule", "RNA", "DNA sequence", "genome sequencing",
+                "material properties", "crystal", "alloy design",
             ],
             "exclude": [
                 "chatbot", "copilot", "smartphone", "gadget", "stock", "shares",
@@ -153,6 +163,12 @@ CHANNELS = {
                 "CEO", "advertising", "social media", "deepfake", "election",
                 "misinformation", "subscription", "app store", "gaming",
                 "video game", "influencer", "CES", "executive order",
+                "warehouse", "customer", "retail", "translation", "chatbots",
+                "homework", "tutor", "recommendation", "surveillance",
+                "network intrusion", "cybersecurity", "data center", "coding",
+                "software engineer", "self-driving", "autonomous vehicle",
+                "content creation", "image generation", "art generation",
+                "job market", "workforce", "productivity", "assistant",
             ],
         },
     },
@@ -193,38 +209,74 @@ CHANNELS = {
         "accent": "#5FBF9B",
         "regional_feeds": REGIONAL + [ASIAN_SCIENTIST],
         "feeds": [
+            # Verified against ScienceDaily's official RSS index. These are the
+            # feeds most likely to carry synthetic-biology / bioengineering news.
             "https://www.sciencedaily.com/rss/plants_animals/biotechnology.xml",
+            "https://www.sciencedaily.com/rss/plants_animals/biotechnology_and_bioengineering.xml",
             "https://www.sciencedaily.com/rss/plants_animals/genetically_modified.xml",
             "https://www.sciencedaily.com/rss/plants_animals/genetics.xml",
+            "https://www.sciencedaily.com/rss/plants_animals/bacteria.xml",
+            "https://www.sciencedaily.com/rss/plants_animals/microbiology.xml",
+            "https://www.sciencedaily.com/rss/plants_animals/microbes_and_more.xml",
+            "https://www.sciencedaily.com/rss/plants_animals/molecular_biology.xml",
+            "https://www.sciencedaily.com/rss/plants_animals/cell_biology.xml",
+            "https://www.sciencedaily.com/rss/matter_energy/biochemistry.xml",
         ] + BROAD,
+        # Synthetic biology = human-designed/engineered life and programmed DNA.
+        # The require gate demands an engineering/synthetic signal so the broad
+        # bacteria/microbiology/cell-biology feeds don't flood the channel with
+        # basic biology. The include list then also catches the APPLICATIONS you
+        # care about (carbon capture, bioremediation, chemical synthesis) when
+        # paired with that engineering signal.
         "filter": {
-            "include": [
+            "require": [
+                # any of these signals that a story is about *engineered* life
                 "synthetic biology", "synthetic cell", "synthetic organism",
-                "synthetic life", "synthetic lifeform", "spudcell", "spud cell",
-                "artificial cell", "minimal cell", "cell-like system",
-                "engineered bacteria", "engineered microbe", "engineered microbes",
-                "engineered cell", "engineered organism", "engineered yeast",
-                "engineered microorganism", "designer microbe", "designer organism",
-                "genetically engineered", "genetically modified", "genetically programmed",
-                "genetic circuit", "genetic circuits", "gene circuit",
-                "biological computer", "biological computing", "cellular computing",
+                "synthetic life", "synthetic genome", "synthetic microbe",
+                "synthetic bacteria", "synthetic yeast", "synthetic cells",
+                "synthetic dna", "spudcell", "spud cell", "artificial cell",
+                "artificial chromosome", "minimal cell", "create life",
+                "created life", "creating life",
+                "engineered", "engineer", "engineering",
+                "genetically modified", "genetically engineered", "gmo",
+                "gene-edited", "gene edited", "gene editing", "gene-editing",
+                "genome editing", "genome-edited", "genome synthesis",
+                "genome writing", "CRISPR", "base editing", "prime editing",
+                "gene drive", "genetic circuit", "gene circuit",
+                "bioengineer", "bioengineered", "bioengineering",
+                "metabolic engineering", "biomanufactur", "biofoundry",
+                "biosynthesis", "designer microbe", "designer organism",
+                "programmable cell", "programmed cell", "programmed microbe",
+                "program microbes", "reprogrammed", "reprogram",
+                "biological computer", "biological computing", "biocomputing",
                 "DNA computing", "DNA data storage", "DNA storage",
-                "DNA synthesis", "DNA writing", "genome synthesis", "genome writing",
-                "programmable cell", "programmed cell", "reprogrammed bacteria",
-                "biosynthesis", "microbial factory", "cell factory",
-                "metabolic engineering", "biomanufacturing", "biofoundry",
-                "gene editing", "CRISPR", "base editing", "prime editing",
-                "synthetic microbe", "chassis organism", "xenobot",
-                "living material", "living machine", "living robot", "biobot",
-                "biocomputing", "biocomputer", "DNA-based", "synthetic DNA",
-                "engineered plant", "engineered crop", "grow and divide",
+                "data in DNA", "data into DNA", "store data", "stores data",
+                "digital data in", "DNA synthesis", "DNA writing", "living material",
+                "living machine", "living robot", "xenobot", "biobot",
+                "microbial factory", "cell factory", "chassis organism",
+                "modified bacteria", "modified microbe", "modified yeast",
+                "modified organism", "phage engineering", "cell-free system",
+            ],
+            "include": [
+                # applications & contexts (only kept if a require term is also
+                # present). Empty entries here would keep everything that passes
+                # require; instead we list application terms so mixed feeds stay
+                # on-topic. Leave broad so "engineered X to do Y" is captured.
+                "microbe", "microbes", "bacteria", "bacterium", "yeast", "cell",
+                "cells", "organism", "enzyme", "protein", "DNA", "genome",
+                "gene", "genes", "microorganism", "algae", "plant", "crop",
+                "virus", "phage", "chromosome", "biology", "biological",
+                "carbon", "CO2", "carbon dioxide", "sequester", "capture",
+                "bioremediation", "clean up", "cleanup", "pollution", "pollutant",
+                "waste", "toxin", "environment", "biofuel", "fuel", "chemical",
+                "synthesize", "synthesis", "produce", "production", "manufacture",
+                "material", "compound", "drug", "medicine", "fertilizer",
+                "nitrogen", "plastic", "degrade", "recycling", "data", "computing",
+                "storage", "circuit", "sensor", "biosensor", "vaccine",
             ],
             "exclude": [
-                "cancer", "tumor", "tumour", "alzheimer", "parkinson",
-                "clinical trial", "patients", "symptom", "vaccine", "antibody",
                 "dinosaur", "fossil", "wildlife", "conservation", "endangered",
-                "biodiversity", "obesity", "diabetes", "depression",
-                "human embryo", "IVF", "fertility", "gum disease",
+                "biodiversity", "human embryo", "IVF", "fertility clinic",
             ],
         },
     },
@@ -234,12 +286,18 @@ CHANNELS = {
         "accent": "#33C6D6",
         "regional_feeds": REGIONAL + [DOWN_TO_EARTH, DW_ENVIRONMENT, RAPPLER_ENV, CNRS_NEWS],
         "regional_filter": {
-            "require": ["solar", "wind", "renewable", "battery", "hydrogen",
-                        "clean energy", "clean water", "drinking water", "water access",
-                        "desalination", "sanitation", "grid", "electricity access",
-                        "off-grid", "solar power", "biogas", "irrigation", "groundwater",
-                        "power", "energy", "water purification", "microgrid"],
-            "include": [], "exclude": ["dinosaur", "wildlife"],
+            "require": ["solar power", "solar energy", "solar panel", "solar farm",
+                        "wind power", "wind energy", "wind turbine", "renewable",
+                        "battery", "hydrogen", "clean energy", "clean water",
+                        "drinking water", "water access", "desalination",
+                        "sanitation", "power grid", "electricity access",
+                        "off-grid", "biogas", "irrigation", "groundwater",
+                        "clean power", "water purification", "microgrid",
+                        "hydropower", "geothermal", "energy storage", "biofuel",
+                        "carbon capture", "electric vehicle", "green energy"],
+            "include": [],
+            "exclude": ["dinosaur", "wildlife", "solar flare", "solar wind",
+                        "solar system", "solar eclipse", "coronal"],
         },
         "feeds": [
             "https://www.sciencedaily.com/rss/matter_energy/energy_technology.xml",
@@ -247,35 +305,41 @@ CHANNELS = {
             "https://www.sciencedaily.com/rss/earth_climate/renewable_energy.xml",
             "https://www.sciencedaily.com/rss/earth_climate/water.xml",
         ] + BROAD,
-        # Focus tightly on ENERGY GENERATION, CARBON CAPTURE, CLEAN WATER, and
-        # POWERING CITIES & TRANSPORT — not general climate/environment news.
-        # The "require" gate demands a specific solution/technology term, so we
-        # get "a new way to generate/store/capture/purify", not broad "climate
-        # is changing" coverage. Exclude strips the wildlife/disaster/health
-        # stories the broad feeds also carry.
+        # Focus tightly on (1) GENERATING clean/green energy — solar, wind,
+        # fusion, nuclear, geothermal, hydro, hydrogen — and (2) SOURCING and
+        # TREATING water — desalination, atmospheric water harvesting,
+        # purification, conservation. Deliberately excludes generic "battery/
+        # EV/smart-grid/energy-efficiency" consumer-tech and business stories,
+        # which were diluting the channel. The require gate demands a specific
+        # generation or water-technology term.
         "filter": {
             "require": [
-                "solar", "wind power", "wind turbine", "wind farm", "battery",
-                "batteries", "hydrogen", "fuel cell", "renewable", "power grid",
-                "photovoltaic", "nuclear power", "nuclear reactor", "fusion",
-                "geothermal", "biofuel", "desalination", "electrolysis",
+                # --- clean energy GENERATION ---
+                "solar power", "solar energy", "solar cell", "solar panel",
+                "solar farm", "photovoltaic", "photovoltaics", "perovskite solar",
+                "concentrated solar", "wind power", "wind turbine", "wind farm",
+                "wind energy", "offshore wind", "nuclear power", "nuclear reactor",
+                "nuclear fusion", "fusion energy", "fusion reactor", "fusion power",
+                "tokamak", "geothermal", "hydropower", "hydroelectric",
+                "tidal energy", "tidal power", "wave energy", "hydrogen fuel",
+                "green hydrogen", "hydrogen production", "clean hydrogen",
+                "biofuel", "biogas", "bioenergy", "renewable energy",
+                "renewable power", "clean energy", "green energy",
+                "sustainable energy", "clean power", "carbon-free",
+                "power generation", "electricity generation", "energy generation",
+                "fuel cell", "artificial photosynthesis", "nuclear fission",
+                # --- carbon capture (clean-energy adjacent) ---
                 "carbon capture", "carbon sequestration", "direct air capture",
-                "carbon dioxide removal", "CO2 capture", "energy storage",
-                "grid storage", "clean energy", "clean water", "fresh water",
-                "freshwater", "water purification", "water filtration",
-                "wastewater", "solar cell", "solar panel", "power plant",
-                "electric vehicle", "EV battery", "energy efficiency",
-                "green hydrogen", "green technology", "tidal energy",
-                "wave energy", "hydropower", "hydroelectric", "microgrid",
-                "smart grid", "supercapacitor", "sustainable energy",
-                "power generation", "solid-state battery", "perovskite",
-                "electrolyzer", "heat pump", "atmospheric water", "sea water",
-                "seawater", "solar power", "wind energy", "nuclear fusion",
-                "grid-scale", "clean power", "water treatment", "aquifer",
-                "photovoltaics", "biogas", "ammonia fuel", "sodium-ion",
-                "drinking water", "safe water", "water access", "well water",
-                "arsenic", "water scarcity", "water supply", "potable water",
-                "sanitation", "clean drinking",
+                "carbon dioxide removal", "CO2 capture", "carbon storage",
+                # --- WATER sourcing & treatment ---
+                "desalination", "desalinate", "atmospheric water",
+                "water from air", "water harvesting", "water purification",
+                "water filtration", "water treatment", "clean water",
+                "fresh water", "freshwater", "drinking water", "potable water",
+                "safe water", "water access", "water scarcity", "wastewater",
+                "water recycling", "water conservation", "water reclamation",
+                "groundwater", "aquifer recharge", "water supply", "sanitation",
+                "solar still", "reverse osmosis", "water membrane",
             ],
             "include": [],  # require gate is specific enough; keep all that pass
             "exclude": [
@@ -284,6 +348,8 @@ CHANNELS = {
                 "butterfly", "bird", "heatwave", "hurricane", "typhoon",
                 "wildfire smoke", "cancer", "dementia", "vaccine", "election",
                 "lawsuit", "stock market", "El Ni", "sea level rise",
+                "solar flare", "solar wind", "solar system", "solar eclipse",
+                "coronal mass", "sunspot", "solar storm", "solar panel installer",
             ],
         },
     },
@@ -292,12 +358,31 @@ CHANNELS = {
         "tagline": "New missions, spacecraft, and technologies \u2014 NASA, ESA, ISRO, JAXA, SpaceX, CNES, and more.",
         "accent": "#F0894E",
         "regional_feeds": [SCIDEV, HINDU_SCI, HINDU_TECH, INDIAN_EXPRESS_TECH,
-                            SCMP_SCIENCE, XINHUA_SCITECH, SCIENCE_JAPAN, CNRS_NEWS],
+                            SCMP_SCIENCE, SCMP_CHINA_TECH, XINHUA_SCITECH,
+                            SCIENCE_JAPAN, KOREA_HERALD_BIZ, CNRS_NEWS,
+                            DW_SCIENCE, TECHNODE, ASIAN_SCIENTIST],
         "regional_filter": {
-            "require": ["ISRO", "space", "rocket", "launch", "satellite", "mission",
-                        "spacecraft", "Chandrayaan", "Gaganyaan", "orbit", "lunar",
-                        "astronaut", "moon", "Mars", "PSLV", "GSLV", "space agency"],
-            "include": [], "exclude": [],
+            "require": [
+                # generic space terms (any agency/company)
+                "space", "rocket", "launch", "satellite", "mission",
+                "spacecraft", "orbit", "orbital", "lunar", "moon", "Mars",
+                "astronaut", "cosmonaut", "taikonaut", "space agency",
+                "space station", "deep space", "spaceport", "reusable rocket",
+                "space telescope", "space probe", "space mission",
+                # agencies worldwide
+                "ISRO", "NASA", "ESA", "JAXA", "CNES", "CNSA", "KARI", "Roscosmos",
+                "China National Space", "European Space", "Japanese space",
+                # missions/programs
+                "Chandrayaan", "Gaganyaan", "PSLV", "GSLV", "Long March",
+                "Tiangong", "Tianwen", "Chang'e", "Shenzhou", "Artemis",
+                "Hayabusa", "SLIM", "Ariane", "Vega rocket",
+                # private space companies
+                "SpaceX", "Starship", "Falcon", "Blue Origin", "Rocket Lab",
+                "Sierra Space", "Firefly", "Relativity Space", "Skyroot",
+                "Agnikul", "iSpace", "Landspace", "Galactic Energy",
+                "private space", "commercial space", "space startup",
+            ],
+            "include": [], "exclude": ["horoscope", "astrology"],
         },
         "feeds": [
             "https://www.nasa.gov/feed/",
@@ -310,15 +395,18 @@ CHANNELS = {
         "filter": {
             "include": [
                 "rocket", "launch", "spacecraft", "satellite", "mission",
-                "astronaut", "cosmonaut", "crew", "space station", "ISS",
+                "astronaut", "cosmonaut", "taikonaut", "crew", "space station", "ISS",
                 "lunar", "moon", "Mars", "orbit", "orbital", "booster",
                 "lander", "rover", "propulsion", "thruster", "spaceflight",
                 "reusable", "NASA", "ESA", "ISRO", "JAXA", "CNES", "CNSA",
-                "SpaceX", "Blue Origin", "Soyuz", "Artemis", "Gaganyaan",
-                "Chandrayaan", "space agency", "payload", "deep space",
+                "SpaceX", "Blue Origin", "Rocket Lab", "Sierra Space", "Firefly",
+                "Relativity Space", "Skyroot", "Agnikul", "Landspace", "iSpace",
+                "Soyuz", "Artemis", "Gaganyaan", "Tiangong", "Tianwen", "Chang'e",
+                "Shenzhou", "Chandrayaan", "space agency", "payload", "deep space",
                 "spaceport", "docking", "reentry", "asteroid sample",
-                "Long March", "Starship", "Hayabusa", "space telescope",
-                "Gateway", "Perseverance",
+                "Long March", "Starship", "Falcon", "Hayabusa", "space telescope",
+                "Gateway", "Perseverance", "Ariane", "commercial space",
+                "private space", "space startup", "satellite constellation",
             ],
             "exclude": [
                 "dinosaur", "heatwave", "typhoon", "capybara", "butterfly",
