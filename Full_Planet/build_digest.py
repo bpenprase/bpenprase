@@ -28,6 +28,8 @@ from feeds import CHANNELS
 # ---- tuning knobs -----------------------------------------------------------
 MAX_ITEMS_PER_CHANNEL = 24      # how many primary headlines to show per channel
 MAX_REGIONAL_PER_CHANNEL = 10   # how many regional (2nd-pass) items to append
+MAX_ENTRIES_PER_FEED = 60       # cap entries read per feed so one huge feed
+                                # (e.g. TechNode's 2000) can't crowd out others
 LOOKBACK_DAYS = 21             # ignore anything older than this
 SNIPPET_CHARS = 220           # target length of the one-to-two sentence blurb
 FETCH_TIMEOUT = 25            # seconds to wait per feed before giving up
@@ -147,7 +149,39 @@ def compile_filter(flt: dict | None) -> dict | None:
         "_include_compiled": [as_word_pattern(t) for t in flt.get("include", [])],
         "_require_compiled": [as_word_pattern(t) for t in flt.get("require", [])],
         "_exclude_compiled": [as_word_pattern(t) for t in flt.get("exclude", [])],
+        # score terms: high-value terms that indicate strong on-theme relevance.
+        # If absent, fall back to require then include terms.
+        "_score_compiled": [as_word_pattern(t) for t in
+                            (flt.get("score") or flt.get("require") or flt.get("include") or [])],
     }
+
+
+def relevance_score(title: str, summary: str, flt: dict) -> float:
+    """
+    Score a story's relevance to a channel's theme.
+
+    Matches in the TITLE count 3x; matches in the SUMMARY count 1x. Distinct
+    matching terms are what count (not repeats), so a story that touches several
+    on-theme concepts scores higher than one that repeats a single word. Returns
+    0.0 for a story that would fail the filter outright (exclude / missing
+    require), so callers can drop those first.
+    """
+    if not flt:
+        return 1.0
+    if not passes_filter(title + " " + summary, flt):
+        return 0.0
+
+    title_l = title.lower()
+    summary_l = summary.lower()
+    score = 0.0
+    for pat in flt.get("_score_compiled", []):
+        if pat.search(title_l):
+            score += 3.0
+        elif pat.search(summary_l):
+            score += 1.0
+    # a story that passed the filter but matched no score term still gets a
+    # small floor so it isn't lost (it satisfied require/include some other way)
+    return score if score > 0 else 0.5
 
 
 def clean_text(raw: str) -> str:
@@ -218,6 +252,7 @@ SOURCE_NAMES = {
     # Middle East
     "timesofisrael.com": "The Times of Israel",
     "al-fanarmedia.org": "Al-Fanar Media",
+    "israel21c.org": "ISRAEL21c",
     "thenationalnews.com": "The National (UAE)",
     "aljazeera.com": "Al Jazeera",
     # Continental Europe
@@ -265,7 +300,11 @@ def harvest(feed_urls, flt, cutoff, seen_links, region_label=None):
             print(f"    \u00b7 {n_entries:>3} items from {feed_url}{tag}")
 
         src = source_name(parsed.feed, feed_url)
-        for entry in parsed.entries:
+        # Cap how many entries we take from any single feed so an oversized
+        # feed (e.g. TechNode's ~2000 items) can't dominate the regional pass.
+        # feedparser returns entries newest-first, so a simple slice keeps the
+        # most recent ones.
+        for entry in parsed.entries[:MAX_ENTRIES_PER_FEED]:
             link = entry.get("link")
             title = clean_text(entry.get("title", ""))
             if not link or not title or link in seen_links:
@@ -283,6 +322,8 @@ def harvest(feed_urls, flt, cutoff, seen_links, region_label=None):
                 filtered_out += 1
                 continue
 
+            score = relevance_score(title, summary, flt) if flt else 1.0
+
             seen_links.add(link)
             out.append({
                 "title": title,
@@ -292,6 +333,7 @@ def harvest(feed_urls, flt, cutoff, seen_links, region_label=None):
                 "published": when.isoformat() if when else None,
                 "regional": bool(region_label),
                 "_sort": when.timestamp() if when else 0,
+                "_score": score,
             })
     return out, filtered_out
 
@@ -301,12 +343,21 @@ def gather_channel(channel_key: str, channel: dict) -> dict:
     flt = compile_filter(channel.get("filter"))
     seen_links = set()
 
+    # how many primary stories to show. Channels can override with "top_n";
+    # otherwise use the global default.
+    top_n = channel.get("top_n", MAX_ITEMS_PER_CHANNEL)
+
     # ---- PASS 1: primary high-quality feeds ----
     primary, primary_dropped = harvest(
         channel["feeds"], flt, cutoff, seen_links
     )
+    # Rank by RELEVANCE first (most on-theme stories win), then by recency as a
+    # tiebreaker. This keeps each channel focused on its theme even when a feed
+    # carries marginal stories, and fills the channel with the best available.
+    primary.sort(key=lambda x: (x["_score"], x["_sort"]), reverse=True)
+    primary = primary[:top_n]
+    # within the shown set, present newest-first for a natural reading order
     primary.sort(key=lambda x: x["_sort"], reverse=True)
-    primary = primary[:MAX_ITEMS_PER_CHANNEL]
 
     # ---- PASS 2: regional / Global South feeds, appended AFTER ----
     regional = []
@@ -319,13 +370,16 @@ def gather_channel(channel_key: str, channel: dict) -> dict:
             channel["regional_feeds"], rflt, cutoff, seen_links,
             region_label="regional"
         )
-        regional.sort(key=lambda x: x["_sort"], reverse=True)
+        # rank regional by relevance too, then show newest-first
+        regional.sort(key=lambda x: (x["_score"], x["_sort"]), reverse=True)
         regional = regional[:MAX_REGIONAL_PER_CHANNEL]
+        regional.sort(key=lambda x: x["_sort"], reverse=True)
         print(f"      (regional kept {len(regional)}, set aside {regional_dropped})")
 
     items = primary + regional
     for it in items:
         it.pop("_sort", None)
+        it.pop("_score", None)
 
     if flt:
         print(f"      (primary filter kept {len(primary)}, set aside {primary_dropped})")

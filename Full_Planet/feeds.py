@@ -49,7 +49,6 @@ HINDU_SCI = "https://www.thehindu.com/sci-tech/science/feeder/default.rss"
 HINDU_TECH = "https://www.thehindu.com/sci-tech/technology/feeder/default.rss"
 INDIAN_EXPRESS_TECH = "https://indianexpress.com/section/technology/feed/"
 CONVERSATION_AFRICA = "https://theconversation.com/africa/articles.atom"
-DOWN_TO_EARTH = "https://www.downtoearth.org.in/rss/all"
 
 # --- China (mix of independent-leaning and clearly-labeled state media) ---
 SCMP_SCIENCE = "https://www.scmp.com/rss/318224/feed"            # Alibaba-owned, HK
@@ -69,8 +68,10 @@ RAPPLER_ENV = "https://www.rappler.com/environment/feed"         # independent, 
 CONVERSATION_ID = "https://theconversation.com/id/articles.atom"  # Indonesia academics
 
 # --- Middle East ---
-TIMES_OF_ISRAEL = "https://www.timesofisrael.com/feed/"          # independent
-AL_FANAR = "https://al-fanarmedia.org/feed/"                     # independent nonprofit, Arab HE/science
+# Times of Israel and Al-Fanar both hard-block automated fetches (HTTP 403),
+# so they're replaced with ISRAEL21c, a nonprofit covering Israeli science &
+# innovation via a standard WordPress feed.
+ISRAEL21C = "https://www.israel21c.org/feed/"                    # nonprofit, Israeli innovation
 
 # --- Continental Europe (English) ---
 DW_SCIENCE = "https://rss.dw.com/xml/rss_en_science"             # German public broadcaster
@@ -83,7 +84,7 @@ CNRS_NEWS = "https://news.cnrs.fr/rss"                           # French public
 ASIA_GENERAL = [SCMP_SCIENCE, SCMP_CHINA_TECH, XINHUA_SCITECH, TECHNODE,
                 SCIENCE_JAPAN, KOREA_HERALD_BIZ, ASIAN_SCIENTIST]
 GLOBAL_SOUTH = [SCIDEV, HINDU_SCI, INDIAN_EXPRESS_TECH, CONVERSATION_AFRICA,
-                RAPPLER_SCIENCE, CONVERSATION_ID, TIMES_OF_ISRAEL, AL_FANAR]
+                RAPPLER_SCIENCE, CONVERSATION_ID, ISRAEL21C]
 EUROPE = [DW_SCIENCE, MAX_PLANCK, CERN_NEWS, CNRS_NEWS]
 
 # Default broad regional set: a balanced world mix used by most channels.
@@ -91,7 +92,7 @@ REGIONAL = (
     [SCIDEV, HINDU_SCI, INDIAN_EXPRESS_TECH, CONVERSATION_AFRICA]   # India / Africa / Global South
     + [SCMP_SCIENCE, SCMP_CHINA_TECH, XINHUA_SCITECH]               # China (indep + state)
     + [SCIENCE_JAPAN, KOREA_HERALD_BIZ, ASIAN_SCIENTIST]           # East & SE Asia
-    + [TIMES_OF_ISRAEL, AL_FANAR]                                   # Middle East
+    + [ISRAEL21C]                                                   # Middle East
     + [DW_SCIENCE, MAX_PLANCK]                                      # Europe
 )
 
@@ -167,7 +168,32 @@ CHANNELS = {
                 "Nvidia", "startup", "benchmark", "leaderboard",
                 "open-source model", "fine-tuning",
             ],
+            # SCORE terms rank stories by how strongly they're about AI applied
+            # to science & engineering. A story matching these in its title
+            # ranks highest; the top 12 are shown. This keeps the channel from
+            # drifting toward general AI while still drawing on many feeds.
+            "score": [
+                "protein", "proteins", "protein folding", "protein structure",
+                "materials science", "new material", "new materials", "molecule",
+                "molecules", "molecular", "drug discovery", "drug design",
+                "new drug", "catalyst", "chemistry", "chemical reaction",
+                "genomics", "genome", "gene expression", "disease diagnosis",
+                "medical imaging", "physics", "quantum", "fusion", "plasma",
+                "particle physics", "superconductor", "semiconductor",
+                "enzyme", "biochemistry", "crystal", "spectroscopy",
+                "mathematical proof", "theorem", "scientific discovery",
+                "astrophysics", "astronomy", "telescope", "cosmology",
+                "galaxy", "galaxies", "exoplanet", "black hole", "neutron star",
+                "antibiotic", "antibody", "vaccine", "cancer", "structural biology",
+                "cell biology", "neuroscience", "climate model", "weather forecast",
+                "fluid dynamics", "seismic", "nanoparticle", "battery material",
+                "solar cell", "chemical synthesis", "quantum chemistry",
+                "biomolecule", "genome sequencing", "material properties",
+                "simulation", "microscopy", "discovery", "research", "scientist",
+                "scientists", "engineering", "laboratory",
+            ],
         },
+        "top_n": 12,  # show the 12 most science-relevant AI stories
     },
     "materials": {
         "name": "Advanced Materials",
@@ -206,22 +232,32 @@ CHANNELS = {
         "accent": "#5FBF9B",
         "regional_feeds": REGIONAL + [ASIAN_SCIENTIST],
         "regional_filter": {
-            # Looser than the primary: global outlets frame synthetic biology
-            # as "biotech / gene editing / GMO / engineered microbes." Require
-            # any such signal; that's enough to stay on-topic without demanding
-            # the exact primary vocabulary.
+            # Looser than the primary but still SPECIFIC. Earlier this list had
+            # bare terms ("engineer", "microbe", "cultured", "lab-grown") that
+            # falsely matched off-topic stories ("engineers build a telescope",
+            # "microbes on Mars", "rocket engine", "lab-grown diamond"). Every
+            # term here now names a synthetic-biology concept explicitly.
             "require": [
-                "synthetic biology", "synthetic cell", "engineered", "engineer",
+                "synthetic biology", "synthetic cell", "synthetic organism",
+                "engineered bacteria", "engineered microbe", "engineered microbes",
+                "engineered cell", "engineered cells", "engineered organism",
+                "engineered yeast", "engineered microorganism", "engineered enzyme",
+                "engineered gene", "engineered plant", "engineered crop",
                 "genetically modified", "genetically engineered", "gmo",
-                "gene-edited", "gene edited", "gene editing", "CRISPR",
-                "genome editing", "bioengineer", "biotech", "biotechnology",
-                "gene therapy", "gene drive", "microbe", "bacteria engineered",
-                "designer organism", "biomanufactur", "metabolic engineering",
-                "fermentation", "cultured", "lab-grown", "DNA storage",
+                "gene-edited", "gene edited", "gene editing", "gene-editing",
+                "CRISPR", "genome editing", "genome-edited", "base editing",
+                "prime editing", "bioengineered", "bioengineering",
+                "gene therapy", "gene drive", "genetic circuit",
+                "designer microbe", "designer organism", "metabolic engineering",
+                "biomanufactur", "synthetic genome", "cultured meat",
+                "lab-grown meat", "cultivated meat", "DNA data storage",
                 "living material", "biofuel", "bioremediation",
+                "microbial factory", "cell factory", "programmable cell",
             ],
             "include": [],
-            "exclude": ["dinosaur", "fossil", "wildlife", "conservation"],
+            "exclude": ["dinosaur", "fossil", "wildlife", "conservation",
+                        "telescope", "galaxy", "exoplanet", "asteroid",
+                        "rocket", "spacecraft", "diamond", "Mars rover"],
         },
         "feeds": [
             # Verified against ScienceDaily's official RSS index. These are the
@@ -237,61 +273,70 @@ CHANNELS = {
             "https://www.sciencedaily.com/rss/plants_animals/cell_biology.xml",
             "https://www.sciencedaily.com/rss/matter_energy/biochemistry.xml",
         ] + BROAD,
-        # Synthetic biology = human-designed/engineered life and programmed DNA.
-        # The require gate demands an engineering/synthetic signal so the broad
-        # bacteria/microbiology/cell-biology feeds don't flood the channel with
-        # basic biology. The include list then also catches the APPLICATIONS you
-        # care about (carbon capture, bioremediation, chemical synthesis) when
-        # paired with that engineering signal.
+        # Synthetic biology = human-designed / engineered life and programmed
+        # DNA. The require gate lists SPECIFIC synbio concepts (never a bare
+        # "engineer"/"cell", which would match rocket engineers or basic cell
+        # biology). Matching any one is enough — no second include gate — so the
+        # channel fills well. A score list then ranks the most on-theme stories.
         "filter": {
             "require": [
-                # any of these signals that a story is about *engineered* life
-                "synthetic biology", "synthetic cell", "synthetic organism",
-                "synthetic life", "synthetic genome", "synthetic microbe",
-                "synthetic bacteria", "synthetic yeast", "synthetic cells",
+                # engineered organisms & synthetic life
+                "synthetic biology", "synthetic cell", "synthetic cells",
+                "synthetic organism", "synthetic life", "synthetic genome",
+                "synthetic microbe", "synthetic bacteria", "synthetic yeast",
                 "synthetic dna", "spudcell", "spud cell", "artificial cell",
-                "artificial chromosome", "minimal cell", "create life",
-                "created life", "creating life",
-                "engineered", "engineer", "engineering",
+                "artificial chromosome", "minimal cell", "minimal genome",
+                "engineered bacteria", "engineered microbe", "engineered microbes",
+                "engineered cell", "engineered cells", "engineered organism",
+                "engineered yeast", "engineered microorganism", "engineered enzyme",
+                "engineered gene", "engineered genome", "engineered plant",
+                "engineered crop", "engineered algae", "engineered virus",
+                "engineered bacteriophage", "engineered protein",
+                # genetic engineering techniques
                 "genetically modified", "genetically engineered", "gmo",
                 "gene-edited", "gene edited", "gene editing", "gene-editing",
                 "genome editing", "genome-edited", "genome synthesis",
                 "genome writing", "CRISPR", "base editing", "prime editing",
-                "gene drive", "genetic circuit", "gene circuit",
-                "bioengineer", "bioengineered", "bioengineering",
-                "metabolic engineering", "biomanufactur", "biofoundry",
+                "gene drive", "genetic circuit", "gene circuit", "genetic engineering",
+                "bioengineered", "bioengineering", "synthetic gene",
+                # applied synbio
+                "metabolic engineering", "biomanufacturing", "biofoundry",
                 "biosynthesis", "designer microbe", "designer organism",
-                "programmable cell", "programmed cell", "programmed microbe",
-                "program microbes", "reprogrammed", "reprogram",
+                "designer cell", "programmable cell", "programmed cell",
+                "programmed microbe", "program microbes", "reprogrammed cell",
+                "reprogrammed bacteria", "cell factory", "microbial factory",
+                "chassis organism", "modified bacteria", "modified microbe",
+                "modified yeast", "modified organism", "phage engineering",
+                "cell-free system", "cultured meat", "cultivated meat",
+                "lab-grown meat", "biofabrication",
+                # bio-computing / DNA data
                 "biological computer", "biological computing", "biocomputing",
                 "DNA computing", "DNA data storage", "DNA storage",
-                "data in DNA", "data into DNA", "store data", "stores data",
-                "digital data in", "DNA synthesis", "DNA writing", "living material",
-                "living machine", "living robot", "xenobot", "biobot",
-                "microbial factory", "cell factory", "chassis organism",
-                "modified bacteria", "modified microbe", "modified yeast",
-                "modified organism", "phage engineering", "cell-free system",
+                "data in DNA", "data into DNA", "DNA synthesis", "DNA writing",
+                "living material", "living machine", "living robot",
+                "xenobot", "biobot",
             ],
-            "include": [
-                # applications & contexts (only kept if a require term is also
-                # present). Empty entries here would keep everything that passes
-                # require; instead we list application terms so mixed feeds stay
-                # on-topic. Leave broad so "engineered X to do Y" is captured.
-                "microbe", "microbes", "bacteria", "bacterium", "yeast", "cell",
-                "cells", "organism", "enzyme", "protein", "DNA", "genome",
-                "gene", "genes", "microorganism", "algae", "plant", "crop",
-                "virus", "phage", "chromosome", "biology", "biological",
-                "carbon", "CO2", "carbon dioxide", "sequester", "capture",
-                "bioremediation", "clean up", "cleanup", "pollution", "pollutant",
-                "waste", "toxin", "environment", "biofuel", "fuel", "chemical",
-                "synthesize", "synthesis", "produce", "production", "manufacture",
-                "material", "compound", "drug", "medicine", "fertilizer",
-                "nitrogen", "plastic", "degrade", "recycling", "data", "computing",
-                "storage", "circuit", "sensor", "biosensor", "vaccine",
+            "include": [],  # require-only: any specific synbio term is enough
+            "score": [
+                # rank the most clearly on-theme (engineered life + applications)
+                "synthetic biology", "engineered bacteria", "engineered microbe",
+                "engineered cell", "engineered organism", "synthetic cell",
+                "synthetic organism", "synthetic life", "artificial cell",
+                "genetically engineered", "gene editing", "CRISPR",
+                "genome editing", "designer organism", "designer microbe",
+                "living material", "DNA data storage", "biomanufacturing",
+                "metabolic engineering", "biosynthesis", "cell factory",
+                # applications you care about
+                "carbon", "sequester", "capture", "bioremediation", "cleanup",
+                "clean up", "pollution", "biofuel", "chemical synthesis",
+                "synthesize", "produce", "manufacture", "sustainable",
+                "environment", "plastic", "waste", "biosensor",
             ],
             "exclude": [
                 "dinosaur", "fossil", "wildlife", "conservation", "endangered",
                 "biodiversity", "human embryo", "IVF", "fertility clinic",
+                "telescope", "galaxy", "exoplanet", "rocket", "spacecraft",
+                "asteroid", "diamond",
             ],
         },
     },
@@ -299,7 +344,7 @@ CHANNELS = {
         "name": "Energy & Water",
         "tagline": "New ways to generate clean energy, capture carbon, and bring fresh water and power to people, cities, and transport.",
         "accent": "#33C6D6",
-        "regional_feeds": REGIONAL + [DOWN_TO_EARTH, DW_ENVIRONMENT, RAPPLER_ENV, CNRS_NEWS],
+        "regional_feeds": REGIONAL + [DW_ENVIRONMENT, RAPPLER_ENV, CNRS_NEWS],
         "regional_filter": {
             "require": ["solar power", "solar energy", "solar panel", "solar farm",
                         "wind power", "wind energy", "wind turbine", "renewable",
@@ -361,8 +406,30 @@ CHANNELS = {
                 "water recycling", "water conservation", "water reclamation",
                 "groundwater", "aquifer recharge", "water supply", "sanitation",
                 "solar still", "reverse osmosis", "water membrane",
+                # --- energy storage tied to clean/renewable power ---
+                "grid-scale battery", "grid storage", "energy storage",
+                "renewable storage", "flow battery", "solid-state battery",
+                "sodium-ion battery", "long-duration storage", "battery storage",
+                "green ammonia", "hydrogen storage", "thermal storage",
+                # --- water verb forms & extras ---
+                "purify water", "purifies water", "purifying water",
+                "clean drinking water", "water crisis", "water technology",
+                "harvest water", "harvesting water", "atmospheric moisture",
             ],
             "include": [],  # require gate is specific enough; keep all that pass
+            "score": [
+                # rank the clearest clean-generation & water-tech stories highest
+                "solar cell", "solar power", "solar energy", "photovoltaic",
+                "wind power", "wind turbine", "wind energy", "nuclear fusion",
+                "fusion energy", "fusion reactor", "geothermal", "green hydrogen",
+                "hydrogen fuel", "renewable energy", "clean energy", "clean power",
+                "tidal energy", "wave energy", "hydropower", "fuel cell",
+                "carbon capture", "direct air capture", "energy storage",
+                "grid storage", "perovskite", "desalination", "water purification",
+                "atmospheric water", "water harvesting", "clean water",
+                "drinking water", "water treatment", "wastewater", "reverse osmosis",
+                "efficiency", "breakthrough", "generate", "generation", "renewable",
+            ],
             "exclude": [
                 "dinosaur", "fossil discovery", "wildlife", "extinction",
                 "endangered", "species", "coral", "shark", "whale", "insect",
@@ -371,6 +438,7 @@ CHANNELS = {
                 "lawsuit", "stock market", "El Ni", "sea level rise",
                 "solar flare", "solar wind", "solar system", "solar eclipse",
                 "coronal mass", "sunspot", "solar storm", "solar panel installer",
+                "goldfish", "aquarium",
             ],
         },
     },
