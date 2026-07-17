@@ -104,9 +104,27 @@ CHANNELS = {
         "regional_feeds": REGIONAL + [TECHNODE, RAPPLER_TECH],
         "regional_filter": {
             "require": ["AI", "A.I.", "artificial intelligence", "machine learning",
-                        "neural network", "deep learning", "algorithm", "generative"],
-            "include": [],  # any AI story from the Global South qualifies
-            "exclude": ["chatbot subscription", "stock", "valuation"],
+                        "neural network", "deep learning", "algorithm", "generative",
+                        "AlphaFold", "foundation model", "reinforcement learning"],
+            "include": [],
+            # Same strong exclude as the primary pass, so the "around the world"
+            # AI stories are also focused on AI-for-science, not general AI.
+            "exclude": [
+                "chatbot", "chatbots", "copilot", "smartphone", "gadget",
+                "stock", "shares", "valuation", "funding round", "raises $",
+                "billion", "lawsuit", "regulation", "regulators", "copyright",
+                "layoffs", "hiring", "CEO", "advertising", "social media",
+                "deepfake", "election", "misinformation", "subscription",
+                "app store", "gaming", "video game", "influencer", "CES",
+                "executive order", "warehouse", "customer service", "retail",
+                "translation app", "homework", "tutor", "recommendation",
+                "recommendations", "surveillance", "cybersecurity", "coding",
+                "self-driving", "autonomous vehicle", "content creation",
+                "image generation", "art generator", "job market", "workforce",
+                "productivity", "virtual assistant", "voice assistant",
+                "search engine", "ad revenue", "data privacy", "facial recognition",
+                "startup", "benchmark", "leaderboard", "smartphone app",
+            ],
         },
         "feeds": [
             "https://www.technologyreview.com/topic/artificial-intelligence/feed",
@@ -115,60 +133,39 @@ CHANNELS = {
             "https://spectrum.ieee.org/topic/artificial-intelligence/feed",
             "https://www.quantamagazine.org/feed/",
         ] + BROAD,
-        # Must mention AI/ML (require) AND a science/engineering topic (include),
-        # AND avoid business/consumer noise (exclude).
+        # Approach: REQUIRE an AI/ML signal, then use a strong EXCLUDE list to
+        # remove general-AI / consumer / business stories. We do NOT also require
+        # a science-domain term, because that double-gate was rejecting most
+        # genuine AI-for-science stories (their headlines don't always name the
+        # domain). Instead, "AI minus the noise" keeps the channel full while
+        # staying focused on AI applied to research and engineering.
         "filter": {
             "require": [
                 "AI", "A.I.", "artificial intelligence", "machine learning",
                 "neural network", "deep learning", "algorithm", "generative",
                 "AlphaFold", "ChatGPT", "language model", "GPT", "large language",
-                "foundation model", "machine-learning",
+                "foundation model", "machine-learning", "deep-learning",
+                "transformer model", "diffusion model", "reinforcement learning",
             ],
-            "include": [
-                # SPECIFIC scientific-discovery domains only. A story must tie
-                # AI to one of these to qualify. Broad tech words (robot, sensor,
-                # engineering, energy, cell) were REMOVED because they let
-                # general AI/robotics/business stories through. This keeps the
-                # channel squarely on "AI used to do science": discovering
-                # medicines, proteins, molecules, materials, and advancing
-                # physics, chemistry, astronomy, and biology research.
-                "protein", "proteins", "protein folding", "protein structure",
-                "materials science", "materials discovery", "new material",
-                "new materials", "molecule", "molecules", "molecular",
-                "drug discovery", "drug design", "new drug", "drug candidate",
-                "catalyst", "catalysis", "chemistry", "chemical reaction",
-                "genomics", "genome", "genomic", "gene expression",
-                "medicine", "disease diagnosis", "diagnose", "medical imaging",
-                "physics", "quantum", "fusion", "plasma", "particle physics",
-                "materials", "superconductor", "semiconductor design",
-                "protein design", "enzyme", "enzymes", "biochemistry",
-                "crystal structure", "spectroscopy", "microscopy image",
-                "math conjecture", "mathematical proof", "theorem",
-                "scientific discovery", "cosmic", "cosmology", "astrophysics",
-                "astronomy", "astronomical", "telescope data", "star", "stars",
-                "galaxy", "galaxies", "exoplanet", "black hole", "neutron star",
-                "vaccine design", "antibiotic", "antibody", "cancer",
-                "structural biology", "cell biology", "neuroscience research",
-                "climate model", "weather forecast", "weather prediction",
-                "fluid dynamics", "earthquake prediction", "seismic",
-                "nanoparticle", "photonic", "battery material", "solar cell",
-                "chemical synthesis", "reaction pathway", "quantum chemistry",
-                "biomolecule", "RNA", "DNA sequence", "genome sequencing",
-                "material properties", "crystal", "alloy design",
-            ],
+            "include": [],  # require + exclude is enough; keep all AI that isn't noise
             "exclude": [
-                "chatbot", "copilot", "smartphone", "gadget", "stock", "shares",
-                "valuation", "funding", "raises $", "billion", "lawsuit",
-                "regulation", "regulators", "copyright", "layoffs", "hiring",
-                "CEO", "advertising", "social media", "deepfake", "election",
-                "misinformation", "subscription", "app store", "gaming",
-                "video game", "influencer", "CES", "executive order",
-                "warehouse", "customer", "retail", "translation", "chatbots",
-                "homework", "tutor", "recommendation", "surveillance",
-                "network intrusion", "cybersecurity", "data center", "coding",
-                "software engineer", "self-driving", "autonomous vehicle",
-                "content creation", "image generation", "art generation",
-                "job market", "workforce", "productivity", "assistant",
+                # consumer / product / business / policy / general-tech AI noise
+                "chatbot", "chatbots", "copilot", "smartphone", "gadget",
+                "stock", "shares", "valuation", "funding round", "raises $",
+                "billion", "lawsuit", "regulation", "regulators", "copyright",
+                "layoffs", "hiring", "CEO", "advertising", "social media",
+                "deepfake", "election", "misinformation", "subscription",
+                "app store", "gaming", "video game", "influencer", "CES",
+                "executive order", "warehouse", "customer service", "retail",
+                "translation app", "homework", "tutor", "recommendation",
+                "recommendations", "surveillance", "network intrusion",
+                "cybersecurity", "coding", "self-driving", "autonomous vehicle",
+                "content creation", "image generation", "art generator",
+                "job market", "workforce", "productivity", "virtual assistant",
+                "voice assistant", "search engine", "ad revenue", "data privacy",
+                "facial recognition", "OpenAI", "Anthropic", "Google DeepMind",
+                "Nvidia", "startup", "benchmark", "leaderboard",
+                "open-source model", "fine-tuning",
             ],
         },
     },
@@ -208,6 +205,24 @@ CHANNELS = {
         "tagline": "Engineered organisms and programmed DNA \u2014 cells built for computing, data storage, and chemical synthesis.",
         "accent": "#5FBF9B",
         "regional_feeds": REGIONAL + [ASIAN_SCIENTIST],
+        "regional_filter": {
+            # Looser than the primary: global outlets frame synthetic biology
+            # as "biotech / gene editing / GMO / engineered microbes." Require
+            # any such signal; that's enough to stay on-topic without demanding
+            # the exact primary vocabulary.
+            "require": [
+                "synthetic biology", "synthetic cell", "engineered", "engineer",
+                "genetically modified", "genetically engineered", "gmo",
+                "gene-edited", "gene edited", "gene editing", "CRISPR",
+                "genome editing", "bioengineer", "biotech", "biotechnology",
+                "gene therapy", "gene drive", "microbe", "bacteria engineered",
+                "designer organism", "biomanufactur", "metabolic engineering",
+                "fermentation", "cultured", "lab-grown", "DNA storage",
+                "living material", "biofuel", "bioremediation",
+            ],
+            "include": [],
+            "exclude": ["dinosaur", "fossil", "wildlife", "conservation"],
+        },
         "feeds": [
             # Verified against ScienceDaily's official RSS index. These are the
             # feeds most likely to carry synthetic-biology / bioengineering news.
@@ -304,6 +319,12 @@ CHANNELS = {
             "https://www.sciencedaily.com/rss/matter_energy/solar_energy.xml",
             "https://www.sciencedaily.com/rss/earth_climate/renewable_energy.xml",
             "https://www.sciencedaily.com/rss/earth_climate/water.xml",
+            "https://www.sciencedaily.com/rss/matter_energy/fuel_cells.xml",
+            "https://www.sciencedaily.com/rss/matter_energy/batteries.xml",
+            "https://www.sciencedaily.com/rss/matter_energy/nuclear_energy.xml",
+            "https://www.sciencedaily.com/rss/matter_energy/alternative_fuels.xml",
+            "https://www.sciencedaily.com/rss/matter_energy/wind_energy.xml",
+            "https://www.sciencedaily.com/rss/earth_climate/energy.xml",
         ] + BROAD,
         # Focus tightly on (1) GENERATING clean/green energy — solar, wind,
         # fusion, nuclear, geothermal, hydro, hydrogen — and (2) SOURCING and
@@ -382,7 +403,10 @@ CHANNELS = {
                 "Agnikul", "iSpace", "Landspace", "Galactic Energy",
                 "private space", "commercial space", "space startup",
             ],
-            "include": [], "exclude": ["horoscope", "astrology"],
+            "include": [],
+            "exclude": ["horoscope", "astrology", "stock market", "cricket",
+                        "election", "box office", "recipe", "smartphone launch",
+                        "cryptocurrency", "IPO", "quarterly earnings", "Bollywood"],
         },
         "feeds": [
             "https://www.nasa.gov/feed/",

@@ -28,7 +28,7 @@ from feeds import CHANNELS
 # ---- tuning knobs -----------------------------------------------------------
 MAX_ITEMS_PER_CHANNEL = 24      # how many primary headlines to show per channel
 MAX_REGIONAL_PER_CHANNEL = 10   # how many regional (2nd-pass) items to append
-LOOKBACK_DAYS = 14             # ignore anything older than this
+LOOKBACK_DAYS = 21             # ignore anything older than this
 SNIPPET_CHARS = 220           # target length of the one-to-two sentence blurb
 FETCH_TIMEOUT = 25            # seconds to wait per feed before giving up
 # A real browser-like User-Agent. Several major outlets (Scientific American,
