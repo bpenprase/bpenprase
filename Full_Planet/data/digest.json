@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-17T08:50:56.060572+00:00",
-  "generated_human": "17 July 2026, 08:50 UTC",
-  "total_items": 125,
+  "generated": "2026-07-17T09:34:24.262414+00:00",
+  "generated_human": "17 July 2026, 09:34 UTC",
+  "total_items": 128,
   "channels": [
     {
       "key": "ai",
@@ -137,6 +137,14 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "Scientists built a camera that can track invisible particles in 3D",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260716023610.htm",
+          "source": "ScienceDaily",
+          "summary": "A new particle detector called PLATON could replace millions of tiny detector components with a single block of light-producing material.",
+          "published": "2026-07-17T06:04:57+00:00",
+          "regional": false
+        },
         {
           "title": "Quantum breakthrough links light and magnetism in atomically thin materials",
           "link": "https://www.sciencedaily.com/releases/2026/07/260715083523.htm",
@@ -329,6 +337,14 @@
       "tagline": "Engineered organisms and programmed DNA — cells built for computing, data storage, and chemical synthesis.",
       "accent": "#5FBF9B",
       "items": [
+        {
+          "title": "New “living plastic” self-destructs in just 6 days without leaving microplastics",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260715083552.htm",
+          "source": "ScienceDaily",
+          "summary": "Researchers have created self-destructing living plastic that uses engineered bacteria to completely break itself down when activated.",
+          "published": "2026-07-17T03:09:42+00:00",
+          "regional": false
+        },
         {
           "title": "Did scientists just create synthetic life?",
           "link": "https://www.scientificamerican.com/article/did-scientists-just-create-synthetic-life/",
@@ -818,6 +834,14 @@
       "accent": "#B98CE0",
       "items": [
         {
+          "title": "Sun-like star caught after eating one of its own planets",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260715083538.htm",
+          "source": "ScienceDaily",
+          "summary": "A distant Sun-like star appears to have devoured one of its planets, leaving behind a surprising chemical fingerprint.",
+          "published": "2026-07-16T10:52:02+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA's James Webb Space Telescope reveals a strange atmosphere on a hellish lava planet",
           "link": "https://www.sciencedaily.com/releases/2026/07/260712011743.htm",
           "source": "ScienceDaily",
@@ -1002,12 +1026,12 @@
           "regional": false
         },
         {
-          "title": "Astronomers found two rare super puff planets lighter than cotton candy",
-          "link": "https://www.sciencedaily.com/releases/2026/06/260626124659.htm",
-          "source": "ScienceDaily",
-          "summary": "Two newly confirmed \"super-puff\" planets are so diffuse that they are less dense than cotton candy, despite being about the size of Jupiter.",
-          "published": "2026-06-27T01:09:31+00:00",
-          "regional": false
+          "title": "A new planet in the beta pictoris system",
+          "link": "https://www.mpg.de/26864837/a-new-planet-in-the-beta-pictoris-system",
+          "source": "Max Planck Society",
+          "summary": "After more than ten years of playing hide-and-seek, researchers have discovered one of the lightest planets ever directly imaged",
+          "published": "2026-07-17T12:00:00+00:00",
+          "regional": true
         },
         {
           "title": "Samsung teases ‘brand new shape’ for Galaxy Z Fold 8 in Spider-Man short film",
