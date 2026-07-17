@@ -88,6 +88,56 @@ def fetch_feed(url: str):
 
 OUT = Path(__file__).parent / "data" / "digest.json"
 
+# Where per-channel URL lists are written (one .txt file per channel). These
+# are plain text — one URL per line — designed to be imported into Google
+# NotebookLM as sources. They live under data/urls/ so they're published on the
+# GitHub Pages site alongside the digest and can be fetched at a stable address.
+URL_DIR = Path(__file__).parent / "data" / "urls"
+
+# Map each channel key to the clean filename requested for its URL list.
+CHANNEL_FILENAMES = {
+    "ai": "AI",
+    "materials": "Materials",
+    "synbio": "Synbio",
+    "energywater": "Energy_Water",
+    "spaceexploration": "Space",
+    "astronomy": "Astro",
+}
+
+
+def write_url_lists(channels_out: list) -> None:
+    """
+    Write one plain-text file of story URLs per channel (plus a combined file)
+    into data/urls/. One URL per line — the format NotebookLM expects when you
+    paste website sources. Overwrites each run so the lists stay current.
+    """
+    URL_DIR.mkdir(parents=True, exist_ok=True)
+    combined = []
+    for channel in channels_out:
+        fname = CHANNEL_FILENAMES.get(channel["key"], channel["key"])
+        urls = [it["link"] for it in channel["items"] if it.get("link")]
+        # A short header comment helps when the file is opened by a human; lines
+        # starting with '#' are ignored by NotebookLM's URL import.
+        header = [
+            f"# Full Planet — {channel['name']} — story URLs",
+            f"# Updated {dt.datetime.now(dt.timezone.utc).strftime('%d %B %Y %H:%M UTC')}",
+            f"# {len(urls)} links",
+            "",
+        ]
+        path = URL_DIR / f"{fname}.txt"
+        path.write_text("\n".join(header + urls) + "\n", encoding="utf-8")
+        print(f"    \u2192 wrote {len(urls):>2} URLs to {path.name}")
+        combined.extend(urls)
+
+    # A combined list of everything, deduplicated but order-preserving.
+    seen = set()
+    deduped = [u for u in combined if not (u in seen or seen.add(u))]
+    (URL_DIR / "All_Channels.txt").write_text(
+        "\n".join(["# Full Planet — all channels — story URLs", ""] + deduped) + "\n",
+        encoding="utf-8",
+    )
+    print(f"    \u2192 wrote {len(deduped)} URLs to All_Channels.txt")
+
 
 def as_word_pattern(term: str) -> re.Pattern:
     """
@@ -420,6 +470,10 @@ def main() -> None:
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(digest, indent=2, ensure_ascii=False))
     print(f"Wrote {OUT} \u2014 {total} items across {len(channels_out)} channels.")
+
+    # Also write per-channel URL lists for import into NotebookLM.
+    print("  Writing per-channel URL lists (for NotebookLM)\u2026")
+    write_url_lists(channels_out)
 
 
 if __name__ == "__main__":
