@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-07-17 12:29 PDT
-; Observing window starts 2026-07-17 21:42 PDT  (LST 16:35:07)
+; Generated 2026-07-18 12:27 PDT
+; Observing window starts 2026-07-18 21:40 PDT  (LST 16:37:03)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -14,7 +14,7 @@
 #filter r',g',i',z'
 M 101
 
-; Comet C/2023 R1 (PANSTARRS)  mag 13.4
+; Comet C/2023 R1 (PANSTARRS)  mag 14.0
 #posang 0
 #count 3
 #interval 300
@@ -226,15 +226,6 @@ NGC 7000
 #filter r',Ha,OIII,SII
 NGC 7023
 
-; Comet 10P/Tempel  mag 8.9
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 10P/Tempel
-#WAITINLIMITS 60
-
 ; Open Cluster  mag 4.6  size 19.50'
 #posang 0
 #count 1,1,1,1
@@ -242,6 +233,15 @@ CT 10P/Tempel
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 39
+
+; Comet 10P/Tempel  mag 8.2
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 10P/Tempel
+#WAITINLIMITS 60
 
 ; Cluster + Nebula  mag 7.2  size 10.00'  Cocoon Nebula
 #posang 0
@@ -335,6 +335,14 @@ NGC 0457
 MP Pallas
 #WAITINLIMITS 60
 
+; Galaxy  mag 9.2  size 1.69'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+IC 0127
+
 ; Galaxy  mag 5.8  size 62.09'  Triangulum Galaxy,Triangulum Pinwheel
 #posang 0
 #count 1,1,1,1
@@ -425,14 +433,6 @@ IC 2574
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 85
-
-; Galaxy  mag 8.9  size 11.53'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 86
 
 ; Galaxy  mag 11.0  size 3.03'  Eyes
 #posang 0
