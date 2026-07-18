@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-17T09:34:24.262414+00:00",
-  "generated_human": "17 July 2026, 09:34 UTC",
-  "total_items": 128,
+  "generated": "2026-07-18T08:22:03.591203+00:00",
+  "generated_human": "18 July 2026, 08:22 UTC",
+  "total_items": 125,
   "channels": [
     {
       "key": "ai",
@@ -82,14 +82,6 @@
           "regional": true
         },
         {
-          "title": "KB Financial launches AI Lab for workplace AI",
-          "link": "https://www.koreaherald.com/article/10809813",
-          "source": "The Korea Herald",
-          "summary": "KB Financial Group has launched a hands-on AI talent program as part of efforts to accelerate artificial intelligence adoption across the group and integrate the technology more deeply into everyday work.",
-          "published": "2026-07-15T05:26:17+00:00",
-          "regional": true
-        },
-        {
           "title": "Ulsan joins SK’s push to train AI talent",
           "link": "https://www.koreaherald.com/article/10809801",
           "source": "The Korea Herald",
@@ -127,6 +119,14 @@
           "source": "South China Morning Post",
           "summary": "Robbyant, the embodied artificial intelligence arm of Chinese fintech giant Ant Group, launched a new vision model that it claims can help robots overcome a long-standing challenge: accurately perceiving glass, mirrors…",
           "published": "2026-07-07T11:30:31+00:00",
+          "regional": true
+        },
+        {
+          "title": "ByteDance and Alibaba to disable humanlike AI custom agents as new rules loom",
+          "link": "https://www.scmp.com/tech/big-tech/article/3359482/bytedance-and-alibaba-disable-humanlike-ai-custom-agents-new-rules-loom?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Two of China’s major consumer-facing artificial intelligence apps, ByteDance’s Doubao and Alibaba Group Holding’s Qwen, are moving to disable customised agent features, as new rules on humanlike AI interaction services…",
+          "published": "2026-07-05T11:32:53+00:00",
           "regional": true
         }
       ]
@@ -242,14 +242,6 @@
           "regional": false
         },
         {
-          "title": "New solid-state material converts sunlight into higher-energy UV light",
-          "link": "https://www.sciencedaily.com/releases/2026/06/260623083058.htm",
-          "source": "ScienceDaily",
-          "summary": "A new sunlight-powered material can convert visible light into higher-energy UV light, overcoming a challenge that has frustrated scientists for years.",
-          "published": "2026-06-26T15:21:17+00:00",
-          "regional": false
-        },
-        {
           "title": "Constant hydrogen generation from high-level radioactive liquid waste measured",
           "link": "https://sj.jst.go.jp/news/202607/n0716-01k.html",
           "source": "Science Japan",
@@ -263,14 +255,6 @@
           "source": "The Hindu",
           "summary": "Proteins are important diagnostic targets because they are involved in almost every biological process; over the last two decades, scientists have developed aptamers for hundreds of disease-relevant proteins and have…",
           "published": "2026-07-15T07:21:39+00:00",
-          "regional": true
-        },
-        {
-          "title": "SK On-Hyundai battery joint venture begins US production",
-          "link": "https://www.koreaherald.com/article/10809681",
-          "source": "The Korea Herald",
-          "summary": "Hyundai SK Battery Manufacturing America, the US battery joint venture between SK On and Hyundai Motor Group, has begun mass production and is supplying batteries to Hyundai's electric vehicle plant in Georgia,…",
-          "published": "2026-07-15T02:45:22+00:00",
           "regional": true
         },
         {
@@ -314,11 +298,11 @@
           "regional": true
         },
         {
-          "title": "Nanotech scientist spots early clues for TB, cancer",
-          "link": "https://www.scidev.net/global/role-models/nanotech-scientist-spots-early-clues-for-tb-cancer/",
-          "source": "SciDev.Net",
-          "summary": "South Africa scientist Jaymi Leigh January says her biosensors can detect disease biomarkers before serious harm is caused.",
-          "published": "2026-07-09T01:58:51+00:00",
+          "title": "IIT Guwahati team finds blue-green algae can remove lead from water",
+          "link": "https://www.thehindu.com/sci-tech/science/iit-guwahati-team-finds-blue-green-algae-can-remove-lead-from-water/article71198226.ece",
+          "source": "The Hindu",
+          "summary": "The researchers say that the biological material they developed provides a sustainable and environment-friendly method to tackle the lead-contaminated water challenge in the country",
+          "published": "2026-07-09T05:47:35+00:00",
           "regional": true
         },
         {
@@ -327,6 +311,14 @@
           "source": "Max Planck Society",
           "summary": "Through the “Quantum Materials – Rice and Max Planck Partnership” they advance global leadership in quantum materials and technology",
           "published": "2026-07-06T22:00:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "Alibaba’s Elements Claw AI agent unearths 4 new superconductors",
+          "link": "https://www.scmp.com/tech/big-tech/article/3359335/alibabas-elements-claw-ai-agent-unearths-four-new-superconductors?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Alibaba Group Holding’s Damo Academy has unveiled what it calls the industry’s first artificial intelligence agent for discovering superconducting materials, saying that the tool has already found four previously…",
+          "published": "2026-07-03T11:30:05+00:00",
           "regional": true
         }
       ]
@@ -402,22 +394,6 @@
           "regional": false
         },
         {
-          "title": "Aker Solutions wins contract for Norwegian hydropower plant",
-          "link": "https://www.renewableenergyworld.com/hydro-power/aker-solutions-wins-contract-for-norwegian-hydropower-plant/",
-          "source": "Renewable Energy World",
-          "summary": "The Tussa II hydropower plant will feature two 75MW Pelton turbine units providing a total installed capacity of 150MW.",
-          "published": "2026-07-13T19:07:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Drax invests £2m to preserve iconic Tongland hydro plant",
-          "link": "https://www.renewableenergyworld.com/hydro-power/dams-civil-structures/drax-invests-2m-to-preserve-iconic-tongland-hydro-plant/",
-          "source": "Renewable Energy World",
-          "summary": "Drax's investment has revitalised the 90-year-old Tongland Power Station, preserving a key part of Scotland's hydroelectric heritage",
-          "published": "2026-07-13T16:27:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Chinese sodium battery surprised scientists by matching key Tesla benchmarks",
           "link": "https://www.sciencedaily.com/releases/2026/06/260621060305.htm",
           "source": "ScienceDaily",
@@ -466,6 +442,14 @@
           "regional": false
         },
         {
+          "title": "Cities are getting smarter about water and other eco wins",
+          "link": "https://www.dw.com/en/cities-are-getting-smarter-about-water-and-other-eco-wins/a-77999380?maca=en-rss_en_environment-22607-xml-mrss",
+          "source": "Deutsche Welle",
+          "summary": "From flood-resistant infrastructure to new ways of securing drinking water, cities are adapting to the growing climate pressures of a hotter, drier world. Plus, tourists pitching in to help sea turtles.",
+          "published": "2026-07-17T13:24:00+00:00",
+          "regional": true
+        },
+        {
           "title": "Power grids face unexpected slow-burn threat from solar storms",
           "link": "https://www.thehindu.com/sci-tech/science/power-grids-face-unexpected-slow-burn-threat-from-solar-storms/article71226651.ece",
           "source": "The Hindu",
@@ -495,14 +479,6 @@
           "source": "The Korea Herald",
           "summary": "LG Energy Solution will supply batteries for Google’s largest solar and energy storage project, extending its push into power infrastructure tied to surging demand from AI data centers, industry sources said Wednesday.",
           "published": "2026-07-15T06:11:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "SK On-Hyundai battery joint venture begins US production",
-          "link": "https://www.koreaherald.com/article/10809681",
-          "source": "The Korea Herald",
-          "summary": "Hyundai SK Battery Manufacturing America, the US battery joint venture between SK On and Hyundai Motor Group, has begun mass production and is supplying batteries to Hyundai's electric vehicle plant in Georgia,…",
-          "published": "2026-07-15T02:45:22+00:00",
           "regional": true
         },
         {
@@ -554,27 +530,75 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "Diamonds and 'cab to orbit': Rocket aiming to transform India's space ambitions takes off",
+          "link": "https://www.bbc.co.uk/news/articles/clyekv7rld3o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "India's first space-tech unicorn Skyroot Aerospace successfully launched Vikram-1 on Saturday.",
+          "published": "2026-07-18T07:05:19+00:00",
+          "regional": false
+        },
+        {
+          "title": "The Growing Crescent of Mars as NASA’s Psyche Mission Approaches",
+          "link": "https://science.nasa.gov/photojournal/the-growing-crescent-of-mars-as-nasas-psyche-mission-approaches/",
+          "source": "NASA",
+          "summary": "Description This composite of images taken by NASA’s Psyche mission shows the crescent of Mars grow as the spacecraft approached the planet for a gravity assist from May 2 to May 15, 2026.",
+          "published": "2026-07-17T22:32:27+00:00",
+          "regional": false
+        },
+        {
+          "title": "Establishing a VTE Risk Score for Astronauts Algorithm",
+          "link": "https://www.nasa.gov/organizations/ochmo/establishing-a-vte-risk-score-for-astronauts-algorithm/",
+          "source": "NASA",
+          "summary": "In April 2026, NASA’s Office of the Chief Health and Medical Officer (OCHMO) initiated a working group to review updated VTE case information, additional data gathered revealing altered blood flow status within a cohort…",
+          "published": "2026-07-17T21:01:38+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Invites Media to Roman Space Telescope, Crew-13 Launches",
+          "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-roman-space-telescope-crew-13-launches/",
+          "source": "NASA",
+          "summary": "Media accreditation now is open for the launch of NASA’s Nancy Grace Roman Space Telescope and the agency’s SpaceX Crew-13 missions, both targeting launch in the coming months.",
+          "published": "2026-07-17T18:00:57+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Psyche Mission Images Details of Martian Surface During Flyby",
+          "link": "https://science.nasa.gov/photojournal/nasas-psyche-mission-images-details-of-martian-surface-during-flyby/",
+          "source": "NASA",
+          "summary": "Description Captured by the multispectral imager instrument on NASA’s Psyche mission, this is an enhanced-color mosaic created from four individual images acquired on May 15, 2026, during the spacecraft’s flyby of Mars.",
+          "published": "2026-07-17T17:38:38+00:00",
+          "regional": false
+        },
+        {
+          "title": "ESA’s Mars Express meets NASA’s Psyche",
+          "link": "https://www.esa.int/ESA_Multimedia/Images/2026/07/ESA_s_Mars_Express_meets_NASA_s_Psyche",
+          "source": "ESA",
+          "summary": "Image: Mars Express image",
+          "published": "2026-07-17T16:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Welcomes Mauritius as 70th Artemis Accords Signatory",
+          "link": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-mauritius-as-70th-artemis-accords-signatory/",
+          "source": "NASA",
+          "summary": "The Republic of Mauritius has officially joined the global coalition committed to responsible space exploration, becoming the newest signatory and seventh African country to join the Artemis Accords.",
+          "published": "2026-07-17T14:48:27+00:00",
+          "regional": false
+        },
+        {
+          "title": "European Service Module team meets Artemis II crew",
+          "link": "https://www.esa.int/ESA_Multimedia/Images/2026/07/European_Service_Module_team_meets_Artemis_II_crew",
+          "source": "ESA",
+          "summary": "Image: From left to right, NASA astronauts Chrstina Koch, Reid Wiseman and Victor Glover, and Canadian Space Agency astronaut Jeremy Hansen, with ESA's European Service Module team behind them at ESTEC.",
+          "published": "2026-07-17T10:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "SpaceX’s latest Starship launch attempt ends in a scrub",
           "link": "https://www.scientificamerican.com/article/spacexs-latest-starship-launch-attempt-ends-in-a-scrub/",
           "source": "Scientific American",
-          "summary": "SpaceX’s first attempt to launch its Starship megarocket on its thirteenth flight test ended before it could properly begin, aborting just before liftoff",
+          "summary": "SpaceX’s first attempt to launch the company’s Starship megarocket on the vehicle’s 13th flight test ended before it could properly begin, aborting just before liftoff",
           "published": "2026-07-16T23:45:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Welcomes Serbia as Newest Artemis Accords Signatory",
-          "link": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-serbia-as-newest-artemis-accords-signatory/",
-          "source": "NASA",
-          "summary": "The Republic of Serbia signed the Artemis Accords Thursday during a ceremony hosted by NASA at the agency’s Headquarters in Washington, becoming the 69th nation to join a large community of like-minded nations committed…",
-          "published": "2026-07-16T22:37:19+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Study Finds Near-Earth Asteroid Is Actually Comet",
-          "link": "https://www.nasa.gov/solar-system/comets/nasa-study-finds-near-earth-asteroid-is-actually-comet/",
-          "source": "NASA",
-          "summary": "New research led by scientists at NASA’s Jet Propulsion Laboratory in Southern California has revealed the identity of a puzzling near-Earth object by precisely tracking its motion through space and using powerful…",
-          "published": "2026-07-16T18:40:26+00:00",
           "regional": false
         },
         {
@@ -602,43 +626,11 @@
           "regional": false
         },
         {
-          "title": "How NASA’s Artemis III Lander Test Will Pave Way for Moon Landings",
-          "link": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/how-nasas-artemis-iii-lander-test-will-pave-way-for-moon-landings/",
-          "source": "NASA",
-          "summary": "Before Artemis astronauts land on the Moon’s surface in 2028, NASA will conduct the Artemis III demonstration mission in 2027, allowing teams on Earth and in orbit to practice rendezvous and docking operations between…",
-          "published": "2026-07-15T18:50:52+00:00",
-          "regional": false
-        },
-        {
-          "title": "Anil Menon Launches to Space Station",
-          "link": "https://www.nasa.gov/image-article/anil-menon-launches-to-space-station/",
-          "source": "NASA",
-          "summary": "NASA astronaut candidate Anna Menon and her children watch as a Soyuz rocket launches to the International Space Station with NASA astronaut Anil Menon and Roscosmos cosmonauts Pyotr Dubrov and Anna Kikina, Tuesday,…",
-          "published": "2026-07-15T18:48:36+00:00",
-          "regional": false
-        },
-        {
           "title": "SpaceX share price drops below stock market debut",
           "link": "https://www.bbc.co.uk/news/articles/clyl33q0yl0o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
           "summary": "Share trading in Elon Musk’s rocket company has been volatile since it went public a month ago.",
           "published": "2026-07-15T18:11:57+00:00",
-          "regional": false
-        },
-        {
-          "title": "See the first x-rays of humans taken in space",
-          "link": "https://www.scientificamerican.com/article/see-the-first-x-rays-of-humans-taken-in-space/",
-          "source": "Scientific American",
-          "summary": "Equipping spacecraft with x-ray machines could boost safety for long-duration spaceflights—like a crewed mission to Mars",
-          "published": "2026-07-15T13:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Metallic waves on ancient Mars",
-          "link": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Metallic_waves_on_ancient_Mars",
-          "source": "ESA",
-          "summary": "The European Space Agency’s Mars Express has spotted a swathe of metallic-looking waves filling Mars’s large Kaiser Crater – an ancient and otherworldly dune field sculpted by wind.",
-          "published": "2026-07-15T09:00:00+00:00",
           "regional": false
         },
         {
@@ -682,14 +674,6 @@
           "regional": false
         },
         {
-          "title": "Future moon landings could wipe out clues to how life began on Earth",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260710003537.htm",
-          "source": "ScienceDaily",
-          "summary": "A new study suggests spacecraft exhaust could quickly contaminate the moon's most scientifically valuable regions, potentially masking ancient clues about how life began on Earth.",
-          "published": "2026-07-13T00:48:16+00:00",
-          "regional": false
-        },
-        {
           "title": "Europe just unveiled a new rival to SpaceX’s Starship",
           "link": "https://www.sciencedaily.com/releases/2026/07/260710003526.htm",
           "source": "ScienceDaily",
@@ -703,14 +687,6 @@
           "source": "Scientific American",
           "summary": "The inaugural launch and first-stage booster recovery of China’s Long March 10B rocket intensifies the nation’s spaceflight rivalry with the U.S.",
           "published": "2026-07-10T17:10:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "China lands reusable rocket for first time, state media says",
-          "link": "https://www.bbc.co.uk/news/articles/cm2rmmx86pdo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "It follows similar landings of reusable rockets by US-owned companies SpaceX and Blue Origin.",
-          "published": "2026-07-10T06:44:21+00:00",
           "regional": false
         },
         {
@@ -746,11 +722,11 @@
           "regional": false
         },
         {
-          "title": "SpaceX Starship launch aborted on pad at last moment",
-          "link": "https://www.thehindu.com/sci-tech/spacex-starship-launch-aborted-on-pad-at-last-moment/article71232548.ece",
+          "title": "Vikram-1, country’s first private orbital-class rocket, successfully places tech payloads, postcards into orbit",
+          "link": "https://www.thehindu.com/sci-tech/science/vikram-1-indias-first-privately-developed-orbital-class-rocket-launch-updates/article71237224.ece",
           "source": "The Hindu",
-          "summary": "It was supposed to be the 13th flight for Starship, which, at 407 feet (124 metres) tall with 33 main engines, is the world’s biggest and most powerful rocket",
-          "published": "2026-07-17T03:33:19+00:00",
+          "summary": "Dubbed ‘Mission Aagaman’ (meaning arrival), the successful launch of Skyroot Aerospace’s Vikram-1 marks India’s entry into an elite group of nations with private orbital launch capability",
+          "published": "2026-07-18T08:09:56+00:00",
           "regional": true
         },
         {
@@ -758,7 +734,23 @@
           "link": "https://www.thehindu.com/news/national/karnataka/indias-first-privately-developed-orbital-class-rocket-vikram-1-set-to-liff-off-on-july-18/article71229535.ece",
           "source": "The Hindu",
           "summary": "Private space launch company Skyroot Aerospace on July 16, 2026 announced that it will attempt to launch Vikram-1 from the space port’s first launch pad at 11.30 a.m..",
-          "published": "2026-07-16T12:25:09+00:00",
+          "published": "2026-07-17T13:22:50+00:00",
+          "regional": true
+        },
+        {
+          "title": "SpaceX aborts Starship Flight 13 launch seconds before liftoff, targets retry next week",
+          "link": "https://indianexpress.com/article/technology/science/spacex-aborts-starship-flight-13-launch-seconds-before-liftoff-targets-retry-next-week-10791396/",
+          "source": "Indian Express",
+          "summary": "",
+          "published": "2026-07-17T13:20:42+00:00",
+          "regional": true
+        },
+        {
+          "title": "SpaceX Starship launch aborted on pad at last moment",
+          "link": "https://www.thehindu.com/sci-tech/spacex-starship-launch-aborted-on-pad-at-last-moment/article71232548.ece",
+          "source": "The Hindu",
+          "summary": "It was supposed to be the 13th flight for Starship, which, at 407 feet (124 metres) tall with 33 main engines, is the world’s biggest and most powerful rocket",
+          "published": "2026-07-17T03:33:19+00:00",
           "regional": true
         },
         {
@@ -802,27 +794,11 @@
           "regional": true
         },
         {
-          "title": "Nasa’s Anil Menon, 2 Russian cosmonauts head to ISS: How to watch launch live",
-          "link": "https://indianexpress.com/article/technology/science/nasas-anil-menon-2-russian-cosmonauts-head-to-iss-how-to-watch-launch-live-10786298/",
-          "source": "Indian Express",
-          "summary": "",
-          "published": "2026-07-14T13:26:44+00:00",
-          "regional": true
-        },
-        {
           "title": "U.S. regulator green-lights mission to launch giant mirror to orbit",
           "link": "https://www.thehindu.com/sci-tech/science/us-regulator-green-lights-mission-to-launch-giant-mirror-to-orbit/article71213314.ece",
           "source": "The Hindu",
           "summary": "Eärendil-1 — named for a character in the Tolkien fantasy epic ‘The Silmarillion’ — will be a single satellite in a non-geostationary orbit",
           "published": "2026-07-12T06:31:03+00:00",
-          "regional": true
-        },
-        {
-          "title": "Mission Drishti, world’s first OptoSAR satellite from private Indian company, loses communication after solar storm",
-          "link": "https://www.thehindu.com/sci-tech/science/mission-drishti-indias-largest-privately-developed-earth-observation-satellite-loses-communication-after-solar-storm/article71192310.ece",
-          "source": "The Hindu",
-          "summary": "Mission Drishti was launched on May 3, 2026 aboard a Falcon 9 by SpaceX from Vandenberg, California",
-          "published": "2026-07-07T06:36:59+00:00",
           "regional": true
         }
       ]
@@ -833,6 +809,14 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "First atmosphere found on Earth-like planet in habitable zone of distant star",
+          "link": "https://www.bbc.co.uk/news/articles/cy4kdd1e0ejo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Researchers have found an Earth-like, rocky planet orbiting within the habitable zone of a distant star with an atmosphere.",
+          "published": "2026-07-17T12:58:37+00:00",
+          "regional": false
+        },
         {
           "title": "Sun-like star caught after eating one of its own planets",
           "link": "https://www.sciencedaily.com/releases/2026/07/260715083538.htm",
@@ -930,14 +914,6 @@
           "regional": false
         },
         {
-          "title": "Did a Passing Star Shower Us with Comets?",
-          "link": "https://skyandtelescope.org/astronomy-news/did-a-passing-star-shower-us-with-comets/",
-          "source": "Sky & Telescope",
-          "summary": "We might be living through a comet shower created by a star that millions of years ago jostled the Oort Cloud surrounding the solar system. The post Did a Passing Star Shower Us with Comets?",
-          "published": "2026-07-08T14:25:13+00:00",
-          "regional": false
-        },
-        {
           "title": "New AI model reveals how neutron star mergers forge heavy elements",
           "link": "https://www.sciencedaily.com/releases/2026/06/260626030426.htm",
           "source": "ScienceDaily",
@@ -1026,6 +1002,14 @@
           "regional": false
         },
         {
+          "title": "Scientists confirm atmosphere on potentially habitable planet 49 light-years from Earth",
+          "link": "https://indianexpress.com/article/technology/science/scientists-confirm-atmosphere-on-potentially-habitable-planet-49-light-years-from-earth-10791597/",
+          "source": "Indian Express",
+          "summary": "",
+          "published": "2026-07-17T15:22:39+00:00",
+          "regional": true
+        },
+        {
           "title": "A new planet in the beta pictoris system",
           "link": "https://www.mpg.de/26864837/a-new-planet-in-the-beta-pictoris-system",
           "source": "Max Planck Society",
@@ -1047,14 +1031,6 @@
           "source": "Indian Express",
           "summary": "",
           "published": "2026-07-15T08:18:21+00:00",
-          "regional": true
-        },
-        {
-          "title": "Oldest quasars ever found deepen 'perplexing' space mystery",
-          "link": "https://www.thehindu.com/sci-tech/science/oldest-quasars-ever-found-deepen-perplexing-space-mystery/article71188588.ece",
-          "source": "The Hindu",
-          "summary": "As more powerful telescopes allow us to see further back in time, galaxies and other cosmic objects have turned out to be far bigger than had been thought possible at such an early age",
-          "published": "2026-07-06T08:30:42+00:00",
           "regional": true
         },
         {
