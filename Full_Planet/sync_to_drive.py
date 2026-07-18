@@ -88,6 +88,16 @@ def build_doc_text(channel: dict, generated_human: str) -> str:
         if link:
             lines.append(link)
         lines.append("")  # blank line between stories
+
+    # Consolidated list of all URLs at the end — easy to copy in one block for
+    # adding to NotebookLM or other tools.
+    all_urls = [it.get("link", "").strip() for it in channel["items"] if it.get("link")]
+    lines.append("=" * 60)
+    lines.append("ALL STORY URLS")
+    lines.append("=" * 60)
+    lines.extend(all_urls)
+    lines.append("")
+
     return "\n".join(lines)
 
 
