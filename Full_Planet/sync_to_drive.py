@@ -134,6 +134,8 @@ def main() -> int:
             doc_id = find_or_create_doc(drive, folder_id, title)
             replace_doc_text(docs, doc_id, body_text)
             log(f"updated '{title}' ({len(channel['items'])} stories)")
+        except FileNotFoundError as e:
+            log(f"SKIP '{title}': {e}")
         except HttpError as e:
             log(f"ERROR updating '{title}': {e}")
 
@@ -142,9 +144,19 @@ def main() -> int:
 
 
 def find_or_create_doc(drive, folder_id: str, title: str) -> str:
-    """Return the ID of the Doc named `title` in `folder_id`, creating it if
-    it doesn't exist yet."""
-    # Search for an existing Doc with this exact name in the folder.
+    """Return the ID of the Doc named `title` in `folder_id`.
+
+    IMPORTANT: this NO LONGER creates the Doc. A service account has no Drive
+    storage quota of its own, so any file it *creates* fails with
+    "storageQuotaExceeded" — even inside your folder. The workaround for a
+    personal Google account is: YOU create the six empty Docs by hand and share
+    each with the service account as Editor. This function then just finds and
+    updates them (updating a file you own doesn't touch the robot's quota).
+
+    Raises FileNotFoundError if the Doc doesn't exist yet, so the caller can
+    print a helpful message telling you which Doc to create.
+    """
+    # Search for the existing Doc with this exact name in the folder.
     q = (
         f"name = '{title.replace(chr(39), chr(92) + chr(39))}' "
         f"and '{folder_id}' in parents "
@@ -159,16 +171,11 @@ def find_or_create_doc(drive, folder_id: str, title: str) -> str:
     if files:
         return files[0]["id"]
 
-    # Not found — create a new Google Doc in the folder.
-    metadata = {
-        "name": title,
-        "mimeType": "application/vnd.google-apps.document",
-        "parents": [folder_id],
-    }
-    created = drive.files().create(
-        body=metadata, fields="id", supportsAllDrives=True,
-    ).execute()
-    return created["id"]
+    raise FileNotFoundError(
+        f"No Doc named '{title}' found in the folder. Create an empty Google "
+        f"Doc with exactly that name and share it with the service account "
+        f"(Editor), then re-run."
+    )
 
 
 def replace_doc_text(docs, doc_id: str, text: str) -> None:
