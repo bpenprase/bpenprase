@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-07-18 12:27 PDT
-; Observing window starts 2026-07-18 21:40 PDT  (LST 16:37:03)
+; Generated 2026-07-19 12:28 PDT
+; Observing window starts 2026-07-19 21:40 PDT  (LST 16:40:59)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -119,7 +119,7 @@ IC 4756
 #filter r',g',i',z'
 M 11
 
-; Asteroid 18 Melpomene  mag 9.1
+; Asteroid 18 Melpomene  mag 9.2
 #posang 0
 #count 3
 #interval 300
@@ -234,7 +234,7 @@ NGC 7023
 #filter r',g',i',z'
 M 39
 
-; Comet 10P/Tempel  mag 8.2
+; Comet 10P/Tempel  mag 9.4
 #posang 0
 #count 3
 #interval 300
@@ -309,6 +309,14 @@ M 32
 #filter r',g',i',z'
 M 31
 
+; Galaxy  mag 9.2  size 19.68'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 0247
+
 ; Planet: Saturn
 #posang 0
 #count 10
@@ -360,14 +368,13 @@ M 33
 MP Vesta
 #WAITINLIMITS 60
 
-; Comet 220P/McNaught  mag 13.2
+; Galaxy  mag 9.3  size 9.89'
 #posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 220P/McNaught
-#WAITINLIMITS 60
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 74
 
 ; Open Cluster  mag 3.7  size 14.40'  h Persei Cluster
 #posang 0
@@ -385,15 +392,6 @@ NGC 0869
 #filter r',g',i',z'
 NGC 0884
 
-; Comet 88P/Howell  mag 12.7
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 88P/Howell
-#WAITINLIMITS 60
-
 ; Open Cluster  mag 5.2  size 22.50'
 #posang 0
 #count 1,1,1,1
@@ -401,6 +399,14 @@ CT 88P/Howell
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 34
+
+; Galaxy  mag 9.3  size 6.11'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 77
 
 ; Supernova AT2026rok in none  Type unk  mag 13.9  z=n/a
 #posang 0
@@ -418,13 +424,13 @@ AT2026rok	02:53:07.234	+16:51:11.98
 #filter r',Ha,OIII,SII
 NGC 1499
 
-; Galaxy  mag 10.5  size 12.91'  Coddington's Nebula
+; Galaxy  mag 9.3  size 16.98'
 #posang 0
 #count 1,1,1,1
 #interval 600,600,600,600
 #binning 1,1,1,1
 #filter r',g',i',z'
-IC 2574
+M 106
 
 ; Galaxy  mag 9.1  size 6.95'
 #posang 0
@@ -433,30 +439,6 @@ IC 2574
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 85
-
-; Galaxy  mag 11.0  size 3.03'  Eyes
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 4435
-
-; Galaxy  mag 10.9  size 9.16'  Eyes
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 4438
-
-; Galaxy  mag 9.0  size 7.11'  Virgo Galaxy
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 87
 
 ; Galaxy  mag 10.9  size 16.75'  Needle Galaxy
 #posang 0
