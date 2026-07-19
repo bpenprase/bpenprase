@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-18T12:01:22.573646+00:00",
-  "generated_human": "18 July 2026, 12:01 UTC",
-  "total_items": 126,
+  "generated": "2026-07-19T09:34:05.844704+00:00",
+  "generated_human": "19 July 2026, 09:34 UTC",
+  "total_items": 125,
   "channels": [
     {
       "key": "ai",
@@ -82,14 +82,6 @@
           "regional": true
         },
         {
-          "title": "Ulsan joins SK’s push to train AI talent",
-          "link": "https://www.koreaherald.com/article/10809801",
-          "source": "The Korea Herald",
-          "summary": "Ulsan, together with SK AX, launched the SK AI Leader Academy on Wednesday as part of efforts to nurture industry-ready artificial intelligence professionals outside the Seoul metropolitan area.",
-          "published": "2026-07-15T05:19:44+00:00",
-          "regional": true
-        },
-        {
           "title": "Chinese AI labs to challenge Thinking Machines Lab with new industry focus",
           "link": "https://www.scmp.com/tech/big-tech/article/3360411/chinese-ai-labs-challenge-thinking-machines-lab-new-industry-focus?utm_source=rss_feed",
           "source": "South China Morning Post",
@@ -127,6 +119,14 @@
           "source": "South China Morning Post",
           "summary": "Two of China’s major consumer-facing artificial intelligence apps, ByteDance’s Doubao and Alibaba Group Holding’s Qwen, are moving to disable customised agent features, as new rules on humanlike AI interaction services…",
           "published": "2026-07-05T11:32:53+00:00",
+          "regional": true
+        },
+        {
+          "title": "China’s ByteDance discovers new scaling law that could sustain AI boom",
+          "link": "https://www.scmp.com/tech/big-tech/article/3359373/chinas-bytedance-discovers-new-scaling-law-could-sustain-ai-boom?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Researchers at TikTok parent ByteDance have discovered a new scaling law governing how fast artificial intelligence agents can improve by performing real-world tasks, a finding that could help prolong the AI boom just…",
+          "published": "2026-07-03T22:00:26+00:00",
           "regional": true
         }
       ]
@@ -234,12 +234,20 @@
           "regional": false
         },
         {
-          "title": "A rare supernova peeled back a star’s layers and revealed a hidden secret",
-          "link": "https://www.sciencedaily.com/releases/2026/06/260616103133.htm",
-          "source": "ScienceDaily",
-          "summary": "Astronomers studying the rare supernova SN 2021yfj discovered material from one of the deepest layers of a dying star, providing a rare look at its hidden interior.",
-          "published": "2026-06-28T01:14:15+00:00",
-          "regional": false
+          "title": "JBL Live 780 NC review: 80 hours of battery life, zero compromise on sound",
+          "link": "https://indianexpress.com/article/technology/tech-reviews/jbl-live-780-nc-review-battery-life-sound-quality-10793396/",
+          "source": "Indian Express",
+          "summary": "",
+          "published": "2026-07-19T06:35:12+00:00",
+          "regional": true
+        },
+        {
+          "title": "Why scientists watched a gene hop from a predator into its prey",
+          "link": "https://www.thehindu.com/sci-tech/science/why-scientists-watched-a-gene-hop-from-a-predator-into-its-prey/article71220657.ece",
+          "source": "The Hindu",
+          "summary": "Jumping genes are responsible for the spread of antibiotic resistance and in the development of many cancers. Scientists are also studying circular RNA molecules, like the one derived from the jumping intron, as next…",
+          "published": "2026-07-19T05:23:49+00:00",
+          "regional": true
         },
         {
           "title": "Constant hydrogen generation from high-level radioactive liquid waste measured",
@@ -255,14 +263,6 @@
           "source": "The Hindu",
           "summary": "Proteins are important diagnostic targets because they are involved in almost every biological process; over the last two decades, scientists have developed aptamers for hundreds of disease-relevant proteins and have…",
           "published": "2026-07-15T07:21:39+00:00",
-          "regional": true
-        },
-        {
-          "title": "Why scientists watched a gene hop from a predator into its prey",
-          "link": "https://www.thehindu.com/sci-tech/science/why-scientists-watched-a-gene-hop-from-a-predator-into-its-prey/article71220657.ece",
-          "source": "The Hindu",
-          "summary": "Jumping genes are responsible for the spread of antibiotic resistance and in the development of many cancers. Scientists are also studying circular RNA molecules, like the one derived from the jumping intron, as next…",
-          "published": "2026-07-14T09:25:01+00:00",
           "regional": true
         },
         {
@@ -295,14 +295,6 @@
           "source": "The Hindu",
           "summary": "The researchers say that the biological material they developed provides a sustainable and environment-friendly method to tackle the lead-contaminated water challenge in the country",
           "published": "2026-07-09T05:47:35+00:00",
-          "regional": true
-        },
-        {
-          "title": "Nanotech scientist spots early clues for TB, cancer",
-          "link": "https://www.scidev.net/global/role-models/nanotech-scientist-spots-early-clues-for-tb-cancer/",
-          "source": "SciDev.Net",
-          "summary": "South Africa scientist Jaymi Leigh January says her biosensors can detect disease biomarkers before serious harm is caused.",
-          "published": "2026-07-09T01:58:51+00:00",
           "regional": true
         },
         {
@@ -366,7 +358,7 @@
           "link": "https://www.thehindu.com/sci-tech/science/engineering-evolution-is-a-high-stakes-race-between-cure-and-chaos/article71215952.ece",
           "source": "The Hindu",
           "summary": "The safest aircraft is one that does not take off. How we balance the risks and benefits of the flight of gene drives is a challenge that each country will address in different ways.",
-          "published": "2026-07-13T04:33:14+00:00",
+          "published": "2026-07-19T05:17:23+00:00",
           "regional": true
         }
       ]
@@ -377,6 +369,14 @@
       "tagline": "New ways to generate clean energy, capture carbon, and bring fresh water and power to people, cities, and transport.",
       "accent": "#33C6D6",
       "items": [
+        {
+          "title": "Tiny plastics in drinking water may be making dangerous bacteria stronger",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260714225532.htm",
+          "source": "ScienceDaily",
+          "summary": "Tiny plastic particles in drinking water may be doing more than contaminating the environment. New research suggests nanoplastics can actually help harmful bacteria survive by strengthening the slimy biofilms they form…",
+          "published": "2026-07-17T13:14:10+00:00",
+          "regional": false
+        },
         {
           "title": "Beyond the Big Beautiful Bill: Building and financing clean energy after a critical tax credit deadline | Factor This Policycast",
           "link": "https://www.renewableenergyworld.com/energy-business/policy-and-regulation/beyond-the-big-beautiful-bill-building-and-financing-clean-energy-after-a-critical-tax-credit-deadline-factor-this-policycast/",
@@ -442,6 +442,14 @@
           "regional": false
         },
         {
+          "title": "JBL Live 780 NC review: 80 hours of battery life, zero compromise on sound",
+          "link": "https://indianexpress.com/article/technology/tech-reviews/jbl-live-780-nc-review-battery-life-sound-quality-10793396/",
+          "source": "Indian Express",
+          "summary": "",
+          "published": "2026-07-19T06:35:12+00:00",
+          "regional": true
+        },
+        {
           "title": "Cities are getting smarter about water and other eco wins",
           "link": "https://www.dw.com/en/cities-are-getting-smarter-about-water-and-other-eco-wins/a-77999380?maca=en-rss_en_environment-22607-xml-mrss",
           "source": "Deutsche Welle",
@@ -474,14 +482,6 @@
           "regional": true
         },
         {
-          "title": "LG Energy Solution to supply batteries for Google’s largest solar-storage project",
-          "link": "https://www.koreaherald.com/article/10809938",
-          "source": "The Korea Herald",
-          "summary": "LG Energy Solution will supply batteries for Google’s largest solar and energy storage project, extending its push into power infrastructure tied to surging demand from AI data centers, industry sources said Wednesday.",
-          "published": "2026-07-15T06:11:00+00:00",
-          "regional": true
-        },
-        {
           "title": "Stored water can develop slimy bacterial films: nanotechnology may be a solution",
           "link": "https://theconversation.com/stored-water-can-develop-slimy-bacterial-films-nanotechnology-may-be-a-solution-280107",
           "source": "The Conversation",
@@ -503,14 +503,6 @@
           "source": "South China Morning Post",
           "summary": "How does an electric vehicle (EV) stand out in China’s ultra-competitive market when batteries, behaviours and functions are so similar?",
           "published": "2026-07-02T05:25:05+00:00",
-          "regional": true
-        },
-        {
-          "title": "South Africa’s move to renewable power is complex, but clearing 5 bottlenecks would speed it up",
-          "link": "https://theconversation.com/south-africas-move-to-renewable-power-is-complex-but-clearing-5-bottlenecks-would-speed-it-up-286002",
-          "source": "The Conversation",
-          "summary": "South Africa is struggling to move to renewable energy because of: Eskom’s dominance, weak planning, a poor grid, failing municipal networks and unused solar.",
-          "published": "2026-06-30T10:56:04+00:00",
           "regional": true
         },
         {
@@ -726,7 +718,7 @@
           "link": "https://www.thehindu.com/sci-tech/science/vikram-1-indias-first-privately-developed-orbital-class-rocket-launch-updates/article71237224.ece",
           "source": "The Hindu",
           "summary": "Dubbed ‘Mission Aagaman’ (meaning arrival), the successful launch of Skyroot Aerospace’s Vikram-1 marks India’s entry into an elite group of nations with private orbital launch capability",
-          "published": "2026-07-18T11:10:56+00:00",
+          "published": "2026-07-18T16:00:42+00:00",
           "regional": true
         },
         {
@@ -809,6 +801,14 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "NASA’s James Webb catches a supermassive black hole feeding",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260716023601.htm",
+          "source": "ScienceDaily",
+          "summary": "JWST has captured unusually detailed images of gas feeding the supermassive black hole at the center of NGC 4696.",
+          "published": "2026-07-18T03:09:35+00:00",
+          "regional": false
+        },
         {
           "title": "First atmosphere found on Earth-like planet in habitable zone of distant star",
           "link": "https://www.bbc.co.uk/news/articles/cy4kdd1e0ejo?at_medium=RSS&at_campaign=rss",
@@ -991,14 +991,6 @@
           "source": "ScienceDaily",
           "summary": "A new AI-powered framework could transform how astronomers measure the expansion of the Universe. By analyzing images of Type Ia supernovae and modeling their environments in unprecedented detail, researchers can…",
           "published": "2026-06-29T21:57:17+00:00",
-          "regional": false
-        },
-        {
-          "title": "A rare supernova peeled back a star’s layers and revealed a hidden secret",
-          "link": "https://www.sciencedaily.com/releases/2026/06/260616103133.htm",
-          "source": "ScienceDaily",
-          "summary": "Astronomers studying the rare supernova SN 2021yfj discovered material from one of the deepest layers of a dying star, providing a rare look at its hidden interior.",
-          "published": "2026-06-28T01:14:15+00:00",
           "regional": false
         },
         {
