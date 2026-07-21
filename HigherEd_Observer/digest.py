@@ -34,12 +34,12 @@ import feedparser
 
 FEEDS = [
     # --- verified working (from the first live run) ---
-    {"name": "Inside Higher Ed",       "url": "https://www.insidehighered.com/rss.xml"},
-    {"name": "Higher Ed Dive",         "url": "https://www.highereddive.com/feeds/news/"},
+    {"name": "Inside Higher Ed",       "url": "https://www.insidehighered.com/rss.xml", "region": "us"},
+    {"name": "Higher Ed Dive",         "url": "https://www.highereddive.com/feeds/news/", "region": "us"},
     {"name": "The PIE News",           "url": "https://thepienews.com/feed/"},
-    {"name": "The Hechinger Report",   "url": "https://hechingerreport.org/feed/"},
+    {"name": "The Hechinger Report",   "url": "https://hechingerreport.org/feed/", "region": "us"},
     {"name": "The Guardian Higher Ed", "url": "https://www.theguardian.com/education/higher-education/rss"},
-    {"name": "EdSurge",                "url": "https://www.edsurge.com/articles_rss"},
+    {"name": "EdSurge",                "url": "https://www.edsurge.com/articles_rss", "region": "us"},
     {"name": "Higher Ed Strategy Assoc.", "url": "https://higheredstrategy.com/feed/"},
     {"name": "FULCRUM (ISEAS)",        "url": "https://fulcrum.sg/feed/"},
     # --- replacements with confirmed feed addresses ---
@@ -48,13 +48,29 @@ FEEDS = [
     # Arab higher education, incl. Gulf branch campuses
     {"name": "Al-Fanar Media",         "url": "https://www.al-fanarmedia.org/feed/", "boost": "branch"},
     # UK higher education policy analysis
-    {"name": "Wonkhe",                 "url": "https://wonkhe.com/feed/"},
+    {"name": "Wonkhe",                 "url": "https://wonkhe.com/feed/", "region": "europe"},
     # UK higher education policy think tank
-    {"name": "HEPI",                   "url": "https://www.hepi.ac.uk/category/blog/feed/"},
+    {"name": "HEPI",                   "url": "https://www.hepi.ac.uk/category/blog/feed/", "region": "europe"},
     # Australia's tertiary education news (Australian branch campuses)
     {"name": "Campus Review (AU)",     "url": "https://www.campusreview.com.au/feed/"},
     # India's higher education coverage via a mainstream daily's feed
-    {"name": "Indian Express Education", "url": "https://indianexpress.com/section/education/feed/", "boost": "india"},
+    {"name": "Indian Express Education", "url": "https://indianexpress.com/section/education/feed/",
+     "boost": "india", "region": "india"},
+    # --- added for broader yield ---
+    # global student mobility and TNE market intelligence
+    {"name": "ICEF Monitor",            "url": "https://monitor.icef.com/feed/"},
+    # US higher ed leadership and innovation
+    {"name": "University Business",     "url": "https://universitybusiness.com/feed/", "region": "us"},
+    # US campus technology and innovation
+    {"name": "eCampus News",            "url": "https://www.ecampusnews.com/feed/", "region": "us"},
+    # Canadian higher education
+    {"name": "University Affairs (CA)", "url": "https://universityaffairs.ca/feed/"},
+    # China coverage in English (watch the log; drop if it warns)
+    {"name": "Sixth Tone (China)",      "url": "https://www.sixthtone.com/rss", "region": "china"},
+    # --- second chances now that the script identifies as a browser ---
+    {"name": "EducationWorld India",    "url": "https://educationworld.in/feed/",
+     "boost": "india", "region": "india"},
+    {"name": "Science|Business",        "url": "https://sciencebusiness.net/rss.xml", "region": "europe"},
     # NOTE: the World Bank blog no longer offers a readable feed; its
     # reports are tracked by resources.py on the biweekly sweep instead.
     # NOTE: University World News and Times Higher Education no longer
@@ -71,6 +87,21 @@ FEEDS = [
 # double. "min_score" is how many points a story needs to qualify.
 # The "color" is used by the page for the channel's spectrum band.
 # ---------------------------------------------------------------------------
+
+# Signals that a story is about building, changing, or founding
+# institutions - shared by the regional channels below.
+INSTITUTION_SIGNALS = [
+    "new university", "new campus", "new college", "new institution",
+    "new school of", "new program", "new programme", "new degree",
+    "branch campus", "foreign campus", "foreign university",
+    "international campus", "transnational", "joint degree", "dual degree",
+    "twinning", "merger", "charter", "accreditation", "founding",
+    "launches", "launched", "opens", "breaks ground", "reform",
+    "innovation", "microcredential", "micro-credential",
+    "artificial intelligence", "online learning", "curriculum",
+    "liberal arts", "expansion", "partnership", "collaboration",
+    "enrolment", "enrollment",
+]
 
 CATEGORIES = [
     {
@@ -126,14 +157,56 @@ CATEGORIES = [
         "min_score": 2,
         # a story must mention India at all...
         "requires": ["india", "indian", "iit", "ugc", "gift city"],
+        "region": "india",
         # ...and score on institution-building signals, not exam news
-        "keywords": [
-            "new university", "private university", "foreign university",
-            "foreign campus", "branch campus", "new campus", "gift city",
-            "national education policy", "nep 2020", "ugc regulation",
-            "twinning", "joint degree", "dual degree", "new institution",
-            "liberal arts", "deemed university", "collaboration",
-            "partnership", "enrolment growth", "gross enrolment",
+        "keywords": INSTITUTION_SIGNALS + [
+            "private university", "gift city", "national education policy",
+            "nep 2020", "ugc regulation", "deemed university",
+            "gross enrolment",
+        ],
+    },
+    {
+        "id": "us",
+        "title": "Innovation in US Higher Education",
+        "blurb": "New models, programs, and institutional experiments across American higher education.",
+        "color": "#3A7D44",
+        "min_score": 3,
+        "requires": ["united states", "american", "u.s.", "usa"],
+        "region": "us",
+        "keywords": INSTITUTION_SIGNALS + [
+            "community college", "work college", "honors college",
+            "competency-based", "accreditor",
+        ],
+    },
+    {
+        "id": "europe",
+        "title": "Innovation in European Higher Education",
+        "blurb": "New institutions and reform across the UK and Europe, including the European Universities alliances.",
+        "color": "#33658A",
+        "min_score": 3,
+        "requires": ["europe", "european", "uk", "britain", "british",
+                     "england", "scotland", "wales", "ireland", "germany",
+                     "german", "france", "french", "netherlands", "dutch",
+                     "spain", "italy", "nordic", "erasmus", "bologna"],
+        "region": "europe",
+        "keywords": INSTITUTION_SIGNALS + [
+            "european universities initiative", "university alliance",
+            "bologna process", "erasmus",
+        ],
+    },
+    {
+        "id": "china",
+        "title": "Innovation in Chinese Higher Education",
+        "blurb": "New universities, sino-foreign ventures, and reform across China and Greater China.",
+        "color": "#C03221",
+        "min_score": 2,
+        "requires": ["china", "chinese", "hong kong", "macau", "beijing",
+                     "shanghai", "shenzhen", "tsinghua", "peking",
+                     "greater bay"],
+        "region": "china",
+        "keywords": INSTITUTION_SIGNALS + [
+            "sino-foreign", "joint venture university", "double first-class",
+            "c9 league",
         ],
     },
     {
@@ -211,6 +284,7 @@ def fetch_all_feeds():
                     "source": feed["name"],
                     "date": when,
                     "boost": feed.get("boost"),
+                    "region": feed.get("region"),
                 })
                 count += 1
             print(f"  ok       {feed['name']}: {count} recent stories")
@@ -272,7 +346,10 @@ def categorize(stories):
             required = category.get("requires")
             if required:
                 text = (story["title"] + " " + story["summary"]).lower()
-                if not any(keyword_present(t, text) for t in required):
+                geo_match = any(keyword_present(t, text) for t in required)
+                source_match = (story.get("region") is not None
+                                and story.get("region") == category.get("region"))
+                if not (geo_match or source_match):
                     s = 0
             if story.get("boost") == category["id"] and s > 0:
                 s += 1   # stories from a source focused on this channel get a nudge
@@ -365,10 +442,19 @@ def demo_stories():
          "The World Bank's latest analysis of tertiary education outlines five principles for building university systems that deliver for all."),
         ("Higher Ed Strategy Assoc.", "Year in review: the global landscape of new institutions",
          "An annual report on higher education worldwide, including the surge of university founding across Asia."),
+        ("University Business", "American university opens competency-based honors college",
+         "The new college pairs a project-based curriculum with employer partnerships in a model leaders call a first for the region."),
+        ("Wonkhe", "European universities alliance wins approval for joint degree across five countries",
+         "The new programme under the European Universities Initiative lets students assemble a single degree from partner campuses in Germany, France, and Spain."),
+        ("Sixth Tone (China)", "New sino-foreign joint venture university breaks ground in Shenzhen",
+         "The partnership brings a European engineering curriculum to China's Greater Bay Area, with a founding class planned for 2028."),
     ]
     return [{"title": t, "link": f"https://example.com/story-{i}", "summary": s,
              "source": src, "date": now - timedelta(hours=i * 5),
-             "boost": "india" if "India" in src else None}
+             "boost": "india" if "India" in src else None,
+             "region": {"University Business": "us", "Wonkhe": "europe",
+                        "Sixth Tone (China)": "china",
+                        "EducationWorld India": "india"}.get(src)}
             for i, (src, t, s) in enumerate(samples)]
 
 
