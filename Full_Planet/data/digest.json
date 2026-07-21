@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-20T10:02:24.453089+00:00",
-  "generated_human": "20 July 2026, 10:02 UTC",
+  "generated": "2026-07-21T09:49:31.887611+00:00",
+  "generated_human": "21 July 2026, 09:49 UTC",
   "total_items": 129,
   "channels": [
     {
@@ -42,12 +42,12 @@
           "regional": false
         },
         {
-          "title": "Millions of exploding stars could soon reveal dark energy's secrets",
-          "link": "https://www.sciencedaily.com/releases/2026/06/260621060315.htm",
-          "source": "ScienceDaily",
-          "summary": "A new AI-powered framework could transform how astronomers measure the expansion of the Universe. By analyzing images of Type Ia supernovae and modeling their environments in unprecedented detail, researchers can…",
-          "published": "2026-06-29T21:57:17+00:00",
-          "regional": false
+          "title": "Why China’s open-weight AI model Kimi K3 is sparking anxiety in Silicon Valley",
+          "link": "https://www.scmp.com/tech/tech-war/article/3361142/why-chinas-open-weight-ai-model-kimi-k3-sparking-anxiety-silicon-valley?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Chinese start-up Moonshot AI’s Kimi K3 has narrowed the country’s artificial intelligence gap with the US to “a matter of weeks”, fuelling jitters in Silicon Valley over its lead in frontier AI as China doubles down on…",
+          "published": "2026-07-20T14:00:12+00:00",
+          "regional": true
         },
         {
           "title": "LG AI Research launches global AI ethics course with UNESCO",
@@ -120,14 +120,6 @@
           "summary": "Two of China’s major consumer-facing artificial intelligence apps, ByteDance’s Doubao and Alibaba Group Holding’s Qwen, are moving to disable customised agent features, as new rules on humanlike AI interaction services…",
           "published": "2026-07-05T11:32:53+00:00",
           "regional": true
-        },
-        {
-          "title": "China’s ByteDance discovers new scaling law that could sustain AI boom",
-          "link": "https://www.scmp.com/tech/big-tech/article/3359373/chinas-bytedance-discovers-new-scaling-law-could-sustain-ai-boom?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Researchers at TikTok parent ByteDance have discovered a new scaling law governing how fast artificial intelligence agents can improve by performing real-world tasks, a finding that could help prolong the AI boom just…",
-          "published": "2026-07-03T22:00:26+00:00",
-          "regional": true
         }
       ]
     },
@@ -143,6 +135,14 @@
           "source": "BBC Science",
           "summary": "A 3D-printed battery designed at Queen's University Belfast could speed up energy storage research.",
           "published": "2026-07-20T08:20:07+00:00",
+          "regional": false
+        },
+        {
+          "title": "Scientists found two powerful new ways to destroy forever chemicals",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260718010147.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists are testing two promising ways to destroy PFAS, the stubborn “forever chemicals” that can accumulate in water and resist normal treatment.",
+          "published": "2026-07-20T02:31:21+00:00",
           "regional": false
         },
         {
@@ -167,14 +167,6 @@
           "source": "ScienceDaily",
           "summary": "A new review highlights exciting progress in atomically thin quantum materials where light and magnetism work together in ways never before possible.",
           "published": "2026-07-16T04:16:48+00:00",
-          "regional": false
-        },
-        {
-          "title": "DNA from African graves provides surprising window into slave trade",
-          "link": "https://www.science.org/content/article/dna-african-graves-provides-surprising-window-slave-trade",
-          "source": "Science (AAAS)",
-          "summary": "Adults and children were taken from deep within continent’s interior, genetic material from remote island of St. Helena suggests",
-          "published": "2026-07-16T02:00:00+00:00",
           "regional": false
         },
         {
@@ -250,6 +242,14 @@
           "regional": false
         },
         {
+          "title": "BlackRock expands bets on Korea's KAI, EcoPro",
+          "link": "https://www.koreaherald.com/article/10815271",
+          "source": "The Korea Herald",
+          "summary": "BlackRock, the world's largest asset manager, has increased its stakes in Korea Aerospace Industries and battery materials maker EcoPro to more than 5 percent, becoming a major shareholder in both companies.",
+          "published": "2026-07-21T06:51:18+00:00",
+          "regional": true
+        },
+        {
           "title": "Seoul shares extend losses late Mon. morning on extended chip rout",
           "link": "https://www.koreaherald.com/article/10813793",
           "source": "The Korea Herald",
@@ -295,14 +295,6 @@
           "source": "The Hindu",
           "summary": "Proteins are important diagnostic targets because they are involved in almost every biological process; over the last two decades, scientists have developed aptamers for hundreds of disease-relevant proteins and have…",
           "published": "2026-07-15T07:21:39+00:00",
-          "regional": true
-        },
-        {
-          "title": "\"Graphene oxide\" lubricant in active fault discovered by Tohoku University: Possible link to slow earthquakes",
-          "link": "https://sj.jst.go.jp/news/202607/n0714-01p.html",
-          "source": "Science Japan",
-          "summary": "A research group of Tohoku University and other institutions has discovered the lubricant substance \"graphene oxide\" in the Atotsugawa Fault System, which spans across Gifu and Toyama Prefectures.",
-          "published": "2026-07-14T06:12:45+00:00",
           "regional": true
         },
         {
@@ -386,6 +378,14 @@
       "accent": "#33C6D6",
       "items": [
         {
+          "title": "As Colorado River and tributaries shrink, a public power system frays",
+          "link": "https://www.renewableenergyworld.com/hydro-power/as-colorado-river-and-tributaries-shrink-a-public-power-system-frays/",
+          "source": "Renewable Energy World",
+          "summary": "Gunnison River hydropower is under stress as data center development creates increasing demand for electricity generation.",
+          "published": "2026-07-20T16:36:00+00:00",
+          "regional": false
+        },
+        {
           "title": "Going with the flow: Renewable energy battery breakthrough",
           "link": "https://www.bbc.co.uk/news/articles/c3dyd4l8250o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
@@ -399,22 +399,6 @@
           "source": "ScienceDaily",
           "summary": "Tiny plastic particles in drinking water may be doing more than contaminating the environment. New research suggests nanoplastics can actually help harmful bacteria survive by strengthening the slimy biofilms they form…",
           "published": "2026-07-17T13:14:10+00:00",
-          "regional": false
-        },
-        {
-          "title": "Beyond the Big Beautiful Bill: Building and financing clean energy after a critical tax credit deadline | Factor This Policycast",
-          "link": "https://www.renewableenergyworld.com/energy-business/policy-and-regulation/beyond-the-big-beautiful-bill-building-and-financing-clean-energy-after-a-critical-tax-credit-deadline-factor-this-policycast/",
-          "source": "Renewable Energy World",
-          "summary": "On this episode of the Factor This Policycast, Walter McLeod and Bryan Didier of Monarch Private Capital share how clean energy projects are being financed for construction in the second half of 2026 and beyond.",
-          "published": "2026-07-16T10:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Could hydropower credits undermine New York City’s climate law?",
-          "link": "https://www.renewableenergyworld.com/hydro-power/could-hydropower-credits-undermine-new-york-citys-climate-law/",
-          "source": "Renewable Energy World",
-          "summary": "Mayor Mamdani is facing pressure to limit an avenue for large building owners to buy credits instead of cutting emissions.",
-          "published": "2026-07-13T19:52:31+00:00",
           "regional": false
         },
         {
@@ -464,6 +448,22 @@
           "summary": "A breakthrough lithium-extraction method could help solve one of clean energy’s dirtiest problems. Researchers at Columbia Engineering have developed a fast new technique that pulls lithium directly from salty…",
           "published": "2026-05-23T13:42:24+00:00",
           "regional": false
+        },
+        {
+          "title": "BlackRock expands bets on Korea's KAI, EcoPro",
+          "link": "https://www.koreaherald.com/article/10815271",
+          "source": "The Korea Herald",
+          "summary": "BlackRock, the world's largest asset manager, has increased its stakes in Korea Aerospace Industries and battery materials maker EcoPro to more than 5 percent, becoming a major shareholder in both companies.",
+          "published": "2026-07-21T06:51:18+00:00",
+          "regional": true
+        },
+        {
+          "title": "India’s green transition is missing long-duration energy storage",
+          "link": "https://www.thehindu.com/sci-tech/energy-and-environment/india-green-transition-missing-long-duration-energy-storage/article71244283.ece",
+          "source": "The Hindu",
+          "summary": "The longer the time over which a technology discharges energy, the better its economics. At the same time, storing more energy also costs more.",
+          "published": "2026-07-20T07:41:25+00:00",
+          "regional": true
         },
         {
           "title": "JBL Live 780 NC review: 80 hours of battery life, zero compromise on sound",
@@ -522,14 +522,6 @@
           "regional": true
         },
         {
-          "title": "China’s AI-defined vehicles make smart motoring human-centred",
-          "link": "https://www.scmp.com/plus/business/china-evs/article/3359123/chinas-ai-defined-vehicles-make-smart-motoring-human-centred?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "How does an electric vehicle (EV) stand out in China’s ultra-competitive market when batteries, behaviours and functions are so similar?",
-          "published": "2026-07-02T05:25:05+00:00",
-          "regional": true
-        },
-        {
           "title": "Towards a faster hydrogen-based steel production",
           "link": "https://www.mpg.de/26790836/catalysts-boost-hydrogen-based-steel-production",
           "source": "Max Planck Society",
@@ -545,6 +537,46 @@
       "tagline": "New missions, spacecraft, and technologies — NASA, ESA, ISRO, JAXA, SpaceX, CNES, and more.",
       "accent": "#F0894E",
       "items": [
+        {
+          "title": "NASA Sets Briefings for SpaceX Crew-13 Mission to Space Station",
+          "link": "https://www.nasa.gov/news-release/nasa-sets-briefings-for-spacex-crew-13-mission-to-space-station/",
+          "source": "NASA",
+          "summary": "NASA and its partners will discuss the upcoming crew rotation mission to the International Space Station during a pair of news conferences on Monday, Aug. 3, from the agency’s Johnson Space Center in Houston.",
+          "published": "2026-07-20T20:00:52+00:00",
+          "regional": false
+        },
+        {
+          "title": "New NASA Earth Missions Gear Up to Start Science Flights",
+          "link": "https://science.nasa.gov/earth/new-nasa-earth-missions-gear-up-to-start-science-flights/",
+          "source": "NASA",
+          "summary": "The first of six new airborne campaigns will hit the skies this summer.",
+          "published": "2026-07-20T18:25:11+00:00",
+          "regional": false
+        },
+        {
+          "title": "From Hampton to Mars: How NASA Langley Helped Land on the Red Planet",
+          "link": "https://www.nasa.gov/general/from-hampton-to-mars-how-nasa-langley-helped-land-on-the-red-planet/",
+          "source": "NASA",
+          "summary": "Fifty years ago, NASA’s Viking 1 and 2 landers made the first successful landings on Mars, opening a new era in planetary exploration.",
+          "published": "2026-07-20T15:47:15+00:00",
+          "regional": false
+        },
+        {
+          "title": "Our First View of the Surface of Mars",
+          "link": "https://www.nasa.gov/image-article/our-first-view-of-the-surface-of-mars/",
+          "source": "NASA",
+          "summary": "“Touchdown, we have touchdown!” At 5:12 a.m. PDT, July 20, 1976, mission controllers at NASA’s Jet Propulsion Laboratory erupted in cheers as they learned that the Viking 1 lander had survived its descent through the…",
+          "published": "2026-07-20T15:38:29+00:00",
+          "regional": false
+        },
+        {
+          "title": "A SpaceX rocket is about to crash into the moon—scientists will be watching",
+          "link": "https://www.scientificamerican.com/article/a-spacex-rocket-is-about-to-crash-into-the-moon-scientists-will-be-watching/",
+          "source": "Scientific American",
+          "summary": "Astronomers have a plan to observe an errant piece of a SpaceX rocket as it hits the moon to better understand impact events",
+          "published": "2026-07-20T13:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "Artemis II crew at ESTEC",
           "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/Artemis_II_crew_at_ESTEC",
@@ -570,51 +602,11 @@
           "regional": false
         },
         {
-          "title": "Establishing a VTE Risk Score for Astronauts Algorithm",
-          "link": "https://www.nasa.gov/organizations/ochmo/establishing-a-vte-risk-score-for-astronauts-algorithm/",
-          "source": "NASA",
-          "summary": "In April 2026, NASA’s Office of the Chief Health and Medical Officer (OCHMO) initiated a working group to review updated VTE case information, additional data gathered revealing altered blood flow status within a cohort…",
-          "published": "2026-07-17T21:01:38+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Invites Media to Roman Space Telescope, Crew-13 Launches",
-          "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-roman-space-telescope-crew-13-launches/",
-          "source": "NASA",
-          "summary": "Media accreditation now is open for the launch of NASA’s Nancy Grace Roman Space Telescope and the agency’s SpaceX Crew-13 missions, both targeting launch in the coming months.",
-          "published": "2026-07-17T18:00:57+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Psyche Mission Images Details of Martian Surface During Flyby",
-          "link": "https://science.nasa.gov/photojournal/nasas-psyche-mission-images-details-of-martian-surface-during-flyby/",
-          "source": "NASA",
-          "summary": "Description Captured by the multispectral imager instrument on NASA’s Psyche mission, this is an enhanced-color mosaic created from four individual images acquired on May 15, 2026, during the spacecraft’s flyby of Mars.",
-          "published": "2026-07-17T17:38:38+00:00",
-          "regional": false
-        },
-        {
           "title": "ESA’s Mars Express meets NASA’s Psyche",
           "link": "https://www.esa.int/ESA_Multimedia/Images/2026/07/ESA_s_Mars_Express_meets_NASA_s_Psyche",
           "source": "ESA",
           "summary": "Image: Mars Express image",
           "published": "2026-07-17T16:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Welcomes Mauritius as 70th Artemis Accords Signatory",
-          "link": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-mauritius-as-70th-artemis-accords-signatory/",
-          "source": "NASA",
-          "summary": "The Republic of Mauritius has officially joined the global coalition committed to responsible space exploration, becoming the newest signatory and seventh African country to join the Artemis Accords.",
-          "published": "2026-07-17T14:48:27+00:00",
-          "regional": false
-        },
-        {
-          "title": "European Service Module team meets Artemis II crew",
-          "link": "https://www.esa.int/ESA_Multimedia/Images/2026/07/European_Service_Module_team_meets_Artemis_II_crew",
-          "source": "ESA",
-          "summary": "Image: From left to right, NASA astronauts Chrstina Koch, Reid Wiseman and Victor Glover, and Canadian Space Agency astronaut Jeremy Hansen, with ESA's European Service Module team behind them at ESTEC.",
-          "published": "2026-07-17T10:00:00+00:00",
           "regional": false
         },
         {
@@ -842,6 +834,14 @@
           "regional": false
         },
         {
+          "title": "A super-Earth exoplanet’s leaking helium could be evidence of a complex atmosphere",
+          "link": "https://www.scientificamerican.com/article/a-super-earth-exoplanets-leaking-helium-could-be-evidence-of-a-complex-atmosphere/",
+          "source": "Scientific American",
+          "summary": "The planet LHS 1140 b lies in its star’s habitable zone, which already made it a prime candidate as a possible host for life",
+          "published": "2026-07-16T18:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "Sun-like star caught after eating one of its own planets",
           "link": "https://www.sciencedaily.com/releases/2026/07/260715083538.htm",
           "source": "ScienceDaily",
@@ -858,10 +858,26 @@
           "regional": false
         },
         {
+          "title": "Famous System Has a Third Planet: Beta Pictoris d",
+          "link": "https://skyandtelescope.org/astronomy-news/famous-system-has-a-third-star-beta-pictoris-d/",
+          "source": "Sky & Telescope",
+          "summary": "Two teams of astronomers independently discovered a third giant gas planet orbiting in the famous Beta Pictoris system. The post Famous System Has a Third Planet: Beta Pictoris d appeared first on Sky & Telescope .",
+          "published": "2026-07-15T19:55:44+00:00",
+          "regional": false
+        },
+        {
           "title": "Astronomers just accidentally spotted the faintest exoplanet ever seen from Earth",
           "link": "https://www.scientificamerican.com/article/astronomers-just-accidentally-spotted-the-faintest-exoplanet-ever-seen-from-earth/",
           "source": "Scientific American",
           "summary": "Beta Pictoris d is more than twice the size of Jupiter, but it is a baby compared to its humongous neighbors",
+          "published": "2026-07-15T12:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Faintest planet ever imaged from Earth found after more than 10 years of hide-and-seek",
+          "link": "https://www.eso.org/public/news/eso2609/",
+          "source": "ESO",
+          "summary": "A team of astronomers have discovered a third planet orbiting the star Beta Pictoris. The new planet, Beta Pictoris d, is 100 times fainter than Beta Pictoris b — the first planet discovered in the same system — and is…",
           "published": "2026-07-15T12:00:00+00:00",
           "regional": false
         },
@@ -911,22 +927,6 @@
           "source": "Sky & Telescope",
           "summary": "The sharp-eyed and far-seeing Euclid space telescope has picked up 31 early quasars that have evaded detection until now.",
           "published": "2026-07-13T12:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Is Earth the only planet with total solar eclipses?",
-          "link": "https://www.scientificamerican.com/article/is-earth-the-only-planet-with-total-solar-eclipses/",
-          "source": "Scientific American",
-          "summary": "Other planets have moons, too. Do they get eclipses like we do?",
-          "published": "2026-07-10T10:45:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "‘Dark’ comets sprouting tails could help solve interstellar mysteries",
-          "link": "https://www.scientificamerican.com/article/dark-comets-sprouting-tails-could-help-solve-interstellar-mysteries/",
-          "source": "Scientific American",
-          "summary": "A strange class of comet could explain the enigmatic behavior of ‘Oumuamua, the first known interstellar object—and even shed light on how Earth became habitable",
-          "published": "2026-07-10T09:00:00+00:00",
           "regional": false
         },
         {
@@ -1010,12 +1010,20 @@
           "regional": false
         },
         {
-          "title": "Millions of exploding stars could soon reveal dark energy's secrets",
-          "link": "https://www.sciencedaily.com/releases/2026/06/260621060315.htm",
-          "source": "ScienceDaily",
-          "summary": "A new AI-powered framework could transform how astronomers measure the expansion of the Universe. By analyzing images of Type Ia supernovae and modeling their environments in unprecedented detail, researchers can…",
-          "published": "2026-06-29T21:57:17+00:00",
-          "regional": false
+          "title": "What makes the brain the most complicated object in the universe",
+          "link": "https://www.thehindu.com/sci-tech/science/what-makes-the-brain-the-most-complicated-object-in-the-universe/article67852849.ece",
+          "source": "The Hindu",
+          "summary": "For the first time, the thoughts and impressions of people unable to communicate with the outside world were translated into continuous natural language, using a combination of AI and brain imaging technology",
+          "published": "2026-07-21T07:23:07+00:00",
+          "regional": true
+        },
+        {
+          "title": "I used the Samsung Galaxy Z Fold 7 for a year and its biggest superpower surprised me",
+          "link": "https://indianexpress.com/article/technology/samsung-galaxy-z-fold-7-one-year-review-10795911/",
+          "source": "Indian Express",
+          "summary": "",
+          "published": "2026-07-21T04:00:29+00:00",
+          "regional": true
         },
         {
           "title": "A community for cosmic curiosity",
@@ -1071,14 +1079,6 @@
           "source": "Max Planck Society",
           "summary": "A black hole in our cosmic neighborhood is proving to be just as voracious as those that existed shortly after the universe's formation",
           "published": "2026-07-03T06:00:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "The distant past catches up with the Universe",
-          "link": "https://news.cnrs.fr/articles/the-distant-past-catches-up-with-the-universe",
-          "source": "CNRS News",
-          "summary": "In April, the researchers involved in the French-Chinese SVOM space mission presented an update on its initial findings.",
-          "published": "2026-06-29T15:34:50+00:00",
           "regional": true
         }
       ]
