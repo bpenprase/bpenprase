@@ -71,14 +71,15 @@ FEEDS = [
     {"name": "TBS Education (Bangladesh)", "url": "https://www.tbsnews.net/bangladesh/education/rss.xml"},
     {"name": "The Daily Star (Bangladesh)", "url": "https://www.thedailystar.net/rss.xml",
      "watchlist_only": True},
-    {"name": "Business Standard Education (India)", "url": "https://www.business-standard.com/rss/education-108.rss",
-     "region": "india"},
-    {"name": "VietnamPlus",             "url": "https://en.vietnamplus.vn/rss/news.rss",
-     "watchlist_only": True},
     {"name": "VnExpress International", "url": "https://e.vnexpress.net/rss/news.rss",
      "watchlist_only": True},
     {"name": "MyJoyOnline (Ghana)",     "url": "https://www.myjoyonline.com/feed/",
      "watchlist_only": True},
+    # China news in English with education coverage (unverified address)
+    {"name": "China Daily",             "url": "https://www.chinadaily.com.cn/rss/china_rss.xml",
+     "region": "china"},
+    # International higher education news with strong Europe coverage
+    {"name": "Erudera News",            "url": "https://erudera.com/feed/"},
     # --- institutional newsrooms of startup universities; every story
     #     routes to the Startups channel (unverified /feed/ addresses:
     #     watch the log and delete any that come back blocked) ---
@@ -157,6 +158,17 @@ INSTITUTION_SIGNALS = [
     "redesign", "first-of-its-kind", "first of its kind", "pilot",
 ]
 
+# Everyday higher-ed policy and institutional vocabulary - used by the
+# regional channels, which aim to catch the notable HE stories of their
+# region, not only institution-founding news.
+REGIONAL_EXTRAS = [
+    "funding", "tuition", "fees", "vice-chancellor", "chancellor",
+    "provost", "admissions", "admission", "recruitment",
+    "international students", "rankings", "ranking", "research",
+    "policy", "regulation", "governance", "quality assurance",
+    "scholarship", "scholarships", "graduate employment", "graduates",
+]
+
 CATEGORIES = [
     {
         "id": "startups",
@@ -197,6 +209,10 @@ CATEGORIES = [
             "interdisciplinary", "stackable", "certificate program",
             "apprenticeship", "bootcamp", "competency-based",
             "experiential learning", "new certificate", "launches program",
+            "pedagogy", "course redesign", "general education",
+            "core curriculum", "first-year experience", "capstone",
+            "studio-based", "team-taught", "block plan",
+            "flipped classroom", "teaching innovation",
         ],
     },
     {
@@ -219,7 +235,7 @@ CATEGORIES = [
         "title": "Innovation in Indian Higher Education",
         "blurb": "The world's most dynamic market for new universities - policy, private growth, and foreign entry.",
         "color": "#A63D57",
-        "min_score": 2,
+        "min_score": 1,
         # a story must mention India at all...
         "requires": ["india", "indian", "iit", "ugc", "gift city"],
         "region": "india",
@@ -228,27 +244,27 @@ CATEGORIES = [
             "private university", "gift city", "national education policy",
             "nep 2020", "ugc regulation", "deemed university",
             "gross enrolment",
-        ],
+        ] + REGIONAL_EXTRAS,
     },
     {
         "id": "us",
         "title": "Innovation in US Higher Education",
         "blurb": "New models, programs, and institutional experiments across American higher education.",
         "color": "#3A7D44",
-        "min_score": 2,
+        "min_score": 1,
         "requires": ["united states", "american", "u.s.", "usa"],
         "region": "us",
         "keywords": INSTITUTION_SIGNALS + [
             "community college", "work college", "honors college",
             "competency-based", "accreditor",
-        ],
+        ] + REGIONAL_EXTRAS,
     },
     {
         "id": "europe",
         "title": "Innovation in European Higher Education",
         "blurb": "New institutions and reform across the UK and Europe, including the European Universities alliances.",
         "color": "#33658A",
-        "min_score": 2,
+        "min_score": 1,
         "requires": ["europe", "european", "uk", "britain", "british",
                      "england", "scotland", "wales", "ireland", "germany",
                      "german", "france", "french", "netherlands", "dutch",
@@ -257,14 +273,14 @@ CATEGORIES = [
         "keywords": INSTITUTION_SIGNALS + [
             "european universities initiative", "university alliance",
             "bologna process", "erasmus",
-        ],
+        ] + REGIONAL_EXTRAS,
     },
     {
         "id": "china",
         "title": "Innovation in Chinese Higher Education",
         "blurb": "New universities, sino-foreign ventures, and reform across China and Greater China.",
         "color": "#C03221",
-        "min_score": 2,
+        "min_score": 1,
         "requires": ["china", "chinese", "hong kong", "macau", "beijing",
                      "shanghai", "shenzhen", "tsinghua", "peking",
                      "greater bay"],
@@ -272,7 +288,7 @@ CATEGORIES = [
         "keywords": INSTITUTION_SIGNALS + [
             "sino-foreign", "joint venture university", "double first-class",
             "c9 league",
-        ],
+        ] + REGIONAL_EXTRAS,
     },
     {
         "id": "reports",
@@ -317,6 +333,7 @@ NOISE_TERMS = [
 
 DAYS_BACK = 7          # keep stories from the past week
 MAX_PER_CATEGORY = 8   # show at most this many per channel
+MAX_PER_SOURCE = 2     # ...and at most this many from any one source per channel
 OUTPUT = Path(__file__).parent / "index.html"
 TEMPLATE = Path(__file__).parent / "template.html"
 
@@ -476,7 +493,14 @@ def categorize(stories):
             buckets[best["id"]].append(story)
     for cid in buckets:
         buckets[cid].sort(key=lambda s: (s["date"]), reverse=True)
-        buckets[cid] = buckets[cid][:MAX_PER_CATEGORY]
+        per_source, trimmed = {}, []
+        for s in buckets[cid]:
+            n = per_source.get(s["source"], 0)
+            if n >= MAX_PER_SOURCE:
+                continue
+            per_source[s["source"]] = n + 1
+            trimmed.append(s)
+        buckets[cid] = trimmed[:MAX_PER_CATEGORY]
     return buckets
 
 
