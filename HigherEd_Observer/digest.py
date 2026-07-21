@@ -55,8 +55,8 @@ FEEDS = [
     {"name": "Campus Review (AU)",     "url": "https://www.campusreview.com.au/feed/"},
     # India's higher education coverage via a mainstream daily's feed
     {"name": "Indian Express Education", "url": "https://indianexpress.com/section/education/feed/", "boost": "india"},
-    # World Bank education blog (alternate feed address - watch the log)
-    {"name": "World Bank Education Blog", "url": "https://blogs.worldbank.org/education/rss.xml"},
+    # NOTE: the World Bank blog no longer offers a readable feed; its
+    # reports are tracked by resources.py on the biweekly sweep instead.
     # NOTE: University World News and Times Higher Education no longer
     # offer working public RSS feeds; read them via their free email
     # newsletters instead. Open Campus, EducationWorld India, and
@@ -84,7 +84,9 @@ CATEGORIES = [
             "founding", "founded", "launches university", "new college",
             "new institution", "charter", "opens its doors", "first cohort",
             "inaugural class", "establish a university", "establishing a university",
-            "newly established", "greenfield",
+            "newly established", "greenfield", "opens campus", "new campus",
+            "breaks ground", "receives accreditation", "wins approval",
+            "founding president", "founding vice-chancellor",
         ],
     },
     {
@@ -122,10 +124,16 @@ CATEGORIES = [
         "blurb": "The world's most dynamic market for new universities - policy, private growth, and foreign entry.",
         "color": "#A63D57",
         "min_score": 2,
+        # a story must mention India at all...
+        "requires": ["india", "indian", "iit", "ugc", "gift city"],
+        # ...and score on institution-building signals, not exam news
         "keywords": [
-            "india", "indian", "ugc", "national education policy", "nep 2020",
-            "iit", "gift city", "private university india", "deemed university",
-            "aicte", "naac",
+            "new university", "private university", "foreign university",
+            "foreign campus", "branch campus", "new campus", "gift city",
+            "national education policy", "nep 2020", "ugc regulation",
+            "twinning", "joint degree", "dual degree", "new institution",
+            "liberal arts", "deemed university", "collaboration",
+            "partnership", "enrolment growth", "gross enrolment",
         ],
     },
     {
@@ -135,9 +143,11 @@ CATEGORIES = [
         "color": "#6B5B95",
         "min_score": 3,
         "keywords": [
-            "report", "study finds", "survey", "white paper", "outlook",
+            "report", "new report", "report finds", "study finds",
+            "survey finds", "survey", "white paper", "outlook",
             "analysis", "world bank", "unesco", "oecd", "british council",
             "annual review", "year in review", "landscape", "publishes",
+            "according to", "data shows", "figures show",
         ],
     },
 ]
@@ -147,6 +157,20 @@ CATEGORIES = [
 TOPIC_TERMS = [
     "universit", "higher education", "tertiary", "college", "campus",
     "transnational", "international education", "branch",
+]
+
+# A realistic browser identity; some sites block obvious bots.
+USER_AGENT = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+              "AppleWebKit/537.36 (KHTML, like Gecko) "
+              "Chrome/126.0.0.0 Safari/537.36")
+
+# Stories whose HEADLINE contains any of these are skipped entirely -
+# they are exam administration and contest noise, not institution news.
+NOISE_TERMS = [
+    "admit card", "answer key", "exam date", "exam dates", "hall ticket",
+    "school assembly", "olympiad", "cut-off", "cutoff", "result declared",
+    "results declared", "board exam", "registration begins",
+    "application deadline", "toppers", "rank list", "merit list",
 ]
 
 DAYS_BACK = 7          # keep stories from the past week
@@ -165,9 +189,7 @@ def fetch_all_feeds():
     cutoff = datetime.now(timezone.utc) - timedelta(days=DAYS_BACK)
     for feed in FEEDS:
         try:
-            parsed = feedparser.parse(
-                feed["url"],
-                agent="Mozilla/5.0 (NewUniversitiesObservatory digest bot)")
+            parsed = feedparser.parse(feed["url"], agent=USER_AGENT)
             if parsed.bozo and not parsed.entries:
                 print(f"  WARNING  {feed['name']}: could not read feed "
                       f"({parsed.get('bozo_exception', 'unknown error')})")
@@ -241,9 +263,17 @@ def categorize(stories):
         if story["link"] in seen_links:
             continue
         seen_links.add(story["link"])
+        title = story["title"].lower()
+        if any(keyword_present(t, title) for t in NOISE_TERMS):
+            continue
         best, best_score = None, 0
         for category in CATEGORIES:
             s = score_story(story, category)
+            required = category.get("requires")
+            if required:
+                text = (story["title"] + " " + story["summary"]).lower()
+                if not any(keyword_present(t, text) for t in required):
+                    s = 0
             if story.get("boost") == category["id"] and s > 0:
                 s += 1   # stories from a source focused on this channel get a nudge
             if category["id"] == "reports" and not is_on_topic(story):
