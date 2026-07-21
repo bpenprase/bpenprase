@@ -13,23 +13,31 @@ GitHub Pages serves that page as the public site.
 
 1. **Upload these files** to your repository, keeping the folder structure:
 
+   This kit lives as the folder `HigherEd_Observer/` inside the
+   `bpenprase/bpenprase` repository, alongside other sites like
+   `Full_Planet/`:
+
    ```
-   digest.py                          - nightly news digest builder
-   resources.py                       - biweekly Resources & Reports builder
-   template.html                      - design of the digest page
-   template_resources.html            - design of the resources page
-   requirements.txt
-   README.md
-   .github/workflows/digest.yml       - runs nightly
+   (repo root)
+   .github/workflows/digest.yml       - runs nightly (MUST be at repo root)
    .github/workflows/resources.yml    - runs on the 1st and 15th
-   docs/index.html                    - starter pages; both rebuilt
-   docs/resources.html                  automatically
+   HigherEd_Observer/
+       digest.py                      - nightly news digest builder
+       resources.py                   - biweekly Resources & Reports builder
+       template.html                  - design of the digest page
+       template_resources.html        - design of the resources page
+       requirements.txt
+       README.md
+       index.html                     - starter pages; both rebuilt
+       resources.html                   automatically in place
    ```
 
-2. **Turn on GitHub Pages.** In the repository, go to
-   *Settings → Pages*, and under "Build and deployment" choose
-   **Deploy from a branch**, branch **main**, folder **/docs**. Save.
-   Your site will appear at `https://<your-username>.github.io/<repo-name>/`.
+   The site appears at
+   `https://bpenprase.github.io/bpenprase/HigherEd_Observer/`.
+
+2. **GitHub Pages is already on** for this repository (it serves the
+   repo root, which is how Full_Planet works), so there is nothing to
+   change there.
 
 3. **Allow the workflow to save its work.** Go to
    *Settings → Actions → General*, scroll to "Workflow permissions,"
@@ -51,7 +59,7 @@ python resources.py            # curated stack + scan for new report PDFs
 python resources.py --no-scan  # curated stack only, no internet needed
 ```
 
-Then open `docs/index.html` or `docs/resources.html` in a browser.
+Then open `index.html` or `resources.html` in a browser.
 
 ## The Resources & Reports page
 

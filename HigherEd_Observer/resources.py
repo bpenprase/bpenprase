@@ -1,7 +1,7 @@
 """
 The New Universities Observatory - Resources & Reports builder
 ==============================================================
-Builds docs/resources.html: a curated stack of major reports on the
+Builds resources.html: a curated stack of major reports on the
 founding of new universities, plus a "newly detected" section filled by
 scanning the report-publishing pages of foundations, trackers, and
 agencies for new PDF links.
@@ -159,7 +159,7 @@ PDF_KEYWORDS = [
 ]
 
 SEEN_FILE = Path(__file__).parent / "seen_reports.json"
-OUTPUT = Path(__file__).parent / "docs" / "resources.html"
+OUTPUT = Path(__file__).parent / "resources.html"
 TEMPLATE = Path(__file__).parent / "template_resources.html"
 MAX_NEW = 20
 

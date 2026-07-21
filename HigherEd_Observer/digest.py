@@ -3,7 +3,7 @@ The New Universities Observatory - nightly digest builder
 =========================================================
 Fetches RSS feeds from higher-education news sources, sorts stories into
 five channels using keyword filters, and writes a static page to
-docs/index.html (which GitHub Pages serves).
+index.html in this folder (served by GitHub Pages).
 
 Run normally:      python digest.py
 Run with test data (no internet needed):  python digest.py --demo
@@ -136,7 +136,7 @@ TOPIC_TERMS = [
 
 DAYS_BACK = 7          # keep stories from the past week
 MAX_PER_CATEGORY = 8   # show at most this many per channel
-OUTPUT = Path(__file__).parent / "docs" / "index.html"
+OUTPUT = Path(__file__).parent / "index.html"
 TEMPLATE = Path(__file__).parent / "template.html"
 
 
