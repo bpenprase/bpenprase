@@ -66,6 +66,28 @@ FEEDS = [
     # NOTE: Al-Fanar Media, University Affairs (CA), EducationWorld
     # India, and Science|Business hard-block automated readers (403)
     # and were removed after testing.
+    # --- regional dailies that cover the watchlist institutions ---
+    # (confirmed feed addresses from the startup-university source study)
+    {"name": "TBS Education (Bangladesh)", "url": "https://www.tbsnews.net/bangladesh/education/rss.xml"},
+    {"name": "The Daily Star (Bangladesh)", "url": "https://www.thedailystar.net/rss.xml",
+     "watchlist_only": True},
+    {"name": "Business Standard Education (India)", "url": "https://www.business-standard.com/rss/education-108.rss",
+     "region": "india"},
+    {"name": "VietnamPlus",             "url": "https://en.vietnamplus.vn/rss/news.rss",
+     "watchlist_only": True},
+    {"name": "VnExpress International", "url": "https://e.vnexpress.net/rss/news.rss",
+     "watchlist_only": True},
+    {"name": "MyJoyOnline (Ghana)",     "url": "https://www.myjoyonline.com/feed/",
+     "watchlist_only": True},
+    # --- institutional newsrooms of startup universities; every story
+    #     routes to the Startups channel (unverified /feed/ addresses:
+    #     watch the log and delete any that come back blocked) ---
+    {"name": "Krea University News",    "url": "https://krea.edu.in/feed/", "assign": "startups"},
+    {"name": "Ashesi University News",  "url": "https://ashesi.edu.gh/feed/", "assign": "startups"},
+    {"name": "Fulbright Univ. Vietnam News", "url": "https://fulbright.edu.vn/feed/", "assign": "startups"},
+    {"name": "African Leadership Univ. News", "url": "https://alueducation.com/feed/", "assign": "startups"},
+    {"name": "Harrisburg Univ. News",   "url": "https://harrisburgu.edu/feed/", "assign": "startups"},
+    {"name": "Florida Poly News",       "url": "https://floridapoly.edu/feed/", "assign": "startups"},
     # NOTE: the World Bank blog no longer offers a readable feed; its
     # reports are tracked by resources.py on the biweekly sweep instead.
     # NOTE: University World News and Times Higher Education no longer
@@ -82,6 +104,37 @@ FEEDS = [
 # double. "min_score" is how many points a story needs to qualify.
 # The "color" is used by the page for the channel's spectrum band.
 # ---------------------------------------------------------------------------
+
+# Startup universities tracked by name (from the book chapter on
+# startup universities - institutions roughly 20 years old or less).
+# A story mentioning any of these goes straight to the Startups channel.
+WATCHLIST = [
+    # India
+    "ashoka university", "azim premji university", "krea university",
+    "plaksha university", "plaksha", "shiv nadar university",
+    "sai university", "mahindra university", "jindal global",
+    "ahmedabad university", "jio institute", "universal ai university",
+    # South and Southeast Asia
+    "habib university", "brac university", "asian university for women",
+    "parami university", "fulbright university vietnam",
+    "fulbright university",
+    # Africa
+    "ashesi", "african leadership university",
+    # China
+    "southern university of science and technology", "sustech",
+    "shanghaitech", "shenzhen technology university",
+    # United States
+    "minerva university", "olin college", "soka university",
+    "harrisburg university", "nevada state university",
+    "georgia gwinnett", "florida polytechnic", "florida poly",
+]
+
+
+def watchlist_hit(story):
+    """Return True when a story names a tracked startup university."""
+    text = (story["title"] + " " + story["summary"]).lower()
+    return any(keyword_present(name, text) for name in WATCHLIST)
+
 
 # Signals that a story is about building, changing, or founding
 # institutions - shared by the regional channels below.
@@ -124,6 +177,8 @@ CATEGORIES = [
             "will open", "set to open", "plans to open", "opens its doors",
             "new medical school", "new law school", "new engineering school",
             "announces new university", "announces new college",
+            "convocation", "young university", "founding class",
+            "residential college", "need-based",
         ],
     },
     {
@@ -331,6 +386,8 @@ def fetch_all_feeds():
                     "date": when,
                     "boost": feed.get("boost"),
                     "region": feed.get("region"),
+                    "assign": feed.get("assign"),
+                    "watchlist_only": feed.get("watchlist_only", False),
                 })
                 count += 1
             print(f"  ok       {feed['name']}: {count} recent stories")
@@ -381,6 +438,19 @@ def categorize(stories):
         seen_links.add(story["link"])
         title = story["title"].lower()
         if any(keyword_present(t, title) for t in NOISE_TERMS):
+            continue
+        # institutional newsrooms: every story is about the institution
+        if story.get("assign"):
+            story["score"] = 10
+            buckets[story["assign"]].append(story)
+            continue
+        # a story naming a tracked startup university goes to Startups
+        if watchlist_hit(story):
+            story["score"] = 10
+            buckets["startups"].append(story)
+            continue
+        # broad national feeds contribute watchlist stories only
+        if story.get("watchlist_only"):
             continue
         best, best_score = None, 0
         for category in CATEGORIES:
@@ -492,13 +562,18 @@ def demo_stories():
          "The new programme under the European Universities Initiative lets students assemble a single degree from partner campuses in Germany, France, and Spain."),
         ("Sixth Tone (China)", "New sino-foreign joint venture university breaks ground in Shenzhen",
          "The partnership brings a European engineering curriculum to China's Greater Bay Area, with a founding class planned for 2028."),
+        ("The Daily Star (Bangladesh)", "BRAC University hosts research day as summer cohort arrives",
+         "The university welcomed its newest students while faculty presented projects across disciplines."),
+        ("Krea University News", "Fifth convocation celebrates 477 graduates in Chennai",
+         "The ceremony marked the young university's largest graduating class to date."),
     ]
     return [{"title": t, "link": f"https://example.com/story-{i}", "summary": s,
              "source": src, "date": now - timedelta(hours=i * 5),
              "boost": "india" if "India" in src else None,
              "region": {"University Business": "us", "Wonkhe": "europe",
-                        "Sixth Tone (China)": "china",
-                        "EducationWorld India": "india"}.get(src)}
+                        "Sixth Tone (China)": "china"}.get(src),
+             "assign": "startups" if src == "Krea University News" else None,
+             "watchlist_only": src == "The Daily Star (Bangladesh)"}
             for i, (src, t, s) in enumerate(samples)]
 
 
