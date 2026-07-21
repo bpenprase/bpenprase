@@ -33,20 +33,35 @@ import feedparser
 # ---------------------------------------------------------------------------
 
 FEEDS = [
+    # --- verified working (from the first live run) ---
     {"name": "Inside Higher Ed",       "url": "https://www.insidehighered.com/rss.xml"},
     {"name": "Higher Ed Dive",         "url": "https://www.highereddive.com/feeds/news/"},
     {"name": "The PIE News",           "url": "https://thepienews.com/feed/"},
-    {"name": "University World News",  "url": "https://www.universityworldnews.com/rss.php"},
-    {"name": "Times Higher Education", "url": "https://www.timeshighereducation.com/feeds/rss/news"},
     {"name": "The Hechinger Report",   "url": "https://hechingerreport.org/feed/"},
     {"name": "The Guardian Higher Ed", "url": "https://www.theguardian.com/education/higher-education/rss"},
     {"name": "EdSurge",                "url": "https://www.edsurge.com/articles_rss"},
     {"name": "Higher Ed Strategy Assoc.", "url": "https://higheredstrategy.com/feed/"},
     {"name": "FULCRUM (ISEAS)",        "url": "https://fulcrum.sg/feed/"},
-    {"name": "Open Campus",            "url": "https://www.opencampus.org/feed/"},
-    {"name": "EducationWorld India",   "url": "https://educationworld.in/feed/", "boost": "india"},
-    {"name": "Science|Business",       "url": "https://sciencebusiness.net/rss.xml"},
-    {"name": "World Bank Education Blog", "url": "https://blogs.worldbank.org/en/education/rss"},
+    # --- replacements with confirmed feed addresses ---
+    # World Education News & Reviews: international ed, credential systems
+    {"name": "WENR (WES)",             "url": "https://wenr.wes.org/feed"},
+    # Arab higher education, incl. Gulf branch campuses
+    {"name": "Al-Fanar Media",         "url": "https://www.al-fanarmedia.org/feed/", "boost": "branch"},
+    # UK higher education policy analysis
+    {"name": "Wonkhe",                 "url": "https://wonkhe.com/feed/"},
+    # UK higher education policy think tank
+    {"name": "HEPI",                   "url": "https://www.hepi.ac.uk/category/blog/feed/"},
+    # Australia's tertiary education news (Australian branch campuses)
+    {"name": "Campus Review (AU)",     "url": "https://www.campusreview.com.au/feed/"},
+    # India's higher education coverage via a mainstream daily's feed
+    {"name": "Indian Express Education", "url": "https://indianexpress.com/section/education/feed/", "boost": "india"},
+    # World Bank education blog (alternate feed address - watch the log)
+    {"name": "World Bank Education Blog", "url": "https://blogs.worldbank.org/education/rss.xml"},
+    # NOTE: University World News and Times Higher Education no longer
+    # offer working public RSS feeds; read them via their free email
+    # newsletters instead. Open Campus, EducationWorld India, and
+    # Science|Business blocked or broke automated feed reads and were
+    # replaced by the sources above.
 ]
 
 # ---------------------------------------------------------------------------
@@ -189,22 +204,33 @@ def clean_text(raw):
     return re.sub(r"\s+", " ", text).strip()
 
 
+def keyword_present(kw, text):
+    """Match a keyword only at word boundaries, so short terms like 'tne'
+    cannot hide inside unrelated words (e.g. 'kindergartners', 'partner')."""
+    return re.search(r"\b" + re.escape(kw) + r"\b", text) is not None
+
+
 def score_story(story, category):
     """Keyword points: 2 for a headline match, 1 for a summary match."""
     title = story["title"].lower()
     summary = story["summary"].lower()
     score = 0
     for kw in category["keywords"]:
-        if kw in title:
+        if keyword_present(kw, title):
             score += 2
-        elif kw in summary:
-            score += 1
+        elif keyword_present(kw, summary):
+            # a multi-word phrase is a strong signal wherever it appears
+            score += 2 if " " in kw else 1
     return score
 
 
 def is_on_topic(story):
     text = (story["title"] + " " + story["summary"]).lower()
-    return any(term in text for term in TOPIC_TERMS)
+    # "universit" is a deliberate stem (university/universities), so it
+    # keeps plain substring matching; the rest use word boundaries.
+    return ("universit" in text
+            or any(keyword_present(term, text) for term in TOPIC_TERMS
+                   if term != "universit"))
 
 
 def categorize(stories):
