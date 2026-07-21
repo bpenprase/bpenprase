@@ -45,8 +45,6 @@ FEEDS = [
     # --- replacements with confirmed feed addresses ---
     # World Education News & Reviews: international ed, credential systems
     {"name": "WENR (WES)",             "url": "https://wenr.wes.org/feed"},
-    # Arab higher education, incl. Gulf branch campuses
-    {"name": "Al-Fanar Media",         "url": "https://www.al-fanarmedia.org/feed/", "boost": "branch"},
     # UK higher education policy analysis
     {"name": "Wonkhe",                 "url": "https://wonkhe.com/feed/", "region": "europe"},
     # UK higher education policy think tank
@@ -63,14 +61,11 @@ FEEDS = [
     {"name": "University Business",     "url": "https://universitybusiness.com/feed/", "region": "us"},
     # US campus technology and innovation
     {"name": "eCampus News",            "url": "https://www.ecampusnews.com/feed/", "region": "us"},
-    # Canadian higher education
-    {"name": "University Affairs (CA)", "url": "https://universityaffairs.ca/feed/"},
     # China coverage in English (watch the log; drop if it warns)
     {"name": "Sixth Tone (China)",      "url": "https://www.sixthtone.com/rss", "region": "china"},
-    # --- second chances now that the script identifies as a browser ---
-    {"name": "EducationWorld India",    "url": "https://educationworld.in/feed/",
-     "boost": "india", "region": "india"},
-    {"name": "Science|Business",        "url": "https://sciencebusiness.net/rss.xml", "region": "europe"},
+    # NOTE: Al-Fanar Media, University Affairs (CA), EducationWorld
+    # India, and Science|Business hard-block automated readers (403)
+    # and were removed after testing.
     # NOTE: the World Bank blog no longer offers a readable feed; its
     # reports are tracked by resources.py on the biweekly sweep instead.
     # NOTE: University World News and Times Higher Education no longer
@@ -98,7 +93,9 @@ INSTITUTION_SIGNALS = [
     "twinning", "merger", "charter", "accreditation", "founding",
     "launches", "launched", "opens", "breaks ground", "reform",
     "innovation", "innovative", "microcredential", "micro-credential",
-    "microcredentials", "artificial intelligence", "ai",
+    "microcredentials", "ai degree", "ai program", "ai curriculum",
+    "ai literacy", "ai in education", "ai in the classroom",
+    "teaching with ai", "artificial intelligence",
     "online learning", "curriculum", "liberal arts", "expansion",
     "partnership", "collaboration", "enrolment", "enrollment",
     "new degree program", "interdisciplinary", "project-based",
@@ -240,9 +237,13 @@ CATEGORIES = [
 
 # General relevance terms: the "reports" channel additionally requires one
 # of these, so that every routine "report" in the news does not flood it.
+# Deliberate stems, matched as substrings (each is long enough to be
+# unambiguous): "universit" catches university/universities, "college"
+# catches colleges, "student" catches students, and so on.
 TOPIC_TERMS = [
     "universit", "higher education", "tertiary", "college", "campus",
-    "transnational", "international education", "branch",
+    "transnational", "international education", "student", "faculty",
+    "degree", "academic", "curriculum", "enrolment", "enrollment",
 ]
 
 # A realistic browser identity; some sites block obvious bots.
@@ -367,11 +368,7 @@ def score_story(story, category):
 
 def is_on_topic(story):
     text = (story["title"] + " " + story["summary"]).lower()
-    # "universit" is a deliberate stem (university/universities), so it
-    # keeps plain substring matching; the rest use word boundaries.
-    return ("universit" in text
-            or any(keyword_present(term, text) for term in TOPIC_TERMS
-                   if term != "universit"))
+    return any(term in text for term in TOPIC_TERMS)
 
 
 def categorize(stories):
@@ -390,6 +387,8 @@ def categorize(stories):
             s = score_story(story, category)
             required = category.get("requires")
             if required:
+                if not is_on_topic(story):
+                    continue   # regional channels only take higher-ed stories
                 text = (story["title"] + " " + story["summary"]).lower()
                 geo_match = any(keyword_present(t, text) for t in required)
                 source_match = (story.get("region") is not None
