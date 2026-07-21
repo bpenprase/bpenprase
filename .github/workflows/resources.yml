@@ -1,0 +1,46 @@
+name: Biweekly resources sweep
+
+on:
+  schedule:
+    # 07:00 UTC on the 1st and 15th of each month (roughly every two weeks)
+    - cron: "0 7 1,15 * *"
+  workflow_dispatch: {}   # run it manually from the Actions tab any time
+
+permissions:
+  contents: write
+  actions: write
+
+defaults:
+  run:
+    working-directory: HigherEd_Observer
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Rebuild the resources page
+        run: python resources.py
+
+      - name: Commit the updated page
+        run: |
+          git config user.name "digest-bot"
+          git config user.email "digest-bot@users.noreply.github.com"
+          git add resources.html seen_reports.json
+          git commit -m "Resources sweep $(date -u +%Y-%m-%d)" || echo "No changes"
+          git push
+
+      - name: Trigger the Pages deployment
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --repo ${{ github.repository }}
