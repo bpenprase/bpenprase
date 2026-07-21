@@ -256,17 +256,49 @@ TEMPLATE = Path(__file__).parent / "template.html"
 # Fetching and scoring
 # ---------------------------------------------------------------------------
 
+def fetch_feed(url):
+    """Download a feed like a browser would, and repair it if needed."""
+    import requests
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Accept": ("application/rss+xml, application/atom+xml, "
+                   "application/xml;q=0.9, text/xml;q=0.9, */*;q=0.8"),
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": url.split("/feed")[0] if "/feed" in url else url,
+    }
+    resp = requests.get(url, headers=headers, timeout=30)
+    resp.raise_for_status()
+    content = resp.content
+    parsed = feedparser.parse(content)
+    if parsed.bozo and not parsed.entries:
+        # some feeds embed bytes XML forbids; strip them and retry once
+        cleaned = re.sub(rb"[\x00-\x08\x0b\x0c\x0e-\x1f]", b"", content)
+        parsed = feedparser.parse(cleaned)
+    return parsed, content
+
+
+def looks_like_challenge_page(content):
+    """True when a 'feed' is actually an HTML bot-check or error page."""
+    head = content[:600].lstrip().lower()
+    return head.startswith(b"<!doctype html") or head.startswith(b"<html")
+
+
 def fetch_all_feeds():
     """Download every feed; return a list of story dicts."""
     stories = []
     cutoff = datetime.now(timezone.utc) - timedelta(days=DAYS_BACK)
     for feed in FEEDS:
         try:
-            parsed = feedparser.parse(feed["url"], agent=USER_AGENT)
-            if parsed.bozo and not parsed.entries:
-                print(f"  WARNING  {feed['name']}: could not read feed "
-                      f"({parsed.get('bozo_exception', 'unknown error')})")
-                continue
+            parsed, content = fetch_feed(feed["url"])
+            if not parsed.entries:
+                if looks_like_challenge_page(content):
+                    print(f"  blocked  {feed['name']}: the site refuses "
+                          f"automated readers - safe to delete this feed line")
+                    continue
+                if parsed.bozo:
+                    print(f"  WARNING  {feed['name']}: could not read feed "
+                          f"({parsed.get('bozo_exception', 'unknown error')})")
+                    continue
             count = 0
             for entry in parsed.entries:
                 published = entry.get("published_parsed") or entry.get("updated_parsed")
