@@ -1,0 +1,46 @@
+name: Nightly digest
+
+on:
+  schedule:
+    # 06:00 UTC = 11:00 pm Pacific (during daylight time). Adjust as needed.
+    - cron: "0 6 * * *"
+  workflow_dispatch: {}   # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write         # allows the workflow to commit the updated page
+  actions: write          # allows it to trigger the Pages deployment afterward
+
+defaults:
+  run:
+    working-directory: HigherEd_Observer
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build tonight's digest
+        run: python digest.py
+
+      - name: Commit the updated page
+        run: |
+          git config user.name "digest-bot"
+          git config user.email "digest-bot@users.noreply.github.com"
+          git add index.html
+          git commit -m "Nightly sweep $(date -u +%Y-%m-%d)" || echo "No new stories tonight"
+          git push
+
+      - name: Trigger the Pages deployment
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --repo ${{ github.repository }}
