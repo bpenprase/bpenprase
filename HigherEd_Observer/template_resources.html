@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Resources &amp; Reports - The New Universities Observatory</title>
+<meta name="description" content="A curated stack of the most relevant long-form reports on the founding of new universities worldwide, refreshed every two weeks.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F4F6F8;
+    --ink:#1B2A4A;
+    --ink-soft:#4A5872;
+    --line:#D8DEE7;
+    --card:#FFFFFF;
+    --shelf:#6B5B95;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+  body{
+    background:var(--paper);color:var(--ink);
+    font-family:'Inter',system-ui,sans-serif;
+    font-size:16px;line-height:1.6;
+  }
+  a{color:inherit}
+  .wrap{max-width:880px;margin:0 auto;padding:0 24px}
+
+  .topnav{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12.5px;letter-spacing:.08em;
+    padding:20px 0 0;
+    display:flex;gap:22px;
+  }
+  .topnav a{text-decoration:none;color:var(--ink-soft);padding-bottom:3px}
+  .topnav a:hover{color:var(--ink)}
+  .topnav a[aria-current]{color:var(--ink);border-bottom:2px solid var(--shelf)}
+
+  .masthead{padding:40px 0 0}
+  .kicker{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--ink-soft);
+  }
+  h1{
+    font-family:'Spectral',serif;font-weight:700;
+    font-size:clamp(30px,5.4vw,48px);line-height:1.08;
+    margin:10px 0 18px;
+  }
+  .mission{
+    font-family:'Spectral',serif;
+    font-size:clamp(16px,2.3vw,19px);font-style:italic;
+    color:var(--ink-soft);max-width:64ch;margin-bottom:22px;
+  }
+  .sweep{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:13px;color:var(--ink-soft);margin-bottom:40px;
+  }
+  .sweep strong{color:var(--ink);font-weight:500}
+
+  /* the stack */
+  .stack{display:grid;gap:16px;margin-bottom:64px}
+  .report{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-left:4px solid var(--shelf);
+    border-radius:10px;
+    padding:20px 22px;
+  }
+  .report-meta{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11.5px;letter-spacing:.05em;color:var(--ink-soft);
+    margin-bottom:6px;
+  }
+  .kind{
+    border:1px solid var(--line);border-radius:4px;
+    padding:1px 6px;
+  }
+  .report h3{
+    font-family:'Spectral',serif;font-weight:600;
+    font-size:20px;line-height:1.3;margin-bottom:8px;
+  }
+  .report h3 a{text-decoration:none}
+  .report h3 a:hover{text-decoration:underline;text-underline-offset:3px}
+  .report-overview{font-size:14.5px;color:var(--ink-soft)}
+
+  /* newly detected */
+  .channel{margin-bottom:64px}
+  .channel-head{border-left:4px solid;padding-left:16px;margin-bottom:20px}
+  .channel-head h2{
+    font-family:'Spectral',serif;font-weight:600;
+    font-size:clamp(21px,3.2vw,26px);
+    display:flex;align-items:center;gap:10px;
+  }
+  .channel-mark{width:12px;height:12px;border-radius:50%;flex:none}
+  .channel-blurb{color:var(--ink-soft);font-size:14px;margin-top:4px}
+  .found-list{list-style:none;display:grid;gap:10px}
+  .found-list li{
+    background:var(--card);border:1px dashed var(--line);
+    border-radius:8px;padding:12px 16px;font-size:14.5px;
+  }
+  .found-src{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11.5px;color:var(--ink-soft);
+  }
+  .empty{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:13px;color:var(--ink-soft);
+    border:1px dashed var(--line);border-radius:10px;
+    padding:20px;margin-bottom:64px;
+  }
+
+  footer{
+    border-top:1px solid var(--line);
+    padding:30px 0 60px;
+    font-size:13.5px;color:var(--ink-soft);
+  }
+  footer p{max-width:70ch;margin-bottom:10px}
+</style>
+</head>
+<body>
+
+<nav class="topnav wrap" aria-label="Site">
+  <a href="index.html">Nightly Digest</a>
+  <a href="resources.html" aria-current="page">Resources &amp; Reports</a>
+</nav>
+
+<header class="masthead wrap">
+  <p class="kicker">Biweekly sweep &middot; {{DATE}}</p>
+  <h1>Resources &amp; Reports</h1>
+  <p class="mission">The reference shelf of the Observatory: the most relevant long-form
+  reports on the founding of new universities worldwide &mdash; from the World Bank, the
+  British Council, UNESCO, the branch-campus trackers, and the accreditors &mdash; each with
+  a short overview and a link to the full document.</p>
+  <p class="sweep"><strong>{{REPORT_COUNT}}</strong> reports on the shelf &middot; scanned
+  pages are re-swept every two weeks</p>
+</header>
+
+<main class="wrap">
+  <div class="stack">
+{{REPORTS}}
+  </div>
+{{NEW_SECTION}}
+</main>
+
+<footer class="wrap">
+  <p>The stack above is curated by hand. Every two weeks a script re-visits the report
+  pages of the organizations tracked here and lists any newly published PDF for review;
+  the keepers join the shelf. Reports remain the property of their publishers.</p>
+  <p><a href="index.html">Back to the nightly digest</a></p>
+</footer>
+
+</body>
+</html>

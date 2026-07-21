@@ -1,0 +1,340 @@
+"""
+The New Universities Observatory - nightly digest builder
+=========================================================
+Fetches RSS feeds from higher-education news sources, sorts stories into
+five channels using keyword filters, and writes a static page to
+docs/index.html (which GitHub Pages serves).
+
+Run normally:      python digest.py
+Run with test data (no internet needed):  python digest.py --demo
+
+Everything you might want to change is near the top:
+  FEEDS       - the news sources
+  CATEGORIES  - the five channels and their keywords
+  DAYS_BACK   - how many days of stories to keep
+  MAX_PER_CATEGORY - how many stories to show per channel
+"""
+
+import argparse
+import html
+import re
+import sys
+import time
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+
+import feedparser
+
+# ---------------------------------------------------------------------------
+# 1. SOURCES
+# Each feed has a short display name and its RSS url. If a feed stops
+# working the script just prints a warning and moves on, so it is always
+# safe to experiment - add a line, run it, and check the printed status.
+# ---------------------------------------------------------------------------
+
+FEEDS = [
+    {"name": "Inside Higher Ed",       "url": "https://www.insidehighered.com/rss.xml"},
+    {"name": "Higher Ed Dive",         "url": "https://www.highereddive.com/feeds/news/"},
+    {"name": "The PIE News",           "url": "https://thepienews.com/feed/"},
+    {"name": "University World News",  "url": "https://www.universityworldnews.com/rss.php"},
+    {"name": "Times Higher Education", "url": "https://www.timeshighereducation.com/feeds/rss/news"},
+    {"name": "The Hechinger Report",   "url": "https://hechingerreport.org/feed/"},
+    {"name": "The Guardian Higher Ed", "url": "https://www.theguardian.com/education/higher-education/rss"},
+    {"name": "EdSurge",                "url": "https://www.edsurge.com/articles_rss"},
+    {"name": "Higher Ed Strategy Assoc.", "url": "https://higheredstrategy.com/feed/"},
+    {"name": "FULCRUM (ISEAS)",        "url": "https://fulcrum.sg/feed/"},
+    {"name": "Open Campus",            "url": "https://www.opencampus.org/feed/"},
+    {"name": "EducationWorld India",   "url": "https://educationworld.in/feed/", "boost": "india"},
+    {"name": "Science|Business",       "url": "https://sciencebusiness.net/rss.xml"},
+    {"name": "World Bank Education Blog", "url": "https://blogs.worldbank.org/en/education/rss"},
+]
+
+# ---------------------------------------------------------------------------
+# 2. CHANNELS
+# A story is assigned to the channel whose keywords it matches best.
+# Keyword matching is case-insensitive; a match in the headline counts
+# double. "min_score" is how many points a story needs to qualify.
+# The "color" is used by the page for the channel's spectrum band.
+# ---------------------------------------------------------------------------
+
+CATEGORIES = [
+    {
+        "id": "startups",
+        "title": "New Startup Universities",
+        "blurb": "Institutions being founded from scratch - new charters, new campuses, new models.",
+        "color": "#0E7C7B",
+        "min_score": 2,
+        "keywords": [
+            "new university", "startup university", "start-up university",
+            "founding", "founded", "launches university", "new college",
+            "new institution", "charter", "opens its doors", "first cohort",
+            "inaugural class", "establish a university", "establishing a university",
+            "newly established", "greenfield",
+        ],
+    },
+    {
+        "id": "programs",
+        "title": "Innovative New Programs",
+        "blurb": "New degrees, schools, curricula, and experiments in how universities teach.",
+        "color": "#4356A5",
+        "min_score": 2,
+        "keywords": [
+            "new program", "new programme", "new degree", "new school of",
+            "new major", "launches degree", "microcredential", "micro-credential",
+            "curriculum overhaul", "new curriculum", "interdisciplinary",
+            "ai degree", "artificial intelligence program", "innovative program",
+            "pilot program", "honors college", "new institute",
+        ],
+    },
+    {
+        "id": "branch",
+        "title": "Branch Campuses",
+        "blurb": "US, European, and Australian universities crossing borders - transnational education worldwide.",
+        "color": "#B0762A",
+        "min_score": 2,
+        "keywords": [
+            "branch campus", "international campus", "overseas campus",
+            "transnational", "tne", "offshore campus", "campus in india",
+            "campus in vietnam", "campus in malaysia", "campus in indonesia",
+            "campus abroad", "gift city", "riyadh campus", "dubai campus",
+            "qatar campus", "foreign campus", "foreign university",
+            "joint campus", "satellite campus",
+        ],
+    },
+    {
+        "id": "india",
+        "title": "Innovation in Indian Higher Education",
+        "blurb": "The world's most dynamic market for new universities - policy, private growth, and foreign entry.",
+        "color": "#A63D57",
+        "min_score": 2,
+        "keywords": [
+            "india", "indian", "ugc", "national education policy", "nep 2020",
+            "iit", "gift city", "private university india", "deemed university",
+            "aicte", "naac",
+        ],
+    },
+    {
+        "id": "reports",
+        "title": "Important New Reports",
+        "blurb": "Major studies and reports offering a wide-angle view of the global landscape.",
+        "color": "#6B5B95",
+        "min_score": 3,
+        "keywords": [
+            "report", "study finds", "survey", "white paper", "outlook",
+            "analysis", "world bank", "unesco", "oecd", "british council",
+            "annual review", "year in review", "landscape", "publishes",
+        ],
+    },
+]
+
+# General relevance terms: the "reports" channel additionally requires one
+# of these, so that every routine "report" in the news does not flood it.
+TOPIC_TERMS = [
+    "universit", "higher education", "tertiary", "college", "campus",
+    "transnational", "international education", "branch",
+]
+
+DAYS_BACK = 7          # keep stories from the past week
+MAX_PER_CATEGORY = 8   # show at most this many per channel
+OUTPUT = Path(__file__).parent / "docs" / "index.html"
+TEMPLATE = Path(__file__).parent / "template.html"
+
+
+# ---------------------------------------------------------------------------
+# Fetching and scoring
+# ---------------------------------------------------------------------------
+
+def fetch_all_feeds():
+    """Download every feed; return a list of story dicts."""
+    stories = []
+    cutoff = datetime.now(timezone.utc) - timedelta(days=DAYS_BACK)
+    for feed in FEEDS:
+        try:
+            parsed = feedparser.parse(
+                feed["url"],
+                agent="Mozilla/5.0 (NewUniversitiesObservatory digest bot)")
+            if parsed.bozo and not parsed.entries:
+                print(f"  WARNING  {feed['name']}: could not read feed "
+                      f"({parsed.get('bozo_exception', 'unknown error')})")
+                continue
+            count = 0
+            for entry in parsed.entries:
+                published = entry.get("published_parsed") or entry.get("updated_parsed")
+                if published:
+                    when = datetime.fromtimestamp(time.mktime(published), tz=timezone.utc)
+                    if when < cutoff:
+                        continue
+                else:
+                    when = datetime.now(timezone.utc)
+                summary = clean_text(entry.get("summary", ""))
+                stories.append({
+                    "title": clean_text(entry.get("title", "Untitled")),
+                    "link": entry.get("link", ""),
+                    "summary": summary[:400],
+                    "source": feed["name"],
+                    "date": when,
+                    "boost": feed.get("boost"),
+                })
+                count += 1
+            print(f"  ok       {feed['name']}: {count} recent stories")
+        except Exception as err:  # noqa: BLE001 - keep the digest resilient
+            print(f"  WARNING  {feed['name']}: {err}")
+    return stories
+
+
+def clean_text(raw):
+    """Strip HTML tags and collapse whitespace."""
+    text = re.sub(r"<[^>]+>", " ", raw)
+    text = html.unescape(text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def score_story(story, category):
+    """Keyword points: 2 for a headline match, 1 for a summary match."""
+    title = story["title"].lower()
+    summary = story["summary"].lower()
+    score = 0
+    for kw in category["keywords"]:
+        if kw in title:
+            score += 2
+        elif kw in summary:
+            score += 1
+    return score
+
+
+def is_on_topic(story):
+    text = (story["title"] + " " + story["summary"]).lower()
+    return any(term in text for term in TOPIC_TERMS)
+
+
+def categorize(stories):
+    """Assign each story to its best-matching channel (or drop it)."""
+    buckets = {c["id"]: [] for c in CATEGORIES}
+    seen_links = set()
+    for story in stories:
+        if story["link"] in seen_links:
+            continue
+        seen_links.add(story["link"])
+        best, best_score = None, 0
+        for category in CATEGORIES:
+            s = score_story(story, category)
+            if story.get("boost") == category["id"] and s > 0:
+                s += 1   # stories from a source focused on this channel get a nudge
+            if category["id"] == "reports" and not is_on_topic(story):
+                s = 0
+            if s >= category["min_score"] and s > best_score:
+                best, best_score = category, s
+        if best:
+            story["score"] = best_score
+            buckets[best["id"]].append(story)
+    for cid in buckets:
+        buckets[cid].sort(key=lambda s: (s["date"]), reverse=True)
+        buckets[cid] = buckets[cid][:MAX_PER_CATEGORY]
+    return buckets
+
+
+# ---------------------------------------------------------------------------
+# Page rendering
+# ---------------------------------------------------------------------------
+
+def render(buckets, source_count):
+    template = TEMPLATE.read_text(encoding="utf-8")
+    total = sum(len(v) for v in buckets.values())
+    now = datetime.now(timezone.utc)
+
+    band = "".join(
+        f'<a class="band-seg" href="#{c["id"]}" style="background:{c["color"]}"'
+        f' title="{html.escape(c["title"])}"></a>'
+        for c in CATEGORIES
+    )
+
+    sections = []
+    for c in CATEGORIES:
+        items = buckets[c["id"]]
+        if items:
+            cards = "".join(
+                f'''<article class="story">
+  <p class="story-meta"><span class="dot" style="background:{c["color"]}"></span>'''
+                f'''{html.escape(s["source"])} &middot; {s["date"].strftime("%b %d")}</p>
+  <h3><a href="{html.escape(s["link"])}">{html.escape(s["title"])}</a></h3>
+  <p class="story-summary">{html.escape(s["summary"][:260])}{"&hellip;" if len(s["summary"]) > 260 else ""}</p>
+</article>'''
+                for s in items
+            )
+        else:
+            cards = ('<p class="empty">No stories matched this channel in the '
+                     'past week. The sweep continues tomorrow night.</p>')
+        sections.append(f'''<section id="{c["id"]}" class="channel">
+  <header class="channel-head" style="border-color:{c["color"]}">
+    <h2><span class="channel-mark" style="background:{c["color"]}"></span>{html.escape(c["title"])}</h2>
+    <p class="channel-blurb">{html.escape(c["blurb"])}</p>
+  </header>
+  <div class="stories">{cards}</div>
+</section>''')
+
+    page = (template
+            .replace("{{DATE}}", now.strftime("%A, %B %d, %Y"))
+            .replace("{{TIME}}", now.strftime("%H:%M UTC"))
+            .replace("{{STORY_COUNT}}", str(total))
+            .replace("{{SOURCE_COUNT}}", str(source_count))
+            .replace("{{BAND}}", band)
+            .replace("{{SECTIONS}}", "\n".join(sections)))
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT.write_text(page, encoding="utf-8")
+    print(f"\nWrote {OUTPUT} - {total} stories across {len(CATEGORIES)} channels.")
+
+
+# ---------------------------------------------------------------------------
+# Demo data so the page can be previewed without internet access
+# ---------------------------------------------------------------------------
+
+def demo_stories():
+    now = datetime.now(timezone.utc)
+    samples = [
+        ("The PIE News", "New university receives charter to open liberal arts campus in Ho Chi Minh City",
+         "The founding team says the new institution will enroll its first cohort in 2027, with a curriculum blending engineering and the liberal arts."),
+        ("University World News", "Government invites bids for three new startup universities in second-tier cities",
+         "The ministry's call marks the largest wave of greenfield institution founding in a decade, officials said."),
+        ("Times Higher Education", "Australian university confirms branch campus in Gujarat's GIFT City",
+         "The move extends the rapid growth of foreign campuses in India under the new transnational education rules."),
+        ("The PIE News", "US institution wins accreditor approval for Riyadh campus",
+         "The overseas campus will be the first of its kind in the kingdom and begins classes this fall."),
+        ("EducationWorld India", "Private university boom reaches districts beyond the metros",
+         "India's gross enrolment growth is drawing new entrants, with a dozen private universities chartered this year under state acts."),
+        ("Inside Higher Ed", "University launches AI degree built around studio apprenticeships",
+         "The new program replaces lectures with project studios, a model administrators call a test case for curriculum overhaul."),
+        ("Higher Ed Dive", "College debuts microcredential pathway stacking into a full degree",
+         "The new programme lets working adults assemble short credentials into a bachelor's over five years."),
+        ("World Bank Education Blog", "New report: steering tertiary education toward resilient systems",
+         "The World Bank's latest analysis of tertiary education outlines five principles for building university systems that deliver for all."),
+        ("Higher Ed Strategy Assoc.", "Year in review: the global landscape of new institutions",
+         "An annual report on higher education worldwide, including the surge of university founding across Asia."),
+    ]
+    return [{"title": t, "link": f"https://example.com/story-{i}", "summary": s,
+             "source": src, "date": now - timedelta(hours=i * 5),
+             "boost": "india" if "India" in src else None}
+            for i, (src, t, s) in enumerate(samples)]
+
+
+# ---------------------------------------------------------------------------
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--demo", action="store_true",
+                        help="build the page from sample data (no internet)")
+    args = parser.parse_args()
+
+    print("The New Universities Observatory - nightly sweep")
+    print("=" * 48)
+    if args.demo:
+        print("  (demo mode: using sample stories)")
+        stories = demo_stories()
+    else:
+        stories = fetch_all_feeds()
+    print(f"\nCollected {len(stories)} stories; filtering into channels...")
+    buckets = categorize(stories)
+    render(buckets, len(FEEDS))
+
+
+if __name__ == "__main__":
+    sys.exit(main())

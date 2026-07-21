@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The New Universities Observatory</title>
+<meta name="description" content="A nightly digest of the founding of new universities worldwide - startup institutions, branch campuses, and the reports that map the landscape.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F4F6F8;
+    --ink:#1B2A4A;
+    --ink-soft:#4A5872;
+    --line:#D8DEE7;
+    --card:#FFFFFF;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter',system-ui,sans-serif;
+    font-size:16px;
+    line-height:1.6;
+  }
+  a{color:inherit}
+  .wrap{max-width:880px;margin:0 auto;padding:0 24px}
+
+  .topnav{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12.5px;letter-spacing:.08em;
+    padding:20px 0 0;
+    display:flex;gap:22px;
+  }
+  .topnav a{text-decoration:none;color:var(--ink-soft);padding-bottom:3px}
+  .topnav a:hover{color:var(--ink)}
+  .topnav a[aria-current]{color:var(--ink);border-bottom:2px solid #0E7C7B}
+
+  /* ---------- masthead ---------- */
+  .masthead{padding:40px 0 0}
+  .kicker{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--ink-soft);
+  }
+  h1{
+    font-family:'Spectral',serif;
+    font-weight:700;
+    font-size:clamp(34px,6vw,56px);
+    line-height:1.08;
+    margin:10px 0 18px;
+  }
+  .mission{
+    font-family:'Spectral',serif;
+    font-size:clamp(17px,2.4vw,20px);
+    font-style:italic;
+    color:var(--ink-soft);
+    max-width:62ch;
+    margin-bottom:26px;
+  }
+  .sweep{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:13px;color:var(--ink-soft);
+    margin-bottom:14px;
+  }
+  .sweep strong{color:var(--ink);font-weight:500}
+
+  /* ---------- the spectrum band (signature) ---------- */
+  .band{display:flex;height:10px;border-radius:5px;overflow:hidden;margin-bottom:8px}
+  .band-seg{flex:1;display:block;transition:flex .25s ease}
+  .band-seg:hover,.band-seg:focus-visible{flex:2.4;outline:none}
+  .band-note{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;color:var(--ink-soft);letter-spacing:.06em;
+    margin-bottom:48px;
+  }
+
+  /* ---------- about ---------- */
+  .about{
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+    padding:26px 0;
+    margin-bottom:56px;
+    color:var(--ink-soft);
+    font-size:15px;
+    max-width:70ch;
+  }
+  .about b{color:var(--ink);font-weight:600}
+
+  /* ---------- channels ---------- */
+  .channel{margin-bottom:64px;scroll-margin-top:24px}
+  .channel-head{border-left:4px solid;padding-left:16px;margin-bottom:22px}
+  .channel-head h2{
+    font-family:'Spectral',serif;font-weight:600;
+    font-size:clamp(22px,3.4vw,28px);
+    display:flex;align-items:center;gap:10px;
+  }
+  .channel-mark{width:12px;height:12px;border-radius:50%;flex:none}
+  .channel-blurb{color:var(--ink-soft);font-size:14px;margin-top:4px}
+
+  .stories{display:grid;gap:14px}
+  .story{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:18px 20px;
+  }
+  .story-meta{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11.5px;letter-spacing:.05em;color:var(--ink-soft);
+    display:flex;align-items:center;gap:8px;margin-bottom:6px;
+  }
+  .dot{width:7px;height:7px;border-radius:50%;flex:none}
+  .story h3{
+    font-family:'Spectral',serif;font-weight:600;
+    font-size:19px;line-height:1.3;margin-bottom:6px;
+  }
+  .story h3 a{text-decoration:none}
+  .story h3 a:hover{text-decoration:underline;text-underline-offset:3px}
+  .story-summary{font-size:14px;color:var(--ink-soft)}
+  .empty{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:13px;color:var(--ink-soft);
+    border:1px dashed var(--line);border-radius:10px;padding:20px;
+  }
+
+  /* ---------- footer ---------- */
+  footer{
+    border-top:1px solid var(--line);
+    padding:30px 0 60px;
+    font-size:13.5px;color:var(--ink-soft);
+  }
+  footer p{max-width:70ch;margin-bottom:10px}
+  footer a{text-underline-offset:3px}
+</style>
+</head>
+<body>
+
+<nav class="topnav wrap" aria-label="Site">
+  <a href="index.html" aria-current="page">Nightly Digest</a>
+  <a href="resources.html">Resources &amp; Reports</a>
+</nav>
+
+<header class="masthead wrap">
+  <p class="kicker">Nightly sweep &middot; Tuesday, July 21, 2026</p>
+  <h1>The New Universities Observatory</h1>
+  <p class="mission">A global lens on the latest developments in the founding of new
+  universities &mdash; startup institutions built from scratch, branch campuses of US,
+  European, and Australian universities, and the reports that map the changing landscape
+  of higher education worldwide.</p>
+  <p class="sweep">Last sweep completed <strong>05:12 UTC</strong> &middot;
+  <strong>9</strong> stories selected from <strong>14</strong> sources</p>
+  <nav class="band" aria-label="Jump to a channel"><a class="band-seg" href="#startups" style="background:#0E7C7B" title="New Startup Universities"></a><a class="band-seg" href="#programs" style="background:#4356A5" title="Innovative New Programs"></a><a class="band-seg" href="#branch" style="background:#B0762A" title="Branch Campuses"></a><a class="band-seg" href="#india" style="background:#A63D57" title="Innovation in Indian Higher Education"></a><a class="band-seg" href="#reports" style="background:#6B5B95" title="Important New Reports"></a></nav>
+  <p class="band-note">each band is a channel &mdash; select one to jump to its stories</p>
+</header>
+
+<div class="about wrap">
+  <p>Every night this site scans the global higher-education press &mdash; from
+  <b>University World News</b> and <b>The PIE News</b> to <b>EducationWorld India</b> and the
+  <b>World Bank</b> &mdash; and sorts what it finds into five channels: new startup
+  universities, innovative new programs, branch campuses, innovation in Indian higher
+  education, and important new reports. The goal is a single morning read for anyone
+  researching how, where, and why new universities come into being.</p>
+</div>
+
+<main class="wrap">
+<section id="startups" class="channel">
+  <header class="channel-head" style="border-color:#0E7C7B">
+    <h2><span class="channel-mark" style="background:#0E7C7B"></span>New Startup Universities</h2>
+    <p class="channel-blurb">Institutions being founded from scratch - new charters, new campuses, new models.</p>
+  </header>
+  <div class="stories"><article class="story">
+  <p class="story-meta"><span class="dot" style="background:#0E7C7B"></span>The PIE News &middot; Jul 21</p>
+  <h3><a href="https://example.com/story-0">New university receives charter to open liberal arts campus in Ho Chi Minh City</a></h3>
+  <p class="story-summary">The founding team says the new institution will enroll its first cohort in 2027, with a curriculum blending engineering and the liberal arts.</p>
+</article><article class="story">
+  <p class="story-meta"><span class="dot" style="background:#0E7C7B"></span>University World News &middot; Jul 21</p>
+  <h3><a href="https://example.com/story-1">Government invites bids for three new startup universities in second-tier cities</a></h3>
+  <p class="story-summary">The ministry&#x27;s call marks the largest wave of greenfield institution founding in a decade, officials said.</p>
+</article></div>
+</section>
+<section id="programs" class="channel">
+  <header class="channel-head" style="border-color:#4356A5">
+    <h2><span class="channel-mark" style="background:#4356A5"></span>Innovative New Programs</h2>
+    <p class="channel-blurb">New degrees, schools, curricula, and experiments in how universities teach.</p>
+  </header>
+  <div class="stories"><article class="story">
+  <p class="story-meta"><span class="dot" style="background:#4356A5"></span>Inside Higher Ed &middot; Jul 20</p>
+  <h3><a href="https://example.com/story-5">University launches AI degree built around studio apprenticeships</a></h3>
+  <p class="story-summary">The new program replaces lectures with project studios, a model administrators call a test case for curriculum overhaul.</p>
+</article><article class="story">
+  <p class="story-meta"><span class="dot" style="background:#4356A5"></span>Higher Ed Dive &middot; Jul 19</p>
+  <h3><a href="https://example.com/story-6">College debuts microcredential pathway stacking into a full degree</a></h3>
+  <p class="story-summary">The new programme lets working adults assemble short credentials into a bachelor&#x27;s over five years.</p>
+</article></div>
+</section>
+<section id="branch" class="channel">
+  <header class="channel-head" style="border-color:#B0762A">
+    <h2><span class="channel-mark" style="background:#B0762A"></span>Branch Campuses</h2>
+    <p class="channel-blurb">US, European, and Australian universities crossing borders - transnational education worldwide.</p>
+  </header>
+  <div class="stories"><article class="story">
+  <p class="story-meta"><span class="dot" style="background:#B0762A"></span>Times Higher Education &middot; Jul 20</p>
+  <h3><a href="https://example.com/story-2">Australian university confirms branch campus in Gujarat&#x27;s GIFT City</a></h3>
+  <p class="story-summary">The move extends the rapid growth of foreign campuses in India under the new transnational education rules.</p>
+</article><article class="story">
+  <p class="story-meta"><span class="dot" style="background:#B0762A"></span>The PIE News &middot; Jul 20</p>
+  <h3><a href="https://example.com/story-3">US institution wins accreditor approval for Riyadh campus</a></h3>
+  <p class="story-summary">The overseas campus will be the first of its kind in the kingdom and begins classes this fall.</p>
+</article></div>
+</section>
+<section id="india" class="channel">
+  <header class="channel-head" style="border-color:#A63D57">
+    <h2><span class="channel-mark" style="background:#A63D57"></span>Innovation in Indian Higher Education</h2>
+    <p class="channel-blurb">The world&#x27;s most dynamic market for new universities - policy, private growth, and foreign entry.</p>
+  </header>
+  <div class="stories"><article class="story">
+  <p class="story-meta"><span class="dot" style="background:#A63D57"></span>EducationWorld India &middot; Jul 20</p>
+  <h3><a href="https://example.com/story-4">Private university boom reaches districts beyond the metros</a></h3>
+  <p class="story-summary">India&#x27;s gross enrolment growth is drawing new entrants, with a dozen private universities chartered this year under state acts.</p>
+</article></div>
+</section>
+<section id="reports" class="channel">
+  <header class="channel-head" style="border-color:#6B5B95">
+    <h2><span class="channel-mark" style="background:#6B5B95"></span>Important New Reports</h2>
+    <p class="channel-blurb">Major studies and reports offering a wide-angle view of the global landscape.</p>
+  </header>
+  <div class="stories"><article class="story">
+  <p class="story-meta"><span class="dot" style="background:#6B5B95"></span>World Bank Education Blog &middot; Jul 19</p>
+  <h3><a href="https://example.com/story-7">New report: steering tertiary education toward resilient systems</a></h3>
+  <p class="story-summary">The World Bank&#x27;s latest analysis of tertiary education outlines five principles for building university systems that deliver for all.</p>
+</article><article class="story">
+  <p class="story-meta"><span class="dot" style="background:#6B5B95"></span>Higher Ed Strategy Assoc. &middot; Jul 19</p>
+  <h3><a href="https://example.com/story-8">Year in review: the global landscape of new institutions</a></h3>
+  <p class="story-summary">An annual report on higher education worldwide, including the surge of university founding across Asia.</p>
+</article></div>
+</section>
+</main>
+
+<footer class="wrap">
+  <p>Built automatically each night with Python and GitHub Actions. Stories are selected
+  by keyword filters from the RSS feeds of the sources above; headlines link to the
+  original reporting, which remains the property of its publishers.</p>
+  <p>Companion to a research project on global higher education innovation.
+  Source guide and methodology available on request.</p>
+</footer>
+
+</body>
+</html>
