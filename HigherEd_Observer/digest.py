@@ -197,9 +197,12 @@ WATCHLIST = [
     "academic city university", "atria university", "botho university",
     "london interdisciplinary school", "madan bhandari university",
     "nigerian university of technology and management",
-    "universidad de la libertad", "mohammed vi polytechnic",
-    "university of doha", "zamorano university", "code university",
-    "ozyegin university",
+    "universidad de la libertad", "mohammed vi polytechnic", "um6p",
+    "university of doha", "udst", "zamorano university",
+    "escuela agricola panamericana", "code university",
+    "ozyegin university", "özyeğin university",
+    # acronyms and variants confirmed distinctive by the census
+    "bracu", "nutm", "invision university", "mbust",
 ]
 
 
