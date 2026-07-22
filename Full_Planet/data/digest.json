@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-21T09:49:31.887611+00:00",
-  "generated_human": "21 July 2026, 09:49 UTC",
-  "total_items": 129,
+  "generated": "2026-07-22T09:48:31.316931+00:00",
+  "generated_human": "22 July 2026, 09:48 UTC",
+  "total_items": 134,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "Advancing next-gen AI with materials science innovation",
+          "link": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/",
+          "source": "MIT Technology Review",
+          "summary": "The conversation about AI often centers on algorithms, computing power, or huge investments in new semiconductor fabrication plants and hyperscale data centers.",
+          "published": "2026-07-21T10:37:34+00:00",
+          "regional": false
+        },
         {
           "title": "This AI Folds DNA Into Mini Masterpieces",
           "link": "https://spectrum.ieee.org/ai-dna-origami",
@@ -55,6 +63,14 @@
           "source": "The Korea Herald",
           "summary": "LG AI Research on Monday launched a global artificial intelligence ethics massive open online course, or MOOC, in partnership with the Korean National Commission for UNESCO, to promote responsible AI development and use…",
           "published": "2026-07-20T06:31:12+00:00",
+          "regional": true
+        },
+        {
+          "title": "Samsung, SK hynix push new memory layer as AI outgrows HBM alone",
+          "link": "https://www.koreaherald.com/article/10813898",
+          "source": "The Korea Herald",
+          "summary": "Samsung Electronics and SK hynix are moving to commercialize a new class of memory that adds an extra layer to artificial intelligence systems as the industry hits the limits of simply stacking more high-bandwidth…",
+          "published": "2026-07-20T06:19:08+00:00",
           "regional": true
         },
         {
@@ -112,14 +128,6 @@
           "summary": "Robbyant, the embodied artificial intelligence arm of Chinese fintech giant Ant Group, launched a new vision model that it claims can help robots overcome a long-standing challenge: accurately perceiving glass, mirrors…",
           "published": "2026-07-07T11:30:31+00:00",
           "regional": true
-        },
-        {
-          "title": "ByteDance and Alibaba to disable humanlike AI custom agents as new rules loom",
-          "link": "https://www.scmp.com/tech/big-tech/article/3359482/bytedance-and-alibaba-disable-humanlike-ai-custom-agents-new-rules-loom?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Two of China’s major consumer-facing artificial intelligence apps, ByteDance’s Doubao and Alibaba Group Holding’s Qwen, are moving to disable customised agent features, as new rules on humanlike AI interaction services…",
-          "published": "2026-07-05T11:32:53+00:00",
-          "regional": true
         }
       ]
     },
@@ -129,6 +137,22 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "New programmable photonic chip can control how fast light moves",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260718010149.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have created a programmable optical chip that can slow light on demand, giving engineers far greater control over how optical signals propagate through a circuit.",
+          "published": "2026-07-22T02:43:34+00:00",
+          "regional": false
+        },
+        {
+          "title": "Mesmerizing NASA time-lapse reveals Mars’s craters, polar ice caps and deserts",
+          "link": "https://www.scientificamerican.com/article/mesmerizing-nasa-timelapse-reveals-mars-craters-polar-ice-caps-and-deserts/",
+          "source": "Scientific American",
+          "summary": "The Psyche spacecraft flew by Mars earlier this year on its way to a metal-rich asteroid, capturing the images along the way",
+          "published": "2026-07-21T19:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "Going with the flow: Renewable energy battery breakthrough",
           "link": "https://www.bbc.co.uk/news/articles/c3dyd4l8250o?at_medium=RSS&at_campaign=rss",
@@ -186,14 +210,6 @@
           "regional": false
         },
         {
-          "title": "How a 1,900-year-old latrine helps explain why Roman concrete lasts",
-          "link": "https://www.scientificamerican.com/article/how-a-1-900-year-old-latrine-helps-explain-why-roman-concrete-lasts/",
-          "source": "Scientific American",
-          "summary": "An ancient sample shows calcite threading through this material’s cracks and pores, offering possible lessons for making modern concrete last longer",
-          "published": "2026-07-11T15:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "This electric field trick boosted heat flow by nearly 300%",
           "link": "https://www.sciencedaily.com/releases/2026/07/260709160651.htm",
           "source": "ScienceDaily",
@@ -242,6 +258,38 @@
           "regional": false
         },
         {
+          "title": "Science Quiz: Exceptional gases",
+          "link": "https://www.thehindu.com/sci-tech/science/science-quiz-exceptional-gases/article71252484.ece",
+          "source": "The Hindu",
+          "summary": "A quiz on chemistry’s dangerous molecules",
+          "published": "2026-07-22T07:10:08+00:00",
+          "regional": true
+        },
+        {
+          "title": "Retail investors pile back into US equities",
+          "link": "https://www.koreaherald.com/article/10816670",
+          "source": "The Korea Herald",
+          "summary": "South Korean retail investors are returning to US equities, ramping up purchases of semiconductor stocks and benchmark exchange-traded funds as the won strengthens and the Kospi rally loses steam.",
+          "published": "2026-07-22T06:33:05+00:00",
+          "regional": true
+        },
+        {
+          "title": "LG Energy Solution revives Ohio battery plant amid EV recovery",
+          "link": "https://www.koreaherald.com/article/10816466",
+          "source": "The Korea Herald",
+          "summary": "LG Energy Solution is preparing to restart production at its Ohio battery plant with General Motors after a six-month shutdown, as signs of a recovery in global electric vehicle demand improve the outlook for the…",
+          "published": "2026-07-22T04:44:17+00:00",
+          "regional": true
+        },
+        {
+          "title": "Seoul stocks open sharply higher on continued chip rebound",
+          "link": "https://www.koreaherald.com/article/10815889",
+          "source": "The Korea Herald",
+          "summary": "South Korean stocks opened sharply higher Wednesday on semiconductors as investors closely wait for the upcoming earnings release from big tech companies.",
+          "published": "2026-07-22T00:35:52+00:00",
+          "regional": true
+        },
+        {
           "title": "BlackRock expands bets on Korea's KAI, EcoPro",
           "link": "https://www.koreaherald.com/article/10815271",
           "source": "The Korea Herald",
@@ -258,22 +306,6 @@
           "regional": true
         },
         {
-          "title": "Entry-level chip hiring jumps 47% in AI boom",
-          "link": "https://www.koreaherald.com/article/10813473",
-          "source": "The Korea Herald",
-          "summary": "JobKorea said Monday that entry-level hiring in South Korea's semiconductor industry surged in the first half of the year, reflecting robust demand for talent as the AI-driven chip boom continues.",
-          "published": "2026-07-20T02:09:13+00:00",
-          "regional": true
-        },
-        {
-          "title": "Seoul stocks open lower on chip rout, escalating Iran tensions",
-          "link": "https://www.koreaherald.com/article/10813228",
-          "source": "The Korea Herald",
-          "summary": "Seoul stocks opened lower Monday, led by declines in major semiconductor makers, amid the escalating Middle East tensions.",
-          "published": "2026-07-20T00:41:19+00:00",
-          "regional": true
-        },
-        {
           "title": "JBL Live 780 NC review: 80 hours of battery life, zero compromise on sound",
           "link": "https://indianexpress.com/article/technology/tech-reviews/jbl-live-780-nc-review-battery-life-sound-quality-10793396/",
           "source": "Indian Express",
@@ -282,27 +314,11 @@
           "regional": true
         },
         {
-          "title": "Why scientists watched a gene hop from a predator into its prey",
-          "link": "https://www.thehindu.com/sci-tech/science/why-scientists-watched-a-gene-hop-from-a-predator-into-its-prey/article71220657.ece",
-          "source": "The Hindu",
-          "summary": "Jumping genes are responsible for the spread of antibiotic resistance and in the development of many cancers. Scientists are also studying circular RNA molecules, like the one derived from the jumping intron, as next…",
-          "published": "2026-07-19T05:23:49+00:00",
-          "regional": true
-        },
-        {
           "title": "How protein biosensors can shrink the timeline of medical emergencies",
           "link": "https://www.thehindu.com/sci-tech/science/how-protein-biosensors-can-shrink-the-timeline-of-medical-emergencies/article71221365.ece",
           "source": "The Hindu",
           "summary": "Proteins are important diagnostic targets because they are involved in almost every biological process; over the last two decades, scientists have developed aptamers for hundreds of disease-relevant proteins and have…",
           "published": "2026-07-15T07:21:39+00:00",
-          "regional": true
-        },
-        {
-          "title": "Material filters tritium from nuclear wastewater at record speed",
-          "link": "https://www.thehindu.com/sci-tech/science/new-mesh-filters-tritium-from-nuclear-wastewater-at-record-speed/article71216070.ece",
-          "source": "The Hindu",
-          "summary": "The research team, from across China, achieved this using a metal-organic framework, work on which won the Nobel Prize for chemistry last year",
-          "published": "2026-07-13T05:31:02+00:00",
           "regional": true
         },
         {
@@ -378,6 +394,22 @@
       "accent": "#33C6D6",
       "items": [
         {
+          "title": "UK's largest wind farm to be rebuilt with fewer, larger turbines",
+          "link": "https://www.bbc.co.uk/news/articles/cvgl9vp4vqvo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Whitelee Windfarm has been producing electricity for about 20 years on a stretch of moorland near Eaglesham but is reaching the end of its life.",
+          "published": "2026-07-22T09:28:47+00:00",
+          "regional": false
+        },
+        {
+          "title": "Nextpower closes Prevalon acquisition, inches closer to world domination",
+          "link": "https://www.renewableenergyworld.com/energy-business/nextpower-closes-prevalon-acquisition-inches-closer-to-world-domination/",
+          "source": "Renewable Energy World",
+          "summary": "Nextpower has completed its previously announced acquisition of utility-scale battery energy storage system company Prevalon Energy, formally marking its entry into the storage market.",
+          "published": "2026-07-21T14:47:14+00:00",
+          "regional": false
+        },
+        {
           "title": "As Colorado River and tributaries shrink, a public power system frays",
           "link": "https://www.renewableenergyworld.com/hydro-power/as-colorado-river-and-tributaries-shrink-a-public-power-system-frays/",
           "source": "Renewable Energy World",
@@ -450,6 +482,14 @@
           "regional": false
         },
         {
+          "title": "LG Energy Solution revives Ohio battery plant amid EV recovery",
+          "link": "https://www.koreaherald.com/article/10816466",
+          "source": "The Korea Herald",
+          "summary": "LG Energy Solution is preparing to restart production at its Ohio battery plant with General Motors after a six-month shutdown, as signs of a recovery in global electric vehicle demand improve the outlook for the…",
+          "published": "2026-07-22T04:44:17+00:00",
+          "regional": true
+        },
+        {
           "title": "BlackRock expands bets on Korea's KAI, EcoPro",
           "link": "https://www.koreaherald.com/article/10815271",
           "source": "The Korea Herald",
@@ -487,14 +527,6 @@
           "source": "The Hindu",
           "summary": "Instead of briefly and intensely spiking the strength of currents in a New Zealand power grid, a geomagnetic storm in 2015 was found to have ramped up induced currents over 90 minutes",
           "published": "2026-07-17T05:11:56+00:00",
-          "regional": true
-        },
-        {
-          "title": "Constant hydrogen generation from high-level radioactive liquid waste measured",
-          "link": "https://sj.jst.go.jp/news/202607/n0716-01k.html",
-          "source": "Science Japan",
-          "summary": "A research group including Researcher Tomohiro Toigawa and Leader Yuta Kumagai of the Research Group for Nuclear Chemistry, Nuclear Science and Engineering Center, Japan Atomic Energy Agency (JAEA), in collaboration…",
-          "published": "2026-07-16T05:59:31+00:00",
           "regional": true
         },
         {
@@ -538,35 +570,27 @@
       "accent": "#F0894E",
       "items": [
         {
-          "title": "NASA Sets Briefings for SpaceX Crew-13 Mission to Space Station",
-          "link": "https://www.nasa.gov/news-release/nasa-sets-briefings-for-spacex-crew-13-mission-to-space-station/",
+          "title": "NASA to Host Media Briefing on Roman Telescope, Launching Next Month",
+          "link": "https://www.nasa.gov/news-release/nasa-to-host-media-briefing-on-roman-telescope-launching-next-month/",
           "source": "NASA",
-          "summary": "NASA and its partners will discuss the upcoming crew rotation mission to the International Space Station during a pair of news conferences on Monday, Aug. 3, from the agency’s Johnson Space Center in Houston.",
-          "published": "2026-07-20T20:00:52+00:00",
+          "summary": "Media are invited to join NASA for a virtual news conference at 2 p.m. EDT, Wednesday, July 29, to preview the Nancy Grace Roman Space Telescope mission, scheduled to launch from the agency’s Kennedy Space Center in…",
+          "published": "2026-07-21T20:07:59+00:00",
           "regional": false
         },
         {
-          "title": "New NASA Earth Missions Gear Up to Start Science Flights",
-          "link": "https://science.nasa.gov/earth/new-nasa-earth-missions-gear-up-to-start-science-flights/",
-          "source": "NASA",
-          "summary": "The first of six new airborne campaigns will hit the skies this summer.",
-          "published": "2026-07-20T18:25:11+00:00",
+          "title": "Mesmerizing NASA time-lapse reveals Mars’s craters, polar ice caps and deserts",
+          "link": "https://www.scientificamerican.com/article/mesmerizing-nasa-timelapse-reveals-mars-craters-polar-ice-caps-and-deserts/",
+          "source": "Scientific American",
+          "summary": "The Psyche spacecraft flew by Mars earlier this year on its way to a metal-rich asteroid, capturing the images along the way",
+          "published": "2026-07-21T19:00:00+00:00",
           "regional": false
         },
         {
-          "title": "From Hampton to Mars: How NASA Langley Helped Land on the Red Planet",
-          "link": "https://www.nasa.gov/general/from-hampton-to-mars-how-nasa-langley-helped-land-on-the-red-planet/",
+          "title": "US-India Satellite Delivers Data, Reveals ‘Hummingbird’ in Antarctica",
+          "link": "https://www.nasa.gov/missions/nisar/us-india-satellite-delivers-data-reveals-hummingbird-in-antarctica/",
           "source": "NASA",
-          "summary": "Fifty years ago, NASA’s Viking 1 and 2 landers made the first successful landings on Mars, opening a new era in planetary exploration.",
-          "published": "2026-07-20T15:47:15+00:00",
-          "regional": false
-        },
-        {
-          "title": "Our First View of the Surface of Mars",
-          "link": "https://www.nasa.gov/image-article/our-first-view-of-the-surface-of-mars/",
-          "source": "NASA",
-          "summary": "“Touchdown, we have touchdown!” At 5:12 a.m. PDT, July 20, 1976, mission controllers at NASA’s Jet Propulsion Laboratory erupted in cheers as they learned that the Viking 1 lander had survived its descent through the…",
-          "published": "2026-07-20T15:38:29+00:00",
+          "summary": "As of July 20, the public can access data from the two powerful radar instruments aboard the NISAR (NASA-ISRO Synthetic Aperture Radar) satellite.",
+          "published": "2026-07-21T18:14:52+00:00",
           "regional": false
         },
         {
@@ -591,14 +615,6 @@
           "source": "BBC Science",
           "summary": "India's first space-tech unicorn Skyroot Aerospace successfully launched Vikram-1 on Saturday.",
           "published": "2026-07-18T07:05:19+00:00",
-          "regional": false
-        },
-        {
-          "title": "The Growing Crescent of Mars as NASA’s Psyche Mission Approaches",
-          "link": "https://science.nasa.gov/photojournal/the-growing-crescent-of-mars-as-nasas-psyche-mission-approaches/",
-          "source": "NASA",
-          "summary": "Description This composite of images taken by NASA’s Psyche mission shows the crescent of Mars grow as the spacecraft approached the planet for a gravity assist from May 2 to May 15, 2026.",
-          "published": "2026-07-17T22:32:27+00:00",
           "regional": false
         },
         {
@@ -639,6 +655,30 @@
           "source": "ScienceDaily",
           "summary": "NASA's James Webb Space Telescope has revealed new details about the blistering lava planet 55 Cancri e, where temperatures are high enough to melt rock.",
           "published": "2026-07-16T03:19:50+00:00",
+          "regional": false
+        },
+        {
+          "title": "SpaceX share price drops below stock market debut",
+          "link": "https://www.bbc.co.uk/news/articles/clyl33q0yl0o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Share trading in Elon Musk’s rocket company has been volatile since it went public a month ago.",
+          "published": "2026-07-15T18:11:57+00:00",
+          "regional": false
+        },
+        {
+          "title": "See the first x-rays of humans taken in space",
+          "link": "https://www.scientificamerican.com/article/see-the-first-x-rays-of-humans-taken-in-space/",
+          "source": "Scientific American",
+          "summary": "Equipping spacecraft with x-ray machines could boost safety for long-duration spaceflights—like a crewed mission to Mars",
+          "published": "2026-07-15T13:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Metallic waves on ancient Mars",
+          "link": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Metallic_waves_on_ancient_Mars",
+          "source": "ESA",
+          "summary": "The European Space Agency’s Mars Express has spotted a swathe of metallic-looking waves filling Mars’s large Kaiser Crater – an ancient and otherworldly dune field sculpted by wind.",
+          "published": "2026-07-15T09:00:00+00:00",
           "regional": false
         },
         {
@@ -690,14 +730,6 @@
           "regional": false
         },
         {
-          "title": "China’s Long March 10B rocket successfully launches—and lands—in a global spaceflight milestone",
-          "link": "https://www.scientificamerican.com/article/chinas-long-march-10b-rocket-successfully-launches-and-lands-in-a-global-spaceflight-milestone/",
-          "source": "Scientific American",
-          "summary": "The inaugural launch and first-stage booster recovery of China’s Long March 10B rocket intensifies the nation’s spaceflight rivalry with the U.S.",
-          "published": "2026-07-10T17:10:00+00:00",
-          "regional": false
-        },
-        {
           "title": "This Mars rover could finally reveal whether life ever existed on Mars",
           "link": "https://www.sciencedaily.com/releases/2026/07/260707025051.htm",
           "source": "ScienceDaily",
@@ -728,6 +760,22 @@
           "summary": "Every space mission has two crews: one in space and one on Earth. While ESA astronaut Sophie Adenot carries out experiments and daily tasks aboard the International Space Station, teams across Europe are working to…",
           "published": "2026-07-02T14:54:00+00:00",
           "regional": false
+        },
+        {
+          "title": "Space Exploration Day | Meet the parts that make space exploration possible",
+          "link": "https://www.thehindu.com/children/what-makes-space-exploration-possible/article71243820.ece",
+          "source": "The Hindu",
+          "summary": "Every space mission is a team effort. Beyond the rocket and astronauts, specialised parts like launch vehicles, orbiters, landers and rovers work together to explore space. Here’s what each one does.",
+          "published": "2026-07-22T04:48:46+00:00",
+          "regional": true
+        },
+        {
+          "title": "What makes Skyroot’s Vikram-1 launch unique? | Explained",
+          "link": "https://www.thehindu.com/sci-tech/science/what-makes-skyroots-vikram-1-launch-unique-explained/article71237592.ece",
+          "source": "The Hindu",
+          "summary": "Skyroot’s Vikram-1 has made India only the third country where a private company has independently placed payloads in orbit. Here’s what makes the mission significant",
+          "published": "2026-07-21T06:48:00+00:00",
+          "regional": true
         },
         {
           "title": "Vikram-1, country’s first private orbital-class rocket, successfully places tech payloads, postcards into orbit",
@@ -786,27 +834,11 @@
           "regional": true
         },
         {
-          "title": "Space junk cloud discovered in key satellite orbit raises collision concerns",
-          "link": "https://indianexpress.com/article/technology/science/space-junk-cloud-discovered-in-key-satellite-orbit-raise-collision-concerns-10787053/",
-          "source": "Indian Express",
-          "summary": "",
-          "published": "2026-07-15T05:13:51+00:00",
-          "regional": true
-        },
-        {
           "title": "Nasa's Anil Menon, two Russians blast off for 8-month International Space Station mission",
           "link": "https://www.thehindu.com/sci-tech/science/nasas-anil-menon-two-russians-blast-off-for-8-month-international-space-station-mission/article71222648.ece",
           "source": "The Hindu",
           "summary": "Mr. Menon will \"conduct scientific research and technology demonstrations aimed at advancing human space exploration and benefiting life on Earth,\" according to NASA",
           "published": "2026-07-14T17:18:10+00:00",
-          "regional": true
-        },
-        {
-          "title": "U.S. regulator green-lights mission to launch giant mirror to orbit",
-          "link": "https://www.thehindu.com/sci-tech/science/us-regulator-green-lights-mission-to-launch-giant-mirror-to-orbit/article71213314.ece",
-          "source": "The Hindu",
-          "summary": "Eärendil-1 — named for a character in the Tolkien fantasy epic ‘The Silmarillion’ — will be a single satellite in a non-geostationary orbit",
-          "published": "2026-07-12T06:31:03+00:00",
           "regional": true
         }
       ]
@@ -817,6 +849,38 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "Astrophotography: Picturing Galaxies",
+          "link": "https://skyandtelescope.org/astronomy-resources/astrophotography-picturing-galaxies/",
+          "source": "Sky & Telescope",
+          "summary": "Here are some tips to get the most out of your galaxy images. The post Astrophotography: Picturing Galaxies appeared first on Sky & Telescope .",
+          "published": "2026-07-21T17:10:36+00:00",
+          "regional": false
+        },
+        {
+          "title": "Rare double supernova discovered hiding in Jellyfish Nebula",
+          "link": "https://www.scientificamerican.com/article/rare-double-supernova-discovered-hiding-in-jellyfish-nebula/",
+          "source": "Scientific American",
+          "summary": "For the first time ever, astronomers have found two sibling stars that each exploded as a supernova, giving us a new view of these epochal cosmic cataclysms",
+          "published": "2026-07-21T15:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Astronomers find the first atmosphere on a rocky world in the habitable zone",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260721000825.htm",
+          "source": "ScienceDaily",
+          "summary": "Astronomers have found the first confirmed atmosphere around a rocky planet in another star’s habitable zone. The planet, LHS 1140 b, revealed its atmosphere through helium slowly leaking into space.",
+          "published": "2026-07-21T10:57:41+00:00",
+          "regional": false
+        },
+        {
+          "title": "Dying Sun-like stars may kick themselves through space",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260719035942.htm",
+          "source": "ScienceDaily",
+          "summary": "Dying Sun-like stars may not fade away quietly. As blobs of gas erupt unevenly from their swollen surfaces, each burst gives the star a tiny push in the opposite direction.",
+          "published": "2026-07-21T03:36:16+00:00",
+          "regional": false
+        },
         {
           "title": "NASA’s James Webb catches a supermassive black hole feeding",
           "link": "https://www.sciencedaily.com/releases/2026/07/260716023601.htm",
@@ -831,14 +895,6 @@
           "source": "BBC Science",
           "summary": "Researchers have found an Earth-like, rocky planet orbiting within the habitable zone of a distant star with an atmosphere.",
           "published": "2026-07-17T12:58:37+00:00",
-          "regional": false
-        },
-        {
-          "title": "A super-Earth exoplanet’s leaking helium could be evidence of a complex atmosphere",
-          "link": "https://www.scientificamerican.com/article/a-super-earth-exoplanets-leaking-helium-could-be-evidence-of-a-complex-atmosphere/",
-          "source": "Scientific American",
-          "summary": "The planet LHS 1140 b lies in its star’s habitable zone, which already made it a prime candidate as a possible host for life",
-          "published": "2026-07-16T18:00:00+00:00",
           "regional": false
         },
         {
@@ -858,26 +914,10 @@
           "regional": false
         },
         {
-          "title": "Famous System Has a Third Planet: Beta Pictoris d",
-          "link": "https://skyandtelescope.org/astronomy-news/famous-system-has-a-third-star-beta-pictoris-d/",
-          "source": "Sky & Telescope",
-          "summary": "Two teams of astronomers independently discovered a third giant gas planet orbiting in the famous Beta Pictoris system. The post Famous System Has a Third Planet: Beta Pictoris d appeared first on Sky & Telescope .",
-          "published": "2026-07-15T19:55:44+00:00",
-          "regional": false
-        },
-        {
           "title": "Astronomers just accidentally spotted the faintest exoplanet ever seen from Earth",
           "link": "https://www.scientificamerican.com/article/astronomers-just-accidentally-spotted-the-faintest-exoplanet-ever-seen-from-earth/",
           "source": "Scientific American",
           "summary": "Beta Pictoris d is more than twice the size of Jupiter, but it is a baby compared to its humongous neighbors",
-          "published": "2026-07-15T12:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Faintest planet ever imaged from Earth found after more than 10 years of hide-and-seek",
-          "link": "https://www.eso.org/public/news/eso2609/",
-          "source": "ESO",
-          "summary": "A team of astronomers have discovered a third planet orbiting the star Beta Pictoris. The new planet, Beta Pictoris d, is 100 times fainter than Beta Pictoris b — the first planet discovered in the same system — and is…",
           "published": "2026-07-15T12:00:00+00:00",
           "regional": false
         },
@@ -1002,12 +1042,28 @@
           "regional": false
         },
         {
-          "title": "The Milky Way’s weird gamma-ray glow may be dark matter after all",
-          "link": "https://www.sciencedaily.com/releases/2026/06/260619101334.htm",
-          "source": "ScienceDaily",
-          "summary": "A strange gamma-ray glow at the center of the Milky Way has long sparked debate over whether it comes from hidden neutron stars or elusive dark matter.",
-          "published": "2026-07-01T03:13:34+00:00",
-          "regional": false
+          "title": "Samsung Galaxy Unpacked 2026: How to watch live event and what to expect",
+          "link": "https://indianexpress.com/article/technology/samsung-galaxy-unpacked-2026-date-time-livestream-fold-8-10798030/",
+          "source": "Indian Express",
+          "summary": "",
+          "published": "2026-07-22T07:54:04+00:00",
+          "regional": true
+        },
+        {
+          "title": "New planet revealed around a young star after a decade in hiding",
+          "link": "https://www.thehindu.com/sci-tech/science/new-planet-revealed-around-a-young-star-after-a-decade-in-hiding/article71248751.ece",
+          "source": "The Hindu",
+          "summary": "The new planet is slightly bigger than Jupiter and takes 91 years to orbit its star, a little longer than it takes Uranus to orbit our sun",
+          "published": "2026-07-22T05:12:25+00:00",
+          "regional": true
+        },
+        {
+          "title": "Samsung launches first Galaxy credit card with up to 5% cash rewards",
+          "link": "https://indianexpress.com/article/technology/tech-news-technology/samsung-launches-first-galaxy-credit-card-with-up-to-5-cash-rewards-10796965/",
+          "source": "Indian Express",
+          "summary": "",
+          "published": "2026-07-21T12:32:12+00:00",
+          "regional": true
         },
         {
           "title": "What makes the brain the most complicated object in the universe",
@@ -1055,22 +1111,6 @@
           "source": "Max Planck Society",
           "summary": "After more than ten years of playing hide-and-seek, researchers have discovered one of the lightest planets ever directly imaged",
           "published": "2026-07-17T12:00:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "Samsung teases ‘brand new shape’ for Galaxy Z Fold 8 in Spider-Man short film",
-          "link": "https://indianexpress.com/article/technology/mobile-tabs/samsung-teases-brand-new-shape-for-galaxy-z-fold-8-in-spider-man-teaser10788910-10788910/",
-          "source": "Indian Express",
-          "summary": "",
-          "published": "2026-07-16T05:48:15+00:00",
-          "regional": true
-        },
-        {
-          "title": "Samsung Galaxy Z Fold 8 to have minimal crease with new Flex Titanium display",
-          "link": "https://indianexpress.com/article/technology/tech-news-technology/samsung-galaxy-z-fold-8-to-have-minimal-crease-with-new-flex-titanium-display-10787400/",
-          "source": "Indian Express",
-          "summary": "",
-          "published": "2026-07-15T08:18:21+00:00",
           "regional": true
         },
         {
