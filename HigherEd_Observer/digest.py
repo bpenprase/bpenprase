@@ -16,6 +16,7 @@ Everything you might want to change is near the top:
 """
 
 import argparse
+import json
 import html
 import re
 import sys
@@ -91,7 +92,8 @@ FEEDS = [
     {"name": "Florida Poly News",       "url": "https://floridapoly.edu/feed/", "assign": "startups"},
     # --- Future Universities Alliance and its Sandbox cohort ---
     # the Alliance's own publication - exactly on-target for Startups
-    {"name": "Future Universities (FUA)", "url": "https://openrss.org/futureuniversities.substack.com",
+    {"name": "Future Universities (via Bing)",
+     "url": "https://www.bing.com/news/search?q=site%3Afutureuniversities.substack.com&format=rss",
      "assign": "startups", "days": 30},
     # regional outlets that cover Sandbox startup institutions
     # (watchlist_only: they contribute only stories naming a tracked school)
@@ -429,6 +431,42 @@ NOISE_TERMS = [
     "application deadline", "toppers", "rank list", "merit list",
 ]
 
+MANUAL_POSTS = Path(__file__).parent / "fua_posts.json"
+
+
+def load_manual_posts():
+    """Posts added by hand in fua_posts.json - the guaranteed channel
+    for Future Universities Alliance posts (Substack blocks automated
+    cloud readers, so search-engine bridges can lag). Each entry needs
+    title, link, and date (YYYY-MM-DD); posts stay on the page 30 days."""
+    if not MANUAL_POSTS.exists():
+        return []
+    try:
+        data = json.loads(MANUAL_POSTS.read_text(encoding="utf-8"))
+    except Exception as err:  # noqa: BLE001
+        print(f"  WARNING  fua_posts.json could not be read: {err}")
+        return []
+    out = []
+    cutoff = datetime.now(timezone.utc) - timedelta(days=30)
+    for p in data.get("posts", []):
+        try:
+            when = datetime.strptime(p["date"], "%Y-%m-%d").replace(
+                tzinfo=timezone.utc)
+        except (KeyError, ValueError):
+            continue
+        if when < cutoff:
+            continue
+        out.append({"title": p.get("title", "Untitled"),
+                    "link": p.get("link", ""),
+                    "summary": p.get("summary", ""),
+                    "source": "Future Universities (FUA)", "date": when,
+                    "boost": None, "region": None, "assign": "startups",
+                    "watchlist_only": False})
+    if out:
+        print(f"  ok       FUA manual posts: {len(out)} within 30 days")
+    return out
+
+
 DAYS_BACK = 7          # keep stories from the past week
 MAX_PER_CATEGORY = 8   # show at most this many per channel
 MAX_PER_SOURCE = 2     # ...and at most this many from any one source per channel
@@ -742,6 +780,7 @@ def main():
         stories = demo_stories()
     else:
         stories = fetch_all_feeds()
+    stories += load_manual_posts()
     print(f"\nCollected {len(stories)} stories; filtering into channels...")
     buckets = categorize(stories)
     render(buckets, len(FEEDS))

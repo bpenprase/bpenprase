@@ -1,0 +1,5 @@
+{
+  "_how_to_use": "The guaranteed channel for Future Universities Alliance posts. When a new FUA Substack post arrives in your inbox, add an entry to the 'posts' list below (title, link, date as YYYY-MM-DD, optional summary) and commit. It appears in the Startups channel on the next nightly sweep and stays for 30 days. Old entries can be deleted whenever - anything past 30 days is ignored automatically.",
+  "_example_entry": {"title": "What Startup Universities Teach Us", "link": "https://futureuniversities.substack.com/p/example", "date": "2026-07-15", "summary": "One line about the post."},
+  "posts": []
+}
