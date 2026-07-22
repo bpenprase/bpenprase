@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-07-21 12:34 PDT
-; Observing window starts 2026-07-21 21:38 PDT  (LST 16:46:52)
+; Generated 2026-07-22 12:33 PDT
+; Observing window starts 2026-07-22 21:36 PDT  (LST 16:48:48)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -14,7 +14,7 @@
 #filter r',g',i',z'
 M 101
 
-; Comet C/2023 R1 (PANSTARRS)  mag 13.9
+; Comet C/2023 R1 (PANSTARRS)  mag 13.7
 #posang 0
 #count 3
 #interval 300
@@ -111,14 +111,6 @@ M 25
 #filter r',g',i',z'
 IC 4756
 
-; Open Cluster  mag 5.8  size 9.00'  Amas de l'Ecu de Sobieski,Wild Duck Cluster
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 11
-
 ; Asteroid 18 Melpomene  mag 9.2
 #posang 0
 #count 3
@@ -127,6 +119,14 @@ M 11
 #filter r'
 MP Melpomene
 #WAITINLIMITS 60
+
+; Open Cluster  mag 5.8  size 9.00'  Amas de l'Ecu de Sobieski,Wild Duck Cluster
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 11
 
 ; Asteroid 8 Flora  mag 9.3
 #posang 0
@@ -234,7 +234,7 @@ NGC 7023
 #filter r',g',i',z'
 M 39
 
-; Comet 10P/Tempel  mag 10.0
+; Comet 10P/Tempel  mag 10.6
 #posang 0
 #count 3
 #interval 300
@@ -342,7 +342,7 @@ Saturn
 #filter r',g',i',z'
 NGC 0457
 
-; Asteroid 2 Pallas  mag 9.7
+; Asteroid 2 Pallas  mag 9.6
 #posang 0
 #count 3
 #interval 300
@@ -384,6 +384,15 @@ M 74
 MP Vesta
 #WAITINLIMITS 60
 
+; Comet 220P/McNaught  mag 12.3
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 220P/McNaught
+#WAITINLIMITS 60
+
 ; Open Cluster  mag 3.7  size 14.40'  h Persei Cluster
 #posang 0
 #count 1,1,1,1
@@ -400,7 +409,15 @@ NGC 0869
 #filter r',g',i',z'
 NGC 0884
 
-; Comet 88P/Howell  mag 13.5
+; Galaxy  mag 9.5  size 7.40'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 1023
+
+; Comet 88P/Howell  mag 13.0
 #posang 0
 #count 3
 #interval 300
@@ -448,14 +465,6 @@ NGC 1499
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 106
-
-; Galaxy  mag 9.1  size 6.95'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 85
 
 ; Galaxy  mag 10.9  size 16.75'  Needle Galaxy
 #posang 0
