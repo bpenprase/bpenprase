@@ -103,10 +103,6 @@ FEEDS = [
     {"name": "Premium Times (Nigeria)", "url": "https://www.premiumtimesng.com/feed", "watchlist_only": True},
     {"name": "TechCabal (Africa)",      "url": "https://techcabal.com/feed", "watchlist_only": True},
     # unverified addresses - the log will pass verdict; delete any 'blocked'
-    {"name": "The Citizen (Tanzania)",  "url": "https://www.thecitizen.co.tz/service/rss",
-     "watchlist_only": True},
-    {"name": "Morocco World News",      "url": "https://www.moroccoworldnews.com/feed/",
-     "watchlist_only": True},
     {"name": "The Peninsula (Qatar)",   "url": "https://thepeninsulaqatar.com/rss",
      "watchlist_only": True},
     {"name": "Techpana (Nepal)",        "url": "https://techpana.com/feed", "watchlist_only": True},
@@ -162,6 +158,10 @@ FEEDS += [
         '"Taejae University" OR "Musizi University" OR "Africa Urban Lab" OR '
         '"Greenway Institute" OR "NewU University" OR "Outer Coast College" OR '
         '"Polymath University"'),
+    google_news_feed("Watchlist sweep 4 (via GN)",
+        '"Mohammed VI Polytechnic" OR "University of Doha" OR "Madan Bhandari" OR '
+        '"Botho University" OR "Academic City University" OR "Zamorano" OR '
+        '"London Interdisciplinary School" OR "Atria University"'),
 ]
 
 
@@ -446,6 +446,12 @@ def fetch_feed(url):
         "Accept": ("application/rss+xml, application/atom+xml, "
                    "application/xml;q=0.9, text/xml;q=0.9, */*;q=0.8"),
         "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate",
+        "Connection": "keep-alive",
+        "Upgrade-Insecure-Requests": "1",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
         "Referer": url.split("/feed")[0] if "/feed" in url else url,
     }
     resp = requests.get(url, headers=headers, timeout=30)
@@ -515,6 +521,9 @@ def fetch_all_feeds():
             if "429" in str(err):
                 print(f"  waiting  {feed['name']}: rate-limited tonight - "
                       f"temporary, it will retry on the next sweep")
+            elif "403" in str(err):
+                print(f"  blocked  {feed['name']}: the site refuses "
+                      f"automated readers - safe to delete this feed line")
             else:
                 print(f"  WARNING  {feed['name']}: {err}")
     return stories
