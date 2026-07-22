@@ -158,6 +158,27 @@ INSTITUTION_SIGNALS = [
     "redesign", "first-of-its-kind", "first of its kind", "pilot",
 ]
 
+# The grammar of program announcements: a launch verb near an academic
+# unit, or "new" + an academic unit. Catches "introduces new
+# cybersecurity degree", "adds data science major", "opens new school
+# of computing" without listing every phrasing by hand.
+ACADEMIC_UNIT = (r"(?:degree|programme|program|major|minor|school|"
+                 r"department|institute|cent(?:er|re)|certificate|"
+                 r"curriculum|academy|faculty)")
+NEW_OFFERING_RE = re.compile(
+    r"\bnew\s+(?:[\w-]+\s+){0,3}?" + ACADEMIC_UNIT + r"s?\b")
+LAUNCH_OFFERING_RE = re.compile(
+    r"\b(?:launch|introduc|unveil|debut|announc|creat|establish|open|"
+    r"start|begin|add|offer|develop|build|roll)\w*\s+"
+    r"(?:(?:a|an|its|the|two|three|\d+)\s+)?(?:[\w-]+\s+){0,3}?"
+    + ACADEMIC_UNIT + r"s?\b")
+
+
+def offering_signal(text):
+    """True when text announces a new academic offering."""
+    return bool(NEW_OFFERING_RE.search(text) or LAUNCH_OFFERING_RE.search(text))
+
+
 # Everyday higher-ed policy and institutional vocabulary - used by the
 # regional channels, which aim to catch the notable HE stories of their
 # region, not only institution-founding news.
@@ -195,6 +216,7 @@ CATEGORIES = [
     },
     {
         "id": "programs",
+        "offerings": True,
         "title": "Innovative New Programs",
         "blurb": "New degrees, schools, curricula, and experiments in how universities teach.",
         "color": "#4356A5",
@@ -232,8 +254,8 @@ CATEGORIES = [
     },
     {
         "id": "india",
-        "title": "Innovation in Indian Higher Education",
-        "blurb": "The world's most dynamic market for new universities - policy, private growth, and foreign entry.",
+        "title": "Indian Higher Education News",
+        "blurb": "The world's most dynamic higher education market - policy, new institutions, and foreign entry.",
         "color": "#A63D57",
         "min_score": 1,
         # a story must mention India at all...
@@ -248,8 +270,8 @@ CATEGORIES = [
     },
     {
         "id": "us",
-        "title": "Innovation in US Higher Education",
-        "blurb": "New models, programs, and institutional experiments across American higher education.",
+        "title": "US Higher Education News",
+        "blurb": "The notable stories of American higher education - new models, policy, and institutional change.",
         "color": "#3A7D44",
         "min_score": 1,
         "requires": ["united states", "american", "u.s.", "usa"],
@@ -261,8 +283,8 @@ CATEGORIES = [
     },
     {
         "id": "europe",
-        "title": "Innovation in European Higher Education",
-        "blurb": "New institutions and reform across the UK and Europe, including the European Universities alliances.",
+        "title": "European Higher Education News",
+        "blurb": "Higher education across the UK and Europe - policy, reform, and new institutional forms.",
         "color": "#33658A",
         "min_score": 1,
         "requires": ["europe", "european", "uk", "britain", "british",
@@ -277,8 +299,8 @@ CATEGORIES = [
     },
     {
         "id": "china",
-        "title": "Innovation in Chinese Higher Education",
-        "blurb": "New universities, sino-foreign ventures, and reform across China and Greater China.",
+        "title": "Chinese Higher Education News",
+        "blurb": "Higher education in China and Greater China - new universities, ventures, and reform.",
         "color": "#C03221",
         "min_score": 1,
         "requires": ["china", "chinese", "hong kong", "macau", "beijing",
@@ -437,6 +459,11 @@ def score_story(story, category):
         elif keyword_present(kw, summary):
             # a multi-word phrase is a strong signal wherever it appears
             score += 2 if " " in kw else 1
+    if category.get("offerings"):
+        if offering_signal(title):
+            score += 3
+        elif offering_signal(summary):
+            score += 2
     return score
 
 
