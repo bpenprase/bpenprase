@@ -23,6 +23,8 @@ import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+from urllib.parse import quote
+
 import feedparser
 
 # ---------------------------------------------------------------------------
@@ -78,8 +80,6 @@ FEEDS = [
     # China news in English with education coverage (unverified address)
     {"name": "China Daily",             "url": "https://www.chinadaily.com.cn/rss/china_rss.xml",
      "region": "china"},
-    # International higher education news with strong Europe coverage
-    {"name": "Erudera News",            "url": "https://erudera.com/feed/"},
     # --- institutional newsrooms of startup universities; every story
     #     routes to the Startups channel (unverified /feed/ addresses:
     #     watch the log and delete any that come back blocked) ---
@@ -89,6 +89,33 @@ FEEDS = [
     {"name": "African Leadership Univ. News", "url": "https://alueducation.com/feed/", "assign": "startups"},
     {"name": "Harrisburg Univ. News",   "url": "https://harrisburgu.edu/feed/", "assign": "startups"},
     {"name": "Florida Poly News",       "url": "https://floridapoly.edu/feed/", "assign": "startups"},
+    # --- Future Universities Alliance and its Sandbox cohort ---
+    # the Alliance's own publication - exactly on-target for Startups
+    {"name": "Future Universities (FUA)", "url": "https://futureuniversities.substack.com/feed",
+     "assign": "startups"},
+    # regional outlets that cover Sandbox startup institutions
+    # (watchlist_only: they contribute only stories naming a tracked school)
+    {"name": "VTDigger (Vermont)",      "url": "https://vtdigger.org/feed/", "watchlist_only": True},
+    {"name": "The Astana Times",        "url": "https://astanatimes.com/feed/", "watchlist_only": True},
+    {"name": "KCAW Sitka",              "url": "https://www.kcaw.org/feed/", "watchlist_only": True},
+    {"name": "Korea Herald National",   "url": "https://www.koreaherald.com/rss/kh_National",
+     "watchlist_only": True},
+    {"name": "Premium Times (Nigeria)", "url": "https://www.premiumtimesng.com/feed", "watchlist_only": True},
+    {"name": "TechCabal (Africa)",      "url": "https://techcabal.com/feed", "watchlist_only": True},
+    # unverified addresses - the log will pass verdict; delete any 'blocked'
+    {"name": "The Citizen (Tanzania)",  "url": "https://www.thecitizen.co.tz/service/rss",
+     "watchlist_only": True},
+    {"name": "Morocco World News",      "url": "https://www.moroccoworldnews.com/feed/",
+     "watchlist_only": True},
+    {"name": "The Peninsula (Qatar)",   "url": "https://thepeninsulaqatar.com/rss",
+     "watchlist_only": True},
+    {"name": "Techpana (Nepal)",        "url": "https://techpana.com/feed", "watchlist_only": True},
+    # institutional newsrooms of Sandbox startups (unverified /feed/)
+    {"name": "Greenway Institute News", "url": "https://greenwayinstitute.org/feed/", "assign": "startups"},
+    {"name": "Polymath University News", "url": "https://polymath.org/feed/", "assign": "startups"},
+    {"name": "NewU University News",    "url": "https://newu.university/feed/", "assign": "startups"},
+    {"name": "Newstate University News", "url": "https://newstateu.com/feed/", "assign": "startups"},
+    {"name": "Musizi University News",  "url": "https://musizi.ac.ug/feed/", "assign": "startups"},
     # NOTE: the World Bank blog no longer offers a readable feed; its
     # reports are tracked by resources.py on the biweekly sweep instead.
     # NOTE: University World News and Times Higher Education no longer
@@ -105,6 +132,38 @@ FEEDS = [
 # double. "min_score" is how many points a story needs to qualify.
 # The "color" is used by the page for the channel's spectrum band.
 # ---------------------------------------------------------------------------
+
+def google_news_feed(name, query, **flags):
+    """A Google News RSS feed for a search query - the bridge to outlets
+    that offer no feed of their own, and a global net for watchlist
+    institutions that only local press covers."""
+    url = ("https://news.google.com/rss/search?q=" + quote(query)
+           + "&hl=en-US&gl=US&ceid=US:en")
+    return {"name": name, "url": url, **flags}
+
+
+FEEDS += [
+    # premium outlets with no working direct feed, via Google News
+    google_news_feed("University World News (via GN)", "site:universityworldnews.com"),
+    google_news_feed("Times Higher Education (via GN)", "site:timeshighereducation.com"),
+    google_news_feed("Al-Fanar Media (via GN)", "site:al-fanarmedia.org"),
+    google_news_feed("EducationWorld India (via GN)", "site:educationworld.in", region="india"),
+    google_news_feed("Science|Business (via GN)", "site:sciencebusiness.net", region="europe"),
+    google_news_feed("University Affairs (via GN)", "site:universityaffairs.ca"),
+    # global nets for thin-coverage watchlist institutions - any outlet
+    # anywhere that names them will surface here
+    google_news_feed("Watchlist sweep 1 (via GN)",
+        '"Parami University" OR "Soka University of America" OR "ShanghaiTech" OR '
+        '"Shenzhen Technology University" OR "Sai University" OR "Mahindra University"'),
+    google_news_feed("Watchlist sweep 2 (via GN)",
+        '"Jio Institute" OR "Universal AI University" OR "Nevada State University" OR '
+        '"Georgia Gwinnett" OR "Minerva University" OR "Asian University for Women"'),
+    google_news_feed("Watchlist sweep 3 (via GN)",
+        '"Taejae University" OR "Musizi University" OR "Africa Urban Lab" OR '
+        '"Greenway Institute" OR "NewU University" OR "Outer Coast College" OR '
+        '"Polymath University"'),
+]
+
 
 # Startup universities tracked by name (from the book chapter on
 # startup universities - institutions roughly 20 years old or less).
@@ -128,6 +187,21 @@ WATCHLIST = [
     "minerva university", "olin college", "soka university",
     "harrisburg university", "nevada state university",
     "georgia gwinnett", "florida polytechnic", "florida poly",
+    # Future Universities Alliance Sandbox cohort (safe name forms -
+    # ambiguous names use exact multiword phrases to avoid false hits)
+    "africa urban lab", "alwin education", "cambridge spark",
+    "frontier institute of technology", "greenway institute",
+    "invision u", "musizi university", "musizi",
+    "national school of innovation", "nepal communiversity",
+    "communiversity", "newstate university", "newu university",
+    "outer coast college", "outsmart college", "outsmart education",
+    "polymath university", "taejae university", "taejae",
+    "academic city university", "atria university", "botho university",
+    "london interdisciplinary school", "madan bhandari university",
+    "nigerian university of technology and management",
+    "universidad de la libertad", "mohammed vi polytechnic",
+    "university of doha", "zamorano", "code university",
+    "ozyegin university",
 ]
 
 
@@ -375,6 +449,10 @@ def fetch_feed(url):
         "Referer": url.split("/feed")[0] if "/feed" in url else url,
     }
     resp = requests.get(url, headers=headers, timeout=30)
+    if resp.status_code == 429:
+        # the site asked us to slow down - wait politely and retry once
+        time.sleep(20)
+        resp = requests.get(url, headers=headers, timeout=30)
     resp.raise_for_status()
     content = resp.content
     parsed = feedparser.parse(content)
@@ -417,8 +495,11 @@ def fetch_all_feeds():
                 else:
                     when = datetime.now(timezone.utc)
                 summary = clean_text(entry.get("summary", ""))
+                title = clean_text(entry.get("title", "Untitled"))
+                if "news.google.com" in feed["url"] and " - " in title:
+                    title = title.rsplit(" - ", 1)[0]   # drop publisher suffix
                 stories.append({
-                    "title": clean_text(entry.get("title", "Untitled")),
+                    "title": title,
                     "link": entry.get("link", ""),
                     "summary": summary[:400],
                     "source": feed["name"],
@@ -431,7 +512,11 @@ def fetch_all_feeds():
                 count += 1
             print(f"  ok       {feed['name']}: {count} recent stories")
         except Exception as err:  # noqa: BLE001 - keep the digest resilient
-            print(f"  WARNING  {feed['name']}: {err}")
+            if "429" in str(err):
+                print(f"  waiting  {feed['name']}: rate-limited tonight - "
+                      f"temporary, it will retry on the next sweep")
+            else:
+                print(f"  WARNING  {feed['name']}: {err}")
     return stories
 
 
