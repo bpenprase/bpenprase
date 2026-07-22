@@ -91,8 +91,8 @@ FEEDS = [
     {"name": "Florida Poly News",       "url": "https://floridapoly.edu/feed/", "assign": "startups"},
     # --- Future Universities Alliance and its Sandbox cohort ---
     # the Alliance's own publication - exactly on-target for Startups
-    {"name": "Future Universities (FUA)", "url": "https://futureuniversities.substack.com/feed",
-     "assign": "startups"},
+    {"name": "Future Universities (FUA)", "url": "https://openrss.org/futureuniversities.substack.com",
+     "assign": "startups", "days": 30},
     # regional outlets that cover Sandbox startup institutions
     # (watchlist_only: they contribute only stories naming a tracked school)
     {"name": "VTDigger (Vermont)",      "url": "https://vtdigger.org/feed/", "watchlist_only": True},
@@ -103,15 +103,8 @@ FEEDS = [
     {"name": "Premium Times (Nigeria)", "url": "https://www.premiumtimesng.com/feed", "watchlist_only": True},
     {"name": "TechCabal (Africa)",      "url": "https://techcabal.com/feed", "watchlist_only": True},
     # unverified addresses - the log will pass verdict; delete any 'blocked'
-    {"name": "The Peninsula (Qatar)",   "url": "https://thepeninsulaqatar.com/rss",
-     "watchlist_only": True},
-    {"name": "Techpana (Nepal)",        "url": "https://techpana.com/feed", "watchlist_only": True},
     # institutional newsrooms of Sandbox startups (unverified /feed/)
-    {"name": "Greenway Institute News", "url": "https://greenwayinstitute.org/feed/", "assign": "startups"},
-    {"name": "Polymath University News", "url": "https://polymath.org/feed/", "assign": "startups"},
     {"name": "NewU University News",    "url": "https://newu.university/feed/", "assign": "startups"},
-    {"name": "Newstate University News", "url": "https://newstateu.com/feed/", "assign": "startups"},
-    {"name": "Musizi University News",  "url": "https://musizi.ac.ug/feed/", "assign": "startups"},
     # NOTE: the World Bank blog no longer offers a readable feed; its
     # reports are tracked by resources.py on the biweekly sweep instead.
     # NOTE: University World News and Times Higher Education no longer
@@ -141,7 +134,7 @@ def google_news_feed(name, query, **flags):
 FEEDS += [
     # backup route to the FUA Substack in case its direct feed blocks us
     google_news_feed("Future Universities (via GN)", "site:futureuniversities.substack.com",
-                     assign="startups"),
+                     assign="startups", days=30),
     # premium outlets with no working direct feed, via Google News
     google_news_feed("University World News (via GN)", "site:universityworldnews.com"),
     google_news_feed("Times Higher Education (via GN)", "site:timeshighereducation.com"),
@@ -164,7 +157,7 @@ FEEDS += [
     google_news_feed("Watchlist sweep 4 (via GN)",
         '"Mohammed VI Polytechnic" OR "University of Doha" OR "Madan Bhandari" OR '
         '"Botho University" OR "Academic City University" OR "Zamorano University" OR '
-        '"London Interdisciplinary School" OR "Atria University"'),
+        '"London Interdisciplinary School" OR "Atria University" OR "Newstate University"'),
 ]
 
 
@@ -487,8 +480,9 @@ def looks_like_challenge_page(content):
 def fetch_all_feeds():
     """Download every feed; return a list of story dicts."""
     stories = []
-    cutoff = datetime.now(timezone.utc) - timedelta(days=DAYS_BACK)
     for feed in FEEDS:
+        cutoff = (datetime.now(timezone.utc)
+                  - timedelta(days=feed.get("days", DAYS_BACK)))
         try:
             parsed, content = fetch_feed(feed["url"])
             if not parsed.entries:
