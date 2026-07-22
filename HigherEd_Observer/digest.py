@@ -139,6 +139,9 @@ def google_news_feed(name, query, **flags):
 
 
 FEEDS += [
+    # backup route to the FUA Substack in case its direct feed blocks us
+    google_news_feed("Future Universities (via GN)", "site:futureuniversities.substack.com",
+                     assign="startups"),
     # premium outlets with no working direct feed, via Google News
     google_news_feed("University World News (via GN)", "site:universityworldnews.com"),
     google_news_feed("Times Higher Education (via GN)", "site:timeshighereducation.com"),
@@ -160,7 +163,7 @@ FEEDS += [
         '"Polymath University"'),
     google_news_feed("Watchlist sweep 4 (via GN)",
         '"Mohammed VI Polytechnic" OR "University of Doha" OR "Madan Bhandari" OR '
-        '"Botho University" OR "Academic City University" OR "Zamorano" OR '
+        '"Botho University" OR "Academic City University" OR "Zamorano University" OR '
         '"London Interdisciplinary School" OR "Atria University"'),
 ]
 
@@ -200,15 +203,21 @@ WATCHLIST = [
     "london interdisciplinary school", "madan bhandari university",
     "nigerian university of technology and management",
     "universidad de la libertad", "mohammed vi polytechnic",
-    "university of doha", "zamorano", "code university",
+    "university of doha", "zamorano university", "code university",
     "ozyegin university",
 ]
 
 
 def watchlist_hit(story):
-    """Return True when a story names a tracked startup university."""
+    """True when a story names a tracked startup university AND reads
+    like an education story - the second test stops name collisions
+    (athletes, businesses, places) from leaking into the channel."""
     text = (story["title"] + " " + story["summary"]).lower()
-    return any(keyword_present(name, text) for name in WATCHLIST)
+    if not any(keyword_present(name, text) for name in WATCHLIST):
+        return False
+    lenient_terms = TOPIC_TERMS + ["education", "school", "institute",
+                                   "learning", "scholar"]
+    return any(term in text for term in lenient_terms)
 
 
 # Signals that a story is about building, changing, or founding
@@ -569,11 +578,13 @@ def is_on_topic(story):
 def categorize(stories):
     """Assign each story to its best-matching channel (or drop it)."""
     buckets = {c["id"]: [] for c in CATEGORIES}
-    seen_links = set()
+    seen_links, seen_titles = set(), set()
     for story in stories:
-        if story["link"] in seen_links:
+        title_key = re.sub(r"[^a-z0-9]+", " ", story["title"].lower()).strip()
+        if story["link"] in seen_links or title_key in seen_titles:
             continue
         seen_links.add(story["link"])
+        seen_titles.add(title_key)
         title = story["title"].lower()
         if any(keyword_present(t, title) for t in NOISE_TERMS):
             continue
