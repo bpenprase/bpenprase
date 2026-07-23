@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-07-22 12:33 PDT
-; Observing window starts 2026-07-22 21:36 PDT  (LST 16:48:48)
+; Generated 2026-07-23 12:33 PDT
+; Observing window starts 2026-07-23 21:36 PDT  (LST 16:52:45)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -13,15 +13,6 @@
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 101
-
-; Comet C/2023 R1 (PANSTARRS)  mag 13.7
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT C/2023 R1
-#WAITINLIMITS 60
 
 ; Nebula  mag 5.1  size 60.00'  rho Oph Nebula
 #posang 0
@@ -161,15 +152,7 @@ NGC 6822
 #filter r',g',i',z'
 NGC 6871
 
-; HII Region  mag 7.4  size 20.00'  Crescent Nebula
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,3,3,3
-#filter r',Ha,OIII,SII
-NGC 6888
-
-; Asteroid 3 Juno  mag 9.1
+; Asteroid 3 Juno  mag 9.0
 #posang 0
 #count 3
 #interval 300
@@ -177,6 +160,14 @@ NGC 6888
 #filter r'
 MP Juno
 #WAITINLIMITS 60
+
+; HII Region  mag 7.4  size 20.00'  Crescent Nebula
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,3,3,3
+#filter r',Ha,OIII,SII
+NGC 6888
 
 ; Galaxy  mag 9.1  size 11.40'  Fireworks Galaxy
 #posang 0
@@ -234,7 +225,7 @@ NGC 7023
 #filter r',g',i',z'
 M 39
 
-; Comet 10P/Tempel  mag 10.6
+; Comet 10P/Tempel  mag 7.2
 #posang 0
 #count 3
 #interval 300
@@ -251,7 +242,7 @@ CT 10P/Tempel
 #filter r',Ha,OIII,SII
 IC 5146
 
-; Asteroid 349 Dembowska (1892 T)  mag 10.1
+; Asteroid 349 Dembowska (1892 T)  mag 10.0
 #posang 0
 #count 3
 #interval 300
@@ -334,6 +325,14 @@ NGC 0247
 Saturn
 #WAITINLIMITS 60
 
+; Galaxy  mag 9.5  size 18.32'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+IC 1613
+
 ; Open Cluster  mag 6.4  size 7.80'  Owl Cluster
 #posang 0
 #count 1,1,1,1
@@ -384,7 +383,7 @@ M 74
 MP Vesta
 #WAITINLIMITS 60
 
-; Comet 220P/McNaught  mag 12.3
+; Comet 220P/McNaught  mag 12.4
 #posang 0
 #count 3
 #interval 300
@@ -417,15 +416,6 @@ NGC 0884
 #filter r',g',i',z'
 NGC 1023
 
-; Comet 88P/Howell  mag 13.0
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 88P/Howell
-#WAITINLIMITS 60
-
 ; Open Cluster  mag 5.2  size 22.50'
 #posang 0
 #count 1,1,1,1
@@ -433,6 +423,15 @@ CT 88P/Howell
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 34
+
+; Comet 88P/Howell  mag 12.9
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 88P/Howell
+#WAITINLIMITS 60
 
 ; Galaxy  mag 9.3  size 6.11'
 #posang 0
@@ -481,14 +480,6 @@ NGC 4565
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 4631
-
-; Galaxy  mag 8.8  size 6.78'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 60
 
 ; Galaxy  mag 10.8  size 3.87'  Umbrella Galaxy
 #posang 0
