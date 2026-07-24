@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-07-23 12:33 PDT
-; Observing window starts 2026-07-23 21:36 PDT  (LST 16:52:45)
+; Generated 2026-07-24 12:33 PDT
+; Observing window starts 2026-07-24 21:34 PDT  (LST 16:54:41)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -128,6 +128,15 @@ M 11
 MP Flora
 #WAITINLIMITS 60
 
+; Comet C/2024 J3 (ATLAS)  mag 13.9
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT C/2024 J3
+#WAITINLIMITS 60
+
 ; Open Cluster  mag 7.3  size 6.90'  Foxhead Cluster
 #posang 0
 #count 1,1,1,1
@@ -225,7 +234,7 @@ NGC 7023
 #filter r',g',i',z'
 M 39
 
-; Comet 10P/Tempel  mag 7.2
+; Comet 10P/Tempel  mag 8.2
 #posang 0
 #count 3
 #interval 300
@@ -383,7 +392,7 @@ M 74
 MP Vesta
 #WAITINLIMITS 60
 
-; Comet 220P/McNaught  mag 12.4
+; Comet 220P/McNaught  mag 13.8
 #posang 0
 #count 3
 #interval 300
@@ -424,6 +433,14 @@ NGC 1023
 #filter r',g',i',z'
 M 34
 
+; Galaxy  mag 9.3  size 6.11'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 77
+
 ; Comet 88P/Howell  mag 12.9
 #posang 0
 #count 3
@@ -433,22 +450,6 @@ M 34
 CT 88P/Howell
 #WAITINLIMITS 60
 
-; Galaxy  mag 9.3  size 6.11'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 77
-
-; Supernova AT2026rok in none  Type unk  mag 13.9  z=n/a
-#posang 0
-#count 3,3
-#interval 300,300
-#binning 1,1
-#filter r',g'
-AT2026rok	02:53:07.234	+16:51:11.98
-
 ; Nebula  mag 5.0  size 160.00'  California Nebula
 #posang 0
 #count 1,1,1,1
@@ -456,6 +457,15 @@ AT2026rok	02:53:07.234	+16:51:11.98
 #binning 1,3,3,3
 #filter r',Ha,OIII,SII
 NGC 1499
+
+; Planet: Uranus
+#posang 0
+#count 10
+#interval 30
+#binning 1
+#filter r'
+Uranus
+#WAITINLIMITS 60
 
 ; Galaxy  mag 9.3  size 16.98'
 #posang 0
