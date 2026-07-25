@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-07-24 12:33 PDT
-; Observing window starts 2026-07-24 21:34 PDT  (LST 16:54:41)
+; Generated 2026-07-25 12:29 PDT
+; Observing window starts 2026-07-25 21:34 PDT  (LST 16:58:38)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -13,6 +13,15 @@
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 101
+
+; Comet C/2023 R1 (PANSTARRS)  mag 13.9
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT C/2023 R1
+#WAITINLIMITS 60
 
 ; Nebula  mag 5.1  size 60.00'  rho Oph Nebula
 #posang 0
@@ -234,7 +243,7 @@ NGC 7023
 #filter r',g',i',z'
 M 39
 
-; Comet 10P/Tempel  mag 8.2
+; Comet 10P/Tempel  mag 8.3
 #posang 0
 #count 3
 #interval 300
@@ -392,15 +401,6 @@ M 74
 MP Vesta
 #WAITINLIMITS 60
 
-; Comet 220P/McNaught  mag 13.8
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 220P/McNaught
-#WAITINLIMITS 60
-
 ; Open Cluster  mag 3.7  size 14.40'  h Persei Cluster
 #posang 0
 #count 1,1,1,1
@@ -441,7 +441,7 @@ M 34
 #filter r',g',i',z'
 M 77
 
-; Comet 88P/Howell  mag 12.9
+; Comet 88P/Howell  mag 13.2
 #posang 0
 #count 3
 #interval 300
