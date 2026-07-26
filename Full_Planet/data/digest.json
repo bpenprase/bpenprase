@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-25T09:33:06.152630+00:00",
-  "generated_human": "25 July 2026, 09:33 UTC",
+  "generated": "2026-07-26T09:40:45.983107+00:00",
+  "generated_human": "26 July 2026, 09:40 UTC",
   "total_items": 133,
   "channels": [
     {
@@ -58,19 +58,27 @@
           "regional": false
         },
         {
-          "title": "Its AI agent spent days hacking a company, but sources say OpenAI did not notice for a week",
-          "link": "https://indianexpress.com/article/technology/tech-news-technology/its-ai-agent-spent-days-hacking-a-company-but-sources-say-openai-did-not-notice-for-a-week-10802756/",
-          "source": "Indian Express",
-          "summary": "",
-          "published": "2026-07-25T04:29:49+00:00",
+          "title": "KAIST, Nvidia deepen AI collaboration with joint research facilities",
+          "link": "https://www.koreaherald.com/article/10820415",
+          "source": "The Korea Herald",
+          "summary": "The Korea Advanced Institute of Science and Technology said Friday it is expanding its research partnership with US chip giant Nvidia through two major initiatives spanning physical artificial intelligence and agentic…",
+          "published": "2026-07-26T04:23:56+00:00",
           "regional": true
         },
         {
-          "title": "Anthropic rolls out Opus 5 AI model in efficiency upgrade",
-          "link": "https://indianexpress.com/article/technology/tech-news-technology/anthropic-rolls-out-opus-5-ai-model-in-efficiency-upgrade-10802744/",
-          "source": "Indian Express",
-          "summary": "",
-          "published": "2026-07-25T04:25:11+00:00",
+          "title": "Samsung, SK cement Korea's AI supply-chain role",
+          "link": "https://www.koreaherald.com/article/10820345",
+          "source": "The Korea Herald",
+          "summary": "South Korea moved to cement its role in the global artificial intelligence supply chain Friday as Samsung Electronics and SK Group unveiled massive AI infrastructure partnerships with leading US technology companies…",
+          "published": "2026-07-26T02:29:25+00:00",
+          "regional": true
+        },
+        {
+          "title": "Lee says emergence of AI era offers S. Korea new opportunity",
+          "link": "https://www.koreaherald.com/article/10820235",
+          "source": "The Korea Herald",
+          "summary": "President Lee Jae Myung said Saturday that the emergence of an artificial intelligence era offers a new opportunity for South Korea, vowing to turn the country from a follower into a global leader.",
+          "published": "2026-07-26T00:04:02+00:00",
           "regional": true
         },
         {
@@ -127,14 +135,6 @@
           "source": "South China Morning Post",
           "summary": "Robbyant, the embodied artificial intelligence arm of Chinese fintech giant Ant Group, launched a new vision model that it claims can help robots overcome a long-standing challenge: accurately perceiving glass, mirrors…",
           "published": "2026-07-07T11:30:31+00:00",
-          "regional": true
-        },
-        {
-          "title": "ByteDance and Alibaba to disable humanlike AI custom agents as new rules loom",
-          "link": "https://www.scmp.com/tech/big-tech/article/3359482/bytedance-and-alibaba-disable-humanlike-ai-custom-agents-new-rules-loom?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Two of China’s major consumer-facing artificial intelligence apps, ByteDance’s Doubao and Alibaba Group Holding’s Qwen, are moving to disable customised agent features, as new rules on humanlike AI interaction services…",
-          "published": "2026-07-05T11:32:53+00:00",
           "regional": true
         }
       ]
@@ -674,14 +674,6 @@
           "regional": false
         },
         {
-          "title": "Diamonds and 'cab to orbit': Rocket aiming to transform India's space ambitions takes off",
-          "link": "https://www.bbc.co.uk/news/articles/clyekv7rld3o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "India's first space-tech unicorn Skyroot Aerospace successfully launched Vikram-1 on Saturday.",
-          "published": "2026-07-18T07:05:19+00:00",
-          "regional": false
-        },
-        {
           "title": "SpaceX’s latest Starship launch attempt ends in a scrub",
           "link": "https://www.scientificamerican.com/article/spacexs-latest-starship-launch-attempt-ends-in-a-scrub/",
           "source": "Scientific American",
@@ -727,6 +719,14 @@
           "source": "ScienceDaily",
           "summary": "NASA is ramping up its lunar ambitions by awarding nearly $600 million for four commercial Moon landings planned for late 2028.",
           "published": "2026-07-14T04:40:26+00:00",
+          "regional": false
+        },
+        {
+          "title": "Future moon landings could wipe out clues to how life began on Earth",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260710003537.htm",
+          "source": "ScienceDaily",
+          "summary": "A new study suggests spacecraft exhaust could quickly contaminate the moon's most scientifically valuable regions, potentially masking ancient clues about how life began on Earth.",
+          "published": "2026-07-13T00:48:16+00:00",
           "regional": false
         },
         {
@@ -842,6 +842,14 @@
       "accent": "#B98CE0",
       "items": [
         {
+          "title": "The Universe can outrun light without breaking Einstein’s rules",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260724061444.htm",
+          "source": "ScienceDaily",
+          "summary": "Cosmic expansion allows distant galaxies to move away faster than light, while still letting us see ancient light they emitted when they were much closer.",
+          "published": "2026-07-25T13:17:03+00:00",
+          "regional": false
+        },
+        {
           "title": "China’s Tianwen-1 captures interstellar comet 3I/ATLAS near Mars",
           "link": "https://www.sciencedaily.com/releases/2026/07/260723084052.htm",
           "source": "ScienceDaily",
@@ -954,11 +962,27 @@
           "regional": false
         },
         {
+          "title": "Faintest planet ever imaged from Earth found after more than 10 years of hide-and-seek",
+          "link": "https://www.eso.org/public/news/eso2609/",
+          "source": "ESO",
+          "summary": "A team of astronomers have discovered a third planet orbiting the star Beta Pictoris. The new planet, Beta Pictoris d, is 100 times fainter than Beta Pictoris b — the first planet discovered in the same system — and is…",
+          "published": "2026-07-15T12:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "Astronomers just found four hidden white dwarf stars near Earth",
           "link": "https://www.sciencedaily.com/releases/2026/07/260714225528.htm",
           "source": "ScienceDaily",
           "summary": "Four nearby white dwarf stars have been discovered hiding in plain sight beside brighter red dwarf companions. Hubble's ultraviolet observations finally revealed the long-hidden stellar remnants, including one just 25…",
           "published": "2026-07-15T06:30:25+00:00",
+          "regional": false
+        },
+        {
+          "title": "Are there aliens on exoplanet K2-18b? Scientists just scanned it for signals",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260712011748.htm",
+          "source": "ScienceDaily",
+          "summary": "K2-18b is one of the most promising worlds for the search for extraterrestrial life, so astronomers conducted an unusually powerful radio survey using both the VLA and MeerKAT telescopes.",
+          "published": "2026-07-14T13:04:12+00:00",
           "regional": false
         },
         {
@@ -1007,30 +1031,6 @@
           "source": "ScienceDaily",
           "summary": "A strange \"chirping\" signal from a distant supernova has revealed the birth of a magnetar, confirming that these incredibly magnetic neutron stars can power the universe's brightest stellar explosions.",
           "published": "2026-07-06T08:15:49+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA's Hubble spots a stellar sparkler for the Fourth of July",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260704232642.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA's Hubble Space Telescope has captured a spectacular red, white, and blue view of one of the Milky Way's oldest star clusters to celebrate the nation's 250th anniversary.",
-          "published": "2026-07-05T04:10:58+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA's Hubble captures a crimson stellar nursery sparkling with blue and white stars",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260704232639.htm",
-          "source": "ScienceDaily",
-          "summary": "Hubble has captured a spectacular view of LH 95, where about 2,500 young stars are still on their journey to becoming full-fledged stars.",
-          "published": "2026-07-05T04:03:07+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA's Hubble captures a star-spangled sea of 500,000 stars",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260704232634.htm",
-          "source": "ScienceDaily",
-          "summary": "Celebrating the United States' 250th anniversary, NASA released a stunning Hubble portrait of Messier 3, an ancient globular cluster with more than 500,000 stars.",
-          "published": "2026-07-05T03:39:18+00:00",
           "regional": false
         },
         {
