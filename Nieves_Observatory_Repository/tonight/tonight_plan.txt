@@ -1,27 +1,10 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-07-26 12:30 PDT
-; Observing window starts 2026-07-26 21:32 PDT  (LST 17:00:34)
+; Generated 2026-07-27 12:34 PDT
+; Observing window starts 2026-07-27 21:32 PDT  (LST 17:04:31)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
 #TRACKON
-
-; Galaxy  mag 7.9  size 23.99'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 101
-
-; Comet C/2023 R1 (PANSTARRS)  mag 13.9
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT C/2023 R1
-#WAITINLIMITS 60
 
 ; Nebula  mag 5.1  size 60.00'  rho Oph Nebula
 #posang 0
@@ -243,7 +226,7 @@ NGC 7023
 #filter r',g',i',z'
 M 39
 
-; Comet 10P/Tempel  mag 11.6
+; Comet 10P/Tempel  mag 10.3
 #posang 0
 #count 3
 #interval 300
@@ -334,6 +317,14 @@ M 31
 #filter r',g',i',z'
 NGC 0247
 
+; Galaxy  mag 11.1  size 26.79'  Sculptor Filament,Silver Coin
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 0253
+
 ; Planet: Saturn
 #posang 0
 #count 10
@@ -401,15 +392,6 @@ M 74
 MP Vesta
 #WAITINLIMITS 60
 
-; Comet 220P/McNaught  mag 12.1
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 220P/McNaught
-#WAITINLIMITS 60
-
 ; Open Cluster  mag 3.7  size 14.40'  h Persei Cluster
 #posang 0
 #count 1,1,1,1
@@ -417,6 +399,15 @@ CT 220P/McNaught
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 0869
+
+; Comet 220P/McNaught  mag 11.9
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 220P/McNaught
+#WAITINLIMITS 60
 
 ; Open Cluster  mag 3.8  size 10.50'  chi Persei Cluster
 #posang 0
@@ -500,14 +491,6 @@ NGC 4565
 #filter r',g',i',z'
 NGC 4631
 
-; Galaxy  mag 10.8  size 3.87'  Umbrella Galaxy
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 4651
-
 ; Galaxy  mag 9.4  size 9.71'
 #posang 0
 #count 1,1,1,1
@@ -547,5 +530,13 @@ M 63
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 51
+
+; Galaxy  mag 7.9  size 23.99'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 101
 
 #SHUTDOWN
