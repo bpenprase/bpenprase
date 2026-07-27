@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-26T09:40:45.983107+00:00",
-  "generated_human": "26 July 2026, 09:40 UTC",
-  "total_items": 133,
+  "generated": "2026-07-27T10:18:20.102154+00:00",
+  "generated_human": "27 July 2026, 10:18 UTC",
+  "total_items": 129,
   "channels": [
     {
       "key": "ai",
@@ -56,6 +56,14 @@
           "summary": "Software engineering jobs are under threat from artificial intelligence . Some applicants are fighting back by using AI in the interview process, employing AI assistants that suggest responses on the fly during remote…",
           "published": "2026-07-13T15:15:03+00:00",
           "regional": false
+        },
+        {
+          "title": "Moonshot AI to make Kimi K3 available for public download",
+          "link": "https://technode.com/2026/07/27/moonshot-ai-to-make-kimi-k3-available-for-public-download/",
+          "source": "TechNode",
+          "summary": "Moonshot AI is set to release the model weights for Kimi K3 on July 27, allowing developers to download, modify, and host the model independently.",
+          "published": "2026-07-27T10:10:18+00:00",
+          "regional": true
         },
         {
           "title": "KAIST, Nvidia deepen AI collaboration with joint research facilities",
@@ -119,14 +127,6 @@
           "source": "South China Morning Post",
           "summary": "Two former Chinese AI lab leaders said they aim to challenge Thinking Machines Lab, a US start-up founded by ex-OpenAI executive Mira Murati, and focus on building industry-specific artificial intelligence solutions and…",
           "published": "2026-07-14T02:00:17+00:00",
-          "regional": true
-        },
-        {
-          "title": "Zhipu AI founder outlines Touch High plan for AGI research",
-          "link": "https://technode.com/2026/07/13/zhipu-ai-founder-outlines-touch-high-plan-for-agi-research/",
-          "source": "TechNode",
-          "summary": "Zhipu AI founder Tang Jie told employees in an internal letter that the Chinese foundation model developer will launch a “Touch High” plan, focusing on AGI research rather than short-term commercialization, according to…",
-          "published": "2026-07-13T09:30:37+00:00",
           "regional": true
         },
         {
@@ -274,27 +274,11 @@
           "regional": false
         },
         {
-          "title": "S. Korea seeks to cut reliance on foreign defense chips",
-          "link": "https://www.koreaherald.com/article/10818092",
+          "title": "LG Innotek Q2 profit surges twentyfold",
+          "link": "https://www.koreaherald.com/article/10821666",
           "source": "The Korea Herald",
-          "summary": "South Korea’s arms procurement agency outlined a plan Thursday to accelerate the domestic development and production of defense semiconductors, with an aim to reduce the country’s heavy reliance on overseas suppliers.",
-          "published": "2026-07-23T06:35:15+00:00",
-          "regional": true
-        },
-        {
-          "title": "Hyundai Motor Q2 profit falls despite record revenue",
-          "link": "https://www.koreaherald.com/article/10818025",
-          "source": "The Korea Herald",
-          "summary": "Hyundai Motor said Thursday that its second-quarter operating profit dropped about 21 percent as rising raw materials costs and production disruptions outweighed record-breaking revenue and robust demand for its hybrid…",
-          "published": "2026-07-23T06:06:56+00:00",
-          "regional": true
-        },
-        {
-          "title": "LG Energy Solution seeks US import ban on EVE batteries",
-          "link": "https://www.koreaherald.com/article/10818009",
-          "source": "The Korea Herald",
-          "summary": "LG Energy Solution has filed patent infringement complaints in the US against Chinese battery maker EVE Energy, seeking to block imports of allegedly infringing cylindrical batteries and products containing them.",
-          "published": "2026-07-23T05:54:37+00:00",
+          "summary": "LG Innotek’s second-quarter operating profit surged more than twentyfold to 245.8 billion won ($167.6 million), crushing market expectations as strong camera-module and semiconductor-substrate sales defied a seasonal…",
+          "published": "2026-07-27T06:09:08+00:00",
           "regional": true
         },
         {
@@ -303,14 +287,6 @@
           "source": "The Hindu",
           "summary": "A quiz on chemistry’s dangerous molecules",
           "published": "2026-07-22T07:10:08+00:00",
-          "regional": true
-        },
-        {
-          "title": "JBL Live 780 NC review: 80 hours of battery life, zero compromise on sound",
-          "link": "https://indianexpress.com/article/technology/tech-reviews/jbl-live-780-nc-review-battery-life-sound-quality-10793396/",
-          "source": "Indian Express",
-          "summary": "",
-          "published": "2026-07-19T06:35:12+00:00",
           "regional": true
         },
         {
@@ -402,6 +378,14 @@
           "regional": false
         },
         {
+          "title": "Girl’s death in China reveals human cost of unregulated science",
+          "link": "https://www.thehindu.com/sci-tech/health/girls-death-in-china-reveals-human-cost-of-unregulated-science/article71268995.ece",
+          "source": "The Hindu",
+          "summary": "The case has prompted debate about ‘first in human’ gene-editing trials, particularly for rare but serious disorders",
+          "published": "2026-07-26T10:23:38+00:00",
+          "regional": true
+        },
+        {
           "title": "Why engineering evolution is a high-stakes race between cure and chaos",
           "link": "https://www.thehindu.com/sci-tech/science/engineering-evolution-is-a-high-stakes-race-between-cure-and-chaos/article71215952.ece",
           "source": "The Hindu",
@@ -474,6 +458,14 @@
           "regional": false
         },
         {
+          "title": "India’s green transition is missing long-duration energy storage",
+          "link": "https://www.thehindu.com/sci-tech/energy-and-environment/india-green-transition-missing-long-duration-energy-storage/article71244283.ece",
+          "source": "The Hindu",
+          "summary": "The longer the time over which a technology discharges energy, the better its economics. At the same time, storing more energy also costs more.",
+          "published": "2026-07-26T11:55:42+00:00",
+          "regional": true
+        },
+        {
           "title": "SK Eternix shares surge on AI power demand hopes",
           "link": "https://www.koreaherald.com/article/10819747",
           "source": "The Korea Herald",
@@ -487,30 +479,6 @@
           "source": "The Conversation",
           "summary": "Solar farms can bring jobs, but the story of one South African community shows that rural residents who give up their land need more say in how benefits are shared.",
           "published": "2026-07-23T13:51:39+00:00",
-          "regional": true
-        },
-        {
-          "title": "LG Energy Solution seeks US import ban on EVE batteries",
-          "link": "https://www.koreaherald.com/article/10818009",
-          "source": "The Korea Herald",
-          "summary": "LG Energy Solution has filed patent infringement complaints in the US against Chinese battery maker EVE Energy, seeking to block imports of allegedly infringing cylindrical batteries and products containing them.",
-          "published": "2026-07-23T05:54:37+00:00",
-          "regional": true
-        },
-        {
-          "title": "India’s green transition is missing long-duration energy storage",
-          "link": "https://www.thehindu.com/sci-tech/energy-and-environment/india-green-transition-missing-long-duration-energy-storage/article71244283.ece",
-          "source": "The Hindu",
-          "summary": "The longer the time over which a technology discharges energy, the better its economics. At the same time, storing more energy also costs more.",
-          "published": "2026-07-20T07:41:25+00:00",
-          "regional": true
-        },
-        {
-          "title": "JBL Live 780 NC review: 80 hours of battery life, zero compromise on sound",
-          "link": "https://indianexpress.com/article/technology/tech-reviews/jbl-live-780-nc-review-battery-life-sound-quality-10793396/",
-          "source": "Indian Express",
-          "summary": "",
-          "published": "2026-07-19T06:35:12+00:00",
           "regional": true
         },
         {
@@ -561,6 +529,22 @@
       "tagline": "New missions, spacecraft, and technologies — NASA, ESA, ISRO, JAXA, SpaceX, CNES, and more.",
       "accent": "#F0894E",
       "items": [
+        {
+          "title": "Meet space startups at ESA’s Industry Space Days",
+          "link": "https://www.esa.int/About_Us/Business_with_ESA/Meet_space_startups_at_ESA_s_Industry_Space_Days",
+          "source": "ESA",
+          "summary": "Startup companies which have come up with brilliant ideas for using space will join the European Space Agency’s (ESA) Industry Space Days (ISD) event on 16–17 September at ESA-ESTEC in the Netherlands.",
+          "published": "2026-07-27T08:05:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Astronaut Chris Williams, Crewmates Return from Space Station",
+          "link": "https://www.nasa.gov/news-release/nasa-astronaut-chris-williams-crewmates-return-from-space-station/",
+          "source": "NASA",
+          "summary": "Concluding an eight-month science mission aboard the International Space Station, NASA astronaut Chris Williams returned to Earth on Sunday alongside Roscosmos cosmonauts Sergey Kud-Sverchkov and Sergei Mikaev.",
+          "published": "2026-07-26T10:59:44+00:00",
+          "regional": false
+        },
         {
           "title": "Watch: SpaceX's successful test flight and splashdown for Starship",
           "link": "https://www.bbc.co.uk/news/articles/czxqnwzqqw8o?at_medium=RSS&at_campaign=rss",
@@ -623,14 +607,6 @@
           "source": "NASA",
           "summary": "Crews at NASA’s Michoud Assembly Facility in New Orleans transport the 130-foot-tall Artemis IV liquid hydrogen tank out of a production cell inside the main factory building into a detached test building on a separate…",
           "published": "2026-07-23T15:20:19+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s MAVEN Illuminates New Understanding of Auroras at Mars",
-          "link": "https://science.nasa.gov/missions/maven/nasas-maven-illuminates-new-understanding-of-auroras-at-mars/",
-          "source": "NASA",
-          "summary": "NASA MAVEN (Mars Atmosphere and Volatile Evolution) mission scientists have uncovered a key puzzle piece in understanding certain types of auroras on Mars, finding that they form in a similar way to Earth-based auroras.",
-          "published": "2026-07-23T15:19:33+00:00",
           "regional": false
         },
         {
@@ -722,14 +698,6 @@
           "regional": false
         },
         {
-          "title": "Future moon landings could wipe out clues to how life began on Earth",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260710003537.htm",
-          "source": "ScienceDaily",
-          "summary": "A new study suggests spacecraft exhaust could quickly contaminate the moon's most scientifically valuable regions, potentially masking ancient clues about how life began on Earth.",
-          "published": "2026-07-13T00:48:16+00:00",
-          "regional": false
-        },
-        {
           "title": "Europe just unveiled a new rival to SpaceX’s Starship",
           "link": "https://www.sciencedaily.com/releases/2026/07/260710003526.htm",
           "source": "ScienceDaily",
@@ -758,7 +726,7 @@
           "link": "https://www.thehindu.com/sci-tech/science/spacex-launches-starship-on-another-test-flight-this-time-with-the-most-advanced-starlinks/article71264817.ece",
           "source": "The Hindu",
           "summary": "",
-          "published": "2026-07-25T01:23:16+00:00",
+          "published": "2026-07-26T11:36:01+00:00",
           "regional": true
         },
         {
@@ -783,6 +751,14 @@
           "source": "The Hindu",
           "summary": "Every space mission is a team effort. Beyond the rocket and astronauts, specialised parts like launch vehicles, orbiters, landers and rovers work together to explore space. Here’s what each one does.",
           "published": "2026-07-22T04:48:46+00:00",
+          "regional": true
+        },
+        {
+          "title": "Space Exploration Day | Life at the International Space Station",
+          "link": "https://www.thehindu.com/children/space-exploration-day-life-at-the-international-space-station/article71198439.ece",
+          "source": "The Hindu",
+          "summary": "Ever wondered how life would be if you were living in space for a while? Here’s a sneak peek of how astronauts live the ‘high’ life (pun intended)",
+          "published": "2026-07-22T04:48:15+00:00",
           "regional": true
         },
         {
@@ -824,14 +800,6 @@
           "summary": "It was supposed to be the 13th flight for Starship, which, at 407 feet (124 metres) tall with 33 main engines, is the world’s biggest and most powerful rocket",
           "published": "2026-07-17T03:33:19+00:00",
           "regional": true
-        },
-        {
-          "title": "ISRO issues memo to curb exodus of scientists and engineers from Gaganyaan and other key missions",
-          "link": "https://www.thehindu.com/sci-tech/science/isro-issues-memo-to-curb-exodus-of-scientists-and-engineers-from-gaganyaan-and-other-key-missions/article71228542.ece",
-          "source": "The Hindu",
-          "summary": "Won’t accept any request for voluntary retirement or resignation from scientific and technical personnel of Group ‘A’ associated with the Gaganyaan, or other important missions or projects till their realisation",
-          "published": "2026-07-16T12:23:04+00:00",
-          "regional": true
         }
       ]
     },
@@ -847,6 +815,14 @@
           "source": "ScienceDaily",
           "summary": "Cosmic expansion allows distant galaxies to move away faster than light, while still letting us see ancient light they emitted when they were much closer.",
           "published": "2026-07-25T13:17:03+00:00",
+          "regional": false
+        },
+        {
+          "title": "The Rubin Observatory’s greatest legacy will be this ‘movie’ of the sky",
+          "link": "https://www.scientificamerican.com/article/the-rubin-observatorys-greatest-legacy-will-be-this-movie-of-the-sky/",
+          "source": "Scientific American",
+          "summary": "Using the new Vera C. Rubin Observatory, astronomers are beginning the largest and deepest survey of the sky. What will they see?",
+          "published": "2026-07-24T10:45:00+00:00",
           "regional": false
         },
         {
@@ -1018,20 +994,36 @@
           "regional": false
         },
         {
-          "title": "Older than the Sun: Astronomers find new clues to the origin of interstellar comet 3I/ATLAS",
-          "link": "https://www.eso.org/public/news/eso2608/",
-          "source": "ESO",
-          "summary": "Astronomers have used the European Southern Observatory's Very Large Telescope (ESO's VLT) to study the composition of 3I/ATLAS, the brightest interstellar object ever seen, in detail.",
-          "published": "2026-07-06T09:00:00+00:00",
+          "title": "These ancient quasars shouldn't exist so soon after the Big Bang",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260707025049.htm",
+          "source": "ScienceDaily",
+          "summary": "Astronomers have uncovered 31 of the oldest known quasars, including the two earliest ever detected, shining from a time when the universe was only about 670 million years old.",
+          "published": "2026-07-07T06:50:49+00:00",
           "regional": false
         },
         {
-          "title": "Astronomers witness the birth of a magnetar for the first time",
-          "link": "https://www.sciencedaily.com/releases/2026/06/260626030450.htm",
-          "source": "ScienceDaily",
-          "summary": "A strange \"chirping\" signal from a distant supernova has revealed the birth of a magnetar, confirming that these incredibly magnetic neutron stars can power the universe's brightest stellar explosions.",
-          "published": "2026-07-06T08:15:49+00:00",
-          "regional": false
+          "title": "Comet which makes appearance once in 5.5 years now visible in Bengaluru sky",
+          "link": "https://www.thehindu.com/sci-tech/science/comet-which-makes-appearance-once-in-55-years-now-visible-in-bengaluru-sky/article71271869.ece",
+          "source": "The Hindu",
+          "summary": "The comet has been becoming brighter during June and July, and it will continue to be observable through late July and the first half of August, with peak visibility occurring around August 2 and 3",
+          "published": "2026-07-27T08:32:02+00:00",
+          "regional": true
+        },
+        {
+          "title": "Fields Medal: Hong Wang makes history as star mathematicians claim 2026 honours",
+          "link": "https://www.thehindu.com/sci-tech/science/fields-medal-hong-wang-makes-history-as-star-mathematicians-claim-2026-honours/article71271457.ece",
+          "source": "The Hindu",
+          "summary": "Wang has become the third woman to win the Fields Medal, after Maryam Mirzakhani and Maryna Viazovska; Wang and Deng are also the first Chinese nationals to win since 1982",
+          "published": "2026-07-27T06:02:21+00:00",
+          "regional": true
+        },
+        {
+          "title": "PRAXIS: a NASA mission to graze planet rings",
+          "link": "https://www.thehindu.com/sci-tech/science/praxis-a-nasa-mission-to-graze-planet-rings/article71269143.ece",
+          "source": "The Hindu",
+          "summary": "The mission will consist of a bio-inspired robotic explorer driven by an AI model, and will be capable of directly sampling particles from planetary ring systems — something no mission has attempted before",
+          "published": "2026-07-27T04:58:49+00:00",
+          "regional": true
         },
         {
           "title": "Samsung Galaxy Watch Ultra2, Watch9 launched in India: Price, features, offers",
@@ -1074,35 +1066,11 @@
           "regional": true
         },
         {
-          "title": "Samsung Galaxy Unpacked 2026: How to watch live event and what to expect",
-          "link": "https://indianexpress.com/article/technology/samsung-galaxy-unpacked-2026-date-time-livestream-fold-8-10798030/",
-          "source": "Indian Express",
-          "summary": "",
-          "published": "2026-07-22T07:54:04+00:00",
-          "regional": true
-        },
-        {
           "title": "New planet revealed around a young star after a decade in hiding",
           "link": "https://www.thehindu.com/sci-tech/science/new-planet-revealed-around-a-young-star-after-a-decade-in-hiding/article71248751.ece",
           "source": "The Hindu",
           "summary": "The new planet is slightly bigger than Jupiter and takes 91 years to orbit its star, a little longer than it takes Uranus to orbit our sun",
           "published": "2026-07-22T05:12:25+00:00",
-          "regional": true
-        },
-        {
-          "title": "Samsung launches first Galaxy credit card with up to 5% cash rewards",
-          "link": "https://indianexpress.com/article/technology/tech-news-technology/samsung-launches-first-galaxy-credit-card-with-up-to-5-cash-rewards-10796965/",
-          "source": "Indian Express",
-          "summary": "",
-          "published": "2026-07-21T12:32:12+00:00",
-          "regional": true
-        },
-        {
-          "title": "What makes the brain the most complicated object in the universe",
-          "link": "https://www.thehindu.com/sci-tech/science/what-makes-the-brain-the-most-complicated-object-in-the-universe/article67852849.ece",
-          "source": "The Hindu",
-          "summary": "For the first time, the thoughts and impressions of people unable to communicate with the outside world were translated into continuous natural language, using a combination of AI and brain imaging technology",
-          "published": "2026-07-21T07:23:07+00:00",
           "regional": true
         },
         {
