@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-27T10:18:20.102154+00:00",
-  "generated_human": "27 July 2026, 10:18 UTC",
-  "total_items": 129,
+  "generated": "2026-07-28T09:52:17.117456+00:00",
+  "generated_human": "28 July 2026, 09:52 UTC",
+  "total_items": 135,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "Closing the data loop in AI-driven drug discovery",
+          "link": "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/",
+          "source": "MIT Technology Review",
+          "summary": "Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage.",
+          "published": "2026-07-27T11:40:16+00:00",
+          "regional": false
+        },
         {
           "title": "A Master of the Traveling Salesperson Problem Finds His Own Path",
           "link": "https://www.quantamagazine.org/shayan-oveis-gharan-wins-2026-imu-abacus-medal-20260723/",
@@ -23,14 +31,6 @@
           "source": "MIT Technology Review",
           "summary": "Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment.",
           "published": "2026-07-23T12:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "The Genesis Mission, the Department of Energy’s big AI push, unveils first grants",
-          "link": "https://www.science.org/content/article/genesis-mission-department-energy-s-big-ai-push-unveils-first-grants",
-          "source": "Science (AAAS)",
-          "summary": "The 278 winners now face 9-month race to prove they deserve additional funding",
-          "published": "2026-07-23T04:35:00+00:00",
           "regional": false
         },
         {
@@ -58,35 +58,35 @@
           "regional": false
         },
         {
-          "title": "Moonshot AI to make Kimi K3 available for public download",
-          "link": "https://technode.com/2026/07/27/moonshot-ai-to-make-kimi-k3-available-for-public-download/",
+          "title": "InfiMaker seeks to bring industrial manufacturing to every desktop with AI",
+          "link": "https://technode.com/2026/07/28/infimaker-seeks-to-bring-industrial-manufacturing-to-every-desktop-with-ai/",
           "source": "TechNode",
-          "summary": "Moonshot AI is set to release the model weights for Kimi K3 on July 27, allowing developers to download, modify, and host the model independently.",
-          "published": "2026-07-27T10:10:18+00:00",
+          "summary": "When people think of advanced manufacturing, they typically picture multimillion-dollar industrial machines operating inside factories, not a compact device sitting on a desk.",
+          "published": "2026-07-28T06:02:44+00:00",
           "regional": true
         },
         {
-          "title": "KAIST, Nvidia deepen AI collaboration with joint research facilities",
-          "link": "https://www.koreaherald.com/article/10820415",
+          "title": "Posco Future M to apply AI across battery materials operations",
+          "link": "https://www.koreaherald.com/article/10822853",
           "source": "The Korea Herald",
-          "summary": "The Korea Advanced Institute of Science and Technology said Friday it is expanding its research partnership with US chip giant Nvidia through two major initiatives spanning physical artificial intelligence and agentic…",
-          "published": "2026-07-26T04:23:56+00:00",
+          "summary": "Posco Future M said Tuesday it will apply artificial intelligence across its battery material business, from raw material procurement and manufacturing to product development, quality control and customer collaboration.",
+          "published": "2026-07-28T04:24:13+00:00",
           "regional": true
         },
         {
-          "title": "Samsung, SK cement Korea's AI supply-chain role",
-          "link": "https://www.koreaherald.com/article/10820345",
-          "source": "The Korea Herald",
-          "summary": "South Korea moved to cement its role in the global artificial intelligence supply chain Friday as Samsung Electronics and SK Group unveiled massive AI infrastructure partnerships with leading US technology companies…",
-          "published": "2026-07-26T02:29:25+00:00",
+          "title": "Chinese AI developers may shift to ‘paid weights’ commercial licensing: Goldman Sachs",
+          "link": "https://www.scmp.com/tech/big-tech/article/3362032/chinese-ai-developers-may-shift-paid-weights-commercial-licensing-goldman-sachs?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Chinese artificial intelligence developers could start charging cloud platforms commercial licensing fees to host their open-weight models, according to the head of Asia internet research at Goldman Sachs, as firms look…",
+          "published": "2026-07-28T02:00:09+00:00",
           "regional": true
         },
         {
-          "title": "Lee says emergence of AI era offers S. Korea new opportunity",
-          "link": "https://www.koreaherald.com/article/10820235",
-          "source": "The Korea Herald",
-          "summary": "President Lee Jae Myung said Saturday that the emergence of an artificial intelligence era offers a new opportunity for South Korea, vowing to turn the country from a follower into a global leader.",
-          "published": "2026-07-26T00:04:02+00:00",
+          "title": "From Moonshot to Enflame: how Tencent is betting big on China’s AI champions",
+          "link": "https://www.scmp.com/tech/big-tech/article/3362013/moonshot-enflame-how-tencent-betting-big-chinas-ai-champions?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Tencent Holdings is quietly reallocating its venture capital bets away from legacy internet assets to double down on China’s highest-profile artificial intelligence champions.",
+          "published": "2026-07-27T14:30:06+00:00",
           "regional": true
         },
         {
@@ -146,19 +146,11 @@
       "accent": "#E8A13A",
       "items": [
         {
-          "title": "It's the cocktail taking young drinkers by storm - but the packaging is 'unrecyclable'",
-          "link": "https://www.bbc.co.uk/news/articles/cr490335z1eo?at_medium=RSS&at_campaign=rss",
+          "title": "Gates smashed and crops destroyed as farmers threatened by gangs hunting hares",
+          "link": "https://www.bbc.co.uk/news/articles/cwylk005dg7o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
-          "summary": "BuzzBallz cannot be recycled because the metal lid and plastic body are attached, say experts.",
-          "published": "2026-07-25T06:14:54+00:00",
-          "regional": false
-        },
-        {
-          "title": "Are BuzzBallz actually recyclable?",
-          "link": "https://www.bbc.co.uk/news/videos/c20e45g0ynqo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "BuzzBallz cannot be recycled as the metal lid and plastic body are attached, say experts.",
-          "published": "2026-07-24T22:03:36+00:00",
+          "summary": "Some barricade the entrances to their fields with concrete blocks and fallen trees.",
+          "published": "2026-07-28T05:11:38+00:00",
           "regional": false
         },
         {
@@ -266,12 +258,28 @@
           "regional": false
         },
         {
-          "title": "AI just supercharged the race to find room temperature superconductors",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260701205006.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have combined machine learning with quantum physics to discover two new superconductors and create a much faster way to search for many more.",
-          "published": "2026-07-07T05:39:51+00:00",
-          "regional": false
+          "title": "[Contribution] Are markets too greedy?",
+          "link": "https://www.koreaherald.com/article/10823157",
+          "source": "The Korea Herald",
+          "summary": "By Steve Brice There are increasing signs of investor euphoria globally, most notably in the semiconductor space and especially in South Korea and Taiwan.",
+          "published": "2026-07-28T07:17:56+00:00",
+          "regional": true
+        },
+        {
+          "title": "Elucidating the molecular mechanism of organic thin films self-assembly: Contributing to development of high-performance next-generation electronic devices",
+          "link": "https://sj.jst.go.jp/news/202607/n0728-01j.html",
+          "source": "Science Japan",
+          "summary": "In electronics such as smartphones and flexible displays, devices such as organic thin-film transistors made of carbon-based organic materials are used.",
+          "published": "2026-07-28T06:28:07+00:00",
+          "regional": true
+        },
+        {
+          "title": "Posco Future M to apply AI across battery materials operations",
+          "link": "https://www.koreaherald.com/article/10822853",
+          "source": "The Korea Herald",
+          "summary": "Posco Future M said Tuesday it will apply artificial intelligence across its battery material business, from raw material procurement and manufacturing to product development, quality control and customer collaboration.",
+          "published": "2026-07-28T04:24:13+00:00",
+          "regional": true
         },
         {
           "title": "LG Innotek Q2 profit surges twentyfold",
@@ -279,6 +287,14 @@
           "source": "The Korea Herald",
           "summary": "LG Innotek’s second-quarter operating profit surged more than twentyfold to 245.8 billion won ($167.6 million), crushing market expectations as strong camera-module and semiconductor-substrate sales defied a seasonal…",
           "published": "2026-07-27T06:09:08+00:00",
+          "regional": true
+        },
+        {
+          "title": "How Samsung slimmed down Galaxy Z8",
+          "link": "https://www.koreaherald.com/article/10821580",
+          "source": "The Korea Herald",
+          "summary": "LONDON — Samsung Electronics has rebuilt its Galaxy Z8 foldables around titanium and silicon-carbon, betting that a new display structure and battery can make them thinner, tougher and longer-lasting.",
+          "published": "2026-07-27T05:16:40+00:00",
           "regional": true
         },
         {
@@ -304,22 +320,6 @@
           "summary": "A Chinese chip start-up has launched what it claims to be the world’s first 8-inch production line for two-dimensional (2D) semiconductors, marking the country’s latest push to develop alternative chip technologies amid…",
           "published": "2026-07-11T05:20:15+00:00",
           "regional": true
-        },
-        {
-          "title": "Nanotech scientist spots early clues for TB, cancer",
-          "link": "https://www.scidev.net/global/role-models/nanotech-scientist-spots-early-clues-for-tb-cancer/",
-          "source": "SciDev.Net",
-          "summary": "South Africa scientist Jaymi Leigh January says her biosensors can detect disease biomarkers before serious harm is caused.",
-          "published": "2026-07-09T01:58:51+00:00",
-          "regional": true
-        },
-        {
-          "title": "Rice University and the Max Planck Society establish a partnership on quantum materials",
-          "link": "https://www.mpg.de/26861217/rice-university-and-the-max-planck-society-establish-a-partnership-on-quantum-materials",
-          "source": "Max Planck Society",
-          "summary": "Through the “Quantum Materials – Rice and Max Planck Partnership” they advance global leadership in quantum materials and technology",
-          "published": "2026-07-06T22:00:00+00:00",
-          "regional": true
         }
       ]
     },
@@ -330,27 +330,19 @@
       "accent": "#5FBF9B",
       "items": [
         {
+          "title": "Chinese university launches probe into girl’s gene-editing death",
+          "link": "https://www.science.org/content/article/chinese-university-launches-probe-girl-s-gene-editing-death",
+          "source": "Science (AAAS)",
+          "summary": "More than a year after failed clinical trial, Shanghai Jiao Tong University School of Medicine promises “serious action”",
+          "published": "2026-07-27T01:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "Fungus-made fashion—researchers turn living organisms into textiles",
           "link": "https://www.scientificamerican.com/article/fungus-made-fashion-researchers-turn-living-organisms-into-textiles/",
           "source": "Scientific American",
           "summary": "This biodegradable textile is alive and can host engineered microbes that can change its color or add UV protection",
           "published": "2026-07-24T19:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Four takeaways from our investigation into a hidden gene-editing death",
-          "link": "https://www.science.org/content/article/four-takeaways-our-investigation-hidden-gene-editing-death",
-          "source": "Science (AAAS)",
-          "summary": "Girl’s death in China raises questions about the safety and cost of gene therapy, China’s biotech push, and scientific publishing practices",
-          "published": "2026-07-23T05:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Exclusive: Death of girl in Chinese gene-editing trial was never made public",
-          "link": "https://www.science.org/content/article/exclusive-death-girl-chinese-gene-editing-trial-was-never-made-public",
-          "source": "Science (AAAS)",
-          "summary": "Parents want accountability after study went disastrously wrong, Science and Retraction Watch investigation reveals",
-          "published": "2026-07-23T02:00:00+00:00",
           "regional": false
         },
         {
@@ -401,6 +393,54 @@
       "tagline": "New ways to generate clean energy, capture carbon, and bring fresh water and power to people, cities, and transport.",
       "accent": "#33C6D6",
       "items": [
+        {
+          "title": "Plan for solar panels in field draws criticism",
+          "link": "https://www.bbc.co.uk/news/articles/c05qn402406o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "If approved, the project would see 72 solar panels installed on the site in Guernsey.",
+          "published": "2026-07-28T05:07:08+00:00",
+          "regional": false
+        },
+        {
+          "title": "Can this senate bill make hydropower projects more affordable?",
+          "link": "https://www.renewableenergyworld.com/hydro-power/can-this-senate-bill-make-hydropower-projects-more-affordable/",
+          "source": "Renewable Energy World",
+          "summary": "U.S. Senators Lisa Murkowski, Steve Daines, and Jim Risch introduced the Hydropower Licensing Affordability Act to reform hydropower licensing.",
+          "published": "2026-07-27T20:17:56+00:00",
+          "regional": false
+        },
+        {
+          "title": "FERC takes action to streamline reviews for hydropower projects with ‘minimal’ environmental impact",
+          "link": "https://www.renewableenergyworld.com/hydro-power/ferc-takes-action-to-streamline-reviews-for-hydropower-projects-with-minimal-environmental-impact/",
+          "source": "Renewable Energy World",
+          "summary": "The Federal Energy Regulatory Commission approved measures to simplify NEPA review for hydropower actions, aiming to streamline approvals.",
+          "published": "2026-07-27T18:26:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Di-Hydro research project tackles digitalization of hydropower plants through sensor development",
+          "link": "https://www.renewableenergyworld.com/hydro-power/di-hydro-research-project-tackles-digitization-of-hydropower-plants-through-sensor-development/",
+          "source": "Renewable Energy World",
+          "summary": "EU-funded research project Di-Hydro aims to modernize hydropower plants by developing smart devices and data acquisition techniques to predict and control operations and maintenance.",
+          "published": "2026-07-27T11:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Change is gonna come | Factor This Brief",
+          "link": "https://www.renewableenergyworld.com/energy-business/new-project-development/change-is-gonna-come-factor-this-brief/",
+          "source": "Renewable Energy World",
+          "summary": "As FERC weighs what to do with PJM, Avantus reaches commercial operations at Aratina 1, rPlus Energies celebrates solar milestones in Idaho, Strata Clean Energy upgrades its revolving credit line, another plot of…",
+          "published": "2026-07-27T09:55:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "A California aquifer may have crossed the point of no return",
+          "link": "https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return",
+          "source": "Science (AAAS)",
+          "summary": "Satellite data reveal in unprecedented detail how groundwater reservoirs permanently lose their ability to store water",
+          "published": "2026-07-27T03:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "Nextpower closes Prevalon acquisition, inches closer to world domination",
           "link": "https://www.renewableenergyworld.com/energy-business/nextpower-closes-prevalon-acquisition-inches-closer-to-world-domination/",
@@ -458,19 +498,27 @@
           "regional": false
         },
         {
+          "title": "Posco Future M to apply AI across battery materials operations",
+          "link": "https://www.koreaherald.com/article/10822853",
+          "source": "The Korea Herald",
+          "summary": "Posco Future M said Tuesday it will apply artificial intelligence across its battery material business, from raw material procurement and manufacturing to product development, quality control and customer collaboration.",
+          "published": "2026-07-28T04:24:13+00:00",
+          "regional": true
+        },
+        {
+          "title": "How Samsung slimmed down Galaxy Z8",
+          "link": "https://www.koreaherald.com/article/10821580",
+          "source": "The Korea Herald",
+          "summary": "LONDON — Samsung Electronics has rebuilt its Galaxy Z8 foldables around titanium and silicon-carbon, betting that a new display structure and battery can make them thinner, tougher and longer-lasting.",
+          "published": "2026-07-27T05:16:40+00:00",
+          "regional": true
+        },
+        {
           "title": "India’s green transition is missing long-duration energy storage",
           "link": "https://www.thehindu.com/sci-tech/energy-and-environment/india-green-transition-missing-long-duration-energy-storage/article71244283.ece",
           "source": "The Hindu",
           "summary": "The longer the time over which a technology discharges energy, the better its economics. At the same time, storing more energy also costs more.",
           "published": "2026-07-26T11:55:42+00:00",
-          "regional": true
-        },
-        {
-          "title": "SK Eternix shares surge on AI power demand hopes",
-          "link": "https://www.koreaherald.com/article/10819747",
-          "source": "The Korea Herald",
-          "summary": "Shares of SK Eternix, an energy unit of SK Group, have more than doubled over the past month as investors bet that AI-driven power demand will boost South Korea's renewable energy sector.",
-          "published": "2026-07-24T12:38:59+00:00",
           "regional": true
         },
         {
@@ -530,6 +578,46 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "NASA Astronaut Chris Williams to Discuss Space Station Mission",
+          "link": "https://www.nasa.gov/news-release/nasa-astronaut-chris-williams-to-discuss-space-station-mission/",
+          "source": "NASA",
+          "summary": "NASA astronaut Chris Williams will recap his recent eight-month mission aboard the International Space Station during a news conference at 2:45 p.m. EDT Tuesday, Aug.",
+          "published": "2026-07-27T18:49:20+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Science Soars During August Total Solar Eclipse",
+          "link": "https://science.nasa.gov/science-research/heliophysics/nasa-science-soars-during-august-total-solar-eclipse/",
+          "source": "NASA",
+          "summary": "Each time the Moon covers the Sun during a total solar eclipse — darkening daytime skies and briefly revealing the Sun’s ethereal outer atmosphere, the corona — it presents new opportunities to better understand our…",
+          "published": "2026-07-27T18:01:14+00:00",
+          "regional": false
+        },
+        {
+          "title": "Has NASA already found life on Mars?",
+          "link": "https://www.scientificamerican.com/article/has-nasa-already-found-life-on-mars/",
+          "source": "Scientific American",
+          "summary": "In searches for past and present Martian life, some scientists say we’ve been too cautious to see what’s right in front of us",
+          "published": "2026-07-27T17:30:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Astronaut Chris Williams Returns to Earth",
+          "link": "https://www.nasa.gov/image-article/nasa-astronaut-chris-williams-returns-to-earth/",
+          "source": "NASA",
+          "summary": "NASA astronaut Chris Williams is all smiles in this July 26, 2026, photo taken shortly after he landed with Expedition 74 Roscosmos cosmonauts Sergey Kud-Sverchkov, and Sergei Mikaev in Kazakhstan.",
+          "published": "2026-07-27T16:48:46+00:00",
+          "regional": false
+        },
+        {
+          "title": "After 241 days in orbit this NASA astronaut is finally home",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260727012131.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA astronaut Chris Williams and two Roscosmos cosmonauts are back on Earth after spending 241 days aboard the International Space Station.",
+          "published": "2026-07-27T08:06:53+00:00",
+          "regional": false
+        },
+        {
           "title": "Meet space startups at ESA’s Industry Space Days",
           "link": "https://www.esa.int/About_Us/Business_with_ESA/Meet_space_startups_at_ESA_s_Industry_Space_Days",
           "source": "ESA",
@@ -557,7 +645,7 @@
           "title": "SpaceX launches Starship on successful test flight",
           "link": "https://www.scientificamerican.com/article/spacex-launches-starship-on-successful-test-flight/",
           "source": "Scientific American",
-          "summary": "Starship demonstrated key abilities on its path to becoming a fully reusable transport for astronauts to the moon",
+          "summary": "Starship demonstrated key abilities on its path to becoming a fully reusable transport to take astronauts to the moon",
           "published": "2026-07-25T00:35:00+00:00",
           "regional": false
         },
@@ -578,35 +666,11 @@
           "regional": false
         },
         {
-          "title": "NASA Announces New Spacecraft Technology Demonstration Mission at Moon",
-          "link": "https://www.nasa.gov/directorates/armd/nasa-announces-new-spacecraft-technology-demonstration-mission-at-moon/",
-          "source": "NASA",
-          "summary": "NASA is working with industry to advance the next phase of cislunar infrastructure for the agency’s Artemis program and Moon Base, including orbital assets and demonstrations.",
-          "published": "2026-07-24T16:35:46+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA to Support Blue Origin New Glenn Rocket Testing, Advance Artemis",
-          "link": "https://www.nasa.gov/news-release/nasa-to-support-blue-origin-new-glenn-rocket-testing-advance-artemis/",
-          "source": "NASA",
-          "summary": "NASA and Blue Origin announced Friday they recently agreed to conduct second stage hot fire testing for the company’s New Glenn rocket on the B-2 test stand at the agency’s Stennis Space Center near Bay St.",
-          "published": "2026-07-24T15:30:21+00:00",
-          "regional": false
-        },
-        {
           "title": "China’s Tianwen-1 captures interstellar comet 3I/ATLAS near Mars",
           "link": "https://www.sciencedaily.com/releases/2026/07/260723084052.htm",
           "source": "ScienceDaily",
           "summary": "China’s Tianwen-1 orbiter captured a faint but remarkable view of 3I/ATLAS as the interstellar comet raced past Mars.",
           "published": "2026-07-24T07:47:42+00:00",
-          "regional": false
-        },
-        {
-          "title": "Crews Move Artemis IV Liquid Hydrogen Tank",
-          "link": "https://www.nasa.gov/image-article/crews-move-artemis-iv-liquid-hydrogen-tank/",
-          "source": "NASA",
-          "summary": "Crews at NASA’s Michoud Assembly Facility in New Orleans transport the 130-foot-tall Artemis IV liquid hydrogen tank out of a production cell inside the main factory building into a detached test building on a separate…",
-          "published": "2026-07-23T15:20:19+00:00",
           "regional": false
         },
         {
@@ -647,14 +711,6 @@
           "source": "ESA",
           "summary": "Video: 00:19:14 The four Artemis II astronauts visited ESTEC, ESA’s technical centre in the Netherlands, on 13 July as the first stop in a series of post-flight visits to the European teams that made their mission…",
           "published": "2026-07-20T08:30:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "SpaceX’s latest Starship launch attempt ends in a scrub",
-          "link": "https://www.scientificamerican.com/article/spacexs-latest-starship-launch-attempt-ends-in-a-scrub/",
-          "source": "Scientific American",
-          "summary": "SpaceX’s first attempt to launch the company’s Starship megarocket on the vehicle’s 13th flight test ended before it could properly begin, aborting just before liftoff",
-          "published": "2026-07-16T23:45:00+00:00",
           "regional": false
         },
         {
@@ -711,14 +767,6 @@
           "source": "ScienceDaily",
           "summary": "The hunt for ancient life on Mars just got an important test run. Scientists confirmed that the Rosalind Franklin rover's sophisticated instrument can detect subtle differences in two stable molecules that could…",
           "published": "2026-07-09T10:40:52+00:00",
-          "regional": false
-        },
-        {
-          "title": "Scientists want to quarantine alien life on the Moon before it reaches Earth",
-          "link": "https://www.sciencedaily.com/releases/2026/06/260623083144.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists are calling for a lunar quarantine facility where samples from Mars, the Moon, and beyond would be examined before being brought to Earth.",
-          "published": "2026-07-06T14:39:56+00:00",
           "regional": false
         },
         {
@@ -786,19 +834,19 @@
           "regional": true
         },
         {
+          "title": "India’s first private orbital rocket Vikram-1 set for lift-off",
+          "link": "https://www.thehindu.com/sci-tech/science/indias-first-private-orbital-rocket-vikram-1-set-for-lift-off/article71234178.ece",
+          "source": "The Hindu",
+          "summary": "Vikram-1’s flight sequence, from lift-off to orbit injection, will cover 14 phases, and the total duration of the flight will be 15.46 minutes",
+          "published": "2026-07-18T11:11:31+00:00",
+          "regional": true
+        },
+        {
           "title": "India’s first privately developed orbital-class rocket Vikram-1 set for July 18 lift-off",
           "link": "https://www.thehindu.com/news/national/karnataka/indias-first-privately-developed-orbital-class-rocket-vikram-1-set-to-liff-off-on-july-18/article71229535.ece",
           "source": "The Hindu",
           "summary": "Private space launch company Skyroot Aerospace on July 16, 2026 announced that it will attempt to launch Vikram-1 from the space port’s first launch pad at 11.30 a.m..",
           "published": "2026-07-17T13:22:50+00:00",
-          "regional": true
-        },
-        {
-          "title": "SpaceX Starship launch aborted on pad at last moment",
-          "link": "https://www.thehindu.com/sci-tech/spacex-starship-launch-aborted-on-pad-at-last-moment/article71232548.ece",
-          "source": "The Hindu",
-          "summary": "It was supposed to be the 13th flight for Starship, which, at 407 feet (124 metres) tall with 33 main engines, is the world’s biggest and most powerful rocket",
-          "published": "2026-07-17T03:33:19+00:00",
           "regional": true
         }
       ]
@@ -809,6 +857,22 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "UK's iconic Jodrell Bank telescope faces axe in science cuts",
+          "link": "https://www.bbc.co.uk/news/articles/c5y6r9rdxygo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Astronomers warn it would tear the heart out of UK science, and leave a generation untrained.",
+          "published": "2026-07-27T11:50:13+00:00",
+          "regional": false
+        },
+        {
+          "title": "Clear sighting of ‘wandering’ black hole reveals escapee from galaxy merger",
+          "link": "https://www.science.org/content/article/clear-sighting-wandering-black-hole-reveals-escapee-galaxy-merger",
+          "source": "Science (AAAS)",
+          "summary": "Stripped-down behemoth promises new insights into how galaxies grow, astronomers say",
+          "published": "2026-07-27T04:20:00+00:00",
+          "regional": false
+        },
         {
           "title": "The Universe can outrun light without breaking Einstein’s rules",
           "link": "https://www.sciencedaily.com/releases/2026/07/260724061444.htm",
@@ -839,6 +903,14 @@
           "source": "ScienceDaily",
           "summary": "A giant planet had been hiding inside one of astronomy’s most closely studied planetary systems, concealed by a bright disk of cosmic dust.",
           "published": "2026-07-23T05:58:04+00:00",
+          "regional": false
+        },
+        {
+          "title": "Comet 10P/Tempel Brightens, Sets Sail South",
+          "link": "https://skyandtelescope.org/astronomy-news/comet-10p-tempel-brightens-sets-sail-south/",
+          "source": "Sky & Telescope",
+          "summary": "This periodic visitor is now bright enough to see in binoculars from a dark sky. We also report on a bright supernova in Ursa Major.",
+          "published": "2026-07-22T16:05:48+00:00",
           "regional": false
         },
         {
@@ -903,14 +975,6 @@
           "source": "ScienceDaily",
           "summary": "JWST has captured unusually detailed images of gas feeding the supermassive black hole at the center of NGC 4696.",
           "published": "2026-07-18T03:09:35+00:00",
-          "regional": false
-        },
-        {
-          "title": "A super-Earth exoplanet’s leaking helium could be evidence of a complex atmosphere",
-          "link": "https://www.scientificamerican.com/article/a-super-earth-exoplanets-leaking-helium-could-be-evidence-of-a-complex-atmosphere/",
-          "source": "Scientific American",
-          "summary": "The planet LHS 1140 b lies in its star’s habitable zone, which already made it a prime candidate as a possible host for life",
-          "published": "2026-07-16T18:00:00+00:00",
           "regional": false
         },
         {
@@ -986,27 +1050,11 @@
           "regional": false
         },
         {
-          "title": "Quantum sensor breakthrough could reveal dark matter and ancient gravitational waves",
-          "link": "https://www.sciencedaily.com/releases/2026/06/260622014303.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have taken an important step toward building quantum detectors that could reveal some of the universe’s biggest secrets.",
-          "published": "2026-07-07T09:22:35+00:00",
-          "regional": false
-        },
-        {
-          "title": "These ancient quasars shouldn't exist so soon after the Big Bang",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260707025049.htm",
-          "source": "ScienceDaily",
-          "summary": "Astronomers have uncovered 31 of the oldest known quasars, including the two earliest ever detected, shining from a time when the universe was only about 670 million years old.",
-          "published": "2026-07-07T06:50:49+00:00",
-          "regional": false
-        },
-        {
           "title": "Comet which makes appearance once in 5.5 years now visible in Bengaluru sky",
           "link": "https://www.thehindu.com/sci-tech/science/comet-which-makes-appearance-once-in-55-years-now-visible-in-bengaluru-sky/article71271869.ece",
           "source": "The Hindu",
           "summary": "The comet has been becoming brighter during June and July, and it will continue to be observable through late July and the first half of August, with peak visibility occurring around August 2 and 3",
-          "published": "2026-07-27T08:32:02+00:00",
+          "published": "2026-07-27T10:52:30+00:00",
           "regional": true
         },
         {
