@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-07-27 12:34 PDT
-; Observing window starts 2026-07-27 21:32 PDT  (LST 17:04:31)
+; Generated 2026-07-28 12:35 PDT
+; Observing window starts 2026-07-28 21:30 PDT  (LST 17:06:27)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -120,15 +120,6 @@ M 11
 MP Flora
 #WAITINLIMITS 60
 
-; Comet C/2024 J3 (ATLAS)  mag 13.9
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT C/2024 J3
-#WAITINLIMITS 60
-
 ; Open Cluster  mag 7.3  size 6.90'  Foxhead Cluster
 #posang 0
 #count 1,1,1,1
@@ -226,7 +217,7 @@ NGC 7023
 #filter r',g',i',z'
 M 39
 
-; Comet 10P/Tempel  mag 10.3
+; Comet 10P/Tempel  mag 10.9
 #posang 0
 #count 3
 #interval 300
@@ -350,6 +341,14 @@ IC 1613
 #filter r',g',i',z'
 NGC 0457
 
+; Galaxy  mag 9.2  size 1.69'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+IC 0127
+
 ; Asteroid 2 Pallas  mag 9.6
 #posang 0
 #count 3
@@ -358,14 +357,6 @@ NGC 0457
 #filter r'
 MP Pallas
 #WAITINLIMITS 60
-
-; Galaxy  mag 9.2  size 1.69'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-IC 0127
 
 ; Galaxy  mag 5.8  size 62.09'  Triangulum Galaxy,Triangulum Pinwheel
 #posang 0
@@ -383,7 +374,7 @@ M 33
 #filter r',g',i',z'
 M 74
 
-; Asteroid 4 Vesta  mag 7.6
+; Asteroid 4 Vesta  mag 7.5
 #posang 0
 #count 3
 #interval 300
@@ -400,6 +391,14 @@ MP Vesta
 #filter r',g',i',z'
 NGC 0869
 
+; Open Cluster  mag 3.8  size 10.50'  chi Persei Cluster
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 0884
+
 ; Comet 220P/McNaught  mag 11.9
 #posang 0
 #count 3
@@ -408,14 +407,6 @@ NGC 0869
 #filter r'
 CT 220P/McNaught
 #WAITINLIMITS 60
-
-; Open Cluster  mag 3.8  size 10.50'  chi Persei Cluster
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 0884
 
 ; Galaxy  mag 9.5  size 7.40'
 #posang 0
