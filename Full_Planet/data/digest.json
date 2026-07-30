@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-29T09:53:22.396051+00:00",
-  "generated_human": "29 July 2026, 09:53 UTC",
-  "total_items": 131,
+  "generated": "2026-07-30T09:49:41.332699+00:00",
+  "generated_human": "30 July 2026, 09:49 UTC",
+  "total_items": 130,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "Siobahn Day Grady Wants Everyone to Be AI Literate",
+          "link": "https://spectrum.ieee.org/siobahn-day-grady-ai-hbcu",
+          "source": "IEEE Spectrum",
+          "summary": "Artificial intelligence is reshaping the skills employers expect from new graduates. In response, universities are scrambling to launch new courses, research centers, and industry partnerships that prepare students for…",
+          "published": "2026-07-29T14:00:02+00:00",
+          "regional": false
+        },
         {
           "title": "Closing the data loop in AI-driven drug discovery",
           "link": "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/",
@@ -58,11 +66,19 @@
           "regional": false
         },
         {
-          "title": "OpenAI, Google, Meta staff sign letter calling for mechanisms to pace AI progress",
-          "link": "https://indianexpress.com/article/technology/artificial-intelligence/openai-anthropic-meta-employees-letter-slow-ai-development-10808642/",
+          "title": "Humanoid robot, powered by Qualcomm’s AI chips, collapses during Taipei event",
+          "link": "https://indianexpress.com/article/technology/tech-news-technology/humanoid-robot-powered-by-qualcomm-ai-chips-collapses-during-taipei-computex-event-10809988/",
           "source": "Indian Express",
           "summary": "",
-          "published": "2026-07-29T07:35:25+00:00",
+          "published": "2026-07-30T06:10:02+00:00",
+          "regional": true
+        },
+        {
+          "title": "How ByteDance’s Seedance model empowers China’s nascent AI drama industry",
+          "link": "https://www.scmp.com/tech/tech-trends/article/3362333/how-bytedances-seedance-model-empowers-chinas-nascent-ai-comic-drama-industry?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "At a video production base in Shenzhen, creators are generating so-called comic dramas using artificial intelligence, compressing months of production down to a matter of weeks.",
+          "published": "2026-07-30T03:31:57+00:00",
           "regional": true
         },
         {
@@ -71,14 +87,6 @@
           "source": "The Korea Herald",
           "summary": "Krafton on Wednesday released its new audio foundation model, A.X K2 Raon-Speech, on global AI platform Hugging Face.",
           "published": "2026-07-29T05:45:21+00:00",
-          "regional": true
-        },
-        {
-          "title": "Posco Future M to apply AI across battery materials operations",
-          "link": "https://www.koreaherald.com/article/10822853",
-          "source": "The Korea Herald",
-          "summary": "Posco Future M said Tuesday it will apply artificial intelligence across its battery material business, from raw material procurement and manufacturing to product development, quality control and customer collaboration.",
-          "published": "2026-07-28T04:24:13+00:00",
           "regional": true
         },
         {
@@ -145,6 +153,22 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "Bizarre new material discovered in Hiroshima bombing debris",
+          "link": "https://www.scientificamerican.com/article/bizarre-new-material-discovered-in-hiroshima-bombing-debris/",
+          "source": "Scientific American",
+          "summary": "The extreme conditions of atomic bomb explosions create “uncontrolled microexperiments” that, in Hiroshima, forged a never-before-seen metallic alloy",
+          "published": "2026-07-29T18:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "A tiny molecular basket unlocks a powerful new kind of chemistry",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260724061452.htm",
+          "source": "ScienceDaily",
+          "summary": "Rice University chemists have found a new way to make neodymium, a rare-earth metal, interact with oxygen. Using a specially designed molecular structure described as a “basket,” the team positioned the atoms so they…",
+          "published": "2026-07-29T11:47:05+00:00",
+          "regional": false
+        },
         {
           "title": "Gates smashed and crops destroyed as farmers threatened by gangs hunting hares",
           "link": "https://www.bbc.co.uk/news/articles/cwylk005dg7o?at_medium=RSS&at_campaign=rss",
@@ -250,6 +274,14 @@
           "regional": false
         },
         {
+          "title": "Samsung Electro-Mechanics profit doubles on AI server parts demand",
+          "link": "https://www.koreaherald.com/article/10825761",
+          "source": "The Korea Herald",
+          "summary": "Samsung Electro-Mechanics reported its highest quarterly revenue on record for the April-June period, with sales of multilayer ceramic capacitors for AI servers and high-end semiconductor package substrates driving both…",
+          "published": "2026-07-30T04:46:39+00:00",
+          "regional": true
+        },
+        {
           "title": "Seoul shares dip nearly 6% on extended chip rout amid AI skepticism",
           "link": "https://www.koreaherald.com/article/10824724",
           "source": "The Korea Herald",
@@ -258,27 +290,11 @@
           "regional": true
         },
         {
-          "title": "[Contribution] Are markets too greedy?",
-          "link": "https://www.koreaherald.com/article/10823157",
-          "source": "The Korea Herald",
-          "summary": "By Steve Brice There are increasing signs of investor euphoria globally, most notably in the semiconductor space and especially in South Korea and Taiwan.",
-          "published": "2026-07-28T07:17:56+00:00",
-          "regional": true
-        },
-        {
           "title": "Elucidating the molecular mechanism of organic thin films self-assembly: Contributing to development of high-performance next-generation electronic devices",
           "link": "https://sj.jst.go.jp/news/202607/n0728-01j.html",
           "source": "Science Japan",
           "summary": "In electronics such as smartphones and flexible displays, devices such as organic thin-film transistors made of carbon-based organic materials are used.",
           "published": "2026-07-28T06:28:07+00:00",
-          "regional": true
-        },
-        {
-          "title": "Posco Future M to apply AI across battery materials operations",
-          "link": "https://www.koreaherald.com/article/10822853",
-          "source": "The Korea Herald",
-          "summary": "Posco Future M said Tuesday it will apply artificial intelligence across its battery material business, from raw material procurement and manufacturing to product development, quality control and customer collaboration.",
-          "published": "2026-07-28T04:24:13+00:00",
           "regional": true
         },
         {
@@ -303,14 +319,6 @@
           "source": "South China Morning Post",
           "summary": "A Chinese chip start-up has launched what it claims to be the world’s first 8-inch production line for two-dimensional (2D) semiconductors, marking the country’s latest push to develop alternative chip technologies amid…",
           "published": "2026-07-11T05:20:15+00:00",
-          "regional": true
-        },
-        {
-          "title": "Nanotech scientist spots early clues for TB, cancer",
-          "link": "https://www.scidev.net/global/role-models/nanotech-scientist-spots-early-clues-for-tb-cancer/",
-          "source": "SciDev.Net",
-          "summary": "South Africa scientist Jaymi Leigh January says her biosensors can detect disease biomarkers before serious harm is caused.",
-          "published": "2026-07-09T01:58:51+00:00",
           "regional": true
         }
       ]
@@ -346,14 +354,6 @@
           "regional": false
         },
         {
-          "title": "Scientists turned red lettuce green and something surprising happened",
-          "link": "https://www.sciencedaily.com/releases/2026/06/260614011854.htm",
-          "source": "ScienceDaily",
-          "summary": "Researchers used genome editing to block the production of red pigments in lettuce, causing other beneficial plant compounds to build up instead.",
-          "published": "2026-06-15T08:57:07+00:00",
-          "regional": false
-        },
-        {
           "title": "Girl’s death in China reveals human cost of unregulated science",
           "link": "https://www.thehindu.com/sci-tech/health/girls-death-in-china-reveals-human-cost-of-unregulated-science/article71268995.ece",
           "source": "The Hindu",
@@ -386,14 +386,6 @@
           "regional": false
         },
         {
-          "title": "Plan for solar panels in field draws criticism",
-          "link": "https://www.bbc.co.uk/news/articles/c05qn402406o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "If approved, the project would see 72 solar panels installed on the site in Guernsey.",
-          "published": "2026-07-28T05:07:08+00:00",
-          "regional": false
-        },
-        {
           "title": "Can this senate bill make hydropower projects more affordable?",
           "link": "https://www.renewableenergyworld.com/hydro-power/can-this-senate-bill-make-hydropower-projects-more-affordable/",
           "source": "Renewable Energy World",
@@ -423,14 +415,6 @@
           "source": "Renewable Energy World",
           "summary": "As FERC weighs what to do with PJM, Avantus reaches commercial operations at Aratina 1, rPlus Energies celebrates solar milestones in Idaho, Strata Clean Energy upgrades its revolving credit line, another plot of…",
           "published": "2026-07-27T09:55:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "A California aquifer may have crossed the point of no return",
-          "link": "https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return",
-          "source": "Science (AAAS)",
-          "summary": "Satellite data reveal in unprecedented detail how groundwater reservoirs permanently lose their ability to store water",
-          "published": "2026-07-27T03:00:00+00:00",
           "regional": false
         },
         {
@@ -474,19 +458,27 @@
           "regional": false
         },
         {
+          "title": "Hyundai chief visits Brazil as automaker steps up SUV, EV push",
+          "link": "https://www.koreaherald.com/article/10825930",
+          "source": "The Korea Herald",
+          "summary": "Hyundai Motor Group plans to expand its SUV lineup, pursue local production of electric vehicles and strengthen research and development in Brazil as Chinese automakers rapidly gain ground in Latin America’s largest…",
+          "published": "2026-07-30T06:06:33+00:00",
+          "regional": true
+        },
+        {
+          "title": "LG Energy Solution swings back to profit as storage batteries fill EV gap",
+          "link": "https://www.koreaherald.com/article/10825703",
+          "source": "The Korea Herald",
+          "summary": "LG Energy Solution returned to an operating profit in the second quarter, snapping two consecutive quarterly losses as the conversion of idle electric-vehicle lines to energy storage systems gained traction.",
+          "published": "2026-07-30T04:00:15+00:00",
+          "regional": true
+        },
+        {
           "title": "Hyosung lands Brazil transformer deal, grid-tech partnership",
           "link": "https://www.koreaherald.com/article/10824418",
           "source": "The Korea Herald",
           "summary": "Hyosung Heavy Industries said Wednesday it won an order to supply ultra-high-voltage transformers for a Brazilian hydropower plant and agreed to jointly develop grid-stabilization technology with a global hydropower…",
           "published": "2026-07-29T05:28:31+00:00",
-          "regional": true
-        },
-        {
-          "title": "Posco Future M to apply AI across battery materials operations",
-          "link": "https://www.koreaherald.com/article/10822853",
-          "source": "The Korea Herald",
-          "summary": "Posco Future M said Tuesday it will apply artificial intelligence across its battery material business, from raw material procurement and manufacturing to product development, quality control and customer collaboration.",
-          "published": "2026-07-28T04:24:13+00:00",
           "regional": true
         },
         {
@@ -546,6 +538,62 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "Stunning photos capture July's Buck Moon over the UK",
+          "link": "https://www.bbc.co.uk/weather/articles/c9v4rpjld89o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Skygazers captured brilliant photos of July's full Moon as it rose over the UK on Wednesday.",
+          "published": "2026-07-30T08:31:53+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Johnson Interns Shaping the Future of Exploration",
+          "link": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-johnson-interns-shaping-the-future-of-exploration/",
+          "source": "NASA",
+          "summary": "NASA interns at Johnson Space Center are applying their talents to real-world projects while working alongside the engineers, scientists, communicators, and innovators advancing human spaceflight.",
+          "published": "2026-07-30T08:08:55+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Curiosity Views a Sand-Capped Butte",
+          "link": "https://science.nasa.gov/photojournal/nasas-curiosity-views-a-sand-capped-butte/",
+          "source": "NASA",
+          "summary": "Description NASA’s Curiosity Mars rover captured this sand-capped butte, nicknamed “Miraflores,” estimated to be about 20 feet (6 meters) tall, with its Mast Camera, or Mastcam, on June 11, 2026, the 4,923rd Martian…",
+          "published": "2026-07-29T16:08:12+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Curiosity Discovers a Field of Martian Polygons",
+          "link": "https://science.nasa.gov/photojournal/nasas-curiosity-discovers-a-field-of-martian-polygons/",
+          "source": "NASA",
+          "summary": "Description NASA’s Curiosity Mars rover captured this 360-degree view of an expanse of terrain covered in surface features called polygons on June 19 and 20, 2026, the 4,930th and 4,931st Martian days, or sols, of the…",
+          "published": "2026-07-29T16:06:39+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Curiosity Mars Rover Discovers Field of Honeycomb Textures",
+          "link": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-mars-rover-discovers-field-of-honeycomb-textures/",
+          "source": "NASA",
+          "summary": "As NASA’s Curiosity rover recently began climbing up a Martian valley nicknamed “Valle Grande,” it sent back images that were a familiar sight to mission scientists: honeycomb-like textures called polygonal fractures,…",
+          "published": "2026-07-29T15:30:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "APOD: 2026 July 29 – Psyche Receives Gravity Assist from Mars",
+          "link": "https://science.nasa.gov/image-article/apod/apod-2026-july-29-psyche-receives-gravity-assist-from-mars/",
+          "source": "NASA",
+          "summary": "A video of the Psyche spacecraft flying by Mars.",
+          "published": "2026-07-29T15:25:54+00:00",
+          "regional": false
+        },
+        {
+          "title": "Rescue mission to save NASA’s Swift space telescope is imperiled in orbit",
+          "link": "https://www.scientificamerican.com/article/rescue-mission-to-save-nasas-swift-space-telescope-is-imperiled-in-orbit/",
+          "source": "Scientific American",
+          "summary": "A private spacecraft launched to boost the decaying orbit of NASA’s Swift Observatory is now suffering from potentially mission-ending malfunctions",
+          "published": "2026-07-29T13:15:00+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA’s Psyche spacecraft aces Mars flyby capturing stunning timelapse video",
           "link": "https://www.sciencedaily.com/releases/2026/07/260727214612.htm",
           "source": "ScienceDaily",
@@ -554,35 +602,11 @@
           "regional": false
         },
         {
-          "title": "NASA Astronaut Chris Williams to Discuss Space Station Mission",
-          "link": "https://www.nasa.gov/news-release/nasa-astronaut-chris-williams-to-discuss-space-station-mission/",
-          "source": "NASA",
-          "summary": "NASA astronaut Chris Williams will recap his recent eight-month mission aboard the International Space Station during a news conference at 2:45 p.m. EDT Tuesday, Aug.",
-          "published": "2026-07-27T18:49:20+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Science Soars During August Total Solar Eclipse",
-          "link": "https://science.nasa.gov/science-research/heliophysics/nasa-science-soars-during-august-total-solar-eclipse/",
-          "source": "NASA",
-          "summary": "Each time the Moon covers the Sun during a total solar eclipse — darkening daytime skies and briefly revealing the Sun’s ethereal outer atmosphere, the corona — it presents new opportunities to better understand our…",
-          "published": "2026-07-27T18:01:14+00:00",
-          "regional": false
-        },
-        {
           "title": "Has NASA already found life on Mars?",
           "link": "https://www.scientificamerican.com/article/has-nasa-already-found-life-on-mars/",
           "source": "Scientific American",
           "summary": "In searches for past and present Martian life, some scientists say we’ve been too cautious to see what’s right in front of us",
           "published": "2026-07-27T17:30:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Astronaut Chris Williams Returns to Earth",
-          "link": "https://www.nasa.gov/image-article/nasa-astronaut-chris-williams-returns-to-earth/",
-          "source": "NASA",
-          "summary": "NASA astronaut Chris Williams is all smiles in this July 26, 2026, photo taken shortly after he landed with Expedition 74 Roscosmos cosmonauts Sergey Kud-Sverchkov, and Sergei Mikaev in Kazakhstan.",
-          "published": "2026-07-27T16:48:46+00:00",
           "regional": false
         },
         {
@@ -602,22 +626,6 @@
           "regional": false
         },
         {
-          "title": "NASA Astronaut Chris Williams, Crewmates Return from Space Station",
-          "link": "https://www.nasa.gov/news-release/nasa-astronaut-chris-williams-crewmates-return-from-space-station/",
-          "source": "NASA",
-          "summary": "Concluding an eight-month science mission aboard the International Space Station, NASA astronaut Chris Williams returned to Earth on Sunday alongside Roscosmos cosmonauts Sergey Kud-Sverchkov and Sergei Mikaev.",
-          "published": "2026-07-26T10:59:44+00:00",
-          "regional": false
-        },
-        {
-          "title": "Watch: SpaceX's successful test flight and splashdown for Starship",
-          "link": "https://www.bbc.co.uk/news/articles/czxqnwzqqw8o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "The megarocket pulls off a soft splashdown in the Indian Ocean an hour after launch.",
-          "published": "2026-07-25T00:41:50+00:00",
-          "regional": false
-        },
-        {
           "title": "SpaceX launches Starship on successful test flight",
           "link": "https://www.scientificamerican.com/article/spacex-launches-starship-on-successful-test-flight/",
           "source": "Scientific American",
@@ -626,27 +634,11 @@
           "regional": false
         },
         {
-          "title": "NASA’s ESCAPADE Snaps Family Portrait of Earth, Moon",
-          "link": "https://science.nasa.gov/image-article/centers-and-facilities/goddard/nasas-escapade-snaps-family-portrait-of-earth-moon/",
-          "source": "NASA",
-          "summary": "On July 3, one of NASA’s two Mars-destined ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) spacecraft captured photos of Earth and the Moon in visible and thermal infrared light.",
-          "published": "2026-07-24T17:47:06+00:00",
-          "regional": false
-        },
-        {
           "title": "China’s Tianwen-1 captures interstellar comet 3I/ATLAS near Mars",
           "link": "https://www.sciencedaily.com/releases/2026/07/260723084052.htm",
           "source": "ScienceDaily",
           "summary": "China’s Tianwen-1 orbiter captured a faint but remarkable view of 3I/ATLAS as the interstellar comet raced past Mars.",
           "published": "2026-07-24T07:47:42+00:00",
-          "regional": false
-        },
-        {
-          "title": "Watch the total solar eclipse with ESA in León",
-          "link": "https://www.esa.int/Science_Exploration/Space_Science/Watch_the_total_solar_eclipse_with_ESA_in_Leon",
-          "source": "ESA",
-          "summary": "Discover the science behind one of nature's most extraordinary phenomena and experience a total solar eclipse with the European Space Agency (ESA), the City of León and the University of León.",
-          "published": "2026-07-23T10:00:00+00:00",
           "regional": false
         },
         {
@@ -663,14 +655,6 @@
           "source": "Scientific American",
           "summary": "The Psyche spacecraft flew by Mars earlier this year on its way to a metal-rich asteroid, capturing the images along the way",
           "published": "2026-07-21T19:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "A SpaceX rocket is about to crash into the moon—scientists will be watching",
-          "link": "https://www.scientificamerican.com/article/a-spacex-rocket-is-about-to-crash-into-the-moon-scientists-will-be-watching/",
-          "source": "Scientific American",
-          "summary": "Astronomers have a plan to observe an errant piece of a SpaceX rocket as it hits the moon to better understand impact events",
-          "published": "2026-07-20T13:00:00+00:00",
           "regional": false
         },
         {
@@ -722,6 +706,14 @@
           "regional": false
         },
         {
+          "title": "Future moon landings could wipe out clues to how life began on Earth",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260710003537.htm",
+          "source": "ScienceDaily",
+          "summary": "A new study suggests spacecraft exhaust could quickly contaminate the moon's most scientifically valuable regions, potentially masking ancient clues about how life began on Earth.",
+          "published": "2026-07-13T00:48:16+00:00",
+          "regional": false
+        },
+        {
           "title": "Europe just unveiled a new rival to SpaceX’s Starship",
           "link": "https://www.sciencedaily.com/releases/2026/07/260710003526.htm",
           "source": "ScienceDaily",
@@ -770,11 +762,11 @@
           "regional": true
         },
         {
-          "title": "With 3 spacecraft, multiple launches, Artemis III to be Nasa’s most complex mission",
-          "link": "https://indianexpress.com/article/technology/science/with-3-spacecraft-multiple-launches-artemis-iii-to-be-nasas-most-complex-mission-10798603/",
-          "source": "Indian Express",
-          "summary": "",
-          "published": "2026-07-22T12:27:37+00:00",
+          "title": "Space Exploration Day | How are astronauts trained?",
+          "link": "https://www.thehindu.com/children/how-are-astronauts-trained/article71189012.ece",
+          "source": "The Hindu",
+          "summary": "If you want to be in space, you’ll need training. A lot of it. Here’s a look at all the different training — from spacewalk to simulation — that astronauts undergo to be efficient and valiant when, after much waiting,…",
+          "published": "2026-07-22T04:49:19+00:00",
           "regional": true
         },
         {
@@ -826,11 +818,27 @@
       "accent": "#B98CE0",
       "items": [
         {
-          "title": "What is Jodrell Bank Observatory and what does it do?",
-          "link": "https://www.bbc.co.uk/news/articles/c07r1v98mpgo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "When Jodrell Bank Observatory was built, the site was seen as gamechanger for radio astronomy.",
-          "published": "2026-07-28T14:45:09+00:00",
+          "title": "Rare Total Solar Eclipse-Perseid Meteor Shower Double-Header August 12th",
+          "link": "https://skyandtelescope.org/astronomy-news/rare-total-solar-eclipse-perseid-meteor-shower-double-header-on-august-12th/",
+          "source": "Sky & Telescope",
+          "summary": "The only total solar eclipse of the year coincides with the Perseid meteor shower. Here's what you need to know to watch the eclipse.",
+          "published": "2026-07-29T16:40:28+00:00",
+          "regional": false
+        },
+        {
+          "title": "Astronomers spot best-yet example of a wandering supermassive black hole",
+          "link": "https://www.scientificamerican.com/article/astronomers-spot-best-yet-example-of-a-wandering-supermassive-black-hole/",
+          "source": "Scientific American",
+          "summary": "Giant black holes adrift in deep space are normally invisible—unless they’re dining on stars",
+          "published": "2026-07-29T14:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Rescue mission to save NASA’s Swift space telescope is imperiled in orbit",
+          "link": "https://www.scientificamerican.com/article/rescue-mission-to-save-nasas-swift-space-telescope-is-imperiled-in-orbit/",
+          "source": "Scientific American",
+          "summary": "A private spacecraft launched to boost the decaying orbit of NASA’s Swift Observatory is now suffering from potentially mission-ending malfunctions",
+          "published": "2026-07-29T13:15:00+00:00",
           "regional": false
         },
         {
@@ -855,14 +863,6 @@
           "source": "Science (AAAS)",
           "summary": "Black holes can form spiraling pairs in three different ways, the gravitational waves from hundreds of collisions suggest",
           "published": "2026-07-28T04:30:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Clear sighting of ‘wandering’ black hole reveals escapee from galaxy merger",
-          "link": "https://www.science.org/content/article/clear-sighting-wandering-black-hole-reveals-escapee-galaxy-merger",
-          "source": "Science (AAAS)",
-          "summary": "Stripped-down behemoth promises new insights into how galaxies grow, astronomers say",
-          "published": "2026-07-27T04:20:00+00:00",
           "regional": false
         },
         {
@@ -970,14 +970,6 @@
           "regional": false
         },
         {
-          "title": "Famous System Has a Third Planet: Beta Pictoris d",
-          "link": "https://skyandtelescope.org/astronomy-news/famous-system-has-a-third-star-beta-pictoris-d/",
-          "source": "Sky & Telescope",
-          "summary": "Two teams of astronomers independently discovered a third giant gas planet orbiting in the famous Beta Pictoris system. The post Famous System Has a Third Planet: Beta Pictoris d appeared first on Sky & Telescope .",
-          "published": "2026-07-15T19:55:44+00:00",
-          "regional": false
-        },
-        {
           "title": "Faintest planet ever imaged from Earth found after more than 10 years of hide-and-seek",
           "link": "https://www.eso.org/public/news/eso2609/",
           "source": "ESO",
@@ -1082,19 +1074,19 @@
           "regional": true
         },
         {
+          "title": "Samsung Galaxy Z Fold 8 vs Samsung Galaxy Z Fold 8 Ultra: What’s different?",
+          "link": "https://indianexpress.com/article/technology/tech-news-technology/samsung-galaxy-z-fold-8-vs-samsung-galaxy-z-fold-8-ultra-whats-different-10800043/",
+          "source": "Indian Express",
+          "summary": "",
+          "published": "2026-07-23T10:03:52+00:00",
+          "regional": true
+        },
+        {
           "title": "New planet revealed around a young star after a decade in hiding",
           "link": "https://www.thehindu.com/sci-tech/science/new-planet-revealed-around-a-young-star-after-a-decade-in-hiding/article71248751.ece",
           "source": "The Hindu",
           "summary": "The new planet is slightly bigger than Jupiter and takes 91 years to orbit its star, a little longer than it takes Uranus to orbit our sun",
           "published": "2026-07-22T05:12:25+00:00",
-          "regional": true
-        },
-        {
-          "title": "A community for cosmic curiosity",
-          "link": "https://www.thehindu.com/children/a-community-for-cosmic-curiosity/article71197624.ece",
-          "source": "The Hindu",
-          "summary": "Just like how certain stars connect to form beautiful constellations, astronomy and space lovers can come together to create clubs!",
-          "published": "2026-07-18T10:21:18+00:00",
           "regional": true
         }
       ]
