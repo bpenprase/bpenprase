@@ -1,10 +1,19 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-07-30 12:34 PDT
-; Observing window starts 2026-07-30 21:28 PDT  (LST 17:12:20)
+; Generated 2026-07-31 12:34 PDT
+; Observing window starts 2026-07-31 21:28 PDT  (LST 17:16:16)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
 #TRACKON
+
+; Comet C/2023 R1 (PANSTARRS)  mag 13.8
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT C/2023 R1
+#WAITINLIMITS 60
 
 ; Nebula  mag 5.1  size 60.00'  rho Oph Nebula
 #posang 0
@@ -111,7 +120,7 @@ MP Melpomene
 #filter r',g',i',z'
 M 11
 
-; Asteroid 8 Flora  mag 9.4
+; Asteroid 8 Flora  mag 9.5
 #posang 0
 #count 3
 #interval 300
@@ -120,7 +129,7 @@ M 11
 MP Flora
 #WAITINLIMITS 60
 
-; Comet C/2024 J3 (ATLAS)  mag 14.0
+; Comet C/2024 J3 (ATLAS)  mag 13.7
 #posang 0
 #count 3
 #interval 300
@@ -226,7 +235,7 @@ NGC 7023
 #filter r',g',i',z'
 M 39
 
-; Comet 10P/Tempel  mag 10.5
+; Comet 10P/Tempel  mag 9.8
 #posang 0
 #count 3
 #interval 300
@@ -466,14 +475,6 @@ Uranus
 #filter r',g',i',z'
 M 106
 
-; Galaxy  mag 10.9  size 16.75'  Needle Galaxy
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 4565
-
 ; Galaxy  mag 9.2  size 14.45'  Whale Galaxy
 #posang 0
 #count 1,1,1,1
@@ -521,6 +522,14 @@ M 63
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 51
+
+; Galaxy  mag 9.6  size 5.50'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 5195
 
 ; Galaxy  mag 7.9  size 23.99'
 #posang 0
