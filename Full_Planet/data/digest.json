@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-30T09:49:41.332699+00:00",
-  "generated_human": "30 July 2026, 09:49 UTC",
-  "total_items": 130,
+  "generated": "2026-07-31T09:54:39.859852+00:00",
+  "generated_human": "31 July 2026, 09:54 UTC",
+  "total_items": 132,
   "channels": [
     {
       "key": "ai",
@@ -66,11 +66,27 @@
           "regional": false
         },
         {
-          "title": "Humanoid robot, powered by Qualcomm’s AI chips, collapses during Taipei event",
-          "link": "https://indianexpress.com/article/technology/tech-news-technology/humanoid-robot-powered-by-qualcomm-ai-chips-collapses-during-taipei-computex-event-10809988/",
-          "source": "Indian Express",
-          "summary": "",
-          "published": "2026-07-30T06:10:02+00:00",
+          "title": "Speech production via physics-informed machine learning",
+          "link": "https://sj.jst.go.jp/news/202607/n0731-01k.html",
+          "source": "Science Japan",
+          "summary": "Physics-Informed Neural Networks (PINNs), a method that embeds partial differential equations representing physical laws into neural network training, have attracted considerable attention in recent years.",
+          "published": "2026-07-31T05:37:17+00:00",
+          "regional": true
+        },
+        {
+          "title": "KT, DeepX, Sesol team up on NPU-based edge AI systems",
+          "link": "https://www.koreaherald.com/article/10827055",
+          "source": "The Korea Herald",
+          "summary": "KT said Friday it has signed a three-way collaboration agreement with on-device AI chipmaker DeepX and edge computing firm Sesol to jointly develop NPU-based artificial intelligence edge systems for use in…",
+          "published": "2026-07-31T04:20:30+00:00",
+          "regional": true
+        },
+        {
+          "title": "Samsung’s AI boom lifts chips, tests foundry and mobile units",
+          "link": "https://www.koreaherald.com/article/10825904",
+          "source": "The Korea Herald",
+          "summary": "Samsung Electronics’ semiconductor business delivered its strongest-ever second-quarter performance, fueled by booming demand for artificial intelligence server memory that pushed revenue and operating profit to record…",
+          "published": "2026-07-30T05:54:45+00:00",
           "regional": true
         },
         {
@@ -79,14 +95,6 @@
           "source": "South China Morning Post",
           "summary": "At a video production base in Shenzhen, creators are generating so-called comic dramas using artificial intelligence, compressing months of production down to a matter of weeks.",
           "published": "2026-07-30T03:31:57+00:00",
-          "regional": true
-        },
-        {
-          "title": "Krafton unveils audio AI model for lifelike game characters",
-          "link": "https://www.koreaherald.com/article/10824452",
-          "source": "The Korea Herald",
-          "summary": "Krafton on Wednesday released its new audio foundation model, A.X K2 Raon-Speech, on global AI platform Hugging Face.",
-          "published": "2026-07-29T05:45:21+00:00",
           "regional": true
         },
         {
@@ -136,14 +144,6 @@
           "summary": "China will use its largest annual artificial intelligence gathering this week to showcase an ambition that extends beyond catching up with the United States in foundation models to building dominance in autonomous…",
           "published": "2026-07-17T01:00:05+00:00",
           "regional": true
-        },
-        {
-          "title": "Chinese AI labs to challenge Thinking Machines Lab with new industry focus",
-          "link": "https://www.scmp.com/tech/big-tech/article/3360411/chinese-ai-labs-challenge-thinking-machines-lab-new-industry-focus?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Two former Chinese AI lab leaders said they aim to challenge Thinking Machines Lab, a US start-up founded by ex-OpenAI executive Mira Murati, and focus on building industry-specific artificial intelligence solutions and…",
-          "published": "2026-07-14T02:00:17+00:00",
-          "regional": true
         }
       ]
     },
@@ -153,6 +153,14 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "Ultrafast X-rays capture chemistry unfolding atom by atom",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260729010726.htm",
+          "source": "ScienceDaily",
+          "summary": "Ultrafast X-rays revealed how a molecule converts absorbed light into motion in just trillionths of a second. Individual atoms recorded different stages of the process, opening a powerful new window into light-driven…",
+          "published": "2026-07-30T02:18:28+00:00",
+          "regional": false
+        },
         {
           "title": "Bizarre new material discovered in Hiroshima bombing debris",
           "link": "https://www.scientificamerican.com/article/bizarre-new-material-discovered-in-hiroshima-bombing-debris/",
@@ -167,14 +175,6 @@
           "source": "ScienceDaily",
           "summary": "Rice University chemists have found a new way to make neodymium, a rare-earth metal, interact with oxygen. Using a specially designed molecular structure described as a “basket,” the team positioned the atoms so they…",
           "published": "2026-07-29T11:47:05+00:00",
-          "regional": false
-        },
-        {
-          "title": "Gates smashed and crops destroyed as farmers threatened by gangs hunting hares",
-          "link": "https://www.bbc.co.uk/news/articles/cwylk005dg7o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Some barricade the entrances to their fields with concrete blocks and fallen trees.",
-          "published": "2026-07-28T05:11:38+00:00",
           "regional": false
         },
         {
@@ -274,6 +274,54 @@
           "regional": false
         },
         {
+          "title": "SK sells control of wafer maker SK Siltron to Doosan for W2.3tr",
+          "link": "https://www.koreaherald.com/article/10827471",
+          "source": "The Korea Herald",
+          "summary": "SK Inc. agreed to sell its controlling stake in semiconductor wafer maker SK Siltron to Doosan Corp. for about 2.3 trillion won ($1.6 billion), freeing up cash as the conglomerate reshapes its portfolio and invests in…",
+          "published": "2026-07-31T08:54:42+00:00",
+          "regional": true
+        },
+        {
+          "title": "Seoul shares surge record 18% to reclaim 6,500-point level on chip rally",
+          "link": "https://www.koreaherald.com/article/10827325",
+          "source": "The Korea Herald",
+          "summary": "South Korean stocks skyrocketed by a record 18 percent to reclaim the 6,500-point level Friday, driven by robust semiconductor gains as better-than-expected Microsoft earnings eased concerns over artificial intelligence…",
+          "published": "2026-07-31T07:13:47+00:00",
+          "regional": true
+        },
+        {
+          "title": "Seoul shares start 13% higher on US tech gains driven by Microsoft's strong earnings",
+          "link": "https://www.koreaherald.com/article/10826596",
+          "source": "The Korea Herald",
+          "summary": "South Korean stocks opened sharply higher Friday, surging by 13 percent, driven by gains in semiconductor shares stemming from an overnight rally in US tech giants backed by a strong earnings report from US tech giant…",
+          "published": "2026-07-31T00:33:29+00:00",
+          "regional": true
+        },
+        {
+          "title": "Industrial output posts sharpest growth in 6 yrs in June on cars, chips",
+          "link": "https://www.koreaherald.com/article/10826573",
+          "source": "The Korea Herald",
+          "summary": "South Korea's industrial output rebounded in June from a month earlier, snapping two months of decline led by the automobile and semiconductor industries, data showed Friday, with retail sales and facility investment…",
+          "published": "2026-07-31T00:14:59+00:00",
+          "regional": true
+        },
+        {
+          "title": "US scientist Elsa Reichmanis defends global collaboration amid scrutiny of science exchange",
+          "link": "https://www.scmp.com/tech/tech-war/article/3362398/us-scientist-elsa-reichmanis-defends-global-collaboration-amid-scrutiny-science-exchange?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "American materials scientist Elsa Reichmanis, whose pioneering work helped lay part of the foundation for modern semiconductor manufacturing, said scientific collaboration should transcend rivalry after receiving one of…",
+          "published": "2026-07-30T14:00:09+00:00",
+          "regional": true
+        },
+        {
+          "title": "Samsung’s AI boom lifts chips, tests foundry and mobile units",
+          "link": "https://www.koreaherald.com/article/10825904",
+          "source": "The Korea Herald",
+          "summary": "Samsung Electronics’ semiconductor business delivered its strongest-ever second-quarter performance, fueled by booming demand for artificial intelligence server memory that pushed revenue and operating profit to record…",
+          "published": "2026-07-30T05:54:45+00:00",
+          "regional": true
+        },
+        {
           "title": "Samsung Electro-Mechanics profit doubles on AI server parts demand",
           "link": "https://www.koreaherald.com/article/10825761",
           "source": "The Korea Herald",
@@ -290,14 +338,6 @@
           "regional": true
         },
         {
-          "title": "Elucidating the molecular mechanism of organic thin films self-assembly: Contributing to development of high-performance next-generation electronic devices",
-          "link": "https://sj.jst.go.jp/news/202607/n0728-01j.html",
-          "source": "Science Japan",
-          "summary": "In electronics such as smartphones and flexible displays, devices such as organic thin-film transistors made of carbon-based organic materials are used.",
-          "published": "2026-07-28T06:28:07+00:00",
-          "regional": true
-        },
-        {
           "title": "Science Quiz: Exceptional gases",
           "link": "https://www.thehindu.com/sci-tech/science/science-quiz-exceptional-gases/article71252484.ece",
           "source": "The Hindu",
@@ -311,14 +351,6 @@
           "source": "The Hindu",
           "summary": "Jumping genes are responsible for the spread of antibiotic resistance and in the development of many cancers. Scientists are also studying circular RNA molecules, like the one derived from the jumping intron, as next…",
           "published": "2026-07-19T05:23:49+00:00",
-          "regional": true
-        },
-        {
-          "title": "Chinese chip start-up aims to build 5-nanometre equivalent chips without using EUV by 2029",
-          "link": "https://www.scmp.com/tech/big-tech/article/3360208/chinese-chip-start-aims-build-5-nanometre-equivalent-chips-without-using-euv-2029?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "A Chinese chip start-up has launched what it claims to be the world’s first 8-inch production line for two-dimensional (2D) semiconductors, marking the country’s latest push to develop alternative chip technologies amid…",
-          "published": "2026-07-11T05:20:15+00:00",
           "regional": true
         }
       ]
@@ -359,14 +391,6 @@
           "source": "The Hindu",
           "summary": "The case has prompted debate about ‘first in human’ gene-editing trials, particularly for rare but serious disorders",
           "published": "2026-07-26T10:23:38+00:00",
-          "regional": true
-        },
-        {
-          "title": "Why engineering evolution is a high-stakes race between cure and chaos",
-          "link": "https://www.thehindu.com/sci-tech/science/engineering-evolution-is-a-high-stakes-race-between-cure-and-chaos/article71215952.ece",
-          "source": "The Hindu",
-          "summary": "The safest aircraft is one that does not take off. How we balance the risks and benefits of the flight of gene drives is a challenge that each country will address in different ways.",
-          "published": "2026-07-19T05:17:23+00:00",
           "regional": true
         }
       ]
@@ -458,6 +482,14 @@
           "regional": false
         },
         {
+          "title": "Early childhood is a great time to learn about clean energy: this game aims to make it fun",
+          "link": "https://theconversation.com/early-childhood-is-a-great-time-to-learn-about-clean-energy-this-game-aims-to-make-it-fun-283817",
+          "source": "The Conversation",
+          "summary": "Early childhood is an important stage where children develop curiosity, values and problem-solving skills.",
+          "published": "2026-07-30T14:45:30+00:00",
+          "regional": true
+        },
+        {
           "title": "Hyundai chief visits Brazil as automaker steps up SUV, EV push",
           "link": "https://www.koreaherald.com/article/10825930",
           "source": "The Korea Herald",
@@ -471,14 +503,6 @@
           "source": "The Korea Herald",
           "summary": "LG Energy Solution returned to an operating profit in the second quarter, snapping two consecutive quarterly losses as the conversion of idle electric-vehicle lines to energy storage systems gained traction.",
           "published": "2026-07-30T04:00:15+00:00",
-          "regional": true
-        },
-        {
-          "title": "Hyosung lands Brazil transformer deal, grid-tech partnership",
-          "link": "https://www.koreaherald.com/article/10824418",
-          "source": "The Korea Herald",
-          "summary": "Hyosung Heavy Industries said Wednesday it won an order to supply ultra-high-voltage transformers for a Brazilian hydropower plant and agreed to jointly develop grid-stabilization technology with a global hydropower…",
-          "published": "2026-07-29T05:28:31+00:00",
           "regional": true
         },
         {
@@ -520,14 +544,6 @@
           "summary": "Germans save an ancient woodland from coal mining, Australia gives away surplus solar power, and how one city became the world's best place for cyclists?",
           "published": "2026-07-03T14:41:00+00:00",
           "regional": true
-        },
-        {
-          "title": "China’s AI-defined vehicles make smart motoring human-centred",
-          "link": "https://www.scmp.com/plus/business/china-evs/article/3359123/chinas-ai-defined-vehicles-make-smart-motoring-human-centred?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "How does an electric vehicle (EV) stand out in China’s ultra-competitive market when batteries, behaviours and functions are so similar?",
-          "published": "2026-07-02T05:25:05+00:00",
-          "regional": true
         }
       ]
     },
@@ -537,6 +553,30 @@
       "tagline": "New missions, spacecraft, and technologies — NASA, ESA, ISRO, JAXA, SpaceX, CNES, and more.",
       "accent": "#F0894E",
       "items": [
+        {
+          "title": "Students Take on Airborne Field Research with NASA",
+          "link": "https://science.nasa.gov/earth/students-take-on-airborne-field-research-with-nasa/",
+          "source": "NASA",
+          "summary": "The gusty wind didn’t make it easy to hold tight to a balloon so large. The balloon, a scientific instrument called an ozonesonde, was about to be released into the atmosphere above the Texas Gulf Coast by students from…",
+          "published": "2026-07-30T20:36:56+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Assigns Astronaut Deniz Burnham to First Space Station Mission",
+          "link": "https://www.nasa.gov/news-release/nasa-assigns-astronaut-deniz-burnham-to-first-space-station-mission/",
+          "source": "NASA",
+          "summary": "NASA astronaut Deniz Burnham will embark on her first mission to the International Space Station, serving as an Expedition 76 flight engineer.",
+          "published": "2026-07-30T16:11:41+00:00",
+          "regional": false
+        },
+        {
+          "title": "Spacecraft will swarm asteroid Apophis during fateful 2029 Earth flyby",
+          "link": "https://www.scientificamerican.com/article/spacecraft-will-swarm-asteroid-apophis-during-fateful-2029-earth-flyby/",
+          "source": "Scientific American",
+          "summary": "Space agencies around the globe are coordinating missions to visit the asteroid Apophis during a close encounter with Earth in 2029",
+          "published": "2026-07-30T12:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "Stunning photos capture July's Buck Moon over the UK",
           "link": "https://www.bbc.co.uk/weather/articles/c9v4rpjld89o?at_medium=RSS&at_campaign=rss",
@@ -554,35 +594,19 @@
           "regional": false
         },
         {
-          "title": "NASA’s Curiosity Views a Sand-Capped Butte",
-          "link": "https://science.nasa.gov/photojournal/nasas-curiosity-views-a-sand-capped-butte/",
+          "title": "NASA Awards 2026 Innovative Technology Concepts",
+          "link": "https://www.nasa.gov/news-release/nasa-awards-2026-innovative-technology-concepts/",
           "source": "NASA",
-          "summary": "Description NASA’s Curiosity Mars rover captured this sand-capped butte, nicknamed “Miraflores,” estimated to be about 20 feet (6 meters) tall, with its Mast Camera, or Mastcam, on June 11, 2026, the 4,923rd Martian…",
-          "published": "2026-07-29T16:08:12+00:00",
+          "summary": "The NASA Innovative Advanced Concepts (NIAC) program has created 18 new awards to support visionary ideas to improve aerospace technologies in areas ranging from the exploration of the solar system to understanding the…",
+          "published": "2026-07-29T21:04:20+00:00",
           "regional": false
         },
         {
-          "title": "NASA’s Curiosity Discovers a Field of Martian Polygons",
-          "link": "https://science.nasa.gov/photojournal/nasas-curiosity-discovers-a-field-of-martian-polygons/",
+          "title": "NASA Sets Coverage for August Northern Hemisphere Total Solar Eclipse",
+          "link": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-august-northern-hemisphere-total-solar-eclipse/",
           "source": "NASA",
-          "summary": "Description NASA’s Curiosity Mars rover captured this 360-degree view of an expanse of terrain covered in surface features called polygons on June 19 and 20, 2026, the 4,930th and 4,931st Martian days, or sols, of the…",
-          "published": "2026-07-29T16:06:39+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Curiosity Mars Rover Discovers Field of Honeycomb Textures",
-          "link": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-mars-rover-discovers-field-of-honeycomb-textures/",
-          "source": "NASA",
-          "summary": "As NASA’s Curiosity rover recently began climbing up a Martian valley nicknamed “Valle Grande,” it sent back images that were a familiar sight to mission scientists: honeycomb-like textures called polygonal fractures,…",
-          "published": "2026-07-29T15:30:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "APOD: 2026 July 29 – Psyche Receives Gravity Assist from Mars",
-          "link": "https://science.nasa.gov/image-article/apod/apod-2026-july-29-psyche-receives-gravity-assist-from-mars/",
-          "source": "NASA",
-          "summary": "A video of the Psyche spacecraft flying by Mars.",
-          "published": "2026-07-29T15:25:54+00:00",
+          "summary": "On Wednesday, Aug. 12, a total solar eclipse will be visible in parts of Greenland, Iceland, northern Russia, the Atlantic Ocean, Spain, and a small corner of Portugal.",
+          "published": "2026-07-29T16:49:37+00:00",
           "regional": false
         },
         {
@@ -722,12 +746,20 @@
           "regional": false
         },
         {
-          "title": "This Mars rover could finally reveal whether life ever existed on Mars",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260707025051.htm",
-          "source": "ScienceDaily",
-          "summary": "The hunt for ancient life on Mars just got an important test run. Scientists confirmed that the Rosalind Franklin rover's sophisticated instrument can detect subtle differences in two stable molecules that could…",
-          "published": "2026-07-09T10:40:52+00:00",
-          "regional": false
+          "title": "Bengaluru start-up sends world’s first lab-grown diamond jewel to space aboard Skyroot’s Vikram-1",
+          "link": "https://www.thehindu.com/news/cities/bangalore/bengaluru-start-up-sends-worlds-first-lab-grown-diamond-jewel-to-space-aboard-skyroots-vikram-1/article71285944.ece",
+          "source": "The Hindu",
+          "summary": "The lotus-shaped jewel is handcrafted in gold and set with 16.9 carats of lab-grown diamonds",
+          "published": "2026-07-30T12:54:56+00:00",
+          "regional": true
+        },
+        {
+          "title": "Watch | Did you know India’s space programme has turned 60?",
+          "link": "https://www.thehindu.com/videos/watch-did-you-know-indias-space-programme-turned-60/article67598231.ece",
+          "source": "The Hindu",
+          "summary": "The story began on November 21, 1963, when the 715-kg Nike Apache rocket rose into the sky at Thumba, a fishing village on the outskirts of Thiruvananthapuram.",
+          "published": "2026-07-29T06:36:49+00:00",
+          "regional": true
         },
         {
           "title": "Space Exploration Day | Meet the parts that make space exploration possible",
@@ -743,6 +775,14 @@
           "source": "The Hindu",
           "summary": "The mission will consist of a bio-inspired robotic explorer driven by an AI model, and will be capable of directly sampling particles from planetary ring systems — something no mission has attempted before",
           "published": "2026-07-27T04:58:49+00:00",
+          "regional": true
+        },
+        {
+          "title": "U.S.-Russian space crew lands safely in Kazakhstan after an 8-month stint on the ISS",
+          "link": "https://www.thehindu.com/sci-tech/science/us-russian-space-crew-lands-safely-in-kazakhstan-after-an-8-month-stint-on-the-iss/article71269191.ece",
+          "source": "The Hindu",
+          "summary": "NASA astronaut Chris Williams and Russian crewmates Sergei Kud-Sverchkov and Sergei Mikaev touched down in their Soyuz MS-28 that landed smoothly by parachute in a designated area southeast of Dzhezkazgan",
+          "published": "2026-07-26T11:42:48+00:00",
           "regional": true
         },
         {
@@ -784,30 +824,6 @@
           "summary": "Skyroot’s Vikram-1 has made India only the third country where a private company has independently placed payloads in orbit. Here’s what makes the mission significant",
           "published": "2026-07-21T06:48:00+00:00",
           "regional": true
-        },
-        {
-          "title": "As Vikram-1 reaches orbit, Skyroot faces a steep climb to business success",
-          "link": "https://www.thehindu.com/business/as-vikram-1-reaches-orbit-skyroot-faces-a-steep-climb-to-business-success/article71238228.ece",
-          "source": "The Hindu",
-          "summary": "A single launch — crucial though it is — will not catapult Skyroot to success. The global small-satellite launch market is evolving and there are still considerable challenges, including domestic demand and market…",
-          "published": "2026-07-19T02:33:34+00:00",
-          "regional": true
-        },
-        {
-          "title": "Vikram-1, country’s first private orbital-class rocket, successfully places tech payloads, postcards into orbit",
-          "link": "https://www.thehindu.com/sci-tech/science/vikram-1-indias-first-privately-developed-orbital-class-rocket-launch-updates/article71237224.ece",
-          "source": "The Hindu",
-          "summary": "Dubbed ‘Mission Aagaman’ (meaning arrival), the successful launch of Skyroot Aerospace’s Vikram-1 marks India’s entry into an elite group of nations with private orbital launch capability",
-          "published": "2026-07-18T16:00:42+00:00",
-          "regional": true
-        },
-        {
-          "title": "India’s first private orbital rocket Vikram-1 set for lift-off",
-          "link": "https://www.thehindu.com/sci-tech/science/indias-first-private-orbital-rocket-vikram-1-set-for-lift-off/article71234178.ece",
-          "source": "The Hindu",
-          "summary": "Vikram-1’s flight sequence, from lift-off to orbit injection, will cover 14 phases, and the total duration of the flight will be 15.46 minutes",
-          "published": "2026-07-18T11:11:31+00:00",
-          "regional": true
         }
       ]
     },
@@ -817,6 +833,14 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "Wandering Supermassive Black Hole Found at the Edge of its Galaxy",
+          "link": "https://skyandtelescope.org/astronomy-news/wandering-supermassive-black-hole-found-at-the-edge-of-its-galaxy/",
+          "source": "Sky & Telescope",
+          "summary": "Astronomers have long thought supermassive black holes can escape their home galaxies — now they've found one roaming its host's galactic outskirts.",
+          "published": "2026-07-30T12:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "Rare Total Solar Eclipse-Perseid Meteor Shower Double-Header August 12th",
           "link": "https://skyandtelescope.org/astronomy-news/rare-total-solar-eclipse-perseid-meteor-shower-double-header-on-august-12th/",
@@ -839,6 +863,14 @@
           "source": "Scientific American",
           "summary": "A private spacecraft launched to boost the decaying orbit of NASA’s Swift Observatory is now suffering from potentially mission-ending malfunctions",
           "published": "2026-07-29T13:15:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "What is Jodrell Bank Observatory and what does it do?",
+          "link": "https://www.bbc.co.uk/news/articles/c07r1v98mpgo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "When Jodrell Bank Observatory was built, the site was seen as gamechanger for radio astronomy.",
+          "published": "2026-07-28T14:45:09+00:00",
           "regional": false
         },
         {
@@ -871,6 +903,14 @@
           "source": "ScienceDaily",
           "summary": "Cosmic expansion allows distant galaxies to move away faster than light, while still letting us see ancient light they emitted when they were much closer.",
           "published": "2026-07-25T13:17:03+00:00",
+          "regional": false
+        },
+        {
+          "title": "The Rubin Observatory’s greatest legacy will be this ‘movie’ of the sky",
+          "link": "https://www.scientificamerican.com/article/the-rubin-observatorys-greatest-legacy-will-be-this-movie-of-the-sky/",
+          "source": "Scientific American",
+          "summary": "Using the new Vera C. Rubin Observatory, astronomers are beginning the largest and deepest survey of the sky. What will they see?",
+          "published": "2026-07-24T10:45:00+00:00",
           "regional": false
         },
         {
@@ -911,22 +951,6 @@
           "source": "ESO",
           "summary": "Observations made with the European Southern Observatory’s Very Large Telescope (ESO’s VLT) have revealed evidence for a moon-like object in the CD-35 2722 system.",
           "published": "2026-07-22T15:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Astrophotography: Picturing Galaxies",
-          "link": "https://skyandtelescope.org/astronomy-resources/astrophotography-picturing-galaxies/",
-          "source": "Sky & Telescope",
-          "summary": "Here are some tips to get the most out of your galaxy images. The post Astrophotography: Picturing Galaxies appeared first on Sky & Telescope .",
-          "published": "2026-07-21T17:10:36+00:00",
-          "regional": false
-        },
-        {
-          "title": "Rare double supernova discovered hiding in Jellyfish Nebula",
-          "link": "https://www.scientificamerican.com/article/rare-double-supernova-discovered-hiding-in-jellyfish-nebula/",
-          "source": "Scientific American",
-          "summary": "For the first time ever, astronomers have found two sibling stars that each exploded as a supernova, giving us a new view of these epochal cosmic cataclysms",
-          "published": "2026-07-21T15:00:00+00:00",
           "regional": false
         },
         {
@@ -999,14 +1023,6 @@
           "source": "ScienceDaily",
           "summary": "Dark matter may be far more complicated than scientists once believed. A new study suggests it could consist of at least two different kinds of particles that slowly separate over time, with heavier particles sinking…",
           "published": "2026-07-14T02:30:53+00:00",
-          "regional": false
-        },
-        {
-          "title": "The galaxy’s coldest “stars” may actually be alien megastructures",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260710003524.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have identified new clues that could help astronomers spot one of the most famous hypothetical alien megastructures: a Dyson sphere.",
-          "published": "2026-07-10T06:04:44+00:00",
           "regional": false
         },
         {
