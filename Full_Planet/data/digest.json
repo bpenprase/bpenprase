@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-31T09:54:39.859852+00:00",
-  "generated_human": "31 July 2026, 09:54 UTC",
-  "total_items": 132,
+  "generated": "2026-08-01T09:38:33.144506+00:00",
+  "generated_human": "01 August 2026, 09:38 UTC",
+  "total_items": 131,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,22 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "AI helped produce two proofs for the same cryptography problem",
+          "link": "https://www.scientificamerican.com/article/ai-helped-produce-two-proofs-for-the-same-cryptography-problem/",
+          "source": "Scientific American",
+          "summary": "An M.I.T. Ph.D. student and two University of California system cryptographers used GPT-5.6 Sol Ultra in different ways, raising new questions about independent discovery and scientific credit",
+          "published": "2026-07-31T16:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Is AI Reasoning Right for the Wrong Reasons?",
+          "link": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/",
+          "source": "Quanta Magazine",
+          "summary": "The idea that artificial intelligence can “reason” is more intuitive than ever. But intuitions can be wrong, and the science is far from settled. The post Is AI Reasoning Right for the Wrong Reasons?",
+          "published": "2026-07-31T14:50:11+00:00",
+          "regional": false
+        },
         {
           "title": "Siobahn Day Grady Wants Everyone to Be AI Literate",
           "link": "https://spectrum.ieee.org/siobahn-day-grady-ai-hbcu",
@@ -23,14 +39,6 @@
           "source": "MIT Technology Review",
           "summary": "Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage.",
           "published": "2026-07-27T11:40:16+00:00",
-          "regional": false
-        },
-        {
-          "title": "A Master of the Traveling Salesperson Problem Finds His Own Path",
-          "link": "https://www.quantamagazine.org/shayan-oveis-gharan-wins-2026-imu-abacus-medal-20260723/",
-          "source": "Quanta Magazine",
-          "summary": "Shayan Oveis Gharan has won the Abacus Medal for using tools from across mathematics to boost the power of algorithms.",
-          "published": "2026-07-23T14:18:20+00:00",
           "regional": false
         },
         {
@@ -210,14 +218,6 @@
           "regional": false
         },
         {
-          "title": "Mesmerizing NASA time-lapse reveals Mars’s craters, polar ice caps and deserts",
-          "link": "https://www.scientificamerican.com/article/mesmerizing-nasa-timelapse-reveals-mars-craters-polar-ice-caps-and-deserts/",
-          "source": "Scientific American",
-          "summary": "The Psyche spacecraft flew by Mars earlier this year on its way to a metal-rich asteroid, capturing the images along the way",
-          "published": "2026-07-21T19:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Scientists found two powerful new ways to destroy forever chemicals",
           "link": "https://www.sciencedaily.com/releases/2026/07/260718010147.htm",
           "source": "ScienceDaily",
@@ -263,14 +263,6 @@
           "source": "ScienceDaily",
           "summary": "Researchers discovered that electricity can dramatically reshape how heat flows through certain ceramic materials, increasing heat conduction by almost threefold in a preferred direction.",
           "published": "2026-07-11T12:18:02+00:00",
-          "regional": false
-        },
-        {
-          "title": "The biggest problem with solid-state batteries may finally be solved",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260710003533.htm",
-          "source": "ScienceDaily",
-          "summary": "Researchers solved the mystery of how soft lithium dendrites crack the hard ceramic inside solid-state batteries, triggering short circuits.",
-          "published": "2026-07-10T12:29:27+00:00",
           "regional": false
         },
         {
@@ -330,14 +322,6 @@
           "regional": true
         },
         {
-          "title": "Seoul shares dip nearly 6% on extended chip rout amid AI skepticism",
-          "link": "https://www.koreaherald.com/article/10824724",
-          "source": "The Korea Herald",
-          "summary": "Seoul shares plunged by nearly 6 percent Wednesday following a nearly 11 percent crash the previous session as investors dumped semiconductor stocks amid growing skepticism over whether massive spending on artificial…",
-          "published": "2026-07-29T08:09:36+00:00",
-          "regional": true
-        },
-        {
           "title": "Science Quiz: Exceptional gases",
           "link": "https://www.thehindu.com/sci-tech/science/science-quiz-exceptional-gases/article71252484.ece",
           "source": "The Hindu",
@@ -386,6 +370,14 @@
           "regional": false
         },
         {
+          "title": "Watch | The green and the not-so-green of biofuels — explained | The Scope",
+          "link": "https://www.thehindu.com/videos/the-green-and-the-not-so-green-of-biofuels-explained-the-scope/article71290045.ece",
+          "source": "The Hindu",
+          "summary": "The green and the not-so-green of biofuels — explained | The Scope",
+          "published": "2026-07-31T11:09:56+00:00",
+          "regional": true
+        },
+        {
           "title": "Girl’s death in China reveals human cost of unregulated science",
           "link": "https://www.thehindu.com/sci-tech/health/girls-death-in-china-reveals-human-cost-of-unregulated-science/article71268995.ece",
           "source": "The Hindu",
@@ -401,6 +393,14 @@
       "tagline": "New ways to generate clean energy, capture carbon, and bring fresh water and power to people, cities, and transport.",
       "accent": "#33C6D6",
       "items": [
+        {
+          "title": "Renewable generation is growing faster than ever",
+          "link": "https://www.renewableenergyworld.com/solar/renewable-generation-is-growing-faster-than-ever/",
+          "source": "Renewable Energy World",
+          "summary": "The International Renewable Energy Agency reported that renewable electricity generation grew by 9.8% in 2024, totaling 9,836 terawatt hours.",
+          "published": "2026-07-31T17:28:04+00:00",
+          "regional": false
+        },
         {
           "title": "Trump administration admits grants for clean energy were canceled based on politics",
           "link": "https://www.renewableenergyworld.com/energy-business/policy-and-regulation/trump-administration-admits-grants-for-clean-energy-were-canceled-based-on-politics/",
@@ -423,22 +423,6 @@
           "source": "Renewable Energy World",
           "summary": "The Federal Energy Regulatory Commission approved measures to simplify NEPA review for hydropower actions, aiming to streamline approvals.",
           "published": "2026-07-27T18:26:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Di-Hydro research project tackles digitalization of hydropower plants through sensor development",
-          "link": "https://www.renewableenergyworld.com/hydro-power/di-hydro-research-project-tackles-digitization-of-hydropower-plants-through-sensor-development/",
-          "source": "Renewable Energy World",
-          "summary": "EU-funded research project Di-Hydro aims to modernize hydropower plants by developing smart devices and data acquisition techniques to predict and control operations and maintenance.",
-          "published": "2026-07-27T11:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Change is gonna come | Factor This Brief",
-          "link": "https://www.renewableenergyworld.com/energy-business/new-project-development/change-is-gonna-come-factor-this-brief/",
-          "source": "Renewable Energy World",
-          "summary": "As FERC weighs what to do with PJM, Avantus reaches commercial operations at Aratina 1, rPlus Energies celebrates solar milestones in Idaho, Strata Clean Energy upgrades its revolving credit line, another plot of…",
-          "published": "2026-07-27T09:55:00+00:00",
           "regional": false
         },
         {
@@ -480,6 +464,30 @@
           "summary": "Scientists warn that free-living amoebae may be an underappreciated public health threat, capable of causing deadly infections and shielding other dangerous microbes from water treatment.",
           "published": "2026-06-06T11:35:28+00:00",
           "regional": false
+        },
+        {
+          "title": "[Weekender] Rethinking who tech serves: from assisted dressing to off-grid drinking water",
+          "link": "https://www.koreaherald.com/article/10825657",
+          "source": "The Korea Herald",
+          "summary": "Technology’s brightest light too often bathes those already abundantly served. The newest phone gets a sharper camera, the already capable car inches toward autonomy, the fridge learns another trick.",
+          "published": "2026-08-01T07:00:02+00:00",
+          "regional": true
+        },
+        {
+          "title": "Can ‘floating’ solar boost India’s renewable energy uptake? | Explained",
+          "link": "https://www.thehindu.com/sci-tech/science/can-floating-solar-boost-indias-renewable-energy-uptake-explained/article71293629.ece",
+          "source": "The Hindu",
+          "summary": "With land increasingly scarce and storage becoming crucial, here’s why India is looking to its vast reservoirs for the next phase of solar expansion",
+          "published": "2026-08-01T06:22:48+00:00",
+          "regional": true
+        },
+        {
+          "title": "Watch | The green and the not-so-green of biofuels — explained | The Scope",
+          "link": "https://www.thehindu.com/videos/the-green-and-the-not-so-green-of-biofuels-explained-the-scope/article71290045.ece",
+          "source": "The Hindu",
+          "summary": "The green and the not-so-green of biofuels — explained | The Scope",
+          "published": "2026-07-31T11:09:56+00:00",
+          "regional": true
         },
         {
           "title": "Early childhood is a great time to learn about clean energy: this game aims to make it fun",
@@ -536,14 +544,6 @@
           "summary": "More frequent weather extremes are leading to water shortages during droughts and flooding during heavy rain. But groundwater storage can help secure water for dry seasons while mitigating extreme rain.",
           "published": "2026-07-15T09:24:00+00:00",
           "regional": true
-        },
-        {
-          "title": "Free electricity in Australia, and the week's other eco wins",
-          "link": "https://www.dw.com/en/free-electricity-in-australia-and-the-week-s-other-eco-wins/a-77824448?maca=en-rss_en_environment-22607-xml-mrss",
-          "source": "Deutsche Welle",
-          "summary": "Germans save an ancient woodland from coal mining, Australia gives away surplus solar power, and how one city became the world's best place for cyclists?",
-          "published": "2026-07-03T14:41:00+00:00",
-          "regional": true
         }
       ]
     },
@@ -554,19 +554,75 @@
       "accent": "#F0894E",
       "items": [
         {
-          "title": "Students Take on Airborne Field Research with NASA",
-          "link": "https://science.nasa.gov/earth/students-take-on-airborne-field-research-with-nasa/",
+          "title": "APOD: 2026 August 1 – Buck Moon and Belt of Venus",
+          "link": "https://science.nasa.gov/image-article/apod-2026-august-1-buck-moon-and-belt-of-venus/",
           "source": "NASA",
-          "summary": "The gusty wind didn’t make it easy to hold tight to a balloon so large. The balloon, a scientific instrument called an ozonesonde, was about to be released into the atmosphere above the Texas Gulf Coast by students from…",
-          "published": "2026-07-30T20:36:56+00:00",
+          "summary": "APOD Science APOD APOD: 2026 August 1 – Buck… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos!",
+          "published": "2026-08-01T04:05:00+00:00",
           "regional": false
         },
         {
-          "title": "NASA Assigns Astronaut Deniz Burnham to First Space Station Mission",
-          "link": "https://www.nasa.gov/news-release/nasa-assigns-astronaut-deniz-burnham-to-first-space-station-mission/",
+          "title": "What’s Up: August 2026 Skywatching Tips from NASA",
+          "link": "https://science.nasa.gov/solar-system/whats-up-august-2026-skywatching-tips-from-nasa/",
           "source": "NASA",
-          "summary": "NASA astronaut Deniz Burnham will embark on her first mission to the International Space Station, serving as an Expedition 76 flight engineer.",
-          "published": "2026-07-30T16:11:41+00:00",
+          "summary": "A solar eclipse, the Perseids, bright Venus after sunset, and a deep partial lunar eclipse highlight August’s skywatching.",
+          "published": "2026-07-31T22:35:36+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA to Host Florida Event Celebrating American Air, Space Leadership",
+          "link": "https://www.nasa.gov/news-release/nasa-to-host-florida-event-celebrating-american-air-space-leadership/",
+          "source": "NASA",
+          "summary": "NASA will hold a news conference at 2:30 p.m. EDT, Friday, Aug. 14, live from the agency’s Kennedy Space Center in Florida, and media and digital creators are invited to attend in person.",
+          "published": "2026-07-31T21:08:10+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Newest Wind Tunnel Opens at NASA Langley",
+          "link": "https://www.nasa.gov/image-article/nasas-newest-wind-tunnel-opens-at-nasa-langley/",
+          "source": "NASA",
+          "summary": "On Friday, July 31, 2026, NASA leadership and Virginia government officials opened NASA’s first major new wind tunnel in more than 40 years, the Flight Dynamics Research Facility at NASA’s Langley Research Center in…",
+          "published": "2026-07-31T20:19:37+00:00",
+          "regional": false
+        },
+        {
+          "title": "TB 26-04 Webbings for Use in Elevated Oxygen Environments",
+          "link": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-04-webbings-for-use-in-elevated-oxygen-environments/",
+          "source": "NASA",
+          "summary": "Flammability test results for commercial-off-the-shelf webbings that meet NASA flammability requirements are reported for use in elevated oxygen environments anticipated for future lunar and Martian missions.",
+          "published": "2026-07-31T19:05:25+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket",
+          "link": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-spacex-advance-wind-tunnel-tests-for-starship-rocket/",
+          "source": "NASA",
+          "summary": "NASA and its industry partners are preparing for next year’s Artemis III demonstration mission by completing new wind tunnel tests on SpaceX’s Super Heavy Version 3 rocket booster.",
+          "published": "2026-07-31T18:39:47+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Opens New Flight Dynamics Research Facility in Virginia",
+          "link": "https://www.nasa.gov/news-release/nasa-opens-new-flight-dynamics-research-facility-in-virginia/",
+          "source": "NASA",
+          "summary": "NASA opened its newest wind tunnel, the Flight Dynamics Research Facility, Friday, providing a critical resource for the agency and its partners to test the safety and performance of future generations of aircraft,…",
+          "published": "2026-07-31T17:11:14+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Roman Telescope to Carry 1.35 Million Names to Deep Space",
+          "link": "https://www.nasa.gov/image-article/nasas-roman-telescope-to-carry-1-35-million-names-to-deep-space/",
+          "source": "NASA",
+          "summary": "On July 27, technicians at NASA’s Kennedy Space Center in Florida installed a memory card containing 1,350,144 names as part of a commemorative plaque on the Nancy Grace Roman Space Telescope.",
+          "published": "2026-07-31T14:11:34+00:00",
+          "regional": false
+        },
+        {
+          "title": "This Month at ESA: July 2026",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/This_Month_at_ESA_July_2026",
+          "source": "ESA",
+          "summary": "Video: 00:03:06 What did space have in store for Europe this July? The Artemis II crew visited ESA’s technical center in the Netherlands to meet the team behind Orion’s European Service Module, celebrating the…",
+          "published": "2026-07-31T11:00:00+00:00",
           "regional": false
         },
         {
@@ -575,38 +631,6 @@
           "source": "Scientific American",
           "summary": "Space agencies around the globe are coordinating missions to visit the asteroid Apophis during a close encounter with Earth in 2029",
           "published": "2026-07-30T12:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Stunning photos capture July's Buck Moon over the UK",
-          "link": "https://www.bbc.co.uk/weather/articles/c9v4rpjld89o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Skygazers captured brilliant photos of July's full Moon as it rose over the UK on Wednesday.",
-          "published": "2026-07-30T08:31:53+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Johnson Interns Shaping the Future of Exploration",
-          "link": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-johnson-interns-shaping-the-future-of-exploration/",
-          "source": "NASA",
-          "summary": "NASA interns at Johnson Space Center are applying their talents to real-world projects while working alongside the engineers, scientists, communicators, and innovators advancing human spaceflight.",
-          "published": "2026-07-30T08:08:55+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Awards 2026 Innovative Technology Concepts",
-          "link": "https://www.nasa.gov/news-release/nasa-awards-2026-innovative-technology-concepts/",
-          "source": "NASA",
-          "summary": "The NASA Innovative Advanced Concepts (NIAC) program has created 18 new awards to support visionary ideas to improve aerospace technologies in areas ranging from the exploration of the solar system to understanding the…",
-          "published": "2026-07-29T21:04:20+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Sets Coverage for August Northern Hemisphere Total Solar Eclipse",
-          "link": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-august-northern-hemisphere-total-solar-eclipse/",
-          "source": "NASA",
-          "summary": "On Wednesday, Aug. 12, a total solar eclipse will be visible in parts of Greenland, Iceland, northern Russia, the Atlantic Ocean, Spain, and a small corner of Portugal.",
-          "published": "2026-07-29T16:49:37+00:00",
           "regional": false
         },
         {
@@ -642,14 +666,6 @@
           "regional": false
         },
         {
-          "title": "Meet space startups at ESA’s Industry Space Days",
-          "link": "https://www.esa.int/About_Us/Business_with_ESA/Meet_space_startups_at_ESA_s_Industry_Space_Days",
-          "source": "ESA",
-          "summary": "Startup companies which have come up with brilliant ideas for using space will join the European Space Agency’s (ESA) Industry Space Days (ISD) event on 16–17 September at ESA-ESTEC in the Netherlands.",
-          "published": "2026-07-27T08:05:00+00:00",
-          "regional": false
-        },
-        {
           "title": "SpaceX launches Starship on successful test flight",
           "link": "https://www.scientificamerican.com/article/spacex-launches-starship-on-successful-test-flight/",
           "source": "Scientific American",
@@ -671,14 +687,6 @@
           "source": "ScienceDaily",
           "summary": "NASA is preparing for future astronaut landings on the Moon with an unusually ambitious orbital rehearsal. During Artemis III in 2027, Orion astronauts will rendezvous and dock separately with prototype lunar landers…",
           "published": "2026-07-23T06:14:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Mesmerizing NASA time-lapse reveals Mars’s craters, polar ice caps and deserts",
-          "link": "https://www.scientificamerican.com/article/mesmerizing-nasa-timelapse-reveals-mars-craters-polar-ice-caps-and-deserts/",
-          "source": "Scientific American",
-          "summary": "The Psyche spacecraft flew by Mars earlier this year on its way to a metal-rich asteroid, capturing the images along the way",
-          "published": "2026-07-21T19:00:00+00:00",
           "regional": false
         },
         {
@@ -738,14 +746,6 @@
           "regional": false
         },
         {
-          "title": "Europe just unveiled a new rival to SpaceX’s Starship",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260710003526.htm",
-          "source": "ScienceDaily",
-          "summary": "A detailed independent study found that SpaceX's Starship is every bit as revolutionary as expected, while revealing both its impressive capabilities and its biggest remaining hurdles.",
-          "published": "2026-07-11T01:14:33+00:00",
-          "regional": false
-        },
-        {
           "title": "Bengaluru start-up sends world’s first lab-grown diamond jewel to space aboard Skyroot’s Vikram-1",
           "link": "https://www.thehindu.com/news/cities/bangalore/bengaluru-start-up-sends-worlds-first-lab-grown-diamond-jewel-to-space-aboard-skyroots-vikram-1/article71285944.ece",
           "source": "The Hindu",
@@ -759,6 +759,14 @@
           "source": "The Hindu",
           "summary": "The story began on November 21, 1963, when the 715-kg Nike Apache rocket rose into the sky at Thumba, a fishing village on the outskirts of Thiruvananthapuram.",
           "published": "2026-07-29T06:36:49+00:00",
+          "regional": true
+        },
+        {
+          "title": "Scientists Grow Rice In Simulated Moon Soil",
+          "link": "https://www.asianscientist.com/2026/07/general/scientists-grow-rice-in-simulated-moon-soil/",
+          "source": "Asian Scientist",
+          "summary": "Scientists in Japan have created a portable plasma device that can turn air into fertilizer, helping rice grow in simulated lunar soil.",
+          "published": "2026-07-29T06:29:15+00:00",
           "regional": true
         },
         {
@@ -794,14 +802,6 @@
           "regional": true
         },
         {
-          "title": "SpaceX launches satellite servicing mission with 10-foot robotic arms",
-          "link": "https://indianexpress.com/article/technology/science/spacex-launches-satellite-servicing-mission-with-10-foot-robotic-arms-10799693/",
-          "source": "Indian Express",
-          "summary": "",
-          "published": "2026-07-23T07:18:07+00:00",
-          "regional": true
-        },
-        {
           "title": "Space Exploration Day | How are astronauts trained?",
           "link": "https://www.thehindu.com/children/how-are-astronauts-trained/article71189012.ece",
           "source": "The Hindu",
@@ -833,6 +833,14 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "Astronomers Spot Weird, Three-Lobed Asteroid with a Moon",
+          "link": "https://skyandtelescope.org/astronomy-news/astronomers-spot-weird-three-lobed-asteroid-with-a-moon/",
+          "source": "Sky & Telescope",
+          "summary": "Asteroid 44 Nysa has the weirdest shape yet seen for an asteroid, and that’s saying something. The post Astronomers Spot Weird, Three-Lobed Asteroid with a Moon appeared first on Sky & Telescope .",
+          "published": "2026-07-31T18:35:52+00:00",
+          "regional": false
+        },
         {
           "title": "Wandering Supermassive Black Hole Found at the Edge of its Galaxy",
           "link": "https://skyandtelescope.org/astronomy-news/wandering-supermassive-black-hole-found-at-the-edge-of-its-galaxy/",
@@ -890,14 +898,6 @@
           "regional": false
         },
         {
-          "title": "How does the universe set black holes on a collision course?",
-          "link": "https://www.science.org/content/article/how-does-universe-set-black-holes-collision-course",
-          "source": "Science (AAAS)",
-          "summary": "Black holes can form spiraling pairs in three different ways, the gravitational waves from hundreds of collisions suggest",
-          "published": "2026-07-28T04:30:00+00:00",
-          "regional": false
-        },
-        {
           "title": "The Universe can outrun light without breaking Einstein’s rules",
           "link": "https://www.sciencedaily.com/releases/2026/07/260724061444.htm",
           "source": "ScienceDaily",
@@ -930,22 +930,6 @@
           "regional": false
         },
         {
-          "title": "Exoplanet or Exomoon? New Contender Elicits Skepticism",
-          "link": "https://skyandtelescope.org/astronomy-news/new-contender-for-exomoon-title-elicits-skepticism/",
-          "source": "Sky & Telescope",
-          "summary": "Astronomers have found a Jupiter-mass world orbiting a brown dwarf that orbits a star. The post Exoplanet or Exomoon? New Contender Elicits Skepticism appeared first on Sky & Telescope .",
-          "published": "2026-07-22T15:03:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "A huge cosmic object could force astronomers to rethink what a moon is",
-          "link": "https://www.scientificamerican.com/article/a-huge-cosmic-object-could-force-astronomers-to-rethink-what-a-moon-is/",
-          "source": "Scientific American",
-          "summary": "This almost Jupiter-sized object is orbiting a brown dwarf, which, in turn, is circling around a small star",
-          "published": "2026-07-22T15:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "New ‘exomoon’ detection challenges cosmic labels",
           "link": "https://www.eso.org/public/news/eso2610/",
           "source": "ESO",
@@ -967,6 +951,22 @@
           "source": "ScienceDaily",
           "summary": "Dying Sun-like stars may not fade away quietly. As blobs of gas erupt unevenly from their swollen surfaces, each burst gives the star a tiny push in the opposite direction.",
           "published": "2026-07-21T03:36:16+00:00",
+          "regional": false
+        },
+        {
+          "title": "New quantum gravity theory links entropy, dark energy, and life",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260719035947.htm",
+          "source": "ScienceDaily",
+          "summary": "A new theoretical study offers a possible explanation for how the Universe can grow more complex without violating the second law of thermodynamics.",
+          "published": "2026-07-21T02:40:55+00:00",
+          "regional": false
+        },
+        {
+          "title": "A tiny universe in a bottle reveals clues to the origins of life",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260718010156.htm",
+          "source": "ScienceDaily",
+          "summary": "Researchers have created cosmic dust from scratch by recreating space-like conditions inside glass tubes. The dust contains complex carbon-rich molecules built from elements essential to life and produces infrared…",
+          "published": "2026-07-19T13:10:21+00:00",
           "regional": false
         },
         {
@@ -1026,11 +1026,27 @@
           "regional": false
         },
         {
+          "title": "Most comprehensive census of the high-energy universe to date",
+          "link": "https://www.mpg.de/26891434/20260729-erosita-dr2-nearly-doubles-known-x-ray-sources-to-two-million",
+          "source": "Max Planck Society",
+          "summary": "Second data release nearly doubles the previously known eROSITA X-ray sources to two million",
+          "published": "2026-07-31T13:00:00+00:00",
+          "regional": true
+        },
+        {
           "title": "Andromeda Galaxy entering ‘middle age’",
           "link": "https://www.thehindu.com/sci-tech/science/andromeda-galaxy-entering-middle-age/article71276485.ece",
           "source": "The Hindu",
           "summary": "The Andromeda’s star formation rate has been steadily dropping, especially over the last 40 million years",
           "published": "2026-07-29T06:34:54+00:00",
+          "regional": true
+        },
+        {
+          "title": "The hidden polluter in your wardrobe: How fast fashion is fuelling the next pollution crisis",
+          "link": "https://www.thehindu.com/life-and-style/fashion/the-hidden-polluter-in-your-wardrobe-how-fast-fashion-is-fuelling-the-next-pollution-crisis/article70003334.ece",
+          "source": "The Hindu",
+          "summary": "The clothes in your wardrobe may be silently polluting the planet. Surprising? The fashion industry is the second biggest polluter in the world.",
+          "published": "2026-07-28T09:09:29+00:00",
           "regional": true
         },
         {
@@ -1066,43 +1082,19 @@
           "regional": true
         },
         {
-          "title": "Samsung Galaxy Watch Ultra2, Watch9 launched in India: Price, features, offers",
-          "link": "https://indianexpress.com/article/technology/tech-news-technology/samsung-galaxy-watch-ultra2-watch9-launched-in-india-price-features-offers-10801791/",
-          "source": "Indian Express",
-          "summary": "",
-          "published": "2026-07-24T11:51:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "Samsung Galaxy Z Fold 8 vs Fold 7: Price, Specs, Camera Compared",
-          "link": "https://indianexpress.com/article/technology/tech-news-technology/samsung-galaxy-z-fold-8-vs-fold-7-price-specs-camera-compared-10800317/",
-          "source": "Indian Express",
-          "summary": "",
-          "published": "2026-07-23T12:15:53+00:00",
-          "regional": true
-        },
-        {
-          "title": "Samsung Galaxy Z Fold8 Ultra, Fold8, Flip8 now available in India: Check price and offers",
-          "link": "https://indianexpress.com/article/technology/tech-news-technology/samsung-galaxy-z-fold8-ultra-fold8-flip8-now-available-in-india-check-price-and-offers-10800180/",
-          "source": "Indian Express",
-          "summary": "",
-          "published": "2026-07-23T11:21:09+00:00",
-          "regional": true
-        },
-        {
-          "title": "Samsung Galaxy Z Fold 8 vs Samsung Galaxy Z Fold 8 Ultra: What’s different?",
-          "link": "https://indianexpress.com/article/technology/tech-news-technology/samsung-galaxy-z-fold-8-vs-samsung-galaxy-z-fold-8-ultra-whats-different-10800043/",
-          "source": "Indian Express",
-          "summary": "",
-          "published": "2026-07-23T10:03:52+00:00",
-          "regional": true
-        },
-        {
           "title": "New planet revealed around a young star after a decade in hiding",
           "link": "https://www.thehindu.com/sci-tech/science/new-planet-revealed-around-a-young-star-after-a-decade-in-hiding/article71248751.ece",
           "source": "The Hindu",
           "summary": "The new planet is slightly bigger than Jupiter and takes 91 years to orbit its star, a little longer than it takes Uranus to orbit our sun",
           "published": "2026-07-22T05:12:25+00:00",
+          "regional": true
+        },
+        {
+          "title": "A new planet in the beta pictoris system",
+          "link": "https://www.mpg.de/26864837/a-new-planet-in-the-beta-pictoris-system",
+          "source": "Max Planck Society",
+          "summary": "After more than ten years of playing hide-and-seek, researchers have discovered one of the lightest planets ever directly imaged",
+          "published": "2026-07-17T12:00:00+00:00",
           "regional": true
         }
       ]
