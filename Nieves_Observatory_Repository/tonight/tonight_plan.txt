@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-07-31 12:34 PDT
-; Observing window starts 2026-07-31 21:28 PDT  (LST 17:16:16)
+; Generated 2026-08-01 12:29 PDT
+; Observing window starts 2026-08-01 21:26 PDT  (LST 17:18:12)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -103,7 +103,7 @@ M 25
 #filter r',g',i',z'
 IC 4756
 
-; Asteroid 18 Melpomene  mag 9.3
+; Asteroid 18 Melpomene  mag 9.4
 #posang 0
 #count 3
 #interval 300
@@ -111,14 +111,6 @@ IC 4756
 #filter r'
 MP Melpomene
 #WAITINLIMITS 60
-
-; Open Cluster  mag 5.8  size 9.00'  Amas de l'Ecu de Sobieski,Wild Duck Cluster
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 11
 
 ; Asteroid 8 Flora  mag 9.5
 #posang 0
@@ -128,6 +120,14 @@ M 11
 #filter r'
 MP Flora
 #WAITINLIMITS 60
+
+; Open Cluster  mag 5.8  size 9.00'  Amas de l'Ecu de Sobieski,Wild Duck Cluster
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 11
 
 ; Comet C/2024 J3 (ATLAS)  mag 13.7
 #posang 0
@@ -235,7 +235,7 @@ NGC 7023
 #filter r',g',i',z'
 M 39
 
-; Comet 10P/Tempel  mag 9.8
+; Comet 10P/Tempel  mag 9.9
 #posang 0
 #count 3
 #interval 300
@@ -441,7 +441,7 @@ M 34
 #filter r',g',i',z'
 M 77
 
-; Comet 88P/Howell  mag 13.1
+; Comet 88P/Howell  mag 13.6
 #posang 0
 #count 3
 #interval 300
