@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-01T09:38:33.144506+00:00",
-  "generated_human": "01 August 2026, 09:38 UTC",
-  "total_items": 131,
+  "generated": "2026-08-02T09:39:40.657999+00:00",
+  "generated_human": "02 August 2026, 09:39 UTC",
+  "total_items": 136,
   "channels": [
     {
       "key": "ai",
@@ -74,6 +74,14 @@
           "regional": false
         },
         {
+          "title": "Hyundai wants to be an AI company, not just a carmaker",
+          "link": "https://www.koreaherald.com/article/10828154",
+          "source": "The Korea Herald",
+          "summary": "Hyundai Motor Group is setting its sights well beyond car manufacturing. The world’s third largest automaker by volume is seeking to transform itself into a physical artificial intelligence company spanning autonomous…",
+          "published": "2026-08-02T04:53:45+00:00",
+          "regional": true
+        },
+        {
           "title": "Speech production via physics-informed machine learning",
           "link": "https://sj.jst.go.jp/news/202607/n0731-01k.html",
           "source": "Science Japan",
@@ -138,14 +146,6 @@
           "regional": true
         },
         {
-          "title": "Xi Jinping calls for ‘openness’, opposes ‘one country’ rule in AI – as it happened",
-          "link": "https://www.scmp.com/tech/policy/article/3360858/chinas-xi-jinping-addresses-world-ai-conference-us-tech-rivalry-heats?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "President Xi Jinping spoke on Friday at the opening of the 2026 World Artificial Intelligence Conference (WAIC), China’s largest annual event for the AI industry.",
-          "published": "2026-07-17T02:01:07+00:00",
-          "regional": true
-        },
-        {
           "title": "From humanoids to Huawei: what to watch as Xi attends China’s WAIC amid US AI rivalry",
           "link": "https://www.scmp.com/tech/big-tech/article/3360800/humanoids-huawei-what-watch-xi-attends-chinas-waic-amid-us-ai-rivalry?utm_source=rss_feed",
           "source": "South China Morning Post",
@@ -161,6 +161,38 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "Scientists left water inside a battery and nearly doubled its power",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260729043937.htm",
+          "source": "ScienceDaily",
+          "summary": "A surprisingly simple change could make sodium-ion batteries far more powerful while opening the door to turning seawater into drinking water.",
+          "published": "2026-08-01T10:41:53+00:00",
+          "regional": false
+        },
+        {
+          "title": "New process turns plastic waste into hydrogen fuel while trapping the carbon",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260729051521.htm",
+          "source": "ScienceDaily",
+          "summary": "A new chemical process can transform three of the most common plastics into high-purity hydrogen without sorting them first.",
+          "published": "2026-07-31T12:46:18+00:00",
+          "regional": false
+        },
+        {
+          "title": "World-first photonic time crystal opens a new era of light control",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260731034131.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have built the first all-optical photonic time crystal, allowing them to reshape the behavior of terahertz light at extraordinary speeds.",
+          "published": "2026-07-31T09:13:30+00:00",
+          "regional": false
+        },
+        {
+          "title": "This new alloy is up to 10 times stronger than steel and surprisingly flexible",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260729051524.htm",
+          "source": "ScienceDaily",
+          "summary": "Engineers have transformed a notoriously brittle cobalt-aluminum compound into a material that is both extremely strong and capable of bending without breaking.",
+          "published": "2026-07-31T03:55:22+00:00",
+          "regional": false
+        },
         {
           "title": "Ultrafast X-rays capture chemistry unfolding atom by atom",
           "link": "https://www.sciencedaily.com/releases/2026/07/260729010726.htm",
@@ -250,20 +282,20 @@
           "regional": false
         },
         {
-          "title": "Why gold never tarnishes has finally been explained",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260710003511.htm",
-          "source": "ScienceDaily",
-          "summary": "Gold may have a secret self-defense system that helps it resist tarnishing. Researchers discovered that atoms on gold surfaces reorganize themselves into patterns that block oxygen from reacting with the metal,…",
-          "published": "2026-07-12T02:36:05+00:00",
-          "regional": false
+          "title": "Previously unknown alloy found in Hiroshima blast debris",
+          "link": "https://www.thehindu.com/sci-tech/science/previously-unknown-alloy-found-in-hiroshima-blast-debris/article71297296.ece",
+          "source": "The Hindu",
+          "summary": "The alloy shares characteristics with other unusual high-entropy alloys and quasicrystals, which are of great interest among engineers for their strength and stability",
+          "published": "2026-08-02T07:00:44+00:00",
+          "regional": true
         },
         {
-          "title": "This electric field trick boosted heat flow by nearly 300%",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260709160651.htm",
-          "source": "ScienceDaily",
-          "summary": "Researchers discovered that electricity can dramatically reshape how heat flows through certain ceramic materials, increasing heat conduction by almost threefold in a preferred direction.",
-          "published": "2026-07-11T12:18:02+00:00",
-          "regional": false
+          "title": "Hyundai Motor Chair inspects Ioniq 3 in Turkey ahead of Europe launch",
+          "link": "https://www.koreaherald.com/article/10828097",
+          "source": "The Korea Herald",
+          "summary": "Hyundai Motor Group said Sunday that Executive Chair Chung Eui-sun visited the company's Turkey plant to inspect production readiness and quality control for the Ioniq 3, Hyundai's first subcompact battery-powered…",
+          "published": "2026-08-02T02:31:44+00:00",
+          "regional": true
         },
         {
           "title": "SK sells control of wafer maker SK Siltron to Doosan for W2.3tr",
@@ -279,6 +311,14 @@
           "source": "The Korea Herald",
           "summary": "South Korean stocks skyrocketed by a record 18 percent to reclaim the 6,500-point level Friday, driven by robust semiconductor gains as better-than-expected Microsoft earnings eased concerns over artificial intelligence…",
           "published": "2026-07-31T07:13:47+00:00",
+          "regional": true
+        },
+        {
+          "title": "Korea's industrial output posts biggest gain in 6 years on autos, chips",
+          "link": "https://www.koreaherald.com/article/10827160",
+          "source": "The Korea Herald",
+          "summary": "South Korea's industrial output expanded at the fastest pace in six years in June, as a sharp rebound in automobile production rippled through consumption and investment while semiconductor output returned to growth,…",
+          "published": "2026-07-31T05:24:10+00:00",
           "regional": true
         },
         {
@@ -314,27 +354,11 @@
           "regional": true
         },
         {
-          "title": "Samsung Electro-Mechanics profit doubles on AI server parts demand",
-          "link": "https://www.koreaherald.com/article/10825761",
-          "source": "The Korea Herald",
-          "summary": "Samsung Electro-Mechanics reported its highest quarterly revenue on record for the April-June period, with sales of multilayer ceramic capacitors for AI servers and high-end semiconductor package substrates driving both…",
-          "published": "2026-07-30T04:46:39+00:00",
-          "regional": true
-        },
-        {
           "title": "Science Quiz: Exceptional gases",
           "link": "https://www.thehindu.com/sci-tech/science/science-quiz-exceptional-gases/article71252484.ece",
           "source": "The Hindu",
           "summary": "A quiz on chemistry’s dangerous molecules",
           "published": "2026-07-22T07:10:08+00:00",
-          "regional": true
-        },
-        {
-          "title": "Why scientists watched a gene hop from a predator into its prey",
-          "link": "https://www.thehindu.com/sci-tech/science/why-scientists-watched-a-gene-hop-from-a-predator-into-its-prey/article71220657.ece",
-          "source": "The Hindu",
-          "summary": "Jumping genes are responsible for the spread of antibiotic resistance and in the development of many cancers. Scientists are also studying circular RNA molecules, like the one derived from the jumping intron, as next…",
-          "published": "2026-07-19T05:23:49+00:00",
           "regional": true
         }
       ]
@@ -394,11 +418,27 @@
       "accent": "#33C6D6",
       "items": [
         {
+          "title": "Scientists left water inside a battery and nearly doubled its power",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260729043937.htm",
+          "source": "ScienceDaily",
+          "summary": "A surprisingly simple change could make sodium-ion batteries far more powerful while opening the door to turning seawater into drinking water.",
+          "published": "2026-08-01T10:41:53+00:00",
+          "regional": false
+        },
+        {
           "title": "Renewable generation is growing faster than ever",
           "link": "https://www.renewableenergyworld.com/solar/renewable-generation-is-growing-faster-than-ever/",
           "source": "Renewable Energy World",
           "summary": "The International Renewable Energy Agency reported that renewable electricity generation grew by 9.8% in 2024, totaling 9,836 terawatt hours.",
           "published": "2026-07-31T17:28:04+00:00",
+          "regional": false
+        },
+        {
+          "title": "New process turns plastic waste into hydrogen fuel while trapping the carbon",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260729051521.htm",
+          "source": "ScienceDaily",
+          "summary": "A new chemical process can transform three of the most common plastics into high-purity hydrogen without sorting them first.",
+          "published": "2026-07-31T12:46:18+00:00",
           "regional": false
         },
         {
@@ -466,19 +506,27 @@
           "regional": false
         },
         {
-          "title": "[Weekender] Rethinking who tech serves: from assisted dressing to off-grid drinking water",
-          "link": "https://www.koreaherald.com/article/10825657",
-          "source": "The Korea Herald",
-          "summary": "Technology’s brightest light too often bathes those already abundantly served. The newest phone gets a sharper camera, the already capable car inches toward autonomy, the fridge learns another trick.",
-          "published": "2026-08-01T07:00:02+00:00",
-          "regional": true
-        },
-        {
           "title": "Can ‘floating’ solar boost India’s renewable energy uptake? | Explained",
           "link": "https://www.thehindu.com/sci-tech/science/can-floating-solar-boost-indias-renewable-energy-uptake-explained/article71293629.ece",
           "source": "The Hindu",
           "summary": "With land increasingly scarce and storage becoming crucial, here’s why India is looking to its vast reservoirs for the next phase of solar expansion",
-          "published": "2026-08-01T06:22:48+00:00",
+          "published": "2026-08-02T05:13:31+00:00",
+          "regional": true
+        },
+        {
+          "title": "Hyundai Motor Chair inspects Ioniq 3 in Turkey ahead of Europe launch",
+          "link": "https://www.koreaherald.com/article/10828097",
+          "source": "The Korea Herald",
+          "summary": "Hyundai Motor Group said Sunday that Executive Chair Chung Eui-sun visited the company's Turkey plant to inspect production readiness and quality control for the Ioniq 3, Hyundai's first subcompact battery-powered…",
+          "published": "2026-08-02T02:31:44+00:00",
+          "regional": true
+        },
+        {
+          "title": "Rethinking who tech serves: from assisted dressing to off-grid drinking water",
+          "link": "https://www.koreaherald.com/article/10825657",
+          "source": "The Korea Herald",
+          "summary": "Technology’s brightest light too often bathes those already abundantly served. The newest phone gets a sharper camera, the already capable car inches toward autonomy, the fridge learns another trick.",
+          "published": "2026-08-01T07:00:02+00:00",
           "regional": true
         },
         {
@@ -503,14 +551,6 @@
           "source": "The Korea Herald",
           "summary": "Hyundai Motor Group plans to expand its SUV lineup, pursue local production of electric vehicles and strengthen research and development in Brazil as Chinese automakers rapidly gain ground in Latin America’s largest…",
           "published": "2026-07-30T06:06:33+00:00",
-          "regional": true
-        },
-        {
-          "title": "LG Energy Solution swings back to profit as storage batteries fill EV gap",
-          "link": "https://www.koreaherald.com/article/10825703",
-          "source": "The Korea Herald",
-          "summary": "LG Energy Solution returned to an operating profit in the second quarter, snapping two consecutive quarterly losses as the conversion of idle electric-vehicle lines to energy storage systems gained traction.",
-          "published": "2026-07-30T04:00:15+00:00",
           "regional": true
         },
         {
@@ -553,6 +593,14 @@
       "tagline": "New missions, spacecraft, and technologies — NASA, ESA, ISRO, JAXA, SpaceX, CNES, and more.",
       "accent": "#F0894E",
       "items": [
+        {
+          "title": "NASA’s Curiosity rover finds a mysterious honeycomb landscape on Mars",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260731034142.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA’s Curiosity rover has entered a Martian valley covered by an astonishing “sea” of tiny polygon-shaped fractures.",
+          "published": "2026-08-01T13:47:24+00:00",
+          "regional": false
+        },
         {
           "title": "APOD: 2026 August 1 – Buck Moon and Belt of Venus",
           "link": "https://science.nasa.gov/image-article/apod-2026-august-1-buck-moon-and-belt-of-venus/",
@@ -599,14 +647,6 @@
           "source": "NASA",
           "summary": "NASA and its industry partners are preparing for next year’s Artemis III demonstration mission by completing new wind tunnel tests on SpaceX’s Super Heavy Version 3 rocket booster.",
           "published": "2026-07-31T18:39:47+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Opens New Flight Dynamics Research Facility in Virginia",
-          "link": "https://www.nasa.gov/news-release/nasa-opens-new-flight-dynamics-research-facility-in-virginia/",
-          "source": "NASA",
-          "summary": "NASA opened its newest wind tunnel, the Flight Dynamics Research Facility, Friday, providing a critical resource for the agency and its partners to test the safety and performance of future generations of aircraft,…",
-          "published": "2026-07-31T17:11:14+00:00",
           "regional": false
         },
         {
@@ -834,11 +874,35 @@
       "accent": "#B98CE0",
       "items": [
         {
+          "title": "Tiny black holes may be secretly exploding stars across the Milky Way",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260729051515.htm",
+          "source": "ScienceDaily",
+          "summary": "Primordial black holes may occasionally pass through white dwarf stars and trigger enormous Type Ia supernova explosions.",
+          "published": "2026-08-01T13:33:41+00:00",
+          "regional": false
+        },
+        {
           "title": "Astronomers Spot Weird, Three-Lobed Asteroid with a Moon",
           "link": "https://skyandtelescope.org/astronomy-news/astronomers-spot-weird-three-lobed-asteroid-with-a-moon/",
           "source": "Sky & Telescope",
           "summary": "Asteroid 44 Nysa has the weirdest shape yet seen for an asteroid, and that’s saying something. The post Astronomers Spot Weird, Three-Lobed Asteroid with a Moon appeared first on Sky & Telescope .",
           "published": "2026-07-31T18:35:52+00:00",
+          "regional": false
+        },
+        {
+          "title": "Black holes may spit out nearly as much matter as they swallow",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260731034127.htm",
+          "source": "ScienceDaily",
+          "summary": "A black hole observed during a dramatic 2023 eruption did not simply devour gas from its nearby companion star. It also expelled large amounts of material through powerful jets and winds, even after the outburst had…",
+          "published": "2026-07-31T08:18:29+00:00",
+          "regional": false
+        },
+        {
+          "title": "Strange gamma rays could reveal how stars forge heavy elements",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260727214623.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists traced a mysterious surge of low-energy gamma rays from zinc-70 to magnetic changes occurring inside its nucleus.",
+          "published": "2026-07-31T05:15:53+00:00",
           "regional": false
         },
         {
@@ -906,14 +970,6 @@
           "regional": false
         },
         {
-          "title": "The Rubin Observatory’s greatest legacy will be this ‘movie’ of the sky",
-          "link": "https://www.scientificamerican.com/article/the-rubin-observatorys-greatest-legacy-will-be-this-movie-of-the-sky/",
-          "source": "Scientific American",
-          "summary": "Using the new Vera C. Rubin Observatory, astronomers are beginning the largest and deepest survey of the sky. What will they see?",
-          "published": "2026-07-24T10:45:00+00:00",
-          "regional": false
-        },
-        {
           "title": "China’s Tianwen-1 captures interstellar comet 3I/ATLAS near Mars",
           "link": "https://www.sciencedaily.com/releases/2026/07/260723084052.htm",
           "source": "ScienceDaily",
@@ -951,22 +1007,6 @@
           "source": "ScienceDaily",
           "summary": "Dying Sun-like stars may not fade away quietly. As blobs of gas erupt unevenly from their swollen surfaces, each burst gives the star a tiny push in the opposite direction.",
           "published": "2026-07-21T03:36:16+00:00",
-          "regional": false
-        },
-        {
-          "title": "New quantum gravity theory links entropy, dark energy, and life",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260719035947.htm",
-          "source": "ScienceDaily",
-          "summary": "A new theoretical study offers a possible explanation for how the Universe can grow more complex without violating the second law of thermodynamics.",
-          "published": "2026-07-21T02:40:55+00:00",
-          "regional": false
-        },
-        {
-          "title": "A tiny universe in a bottle reveals clues to the origins of life",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260718010156.htm",
-          "source": "ScienceDaily",
-          "summary": "Researchers have created cosmic dust from scratch by recreating space-like conditions inside glass tubes. The dust contains complex carbon-rich molecules built from elements essential to life and produces infrared…",
-          "published": "2026-07-19T13:10:21+00:00",
           "regional": false
         },
         {
