@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-03T10:16:47.025973+00:00",
-  "generated_human": "03 August 2026, 10:16 UTC",
-  "total_items": 135,
+  "generated": "2026-08-04T09:58:37.361435+00:00",
+  "generated_human": "04 August 2026, 09:58 UTC",
+  "total_items": 133,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "Why the Legendary Erdős Problems Are Falling to AI",
+          "link": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/",
+          "source": "Quanta Magazine",
+          "summary": "AI’s greatest mathematical successes have come from answers to problems posed by a mid-20th century iconoclast. By examining what makes the Erdős problems unique, mathematicians are trying to understand how AI might…",
+          "published": "2026-08-03T15:05:20+00:00",
+          "regional": false
+        },
         {
           "title": "AI helped produce two proofs for the same cryptography problem",
           "link": "https://www.scientificamerican.com/article/ai-helped-produce-two-proofs-for-the-same-cryptography-problem/",
@@ -50,14 +58,6 @@
           "regional": false
         },
         {
-          "title": "Advancing next-gen AI with materials science innovation",
-          "link": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/",
-          "source": "MIT Technology Review",
-          "summary": "The conversation about AI often centers on algorithms, computing power, or huge investments in new semiconductor fabrication plants and hyperscale data centers.",
-          "published": "2026-07-21T10:37:34+00:00",
-          "regional": false
-        },
-        {
           "title": "This AI Folds DNA Into Mini Masterpieces",
           "link": "https://spectrum.ieee.org/ai-dna-origami",
           "source": "IEEE Spectrum",
@@ -66,12 +66,12 @@
           "regional": false
         },
         {
-          "title": "The AI Arms Race in Technical Interviews Is Escalating",
-          "link": "https://spectrum.ieee.org/technical-interview-ai-arms-race",
-          "source": "IEEE Spectrum",
-          "summary": "Software engineering jobs are under threat from artificial intelligence . Some applicants are fighting back by using AI in the interview process, employing AI assistants that suggest responses on the fly during remote…",
-          "published": "2026-07-13T15:15:03+00:00",
-          "regional": false
+          "title": "Ant Group’s embodied AI arm Robbyant kicks off external funding",
+          "link": "https://www.scmp.com/tech/big-tech/article/3362822/ant-groups-embodied-ai-arm-robbyant-kicks-external-funding?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Robbyant, the embodied artificial intelligence division of Ant Group, has begun seeking external funding, becoming the fourth unit of the fintech giant to step up capital-raising efforts.",
+          "published": "2026-08-03T12:30:20+00:00",
+          "regional": true
         },
         {
           "title": "Will AI healthcare be China’s new global growth engine?",
@@ -85,7 +85,7 @@
           "title": "China’s tech giants race to put AI on delivery riders’ heads",
           "link": "https://www.scmp.com/tech/big-tech/article/3362761/chinas-tech-giants-race-put-ai-delivery-riders-heads?utm_source=rss_feed",
           "source": "South China Morning Post",
-          "summary": "Chinese e-commerce giant JD.com has launched an smart helmet for food couriers with features enabled by artificial intelligence technology, following similar roll-outs by rivals Alibaba Group Holding and Meituan as they…",
+          "summary": "Chinese e-commerce giant JD.com has launched a smart helmet for food couriers with features enabled by artificial intelligence technology, following similar roll-outs by rivals Alibaba Group Holding and Meituan as they…",
           "published": "2026-08-03T07:00:09+00:00",
           "regional": true
         },
@@ -111,14 +111,6 @@
           "source": "Science Japan",
           "summary": "Physics-Informed Neural Networks (PINNs), a method that embeds partial differential equations representing physical laws into neural network training, have attracted considerable attention in recent years.",
           "published": "2026-07-31T05:37:17+00:00",
-          "regional": true
-        },
-        {
-          "title": "KT, DeepX, Sesol team up on NPU-based edge AI systems",
-          "link": "https://www.koreaherald.com/article/10827055",
-          "source": "The Korea Herald",
-          "summary": "KT said Friday it has signed a three-way collaboration agreement with on-device AI chipmaker DeepX and edge computing firm Sesol to jointly develop NPU-based artificial intelligence edge systems for use in…",
-          "published": "2026-07-31T04:20:30+00:00",
           "regional": true
         },
         {
@@ -161,6 +153,22 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "The U.S. military needs tungsten, but pristine NASA site may stand in the way",
+          "link": "https://www.scientificamerican.com/article/the-u-s-military-needs-tungsten-but-pristine-nasa-site-may-stand-in-the-way/",
+          "source": "Scientific American",
+          "summary": "A unique landform is vital for calibrating NASA’s satellites, but it’s likely sitting atop a vast deposit of this heavy metal, which is crucial for making munitions",
+          "published": "2026-08-03T20:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Scientists twist crystal layers and reshape matter from within",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260801042819.htm",
+          "source": "ScienceDaily",
+          "summary": "Researchers have found a way to build much larger “twisted” oxide materials while precisely controlling how their atomic layers line up.",
+          "published": "2026-08-03T04:36:48+00:00",
+          "regional": false
+        },
         {
           "title": "Scientists left water inside a battery and nearly doubled its power",
           "link": "https://www.sciencedaily.com/releases/2026/07/260729043937.htm",
@@ -282,6 +290,14 @@
           "regional": false
         },
         {
+          "title": "Previously unknown alloy found in Hiroshima blast debris",
+          "link": "https://www.thehindu.com/sci-tech/science/previously-unknown-alloy-found-in-hiroshima-blast-debris/article71297296.ece",
+          "source": "The Hindu",
+          "summary": "The alloy shares characteristics with other unusual high-entropy alloys and quasicrystals, which are of great interest among engineers for their strength and stability",
+          "published": "2026-08-04T09:03:51+00:00",
+          "regional": true
+        },
+        {
           "title": "Seoul stocks dip over 5% on chip sell-off after record surge",
           "link": "https://www.koreaherald.com/article/10829419",
           "source": "The Korea Herald",
@@ -298,51 +314,11 @@
           "regional": true
         },
         {
-          "title": "Previously unknown alloy found in Hiroshima blast debris",
-          "link": "https://www.thehindu.com/sci-tech/science/previously-unknown-alloy-found-in-hiroshima-blast-debris/article71297296.ece",
-          "source": "The Hindu",
-          "summary": "The alloy shares characteristics with other unusual high-entropy alloys and quasicrystals, which are of great interest among engineers for their strength and stability",
-          "published": "2026-08-02T07:00:44+00:00",
-          "regional": true
-        },
-        {
           "title": "Hyundai Motor Chair inspects Ioniq 3 in Turkey ahead of Europe launch",
           "link": "https://www.koreaherald.com/article/10828097",
           "source": "The Korea Herald",
           "summary": "Hyundai Motor Group said Sunday that Executive Chair Chung Eui-sun visited the company's Turkey plant to inspect production readiness and quality control for the Ioniq 3, Hyundai's first subcompact battery-powered…",
           "published": "2026-08-02T02:31:44+00:00",
-          "regional": true
-        },
-        {
-          "title": "SK sells control of wafer maker SK Siltron to Doosan for W2.3tr",
-          "link": "https://www.koreaherald.com/article/10827471",
-          "source": "The Korea Herald",
-          "summary": "SK Inc. agreed to sell its controlling stake in semiconductor wafer maker SK Siltron to Doosan Corp. for about 2.3 trillion won ($1.6 billion), freeing up cash as the conglomerate reshapes its portfolio and invests in…",
-          "published": "2026-07-31T08:54:42+00:00",
-          "regional": true
-        },
-        {
-          "title": "Seoul shares surge record 18% to reclaim 6,500-point level on chip rally",
-          "link": "https://www.koreaherald.com/article/10827325",
-          "source": "The Korea Herald",
-          "summary": "South Korean stocks skyrocketed by a record 18 percent to reclaim the 6,500-point level Friday, driven by robust semiconductor gains as better-than-expected Microsoft earnings eased concerns over artificial intelligence…",
-          "published": "2026-07-31T07:13:47+00:00",
-          "regional": true
-        },
-        {
-          "title": "Korea's industrial output posts biggest gain in 6 years on autos, chips",
-          "link": "https://www.koreaherald.com/article/10827160",
-          "source": "The Korea Herald",
-          "summary": "South Korea's industrial output expanded at the fastest pace in six years in June, as a sharp rebound in automobile production rippled through consumption and investment while semiconductor output returned to growth,…",
-          "published": "2026-07-31T05:24:10+00:00",
-          "regional": true
-        },
-        {
-          "title": "Seoul shares start 13% higher on US tech gains driven by Microsoft's strong earnings",
-          "link": "https://www.koreaherald.com/article/10826596",
-          "source": "The Korea Herald",
-          "summary": "South Korean stocks opened sharply higher Friday, surging by 13 percent, driven by gains in semiconductor shares stemming from an overnight rally in US tech giants backed by a strong earnings report from US tech giant…",
-          "published": "2026-07-31T00:33:29+00:00",
           "regional": true
         },
         {
@@ -418,11 +394,27 @@
       "accent": "#33C6D6",
       "items": [
         {
+          "title": "What is ‘superhot’ geothermal? Deep rock to baseload power, explained",
+          "link": "https://www.renewableenergyworld.com/energy-business/new-project-development/what-is-superhot-geothermal-deep-rock-to-baseload-power-explained/",
+          "source": "Renewable Energy World",
+          "summary": "Co-founder of Quaise Energy, Matt Houde, explains how his company is tackling the challenges of scaling superhot geothermal energy, which promises 24/7 baseload power.",
+          "published": "2026-08-03T15:00:32+00:00",
+          "regional": false
+        },
+        {
           "title": "Scientists left water inside a battery and nearly doubled its power",
           "link": "https://www.sciencedaily.com/releases/2026/07/260729043937.htm",
           "source": "ScienceDaily",
           "summary": "A surprisingly simple change could make sodium-ion batteries far more powerful while opening the door to turning seawater into drinking water.",
           "published": "2026-08-01T10:41:53+00:00",
+          "regional": false
+        },
+        {
+          "title": "Mocean Energy targets wave-powered offshore data centers",
+          "link": "https://www.renewableenergyworld.com/hydro-power/tidal-wave-energy/mocean-energy-targets-wave-powered-offshore-data-centers/",
+          "source": "Renewable Energy World",
+          "summary": "Scotland-based Mocean Energy plans to move data centers out to sea with power from wave energy, solar PV and battery storage.",
+          "published": "2026-07-31T19:48:00+00:00",
           "regional": false
         },
         {
@@ -439,22 +431,6 @@
           "source": "ScienceDaily",
           "summary": "A new chemical process can transform three of the most common plastics into high-purity hydrogen without sorting them first.",
           "published": "2026-07-31T12:46:18+00:00",
-          "regional": false
-        },
-        {
-          "title": "Trump administration admits grants for clean energy were canceled based on politics",
-          "link": "https://www.renewableenergyworld.com/energy-business/policy-and-regulation/trump-administration-admits-grants-for-clean-energy-were-canceled-based-on-politics/",
-          "source": "Renewable Energy World",
-          "summary": "The Trump administration admitted in court that it canceled $7.6 billion in clean energy grants for 16 states that voted for Kamala Harris in 2024, citing political identity as the reason.",
-          "published": "2026-07-28T18:11:03+00:00",
-          "regional": false
-        },
-        {
-          "title": "Can this senate bill make hydropower projects more affordable?",
-          "link": "https://www.renewableenergyworld.com/hydro-power/can-this-senate-bill-make-hydropower-projects-more-affordable/",
-          "source": "Renewable Energy World",
-          "summary": "U.S. Senators Lisa Murkowski, Steve Daines, and Jim Risch introduced the Hydropower Licensing Affordability Act to reform hydropower licensing.",
-          "published": "2026-07-27T20:17:56+00:00",
           "regional": false
         },
         {
@@ -522,14 +498,6 @@
           "regional": true
         },
         {
-          "title": "Rethinking who tech serves: from assisted dressing to off-grid drinking water",
-          "link": "https://www.koreaherald.com/article/10825657",
-          "source": "The Korea Herald",
-          "summary": "Technology’s brightest light too often bathes those already abundantly served. The newest phone gets a sharper camera, the already capable car inches toward autonomy, the fridge learns another trick.",
-          "published": "2026-08-01T07:00:02+00:00",
-          "regional": true
-        },
-        {
           "title": "Watch | The green and the not-so-green of biofuels — explained | The Scope",
           "link": "https://www.thehindu.com/videos/the-green-and-the-not-so-green-of-biofuels-explained-the-scope/article71290045.ece",
           "source": "The Hindu",
@@ -576,6 +544,14 @@
           "summary": "More frequent weather extremes are leading to water shortages during droughts and flooding during heavy rain. But groundwater storage can help secure water for dry seasons while mitigating extreme rain.",
           "published": "2026-07-15T09:24:00+00:00",
           "regional": true
+        },
+        {
+          "title": "Free electricity in Australia, and the week's other eco wins",
+          "link": "https://www.dw.com/en/free-electricity-in-australia-and-the-week-s-other-eco-wins/a-77824448?maca=en-rss_en_environment-22607-xml-mrss",
+          "source": "Deutsche Welle",
+          "summary": "Germans save an ancient woodland from coal mining, Australia gives away surplus solar power, and how one city became the world's best place for cyclists?",
+          "published": "2026-07-03T14:41:00+00:00",
+          "regional": true
         }
       ]
     },
@@ -585,6 +561,86 @@
       "tagline": "New missions, spacecraft, and technologies — NASA, ESA, ISRO, JAXA, SpaceX, CNES, and more.",
       "accent": "#F0894E",
       "items": [
+        {
+          "title": "What will happen when a SpaceX rocket collides with the Moon?",
+          "link": "https://www.bbc.co.uk/news/articles/cx25yn22l97o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Our satellite has endured countless blows over millions of years - and astronomers think this one could be a useful accident.",
+          "published": "2026-08-04T09:13:37+00:00",
+          "regional": false
+        },
+        {
+          "title": "ESA and Pokémon team up to celebrate World Space Week",
+          "link": "https://www.esa.int/About_Us/Branding_and_Partnerships/ESA_and_Pokemon_team_up_to_celebrate_World_Space_Week",
+          "source": "ESA",
+          "summary": "The European Space Agency (ESA) and The Pokémon Company International (TPCi) are teaming up to celebrate World Space Week from 4–10 October 2026.",
+          "published": "2026-08-04T08:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "The U.S. military needs tungsten, but pristine NASA site may stand in the way",
+          "link": "https://www.scientificamerican.com/article/the-u-s-military-needs-tungsten-but-pristine-nasa-site-may-stand-in-the-way/",
+          "source": "Scientific American",
+          "summary": "A unique landform is vital for calibrating NASA’s satellites, but it’s likely sitting atop a vast deposit of this heavy metal, which is crucial for making munitions",
+          "published": "2026-08-03T20:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Louisiana Students Loft Payloads from NASA Balloon Facility in Texas",
+          "link": "https://www.nasa.gov/missions/scientific-balloons/louisiana-students-loft-payloads-from-nasa-balloon-facility-in-texas/",
+          "source": "NASA",
+          "summary": "Every spring in Palestine, Texas, the wide-open fields around NASA’s Columbia Scientific Balloon Facility fill with students and faculty from across Louisiana.",
+          "published": "2026-08-03T19:22:43+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Delivers Navigation System for Commercial Lunar Relay",
+          "link": "https://www.nasa.gov/technology/space-comms/nasa-delivers-navigation-system-for-commercial-lunar-relay/",
+          "source": "NASA",
+          "summary": "NASA delivered the NavCube3-mini payload on July 13 to Intuitive Machines for integration into Altus-1, the company’s first lunar relay satellite, marking an important milestone in the development of future lunar…",
+          "published": "2026-08-03T14:20:26+00:00",
+          "regional": false
+        },
+        {
+          "title": "Ike Theriot Helps Prepare Astronauts to Work on the Moon",
+          "link": "https://www.nasa.gov/centers-and-facilities/johnson/ike-theriot-helps-prepare-astronauts-to-work-on-the-moon/",
+          "source": "NASA",
+          "summary": "From serving in the U.S. Army to helping prepare astronauts to explore the lunar surface, Ike Theriot built a path to NASA through discipline and determination.",
+          "published": "2026-08-03T14:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Brings Space Exploration to the FIFA World Cup",
+          "link": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-brings-space-exploration-to-the-fifa-world-cup/",
+          "source": "NASA",
+          "summary": "From June 11 through July 19, NASA’s free interactive exhibit at FIFA Fan Festival™ brought space exploration to soccer fans in East Downtown Houston.",
+          "published": "2026-08-03T13:55:32+00:00",
+          "regional": false
+        },
+        {
+          "title": "Moonquakes could reveal hidden water beneath the lunar surface",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260802223420.htm",
+          "source": "ScienceDaily",
+          "summary": "Hidden moon ice may reveal itself through the way it bends and reflects vibrations from moonquakes. The technique could help astronauts locate vital water supplies and uncover clues about the origins of Earth’s oceans.",
+          "published": "2026-08-03T12:32:07+00:00",
+          "regional": false
+        },
+        {
+          "title": "The journey of Sophie Adenot's bonus food",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/The_journey_of_Sophie_Adenot_s_bonus_food",
+          "source": "ESA",
+          "summary": "Video: 00:05:45 What does it take to send gourmet food to the International Space Station? Follow ESA astronaut Sophie Adenot's bonus menu from a French kitchen to orbit, where chefs, engineers and food specialists work…",
+          "published": "2026-08-03T12:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Giant waves are sweeping Mars’ atmosphere into space",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260801042816.htm",
+          "source": "ScienceDaily",
+          "summary": "The solar wind may be stripping away Mars’ atmosphere by creating giant rolling waves along its outer edge. Data from MAVEN and Tianwen-1 show that these waves form plasma clouds that carry atmospheric particles into…",
+          "published": "2026-08-03T04:07:54+00:00",
+          "regional": false
+        },
         {
           "title": "NASA’s Curiosity rover finds a mysterious honeycomb landscape on Mars",
           "link": "https://www.sciencedaily.com/releases/2026/07/260731034142.htm",
@@ -597,7 +653,7 @@
           "title": "APOD: 2026 August 1 – Buck Moon and Belt of Venus",
           "link": "https://science.nasa.gov/image-article/apod/apod-2026-august-1-buck-moon-and-belt-of-venus/",
           "source": "NASA",
-          "summary": "APOD Science APOD APOD: 2026 August 1 – Buck… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos!",
+          "summary": "APODScienceAPODAPOD: 2026 August 1 – Buck…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos!",
           "published": "2026-08-01T04:05:00+00:00",
           "regional": false
         },
@@ -607,62 +663,6 @@
           "source": "NASA",
           "summary": "A solar eclipse, the Perseids, bright Venus after sunset, and a deep partial lunar eclipse highlight August’s skywatching.",
           "published": "2026-07-31T22:35:36+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA to Host Florida Event Celebrating American Air, Space Leadership",
-          "link": "https://www.nasa.gov/news-release/nasa-to-host-florida-event-celebrating-american-air-space-leadership/",
-          "source": "NASA",
-          "summary": "NASA will hold a news conference at 2:30 p.m. EDT, Friday, Aug. 14, live from the agency’s Kennedy Space Center in Florida, and media and digital creators are invited to attend in person.",
-          "published": "2026-07-31T21:08:10+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Newest Wind Tunnel Opens at NASA Langley",
-          "link": "https://www.nasa.gov/image-article/nasas-newest-wind-tunnel-opens-at-nasa-langley/",
-          "source": "NASA",
-          "summary": "On Friday, July 31, 2026, NASA leadership and Virginia government officials opened NASA’s first major new wind tunnel in more than 40 years, the Flight Dynamics Research Facility at NASA’s Langley Research Center in…",
-          "published": "2026-07-31T20:19:37+00:00",
-          "regional": false
-        },
-        {
-          "title": "TB 26-04 Webbings for Use in Elevated Oxygen Environments",
-          "link": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-04-webbings-for-use-in-elevated-oxygen-environments/",
-          "source": "NASA",
-          "summary": "Flammability test results for commercial-off-the-shelf webbings that meet NASA flammability requirements are reported for use in elevated oxygen environments anticipated for future lunar and Martian missions.",
-          "published": "2026-07-31T19:05:25+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket",
-          "link": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-spacex-advance-wind-tunnel-tests-for-starship-rocket/",
-          "source": "NASA",
-          "summary": "NASA and its industry partners are preparing for next year’s Artemis III demonstration mission by completing new wind tunnel tests on SpaceX’s Super Heavy Version 3 rocket booster.",
-          "published": "2026-07-31T18:39:47+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Opens New Flight Dynamics Research Facility in Virginia",
-          "link": "https://www.nasa.gov/news-release/nasa-opens-new-flight-dynamics-research-facility-in-virginia/",
-          "source": "NASA",
-          "summary": "NASA opened its newest wind tunnel, the Flight Dynamics Research Facility, Friday, providing a critical resource for the agency and its partners to test the safety and performance of future generations of aircraft,…",
-          "published": "2026-07-31T17:11:14+00:00",
-          "regional": false
-        },
-        {
-          "title": "This Month at ESA: July 2026",
-          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/This_Month_at_ESA_July_2026",
-          "source": "ESA",
-          "summary": "Video: 00:03:06 What did space have in store for Europe this July? The Artemis II crew visited ESTEC, ESA’s technical centre in the Netherlands, to meet the team behind Orion’s European Service Module, celebrating the…",
-          "published": "2026-07-31T11:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "How to surf on Saturn’s moon Titan",
-          "link": "https://www.scientificamerican.com/article/how-to-surf-on-saturns-moon-titan/",
-          "source": "Scientific American",
-          "summary": "Lakes of liquid methane on Titan, Saturn’s largest moon, could offer exhilarating—and terrifying—opportunities for otherworldly surfing",
-          "published": "2026-07-31T10:45:00+00:00",
           "regional": false
         },
         {
@@ -754,28 +754,12 @@
           "regional": false
         },
         {
-          "title": "Artemis II astronauts visit ESA",
-          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Artemis_II_astronauts_visit_ESA",
-          "source": "ESA",
-          "summary": "Yesterday, the four Artemis II astronauts visited ESA’s technical site in the Netherlands, where they met the team behind the European Service Module that powered their Orion spacecraft around the Moon and safely back…",
-          "published": "2026-07-14T07:49:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA's Perseverance just completed a marathon on Mars",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260713084858.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA's Perseverance rover has reached an impressive new milestone on Mars, completing the equivalent of a full marathon by driving 26.2 miles (42.195 kilometers) across the Red Planet.",
-          "published": "2026-07-14T05:32:12+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA selects four new Moon missions to build a permanent lunar base",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260713084853.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA is ramping up its lunar ambitions by awarding nearly $600 million for four commercial Moon landings planned for late 2028.",
-          "published": "2026-07-14T04:40:26+00:00",
-          "regional": false
+          "title": "As SpaceX rocket stage is about to hit moon, astronomers prepare",
+          "link": "https://www.thehindu.com/sci-tech/science/astronomers-prepare-as-spacex-rocket-stage-nears-moon-strike/article71303796.ece",
+          "source": "The Hindu",
+          "summary": "The rocket stage is currently expected to hit near Einstein crater on the moon on August 5 at 12:05 pm IST",
+          "published": "2026-08-04T06:10:07+00:00",
+          "regional": true
         },
         {
           "title": "ISRO issues memo to curb exodus of scientists and engineers from Gaganyaan and other key missions",
@@ -848,14 +832,6 @@
           "summary": "Ever wondered how life would be if you were living in space for a while? Here’s a sneak peek of how astronauts live the ‘high’ life (pun intended)",
           "published": "2026-07-22T04:48:15+00:00",
           "regional": true
-        },
-        {
-          "title": "What makes Skyroot’s Vikram-1 launch unique? | Explained",
-          "link": "https://www.thehindu.com/sci-tech/science/what-makes-skyroots-vikram-1-launch-unique-explained/article71237592.ece",
-          "source": "The Hindu",
-          "summary": "Skyroot’s Vikram-1 has made India only the third country where a private company has independently placed payloads in orbit. Here’s what makes the mission significant",
-          "published": "2026-07-21T06:48:00+00:00",
-          "regional": true
         }
       ]
     },
@@ -865,6 +841,30 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "A Partial Eclipse for Parts of North America",
+          "link": "https://skyandtelescope.org/astronomy-press-releases/a-partial-eclipse-for-parts-of-north-america/",
+          "source": "Sky & Telescope",
+          "summary": "The August 12th total solar eclipse in Europe gives North Americans a partial view. The post A Partial Eclipse for Parts of North America appeared first on Sky & Telescope .",
+          "published": "2026-08-03T17:56:31+00:00",
+          "regional": false
+        },
+        {
+          "title": "A Perfect Year for the Perseid Meteor Shower",
+          "link": "https://skyandtelescope.org/astronomy-press-releases/a-perfect-year-for-the-perseid-meteor-shower/",
+          "source": "Sky & Telescope",
+          "summary": "The year's best meteor shower has its peak on the night of August 12th. The post A Perfect Year for the Perseid Meteor Shower appeared first on Sky & Telescope .",
+          "published": "2026-08-03T12:28:04+00:00",
+          "regional": false
+        },
+        {
+          "title": "Find funding and save Jodrell Bank, stars say",
+          "link": "https://www.bbc.co.uk/news/articles/cwyl87j3yw5o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Astronaut Tim Peake, guitarist Johnny Marr and 150 other public figures have signed an open letter.",
+          "published": "2026-08-03T09:56:52+00:00",
+          "regional": false
+        },
         {
           "title": "Mysterious Milky Way object accelerates protons beyond one quadrillion electron volts",
           "link": "https://www.sciencedaily.com/releases/2026/07/260731034150.htm",
@@ -887,14 +887,6 @@
           "source": "Sky & Telescope",
           "summary": "Asteroid 44 Nysa has the weirdest shape yet seen for an asteroid, and that’s saying something. The post Astronomers Spot Weird, Three-Lobed Asteroid with a Moon appeared first on Sky & Telescope .",
           "published": "2026-07-31T18:35:52+00:00",
-          "regional": false
-        },
-        {
-          "title": "Black holes may spit out nearly as much matter as they swallow",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260731034127.htm",
-          "source": "ScienceDaily",
-          "summary": "A black hole observed during a dramatic 2023 eruption did not simply devour gas from its nearby companion star. It also expelled large amounts of material through powerful jets and winds, even after the outburst had…",
-          "published": "2026-07-31T08:18:29+00:00",
           "regional": false
         },
         {
@@ -927,14 +919,6 @@
           "source": "Scientific American",
           "summary": "Giant black holes adrift in deep space are normally invisible—unless they’re dining on stars",
           "published": "2026-07-29T14:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Rescue mission to save NASA’s Swift space telescope is imperiled in orbit",
-          "link": "https://www.scientificamerican.com/article/rescue-mission-to-save-nasas-swift-space-telescope-is-imperiled-in-orbit/",
-          "source": "Scientific American",
-          "summary": "A private spacecraft launched to boost the decaying orbit of NASA’s Swift Observatory is now suffering from potentially mission-ending malfunctions",
-          "published": "2026-07-29T13:15:00+00:00",
           "regional": false
         },
         {
@@ -1050,12 +1034,12 @@
           "regional": false
         },
         {
-          "title": "New dark matter theory could solve multiple cosmic mysteries at once",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260711010128.htm",
-          "source": "ScienceDaily",
-          "summary": "Dark matter may be far more complicated than scientists once believed. A new study suggests it could consist of at least two different kinds of particles that slowly separate over time, with heavier particles sinking…",
-          "published": "2026-07-14T02:30:53+00:00",
-          "regional": false
+          "title": "As SpaceX rocket stage is about to hit moon, astronomers prepare",
+          "link": "https://www.thehindu.com/sci-tech/science/astronomers-prepare-as-spacex-rocket-stage-nears-moon-strike/article71303796.ece",
+          "source": "The Hindu",
+          "summary": "The rocket stage is currently expected to hit near Einstein crater on the moon on August 5 at 12:05 pm IST",
+          "published": "2026-08-04T06:10:07+00:00",
+          "regional": true
         },
         {
           "title": "Most comprehensive census of the high-energy universe to date",
