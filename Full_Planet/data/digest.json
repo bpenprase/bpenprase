@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-04T09:58:37.361435+00:00",
-  "generated_human": "04 August 2026, 09:58 UTC",
-  "total_items": 133,
+  "generated": "2026-08-05T09:52:51.238655+00:00",
+  "generated_human": "05 August 2026, 09:52 UTC",
+  "total_items": 134,
   "channels": [
     {
       "key": "ai",
@@ -66,6 +66,30 @@
           "regional": false
         },
         {
+          "title": "Xiaomi open-sources embodied-AI foundation model Xiaomi-Robotics-1",
+          "link": "https://technode.com/2026/08/05/xiaomi-open-sources-embodied-ai-foundation-model-xiaomi-robotics-1/",
+          "source": "TechNode",
+          "summary": "Xiaomi has open-sourced its embodied-AI foundation model Xiaomi-Robotics-1, the company’s technology account announced on Aug. 5.",
+          "published": "2026-08-05T08:30:13+00:00",
+          "regional": true
+        },
+        {
+          "title": "UN University Report warns of surging environmental burden from AI expansion, stating, \"mitigation measures are urgently needed\"",
+          "link": "https://sj.jst.go.jp/stories/2026/s0805-01p.html",
+          "source": "Science Japan",
+          "summary": "The advancement of Artificial Intelligence (AI) has been remarkable. In particular, the expanding utilization of generative AI is rapidly transforming our daily lives and working styles.",
+          "published": "2026-08-05T06:07:35+00:00",
+          "regional": true
+        },
+        {
+          "title": "Tencent ramps up overseas AI push with wider roll-out of flagship Hy3 model",
+          "link": "https://www.scmp.com/tech/tech-war/article/3362991/tencent-ramps-overseas-ai-push-wider-rollout-flagship-hy3-model?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Tencent Holdings is ramping up its overseas push for its flagship Hy3 artificial intelligence model, joining a wave of Chinese technology firms taking aim at the world’s leading players.",
+          "published": "2026-08-05T02:58:48+00:00",
+          "regional": true
+        },
+        {
           "title": "Ant Group’s embodied AI arm Robbyant kicks off external funding",
           "link": "https://www.scmp.com/tech/big-tech/article/3362822/ant-groups-embodied-ai-arm-robbyant-kicks-external-funding?utm_source=rss_feed",
           "source": "South China Morning Post",
@@ -98,22 +122,6 @@
           "regional": true
         },
         {
-          "title": "Hyundai wants to be an AI company, not just a carmaker",
-          "link": "https://www.koreaherald.com/article/10828154",
-          "source": "The Korea Herald",
-          "summary": "Hyundai Motor Group is setting its sights well beyond car manufacturing. The world’s third largest automaker by volume is seeking to transform itself into a physical artificial intelligence company spanning autonomous…",
-          "published": "2026-08-02T04:53:45+00:00",
-          "regional": true
-        },
-        {
-          "title": "Speech production via physics-informed machine learning",
-          "link": "https://sj.jst.go.jp/news/202607/n0731-01k.html",
-          "source": "Science Japan",
-          "summary": "Physics-Informed Neural Networks (PINNs), a method that embeds partial differential equations representing physical laws into neural network training, have attracted considerable attention in recent years.",
-          "published": "2026-07-31T05:37:17+00:00",
-          "regional": true
-        },
-        {
           "title": "How ByteDance’s Seedance model empowers China’s nascent AI drama industry",
           "link": "https://www.scmp.com/tech/tech-trends/article/3362333/how-bytedances-seedance-model-empowers-chinas-nascent-ai-comic-drama-industry?utm_source=rss_feed",
           "source": "South China Morning Post",
@@ -127,14 +135,6 @@
           "source": "South China Morning Post",
           "summary": "Chinese artificial intelligence developers could start charging cloud platforms commercial licensing fees to host their open-weight models, according to the head of Asia internet research at Goldman Sachs, as firms look…",
           "published": "2026-07-28T02:00:09+00:00",
-          "regional": true
-        },
-        {
-          "title": "From Moonshot to Enflame: how Tencent is betting big on China’s AI champions",
-          "link": "https://www.scmp.com/tech/big-tech/article/3362013/moonshot-enflame-how-tencent-betting-big-chinas-ai-champions?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Tencent Holdings is quietly reallocating its venture capital bets away from legacy internet assets to double down on China’s highest-profile artificial intelligence champions.",
-          "published": "2026-07-27T14:30:06+00:00",
           "regional": true
         },
         {
@@ -153,6 +153,14 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "Scientists just 3D printed one of the hardest metals on Earth",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260801094053.htm",
+          "source": "ScienceDaily",
+          "summary": "A new 3D printing technique can produce exceptionally hard tungsten carbide cobalt while using less of its expensive raw materials.",
+          "published": "2026-08-04T07:08:28+00:00",
+          "regional": false
+        },
         {
           "title": "The U.S. military needs tungsten, but pristine NASA site may stand in the way",
           "link": "https://www.scientificamerican.com/article/the-u-s-military-needs-tungsten-but-pristine-nasa-site-may-stand-in-the-way/",
@@ -290,11 +298,35 @@
           "regional": false
         },
         {
+          "title": "Well-worn wins: Wild capuchin monkeys prefer stones with a proven track record of cracking nuts",
+          "link": "https://www.mpg.de/26900810/well-worn-wins-wild-capuchin-monkeys-prefer-stones-that-have-a-proven-track-record-of-cracking-nuts",
+          "source": "Max Planck Society",
+          "summary": "New study reveals that visible traces of past tool use can outweigh material properties when primates select tools",
+          "published": "2026-08-04T23:15:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "Top Huawei chip scientist opens up on strategy, ‘blind arrogance’ and his war-hero mindset",
+          "link": "https://www.scmp.com/tech/big-tech/article/3362960/top-huawei-chip-scientist-opens-strategy-blind-arrogance-and-his-war-hero-mindset?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "When Liao Heng joined Huawei Technologies’ chip-design unit in 2016, he was sceptical about whether China could ever build world-class semiconductors.",
+          "published": "2026-08-04T14:29:31+00:00",
+          "regional": true
+        },
+        {
           "title": "Previously unknown alloy found in Hiroshima blast debris",
           "link": "https://www.thehindu.com/sci-tech/science/previously-unknown-alloy-found-in-hiroshima-blast-debris/article71297296.ece",
           "source": "The Hindu",
           "summary": "The alloy shares characteristics with other unusual high-entropy alloys and quasicrystals, which are of great interest among engineers for their strength and stability",
           "published": "2026-08-04T09:03:51+00:00",
+          "regional": true
+        },
+        {
+          "title": "Korea to cover up to 100% of chip cluster infrastructure costs",
+          "link": "https://www.koreaherald.com/article/10830474",
+          "source": "The Korea Herald",
+          "summary": "South Korea will cover up to 100 percent of the cost of building power, water and other infrastructure for designated semiconductor clusters under enforcement rules approved by the Cabinet on Tuesday.",
+          "published": "2026-08-04T05:26:00+00:00",
           "regional": true
         },
         {
@@ -311,14 +343,6 @@
           "source": "Science Japan",
           "summary": "A research team including Professor Akira Nakayama and Associate Professor Koki Muraoka of the Graduate School of Engineering at the University of Tokyo has developed \"Graph ID,\" a breakthrough identifier capable of…",
           "published": "2026-08-03T06:16:53+00:00",
-          "regional": true
-        },
-        {
-          "title": "Hyundai Motor Chair inspects Ioniq 3 in Turkey ahead of Europe launch",
-          "link": "https://www.koreaherald.com/article/10828097",
-          "source": "The Korea Herald",
-          "summary": "Hyundai Motor Group said Sunday that Executive Chair Chung Eui-sun visited the company's Turkey plant to inspect production readiness and quality control for the Ioniq 3, Hyundai's first subcompact battery-powered…",
-          "published": "2026-08-02T02:31:44+00:00",
           "regional": true
         },
         {
@@ -474,27 +498,11 @@
           "regional": false
         },
         {
-          "title": "[Graphic News] Eco-friendly cars account for half of new car registrations in H1",
-          "link": "https://www.koreaherald.com/article/10828369",
-          "source": "The Korea Herald",
-          "summary": "Eco-friendly vehicles accounted for half of new car registrations in South Korea in the first half of this year, driven by a sharp increase in electric vehicle sales, an auto market tracker said.",
-          "published": "2026-08-02T23:00:00+00:00",
-          "regional": true
-        },
-        {
           "title": "Can ‘floating’ solar boost India’s renewable energy uptake? | Explained",
           "link": "https://www.thehindu.com/sci-tech/science/can-floating-solar-boost-indias-renewable-energy-uptake-explained/article71293629.ece",
           "source": "The Hindu",
           "summary": "With land increasingly scarce and storage becoming crucial, here’s why India is looking to its vast reservoirs for the next phase of solar expansion",
           "published": "2026-08-02T05:13:31+00:00",
-          "regional": true
-        },
-        {
-          "title": "Hyundai Motor Chair inspects Ioniq 3 in Turkey ahead of Europe launch",
-          "link": "https://www.koreaherald.com/article/10828097",
-          "source": "The Korea Herald",
-          "summary": "Hyundai Motor Group said Sunday that Executive Chair Chung Eui-sun visited the company's Turkey plant to inspect production readiness and quality control for the Ioniq 3, Hyundai's first subcompact battery-powered…",
-          "published": "2026-08-02T02:31:44+00:00",
           "regional": true
         },
         {
@@ -562,6 +570,46 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "NASA Will Attempt to Observe Rocket Part’s Lunar Impact",
+          "link": "https://www.nasa.gov/humans-in-space/commercial-space/nasa-will-attempt-to-observe-rocket-parts-lunar-impact/",
+          "source": "NASA",
+          "summary": "Using ground-based telescopes and space-based assets, NASA and SpaceX are tracking a used Falcon 9 upper stage from a commercial mission expected to impact the Moon on Wednesday, Aug.",
+          "published": "2026-08-04T20:00:14+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s PUNCH Sharpens Solar Storm Forecasting in First Test",
+          "link": "https://science.nasa.gov/science-research/heliophysics/nasas-punch-sharpens-solar-storm-forecasting-in-first-test/",
+          "source": "NASA",
+          "summary": "Using continuous imagery from NASA’s PUNCH (Polarimeter to Unify the Corona and Heliosphere) mission, scientists predicted the near-Earth arrival of a solar eruption to within 30 minutes in an initial proof of concept…",
+          "published": "2026-08-04T18:02:55+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Provides Updates on Moon Base Cargo Landers, Tech Demonstrations",
+          "link": "https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
+          "source": "NASA",
+          "summary": "NASA is making progress in building the Moon Base, which will become a resilient outpost near the Moon’s South Pole for science, technology, and eventual human operations.",
+          "published": "2026-08-04T16:14:51+00:00",
+          "regional": false
+        },
+        {
+          "title": "Roman Space Telescope Plaque Install",
+          "link": "https://www.nasa.gov/image-article/roman-space-telescope-plaque-install/",
+          "source": "NASA",
+          "summary": "Technicians installed a commemorative plaque, seen in this July 28, 2026, photo, on NASA’s Nancy Grace Roman Space Telescope. The plaque honors the legacy of Dr.",
+          "published": "2026-08-04T15:50:44+00:00",
+          "regional": false
+        },
+        {
+          "title": "A SpaceX rocket is about to hit the moon—these videos show what could happen",
+          "link": "https://www.scientificamerican.com/article/a-spacex-rocket-is-about-to-hit-the-moon-these-videos-show-what-could-happen/",
+          "source": "Scientific American",
+          "summary": "Astronomers’ simulations predict what this lunar impact—and its aftermath—will look like",
+          "published": "2026-08-04T13:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "What will happen when a SpaceX rocket collides with the Moon?",
           "link": "https://www.bbc.co.uk/news/articles/cx25yn22l97o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
@@ -578,6 +626,14 @@
           "regional": false
         },
         {
+          "title": "NASA mission predicts solar explosion’s arrival at Earth with stunning precision",
+          "link": "https://www.science.org/content/article/nasa-mission-predicts-solar-explosion-s-arrival-earth-stunning-precision",
+          "source": "Science (AAAS)",
+          "summary": "Satellite network known as PUNCH breaks record for forecasting space weather event",
+          "published": "2026-08-04T03:30:00+00:00",
+          "regional": false
+        },
+        {
           "title": "The U.S. military needs tungsten, but pristine NASA site may stand in the way",
           "link": "https://www.scientificamerican.com/article/the-u-s-military-needs-tungsten-but-pristine-nasa-site-may-stand-in-the-way/",
           "source": "Scientific American",
@@ -591,30 +647,6 @@
           "source": "NASA",
           "summary": "Every spring in Palestine, Texas, the wide-open fields around NASA’s Columbia Scientific Balloon Facility fill with students and faculty from across Louisiana.",
           "published": "2026-08-03T19:22:43+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Delivers Navigation System for Commercial Lunar Relay",
-          "link": "https://www.nasa.gov/technology/space-comms/nasa-delivers-navigation-system-for-commercial-lunar-relay/",
-          "source": "NASA",
-          "summary": "NASA delivered the NavCube3-mini payload on July 13 to Intuitive Machines for integration into Altus-1, the company’s first lunar relay satellite, marking an important milestone in the development of future lunar…",
-          "published": "2026-08-03T14:20:26+00:00",
-          "regional": false
-        },
-        {
-          "title": "Ike Theriot Helps Prepare Astronauts to Work on the Moon",
-          "link": "https://www.nasa.gov/centers-and-facilities/johnson/ike-theriot-helps-prepare-astronauts-to-work-on-the-moon/",
-          "source": "NASA",
-          "summary": "From serving in the U.S. Army to helping prepare astronauts to explore the lunar surface, Ike Theriot built a path to NASA through discipline and determination.",
-          "published": "2026-08-03T14:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Brings Space Exploration to the FIFA World Cup",
-          "link": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-brings-space-exploration-to-the-fifa-world-cup/",
-          "source": "NASA",
-          "summary": "From June 11 through July 19, NASA’s free interactive exhibit at FIFA Fan Festival™ brought space exploration to soccer fans in East Downtown Houston.",
-          "published": "2026-08-03T13:55:32+00:00",
           "regional": false
         },
         {
@@ -647,22 +679,6 @@
           "source": "ScienceDaily",
           "summary": "NASA’s Curiosity rover has entered a Martian valley covered by an astonishing “sea” of tiny polygon-shaped fractures.",
           "published": "2026-08-01T13:47:24+00:00",
-          "regional": false
-        },
-        {
-          "title": "APOD: 2026 August 1 – Buck Moon and Belt of Venus",
-          "link": "https://science.nasa.gov/image-article/apod/apod-2026-august-1-buck-moon-and-belt-of-venus/",
-          "source": "NASA",
-          "summary": "APODScienceAPODAPOD: 2026 August 1 – Buck…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos!",
-          "published": "2026-08-01T04:05:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "What’s Up: August 2026 Skywatching Tips from NASA",
-          "link": "https://science.nasa.gov/solar-system/whats-up-august-2026-skywatching-tips-from-nasa/",
-          "source": "NASA",
-          "summary": "A solar eclipse, the Perseids, bright Venus after sunset, and a deep partial lunar eclipse highlight August’s skywatching.",
-          "published": "2026-07-31T22:35:36+00:00",
           "regional": false
         },
         {
@@ -746,12 +762,20 @@
           "regional": false
         },
         {
-          "title": "NASA selects 41 space technologies for future Moon and Mars exploration",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260713084855.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA has chosen 41 commercial technology projects that could solve critical challenges for future missions to the Moon and Mars.",
-          "published": "2026-07-15T07:43:02+00:00",
-          "regional": false
+          "title": "Chinese commercial rocket company i-Space completes first tranche of nearly RMB1 billion Series E funding",
+          "link": "https://technode.com/2026/08/05/chinese-commercial-rocket-company-i-space-completes-first-tranche-of-nearly-rmb1-billion-series-e-funding/",
+          "source": "TechNode",
+          "summary": "Chinese commercial rocket company Beijing Interstellar Glory, also known as i-Space, has completed the first tranche of a Series E funding round worth nearly RMB1 billion.",
+          "published": "2026-08-05T07:28:38+00:00",
+          "regional": true
+        },
+        {
+          "title": "SpaceX revenue jumps 92% in first earnings report, but shares slide",
+          "link": "https://www.thehindu.com/sci-tech/technology/spacex-revenue-jumps-92-in-first-earnings-report-but-shares-slide/article71308021.ece",
+          "source": "The Hindu",
+          "summary": "AI computing deals and Starlink satellite growth fueled the results, the company said in a statement",
+          "published": "2026-08-05T04:47:45+00:00",
+          "regional": true
         },
         {
           "title": "As SpaceX rocket stage is about to hit moon, astronomers prepare",
@@ -816,22 +840,6 @@
           "summary": "",
           "published": "2026-07-26T11:36:01+00:00",
           "regional": true
-        },
-        {
-          "title": "Space Exploration Day | How are astronauts trained?",
-          "link": "https://www.thehindu.com/children/how-are-astronauts-trained/article71189012.ece",
-          "source": "The Hindu",
-          "summary": "If you want to be in space, you’ll need training. A lot of it. Here’s a look at all the different training — from spacewalk to simulation — that astronauts undergo to be efficient and valiant when, after much waiting,…",
-          "published": "2026-07-22T04:49:19+00:00",
-          "regional": true
-        },
-        {
-          "title": "Space Exploration Day | Life at the International Space Station",
-          "link": "https://www.thehindu.com/children/space-exploration-day-life-at-the-international-space-station/article71198439.ece",
-          "source": "The Hindu",
-          "summary": "Ever wondered how life would be if you were living in space for a while? Here’s a sneak peek of how astronauts live the ‘high’ life (pun intended)",
-          "published": "2026-07-22T04:48:15+00:00",
-          "regional": true
         }
       ]
     },
@@ -841,6 +849,14 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "A New Way to Map the Universe's Missing Matter",
+          "link": "https://skyandtelescope.org/astronomy-news/a-new-way-to-map-the-universes-missing-matter/",
+          "source": "Sky & Telescope",
+          "summary": "Brief but powerful flashes of radio waves are aiding astronomers' quest to find and map cosmic gas. The post A New Way to Map the Universe's Missing Matter appeared first on Sky & Telescope .",
+          "published": "2026-08-04T13:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "A Partial Eclipse for Parts of North America",
           "link": "https://skyandtelescope.org/astronomy-press-releases/a-partial-eclipse-for-parts-of-north-america/",
@@ -890,6 +906,14 @@
           "regional": false
         },
         {
+          "title": "Black holes may spit out nearly as much matter as they swallow",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260731034127.htm",
+          "source": "ScienceDaily",
+          "summary": "A black hole observed during a dramatic 2023 eruption did not simply devour gas from its nearby companion star. It also expelled large amounts of material through powerful jets and winds, even after the outburst had…",
+          "published": "2026-07-31T08:18:29+00:00",
+          "regional": false
+        },
+        {
           "title": "Strange gamma rays could reveal how stars forge heavy elements",
           "link": "https://www.sciencedaily.com/releases/2026/07/260727214623.htm",
           "source": "ScienceDaily",
@@ -906,19 +930,19 @@
           "regional": false
         },
         {
-          "title": "Rare Total Solar Eclipse-Perseid Meteor Shower Double-Header August 12th",
-          "link": "https://skyandtelescope.org/astronomy-news/rare-total-solar-eclipse-perseid-meteor-shower-double-header-on-august-12th/",
-          "source": "Sky & Telescope",
-          "summary": "The only total solar eclipse of the year coincides with the Perseid meteor shower. Here's what you need to know to watch the eclipse.",
-          "published": "2026-07-29T16:40:28+00:00",
-          "regional": false
-        },
-        {
           "title": "Astronomers spot best-yet example of a wandering supermassive black hole",
           "link": "https://www.scientificamerican.com/article/astronomers-spot-best-yet-example-of-a-wandering-supermassive-black-hole/",
           "source": "Scientific American",
           "summary": "Giant black holes adrift in deep space are normally invisible—unless they’re dining on stars",
           "published": "2026-07-29T14:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Rescue mission to save NASA’s Swift space telescope is imperiled in orbit",
+          "link": "https://www.scientificamerican.com/article/rescue-mission-to-save-nasas-swift-space-telescope-is-imperiled-in-orbit/",
+          "source": "Scientific American",
+          "summary": "A private spacecraft launched to boost the decaying orbit of NASA’s Swift Observatory is now suffering from potentially mission-ending malfunctions",
+          "published": "2026-07-29T13:15:00+00:00",
           "regional": false
         },
         {
@@ -1018,20 +1042,12 @@
           "regional": false
         },
         {
-          "title": "Astronomers just found four hidden white dwarf stars near Earth",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260714225528.htm",
-          "source": "ScienceDaily",
-          "summary": "Four nearby white dwarf stars have been discovered hiding in plain sight beside brighter red dwarf companions. Hubble's ultraviolet observations finally revealed the long-hidden stellar remnants, including one just 25…",
-          "published": "2026-07-15T06:30:25+00:00",
-          "regional": false
-        },
-        {
-          "title": "Are there aliens on exoplanet K2-18b? Scientists just scanned it for signals",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260712011748.htm",
-          "source": "ScienceDaily",
-          "summary": "K2-18b is one of the most promising worlds for the search for extraterrestrial life, so astronomers conducted an unusually powerful radio survey using both the VLA and MeerKAT telescopes.",
-          "published": "2026-07-14T13:04:12+00:00",
-          "regional": false
+          "title": "Two U.S. researchers win Blue Planet Prize for risk assessment of environmental chemicals like PFAS",
+          "link": "https://sj.jst.go.jp/news/202608/n0805-02p.html",
+          "source": "Science Japan",
+          "summary": "The Asahi Glass Foundation (Chairman Takuya Shimamura) has announced that the 2026 (35th) Blue Planet Prize, an award presented to individuals or organizations that have made significant contributions to resolving…",
+          "published": "2026-08-05T06:03:50+00:00",
+          "regional": true
         },
         {
           "title": "As SpaceX rocket stage is about to hit moon, astronomers prepare",
@@ -1055,14 +1071,6 @@
           "source": "The Hindu",
           "summary": "The Andromeda’s star formation rate has been steadily dropping, especially over the last 40 million years",
           "published": "2026-07-29T06:34:54+00:00",
-          "regional": true
-        },
-        {
-          "title": "The hidden polluter in your wardrobe: How fast fashion is fuelling the next pollution crisis",
-          "link": "https://www.thehindu.com/life-and-style/fashion/the-hidden-polluter-in-your-wardrobe-how-fast-fashion-is-fuelling-the-next-pollution-crisis/article70003334.ece",
-          "source": "The Hindu",
-          "summary": "The clothes in your wardrobe may be silently polluting the planet. Surprising? The fashion industry is the second biggest polluter in the world.",
-          "published": "2026-07-28T09:09:29+00:00",
           "regional": true
         },
         {
