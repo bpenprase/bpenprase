@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-05T09:52:51.238655+00:00",
-  "generated_human": "05 August 2026, 09:52 UTC",
-  "total_items": 134,
+  "generated": "2026-08-06T11:13:19.358057+00:00",
+  "generated_human": "06 August 2026, 11:13 UTC",
+  "total_items": 130,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "IEEE Course Teaches How to Use AI to Modernize Power Grids",
+          "link": "https://spectrum.ieee.org/ieee-course-ai-power-grids",
+          "source": "IEEE Spectrum",
+          "summary": "Today’s U.S. electrical grid, among the largest, most complex systems ever built, is operating at its limit. The combination of rapid industrial growth, more frequent extreme weather, and a record surge in electricity…",
+          "published": "2026-08-05T18:00:03+00:00",
+          "regional": false
+        },
         {
           "title": "Why the Legendary Erdős Problems Are Falling to AI",
           "link": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/",
@@ -58,12 +66,20 @@
           "regional": false
         },
         {
-          "title": "This AI Folds DNA Into Mini Masterpieces",
-          "link": "https://spectrum.ieee.org/ai-dna-origami",
-          "source": "IEEE Spectrum",
-          "summary": "Shaped like dogs, stars, and the Mona Lisa, you could mistake these DNA structures for fun-shaped macaroni if they weren’t only nanometers wide.",
-          "published": "2026-07-15T13:00:01+00:00",
-          "regional": false
+          "title": "LG Uplus posts record profit on AI data center growth",
+          "link": "https://www.koreaherald.com/article/10833077",
+          "source": "The Korea Herald",
+          "summary": "LG Uplus posted a record quarterly operating profit in the second quarter as rapid growth in its artificial intelligence data center business and cost-cutting efforts offset a decline in overall revenue, the company…",
+          "published": "2026-08-06T05:25:21+00:00",
+          "regional": true
+        },
+        {
+          "title": "China’s AI revenue projected to reach US$13b on breakthroughs, adoption: Goldman Sachs",
+          "link": "https://www.scmp.com/tech/big-tech/article/3363059/chinas-ai-revenue-projected-reach-us13b-breakthroughs-adoption-goldman-sachs?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Rising cost efficiency and rapidly advancing capabilities from players like DeepSeek and MiniMax have prompted Goldman Sachs to raise its run-rate revenue forecast for China’s artificial intelligence model market by 30…",
+          "published": "2026-08-05T10:30:19+00:00",
+          "regional": true
         },
         {
           "title": "Xiaomi open-sources embodied-AI foundation model Xiaomi-Robotics-1",
@@ -119,22 +135,6 @@
           "source": "TechNode",
           "summary": "Shanghai added 11 generative AI services to its completed registration list on Aug. 3, bringing the city’s cumulative total to 211, according to information released by the Shanghai cyberspace authority.",
           "published": "2026-08-03T04:41:25+00:00",
-          "regional": true
-        },
-        {
-          "title": "How ByteDance’s Seedance model empowers China’s nascent AI drama industry",
-          "link": "https://www.scmp.com/tech/tech-trends/article/3362333/how-bytedances-seedance-model-empowers-chinas-nascent-ai-comic-drama-industry?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "At a video production base in Shenzhen, creators are generating so-called comic dramas using artificial intelligence, compressing months of production down to a matter of weeks.",
-          "published": "2026-07-30T03:31:57+00:00",
-          "regional": true
-        },
-        {
-          "title": "Chinese AI developers may shift to ‘paid weights’ commercial licensing: Goldman Sachs",
-          "link": "https://www.scmp.com/tech/big-tech/article/3362032/chinese-ai-developers-may-shift-paid-weights-commercial-licensing-goldman-sachs?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Chinese artificial intelligence developers could start charging cloud platforms commercial licensing fees to host their open-weight models, according to the head of Asia internet research at Goldman Sachs, as firms look…",
-          "published": "2026-07-28T02:00:09+00:00",
           "regional": true
         },
         {
@@ -242,14 +242,6 @@
           "regional": false
         },
         {
-          "title": "Fungus-made fashion—researchers turn living organisms into textiles",
-          "link": "https://www.scientificamerican.com/article/fungus-made-fashion-researchers-turn-living-organisms-into-textiles/",
-          "source": "Scientific American",
-          "summary": "This biodegradable textile is alive and can host engineered microbes that can change its color or add UV protection",
-          "published": "2026-07-24T19:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "A strange quantum effect dramatically boosts energy transfer",
           "link": "https://www.sciencedaily.com/releases/2026/07/260722032130.htm",
           "source": "ScienceDaily",
@@ -290,12 +282,28 @@
           "regional": false
         },
         {
-          "title": "Quantum breakthrough links light and magnetism in atomically thin materials",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260715083523.htm",
-          "source": "ScienceDaily",
-          "summary": "A new review highlights exciting progress in atomically thin quantum materials where light and magnetism work together in ways never before possible.",
-          "published": "2026-07-16T04:16:48+00:00",
-          "regional": false
+          "title": "Posco Future M secures first major LFP supply deal",
+          "link": "https://www.koreaherald.com/article/10833389",
+          "source": "The Korea Herald",
+          "summary": "Posco Future M has secured its first major long-term order for lithium iron phosphate cathode materials, agreeing to supply more than 190,000 metric tons to a leading Korean battery maker as North American demand for…",
+          "published": "2026-08-06T10:00:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "China’s homegrown DUV jolts chip industry, but yield test looms",
+          "link": "https://www.koreaherald.com/article/10833137",
+          "source": "The Korea Herald",
+          "summary": "Recent reports that China has developed its own immersion deep-ultraviolet lithography system have jolted the global semiconductor industry, suggesting that Beijing may be closing one of the most formidable technology…",
+          "published": "2026-08-06T05:52:03+00:00",
+          "regional": true
+        },
+        {
+          "title": "Samsung Electronics wins 2 awards at intl. chip conference",
+          "link": "https://www.koreaherald.com/article/10832546",
+          "source": "The Korea Herald",
+          "summary": "Samsung Electronics Co. said Thursday it has won two awards at an annual international semiconductor conference in recognition of its next-generation memory technologies.",
+          "published": "2026-08-06T00:44:23+00:00",
+          "regional": true
         },
         {
           "title": "Well-worn wins: Wild capuchin monkeys prefer stones with a proven track record of cracking nuts",
@@ -322,43 +330,11 @@
           "regional": true
         },
         {
-          "title": "Korea to cover up to 100% of chip cluster infrastructure costs",
-          "link": "https://www.koreaherald.com/article/10830474",
-          "source": "The Korea Herald",
-          "summary": "South Korea will cover up to 100 percent of the cost of building power, water and other infrastructure for designated semiconductor clusters under enforcement rules approved by the Cabinet on Tuesday.",
-          "published": "2026-08-04T05:26:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "Seoul stocks dip over 5% on chip sell-off after record surge",
-          "link": "https://www.koreaherald.com/article/10829419",
-          "source": "The Korea Herald",
-          "summary": "Seoul stocks plunged by more than over 5 percent Monday, as investors went to lock in profits of semiconductor heavyweights following a record surge the previous session. The local currency fell against the greenback.",
-          "published": "2026-08-03T07:03:56+00:00",
-          "regional": true
-        },
-        {
-          "title": "Novel common ID developed for materials data",
-          "link": "https://sj.jst.go.jp/news/202608/n0803-01k.html",
-          "source": "Science Japan",
-          "summary": "A research team including Professor Akira Nakayama and Associate Professor Koki Muraoka of the Graduate School of Engineering at the University of Tokyo has developed \"Graph ID,\" a breakthrough identifier capable of…",
-          "published": "2026-08-03T06:16:53+00:00",
-          "regional": true
-        },
-        {
           "title": "US scientist Elsa Reichmanis defends global collaboration amid scrutiny of science exchange",
           "link": "https://www.scmp.com/tech/tech-war/article/3362398/us-scientist-elsa-reichmanis-defends-global-collaboration-amid-scrutiny-science-exchange?utm_source=rss_feed",
           "source": "South China Morning Post",
           "summary": "American materials scientist Elsa Reichmanis, whose pioneering work helped lay part of the foundation for modern semiconductor manufacturing, said scientific collaboration should transcend rivalry after receiving one of…",
           "published": "2026-07-30T14:00:09+00:00",
-          "regional": true
-        },
-        {
-          "title": "Science Quiz: Exceptional gases",
-          "link": "https://www.thehindu.com/sci-tech/science/science-quiz-exceptional-gases/article71252484.ece",
-          "source": "The Hindu",
-          "summary": "A quiz on chemistry’s dangerous molecules",
-          "published": "2026-07-22T07:10:08+00:00",
           "regional": true
         }
       ]
@@ -369,14 +345,6 @@
       "tagline": "Engineered organisms and programmed DNA — cells built for computing, data storage, and chemical synthesis.",
       "accent": "#5FBF9B",
       "items": [
-        {
-          "title": "Fungus-made fashion—researchers turn living organisms into textiles",
-          "link": "https://www.scientificamerican.com/article/fungus-made-fashion-researchers-turn-living-organisms-into-textiles/",
-          "source": "Scientific American",
-          "summary": "This biodegradable textile is alive and can host engineered microbes that can change its color or add UV protection",
-          "published": "2026-07-24T19:00:00+00:00",
-          "regional": false
-        },
         {
           "title": "New “living plastic” self-destructs in just 6 days without leaving microplastics",
           "link": "https://www.sciencedaily.com/releases/2026/07/260715083552.htm",
@@ -490,12 +458,20 @@
           "regional": false
         },
         {
-          "title": "Scientists sound the alarm as dangerous amoebas spread globally",
-          "link": "https://www.sciencedaily.com/releases/2026/06/260606015137.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists warn that free-living amoebae may be an underappreciated public health threat, capable of causing deadly infections and shielding other dangerous microbes from water treatment.",
-          "published": "2026-06-06T11:35:28+00:00",
-          "regional": false
+          "title": "Posco Future M secures first major LFP supply deal",
+          "link": "https://www.koreaherald.com/article/10833389",
+          "source": "The Korea Herald",
+          "summary": "Posco Future M has secured its first major long-term order for lithium iron phosphate cathode materials, agreeing to supply more than 190,000 metric tons to a leading Korean battery maker as North American demand for…",
+          "published": "2026-08-06T10:00:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "HD Construction Equipment doubles renewable power share",
+          "link": "https://www.koreaherald.com/article/10833094",
+          "source": "The Korea Herald",
+          "summary": "HD Construction Equipment said Thursday it has signed renewable power purchase agreements totaling 12.4 megawatt-peak, more than doubling the renewable share of electricity used at its Incheon plant.",
+          "published": "2026-08-06T05:31:19+00:00",
+          "regional": true
         },
         {
           "title": "Can ‘floating’ solar boost India’s renewable energy uptake? | Explained",
@@ -552,14 +528,6 @@
           "summary": "More frequent weather extremes are leading to water shortages during droughts and flooding during heavy rain. But groundwater storage can help secure water for dry seasons while mitigating extreme rain.",
           "published": "2026-07-15T09:24:00+00:00",
           "regional": true
-        },
-        {
-          "title": "Free electricity in Australia, and the week's other eco wins",
-          "link": "https://www.dw.com/en/free-electricity-in-australia-and-the-week-s-other-eco-wins/a-77824448?maca=en-rss_en_environment-22607-xml-mrss",
-          "source": "Deutsche Welle",
-          "summary": "Germans save an ancient woodland from coal mining, Australia gives away surplus solar power, and how one city became the world's best place for cyclists?",
-          "published": "2026-07-03T14:41:00+00:00",
-          "regional": true
         }
       ]
     },
@@ -569,6 +537,86 @@
       "tagline": "New missions, spacecraft, and technologies — NASA, ESA, ISRO, JAXA, SpaceX, CNES, and more.",
       "accent": "#F0894E",
       "items": [
+        {
+          "title": "Why haven't we seen images of SpaceX Moon crash yet?",
+          "link": "https://www.bbc.co.uk/news/videos/ce3qznlqkp7o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "A rocket is believed to have crashed into the Moon, forming a new crater - but why haven't images been released yet?",
+          "published": "2026-08-05T21:13:02+00:00",
+          "regional": false
+        },
+        {
+          "title": "Elon Musk reveals SpaceX plans to build satellite factories on the moon",
+          "link": "https://www.scientificamerican.com/article/elon-musk-reveals-spacex-plans-to-build-satellite-factories-on-the-moon/",
+          "source": "Scientific American",
+          "summary": "Musk outlined his vision to investors after SpaceX posted a $542-million loss from its space launch sector in its first quarter as a public company",
+          "published": "2026-08-05T17:30:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Artemis III Orion Crew and Service Models Joined",
+          "link": "https://www.nasa.gov/image-article/artemis-iii-orion-crew-and-service-models-joined/",
+          "source": "NASA",
+          "summary": "Technicians joined the Orion crew and service modules together on July 30, 2026, inside the Neil Armstrong Operations and Checkout Building at NASA’s Kennedy Space Center in Florida.",
+          "published": "2026-08-05T17:27:18+00:00",
+          "regional": false
+        },
+        {
+          "title": "Why haven't we seen images of SpaceX Moon crash yet?",
+          "link": "https://www.bbc.co.uk/news/videos/cevm8dyxgxgo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "The SpaceX rocket part has crashed into the Moon, forming a new crater, images from orbiting satellites should arrive in the coming hours and days.",
+          "published": "2026-08-05T15:53:40+00:00",
+          "regional": false
+        },
+        {
+          "title": "Part of SpaceX rocket believed to have struck Moon",
+          "link": "https://www.bbc.co.uk/news/videos/cn8n19wz4e6o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "A stray SpaceX rocket is believed to have crashed into the Moon, forming a crater",
+          "published": "2026-08-05T15:41:15+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Perseverance Captures Phobos and Earth",
+          "link": "https://science.nasa.gov/photojournal/nasas-perseverance-captures-phobos-and-earth/",
+          "source": "NASA",
+          "summary": "Description This composite of seven images from the Mastcam-Z instrument aboard NASA’s Perseverance Mars rover shows Earth, visible as a small bright dot moving from upper left to lower right, passing behind the Martian…",
+          "published": "2026-08-05T15:28:03+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Perseverance Rover Watches Earth Vanish Behind Martian Moon",
+          "link": "https://www.nasa.gov/solar-system/planets/mars/nasas-perseverance-rover-watches-earth-vanish-behind-martian-moon/",
+          "source": "NASA",
+          "summary": "Earth and the Martian moon Phobos dance together in a series of images recently acquired by NASA’s Perseverance Mars rover.",
+          "published": "2026-08-05T15:25:27+00:00",
+          "regional": false
+        },
+        {
+          "title": "Your chance to run software in deep space on ESA's asteroid mission",
+          "link": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Your_chance_to_run_software_in_deep_space_on_ESA_s_asteroid_mission",
+          "source": "ESA",
+          "summary": "The European Space Agency is offering European researchers and companies a rare and exciting opportunity to run their innovative software directly in deep space aboard ESA’s Hera mission, millions of kilometres away.",
+          "published": "2026-08-05T14:04:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Advanced Mini-laboratories Automate Space Station Research",
+          "link": "https://www.nasa.gov/image-article/advanced-mini-laboratories-automate-space-station-research/",
+          "source": "NASA",
+          "summary": "The International Space Station hosts hundreds of science experiments at a time. Some experiments can take hours to perform, and researchers need to account for astronauts’ limited time.",
+          "published": "2026-08-05T14:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "What can scientists learn from a stray SpaceX rocket hitting the Moon?",
+          "link": "https://www.bbc.co.uk/news/articles/c62q0xerzrno?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "While the collision was an accident, it is a unique scientific gift for planetary geologists that could provide important data for future space missions.",
+          "published": "2026-08-05T11:19:24+00:00",
+          "regional": false
+        },
         {
           "title": "NASA Will Attempt to Observe Rocket Part’s Lunar Impact",
           "link": "https://www.nasa.gov/humans-in-space/commercial-space/nasa-will-attempt-to-observe-rocket-parts-lunar-impact/",
@@ -583,22 +631,6 @@
           "source": "NASA",
           "summary": "Using continuous imagery from NASA’s PUNCH (Polarimeter to Unify the Corona and Heliosphere) mission, scientists predicted the near-Earth arrival of a solar eruption to within 30 minutes in an initial proof of concept…",
           "published": "2026-08-04T18:02:55+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Provides Updates on Moon Base Cargo Landers, Tech Demonstrations",
-          "link": "https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
-          "source": "NASA",
-          "summary": "NASA is making progress in building the Moon Base, which will become a resilient outpost near the Moon’s South Pole for science, technology, and eventual human operations.",
-          "published": "2026-08-04T16:14:51+00:00",
-          "regional": false
-        },
-        {
-          "title": "Roman Space Telescope Plaque Install",
-          "link": "https://www.nasa.gov/image-article/roman-space-telescope-plaque-install/",
-          "source": "NASA",
-          "summary": "Technicians installed a commemorative plaque, seen in this July 28, 2026, photo, on NASA’s Nancy Grace Roman Space Telescope. The plaque honors the legacy of Dr.",
-          "published": "2026-08-04T15:50:44+00:00",
           "regional": false
         },
         {
@@ -618,35 +650,11 @@
           "regional": false
         },
         {
-          "title": "ESA and Pokémon team up to celebrate World Space Week",
-          "link": "https://www.esa.int/About_Us/Branding_and_Partnerships/ESA_and_Pokemon_team_up_to_celebrate_World_Space_Week",
-          "source": "ESA",
-          "summary": "The European Space Agency (ESA) and The Pokémon Company International (TPCi) are teaming up to celebrate World Space Week from 4–10 October 2026.",
-          "published": "2026-08-04T08:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA mission predicts solar explosion’s arrival at Earth with stunning precision",
           "link": "https://www.science.org/content/article/nasa-mission-predicts-solar-explosion-s-arrival-earth-stunning-precision",
           "source": "Science (AAAS)",
           "summary": "Satellite network known as PUNCH breaks record for forecasting space weather event",
           "published": "2026-08-04T03:30:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "The U.S. military needs tungsten, but pristine NASA site may stand in the way",
-          "link": "https://www.scientificamerican.com/article/the-u-s-military-needs-tungsten-but-pristine-nasa-site-may-stand-in-the-way/",
-          "source": "Scientific American",
-          "summary": "A unique landform is vital for calibrating NASA’s satellites, but it’s likely sitting atop a vast deposit of this heavy metal, which is crucial for making munitions",
-          "published": "2026-08-03T20:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Louisiana Students Loft Payloads from NASA Balloon Facility in Texas",
-          "link": "https://www.nasa.gov/missions/scientific-balloons/louisiana-students-loft-payloads-from-nasa-balloon-facility-in-texas/",
-          "source": "NASA",
-          "summary": "Every spring in Palestine, Texas, the wide-open fields around NASA’s Columbia Scientific Balloon Facility fill with students and faculty from across Louisiana.",
-          "published": "2026-08-03T19:22:43+00:00",
           "regional": false
         },
         {
@@ -658,35 +666,11 @@
           "regional": false
         },
         {
-          "title": "The journey of Sophie Adenot's bonus food",
-          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/The_journey_of_Sophie_Adenot_s_bonus_food",
-          "source": "ESA",
-          "summary": "Video: 00:05:45 What does it take to send gourmet food to the International Space Station? Follow ESA astronaut Sophie Adenot's bonus menu from a French kitchen to orbit, where chefs, engineers and food specialists work…",
-          "published": "2026-08-03T12:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Giant waves are sweeping Mars’ atmosphere into space",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260801042816.htm",
-          "source": "ScienceDaily",
-          "summary": "The solar wind may be stripping away Mars’ atmosphere by creating giant rolling waves along its outer edge. Data from MAVEN and Tianwen-1 show that these waves form plasma clouds that carry atmospheric particles into…",
-          "published": "2026-08-03T04:07:54+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA’s Curiosity rover finds a mysterious honeycomb landscape on Mars",
           "link": "https://www.sciencedaily.com/releases/2026/07/260731034142.htm",
           "source": "ScienceDaily",
           "summary": "NASA’s Curiosity rover has entered a Martian valley covered by an astonishing “sea” of tiny polygon-shaped fractures.",
           "published": "2026-08-01T13:47:24+00:00",
-          "regional": false
-        },
-        {
-          "title": "Spacecraft will swarm asteroid Apophis during fateful 2029 Earth flyby",
-          "link": "https://www.scientificamerican.com/article/spacecraft-will-swarm-asteroid-apophis-during-fateful-2029-earth-flyby/",
-          "source": "Scientific American",
-          "summary": "Space agencies around the globe are coordinating missions to visit the asteroid Apophis during a close encounter with Earth in 2029",
-          "published": "2026-07-30T12:00:00+00:00",
           "regional": false
         },
         {
@@ -722,14 +706,6 @@
           "regional": false
         },
         {
-          "title": "SpaceX launches Starship on successful test flight",
-          "link": "https://www.scientificamerican.com/article/spacex-launches-starship-on-successful-test-flight/",
-          "source": "Scientific American",
-          "summary": "Starship demonstrated key abilities on its path to becoming a fully reusable transport to take astronauts to the moon",
-          "published": "2026-07-25T00:35:00+00:00",
-          "regional": false
-        },
-        {
           "title": "China’s Tianwen-1 captures interstellar comet 3I/ATLAS near Mars",
           "link": "https://www.sciencedaily.com/releases/2026/07/260723084052.htm",
           "source": "ScienceDaily",
@@ -754,12 +730,12 @@
           "regional": false
         },
         {
-          "title": "NASA's James Webb Space Telescope reveals a strange atmosphere on a hellish lava planet",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260712011743.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA's James Webb Space Telescope has revealed new details about the blistering lava planet 55 Cancri e, where temperatures are high enough to melt rock.",
-          "published": "2026-07-16T03:19:50+00:00",
-          "regional": false
+          "title": "SpaceX rocket stage believed to have slammed into Moon",
+          "link": "https://www.thehindu.com/sci-tech/science/spacex-rocket-stage-believed-to-have-slammed-into-moon/article71309751.ece",
+          "source": "The Hindu",
+          "summary": "While there is not yet official confirmation that the Falcon 9 upper stage struck the lunar surface, it had been expected to make impact at approximately 0635 GMT",
+          "published": "2026-08-05T14:16:38+00:00",
+          "regional": true
         },
         {
           "title": "Chinese commercial rocket company i-Space completes first tranche of nearly RMB1 billion Series E funding",
@@ -767,14 +743,6 @@
           "source": "TechNode",
           "summary": "Chinese commercial rocket company Beijing Interstellar Glory, also known as i-Space, has completed the first tranche of a Series E funding round worth nearly RMB1 billion.",
           "published": "2026-08-05T07:28:38+00:00",
-          "regional": true
-        },
-        {
-          "title": "SpaceX revenue jumps 92% in first earnings report, but shares slide",
-          "link": "https://www.thehindu.com/sci-tech/technology/spacex-revenue-jumps-92-in-first-earnings-report-but-shares-slide/article71308021.ece",
-          "source": "The Hindu",
-          "summary": "AI computing deals and Starlink satellite growth fueled the results, the company said in a statement",
-          "published": "2026-08-05T04:47:45+00:00",
           "regional": true
         },
         {
@@ -850,6 +818,38 @@
       "accent": "#B98CE0",
       "items": [
         {
+          "title": "A Perfectly Timed Perseid Meteor Shower",
+          "link": "https://skyandtelescope.org/astronomy-news/observing-news/a-perfectly-timed-perseid-meteor-shower/",
+          "source": "Sky & Telescope",
+          "summary": "With a new Moon in play, skywatchers anticipate a fine Perseid performance this year. The post A Perfectly Timed Perseid Meteor Shower appeared first on Sky & Telescope .",
+          "published": "2026-08-05T15:02:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Eclipse a 'once or twice in a lifetime' event",
+          "link": "https://www.bbc.co.uk/news/articles/c75gvlrznzdo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "A Guernsey astronomer says people will have to wait until 2081 for the next total eclipse.",
+          "published": "2026-08-05T13:25:30+00:00",
+          "regional": false
+        },
+        {
+          "title": "Astrophysicists find best evidence yet that galaxies get some spin before birth",
+          "link": "https://www.science.org/content/article/astrophysicists-find-best-evidence-yet-galaxies-get-some-spin-birth",
+          "source": "Science (AAAS)",
+          "summary": "New study spots “primordial spin” imprinted on galaxies by churning halos of dark matter",
+          "published": "2026-08-05T11:20:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "A solar eclipse and the Perseid meteor shower arrive on the same day",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260804034628.htm",
+          "source": "ScienceDaily",
+          "summary": "August brings four major celestial events, including a solar eclipse and the peak of the Perseid meteor shower. Dark New Moon skies could make the Perseids especially impressive, while Venus will blaze in the west after…",
+          "published": "2026-08-05T04:13:47+00:00",
+          "regional": false
+        },
+        {
           "title": "A New Way to Map the Universe's Missing Matter",
           "link": "https://skyandtelescope.org/astronomy-news/a-new-way-to-map-the-universes-missing-matter/",
           "source": "Sky & Telescope",
@@ -871,14 +871,6 @@
           "source": "Sky & Telescope",
           "summary": "The year's best meteor shower has its peak on the night of August 12th. The post A Perfect Year for the Perseid Meteor Shower appeared first on Sky & Telescope .",
           "published": "2026-08-03T12:28:04+00:00",
-          "regional": false
-        },
-        {
-          "title": "Find funding and save Jodrell Bank, stars say",
-          "link": "https://www.bbc.co.uk/news/articles/cwyl87j3yw5o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Astronaut Tim Peake, guitarist Johnny Marr and 150 other public figures have signed an open letter.",
-          "published": "2026-08-03T09:56:52+00:00",
           "regional": false
         },
         {
@@ -919,14 +911,6 @@
           "source": "ScienceDaily",
           "summary": "Scientists traced a mysterious surge of low-energy gamma rays from zinc-70 to magnetic changes occurring inside its nucleus.",
           "published": "2026-07-31T05:15:53+00:00",
-          "regional": false
-        },
-        {
-          "title": "Wandering Supermassive Black Hole Found at the Edge of its Galaxy",
-          "link": "https://skyandtelescope.org/astronomy-news/wandering-supermassive-black-hole-found-at-the-edge-of-its-galaxy/",
-          "source": "Sky & Telescope",
-          "summary": "Astronomers have long thought supermassive black holes can escape their home galaxies — now they've found one roaming its host's galactic outskirts.",
-          "published": "2026-07-30T12:00:00+00:00",
           "regional": false
         },
         {
@@ -1010,6 +994,14 @@
           "regional": false
         },
         {
+          "title": "New quantum gravity theory links entropy, dark energy, and life",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260719035947.htm",
+          "source": "ScienceDaily",
+          "summary": "A new theoretical study offers a possible explanation for how the Universe can grow more complex without violating the second law of thermodynamics.",
+          "published": "2026-07-21T02:40:55+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA’s James Webb catches a supermassive black hole feeding",
           "link": "https://www.sciencedaily.com/releases/2026/07/260716023601.htm",
           "source": "ScienceDaily",
@@ -1018,28 +1010,12 @@
           "regional": false
         },
         {
-          "title": "Sun-like star caught after eating one of its own planets",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260715083538.htm",
-          "source": "ScienceDaily",
-          "summary": "A distant Sun-like star appears to have devoured one of its planets, leaving behind a surprising chemical fingerprint.",
-          "published": "2026-07-16T10:52:02+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA's James Webb Space Telescope reveals a strange atmosphere on a hellish lava planet",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260712011743.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA's James Webb Space Telescope has revealed new details about the blistering lava planet 55 Cancri e, where temperatures are high enough to melt rock.",
-          "published": "2026-07-16T03:19:50+00:00",
-          "regional": false
-        },
-        {
-          "title": "Faintest planet ever imaged from Earth found after more than 10 years of hide-and-seek",
-          "link": "https://www.eso.org/public/news/eso2609/",
-          "source": "ESO",
-          "summary": "A team of astronomers have discovered a third planet orbiting the star Beta Pictoris. The new planet, Beta Pictoris d, is 100 times fainter than Beta Pictoris b — the first planet discovered in the same system — and is…",
-          "published": "2026-07-15T12:00:00+00:00",
-          "regional": false
+          "title": "Tiny vortices discovered on the sun’s surface",
+          "link": "https://www.mpg.de/26900660/tiny-vortices-discovered-on-the-sun-s-surface",
+          "source": "Max Planck Society",
+          "summary": "The world’s largest solar telescope made small vortices visible that are changing our understanding of the sun",
+          "published": "2026-08-05T10:00:00+00:00",
+          "regional": true
         },
         {
           "title": "Two U.S. researchers win Blue Planet Prize for risk assessment of environmental chemicals like PFAS",
@@ -1103,14 +1079,6 @@
           "source": "The Hindu",
           "summary": "The mission will consist of a bio-inspired robotic explorer driven by an AI model, and will be capable of directly sampling particles from planetary ring systems — something no mission has attempted before",
           "published": "2026-07-27T04:58:49+00:00",
-          "regional": true
-        },
-        {
-          "title": "New planet revealed around a young star after a decade in hiding",
-          "link": "https://www.thehindu.com/sci-tech/science/new-planet-revealed-around-a-young-star-after-a-decade-in-hiding/article71248751.ece",
-          "source": "The Hindu",
-          "summary": "The new planet is slightly bigger than Jupiter and takes 91 years to orbit its star, a little longer than it takes Uranus to orbit our sun",
-          "published": "2026-07-22T05:12:25+00:00",
           "regional": true
         },
         {
