@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-06T11:13:19.358057+00:00",
-  "generated_human": "06 August 2026, 11:13 UTC",
-  "total_items": 130,
+  "generated": "2026-08-07T09:51:10.634420+00:00",
+  "generated_human": "07 August 2026, 09:51 UTC",
+  "total_items": 132,
   "channels": [
     {
       "key": "ai",
@@ -66,6 +66,30 @@
           "regional": false
         },
         {
+          "title": "Naver-Nvidia AI factory to generate revenue from 2027",
+          "link": "https://www.koreaherald.com/article/10834112",
+          "source": "The Korea Herald",
+          "summary": "Naver said Friday during its second-quarter earnings call that its artificial intelligence factory business with Nvidia was expected to begin generating revenue in the first half of 2027.",
+          "published": "2026-08-07T02:51:37+00:00",
+          "regional": true
+        },
+        {
+          "title": "Naver Q2 net income up 41.6% as AI boosts core biz",
+          "link": "https://www.koreaherald.com/article/10833736",
+          "source": "The Korea Herald",
+          "summary": "Naver Corp., South Korea's largest online portal operator, said Friday its second-quarter net profit rose from a year earlier, as artificial intelligence helped boost its key businesses.",
+          "published": "2026-08-07T00:30:57+00:00",
+          "regional": true
+        },
+        {
+          "title": "LG, Nvidia chiefs to discuss AI infrastructure, robotics partnership in person next week",
+          "link": "https://www.koreaherald.com/article/10833521",
+          "source": "The Korea Herald",
+          "summary": "LG Group Chairman Koo Kwang-mo will meet with Nvidia Corp. Chief Executive Officer Jensen Huang in the United States next week to deepen cooperation in artificial intelligence (AI) infrastructure and robotics, industry…",
+          "published": "2026-08-06T13:37:37+00:00",
+          "regional": true
+        },
+        {
           "title": "LG Uplus posts record profit on AI data center growth",
           "link": "https://www.koreaherald.com/article/10833077",
           "source": "The Korea Herald",
@@ -114,35 +138,11 @@
           "regional": true
         },
         {
-          "title": "Will AI healthcare be China’s new global growth engine?",
-          "link": "https://www.scmp.com/plus/tech/big-tech/article/3362783/will-ai-healthcare-be-chinas-new-global-growth-engine?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Artificial intelligence (AI) has transformed healthcare for hundreds of millions of people in China. AI-powered apps help them manage their health and seek care, while others help doctors better diagnose and treat their…",
-          "published": "2026-08-03T08:12:53+00:00",
-          "regional": true
-        },
-        {
-          "title": "China’s tech giants race to put AI on delivery riders’ heads",
-          "link": "https://www.scmp.com/tech/big-tech/article/3362761/chinas-tech-giants-race-put-ai-delivery-riders-heads?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Chinese e-commerce giant JD.com has launched a smart helmet for food couriers with features enabled by artificial intelligence technology, following similar roll-outs by rivals Alibaba Group Holding and Meituan as they…",
-          "published": "2026-08-03T07:00:09+00:00",
-          "regional": true
-        },
-        {
           "title": "Shanghai registers 11 more generative AI services, taking total to 211",
           "link": "https://technode.com/2026/08/03/shanghai-registers-11-more-generative-ai-services-taking-total-to-211/",
           "source": "TechNode",
           "summary": "Shanghai added 11 generative AI services to its completed registration list on Aug. 3, bringing the city’s cumulative total to 211, according to information released by the Shanghai cyberspace authority.",
           "published": "2026-08-03T04:41:25+00:00",
-          "regional": true
-        },
-        {
-          "title": "From humanoids to Huawei: what to watch as Xi attends China’s WAIC amid US AI rivalry",
-          "link": "https://www.scmp.com/tech/big-tech/article/3360800/humanoids-huawei-what-watch-xi-attends-chinas-waic-amid-us-ai-rivalry?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "China will use its largest annual artificial intelligence gathering this week to showcase an ambition that extends beyond catching up with the United States in foundation models to building dominance in autonomous…",
-          "published": "2026-07-17T01:00:05+00:00",
           "regional": true
         }
       ]
@@ -153,6 +153,22 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "Cell-inspired nanoreactor turns sunlight into hydrogen peroxide",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260804034642.htm",
+          "source": "ScienceDaily",
+          "summary": "A new hollow nanoreactor mimics living cells to make hydrogen peroxide more efficiently using visible light. Its light-trapping cavity and proton-shuttling shell could open new possibilities for cleaner chemical…",
+          "published": "2026-08-06T12:03:02+00:00",
+          "regional": false
+        },
+        {
+          "title": "All of England's rivers and lakes polluted with chemicals, officials say",
+          "link": "https://www.bbc.co.uk/news/articles/cq6d0y5e3mjo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "A comprehensive assessment of England's waterways is the first in six years and shows little improvement.",
+          "published": "2026-08-06T10:00:06+00:00",
+          "regional": false
+        },
         {
           "title": "Scientists just 3D printed one of the hardest metals on Earth",
           "link": "https://www.sciencedaily.com/releases/2026/08/260801094053.htm",
@@ -274,12 +290,12 @@
           "regional": false
         },
         {
-          "title": "Scientists built a camera that can track invisible particles in 3D",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260716023610.htm",
-          "source": "ScienceDaily",
-          "summary": "A new particle detector called PLATON could replace millions of tiny detector components with a single block of light-producing material.",
-          "published": "2026-07-17T06:04:57+00:00",
-          "regional": false
+          "title": "SK hynix to invest W54tr in new Yongin, Cheongju fabs",
+          "link": "https://www.koreaherald.com/article/10834499",
+          "source": "The Korea Herald",
+          "summary": "SK hynix said Friday it will invest about 54 trillion won ($38.1 billion) to build new semiconductor fabs in Yongin and Cheongju, accelerating its capacity expansion as artificial intelligence drives demand for memory…",
+          "published": "2026-08-07T08:08:08+00:00",
+          "regional": true
         },
         {
           "title": "Posco Future M secures first major LFP supply deal",
@@ -351,14 +367,6 @@
           "source": "ScienceDaily",
           "summary": "Researchers have created self-destructing living plastic that uses engineered bacteria to completely break itself down when activated.",
           "published": "2026-07-17T03:09:42+00:00",
-          "regional": false
-        },
-        {
-          "title": "BBC Inside Science",
-          "link": "https://www.bbc.co.uk/sounds/play/w3ct977v?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Researchers say they have created a synthetic cell-like system that can grow and divide.",
-          "published": "2026-07-09T20:00:00+00:00",
           "regional": false
         },
         {
@@ -458,6 +466,22 @@
           "regional": false
         },
         {
+          "title": "What a water-wise city would look like – and how India can get there",
+          "link": "https://www.thehindu.com/sci-tech/energy-and-environment/what-a-water-wise-city-would-look-like-and-how-india-can-get-there/article71316407.ece",
+          "source": "The Hindu",
+          "summary": "Durban and Bhubaneswar have protected water access for low-income households. Las Vegas and Bengaluru use higher tariffs to discourage excessive consumption.",
+          "published": "2026-08-07T05:41:58+00:00",
+          "regional": true
+        },
+        {
+          "title": "A Look Around Innovation, Part 30: New Technology Enables Separation of Ultra-High-Purity Lithium for Electric Vehicles and Fusion Energy",
+          "link": "https://sj.jst.go.jp/stories/2026/s0807-01j.html",
+          "source": "Science Japan",
+          "summary": "In the segment 'A Look Around Innovation,' we introduce research and development (R&D) sites that have led to real-world applications.",
+          "published": "2026-08-07T05:19:50+00:00",
+          "regional": true
+        },
+        {
           "title": "Posco Future M secures first major LFP supply deal",
           "link": "https://www.koreaherald.com/article/10833389",
           "source": "The Korea Herald",
@@ -514,14 +538,6 @@
           "regional": true
         },
         {
-          "title": "Cities are getting smarter about water and other eco wins",
-          "link": "https://www.dw.com/en/cities-are-getting-smarter-about-water-and-other-eco-wins/a-77999380?maca=en-rss_en_environment-22607-xml-mrss",
-          "source": "Deutsche Welle",
-          "summary": "From flood-resistant infrastructure to new ways of securing drinking water, cities are adapting to the growing climate pressures of a hotter, drier world. Plus, tourists pitching in to help sea turtles.",
-          "published": "2026-07-17T13:24:00+00:00",
-          "regional": true
-        },
-        {
           "title": "Running dry: How to store more groundwater for dry seasons",
           "link": "https://www.dw.com/en/running-dry-how-to-store-more-groundwater-for-dry-seasons/a-77501486?maca=en-rss_en_environment-22607-xml-mrss",
           "source": "Deutsche Welle",
@@ -537,6 +553,62 @@
       "tagline": "New missions, spacecraft, and technologies — NASA, ESA, ISRO, JAXA, SpaceX, CNES, and more.",
       "accent": "#F0894E",
       "items": [
+        {
+          "title": "NASA’s Lunar Development and Test Facility Prepares Artemis Hardware for Moon",
+          "link": "https://www.nasa.gov/centers-and-facilities/johnson/nasas-lunar-development-and-test-facility-prepares-artemis-hardware-for-moon/",
+          "source": "NASA",
+          "summary": "Before astronauts return to the Moon’s surface through NASA’s Artemis program, the hardware they depend on must first prove it can survive the unforgiving lunar environment.",
+          "published": "2026-08-07T06:25:27+00:00",
+          "regional": false
+        },
+        {
+          "title": "Watch: Nasa astronauts conduct 6.5-hour spacewalk outside ISS",
+          "link": "https://www.bbc.co.uk/news/videos/c89n8940vq8o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Astronauts Anil Menon and Jessica Meir ventured out to install a mounting hardware for the future addition of solar arrays to the space station.",
+          "published": "2026-08-06T21:49:48+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s SkyFall Helicopters at Work (Artist’s Concept)",
+          "link": "https://science.nasa.gov/photojournal/nasas-skyfall-helicopters-at-work-artists-concept/",
+          "source": "NASA",
+          "summary": "Description This artist’s concept depicts NASA’s three SkyFall Mars helicopters collecting data while flying over the surface of the Red Planet.",
+          "published": "2026-08-06T18:06:07+00:00",
+          "regional": false
+        },
+        {
+          "title": "Antenna Testing for NASA’s SkyFall Mission",
+          "link": "https://science.nasa.gov/photojournal/antenna-testing-for-nasas-skyfall-mission/",
+          "source": "NASA",
+          "summary": "Description SkyFall ground-penetrating radar engineer Maya Román connects a coaxial cable to a test antenna in the Environmental Test Lab’s electromagnetic interference testing chamber at NASA’s Jet Propulsion…",
+          "published": "2026-08-06T17:56:12+00:00",
+          "regional": false
+        },
+        {
+          "title": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
+          "link": "https://www.bbc.co.uk/news/articles/cqjxgx5y51lo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Seoul's lunar orbiter captured images of the Moon before and after part of SpaceX's rocket hit its surface on Wednesday.",
+          "published": "2026-08-06T17:38:51+00:00",
+          "regional": false
+        },
+        {
+          "title": "I Am Artemis: Tom Percy",
+          "link": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-tom-percy/",
+          "source": "NASA",
+          "summary": "As NASA sets its sights on long-term exploration of the Moon and Mars, the agency is increasing the cadence of its Artemis missions.",
+          "published": "2026-08-06T16:35:51+00:00",
+          "regional": false
+        },
+        {
+          "title": "Test rocket launch from Shetland spaceport put on hold",
+          "link": "https://www.bbc.co.uk/news/articles/cj4kqkxdxkdo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "The launch company has \"encountered an issue\" and will not use a five-week window starting on Monday.",
+          "published": "2026-08-06T14:39:03+00:00",
+          "regional": false
+        },
         {
           "title": "Why haven't we seen images of SpaceX Moon crash yet?",
           "link": "https://www.bbc.co.uk/news/videos/ce3qznlqkp7o?at_medium=RSS&at_campaign=rss",
@@ -554,46 +626,6 @@
           "regional": false
         },
         {
-          "title": "Artemis III Orion Crew and Service Models Joined",
-          "link": "https://www.nasa.gov/image-article/artemis-iii-orion-crew-and-service-models-joined/",
-          "source": "NASA",
-          "summary": "Technicians joined the Orion crew and service modules together on July 30, 2026, inside the Neil Armstrong Operations and Checkout Building at NASA’s Kennedy Space Center in Florida.",
-          "published": "2026-08-05T17:27:18+00:00",
-          "regional": false
-        },
-        {
-          "title": "Why haven't we seen images of SpaceX Moon crash yet?",
-          "link": "https://www.bbc.co.uk/news/videos/cevm8dyxgxgo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "The SpaceX rocket part has crashed into the Moon, forming a new crater, images from orbiting satellites should arrive in the coming hours and days.",
-          "published": "2026-08-05T15:53:40+00:00",
-          "regional": false
-        },
-        {
-          "title": "Part of SpaceX rocket believed to have struck Moon",
-          "link": "https://www.bbc.co.uk/news/videos/cn8n19wz4e6o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "A stray SpaceX rocket is believed to have crashed into the Moon, forming a crater",
-          "published": "2026-08-05T15:41:15+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Perseverance Captures Phobos and Earth",
-          "link": "https://science.nasa.gov/photojournal/nasas-perseverance-captures-phobos-and-earth/",
-          "source": "NASA",
-          "summary": "Description This composite of seven images from the Mastcam-Z instrument aboard NASA’s Perseverance Mars rover shows Earth, visible as a small bright dot moving from upper left to lower right, passing behind the Martian…",
-          "published": "2026-08-05T15:28:03+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Perseverance Rover Watches Earth Vanish Behind Martian Moon",
-          "link": "https://www.nasa.gov/solar-system/planets/mars/nasas-perseverance-rover-watches-earth-vanish-behind-martian-moon/",
-          "source": "NASA",
-          "summary": "Earth and the Martian moon Phobos dance together in a series of images recently acquired by NASA’s Perseverance Mars rover.",
-          "published": "2026-08-05T15:25:27+00:00",
-          "regional": false
-        },
-        {
           "title": "Your chance to run software in deep space on ESA's asteroid mission",
           "link": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Your_chance_to_run_software_in_deep_space_on_ESA_s_asteroid_mission",
           "source": "ESA",
@@ -602,35 +634,11 @@
           "regional": false
         },
         {
-          "title": "Advanced Mini-laboratories Automate Space Station Research",
-          "link": "https://www.nasa.gov/image-article/advanced-mini-laboratories-automate-space-station-research/",
-          "source": "NASA",
-          "summary": "The International Space Station hosts hundreds of science experiments at a time. Some experiments can take hours to perform, and researchers need to account for astronauts’ limited time.",
-          "published": "2026-08-05T14:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "What can scientists learn from a stray SpaceX rocket hitting the Moon?",
           "link": "https://www.bbc.co.uk/news/articles/c62q0xerzrno?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
           "summary": "While the collision was an accident, it is a unique scientific gift for planetary geologists that could provide important data for future space missions.",
           "published": "2026-08-05T11:19:24+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Will Attempt to Observe Rocket Part’s Lunar Impact",
-          "link": "https://www.nasa.gov/humans-in-space/commercial-space/nasa-will-attempt-to-observe-rocket-parts-lunar-impact/",
-          "source": "NASA",
-          "summary": "Using ground-based telescopes and space-based assets, NASA and SpaceX are tracking a used Falcon 9 upper stage from a commercial mission expected to impact the Moon on Wednesday, Aug.",
-          "published": "2026-08-04T20:00:14+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s PUNCH Sharpens Solar Storm Forecasting in First Test",
-          "link": "https://science.nasa.gov/science-research/heliophysics/nasas-punch-sharpens-solar-storm-forecasting-in-first-test/",
-          "source": "NASA",
-          "summary": "Using continuous imagery from NASA’s PUNCH (Polarimeter to Unify the Corona and Heliosphere) mission, scientists predicted the near-Earth arrival of a solar eruption to within 30 minutes in an initial proof of concept…",
-          "published": "2026-08-04T18:02:55+00:00",
           "regional": false
         },
         {
@@ -650,11 +658,19 @@
           "regional": false
         },
         {
-          "title": "NASA mission predicts solar explosion’s arrival at Earth with stunning precision",
-          "link": "https://www.science.org/content/article/nasa-mission-predicts-solar-explosion-s-arrival-earth-stunning-precision",
-          "source": "Science (AAAS)",
-          "summary": "Satellite network known as PUNCH breaks record for forecasting space weather event",
-          "published": "2026-08-04T03:30:00+00:00",
+          "title": "ESA and Pokémon team up to celebrate World Space Week",
+          "link": "https://www.esa.int/About_Us/Branding_and_Partnerships/ESA_and_Pokemon_team_up_to_celebrate_World_Space_Week",
+          "source": "ESA",
+          "summary": "The European Space Agency (ESA) and The Pokémon Company International (TPCi) are teaming up to celebrate World Space Week from 4–10 October 2026.",
+          "published": "2026-08-04T08:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "The U.S. military needs tungsten, but pristine NASA site may stand in the way",
+          "link": "https://www.scientificamerican.com/article/the-u-s-military-needs-tungsten-but-pristine-nasa-site-may-stand-in-the-way/",
+          "source": "Scientific American",
+          "summary": "A unique landform is vital for calibrating NASA’s satellites, but it’s likely sitting atop a vast deposit of this heavy metal, which is crucial for making munitions",
+          "published": "2026-08-03T20:00:00+00:00",
           "regional": false
         },
         {
@@ -663,6 +679,14 @@
           "source": "ScienceDaily",
           "summary": "Hidden moon ice may reveal itself through the way it bends and reflects vibrations from moonquakes. The technique could help astronauts locate vital water supplies and uncover clues about the origins of Earth’s oceans.",
           "published": "2026-08-03T12:32:07+00:00",
+          "regional": false
+        },
+        {
+          "title": "The journey of Sophie Adenot's bonus food",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/The_journey_of_Sophie_Adenot_s_bonus_food",
+          "source": "ESA",
+          "summary": "Video: 00:05:45 What does it take to send gourmet food to the International Space Station? Follow ESA astronaut Sophie Adenot's bonus menu from a French kitchen to orbit, where chefs, engineers and food specialists work…",
+          "published": "2026-08-03T12:00:00+00:00",
           "regional": false
         },
         {
@@ -687,14 +711,6 @@
           "source": "ScienceDaily",
           "summary": "NASA’s Psyche spacecraft aced its Mars flyby, using the planet’s gravity to speed toward its 2029 encounter with a metal-rich asteroid.",
           "published": "2026-07-28T06:21:24+00:00",
-          "regional": false
-        },
-        {
-          "title": "Has NASA already found life on Mars?",
-          "link": "https://www.scientificamerican.com/article/has-nasa-already-found-life-on-mars/",
-          "source": "Scientific American",
-          "summary": "In searches for past and present Martian life, some scientists say we’ve been too cautious to see what’s right in front of us",
-          "published": "2026-07-27T17:30:00+00:00",
           "regional": false
         },
         {
@@ -728,6 +744,30 @@
           "summary": "Video: 00:19:14 The four Artemis II astronauts visited ESTEC, ESA’s technical centre in the Netherlands, on 13 July as the first stop in a series of post-flight visits to the European teams that made their mission…",
           "published": "2026-07-20T08:30:00+00:00",
           "regional": false
+        },
+        {
+          "title": "NASA astronauts Anil Menon, Jessica Meir undertake spacewalk to upgrade space station",
+          "link": "https://www.thehindu.com/sci-tech/science/nasa-astronauts-anil-menon-jessica-meir-undertake-spacewalk-to-upgrade-space-station/article71316085.ece",
+          "source": "The Hindu",
+          "summary": "The spacewalk – 281st in support of the space station – sixth for Ms. Meir and first for Mr. Menon began at 8.33 a.m. EDT (6.03 p.m. IST) on Thursday (August 5, 2026)",
+          "published": "2026-08-07T01:28:13+00:00",
+          "regional": true
+        },
+        {
+          "title": "S. Korea’s Danuri captures rare images of SpaceX rocket crashing into moon",
+          "link": "https://www.koreaherald.com/article/10833503",
+          "source": "The Korea Herald",
+          "summary": "South Korea’s first lunar orbiter, Danuri, captured rare before-and-after images of a SpaceX Falcon 9 rocket stage striking the moon this week, giving scientists one of their clearest opportunities yet to study how a…",
+          "published": "2026-08-06T12:11:40+00:00",
+          "regional": true
+        },
+        {
+          "title": "Space Wrap: Historic Vikram-1 launch puts Indian spaceflight back on track",
+          "link": "https://www.thehindu.com/sci-tech/science/space-wrap-historic-vikram-1-launch-puts-indian-spaceflight-back-on-track/article71312064.ece",
+          "source": "The Hindu",
+          "summary": "This article is part of Space Wrap, a round-up of space news and developments in and related to India every month",
+          "published": "2026-08-06T04:16:49+00:00",
+          "regional": true
         },
         {
           "title": "SpaceX rocket stage believed to have slammed into Moon",
@@ -770,35 +810,11 @@
           "regional": true
         },
         {
-          "title": "Bengaluru start-up sends world’s first lab-grown diamond jewel to space aboard Skyroot’s Vikram-1",
-          "link": "https://www.thehindu.com/news/cities/bangalore/bengaluru-start-up-sends-worlds-first-lab-grown-diamond-jewel-to-space-aboard-skyroots-vikram-1/article71285944.ece",
-          "source": "The Hindu",
-          "summary": "The lotus-shaped jewel is handcrafted in gold and set with 16.9 carats of lab-grown diamonds",
-          "published": "2026-07-30T12:54:56+00:00",
-          "regional": true
-        },
-        {
           "title": "Space Exploration Day | Meet the parts that make space exploration possible",
           "link": "https://www.thehindu.com/children/what-makes-space-exploration-possible/article71243820.ece",
           "source": "The Hindu",
           "summary": "Every space mission is a team effort. Beyond the rocket and astronauts, specialised parts like launch vehicles, orbiters, landers and rovers work together to explore space. Here’s what each one does.",
           "published": "2026-07-28T09:12:27+00:00",
-          "regional": true
-        },
-        {
-          "title": "PRAXIS: a NASA mission to graze planet rings",
-          "link": "https://www.thehindu.com/sci-tech/science/praxis-a-nasa-mission-to-graze-planet-rings/article71269143.ece",
-          "source": "The Hindu",
-          "summary": "The mission will consist of a bio-inspired robotic explorer driven by an AI model, and will be capable of directly sampling particles from planetary ring systems — something no mission has attempted before",
-          "published": "2026-07-27T04:58:49+00:00",
-          "regional": true
-        },
-        {
-          "title": "U.S.-Russian space crew lands safely in Kazakhstan after an 8-month stint on the ISS",
-          "link": "https://www.thehindu.com/sci-tech/science/us-russian-space-crew-lands-safely-in-kazakhstan-after-an-8-month-stint-on-the-iss/article71269191.ece",
-          "source": "The Hindu",
-          "summary": "NASA astronaut Chris Williams and Russian crewmates Sergei Kud-Sverchkov and Sergei Mikaev touched down in their Soyuz MS-28 that landed smoothly by parachute in a designated area southeast of Dzhezkazgan",
-          "published": "2026-07-26T11:42:48+00:00",
           "regional": true
         },
         {
@@ -818,19 +834,19 @@
       "accent": "#B98CE0",
       "items": [
         {
+          "title": "A star’s violent death exposed a hidden supermassive black hole",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260805082457.htm",
+          "source": "ScienceDaily",
+          "summary": "A supermassive black hole has been found lurking about 30,000 light-years from the center of its galaxy—the first dormant black hole detected so far from a galactic core.",
+          "published": "2026-08-06T12:16:32+00:00",
+          "regional": false
+        },
+        {
           "title": "A Perfectly Timed Perseid Meteor Shower",
           "link": "https://skyandtelescope.org/astronomy-news/observing-news/a-perfectly-timed-perseid-meteor-shower/",
           "source": "Sky & Telescope",
           "summary": "With a new Moon in play, skywatchers anticipate a fine Perseid performance this year. The post A Perfectly Timed Perseid Meteor Shower appeared first on Sky & Telescope .",
           "published": "2026-08-05T15:02:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Eclipse a 'once or twice in a lifetime' event",
-          "link": "https://www.bbc.co.uk/news/articles/c75gvlrznzdo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "A Guernsey astronomer says people will have to wait until 2081 for the next total eclipse.",
-          "published": "2026-08-05T13:25:30+00:00",
           "regional": false
         },
         {
