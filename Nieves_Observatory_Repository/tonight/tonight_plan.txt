@@ -1,19 +1,10 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-08-05 13:35 PDT
-; Observing window starts 2026-08-05 21:22 PDT  (LST 17:29:58)
+; Generated 2026-08-06 17:42 PDT
+; Observing window starts 2026-08-06 21:20 PDT  (LST 17:31:54)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
 #TRACKON
-
-; Comet C/2023 R1 (PANSTARRS)  mag 14.0
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT C/2023 R1
-#WAITINLIMITS 60
 
 ; Nebula  mag 5.1  size 60.00'  rho Oph Nebula
 #posang 0
@@ -95,14 +86,6 @@ NGC 6633
 #filter r',g',i',z'
 M 25
 
-; Open Cluster  mag 4.6  size 24.00'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-IC 4756
-
 ; Asteroid 18 Melpomene  mag 9.4
 #posang 0
 #count 3
@@ -111,6 +94,14 @@ IC 4756
 #filter r'
 MP Melpomene
 #WAITINLIMITS 60
+
+; Open Cluster  mag 4.6  size 24.00'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+IC 4756
 
 ; Asteroid 8 Flora  mag 9.6
 #posang 0
@@ -145,7 +136,7 @@ NGC 6819
 #filter r',g',i',z'
 NGC 6822
 
-; Asteroid 3 Juno  mag 9.0
+; Asteroid 3 Juno  mag 9.1
 #posang 0
 #count 3
 #interval 300
@@ -233,15 +224,6 @@ M 39
 #binning 1,3,3,3
 #filter r',Ha,OIII,SII
 IC 5146
-
-; Comet 10P/Tempel  mag 7.4
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 10P/Tempel
-#WAITINLIMITS 60
 
 ; Planetary Nebula  mag 7.3  size 16.33'  Helix Nebula
 #posang 0
@@ -416,15 +398,6 @@ NGC 0869
 #filter r',g',i',z'
 NGC 0884
 
-; Comet 220P/McNaught  mag 6.8
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 220P/McNaught
-#WAITINLIMITS 60
-
 ; Galaxy  mag 9.5  size 7.40'
 #posang 0
 #count 1,1,1,1
@@ -432,6 +405,15 @@ CT 220P/McNaught
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 1023
+
+; Comet 220P/McNaught  mag 7.1
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 220P/McNaught
+#WAITINLIMITS 60
 
 ; Open Cluster  mag 5.2  size 22.50'
 #posang 0
