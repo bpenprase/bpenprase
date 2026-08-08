@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-07T09:51:10.634420+00:00",
-  "generated_human": "07 August 2026, 09:51 UTC",
-  "total_items": 132,
+  "generated": "2026-08-08T09:28:08.402704+00:00",
+  "generated_human": "08 August 2026, 09:28 UTC",
+  "total_items": 134,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "AI just created a virus not found in nature, and scientists are worried",
+          "link": "https://www.scientificamerican.com/article/ai-just-created-a-virus-not-found-in-nature-and-scientists-are-worried/",
+          "source": "Scientific American",
+          "summary": "This technique could lead to new treatments for antibiotic-resistant bugs, but some scientists say the technology could be misused",
+          "published": "2026-08-07T15:30:00+00:00",
+          "regional": false
+        },
         {
           "title": "IEEE Course Teaches How to Use AI to Modernize Power Grids",
           "link": "https://spectrum.ieee.org/ieee-course-ai-power-grids",
@@ -64,6 +72,22 @@
           "summary": "Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment.",
           "published": "2026-07-23T12:00:00+00:00",
           "regional": false
+        },
+        {
+          "title": "Teaching AI to speak India",
+          "link": "https://www.thehindu.com/sci-tech/technology/internet/teaching-ai-to-speak-india/article71280380.ece",
+          "source": "The Hindu",
+          "summary": "Artificial intelligence can chat, translate and answer questions but only if it understands your language. At IIT Madras, researchers at AI4Bharat are travelling across India, collecting voices, preserving dialects and…",
+          "published": "2026-08-08T07:35:32+00:00",
+          "regional": true
+        },
+        {
+          "title": "Cambricon posts 108% surge in first-half revenue amid China’s massive AI chip drive",
+          "link": "https://www.scmp.com/tech/big-tech/article/3363351/cambricon-posts-108-surge-first-half-revenue-amid-chinas-massive-ai-chip-drive?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Chinese artificial intelligence (AI) chip giant Cambricon Technologies reported a 108 per cent surge in first-half revenue on Friday, as the firm capitalises on a massive domestic push to replace foreign AI hardware.",
+          "published": "2026-08-07T12:54:54+00:00",
+          "regional": true
         },
         {
           "title": "Naver-Nvidia AI factory to generate revenue from 2027",
@@ -122,22 +146,6 @@
           "regional": true
         },
         {
-          "title": "Tencent ramps up overseas AI push with wider roll-out of flagship Hy3 model",
-          "link": "https://www.scmp.com/tech/tech-war/article/3362991/tencent-ramps-overseas-ai-push-wider-rollout-flagship-hy3-model?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Tencent Holdings is ramping up its overseas push for its flagship Hy3 artificial intelligence model, joining a wave of Chinese technology firms taking aim at the world’s leading players.",
-          "published": "2026-08-05T02:58:48+00:00",
-          "regional": true
-        },
-        {
-          "title": "Ant Group’s embodied AI arm Robbyant kicks off external funding",
-          "link": "https://www.scmp.com/tech/big-tech/article/3362822/ant-groups-embodied-ai-arm-robbyant-kicks-external-funding?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Robbyant, the embodied artificial intelligence division of Ant Group, has begun seeking external funding, becoming the fourth unit of the fintech giant to step up capital-raising efforts.",
-          "published": "2026-08-03T12:30:20+00:00",
-          "regional": true
-        },
-        {
           "title": "Shanghai registers 11 more generative AI services, taking total to 211",
           "link": "https://technode.com/2026/08/03/shanghai-registers-11-more-generative-ai-services-taking-total-to-211/",
           "source": "TechNode",
@@ -153,6 +161,22 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "Latest Pentagon UFO files release includes video of mysterious ‘cold orbs’",
+          "link": "https://www.scientificamerican.com/article/latest-pentagon-ufo-files-release-includes-video-of-mysterious-cold-orbs/",
+          "source": "Scientific American",
+          "summary": "This new cache of material includes footage of a U.S. military plane’s infrared display recorded during an exercise over the Gulf of Oman in 2021",
+          "published": "2026-08-07T20:15:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "UCLA scientists discover how to guide heat like light at room temperature",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260805082506.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have demonstrated that heat can move through a crystal in focused, wave-like rays at room temperature instead of spreading randomly.",
+          "published": "2026-08-07T12:22:48+00:00",
+          "regional": false
+        },
         {
           "title": "Cell-inspired nanoreactor turns sunlight into hydrogen peroxide",
           "link": "https://www.sciencedaily.com/releases/2026/08/260804034642.htm",
@@ -231,14 +255,6 @@
           "source": "ScienceDaily",
           "summary": "Ultrafast X-rays revealed how a molecule converts absorbed light into motion in just trillionths of a second. Individual atoms recorded different stages of the process, opening a powerful new window into light-driven…",
           "published": "2026-07-30T02:18:28+00:00",
-          "regional": false
-        },
-        {
-          "title": "Bizarre new material discovered in Hiroshima bombing debris",
-          "link": "https://www.scientificamerican.com/article/bizarre-new-material-discovered-in-hiroshima-bombing-debris/",
-          "source": "Scientific American",
-          "summary": "The extreme conditions of atomic bomb explosions create “uncontrolled microexperiments” that, in Hiroshima, forged a never-before-seen metallic alloy",
-          "published": "2026-07-29T18:00:00+00:00",
           "regional": false
         },
         {
@@ -376,14 +392,6 @@
           "summary": "The green and the not-so-green of biofuels — explained | The Scope",
           "published": "2026-07-31T11:09:56+00:00",
           "regional": true
-        },
-        {
-          "title": "Girl’s death in China reveals human cost of unregulated science",
-          "link": "https://www.thehindu.com/sci-tech/health/girls-death-in-china-reveals-human-cost-of-unregulated-science/article71268995.ece",
-          "source": "The Hindu",
-          "summary": "The case has prompted debate about ‘first in human’ gene-editing trials, particularly for rare but serious disorders",
-          "published": "2026-07-26T10:23:38+00:00",
-          "regional": true
         }
       ]
     },
@@ -393,6 +401,22 @@
       "tagline": "New ways to generate clean energy, capture carbon, and bring fresh water and power to people, cities, and transport.",
       "accent": "#33C6D6",
       "items": [
+        {
+          "title": "With speed to power in mind, data centers are eyeing fuel cells – This Week in Cleantech",
+          "link": "https://www.renewableenergyworld.com/energy-business/with-speed-to-power-in-mind-data-centers-are-eyeing-fuel-cells-this-week-in-cleantech/",
+          "source": "Renewable Energy World",
+          "summary": "On this episode of the This Week in Cleantech podcast, Heather Clancy from Trellis discusses why some data center companies see fuel cells as an attractive option for onsite power.",
+          "published": "2026-08-07T19:06:08+00:00",
+          "regional": false
+        },
+        {
+          "title": "Trump administration to pay German firm $1.2bn to halt US wind projects",
+          "link": "https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "The RWE payout is the latest in a string of deals cancelling wind energy projects, a power source long derided by Trump.",
+          "published": "2026-08-07T13:32:41+00:00",
+          "regional": false
+        },
         {
           "title": "What is ‘superhot’ geothermal? Deep rock to baseload power, explained",
           "link": "https://www.renewableenergyworld.com/energy-business/new-project-development/what-is-superhot-geothermal-deep-rock-to-baseload-power-explained/",
@@ -415,14 +439,6 @@
           "source": "Renewable Energy World",
           "summary": "Scotland-based Mocean Energy plans to move data centers out to sea with power from wave energy, solar PV and battery storage.",
           "published": "2026-07-31T19:48:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Renewable generation is growing faster than ever",
-          "link": "https://www.renewableenergyworld.com/solar/renewable-generation-is-growing-faster-than-ever/",
-          "source": "Renewable Energy World",
-          "summary": "The International Renewable Energy Agency reported that renewable electricity generation grew by 9.8% in 2024, totaling 9,836 terawatt hours.",
-          "published": "2026-07-31T17:28:04+00:00",
           "regional": false
         },
         {
@@ -554,6 +570,46 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "NASA’s IXPE Studies Magnetar",
+          "link": "https://www.nasa.gov/image-article/nasas-ixpe-studies-magnetar/",
+          "source": "NASA",
+          "summary": "Scientists using NASA’s IXPE (Imaging X-ray Polarimetry Explorer) conducted more than 140 hours of observations of the magnetar 1E 1547-5408, shown in this Aug. 5, 2026, artist’s concept, between March and April 2025.",
+          "published": "2026-08-07T14:27:35+00:00",
+          "regional": false
+        },
+        {
+          "title": "Planned satellite megaconstellations could generate runaway space debris",
+          "link": "https://www.science.org/content/article/planned-satellite-megaconstellations-could-generate-runaway-space-debris",
+          "source": "Science (AAAS)",
+          "summary": "Modeling suggests infamous “Kessler syndrome” would make the swarms unsustainable",
+          "published": "2026-08-07T12:15:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Voyager 2 survives daring ‘big bang’ maneuver",
+          "link": "https://www.scientificamerican.com/article/nasas-voyager-2-survives-daring-big-bang-maneuver/",
+          "source": "Scientific American",
+          "summary": "After 49 years in space, NASA’s Voyagers are running low on power—but an audacious move should extend the tenures of the two spacecraft",
+          "published": "2026-08-07T12:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Scientists tracked 12 people in Antarctica for 10 months—what happened could shape future Mars missions",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260806050722.htm",
+          "source": "ScienceDaily",
+          "summary": "A ten-month Antarctic experiment found that astronauts may struggle not only with loneliness but also with spending too much time around the same people.",
+          "published": "2026-08-07T11:18:01+00:00",
+          "regional": false
+        },
+        {
+          "title": "How many paper folds would get you to the moon?",
+          "link": "https://www.scientificamerican.com/article/how-many-paper-folds-would-get-you-to-the-moon/",
+          "source": "Scientific American",
+          "summary": "Folding a piece of paper makes it thicker. How many folds would it take to reach the moon—and beyond?",
+          "published": "2026-08-07T10:45:00+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA’s Lunar Development and Test Facility Prepares Artemis Hardware for Moon",
           "link": "https://www.nasa.gov/centers-and-facilities/johnson/nasas-lunar-development-and-test-facility-prepares-artemis-hardware-for-moon/",
           "source": "NASA",
@@ -602,22 +658,6 @@
           "regional": false
         },
         {
-          "title": "Test rocket launch from Shetland spaceport put on hold",
-          "link": "https://www.bbc.co.uk/news/articles/cj4kqkxdxkdo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "The launch company has \"encountered an issue\" and will not use a five-week window starting on Monday.",
-          "published": "2026-08-06T14:39:03+00:00",
-          "regional": false
-        },
-        {
-          "title": "Why haven't we seen images of SpaceX Moon crash yet?",
-          "link": "https://www.bbc.co.uk/news/videos/ce3qznlqkp7o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "A rocket is believed to have crashed into the Moon, forming a new crater - but why haven't images been released yet?",
-          "published": "2026-08-05T21:13:02+00:00",
-          "regional": false
-        },
-        {
           "title": "Elon Musk reveals SpaceX plans to build satellite factories on the moon",
           "link": "https://www.scientificamerican.com/article/elon-musk-reveals-spacex-plans-to-build-satellite-factories-on-the-moon/",
           "source": "Scientific American",
@@ -650,22 +690,6 @@
           "regional": false
         },
         {
-          "title": "What will happen when a SpaceX rocket collides with the Moon?",
-          "link": "https://www.bbc.co.uk/news/articles/cx25yn22l97o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Our satellite has endured countless blows over millions of years - and astronomers think this one could be a useful accident.",
-          "published": "2026-08-04T09:13:37+00:00",
-          "regional": false
-        },
-        {
-          "title": "ESA and Pokémon team up to celebrate World Space Week",
-          "link": "https://www.esa.int/About_Us/Branding_and_Partnerships/ESA_and_Pokemon_team_up_to_celebrate_World_Space_Week",
-          "source": "ESA",
-          "summary": "The European Space Agency (ESA) and The Pokémon Company International (TPCi) are teaming up to celebrate World Space Week from 4–10 October 2026.",
-          "published": "2026-08-04T08:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "The U.S. military needs tungsten, but pristine NASA site may stand in the way",
           "link": "https://www.scientificamerican.com/article/the-u-s-military-needs-tungsten-but-pristine-nasa-site-may-stand-in-the-way/",
           "source": "Scientific American",
@@ -682,11 +706,11 @@
           "regional": false
         },
         {
-          "title": "The journey of Sophie Adenot's bonus food",
-          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/The_journey_of_Sophie_Adenot_s_bonus_food",
-          "source": "ESA",
-          "summary": "Video: 00:05:45 What does it take to send gourmet food to the International Space Station? Follow ESA astronaut Sophie Adenot's bonus menu from a French kitchen to orbit, where chefs, engineers and food specialists work…",
-          "published": "2026-08-03T12:00:00+00:00",
+          "title": "Giant waves are sweeping Mars’ atmosphere into space",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260801042816.htm",
+          "source": "ScienceDaily",
+          "summary": "The solar wind may be stripping away Mars’ atmosphere by creating giant rolling waves along its outer edge. Data from MAVEN and Tianwen-1 show that these waves form plasma clouds that carry atmospheric particles into…",
+          "published": "2026-08-03T04:07:54+00:00",
           "regional": false
         },
         {
@@ -695,14 +719,6 @@
           "source": "ScienceDaily",
           "summary": "NASA’s Curiosity rover has entered a Martian valley covered by an astonishing “sea” of tiny polygon-shaped fractures.",
           "published": "2026-08-01T13:47:24+00:00",
-          "regional": false
-        },
-        {
-          "title": "Rescue mission to save NASA’s Swift space telescope is imperiled in orbit",
-          "link": "https://www.scientificamerican.com/article/rescue-mission-to-save-nasas-swift-space-telescope-is-imperiled-in-orbit/",
-          "source": "Scientific American",
-          "summary": "A private spacecraft launched to boost the decaying orbit of NASA’s Swift Observatory is now suffering from potentially mission-ending malfunctions",
-          "published": "2026-07-29T13:15:00+00:00",
           "regional": false
         },
         {
@@ -746,11 +762,19 @@
           "regional": false
         },
         {
+          "title": "Bengaluru start-up sends world’s first lab-grown diamond jewel to space aboard Skyroot’s Vikram-1",
+          "link": "https://www.thehindu.com/news/cities/bangalore/bengaluru-start-up-sends-worlds-first-lab-grown-diamond-jewel-to-space-aboard-skyroots-vikram-1/article71285944.ece",
+          "source": "The Hindu",
+          "summary": "The lotus-shaped jewel is handcrafted in gold and set with 16.9 carats of lab-grown diamonds",
+          "published": "2026-08-08T03:25:10+00:00",
+          "regional": true
+        },
+        {
           "title": "NASA astronauts Anil Menon, Jessica Meir undertake spacewalk to upgrade space station",
           "link": "https://www.thehindu.com/sci-tech/science/nasa-astronauts-anil-menon-jessica-meir-undertake-spacewalk-to-upgrade-space-station/article71316085.ece",
           "source": "The Hindu",
           "summary": "The spacewalk – 281st in support of the space station – sixth for Ms. Meir and first for Mr. Menon began at 8.33 a.m. EDT (6.03 p.m. IST) on Thursday (August 5, 2026)",
-          "published": "2026-08-07T01:28:13+00:00",
+          "published": "2026-08-07T06:20:16+00:00",
           "regional": true
         },
         {
@@ -816,14 +840,6 @@
           "summary": "Every space mission is a team effort. Beyond the rocket and astronauts, specialised parts like launch vehicles, orbiters, landers and rovers work together to explore space. Here’s what each one does.",
           "published": "2026-07-28T09:12:27+00:00",
           "regional": true
-        },
-        {
-          "title": "SpaceX launches Starship on another test flight, this time with the most advanced Starlinks",
-          "link": "https://www.thehindu.com/sci-tech/science/spacex-launches-starship-on-another-test-flight-this-time-with-the-most-advanced-starlinks/article71264817.ece",
-          "source": "The Hindu",
-          "summary": "",
-          "published": "2026-07-26T11:36:01+00:00",
-          "regional": true
         }
       ]
     },
@@ -833,6 +849,30 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "What can we see during the partial solar eclipse?",
+          "link": "https://www.bbc.co.uk/news/articles/c86n5w392xjo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Ways to safely enjoy the partial solar eclipse on Wednesday evening.",
+          "published": "2026-08-08T06:26:21+00:00",
+          "regional": false
+        },
+        {
+          "title": "Where to See the August 12th Solar Eclipse Online",
+          "link": "https://skyandtelescope.org/astronomy-news/where-to-see-the-august-12th-solar-eclipse-online/",
+          "source": "Sky & Telescope",
+          "summary": "View the August 12th total solar eclipse from anywhere — the livestream options are plentiful! The post Where to See the August 12th Solar Eclipse Online appeared first on Sky & Telescope .",
+          "published": "2026-08-07T14:01:43+00:00",
+          "regional": false
+        },
+        {
+          "title": "Science Campaigns Planned for the August 12th Total Solar Eclipse",
+          "link": "https://skyandtelescope.org/astronomy-news/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/",
+          "source": "Sky & Telescope",
+          "summary": "Several science campaigns plan to greet the racing shadow of the Moon on August 12th. The post Science Campaigns Planned for the August 12th Total Solar Eclipse appeared first on Sky & Telescope .",
+          "published": "2026-08-07T12:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "A star’s violent death exposed a hidden supermassive black hole",
           "link": "https://www.sciencedaily.com/releases/2026/08/260805082457.htm",
@@ -906,14 +946,6 @@
           "regional": false
         },
         {
-          "title": "Astronomers Spot Weird, Three-Lobed Asteroid with a Moon",
-          "link": "https://skyandtelescope.org/astronomy-news/astronomers-spot-weird-three-lobed-asteroid-with-a-moon/",
-          "source": "Sky & Telescope",
-          "summary": "Asteroid 44 Nysa has the weirdest shape yet seen for an asteroid, and that’s saying something. The post Astronomers Spot Weird, Three-Lobed Asteroid with a Moon appeared first on Sky & Telescope .",
-          "published": "2026-07-31T18:35:52+00:00",
-          "regional": false
-        },
-        {
           "title": "Black holes may spit out nearly as much matter as they swallow",
           "link": "https://www.sciencedaily.com/releases/2026/07/260731034127.htm",
           "source": "ScienceDaily",
@@ -927,22 +959,6 @@
           "source": "ScienceDaily",
           "summary": "Scientists traced a mysterious surge of low-energy gamma rays from zinc-70 to magnetic changes occurring inside its nucleus.",
           "published": "2026-07-31T05:15:53+00:00",
-          "regional": false
-        },
-        {
-          "title": "Astronomers spot best-yet example of a wandering supermassive black hole",
-          "link": "https://www.scientificamerican.com/article/astronomers-spot-best-yet-example-of-a-wandering-supermassive-black-hole/",
-          "source": "Scientific American",
-          "summary": "Giant black holes adrift in deep space are normally invisible—unless they’re dining on stars",
-          "published": "2026-07-29T14:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Rescue mission to save NASA’s Swift space telescope is imperiled in orbit",
-          "link": "https://www.scientificamerican.com/article/rescue-mission-to-save-nasas-swift-space-telescope-is-imperiled-in-orbit/",
-          "source": "Scientific American",
-          "summary": "A private spacecraft launched to boost the decaying orbit of NASA’s Swift Observatory is now suffering from potentially mission-ending malfunctions",
-          "published": "2026-07-29T13:15:00+00:00",
           "regional": false
         },
         {
@@ -1018,12 +1034,28 @@
           "regional": false
         },
         {
-          "title": "NASA’s James Webb catches a supermassive black hole feeding",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260716023601.htm",
+          "title": "A tiny universe in a bottle reveals clues to the origins of life",
+          "link": "https://www.sciencedaily.com/releases/2026/07/260718010156.htm",
           "source": "ScienceDaily",
-          "summary": "JWST has captured unusually detailed images of gas feeding the supermassive black hole at the center of NGC 4696.",
-          "published": "2026-07-18T03:09:35+00:00",
+          "summary": "Researchers have created cosmic dust from scratch by recreating space-like conditions inside glass tubes. The dust contains complex carbon-rich molecules built from elements essential to life and produces infrared…",
+          "published": "2026-07-19T13:10:21+00:00",
           "regional": false
+        },
+        {
+          "title": "Andromeda Galaxy entering ‘middle age’",
+          "link": "https://www.thehindu.com/sci-tech/science/andromeda-galaxy-entering-middle-age/article71276485.ece",
+          "source": "The Hindu",
+          "summary": "The Andromeda’s star formation rate has been steadily dropping, especially over the last 40 million years",
+          "published": "2026-08-07T21:29:30+00:00",
+          "regional": true
+        },
+        {
+          "title": "Daily Quiz | On Strange stars",
+          "link": "https://www.thehindu.com/sci-tech/science/the-hindus-daily-quiz-on-august-7-2026/article71317601.ece",
+          "source": "The Hindu",
+          "summary": "The Hindu daily quiz on the universe’s more unusual twinklers",
+          "published": "2026-08-07T12:31:43+00:00",
+          "regional": true
         },
         {
           "title": "Tiny vortices discovered on the sun’s surface",
@@ -1058,14 +1090,6 @@
           "regional": true
         },
         {
-          "title": "Andromeda Galaxy entering ‘middle age’",
-          "link": "https://www.thehindu.com/sci-tech/science/andromeda-galaxy-entering-middle-age/article71276485.ece",
-          "source": "The Hindu",
-          "summary": "The Andromeda’s star formation rate has been steadily dropping, especially over the last 40 million years",
-          "published": "2026-07-29T06:34:54+00:00",
-          "regional": true
-        },
-        {
           "title": "What makes the brain the most complicated object in the universe",
           "link": "https://www.thehindu.com/sci-tech/science/what-makes-the-brain-the-most-complicated-object-in-the-universe/article67852849.ece",
           "source": "The Hindu",
@@ -1095,14 +1119,6 @@
           "source": "The Hindu",
           "summary": "The mission will consist of a bio-inspired robotic explorer driven by an AI model, and will be capable of directly sampling particles from planetary ring systems — something no mission has attempted before",
           "published": "2026-07-27T04:58:49+00:00",
-          "regional": true
-        },
-        {
-          "title": "A new planet in the beta pictoris system",
-          "link": "https://www.mpg.de/26864837/a-new-planet-in-the-beta-pictoris-system",
-          "source": "Max Planck Society",
-          "summary": "After more than ten years of playing hide-and-seek, researchers have discovered one of the lightest planets ever directly imaged",
-          "published": "2026-07-17T12:00:00+00:00",
           "regional": true
         }
       ]
