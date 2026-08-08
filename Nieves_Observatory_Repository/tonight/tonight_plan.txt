@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-08-07 12:53 PDT
-; Observing window starts 2026-08-07 21:18 PDT  (LST 17:33:50)
+; Generated 2026-08-08 12:33 PDT
+; Observing window starts 2026-08-08 21:18 PDT  (LST 17:37:47)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -129,7 +129,7 @@ MP Flora
 #filter r',g',i',z'
 M 11
 
-; Comet C/2024 J3 (ATLAS)  mag 14.0
+; Comet C/2024 J3 (ATLAS)  mag 13.9
 #posang 0
 #count 3
 #interval 300
@@ -432,15 +432,6 @@ NGC 1023
 #filter r',g',i',z'
 M 34
 
-; Comet 220P/McNaught  mag 7.2
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 220P/McNaught
-#WAITINLIMITS 60
-
 ; Galaxy  mag 9.3  size 6.11'
 #posang 0
 #count 1,1,1,1
@@ -449,7 +440,16 @@ CT 220P/McNaught
 #filter r',g',i',z'
 M 77
 
-; Comet 88P/Howell  mag 13.0
+; Comet 220P/McNaught  mag 7.0
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 220P/McNaught
+#WAITINLIMITS 60
+
+; Comet 88P/Howell  mag 12.3
 #posang 0
 #count 3
 #interval 300
@@ -457,6 +457,14 @@ M 77
 #filter r'
 CT 88P/Howell
 #WAITINLIMITS 60
+
+; Galaxy  mag 9.7  size 19.77'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+IC 0342
 
 ; Nebula  mag 5.0  size 160.00'  California Nebula
 #posang 0
@@ -490,14 +498,6 @@ M 106
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 4449
-
-; Galaxy  mag 9.2  size 14.45'  Whale Galaxy
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 4631
 
 ; Galaxy  mag 8.2  size 7.74'
 #posang 0
