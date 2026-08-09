@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-08T09:28:08.402704+00:00",
-  "generated_human": "08 August 2026, 09:28 UTC",
-  "total_items": 134,
+  "generated": "2026-08-09T09:29:31.191895+00:00",
+  "generated_human": "09 August 2026, 09:29 UTC",
+  "total_items": 140,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "Hank Green AI controversy raises questions for science communicators",
+          "link": "https://www.scientificamerican.com/article/hank-green-ai-controversy-raises-questions-for-science-communicators/",
+          "source": "Scientific American",
+          "summary": "The backlash raises a bigger question for science communicators: where should AI fit into their work?",
+          "published": "2026-08-08T13:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "AI just created a virus not found in nature, and scientists are worried",
           "link": "https://www.scientificamerican.com/article/ai-just-created-a-virus-not-found-in-nature-and-scientists-are-worried/",
@@ -74,11 +82,19 @@
           "regional": false
         },
         {
+          "title": "China’s AI models spooked Wall Street. But they may turbocharge industry growth",
+          "link": "https://www.scmp.com/tech/big-tech/article/3363381/chinas-ai-models-spooked-wall-street-they-may-turbocharge-industry-growth?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Breakthroughs in cheap Chinese open-weight artificial intelligence models have spooked US investors, but analysts argue plummeting model costs will benefit the AI industry in the long run by supercharging global demand…",
+          "published": "2026-08-09T09:00:06+00:00",
+          "regional": true
+        },
+        {
           "title": "Teaching AI to speak India",
           "link": "https://www.thehindu.com/sci-tech/technology/internet/teaching-ai-to-speak-india/article71280380.ece",
           "source": "The Hindu",
           "summary": "Artificial intelligence can chat, translate and answer questions but only if it understands your language. At IIT Madras, researchers at AI4Bharat are travelling across India, collecting voices, preserving dialects and…",
-          "published": "2026-08-08T07:35:32+00:00",
+          "published": "2026-08-09T00:15:19+00:00",
           "regional": true
         },
         {
@@ -122,14 +138,6 @@
           "regional": true
         },
         {
-          "title": "China’s AI revenue projected to reach US$13b on breakthroughs, adoption: Goldman Sachs",
-          "link": "https://www.scmp.com/tech/big-tech/article/3363059/chinas-ai-revenue-projected-reach-us13b-breakthroughs-adoption-goldman-sachs?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Rising cost efficiency and rapidly advancing capabilities from players like DeepSeek and MiniMax have prompted Goldman Sachs to raise its run-rate revenue forecast for China’s artificial intelligence model market by 30…",
-          "published": "2026-08-05T10:30:19+00:00",
-          "regional": true
-        },
-        {
           "title": "Xiaomi open-sources embodied-AI foundation model Xiaomi-Robotics-1",
           "link": "https://technode.com/2026/08/05/xiaomi-open-sources-embodied-ai-foundation-model-xiaomi-robotics-1/",
           "source": "TechNode",
@@ -161,6 +169,22 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "New fuel cell breakthrough could help power energy-hungry data centers",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260807035140.htm",
+          "source": "ScienceDaily",
+          "summary": "A new nanostructured carbon design lets fuel-cell catalysts use tiny amounts of platinum while remaining remarkably stable and efficient.",
+          "published": "2026-08-08T14:09:02+00:00",
+          "regional": false
+        },
+        {
+          "title": "This tiny gold crystal could bring quantum technology out of the deep freeze",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260806050706.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have created the first quantum material that can sort and transport different quantum states of light at room temperature, potentially removing the need for bulky, ultra-cold refrigeration systems.",
+          "published": "2026-08-08T13:17:32+00:00",
+          "regional": false
+        },
         {
           "title": "Latest Pentagon UFO files release includes video of mysterious ‘cold orbs’",
           "link": "https://www.scientificamerican.com/article/latest-pentagon-ufo-files-release-includes-video-of-mysterious-cold-orbs/",
@@ -306,6 +330,22 @@
           "regional": false
         },
         {
+          "title": "BYD’s humanoid push challenges Hyundai’s early lead",
+          "link": "https://www.koreaherald.com/article/10835125",
+          "source": "The Korea Herald",
+          "summary": "The world’s largest electric vehicle giant has officially entered the global humanoid robotics race, expected to leverage its fully integrated battery-to-software supply chain to drive down production costs.",
+          "published": "2026-08-09T06:03:43+00:00",
+          "regional": true
+        },
+        {
+          "title": "Previously unknown alloy found in Hiroshima blast debris",
+          "link": "https://www.thehindu.com/sci-tech/science/previously-unknown-alloy-found-in-hiroshima-blast-debris/article71297296.ece",
+          "source": "The Hindu",
+          "summary": "The alloy shares characteristics with other unusual high-entropy alloys and quasicrystals, which are of great interest among engineers for their strength and stability",
+          "published": "2026-08-08T16:14:55+00:00",
+          "regional": true
+        },
+        {
           "title": "SK hynix to invest W54tr in new Yongin, Cheongju fabs",
           "link": "https://www.koreaherald.com/article/10834499",
           "source": "The Korea Herald",
@@ -338,6 +378,14 @@
           "regional": true
         },
         {
+          "title": "S. Korea posts record-high current account surplus again in June on strong chip exports",
+          "link": "https://www.koreaherald.com/article/10832442",
+          "source": "The Korea Herald",
+          "summary": "South Korea's current account surplus continued its all-time high record-breaking streak in June, driven by strong exports of semiconductors, central bank data showed Thursday.",
+          "published": "2026-08-06T00:07:56+00:00",
+          "regional": true
+        },
+        {
           "title": "Well-worn wins: Wild capuchin monkeys prefer stones with a proven track record of cracking nuts",
           "link": "https://www.mpg.de/26900810/well-worn-wins-wild-capuchin-monkeys-prefer-stones-that-have-a-proven-track-record-of-cracking-nuts",
           "source": "Max Planck Society",
@@ -351,14 +399,6 @@
           "source": "South China Morning Post",
           "summary": "When Liao Heng joined Huawei Technologies’ chip-design unit in 2016, he was sceptical about whether China could ever build world-class semiconductors.",
           "published": "2026-08-04T14:29:31+00:00",
-          "regional": true
-        },
-        {
-          "title": "Previously unknown alloy found in Hiroshima blast debris",
-          "link": "https://www.thehindu.com/sci-tech/science/previously-unknown-alloy-found-in-hiroshima-blast-debris/article71297296.ece",
-          "source": "The Hindu",
-          "summary": "The alloy shares characteristics with other unusual high-entropy alloys and quasicrystals, which are of great interest among engineers for their strength and stability",
-          "published": "2026-08-04T09:03:51+00:00",
           "regional": true
         },
         {
@@ -401,6 +441,14 @@
       "tagline": "New ways to generate clean energy, capture carbon, and bring fresh water and power to people, cities, and transport.",
       "accent": "#33C6D6",
       "items": [
+        {
+          "title": "New fuel cell breakthrough could help power energy-hungry data centers",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260807035140.htm",
+          "source": "ScienceDaily",
+          "summary": "A new nanostructured carbon design lets fuel-cell catalysts use tiny amounts of platinum while remaining remarkably stable and efficient.",
+          "published": "2026-08-08T14:09:02+00:00",
+          "regional": false
+        },
         {
           "title": "With speed to power in mind, data centers are eyeing fuel cells – This Week in Cleantech",
           "link": "https://www.renewableenergyworld.com/energy-business/with-speed-to-power-in-mind-data-centers-are-eyeing-fuel-cells-this-week-in-cleantech/",
@@ -482,6 +530,22 @@
           "regional": false
         },
         {
+          "title": "BYD’s humanoid push challenges Hyundai’s early lead",
+          "link": "https://www.koreaherald.com/article/10835125",
+          "source": "The Korea Herald",
+          "summary": "The world’s largest electric vehicle giant has officially entered the global humanoid robotics race, expected to leverage its fully integrated battery-to-software supply chain to drive down production costs.",
+          "published": "2026-08-09T06:03:43+00:00",
+          "regional": true
+        },
+        {
+          "title": "Wind and solar projects in Kenya and South Africa don’t always benefit the communities that host them – study",
+          "link": "https://theconversation.com/wind-and-solar-projects-in-kenya-and-south-africa-dont-always-benefit-the-communities-that-host-them-study-285717",
+          "source": "The Conversation",
+          "summary": "In South Africa and Kenya, some green energy projects have deprived local communities of land and livelihoods instead of sharing the benefits.",
+          "published": "2026-08-09T04:29:34+00:00",
+          "regional": true
+        },
+        {
           "title": "What a water-wise city would look like – and how India can get there",
           "link": "https://www.thehindu.com/sci-tech/energy-and-environment/what-a-water-wise-city-would-look-like-and-how-india-can-get-there/article71316407.ece",
           "source": "The Hindu",
@@ -495,14 +559,6 @@
           "source": "Science Japan",
           "summary": "In the segment 'A Look Around Innovation,' we introduce research and development (R&D) sites that have led to real-world applications.",
           "published": "2026-08-07T05:19:50+00:00",
-          "regional": true
-        },
-        {
-          "title": "Posco Future M secures first major LFP supply deal",
-          "link": "https://www.koreaherald.com/article/10833389",
-          "source": "The Korea Herald",
-          "summary": "Posco Future M has secured its first major long-term order for lithium iron phosphate cathode materials, agreeing to supply more than 190,000 metric tons to a leading Korean battery maker as North American demand for…",
-          "published": "2026-08-06T10:00:00+00:00",
           "regional": true
         },
         {
@@ -535,14 +591,6 @@
           "source": "The Conversation",
           "summary": "Early childhood is an important stage where children develop curiosity, values and problem-solving skills.",
           "published": "2026-07-30T14:45:30+00:00",
-          "regional": true
-        },
-        {
-          "title": "India’s green transition is missing long-duration energy storage",
-          "link": "https://www.thehindu.com/sci-tech/energy-and-environment/india-green-transition-missing-long-duration-energy-storage/article71244283.ece",
-          "source": "The Hindu",
-          "summary": "The longer the time over which a technology discharges energy, the better its economics. At the same time, storing more energy also costs more.",
-          "published": "2026-07-26T11:55:42+00:00",
           "regional": true
         },
         {
@@ -618,6 +666,14 @@
           "regional": false
         },
         {
+          "title": "The key to colonizing Mars may be hidden inside asteroids",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260805082504.htm",
+          "source": "ScienceDaily",
+          "summary": "Metal-rich asteroids could one day become hardware stores for Mars, supplying the materials needed to build and repair a growing colony.",
+          "published": "2026-08-07T05:29:22+00:00",
+          "regional": false
+        },
+        {
           "title": "Watch: Nasa astronauts conduct 6.5-hour spacewalk outside ISS",
           "link": "https://www.bbc.co.uk/news/videos/c89n8940vq8o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
@@ -671,14 +727,6 @@
           "source": "ESA",
           "summary": "The European Space Agency is offering European researchers and companies a rare and exciting opportunity to run their innovative software directly in deep space aboard ESA’s Hera mission, millions of kilometres away.",
           "published": "2026-08-05T14:04:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "What can scientists learn from a stray SpaceX rocket hitting the Moon?",
-          "link": "https://www.bbc.co.uk/news/articles/c62q0xerzrno?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "While the collision was an accident, it is a unique scientific gift for planetary geologists that could provide important data for future space missions.",
-          "published": "2026-08-05T11:19:24+00:00",
           "regional": false
         },
         {
@@ -762,19 +810,27 @@
           "regional": false
         },
         {
+          "title": "NASA astronauts Anil Menon, Jessica Meir undertake spacewalk to upgrade space station",
+          "link": "https://www.thehindu.com/sci-tech/science/nasa-astronauts-anil-menon-jessica-meir-undertake-spacewalk-to-upgrade-space-station/article71316085.ece",
+          "source": "The Hindu",
+          "summary": "The spacewalk – 281st in support of the space station – sixth for Ms. Meir and first for Mr. Menon began at 8.33 a.m. EDT (6.03 p.m. IST) on Thursday (August 5, 2026)",
+          "published": "2026-08-08T20:16:16+00:00",
+          "regional": true
+        },
+        {
+          "title": "SpaceX rocket stage believed to have slammed into Moon",
+          "link": "https://www.thehindu.com/sci-tech/science/spacex-rocket-stage-believed-to-have-slammed-into-moon/article71309751.ece",
+          "source": "The Hindu",
+          "summary": "While there is not yet official confirmation that the Falcon 9 upper stage struck the lunar surface, it had been expected to make impact at approximately 0635 GMT",
+          "published": "2026-08-08T18:08:56+00:00",
+          "regional": true
+        },
+        {
           "title": "Bengaluru start-up sends world’s first lab-grown diamond jewel to space aboard Skyroot’s Vikram-1",
           "link": "https://www.thehindu.com/news/cities/bangalore/bengaluru-start-up-sends-worlds-first-lab-grown-diamond-jewel-to-space-aboard-skyroots-vikram-1/article71285944.ece",
           "source": "The Hindu",
           "summary": "The lotus-shaped jewel is handcrafted in gold and set with 16.9 carats of lab-grown diamonds",
           "published": "2026-08-08T03:25:10+00:00",
-          "regional": true
-        },
-        {
-          "title": "NASA astronauts Anil Menon, Jessica Meir undertake spacewalk to upgrade space station",
-          "link": "https://www.thehindu.com/sci-tech/science/nasa-astronauts-anil-menon-jessica-meir-undertake-spacewalk-to-upgrade-space-station/article71316085.ece",
-          "source": "The Hindu",
-          "summary": "The spacewalk – 281st in support of the space station – sixth for Ms. Meir and first for Mr. Menon began at 8.33 a.m. EDT (6.03 p.m. IST) on Thursday (August 5, 2026)",
-          "published": "2026-08-07T06:20:16+00:00",
           "regional": true
         },
         {
@@ -791,14 +847,6 @@
           "source": "The Hindu",
           "summary": "This article is part of Space Wrap, a round-up of space news and developments in and related to India every month",
           "published": "2026-08-06T04:16:49+00:00",
-          "regional": true
-        },
-        {
-          "title": "SpaceX rocket stage believed to have slammed into Moon",
-          "link": "https://www.thehindu.com/sci-tech/science/spacex-rocket-stage-believed-to-have-slammed-into-moon/article71309751.ece",
-          "source": "The Hindu",
-          "summary": "While there is not yet official confirmation that the Falcon 9 upper stage struck the lunar surface, it had been expected to make impact at approximately 0635 GMT",
-          "published": "2026-08-05T14:16:38+00:00",
           "regional": true
         },
         {
@@ -850,11 +898,11 @@
       "accent": "#B98CE0",
       "items": [
         {
-          "title": "What can we see during the partial solar eclipse?",
-          "link": "https://www.bbc.co.uk/news/articles/c86n5w392xjo?at_medium=RSS&at_campaign=rss",
+          "title": "1999: Solar eclipse experienced from Alderney",
+          "link": "https://www.bbc.co.uk/news/videos/c1e1v0q257jo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
-          "summary": "Ways to safely enjoy the partial solar eclipse on Wednesday evening.",
-          "published": "2026-08-08T06:26:21+00:00",
+          "summary": "Footage of people in Alderney catching the best view in the British Isles of the solar eclipse.",
+          "published": "2026-08-09T06:30:43+00:00",
           "regional": false
         },
         {
@@ -1042,19 +1090,19 @@
           "regional": false
         },
         {
+          "title": "Science Quiz | On Strange stars",
+          "link": "https://www.thehindu.com/sci-tech/science/the-hindus-daily-quiz-on-august-7-2026/article71317601.ece",
+          "source": "The Hindu",
+          "summary": "The Hindu science quiz on the universe’s more unusual twinklers",
+          "published": "2026-08-09T00:45:51+00:00",
+          "regional": true
+        },
+        {
           "title": "Andromeda Galaxy entering ‘middle age’",
           "link": "https://www.thehindu.com/sci-tech/science/andromeda-galaxy-entering-middle-age/article71276485.ece",
           "source": "The Hindu",
           "summary": "The Andromeda’s star formation rate has been steadily dropping, especially over the last 40 million years",
           "published": "2026-08-07T21:29:30+00:00",
-          "regional": true
-        },
-        {
-          "title": "Daily Quiz | On Strange stars",
-          "link": "https://www.thehindu.com/sci-tech/science/the-hindus-daily-quiz-on-august-7-2026/article71317601.ece",
-          "source": "The Hindu",
-          "summary": "The Hindu daily quiz on the universe’s more unusual twinklers",
-          "published": "2026-08-07T12:31:43+00:00",
           "regional": true
         },
         {
