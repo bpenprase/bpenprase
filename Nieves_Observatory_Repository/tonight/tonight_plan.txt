@@ -1,12 +1,12 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-08-08 12:33 PDT
-; Observing window starts 2026-08-08 21:18 PDT  (LST 17:37:47)
+; Generated 2026-08-09 12:36 PDT
+; Observing window starts 2026-08-09 21:16 PDT  (LST 17:39:43)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
 #TRACKON
 
-; Comet 169P/NEAT  mag 11.8
+; Comet 169P/NEAT  mag 11.9
 #posang 0
 #count 3
 #interval 300
@@ -128,15 +128,6 @@ MP Flora
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 11
-
-; Comet C/2024 J3 (ATLAS)  mag 13.9
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT C/2024 J3
-#WAITINLIMITS 60
 
 ; Open Cluster  mag 7.3  size 6.90'  Foxhead Cluster
 #posang 0
@@ -374,7 +365,7 @@ IC 0127
 #filter r',g',i',z'
 M 33
 
-; Asteroid 2 Pallas  mag 9.4
+; Asteroid 2 Pallas  mag 9.3
 #posang 0
 #count 3
 #interval 300
@@ -440,7 +431,7 @@ M 34
 #filter r',g',i',z'
 M 77
 
-; Comet 220P/McNaught  mag 7.0
+; Comet 220P/McNaught  mag 7.2
 #posang 0
 #count 3
 #interval 300
@@ -449,7 +440,7 @@ M 77
 CT 220P/McNaught
 #WAITINLIMITS 60
 
-; Comet 88P/Howell  mag 12.3
+; Comet 88P/Howell  mag 13.5
 #posang 0
 #count 3
 #interval 300
