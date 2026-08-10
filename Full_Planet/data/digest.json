@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-09T09:29:31.191895+00:00",
-  "generated_human": "09 August 2026, 09:29 UTC",
-  "total_items": 140,
+  "generated": "2026-08-10T10:09:22.557923+00:00",
+  "generated_human": "10 August 2026, 10:09 UTC",
+  "total_items": 136,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "AI for science needs reasoning, not just data",
+          "link": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
+          "source": "MIT Technology Review",
+          "summary": "Every few decades, someone announces that science has reached its end. In 1903, the revered physicist Albert Michelson wrote that the “facts of physical science have all been discovered.” In the 1980s, Stephen Hawking…",
+          "published": "2026-08-10T09:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "Hank Green AI controversy raises questions for science communicators",
           "link": "https://www.scientificamerican.com/article/hank-green-ai-controversy-raises-questions-for-science-communicators/",
@@ -42,14 +50,6 @@
           "regional": false
         },
         {
-          "title": "AI helped produce two proofs for the same cryptography problem",
-          "link": "https://www.scientificamerican.com/article/ai-helped-produce-two-proofs-for-the-same-cryptography-problem/",
-          "source": "Scientific American",
-          "summary": "An M.I.T. Ph.D. student and two University of California system cryptographers used GPT-5.6 Sol Ultra in different ways, raising new questions about independent discovery and scientific credit",
-          "published": "2026-07-31T16:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Is AI Reasoning Right for the Wrong Reasons?",
           "link": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/",
           "source": "Quanta Magazine",
@@ -74,12 +74,28 @@
           "regional": false
         },
         {
-          "title": "How AI helps scientists design the next generation of medicines",
-          "link": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
-          "source": "MIT Technology Review",
-          "summary": "Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment.",
-          "published": "2026-07-23T12:00:00+00:00",
-          "regional": false
+          "title": "GS E&C, LS Electric team up on AI data center power systems",
+          "link": "https://www.koreaherald.com/article/10836149",
+          "source": "The Korea Herald",
+          "summary": "GS Engineering & Construction said Monday it is teaming up with LS Electric to strengthen the power infrastructure for its artificial intelligence data center projects.",
+          "published": "2026-08-10T05:37:06+00:00",
+          "regional": true
+        },
+        {
+          "title": "North Korean hacking group builds AI tools for cyberattacks – report",
+          "link": "https://www.rappler.com/technology/north-korea-hacking-group-kimsuky-ai-tools-cyberattacks/",
+          "source": "Rappler",
+          "summary": "The findings suggest the hacking group is moving beyond using generative AI to create phishing lures and is building capacity to integrate existing AI models into malware development, data analysis, and attack automation",
+          "published": "2026-08-10T05:23:02+00:00",
+          "regional": true
+        },
+        {
+          "title": "China’s top AI is still trained on Nvidia chips. What is delaying a switch to local tech?",
+          "link": "https://www.scmp.com/tech/big-tech/article/3363491/chinas-top-ai-still-trained-nvidia-chips-what-delaying-switch-local-tech?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "China’s most advanced artificial intelligence models are still being trained on Nvidia chips, sources at major Chinese large language model (LLM) developers say, as the prohibitively high cost of switching to local…",
+          "published": "2026-08-10T05:00:23+00:00",
+          "regional": true
         },
         {
           "title": "China’s AI models spooked Wall Street. But they may turbocharge industry growth",
@@ -114,30 +130,6 @@
           "regional": true
         },
         {
-          "title": "Naver Q2 net income up 41.6% as AI boosts core biz",
-          "link": "https://www.koreaherald.com/article/10833736",
-          "source": "The Korea Herald",
-          "summary": "Naver Corp., South Korea's largest online portal operator, said Friday its second-quarter net profit rose from a year earlier, as artificial intelligence helped boost its key businesses.",
-          "published": "2026-08-07T00:30:57+00:00",
-          "regional": true
-        },
-        {
-          "title": "LG, Nvidia chiefs to discuss AI infrastructure, robotics partnership in person next week",
-          "link": "https://www.koreaherald.com/article/10833521",
-          "source": "The Korea Herald",
-          "summary": "LG Group Chairman Koo Kwang-mo will meet with Nvidia Corp. Chief Executive Officer Jensen Huang in the United States next week to deepen cooperation in artificial intelligence (AI) infrastructure and robotics, industry…",
-          "published": "2026-08-06T13:37:37+00:00",
-          "regional": true
-        },
-        {
-          "title": "LG Uplus posts record profit on AI data center growth",
-          "link": "https://www.koreaherald.com/article/10833077",
-          "source": "The Korea Herald",
-          "summary": "LG Uplus posted a record quarterly operating profit in the second quarter as rapid growth in its artificial intelligence data center business and cost-cutting efforts offset a decline in overall revenue, the company…",
-          "published": "2026-08-06T05:25:21+00:00",
-          "regional": true
-        },
-        {
           "title": "Xiaomi open-sources embodied-AI foundation model Xiaomi-Robotics-1",
           "link": "https://technode.com/2026/08/05/xiaomi-open-sources-embodied-ai-foundation-model-xiaomi-robotics-1/",
           "source": "TechNode",
@@ -169,6 +161,14 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "Chemists set electrons free and break a decades-old chemistry barrier",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260807035147.htm",
+          "source": "ScienceDaily",
+          "summary": "Chemists have developed a catalyst that breaks a long-standing rule governing which molecules receive electrons during chemical reactions.",
+          "published": "2026-08-09T11:02:03+00:00",
+          "regional": false
+        },
         {
           "title": "New fuel cell breakthrough could help power energy-hungry data centers",
           "link": "https://www.sciencedaily.com/releases/2026/08/260807035140.htm",
@@ -314,20 +314,20 @@
           "regional": false
         },
         {
-          "title": "Scientists found two powerful new ways to destroy forever chemicals",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260718010147.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists are testing two promising ways to destroy PFAS, the stubborn “forever chemicals” that can accumulate in water and resist normal treatment.",
-          "published": "2026-07-20T02:31:21+00:00",
-          "regional": false
+          "title": "aweXome Ray readies EUV pellicle material for commercial debut",
+          "link": "https://www.koreaherald.com/article/10836415",
+          "source": "The Korea Herald",
+          "summary": "Korean materials startup aweXome Ray said Monday it has raised 7.5 billion won ($5.3 million) and opened a dedicated production line for carbon nanotube membranes used in extreme ultraviolet pellicles, taking its first…",
+          "published": "2026-08-10T08:16:06+00:00",
+          "regional": true
         },
         {
-          "title": "A tiny universe in a bottle reveals clues to the origins of life",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260718010156.htm",
-          "source": "ScienceDaily",
-          "summary": "Researchers have created cosmic dust from scratch by recreating space-like conditions inside glass tubes. The dust contains complex carbon-rich molecules built from elements essential to life and produces infrared…",
-          "published": "2026-07-19T13:10:21+00:00",
-          "regional": false
+          "title": "Lotte Global Logistics triples US transport of LG Energy Solution’s battery ESS",
+          "link": "https://www.koreaherald.com/article/10835887",
+          "source": "The Korea Herald",
+          "summary": "Lotte Global Logistics said Monday it was expanding its transportation business for battery energy storage systems produced by LG Energy Solution in the United States, strengthening its foothold in the high-value…",
+          "published": "2026-08-10T02:28:38+00:00",
+          "regional": true
         },
         {
           "title": "BYD’s humanoid push challenges Hyundai’s early lead",
@@ -359,30 +359,6 @@
           "source": "The Korea Herald",
           "summary": "Posco Future M has secured its first major long-term order for lithium iron phosphate cathode materials, agreeing to supply more than 190,000 metric tons to a leading Korean battery maker as North American demand for…",
           "published": "2026-08-06T10:00:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "China’s homegrown DUV jolts chip industry, but yield test looms",
-          "link": "https://www.koreaherald.com/article/10833137",
-          "source": "The Korea Herald",
-          "summary": "Recent reports that China has developed its own immersion deep-ultraviolet lithography system have jolted the global semiconductor industry, suggesting that Beijing may be closing one of the most formidable technology…",
-          "published": "2026-08-06T05:52:03+00:00",
-          "regional": true
-        },
-        {
-          "title": "Samsung Electronics wins 2 awards at intl. chip conference",
-          "link": "https://www.koreaherald.com/article/10832546",
-          "source": "The Korea Herald",
-          "summary": "Samsung Electronics Co. said Thursday it has won two awards at an annual international semiconductor conference in recognition of its next-generation memory technologies.",
-          "published": "2026-08-06T00:44:23+00:00",
-          "regional": true
-        },
-        {
-          "title": "S. Korea posts record-high current account surplus again in June on strong chip exports",
-          "link": "https://www.koreaherald.com/article/10832442",
-          "source": "The Korea Herald",
-          "summary": "South Korea's current account surplus continued its all-time high record-breaking streak in June, driven by strong exports of semiconductors, central bank data showed Thursday.",
-          "published": "2026-08-06T00:07:56+00:00",
           "regional": true
         },
         {
@@ -426,6 +402,14 @@
           "regional": false
         },
         {
+          "title": "The University of Tokyo and partners succeed in enhancing carbon-fixing enzyme via chloroplast genome editing",
+          "link": "https://sj.jst.go.jp/news/202608/n0810-01k.html",
+          "source": "Science Japan",
+          "summary": "A research group including Associate Professor Wataru Yamori, Specially Appointed Assistant Professor Issei Nakazato, and Professor Shin-ichi Arimura of the Graduate School of Agricultural and Life Sciences at the…",
+          "published": "2026-08-10T04:55:43+00:00",
+          "regional": true
+        },
+        {
           "title": "Watch | The green and the not-so-green of biofuels — explained | The Scope",
           "link": "https://www.thehindu.com/videos/the-green-and-the-not-so-green-of-biofuels-explained-the-scope/article71290045.ece",
           "source": "The Hindu",
@@ -441,6 +425,14 @@
       "tagline": "New ways to generate clean energy, capture carbon, and bring fresh water and power to people, cities, and transport.",
       "accent": "#33C6D6",
       "items": [
+        {
+          "title": "Is it the future yet? | Factor This Brief",
+          "link": "https://www.renewableenergyworld.com/solar/is-it-the-future-yet-factor-this-brief/",
+          "source": "Renewable Energy World",
+          "summary": "As the reality of nuclear fusion approaches, Base Power attracts a billion bucks and launches a new battery, Eolian starts construction on PJM's biggest BESS, Avantus doubles its credit facility, Antares raises $470M…",
+          "published": "2026-08-10T09:55:00+00:00",
+          "regional": false
+        },
         {
           "title": "New fuel cell breakthrough could help power energy-hungry data centers",
           "link": "https://www.sciencedaily.com/releases/2026/08/260807035140.htm",
@@ -479,14 +471,6 @@
           "source": "ScienceDaily",
           "summary": "A surprisingly simple change could make sodium-ion batteries far more powerful while opening the door to turning seawater into drinking water.",
           "published": "2026-08-01T10:41:53+00:00",
-          "regional": false
-        },
-        {
-          "title": "Mocean Energy targets wave-powered offshore data centers",
-          "link": "https://www.renewableenergyworld.com/hydro-power/tidal-wave-energy/mocean-energy-targets-wave-powered-offshore-data-centers/",
-          "source": "Renewable Energy World",
-          "summary": "Scotland-based Mocean Energy plans to move data centers out to sea with power from wave energy, solar PV and battery storage.",
-          "published": "2026-07-31T19:48:00+00:00",
           "regional": false
         },
         {
@@ -530,6 +514,22 @@
           "regional": false
         },
         {
+          "title": "What a water-wise city would look like – and how India can get there",
+          "link": "https://www.thehindu.com/sci-tech/energy-and-environment/what-a-water-wise-city-would-look-like-and-how-india-can-get-there/article71316407.ece",
+          "source": "The Hindu",
+          "summary": "Durban and Bhubaneswar have protected water access for low-income households. Las Vegas and Bengaluru use higher tariffs to discourage excessive consumption.",
+          "published": "2026-08-10T04:55:27+00:00",
+          "regional": true
+        },
+        {
+          "title": "Lotte Global Logistics triples US transport of LG Energy Solution’s battery ESS",
+          "link": "https://www.koreaherald.com/article/10835887",
+          "source": "The Korea Herald",
+          "summary": "Lotte Global Logistics said Monday it was expanding its transportation business for battery energy storage systems produced by LG Energy Solution in the United States, strengthening its foothold in the high-value…",
+          "published": "2026-08-10T02:28:38+00:00",
+          "regional": true
+        },
+        {
           "title": "BYD’s humanoid push challenges Hyundai’s early lead",
           "link": "https://www.koreaherald.com/article/10835125",
           "source": "The Korea Herald",
@@ -546,14 +546,6 @@
           "regional": true
         },
         {
-          "title": "What a water-wise city would look like – and how India can get there",
-          "link": "https://www.thehindu.com/sci-tech/energy-and-environment/what-a-water-wise-city-would-look-like-and-how-india-can-get-there/article71316407.ece",
-          "source": "The Hindu",
-          "summary": "Durban and Bhubaneswar have protected water access for low-income households. Las Vegas and Bengaluru use higher tariffs to discourage excessive consumption.",
-          "published": "2026-08-07T05:41:58+00:00",
-          "regional": true
-        },
-        {
           "title": "A Look Around Innovation, Part 30: New Technology Enables Separation of Ultra-High-Purity Lithium for Electric Vehicles and Fusion Energy",
           "link": "https://sj.jst.go.jp/stories/2026/s0807-01j.html",
           "source": "Science Japan",
@@ -562,11 +554,11 @@
           "regional": true
         },
         {
-          "title": "HD Construction Equipment doubles renewable power share",
-          "link": "https://www.koreaherald.com/article/10833094",
+          "title": "Posco Future M secures first major LFP supply deal",
+          "link": "https://www.koreaherald.com/article/10833389",
           "source": "The Korea Herald",
-          "summary": "HD Construction Equipment said Thursday it has signed renewable power purchase agreements totaling 12.4 megawatt-peak, more than doubling the renewable share of electricity used at its Incheon plant.",
-          "published": "2026-08-06T05:31:19+00:00",
+          "summary": "Posco Future M has secured its first major long-term order for lithium iron phosphate cathode materials, agreeing to supply more than 190,000 metric tons to a leading Korean battery maker as North American demand for…",
+          "published": "2026-08-06T10:00:00+00:00",
           "regional": true
         },
         {
@@ -594,14 +586,6 @@
           "regional": true
         },
         {
-          "title": "How can rural communities benefit from South Africa’s green energy transition? A solar farm in Limpopo offers clues",
-          "link": "https://theconversation.com/how-can-rural-communities-benefit-from-south-africas-green-energy-transition-a-solar-farm-in-limpopo-offers-clues-287140",
-          "source": "The Conversation",
-          "summary": "Solar farms can bring jobs, but the story of one South African community shows that rural residents who give up their land need more say in how benefits are shared.",
-          "published": "2026-07-23T13:51:39+00:00",
-          "regional": true
-        },
-        {
           "title": "Running dry: How to store more groundwater for dry seasons",
           "link": "https://www.dw.com/en/running-dry-how-to-store-more-groundwater-for-dry-seasons/a-77501486?maca=en-rss_en_environment-22607-xml-mrss",
           "source": "Deutsche Welle",
@@ -617,6 +601,22 @@
       "tagline": "New missions, spacecraft, and technologies — NASA, ESA, ISRO, JAXA, SpaceX, CNES, and more.",
       "accent": "#F0894E",
       "items": [
+        {
+          "title": "SpaceX rocket crashes into the moon as cyberattacks hit U.S. water systems",
+          "link": "https://www.scientificamerican.com/podcast/episode/spacex-rocket-crashes-into-the-moon-as-cyberattacks-hit-u-s-water-systems/",
+          "source": "Scientific American",
+          "summary": "Scientists analyze an accidental SpaceX impact on the moon as cyberattacks target U.S. water systems and a new mRNA flu vaccine is approved by the FDA",
+          "published": "2026-08-10T10:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "How spaceflight changes astronauts' ability to eat and drink",
+          "link": "https://www.scientificamerican.com/article/how-spaceflight-changes-astronauts-ability-to-eat-and-drink/",
+          "source": "Scientific American",
+          "summary": "If humans are to spend more time in space, scientists need to understand how life in microgravity affects eating and drinking",
+          "published": "2026-08-09T10:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "NASA’s IXPE Studies Magnetar",
           "link": "https://www.nasa.gov/image-article/nasas-ixpe-studies-magnetar/",
@@ -698,19 +698,11 @@
           "regional": false
         },
         {
-          "title": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
-          "link": "https://www.bbc.co.uk/news/articles/cqjxgx5y51lo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Seoul's lunar orbiter captured images of the Moon before and after part of SpaceX's rocket hit its surface on Wednesday.",
-          "published": "2026-08-06T17:38:51+00:00",
-          "regional": false
-        },
-        {
-          "title": "I Am Artemis: Tom Percy",
-          "link": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-tom-percy/",
-          "source": "NASA",
-          "summary": "As NASA sets its sights on long-term exploration of the Moon and Mars, the agency is increasing the cadence of its Artemis missions.",
-          "published": "2026-08-06T16:35:51+00:00",
+          "title": "A match made in cleanrooms",
+          "link": "https://www.esa.int/ESA_Multimedia/Images/2026/08/A_match_made_in_cleanrooms",
+          "source": "ESA",
+          "summary": "Image: The Orion spacecraft for Artemis III inside the cleanroom at NASA's Kennedy Space Center.",
+          "published": "2026-08-06T13:00:00+00:00",
           "regional": false
         },
         {
@@ -802,14 +794,6 @@
           "regional": false
         },
         {
-          "title": "Artemis II crew at ESTEC",
-          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/Artemis_II_crew_at_ESTEC",
-          "source": "ESA",
-          "summary": "Video: 00:19:14 The four Artemis II astronauts visited ESTEC, ESA’s technical centre in the Netherlands, on 13 July as the first stop in a series of post-flight visits to the European teams that made their mission…",
-          "published": "2026-07-20T08:30:00+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA astronauts Anil Menon, Jessica Meir undertake spacewalk to upgrade space station",
           "link": "https://www.thehindu.com/sci-tech/science/nasa-astronauts-anil-menon-jessica-meir-undertake-spacewalk-to-upgrade-space-station/article71316085.ece",
           "source": "The Hindu",
@@ -898,11 +882,19 @@
       "accent": "#B98CE0",
       "items": [
         {
-          "title": "1999: Solar eclipse experienced from Alderney",
-          "link": "https://www.bbc.co.uk/news/videos/c1e1v0q257jo?at_medium=RSS&at_campaign=rss",
+          "title": "What can we see during the partial solar eclipse?",
+          "link": "https://www.bbc.co.uk/news/articles/c86n5w392xjo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
-          "summary": "Footage of people in Alderney catching the best view in the British Isles of the solar eclipse.",
-          "published": "2026-08-09T06:30:43+00:00",
+          "summary": "Ways to safely enjoy the partial solar eclipse on Wednesday evening.",
+          "published": "2026-08-10T07:15:43+00:00",
+          "regional": false
+        },
+        {
+          "title": "When and where to see the solar eclipse in London",
+          "link": "https://www.bbc.co.uk/news/articles/c62x3pyrxrmo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "What you need to know about the solar eclipse on 12 August and the best viewing spots in London.",
+          "published": "2026-08-10T04:57:32+00:00",
           "regional": false
         },
         {
@@ -1082,14 +1074,6 @@
           "regional": false
         },
         {
-          "title": "A tiny universe in a bottle reveals clues to the origins of life",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260718010156.htm",
-          "source": "ScienceDaily",
-          "summary": "Researchers have created cosmic dust from scratch by recreating space-like conditions inside glass tubes. The dust contains complex carbon-rich molecules built from elements essential to life and produces infrared…",
-          "published": "2026-07-19T13:10:21+00:00",
-          "regional": false
-        },
-        {
           "title": "Science Quiz | On Strange stars",
           "link": "https://www.thehindu.com/sci-tech/science/the-hindus-daily-quiz-on-august-7-2026/article71317601.ece",
           "source": "The Hindu",
@@ -1114,14 +1098,6 @@
           "regional": true
         },
         {
-          "title": "Two U.S. researchers win Blue Planet Prize for risk assessment of environmental chemicals like PFAS",
-          "link": "https://sj.jst.go.jp/news/202608/n0805-02p.html",
-          "source": "Science Japan",
-          "summary": "The Asahi Glass Foundation (Chairman Takuya Shimamura) has announced that the 2026 (35th) Blue Planet Prize, an award presented to individuals or organizations that have made significant contributions to resolving…",
-          "published": "2026-08-05T06:03:50+00:00",
-          "regional": true
-        },
-        {
           "title": "As SpaceX rocket stage is about to hit moon, astronomers prepare",
           "link": "https://www.thehindu.com/sci-tech/science/astronomers-prepare-as-spacex-rocket-stage-nears-moon-strike/article71303796.ece",
           "source": "The Hindu",
@@ -1138,6 +1114,14 @@
           "regional": true
         },
         {
+          "title": "The hidden polluter in your wardrobe: How fast fashion is fuelling the next pollution crisis",
+          "link": "https://www.thehindu.com/life-and-style/fashion/the-hidden-polluter-in-your-wardrobe-how-fast-fashion-is-fuelling-the-next-pollution-crisis/article70003334.ece",
+          "source": "The Hindu",
+          "summary": "The clothes in your wardrobe may be silently polluting the planet. Surprising? The fashion industry is the second biggest polluter in the world.",
+          "published": "2026-07-28T09:09:29+00:00",
+          "regional": true
+        },
+        {
           "title": "What makes the brain the most complicated object in the universe",
           "link": "https://www.thehindu.com/sci-tech/science/what-makes-the-brain-the-most-complicated-object-in-the-universe/article67852849.ece",
           "source": "The Hindu",
@@ -1151,22 +1135,6 @@
           "source": "The Hindu",
           "summary": "The comet has been becoming brighter during June and July, and it will continue to be observable through late July and the first half of August, with peak visibility occurring around August 2 and 3",
           "published": "2026-07-27T10:52:30+00:00",
-          "regional": true
-        },
-        {
-          "title": "Fields Medal: Hong Wang makes history as star mathematicians claim 2026 honours",
-          "link": "https://www.thehindu.com/sci-tech/science/fields-medal-hong-wang-makes-history-as-star-mathematicians-claim-2026-honours/article71271457.ece",
-          "source": "The Hindu",
-          "summary": "Wang has become the third woman to win the Fields Medal, after Maryam Mirzakhani and Maryna Viazovska; Wang and Deng are also the first Chinese nationals to win since 1982",
-          "published": "2026-07-27T06:02:21+00:00",
-          "regional": true
-        },
-        {
-          "title": "PRAXIS: a NASA mission to graze planet rings",
-          "link": "https://www.thehindu.com/sci-tech/science/praxis-a-nasa-mission-to-graze-planet-rings/article71269143.ece",
-          "source": "The Hindu",
-          "summary": "The mission will consist of a bio-inspired robotic explorer driven by an AI model, and will be capable of directly sampling particles from planetary ring systems — something no mission has attempted before",
-          "published": "2026-07-27T04:58:49+00:00",
           "regional": true
         }
       ]
