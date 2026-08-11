@@ -1,18 +1,19 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-08-10 12:56 PDT
-; Observing window starts 2026-08-10 21:14 PDT  (LST 17:41:39)
+; Generated 2026-08-11 13:01 PDT
+; Observing window starts 2026-08-11 21:14 PDT  (LST 17:45:36)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
 #TRACKON
 
-; Nebula  mag 5.1  size 60.00'  rho Oph Nebula
+; Comet C/2023 R1 (PANSTARRS)  mag 13.9
 #posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,3,3,3
-#filter r',Ha,OIII,SII
-IC 4604
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT C/2023 R1
+#WAITINLIMITS 60
 
 ; Globular Cluster  mag 5.8  size 16.50'  Hercules Globular Cluster
 #posang 0
@@ -103,15 +104,6 @@ MP Melpomene
 #filter r',g',i',z'
 IC 4756
 
-; Asteroid 8 Flora  mag 9.7
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-MP Flora
-#WAITINLIMITS 60
-
 ; Open Cluster  mag 5.8  size 9.00'  Amas de l'Ecu de Sobieski,Wild Duck Cluster
 #posang 0
 #count 1,1,1,1
@@ -154,6 +146,14 @@ NGC 6822
 MP Juno
 #WAITINLIMITS 60
 
+; Planetary Nebula  mag 7.4  size 6.70'  Dumbbell Nebula
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,3,3,3
+#filter r',Ha,OIII,SII
+M 27
+
 ; Open Cluster  mag 5.2  size 9.30'
 #posang 0
 #count 1,1,1,1
@@ -170,7 +170,7 @@ NGC 6871
 #filter r',Ha,OIII,SII
 NGC 6888
 
-; Asteroid 324 Bamberga  mag 9.4
+; Asteroid 324 Bamberga  mag 9.5
 #posang 0
 #count 3
 #interval 300
@@ -258,6 +258,15 @@ NGC 7293
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 7331
+
+; Asteroid 9 Metis  mag 9.7
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+MP Metis
+#WAITINLIMITS 60
 
 ; Planet: Neptune
 #posang 0
@@ -382,7 +391,7 @@ MP Pallas
 #filter r',g',i',z'
 M 74
 
-; Asteroid 4 Vesta  mag 7.4
+; Asteroid 4 Vesta  mag 7.3
 #posang 0
 #count 3
 #interval 300
@@ -431,7 +440,7 @@ M 34
 #filter r',g',i',z'
 M 77
 
-; Comet 220P/McNaught  mag 7.6
+; Comet 220P/McNaught  mag 7.0
 #posang 0
 #count 3
 #interval 300
@@ -440,7 +449,7 @@ M 77
 CT 220P/McNaught
 #WAITINLIMITS 60
 
-; Comet 88P/Howell  mag 12.7
+; Comet 88P/Howell  mag 10.9
 #posang 0
 #count 3
 #interval 300
@@ -482,13 +491,13 @@ Uranus
 #filter r',g',i',z'
 NGC 4125
 
-; Galaxy  mag 9.6  size 4.66'
+; Galaxy  mag 9.8  size 23.50'
 #posang 0
 #count 1,1,1,1
 #interval 600,600,600,600
 #binning 1,1,1,1
 #filter r',g',i',z'
-NGC 4449
+NGC 4236
 
 ; Galaxy  mag 8.2  size 7.74'
 #posang 0
@@ -522,14 +531,6 @@ M 51
 #filter r',g',i',z'
 NGC 5195
 
-; Galaxy  mag 7.9  size 23.99'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 101
-
 ; Comet 169P/NEAT  mag 12.3
 #posang 0
 #count 3
@@ -538,5 +539,13 @@ M 101
 #filter r'
 CT 169P/NEAT
 #WAITINLIMITS 60
+
+; Galaxy  mag 7.9  size 23.99'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 101
 
 #SHUTDOWN
