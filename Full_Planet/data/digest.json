@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-11T09:51:09.796678+00:00",
-  "generated_human": "11 August 2026, 09:51 UTC",
+  "generated": "2026-08-12T09:54:12.016921+00:00",
+  "generated_human": "12 August 2026, 09:54 UTC",
   "total_items": 133,
   "channels": [
     {
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "Can AI make mathematics more human?",
+          "link": "https://www.scientificamerican.com/article/can-ai-make-mathematics-more-human/",
+          "source": "Scientific American",
+          "summary": "Mathematician Yang-Hui He explains why artificial intelligence is fundamentally transforming mathematical work—and that's a good thing",
+          "published": "2026-08-11T18:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "AI professors are negotiating the new realities of academic research",
           "link": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/",
@@ -66,11 +74,35 @@
           "regional": false
         },
         {
+          "title": "AI rewrites the rules of memory chip sales",
+          "link": "https://www.koreaherald.com/article/10839027",
+          "source": "The Korea Herald",
+          "summary": "The artificial intelligence boom is changing not only how much memory chipmakers produce, but also how they sell it.",
+          "published": "2026-08-12T06:01:24+00:00",
+          "regional": true
+        },
+        {
+          "title": "Alibaba says modular design delivers AI data centres in 100 days at 10% lower cost",
+          "link": "https://www.scmp.com/tech/big-tech/article/3363637/alibaba-says-modular-design-delivers-ai-data-centres-100-days-10-lower-cost?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "As demand for artificial intelligence infrastructure surges, Alibaba Group Holding says it can deliver new data centres in a fraction of the usual time while cutting construction costs by 10 per cent through its…",
+          "published": "2026-08-11T10:00:16+00:00",
+          "regional": true
+        },
+        {
           "title": "Meta to challenge China’s open-weight AI dominance amid US regulatory fears",
           "link": "https://www.scmp.com/tech/big-tech/article/3363638/meta-challenge-chinas-open-weight-ai-dominance-amid-us-regulatory-fears?utm_source=rss_feed",
           "source": "South China Morning Post",
           "summary": "China’s dominance in open-weight artificial intelligence faces a fresh challenge from Meta Platforms, whose renewed push into open-source models could lure away American customers anxious about looming regulatory…",
           "published": "2026-08-11T07:30:39+00:00",
+          "regional": true
+        },
+        {
+          "title": "Samsung’s AI cash pile fuels special dividend hopes",
+          "link": "https://www.koreaherald.com/article/10837522",
+          "source": "The Korea Herald",
+          "summary": "Samsung Electronics’ swelling artificial intelligence memory profits and cash pile are fueling expectations of its first special dividend in six years, shifting investor attention to how much the tech giant could return…",
+          "published": "2026-08-11T05:37:51+00:00",
           "regional": true
         },
         {
@@ -114,35 +146,11 @@
           "regional": true
         },
         {
-          "title": "Cambricon posts 108% surge in first-half revenue amid China’s massive AI chip drive",
-          "link": "https://www.scmp.com/tech/big-tech/article/3363351/cambricon-posts-108-surge-first-half-revenue-amid-chinas-massive-ai-chip-drive?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Chinese artificial intelligence (AI) chip giant Cambricon Technologies reported a 108 per cent surge in first-half revenue on Friday, as the firm capitalises on a massive domestic push to replace foreign AI hardware.",
-          "published": "2026-08-07T12:54:54+00:00",
-          "regional": true
-        },
-        {
-          "title": "China’s AI revenue projected to reach US$13b on breakthroughs, adoption: Goldman Sachs",
-          "link": "https://www.scmp.com/tech/big-tech/article/3363059/chinas-ai-revenue-projected-reach-us13b-breakthroughs-adoption-goldman-sachs?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Rising cost efficiency and rapidly advancing capabilities from players like DeepSeek and MiniMax have prompted Goldman Sachs to raise its run-rate revenue forecast for China’s artificial intelligence model market by 30…",
-          "published": "2026-08-05T10:30:19+00:00",
-          "regional": true
-        },
-        {
           "title": "Xiaomi open-sources embodied-AI foundation model Xiaomi-Robotics-1",
           "link": "https://technode.com/2026/08/05/xiaomi-open-sources-embodied-ai-foundation-model-xiaomi-robotics-1/",
           "source": "TechNode",
           "summary": "Xiaomi has open-sourced its embodied-AI foundation model Xiaomi-Robotics-1, the company’s technology account announced on Aug. 5.",
           "published": "2026-08-05T08:30:13+00:00",
-          "regional": true
-        },
-        {
-          "title": "UN University Report warns of surging environmental burden from AI expansion, stating, \"mitigation measures are urgently needed\"",
-          "link": "https://sj.jst.go.jp/stories/2026/s0805-01p.html",
-          "source": "Science Japan",
-          "summary": "The advancement of Artificial Intelligence (AI) has been remarkable. In particular, the expanding utilization of generative AI is rapidly transforming our daily lives and working styles.",
-          "published": "2026-08-05T06:07:35+00:00",
           "regional": true
         }
       ]
@@ -290,12 +298,20 @@
           "regional": false
         },
         {
-          "title": "New programmable photonic chip can control how fast light moves",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260718010149.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have created a programmable optical chip that can slow light on demand, giving engineers far greater control over how optical signals propagate through a circuit.",
-          "published": "2026-07-22T02:43:34+00:00",
-          "regional": false
+          "title": "Samsung SDI takes over Indiana plant as GM partnership evolves",
+          "link": "https://www.koreaherald.com/article/10837631",
+          "source": "The Korea Herald",
+          "summary": "Samsung SDI will buy General Motors’ entire stake in their $3.5 billion Indiana battery joint venture, giving the Korean battery maker its first wholly owned production plant in North America.",
+          "published": "2026-08-11T06:29:35+00:00",
+          "regional": true
+        },
+        {
+          "title": "Korea’s battery trio braces for W1tr ESS price war",
+          "link": "https://www.koreaherald.com/article/10837603",
+          "source": "The Korea Herald",
+          "summary": "South Korea’s three largest battery makers are preparing to compete for about 1 trillion won ($706.8 million) in the government’s third energy storage system tender, which could open as early as this month.",
+          "published": "2026-08-11T06:13:34+00:00",
+          "regional": true
         },
         {
           "title": "Samsung taps US campuses in race for chip expertise",
@@ -311,22 +327,6 @@
           "source": "The Korea Herald",
           "summary": "Korean materials startup aweXome Ray said Monday it has raised 7.5 billion won ($5.3 million) and opened a dedicated production line for carbon nanotube membranes used in extreme ultraviolet pellicles, taking its first…",
           "published": "2026-08-10T08:16:06+00:00",
-          "regional": true
-        },
-        {
-          "title": "Lotte Global Logistics triples US transport of LG Energy Solution’s battery ESS",
-          "link": "https://www.koreaherald.com/article/10835887",
-          "source": "The Korea Herald",
-          "summary": "Lotte Global Logistics said Monday it was expanding its transportation business for battery energy storage systems produced by LG Energy Solution in the United States, strengthening its foothold in the high-value…",
-          "published": "2026-08-10T02:28:38+00:00",
-          "regional": true
-        },
-        {
-          "title": "BYD’s humanoid push challenges Hyundai’s early lead",
-          "link": "https://www.koreaherald.com/article/10835125",
-          "source": "The Korea Herald",
-          "summary": "The world’s largest electric vehicle giant has officially entered the global humanoid robotics race, expected to leverage its fully integrated battery-to-software supply chain to drive down production costs.",
-          "published": "2026-08-09T06:03:43+00:00",
           "regional": true
         },
         {
@@ -376,6 +376,14 @@
           "summary": "Researchers have created self-destructing living plastic that uses engineered bacteria to completely break itself down when activated.",
           "published": "2026-07-17T03:09:42+00:00",
           "regional": false
+        },
+        {
+          "title": "Path cleared for intractable epilepsy gene therapy — Gunma University deploys new method to suppress seizures in mice",
+          "link": "https://sj.jst.go.jp/news/202608/n0812-01k.html",
+          "source": "Science Japan",
+          "summary": "A research group including Assistant Professor Yuuki Fukai and Professor Hirokazu Hirai of the Initiative for Advanced Research at Gunma University has successfully developed cmGAD67, a new gene promoter capable of…",
+          "published": "2026-08-12T07:28:11+00:00",
+          "regional": true
         },
         {
           "title": "The University of Tokyo and partners succeed in enhancing carbon-fixing enzyme via chloroplast genome editing",
@@ -490,6 +498,30 @@
           "regional": false
         },
         {
+          "title": "Japan draws lessons from Iceland, a renewable energy powerhouse",
+          "link": "https://sj.jst.go.jp/stories/2026/s0812-01n.html",
+          "source": "Science Japan",
+          "summary": "As concerns in Japan continue to mount over the impact of high crude oil prices on energy costs, one country has effectively harnessed its own geothermal resources, creating a contrasting energy landscape.",
+          "published": "2026-08-12T07:29:35+00:00",
+          "regional": true
+        },
+        {
+          "title": "Samsung SDI takes over Indiana plant as GM partnership evolves",
+          "link": "https://www.koreaherald.com/article/10837631",
+          "source": "The Korea Herald",
+          "summary": "Samsung SDI will buy General Motors’ entire stake in their $3.5 billion Indiana battery joint venture, giving the Korean battery maker its first wholly owned production plant in North America.",
+          "published": "2026-08-11T06:29:35+00:00",
+          "regional": true
+        },
+        {
+          "title": "Korea’s battery trio braces for W1tr ESS price war",
+          "link": "https://www.koreaherald.com/article/10837603",
+          "source": "The Korea Herald",
+          "summary": "South Korea’s three largest battery makers are preparing to compete for about 1 trillion won ($706.8 million) in the government’s third energy storage system tender, which could open as early as this month.",
+          "published": "2026-08-11T06:13:34+00:00",
+          "regional": true
+        },
+        {
           "title": "HD Oilbank supplies Korea's first hydrogen engine oil for commercial vehicles",
           "link": "https://www.koreaherald.com/article/10837483",
           "source": "The Korea Herald",
@@ -503,30 +535,6 @@
           "source": "The Hindu",
           "summary": "Durban and Bhubaneswar have protected water access for low-income households. Las Vegas and Bengaluru use higher tariffs to discourage excessive consumption.",
           "published": "2026-08-10T04:55:27+00:00",
-          "regional": true
-        },
-        {
-          "title": "Lotte Global Logistics triples US transport of LG Energy Solution’s battery ESS",
-          "link": "https://www.koreaherald.com/article/10835887",
-          "source": "The Korea Herald",
-          "summary": "Lotte Global Logistics said Monday it was expanding its transportation business for battery energy storage systems produced by LG Energy Solution in the United States, strengthening its foothold in the high-value…",
-          "published": "2026-08-10T02:28:38+00:00",
-          "regional": true
-        },
-        {
-          "title": "BYD’s humanoid push challenges Hyundai’s early lead",
-          "link": "https://www.koreaherald.com/article/10835125",
-          "source": "The Korea Herald",
-          "summary": "The world’s largest electric vehicle giant has officially entered the global humanoid robotics race, expected to leverage its fully integrated battery-to-software supply chain to drive down production costs.",
-          "published": "2026-08-09T06:03:43+00:00",
-          "regional": true
-        },
-        {
-          "title": "Wind and solar projects in Kenya and South Africa don’t always benefit the communities that host them – study",
-          "link": "https://theconversation.com/wind-and-solar-projects-in-kenya-and-south-africa-dont-always-benefit-the-communities-that-host-them-study-285717",
-          "source": "The Conversation",
-          "summary": "In South Africa and Kenya, some green energy projects have deprived local communities of land and livelihoods instead of sharing the benefits.",
-          "published": "2026-08-09T04:29:34+00:00",
           "regional": true
         },
         {
@@ -578,6 +586,54 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "UK to get best eclipse since 1999 as Moon blocks out Sun across Europe",
+          "link": "https://www.bbc.co.uk/news/articles/cx2jr1ew2v1o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Up to 96% of the Sun will be covered by the Moon in the UK, while parts of Spain, Greenland, Iceland, Portugal and Russia will see a total eclipse.",
+          "published": "2026-08-11T23:17:15+00:00",
+          "regional": false
+        },
+        {
+          "title": "What Is the Nancy Grace Roman Space Telescope? (Grades 5-8)",
+          "link": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
+          "source": "NASA",
+          "summary": "This article is for students grades 5-8. The Nancy Grace Roman Space Telescope is NASA’s newest astrophysics observatory. The telescope will scan large sections of space.",
+          "published": "2026-08-11T21:04:39+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Completes Astronaut-Deployed Science Instrument for Lunar Surface",
+          "link": "https://science.nasa.gov/missions/artemis/nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface/",
+          "source": "NASA",
+          "summary": "NASA has declared “wrenches down” on the first completed payload designed for Artemis astronauts to deploy on the Moon’s surface.",
+          "published": "2026-08-11T19:41:34+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Telescopes Create Colorful ‘Craft’ From Nearby Nebula",
+          "link": "https://science.nasa.gov/missions/chandra/nasa-telescopes-create-colorful-craft-from-nearby-nebula/",
+          "source": "NASA",
+          "summary": "Like a collage made of layered sheets of colored cellophane, a vibrant new image layers observations of a famous star-forming nebula from NASA space telescopes.",
+          "published": "2026-08-11T15:19:15+00:00",
+          "regional": false
+        },
+        {
+          "title": "Building the Moon Base: NASA Stories at the Ion",
+          "link": "https://www.nasa.gov/missions/moon-base/building-the-moon-base-nasa-stories-at-the-ion/",
+          "source": "NASA",
+          "summary": "As NASA prepares to return astronauts to the lunar surface for longer stays and increasingly complex operations, building the Moon Base will require new ideas, advanced technologies, and expertise across many fields.",
+          "published": "2026-08-11T14:16:45+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Shares Station Research Today Supporting Moon, Mars Tomorrow",
+          "link": "https://www.nasa.gov/missions/station/iss-research/nasa-shares-station-research-today-supporting-moon-mars-tomorrow/",
+          "source": "NASA",
+          "summary": "The International Space Station has been busy throughout 2026, as it continues to be a bustling workspace for astronauts conducting a variety of scientific experiments that lay the groundwork for missions to the Moon…",
+          "published": "2026-08-11T14:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "Dust and water spotted close to giant black hole",
           "link": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Dust_and_water_spotted_close_to_giant_black_hole",
           "source": "ESA",
@@ -594,35 +650,11 @@
           "regional": false
         },
         {
-          "title": "NASA+ Debuts on discovery+, Coming Soon to HBO Max",
-          "link": "https://www.nasa.gov/news-release/nasa-debuts-on-discovery-coming-soon-to-hbo-max/",
-          "source": "NASA",
-          "summary": "As NASA+ continues its expansion across multiple streaming platforms to bring space closer to home, NASA announced Monday programming is next heading to discovery+ and HBO Max.",
-          "published": "2026-08-10T16:30:13+00:00",
-          "regional": false
-        },
-        {
-          "title": "Lion Nebula Roars to Life With NASA’s Webb",
-          "link": "https://science.nasa.gov/missions/webb/lion-nebula-roars-to-life-with-nasas-webb/",
-          "source": "NASA",
-          "summary": "Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula.",
-          "published": "2026-08-10T14:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Lion Nebula roars to life for Webb",
           "link": "https://www.esa.int/ESA_Multimedia/Images/2026/08/Lion_Nebula_roars_to_life_for_Webb",
           "source": "ESA",
           "summary": "Image: Observing across the starry “plains” of space, the NASA/ESA/CSA James Webb Space Telescope has taken images of NGC 2392, nicknamed the Lion Nebula.",
           "published": "2026-08-10T14:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Launch Into a New School Year With NASA",
-          "link": "https://www.nasa.gov/learning-resources/launch-into-a-new-school-year-with-nasa/",
-          "source": "NASA",
-          "summary": "A new school year brings fresh opportunities to get involved with NASA. Whether you’re curious about space or eager to build real STEM skills, NASA offers a world of experiences putting you close to the action.",
-          "published": "2026-08-10T13:59:28+00:00",
           "regional": false
         },
         {
@@ -682,22 +714,6 @@
           "regional": false
         },
         {
-          "title": "The key to colonizing Mars may be hidden inside asteroids",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260805082504.htm",
-          "source": "ScienceDaily",
-          "summary": "Metal-rich asteroids could one day become hardware stores for Mars, supplying the materials needed to build and repair a growing colony.",
-          "published": "2026-08-07T05:29:22+00:00",
-          "regional": false
-        },
-        {
-          "title": "A match made in cleanrooms",
-          "link": "https://www.esa.int/ESA_Multimedia/Images/2026/08/A_match_made_in_cleanrooms",
-          "source": "ESA",
-          "summary": "Image: The Orion spacecraft for Artemis III inside the cleanroom at NASA's Kennedy Space Center.",
-          "published": "2026-08-06T13:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Elon Musk reveals SpaceX plans to build satellite factories on the moon",
           "link": "https://www.scientificamerican.com/article/elon-musk-reveals-spacex-plans-to-build-satellite-factories-on-the-moon/",
           "source": "Scientific American",
@@ -727,14 +743,6 @@
           "source": "ScienceDaily",
           "summary": "NASA’s Curiosity rover has entered a Martian valley covered by an astonishing “sea” of tiny polygon-shaped fractures.",
           "published": "2026-08-01T13:47:24+00:00",
-          "regional": false
-        },
-        {
-          "title": "The search for life on Jupiter's icy moon Europa just got more complicated",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260727214604.htm",
-          "source": "ScienceDaily",
-          "summary": "Europa’s hidden ocean has made the icy moon one of the solar system’s most promising places to search for habitable conditions.",
-          "published": "2026-07-29T05:06:39+00:00",
           "regional": false
         },
         {
@@ -768,6 +776,14 @@
           "summary": "NASA is preparing for future astronaut landings on the Moon with an unusually ambitious orbital rehearsal. During Artemis III in 2027, Orion astronauts will rendezvous and dock separately with prototype lunar landers…",
           "published": "2026-07-23T06:14:00+00:00",
           "regional": false
+        },
+        {
+          "title": "NASA invites ISRO to join Moon Base programme",
+          "link": "https://www.thehindu.com/sci-tech/science/nasa-invites-isro-to-join-moon-base-programme/article71332292.ece",
+          "source": "The Hindu",
+          "summary": "NASA has officially invited the Indian Space Research Organisation (ISRO) to collaborate on its ambitious Moon Base programme, as announced during the recent ninth meeting of the India-U.S.",
+          "published": "2026-08-11T21:23:00+00:00",
+          "regional": true
         },
         {
           "title": "What is the significance of India’s first privately built FFSC rocket engine? | Explained",
@@ -840,14 +856,6 @@
           "summary": "ISRO chief says the agency’s role is to mentor and develop the industry ecosystem in India, and the new space policy will aid private companies",
           "published": "2026-08-03T07:58:16+00:00",
           "regional": true
-        },
-        {
-          "title": "Space Exploration Day | Meet the parts that make space exploration possible",
-          "link": "https://www.thehindu.com/children/what-makes-space-exploration-possible/article71243820.ece",
-          "source": "The Hindu",
-          "summary": "Every space mission is a team effort. Beyond the rocket and astronauts, specialised parts like launch vehicles, orbiters, landers and rovers work together to explore space. Here’s what each one does.",
-          "published": "2026-07-28T09:12:27+00:00",
-          "regional": true
         }
       ]
     },
@@ -858,27 +866,43 @@
       "accent": "#B98CE0",
       "items": [
         {
-          "title": "Isle of Man 'very well placed' for solar eclipse",
-          "link": "https://www.bbc.co.uk/news/articles/c89n5lxp84wo?at_medium=RSS&at_campaign=rss",
+          "title": "Solar eclipse: Where and when you can see it across North West England",
+          "link": "https://www.bbc.co.uk/news/articles/cx256nwl7lxo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
-          "summary": "The island is particularly well placed to see the celestial spectacle, sitting just outside the path of totality.",
-          "published": "2026-08-11T05:13:46+00:00",
+          "summary": "The partial eclipse is expected to be the most extensive since 1999, astronomers say.",
+          "published": "2026-08-12T08:57:36+00:00",
           "regional": false
         },
         {
-          "title": "Where to enjoy the partial eclipse spectacle",
-          "link": "https://www.bbc.co.uk/news/articles/cdx7wq230wwo?at_medium=RSS&at_campaign=rss",
+          "title": "Best places to see partial solar eclipse across England",
+          "link": "https://www.bbc.co.uk/news/articles/cdx7kzv5e3qo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
-          "summary": "Venues gear up to help people enjoy the partial eclipse safely from South West vantage spots.",
-          "published": "2026-08-11T05:09:17+00:00",
+          "summary": "Some parts of England could see up to 96 per cent of the moon covering the sun on 12 August.",
+          "published": "2026-08-12T08:28:13+00:00",
           "regional": false
         },
         {
-          "title": "'Day turned into dusk' in 1999 total solar eclipse",
-          "link": "https://www.bbc.co.uk/news/articles/c0rdx87rgdgo?at_medium=RSS&at_campaign=rss",
+          "title": "How to look at the eclipse if you don't have solar glasses",
+          "link": "https://www.bbc.co.uk/news/videos/ckgepn0x1kzo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
-          "summary": "Those who saw the eclipse describe the \"eerie\" moment birds stopped singing.",
-          "published": "2026-08-11T05:07:34+00:00",
+          "summary": "The UK will get the best eclipse since 1999 later as the Moon blocks out Sun across Europe.",
+          "published": "2026-08-12T07:53:10+00:00",
+          "regional": false
+        },
+        {
+          "title": "Solar eclipse and the island of Ireland: The weather forecast and all you need to know",
+          "link": "https://www.bbc.co.uk/news/articles/c39epmz7ex4o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Skywatchers are set to witness two major celestial events next week, with a deep partial solar eclipse followed by the peak of the Perseid meteor shower.",
+          "published": "2026-08-12T07:35:18+00:00",
+          "regional": false
+        },
+        {
+          "title": "Rare Total Solar Eclipse-Perseid Meteor Shower Double-Header August 12th",
+          "link": "https://skyandtelescope.org/astronomy-news/rare-total-solar-eclipse-perseid-meteor-shower-double-header-on-august-12th/",
+          "source": "Sky & Telescope",
+          "summary": "The only total solar eclipse of the year coincides with the Perseid meteor shower. Here's what you need to know to watch the eclipse.",
+          "published": "2026-08-11T12:40:00+00:00",
           "regional": false
         },
         {
@@ -919,14 +943,6 @@
           "source": "Sky & Telescope",
           "summary": "With a new Moon in play, skywatchers anticipate a fine Perseid performance this year. The post A Perfectly Timed Perseid Meteor Shower appeared first on Sky & Telescope .",
           "published": "2026-08-05T15:02:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Astrophysicists find best evidence yet that galaxies get some spin before birth",
-          "link": "https://www.science.org/content/article/astrophysicists-find-best-evidence-yet-galaxies-get-some-spin-birth",
-          "source": "Science (AAAS)",
-          "summary": "New study spots “primordial spin” imprinted on galaxies by churning halos of dark matter",
-          "published": "2026-08-05T11:20:00+00:00",
           "regional": false
         },
         {
@@ -1042,19 +1058,19 @@
           "regional": false
         },
         {
-          "title": "Astronomers find the first atmosphere on a rocky world in the habitable zone",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260721000825.htm",
-          "source": "ScienceDaily",
-          "summary": "Astronomers have found the first confirmed atmosphere around a rocky planet in another star’s habitable zone. The planet, LHS 1140 b, revealed its atmosphere through helium slowly leaking into space.",
-          "published": "2026-07-21T10:57:41+00:00",
-          "regional": false
+          "title": "Three supermassive black holes discovered in a single galaxy for the first time",
+          "link": "https://www.mpg.de/26904239/three-black-holes-discovered-in-a-young-galaxy",
+          "source": "Max Planck Society",
+          "summary": "Drei Schwarze Löcher in einer Galaxie 12,5 Milliarden Lichtjahre entfernt geben Einblick in frühes Universum",
+          "published": "2026-08-12T08:00:00+00:00",
+          "regional": true
         },
         {
           "title": "Solar eclipse 2026: Will it be visible from India?",
           "link": "https://www.thehindu.com/sci-tech/science/solar-eclipse-2026-surya-grahan-india-august-12-2026/article71331174.ece",
           "source": "The Hindu",
           "summary": "A solar eclipse is when the Sun, Moon and Earth are in alignment, and the Moon passes directly between the Sun and Earth, casting a shadow on our planet and blocking some of the fiery ball’s light.",
-          "published": "2026-08-11T06:39:53+00:00",
+          "published": "2026-08-12T07:08:22+00:00",
           "regional": true
         },
         {
@@ -1095,22 +1111,6 @@
           "source": "Max Planck Society",
           "summary": "Second data release nearly doubles the previously known eROSITA X-ray sources to two million",
           "published": "2026-07-31T13:00:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "The hidden polluter in your wardrobe: How fast fashion is fuelling the next pollution crisis",
-          "link": "https://www.thehindu.com/life-and-style/fashion/the-hidden-polluter-in-your-wardrobe-how-fast-fashion-is-fuelling-the-next-pollution-crisis/article70003334.ece",
-          "source": "The Hindu",
-          "summary": "The clothes in your wardrobe may be silently polluting the planet. Surprising? The fashion industry is the second biggest polluter in the world.",
-          "published": "2026-07-28T09:09:29+00:00",
-          "regional": true
-        },
-        {
-          "title": "What makes the brain the most complicated object in the universe",
-          "link": "https://www.thehindu.com/sci-tech/science/what-makes-the-brain-the-most-complicated-object-in-the-universe/article67852849.ece",
-          "source": "The Hindu",
-          "summary": "For the first time, the thoughts and impressions of people unable to communicate with the outside world were translated into continuous natural language, using a combination of AI and brain imaging technology",
-          "published": "2026-07-28T08:03:11+00:00",
           "regional": true
         }
       ]
