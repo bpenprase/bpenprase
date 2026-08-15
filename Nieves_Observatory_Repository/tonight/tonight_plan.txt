@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-08-14 12:50 PDT
-; Observing window starts 2026-08-14 21:10 PDT  (LST 17:53:25)
+; Generated 2026-08-15 12:24 PDT
+; Observing window starts 2026-08-15 21:08 PDT  (LST 17:55:21)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -77,15 +77,6 @@ NGC 6633
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 25
-
-; Asteroid 18 Melpomene  mag 9.6
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-MP Melpomene
-#WAITINLIMITS 60
 
 ; Open Cluster  mag 4.6  size 24.00'
 #posang 0
@@ -431,7 +422,7 @@ M 34
 #filter r',g',i',z'
 M 77
 
-; Comet 220P/McNaught  mag 8.6
+; Comet 220P/McNaught  mag 9.5
 #posang 0
 #count 3
 #interval 300
@@ -440,7 +431,7 @@ M 77
 CT 220P/McNaught
 #WAITINLIMITS 60
 
-; Comet 88P/Howell  mag 13.7
+; Comet 88P/Howell  mag 14.0
 #posang 0
 #count 3
 #interval 300
@@ -474,6 +465,15 @@ NGC 1499
 Uranus
 #WAITINLIMITS 60
 
+; Asteroid 1 Ceres  mag 9.0
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+MP Ceres
+#WAITINLIMITS 60
+
 ; Galaxy  mag 9.7  size 5.87'
 #posang 0
 #count 1,1,1,1
@@ -497,15 +497,6 @@ NGC 4236
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 94
-
-; Comet 169P/NEAT  mag 12.0
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 169P/NEAT
-#WAITINLIMITS 60
 
 ; Galaxy  mag 8.6  size 11.83'  Sunflower Galaxy
 #posang 0
