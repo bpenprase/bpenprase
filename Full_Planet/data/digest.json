@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-14T09:52:40.934952+00:00",
-  "generated_human": "14 August 2026, 09:52 UTC",
+  "generated": "2026-08-15T09:16:55.318554+00:00",
+  "generated_human": "15 August 2026, 09:16 UTC",
   "total_items": 130,
   "channels": [
     {
@@ -48,6 +48,22 @@
           "summary": "Artificial intelligence is reshaping the skills employers expect from new graduates. In response, universities are scrambling to launch new courses, research centers, and industry partnerships that prepare students for…",
           "published": "2026-07-29T14:00:02+00:00",
           "regional": false
+        },
+        {
+          "title": "Global leaders must wake up to threat of unbridled AI adoption",
+          "link": "https://www.scmp.com/opinion/world-opinion/article/3363725/global-leaders-must-wake-threat-unbridled-ai-adoption?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "To describe the uncontrolled adoption of artificial intelligence (AI) as a “mixed blessing” is a grotesque understatement.",
+          "published": "2026-08-15T08:30:07+00:00",
+          "regional": true
+        },
+        {
+          "title": "Launch of DeepSeek’s Harness marks its strategic pivot towards autonomous agentic AI",
+          "link": "https://www.scmp.com/tech/big-tech/article/3364082/launch-deepseeks-harness-marks-its-strategic-pivot-towards-autonomous-agentic-ai?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Chinese artificial intelligence company DeepSeek is venturing into a new battleground beyond large language models, launching a developer preview of its long-anticipated Harness – a software framework that helps…",
+          "published": "2026-08-14T11:03:52+00:00",
+          "regional": true
         },
         {
           "title": "China’s richest province taps Alibaba to power its AI and chip push",
@@ -103,22 +119,6 @@
           "source": "South China Morning Post",
           "summary": "China’s most advanced artificial intelligence models are still being trained on Nvidia chips, sources at major Chinese large language model (LLM) developers say, as the prohibitively high cost of switching to local…",
           "published": "2026-08-10T05:00:23+00:00",
-          "regional": true
-        },
-        {
-          "title": "China’s AI models spooked Wall Street. But they may turbocharge industry growth",
-          "link": "https://www.scmp.com/tech/big-tech/article/3363381/chinas-ai-models-spooked-wall-street-they-may-turbocharge-industry-growth?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Breakthroughs in cheap Chinese open-weight artificial intelligence models have spooked US investors, but analysts argue plummeting model costs will benefit the AI industry in the long run by supercharging global demand…",
-          "published": "2026-08-09T09:00:06+00:00",
-          "regional": true
-        },
-        {
-          "title": "Teaching AI to speak India",
-          "link": "https://www.thehindu.com/sci-tech/technology/internet/teaching-ai-to-speak-india/article71280380.ece",
-          "source": "The Hindu",
-          "summary": "Artificial intelligence can chat, translate and answer questions but only if it understands your language. At IIT Madras, researchers at AI4Bharat are travelling across India, collecting voices, preserving dialects and…",
-          "published": "2026-08-09T00:15:19+00:00",
           "regional": true
         },
         {
@@ -378,6 +378,14 @@
       "accent": "#33C6D6",
       "items": [
         {
+          "title": "Scientists detect a nuclear reactor’s ghostly afterglow for the first time",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260814011036.htm",
+          "source": "ScienceDaily",
+          "summary": "Nuclear reactors may go dark, but their fuel continues producing a faint antineutrino “glow” long after shutdown.",
+          "published": "2026-08-14T13:16:36+00:00",
+          "regional": false
+        },
+        {
           "title": "‘One step forward, one step back’ – clean energy jobs growth stifled by canceled projects",
           "link": "https://www.renewableenergyworld.com/energy-business/one-step-forward-one-step-back-clean-energy-jobs-growth-stifled-by-canceled-projects/",
           "source": "Renewable Energy World",
@@ -407,14 +415,6 @@
           "source": "Renewable Energy World",
           "summary": "A new report examines how the growing demand for transformers, dependence on imports, and low domestic manufacturing capacity are threatening the nation's hydropower modernization efforts, and some unique challenges…",
           "published": "2026-08-10T21:13:12+00:00",
-          "regional": false
-        },
-        {
-          "title": "CorPower Ocean wins world-first wave energy certification",
-          "link": "https://www.renewableenergyworld.com/hydro-power/tidal-wave-energy/corpower-ocean-wins-world-first-wave-energy-certification/",
-          "source": "Renewable Energy World",
-          "summary": "The certification confirms the system meets DNV’s reliability and safety requirements and marks progress towards utility-scale wave energy.",
-          "published": "2026-08-10T20:33:22+00:00",
           "regional": false
         },
         {
@@ -554,11 +554,43 @@
       "accent": "#F0894E",
       "items": [
         {
-          "title": "A Sunflower’s View of Totality",
-          "link": "https://science.nasa.gov/earth/earth-observatory/a-sunflowers-view-of-totality/",
+          "title": "NASA Competition Invites Students to Help Imagine a Future Enabled by Lunar Technologies",
+          "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-competition-invites-students-to-help-imagine-a-future-enabled-by-lunar-technologies/",
           "source": "NASA",
-          "summary": "The Moon slid between the Sun and Earth to produce a stunning celestial show visible from Spain in August 2026.",
-          "published": "2026-08-14T04:01:00+00:00",
+          "summary": "NASA is asking U.S.-based collegiate teams to submit bold, original concepts to the 2027 edition of a student challenge focused on aerospace innovation that could help the agency envision a future on the Moon shaped by…",
+          "published": "2026-08-14T20:00:38+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Announces MAX POWER: America’s Newest Aerospace Expo, Airshow",
+          "link": "https://www.nasa.gov/news-release/nasa-announces-max-power-americas-newest-aerospace-expo-airshow/",
+          "source": "NASA",
+          "summary": "In honor of America’s historic 250th anniversary, NASA announced on Friday MAX POWER, a public exposition of American air and space innovation, Nov. 7 and Nov.",
+          "published": "2026-08-14T18:44:36+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s COFFIES Uses AI to Predict Storm-Causing Active Regions on Sun",
+          "link": "https://science.nasa.gov/science-research/heliophysics/nasas-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
+          "source": "NASA",
+          "summary": "As humanity looks to the Moon and stars for future exploration, predicting space weather — conditions in space primarily driven by the Sun — is more important than ever.",
+          "published": "2026-08-14T17:00:23+00:00",
+          "regional": false
+        },
+        {
+          "title": "A look back at the 2026 total solar eclipse",
+          "link": "https://www.esa.int/Science_Exploration/Space_Science/A_look_back_at_the_2026_total_solar_eclipse",
+          "source": "ESA",
+          "summary": "On 12 August 2026, Europe witnessed the first total solar eclipse in over two decades. Millions of people were awed by the Moon completely covering the Sun's bright disc, briefly turning day into night and revealing the…",
+          "published": "2026-08-14T10:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Neptune’s tiny moons may be the wreckage of shattered ancient worlds",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260813045545.htm",
+          "source": "ScienceDaily",
+          "summary": "JWST has uncovered surprising clues that Neptune’s strange inner moons may be the wreckage of an ancient cosmic catastrophe.",
+          "published": "2026-08-14T04:35:05+00:00",
           "regional": false
         },
         {
@@ -586,35 +618,11 @@
           "regional": false
         },
         {
-          "title": "Hundreds attend teenager's eclipse party",
-          "link": "https://www.bbc.co.uk/news/articles/c5ye0e787jno?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Teenager Aston Smith dreams of working for SpaceX.",
-          "published": "2026-08-13T16:41:29+00:00",
-          "regional": false
-        },
-        {
-          "title": "Cascade Volcanoes Shrouded in Smoke",
-          "link": "https://science.nasa.gov/earth/earth-observatory/cascade-volcanoes-shrouded-in-smoke/",
-          "source": "NASA",
-          "summary": "From the International Space Station, astronauts photographed Mount Hood and Mount Rainier as wildfire smoke spread across the Pacific Northwest in summer 2026.",
-          "published": "2026-08-13T04:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Data Helps Commercial Space Plan Living Off Our Moon",
-          "link": "https://www.nasa.gov/technology/tech-transfer-spinoffs/nasa-data-helps-commercial-space-plan-living-off-our-moon/",
-          "source": "NASA",
-          "summary": "The barren lunar landscape has some important resources, such as water and minerals like iron and titanium, but extracting and processing them will require special equipment.",
-          "published": "2026-08-12T20:40:27+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Upgrades Vertical Motion Simulator for Modern Mission Needs",
-          "link": "https://www.nasa.gov/centers-and-facilities/ames/nasa-upgrades-vertical-motion-simulator-for-modern-mission-needs/",
-          "source": "NASA",
-          "summary": "Imagine stepping into a machine that can make you feel like you’re flying a spacecraft, piloting a next generation air taxi, or landing on the Moon, all without leaving the ground.",
-          "published": "2026-08-12T17:55:36+00:00",
+          "title": "NASA’s Perseverance rover watches Earth vanish from the surface of Mars",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260812015203.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA’s Perseverance rover caught a striking first from Mars: Earth disappearing behind the tiny moon Phobos. Seen from nearly 195 million miles away, our planet was reduced to a single point of light before briefly…",
+          "published": "2026-08-13T13:20:16+00:00",
           "regional": false
         },
         {
@@ -655,14 +663,6 @@
           "source": "ScienceDaily",
           "summary": "A ten-month Antarctic experiment found that astronauts may struggle not only with loneliness but also with spending too much time around the same people.",
           "published": "2026-08-07T11:18:01+00:00",
-          "regional": false
-        },
-        {
-          "title": "IRIS² reinforced and accelerated as implementation advances",
-          "link": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/IRIS2_reinforced_and_accelerated_as_implementation_advances",
-          "source": "ESA",
-          "summary": "On 7 August, the European Commission and the SpaceRISE consortium concluded negotiations and signed an implementation agreement to roll out IRIS² , the European Union’s new flagship satellite constellation.",
-          "published": "2026-08-07T09:27:00+00:00",
           "regional": false
         },
         {
@@ -750,7 +750,7 @@
           "link": "https://www.thehindu.com/sci-tech/science/despite-its-reputation-indias-per-unit-space-launch-cost-highest-study/article71344693.ece",
           "source": "The Hindu",
           "summary": "India, according to an analysis of more than six decades of space missions, simply does not launch often enough to bring its costs down",
-          "published": "2026-08-14T08:08:57+00:00",
+          "published": "2026-08-14T12:48:46+00:00",
           "regional": true
         },
         {
@@ -834,6 +834,22 @@
       "accent": "#B98CE0",
       "items": [
         {
+          "title": "Solar eclipse inspires talk of Pac-man and Shinto myths",
+          "link": "https://www.bbc.co.uk/news/articles/c33020jgyllo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Thousands turned out to watch the solar eclipse in the South West; here's what they made of it.",
+          "published": "2026-08-15T06:08:29+00:00",
+          "regional": false
+        },
+        {
+          "title": "A massive new cosmic map is revealing black holes, rare stars, and hidden gas",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260813045541.htm",
+          "source": "ScienceDaily",
+          "summary": "Astronomers have released more than three million new spectra in a sweeping expansion that, for the first time, brings SDSS-V optical observations to the Southern Hemisphere.",
+          "published": "2026-08-14T04:21:15+00:00",
+          "regional": false
+        },
+        {
           "title": "You got hold of eclipse glasses just in time - here's what to do with them now",
           "link": "https://www.bbc.co.uk/news/articles/ckgdprd3mv9o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
@@ -850,11 +866,11 @@
           "regional": false
         },
         {
-          "title": "Builder with own observatory captures solar eclipse",
-          "link": "https://www.bbc.co.uk/news/articles/c980r6327y1o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Simon Wallace, who got hooked on astrophotography in lockdown, shares his images of the spectacle.",
-          "published": "2026-08-13T16:37:11+00:00",
+          "title": "JWST spots a bizarre “black hole star” 100 billion times brighter than a star",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260813045538.htm",
+          "source": "ScienceDaily",
+          "summary": "Astronomers using the James Webb Space Telescope have discovered a bizarre object from just a few hundred million years after the Big Bang that looks like an enormous star but shines far too brightly to actually be one.",
+          "published": "2026-08-13T13:03:55+00:00",
           "regional": false
         },
         {
@@ -895,22 +911,6 @@
           "source": "BBC Science",
           "summary": "Efan Dafydd's love of the cosmos continued to grow after meeting his hero, astronaut Tim Peake.",
           "published": "2026-08-12T12:47:57+00:00",
-          "regional": false
-        },
-        {
-          "title": "Arson attack jolts Italy’s bid to host the Einstein Telescope",
-          "link": "https://www.science.org/content/article/arson-attack-jolts-italy-s-bid-host-einstein-telescope",
-          "source": "Science (AAAS)",
-          "summary": "Two scientists' cars were burned at the proposed Sardinian site, in what researchers say was an attempt to intimidate supporters of the gravitational-wave observatory",
-          "published": "2026-08-12T12:45:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "New telescope reveals a missing link in the cosmic recycling of matter",
-          "link": "https://www.science.org/content/article/new-telescope-reveals-missing-link-cosmic-recycling-matter",
-          "source": "Science (AAAS)",
-          "summary": "With a lens array in Chile, astronomers capture clumps of gas from a dying star returning to the Galaxy",
-          "published": "2026-08-12T11:00:00+00:00",
           "regional": false
         },
         {
