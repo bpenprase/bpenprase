@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-15T09:16:55.318554+00:00",
-  "generated_human": "15 August 2026, 09:16 UTC",
+  "generated": "2026-08-16T09:18:12.939237+00:00",
+  "generated_human": "16 August 2026, 09:18 UTC",
   "total_items": 130,
   "channels": [
     {
@@ -50,6 +50,14 @@
           "regional": false
         },
         {
+          "title": "Korean builders double down on AI data centers",
+          "link": "https://www.koreaherald.com/article/10840444",
+          "source": "The Korea Herald",
+          "summary": "Korean builders are racing into data centers, chasing multibillion-dollar opportunities as the generative AI boom fuels a global surge in demand for computing infrastructure.",
+          "published": "2026-08-16T07:00:00+00:00",
+          "regional": true
+        },
+        {
           "title": "Global leaders must wake up to threat of unbridled AI adoption",
           "link": "https://www.scmp.com/opinion/world-opinion/article/3363725/global-leaders-must-wake-threat-unbridled-ai-adoption?utm_source=rss_feed",
           "source": "South China Morning Post",
@@ -87,14 +95,6 @@
           "source": "The Korea Herald",
           "summary": "Yanolja is taking its artificial intelligence hotel concierge global after testing the service at around 1,000 properties in India.",
           "published": "2026-08-13T06:28:20+00:00",
-          "regional": true
-        },
-        {
-          "title": "AI rewrites the rules of memory chip sales",
-          "link": "https://www.koreaherald.com/article/10839027",
-          "source": "The Korea Herald",
-          "summary": "The artificial intelligence boom is changing not only how much memory chipmakers produce, but also how they sell it.",
-          "published": "2026-08-12T06:01:24+00:00",
           "regional": true
         },
         {
@@ -466,6 +466,14 @@
           "regional": false
         },
         {
+          "title": "South Africa is overlooking solar technology that can keep generating electricity after sunset",
+          "link": "https://theconversation.com/south-africa-is-overlooking-solar-technology-that-can-keep-generating-electricity-after-sunset-283857",
+          "source": "The Conversation",
+          "summary": "South Africa is one of the best places in the world for concentrating solar power. So why has the country’s energy plan largely ignored it?",
+          "published": "2026-08-16T06:17:57+00:00",
+          "regional": true
+        },
+        {
           "title": "A new class of metals could transform Africa’s clean energy economy – scientists explain",
           "link": "https://theconversation.com/a-new-class-of-metals-could-transform-africas-clean-energy-economy-scientists-explain-282572",
           "source": "The Conversation",
@@ -530,14 +538,6 @@
           "regional": true
         },
         {
-          "title": "Early childhood is a great time to learn about clean energy: this game aims to make it fun",
-          "link": "https://theconversation.com/early-childhood-is-a-great-time-to-learn-about-clean-energy-this-game-aims-to-make-it-fun-283817",
-          "source": "The Conversation",
-          "summary": "Early childhood is an important stage where children develop curiosity, values and problem-solving skills.",
-          "published": "2026-07-30T14:45:30+00:00",
-          "regional": true
-        },
-        {
           "title": "Running dry: How to store more groundwater for dry seasons",
           "link": "https://www.dw.com/en/running-dry-how-to-store-more-groundwater-for-dry-seasons/a-77501486?maca=en-rss_en_environment-22607-xml-mrss",
           "source": "Deutsche Welle",
@@ -594,6 +594,14 @@
           "regional": false
         },
         {
+          "title": "A Sunflower’s View of Totality",
+          "link": "https://science.nasa.gov/earth/earth-observatory/a-sunflowers-view-of-totality/",
+          "source": "NASA",
+          "summary": "The Moon slid between the Sun and Earth to produce a stunning celestial show visible from Spain in August 2026.",
+          "published": "2026-08-14T04:01:00+00:00",
+          "regional": false
+        },
+        {
           "title": "Indian solar mission's new findings throw light on enduring Sun mysteries",
           "link": "https://www.bbc.co.uk/news/articles/c934wqpd74xo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
@@ -607,14 +615,6 @@
           "source": "NASA",
           "summary": "NASA’s 737 aircraft was painted this week in Oklahoma as it progresses with modifications for use as a reduced gravity test aircraft for the agency.",
           "published": "2026-08-13T19:41:23+00:00",
-          "regional": false
-        },
-        {
-          "title": "For West Virginia Engineer, Home Is Where the Heart Is… and NASA, Too",
-          "link": "https://www.nasa.gov/centers-and-facilities/goddard/for-west-virginia-engineer-home-is-where-the-heart-is-and-nasa-too/",
-          "source": "NASA",
-          "summary": "Growing up in Grafton, West Virginia, engrossed in Star Wars and all things science fiction, Fletcher Newell had an early interest in space exploration.",
-          "published": "2026-08-13T19:03:19+00:00",
           "regional": false
         },
         {
@@ -746,11 +746,27 @@
           "regional": false
         },
         {
+          "title": "As SpaceX rocket stage is about to hit moon, astronomers prepare",
+          "link": "https://www.thehindu.com/sci-tech/science/astronomers-prepare-as-spacex-rocket-stage-nears-moon-strike/article71303796.ece",
+          "source": "The Hindu",
+          "summary": "The rocket stage is currently expected to hit near Einstein crater on the moon on August 5 at 12:05 pm IST",
+          "published": "2026-08-16T07:29:05+00:00",
+          "regional": true
+        },
+        {
           "title": "Despite its reputation, India’s per-unit space launch cost highest: study",
           "link": "https://www.thehindu.com/sci-tech/science/despite-its-reputation-indias-per-unit-space-launch-cost-highest-study/article71344693.ece",
           "source": "The Hindu",
           "summary": "India, according to an analysis of more than six decades of space missions, simply does not launch often enough to bring its costs down",
-          "published": "2026-08-14T12:48:46+00:00",
+          "published": "2026-08-16T04:57:27+00:00",
+          "regional": true
+        },
+        {
+          "title": "Moon Base | India’s lunar future",
+          "link": "https://www.thehindu.com/sci-tech/science/moon-base-indias-lunar-future/article71350559.ece",
+          "source": "The Hindu",
+          "summary": "NASA has invited ISRO to participate in its latest lunar programme, which seeks to build a human outpost near the Moon’s south pole, where sunlight is available for longer periods and permanently shadowed craters…",
+          "published": "2026-08-15T20:41:53+00:00",
           "regional": true
         },
         {
@@ -807,22 +823,6 @@
           "source": "The Hindu",
           "summary": "This article is part of Space Wrap, a round-up of space news and developments in and related to India every month",
           "published": "2026-08-06T04:16:49+00:00",
-          "regional": true
-        },
-        {
-          "title": "As SpaceX rocket stage is about to hit moon, astronomers prepare",
-          "link": "https://www.thehindu.com/sci-tech/science/astronomers-prepare-as-spacex-rocket-stage-nears-moon-strike/article71303796.ece",
-          "source": "The Hindu",
-          "summary": "The rocket stage is currently expected to hit near Einstein crater on the moon on August 5 at 12:05 pm IST",
-          "published": "2026-08-04T06:10:07+00:00",
-          "regional": true
-        },
-        {
-          "title": "ISRO issues memo to curb exodus of scientists and engineers from Gaganyaan and other key missions",
-          "link": "https://www.thehindu.com/sci-tech/science/isro-issues-memo-to-curb-exodus-of-scientists-and-engineers-from-gaganyaan-and-other-key-missions/article71228542.ece",
-          "source": "The Hindu",
-          "summary": "Won’t accept any request for voluntary retirement or resignation from scientific and technical personnel of Group ‘A’ associated with the Gaganyaan, or other important missions or projects till their realisation",
-          "published": "2026-08-03T08:08:40+00:00",
           "regional": true
         }
       ]
@@ -882,6 +882,22 @@
           "regional": false
         },
         {
+          "title": "Cloudy skies lead to mixed fortunes for Scotland's eclipse hunters",
+          "link": "https://www.bbc.co.uk/news/articles/c5y49e2z8yno?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Scotland's best chance of seeing a solar eclipse in 27 years left some disappointed, though there were moments of magic.",
+          "published": "2026-08-13T05:40:24+00:00",
+          "regional": false
+        },
+        {
+          "title": "A new explanation of why the universe’s supply of nuclear matter is fixed?",
+          "link": "https://www.science.org/content/article/new-explanation-why-universe-s-supply-nuclear-matter-fixed",
+          "source": "Science (AAAS)",
+          "summary": "Experiments point to an alternative origin of a particle accounting tool called the baryon number",
+          "published": "2026-08-13T02:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "Prepare for the Lunar Eclipse on August 27-28, 2026",
           "link": "https://skyandtelescope.org/astronomy-press-releases/prepare-for-the-lunar-eclipse-on-august-27-28-2026/",
           "source": "Sky & Telescope",
@@ -903,14 +919,6 @@
           "source": "Sky & Telescope",
           "summary": "The star at the heart of the oft-observed Helix Nebula powered a clumpy wind before it died. Now, new images capture these clumps’ dissolution into the space between stars.",
           "published": "2026-08-12T15:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Astronomy superfan, 11, shares tips for watching solar eclipse",
-          "link": "https://www.bbc.co.uk/news/articles/cn9npgez25lo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Efan Dafydd's love of the cosmos continued to grow after meeting his hero, astronaut Tim Peake.",
-          "published": "2026-08-12T12:47:57+00:00",
           "regional": false
         },
         {
@@ -1018,12 +1026,12 @@
           "regional": false
         },
         {
-          "title": "The Universe can outrun light without breaking Einstein’s rules",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260724061444.htm",
-          "source": "ScienceDaily",
-          "summary": "Cosmic expansion allows distant galaxies to move away faster than light, while still letting us see ancient light they emitted when they were much closer.",
-          "published": "2026-07-25T13:17:03+00:00",
-          "regional": false
+          "title": "As SpaceX rocket stage is about to hit moon, astronomers prepare",
+          "link": "https://www.thehindu.com/sci-tech/science/astronomers-prepare-as-spacex-rocket-stage-nears-moon-strike/article71303796.ece",
+          "source": "The Hindu",
+          "summary": "The rocket stage is currently expected to hit near Einstein crater on the moon on August 5 at 12:05 pm IST",
+          "published": "2026-08-16T07:29:05+00:00",
+          "regional": true
         },
         {
           "title": "Team led by RRI scientists predicts ‘petal-like’ structures in Sun’s corona during eclipse",
@@ -1071,14 +1079,6 @@
           "source": "Max Planck Society",
           "summary": "The world’s largest solar telescope made small vortices visible that are changing our understanding of the sun",
           "published": "2026-08-05T10:00:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "As SpaceX rocket stage is about to hit moon, astronomers prepare",
-          "link": "https://www.thehindu.com/sci-tech/science/astronomers-prepare-as-spacex-rocket-stage-nears-moon-strike/article71303796.ece",
-          "source": "The Hindu",
-          "summary": "The rocket stage is currently expected to hit near Einstein crater on the moon on August 5 at 12:05 pm IST",
-          "published": "2026-08-04T06:10:07+00:00",
           "regional": true
         },
         {
