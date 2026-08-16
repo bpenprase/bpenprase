@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-08-15 12:24 PDT
-; Observing window starts 2026-08-15 21:08 PDT  (LST 17:55:21)
+; Generated 2026-08-16 12:23 PDT
+; Observing window starts 2026-08-16 21:06 PDT  (LST 17:57:17)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -94,15 +94,6 @@ IC 4756
 #filter r',g',i',z'
 M 11
 
-; Comet C/2024 J3 (ATLAS)  mag 13.8
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT C/2024 J3
-#WAITINLIMITS 60
-
 ; Open Cluster  mag 7.3  size 6.90'  Foxhead Cluster
 #posang 0
 #count 1,1,1,1
@@ -119,7 +110,7 @@ NGC 6819
 #filter r',g',i',z'
 NGC 6822
 
-; Asteroid 3 Juno  mag 9.1
+; Asteroid 3 Juno  mag 9.2
 #posang 0
 #count 3
 #interval 300
@@ -152,7 +143,7 @@ NGC 6871
 #filter r',Ha,OIII,SII
 NGC 6888
 
-; Asteroid 324 Bamberga  mag 9.5
+; Asteroid 324 Bamberga  mag 9.6
 #posang 0
 #count 3
 #interval 300
@@ -241,7 +232,7 @@ NGC 7293
 #filter r',g',i',z'
 NGC 7331
 
-; Asteroid 9 Metis  mag 9.6
+; Asteroid 9 Metis  mag 9.5
 #posang 0
 #count 3
 #interval 300
@@ -406,14 +397,6 @@ NGC 0884
 #filter r',g',i',z'
 NGC 1023
 
-; Open Cluster  mag 5.2  size 22.50'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 34
-
 ; Galaxy  mag 9.3  size 6.11'
 #posang 0
 #count 1,1,1,1
@@ -422,7 +405,7 @@ M 34
 #filter r',g',i',z'
 M 77
 
-; Comet 220P/McNaught  mag 9.5
+; Comet 220P/McNaught  mag 9.9
 #posang 0
 #count 3
 #interval 300
@@ -431,13 +414,22 @@ M 77
 CT 220P/McNaught
 #WAITINLIMITS 60
 
-; Comet 88P/Howell  mag 14.0
+; Comet 88P/Howell  mag 13.8
 #posang 0
 #count 3
 #interval 300
 #binning 1
 #filter r'
 CT 88P/Howell
+#WAITINLIMITS 60
+
+; Comet 161P/Hartley-IRAS  mag 14.0
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 161P/Hartley-IRAS
 #WAITINLIMITS 60
 
 ; Galaxy  mag 9.7  size 19.77'
@@ -474,6 +466,22 @@ Uranus
 MP Ceres
 #WAITINLIMITS 60
 
+; Open Cluster  mag 5.1  size 24.00'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 35
+
+; Galaxy  mag 8.4  size 19.95'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 2403
+
 ; Galaxy  mag 9.7  size 5.87'
 #posang 0
 #count 1,1,1,1
@@ -481,14 +489,6 @@ MP Ceres
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 4125
-
-; Galaxy  mag 9.8  size 23.50'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 4236
 
 ; Galaxy  mag 8.2  size 7.74'
 #posang 0
