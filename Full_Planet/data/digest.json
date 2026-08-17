@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-16T09:18:12.939237+00:00",
-  "generated_human": "16 August 2026, 09:18 UTC",
-  "total_items": 130,
+  "generated": "2026-08-17T09:30:39.177417+00:00",
+  "generated_human": "17 August 2026, 09:30 UTC",
+  "total_items": 131,
   "channels": [
     {
       "key": "ai",
@@ -50,6 +50,14 @@
           "regional": false
         },
         {
+          "title": "AI chipmaker Biren projects up to 22-fold revenue surge amid China’s hi-tech boom",
+          "link": "https://www.scmp.com/tech/tech-trends/article/3364262/ai-chipmaker-biren-projects-22-fold-revenue-surge-amid-chinas-hi-tech-boom?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Chinese artificial intelligence chipmaker Biren Technology projects that its first-half revenue could shoot up by up to 2,107 per cent amid the AI hardware boom, joining industry peers like Hygon Information Technology…",
+          "published": "2026-08-17T06:39:48+00:00",
+          "regional": true
+        },
+        {
           "title": "Korean builders double down on AI data centers",
           "link": "https://www.koreaherald.com/article/10840444",
           "source": "The Korea Herald",
@@ -79,6 +87,14 @@
           "source": "South China Morning Post",
           "summary": "China’s richest province has deepened its partnership with technology giant Alibaba Group Holding, eyeing a broad digital upgrade spanning artificial intelligence, semiconductors, and smart public services.",
           "published": "2026-08-14T09:15:43+00:00",
+          "regional": true
+        },
+        {
+          "title": "Samsung hires AI experts to accelerate chip business transformation",
+          "link": "https://www.koreaherald.com/article/10841644",
+          "source": "The Korea Herald",
+          "summary": "Samsung Electronics has recruited two artificial intelligence and data specialists as it steps up efforts to deploy AI across its semiconductor operations, from chip design and process development to manufacturing.",
+          "published": "2026-08-14T05:21:17+00:00",
           "regional": true
         },
         {
@@ -112,22 +128,6 @@
           "summary": "China’s dominance in open-weight artificial intelligence faces a fresh challenge from Meta Platforms, whose renewed push into open-source models could lure away American customers anxious about looming regulatory…",
           "published": "2026-08-11T07:30:39+00:00",
           "regional": true
-        },
-        {
-          "title": "China’s top AI is still trained on Nvidia chips. What is delaying a switch to local tech?",
-          "link": "https://www.scmp.com/tech/big-tech/article/3363491/chinas-top-ai-still-trained-nvidia-chips-what-delaying-switch-local-tech?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "China’s most advanced artificial intelligence models are still being trained on Nvidia chips, sources at major Chinese large language model (LLM) developers say, as the prohibitively high cost of switching to local…",
-          "published": "2026-08-10T05:00:23+00:00",
-          "regional": true
-        },
-        {
-          "title": "Xiaomi open-sources embodied-AI foundation model Xiaomi-Robotics-1",
-          "link": "https://technode.com/2026/08/05/xiaomi-open-sources-embodied-ai-foundation-model-xiaomi-robotics-1/",
-          "source": "TechNode",
-          "summary": "Xiaomi has open-sourced its embodied-AI foundation model Xiaomi-Robotics-1, the company’s technology account announced on Aug. 5.",
-          "published": "2026-08-05T08:30:13+00:00",
-          "regional": true
         }
       ]
     },
@@ -137,6 +137,14 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "Tiny graphene wrinkles create surprisingly powerful electrical effects",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260815064801.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have discovered that tiny, sharply curved wrinkles in graphene can dramatically alter its electrical behavior, creating surprisingly strong charge separation.",
+          "published": "2026-08-17T02:28:23+00:00",
+          "regional": false
+        },
         {
           "title": "A strange crystal made of electrons just revealed its hidden motion",
           "link": "https://www.sciencedaily.com/releases/2026/08/260812015156.htm",
@@ -274,6 +282,14 @@
           "regional": true
         },
         {
+          "title": "Samsung hires AI experts to accelerate chip business transformation",
+          "link": "https://www.koreaherald.com/article/10841644",
+          "source": "The Korea Herald",
+          "summary": "Samsung Electronics has recruited two artificial intelligence and data specialists as it steps up efforts to deploy AI across its semiconductor operations, from chip design and process development to manufacturing.",
+          "published": "2026-08-14T05:21:17+00:00",
+          "regional": true
+        },
+        {
           "title": "SMIC weighs more capacity as AI-related chip demand exceeds forecasts",
           "link": "https://www.scmp.com/tech/big-tech/article/3363996/smic-weighs-more-capacity-ai-related-chip-demand-exceeds-forecasts?utm_source=rss_feed",
           "source": "South China Morning Post",
@@ -322,14 +338,6 @@
           "regional": true
         },
         {
-          "title": "S. Korea vows to ease regulations to support 3 megaprojects",
-          "link": "https://www.koreaherald.com/article/10839597",
-          "source": "The Korea Herald",
-          "summary": "South Korea vowed to ease a set of regulations, including administrative procedures, to support the country's three megaprojects centered on semiconductors and artificial intelligence facilities, the finance ministry…",
-          "published": "2026-08-12T23:46:58+00:00",
-          "regional": true
-        },
-        {
           "title": "Previously unknown alloy found in Hiroshima blast debris",
           "link": "https://www.thehindu.com/sci-tech/science/previously-unknown-alloy-found-in-hiroshima-blast-debris/article71297296.ece",
           "source": "The Hindu",
@@ -360,14 +368,6 @@
           "summary": "Researchers have created self-destructing living plastic that uses engineered bacteria to completely break itself down when activated.",
           "published": "2026-07-17T03:09:42+00:00",
           "regional": false
-        },
-        {
-          "title": "Path cleared for intractable epilepsy gene therapy — Gunma University deploys new method to suppress seizures in mice",
-          "link": "https://sj.jst.go.jp/news/202608/n0812-01k.html",
-          "source": "Science Japan",
-          "summary": "A research group including Assistant Professor Yuuki Fukai and Professor Hirokazu Hirai of the Initiative for Advanced Research at Gunma University has successfully developed cmGAD67, a new gene promoter capable of…",
-          "published": "2026-08-12T07:28:11+00:00",
-          "regional": true
         }
       ]
     },
@@ -466,6 +466,14 @@
           "regional": false
         },
         {
+          "title": "HD Hyundai Electric eyes Europe with greener grid technology",
+          "link": "https://www.koreaherald.com/article/10843092",
+          "source": "The Korea Herald",
+          "summary": "HD Hyundai Electric said Monday it has developed Korea’s first 420-kilovolt circuit breaker that does not use sulfur hexafluoride, positioning the company to tap Europe’s growing market for greener power grid equipment.",
+          "published": "2026-08-17T05:27:02+00:00",
+          "regional": true
+        },
+        {
           "title": "South Africa is overlooking solar technology that can keep generating electricity after sunset",
           "link": "https://theconversation.com/south-africa-is-overlooking-solar-technology-that-can-keep-generating-electricity-after-sunset-283857",
           "source": "The Conversation",
@@ -522,14 +530,6 @@
           "regional": true
         },
         {
-          "title": "Japan draws lessons from Iceland, a renewable energy powerhouse",
-          "link": "https://sj.jst.go.jp/stories/2026/s0812-01n.html",
-          "source": "Science Japan",
-          "summary": "As concerns in Japan continue to mount over the impact of high crude oil prices on energy costs, one country has effectively harnessed its own geothermal resources, creating a contrasting energy landscape.",
-          "published": "2026-08-12T07:29:35+00:00",
-          "regional": true
-        },
-        {
           "title": "What a water-wise city would look like – and how India can get there",
           "link": "https://www.thehindu.com/sci-tech/energy-and-environment/what-a-water-wise-city-would-look-like-and-how-india-can-get-there/article71316407.ece",
           "source": "The Hindu",
@@ -553,6 +553,14 @@
       "tagline": "New missions, spacecraft, and technologies — NASA, ESA, ISRO, JAXA, SpaceX, CNES, and more.",
       "accent": "#F0894E",
       "items": [
+        {
+          "title": "Watch Sophie Adenot’s spacewalk live",
+          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Watch_Sophie_Adenot_s_spacewalk_live",
+          "source": "ESA",
+          "summary": "Watch ESA astronaut Sophie Adenot venture into the vacuum of space for her first-ever spacewalk on Tuesday, 18 August.",
+          "published": "2026-08-17T06:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "NASA Competition Invites Students to Help Imagine a Future Enabled by Lunar Technologies",
           "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-competition-invites-students-to-help-imagine-a-future-enabled-by-lunar-technologies/",
@@ -610,19 +618,19 @@
           "regional": false
         },
         {
-          "title": "NASA’s 737 Reveals New Paint",
-          "link": "https://www.nasa.gov/image-article/nasas-737-reveals-new-paint/",
-          "source": "NASA",
-          "summary": "NASA’s 737 aircraft was painted this week in Oklahoma as it progresses with modifications for use as a reduced gravity test aircraft for the agency.",
-          "published": "2026-08-13T19:41:23+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA’s Perseverance rover watches Earth vanish from the surface of Mars",
           "link": "https://www.sciencedaily.com/releases/2026/08/260812015203.htm",
           "source": "ScienceDaily",
           "summary": "NASA’s Perseverance rover caught a striking first from Mars: Earth disappearing behind the tiny moon Phobos. Seen from nearly 195 million miles away, our planet was reduced to a single point of light before briefly…",
           "published": "2026-08-13T13:20:16+00:00",
+          "regional": false
+        },
+        {
+          "title": "Once-in-a-generation solar eclipse wows millions in UK and Europe",
+          "link": "https://www.bbc.co.uk/news/articles/ckgdp4923rdo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "More than 95% of the Sun was covered by the Moon in Cornwall, while parts of Spain experienced the magic of a total eclipse.",
+          "published": "2026-08-12T21:53:45+00:00",
           "regional": false
         },
         {
@@ -738,14 +746,6 @@
           "regional": false
         },
         {
-          "title": "After 241 days in orbit this NASA astronaut is finally home",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260727012131.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA astronaut Chris Williams and two Roscosmos cosmonauts are back on Earth after spending 241 days aboard the International Space Station.",
-          "published": "2026-07-27T08:06:53+00:00",
-          "regional": false
-        },
-        {
           "title": "As SpaceX rocket stage is about to hit moon, astronomers prepare",
           "link": "https://www.thehindu.com/sci-tech/science/astronomers-prepare-as-spacex-rocket-stage-nears-moon-strike/article71303796.ece",
           "source": "The Hindu",
@@ -818,11 +818,11 @@
           "regional": true
         },
         {
-          "title": "Space Wrap: Historic Vikram-1 launch puts Indian spaceflight back on track",
-          "link": "https://www.thehindu.com/sci-tech/science/space-wrap-historic-vikram-1-launch-puts-indian-spaceflight-back-on-track/article71312064.ece",
-          "source": "The Hindu",
-          "summary": "This article is part of Space Wrap, a round-up of space news and developments in and related to India every month",
-          "published": "2026-08-06T04:16:49+00:00",
+          "title": "Scientists Grow Rice In Simulated Moon Soil",
+          "link": "https://www.asianscientist.com/2026/07/general/scientists-grow-rice-in-simulated-moon-soil/",
+          "source": "Asian Scientist",
+          "summary": "Scientists in Japan have created a portable plasma device that can turn air into fertilizer, helping rice grow in simulated lunar soil.",
+          "published": "2026-07-29T06:29:15+00:00",
           "regional": true
         }
       ]
@@ -833,6 +833,14 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "A black hole shredded a “super sun” — but something strange may have survived",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260814235849.htm",
+          "source": "ScienceDaily",
+          "summary": "Astronomers have witnessed a black hole violently shredding a massive star, creating one of the most energetic stellar explosions ever observed.",
+          "published": "2026-08-16T03:46:46+00:00",
+          "regional": false
+        },
         {
           "title": "Solar eclipse inspires talk of Pac-man and Shinto myths",
           "link": "https://www.bbc.co.uk/news/articles/c33020jgyllo?at_medium=RSS&at_campaign=rss",
@@ -887,14 +895,6 @@
           "source": "BBC Science",
           "summary": "Scotland's best chance of seeing a solar eclipse in 27 years left some disappointed, though there were moments of magic.",
           "published": "2026-08-13T05:40:24+00:00",
-          "regional": false
-        },
-        {
-          "title": "A new explanation of why the universe’s supply of nuclear matter is fixed?",
-          "link": "https://www.science.org/content/article/new-explanation-why-universe-s-supply-nuclear-matter-fixed",
-          "source": "Science (AAAS)",
-          "summary": "Experiments point to an alternative origin of a particle accounting tool called the baryon number",
-          "published": "2026-08-13T02:00:00+00:00",
           "regional": false
         },
         {
@@ -1024,6 +1024,14 @@
           "summary": "NASA’s Swift Observatory observed a supermassive black hole ripping apart a star more than 30,000 light-years from the center of a distant galaxy.",
           "published": "2026-07-28T05:54:39+00:00",
           "regional": false
+        },
+        {
+          "title": "Unusual black hole found at universe’s dawn presents dusty mystery to astronomers",
+          "link": "https://www.thehindu.com/sci-tech/science/unusual-black-hole-found-at-universes-dawn-presents-dusty-mystery-to-astronomers/article71355346.ece",
+          "source": "The Hindu",
+          "summary": "An international team of astronomers has found an unusual object that may help explain what at least some of these red dots actually are: unusually young and rapidly growing black holes surrounded by an enormous amount…",
+          "published": "2026-08-17T07:46:13+00:00",
+          "regional": true
         },
         {
           "title": "As SpaceX rocket stage is about to hit moon, astronomers prepare",
