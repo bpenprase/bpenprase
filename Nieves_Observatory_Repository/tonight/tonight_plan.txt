@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-08-17 12:31 PDT
-; Observing window starts 2026-08-17 21:06 PDT  (LST 18:01:14)
+; Generated 2026-08-18 12:30 PDT
+; Observing window starts 2026-08-18 21:04 PDT  (LST 18:03:10)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -405,7 +405,7 @@ NGC 1023
 #filter r',g',i',z'
 M 77
 
-; Comet 220P/McNaught  mag 9.8
+; Comet 220P/McNaught  mag 8.5
 #posang 0
 #count 3
 #interval 300
@@ -463,6 +463,23 @@ MP Ceres
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 35
+
+; Planet: Mars
+#posang 0
+#count 10
+#interval 30
+#binning 1
+#filter r'
+Mars
+#WAITINLIMITS 60
+
+; Supernova AT2026wyp in none  Type unk  mag 14.5  z=n/a
+#posang 0
+#count 3,3
+#interval 300,300
+#binning 1,1
+#filter r',g'
+AT2026wyp	06:49:05.903	+37:06:08.52
 
 ; Galaxy  mag 8.4  size 19.95'
 #posang 0
