@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-18T09:23:24.808551+00:00",
-  "generated_human": "18 August 2026, 09:23 UTC",
-  "total_items": 130,
+  "generated": "2026-08-19T09:24:06.569642+00:00",
+  "generated_human": "19 August 2026, 09:24 UTC",
+  "total_items": 131,
   "channels": [
     {
       "key": "ai",
@@ -82,14 +82,6 @@
           "regional": true
         },
         {
-          "title": "Korean builders double down on AI data centers",
-          "link": "https://www.koreaherald.com/article/10840444",
-          "source": "The Korea Herald",
-          "summary": "Korean builders are racing into data centers, chasing multibillion-dollar opportunities as the generative AI boom fuels a global surge in demand for computing infrastructure.",
-          "published": "2026-08-16T07:00:00+00:00",
-          "regional": true
-        },
-        {
           "title": "Global leaders must wake up to threat of unbridled AI adoption",
           "link": "https://www.scmp.com/opinion/world-opinion/article/3363725/global-leaders-must-wake-threat-unbridled-ai-adoption?utm_source=rss_feed",
           "source": "South China Morning Post",
@@ -114,14 +106,6 @@
           "regional": true
         },
         {
-          "title": "Samsung hires AI experts to accelerate chip business transformation",
-          "link": "https://www.koreaherald.com/article/10841644",
-          "source": "The Korea Herald",
-          "summary": "Samsung Electronics has recruited two artificial intelligence and data specialists as it steps up efforts to deploy AI across its semiconductor operations, from chip design and process development to manufacturing.",
-          "published": "2026-08-14T05:21:17+00:00",
-          "regional": true
-        },
-        {
           "title": "Alibaba says modular design delivers AI data centres in 100 days at 10% lower cost",
           "link": "https://www.scmp.com/tech/big-tech/article/3363637/alibaba-says-modular-design-delivers-ai-data-centres-100-days-10-lower-cost?utm_source=rss_feed",
           "source": "South China Morning Post",
@@ -135,6 +119,22 @@
           "source": "South China Morning Post",
           "summary": "China’s dominance in open-weight artificial intelligence faces a fresh challenge from Meta Platforms, whose renewed push into open-source models could lure away American customers anxious about looming regulatory…",
           "published": "2026-08-11T07:30:39+00:00",
+          "regional": true
+        },
+        {
+          "title": "China’s top AI is still trained on Nvidia chips. What is delaying a switch to local tech?",
+          "link": "https://www.scmp.com/tech/big-tech/article/3363491/chinas-top-ai-still-trained-nvidia-chips-what-delaying-switch-local-tech?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "China’s most advanced artificial intelligence models are still being trained on Nvidia chips, sources at major Chinese large language model (LLM) developers say, as the prohibitively high cost of switching to local…",
+          "published": "2026-08-10T05:00:23+00:00",
+          "regional": true
+        },
+        {
+          "title": "China’s AI models spooked Wall Street. But they may turbocharge industry growth",
+          "link": "https://www.scmp.com/tech/big-tech/article/3363381/chinas-ai-models-spooked-wall-street-they-may-turbocharge-industry-growth?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Breakthroughs in cheap Chinese open-weight artificial intelligence models have spooked US investors, but analysts argue plummeting model costs will benefit the AI industry in the long run by supercharging global demand…",
+          "published": "2026-08-09T09:00:06+00:00",
           "regional": true
         }
       ]
@@ -274,19 +274,35 @@
           "regional": false
         },
         {
+          "title": "LG Energy Solution opens Michigan plant in AI-driven ESS push",
+          "link": "https://www.koreaherald.com/article/10845542",
+          "source": "The Korea Herald",
+          "summary": "South Korean battery-maker LG Energy Solution said Wednesday it has begun operations at its battery plant in Lansing, Michigan, aimed at capturing growing demand for energy storage systems in North America.",
+          "published": "2026-08-19T06:08:37+00:00",
+          "regional": true
+        },
+        {
+          "title": "Seoul denies chips eyed for first US investment project",
+          "link": "https://www.koreaherald.com/article/10844185",
+          "source": "The Korea Herald",
+          "summary": "South Korea’s Industry Ministry on Tuesday denied that semiconductors are being considered as the first project under Seoul’s US investment commitments, as Industry Minister Kim Jung-kwan holds last-minute talks in…",
+          "published": "2026-08-18T05:44:39+00:00",
+          "regional": true
+        },
+        {
+          "title": "Korea's battery trio spend W4.3tr despite prolonged EV slowdown",
+          "link": "https://www.koreaherald.com/article/10844178",
+          "source": "The Korea Herald",
+          "summary": "South Korea’s three major battery makers poured over 4 trillion won ($2.84 billion) into plant construction and equipment upgrades in the first half of the year, keeping their capital spending steady even as the…",
+          "published": "2026-08-18T05:42:49+00:00",
+          "regional": true
+        },
+        {
           "title": "China’s richest province taps Alibaba to power its AI and chip push",
           "link": "https://www.scmp.com/tech/policy/article/3364053/chinas-richest-province-taps-alibaba-power-its-ai-and-chip-push?utm_source=rss_feed",
           "source": "South China Morning Post",
           "summary": "China’s richest province has deepened its partnership with technology giant Alibaba Group Holding, eyeing a broad digital upgrade spanning artificial intelligence, semiconductors, and smart public services.",
           "published": "2026-08-14T09:15:43+00:00",
-          "regional": true
-        },
-        {
-          "title": "Samsung hires AI experts to accelerate chip business transformation",
-          "link": "https://www.koreaherald.com/article/10841644",
-          "source": "The Korea Herald",
-          "summary": "Samsung Electronics has recruited two artificial intelligence and data specialists as it steps up efforts to deploy AI across its semiconductor operations, from chip design and process development to manufacturing.",
-          "published": "2026-08-14T05:21:17+00:00",
           "regional": true
         },
         {
@@ -327,14 +343,6 @@
           "source": "Max Planck Society",
           "summary": "New study reveals that visible traces of past tool use can outweigh material properties when primates select tools",
           "published": "2026-08-04T23:15:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "Top Huawei chip scientist opens up on strategy, ‘blind arrogance’ and his war-hero mindset",
-          "link": "https://www.scmp.com/tech/big-tech/article/3362960/top-huawei-chip-scientist-opens-strategy-blind-arrogance-and-his-war-hero-mindset?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "When Liao Heng joined Huawei Technologies’ chip-design unit in 2016, he was sceptical about whether China could ever build world-class semiconductors.",
-          "published": "2026-08-04T14:29:31+00:00",
           "regional": true
         },
         {
@@ -466,6 +474,30 @@
           "regional": false
         },
         {
+          "title": "LG Energy Solution opens Michigan plant in AI-driven ESS push",
+          "link": "https://www.koreaherald.com/article/10845542",
+          "source": "The Korea Herald",
+          "summary": "South Korean battery-maker LG Energy Solution said Wednesday it has begun operations at its battery plant in Lansing, Michigan, aimed at capturing growing demand for energy storage systems in North America.",
+          "published": "2026-08-19T06:08:37+00:00",
+          "regional": true
+        },
+        {
+          "title": "In drought-stricken France, tankers supply drinking water",
+          "link": "https://www.dw.com/en/in-drought-stricken-france-tankers-supply-drinking-water/a-78420016?maca=en-rss_en_environment-22607-xml-mrss",
+          "source": "Deutsche Welle",
+          "summary": "France is seeing water shortages in regions that usually have plenty of supply. This summer's extreme heat is exposing how unprepared much of the country, and Europe, is for increasing water scarcity.",
+          "published": "2026-08-19T04:33:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "Korea's battery trio spend W4.3tr despite prolonged EV slowdown",
+          "link": "https://www.koreaherald.com/article/10844178",
+          "source": "The Korea Herald",
+          "summary": "South Korea’s three major battery makers poured over 4 trillion won ($2.84 billion) into plant construction and equipment upgrades in the first half of the year, keeping their capital spending steady even as the…",
+          "published": "2026-08-18T05:42:49+00:00",
+          "regional": true
+        },
+        {
           "title": "HD Hyundai Electric eyes Europe with greener grid technology",
           "link": "https://www.koreaherald.com/article/10843092",
           "source": "The Korea Herald",
@@ -490,8 +522,8 @@
           "regional": true
         },
         {
-          "title": "Does the clean energy transition need forever chemicals?",
-          "link": "https://www.dw.com/en/does-the-clean-energy-transition-need-forever-chemicals/a-77888704?maca=en-rss_en_environment-22607-xml-mrss",
+          "title": "Can we go green without forever chemicals?",
+          "link": "https://www.dw.com/en/can-we-go-green-without-forever-chemicals/a-77888704?maca=en-rss_en_environment-22607-xml-mrss",
           "source": "Deutsche Welle",
           "summary": "As nations globally move to ban forever chemicals, should renewable energy technologies be exempt for the sake of saving the climate?",
           "published": "2026-08-13T07:13:00+00:00",
@@ -520,30 +552,6 @@
           "summary": "A better understanding of hydrogen embrittlement enables the design of alloys for gas turbines for hydrogen combustion",
           "published": "2026-08-12T09:00:00+00:00",
           "regional": true
-        },
-        {
-          "title": "What a water-wise city would look like – and how India can get there",
-          "link": "https://www.thehindu.com/sci-tech/energy-and-environment/what-a-water-wise-city-would-look-like-and-how-india-can-get-there/article71316407.ece",
-          "source": "The Hindu",
-          "summary": "Durban and Bhubaneswar have protected water access for low-income households. Las Vegas and Bengaluru use higher tariffs to discourage excessive consumption.",
-          "published": "2026-08-10T04:55:27+00:00",
-          "regional": true
-        },
-        {
-          "title": "Wind and solar projects in Kenya and South Africa don’t always benefit the communities that host them – study",
-          "link": "https://theconversation.com/wind-and-solar-projects-in-kenya-and-south-africa-dont-always-benefit-the-communities-that-host-them-study-285717",
-          "source": "The Conversation",
-          "summary": "In South Africa and Kenya, some green energy projects have deprived local communities of land and livelihoods instead of sharing the benefits.",
-          "published": "2026-08-09T04:29:34+00:00",
-          "regional": true
-        },
-        {
-          "title": "Running dry: How to store more groundwater for dry seasons",
-          "link": "https://www.dw.com/en/running-dry-how-to-store-more-groundwater-for-dry-seasons/a-77501486?maca=en-rss_en_environment-22607-xml-mrss",
-          "source": "Deutsche Welle",
-          "summary": "More frequent weather extremes are leading to water shortages during droughts and flooding during heavy rain. But groundwater storage can help secure water for dry seasons while mitigating extreme rain.",
-          "published": "2026-07-15T09:24:00+00:00",
-          "regional": true
         }
       ]
     },
@@ -553,6 +561,54 @@
       "tagline": "New missions, spacecraft, and technologies — NASA, ESA, ISRO, JAXA, SpaceX, CNES, and more.",
       "accent": "#F0894E",
       "items": [
+        {
+          "title": "Fly around Schiaparelli Crater with Mars Express",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Fly_around_Schiaparelli_Crater_with_Mars_Express",
+          "source": "ESA",
+          "summary": "Video: 00:04:10 ESA’s Mars Express takes us on another mesmerising flight, this time around one of the biggest craters on Mars. Despite measuring a huge 460 km across, Schiaparelli Crater seems to be relatively shallow.",
+          "published": "2026-08-19T09:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Behind the Lens: Meet NASA Johnson’s Photographers",
+          "link": "https://www.nasa.gov/centers-and-facilities/johnson/behind-the-lens-meet-nasa-johnsons-photographers/",
+          "source": "NASA",
+          "summary": "Photographers at NASA’s Johnson Space Center in Houston have documented some of the most defining moments in human spaceflight.",
+          "published": "2026-08-19T05:02:06+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s LRO Images Falcon 9 Crater on Moon, Learns New Details",
+          "link": "https://science.nasa.gov/solar-system/moon/nasas-lro-images-falcon-9-crater-on-moon-learns-new-details/",
+          "source": "NASA",
+          "summary": "Between Aug. 11 and 12, NASA’s Lunar Reconnaissance Orbiter (LRO) captured a series of images of a new crater on the Moon. The crater formed on Aug.",
+          "published": "2026-08-18T18:49:50+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Student Aviation Challenge Focuses on Nation’s Infrastructure",
+          "link": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
+          "source": "NASA",
+          "summary": "NASA’s next Gateways to Blue Skies competition invites collegiate teams to imagine innovative new ways aircraft could inspect land-based infrastructure, such as bridges and tunnels, to improve safety, reliability, and…",
+          "published": "2026-08-18T18:03:44+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s B777 Gets New Coat of Paint",
+          "link": "https://www.nasa.gov/image-article/nasas-b777-gets-new-coat-of-paint/",
+          "source": "NASA",
+          "summary": "NASA’s Boeing 777 shows off a new paint job in this Aug. 11, 2026, photo. The B777 was acquired to replace and extend the capabilities of the NASA DC-8, which was retired in 2024.",
+          "published": "2026-08-18T15:10:36+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Glenn’s Legacy Forged Through Decades of Flight Research",
+          "link": "https://www.nasa.gov/general/nasa-glenn-inflight-research/",
+          "source": "NASA",
+          "summary": "Many of NASA’s most important aerospace breakthroughs that began in the laboratory were ultimately proven in the sky.",
+          "published": "2026-08-18T14:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "Hera's Mars flyby guided impact study of Deimos moon",
           "link": "https://www.esa.int/Space_Safety/Hera/Hera_s_Mars_flyby_guided_impact_study_of_Deimos_moon",
@@ -570,30 +626,6 @@
           "regional": false
         },
         {
-          "title": "NASA Mission Studies Air Pollution Over Ethiopia",
-          "link": "https://www.nasa.gov/missions/maia/nasa-mission-studies-air-pollution-over-ethiopia/",
-          "source": "NASA",
-          "summary": "A NASA-funded air pollution monitoring network has provided one of the most detailed long-term views yet of the role of black carbon, or soot produced by fires, diesel vehicles, and other combustion sources, in…",
-          "published": "2026-08-17T19:24:34+00:00",
-          "regional": false
-        },
-        {
-          "title": "Colorful Collage of Tarantula Nebula",
-          "link": "https://www.nasa.gov/image-article/colorful-collage-of-tarantula-nebula/",
-          "source": "NASA",
-          "summary": "Data from NASA’s Chandra X-ray Observatory, NASA’s James Webb Space Telescope, and NASA’s Hubble Space Telescope combine to reveal a vibrant view of 30 Doradus, or the Tarantula Nebula, in this Aug. 11, 2026, image.",
-          "published": "2026-08-17T16:00:09+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Challenge Tests Wheel Designs for Moon Base Mobility",
-          "link": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-challenge-tests-wheel-designs-for-moon-base-mobility/",
-          "source": "NASA",
-          "summary": "As NASA prepares to establish the Moon Base, advancing surface mobility will be key to helping crews and robotic systems travel farther across the lunar surface.",
-          "published": "2026-08-17T15:09:05+00:00",
-          "regional": false
-        },
-        {
           "title": "Total solar eclipse 2026 (Official ESA broadcast)",
           "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Total_solar_eclipse_2026_Official_ESA_broadcast",
           "source": "ESA",
@@ -607,14 +639,6 @@
           "source": "ESA",
           "summary": "Watch ESA astronaut Sophie Adenot venture into the vacuum of space for her first-ever spacewalk on Tuesday, 18 August.",
           "published": "2026-08-17T06:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Chasing Fire Clouds in Utah",
-          "link": "https://science.nasa.gov/earth/earth-observatory/chasing-fire-clouds-in-utah/",
-          "source": "NASA",
-          "summary": "NASA aircraft are sampling smoke lofted high into the atmosphere by one of the most formidable cloud types in the sky—towering, smoke-infused pyrocumulonimbus.",
-          "published": "2026-08-17T04:01:00+00:00",
           "regional": false
         },
         {
@@ -647,14 +671,6 @@
           "source": "ScienceDaily",
           "summary": "NASA’s Perseverance rover caught a striking first from Mars: Earth disappearing behind the tiny moon Phobos. Seen from nearly 195 million miles away, our planet was reduced to a single point of light before briefly…",
           "published": "2026-08-13T13:20:16+00:00",
-          "regional": false
-        },
-        {
-          "title": "Once-in-a-generation solar eclipse wows millions in UK and Europe",
-          "link": "https://www.bbc.co.uk/news/articles/ckgdp4923rdo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "More than 95% of the Sun was covered by the Moon in Cornwall, while parts of Spain experienced the magic of a total eclipse.",
-          "published": "2026-08-12T21:53:45+00:00",
           "regional": false
         },
         {
@@ -738,12 +754,28 @@
           "regional": false
         },
         {
-          "title": "The search for life on Jupiter's icy moon Europa just got more complicated",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260727214604.htm",
-          "source": "ScienceDaily",
-          "summary": "Europa’s hidden ocean has made the icy moon one of the solar system’s most promising places to search for habitable conditions.",
-          "published": "2026-07-29T05:06:39+00:00",
-          "regional": false
+          "title": "LandSpace lands ZhuQue-3 booster in a reusable-rocket milestone",
+          "link": "https://technode.com/2026/08/19/landspace-lands-zhuque-3-booster-in-a-reusable-rocket-milestone/",
+          "source": "TechNode",
+          "summary": "LandSpace’s ZhuQue-3 Y2 reached orbit and successfully landed its first-stage booster after launching on Aug. 19. The company confirmed the recovery in a post from its official account.",
+          "published": "2026-08-19T06:10:19+00:00",
+          "regional": true
+        },
+        {
+          "title": "All eyes on GISAT-1A mission as ISRO aims to mend faulty launch streak",
+          "link": "https://www.thehindu.com/sci-tech/science/all-eyes-on-gisat-1a-mission-as-isro-aims-to-mend-faulty-launch-streak/article71363564.ece",
+          "source": "The Hindu",
+          "summary": "The launch is further significant because the rocket that attempted to launch the GISAT-1 satellite in 2021 failed, destroying the satellite as well. GISAT-1A is the second attempt",
+          "published": "2026-08-19T06:00:55+00:00",
+          "regional": true
+        },
+        {
+          "title": "What is NASA’s Moon Base programme and why does it want India to be part of it? | Explained",
+          "link": "https://www.thehindu.com/sci-tech/science/explained-what-is-nasas-moon-base-programme-why-it-wants-india-to-be-part-of-it/article71340650.ece",
+          "source": "The Hindu",
+          "summary": "NASA is looking to establish an ambitious lunar outpost programme, a first of its kind in the world where humans (astronauts) will make the Moon’s south pole a home from where they will live, work and conduct scientific…",
+          "published": "2026-08-18T04:39:15+00:00",
+          "regional": true
         },
         {
           "title": "As SpaceX rocket stage is about to hit moon, astronomers prepare",
@@ -767,14 +799,6 @@
           "source": "The Hindu",
           "summary": "NASA has invited ISRO to participate in its latest lunar programme, which seeks to build a human outpost near the Moon’s south pole, where sunlight is available for longer periods and permanently shadowed craters…",
           "published": "2026-08-15T20:41:53+00:00",
-          "regional": true
-        },
-        {
-          "title": "What is NASA’s Moon Base programme and why does it want India to be part of it? | Explained",
-          "link": "https://www.thehindu.com/sci-tech/science/explained-what-is-nasas-moon-base-programme-why-it-wants-india-to-be-part-of-it/article71340650.ece",
-          "source": "The Hindu",
-          "summary": "NASA is looking to establish an ambitious lunar outpost programme, a first of its kind in the world where humans (astronauts) will make the Moon’s south pole a home from where they will live, work and conduct scientific…",
-          "published": "2026-08-14T05:08:11+00:00",
           "regional": true
         },
         {
@@ -808,22 +832,6 @@
           "summary": "While there is not yet official confirmation that the Falcon 9 upper stage struck the lunar surface, it had been expected to make impact at approximately 0635 GMT",
           "published": "2026-08-08T18:08:56+00:00",
           "regional": true
-        },
-        {
-          "title": "Bengaluru start-up sends world’s first lab-grown diamond jewel to space aboard Skyroot’s Vikram-1",
-          "link": "https://www.thehindu.com/news/cities/bangalore/bengaluru-start-up-sends-worlds-first-lab-grown-diamond-jewel-to-space-aboard-skyroots-vikram-1/article71285944.ece",
-          "source": "The Hindu",
-          "summary": "The lotus-shaped jewel is handcrafted in gold and set with 16.9 carats of lab-grown diamonds",
-          "published": "2026-08-08T03:25:10+00:00",
-          "regional": true
-        },
-        {
-          "title": "Scientists Grow Rice In Simulated Moon Soil",
-          "link": "https://www.asianscientist.com/2026/07/general/scientists-grow-rice-in-simulated-moon-soil/",
-          "source": "Asian Scientist",
-          "summary": "Scientists in Japan have created a portable plasma device that can turn air into fertilizer, helping rice grow in simulated lunar soil.",
-          "published": "2026-07-29T06:29:15+00:00",
-          "regional": true
         }
       ]
     },
@@ -833,6 +841,14 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "Spying on a Split Comet",
+          "link": "https://skyandtelescope.org/astronomy-news/spying-on-a-split-comet/",
+          "source": "Sky & Telescope",
+          "summary": "Traversing through the solar system, a comet split in two, and a recent study used six months of observations to investigate when and why. The post Spying on a Split Comet appeared first on Sky & Telescope .",
+          "published": "2026-08-18T12:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "Einstein’s biggest “mistake” came back — and changed cosmology forever",
           "link": "https://www.sciencedaily.com/releases/2026/08/260816044835.htm",
@@ -887,6 +903,14 @@
           "source": "BBC Science",
           "summary": "Solar specs are tricky to recycle because of their lenses, so here are three things to do instead.",
           "published": "2026-08-13T23:15:44+00:00",
+          "regional": false
+        },
+        {
+          "title": "Crowds reflect on watching 'incredible' eclipse",
+          "link": "https://www.bbc.co.uk/news/articles/cr59pgp9pvro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "People headed to beaches, parks and hills in their droves to catch the rare event.",
+          "published": "2026-08-13T16:59:56+00:00",
           "regional": false
         },
         {
@@ -962,14 +986,6 @@
           "regional": false
         },
         {
-          "title": "Science Campaigns Planned for the August 12th Total Solar Eclipse",
-          "link": "https://skyandtelescope.org/astronomy-news/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/",
-          "source": "Sky & Telescope",
-          "summary": "Several science campaigns plan to greet the racing shadow of the Moon on August 12th. The post Science Campaigns Planned for the August 12th Total Solar Eclipse appeared first on Sky & Telescope .",
-          "published": "2026-08-07T12:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "A star’s violent death exposed a hidden supermassive black hole",
           "link": "https://www.sciencedaily.com/releases/2026/08/260805082457.htm",
           "source": "ScienceDaily",
@@ -1015,14 +1031,6 @@
           "source": "ScienceDaily",
           "summary": "Scientists traced a mysterious surge of low-energy gamma rays from zinc-70 to magnetic changes occurring inside its nucleus.",
           "published": "2026-07-31T05:15:53+00:00",
-          "regional": false
-        },
-        {
-          "title": "Astronomers find strongest evidence yet that Betelgeuse has a companion",
-          "link": "https://www.eso.org/public/news/eso2611/",
-          "source": "ESO",
-          "summary": "At long last, astronomers have firm evidence that Betelgeuse, one of the most famous stars in the night sky, is not alone.",
-          "published": "2026-07-28T12:00:00+00:00",
           "regional": false
         },
         {
