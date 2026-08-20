@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-08-19 12:29 PDT
-; Observing window starts 2026-08-19 21:02 PDT  (LST 18:05:06)
+; Generated 2026-08-20 12:34 PDT
+; Observing window starts 2026-08-20 21:00 PDT  (LST 18:07:03)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -232,7 +232,7 @@ NGC 7293
 #filter r',g',i',z'
 NGC 7331
 
-; Asteroid 9 Metis  mag 9.5
+; Asteroid 9 Metis  mag 9.4
 #posang 0
 #count 3
 #interval 300
@@ -405,13 +405,22 @@ NGC 1023
 #filter r',g',i',z'
 M 77
 
-; Comet 220P/McNaught  mag 10.2
+; Comet 220P/McNaught  mag 10.5
 #posang 0
 #count 3
 #interval 300
 #binning 1
 #filter r'
 CT 220P/McNaught
+#WAITINLIMITS 60
+
+; Comet 88P/Howell  mag 13.0
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 88P/Howell
 #WAITINLIMITS 60
 
 ; Galaxy  mag 9.7  size 5.73'
