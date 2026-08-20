@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-19T09:24:06.569642+00:00",
-  "generated_human": "19 August 2026, 09:24 UTC",
-  "total_items": 131,
+  "generated": "2026-08-20T09:24:40.626655+00:00",
+  "generated_human": "20 August 2026, 09:24 UTC",
+  "total_items": 133,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "AI decodes the mathematical ‘fingerprints’ of famous jazz musicians, from Chick Corea to Thelonious Monk",
+          "link": "https://www.scientificamerican.com/article/ai-decodes-the-mathematical-fingerprints-of-famous-jazz-musicians-from-chick-corea-to-thelonious-monk/",
+          "source": "Scientific American",
+          "summary": "Music and math often come together in ways we don’t expect",
+          "published": "2026-08-17T15:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "AI Used to Verify Toughest Mathematics Proof Yet",
           "link": "https://spectrum.ieee.org/axiom-math-246-theorem-formalization",
@@ -50,27 +58,11 @@
           "regional": false
         },
         {
-          "title": "Siobahn Day Grady Wants Everyone to Be AI Literate",
-          "link": "https://spectrum.ieee.org/siobahn-day-grady-ai-hbcu",
-          "source": "IEEE Spectrum",
-          "summary": "Artificial intelligence is reshaping the skills employers expect from new graduates. In response, universities are scrambling to launch new courses, research centers, and industry partnerships that prepare students for…",
-          "published": "2026-07-29T14:00:02+00:00",
-          "regional": false
-        },
-        {
-          "title": "LG, SKT, Upstage advance in Korea’s sovereign AI race",
-          "link": "https://www.koreaherald.com/article/10844040",
-          "source": "The Korea Herald",
-          "summary": "LG AI Research, SK Telecom and Upstage have advanced to the next stage of South Korea’s government-backed push to develop a homegrown artificial intelligence foundation model, the Science Ministry said Tuesday.",
-          "published": "2026-08-18T03:59:57+00:00",
-          "regional": true
-        },
-        {
-          "title": "KT, SK Telecom, Upstage advance to next stage in govt.-led AI project",
-          "link": "https://www.koreaherald.com/article/10843952",
-          "source": "The Korea Herald",
-          "summary": "Three companies have advanced to the next stage of a government-backed project to develop an artificial intelligence service accessible to everyone for free, the Ministry of Science and ICT said Tuesday.",
-          "published": "2026-08-18T02:41:29+00:00",
+          "title": "China’s supernodes go mainstream as AI model sizes grow",
+          "link": "https://www.scmp.com/plus/tech/big-tech/article/3364660/chinas-supernodes-go-mainstream-ai-model-sizes-grow?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Supernodes were everywhere at last month’s World Artificial Intelligence Conference (WAIC) in Shanghai. Assemblies of dozens or hundreds of computer chips and associated hardware, supernodes are China’s way around the…",
+          "published": "2026-08-20T06:54:50+00:00",
           "regional": true
         },
         {
@@ -136,6 +128,14 @@
           "summary": "Breakthroughs in cheap Chinese open-weight artificial intelligence models have spooked US investors, but analysts argue plummeting model costs will benefit the AI industry in the long run by supercharging global demand…",
           "published": "2026-08-09T09:00:06+00:00",
           "regional": true
+        },
+        {
+          "title": "Teaching AI to speak India",
+          "link": "https://www.thehindu.com/sci-tech/technology/internet/teaching-ai-to-speak-india/article71280380.ece",
+          "source": "The Hindu",
+          "summary": "Artificial intelligence can chat, translate and answer questions but only if it understands your language. At IIT Madras, researchers at AI4Bharat are travelling across India, collecting voices, preserving dialects and…",
+          "published": "2026-08-09T00:15:19+00:00",
+          "regional": true
         }
       ]
     },
@@ -145,6 +145,14 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "MIT physicists discover electrons rebuilding like ice inside a quantum material",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260819041231.htm",
+          "source": "ScienceDaily",
+          "summary": "MIT physicists found that two electronic phases inside the same quantum material emerge through surprisingly different mechanisms—one smoothly and the other in expanding pockets resembling growing ice crystals.",
+          "published": "2026-08-20T01:32:04+00:00",
+          "regional": false
+        },
         {
           "title": "Tiny graphene wrinkles create surprisingly powerful electrical effects",
           "link": "https://www.sciencedaily.com/releases/2026/08/260815064801.htm",
@@ -258,20 +266,28 @@
           "regional": false
         },
         {
-          "title": "Ultrafast X-rays capture chemistry unfolding atom by atom",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260729010726.htm",
-          "source": "ScienceDaily",
-          "summary": "Ultrafast X-rays revealed how a molecule converts absorbed light into motion in just trillionths of a second. Individual atoms recorded different stages of the process, opening a powerful new window into light-driven…",
-          "published": "2026-07-30T02:18:28+00:00",
-          "regional": false
+          "title": "Primemas nears CXL memory mass production with Micron",
+          "link": "https://www.koreaherald.com/article/10847286",
+          "source": "The Korea Herald",
+          "summary": "Primemas Inc. is stepping up its collaboration with Micron Technology as the semiconductor startup moves closer to mass production of its compute express link (CXL), pooled-memory technology for AI data centers.",
+          "published": "2026-08-20T09:18:36+00:00",
+          "regional": true
         },
         {
-          "title": "A tiny molecular basket unlocks a powerful new kind of chemistry",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260724061452.htm",
-          "source": "ScienceDaily",
-          "summary": "Rice University chemists have found a new way to make neodymium, a rare-earth metal, interact with oxygen. Using a specially designed molecular structure described as a “basket,” the team positioned the atoms so they…",
-          "published": "2026-07-29T11:47:05+00:00",
-          "regional": false
+          "title": "Demonstration of fusion material calculations using quantum computers — ORNL, US Medical Institution, and IBM mark world first",
+          "link": "https://sj.jst.go.jp/news/202608/n0820-02k.html",
+          "source": "Science Japan",
+          "summary": "IBM announced on July 6 that a joint research team from Oak Ridge National Laboratory (ORNL), Cleveland Clinic, and IBM successfully calculated nine molecular structures of a material promising for fusion energy fuel…",
+          "published": "2026-08-20T06:20:07+00:00",
+          "regional": true
+        },
+        {
+          "title": "Samsung mobile unit hit by 211% jump in memory prices",
+          "link": "https://www.koreaherald.com/article/10845575",
+          "source": "The Korea Herald",
+          "summary": "Samsung Electronics’ latest filing has put a price on the strain that the global memory shortage is placing on its smartphone business, even as the same market conditions drive record earnings at its semiconductor arm.",
+          "published": "2026-08-19T06:30:35+00:00",
+          "regional": true
         },
         {
           "title": "LG Energy Solution opens Michigan plant in AI-driven ESS push",
@@ -287,14 +303,6 @@
           "source": "The Korea Herald",
           "summary": "South Korea’s Industry Ministry on Tuesday denied that semiconductors are being considered as the first project under Seoul’s US investment commitments, as Industry Minister Kim Jung-kwan holds last-minute talks in…",
           "published": "2026-08-18T05:44:39+00:00",
-          "regional": true
-        },
-        {
-          "title": "Korea's battery trio spend W4.3tr despite prolonged EV slowdown",
-          "link": "https://www.koreaherald.com/article/10844178",
-          "source": "The Korea Herald",
-          "summary": "South Korea’s three major battery makers poured over 4 trillion won ($2.84 billion) into plant construction and equipment upgrades in the first half of the year, keeping their capital spending steady even as the…",
-          "published": "2026-08-18T05:42:49+00:00",
           "regional": true
         },
         {
@@ -330,22 +338,6 @@
           "regional": true
         },
         {
-          "title": "Previously unknown alloy found in Hiroshima blast debris",
-          "link": "https://www.thehindu.com/sci-tech/science/previously-unknown-alloy-found-in-hiroshima-blast-debris/article71297296.ece",
-          "source": "The Hindu",
-          "summary": "The alloy shares characteristics with other unusual high-entropy alloys and quasicrystals, which are of great interest among engineers for their strength and stability",
-          "published": "2026-08-08T16:14:55+00:00",
-          "regional": true
-        },
-        {
-          "title": "Well-worn wins: Wild capuchin monkeys prefer stones with a proven track record of cracking nuts",
-          "link": "https://www.mpg.de/26900810/well-worn-wins-wild-capuchin-monkeys-prefer-stones-that-have-a-proven-track-record-of-cracking-nuts",
-          "source": "Max Planck Society",
-          "summary": "New study reveals that visible traces of past tool use can outweigh material properties when primates select tools",
-          "published": "2026-08-04T23:15:00+00:00",
-          "regional": true
-        },
-        {
           "title": "US scientist Elsa Reichmanis defends global collaboration amid scrutiny of science exchange",
           "link": "https://www.scmp.com/tech/tech-war/article/3362398/us-scientist-elsa-reichmanis-defends-global-collaboration-amid-scrutiny-science-exchange?utm_source=rss_feed",
           "source": "South China Morning Post",
@@ -378,11 +370,27 @@
       "accent": "#33C6D6",
       "items": [
         {
-          "title": "Solar panel critic now 'supporter of plan'",
-          "link": "https://www.bbc.co.uk/news/articles/cx2dzjnzkqxo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "A dispute over a solar panel plan is resolved, with the complainant now a proponent for the site.",
-          "published": "2026-08-18T05:19:43+00:00",
+          "title": "European clean energy developers show a renewed appetite for risk",
+          "link": "https://www.renewableenergyworld.com/energy-business/new-project-development/european-clean-energy-developers-show-a-renewed-appetite-for-risk/",
+          "source": "Renewable Energy World",
+          "summary": "Europe experienced more than 9,000 hours of negative power prices in 2025, attracting a fresh cohort of investors with a greater appetite for risk.",
+          "published": "2026-08-19T11:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "From geothermal energy to tidal power, these bold projects could change our clean-energy future",
+          "link": "https://www.scientificamerican.com/article/from-geothermal-energy-to-tidal-power-these-bold-projects-could-change-our-clean-energy-future/",
+          "source": "Scientific American",
+          "summary": "Companies are making big bets on technology to solve lingering challenges in the clean-energy rollout. Here are four of the most ambitious projects",
+          "published": "2026-08-18T10:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "How solar became the cheapest form of energy in the world",
+          "link": "https://www.scientificamerican.com/article/how-solar-became-the-cheapest-form-of-energy-in-the-world/",
+          "source": "Scientific American",
+          "summary": "Here are four reasons solar energy has seen a meteoric rise in recent years",
+          "published": "2026-08-18T10:00:00+00:00",
           "regional": false
         },
         {
@@ -474,6 +482,14 @@
           "regional": false
         },
         {
+          "title": "If solar irrigation is over-drawing groundwater, you’re doing it wrong",
+          "link": "https://www.thehindu.com/sci-tech/energy-and-environment/if-solar-irrigation-is-over-drawing-groundwater-youre-doing-it-wrong/article71364311.ece",
+          "source": "The Hindu",
+          "summary": "Over the past five years, India’s agricultural solar program, PM-KUSUM, has installed over 2.5 million solar pumps, making them affordable for smallholder farmers through subsidies.",
+          "published": "2026-08-19T10:07:53+00:00",
+          "regional": true
+        },
+        {
           "title": "LG Energy Solution opens Michigan plant in AI-driven ESS push",
           "link": "https://www.koreaherald.com/article/10845542",
           "source": "The Korea Herald",
@@ -487,22 +503,6 @@
           "source": "Deutsche Welle",
           "summary": "France is seeing water shortages in regions that usually have plenty of supply. This summer's extreme heat is exposing how unprepared much of the country, and Europe, is for increasing water scarcity.",
           "published": "2026-08-19T04:33:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "Korea's battery trio spend W4.3tr despite prolonged EV slowdown",
-          "link": "https://www.koreaherald.com/article/10844178",
-          "source": "The Korea Herald",
-          "summary": "South Korea’s three major battery makers poured over 4 trillion won ($2.84 billion) into plant construction and equipment upgrades in the first half of the year, keeping their capital spending steady even as the…",
-          "published": "2026-08-18T05:42:49+00:00",
-          "regional": true
-        },
-        {
-          "title": "HD Hyundai Electric eyes Europe with greener grid technology",
-          "link": "https://www.koreaherald.com/article/10843092",
-          "source": "The Korea Herald",
-          "summary": "HD Hyundai Electric said Monday it has developed Korea’s first 420-kilovolt circuit breaker that does not use sulfur hexafluoride, positioning the company to tap Europe’s growing market for greener power grid equipment.",
-          "published": "2026-08-17T05:27:02+00:00",
           "regional": true
         },
         {
@@ -552,6 +552,14 @@
           "summary": "A better understanding of hydrogen embrittlement enables the design of alloys for gas turbines for hydrogen combustion",
           "published": "2026-08-12T09:00:00+00:00",
           "regional": true
+        },
+        {
+          "title": "What a water-wise city would look like – and how India can get there",
+          "link": "https://www.thehindu.com/sci-tech/energy-and-environment/what-a-water-wise-city-would-look-like-and-how-india-can-get-there/article71316407.ece",
+          "source": "The Hindu",
+          "summary": "Durban and Bhubaneswar have protected water access for low-income households. Las Vegas and Bengaluru use higher tariffs to discourage excessive consumption.",
+          "published": "2026-08-10T04:55:27+00:00",
+          "regional": true
         }
       ]
     },
@@ -562,11 +570,99 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "ESA’s photosynthesis satellite fuelled",
+          "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/FLEX/ESA_s_photosynthesis_satellite_fuelled",
+          "source": "ESA",
+          "summary": "Europe’s newest eye on the health of Earth’s vegetation has taken another crucial step towards orbit – the European Space Agency’s FLEX satellite has been fuelled at Europe’s Spaceport in French Guiana ahead of its…",
+          "published": "2026-08-20T07:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA calls off rescue mission for its falling Swift space telescope",
+          "link": "https://www.scientificamerican.com/article/nasa-calls-off-rescue-mission-for-its-falling-swift-space-telescope/",
+          "source": "Scientific American",
+          "summary": "The space agency’s Neil Gehrels Swift Observatory, which studied cataclysmic cosmic explosions, is expected to burn up in Earth’s atmosphere later this year",
+          "published": "2026-08-19T22:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA TechLeap Prize: Orbital Clarity Challenge",
+          "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-techleap-prize-orbital-clarity-challenge/",
+          "source": "NASA",
+          "summary": "The Orbital Clarity Challenge — the sixth in the NASA TechLeap Prize series — is a collaborative effort between NASA’s Heliophysics Division, Flight Opportunities program, and Center of Excellence for Collaborative…",
+          "published": "2026-08-19T19:57:48+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Updates Next Steps for Commercial Swift Boost Mission",
+          "link": "https://www.nasa.gov/news-release/nasa-updates-next-steps-for-commercial-swift-boost-mission/",
+          "source": "NASA",
+          "summary": "Due to an ongoing commercial spacecraft attitude control issue, NASA and Katalyst Space announced Wednesday the LINK spacecraft will not capture or boost an agency satellite to a higher altitude to extend its science…",
+          "published": "2026-08-19T18:08:25+00:00",
+          "regional": false
+        },
+        {
+          "title": "Human-Related Microbes May Survive Moon’s South Pole, NASA Finds",
+          "link": "https://science.nasa.gov/humans-in-space/human-related-microbes-may-survive-moons-south-pole-nasa-finds/",
+          "source": "NASA",
+          "summary": "Lee esta historia en español aquí. Some of Earth’s microbes likely to hitch a ride to space with human explorers could survive in the shaded nooks and crannies of the Moon’s South Pole region, NASA scientists say.",
+          "published": "2026-08-19T18:02:40+00:00",
+          "regional": false
+        },
+        {
+          "title": "Some microbes could survive on the moon—that’s a big problem for NASA",
+          "link": "https://www.scientificamerican.com/article/some-microbes-could-survive-on-the-moon-thats-a-big-problem-for-nasa/",
+          "source": "Scientific American",
+          "summary": "Five common microorganisms found on Earth could survive at the lunar south pole, a new study finds, presenting a contamination risk for future human missions",
+          "published": "2026-08-19T18:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "China successfully lands its Zhuque-3 rocket, rivaling Blue Origin and SpaceX",
+          "link": "https://www.scientificamerican.com/article/china-successfully-lands-its-zhuque-3-rocket-rivaling-blue-origin-and-spacex/",
+          "source": "Scientific American",
+          "summary": "Beijing’s success shows how close China is to the U.S. in the new space race",
+          "published": "2026-08-19T16:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "'Incredible': SpaceX rocket spotted off Christmas Island coast",
+          "link": "https://www.bbc.co.uk/news/videos/c4gw160q3v3o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "A SpaceX rocket that blasted off from Texas in July, and crashed into the Indian Ocean, made an unexpected appearance off Christmas Island.",
+          "published": "2026-08-19T15:01:57+00:00",
+          "regional": false
+        },
+        {
+          "title": "Replay: MTG-I2 pre-launch media briefing",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Replay_MTG-I2_pre-launch_media_briefing",
+          "source": "ESA",
+          "summary": "Video: 00:51:38 On Wednesday 19 August, media representatives were invited to a media briefing ahead of the launch of the next Meteosat Third Generation Imager satellite (MTG-I2).",
+          "published": "2026-08-19T15:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA images reveal 60-foot-wide crater on moon left by SpaceX rocket",
+          "link": "https://www.scientificamerican.com/article/nasa-images-reveal-60-foot-wide-crater-on-moon-left-by-spacex-rocket/",
+          "source": "Scientific American",
+          "summary": "The SpaceX rocket fragment hit the moon at several times the speed of sound on August 5",
+          "published": "2026-08-19T13:30:00+00:00",
+          "regional": false
+        },
+        {
           "title": "Fly around Schiaparelli Crater with Mars Express",
           "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Fly_around_Schiaparelli_Crater_with_Mars_Express",
           "source": "ESA",
           "summary": "Video: 00:04:10 ESA’s Mars Express takes us on another mesmerising flight, this time around one of the biggest craters on Mars. Despite measuring a huge 460 km across, Schiaparelli Crater seems to be relatively shallow.",
           "published": "2026-08-19T09:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "China mission aims for the Moon’s hidden water with ‘hopping’ probe",
+          "link": "https://www.science.org/content/article/china-mission-aims-moon-s-hidden-water-hopping-probe",
+          "source": "Science (AAAS)",
+          "summary": "Chang’e-7 will sample lunar ice in a polar crater to trace its origins",
+          "published": "2026-08-19T08:00:00+00:00",
           "regional": false
         },
         {
@@ -586,27 +682,27 @@
           "regional": false
         },
         {
-          "title": "NASA Student Aviation Challenge Focuses on Nation’s Infrastructure",
-          "link": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
-          "source": "NASA",
-          "summary": "NASA’s next Gateways to Blue Skies competition invites collegiate teams to imagine innovative new ways aircraft could inspect land-based infrastructure, such as bridges and tunnels, to improve safety, reliability, and…",
-          "published": "2026-08-18T18:03:44+00:00",
+          "title": "Robotic rescue missions are sparking a spaceflight revolution",
+          "link": "https://www.scientificamerican.com/article/robotic-rescue-missions-are-sparking-a-spaceflight-revolution/",
+          "source": "Scientific American",
+          "summary": "Two new missions are revealing how robotic repair and assembly could become routine on the final frontier",
+          "published": "2026-08-18T12:00:00+00:00",
           "regional": false
         },
         {
-          "title": "NASA’s B777 Gets New Coat of Paint",
-          "link": "https://www.nasa.gov/image-article/nasas-b777-gets-new-coat-of-paint/",
-          "source": "NASA",
-          "summary": "NASA’s Boeing 777 shows off a new paint job in this Aug. 11, 2026, photo. The B777 was acquired to replace and extend the capabilities of the NASA DC-8, which was retired in 2024.",
-          "published": "2026-08-18T15:10:36+00:00",
+          "title": "How NASA turned a spy satellite into the Nancy Grace Roman Space Telescope",
+          "link": "https://www.scientificamerican.com/article/how-nasa-turned-a-spy-satellite-into-the-nancy-grace-roman-space-telescope/",
+          "source": "Scientific American",
+          "summary": "NASA’s Nancy Grace Roman Space Telescope will soon launch to unravel the mysteries of dark energy and dark matter",
+          "published": "2026-08-18T10:00:00+00:00",
           "regional": false
         },
         {
-          "title": "NASA Glenn’s Legacy Forged Through Decades of Flight Research",
-          "link": "https://www.nasa.gov/general/nasa-glenn-inflight-research/",
-          "source": "NASA",
-          "summary": "Many of NASA’s most important aerospace breakthroughs that began in the laboratory were ultimately proven in the sky.",
-          "published": "2026-08-18T14:00:00+00:00",
+          "title": "If millions of satellites launch to space, is chaos the inevitable outcome?",
+          "link": "https://www.scientificamerican.com/article/how-many-satellites-can-safely-orbit-earth/",
+          "source": "Scientific American",
+          "summary": "SpaceX and other companies want to put millions of satellites into space. Could orbit run out of room?",
+          "published": "2026-08-18T10:00:00+00:00",
           "regional": false
         },
         {
@@ -615,54 +711,6 @@
           "source": "ESA",
           "summary": "",
           "published": "2026-08-18T09:16:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Selects Companies to Provide Payload Processing Services",
-          "link": "https://www.nasa.gov/news-release/nasa-selects-companies-to-provide-payload-processing-services/",
-          "source": "NASA",
-          "summary": "NASA has selected four companies to provide payload processing facilities under the Spacecraft Processing Operations Contract on‑ramp provision.",
-          "published": "2026-08-17T20:17:20+00:00",
-          "regional": false
-        },
-        {
-          "title": "Total solar eclipse 2026 (Official ESA broadcast)",
-          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Total_solar_eclipse_2026_Official_ESA_broadcast",
-          "source": "ESA",
-          "summary": "Video: 01:10:42 We broadcast live from the Observatorio Astrofísico de Javalambre in Spain as a total solar eclipse crossed Europe on 12 August 2026.",
-          "published": "2026-08-17T14:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Watch Sophie Adenot’s spacewalk live",
-          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Watch_Sophie_Adenot_s_spacewalk_live",
-          "source": "ESA",
-          "summary": "Watch ESA astronaut Sophie Adenot venture into the vacuum of space for her first-ever spacewalk on Tuesday, 18 August.",
-          "published": "2026-08-17T06:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "A look back at the 2026 total solar eclipse",
-          "link": "https://www.esa.int/Science_Exploration/Space_Science/A_look_back_at_the_2026_total_solar_eclipse",
-          "source": "ESA",
-          "summary": "On 12 August 2026, Europe witnessed the first total solar eclipse in over two decades. Millions of people were awed by the Moon completely covering the Sun's bright disc, briefly turning day into night and revealing the…",
-          "published": "2026-08-14T10:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Neptune’s tiny moons may be the wreckage of shattered ancient worlds",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260813045545.htm",
-          "source": "ScienceDaily",
-          "summary": "JWST has uncovered surprising clues that Neptune’s strange inner moons may be the wreckage of an ancient cosmic catastrophe.",
-          "published": "2026-08-14T04:35:05+00:00",
-          "regional": false
-        },
-        {
-          "title": "Indian solar mission's new findings throw light on enduring Sun mysteries",
-          "link": "https://www.bbc.co.uk/news/articles/c934wqpd74xo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Why is the Sun's corona millions of degrees hotter than its surface? And how does it maintain its inexplicably high temperature?",
-          "published": "2026-08-14T02:13:27+00:00",
           "regional": false
         },
         {
@@ -682,51 +730,11 @@
           "regional": false
         },
         {
-          "title": "Lion Nebula roars to life for Webb",
-          "link": "https://www.esa.int/ESA_Multimedia/Images/2026/08/Lion_Nebula_roars_to_life_for_Webb",
-          "source": "ESA",
-          "summary": "Image: Observing across the starry 'plains' of space, the NASA/ESA/CSA James Webb Space Telescope has taken images of NGC 2392, nicknamed the Lion Nebula.",
-          "published": "2026-08-10T14:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Voyager 2 was running out of power. NASA just bought it more time",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260810015703.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA engineers have found a clever way to squeeze more life out of Voyager 2, nearly half a century after it left Earth.",
-          "published": "2026-08-10T09:45:23+00:00",
-          "regional": false
-        },
-        {
           "title": "Scientists tracked 12 people in Antarctica for 10 months—what happened could shape future Mars missions",
           "link": "https://www.sciencedaily.com/releases/2026/08/260806050722.htm",
           "source": "ScienceDaily",
           "summary": "A ten-month Antarctic experiment found that astronauts may struggle not only with loneliness but also with spending too much time around the same people.",
           "published": "2026-08-07T11:18:01+00:00",
-          "regional": false
-        },
-        {
-          "title": "The key to colonizing Mars may be hidden inside asteroids",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260805082504.htm",
-          "source": "ScienceDaily",
-          "summary": "Metal-rich asteroids could one day become hardware stores for Mars, supplying the materials needed to build and repair a growing colony.",
-          "published": "2026-08-07T05:29:22+00:00",
-          "regional": false
-        },
-        {
-          "title": "A match made in cleanrooms",
-          "link": "https://www.esa.int/ESA_Multimedia/Images/2026/08/A_match_made_in_cleanrooms",
-          "source": "ESA",
-          "summary": "Image: The Orion spacecraft for Artemis III inside the cleanroom at NASA's Kennedy Space Center.",
-          "published": "2026-08-06T13:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "A solar eclipse and the Perseid meteor shower arrive on the same day",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260804034628.htm",
-          "source": "ScienceDaily",
-          "summary": "August brings four major celestial events, including a solar eclipse and the peak of the Perseid meteor shower. Dark New Moon skies could make the Perseids especially impressive, while Venus will blaze in the west after…",
-          "published": "2026-08-05T04:13:47+00:00",
           "regional": false
         },
         {
@@ -842,11 +850,59 @@
       "accent": "#B98CE0",
       "items": [
         {
+          "title": "NASA calls off rescue mission for its falling Swift space telescope",
+          "link": "https://www.scientificamerican.com/article/nasa-calls-off-rescue-mission-for-its-falling-swift-space-telescope/",
+          "source": "Scientific American",
+          "summary": "The space agency’s Neil Gehrels Swift Observatory, which studied cataclysmic cosmic explosions, is expected to burn up in Earth’s atmosphere later this year",
+          "published": "2026-08-19T22:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "The Milky Way’s Fastest Star Could Expose Our Black Hole’s Spin",
+          "link": "https://www.scientificamerican.com/article/the-milky-ways-fastest-star-could-expose-our-black-holes-spin/",
+          "source": "Scientific American",
+          "summary": "The star S301 swoops so close to our galaxy’s supermassive black hole that it could, for the first time ever, reveal that dark behemoth’s rotation",
+          "published": "2026-08-19T16:40:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Next Up! A Deep Partial Lunar Eclipse on Aug. 27–28",
+          "link": "https://skyandtelescope.org/astronomy-news/next-up-a-deep-partial-lunar-eclipse-on-aug-27-28/",
+          "source": "Sky & Telescope",
+          "summary": "A near-total lunar eclipse wraps up August's trifecta of two major eclipses and the Perseids. The post Next Up! A Deep Partial Lunar Eclipse on Aug. 27–28 appeared first on Sky & Telescope .",
+          "published": "2026-08-19T15:06:26+00:00",
+          "regional": false
+        },
+        {
+          "title": "Milky Way's fastest star orbits our supermassive black hole so closely it feels its spin",
+          "link": "https://www.eso.org/public/news/eso2612/",
+          "source": "ESO",
+          "summary": "Astronomers have discovered the fastest known star in our galaxy, the Milky Way, orbiting the black hole at its centre.",
+          "published": "2026-08-19T15:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Fastest known star could reveal the spin of our galaxy’s giant black hole",
+          "link": "https://www.science.org/content/article/fastest-known-star-could-reveal-spin-our-galaxy-s-giant-black-hole",
+          "source": "Science (AAAS)",
+          "summary": "Racing at 8% the speed of light, record-setting object orbits the Milky Way’s black hole every 8.7 years",
+          "published": "2026-08-19T11:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "Spying on a Split Comet",
           "link": "https://skyandtelescope.org/astronomy-news/spying-on-a-split-comet/",
           "source": "Sky & Telescope",
           "summary": "Traversing through the solar system, a comet split in two, and a recent study used six months of observations to investigate when and why. The post Spying on a Split Comet appeared first on Sky & Telescope .",
           "published": "2026-08-18T12:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "How NASA turned a spy satellite into the Nancy Grace Roman Space Telescope",
+          "link": "https://www.scientificamerican.com/article/how-nasa-turned-a-spy-satellite-into-the-nancy-grace-roman-space-telescope/",
+          "source": "Scientific American",
+          "summary": "NASA’s Nancy Grace Roman Space Telescope will soon launch to unravel the mysteries of dark energy and dark matter",
+          "published": "2026-08-18T10:00:00+00:00",
           "regional": false
         },
         {
@@ -882,35 +938,11 @@
           "regional": false
         },
         {
-          "title": "Solar eclipse inspires talk of Pac-man and Shinto myths",
-          "link": "https://www.bbc.co.uk/news/articles/c33020jgyllo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Thousands turned out to watch the solar eclipse in the South West; here's what they made of it.",
-          "published": "2026-08-15T06:08:29+00:00",
-          "regional": false
-        },
-        {
           "title": "A massive new cosmic map is revealing black holes, rare stars, and hidden gas",
           "link": "https://www.sciencedaily.com/releases/2026/08/260813045541.htm",
           "source": "ScienceDaily",
           "summary": "Astronomers have released more than three million new spectra in a sweeping expansion that, for the first time, brings SDSS-V optical observations to the Southern Hemisphere.",
           "published": "2026-08-14T04:21:15+00:00",
-          "regional": false
-        },
-        {
-          "title": "You got hold of eclipse glasses just in time - here's what to do with them now",
-          "link": "https://www.bbc.co.uk/news/articles/ckgdprd3mv9o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Solar specs are tricky to recycle because of their lenses, so here are three things to do instead.",
-          "published": "2026-08-13T23:15:44+00:00",
-          "regional": false
-        },
-        {
-          "title": "Crowds reflect on watching 'incredible' eclipse",
-          "link": "https://www.bbc.co.uk/news/articles/cr59pgp9pvro?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "People headed to beaches, parks and hills in their droves to catch the rare event.",
-          "published": "2026-08-13T16:59:56+00:00",
           "regional": false
         },
         {
@@ -978,14 +1010,6 @@
           "regional": false
         },
         {
-          "title": "Where to See the August 12th Solar Eclipse Online",
-          "link": "https://skyandtelescope.org/astronomy-news/where-to-see-the-august-12th-solar-eclipse-online/",
-          "source": "Sky & Telescope",
-          "summary": "View the August 12th total solar eclipse from anywhere — the livestream options are plentiful! The post Where to See the August 12th Solar Eclipse Online appeared first on Sky & Telescope .",
-          "published": "2026-08-10T14:01:43+00:00",
-          "regional": false
-        },
-        {
           "title": "A star’s violent death exposed a hidden supermassive black hole",
           "link": "https://www.sciencedaily.com/releases/2026/08/260805082457.htm",
           "source": "ScienceDaily",
@@ -1002,27 +1026,11 @@
           "regional": false
         },
         {
-          "title": "Mysterious Milky Way object accelerates protons beyond one quadrillion electron volts",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260731034150.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have identified LHAASO J1912+1014u as a cosmic accelerator that can push protons beyond one quadrillion electron volts.",
-          "published": "2026-08-02T02:59:35+00:00",
-          "regional": false
-        },
-        {
           "title": "Tiny black holes may be secretly exploding stars across the Milky Way",
           "link": "https://www.sciencedaily.com/releases/2026/07/260729051515.htm",
           "source": "ScienceDaily",
           "summary": "Primordial black holes may occasionally pass through white dwarf stars and trigger enormous Type Ia supernova explosions.",
           "published": "2026-08-01T13:33:41+00:00",
-          "regional": false
-        },
-        {
-          "title": "Black holes may spit out nearly as much matter as they swallow",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260731034127.htm",
-          "source": "ScienceDaily",
-          "summary": "A black hole observed during a dramatic 2023 eruption did not simply devour gas from its nearby companion star. It also expelled large amounts of material through powerful jets and winds, even after the outburst had…",
-          "published": "2026-07-31T08:18:29+00:00",
           "regional": false
         },
         {
@@ -1032,6 +1040,14 @@
           "summary": "Scientists traced a mysterious surge of low-energy gamma rays from zinc-70 to magnetic changes occurring inside its nucleus.",
           "published": "2026-07-31T05:15:53+00:00",
           "regional": false
+        },
+        {
+          "title": "A star that feels our Galaxies central black hole rotate",
+          "link": "https://www.mpg.de/26915272/a-star-with-an-extreme-orbit-s301-feels-the-rotation-of-the-milky-way-s-central-black-hole",
+          "source": "Max Planck Society",
+          "summary": "A newly detected star orbits the central black hole of our Milky Way closer than any other known star and therefore experiences, how the rotating black hole drags the surrounding spacetime along",
+          "published": "2026-08-19T16:00:00+00:00",
+          "regional": true
         },
         {
           "title": "Unusual black hole found at universe’s dawn presents dusty mystery to astronomers",
