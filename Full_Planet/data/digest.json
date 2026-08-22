@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-21T09:26:28.163674+00:00",
-  "generated_human": "21 August 2026, 09:26 UTC",
-  "total_items": 132,
+  "generated": "2026-08-22T09:18:14.886207+00:00",
+  "generated_human": "22 August 2026, 09:18 UTC",
+  "total_items": 130,
   "channels": [
     {
       "key": "ai",
@@ -9,14 +9,6 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
-        {
-          "title": "AI decodes the mathematical ‘fingerprints’ of famous jazz musicians, from Chick Corea to Thelonious Monk",
-          "link": "https://www.scientificamerican.com/article/ai-decodes-the-mathematical-fingerprints-of-famous-jazz-musicians-from-chick-corea-to-thelonious-monk/",
-          "source": "Scientific American",
-          "summary": "Music and math often come together in ways we don’t expect",
-          "published": "2026-08-17T15:00:00+00:00",
-          "regional": false
-        },
         {
           "title": "AI Used to Verify Toughest Mathematics Proof Yet",
           "link": "https://spectrum.ieee.org/axiom-math-246-theorem-formalization",
@@ -48,6 +40,22 @@
           "summary": "Today’s U.S. electrical grid, among the largest, most complex systems ever built, is operating at its limit. The combination of rapid industrial growth, more frequent extreme weather, and a record surge in electricity…",
           "published": "2026-08-05T18:00:03+00:00",
           "regional": false
+        },
+        {
+          "title": "Pay, perks, equity: China’s AI, chip firms lead way in offering rewards to lock in talent",
+          "link": "https://www.scmp.com/tech/big-tech/article/3364689/pay-perks-equity-chinas-ai-chip-firms-lead-way-offering-rewards-lock-talent?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "In the high-stakes battle for China’s top talent, domestic tech companies – especially in semiconductors and artificial intelligence – are rolling out aggressive equity incentive plans as they capitalise on a bull…",
+          "published": "2026-08-22T07:00:06+00:00",
+          "regional": true
+        },
+        {
+          "title": "China’s telecoms giants bet on ‘token factories’ as AI drives revenue growth",
+          "link": "https://www.scmp.com/tech/big-tech/article/3364873/chinas-telecoms-giants-bet-token-factories-ai-drives-revenue-growth?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "China’s three state-owned telecoms giants have made billable artificial intelligence tokens a key focus of their growth strategies, as AI adoption accelerates across the country and computing demand soars.",
+          "published": "2026-08-21T13:30:10+00:00",
+          "regional": true
         },
         {
           "title": "China’s supernodes go mainstream as AI model sizes grow",
@@ -112,22 +120,6 @@
           "summary": "China’s most advanced artificial intelligence models are still being trained on Nvidia chips, sources at major Chinese large language model (LLM) developers say, as the prohibitively high cost of switching to local…",
           "published": "2026-08-10T05:00:23+00:00",
           "regional": true
-        },
-        {
-          "title": "China’s AI models spooked Wall Street. But they may turbocharge industry growth",
-          "link": "https://www.scmp.com/tech/big-tech/article/3363381/chinas-ai-models-spooked-wall-street-they-may-turbocharge-industry-growth?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Breakthroughs in cheap Chinese open-weight artificial intelligence models have spooked US investors, but analysts argue plummeting model costs will benefit the AI industry in the long run by supercharging global demand…",
-          "published": "2026-08-09T09:00:06+00:00",
-          "regional": true
-        },
-        {
-          "title": "Teaching AI to speak India",
-          "link": "https://www.thehindu.com/sci-tech/technology/internet/teaching-ai-to-speak-india/article71280380.ece",
-          "source": "The Hindu",
-          "summary": "Artificial intelligence can chat, translate and answer questions but only if it understands your language. At IIT Madras, researchers at AI4Bharat are travelling across India, collecting voices, preserving dialects and…",
-          "published": "2026-08-09T00:15:19+00:00",
-          "regional": true
         }
       ]
     },
@@ -137,6 +129,14 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "Scientists catch a hidden electronic state forming in just 30 femtoseconds",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260820202856.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists watched a light-triggered hidden state form inside a material in only 30 femtoseconds, revealing a step that had never been seen before.",
+          "published": "2026-08-21T12:01:30+00:00",
+          "regional": false
+        },
         {
           "title": "Physicists pinpoint the perfect crystal site for an ultra-accurate nuclear clock",
           "link": "https://www.scientificamerican.com/article/physicists-pinpoint-the-perfect-crystal-site-for-an-ultra-accurate-nuclear-clock/",
@@ -242,12 +242,12 @@
           "regional": false
         },
         {
-          "title": "New process turns plastic waste into hydrogen fuel while trapping the carbon",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260729051521.htm",
-          "source": "ScienceDaily",
-          "summary": "A new chemical process can transform three of the most common plastics into high-purity hydrogen without sorting them first.",
-          "published": "2026-07-31T12:46:18+00:00",
-          "regional": false
+          "title": "Pay, perks, equity: China’s AI, chip firms lead way in offering rewards to lock in talent",
+          "link": "https://www.scmp.com/tech/big-tech/article/3364689/pay-perks-equity-chinas-ai-chip-firms-lead-way-offering-rewards-lock-talent?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "In the high-stakes battle for China’s top talent, domestic tech companies – especially in semiconductors and artificial intelligence – are rolling out aggressive equity incentive plans as they capitalise on a bull…",
+          "published": "2026-08-22T07:00:06+00:00",
+          "regional": true
         },
         {
           "title": "Samsung SDI to sell W4.45tr Samsung Display stake to fund future growth",
@@ -319,14 +319,6 @@
           "source": "Max Planck Society",
           "summary": "A better understanding of hydrogen embrittlement enables the design of alloys for gas turbines for hydrogen combustion",
           "published": "2026-08-12T09:00:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "Well-worn wins: Wild capuchin monkeys prefer stones with a proven track record of cracking nuts",
-          "link": "https://www.mpg.de/26900810/well-worn-wins-wild-capuchin-monkeys-prefer-stones-that-have-a-proven-track-record-of-cracking-nuts",
-          "source": "Max Planck Society",
-          "summary": "New study reveals that visible traces of past tool use can outweigh material properties when primates select tools",
-          "published": "2026-08-04T23:15:00+00:00",
           "regional": true
         }
       ]
@@ -562,6 +554,30 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "NASA Shares Views of August Solar Eclipse from Ground, Air, Space",
+          "link": "https://science.nasa.gov/science-research/heliophysics/nasa-shares-views-of-august-solar-eclipse-from-ground-air-space/",
+          "source": "NASA",
+          "summary": "On Aug. 12, a total solar eclipse darkened skies over Greenland, Iceland, and Spain. As the Moon covered the Sun, it briefly revealed the Sun’s wispy outer atmosphere — the corona — to those in the path of totality who…",
+          "published": "2026-08-21T18:43:40+00:00",
+          "regional": false
+        },
+        {
+          "title": "TB 26-04 Updates and Modernization of NASA’s Chemical Equilibrium with Applications (CEA) Code",
+          "link": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-04-updates-and-modernization-of-nasas-chemical-equilibrium-with-applications-cea-code/",
+          "source": "NASA",
+          "summary": "For more information, contact Mark K. Leader, Glenn Research Center, mark.leader@nasa.gov Download the PDF version NASA’s Chemical Equilibrium with Applications (CEA) code is a foundational tool for propulsion system…",
+          "published": "2026-08-21T17:41:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Artemis II Crew Set to Receive Congressional Space Medal of Honor",
+          "link": "https://www.nasa.gov/news-release/nasas-artemis-ii-crew-set-to-receive-congressional-space-medal-of-honor/",
+          "source": "NASA",
+          "summary": "President Donald J. Trump will award each of NASA’s Artemis II crew members the Congressional Space Medal of Honor at 11 a.m. EDT on Friday, Aug. 28, during a ceremony at the agency’s Johnson Space Center in Houston.",
+          "published": "2026-08-21T17:06:36+00:00",
+          "regional": false
+        },
+        {
           "title": "Artemis Mission Patches",
           "link": "https://www.nasa.gov/image-article/artemis-mission-patches/",
           "source": "NASA",
@@ -618,22 +634,6 @@
           "regional": false
         },
         {
-          "title": "NASA TechLeap Prize: Orbital Clarity Challenge",
-          "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-techleap-prize-orbital-clarity-challenge/",
-          "source": "NASA",
-          "summary": "The Orbital Clarity Challenge — the sixth in the NASA TechLeap Prize series — is a collaborative effort between NASA’s Heliophysics Division, Flight Opportunities program, and Center of Excellence for Collaborative…",
-          "published": "2026-08-19T19:57:48+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Updates Next Steps for Commercial Swift Boost Mission",
-          "link": "https://www.nasa.gov/news-release/nasa-updates-next-steps-for-commercial-swift-boost-mission/",
-          "source": "NASA",
-          "summary": "Due to an ongoing commercial spacecraft attitude control issue, NASA and Katalyst Space announced Wednesday the LINK spacecraft will not capture or boost an agency satellite to a higher altitude to extend its science…",
-          "published": "2026-08-19T18:08:25+00:00",
-          "regional": false
-        },
-        {
           "title": "Some microbes could survive on the moon—that’s a big problem for NASA",
           "link": "https://www.scientificamerican.com/article/some-microbes-could-survive-on-the-moon-thats-a-big-problem-for-nasa/",
           "source": "Scientific American",
@@ -658,14 +658,6 @@
           "regional": false
         },
         {
-          "title": "Replay: MTG-I2 pre-launch media briefing",
-          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Replay_MTG-I2_pre-launch_media_briefing",
-          "source": "ESA",
-          "summary": "Video: 00:51:38 On Wednesday 19 August, media representatives were invited to a media briefing ahead of the launch of the next Meteosat Third Generation Imager satellite (MTG-I2).",
-          "published": "2026-08-19T15:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA images reveal 60-foot-wide crater on moon left by SpaceX rocket",
           "link": "https://www.scientificamerican.com/article/nasa-images-reveal-60-foot-wide-crater-on-moon-left-by-spacex-rocket/",
           "source": "Scientific American",
@@ -674,11 +666,11 @@
           "regional": false
         },
         {
-          "title": "Fly around Schiaparelli Crater with Mars Express",
-          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Fly_around_Schiaparelli_Crater_with_Mars_Express",
+          "title": "ESA astronaut Sophie Adenot during EVA-97",
+          "link": "https://www.esa.int/ESA_Multimedia/Images/2026/08/ESA_astronaut_Sophie_Adenot_during_EVA-975",
           "source": "ESA",
-          "summary": "Video: 00:04:10 ESA’s Mars Express takes us on another mesmerising flight, this time around one of the biggest craters on Mars. Despite measuring a huge 460 km across, Schiaparelli Crater seems to be relatively shallow.",
-          "published": "2026-08-19T09:00:00+00:00",
+          "summary": "Image: ESA astronaut Sophie Adenot during EVA-97",
+          "published": "2026-08-19T09:29:00+00:00",
           "regional": false
         },
         {
@@ -842,6 +834,14 @@
       "accent": "#B98CE0",
       "items": [
         {
+          "title": "‘Earth-like’ exoplanets may exist—but we don’t know of any yet",
+          "link": "https://www.scientificamerican.com/article/earth-like-exoplanets-may-exist-but-we-dont-know-of-any-yet/",
+          "source": "Scientific American",
+          "summary": "Claiming an exoplanet to be “Earth-like” is a trend that needs to bite the dust",
+          "published": "2026-08-21T10:45:00+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA calls off rescue mission for its falling Swift space telescope",
           "link": "https://www.scientificamerican.com/article/nasa-calls-off-rescue-mission-for-its-falling-swift-space-telescope/",
           "source": "Scientific American",
@@ -871,14 +871,6 @@
           "source": "ESO",
           "summary": "Astronomers have discovered the fastest known star in our galaxy, the Milky Way, orbiting the black hole at its centre.",
           "published": "2026-08-19T15:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Fastest known star could reveal the spin of our galaxy’s giant black hole",
-          "link": "https://www.science.org/content/article/fastest-known-star-could-reveal-spin-our-galaxy-s-giant-black-hole",
-          "source": "Science (AAAS)",
-          "summary": "Racing at 8% the speed of light, record-setting object orbits the Milky Way’s black hole every 8.7 years",
-          "published": "2026-08-19T11:00:00+00:00",
           "regional": false
         },
         {
@@ -1095,14 +1087,6 @@
           "source": "Max Planck Society",
           "summary": "The world’s largest solar telescope made small vortices visible that are changing our understanding of the sun",
           "published": "2026-08-05T10:00:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "Most comprehensive census of the high-energy universe to date",
-          "link": "https://www.mpg.de/26891434/20260729-erosita-dr2-nearly-doubles-known-x-ray-sources-to-two-million",
-          "source": "Max Planck Society",
-          "summary": "Second data release nearly doubles the previously known eROSITA X-ray sources to two million",
-          "published": "2026-07-31T13:00:00+00:00",
           "regional": true
         }
       ]
