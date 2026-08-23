@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-08-22 12:25 PDT
-; Observing window starts 2026-08-22 20:58 PDT  (LST 18:12:55)
+; Generated 2026-08-23 12:25 PDT
+; Observing window starts 2026-08-23 20:56 PDT  (LST 18:14:52)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -355,7 +355,7 @@ M 33
 #filter r',g',i',z'
 M 74
 
-; Asteroid 2 Pallas  mag 9.1
+; Asteroid 2 Pallas  mag 9.0
 #posang 0
 #count 3
 #interval 300
@@ -364,7 +364,7 @@ M 74
 MP Pallas
 #WAITINLIMITS 60
 
-; Asteroid 4 Vesta  mag 7.2
+; Asteroid 4 Vesta  mag 7.1
 #posang 0
 #count 3
 #interval 300
@@ -413,15 +413,6 @@ M 77
 #filter r',g'
 AT2026rok	02:53:07.234	+16:51:11.98
 
-; Comet 220P/McNaught  mag 9.9
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 220P/McNaught
-#WAITINLIMITS 60
-
 ; Comet 161P/Hartley-IRAS  mag 13.4
 #posang 0
 #count 3
@@ -431,13 +422,13 @@ CT 220P/McNaught
 CT 161P/Hartley-IRAS
 #WAITINLIMITS 60
 
-; Comet 88P/Howell  mag 14.0
+; Comet 220P/McNaught  mag 9.6
 #posang 0
 #count 3
 #interval 300
 #binning 1
 #filter r'
-CT 88P/Howell
+CT 220P/McNaught
 #WAITINLIMITS 60
 
 ; Galaxy  mag 9.7  size 5.73'
@@ -481,7 +472,7 @@ Uranus
 #filter r',g',i',z'
 M 35
 
-; Asteroid 1 Ceres  mag 9.0
+; Asteroid 1 Ceres  mag 8.9
 #posang 0
 #count 3
 #interval 300
