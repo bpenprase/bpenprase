@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-22T09:18:14.886207+00:00",
-  "generated_human": "22 August 2026, 09:18 UTC",
-  "total_items": 130,
+  "generated": "2026-08-23T09:18:26.034049+00:00",
+  "generated_human": "23 August 2026, 09:18 UTC",
+  "total_items": 129,
   "channels": [
     {
       "key": "ai",
@@ -40,6 +40,22 @@
           "summary": "Today’s U.S. electrical grid, among the largest, most complex systems ever built, is operating at its limit. The combination of rapid industrial growth, more frequent extreme weather, and a record surge in electricity…",
           "published": "2026-08-05T18:00:03+00:00",
           "regional": false
+        },
+        {
+          "title": "Dividends or buybacks: Samsung, SK hynix divide on AI windfall",
+          "link": "https://www.koreaherald.com/article/10849101",
+          "source": "The Korea Herald",
+          "summary": "Samsung Electronics and SK hynix have unveiled their largest-ever shareholder return programs, moving to share more of the windfall from the artificial intelligence chip boom with investors.",
+          "published": "2026-08-23T06:24:17+00:00",
+          "regional": true
+        },
+        {
+          "title": "Nvidia customers notified of AI-related price rises above 15%",
+          "link": "https://www.scmp.com/tech/big-tech/article/3364945/nvidia-customers-notified-ai-related-price-rises-above-15?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Some of Nvidia’s biggest customers have been told that the prices of servers containing its artificial intelligence chips are going up more than 15 per cent in many cases with memory chip costs soaring.",
+          "published": "2026-08-22T21:54:25+00:00",
+          "regional": true
         },
         {
           "title": "Pay, perks, equity: China’s AI, chip firms lead way in offering rewards to lock in talent",
@@ -103,22 +119,6 @@
           "source": "South China Morning Post",
           "summary": "As demand for artificial intelligence infrastructure surges, Alibaba Group Holding says it can deliver new data centres in a fraction of the usual time while cutting construction costs by 10 per cent through its…",
           "published": "2026-08-11T10:00:16+00:00",
-          "regional": true
-        },
-        {
-          "title": "Meta to challenge China’s open-weight AI dominance amid US regulatory fears",
-          "link": "https://www.scmp.com/tech/big-tech/article/3363638/meta-challenge-chinas-open-weight-ai-dominance-amid-us-regulatory-fears?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "China’s dominance in open-weight artificial intelligence faces a fresh challenge from Meta Platforms, whose renewed push into open-source models could lure away American customers anxious about looming regulatory…",
-          "published": "2026-08-11T07:30:39+00:00",
-          "regional": true
-        },
-        {
-          "title": "China’s top AI is still trained on Nvidia chips. What is delaying a switch to local tech?",
-          "link": "https://www.scmp.com/tech/big-tech/article/3363491/chinas-top-ai-still-trained-nvidia-chips-what-delaying-switch-local-tech?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "China’s most advanced artificial intelligence models are still being trained on Nvidia chips, sources at major Chinese large language model (LLM) developers say, as the prohibitively high cost of switching to local…",
-          "published": "2026-08-10T05:00:23+00:00",
           "regional": true
         }
       ]
@@ -234,12 +234,20 @@
           "regional": false
         },
         {
-          "title": "Scientists left water inside a battery and nearly doubled its power",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260729043937.htm",
-          "source": "ScienceDaily",
-          "summary": "A surprisingly simple change could make sodium-ion batteries far more powerful while opening the door to turning seawater into drinking water.",
-          "published": "2026-08-01T10:41:53+00:00",
-          "regional": false
+          "title": "Innometry ships first inspection equipment for 46-series batteries",
+          "link": "https://www.koreaherald.com/article/10849123",
+          "source": "The Korea Herald",
+          "summary": "Innometry said Sunday it recently shipped non-destructive inspection equipment for a major battery manufacturer’s mass production line for 46-series cylindrical batteries, strengthening its position in the rapidly…",
+          "published": "2026-08-23T07:26:57+00:00",
+          "regional": true
+        },
+        {
+          "title": "BOK expected to raise S. Korea's 2026 growth estimate to over 3%: experts",
+          "link": "https://www.koreaherald.com/article/10848992",
+          "source": "The Korea Herald",
+          "summary": "The Bank of Korea is expected to raise its growth outlook for the South Korean economy this year to over 3 percent, economic experts here said Sunday, citing stronger-than-expected semiconductor exports and recovering…",
+          "published": "2026-08-23T01:47:24+00:00",
+          "regional": true
         },
         {
           "title": "Pay, perks, equity: China’s AI, chip firms lead way in offering rewards to lock in talent",
@@ -258,11 +266,27 @@
           "regional": true
         },
         {
+          "title": "Korea builds 'fiscal reservoir' for chip tax windfall, rewrites school funding",
+          "link": "https://www.koreaherald.com/article/10848443",
+          "source": "The Korea Herald",
+          "summary": "South Korea unveiled plans Friday to create a new fiscal fund that will channel tax revenue generated by the semiconductor boom into long-term investment while serving as a buffer against future revenue downturns.",
+          "published": "2026-08-21T08:19:09+00:00",
+          "regional": true
+        },
+        {
           "title": "Newly developed tool makes cell membrane lipids easier to visualize",
           "link": "https://sj.jst.go.jp/news/202608/n0821-03k.html",
           "source": "Science Japan",
           "summary": "A research group consisting of Professor Taki Nishimura of the Institute for Protein Research at the University of Osaka, Lecturer Kotaro Tsuboyama of the Institute of Industrial Science at the University of Tokyo,…",
           "published": "2026-08-21T06:14:29+00:00",
+          "regional": true
+        },
+        {
+          "title": "Samsung consumer-device workers to rally as chip boom widens pay divide",
+          "link": "https://www.koreaherald.com/article/10848064",
+          "source": "The Korea Herald",
+          "summary": "A Samsung Electronics union representing mainly workers in the company’s consumer-device business is set to rally in Seoul on Friday afternoon over a widening compensation gap with its semiconductor division, as the…",
+          "published": "2026-08-21T04:10:22+00:00",
           "regional": true
         },
         {
@@ -287,38 +311,6 @@
           "source": "Science Japan",
           "summary": "IBM announced on July 6 that a joint research team from Oak Ridge National Laboratory (ORNL), Cleveland Clinic, and IBM successfully calculated nine molecular structures of a material promising for fusion energy fuel…",
           "published": "2026-08-20T06:20:07+00:00",
-          "regional": true
-        },
-        {
-          "title": "China’s richest province taps Alibaba to power its AI and chip push",
-          "link": "https://www.scmp.com/tech/policy/article/3364053/chinas-richest-province-taps-alibaba-power-its-ai-and-chip-push?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "China’s richest province has deepened its partnership with technology giant Alibaba Group Holding, eyeing a broad digital upgrade spanning artificial intelligence, semiconductors, and smart public services.",
-          "published": "2026-08-14T09:15:43+00:00",
-          "regional": true
-        },
-        {
-          "title": "SMIC weighs more capacity as AI-related chip demand exceeds forecasts",
-          "link": "https://www.scmp.com/tech/big-tech/article/3363996/smic-weighs-more-capacity-ai-related-chip-demand-exceeds-forecasts?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Semiconductor Manufacturing International Corporation (SMIC) is actively looking at adding equipment in its factories after demand for mature-node chips used alongside AI processors surged beyond expectations, according…",
-          "published": "2026-08-14T05:00:14+00:00",
-          "regional": true
-        },
-        {
-          "title": "A new class of metals could transform Africa’s clean energy economy – scientists explain",
-          "link": "https://theconversation.com/a-new-class-of-metals-could-transform-africas-clean-energy-economy-scientists-explain-282572",
-          "source": "The Conversation",
-          "summary": "Storing hydrogen in metallic materials is a promising avenue for extracting value from Africa’s minerals.",
-          "published": "2026-08-13T14:11:12+00:00",
-          "regional": true
-        },
-        {
-          "title": "Are gas turbines ready for the hydrogen economy?",
-          "link": "https://www.mpg.de/26888011/hydrogen-embrittlement-in-gas-turbines-at-elevated-temperatures",
-          "source": "Max Planck Society",
-          "summary": "A better understanding of hydrogen embrittlement enables the design of alloys for gas turbines for hydrogen combustion",
-          "published": "2026-08-12T09:00:00+00:00",
           "regional": true
         }
       ]
@@ -466,6 +458,14 @@
           "regional": false
         },
         {
+          "title": "Innometry ships first inspection equipment for 46-series batteries",
+          "link": "https://www.koreaherald.com/article/10849123",
+          "source": "The Korea Herald",
+          "summary": "Innometry said Sunday it recently shipped non-destructive inspection equipment for a major battery manufacturer’s mass production line for 46-series cylindrical batteries, strengthening its position in the rapidly…",
+          "published": "2026-08-23T07:26:57+00:00",
+          "regional": true
+        },
+        {
           "title": "Samsung SDI to sell W4.45tr Samsung Display stake to fund future growth",
           "link": "https://www.koreaherald.com/article/10848462",
           "source": "The Korea Herald",
@@ -535,14 +535,6 @@
           "source": "Max Planck Society",
           "summary": "A better understanding of hydrogen embrittlement enables the design of alloys for gas turbines for hydrogen combustion",
           "published": "2026-08-12T09:00:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "What a water-wise city would look like – and how India can get there",
-          "link": "https://www.thehindu.com/sci-tech/energy-and-environment/what-a-water-wise-city-would-look-like-and-how-india-can-get-there/article71316407.ece",
-          "source": "The Hindu",
-          "summary": "Durban and Bhubaneswar have protected water access for low-income households. Las Vegas and Bengaluru use higher tariffs to discourage excessive consumption.",
-          "published": "2026-08-10T04:55:27+00:00",
           "regional": true
         }
       ]
@@ -658,6 +650,14 @@
           "regional": false
         },
         {
+          "title": "Replay: MTG-I2 pre-launch media briefing",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Replay_MTG-I2_pre-launch_media_briefing",
+          "source": "ESA",
+          "summary": "Video: 00:51:38 On Wednesday 19 August, media representatives were invited to a media briefing ahead of the launch of the next Meteosat Third Generation Imager satellite (MTG-I2).",
+          "published": "2026-08-19T15:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA images reveal 60-foot-wide crater on moon left by SpaceX rocket",
           "link": "https://www.scientificamerican.com/article/nasa-images-reveal-60-foot-wide-crater-on-moon-left-by-spacex-rocket/",
           "source": "Scientific American",
@@ -738,12 +738,12 @@
           "regional": false
         },
         {
-          "title": "NASA’s Curiosity rover finds a mysterious honeycomb landscape on Mars",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260731034142.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA’s Curiosity rover has entered a Martian valley covered by an astonishing “sea” of tiny polygon-shaped fractures.",
-          "published": "2026-08-01T13:47:24+00:00",
-          "regional": false
+          "title": "Watch: Gaganyaan Episode 3: How India will save its Astronauts | The Scope",
+          "link": "https://www.thehindu.com/videos/watch-gaganyaan-episode-3-how-india-will-save-its-astronauts-the-scope/article71378193.ece",
+          "source": "The Hindu",
+          "summary": "In Episode 3 of The Scope’s Gaganyaan — India’s Leap, we explore the Crew Escape System the last line of defence for India’s astronauts during launch.",
+          "published": "2026-08-22T14:21:52+00:00",
+          "regional": true
         },
         {
           "title": "China clears Geely for landmark satellite IoT test to spur commercial space sector",
@@ -816,14 +816,6 @@
           "summary": "Globally only three commercial companies have successfully developed high thrust FFSC engines, which are SpaceX and Stoke Space, both from the United States of America, and Land Space from China",
           "published": "2026-08-11T05:33:27+00:00",
           "regional": true
-        },
-        {
-          "title": "NASA astronauts Anil Menon, Jessica Meir undertake spacewalk to upgrade space station",
-          "link": "https://www.thehindu.com/sci-tech/science/nasa-astronauts-anil-menon-jessica-meir-undertake-spacewalk-to-upgrade-space-station/article71316085.ece",
-          "source": "The Hindu",
-          "summary": "The spacewalk – 281st in support of the space station – sixth for Ms. Meir and first for Mr. Menon began at 8.33 a.m. EDT (6.03 p.m. IST) on Thursday (August 5, 2026)",
-          "published": "2026-08-08T20:16:16+00:00",
-          "regional": true
         }
       ]
     },
@@ -833,6 +825,22 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "Black holes keep tearing these stars apart, but they survive",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260822015119.htm",
+          "source": "ScienceDaily",
+          "summary": "Astronomers have found stars that repeatedly skim past supermassive black holes, surviving each encounter while producing a new burst of light. In some systems, those flares mysteriously fade with every return.",
+          "published": "2026-08-23T04:08:52+00:00",
+          "regional": false
+        },
+        {
+          "title": "JWST finds early galaxies may be 4 times more massive than thought",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260822015141.htm",
+          "source": "ScienceDaily",
+          "summary": "Astronomers using JWST have discovered that massive early galaxies contain far more small, faint stars than expected.",
+          "published": "2026-08-22T12:36:23+00:00",
+          "regional": false
+        },
         {
           "title": "‘Earth-like’ exoplanets may exist—but we don’t know of any yet",
           "link": "https://www.scientificamerican.com/article/earth-like-exoplanets-may-exist-but-we-dont-know-of-any-yet/",
@@ -1007,22 +1015,6 @@
           "source": "ScienceDaily",
           "summary": "August brings four major celestial events, including a solar eclipse and the peak of the Perseid meteor shower. Dark New Moon skies could make the Perseids especially impressive, while Venus will blaze in the west after…",
           "published": "2026-08-05T04:13:47+00:00",
-          "regional": false
-        },
-        {
-          "title": "Mysterious Milky Way object accelerates protons beyond one quadrillion electron volts",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260731034150.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have identified LHAASO J1912+1014u as a cosmic accelerator that can push protons beyond one quadrillion electron volts.",
-          "published": "2026-08-02T02:59:35+00:00",
-          "regional": false
-        },
-        {
-          "title": "Tiny black holes may be secretly exploding stars across the Milky Way",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260729051515.htm",
-          "source": "ScienceDaily",
-          "summary": "Primordial black holes may occasionally pass through white dwarf stars and trigger enormous Type Ia supernova explosions.",
-          "published": "2026-08-01T13:33:41+00:00",
           "regional": false
         },
         {
