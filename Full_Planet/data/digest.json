@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-25T09:25:40.826752+00:00",
-  "generated_human": "25 August 2026, 09:25 UTC",
-  "total_items": 129,
+  "generated": "2026-08-26T09:31:19.141394+00:00",
+  "generated_human": "26 August 2026, 09:31 UTC",
+  "total_items": 130,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "Researchers presented 6000 papers at a major meeting. Could AI reproduce their findings?",
+          "link": "https://www.science.org/content/article/researchers-presented-6000-papers-major-meeting-could-ai-reproduce-their-findings",
+          "source": "Science (AAAS)",
+          "summary": "Hackathon results suggest AI agents could make verifying research far more routine",
+          "published": "2026-08-25T05:15:00+00:00",
+          "regional": false
+        },
         {
           "title": "AI Used to Verify Toughest Mathematics Proof Yet",
           "link": "https://spectrum.ieee.org/axiom-math-246-theorem-formalization",
@@ -39,14 +47,6 @@
           "source": "South China Morning Post",
           "summary": "While China’s new “AI tigers” have captured global attention for challenging Silicon Valley front-runners, a quieter wave of domestic technology companies is building in-house artificial intelligence systems serving…",
           "published": "2026-08-23T11:00:06+00:00",
-          "regional": true
-        },
-        {
-          "title": "Dividends or buybacks: Samsung, SK hynix divide on AI windfall",
-          "link": "https://www.koreaherald.com/article/10849101",
-          "source": "The Korea Herald",
-          "summary": "Samsung Electronics and SK hynix have unveiled their largest-ever shareholder return programs, moving to share more of the windfall from the artificial intelligence chip boom with investors.",
-          "published": "2026-08-23T06:24:17+00:00",
           "regional": true
         },
         {
@@ -112,6 +112,14 @@
           "summary": "China’s richest province has deepened its partnership with technology giant Alibaba Group Holding, eyeing a broad digital upgrade spanning artificial intelligence, semiconductors, and smart public services.",
           "published": "2026-08-14T09:15:43+00:00",
           "regional": true
+        },
+        {
+          "title": "Alibaba says modular design delivers AI data centres in 100 days at 10% lower cost",
+          "link": "https://www.scmp.com/tech/big-tech/article/3363637/alibaba-says-modular-design-delivers-ai-data-centres-100-days-10-lower-cost?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "As demand for artificial intelligence infrastructure surges, Alibaba Group Holding says it can deliver new data centres in a fraction of the usual time while cutting construction costs by 10 per cent through its…",
+          "published": "2026-08-11T10:00:16+00:00",
+          "regional": true
         }
       ]
     },
@@ -121,6 +129,22 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "Atomic catalyst unlocks the hidden value of plant waste",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260824065601.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have created a highly efficient catalyst that breaks down stubborn lignin from plant waste into useful chemicals under relatively mild conditions.",
+          "published": "2026-08-25T10:09:15+00:00",
+          "regional": false
+        },
+        {
+          "title": "In a global first, Mexico approves use of RNA-based fungicide",
+          "link": "https://www.science.org/content/article/global-first-mexico-approves-use-rna-based-fungicide",
+          "source": "Science (AAAS)",
+          "summary": "Oifirax, created by GreenLight Biosciences, uses RNA molecules to kill the fungus responsible for powdery mildew on grapes",
+          "published": "2026-08-25T02:30:00+00:00",
+          "regional": false
+        },
         {
           "title": "Scientists just imaged the hidden quantum shape of a molecule",
           "link": "https://www.sciencedaily.com/releases/2026/08/260822015213.htm",
@@ -226,11 +250,35 @@
           "regional": false
         },
         {
+          "title": "SK Innovation targets SKIET turnaround with merger, cost cuts",
+          "link": "https://www.koreaherald.com/article/10853039",
+          "source": "The Korea Herald",
+          "summary": "SK Innovation expects its merger with loss-making battery separator unit SK IE Technology to cut annual costs by about 60 billion won ($43.3 million) and return the business to earnings before interest, taxes,…",
+          "published": "2026-08-26T06:37:41+00:00",
+          "regional": true
+        },
+        {
+          "title": "New LED technology delivers multiple colors from a single layer",
+          "link": "https://sj.jst.go.jp/news/202608/n0826-02k.html",
+          "source": "Science Japan",
+          "summary": "In conventional semiconductor LEDs, only a single color can be produced from a single light-emitting layer. As a result, realizing full-color displays has traditionally required stacking multiple light-emitting layers…",
+          "published": "2026-08-26T04:57:25+00:00",
+          "regional": true
+        },
+        {
           "title": "SK Innovation to absorb battery separator unit SKIET",
           "link": "https://www.koreaherald.com/article/10851861",
           "source": "The Korea Herald",
           "summary": "SK Innovation will absorb its battery separator subsidiary SK IE Technology, bringing the struggling business back under direct control five years after it went public.",
           "published": "2026-08-25T08:54:30+00:00",
+          "regional": true
+        },
+        {
+          "title": "LG Chem maps W15tr R&D push beyond petrochemicals",
+          "link": "https://www.koreaherald.com/article/10851529",
+          "source": "The Korea Herald",
+          "summary": "LG Chem is doubling down on transformation from a petrochemical-focused company into a materials powerhouse centered on semiconductors, mobility and batteries, as it aims to rebuild its business portfolio in alignment…",
+          "published": "2026-08-25T05:26:42+00:00",
           "regional": true
         },
         {
@@ -258,30 +306,6 @@
           "regional": true
         },
         {
-          "title": "Innometry ships first inspection equipment for 46-series batteries",
-          "link": "https://www.koreaherald.com/article/10849123",
-          "source": "The Korea Herald",
-          "summary": "Innometry said Sunday it recently shipped non-destructive inspection equipment for a major battery manufacturer’s mass production line for 46-series cylindrical batteries, strengthening its position in the rapidly…",
-          "published": "2026-08-23T07:26:57+00:00",
-          "regional": true
-        },
-        {
-          "title": "Genesis details ground-up engineering of GV90",
-          "link": "https://www.koreaherald.com/article/10849062",
-          "source": "The Korea Herald",
-          "summary": "Genesis, a premium brand under South Korean auto conglomerate Hyundai Motor Group, has developed its new GV90 electric SUV from the ground up, overhauling everything from its platform and battery architecture to its…",
-          "published": "2026-08-23T04:44:45+00:00",
-          "regional": true
-        },
-        {
-          "title": "BOK expected to raise S. Korea's 2026 growth estimate to over 3%: experts",
-          "link": "https://www.koreaherald.com/article/10848992",
-          "source": "The Korea Herald",
-          "summary": "The Bank of Korea is expected to raise its growth outlook for the South Korean economy this year to over 3 percent, economic experts here said Sunday, citing stronger-than-expected semiconductor exports and recovering…",
-          "published": "2026-08-23T01:47:24+00:00",
-          "regional": true
-        },
-        {
           "title": "Pay, perks, equity: China’s AI, chip firms lead way in offering rewards to lock in talent",
           "link": "https://www.scmp.com/tech/big-tech/article/3364689/pay-perks-equity-chinas-ai-chip-firms-lead-way-offering-rewards-lock-talent?utm_source=rss_feed",
           "source": "South China Morning Post",
@@ -290,19 +314,19 @@
           "regional": true
         },
         {
-          "title": "Newly developed tool makes cell membrane lipids easier to visualize",
-          "link": "https://sj.jst.go.jp/news/202608/n0821-03k.html",
-          "source": "Science Japan",
-          "summary": "A research group consisting of Professor Taki Nishimura of the Institute for Protein Research at the University of Osaka, Lecturer Kotaro Tsuboyama of the Institute of Industrial Science at the University of Tokyo,…",
-          "published": "2026-08-21T06:14:29+00:00",
-          "regional": true
-        },
-        {
           "title": "China’s richest province taps Alibaba to power its AI and chip push",
           "link": "https://www.scmp.com/tech/policy/article/3364053/chinas-richest-province-taps-alibaba-power-its-ai-and-chip-push?utm_source=rss_feed",
           "source": "South China Morning Post",
           "summary": "China’s richest province has deepened its partnership with technology giant Alibaba Group Holding, eyeing a broad digital upgrade spanning artificial intelligence, semiconductors, and smart public services.",
           "published": "2026-08-14T09:15:43+00:00",
+          "regional": true
+        },
+        {
+          "title": "SMIC weighs more capacity as AI-related chip demand exceeds forecasts",
+          "link": "https://www.scmp.com/tech/big-tech/article/3363996/smic-weighs-more-capacity-ai-related-chip-demand-exceeds-forecasts?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Semiconductor Manufacturing International Corporation (SMIC) is actively looking at adding equipment in its factories after demand for mature-node chips used alongside AI processors surged beyond expectations, according…",
+          "published": "2026-08-14T05:00:14+00:00",
           "regional": true
         }
       ]
@@ -320,6 +344,14 @@
           "summary": "Researchers have created self-destructing living plastic that uses engineered bacteria to completely break itself down when activated.",
           "published": "2026-07-17T03:09:42+00:00",
           "regional": false
+        },
+        {
+          "title": "New purification method produces higher-quality gene therapy vectors",
+          "link": "https://sj.jst.go.jp/news/202608/n0826-01k.html",
+          "source": "Science Japan",
+          "summary": "A research group led by Specially Appointed Associate Professor Yasuo Tsunaka, Project Assistant Professor Risa Shibuya, Assistant Professor Yuki Yamaguchi and Professor Susumu Uchiyama at the Graduate School of…",
+          "published": "2026-08-26T04:58:17+00:00",
+          "regional": true
         }
       ]
     },
@@ -394,22 +426,6 @@
           "regional": false
         },
         {
-          "title": "How solar became the cheapest form of energy in the world",
-          "link": "https://www.scientificamerican.com/article/how-solar-became-the-cheapest-form-of-energy-in-the-world/",
-          "source": "Scientific American",
-          "summary": "Here are four reasons solar energy has seen a meteoric rise in recent years",
-          "published": "2026-08-18T10:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Lake Powell and Lake Mead hit record lows, threatening hydropower production",
-          "link": "https://www.renewableenergyworld.com/hydro-power/lake-powell-and-lake-mead-hit-record-lows-threatening-hydropower-production/",
-          "source": "Renewable Energy World",
-          "summary": "Lake Powell's water level has fallen to a record low, raising concerns about the Colorado River system's crisis, according to the U.S. Bureau of Reclamation.",
-          "published": "2026-08-17T18:17:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Scientists detect a nuclear reactor’s ghostly afterglow for the first time",
           "link": "https://www.sciencedaily.com/releases/2026/08/260814011036.htm",
           "source": "ScienceDaily",
@@ -458,6 +474,30 @@
           "regional": false
         },
         {
+          "title": "SK Innovation targets SKIET turnaround with merger, cost cuts",
+          "link": "https://www.koreaherald.com/article/10853039",
+          "source": "The Korea Herald",
+          "summary": "SK Innovation expects its merger with loss-making battery separator unit SK IE Technology to cut annual costs by about 60 billion won ($43.3 million) and return the business to earnings before interest, taxes,…",
+          "published": "2026-08-26T06:37:41+00:00",
+          "regional": true
+        },
+        {
+          "title": "LS Cable units hit records on AI infrastructure boom",
+          "link": "https://www.koreaherald.com/article/10852895",
+          "source": "The Korea Herald",
+          "summary": "Three major LS Cable & System subsidiaries posted record first-half earnings as investment in AI data centers and power grids drove demand for cables, bus ducts and subsea infrastructure.",
+          "published": "2026-08-26T05:30:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "India's Uttar Pradesh, Japan's Yamanashi to deepen hydrogen, HR ties",
+          "link": "https://sj.jst.go.jp/news/202608/n0826-01n.html",
+          "source": "Science Japan",
+          "summary": "Public- and private-sector delegates from India's most populous state of Uttar Pradesh and Japan's Yamanashi Prefecture met in the Indian capital on Wednesday to discuss ways to expand cooperation in clean energy,…",
+          "published": "2026-08-26T04:59:14+00:00",
+          "regional": true
+        },
+        {
           "title": "SK Innovation to absorb battery separator unit SKIET",
           "link": "https://www.koreaherald.com/article/10851861",
           "source": "The Korea Herald",
@@ -471,30 +511,6 @@
           "source": "Science Japan",
           "summary": "A research group including Project Researcher Sudhansu Sekhar Das, Technical Specialist Taizo Kawauchi (at the time of research), Assistant Professor Takahiro Ozawa, and Professor Katsuyuki Fukutani of the Institute of…",
           "published": "2026-08-25T05:58:08+00:00",
-          "regional": true
-        },
-        {
-          "title": "EV maker Xpeng set to challenge Tesla in embodied AI after robotics unit raises US$900m",
-          "link": "https://www.scmp.com/business/china-evs/article/3365096/ev-maker-xpeng-set-challenge-tesla-embodied-ai-after-robotics-unit-raises-us900m?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Chinese electric vehicle (EV) maker Xpeng has secured US$900 million in funding from high-profile investors including Alibaba Group Holding and IDG Capital to spur its robotics unit, despite a widening second-quarter…",
-          "published": "2026-08-24T13:29:25+00:00",
-          "regional": true
-        },
-        {
-          "title": "EcoPro BM upgrades Hungary cathode plant for German EVs",
-          "link": "https://www.koreaherald.com/article/10850209",
-          "source": "The Korea Herald",
-          "summary": "EcoPro BM has begun upgrading its cathode production lines at its facility in Debrecen, Hungary, to produce high-nickel cathodes for a German luxury electric vehicle maker, signaling an aggressive push into Europe’s…",
-          "published": "2026-08-24T05:57:25+00:00",
-          "regional": true
-        },
-        {
-          "title": "Innometry ships first inspection equipment for 46-series batteries",
-          "link": "https://www.koreaherald.com/article/10849123",
-          "source": "The Korea Herald",
-          "summary": "Innometry said Sunday it recently shipped non-destructive inspection equipment for a major battery manufacturer’s mass production line for 46-series cylindrical batteries, strengthening its position in the rapidly…",
-          "published": "2026-08-23T07:26:57+00:00",
           "regional": true
         },
         {
@@ -546,6 +562,62 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "New Next-Gen Dish Adds Muscle to NASA’s Deep Space Network",
+          "link": "https://www.nasa.gov/technology/space-comms/deep-space-network/new-next-gen-dish-adds-muscle-to-nasas-deep-space-network/",
+          "source": "NASA",
+          "summary": "NASA’s Deep Space Network facility in California is marking the addition of a brand new 34-meter-wide (114-foot-wide) radio frequency antenna to the agency’s deep space communications and navigation system.",
+          "published": "2026-08-25T22:28:34+00:00",
+          "regional": false
+        },
+        {
+          "title": "Elon Musk’s SpaceX to expand beyond Texas Starbase with new Louisiana spaceport dedicated to Starship",
+          "link": "https://www.scientificamerican.com/article/elon-musks-spacex-to-expand-beyond-texas-starbase-with-new-louisiana-spaceport-dedicated-to-starship/",
+          "source": "Scientific American",
+          "summary": "The new spaceport will support thousands of launches each year, according to SpaceX",
+          "published": "2026-08-25T20:10:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Ames’ Contributions to Roman’s Mission",
+          "link": "https://www.nasa.gov/general/nasa-ames-contributions-to-romans-mission/",
+          "source": "NASA",
+          "summary": "Set to launch on Sunday, Aug. 30, NASA’s Nancy Grace Roman Space Telescope will empower astronomers to explore vast regions of the cosmos and settle essential questions in the areas of dark energy, dark matter, planets…",
+          "published": "2026-08-25T19:44:55+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Ames Experts Available for Roman Space Telescope Interviews",
+          "link": "https://www.nasa.gov/news-release/nasa-ames-experts-available-for-roman-space-telescope-interviews/",
+          "source": "NASA",
+          "summary": "NASA’s Ames Research Center in California’s Silicon Valley invites media to learn more about NASA’s Nancy Grace Roman Space Telescope, scheduled to launch Sunday, Aug.",
+          "published": "2026-08-25T18:47:01+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Pandora Mission Begins Study of Exoplanets, Host Stars",
+          "link": "https://science.nasa.gov/missions/pandora-missions/nasas-pandora-mission-begins-study-of-exoplanets-host-stars/",
+          "source": "NASA",
+          "summary": "Pandora, NASA’s newest exoplanet mission and the first satellite to launch through the agency’s Astrophysics Pioneers program, is now making unique observations of worlds beyond our solar system and the stars they…",
+          "published": "2026-08-25T17:55:02+00:00",
+          "regional": false
+        },
+        {
+          "title": "Astronauts Anil Menon and Sophie Adenot on Spacewalk",
+          "link": "https://www.nasa.gov/image-article/astronauts-anil-menon-and-sophie-adenot-on-spacewalk/",
+          "source": "NASA",
+          "summary": "From left, Expedition 75 flight engineers Anil Menon of NASA (partially obscured and wearing the spacesuit with a red stripe on the legs) and Sophie Adenot of ESA (European Space Agency) work together during a six‑hour…",
+          "published": "2026-08-25T14:57:26+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA finds Earth microbes could survive on the Moon",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260823094142.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA scientists found that microbes brought by astronauts could survive in cold, shadowed niches around the Moon’s South Pole, potentially complicating future searches for pristine lunar chemistry.",
+          "published": "2026-08-25T06:30:18+00:00",
+          "regional": false
+        },
+        {
           "title": "Moon set to turn red as rare partial lunar eclipse graces UK skies",
           "link": "https://www.bbc.co.uk/weather/articles/c5y4n7y89w7o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
@@ -559,30 +631,6 @@
           "source": "NASA",
           "summary": "Coverage plans are ready for NASA’s Nancy Grace Roman Space Telescope prelaunch and launch activities. Roman is NASA’s next-generation observatory designed to explore some of the universe’s biggest mysteries, including…",
           "published": "2026-08-24T20:44:58+00:00",
-          "regional": false
-        },
-        {
-          "title": "Perseverance Captures Another Phobos Transit",
-          "link": "https://science.nasa.gov/photojournal/perseverance-captures-another-phobos-transit/",
-          "source": "NASA",
-          "summary": "Description NASA’s Perseverance Mars rover used its Mastcam-Z camera to capture the silhouette of Phobos, one of the two Martian moons, as it crossed in front of the Sun on Aug.",
-          "published": "2026-08-24T17:56:49+00:00",
-          "regional": false
-        },
-        {
-          "title": "Starstruck: NASA Research Shows How Sun’s Ancient History Shaped Earth",
-          "link": "https://science.nasa.gov/solar-system/starstruck-nasa-research-shows-how-suns-ancient-history-shaped-earth/",
-          "source": "NASA",
-          "summary": "At the center of our solar system, the Sun influences every planet that orbits it. In two recent NASA-funded studies, scientists uncovered how ancient events in the Sun’s history may have helped create Earth’s unique…",
-          "published": "2026-08-24T17:53:57+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Astronaut Reid Wiseman at Freedom 250 Grand Prix",
-          "link": "https://www.nasa.gov/image-article/nasa-astronaut-reid-wiseman-at-freedom-250-grand-prix/",
-          "source": "NASA",
-          "summary": "NASA astronaut and Artemis II commander Reid Wiseman is seen in the two-seat IndyCar as he prepares for driver Conor Daly to take him on a lap ahead of the start of the Freedom 250 Grand Prix, Sunday, Aug.",
-          "published": "2026-08-24T17:34:09+00:00",
           "regional": false
         },
         {
@@ -615,22 +663,6 @@
           "source": "Scientific American",
           "summary": "Snapped on August 23, 1966, by the uncrewed Lunar Orbiter 1, the photo’s legacy lives on in the breathtaking images of Earth taken by the Artemis II crew",
           "published": "2026-08-23T10:30:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "China’s Chang’e 7 moonshot will seek water ice at the lunar south pole",
-          "link": "https://www.scientificamerican.com/article/chinas-change-7-moonshot-will-seek-water-ice-at-the-lunar-south-pole/",
-          "source": "Scientific American",
-          "summary": "The country’s latest mission, Chang’e 7, will be the first ever to land directly at the moon’s south pole. Whatever it finds there could radically reshape a new space race",
-          "published": "2026-08-20T12:30:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA abandons orbit-boosting rescue mission for space observatory",
-          "link": "https://www.science.org/content/article/nasa-abandons-orbit-boosting-rescue-mission-space-observatory",
-          "source": "Science (AAAS)",
-          "summary": "Novel rescue craft unable to connect with doomed Swift Observatory",
-          "published": "2026-08-20T10:38:53+00:00",
           "regional": false
         },
         {
@@ -690,22 +722,6 @@
           "regional": false
         },
         {
-          "title": "ESA astronaut Sophie Adenot during EVA-97",
-          "link": "https://www.esa.int/ESA_Multimedia/Images/2026/08/ESA_astronaut_Sophie_Adenot_during_EVA-975",
-          "source": "ESA",
-          "summary": "Image: ESA astronaut Sophie Adenot during EVA-97",
-          "published": "2026-08-19T09:29:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Robotic rescue missions are sparking a spaceflight revolution",
-          "link": "https://www.scientificamerican.com/article/robotic-rescue-missions-are-sparking-a-spaceflight-revolution/",
-          "source": "Scientific American",
-          "summary": "Two new missions are revealing how robotic repair and assembly could become routine on the final frontier",
-          "published": "2026-08-18T12:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "If millions of satellites launch to space, is chaos the inevitable outcome?",
           "link": "https://www.scientificamerican.com/article/how-many-satellites-can-safely-orbit-earth/",
           "source": "Scientific American",
@@ -736,6 +752,14 @@
           "summary": "A ten-month Antarctic experiment found that astronauts may struggle not only with loneliness but also with spending too much time around the same people.",
           "published": "2026-08-07T11:18:01+00:00",
           "regional": false
+        },
+        {
+          "title": "Moon mission delay a hiccup, but Chinese rocket city Wenchang remains on the march",
+          "link": "https://www.scmp.com/tech/big-tech/article/3365209/moon-mission-delay-hiccup-chinese-rocket-city-wenchang-remains-march?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "For generations, Wenchang, on Hainan’s northeastern coast, was better known for coconuts, its namesake chicken and the emigrants who left for Southeast Asia in search of a living.",
+          "published": "2026-08-25T12:30:17+00:00",
+          "regional": true
         },
         {
           "title": "China abruptly postpones ambitious Chang'e-7 lunar mission launch",
@@ -802,14 +826,6 @@
           "regional": true
         },
         {
-          "title": "Moon Base | India’s lunar future",
-          "link": "https://www.thehindu.com/sci-tech/science/moon-base-indias-lunar-future/article71350559.ece",
-          "source": "The Hindu",
-          "summary": "NASA has invited ISRO to participate in its latest lunar programme, which seeks to build a human outpost near the Moon’s south pole, where sunlight is available for longer periods and permanently shadowed craters…",
-          "published": "2026-08-15T20:41:53+00:00",
-          "regional": true
-        },
-        {
           "title": "NASA invites ISRO to join Moon Base programme",
           "link": "https://www.thehindu.com/sci-tech/science/nasa-invites-isro-to-join-moon-base-programme/article71332292.ece",
           "source": "The Hindu",
@@ -826,10 +842,26 @@
       "accent": "#B98CE0",
       "items": [
         {
-          "title": "Mission Launches to Rescue Swift Observatory (Updated)",
+          "title": "How to see the 2026 ‘blood moon’ eclipse this week",
+          "link": "https://www.scientificamerican.com/article/how-to-see-the-2026-blood-moon-eclipse-this-week/",
+          "source": "Scientific American",
+          "summary": "This near-total eclipse will be visible from the Americas, Africa and Europe—here’s how to see it",
+          "published": "2026-08-25T15:57:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Moon set to turn red as rare partial lunar eclipse graces UK skies",
+          "link": "https://www.bbc.co.uk/weather/articles/c5y4n7y89w7o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "There will be a partial lunar eclipse in the UK on 28 August, and may cause the Moon appear reddish in colour.",
+          "published": "2026-08-25T06:27:24+00:00",
+          "regional": false
+        },
+        {
+          "title": "Mission Fails to Rescue Swift Observatory (Updated)",
           "link": "https://skyandtelescope.org/astronomy-news/mission-launches-to-rescue-swift-observatory/",
           "source": "Sky & Telescope",
-          "summary": "A daring mission will attempt to reach and save a key astrophysics observatory in low Earth orbit. The post Mission Launches to Rescue Swift Observatory (Updated) appeared first on Sky & Telescope .",
+          "summary": "A daring mission tried but failed to save a key astrophysics observatory in low Earth orbit. The post Mission Fails to Rescue Swift Observatory (Updated) appeared first on Sky & Telescope .",
           "published": "2026-08-24T18:15:45+00:00",
           "regional": false
         },
@@ -978,14 +1010,6 @@
           "regional": false
         },
         {
-          "title": "The Helix Nebula is Hurling Clumps of Gas through Space",
-          "link": "https://skyandtelescope.org/astronomy-news/the-helix-nebula-is-hurling-clumps-of-gas-through-space/",
-          "source": "Sky & Telescope",
-          "summary": "The star at the heart of the oft-observed Helix Nebula powered a clumpy wind before it died. Now, new images capture these clumps’ dissolution into the space between stars.",
-          "published": "2026-08-12T15:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "James Webb captures a cosmic lion sculpted by a dying star",
           "link": "https://www.sciencedaily.com/releases/2026/08/260812015206.htm",
           "source": "ScienceDaily",
@@ -1007,14 +1031,6 @@
           "source": "ScienceDaily",
           "summary": "A supermassive black hole has been found lurking about 30,000 light-years from the center of its galaxy—the first dormant black hole detected so far from a galactic core.",
           "published": "2026-08-06T12:16:32+00:00",
-          "regional": false
-        },
-        {
-          "title": "A solar eclipse and the Perseid meteor shower arrive on the same day",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260804034628.htm",
-          "source": "ScienceDaily",
-          "summary": "August brings four major celestial events, including a solar eclipse and the peak of the Perseid meteor shower. Dark New Moon skies could make the Perseids especially impressive, while Venus will blaze in the west after…",
-          "published": "2026-08-05T04:13:47+00:00",
           "regional": false
         },
         {
@@ -1063,14 +1079,6 @@
           "source": "Max Planck Society",
           "summary": "Three supermassive black holes in a distant—and therefore very old—galaxy offer a glimpse into how black holes merged and grew in the early universe",
           "published": "2026-08-12T08:00:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "Solar eclipse 2026: Will it be visible from India?",
-          "link": "https://www.thehindu.com/sci-tech/science/solar-eclipse-2026-surya-grahan-india-august-12-2026/article71331174.ece",
-          "source": "The Hindu",
-          "summary": "A solar eclipse is when the Sun, Moon and Earth are in alignment, and the Moon passes directly between the Sun and Earth, casting a shadow on our planet and blocking some of the fiery ball’s light.",
-          "published": "2026-08-12T07:08:22+00:00",
           "regional": true
         },
         {
