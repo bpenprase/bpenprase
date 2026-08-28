@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-27T19:20:43.983666+00:00",
-  "generated_human": "27 August 2026, 19:20 UTC",
-  "total_items": 132,
+  "generated": "2026-08-28T20:30:02.162220+00:00",
+  "generated_human": "28 August 2026, 20:30 UTC",
+  "total_items": 129,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "Alpha School’s AI teaching model is expanding. Does it work?",
+          "link": "https://www.scientificamerican.com/article/alpha-schools-ai-teaching-model-is-expanding-does-it-work/",
+          "source": "Scientific American",
+          "summary": "The fast-growing private-school network is handing much of instruction over to artificial intelligence. Researchers say the science is far from settled",
+          "published": "2026-08-28T16:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "Jill Lepore on why Silicon Valley gets science fiction wrong",
           "link": "https://www.scientificamerican.com/article/jill-lepore-on-why-silicon-valley-gets-science-fiction-wrong/",
@@ -32,6 +40,14 @@
           "summary": "Researchers have announced synthetic viruses designed by artificial intelligence.",
           "published": "2026-08-13T20:00:00+00:00",
           "regional": false
+        },
+        {
+          "title": "SKT, KT, Kakao consortia selected for govt.-led AI service project",
+          "link": "https://www.koreaherald.com/article/10855191",
+          "source": "The Korea Herald",
+          "summary": "South Korea's science ministry said Friday it has selected three teams to build an artificial intelligence service accessible to everyone, under the government's \"AI for all\" initiative.",
+          "published": "2026-08-28T01:26:25+00:00",
+          "regional": true
         },
         {
           "title": "Alibaba pushes into South America’s AI market with launch of Brazil data centres",
@@ -103,14 +119,6 @@
           "source": "South China Morning Post",
           "summary": "China’s three state-owned telecoms giants have made billable artificial intelligence tokens a key focus of their growth strategies, as AI adoption accelerates across the country and computing demand soars.",
           "published": "2026-08-21T13:30:10+00:00",
-          "regional": true
-        },
-        {
-          "title": "China’s supernodes go mainstream as AI model sizes grow",
-          "link": "https://www.scmp.com/plus/tech/big-tech/article/3364660/chinas-supernodes-go-mainstream-ai-model-sizes-grow?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Supernodes were everywhere at last month’s World Artificial Intelligence Conference (WAIC) in Shanghai. Assemblies of dozens or hundreds of computer chips and associated hardware, supernodes are China’s way around the…",
-          "published": "2026-08-20T06:54:50+00:00",
           "regional": true
         }
       ]
@@ -194,14 +202,6 @@
           "regional": false
         },
         {
-          "title": "Physicists pinpoint the perfect crystal site for an ultra-accurate nuclear clock",
-          "link": "https://www.scientificamerican.com/article/physicists-pinpoint-the-perfect-crystal-site-for-an-ultra-accurate-nuclear-clock/",
-          "source": "Scientific American",
-          "summary": "Growing crystals “like alchemy,” researchers plotted out the ideal site within the lattice to build a nuclear clock",
-          "published": "2026-08-20T18:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "MIT physicists discover electrons rebuilding like ice inside a quantum material",
           "link": "https://www.sciencedaily.com/releases/2026/08/260819041231.htm",
           "source": "ScienceDaily",
@@ -258,12 +258,20 @@
           "regional": false
         },
         {
-          "title": "UCLA scientists discover how to guide heat like light at room temperature",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260805082506.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have demonstrated that heat can move through a crystal in focused, wave-like rays at room temperature instead of spreading randomly.",
-          "published": "2026-08-07T12:22:48+00:00",
-          "regional": false
+          "title": "Innometry ramps up deployment of contactless battery CT system",
+          "link": "https://www.koreaherald.com/article/10855762",
+          "source": "The Korea Herald",
+          "summary": "Innometry said Friday it was accelerating the mass-production deployment of its next-generation 1PASS-RING CT system, featuring a contactless scanning design that eliminates physical handling to protect battery cells…",
+          "published": "2026-08-28T07:13:24+00:00",
+          "regional": true
+        },
+        {
+          "title": "SK hynix open to US investment, sees memory shortage through 2030",
+          "link": "https://www.koreaherald.com/article/10855627",
+          "source": "The Korea Herald",
+          "summary": "SK hynix CEO Kwak Noh-jung said Thursday the company remained open to further US semiconductor investment, while forecasting a global memory chip shortage through the end of 2030.",
+          "published": "2026-08-28T05:32:38+00:00",
+          "regional": true
         },
         {
           "title": "Seoul stocks open sharply higher on robust earnings from Nvidia",
@@ -327,22 +335,6 @@
           "source": "South China Morning Post",
           "summary": "China’s richest province has deepened its partnership with technology giant Alibaba Group Holding, eyeing a broad digital upgrade spanning artificial intelligence, semiconductors, and smart public services.",
           "published": "2026-08-14T09:15:43+00:00",
-          "regional": true
-        },
-        {
-          "title": "SMIC weighs more capacity as AI-related chip demand exceeds forecasts",
-          "link": "https://www.scmp.com/tech/big-tech/article/3363996/smic-weighs-more-capacity-ai-related-chip-demand-exceeds-forecasts?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Semiconductor Manufacturing International Corporation (SMIC) is actively looking at adding equipment in its factories after demand for mature-node chips used alongside AI processors surged beyond expectations, according…",
-          "published": "2026-08-14T05:00:14+00:00",
-          "regional": true
-        },
-        {
-          "title": "A new class of metals could transform Africa’s clean energy economy – scientists explain",
-          "link": "https://theconversation.com/a-new-class-of-metals-could-transform-africas-clean-energy-economy-scientists-explain-282572",
-          "source": "The Conversation",
-          "summary": "Storing hydrogen in metallic materials is a promising avenue for extracting value from Africa’s minerals.",
-          "published": "2026-08-13T14:11:12+00:00",
           "regional": true
         }
       ]
@@ -418,22 +410,6 @@
           "regional": false
         },
         {
-          "title": "How solar saved the grid during Europe’s heatwave",
-          "link": "https://www.renewableenergyworld.com/solar/utility-scale/how-solar-saved-the-grid-during-europes-heatwave/",
-          "source": "Renewable Energy World",
-          "summary": "Energy think tank Ember’s new report highlights the impact of extreme summer temperatures on the grid and the role record solar output played in maintaining grid stability.",
-          "published": "2026-08-20T19:08:12+00:00",
-          "regional": false
-        },
-        {
-          "title": "China’s solar power rollout is harming birds, a new analysis finds",
-          "link": "https://www.scientificamerican.com/article/chinas-solar-power-rollout-is-harming-birds-a-new-analysis-finds/",
-          "source": "Scientific American",
-          "summary": "A new study finds that China’s solar energy boom is hurting bird diversity",
-          "published": "2026-08-20T18:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "The “Asian water tower” is losing 24 billion tonnes of groundwater every year",
           "link": "https://www.sciencedaily.com/releases/2026/08/260820002454.htm",
           "source": "ScienceDaily",
@@ -490,6 +466,14 @@
           "regional": false
         },
         {
+          "title": "Innometry ramps up deployment of contactless battery CT system",
+          "link": "https://www.koreaherald.com/article/10855762",
+          "source": "The Korea Herald",
+          "summary": "Innometry said Friday it was accelerating the mass-production deployment of its next-generation 1PASS-RING CT system, featuring a contactless scanning design that eliminates physical handling to protect battery cells…",
+          "published": "2026-08-28T07:13:24+00:00",
+          "regional": true
+        },
+        {
           "title": "Doosan Group to provide $5m in Nepal flood relief",
           "link": "https://www.koreaherald.com/article/10854601",
           "source": "The Korea Herald",
@@ -522,11 +506,11 @@
           "regional": true
         },
         {
-          "title": "Crystal symmetry found to control hydrogen's quantum nature",
-          "link": "https://sj.jst.go.jp/news/202608/n0825-01k.html",
-          "source": "Science Japan",
-          "summary": "A research group including Project Researcher Sudhansu Sekhar Das, Technical Specialist Taizo Kawauchi (at the time of research), Assistant Professor Takahiro Ozawa, and Professor Katsuyuki Fukutani of the Institute of…",
-          "published": "2026-08-25T05:58:08+00:00",
+          "title": "EV maker Xpeng set to challenge Tesla in embodied AI after robotics unit raises US$900m",
+          "link": "https://www.scmp.com/business/china-evs/article/3365096/ev-maker-xpeng-set-challenge-tesla-embodied-ai-after-robotics-unit-raises-us900m?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Chinese electric vehicle (EV) maker Xpeng has secured US$900 million in funding from high-profile investors including Alibaba Group Holding and IDG Capital to spur its robotics unit, despite a widening second-quarter…",
+          "published": "2026-08-24T13:29:25+00:00",
           "regional": true
         },
         {
@@ -554,14 +538,6 @@
           "regional": true
         },
         {
-          "title": "ReneWable Rangers, un jeu pour éveiller les enfants aux énergies renouvelables",
-          "link": "https://theconversation.com/renewable-rangers-un-jeu-pour-eveiller-les-enfants-aux-energies-renouvelables-289274",
-          "source": "The Conversation",
-          "summary": "La petite enfance est une étape importante au cours de laquelle les enfants développent leur curiosité, leurs valeurs et leur capacité à résoudre des problèmes.",
-          "published": "2026-08-12T11:31:07+00:00",
-          "regional": true
-        },
-        {
           "title": "Are gas turbines ready for the hydrogen economy?",
           "link": "https://www.mpg.de/26888011/hydrogen-embrittlement-in-gas-turbines-at-elevated-temperatures",
           "source": "Max Planck Society",
@@ -577,6 +553,46 @@
       "tagline": "New missions, spacecraft, and technologies — NASA, ESA, ISRO, JAXA, SpaceX, CNES, and more.",
       "accent": "#F0894E",
       "items": [
+        {
+          "title": "President Honors NASA’s Artemis II Crew with Highest US Space Award",
+          "link": "https://www.nasa.gov/news-release/president-honors-nasas-artemis-ii-crew-with-highest-us-space-award/",
+          "source": "NASA",
+          "summary": "President Donald J. Trump awarded NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, and CSA (Canadian Space Agency) astronaut Jeremy Hansen with the Congressional Space Medal of Honor Friday for their…",
+          "published": "2026-08-28T17:37:01+00:00",
+          "regional": false
+        },
+        {
+          "title": "Top 10 Roman Space Telescope science breakthroughs",
+          "link": "https://www.scientificamerican.com/article/top-10-roman-space-telescope-science-breakthroughs/",
+          "source": "Scientific American",
+          "summary": "NASA’s Roman Space Telescope will open a whole new window on the cosmos. Here are 10 things it’s likely to show us",
+          "published": "2026-08-28T17:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Watch: Stargazers around the world glimpse 'Blood Moon' lunar eclipse",
+          "link": "https://www.bbc.co.uk/news/videos/ce3rykzvevno?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Some parts of the globe had a chance to see the rare event when the Sun, Earth and Moon line up in the night sky.",
+          "published": "2026-08-28T12:49:55+00:00",
+          "regional": false
+        },
+        {
+          "title": "Ariane 6 launch with MTG-I2 – highlights",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Ariane_6_launch_with_MTG-I2_highlights",
+          "source": "ESA",
+          "summary": "Video: 00:04:28 The Meteosat Third Generation -Imager2 (MTG-I2) satellite, has been launched on board an Ariane 6 launcher from Europe’s Spaceport in French Guiana.",
+          "published": "2026-08-28T12:20:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "How will NASA’s Roman Space Telescope see exoplanets?",
+          "link": "https://www.scientificamerican.com/article/how-will-nasas-roman-space-telescope-see-exoplanets/",
+          "source": "Scientific American",
+          "summary": "NASA’s newest major observatory will include the most advanced planet-imaging tech ever flown in space. Here’s how it works",
+          "published": "2026-08-28T10:45:00+00:00",
+          "regional": false
+        },
         {
           "title": "NASA Invites Media to Turkey Artemis Accords Signing Ceremony",
           "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-turkey-artemis-accords-signing-ceremony/",
@@ -610,14 +626,6 @@
           "regional": false
         },
         {
-          "title": "MTG-I2 ready for launch on Ariane 6",
-          "link": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/MTG-I2_ready_for_launch_on_Ariane_6",
-          "source": "ESA",
-          "summary": "The Meteosat Third Generation Imager2 satellite (MTG-I2) has been encapsulated inside the Ariane 6 fairing and is in place on its launch pad.",
-          "published": "2026-08-27T07:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Moon set to turn red as rare partial lunar eclipse graces UK skies on Friday",
           "link": "https://www.bbc.co.uk/weather/articles/c5y4n7y89w7o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
@@ -634,35 +642,11 @@
           "regional": false
         },
         {
-          "title": "Roman Space Telescope Travels to SpaceX Hangar",
-          "link": "https://www.nasa.gov/image-article/roman-space-telescope-travels-to-spacex-hangar/",
-          "source": "NASA",
-          "summary": "NASA’s Nancy Grace Roman Space Telescope, encapsulated in its payload fairing, travels from the Payload Hazardous Servicing Facility to the SpaceX hangar at Launch Complex 39A at NASA’s Kennedy Space Center on Tuesday,…",
-          "published": "2026-08-26T18:40:19+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Johnson Pilots Chase Moon’s Shadow for Eclipse Science",
-          "link": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-johnson-pilots-chase-moons-shadow-for-eclipse-science/",
-          "source": "NASA",
-          "summary": "During the Aug. 12 total solar eclipse over Europe, scientists aimed to study a long-standing mystery: why the Sun’s outer atmosphere, the corona, is far hotter than its visible surface.",
-          "published": "2026-08-26T17:33:05+00:00",
-          "regional": false
-        },
-        {
           "title": "How to see the 'Blood Moon' lunar eclipse",
           "link": "https://www.bbc.co.uk/news/videos/cwyzl5x4vv8o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
           "summary": "How to see the 'Blood Moon' lunar eclipse",
           "published": "2026-08-26T14:54:46+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Sets Spacewalk for Station Maintenance, Live Coverage Planned",
-          "link": "https://www.nasa.gov/news-release/nasa-sets-spacewalk-for-station-maintenance-live-coverage-planned/",
-          "source": "NASA",
-          "summary": "NASA will provide coverage as two astronauts step outside the International Space Station on Tuesday, Sept. 1, to replace a spacecraft navigational aid and complete several maintenance tasks in support of space station…",
-          "published": "2026-08-26T14:16:29+00:00",
           "regional": false
         },
         {
@@ -730,19 +714,19 @@
           "regional": false
         },
         {
-          "title": "NASA calls off rescue mission for its falling Swift space telescope",
-          "link": "https://www.scientificamerican.com/article/nasa-calls-off-rescue-mission-for-its-falling-swift-space-telescope/",
-          "source": "Scientific American",
-          "summary": "The space agency’s Neil Gehrels Swift Observatory, which studied cataclysmic cosmic explosions, is expected to burn up in Earth’s atmosphere later this year",
-          "published": "2026-08-19T22:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "'Incredible': SpaceX rocket spotted off Christmas Island coast",
           "link": "https://www.bbc.co.uk/news/videos/c4gw160q3v3o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
           "summary": "A SpaceX rocket that blasted off from Texas in July, and crashed into the Indian Ocean, made an unexpected appearance off Christmas Island.",
           "published": "2026-08-19T15:01:57+00:00",
+          "regional": false
+        },
+        {
+          "title": "ESA astronaut Sophie Adenot during EVA-97",
+          "link": "https://www.esa.int/ESA_Multimedia/Images/2026/08/ESA_astronaut_Sophie_Adenot_during_EVA-975",
+          "source": "ESA",
+          "summary": "Image: ESA astronaut Sophie Adenot during EVA-97",
+          "published": "2026-08-19T09:29:00+00:00",
           "regional": false
         },
         {
@@ -759,14 +743,6 @@
           "source": "ScienceDaily",
           "summary": "NASA is assembling the foundations of a future Moon Base through a wave of robotic missions and powerful new commercial landers.",
           "published": "2026-08-11T04:22:06+00:00",
-          "regional": false
-        },
-        {
-          "title": "Scientists tracked 12 people in Antarctica for 10 months—what happened could shape future Mars missions",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260806050722.htm",
-          "source": "ScienceDaily",
-          "summary": "A ten-month Antarctic experiment found that astronauts may struggle not only with loneliness but also with spending too much time around the same people.",
-          "published": "2026-08-07T11:18:01+00:00",
           "regional": false
         },
         {
@@ -857,6 +833,30 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "Top 10 Roman Space Telescope science breakthroughs",
+          "link": "https://www.scientificamerican.com/article/top-10-roman-space-telescope-science-breakthroughs/",
+          "source": "Scientific American",
+          "summary": "NASA’s Roman Space Telescope will open a whole new window on the cosmos. Here are 10 things it’s likely to show us",
+          "published": "2026-08-28T17:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Roman telescope will see 100 times more sky than Hubble",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260828082333.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA’s Roman Space Telescope will combine Hubble-like detail with a field of view 100 times larger, giving astronomers a sweeping new way to explore the cosmos.",
+          "published": "2026-08-28T13:54:53+00:00",
+          "regional": false
+        },
+        {
+          "title": "How will NASA’s Roman Space Telescope see exoplanets?",
+          "link": "https://www.scientificamerican.com/article/how-will-nasas-roman-space-telescope-see-exoplanets/",
+          "source": "Scientific American",
+          "summary": "NASA’s newest major observatory will include the most advanced planet-imaging tech ever flown in space. Here’s how it works",
+          "published": "2026-08-28T10:45:00+00:00",
+          "regional": false
+        },
         {
           "title": "NASA’s Roman Space Telescope will rewrite how we study the universe",
           "link": "https://www.scientificamerican.com/article/nasas-roman-space-telescope-will-rewrite-how-we-study-the-universe/",
@@ -954,14 +954,6 @@
           "regional": false
         },
         {
-          "title": "NASA calls off rescue mission for its falling Swift space telescope",
-          "link": "https://www.scientificamerican.com/article/nasa-calls-off-rescue-mission-for-its-falling-swift-space-telescope/",
-          "source": "Scientific American",
-          "summary": "The space agency’s Neil Gehrels Swift Observatory, which studied cataclysmic cosmic explosions, is expected to burn up in Earth’s atmosphere later this year",
-          "published": "2026-08-19T22:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Milky Way's fastest star orbits our supermassive black hole so closely it feels its spin",
           "link": "https://www.eso.org/public/news/eso2612/",
           "source": "ESO",
@@ -994,14 +986,6 @@
           "regional": false
         },
         {
-          "title": "California Teen Wins 2026 National Young Astronomer Award",
-          "link": "https://skyandtelescope.org/astronomy-news/california-teen-wins-2026-national-young-astronomer-award/",
-          "source": "Sky & Telescope",
-          "summary": "Elizabeth Zhang of Cupertino, California, has earned the Astronomical League's National Young Astronomer award for her study of circumbinary planets.",
-          "published": "2026-08-17T12:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "A black hole shredded a “super sun” — but something strange may have survived",
           "link": "https://www.sciencedaily.com/releases/2026/08/260814235849.htm",
           "source": "ScienceDaily",
@@ -1023,14 +1007,6 @@
           "source": "ScienceDaily",
           "summary": "Astronomers using the James Webb Space Telescope have discovered a bizarre object from just a few hundred million years after the Big Bang that looks like an enormous star but shines far too brightly to actually be one.",
           "published": "2026-08-13T13:03:55+00:00",
-          "regional": false
-        },
-        {
-          "title": "Did You See the Solar Eclipse? Here’s What We Saw, from Around the World",
-          "link": "https://skyandtelescope.org/astronomy-news/did-you-see-the-solar-eclipse-heres-what-we-saw-from-around-the-world/",
-          "source": "Sky & Telescope",
-          "summary": "Sky & Telescope editors traveled the world, both literally and figuratively, to see the solar eclipse that darkened the world in the most magical way on August 12, 2026. Here are some of their stories.",
-          "published": "2026-08-13T13:03:50+00:00",
           "regional": false
         },
         {
