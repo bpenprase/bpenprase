@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-08-27 19:27 PDT
-; Observing window starts 2026-08-27 20:50 PDT  (LST 18:24:37)
+; Generated 2026-08-28 19:01 PDT
+; Observing window starts 2026-08-28 20:50 PDT  (LST 18:28:33)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -102,14 +102,6 @@ M 11
 #filter r',g',i',z'
 NGC 6819
 
-; Galaxy  mag 10.1  size 17.38'  Barnard's Galaxy
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 6822
-
 ; Asteroid 3 Juno  mag 9.3
 #posang 0
 #count 3
@@ -118,6 +110,14 @@ NGC 6822
 #filter r'
 MP Juno
 #WAITINLIMITS 60
+
+; Galaxy  mag 10.1  size 17.38'  Barnard's Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 6822
 
 ; Open Cluster  mag 5.2  size 9.30'
 #posang 0
@@ -331,7 +331,7 @@ M 33
 #filter r',g',i',z'
 M 74
 
-; Asteroid 2 Pallas  mag 9.0
+; Asteroid 2 Pallas  mag 8.9
 #posang 0
 #count 3
 #interval 300
@@ -388,6 +388,15 @@ M 77
 #binning 1,1
 #filter r',g'
 AT2026rok	02:53:07.234	+16:51:11.98
+
+; Comet 161P/Hartley-IRAS  mag 13.7
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 161P/Hartley-IRAS
+#WAITINLIMITS 60
 
 ; Comet 220P/McNaught  mag 10.6
 #posang 0
@@ -480,6 +489,14 @@ M 35
 MP Ceres
 #WAITINLIMITS 60
 
+; Supernova AT2026wyp in none  Type unk  mag 14.5  z=n/a
+#posang 0
+#count 3,3
+#interval 300,300
+#binning 1,1
+#filter r',g'
+AT2026wyp	06:49:05.903	+37:06:08.52
+
 ; Planet: Mars
 #posang 0
 #count 10
@@ -489,14 +506,6 @@ MP Ceres
 Mars
 #WAITINLIMITS 60
 
-; Supernova AT2026wyp in none  Type unk  mag 14.5  z=n/a
-#posang 0
-#count 3,3
-#interval 300,300
-#binning 1,1
-#filter r',g'
-AT2026wyp	06:49:05.903	+37:06:08.52
-
 ; Galaxy  mag 8.4  size 19.95'
 #posang 0
 #count 1,1,1,1
@@ -505,13 +514,13 @@ AT2026wyp	06:49:05.903	+37:06:08.52
 #filter r',g',i',z'
 NGC 2403
 
-; Galaxy  mag 8.6  size 11.83'  Sunflower Galaxy
+; Galaxy  mag 9.8  size 23.50'
 #posang 0
 #count 1,1,1,1
 #interval 600,600,600,600
 #binning 1,1,1,1
 #filter r',g',i',z'
-M 63
+NGC 4236
 
 ; Galaxy  mag 8.4  size 13.71'  Whirlpool Galaxy
 #posang 0
