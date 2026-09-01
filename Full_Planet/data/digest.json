@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-31T16:31:45.344459+00:00",
-  "generated_human": "31 August 2026, 16:31 UTC",
-  "total_items": 126,
+  "generated": "2026-09-01T13:48:16.321074+00:00",
+  "generated_human": "01 September 2026, 13:48 UTC",
+  "total_items": 119,
   "channels": [
     {
       "key": "ai",
@@ -40,6 +40,14 @@
           "summary": "Researchers have announced synthetic viruses designed by artificial intelligence.",
           "published": "2026-08-13T20:00:00+00:00",
           "regional": false
+        },
+        {
+          "title": "The AI Act [Part 2] Addressing the Challenge of AI Uncontrollability — Interview with Chuo University Professor Hirano [Bridging the Humanities and Sciences]",
+          "link": "https://sj.jst.go.jp/interviewsandopinions/2026/c0901-01p.html",
+          "source": "Science Japan",
+          "summary": "While AI (artificial intelligence) has the potential to make our lives more convenient, it also carries the risk of exerting control over us.",
+          "published": "2026-09-01T06:12:18+00:00",
+          "regional": true
         },
         {
           "title": "China’s Z.ai revenue jumps 400% as total losses narrow on explosive cloud gains",
@@ -112,14 +120,6 @@
           "summary": "China’s leading semiconductor packaging and testing companies have launched a multibillion-dollar capacity expansion drive, as they ride a surge in artificial intelligence demand, stellar first-half profit growth, and…",
           "published": "2026-08-26T10:30:08+00:00",
           "regional": true
-        },
-        {
-          "title": "China’s overlooked internet army is quietly embedding AI into everyday businesses",
-          "link": "https://www.scmp.com/tech/big-tech/article/3364972/chinas-overlooked-internet-army-quietly-embedding-ai-everyday-businesses?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "While China’s new “AI tigers” have captured global attention for challenging Silicon Valley front-runners, a quieter wave of domestic technology companies is building in-house artificial intelligence systems serving…",
-          "published": "2026-08-23T11:00:06+00:00",
-          "regional": true
         }
       ]
     },
@@ -159,14 +159,6 @@
           "source": "ScienceDaily",
           "summary": "Researchers used AI to search through more than 100 million possible settings for 3D-printing a high-performance NASA alloy.",
           "published": "2026-08-27T13:08:01+00:00",
-          "regional": false
-        },
-        {
-          "title": "Michael Sheen hopes 'extraordinary' reaction to toxic waste documentary spurs action",
-          "link": "https://www.bbc.co.uk/news/articles/c70dwxr321ro?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Dozens of people contacted BBC Wales following coverage of Sheen's investigation into chemical giant Monsanto.",
-          "published": "2026-08-27T09:37:08+00:00",
           "regional": false
         },
         {
@@ -242,12 +234,20 @@
           "regional": false
         },
         {
-          "title": "“Cannot be explained” – New super steel stuns scientists",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260811052717.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have created an unusually corrosion-resistant stainless steel that could replace costly titanium components used to produce green hydrogen.",
-          "published": "2026-08-11T12:59:40+00:00",
-          "regional": false
+          "title": "LG Energy Solution secures W2tr lithium carbonate deal with US supplier",
+          "link": "https://www.koreaherald.com/article/10858927",
+          "source": "The Korea Herald",
+          "summary": "LG Energy Solution said Tuesday it had signed a long-term supply agreement with US-based Smackover Lithium to secure lithium carbonate, strengthening its local battery material supply chain for the North American energy…",
+          "published": "2026-09-01T05:49:27+00:00",
+          "regional": true
+        },
+        {
+          "title": "SK On to supply W1.5tr ESS LFP battery to US NeoVolta Power",
+          "link": "https://www.koreaherald.com/article/10857547",
+          "source": "The Korea Herald",
+          "summary": "SK On said Monday it signed a major agreement with US-based NeoVolta Power to supply lithium iron phosphate, or LFP, battery cells for energy storage systems, expanding its footing in the rapidly growing North American…",
+          "published": "2026-08-31T05:49:40+00:00",
+          "regional": true
         },
         {
           "title": "Spin Seebeck effect realized in bulk materials",
@@ -255,30 +255,6 @@
           "source": "Science Japan",
           "summary": "The spin Seebeck effect, a form of thermoelectric conversion that converts heat into electrical energy, manifests on the surface of nanoscale thin films.",
           "published": "2026-08-31T05:35:06+00:00",
-          "regional": true
-        },
-        {
-          "title": "SK Chemicals eyes European can-coating market",
-          "link": "https://www.koreaherald.com/article/10856430",
-          "source": "The Korea Herald",
-          "summary": "SK Chemicals is positioning its polyester resin business to capture new opportunities in Europe’s can-coating market as tighter restrictions on bisphenol A take effect in the European Union.",
-          "published": "2026-08-30T04:35:21+00:00",
-          "regional": true
-        },
-        {
-          "title": "Korea needs ‘Korea rally,’ not memory rally: J.P. Morgan",
-          "link": "https://www.koreaherald.com/article/10856300",
-          "source": "The Korea Herald",
-          "summary": "J.P. Morgan Asset Management says Korea must turn its semiconductor-led surge into a broader “Korea rally” to attract foreign capital that stays beyond the memory cycle.",
-          "published": "2026-08-30T00:53:52+00:00",
-          "regional": true
-        },
-        {
-          "title": "Innometry ramps up deployment of contactless battery CT system",
-          "link": "https://www.koreaherald.com/article/10855762",
-          "source": "The Korea Herald",
-          "summary": "Innometry said Friday it was accelerating the mass-production deployment of its next-generation 1PASS-RING CT system, featuring a contactless scanning design that eliminates physical handling to protect battery cells…",
-          "published": "2026-08-28T07:13:24+00:00",
           "regional": true
         },
         {
@@ -314,14 +290,6 @@
           "regional": true
         },
         {
-          "title": "China’s richest province taps Alibaba to power its AI and chip push",
-          "link": "https://www.scmp.com/tech/policy/article/3364053/chinas-richest-province-taps-alibaba-power-its-ai-and-chip-push?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "China’s richest province has deepened its partnership with technology giant Alibaba Group Holding, eyeing a broad digital upgrade spanning artificial intelligence, semiconductors, and smart public services.",
-          "published": "2026-08-14T09:15:43+00:00",
-          "regional": true
-        },
-        {
           "title": "Are gas turbines ready for the hydrogen economy?",
           "link": "https://www.mpg.de/26888011/hydrogen-embrittlement-in-gas-turbines-at-elevated-temperatures",
           "source": "Max Planck Society",
@@ -345,35 +313,19 @@
       "accent": "#33C6D6",
       "items": [
         {
+          "title": "Family fear for missing hydropower worker after Nepal flood",
+          "link": "https://www.bbc.co.uk/news/articles/c1kxmvm39nyo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Jit Bahadur Chaudhary was working at the hydropower site when the flood hit on Wednesday.",
+          "published": "2026-09-01T08:23:51+00:00",
+          "regional": false
+        },
+        {
           "title": "Australia’s red soil may be hiding a massive clean energy source",
           "link": "https://www.sciencedaily.com/releases/2026/08/260829035214.htm",
           "source": "ScienceDaily",
           "summary": "Researchers have discovered that Western Australia’s iron-rich rocks can naturally generate hydrogen and that the process may be boosted to produce much larger amounts.",
           "published": "2026-08-29T10:05:43+00:00",
-          "regional": false
-        },
-        {
-          "title": "Wave energy testing site opens off Oregon, a green energy milestone in the Trump administration",
-          "link": "https://www.renewableenergyworld.com/hydro-power/tidal-wave-energy/wave-energy-testing-site-opens-off-oregon-a-green-energy-milestone-in-the-trump-administration/",
-          "source": "Renewable Energy World",
-          "summary": "The first large site in the continental U.S. for testing technologies that generate electricity from ocean waves is now open after securing a key green-energy approval from the Trump administration.",
-          "published": "2026-08-26T19:26:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Riding the AI wave: Can data centers unlock ocean energy?",
-          "link": "https://www.renewableenergyworld.com/hydro-power/tidal-wave-energy/riding-the-ai-wave-can-data-centers-unlock-ocean-energy/",
-          "source": "Renewable Energy World",
-          "summary": "Cameron McNatt of Mocean Energy suggests wave energy could play an important role in unlocking the potential of offshore data centres",
-          "published": "2026-08-24T20:14:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Hydropower plants in western Norway to be modernized",
-          "link": "https://www.renewableenergyworld.com/hydro-power/technology-equipment/hydropower-plants-in-western-norway-to-be-modernized/",
-          "source": "Renewable Energy World",
-          "summary": "ABB has chosen to upgrade control and electrical systems at three Statkraft hydropower plants to help extend their operational life.",
-          "published": "2026-08-24T15:27:00+00:00",
           "regional": false
         },
         {
@@ -433,6 +385,14 @@
           "regional": false
         },
         {
+          "title": "LG Energy Solution secures W2tr lithium carbonate deal with US supplier",
+          "link": "https://www.koreaherald.com/article/10858927",
+          "source": "The Korea Herald",
+          "summary": "LG Energy Solution said Tuesday it had signed a long-term supply agreement with US-based Smackover Lithium to secure lithium carbonate, strengthening its local battery material supply chain for the North American energy…",
+          "published": "2026-09-01T05:49:27+00:00",
+          "regional": true
+        },
+        {
           "title": "Riding the clean energy and AI wave: Marcos wants to go beyond ore exports",
           "link": "https://www.rappler.com/newsbreak/explainers/riding-clean-energy-ai-wave-marcos-beyond-ore-exports/",
           "source": "Rappler",
@@ -441,19 +401,11 @@
           "regional": true
         },
         {
-          "title": "Innometry ramps up deployment of contactless battery CT system",
-          "link": "https://www.koreaherald.com/article/10855762",
+          "title": "SK On to supply W1.5tr ESS LFP battery to US NeoVolta Power",
+          "link": "https://www.koreaherald.com/article/10857547",
           "source": "The Korea Herald",
-          "summary": "Innometry said Friday it was accelerating the mass-production deployment of its next-generation 1PASS-RING CT system, featuring a contactless scanning design that eliminates physical handling to protect battery cells…",
-          "published": "2026-08-28T07:13:24+00:00",
-          "regional": true
-        },
-        {
-          "title": "India's Uttar Pradesh, Japan's Yamanashi to deepen hydrogen, HR ties",
-          "link": "https://sj.jst.go.jp/news/202608/n0826-01n.html",
-          "source": "Science Japan",
-          "summary": "Public- and private-sector delegates from India's most populous state of Uttar Pradesh and Japan's Yamanashi Prefecture met in the Indian capital on Wednesday to discuss ways to expand cooperation in clean energy,…",
-          "published": "2026-08-26T04:59:14+00:00",
+          "summary": "SK On said Monday it signed a major agreement with US-based NeoVolta Power to supply lithium iron phosphate, or LFP, battery cells for energy storage systems, expanding its footing in the rapidly growing North American…",
+          "published": "2026-08-31T05:49:40+00:00",
           "regional": true
         },
         {
@@ -512,6 +464,30 @@
       "tagline": "New missions, spacecraft, and technologies — NASA, ESA, ISRO, JAXA, SpaceX, CNES, and more.",
       "accent": "#F0894E",
       "items": [
+        {
+          "title": "NASA delays Crew-13 launch after leak found on SpaceX Dragon",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260901010705.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA and SpaceX have delayed Crew-13 after finding an oxidizer leak in the Dragon spacecraft’s propulsion system during prelaunch preparations.",
+          "published": "2026-09-01T05:33:37+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Welcomes Türkiye as Newest Artemis Accords Signatory",
+          "link": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-turkiye-as-newest-artemis-accords-signatory/",
+          "source": "NASA",
+          "summary": "During a ceremony hosted by NASA Administrator Jared Isaacman at the agency’s headquarters in Washington on Monday, the Republic of Türkiye signed the Artemis Accords, joining the growing international coalition of…",
+          "published": "2026-08-31T21:14:12+00:00",
+          "regional": false
+        },
+        {
+          "title": "What’s next for NASA’s new Roman Space Telescope?",
+          "link": "https://www.scientificamerican.com/article/whats-next-for-nasas-new-roman-space-telescope/",
+          "source": "Scientific American",
+          "summary": "After a flawless launch, the Nancy Grace Roman Space Telescope is on a mission to solve some of the universe’s biggest mysteries",
+          "published": "2026-08-31T18:35:00+00:00",
+          "regional": false
+        },
         {
           "title": "NASA’s Nancy Grace Roman Space Telescope Launches",
           "link": "https://www.nasa.gov/image-article/nasas-nancy-grace-roman-space-telescope-launches/",
@@ -577,14 +553,6 @@
           "regional": false
         },
         {
-          "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
-          "link": "https://www.nasa.gov/news-release/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches/",
-          "source": "NASA",
-          "summary": "Now on a three-month, million-mile journey to its final orbit, NASA’s Nancy Grace Roman Space Telescope will soon reveal the universe’s darkest secrets. The mission launched at 7:26 a.m.",
-          "published": "2026-08-30T13:18:06+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA’s Nancy Grace Roman Telescope launches to space",
           "link": "https://www.scientificamerican.com/article/nasas-nancy-grace-roman-telescope-launches-to-space/",
           "source": "Scientific American",
@@ -601,19 +569,19 @@
           "regional": false
         },
         {
-          "title": "NASA’s Artemis II Crew Receives Congressional Space Medal of Honor",
-          "link": "https://www.nasa.gov/image-article/nasas-artemis-ii-crew-receives-congressional-space-medal-of-honor/",
-          "source": "NASA",
-          "summary": "From left to right: NASA astronauts Victor Glover and Christina Koch, CSA (Canadian Space Agency) astronaut Jeremy Hansen, and NASA astronaut Reid Wiseman receive the Congressional Space Medal of Honor from President…",
-          "published": "2026-08-28T22:21:31+00:00",
+          "title": "Watch: Stargazers around the world glimpse 'Blood Moon' lunar eclipse",
+          "link": "https://www.bbc.co.uk/news/videos/ce3rykzvevno?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Some parts of the globe had a chance to see the rare event when the Sun, Earth and Moon line up in the night sky.",
+          "published": "2026-08-28T12:49:55+00:00",
           "regional": false
         },
         {
-          "title": "President Honors NASA’s Artemis II Crew with Highest US Space Award",
-          "link": "https://www.nasa.gov/news-release/president-honors-nasas-artemis-ii-crew-with-highest-us-space-award/",
-          "source": "NASA",
-          "summary": "President Donald J. Trump awarded NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, and CSA (Canadian Space Agency) astronaut Jeremy Hansen with the Congressional Space Medal of Honor Friday for their…",
-          "published": "2026-08-28T17:37:01+00:00",
+          "title": "How will NASA’s Roman Space Telescope see exoplanets?",
+          "link": "https://www.scientificamerican.com/article/how-will-nasas-roman-space-telescope-see-exoplanets/",
+          "source": "Scientific American",
+          "summary": "NASA’s newest major observatory will include the most advanced planet-imaging tech ever flown in space. Here’s how it works",
+          "published": "2026-08-28T10:45:00+00:00",
           "regional": false
         },
         {
@@ -630,6 +598,14 @@
           "source": "ScienceDaily",
           "summary": "NASA has successfully tested a system that allows satellites to navigate without GPS by using other spacecraft and debris as landmarks in orbit.",
           "published": "2026-08-26T23:27:35+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Roman Space Telescope could reveal dark energy’s deepest secrets",
+          "link": "https://www.scientificamerican.com/article/nasas-roman-space-telescope-could-reveal-dark-energys-deepest-secrets/",
+          "source": "Scientific American",
+          "summary": "The more scientists try to understand dark energy, the more its mysteries seem to grow. NASA’s newest space telescope is custom-built to crack the case",
+          "published": "2026-08-26T13:45:00+00:00",
           "regional": false
         },
         {
@@ -657,27 +633,11 @@
           "regional": false
         },
         {
-          "title": "China delays ambitious Chang’e 7 moon mission until 2027",
-          "link": "https://www.scientificamerican.com/article/china-delays-ambitious-change-7-moon-mission-until-2027/",
-          "source": "Scientific American",
-          "summary": "The search for frozen water is crucial to both China’s and NASA’s plans to establish permanent moon bases",
-          "published": "2026-08-24T14:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA is about to launch a powerful new eye on the universe",
           "link": "https://www.sciencedaily.com/releases/2026/08/260823094140.htm",
           "source": "ScienceDaily",
           "summary": "NASA’s Roman Space Telescope has been cleared for final launch preparations ahead of a targeted August 30 liftoff aboard SpaceX’s Falcon Heavy.",
           "published": "2026-08-24T04:45:05+00:00",
-          "regional": false
-        },
-        {
-          "title": "60 years ago NASA took the first ever photo of Earth from the moon—and began a legacy",
-          "link": "https://www.scientificamerican.com/article/60-years-ago-nasa-took-the-first-ever-photo-of-earth-from-the-moon-and-began-a-legacy/",
-          "source": "Scientific American",
-          "summary": "Snapped on August 23, 1966, by the uncrewed Lunar Orbiter 1, the photo’s legacy lives on in the breathtaking images of Earth taken by the Artemis II crew",
-          "published": "2026-08-23T10:30:00+00:00",
           "regional": false
         },
         {
@@ -697,12 +657,28 @@
           "regional": false
         },
         {
-          "title": "NASA’s moon base is taking shape with 20+ lunar landings planned",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260810015706.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA is assembling the foundations of a future Moon Base through a wave of robotic missions and powerful new commercial landers.",
-          "published": "2026-08-11T04:22:06+00:00",
-          "regional": false
+          "title": "Pallas-1 sees China’s Galactic Energy join reusable launch push, closing in on SpaceX",
+          "link": "https://www.scmp.com/tech/big-tech/article/3365964/pallas-1-sees-chinas-galactic-energy-join-reusable-launch-push-closing-spacex?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Chinese rocket maker Galactic Energy has successfully sent its Pallas-1 medium-to-large reusable rocket into orbit, marking the latest milestone in Beijing’s drive to develop reusable launch capabilities and narrow the…",
+          "published": "2026-09-01T08:30:09+00:00",
+          "regional": true
+        },
+        {
+          "title": "Gaganyaan Episode 1: Why India’s Human Spaceflight Mission Matters | The Scope",
+          "link": "https://www.thehindu.com/videos/gaganyaan-episode-1-why-indias-human-spaceflight-mission-matters-the-scope/article71318202.ece",
+          "source": "The Hindu",
+          "summary": "In the first episode of The Scope’s special series on Gaganyaan, we explore why India’s first human spaceflight mission is about much more than sending astronauts into orbit.",
+          "published": "2026-08-31T11:43:44+00:00",
+          "regional": true
+        },
+        {
+          "title": "Gaganyaan Episode 2: Why India Needs Special Rockets | The Scope",
+          "link": "https://www.thehindu.com/videos/gaganyaan-episode-2-why-india-needs-special-rockets-the-scope/article71410671.ece",
+          "source": "The Hindu",
+          "summary": "India’s LVM-3 has already launched satellites and carried Chandrayaan-3 towards the Moon. But carrying astronauts demands an entirely different level of safety.",
+          "published": "2026-08-31T11:42:30+00:00",
+          "regional": true
         },
         {
           "title": "Moon mission delay a hiccup, but Chinese rocket city Wenchang remains on the march",
@@ -721,27 +697,11 @@
           "regional": true
         },
         {
-          "title": "PM Modi calls upon space startups to make India a go-to destination for global talent, investors",
-          "link": "https://www.thehindu.com/sci-tech/science/pm-modi-urges-private-space-sector-to-build-global-aura-of-innovation/article71380595.ece",
-          "source": "The Hindu",
-          "summary": "PM Modi urged startups to look beyond space applications and work with sectors such as agriculture, livestock, and dairy, as well as with organisations that work for the envrionment to improve lives",
-          "published": "2026-08-23T20:02:37+00:00",
-          "regional": true
-        },
-        {
           "title": "Watch: Gaganyaan Episode 3: How ISRO will protect its astronauts | The Scope",
           "link": "https://www.thehindu.com/videos/watch-gaganyaan-episode-3-how-india-will-save-its-astronauts-the-scope/article71378193.ece",
           "source": "The Hindu",
           "summary": "In Episode 3 of The Scope’s Gaganyaan — India’s Leap, we explore the Crew Escape System the last line of defence for India’s astronauts during launch.",
           "published": "2026-08-23T11:33:35+00:00",
-          "regional": true
-        },
-        {
-          "title": "Global space norms find a firm footing in India’s new re-entry rules",
-          "link": "https://www.thehindu.com/sci-tech/science/global-space-norms-find-a-firm-footing-in-india-new-re-entry-rules/article71380693.ece",
-          "source": "The Hindu",
-          "summary": "For many decades, there were few rocket launches and few new satellites in orbit every year, so there were also few re-entries, and most of them simply burned up in the atmosphere with little consequence.",
-          "published": "2026-08-23T10:24:54+00:00",
           "regional": true
         },
         {
@@ -775,14 +735,6 @@
           "summary": "NASA is looking to establish an ambitious lunar outpost programme, a first of its kind in the world where humans (astronauts) will make the Moon’s south pole a home from where they will live, work and conduct scientific…",
           "published": "2026-08-18T04:39:15+00:00",
           "regional": true
-        },
-        {
-          "title": "As SpaceX rocket stage is about to hit moon, astronomers prepare",
-          "link": "https://www.thehindu.com/sci-tech/science/astronomers-prepare-as-spacex-rocket-stage-nears-moon-strike/article71303796.ece",
-          "source": "The Hindu",
-          "summary": "The rocket stage is currently expected to hit near Einstein crater on the moon on August 5 at 12:05 pm IST",
-          "published": "2026-08-16T07:29:05+00:00",
-          "regional": true
         }
       ]
     },
@@ -793,11 +745,19 @@
       "accent": "#B98CE0",
       "items": [
         {
-          "title": "Star Feels Spin of Milky Way’s Black Hole",
-          "link": "https://skyandtelescope.org/astronomy-news/star-feels-spin-of-milky-ways-black-hole/",
-          "source": "Sky & Telescope",
-          "summary": "The fastest known star in our galaxy comes so close to Sgr A* that the black hole’s rotation may pull it off course, enabling a first-of-its-kind detection.",
-          "published": "2026-08-31T11:00:00+00:00",
+          "title": "NASA’s Swift telescope is back, but time is running out",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260901010702.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA has brought two of Swift’s telescopes back online after technical problems derailed a commercial mission intended to rescue the aging observatory by raising its orbit.",
+          "published": "2026-09-01T05:43:54+00:00",
+          "regional": false
+        },
+        {
+          "title": "What’s next for NASA’s new Roman Space Telescope?",
+          "link": "https://www.scientificamerican.com/article/whats-next-for-nasas-new-roman-space-telescope/",
+          "source": "Scientific American",
+          "summary": "After a flawless launch, the Nancy Grace Roman Space Telescope is on a mission to solve some of the universe’s biggest mysteries",
+          "published": "2026-08-31T18:35:00+00:00",
           "regional": false
         },
         {
@@ -822,14 +782,6 @@
           "source": "BBC Science",
           "summary": "The US space agency's telescope is starting a multi-year mission to create a new map of the universe and learn more about dark energy and dark matter.",
           "published": "2026-08-30T18:53:53+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Launches Nancy Grace Roman Space Telescope",
-          "link": "https://skyandtelescope.org/astronomy-news/nasa-launches-nancy-grace-roman-space-telescope/",
-          "source": "Sky & Telescope",
-          "summary": "Launched on August 30th, NASA’s newest flagship space observatory will go a long way toward filling in our understanding of questions on the forefront of astronomy and cosmology such as the nature of dark matter and…",
-          "published": "2026-08-30T12:00:49+00:00",
           "regional": false
         },
         {
@@ -905,14 +857,6 @@
           "regional": false
         },
         {
-          "title": "NASA’s Roman telescope readies a sweeping view of the universe",
-          "link": "https://www.science.org/content/article/nasa-s-roman-telescope-readies-sweeping-view-universe",
-          "source": "Science (AAAS)",
-          "summary": "With a view 100 times larger than Hubble, the observatory will survey the cosmos for distant worlds and clues to dark energy",
-          "published": "2026-08-26T01:45:00+00:00",
-          "regional": false
-        },
-        {
           "title": "A ghostly ribbon of stars reveals hidden dark matter",
           "link": "https://www.sciencedaily.com/releases/2026/08/260823015000.htm",
           "source": "ScienceDaily",
@@ -945,11 +889,27 @@
           "regional": false
         },
         {
+          "title": "Einstein’s biggest “mistake” came back — and changed cosmology forever",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260816044835.htm",
+          "source": "ScienceDaily",
+          "summary": "Einstein’s abandoned cosmological constant made a spectacular comeback when astronomers discovered that the universe’s expansion is accelerating.",
+          "published": "2026-08-18T05:58:07+00:00",
+          "regional": false
+        },
+        {
           "title": "Webb’s mysterious little red dots may be hiding entire galaxies",
           "link": "https://www.sciencedaily.com/releases/2026/08/260815064808.htm",
           "source": "ScienceDaily",
           "summary": "Astronomers may finally have a clue to what happens to the mysterious “little red dots” that crowded the early universe.",
           "published": "2026-08-17T12:56:43+00:00",
+          "regional": false
+        },
+        {
+          "title": "A black hole shredded a “super sun” — but something strange may have survived",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260814235849.htm",
+          "source": "ScienceDaily",
+          "summary": "Astronomers have witnessed a black hole violently shredding a massive star, creating one of the most energetic stellar explosions ever observed.",
+          "published": "2026-08-16T03:46:46+00:00",
           "regional": false
         },
         {
@@ -977,12 +937,12 @@
           "regional": false
         },
         {
-          "title": "Black holes older than the Big Bang could explain dark matter",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260811011146.htm",
-          "source": "ScienceDaily",
-          "summary": "Some black holes roaming the Universe today may actually be older than the Big Bang. A new cosmic “bounce” model suggests the Universe expanded from an earlier contracting phase, allowing ancient black holes to survive…",
-          "published": "2026-08-11T10:14:58+00:00",
-          "regional": false
+          "title": "How a star with an extreme magnetic field could prove space is not empty",
+          "link": "https://www.thehindu.com/sci-tech/science/how-a-star-with-an-extreme-magnetic-field-could-prove-space-is-not-empty/article71407511.ece",
+          "source": "The Hindu",
+          "summary": "The work could prove the ‘nothingness’ of space is actually a complex and active medium and help scientists refine their maps of the universe",
+          "published": "2026-09-01T04:41:13+00:00",
+          "regional": true
         },
         {
           "title": "What is the Nancy Grace Roman Telescope?",
@@ -990,14 +950,6 @@
           "source": "The Hindu",
           "summary": "It is a follow-on to the Hubble Space Telescope, launched in 1990, and the James Webb Space Telescope, launched in 2021, and has capabilities that can expand on the knowledge gained by those pioneering observatories",
           "published": "2026-08-30T11:17:46+00:00",
-          "regional": true
-        },
-        {
-          "title": "How a star with an extreme magnetic field could prove space is not empty",
-          "link": "https://www.thehindu.com/sci-tech/science/how-a-star-with-an-extreme-magnetic-field-could-prove-space-is-not-empty/article71407511.ece",
-          "source": "The Hindu",
-          "summary": "The work could prove the ‘nothingness’ of space is actually a complex and active medium and help scientists refine their maps of the universe",
-          "published": "2026-08-30T11:03:26+00:00",
           "regional": true
         },
         {
@@ -1018,7 +970,7 @@
         },
         {
           "title": "Gamma-ray jet scans extragalactic background light in the universe",
-          "link": "https://www.mpg.de/26929922/op-313-jet-scans-extragalactic-background-light",
+          "link": "https://www.mpg.de/26929922/gamma-ray-jet-scans-extragalactic-background-light-in-the-universe",
           "source": "Max Planck Society",
           "summary": "A highly concentrated beam of light from the center of the galaxy OP 313 allows researchers to infer the energy density of the light from all stars and galaxies around",
           "published": "2026-08-24T08:00:00+00:00",
@@ -1038,14 +990,6 @@
           "source": "The Hindu",
           "summary": "An international team of astronomers has found an unusual object that may help explain what at least some of these red dots actually are: unusually young and rapidly growing black holes surrounded by an enormous amount…",
           "published": "2026-08-17T12:48:48+00:00",
-          "regional": true
-        },
-        {
-          "title": "As SpaceX rocket stage is about to hit moon, astronomers prepare",
-          "link": "https://www.thehindu.com/sci-tech/science/astronomers-prepare-as-spacex-rocket-stage-nears-moon-strike/article71303796.ece",
-          "source": "The Hindu",
-          "summary": "The rocket stage is currently expected to hit near Einstein crater on the moon on August 5 at 12:05 pm IST",
-          "published": "2026-08-16T07:29:05+00:00",
           "regional": true
         },
         {
