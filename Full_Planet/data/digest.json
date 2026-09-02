@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-01T13:48:16.321074+00:00",
-  "generated_human": "01 September 2026, 13:48 UTC",
-  "total_items": 119,
+  "generated": "2026-09-02T13:04:39.823086+00:00",
+  "generated_human": "02 September 2026, 13:04 UTC",
+  "total_items": 115,
   "channels": [
     {
       "key": "ai",
@@ -58,35 +58,11 @@
           "regional": true
         },
         {
-          "title": "Korea’s AI chief puts execution at heart of national AI push",
-          "link": "https://www.koreaherald.com/article/10857821",
-          "source": "The Korea Herald",
-          "summary": "Presidential Council on National Artificial Intelligence Strategy Standing Vice Chair Ha Jung-woo said Monday the government would shift its AI policy focus from setting strategies to delivering results that businesses…",
-          "published": "2026-08-31T09:37:11+00:00",
-          "regional": true
-        },
-        {
           "title": "China’s AI chip drive: MetaX and Iluvatar swing to profit, as Biren narrows losses",
           "link": "https://www.scmp.com/tech/big-tech/article/3365812/metax-swings-profit-chinese-ai-chipmakers-report-diverging-first-half-results?utm_source=rss_feed",
           "source": "South China Morning Post",
           "summary": "China’s home-grown artificial intelligence chipmakers are starting to cash in on Beijing’s self-reliance drive, but a fresh wave of first-half earnings reveals a stark divide between the industry’s rising profit stars…",
           "published": "2026-08-31T06:30:24+00:00",
-          "regional": true
-        },
-        {
-          "title": "Hanwha Finance to hold AI, finance talent conference in New York",
-          "link": "https://www.koreaherald.com/article/10857601",
-          "source": "The Korea Herald",
-          "summary": "Hanwha Group's financial affiliates will hold a global finance conference in New York in November, bringing together financial industry leaders and aspiring professionals to discuss how artificial intelligence and…",
-          "published": "2026-08-31T06:17:38+00:00",
-          "regional": true
-        },
-        {
-          "title": "Korea’s AI chief vows results, not just strategy",
-          "link": "https://www.koreaherald.com/article/10857585",
-          "source": "The Korea Herald",
-          "summary": "Ha Jung-woo, standing vice chair of the Presidential Council on National Artificial Intelligence Strategy, pledged Monday to put execution at the center of Korea’s bid to become one of the world’s top three AI powers.",
-          "published": "2026-08-31T06:06:52+00:00",
           "regional": true
         },
         {
@@ -119,6 +95,30 @@
           "source": "South China Morning Post",
           "summary": "China’s leading semiconductor packaging and testing companies have launched a multibillion-dollar capacity expansion drive, as they ride a surge in artificial intelligence demand, stellar first-half profit growth, and…",
           "published": "2026-08-26T10:30:08+00:00",
+          "regional": true
+        },
+        {
+          "title": "China’s overlooked internet army is quietly embedding AI into everyday businesses",
+          "link": "https://www.scmp.com/tech/big-tech/article/3364972/chinas-overlooked-internet-army-quietly-embedding-ai-everyday-businesses?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "While China’s new “AI tigers” have captured global attention for challenging Silicon Valley front-runners, a quieter wave of domestic technology companies is building in-house artificial intelligence systems serving…",
+          "published": "2026-08-23T11:00:06+00:00",
+          "regional": true
+        },
+        {
+          "title": "Nvidia customers notified of AI-related price rises above 15%",
+          "link": "https://www.scmp.com/tech/big-tech/article/3364945/nvidia-customers-notified-ai-related-price-rises-above-15?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Some of Nvidia’s biggest customers have been told that the prices of servers containing its artificial intelligence chips are going up more than 15 per cent in many cases with memory chip costs soaring.",
+          "published": "2026-08-22T21:54:25+00:00",
+          "regional": true
+        },
+        {
+          "title": "Pay, perks, equity: China’s AI, chip firms lead way in offering rewards to lock in talent",
+          "link": "https://www.scmp.com/tech/big-tech/article/3364689/pay-perks-equity-chinas-ai-chip-firms-lead-way-offering-rewards-lock-talent?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "In the high-stakes battle for China’s top talent, domestic tech companies – especially in semiconductors and artificial intelligence – are rolling out aggressive equity incentive plans as they capitalise on a bull…",
+          "published": "2026-08-22T07:00:06+00:00",
           "regional": true
         }
       ]
@@ -226,12 +226,12 @@
           "regional": false
         },
         {
-          "title": "A strange crystal made of electrons just revealed its hidden motion",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260812015156.htm",
-          "source": "ScienceDaily",
-          "summary": "Physicists have found a new way to peer inside one of matter’s most elusive quantum states: the Wigner crystal, where electrons stop behaving like independent particles and organize into a crystal-like pattern.",
-          "published": "2026-08-12T09:10:01+00:00",
-          "regional": false
+          "title": "China’s No 2 foundry Hua Hong invests US$2b in new fab to meet surging AI-driven demand",
+          "link": "https://www.scmp.com/tech/big-tech/article/3366104/chinas-no-2-foundry-hua-hong-invests-us2b-new-fab-meet-surging-ai-driven-demand?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Major Chinese foundry Hua Hong Grace Semiconductor is pouring US$2 billion into a massive capacity expansion in the Chinese chip production hub of Wuxi, racing to meet skyrocketing domestic demand for AI infrastructure…",
+          "published": "2026-09-02T09:30:11+00:00",
+          "regional": true
         },
         {
           "title": "LG Energy Solution secures W2tr lithium carbonate deal with US supplier",
@@ -239,14 +239,6 @@
           "source": "The Korea Herald",
           "summary": "LG Energy Solution said Tuesday it had signed a long-term supply agreement with US-based Smackover Lithium to secure lithium carbonate, strengthening its local battery material supply chain for the North American energy…",
           "published": "2026-09-01T05:49:27+00:00",
-          "regional": true
-        },
-        {
-          "title": "SK On to supply W1.5tr ESS LFP battery to US NeoVolta Power",
-          "link": "https://www.koreaherald.com/article/10857547",
-          "source": "The Korea Herald",
-          "summary": "SK On said Monday it signed a major agreement with US-based NeoVolta Power to supply lithium iron phosphate, or LFP, battery cells for energy storage systems, expanding its footing in the rapidly growing North American…",
-          "published": "2026-08-31T05:49:40+00:00",
           "regional": true
         },
         {
@@ -288,14 +280,6 @@
           "summary": "In the high-stakes battle for China’s top talent, domestic tech companies – especially in semiconductors and artificial intelligence – are rolling out aggressive equity incentive plans as they capitalise on a bull…",
           "published": "2026-08-22T07:00:06+00:00",
           "regional": true
-        },
-        {
-          "title": "Are gas turbines ready for the hydrogen economy?",
-          "link": "https://www.mpg.de/26888011/hydrogen-embrittlement-in-gas-turbines-at-elevated-temperatures",
-          "source": "Max Planck Society",
-          "summary": "A better understanding of hydrogen embrittlement enables the design of alloys for gas turbines for hydrogen combustion",
-          "published": "2026-08-12T09:00:00+00:00",
-          "regional": true
         }
       ]
     },
@@ -312,6 +296,14 @@
       "tagline": "New ways to generate clean energy, capture carbon, and bring fresh water and power to people, cities, and transport.",
       "accent": "#33C6D6",
       "items": [
+        {
+          "title": "The hackers protecting America’s water supply",
+          "link": "https://www.scientificamerican.com/podcast/episode/the-hackers-protecting-americas-water-supply/",
+          "source": "Scientific American",
+          "summary": "Cybersecurity experts are volunteering to keep America’s utilities safe from attacks",
+          "published": "2026-09-02T10:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "Family fear for missing hydropower worker after Nepal flood",
           "link": "https://www.bbc.co.uk/news/articles/c1kxmvm39nyo?at_medium=RSS&at_campaign=rss",
@@ -401,14 +393,6 @@
           "regional": true
         },
         {
-          "title": "SK On to supply W1.5tr ESS LFP battery to US NeoVolta Power",
-          "link": "https://www.koreaherald.com/article/10857547",
-          "source": "The Korea Herald",
-          "summary": "SK On said Monday it signed a major agreement with US-based NeoVolta Power to supply lithium iron phosphate, or LFP, battery cells for energy storage systems, expanding its footing in the rapidly growing North American…",
-          "published": "2026-08-31T05:49:40+00:00",
-          "regional": true
-        },
-        {
           "title": "EV maker Xpeng set to challenge Tesla in embodied AI after robotics unit raises US$900m",
           "link": "https://www.scmp.com/business/china-evs/article/3365096/ev-maker-xpeng-set-challenge-tesla-embodied-ai-after-robotics-unit-raises-us900m?utm_source=rss_feed",
           "source": "South China Morning Post",
@@ -465,11 +449,43 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "ESA’s first lunar rover rolls forward",
+          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ESA_s_first_lunar_rover_rolls_forward",
+          "source": "ESA",
+          "summary": "Yesterday evening, during a signing ceremony at the Space for Inspiration event in Copenhagen, Denmark, the European Space Agency (ESA) and ispace-Europe celebrated the implementation of MAGPIE, set to be the first…",
+          "published": "2026-09-02T07:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Selects Blue Origin as Mars Telecommunications Network Provider",
+          "link": "https://www.nasa.gov/news-release/nasa-selects-blue-origin-as-mars-telecommunications-network-provider/",
+          "source": "NASA",
+          "summary": "NASA awarded Blue Origin a contract Tuesday to develop the agency’s Mars Telecommunications Network, a next-generation communications system that will enable reliable, high-bandwidth communications and navigation…",
+          "published": "2026-09-01T21:08:37+00:00",
+          "regional": false
+        },
+        {
+          "title": "Historic Engines Take Their Place on Artemis III",
+          "link": "https://www.nasa.gov/image-article/historic-engines-take-their-place-on-artemis-iii/",
+          "source": "NASA",
+          "summary": "On Aug. 24, technicians at NASA’s Kennedy Space Center in Florida began installing the four RS‑25 engines in the core stage of the agency’s Space Launch System (SLS) rocket that will carry the Artemis III crew into low…",
+          "published": "2026-09-01T17:30:35+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA delays Crew-13 launch after leak found on SpaceX Dragon",
           "link": "https://www.sciencedaily.com/releases/2026/09/260901010705.htm",
           "source": "ScienceDaily",
           "summary": "NASA and SpaceX have delayed Crew-13 after finding an oxidizer leak in the Dragon spacecraft’s propulsion system during prelaunch preparations.",
           "published": "2026-09-01T05:33:37+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s New Horizons mission may shut down two instruments over lack of funding",
+          "link": "https://www.science.org/content/article/nasa-s-new-horizons-mission-may-shut-down-two-instruments-over-lack-funding",
+          "source": "Science (AAAS)",
+          "summary": "Decision risks “incalculable loss” of data from the edge of the Sun’s influence, scientists say",
+          "published": "2026-09-01T05:00:00+00:00",
           "regional": false
         },
         {
@@ -537,22 +553,6 @@
           "regional": false
         },
         {
-          "title": "Ribbon-Cutting Event for NASA Deep Space Network’s Deep Space Station 23",
-          "link": "https://science.nasa.gov/photojournal/ribbon-cutting-event-for-nasa-deep-space-networks-deep-space-station-23/",
-          "source": "NASA",
-          "summary": "Description Leadership from NASA Headquarters, the Jet Propulsion Laboratory, and the Deep Space Network (DSN) stand in front of the recently completed Deep Space Station 23 antenna at the Deep Space Network’s Goldstone…",
-          "published": "2026-08-30T14:57:59+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Deep Space Network’s New Goldstone Antenna Goes Online",
-          "link": "https://science.nasa.gov/photojournal/nasa-deep-space-networks-new-goldstone-antenna-goes-online/",
-          "source": "NASA",
-          "summary": "Description Long shadows are cast by the recently completed Deep Space Station 23 at the Deep Space Network’s Goldstone complex near Barstow, California, in August 2026.",
-          "published": "2026-08-30T14:53:08+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA’s Nancy Grace Roman Telescope launches to space",
           "link": "https://www.scientificamerican.com/article/nasas-nancy-grace-roman-telescope-launches-to-space/",
           "source": "Scientific American",
@@ -566,14 +566,6 @@
           "source": "Scientific American",
           "summary": "The Roman Space Telescope will spend more than a quarter of its time staring at the Milky Way’s bulge, a star-packed central region of our galaxy that may swarm with small, rocky exoplanets",
           "published": "2026-08-29T13:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Watch: Stargazers around the world glimpse 'Blood Moon' lunar eclipse",
-          "link": "https://www.bbc.co.uk/news/videos/ce3rykzvevno?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Some parts of the globe had a chance to see the rare event when the Sun, Earth and Moon line up in the night sky.",
-          "published": "2026-08-28T12:49:55+00:00",
           "regional": false
         },
         {
@@ -598,14 +590,6 @@
           "source": "ScienceDaily",
           "summary": "NASA has successfully tested a system that allows satellites to navigate without GPS by using other spacecraft and debris as landmarks in orbit.",
           "published": "2026-08-26T23:27:35+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Roman Space Telescope could reveal dark energy’s deepest secrets",
-          "link": "https://www.scientificamerican.com/article/nasas-roman-space-telescope-could-reveal-dark-energys-deepest-secrets/",
-          "source": "Scientific American",
-          "summary": "The more scientists try to understand dark energy, the more its mysteries seem to grow. NASA’s newest space telescope is custom-built to crack the case",
-          "published": "2026-08-26T13:45:00+00:00",
           "regional": false
         },
         {
@@ -705,6 +689,14 @@
           "regional": true
         },
         {
+          "title": "Global space norms find a firm footing in India’s new re-entry rules",
+          "link": "https://www.thehindu.com/sci-tech/science/global-space-norms-find-a-firm-footing-in-india-new-re-entry-rules/article71380693.ece",
+          "source": "The Hindu",
+          "summary": "For many decades, there were few rocket launches and few new satellites in orbit every year, so there were also few re-entries, and most of them simply burned up in the atmosphere with little consequence.",
+          "published": "2026-08-23T10:24:54+00:00",
+          "regional": true
+        },
+        {
           "title": "How do astronauts return from space and survive re-entry? | Explained",
           "link": "https://www.thehindu.com/sci-tech/science/how-do-astronauts-return-from-space-and-survive-re-entry/article70691392.ece",
           "source": "The Hindu",
@@ -727,14 +719,6 @@
           "summary": "The launch is further significant because the rocket that attempted to launch the GISAT-1 satellite in 2021 failed, destroying the satellite as well. GISAT-1A is the second attempt",
           "published": "2026-08-19T06:00:55+00:00",
           "regional": true
-        },
-        {
-          "title": "What is NASA’s Moon Base programme and why does it want India to be part of it? | Explained",
-          "link": "https://www.thehindu.com/sci-tech/science/explained-what-is-nasas-moon-base-programme-why-it-wants-india-to-be-part-of-it/article71340650.ece",
-          "source": "The Hindu",
-          "summary": "NASA is looking to establish an ambitious lunar outpost programme, a first of its kind in the world where humans (astronauts) will make the Moon’s south pole a home from where they will live, work and conduct scientific…",
-          "published": "2026-08-18T04:39:15+00:00",
-          "regional": true
         }
       ]
     },
@@ -750,6 +734,14 @@
           "source": "ScienceDaily",
           "summary": "NASA has brought two of Swift’s telescopes back online after technical problems derailed a commercial mission intended to rescue the aging observatory by raising its orbit.",
           "published": "2026-09-01T05:43:54+00:00",
+          "regional": false
+        },
+        {
+          "title": "Extreme black hole merger may be a cosmic illusion",
+          "link": "https://www.science.org/content/article/extreme-black-hole-merger-may-be-cosmic-illusion",
+          "source": "Science (AAAS)",
+          "summary": "Puzzling event could be an artifact of gravitational lensing, a new model suggests",
+          "published": "2026-09-01T01:00:00+00:00",
           "regional": false
         },
         {
@@ -929,14 +921,6 @@
           "regional": false
         },
         {
-          "title": "James Webb captures a cosmic lion sculpted by a dying star",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260812015206.htm",
-          "source": "ScienceDaily",
-          "summary": "James Webb has captured a striking new infrared view of NGC 2392, the Lion Nebula, revealing the dramatic aftermath of a dying Sun-like star.",
-          "published": "2026-08-12T10:15:19+00:00",
-          "regional": false
-        },
-        {
           "title": "How a star with an extreme magnetic field could prove space is not empty",
           "link": "https://www.thehindu.com/sci-tech/science/how-a-star-with-an-extreme-magnetic-field-could-prove-space-is-not-empty/article71407511.ece",
           "source": "The Hindu",
@@ -982,22 +966,6 @@
           "source": "Max Planck Society",
           "summary": "A newly detected star orbits the central black hole of our Milky Way closer than any other known star and therefore experiences, how the rotating black hole drags the surrounding spacetime along",
           "published": "2026-08-19T16:00:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "Unusual black hole found at universe’s dawn presents dusty mystery to astronomers",
-          "link": "https://www.thehindu.com/sci-tech/science/unusual-black-hole-found-at-universes-dawn-presents-dusty-mystery-to-astronomers/article71355346.ece",
-          "source": "The Hindu",
-          "summary": "An international team of astronomers has found an unusual object that may help explain what at least some of these red dots actually are: unusually young and rapidly growing black holes surrounded by an enormous amount…",
-          "published": "2026-08-17T12:48:48+00:00",
-          "regional": true
-        },
-        {
-          "title": "Three supermassive black holes discovered in a single galaxy for the first time",
-          "link": "https://www.mpg.de/26904239/three-black-holes-discovered-in-a-young-galaxy",
-          "source": "Max Planck Society",
-          "summary": "Three supermassive black holes in a distant—and therefore very old—galaxy offer a glimpse into how black holes merged and grew in the early universe",
-          "published": "2026-08-12T08:00:00+00:00",
           "regional": true
         }
       ]
