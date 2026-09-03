@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-02T13:04:39.823086+00:00",
-  "generated_human": "02 September 2026, 13:04 UTC",
-  "total_items": 115,
+  "generated": "2026-09-03T13:07:05.697565+00:00",
+  "generated_human": "03 September 2026, 13:07 UTC",
+  "total_items": 116,
   "channels": [
     {
       "key": "ai",
@@ -40,6 +40,22 @@
           "summary": "Researchers have announced synthetic viruses designed by artificial intelligence.",
           "published": "2026-08-13T20:00:00+00:00",
           "regional": false
+        },
+        {
+          "title": "Moonshot AI – creator of Kimi K3 model – has filed for Hong Kong IPO: sources",
+          "link": "https://www.scmp.com/tech/big-tech/article/3366271/moonshot-ai-creator-kimi-k3-model-has-filed-hong-kong-ipo-sources?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Chinese artificial intelligence start-up Moonshot AI – developer of the leading Kimi K3 model – has confidentially filed for an initial public offering in Hong Kong, according to two people with knowledge of the matter,…",
+          "published": "2026-09-03T13:00:02+00:00",
+          "regional": true
+        },
+        {
+          "title": "Are Z.ai and MiniMax heading down opposite financial paths months after Hong Kong IPOs?",
+          "link": "https://www.scmp.com/tech/tech-trends/article/3366253/are-zai-and-minimax-heading-down-opposite-financial-paths-months-after-hong-kong-ipos?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "When two of China’s leading AI pioneers went public in Hong Kong in January, they pitched investors on a shared promise: capturing the explosive demand for artificial intelligence at home and abroad.",
+          "published": "2026-09-03T10:38:59+00:00",
+          "regional": true
         },
         {
           "title": "The AI Act [Part 2] Addressing the Challenge of AI Uncontrollability — Interview with Chuo University Professor Hirano [Bridging the Humanities and Sciences]",
@@ -104,22 +120,6 @@
           "summary": "While China’s new “AI tigers” have captured global attention for challenging Silicon Valley front-runners, a quieter wave of domestic technology companies is building in-house artificial intelligence systems serving…",
           "published": "2026-08-23T11:00:06+00:00",
           "regional": true
-        },
-        {
-          "title": "Nvidia customers notified of AI-related price rises above 15%",
-          "link": "https://www.scmp.com/tech/big-tech/article/3364945/nvidia-customers-notified-ai-related-price-rises-above-15?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Some of Nvidia’s biggest customers have been told that the prices of servers containing its artificial intelligence chips are going up more than 15 per cent in many cases with memory chip costs soaring.",
-          "published": "2026-08-22T21:54:25+00:00",
-          "regional": true
-        },
-        {
-          "title": "Pay, perks, equity: China’s AI, chip firms lead way in offering rewards to lock in talent",
-          "link": "https://www.scmp.com/tech/big-tech/article/3364689/pay-perks-equity-chinas-ai-chip-firms-lead-way-offering-rewards-lock-talent?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "In the high-stakes battle for China’s top talent, domestic tech companies – especially in semiconductors and artificial intelligence – are rolling out aggressive equity incentive plans as they capitalise on a bull…",
-          "published": "2026-08-22T07:00:06+00:00",
-          "regional": true
         }
       ]
     },
@@ -129,6 +129,14 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "Scientists may have found first hint of dark matter",
+          "link": "https://www.bbc.co.uk/news/articles/cvgypvnx1jgo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "The mysterious material has eluded scientists for nearly a century.",
+          "published": "2026-09-02T15:54:03+00:00",
+          "regional": false
+        },
         {
           "title": "Scientists discover diamonds can generate electricity",
           "link": "https://www.sciencedaily.com/releases/2026/08/260829035223.htm",
@@ -226,27 +234,19 @@
           "regional": false
         },
         {
+          "title": "Lutnick says US considering ‘targeted’ chip tariffs on firms that don’t build in US",
+          "link": "https://www.koreaherald.com/article/10861036",
+          "source": "The Korea Herald",
+          "summary": "US Commerce Secretary Howard Lutnick said Wednesday that President Donald Trump's administration is working to craft a \"targeted\" and \"thoughtful\" tariff policy for semiconductors, reiterating that companies that…",
+          "published": "2026-09-02T23:59:38+00:00",
+          "regional": true
+        },
+        {
           "title": "China’s No 2 foundry Hua Hong invests US$2b in new fab to meet surging AI-driven demand",
           "link": "https://www.scmp.com/tech/big-tech/article/3366104/chinas-no-2-foundry-hua-hong-invests-us2b-new-fab-meet-surging-ai-driven-demand?utm_source=rss_feed",
           "source": "South China Morning Post",
           "summary": "Major Chinese foundry Hua Hong Grace Semiconductor is pouring US$2 billion into a massive capacity expansion in the Chinese chip production hub of Wuxi, racing to meet skyrocketing domestic demand for AI infrastructure…",
           "published": "2026-09-02T09:30:11+00:00",
-          "regional": true
-        },
-        {
-          "title": "LG Energy Solution secures W2tr lithium carbonate deal with US supplier",
-          "link": "https://www.koreaherald.com/article/10858927",
-          "source": "The Korea Herald",
-          "summary": "LG Energy Solution said Tuesday it had signed a long-term supply agreement with US-based Smackover Lithium to secure lithium carbonate, strengthening its local battery material supply chain for the North American energy…",
-          "published": "2026-09-01T05:49:27+00:00",
-          "regional": true
-        },
-        {
-          "title": "Spin Seebeck effect realized in bulk materials",
-          "link": "https://sj.jst.go.jp/news/202608/n0831-01k.html",
-          "source": "Science Japan",
-          "summary": "The spin Seebeck effect, a form of thermoelectric conversion that converts heat into electrical energy, manifests on the surface of nanoscale thin films.",
-          "published": "2026-08-31T05:35:06+00:00",
           "regional": true
         },
         {
@@ -302,14 +302,6 @@
           "source": "Scientific American",
           "summary": "Cybersecurity experts are volunteering to keep America’s utilities safe from attacks",
           "published": "2026-09-02T10:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Family fear for missing hydropower worker after Nepal flood",
-          "link": "https://www.bbc.co.uk/news/articles/c1kxmvm39nyo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Jit Bahadur Chaudhary was working at the hydropower site when the flood hit on Wednesday.",
-          "published": "2026-09-01T08:23:51+00:00",
           "regional": false
         },
         {
@@ -377,11 +369,43 @@
           "regional": false
         },
         {
-          "title": "LG Energy Solution secures W2tr lithium carbonate deal with US supplier",
-          "link": "https://www.koreaherald.com/article/10858927",
+          "title": "Data centers are everywhere. Here's what they're doing to the planet.",
+          "link": "https://www.dw.com/en/data-centers-are-everywhere-here-s-what-they-re-doing-to-the-planet/a-78789889?maca=en-rss_en_environment-22607-xml-mrss",
+          "source": "Deutsche Welle",
+          "summary": "As data centers multiply to meet AI demand, they're straining power grids, draining water supplies, and reshaping the land and air around them.",
+          "published": "2026-09-03T08:53:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "Posco, BHP team up to advance hydrogen steelmaking",
+          "link": "https://www.koreaherald.com/article/10861849",
           "source": "The Korea Herald",
-          "summary": "LG Energy Solution said Tuesday it had signed a long-term supply agreement with US-based Smackover Lithium to secure lithium carbonate, strengthening its local battery material supply chain for the North American energy…",
-          "published": "2026-09-01T05:49:27+00:00",
+          "summary": "Posco has teamed up with Australian mining giant BHP to test iron ore for its HyREX hydrogen-based steelmaking technology, moving the low-carbon process closer to commercialization.",
+          "published": "2026-09-03T06:23:23+00:00",
+          "regional": true
+        },
+        {
+          "title": "Hyundai Mobis starts EV powertrain production in Slovakia",
+          "link": "https://www.koreaherald.com/article/10861733",
+          "source": "The Korea Herald",
+          "summary": "Hyundai Mobis has begun mass-producing electric powertrain systems at a new plant in Slovakia, its first such facility in Europe, as it strengthens its foothold in the region’s electric vehicle market.",
+          "published": "2026-09-03T05:31:57+00:00",
+          "regional": true
+        },
+        {
+          "title": "OCI breaks ground on 260 MW Texas solar farm",
+          "link": "https://www.koreaherald.com/article/10861653",
+          "source": "The Korea Herald",
+          "summary": "OCI Holdings’ US subsidiary OCI Energy has broken ground on a 260-megawatt solar farm in Texas, expanding its US power business as artificial intelligence data centers fuel electricity demand.",
+          "published": "2026-09-03T04:18:50+00:00",
+          "regional": true
+        },
+        {
+          "title": "If solar irrigation is over-drawing groundwater, you’re doing it wrong",
+          "link": "https://www.thehindu.com/sci-tech/energy-and-environment/if-solar-irrigation-is-over-drawing-groundwater-youre-doing-it-wrong/article71364311.ece",
+          "source": "The Hindu",
+          "summary": "Over the past five years, India’s agricultural solar program, PM-KUSUM, has installed over 2.5 million solar pumps, making them affordable for smallholder farmers through subsidies.",
+          "published": "2026-09-02T11:08:34+00:00",
           "regional": true
         },
         {
@@ -401,27 +425,11 @@
           "regional": true
         },
         {
-          "title": "If solar irrigation is over-drawing groundwater, you’re doing it wrong",
-          "link": "https://www.thehindu.com/sci-tech/energy-and-environment/if-solar-irrigation-is-over-drawing-groundwater-youre-doing-it-wrong/article71364311.ece",
-          "source": "The Hindu",
-          "summary": "Over the past five years, India’s agricultural solar program, PM-KUSUM, has installed over 2.5 million solar pumps, making them affordable for smallholder farmers through subsidies.",
-          "published": "2026-08-19T10:07:53+00:00",
-          "regional": true
-        },
-        {
           "title": "In drought-stricken France, tankers supply drinking water",
           "link": "https://www.dw.com/en/in-drought-stricken-france-tankers-supply-drinking-water/a-78420016?maca=en-rss_en_environment-22607-xml-mrss",
           "source": "Deutsche Welle",
           "summary": "France is seeing water shortages in regions that usually have plenty of supply. This summer's extreme heat is exposing how unprepared much of the country, and Europe, is for increasing water scarcity.",
           "published": "2026-08-19T04:33:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "South Africa is overlooking solar technology that can keep generating electricity after sunset",
-          "link": "https://theconversation.com/south-africa-is-overlooking-solar-technology-that-can-keep-generating-electricity-after-sunset-283857",
-          "source": "The Conversation",
-          "summary": "South Africa is one of the best places in the world for concentrating solar power. So why has the country’s energy plan largely ignored it?",
-          "published": "2026-08-16T06:17:57+00:00",
           "regional": true
         },
         {
@@ -449,6 +457,30 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "NASA’s Hubble Tracks New Decagon Encircling Saturn’s South Pole",
+          "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/",
+          "source": "NASA",
+          "summary": "NASA’s Hubble Space Telescope observes a giant, evolving, 10-sided atmospheric wave encircling Saturn’s south pole.",
+          "published": "2026-09-02T18:00:37+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Rocket Takes First Multi-Point Look Inside Radio-Disrupting Clouds",
+          "link": "https://science.nasa.gov/science-research/heliophysics/nasa-rocket-takes-first-multi-point-look-inside-radio-disrupting-clouds/",
+          "source": "NASA",
+          "summary": "High above Earth, thin veils of metallic haze drift through the edge of space. Known as sporadic E layers, these high-altitude “clouds” form from the vaporized dust of burnt-up meteors, earning their name from the…",
+          "published": "2026-09-02T14:53:54+00:00",
+          "regional": false
+        },
+        {
+          "title": "Astronauts set out on rare all-female spacewalk",
+          "link": "https://www.bbc.co.uk/news/videos/c5ylm5yj20go?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "For the sixth time in history, a team of two women completed a spacewalk outside the International Space Station.",
+          "published": "2026-09-02T11:10:22+00:00",
+          "regional": false
+        },
+        {
           "title": "ESA’s first lunar rover rolls forward",
           "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ESA_s_first_lunar_rover_rolls_forward",
           "source": "ESA",
@@ -473,6 +505,14 @@
           "regional": false
         },
         {
+          "title": "NASA’s Swift telescope is back, but time is running out",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260901010702.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA has brought two of Swift’s telescopes back online after technical problems derailed a commercial mission intended to rescue the aging observatory by raising its orbit.",
+          "published": "2026-09-01T05:43:54+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA delays Crew-13 launch after leak found on SpaceX Dragon",
           "link": "https://www.sciencedaily.com/releases/2026/09/260901010705.htm",
           "source": "ScienceDaily",
@@ -489,27 +529,11 @@
           "regional": false
         },
         {
-          "title": "NASA Welcomes Türkiye as Newest Artemis Accords Signatory",
-          "link": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-turkiye-as-newest-artemis-accords-signatory/",
-          "source": "NASA",
-          "summary": "During a ceremony hosted by NASA Administrator Jared Isaacman at the agency’s headquarters in Washington on Monday, the Republic of Türkiye signed the Artemis Accords, joining the growing international coalition of…",
-          "published": "2026-08-31T21:14:12+00:00",
-          "regional": false
-        },
-        {
           "title": "What’s next for NASA’s new Roman Space Telescope?",
           "link": "https://www.scientificamerican.com/article/whats-next-for-nasas-new-roman-space-telescope/",
           "source": "Scientific American",
           "summary": "After a flawless launch, the Nancy Grace Roman Space Telescope is on a mission to solve some of the universe’s biggest mysteries",
           "published": "2026-08-31T18:35:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Nancy Grace Roman Space Telescope Launches",
-          "link": "https://www.nasa.gov/image-article/nasas-nancy-grace-roman-space-telescope-launches/",
-          "source": "NASA",
-          "summary": "NASA’s Nancy Grace Roman Space Telescope, aboard a SpaceX Falcon Heavy rocket, transits the Sun during launch from the agency’s Kennedy Space Center in Florida on Aug. 30, 2026.",
-          "published": "2026-08-31T14:10:31+00:00",
           "regional": false
         },
         {
@@ -534,22 +558,6 @@
           "source": "ESA",
           "summary": "Image: NASA’s Nancy Grace Roman Space Telescope lifted off on a SpaceX Falcon Heavy rocket from NASA’s Kennedy Space Center in Florida, USA, at 07:26 EDT / 12:26 BST/ 13:26 CEST on 30 August 2026.",
           "published": "2026-08-31T07:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "APOD: 2026 August 31 – Launch of the Roman Space Telescope",
-          "link": "https://science.nasa.gov/image-article/apod-2026-august-31-launch-of-the-roman-space-telescope/",
-          "source": "NASA",
-          "summary": "APOD Science APOD APOD: 2026 August 31 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos!",
-          "published": "2026-08-31T04:05:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "'A giant leap forward': Nasa launches powerful new space telescope",
-          "link": "https://www.bbc.co.uk/news/articles/ce87e55vgpjo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "The US space agency's telescope is starting a multi-year mission to create a new map of the universe and learn more about dark energy and dark matter.",
-          "published": "2026-08-30T18:53:53+00:00",
           "regional": false
         },
         {
@@ -601,14 +609,6 @@
           "regional": false
         },
         {
-          "title": "Elon Musk’s SpaceX to expand beyond Texas Starbase with new Louisiana spaceport dedicated to Starship",
-          "link": "https://www.scientificamerican.com/article/elon-musks-spacex-to-expand-beyond-texas-starbase-with-new-louisiana-spaceport-dedicated-to-starship/",
-          "source": "Scientific American",
-          "summary": "The new spaceport will support thousands of launches each year, according to SpaceX",
-          "published": "2026-08-25T20:10:00+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA finds Earth microbes could survive on the Moon",
           "link": "https://www.sciencedaily.com/releases/2026/08/260823094142.htm",
           "source": "ScienceDaily",
@@ -633,12 +633,28 @@
           "regional": false
         },
         {
+          "title": "ESA astronaut Sophie Adenot during EVA-97",
+          "link": "https://www.esa.int/ESA_Multimedia/Images/2026/08/ESA_astronaut_Sophie_Adenot_during_EVA-975",
+          "source": "ESA",
+          "summary": "Image: ESA astronaut Sophie Adenot during EVA-97",
+          "published": "2026-08-19T09:29:00+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA’s Perseverance rover watches Earth vanish from the surface of Mars",
           "link": "https://www.sciencedaily.com/releases/2026/08/260812015203.htm",
           "source": "ScienceDaily",
           "summary": "NASA’s Perseverance rover caught a striking first from Mars: Earth disappearing behind the tiny moon Phobos. Seen from nearly 195 million miles away, our planet was reduced to a single point of light before briefly…",
           "published": "2026-08-13T13:20:16+00:00",
           "regional": false
+        },
+        {
+          "title": "All eyes on GISAT-1A mission as ISRO aims to mend faulty launch streak",
+          "link": "https://www.thehindu.com/sci-tech/science/all-eyes-on-gisat-1a-mission-as-isro-aims-to-mend-faulty-launch-streak/article71363564.ece",
+          "source": "The Hindu",
+          "summary": "The launch is also significant because the rocket that attempted to launch the GISAT-1 satellite in 2021 failed, destroying the satellite as well. GISAT-1A is the second attempt",
+          "published": "2026-09-03T11:42:49+00:00",
+          "regional": true
         },
         {
           "title": "Pallas-1 sees China’s Galactic Energy join reusable launch push, closing in on SpaceX",
@@ -711,14 +727,6 @@
           "summary": "China has approved its first private-sector commercial trial for satellite Internet of Things (IoT) services, granting a permit to a Geely-backed venture as part of broader efforts to open the country’s burgeoning…",
           "published": "2026-08-21T06:00:19+00:00",
           "regional": true
-        },
-        {
-          "title": "All eyes on GISAT-1A mission as ISRO aims to mend faulty launch streak",
-          "link": "https://www.thehindu.com/sci-tech/science/all-eyes-on-gisat-1a-mission-as-isro-aims-to-mend-faulty-launch-streak/article71363564.ece",
-          "source": "The Hindu",
-          "summary": "The launch is further significant because the rocket that attempted to launch the GISAT-1 satellite in 2021 failed, destroying the satellite as well. GISAT-1A is the second attempt",
-          "published": "2026-08-19T06:00:55+00:00",
-          "regional": true
         }
       ]
     },
@@ -728,6 +736,22 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "How a new instrument could reveal the secrets of the stars",
+          "link": "https://www.bbc.co.uk/news/videos/cn9w1xpyvz2o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "MOONS, which was built by a team lead from Scotland, has started its work at the Very Large Telescope in Chile.",
+          "published": "2026-09-03T12:38:14+00:00",
+          "regional": false
+        },
+        {
+          "title": "The universe has plenty of hydrogen. So why is star formation collapsing?",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260902234442.htm",
+          "source": "ScienceDaily",
+          "summary": "Star formation across the universe has fallen dramatically over the past 4.5 billion years, but astronomers have uncovered a surprising twist: the supply of neutral hydrogen, a key ingredient for making stars, has…",
+          "published": "2026-09-03T07:48:14+00:00",
+          "regional": false
+        },
         {
           "title": "NASA’s Swift telescope is back, but time is running out",
           "link": "https://www.sciencedaily.com/releases/2026/09/260901010702.htm",
@@ -769,14 +793,6 @@
           "regional": false
         },
         {
-          "title": "'A giant leap forward': Nasa launches powerful new space telescope",
-          "link": "https://www.bbc.co.uk/news/articles/ce87e55vgpjo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "The US space agency's telescope is starting a multi-year mission to create a new map of the universe and learn more about dark energy and dark matter.",
-          "published": "2026-08-30T18:53:53+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA’s Nancy Grace Roman Telescope launches to space",
           "link": "https://www.scientificamerican.com/article/nasas-nancy-grace-roman-telescope-launches-to-space/",
           "source": "Scientific American",
@@ -790,6 +806,14 @@
           "source": "Scientific American",
           "summary": "The Roman Space Telescope will spend more than a quarter of its time staring at the Milky Way’s bulge, a star-packed central region of our galaxy that may swarm with small, rocky exoplanets",
           "published": "2026-08-29T13:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "The universe is still speeding up, but nobody knows why",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260828082325.htm",
+          "source": "ScienceDaily",
+          "summary": "A major new analysis challenges recent claims that the universe's expansion is slowing, finding that the evidence for cosmic acceleration remains strong.",
+          "published": "2026-08-29T11:41:30+00:00",
           "regional": false
         },
         {
@@ -830,14 +854,6 @@
           "source": "Scientific American",
           "summary": "Spirals, ellipticals, irregulars, oh my!",
           "published": "2026-08-27T10:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Roman Space Telescope could reveal dark energy’s deepest secrets",
-          "link": "https://www.scientificamerican.com/article/nasas-roman-space-telescope-could-reveal-dark-energys-deepest-secrets/",
-          "source": "Scientific American",
-          "summary": "The more scientists try to understand dark energy, the more its mysteries seem to grow. NASA’s newest space telescope is custom-built to crack the case",
-          "published": "2026-08-26T13:45:00+00:00",
           "regional": false
         },
         {
@@ -913,12 +929,12 @@
           "regional": false
         },
         {
-          "title": "JWST spots a bizarre “black hole star” 100 billion times brighter than a star",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260813045538.htm",
-          "source": "ScienceDaily",
-          "summary": "Astronomers using the James Webb Space Telescope have discovered a bizarre object from just a few hundred million years after the Big Bang that looks like an enormous star but shines far too brightly to actually be one.",
-          "published": "2026-08-13T13:03:55+00:00",
-          "regional": false
+          "title": "What is the Nancy Grace Roman Telescope?",
+          "link": "https://www.thehindu.com/sci-tech/science/what-is-the-nancy-grace-roman-telescope/article71407538.ece",
+          "source": "The Hindu",
+          "summary": "It is a follow-on to the Hubble Space Telescope, launched in 1990, and the James Webb Space Telescope, launched in 2021, and has capabilities that can expand on the knowledge gained by those pioneering observatories",
+          "published": "2026-09-03T10:24:56+00:00",
+          "regional": true
         },
         {
           "title": "How a star with an extreme magnetic field could prove space is not empty",
@@ -926,14 +942,6 @@
           "source": "The Hindu",
           "summary": "The work could prove the ‘nothingness’ of space is actually a complex and active medium and help scientists refine their maps of the universe",
           "published": "2026-09-01T04:41:13+00:00",
-          "regional": true
-        },
-        {
-          "title": "What is the Nancy Grace Roman Telescope?",
-          "link": "https://www.thehindu.com/sci-tech/science/what-is-the-nancy-grace-roman-telescope/article71407538.ece",
-          "source": "The Hindu",
-          "summary": "It is a follow-on to the Hubble Space Telescope, launched in 1990, and the James Webb Space Telescope, launched in 2021, and has capabilities that can expand on the knowledge gained by those pioneering observatories",
-          "published": "2026-08-30T11:17:46+00:00",
           "regional": true
         },
         {
