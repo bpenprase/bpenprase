@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-09-02 14:38 PDT
-; Observing window starts 2026-09-02 20:42 PDT  (LST 18:40:15)
+; Generated 2026-09-03 14:36 PDT
+; Observing window starts 2026-09-03 20:40 PDT  (LST 18:42:11)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -184,7 +184,7 @@ NGC 7000
 #filter r',g',i',z'
 M 39
 
-; Asteroid 9 Metis  mag 9.3
+; Asteroid 9 Metis  mag 9.4
 #posang 0
 #count 3
 #interval 300
@@ -374,6 +374,15 @@ NGC 1023
 #filter r',g',i',z'
 M 77
 
+; Comet 161P/Hartley-IRAS  mag 13.8
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 161P/Hartley-IRAS
+#WAITINLIMITS 60
+
 ; Supernova AT2026rok in none  Type Nova?  mag 13.9  z=n/a
 #posang 0
 #count 3,3
@@ -432,7 +441,16 @@ NGC 1499
 Uranus
 #WAITINLIMITS 60
 
-; Comet C/2024 T5 (ATLAS)  mag 13.9
+; Comet 260P/McNaught  mag 14.0
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 260P/McNaught
+#WAITINLIMITS 60
+
+; Comet C/2024 T5 (ATLAS)  mag 14.0
 #posang 0
 #count 3
 #interval 300
