@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-03T13:07:05.697565+00:00",
-  "generated_human": "03 September 2026, 13:07 UTC",
-  "total_items": 116,
+  "generated": "2026-09-04T13:01:08.568647+00:00",
+  "generated_human": "04 September 2026, 13:01 UTC",
+  "total_items": 121,
   "channels": [
     {
       "key": "ai",
@@ -10,19 +10,27 @@
       "accent": "#5AA9E6",
       "items": [
         {
+          "title": "Live from ICM 2026: What Is Math For in the Age of AI?",
+          "link": "https://www.quantamagazine.org/live-from-icm-2026-what-is-math-for-in-the-age-of-ai-20260903/",
+          "source": "Quanta Magazine",
+          "summary": "In this special live recording from the International Congress of Mathematicians in Philadelphia, July 2026, the central question discussed was what do mathematicians really value about doing mathematics in the first…",
+          "published": "2026-09-03T13:41:48+00:00",
+          "regional": false
+        },
+        {
+          "title": "In an Age of AI, a Physicist Seeks What Endures",
+          "link": "https://www.quantamagazine.org/in-an-age-of-ai-a-physicist-seeks-what-endures-20260903/",
+          "source": "Quanta Magazine",
+          "summary": "Sarah Demers, chair of the physics department at Yale University, sees the potential for large language models to both help and harm her field.",
+          "published": "2026-09-03T13:35:59+00:00",
+          "regional": false
+        },
+        {
           "title": "Alpha School’s AI teaching model is expanding. Does it work?",
           "link": "https://www.scientificamerican.com/article/alpha-schools-ai-teaching-model-is-expanding-does-it-work/",
           "source": "Scientific American",
           "summary": "The fast-growing private-school network is handing much of instruction over to artificial intelligence. Researchers say the science is far from settled",
           "published": "2026-08-28T16:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Jill Lepore on why Silicon Valley gets science fiction wrong",
-          "link": "https://www.scientificamerican.com/article/jill-lepore-on-why-silicon-valley-gets-science-fiction-wrong/",
-          "source": "Scientific American",
-          "summary": "Historian Jill Lepore explains what tech leaders miss in their favorite stories—and why the fight over AI data centers may be where the machine stops",
-          "published": "2026-08-26T17:00:00+00:00",
           "regional": false
         },
         {
@@ -34,12 +42,12 @@
           "regional": false
         },
         {
-          "title": "BBC Inside Science",
-          "link": "https://www.bbc.co.uk/sounds/play/w3ct9780?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Researchers have announced synthetic viruses designed by artificial intelligence.",
-          "published": "2026-08-13T20:00:00+00:00",
-          "regional": false
+          "title": "LG to showcase AI technologies at Spark 2026",
+          "link": "https://www.koreaherald.com/article/10863234",
+          "source": "The Korea Herald",
+          "summary": "LG will showcase its latest artificial intelligence technologies and business applications at LG Spark 2026, running Monday through Sept. 17 at LG Sciencepark in Magok, western Seoul.",
+          "published": "2026-09-04T07:56:14+00:00",
+          "regional": true
         },
         {
           "title": "Moonshot AI – creator of Kimi K3 model – has filed for Hong Kong IPO: sources",
@@ -79,14 +87,6 @@
           "source": "South China Morning Post",
           "summary": "China’s home-grown artificial intelligence chipmakers are starting to cash in on Beijing’s self-reliance drive, but a fresh wave of first-half earnings reveals a stark divide between the industry’s rising profit stars…",
           "published": "2026-08-31T06:30:24+00:00",
-          "regional": true
-        },
-        {
-          "title": "The AI Act [Part 1] Recognizing the risks of entrusting our lives to AI — Interview with Chuo University Professor Hirano [Bridging the humanities and sciences]",
-          "link": "https://sj.jst.go.jp/interviewsandopinions/2026/c0831-01p.html",
-          "source": "Science Japan",
-          "summary": "AI (artificial intelligence) is gradually permeating into our lives. As Japan does not have laws that comprehensively regulate AI development and use, we must consider potential future challenges and the risks…",
-          "published": "2026-08-31T05:36:39+00:00",
           "regional": true
         },
         {
@@ -178,14 +178,6 @@
           "regional": false
         },
         {
-          "title": "Electric rain can eat through metal",
-          "link": "https://www.scientificamerican.com/article/electric-rain-can-eat-through-metal/",
-          "source": "Scientific American",
-          "summary": "New research shows that water becomes electrified as it slides down smooth surfaces, leading to corrosion",
-          "published": "2026-08-26T15:02:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Atomic catalyst unlocks the hidden value of plant waste",
           "link": "https://www.sciencedaily.com/releases/2026/08/260824065601.htm",
           "source": "ScienceDaily",
@@ -232,6 +224,30 @@
           "summary": "Scientists have discovered that tiny, sharply curved wrinkles in graphene can dramatically alter its electrical behavior, creating surprisingly strong charge separation.",
           "published": "2026-08-17T02:28:23+00:00",
           "regional": false
+        },
+        {
+          "title": "Indian researchers map colonial spider’s venom gland, uncover molecules with potential for future cancer and antimicrobial drug research",
+          "link": "https://www.thehindu.com/sci-tech/science/indian-researchers-map-colonial-spiders-venom-gland-uncover-molecules-with-potential-for-future-cancer-and-antimicrobial-drug-research/article71427539.ece",
+          "source": "The Hindu",
+          "summary": "The researchers cautioned that the findings represent an early stage of biomedical research and require extensive validation before any clinical application becomes possible",
+          "published": "2026-09-04T09:04:37+00:00",
+          "regional": true
+        },
+        {
+          "title": "Kolmar Korea brings K-beauty colors to Paris fashion fair",
+          "link": "https://www.koreaherald.com/article/10863075",
+          "source": "The Korea Herald",
+          "summary": "Kolmar Korea became the first Korean cosmetics company to participate in Premiere Vision Paris, showcasing K-beauty technology and color cosmetics at the leading fashion materials trade show.",
+          "published": "2026-09-04T06:13:01+00:00",
+          "regional": true
+        },
+        {
+          "title": "Build in US or pay: Trump revives chip tariff threat",
+          "link": "https://www.koreaherald.com/article/10861765",
+          "source": "The Korea Herald",
+          "summary": "Build chips in America or pay to sell them there. US President Donald Trump's administration has revived its push for targeted semiconductor tariffs, raising pressure on Samsung Electronics and SK hynix to expand US…",
+          "published": "2026-09-03T05:47:34+00:00",
+          "regional": true
         },
         {
           "title": "Lutnick says US considering ‘targeted’ chip tariffs on firms that don’t build in US",
@@ -288,7 +304,16 @@
       "name": "Synthetic Biology",
       "tagline": "Engineered organisms and programmed DNA — cells built for computing, data storage, and chemical synthesis.",
       "accent": "#5FBF9B",
-      "items": []
+      "items": [
+        {
+          "title": "Can cells genetically engineered in the body fight autoimmune diseases?",
+          "link": "https://www.science.org/content/article/can-cells-genetically-engineered-body-fight-autoimmune-diseases",
+          "source": "Science (AAAS)",
+          "summary": "New approach that induces patients to make their own CAR-T cells could be faster and cheaper than existing methods",
+          "published": "2026-09-03T01:50:00+00:00",
+          "regional": false
+        }
+      ]
     },
     {
       "key": "energywater",
@@ -296,6 +321,14 @@
       "tagline": "New ways to generate clean energy, capture carbon, and bring fresh water and power to people, cities, and transport.",
       "accent": "#33C6D6",
       "items": [
+        {
+          "title": "Renewable energy in NI reaches record level",
+          "link": "https://www.bbc.co.uk/news/articles/ce3rql5rzx4o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "And for the first time renewable generation has consistently exceeded non-renewable generation since January.",
+          "published": "2026-09-04T05:11:45+00:00",
+          "regional": false
+        },
         {
           "title": "The hackers protecting America’s water supply",
           "link": "https://www.scientificamerican.com/podcast/episode/the-hackers-protecting-americas-water-supply/",
@@ -369,11 +402,11 @@
           "regional": false
         },
         {
-          "title": "Data centers are everywhere. Here's what they're doing to the planet.",
-          "link": "https://www.dw.com/en/data-centers-are-everywhere-here-s-what-they-re-doing-to-the-planet/a-78789889?maca=en-rss_en_environment-22607-xml-mrss",
+          "title": "Are data centers really bad for the planet?",
+          "link": "https://www.dw.com/en/are-data-centers-really-bad-for-the-planet/a-78789889?maca=en-rss_en_environment-22607-xml-mrss",
           "source": "Deutsche Welle",
-          "summary": "As data centers multiply to meet AI demand, they're straining power grids, draining water supplies, and reshaping the land and air around them.",
-          "published": "2026-09-03T08:53:00+00:00",
+          "summary": "As data centers multiply to meet AI demand, they're straining power grids, draining water supplies and reshaping the land and air around them.",
+          "published": "2026-09-04T11:08:00+00:00",
           "regional": true
         },
         {
@@ -457,19 +490,43 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "NASA to Cover Progress 96 Spacecraft Launch, Docking",
+          "link": "https://www.nasa.gov/news-release/nasa-to-cover-progress-96-spacecraft-launch-docking/",
+          "source": "NASA",
+          "summary": "NASA will provide live coverage of the launch and docking of a Roscosmos cargo spacecraft carrying about three tons of food, fuel, and supplies for the crew aboard the International Space Station.",
+          "published": "2026-09-03T17:06:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "The spacecraft BepiColombo is finally nearing Mercury after 8 years in space",
+          "link": "https://www.scientificamerican.com/article/european-spacecraft-bepicolombo-is-finally-nearing-mercury-after-8-years-in-space/",
+          "source": "Scientific American",
+          "summary": "In a critical maneuver on Thursday, the mission successfully deployed its two science orbiters—beginning the final phases of its arrival at Mercury",
+          "published": "2026-09-03T14:30:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Igniting Roman’s Journey",
+          "link": "https://www.nasa.gov/image-article/igniting-romans-journey/",
+          "source": "NASA",
+          "summary": "Now on a three-month, million-mile journey to its final orbit, NASA’s Nancy Grace Roman Space Telescope will soon reveal the universe’s darkest secrets. The mission launched at 7:26 a.m. EDT on Aug.",
+          "published": "2026-09-03T14:24:23+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Hubble Spies Superbubble Scene",
+          "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-superbubble-scene/",
+          "source": "NASA",
+          "summary": "This Hubble Space Telescope image features a sprawling cosmic vista called N44.",
+          "published": "2026-09-03T13:16:02+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA’s Hubble Tracks New Decagon Encircling Saturn’s South Pole",
           "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/",
           "source": "NASA",
           "summary": "NASA’s Hubble Space Telescope observes a giant, evolving, 10-sided atmospheric wave encircling Saturn’s south pole.",
           "published": "2026-09-02T18:00:37+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Rocket Takes First Multi-Point Look Inside Radio-Disrupting Clouds",
-          "link": "https://science.nasa.gov/science-research/heliophysics/nasa-rocket-takes-first-multi-point-look-inside-radio-disrupting-clouds/",
-          "source": "NASA",
-          "summary": "High above Earth, thin veils of metallic haze drift through the edge of space. Known as sporadic E layers, these high-altitude “clouds” form from the vaporized dust of burnt-up meteors, earning their name from the…",
-          "published": "2026-09-02T14:53:54+00:00",
           "regional": false
         },
         {
@@ -486,22 +543,6 @@
           "source": "ESA",
           "summary": "Yesterday evening, during a signing ceremony at the Space for Inspiration event in Copenhagen, Denmark, the European Space Agency (ESA) and ispace-Europe celebrated the implementation of MAGPIE, set to be the first…",
           "published": "2026-09-02T07:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Selects Blue Origin as Mars Telecommunications Network Provider",
-          "link": "https://www.nasa.gov/news-release/nasa-selects-blue-origin-as-mars-telecommunications-network-provider/",
-          "source": "NASA",
-          "summary": "NASA awarded Blue Origin a contract Tuesday to develop the agency’s Mars Telecommunications Network, a next-generation communications system that will enable reliable, high-bandwidth communications and navigation…",
-          "published": "2026-09-01T21:08:37+00:00",
-          "regional": false
-        },
-        {
-          "title": "Historic Engines Take Their Place on Artemis III",
-          "link": "https://www.nasa.gov/image-article/historic-engines-take-their-place-on-artemis-iii/",
-          "source": "NASA",
-          "summary": "On Aug. 24, technicians at NASA’s Kennedy Space Center in Florida began installing the four RS‑25 engines in the core stage of the agency’s Space Launch System (SLS) rocket that will carry the Artemis III crew into low…",
-          "published": "2026-09-01T17:30:35+00:00",
           "regional": false
         },
         {
@@ -641,12 +682,12 @@
           "regional": false
         },
         {
-          "title": "NASA’s Perseverance rover watches Earth vanish from the surface of Mars",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260812015203.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA’s Perseverance rover caught a striking first from Mars: Earth disappearing behind the tiny moon Phobos. Seen from nearly 195 million miles away, our planet was reduced to a single point of light before briefly…",
-          "published": "2026-08-13T13:20:16+00:00",
-          "regional": false
+          "title": "ISRO successfully launches Earth observation satellite EOS-05",
+          "link": "https://www.thehindu.com/sci-tech/science/isro-gslv-f17-eos-05-satellite-rocket-launch-september-4-sriharikota-updates/article71425914.ece",
+          "source": "The Hindu",
+          "summary": "The EOS-05 is India’s first ever imaging satellite to monitor from Geosynchronous orbit about 36,000 km above the Earth.",
+          "published": "2026-09-04T05:38:57+00:00",
+          "regional": true
         },
         {
           "title": "All eyes on GISAT-1A mission as ISRO aims to mend faulty launch streak",
@@ -705,14 +746,6 @@
           "regional": true
         },
         {
-          "title": "Global space norms find a firm footing in India’s new re-entry rules",
-          "link": "https://www.thehindu.com/sci-tech/science/global-space-norms-find-a-firm-footing-in-india-new-re-entry-rules/article71380693.ece",
-          "source": "The Hindu",
-          "summary": "For many decades, there were few rocket launches and few new satellites in orbit every year, so there were also few re-entries, and most of them simply burned up in the atmosphere with little consequence.",
-          "published": "2026-08-23T10:24:54+00:00",
-          "regional": true
-        },
-        {
           "title": "How do astronauts return from space and survive re-entry? | Explained",
           "link": "https://www.thehindu.com/sci-tech/science/how-do-astronauts-return-from-space-and-survive-re-entry/article70691392.ece",
           "source": "The Hindu",
@@ -737,6 +770,22 @@
       "accent": "#B98CE0",
       "items": [
         {
+          "title": "This star has the strangest sky in the galaxy",
+          "link": "https://www.scientificamerican.com/article/this-star-has-the-strangest-sky-in-the-galaxy/",
+          "source": "Scientific American",
+          "summary": "The newfound star S301 orbits the Milky Way’s supermassive black hole so closely that its view of the heavens gets twisted",
+          "published": "2026-09-04T10:45:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Dying radio galaxies fade faster than scientists expected",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260901010656.htm",
+          "source": "ScienceDaily",
+          "summary": "Astronomers have identified a surprisingly young population of fading radio galaxies whose supermassive black holes have already switched off their powerful jets.",
+          "published": "2026-09-04T10:07:20+00:00",
+          "regional": false
+        },
+        {
           "title": "How a new instrument could reveal the secrets of the stars",
           "link": "https://www.bbc.co.uk/news/videos/cn9w1xpyvz2o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
@@ -758,14 +807,6 @@
           "source": "ScienceDaily",
           "summary": "NASA has brought two of Swift’s telescopes back online after technical problems derailed a commercial mission intended to rescue the aging observatory by raising its orbit.",
           "published": "2026-09-01T05:43:54+00:00",
-          "regional": false
-        },
-        {
-          "title": "Extreme black hole merger may be a cosmic illusion",
-          "link": "https://www.science.org/content/article/extreme-black-hole-merger-may-be-cosmic-illusion",
-          "source": "Science (AAAS)",
-          "summary": "Puzzling event could be an artifact of gravitational lensing, a new model suggests",
-          "published": "2026-09-01T01:00:00+00:00",
           "regional": false
         },
         {
@@ -921,12 +962,12 @@
           "regional": false
         },
         {
-          "title": "A massive new cosmic map is revealing black holes, rare stars, and hidden gas",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260813045541.htm",
-          "source": "ScienceDaily",
-          "summary": "Astronomers have released more than three million new spectra in a sweeping expansion that, for the first time, brings SDSS-V optical observations to the Southern Hemisphere.",
-          "published": "2026-08-14T04:21:15+00:00",
-          "regional": false
+          "title": "Dark matter could keep tiny black holes alive inside stars: study",
+          "link": "https://www.thehindu.com/sci-tech/science/dark-matter-could-keep-tiny-black-holes-alive-inside-stars-study/article71427877.ece",
+          "source": "The Hindu",
+          "summary": "Such black holes, each roughly the mass of a loaded semi-truck, would evaporate rapidly if left on their own, say the researchers",
+          "published": "2026-09-04T12:37:05+00:00",
+          "regional": true
         },
         {
           "title": "What is the Nancy Grace Roman Telescope?",
