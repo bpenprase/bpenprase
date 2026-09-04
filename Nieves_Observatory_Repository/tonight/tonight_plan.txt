@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-09-03 14:36 PDT
-; Observing window starts 2026-09-03 20:40 PDT  (LST 18:42:11)
+; Generated 2026-09-04 14:18 PDT
+; Observing window starts 2026-09-04 20:38 PDT  (LST 18:44:07)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -201,6 +201,14 @@ MP Metis
 #filter r',g',i',z'
 NGC 7331
 
+; Supernova 2026aaiv in NGC 7331  Type Ia  mag 13.9  z=0.003000
+#posang 0
+#count 3,3
+#interval 300,300
+#binning 1,1
+#filter r',g'
+2026aaiv	22:37:05.618	+34:24:35.37
+
 ; Planet: Neptune
 #posang 0
 #count 10
@@ -333,7 +341,7 @@ M 74
 MP Pallas
 #WAITINLIMITS 60
 
-; Asteroid 4 Vesta  mag 7.0
+; Asteroid 4 Vesta  mag 6.9
 #posang 0
 #count 3
 #interval 300
@@ -366,14 +374,6 @@ NGC 0884
 #filter r',g',i',z'
 NGC 1023
 
-; Galaxy  mag 9.3  size 6.11'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 77
-
 ; Comet 161P/Hartley-IRAS  mag 13.8
 #posang 0
 #count 3
@@ -383,6 +383,14 @@ M 77
 CT 161P/Hartley-IRAS
 #WAITINLIMITS 60
 
+; Galaxy  mag 9.3  size 6.11'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 77
+
 ; Supernova AT2026rok in none  Type Nova?  mag 13.9  z=n/a
 #posang 0
 #count 3,3
@@ -391,7 +399,7 @@ CT 161P/Hartley-IRAS
 #filter r',g'
 AT2026rok	02:53:07.234	+16:51:11.98
 
-; Comet 220P/McNaught  mag 10.6
+; Comet 220P/McNaught  mag 9.2
 #posang 0
 #count 3
 #interval 300
@@ -399,14 +407,6 @@ AT2026rok	02:53:07.234	+16:51:11.98
 #filter r'
 CT 220P/McNaught
 #WAITINLIMITS 60
-
-; Galaxy  mag 9.7  size 4.71'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 1395
 
 ; Galaxy  mag 9.7  size 5.73'
 #posang 0
@@ -548,6 +548,14 @@ NGC 2403
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 2537
+
+; Galaxy  mag 11.3  size 4.33'  Helix Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 2685
 
 ; Galaxy  mag 8.4  size 13.71'  Whirlpool Galaxy
 #posang 0
