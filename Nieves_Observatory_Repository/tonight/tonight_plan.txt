@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-09-04 14:18 PDT
-; Observing window starts 2026-09-04 20:38 PDT  (LST 18:44:07)
+; Generated 2026-09-05 14:01 PDT
+; Observing window starts 2026-09-05 20:36 PDT  (LST 18:46:04)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -78,15 +78,6 @@ NGC 6633
 #filter r',g',i',z'
 M 25
 
-; Comet C/2024 J3 (ATLAS)  mag 14.0
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT C/2024 J3
-#WAITINLIMITS 60
-
 ; Open Cluster  mag 4.6  size 24.00'
 #posang 0
 #count 1,1,1,1
@@ -127,14 +118,6 @@ MP Juno
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 6822
-
-; Open Cluster  mag 5.2  size 9.30'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 6871
 
 ; Galaxy  mag 9.1  size 11.40'  Fireworks Galaxy
 #posang 0
@@ -201,14 +184,6 @@ MP Metis
 #filter r',g',i',z'
 NGC 7331
 
-; Supernova 2026aaiv in NGC 7331  Type Ia  mag 13.9  z=0.003000
-#posang 0
-#count 3,3
-#interval 300,300
-#binning 1,1
-#filter r',g'
-2026aaiv	22:37:05.618	+34:24:35.37
-
 ; Planet: Neptune
 #posang 0
 #count 10
@@ -226,7 +201,7 @@ Neptune
 #filter r',g',i',z'
 NGC 0147
 
-; Asteroid 192 Nausikaa  mag 9.5
+; Asteroid 192 Nausikaa  mag 9.4
 #posang 0
 #count 3
 #interval 300
@@ -374,15 +349,6 @@ NGC 0884
 #filter r',g',i',z'
 NGC 1023
 
-; Comet 161P/Hartley-IRAS  mag 13.8
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 161P/Hartley-IRAS
-#WAITINLIMITS 60
-
 ; Galaxy  mag 9.3  size 6.11'
 #posang 0
 #count 1,1,1,1
@@ -391,15 +357,7 @@ CT 161P/Hartley-IRAS
 #filter r',g',i',z'
 M 77
 
-; Supernova AT2026rok in none  Type Nova?  mag 13.9  z=n/a
-#posang 0
-#count 3,3
-#interval 300,300
-#binning 1,1
-#filter r',g'
-AT2026rok	02:53:07.234	+16:51:11.98
-
-; Comet 220P/McNaught  mag 9.2
+; Comet 220P/McNaught  mag 12.0
 #posang 0
 #count 3
 #interval 300
@@ -491,6 +449,14 @@ NGC 1980
 #filter r',g',i',z'
 M 35
 
+; Open Cluster  mag 3.9  size 9.90'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 2232
+
 ; HII Region  mag 6.0  size 80.00'  Rosette Nebula
 #posang 0
 #count 1,1,1,1
@@ -515,14 +481,6 @@ MP Ceres
 #binning 1,3,3,3
 #filter r',Ha,OIII,SII
 NGC 2264
-
-; Supernova AT2026wyp in none  Type unk  mag 14.5  z=n/a
-#posang 0
-#count 3,3
-#interval 300,300
-#binning 1,1
-#filter r',g'
-AT2026wyp	06:49:05.903	+37:06:08.52
 
 ; Planet: Mars
 #posang 0
