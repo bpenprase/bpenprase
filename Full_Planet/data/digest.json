@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-04T13:01:08.568647+00:00",
-  "generated_human": "04 September 2026, 13:01 UTC",
-  "total_items": 121,
+  "generated": "2026-09-05T12:13:42.591459+00:00",
+  "generated_human": "05 September 2026, 12:13 UTC",
+  "total_items": 124,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "Architecting memory and storage in the AI era",
+          "link": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
+          "source": "MIT Technology Review",
+          "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of…",
+          "published": "2026-09-04T18:39:19+00:00",
+          "regional": false
+        },
         {
           "title": "Live from ICM 2026: What Is Math For in the Age of AI?",
           "link": "https://www.quantamagazine.org/live-from-icm-2026-what-is-math-for-in-the-age-of-ai-20260903/",
@@ -130,6 +138,14 @@
       "accent": "#E8A13A",
       "items": [
         {
+          "title": "Quantum oscillations defy expectations in this exotic material",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260901010715.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have uncovered an unusual form of electron behavior in zirconium pentatelluride, a quantum material that can act as both an insulator and a conductor.",
+          "published": "2026-09-05T04:18:12+00:00",
+          "regional": false
+        },
+        {
           "title": "Scientists may have found first hint of dark matter",
           "link": "https://www.bbc.co.uk/news/articles/cvgypvnx1jgo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
@@ -230,7 +246,7 @@
           "link": "https://www.thehindu.com/sci-tech/science/indian-researchers-map-colonial-spiders-venom-gland-uncover-molecules-with-potential-for-future-cancer-and-antimicrobial-drug-research/article71427539.ece",
           "source": "The Hindu",
           "summary": "The researchers cautioned that the findings represent an early stage of biomedical research and require extensive validation before any clinical application becomes possible",
-          "published": "2026-09-04T09:04:37+00:00",
+          "published": "2026-09-05T05:02:28+00:00",
           "regional": true
         },
         {
@@ -322,6 +338,14 @@
       "accent": "#33C6D6",
       "items": [
         {
+          "title": "NSF initiative seeks tech fixes for Colorado River water crisis",
+          "link": "https://www.science.org/content/article/nsf-looks-technology-fixes-ease-water-crisis-along-colorado-river",
+          "source": "Science (AAAS)",
+          "summary": "$100 million program to ensure water for industry overlooks shortage’s root causes, critics say",
+          "published": "2026-09-04T09:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "Renewable energy in NI reaches record level",
           "link": "https://www.bbc.co.uk/news/articles/ce3rql5rzx4o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
@@ -402,8 +426,8 @@
           "regional": false
         },
         {
-          "title": "Are data centers really bad for the planet?",
-          "link": "https://www.dw.com/en/are-data-centers-really-bad-for-the-planet/a-78789889?maca=en-rss_en_environment-22607-xml-mrss",
+          "title": "The hidden environmental cost of AI data centers",
+          "link": "https://www.dw.com/en/the-hidden-environmental-cost-of-ai-data-centers/a-78789889?maca=en-rss_en_environment-22607-xml-mrss",
           "source": "Deutsche Welle",
           "summary": "As data centers multiply to meet AI demand, they're straining power grids, draining water supplies and reshaping the land and air around them.",
           "published": "2026-09-04T11:08:00+00:00",
@@ -490,6 +514,14 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "NASA Hosts Virtual Artemis Webinar for Blind, Low-Vision Community",
+          "link": "https://www.nasa.gov/general/nasa-hosts-virtual-artemis-webinar-for-blind-low-vision-community/",
+          "source": "NASA",
+          "summary": "NASA will host a virtual webinar at 2 p.m. EDT on Friday, Oct. 2, titled “The RS-25 Engine and the Future of Artemis Missions: An Accessible Webinar for the Blind and Low-Vision Community.” This webinar is open to the…",
+          "published": "2026-09-04T16:48:59+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA to Cover Progress 96 Spacecraft Launch, Docking",
           "link": "https://www.nasa.gov/news-release/nasa-to-cover-progress-96-spacecraft-launch-docking/",
           "source": "NASA",
@@ -519,14 +551,6 @@
           "source": "NASA",
           "summary": "This Hubble Space Telescope image features a sprawling cosmic vista called N44.",
           "published": "2026-09-03T13:16:02+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Hubble Tracks New Decagon Encircling Saturn’s South Pole",
-          "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/",
-          "source": "NASA",
-          "summary": "NASA’s Hubble Space Telescope observes a giant, evolving, 10-sided atmospheric wave encircling Saturn’s south pole.",
-          "published": "2026-09-02T18:00:37+00:00",
           "regional": false
         },
         {
@@ -562,19 +586,19 @@
           "regional": false
         },
         {
-          "title": "NASA’s New Horizons mission may shut down two instruments over lack of funding",
-          "link": "https://www.science.org/content/article/nasa-s-new-horizons-mission-may-shut-down-two-instruments-over-lack-funding",
-          "source": "Science (AAAS)",
-          "summary": "Decision risks “incalculable loss” of data from the edge of the Sun’s influence, scientists say",
-          "published": "2026-09-01T05:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "What’s next for NASA’s new Roman Space Telescope?",
           "link": "https://www.scientificamerican.com/article/whats-next-for-nasas-new-roman-space-telescope/",
           "source": "Scientific American",
           "summary": "After a flawless launch, the Nancy Grace Roman Space Telescope is on a mission to solve some of the universe’s biggest mysteries",
           "published": "2026-08-31T18:35:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "What happened this month at the European Space Agency? (August 2026)",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/What_happened_this_month_at_the_European_Space_Agency_August_2026",
+          "source": "ESA",
+          "summary": "Video: 00:03:19 August was a busy month for ESA, between spectacular views, historic milestones and exciting new discoveries.",
+          "published": "2026-08-31T13:30:00+00:00",
           "regional": false
         },
         {
@@ -618,19 +642,19 @@
           "regional": false
         },
         {
+          "title": "Top 10 Roman Space Telescope science breakthroughs",
+          "link": "https://www.scientificamerican.com/article/top-10-roman-space-telescope-science-breakthroughs/",
+          "source": "Scientific American",
+          "summary": "NASA’s Roman Space Telescope will open a whole new window on the cosmos. Here are 10 things it’s likely to show us",
+          "published": "2026-08-28T17:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "How will NASA’s Roman Space Telescope see exoplanets?",
           "link": "https://www.scientificamerican.com/article/how-will-nasas-roman-space-telescope-see-exoplanets/",
           "source": "Scientific American",
           "summary": "NASA’s newest major observatory will include the most advanced planet-imaging tech ever flown in space. Here’s how it works",
           "published": "2026-08-28T10:45:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Roman Space Telescope will rewrite how we study the universe",
-          "link": "https://www.scientificamerican.com/article/nasas-roman-space-telescope-will-rewrite-how-we-study-the-universe/",
-          "source": "Scientific American",
-          "summary": "Astronomers are lining up to leverage NASA’s soon-to-launch Nancy Grace Roman Space Telescope, which boasts capabilities unlike any previous off-world observatory",
-          "published": "2026-08-27T15:15:00+00:00",
           "regional": false
         },
         {
@@ -685,8 +709,8 @@
           "title": "ISRO successfully launches Earth observation satellite EOS-05",
           "link": "https://www.thehindu.com/sci-tech/science/isro-gslv-f17-eos-05-satellite-rocket-launch-september-4-sriharikota-updates/article71425914.ece",
           "source": "The Hindu",
-          "summary": "The EOS-05 is India’s first ever imaging satellite to monitor from Geosynchronous orbit about 36,000 km above the Earth.",
-          "published": "2026-09-04T05:38:57+00:00",
+          "summary": "GSLV-F17 places 2,367-kg EOS-05, India’s first imaging satellite, into the intended Sub-Geosynchronous Transfer Orbit",
+          "published": "2026-09-04T15:03:36+00:00",
           "regional": true
         },
         {
@@ -746,11 +770,11 @@
           "regional": true
         },
         {
-          "title": "How do astronauts return from space and survive re-entry? | Explained",
-          "link": "https://www.thehindu.com/sci-tech/science/how-do-astronauts-return-from-space-and-survive-re-entry/article70691392.ece",
+          "title": "Global space norms find a firm footing in India’s new re-entry rules",
+          "link": "https://www.thehindu.com/sci-tech/science/global-space-norms-find-a-firm-footing-in-india-new-re-entry-rules/article71380693.ece",
           "source": "The Hindu",
-          "summary": "A launch vehicle’s ascent battles gravity to gain orbital velocity, while re-entry is a controlled struggle against the atmosphere to systematically shed that immense kinetic energy through aerobraking, thermal…",
-          "published": "2026-08-23T10:19:51+00:00",
+          "summary": "For many decades, there were few rocket launches and few new satellites in orbit every year, so there were also few re-entries, and most of them simply burned up in the atmosphere with little consequence.",
+          "published": "2026-08-23T10:24:54+00:00",
           "regional": true
         },
         {
@@ -858,6 +882,14 @@
           "regional": false
         },
         {
+          "title": "Top 10 Roman Space Telescope science breakthroughs",
+          "link": "https://www.scientificamerican.com/article/top-10-roman-space-telescope-science-breakthroughs/",
+          "source": "Scientific American",
+          "summary": "NASA’s Roman Space Telescope will open a whole new window on the cosmos. Here are 10 things it’s likely to show us",
+          "published": "2026-08-28T17:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA’s Roman telescope will see 100 times more sky than Hubble",
           "link": "https://www.sciencedaily.com/releases/2026/08/260828082333.htm",
           "source": "ScienceDaily",
@@ -874,27 +906,11 @@
           "regional": false
         },
         {
-          "title": "NASA’s Roman Space Telescope will rewrite how we study the universe",
-          "link": "https://www.scientificamerican.com/article/nasas-roman-space-telescope-will-rewrite-how-we-study-the-universe/",
-          "source": "Scientific American",
-          "summary": "Astronomers are lining up to leverage NASA’s soon-to-launch Nancy Grace Roman Space Telescope, which boasts capabilities unlike any previous off-world observatory",
-          "published": "2026-08-27T15:15:00+00:00",
-          "regional": false
-        },
-        {
           "title": "A mysterious cosmic hum may come from 13-billion-year-old dark stars",
           "link": "https://www.sciencedaily.com/releases/2026/08/260827010457.htm",
           "source": "ScienceDaily",
           "summary": "Today’s mysterious gravitational-wave background may preserve clues about how the Universe’s first supermassive black holes formed.",
           "published": "2026-08-27T10:26:04+00:00",
-          "regional": false
-        },
-        {
-          "title": "New NASA photos reveal 16 galaxies from across the cosmos in dazzling detail",
-          "link": "https://www.scientificamerican.com/article/new-nasa-photos-reveal-16-galaxies-from-across-the-cosmos-in-dazzling-detail/",
-          "source": "Scientific American",
-          "summary": "Spirals, ellipticals, irregulars, oh my!",
-          "published": "2026-08-27T10:00:00+00:00",
           "regional": false
         },
         {
@@ -911,6 +927,14 @@
           "source": "ScienceDaily",
           "summary": "A faint ribbon of stars around a distant galaxy has become the first globular cluster stellar stream ever identified beyond the Milky Way.",
           "published": "2026-08-24T12:19:34+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA is about to launch a powerful new eye on the universe",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260823094140.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA’s Roman Space Telescope has been cleared for final launch preparations ahead of a targeted August 30 liftoff aboard SpaceX’s Falcon Heavy.",
+          "published": "2026-08-24T04:45:05+00:00",
           "regional": false
         },
         {
