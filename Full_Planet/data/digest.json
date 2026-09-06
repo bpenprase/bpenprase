@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-05T12:13:42.591459+00:00",
-  "generated_human": "05 September 2026, 12:13 UTC",
-  "total_items": 124,
+  "generated": "2026-09-06T12:28:13.371005+00:00",
+  "generated_human": "06 September 2026, 12:28 UTC",
+  "total_items": 125,
   "channels": [
     {
       "key": "ai",
@@ -48,6 +48,14 @@
           "summary": "Representing a significant milestone in AI-assisted mathematical research, a team at Axiom Math has automatically verified the proof of a theorem relating to prime numbers—colloquially referred to as the “246…",
           "published": "2026-08-17T13:00:02+00:00",
           "regional": false
+        },
+        {
+          "title": "SK Innovation to co-host Ulsan Forum on AI in manufacturing",
+          "link": "https://www.koreaherald.com/article/10863923",
+          "source": "The Korea Herald",
+          "summary": "SK Innovation will co-host the 2026 Ulsan Forum on Friday with the Ulsan Chamber of Commerce and Industry, focusing on driving artificial intelligence-based transformation in manufacturing and local innovation.",
+          "published": "2026-09-06T04:45:58+00:00",
+          "regional": true
         },
         {
           "title": "LG to showcase AI technologies at Spark 2026",
@@ -119,14 +127,6 @@
           "source": "South China Morning Post",
           "summary": "China’s leading semiconductor packaging and testing companies have launched a multibillion-dollar capacity expansion drive, as they ride a surge in artificial intelligence demand, stellar first-half profit growth, and…",
           "published": "2026-08-26T10:30:08+00:00",
-          "regional": true
-        },
-        {
-          "title": "China’s overlooked internet army is quietly embedding AI into everyday businesses",
-          "link": "https://www.scmp.com/tech/big-tech/article/3364972/chinas-overlooked-internet-army-quietly-embedding-ai-everyday-businesses?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "While China’s new “AI tigers” have captured global attention for challenging Silicon Valley front-runners, a quieter wave of domestic technology companies is building in-house artificial intelligence systems serving…",
-          "published": "2026-08-23T11:00:06+00:00",
           "regional": true
         }
       ]
@@ -242,6 +242,22 @@
           "regional": false
         },
         {
+          "title": "Huawei paper shows Tau Scaling Law chip solves overheating ahead of Kirin 2026 launch",
+          "link": "https://www.scmp.com/tech/big-tech/article/3366543/huawei-paper-shows-tau-scaling-law-chip-solves-overheating-ahead-kirin-2026-launch?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Huawei Technologies has released a new research paper showing its Tau Scaling Law-based semiconductor architecture can avoid overheating, which analysts view as a key technical hurdle for its anticipated Kirin 2026…",
+          "published": "2026-09-06T12:06:42+00:00",
+          "regional": true
+        },
+        {
+          "title": "Samsung appliance workers escalate bonus fight with protests, Times Square ad",
+          "link": "https://www.koreaherald.com/article/10863945",
+          "source": "The Korea Herald",
+          "summary": "A Samsung Electronics union representing workers in the company's consumer device business is escalating a campaign over a widening compensation gap with its semiconductor division.",
+          "published": "2026-09-06T05:53:01+00:00",
+          "regional": true
+        },
+        {
           "title": "Indian researchers map colonial spider’s venom gland, uncover molecules with potential for future cancer and antimicrobial drug research",
           "link": "https://www.thehindu.com/sci-tech/science/indian-researchers-map-colonial-spiders-venom-gland-uncover-molecules-with-potential-for-future-cancer-and-antimicrobial-drug-research/article71427539.ece",
           "source": "The Hindu",
@@ -303,14 +319,6 @@
           "source": "South China Morning Post",
           "summary": "China is gearing up for what could become its next record-breaking semiconductor stock listing as the parent company of chip giant Yangtze Memory Technologies Corporation (YMTC) prepares to go public on Shanghai’s Star…",
           "published": "2026-08-24T04:34:59+00:00",
-          "regional": true
-        },
-        {
-          "title": "Pay, perks, equity: China’s AI, chip firms lead way in offering rewards to lock in talent",
-          "link": "https://www.scmp.com/tech/big-tech/article/3364689/pay-perks-equity-chinas-ai-chip-firms-lead-way-offering-rewards-lock-talent?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "In the high-stakes battle for China’s top talent, domestic tech companies – especially in semiconductors and artificial intelligence – are rolling out aggressive equity incentive plans as they capitalise on a bull…",
-          "published": "2026-08-22T07:00:06+00:00",
           "regional": true
         }
       ]
@@ -514,6 +522,14 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "Isar Aerospace achieves first launch to orbit from continental Europe",
+          "link": "https://www.esa.int/Enabling_Support/Space_Transportation/Boost/Isar_Aerospace_achieves_first_launch_to_orbit_from_continental_Europe",
+          "source": "ESA",
+          "summary": "",
+          "published": "2026-09-05T20:24:00+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA Hosts Virtual Artemis Webinar for Blind, Low-Vision Community",
           "link": "https://www.nasa.gov/general/nasa-hosts-virtual-artemis-webinar-for-blind-low-vision-community/",
           "source": "NASA",
@@ -642,14 +658,6 @@
           "regional": false
         },
         {
-          "title": "Top 10 Roman Space Telescope science breakthroughs",
-          "link": "https://www.scientificamerican.com/article/top-10-roman-space-telescope-science-breakthroughs/",
-          "source": "Scientific American",
-          "summary": "NASA’s Roman Space Telescope will open a whole new window on the cosmos. Here are 10 things it’s likely to show us",
-          "published": "2026-08-28T17:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "How will NASA’s Roman Space Telescope see exoplanets?",
           "link": "https://www.scientificamerican.com/article/how-will-nasas-roman-space-telescope-see-exoplanets/",
           "source": "Scientific American",
@@ -704,6 +712,22 @@
           "summary": "Image: ESA astronaut Sophie Adenot during EVA-97",
           "published": "2026-08-19T09:29:00+00:00",
           "regional": false
+        },
+        {
+          "title": "ISRO staff bodies seek clarification on the trajectory of privatisation",
+          "link": "https://www.thehindu.com/news/national/isro-staff-bodies-seek-clarification-on-the-trajectory-of-privatisation/article71434745.ece",
+          "source": "The Hindu",
+          "summary": "It raised several other concerns. These include whether the design, development, realisation, integration, testing and launch of PSLV, LVM3, SSLV and successor vehicles will continue as ISRO functions or will cease.",
+          "published": "2026-09-06T07:08:30+00:00",
+          "regional": true
+        },
+        {
+          "title": "Will ISRO be part of NASA’s moonshot?",
+          "link": "https://www.thehindu.com/sci-tech/science/space-wrap-newsletter-will-isro-be-part-of-nasas-moonshot/article71416940.ece",
+          "source": "The Hindu",
+          "summary": "This article is part of Space Wrap, a round-up of space news and developments in and related to India every month",
+          "published": "2026-09-06T05:13:51+00:00",
+          "regional": true
         },
         {
           "title": "ISRO successfully launches Earth observation satellite EOS-05",
@@ -762,22 +786,6 @@
           "regional": true
         },
         {
-          "title": "Watch: Gaganyaan Episode 3: How ISRO will protect its astronauts | The Scope",
-          "link": "https://www.thehindu.com/videos/watch-gaganyaan-episode-3-how-india-will-save-its-astronauts-the-scope/article71378193.ece",
-          "source": "The Hindu",
-          "summary": "In Episode 3 of The Scope’s Gaganyaan — India’s Leap, we explore the Crew Escape System the last line of defence for India’s astronauts during launch.",
-          "published": "2026-08-23T11:33:35+00:00",
-          "regional": true
-        },
-        {
-          "title": "Global space norms find a firm footing in India’s new re-entry rules",
-          "link": "https://www.thehindu.com/sci-tech/science/global-space-norms-find-a-firm-footing-in-india-new-re-entry-rules/article71380693.ece",
-          "source": "The Hindu",
-          "summary": "For many decades, there were few rocket launches and few new satellites in orbit every year, so there were also few re-entries, and most of them simply burned up in the atmosphere with little consequence.",
-          "published": "2026-08-23T10:24:54+00:00",
-          "regional": true
-        },
-        {
           "title": "China clears Geely for landmark satellite IoT test to spur commercial space sector",
           "link": "https://www.scmp.com/tech/big-tech/article/3364781/china-clears-geely-landmark-satellite-iot-test-spur-commercial-space-sector?utm_source=rss_feed",
           "source": "South China Morning Post",
@@ -823,6 +831,14 @@
           "source": "ScienceDaily",
           "summary": "Star formation across the universe has fallen dramatically over the past 4.5 billion years, but astronomers have uncovered a surprising twist: the supply of neutral hydrogen, a key ingredient for making stars, has…",
           "published": "2026-09-03T07:48:14+00:00",
+          "regional": false
+        },
+        {
+          "title": "Scientists may have found first hint of dark matter",
+          "link": "https://www.bbc.co.uk/news/articles/cvgypvnx1jgo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "The mysterious material has eluded scientists for nearly a century.",
+          "published": "2026-09-02T15:54:03+00:00",
           "regional": false
         },
         {
@@ -975,14 +991,6 @@
           "source": "ScienceDaily",
           "summary": "Astronomers may finally have a clue to what happens to the mysterious “little red dots” that crowded the early universe.",
           "published": "2026-08-17T12:56:43+00:00",
-          "regional": false
-        },
-        {
-          "title": "A black hole shredded a “super sun” — but something strange may have survived",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260814235849.htm",
-          "source": "ScienceDaily",
-          "summary": "Astronomers have witnessed a black hole violently shredding a massive star, creating one of the most energetic stellar explosions ever observed.",
-          "published": "2026-08-16T03:46:46+00:00",
           "regional": false
         },
         {
