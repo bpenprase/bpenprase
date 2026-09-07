@@ -1,11 +1,11 @@
 {
  "observatory": "Nieves Observatory",
- "generated": "2026-09-06 14:09 PDT",
- "night_of": "2026-09-06",
+ "generated": "2026-09-07 14:56 PDT",
+ "night_of": "2026-09-07",
  "window": {
-  "start": "20:36",
+  "start": "20:34",
   "end": "05:06",
-  "lst_start": "18:50:00"
+  "lst_start": "18:51:56"
  },
  "hours": [
   "21:00",
@@ -26,8 +26,8 @@
    "type": "Globular Cluster",
    "mag": "5.8",
    "size": "16.50",
-   "time_str": "20:36 (64\u00b0)",
-   "best_alt": 64,
+   "time_str": "20:34 (63\u00b0)",
+   "best_alt": 63,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC6205",
    "source": "OpenNGC",
    "notes": "Hercules Globular Cluster",
@@ -38,11 +38,11 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": 59
+     "alt": 58
     },
     {
      "t": "22:00",
-     "alt": 47
+     "alt": 46
     },
     {
      "t": "23:00",
@@ -50,7 +50,7 @@
     },
     {
      "t": "00:00",
-     "alt": 24
+     "alt": 23
     },
     {
      "t": "01:00",
@@ -58,11 +58,11 @@
     },
     {
      "t": "02:00",
-     "alt": 4
+     "alt": 3
     },
     {
      "t": "03:00",
-     "alt": -5
+     "alt": -6
     },
     {
      "t": "04:00",
@@ -80,7 +80,7 @@
    "type": "Globular Cluster",
    "mag": "5.0",
    "size": "9.30",
-   "time_str": "20:36 (44\u00b0)",
+   "time_str": "20:34 (44\u00b0)",
    "best_alt": 44,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC6254",
    "source": "OpenNGC",
@@ -96,23 +96,23 @@
     },
     {
      "t": "22:00",
-     "alt": 30
+     "alt": 29
     },
     {
      "t": "23:00",
-     "alt": 19
+     "alt": 18
     },
     {
      "t": "00:00",
-     "alt": 7
+     "alt": 6
     },
     {
      "t": "01:00",
-     "alt": -6
+     "alt": -7
     },
     {
      "t": "02:00",
-     "alt": -18
+     "alt": -19
     },
     {
      "t": "03:00",
@@ -120,11 +120,11 @@
     },
     {
      "t": "04:00",
-     "alt": -42
+     "alt": -43
     },
     {
      "t": "05:00",
-     "alt": -52
+     "alt": -53
     }
    ]
   },
@@ -134,7 +134,7 @@
    "type": "Open Cluster",
    "mag": "4.2",
    "size": "24.60",
-   "time_str": "20:36 (58\u00b0)",
+   "time_str": "20:34 (58\u00b0)",
    "best_alt": 58,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=IC4665",
    "source": "OpenNGC",
@@ -150,7 +150,7 @@
     },
     {
      "t": "22:00",
-     "alt": 46
+     "alt": 45
     },
     {
      "t": "23:00",
@@ -158,19 +158,19 @@
     },
     {
      "t": "00:00",
-     "alt": 22
+     "alt": 21
     },
     {
      "t": "01:00",
-     "alt": 10
+     "alt": 9
     },
     {
      "t": "02:00",
-     "alt": -3
+     "alt": -4
     },
     {
      "t": "03:00",
-     "alt": -15
+     "alt": -16
     },
     {
      "t": "04:00",
@@ -178,7 +178,7 @@
     },
     {
      "t": "05:00",
-     "alt": -37
+     "alt": -38
     }
    ]
   },
@@ -188,7 +188,7 @@
    "type": "Nebula",
    "mag": "5.8",
    "size": "45.00",
-   "time_str": "20:36 (31\u00b0)",
+   "time_str": "20:34 (31\u00b0)",
    "best_alt": 31,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC6523",
    "source": "OpenNGC",
@@ -200,7 +200,7 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": 30
+     "alt": 29
     },
     {
      "t": "22:00",
@@ -212,27 +212,27 @@
     },
     {
      "t": "00:00",
-     "alt": 7
+     "alt": 6
     },
     {
      "t": "01:00",
-     "alt": -4
+     "alt": -5
     },
     {
      "t": "02:00",
-     "alt": -15
+     "alt": -16
     },
     {
      "t": "03:00",
-     "alt": -27
+     "alt": -28
     },
     {
      "t": "04:00",
-     "alt": -40
+     "alt": -41
     },
     {
      "t": "05:00",
-     "alt": -52
+     "alt": -53
     }
    ]
   },
@@ -242,7 +242,7 @@
    "type": "Nebula",
    "mag": "6.0",
    "size": "120.00",
-   "time_str": "20:36 (42\u00b0)",
+   "time_str": "20:34 (42\u00b0)",
    "best_alt": 42,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC6611",
    "source": "OpenNGC",
@@ -262,31 +262,31 @@
     },
     {
      "t": "23:00",
-     "alt": 27
+     "alt": 26
     },
     {
      "t": "00:00",
-     "alt": 17
+     "alt": 16
     },
     {
      "t": "01:00",
-     "alt": 5
+     "alt": 4
     },
     {
      "t": "02:00",
-     "alt": -7
+     "alt": -8
     },
     {
      "t": "03:00",
-     "alt": -19
+     "alt": -20
     },
     {
      "t": "04:00",
-     "alt": -32
+     "alt": -33
     },
     {
      "t": "05:00",
-     "alt": -44
+     "alt": -45
     }
    ]
   },
@@ -296,7 +296,7 @@
    "type": "Nebula",
    "mag": "6.0",
    "size": "5.05",
-   "time_str": "20:36 (42\u00b0)",
+   "time_str": "20:34 (42\u00b0)",
    "best_alt": 42,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=IC4703",
    "source": "OpenNGC",
@@ -316,31 +316,31 @@
     },
     {
      "t": "23:00",
-     "alt": 27
+     "alt": 26
     },
     {
      "t": "00:00",
-     "alt": 17
+     "alt": 16
     },
     {
      "t": "01:00",
-     "alt": 5
+     "alt": 4
     },
     {
      "t": "02:00",
-     "alt": -7
+     "alt": -8
     },
     {
      "t": "03:00",
-     "alt": -19
+     "alt": -20
     },
     {
      "t": "04:00",
-     "alt": -32
+     "alt": -33
     },
     {
      "t": "05:00",
-     "alt": -44
+     "alt": -45
     }
    ]
   },
@@ -350,7 +350,7 @@
    "type": "Nebula",
    "mag": "7.0",
    "size": "12.60",
-   "time_str": "20:36 (40\u00b0)",
+   "time_str": "20:34 (40\u00b0)",
    "best_alt": 40,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC6618",
    "source": "OpenNGC",
@@ -362,7 +362,7 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": 39
+     "alt": 38
     },
     {
      "t": "22:00",
@@ -371,6 +371,114 @@
     {
      "t": "23:00",
      "alt": 25
+    },
+    {
+     "t": "00:00",
+     "alt": 15
+    },
+    {
+     "t": "01:00",
+     "alt": 3
+    },
+    {
+     "t": "02:00",
+     "alt": -8
+    },
+    {
+     "t": "03:00",
+     "alt": -21
+    },
+    {
+     "t": "04:00",
+     "alt": -33
+    },
+    {
+     "t": "05:00",
+     "alt": -46
+    }
+   ]
+  },
+  {
+   "name": "NGC 6633",
+   "class": "cluster",
+   "type": "Open Cluster",
+   "mag": "4.6",
+   "size": "12.00",
+   "time_str": "20:34 (62\u00b0)",
+   "best_alt": 62,
+   "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC6633",
+   "source": "OpenNGC",
+   "notes": "",
+   "ra": "18:27:15",
+   "dec": "+06:30:29",
+   "ra_h": 18.454,
+   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=276.8125&dec=6.508055555555556&format=png",
+   "alts": [
+    {
+     "t": "21:00",
+     "alt": 61
+    },
+    {
+     "t": "22:00",
+     "alt": 53
+    },
+    {
+     "t": "23:00",
+     "alt": 42
+    },
+    {
+     "t": "00:00",
+     "alt": 30
+    },
+    {
+     "t": "01:00",
+     "alt": 18
+    },
+    {
+     "t": "02:00",
+     "alt": 5
+    },
+    {
+     "t": "03:00",
+     "alt": -7
+    },
+    {
+     "t": "04:00",
+     "alt": -19
+    },
+    {
+     "t": "05:00",
+     "alt": -30
+    }
+   ]
+  },
+  {
+   "name": "M 25",
+   "class": "cluster",
+   "type": "Open Cluster",
+   "mag": "4.6",
+   "size": "14.10",
+   "time_str": "20:34 (37\u00b0)",
+   "best_alt": 37,
+   "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=IC4725",
+   "source": "OpenNGC",
+   "notes": "",
+   "ra": "18:31:46",
+   "dec": "-19:06:53",
+   "ra_h": 18.529,
+   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=277.94166666666666&dec=-19.114722222222223&format=png",
+   "alts": [
+    {
+     "t": "21:00",
+     "alt": 36
+    },
+    {
+     "t": "22:00",
+     "alt": 32
+    },
+    {
+     "t": "23:00",
+     "alt": 24
     },
     {
      "t": "00:00",
@@ -399,136 +507,28 @@
    ]
   },
   {
-   "name": "NGC 6633",
-   "class": "cluster",
-   "type": "Open Cluster",
-   "mag": "4.6",
-   "size": "12.00",
-   "time_str": "20:36 (62\u00b0)",
-   "best_alt": 62,
-   "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC6633",
-   "source": "OpenNGC",
-   "notes": "",
-   "ra": "18:27:15",
-   "dec": "+06:30:29",
-   "ra_h": 18.454,
-   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=276.8125&dec=6.508055555555556&format=png",
-   "alts": [
-    {
-     "t": "21:00",
-     "alt": 61
-    },
-    {
-     "t": "22:00",
-     "alt": 53
-    },
-    {
-     "t": "23:00",
-     "alt": 43
-    },
-    {
-     "t": "00:00",
-     "alt": 31
-    },
-    {
-     "t": "01:00",
-     "alt": 19
-    },
-    {
-     "t": "02:00",
-     "alt": 6
-    },
-    {
-     "t": "03:00",
-     "alt": -6
-    },
-    {
-     "t": "04:00",
-     "alt": -18
-    },
-    {
-     "t": "05:00",
-     "alt": -29
-    }
-   ]
-  },
-  {
-   "name": "M 25",
-   "class": "cluster",
-   "type": "Open Cluster",
-   "mag": "4.6",
-   "size": "14.10",
-   "time_str": "20:36 (37\u00b0)",
-   "best_alt": 37,
-   "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=IC4725",
-   "source": "OpenNGC",
-   "notes": "",
-   "ra": "18:31:46",
-   "dec": "-19:06:53",
-   "ra_h": 18.529,
-   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=277.94166666666666&dec=-19.114722222222223&format=png",
-   "alts": [
-    {
-     "t": "21:00",
-     "alt": 36
-    },
-    {
-     "t": "22:00",
-     "alt": 32
-    },
-    {
-     "t": "23:00",
-     "alt": 25
-    },
-    {
-     "t": "00:00",
-     "alt": 15
-    },
-    {
-     "t": "01:00",
-     "alt": 5
-    },
-    {
-     "t": "02:00",
-     "alt": -7
-    },
-    {
-     "t": "03:00",
-     "alt": -19
-    },
-    {
-     "t": "04:00",
-     "alt": -32
-    },
-    {
-     "t": "05:00",
-     "alt": -44
-    }
-   ]
-  },
-  {
    "name": "C/2024 J3 (ATLAS)",
    "class": "comet",
    "type": "Comet",
    "mag": 13.8,
    "size": "",
-   "time_str": "20:36 (80\u00b0)",
+   "time_str": "20:34 (80\u00b0)",
    "best_alt": 80,
    "link": "https://theskylive.com/c2024j3-info",
    "source": "TheSkyLive",
    "notes": "Comet C/2024 J3 (ATLAS)  mag 13.8",
-   "ra": "18:33:51",
-   "dec": "+43:11:25",
-   "ra_h": 18.564,
-   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=278.46250000000003&dec=43.19027777777777&format=png",
+   "ra": "18:33:13",
+   "dec": "+43:09:05",
+   "ra_h": 18.554,
+   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=278.3041666666667&dec=43.15138888888889&format=png",
    "alts": [
     {
      "t": "21:00",
-     "alt": 78
+     "alt": 77
     },
     {
      "t": "22:00",
-     "alt": 68
+     "alt": 67
     },
     {
      "t": "23:00",
@@ -540,7 +540,7 @@
     },
     {
      "t": "01:00",
-     "alt": 36
+     "alt": 35
     },
     {
      "t": "02:00",
@@ -548,11 +548,11 @@
     },
     {
      "t": "03:00",
-     "alt": 16
+     "alt": 15
     },
     {
      "t": "04:00",
-     "alt": 7
+     "alt": 6
     },
     {
      "t": "05:00",
@@ -566,7 +566,7 @@
    "type": "Open Cluster",
    "mag": "4.6",
    "size": "24.00",
-   "time_str": "20:36 (62\u00b0)",
+   "time_str": "20:34 (62\u00b0)",
    "best_alt": 62,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=IC4756",
    "source": "OpenNGC",
@@ -578,7 +578,7 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": 61
+     "alt": 60
     },
     {
      "t": "22:00",
@@ -590,19 +590,19 @@
     },
     {
      "t": "00:00",
-     "alt": 33
+     "alt": 32
     },
     {
      "t": "01:00",
-     "alt": 21
+     "alt": 20
     },
     {
      "t": "02:00",
-     "alt": 8
+     "alt": 7
     },
     {
      "t": "03:00",
-     "alt": -4
+     "alt": -5
     },
     {
      "t": "04:00",
@@ -610,7 +610,7 @@
     },
     {
      "t": "05:00",
-     "alt": -28
+     "alt": -29
     }
    ]
   },
@@ -620,7 +620,7 @@
    "type": "Open Cluster",
    "mag": "5.8",
    "size": "9.00",
-   "time_str": "20:36 (50\u00b0)",
+   "time_str": "20:34 (50\u00b0)",
    "best_alt": 50,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC6705",
    "source": "OpenNGC",
@@ -636,35 +636,35 @@
     },
     {
      "t": "22:00",
-     "alt": 46
+     "alt": 45
     },
     {
      "t": "23:00",
-     "alt": 38
+     "alt": 37
     },
     {
      "t": "00:00",
-     "alt": 28
+     "alt": 27
     },
     {
      "t": "01:00",
-     "alt": 16
+     "alt": 15
     },
     {
      "t": "02:00",
-     "alt": 4
+     "alt": 3
     },
     {
      "t": "03:00",
-     "alt": -8
+     "alt": -9
     },
     {
      "t": "04:00",
-     "alt": -21
+     "alt": -22
     },
     {
      "t": "05:00",
-     "alt": -33
+     "alt": -34
     }
    ]
   },
@@ -674,7 +674,7 @@
    "type": "Open Cluster",
    "mag": "7.3",
    "size": "6.90",
-   "time_str": "21:18 (83\u00b0)",
+   "time_str": "21:16 (83\u00b0)",
    "best_alt": 83,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC6819",
    "source": "OpenNGC",
@@ -686,11 +686,11 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": 81
+     "alt": 82
     },
     {
      "t": "22:00",
-     "alt": 81
+     "alt": 80
     },
     {
      "t": "23:00",
@@ -698,7 +698,7 @@
     },
     {
      "t": "00:00",
-     "alt": 59
+     "alt": 58
     },
     {
      "t": "01:00",
@@ -718,7 +718,7 @@
     },
     {
      "t": "05:00",
-     "alt": 6
+     "alt": 5
     }
    ]
   },
@@ -728,15 +728,15 @@
    "type": "Asteroid",
    "mag": 9.4,
    "size": "",
-   "time_str": "21:18 (46\u00b0)",
+   "time_str": "21:16 (46\u00b0)",
    "best_alt": 46,
    "link": "https://theskylive.com/juno-info",
    "source": "TheSkyLive",
    "notes": "Asteroid 3 Juno  mag 9.4",
-   "ra": "19:42:05",
-   "dec": "-09:54:28",
-   "ra_h": 19.701,
-   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=295.5208333333333&dec=-9.907777777777778&format=png",
+   "ra": "19:41:53",
+   "dec": "-10:01:47",
+   "ra_h": 19.698,
+   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=295.4708333333333&dec=-10.029722222222222&format=png",
    "alts": [
     {
      "t": "21:00",
@@ -760,19 +760,19 @@
     },
     {
      "t": "02:00",
-     "alt": 12
+     "alt": 11
     },
     {
      "t": "03:00",
-     "alt": 0
+     "alt": -1
     },
     {
      "t": "04:00",
-     "alt": -12
+     "alt": -13
     },
     {
      "t": "05:00",
-     "alt": -25
+     "alt": -26
     }
    ]
   },
@@ -782,7 +782,7 @@
    "type": "Galaxy",
    "mag": "10.1",
    "size": "17.38",
-   "time_str": "21:39 (42\u00b0)",
+   "time_str": "21:16 (42\u00b0)",
    "best_alt": 42,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC6822",
    "source": "OpenNGC",
@@ -806,7 +806,7 @@
     },
     {
      "t": "00:00",
-     "alt": 30
+     "alt": 29
     },
     {
      "t": "01:00",
@@ -814,19 +814,19 @@
     },
     {
      "t": "02:00",
-     "alt": 10
+     "alt": 9
     },
     {
      "t": "03:00",
-     "alt": -2
+     "alt": -3
     },
     {
      "t": "04:00",
-     "alt": -14
+     "alt": -15
     },
     {
      "t": "05:00",
-     "alt": -27
+     "alt": -28
     }
    ]
   },
@@ -836,7 +836,7 @@
    "type": "Galaxy",
    "mag": "9.1",
    "size": "11.40",
-   "time_str": "22:22 (63\u00b0)",
+   "time_str": "22:20 (63\u00b0)",
    "best_alt": 63,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC6946",
    "source": "OpenNGC",
@@ -848,7 +848,7 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": 60
+     "alt": 61
     },
     {
      "t": "22:00",
@@ -856,19 +856,19 @@
     },
     {
      "t": "23:00",
-     "alt": 63
+     "alt": 62
     },
     {
      "t": "00:00",
-     "alt": 59
+     "alt": 58
     },
     {
      "t": "01:00",
-     "alt": 53
+     "alt": 52
     },
     {
      "t": "02:00",
-     "alt": 46
+     "alt": 45
     },
     {
      "t": "03:00",
@@ -890,8 +890,8 @@
    "type": "Supernova Remnant",
    "mag": "7.0",
    "size": "210.00",
-   "time_str": "22:22 (86\u00b0)",
-   "best_alt": 86,
+   "time_str": "22:20 (87\u00b0)",
+   "best_alt": 87,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC6960",
    "source": "OpenNGC",
    "notes": "Veil Nebula,Filamentary Nebula,Western Veil",
@@ -902,7 +902,7 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": 70
+     "alt": 71
     },
     {
      "t": "22:00",
@@ -914,27 +914,27 @@
     },
     {
      "t": "00:00",
-     "alt": 71
+     "alt": 70
     },
     {
      "t": "01:00",
-     "alt": 59
+     "alt": 58
     },
     {
      "t": "02:00",
-     "alt": 46
+     "alt": 45
     },
     {
      "t": "03:00",
-     "alt": 34
+     "alt": 33
     },
     {
      "t": "04:00",
-     "alt": 22
+     "alt": 21
     },
     {
      "t": "05:00",
-     "alt": 11
+     "alt": 10
     }
    ]
   },
@@ -944,7 +944,7 @@
    "type": "Supernova Remnant",
    "mag": "7.0",
    "size": "60.00",
-   "time_str": "22:43 (88\u00b0)",
+   "time_str": "22:42 (88\u00b0)",
    "best_alt": 88,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC6992",
    "source": "OpenNGC",
@@ -956,15 +956,15 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": 68
+     "alt": 69
     },
     {
      "t": "22:00",
-     "alt": 81
+     "alt": 82
     },
     {
      "t": "23:00",
-     "alt": 86
+     "alt": 85
     },
     {
      "t": "00:00",
@@ -972,11 +972,11 @@
     },
     {
      "t": "01:00",
-     "alt": 61
+     "alt": 60
     },
     {
      "t": "02:00",
-     "alt": 49
+     "alt": 48
     },
     {
      "t": "03:00",
@@ -984,7 +984,7 @@
     },
     {
      "t": "04:00",
-     "alt": 25
+     "alt": 24
     },
     {
      "t": "05:00",
@@ -998,7 +998,7 @@
    "type": "Supernova Remnant",
    "mag": "7.0",
    "size": "12.00",
-   "time_str": "22:43 (88\u00b0)",
+   "time_str": "22:42 (88\u00b0)",
    "best_alt": 88,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC6995",
    "source": "OpenNGC",
@@ -1010,7 +1010,7 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": 68
+     "alt": 69
     },
     {
      "t": "22:00",
@@ -1018,19 +1018,19 @@
     },
     {
      "t": "23:00",
-     "alt": 86
+     "alt": 85
     },
     {
      "t": "00:00",
-     "alt": 74
+     "alt": 73
     },
     {
      "t": "01:00",
-     "alt": 61
+     "alt": 60
     },
     {
      "t": "02:00",
-     "alt": 49
+     "alt": 48
     },
     {
      "t": "03:00",
@@ -1038,7 +1038,7 @@
     },
     {
      "t": "04:00",
-     "alt": 25
+     "alt": 24
     },
     {
      "t": "05:00",
@@ -1052,7 +1052,7 @@
    "type": "HII Region",
    "mag": "4.0",
    "size": "120.00",
-   "time_str": "22:43 (79\u00b0)",
+   "time_str": "22:42 (79\u00b0)",
    "best_alt": 79,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC7000",
    "source": "OpenNGC",
@@ -1064,7 +1064,7 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": 67
+     "alt": 68
     },
     {
      "t": "22:00",
@@ -1072,19 +1072,19 @@
     },
     {
      "t": "23:00",
-     "alt": 79
+     "alt": 78
     },
     {
      "t": "00:00",
-     "alt": 72
+     "alt": 71
     },
     {
      "t": "01:00",
-     "alt": 62
+     "alt": 61
     },
     {
      "t": "02:00",
-     "alt": 51
+     "alt": 50
     },
     {
      "t": "03:00",
@@ -1092,7 +1092,7 @@
     },
     {
      "t": "04:00",
-     "alt": 30
+     "alt": 29
     },
     {
      "t": "05:00",
@@ -1106,7 +1106,7 @@
    "type": "Open Cluster",
    "mag": "4.6",
    "size": "19.50",
-   "time_str": "23:26 (75\u00b0)",
+   "time_str": "23:03 (75\u00b0)",
    "best_alt": 75,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC7092",
    "source": "OpenNGC",
@@ -1118,11 +1118,11 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": 60
+     "alt": 61
     },
     {
      "t": "22:00",
-     "alt": 69
+     "alt": 70
     },
     {
      "t": "23:00",
@@ -1134,7 +1134,7 @@
     },
     {
      "t": "01:00",
-     "alt": 66
+     "alt": 65
     },
     {
      "t": "02:00",
@@ -1146,11 +1146,11 @@
     },
     {
      "t": "04:00",
-     "alt": 37
+     "alt": 36
     },
     {
      "t": "05:00",
-     "alt": 27
+     "alt": 26
     }
    ]
   },
@@ -1160,19 +1160,19 @@
    "type": "Asteroid",
    "mag": 9.4,
    "size": "",
-   "time_str": "00:08 (37\u00b0)",
+   "time_str": "00:07 (37\u00b0)",
    "best_alt": 37,
    "link": "https://theskylive.com/metis-info",
    "source": "TheSkyLive",
    "notes": "Asteroid 9 Metis  mag 9.4",
-   "ra": "22:32:47",
-   "dec": "-19:25:24",
-   "ra_h": 22.546,
-   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=338.1958333333334&dec=-19.423333333333336&format=png",
+   "ra": "22:31:49",
+   "dec": "-19:30:03",
+   "ra_h": 22.53,
+   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=337.95416666666665&dec=-19.500833333333333&format=png",
    "alts": [
     {
      "t": "21:00",
-     "alt": 19
+     "alt": 20
     },
     {
      "t": "22:00",
@@ -1192,7 +1192,7 @@
     },
     {
      "t": "02:00",
-     "alt": 32
+     "alt": 31
     },
     {
      "t": "03:00",
@@ -1200,11 +1200,11 @@
     },
     {
      "t": "04:00",
-     "alt": 15
+     "alt": 14
     },
     {
      "t": "05:00",
-     "alt": 4
+     "alt": 3
     }
    ]
   },
@@ -1214,7 +1214,7 @@
    "type": "Galaxy",
    "mag": "9.4",
    "size": "9.27",
-   "time_str": "00:29 (88\u00b0)",
+   "time_str": "00:28 (88\u00b0)",
    "best_alt": 88,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC7331",
    "source": "OpenNGC",
@@ -1226,7 +1226,7 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": 48
+     "alt": 49
     },
     {
      "t": "22:00",
@@ -1234,19 +1234,19 @@
     },
     {
      "t": "23:00",
-     "alt": 73
+     "alt": 74
     },
     {
      "t": "00:00",
-     "alt": 85
+     "alt": 86
     },
     {
      "t": "01:00",
-     "alt": 82
+     "alt": 81
     },
     {
      "t": "02:00",
-     "alt": 70
+     "alt": 69
     },
     {
      "t": "03:00",
@@ -1258,7 +1258,7 @@
     },
     {
      "t": "05:00",
-     "alt": 34
+     "alt": 33
     }
    ]
   },
@@ -1268,7 +1268,7 @@
    "type": "Supernova Ia",
    "mag": 13.9,
    "size": "",
-   "time_str": "00:29 (88\u00b0)",
+   "time_str": "00:28 (88\u00b0)",
    "best_alt": 88,
    "link": "https://www.rochesterastronomy.org/supernova.html#2026aaiv",
    "source": "Rochester",
@@ -1280,7 +1280,7 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": 48
+     "alt": 49
     },
     {
      "t": "22:00",
@@ -1288,19 +1288,19 @@
     },
     {
      "t": "23:00",
-     "alt": 73
+     "alt": 74
     },
     {
      "t": "00:00",
-     "alt": 85
+     "alt": 86
     },
     {
      "t": "01:00",
-     "alt": 82
+     "alt": 81
     },
     {
      "t": "02:00",
-     "alt": 70
+     "alt": 69
     },
     {
      "t": "03:00",
@@ -1312,7 +1312,7 @@
     },
     {
      "t": "05:00",
-     "alt": 34
+     "alt": 33
     }
    ]
   },
@@ -1327,13 +1327,13 @@
    "link": "https://theskylive.com/neptune-info",
    "source": "computed",
    "notes": "",
-   "ra": "00:15:05",
-   "dec": "+00:05:28",
-   "ra_h": 0.251,
+   "ra": "00:14:59",
+   "dec": "+00:04:50",
+   "ra_h": 0.25,
    "alts": [
     {
      "t": "21:00",
-     "alt": 12
+     "alt": 13
     },
     {
      "t": "22:00",
@@ -1341,11 +1341,11 @@
     },
     {
      "t": "23:00",
-     "alt": 36
+     "alt": 37
     },
     {
      "t": "00:00",
-     "alt": 46
+     "alt": 47
     },
     {
      "t": "01:00",
@@ -1357,7 +1357,7 @@
     },
     {
      "t": "03:00",
-     "alt": 54
+     "alt": 53
     },
     {
      "t": "04:00",
@@ -1365,7 +1365,7 @@
     },
     {
      "t": "05:00",
-     "alt": 36
+     "alt": 35
     }
    ]
   },
@@ -1375,7 +1375,7 @@
    "type": "Galaxy",
    "mag": "9.7",
    "size": "9.40",
-   "time_str": "02:16 (75\u00b0)",
+   "time_str": "02:15 (75\u00b0)",
    "best_alt": 75,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC0147",
    "source": "OpenNGC",
@@ -1395,15 +1395,15 @@
     },
     {
      "t": "23:00",
-     "alt": 50
+     "alt": 51
     },
     {
      "t": "00:00",
-     "alt": 60
+     "alt": 61
     },
     {
      "t": "01:00",
-     "alt": 69
+     "alt": 70
     },
     {
      "t": "02:00",
@@ -1415,7 +1415,7 @@
     },
     {
      "t": "04:00",
-     "alt": 66
+     "alt": 65
     },
     {
      "t": "05:00",
@@ -1427,37 +1427,37 @@
    "name": "192 Nausikaa",
    "class": "asteroid",
    "type": "Asteroid",
-   "mag": 9.4,
+   "mag": 9.3,
    "size": "",
-   "time_str": "02:16 (64\u00b0)",
+   "time_str": "02:15 (64\u00b0)",
    "best_alt": 64,
    "link": "https://theskylive.com/nausikaa-info",
    "source": "TheSkyLive",
-   "notes": "Asteroid 192 Nausikaa  mag 9.4",
-   "ra": "00:37:00",
-   "dec": "+07:38:31",
-   "ra_h": 0.617,
-   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=9.25&dec=7.6419444444444435&format=png",
+   "notes": "Asteroid 192 Nausikaa  mag 9.3",
+   "ra": "00:36:25",
+   "dec": "+07:43:10",
+   "ra_h": 0.607,
+   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=9.104166666666666&dec=7.719444444444445&format=png",
    "alts": [
     {
      "t": "21:00",
-     "alt": 12
+     "alt": 13
     },
     {
      "t": "22:00",
-     "alt": 24
+     "alt": 25
     },
     {
      "t": "23:00",
-     "alt": 37
+     "alt": 38
     },
     {
      "t": "00:00",
-     "alt": 48
+     "alt": 49
     },
     {
      "t": "01:00",
-     "alt": 58
+     "alt": 59
     },
     {
      "t": "02:00",
@@ -1465,15 +1465,15 @@
     },
     {
      "t": "03:00",
-     "alt": 63
+     "alt": 62
     },
     {
      "t": "04:00",
-     "alt": 56
+     "alt": 55
     },
     {
      "t": "05:00",
-     "alt": 45
+     "alt": 44
     }
    ]
   },
@@ -1483,7 +1483,7 @@
    "type": "Galaxy",
    "mag": "9.2",
    "size": "12.94",
-   "time_str": "02:16 (75\u00b0)",
+   "time_str": "02:15 (75\u00b0)",
    "best_alt": 75,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC0185",
    "source": "OpenNGC",
@@ -1507,11 +1507,11 @@
     },
     {
      "t": "00:00",
-     "alt": 59
+     "alt": 60
     },
     {
      "t": "01:00",
-     "alt": 68
+     "alt": 69
     },
     {
      "t": "02:00",
@@ -1519,11 +1519,11 @@
     },
     {
      "t": "03:00",
-     "alt": 74
+     "alt": 73
     },
     {
      "t": "04:00",
-     "alt": 67
+     "alt": 66
     },
     {
      "t": "05:00",
@@ -1537,7 +1537,7 @@
    "type": "Galaxy",
    "mag": "8.2",
    "size": "16.22",
-   "time_str": "02:16 (82\u00b0)",
+   "time_str": "02:15 (82\u00b0)",
    "best_alt": 82,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC0205",
    "source": "OpenNGC",
@@ -1549,27 +1549,27 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": 27
+     "alt": 28
     },
     {
      "t": "22:00",
-     "alt": 38
+     "alt": 39
     },
     {
      "t": "23:00",
-     "alt": 49
+     "alt": 50
     },
     {
      "t": "00:00",
-     "alt": 60
+     "alt": 61
     },
     {
      "t": "01:00",
-     "alt": 71
+     "alt": 72
     },
     {
      "t": "02:00",
-     "alt": 80
+     "alt": 81
     },
     {
      "t": "03:00",
@@ -1577,11 +1577,11 @@
     },
     {
      "t": "04:00",
-     "alt": 70
+     "alt": 69
     },
     {
      "t": "05:00",
-     "alt": 59
+     "alt": 58
     }
    ]
   },
@@ -1591,7 +1591,7 @@
    "type": "Galaxy",
    "mag": "8.1",
    "size": "7.74",
-   "time_str": "02:37 (82\u00b0)",
+   "time_str": "02:15 (82\u00b0)",
    "best_alt": 82,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC0221",
    "source": "OpenNGC",
@@ -1607,7 +1607,7 @@
     },
     {
      "t": "22:00",
-     "alt": 37
+     "alt": 38
     },
     {
      "t": "23:00",
@@ -1615,11 +1615,11 @@
     },
     {
      "t": "00:00",
-     "alt": 60
+     "alt": 61
     },
     {
      "t": "01:00",
-     "alt": 71
+     "alt": 72
     },
     {
      "t": "02:00",
@@ -1635,7 +1635,7 @@
     },
     {
      "t": "05:00",
-     "alt": 59
+     "alt": 58
     }
    ]
   },
@@ -1645,7 +1645,7 @@
    "type": "Galaxy",
    "mag": "3.4",
    "size": "177.83",
-   "time_str": "02:37 (82\u00b0)",
+   "time_str": "02:15 (82\u00b0)",
    "best_alt": 82,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC0224",
    "source": "OpenNGC",
@@ -1661,7 +1661,7 @@
     },
     {
      "t": "22:00",
-     "alt": 37
+     "alt": 38
     },
     {
      "t": "23:00",
@@ -1669,11 +1669,11 @@
     },
     {
      "t": "00:00",
-     "alt": 60
+     "alt": 61
     },
     {
      "t": "01:00",
-     "alt": 71
+     "alt": 72
     },
     {
      "t": "02:00",
@@ -1681,15 +1681,15 @@
     },
     {
      "t": "03:00",
-     "alt": 80
+     "alt": 79
     },
     {
      "t": "04:00",
-     "alt": 70
+     "alt": 69
     },
     {
      "t": "05:00",
-     "alt": 59
+     "alt": 58
     }
    ]
   },
@@ -1699,7 +1699,7 @@
    "type": "Galaxy",
    "mag": "9.2",
    "size": "19.68",
-   "time_str": "02:37 (36\u00b0)",
+   "time_str": "02:36 (36\u00b0)",
    "best_alt": 36,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC0247",
    "source": "OpenNGC",
@@ -1711,11 +1711,11 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": -6
+     "alt": -5
     },
     {
      "t": "22:00",
-     "alt": 5
+     "alt": 6
     },
     {
      "t": "23:00",
@@ -1727,7 +1727,7 @@
     },
     {
      "t": "01:00",
-     "alt": 31
+     "alt": 32
     },
     {
      "t": "02:00",
@@ -1739,7 +1739,7 @@
     },
     {
      "t": "04:00",
-     "alt": 32
+     "alt": 31
     },
     {
      "t": "05:00",
@@ -1753,7 +1753,7 @@
    "type": "Galaxy",
    "mag": "11.1",
    "size": "26.79",
-   "time_str": "02:37 (31\u00b0)",
+   "time_str": "02:36 (31\u00b0)",
    "best_alt": 31,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC0253",
    "source": "OpenNGC",
@@ -1765,15 +1765,15 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": -9
+     "alt": -8
     },
     {
      "t": "22:00",
-     "alt": 2
+     "alt": 3
     },
     {
      "t": "23:00",
-     "alt": 12
+     "alt": 13
     },
     {
      "t": "00:00",
@@ -1793,7 +1793,7 @@
     },
     {
      "t": "04:00",
-     "alt": 28
+     "alt": 27
     },
     {
      "t": "05:00",
@@ -1807,22 +1807,22 @@
    "type": "Planet",
    "mag": "",
    "size": "",
-   "time_str": "02:37 (59\u00b0)",
+   "time_str": "02:36 (59\u00b0)",
    "best_alt": 59,
    "link": "https://theskylive.com/saturn-info",
    "source": "computed",
    "notes": "",
-   "ra": "00:52:35",
-   "dec": "+02:43:59",
-   "ra_h": 0.876,
+   "ra": "00:52:21",
+   "dec": "+02:42:21",
+   "ra_h": 0.872,
    "alts": [
     {
      "t": "21:00",
-     "alt": 6
+     "alt": 7
     },
     {
      "t": "22:00",
-     "alt": 18
+     "alt": 19
     },
     {
      "t": "23:00",
@@ -1830,7 +1830,7 @@
     },
     {
      "t": "00:00",
-     "alt": 42
+     "alt": 43
     },
     {
      "t": "01:00",
@@ -1846,11 +1846,11 @@
     },
     {
      "t": "04:00",
-     "alt": 54
+     "alt": 53
     },
     {
      "t": "05:00",
-     "alt": 45
+     "alt": 44
     }
    ]
   },
@@ -1860,7 +1860,7 @@
    "type": "Galaxy",
    "mag": "9.5",
    "size": "18.32",
-   "time_str": "02:58 (58\u00b0)",
+   "time_str": "02:36 (58\u00b0)",
    "best_alt": 58,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=IC1613",
    "source": "OpenNGC",
@@ -1872,7 +1872,7 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": 3
+     "alt": 4
     },
     {
      "t": "22:00",
@@ -1880,19 +1880,19 @@
     },
     {
      "t": "23:00",
-     "alt": 28
+     "alt": 29
     },
     {
      "t": "00:00",
-     "alt": 39
+     "alt": 40
     },
     {
      "t": "01:00",
-     "alt": 49
+     "alt": 50
     },
     {
      "t": "02:00",
-     "alt": 56
+     "alt": 57
     },
     {
      "t": "03:00",
@@ -1900,7 +1900,7 @@
     },
     {
      "t": "04:00",
-     "alt": 55
+     "alt": 54
     },
     {
      "t": "05:00",
@@ -1926,11 +1926,11 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": 27
+     "alt": 28
     },
     {
      "t": "22:00",
-     "alt": 35
+     "alt": 36
     },
     {
      "t": "23:00",
@@ -1954,11 +1954,11 @@
     },
     {
      "t": "04:00",
-     "alt": 64
+     "alt": 63
     },
     {
      "t": "05:00",
-     "alt": 59
+     "alt": 58
     }
    ]
   },
@@ -1980,15 +1980,15 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": -7
+     "alt": -6
     },
     {
      "t": "22:00",
-     "alt": 5
+     "alt": 6
     },
     {
      "t": "23:00",
-     "alt": 17
+     "alt": 18
     },
     {
      "t": "00:00",
@@ -1996,7 +1996,7 @@
     },
     {
      "t": "01:00",
-     "alt": 38
+     "alt": 39
     },
     {
      "t": "02:00",
@@ -2038,15 +2038,15 @@
     },
     {
      "t": "22:00",
-     "alt": 24
+     "alt": 25
     },
     {
      "t": "23:00",
-     "alt": 36
+     "alt": 37
     },
     {
      "t": "00:00",
-     "alt": 48
+     "alt": 49
     },
     {
      "t": "01:00",
@@ -2054,15 +2054,15 @@
     },
     {
      "t": "02:00",
-     "alt": 73
+     "alt": 74
     },
     {
      "t": "03:00",
-     "alt": 85
+     "alt": 86
     },
     {
      "t": "04:00",
-     "alt": 81
+     "alt": 80
     },
     {
      "t": "05:00",
@@ -2088,27 +2088,27 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": 4
+     "alt": 5
     },
     {
      "t": "22:00",
-     "alt": 16
+     "alt": 17
     },
     {
      "t": "23:00",
-     "alt": 29
+     "alt": 30
     },
     {
      "t": "00:00",
-     "alt": 41
+     "alt": 42
     },
     {
      "t": "01:00",
-     "alt": 53
+     "alt": 54
     },
     {
      "t": "02:00",
-     "alt": 64
+     "alt": 65
     },
     {
      "t": "03:00",
@@ -2120,7 +2120,7 @@
     },
     {
      "t": "05:00",
-     "alt": 62
+     "alt": 61
     }
    ]
   },
@@ -2130,15 +2130,15 @@
    "type": "Asteroid",
    "mag": 8.7,
    "size": "",
-   "time_str": "03:19 (51\u00b0)",
-   "best_alt": 51,
+   "time_str": "03:19 (50\u00b0)",
+   "best_alt": 50,
    "link": "https://theskylive.com/pallas-info",
    "source": "TheSkyLive",
    "notes": "Asteroid 2 Pallas  mag 8.7",
-   "ra": "01:38:04",
-   "dec": "-05:53:11",
-   "ra_h": 1.634,
-   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=24.516666666666666&dec=-5.886388888888888&format=png",
+   "ra": "01:37:50",
+   "dec": "-06:09:09",
+   "ra_h": 1.631,
+   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=24.458333333333332&dec=-6.152500000000001&format=png",
    "alts": [
     {
      "t": "21:00",
@@ -2146,11 +2146,11 @@
     },
     {
      "t": "22:00",
-     "alt": 4
+     "alt": 5
     },
     {
      "t": "23:00",
-     "alt": 16
+     "alt": 17
     },
     {
      "t": "00:00",
@@ -2170,7 +2170,7 @@
     },
     {
      "t": "04:00",
-     "alt": 50
+     "alt": 49
     },
     {
      "t": "05:00",
@@ -2184,15 +2184,15 @@
    "type": "Asteroid",
    "mag": 6.9,
    "size": "",
-   "time_str": "03:41 (57\u00b0)",
+   "time_str": "03:40 (57\u00b0)",
    "best_alt": 57,
    "link": "https://theskylive.com/vesta-info",
    "source": "TheSkyLive",
    "notes": "Asteroid 4 Vesta  mag 6.9",
-   "ra": "01:55:16",
-   "dec": "+00:13:49",
-   "ra_h": 1.921,
-   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=28.816666666666666&dec=0.23027777777777778&format=png",
+   "ra": "01:54:59",
+   "dec": "+00:08:27",
+   "ra_h": 1.916,
+   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=28.74583333333333&dec=0.14083333333333334&format=png",
    "alts": [
     {
      "t": "21:00",
@@ -2200,7 +2200,7 @@
     },
     {
      "t": "22:00",
-     "alt": 4
+     "alt": 5
     },
     {
      "t": "23:00",
@@ -2216,11 +2216,11 @@
     },
     {
      "t": "02:00",
-     "alt": 49
+     "alt": 50
     },
     {
      "t": "03:00",
-     "alt": 55
+     "alt": 56
     },
     {
      "t": "04:00",
@@ -2228,7 +2228,7 @@
     },
     {
      "t": "05:00",
-     "alt": 52
+     "alt": 51
     }
    ]
   },
@@ -2254,7 +2254,7 @@
     },
     {
      "t": "22:00",
-     "alt": 27
+     "alt": 28
     },
     {
      "t": "23:00",
@@ -2262,15 +2262,15 @@
     },
     {
      "t": "00:00",
-     "alt": 43
+     "alt": 44
     },
     {
      "t": "01:00",
-     "alt": 51
+     "alt": 52
     },
     {
      "t": "02:00",
-     "alt": 58
+     "alt": 59
     },
     {
      "t": "03:00",
@@ -2282,7 +2282,7 @@
     },
     {
      "t": "05:00",
-     "alt": 65
+     "alt": 64
     }
    ]
   },
@@ -2304,7 +2304,7 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": 19
+     "alt": 20
     },
     {
      "t": "22:00",
@@ -2312,7 +2312,7 @@
     },
     {
      "t": "23:00",
-     "alt": 34
+     "alt": 35
     },
     {
      "t": "00:00",
@@ -2346,43 +2346,43 @@
    "type": "Comet",
    "mag": 13.7,
    "size": "",
-   "time_str": "04:23 (39\u00b0)",
+   "time_str": "04:02 (39\u00b0)",
    "best_alt": 39,
    "link": "https://theskylive.com/161p-info",
    "source": "TheSkyLive",
    "notes": "Comet 161P/Hartley-IRAS  mag 13.7",
-   "ra": "02:33:46",
-   "dec": "-17:39:35",
-   "ra_h": 2.563,
-   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=38.44166666666667&dec=-17.65972222222222&format=png",
+   "ra": "02:29:49",
+   "dec": "-17:32:23",
+   "ra_h": 2.497,
+   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=37.454166666666666&dec=-17.539722222222224&format=png",
    "alts": [
     {
      "t": "21:00",
-     "alt": -26
+     "alt": -24
     },
     {
      "t": "22:00",
-     "alt": -14
+     "alt": -12
     },
     {
      "t": "23:00",
-     "alt": -2
+     "alt": 0
     },
     {
      "t": "00:00",
-     "alt": 10
+     "alt": 11
     },
     {
      "t": "01:00",
-     "alt": 20
+     "alt": 22
     },
     {
      "t": "02:00",
-     "alt": 29
+     "alt": 30
     },
     {
      "t": "03:00",
-     "alt": 35
+     "alt": 36
     },
     {
      "t": "04:00",
@@ -2412,31 +2412,31 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": 6
+     "alt": 7
     },
     {
      "t": "22:00",
-     "alt": 16
+     "alt": 17
     },
     {
      "t": "23:00",
-     "alt": 26
+     "alt": 27
     },
     {
      "t": "00:00",
-     "alt": 37
+     "alt": 38
     },
     {
      "t": "01:00",
-     "alt": 49
+     "alt": 50
     },
     {
      "t": "02:00",
-     "alt": 60
+     "alt": 61
     },
     {
      "t": "03:00",
-     "alt": 72
+     "alt": 73
     },
     {
      "t": "04:00",
@@ -2444,7 +2444,7 @@
     },
     {
      "t": "05:00",
-     "alt": 81
+     "alt": 80
     }
    ]
   },
@@ -2470,7 +2470,7 @@
     },
     {
      "t": "22:00",
-     "alt": -6
+     "alt": -5
     },
     {
      "t": "23:00",
@@ -2478,11 +2478,11 @@
     },
     {
      "t": "00:00",
-     "alt": 19
+     "alt": 20
     },
     {
      "t": "01:00",
-     "alt": 31
+     "alt": 32
     },
     {
      "t": "02:00",
@@ -2498,7 +2498,7 @@
     },
     {
      "t": "05:00",
-     "alt": 56
+     "alt": 55
     }
    ]
   },
@@ -2508,7 +2508,7 @@
    "type": "Supernova Nova?",
    "mag": 13.9,
    "size": "",
-   "time_str": "04:44 (73\u00b0)",
+   "time_str": "04:23 (73\u00b0)",
    "best_alt": 73,
    "link": "https://www.rochesterastronomy.org/supernova.html#2026rok",
    "source": "Rochester",
@@ -2520,11 +2520,11 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": -10
+     "alt": -9
     },
     {
      "t": "22:00",
-     "alt": 1
+     "alt": 2
     },
     {
      "t": "23:00",
@@ -2532,81 +2532,135 @@
     },
     {
      "t": "00:00",
-     "alt": 26
+     "alt": 27
     },
     {
      "t": "01:00",
-     "alt": 38
+     "alt": 39
     },
     {
      "t": "02:00",
-     "alt": 51
+     "alt": 52
     },
     {
      "t": "03:00",
-     "alt": 62
+     "alt": 63
     },
     {
      "t": "04:00",
-     "alt": 71
+     "alt": 72
     },
     {
      "t": "05:00",
-     "alt": 73
+     "alt": 72
     }
    ]
   },
   {
-   "name": "220P/McNaught",
-   "class": "comet",
-   "type": "Comet",
-   "mag": 10.0,
-   "size": "",
-   "time_str": "05:06 (65\u00b0)",
-   "best_alt": 65,
-   "link": "https://theskylive.com/220p-info",
-   "source": "TheSkyLive",
-   "notes": "Comet 220P/McNaught  mag 10.0",
-   "ra": "03:24:05",
-   "dec": "+08:30:29",
-   "ra_h": 3.401,
-   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=51.020833333333336&dec=8.508055555555556&format=png",
+   "name": "NGC 1395",
+   "class": "galaxy",
+   "type": "Galaxy",
+   "mag": "9.7",
+   "size": "4.71",
+   "time_str": "05:06 (33\u00b0)",
+   "best_alt": 33,
+   "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC1395",
+   "source": "OpenNGC",
+   "notes": "",
+   "ra": "03:38:29",
+   "dec": "-23:01:39",
+   "ra_h": 3.641,
+   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=54.62083333333333&dec=-23.0275&format=png",
    "alts": [
     {
      "t": "21:00",
-     "alt": -21
+     "alt": -41
     },
     {
      "t": "22:00",
-     "alt": -10
+     "alt": -29
     },
     {
      "t": "23:00",
-     "alt": 3
+     "alt": -16
     },
     {
      "t": "00:00",
-     "alt": 15
+     "alt": -5
     },
     {
      "t": "01:00",
-     "alt": 28
+     "alt": 6
     },
     {
      "t": "02:00",
-     "alt": 40
+     "alt": 16
     },
     {
      "t": "03:00",
-     "alt": 51
+     "alt": 24
     },
     {
      "t": "04:00",
-     "alt": 60
+     "alt": 30
     },
     {
      "t": "05:00",
-     "alt": 65
+     "alt": 33
+    }
+   ]
+  },
+  {
+   "name": "NGC 1398",
+   "class": "galaxy",
+   "type": "Galaxy",
+   "mag": "9.6",
+   "size": "6.95",
+   "time_str": "05:06 (30\u00b0)",
+   "best_alt": 30,
+   "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC1398",
+   "source": "OpenNGC",
+   "notes": "",
+   "ra": "03:38:52",
+   "dec": "-26:20:16",
+   "ra_h": 3.648,
+   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=54.71666666666667&dec=-26.337777777777777&format=png",
+   "alts": [
+    {
+     "t": "21:00",
+     "alt": -43
+    },
+    {
+     "t": "22:00",
+     "alt": -30
+    },
+    {
+     "t": "23:00",
+     "alt": -18
+    },
+    {
+     "t": "00:00",
+     "alt": -7
+    },
+    {
+     "t": "01:00",
+     "alt": 4
+    },
+    {
+     "t": "02:00",
+     "alt": 14
+    },
+    {
+     "t": "03:00",
+     "alt": 22
+    },
+    {
+     "t": "04:00",
+     "alt": 27
+    },
+    {
+     "t": "05:00",
+     "alt": 30
     }
    ]
   },
@@ -2628,11 +2682,11 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": -40
+     "alt": -39
     },
     {
      "t": "22:00",
-     "alt": -28
+     "alt": -27
     },
     {
      "t": "23:00",
@@ -2644,7 +2698,7 @@
     },
     {
      "t": "01:00",
-     "alt": 8
+     "alt": 9
     },
     {
      "t": "02:00",
@@ -2652,7 +2706,7 @@
     },
     {
      "t": "03:00",
-     "alt": 27
+     "alt": 28
     },
     {
      "t": "04:00",
@@ -2694,7 +2748,7 @@
     },
     {
      "t": "00:00",
-     "alt": 33
+     "alt": 34
     },
     {
      "t": "01:00",
@@ -2702,11 +2756,11 @@
     },
     {
      "t": "02:00",
-     "alt": 44
+     "alt": 45
     },
     {
      "t": "03:00",
-     "alt": 49
+     "alt": 50
     },
     {
      "t": "04:00",
@@ -2724,8 +2778,8 @@
    "type": "Nebula",
    "mag": "5.0",
    "size": "160.00",
-   "time_str": "05:06 (81\u00b0)",
-   "best_alt": 81,
+   "time_str": "05:06 (82\u00b0)",
+   "best_alt": 82,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC1499",
    "source": "OpenNGC",
    "notes": "California Nebula",
@@ -2740,7 +2794,7 @@
     },
     {
      "t": "22:00",
-     "alt": 1
+     "alt": 2
     },
     {
      "t": "23:00",
@@ -2748,15 +2802,15 @@
     },
     {
      "t": "00:00",
-     "alt": 21
+     "alt": 22
     },
     {
      "t": "01:00",
-     "alt": 32
+     "alt": 33
     },
     {
      "t": "02:00",
-     "alt": 44
+     "alt": 45
     },
     {
      "t": "03:00",
@@ -2764,11 +2818,11 @@
     },
     {
      "t": "04:00",
-     "alt": 68
+     "alt": 69
     },
     {
      "t": "05:00",
-     "alt": 80
+     "alt": 81
     }
    ]
   },
@@ -2783,17 +2837,17 @@
    "link": "https://theskylive.com/uranus-info",
    "source": "computed",
    "notes": "",
-   "ra": "04:15:20",
-   "dec": "+21:06:10",
+   "ra": "04:15:21",
+   "dec": "+21:06:11",
    "ra_h": 4.256,
    "alts": [
     {
      "t": "21:00",
-     "alt": -21
+     "alt": -20
     },
     {
      "t": "22:00",
-     "alt": -11
+     "alt": -10
     },
     {
      "t": "23:00",
@@ -2801,19 +2855,19 @@
     },
     {
      "t": "00:00",
-     "alt": 11
+     "alt": 12
     },
     {
      "t": "01:00",
-     "alt": 23
+     "alt": 24
     },
     {
      "t": "02:00",
-     "alt": 36
+     "alt": 37
     },
     {
      "t": "03:00",
-     "alt": 48
+     "alt": 49
     },
     {
      "t": "04:00",
@@ -2843,11 +2897,11 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": -53
+     "alt": -52
     },
     {
      "t": "22:00",
-     "alt": -43
+     "alt": -42
     },
     {
      "t": "23:00",
@@ -2855,23 +2909,23 @@
     },
     {
      "t": "00:00",
-     "alt": -19
+     "alt": -18
     },
     {
      "t": "01:00",
-     "alt": -7
+     "alt": -6
     },
     {
      "t": "02:00",
-     "alt": 6
+     "alt": 7
     },
     {
      "t": "03:00",
-     "alt": 18
+     "alt": 19
     },
     {
      "t": "04:00",
-     "alt": 29
+     "alt": 30
     },
     {
      "t": "05:00",
@@ -2897,11 +2951,65 @@
    "alts": [
     {
      "t": "21:00",
+     "alt": -53
+    },
+    {
+     "t": "22:00",
+     "alt": -43
+    },
+    {
+     "t": "23:00",
+     "alt": -31
+    },
+    {
+     "t": "00:00",
+     "alt": -19
+    },
+    {
+     "t": "01:00",
+     "alt": -6
+    },
+    {
+     "t": "02:00",
+     "alt": 6
+    },
+    {
+     "t": "03:00",
+     "alt": 18
+    },
+    {
+     "t": "04:00",
+     "alt": 29
+    },
+    {
+     "t": "05:00",
+     "alt": 39
+    }
+   ]
+  },
+  {
+   "name": "NGC 1980",
+   "class": "nebula",
+   "type": "Cluster + Nebula",
+   "mag": "2.5",
+   "size": "9.30",
+   "time_str": "05:06 (40\u00b0)",
+   "best_alt": 40,
+   "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC1980",
+   "source": "OpenNGC",
+   "notes": "Lower Sword",
+   "ra": "05:35:25",
+   "dec": "-05:54:35",
+   "ra_h": 5.59,
+   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=83.85416666666667&dec=-5.909722222222222&format=png",
+   "alts": [
+    {
+     "t": "21:00",
      "alt": -54
     },
     {
      "t": "22:00",
-     "alt": -44
+     "alt": -43
     },
     {
      "t": "23:00",
@@ -2909,7 +3017,7 @@
     },
     {
      "t": "00:00",
-     "alt": -20
+     "alt": -19
     },
     {
      "t": "01:00",
@@ -2917,11 +3025,11 @@
     },
     {
      "t": "02:00",
-     "alt": 5
+     "alt": 6
     },
     {
      "t": "03:00",
-     "alt": 17
+     "alt": 18
     },
     {
      "t": "04:00",
@@ -2944,18 +3052,18 @@
    "link": "https://theskylive.com/c2024t5-info",
    "source": "TheSkyLive",
    "notes": "Comet C/2024 T5 (ATLAS)  mag 14.0",
-   "ra": "05:35:22",
-   "dec": "-13:01:15",
-   "ra_h": 5.589,
-   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=83.84166666666667&dec=-13.020833333333334&format=png",
+   "ra": "05:35:55",
+   "dec": "-13:02:05",
+   "ra_h": 5.599,
+   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=83.97916666666666&dec=-13.034722222222221&format=png",
    "alts": [
     {
      "t": "21:00",
-     "alt": -60
+     "alt": -59
     },
     {
      "t": "22:00",
-     "alt": -49
+     "alt": -48
     },
     {
      "t": "23:00",
@@ -2963,7 +3071,7 @@
     },
     {
      "t": "00:00",
-     "alt": -24
+     "alt": -23
     },
     {
      "t": "01:00",
@@ -2971,7 +3079,7 @@
     },
     {
      "t": "02:00",
-     "alt": 1
+     "alt": 2
     },
     {
      "t": "03:00",
@@ -2979,65 +3087,11 @@
     },
     {
      "t": "04:00",
-     "alt": 23
+     "alt": 24
     },
     {
      "t": "05:00",
      "alt": 33
-    }
-   ]
-  },
-  {
-   "name": "NGC 1980",
-   "class": "nebula",
-   "type": "Cluster + Nebula",
-   "mag": "2.5",
-   "size": "9.30",
-   "time_str": "05:06 (39\u00b0)",
-   "best_alt": 39,
-   "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC1980",
-   "source": "OpenNGC",
-   "notes": "Lower Sword",
-   "ra": "05:35:25",
-   "dec": "-05:54:35",
-   "ra_h": 5.59,
-   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=83.85416666666667&dec=-5.909722222222222&format=png",
-   "alts": [
-    {
-     "t": "21:00",
-     "alt": -54
-    },
-    {
-     "t": "22:00",
-     "alt": -44
-    },
-    {
-     "t": "23:00",
-     "alt": -32
-    },
-    {
-     "t": "00:00",
-     "alt": -20
-    },
-    {
-     "t": "01:00",
-     "alt": -8
-    },
-    {
-     "t": "02:00",
-     "alt": 5
-    },
-    {
-     "t": "03:00",
-     "alt": 17
-    },
-    {
-     "t": "04:00",
-     "alt": 28
-    },
-    {
-     "t": "05:00",
-     "alt": 38
     }
    ]
   },
@@ -3067,15 +3121,15 @@
     },
     {
      "t": "23:00",
-     "alt": -42
+     "alt": -41
     },
     {
      "t": "00:00",
-     "alt": -30
+     "alt": -29
     },
     {
      "t": "01:00",
-     "alt": -18
+     "alt": -17
     },
     {
      "t": "02:00",
@@ -3083,15 +3137,15 @@
     },
     {
      "t": "03:00",
-     "alt": 7
+     "alt": 8
     },
     {
      "t": "04:00",
-     "alt": 19
+     "alt": 20
     },
     {
      "t": "05:00",
-     "alt": 30
+     "alt": 31
     }
    ]
   },
@@ -3125,23 +3179,23 @@
     },
     {
      "t": "00:00",
-     "alt": -25
+     "alt": -24
     },
     {
      "t": "01:00",
-     "alt": -13
+     "alt": -12
     },
     {
      "t": "02:00",
-     "alt": -1
+     "alt": 0
     },
     {
      "t": "03:00",
-     "alt": 12
+     "alt": 13
     },
     {
      "t": "04:00",
-     "alt": 24
+     "alt": 25
     },
     {
      "t": "05:00",
@@ -3155,15 +3209,15 @@
    "type": "Asteroid",
    "mag": 8.9,
    "size": "",
-   "time_str": "05:06 (46\u00b0)",
-   "best_alt": 46,
+   "time_str": "05:06 (47\u00b0)",
+   "best_alt": 47,
    "link": "https://theskylive.com/ceres-info",
    "source": "TheSkyLive",
    "notes": "Asteroid 1 Ceres  mag 8.9",
-   "ra": "06:36:49",
-   "dec": "+22:52:53",
-   "ra_h": 6.614,
-   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=99.20416666666667&dec=22.88138888888889&format=png",
+   "ra": "06:38:18",
+   "dec": "+22:53:51",
+   "ra_h": 6.638,
+   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=99.57499999999999&dec=22.8975&format=png",
    "alts": [
     {
      "t": "21:00",
@@ -3187,15 +3241,15 @@
     },
     {
      "t": "02:00",
-     "alt": 8
+     "alt": 9
     },
     {
      "t": "03:00",
-     "alt": 20
+     "alt": 21
     },
     {
      "t": "04:00",
-     "alt": 32
+     "alt": 33
     },
     {
      "t": "05:00",
@@ -3214,10 +3268,10 @@
    "link": "https://theskylive.com/78p-info",
    "source": "TheSkyLive",
    "notes": "Comet 78P/Gehrels  mag 13.6",
-   "ra": "06:38:31",
-   "dec": "+19:16:59",
-   "ra_h": 6.642,
-   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=99.62916666666665&dec=19.283055555555556&format=png",
+   "ra": "06:40:31",
+   "dec": "+19:12:17",
+   "ra_h": 6.675,
+   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=100.12916666666666&dec=19.204722222222223&format=png",
    "alts": [
     {
      "t": "21:00",
@@ -3237,7 +3291,7 @@
     },
     {
      "t": "01:00",
-     "alt": -6
+     "alt": -5
     },
     {
      "t": "02:00",
@@ -3249,7 +3303,7 @@
     },
     {
      "t": "04:00",
-     "alt": 30
+     "alt": 31
     },
     {
      "t": "05:00",
@@ -3291,11 +3345,11 @@
     },
     {
      "t": "01:00",
-     "alt": -12
+     "alt": -11
     },
     {
      "t": "02:00",
-     "alt": 0
+     "alt": 1
     },
     {
      "t": "03:00",
@@ -3303,11 +3357,11 @@
     },
     {
      "t": "04:00",
-     "alt": 25
+     "alt": 26
     },
     {
      "t": "05:00",
-     "alt": 37
+     "alt": 38
     }
    ]
   },
@@ -3317,8 +3371,8 @@
    "type": "Supernova unk",
    "mag": 14.5,
    "size": "",
-   "time_str": "05:06 (48\u00b0)",
-   "best_alt": 48,
+   "time_str": "05:06 (49\u00b0)",
+   "best_alt": 49,
    "link": "https://www.rochesterastronomy.org/supernova.html#2026wyp",
    "source": "Rochester",
    "notes": "in none  (z = n/a)",
@@ -3333,15 +3387,15 @@
     },
     {
      "t": "22:00",
-     "alt": -17
+     "alt": -16
     },
     {
      "t": "23:00",
-     "alt": -12
+     "alt": -11
     },
     {
      "t": "00:00",
-     "alt": -5
+     "alt": -4
     },
     {
      "t": "01:00",
@@ -3353,15 +3407,15 @@
     },
     {
      "t": "03:00",
-     "alt": 24
+     "alt": 25
     },
     {
      "t": "04:00",
-     "alt": 35
+     "alt": 36
     },
     {
      "t": "05:00",
-     "alt": 47
+     "alt": 48
     }
    ]
   },
@@ -3383,11 +3437,11 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": -56
+     "alt": -55
     },
     {
      "t": "22:00",
-     "alt": -51
+     "alt": -50
     },
     {
      "t": "23:00",
@@ -3395,11 +3449,11 @@
     },
     {
      "t": "00:00",
-     "alt": -32
+     "alt": -31
     },
     {
      "t": "01:00",
-     "alt": -20
+     "alt": -19
     },
     {
      "t": "02:00",
@@ -3407,7 +3461,7 @@
     },
     {
      "t": "03:00",
-     "alt": 5
+     "alt": 6
     },
     {
      "t": "04:00",
@@ -3430,9 +3484,9 @@
    "link": "https://theskylive.com/mars-info",
    "source": "computed",
    "notes": "",
-   "ra": "07:15:42",
-   "dec": "+22:55:56",
-   "ra_h": 7.262,
+   "ra": "07:18:23",
+   "dec": "+22:51:57",
+   "ra_h": 7.306,
    "alts": [
     {
      "t": "21:00",
@@ -3460,11 +3514,11 @@
     },
     {
      "t": "03:00",
-     "alt": 12
+     "alt": 13
     },
     {
      "t": "04:00",
-     "alt": 24
+     "alt": 25
     },
     {
      "t": "05:00",
@@ -3518,11 +3572,11 @@
     },
     {
      "t": "04:00",
-     "alt": 34
+     "alt": 35
     },
     {
      "t": "05:00",
-     "alt": 40
+     "alt": 41
     }
    ]
   },
@@ -3560,11 +3614,11 @@
     },
     {
      "t": "01:00",
-     "alt": -1
+     "alt": 0
     },
     {
      "t": "02:00",
-     "alt": 6
+     "alt": 7
     },
     {
      "t": "03:00",
@@ -3586,8 +3640,8 @@
    "type": "Galaxy",
    "mag": "11.3",
    "size": "4.33",
-   "time_str": "05:06 (31\u00b0)",
-   "best_alt": 31,
+   "time_str": "05:06 (32\u00b0)",
+   "best_alt": 32,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC2685",
    "source": "OpenNGC",
    "notes": "Helix Galaxy",
@@ -3626,119 +3680,11 @@
     },
     {
      "t": "04:00",
-     "alt": 23
+     "alt": 24
     },
     {
      "t": "05:00",
      "alt": 31
-    }
-   ]
-  },
-  {
-   "name": "M 51",
-   "class": "galaxy",
-   "type": "Galaxy",
-   "mag": "8.4",
-   "size": "13.71",
-   "time_str": "20:36 (30\u00b0)",
-   "best_alt": 30,
-   "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC5194",
-   "source": "OpenNGC",
-   "notes": "Whirlpool Galaxy",
-   "ra": "13:29:52",
-   "dec": "+47:11:42",
-   "ra_h": 13.498,
-   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=202.46666666666667&dec=47.19499999999999&format=png",
-   "alts": [
-    {
-     "t": "21:00",
-     "alt": 26
-    },
-    {
-     "t": "22:00",
-     "alt": 17
-    },
-    {
-     "t": "23:00",
-     "alt": 9
-    },
-    {
-     "t": "00:00",
-     "alt": 2
-    },
-    {
-     "t": "01:00",
-     "alt": -4
-    },
-    {
-     "t": "02:00",
-     "alt": -8
-    },
-    {
-     "t": "03:00",
-     "alt": -9
-    },
-    {
-     "t": "04:00",
-     "alt": -9
-    },
-    {
-     "t": "05:00",
-     "alt": -6
-    }
-   ]
-  },
-  {
-   "name": "NGC 5195",
-   "class": "galaxy",
-   "type": "Galaxy",
-   "mag": "9.6",
-   "size": "5.50",
-   "time_str": "20:36 (30\u00b0)",
-   "best_alt": 30,
-   "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC5195",
-   "source": "OpenNGC",
-   "notes": "",
-   "ra": "13:29:59",
-   "dec": "+47:15:58",
-   "ra_h": 13.5,
-   "thumb": "https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=CDS%2FP%2FDSS2%2Fcolor&width=320&height=320&fov=0.45&projection=TAN&coordsys=icrs&ra=202.4958333333333&dec=47.26611111111111&format=png",
-   "alts": [
-    {
-     "t": "21:00",
-     "alt": 26
-    },
-    {
-     "t": "22:00",
-     "alt": 17
-    },
-    {
-     "t": "23:00",
-     "alt": 9
-    },
-    {
-     "t": "00:00",
-     "alt": 2
-    },
-    {
-     "t": "01:00",
-     "alt": -4
-    },
-    {
-     "t": "02:00",
-     "alt": -7
-    },
-    {
-     "t": "03:00",
-     "alt": -9
-    },
-    {
-     "t": "04:00",
-     "alt": -9
-    },
-    {
-     "t": "05:00",
-     "alt": -6
     }
    ]
   },
@@ -3748,7 +3694,7 @@
    "type": "Galaxy",
    "mag": "7.9",
    "size": "23.99",
-   "time_str": "20:36 (37\u00b0)",
+   "time_str": "20:34 (37\u00b0)",
    "best_alt": 37,
    "link": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC5457",
    "source": "OpenNGC",
@@ -3760,7 +3706,7 @@
    "alts": [
     {
      "t": "21:00",
-     "alt": 34
+     "alt": 33
     },
     {
      "t": "22:00",
@@ -3772,7 +3718,7 @@
     },
     {
      "t": "00:00",
-     "alt": 11
+     "alt": 10
     },
     {
      "t": "01:00",
@@ -3784,7 +3730,7 @@
     },
     {
      "t": "03:00",
-     "alt": -1
+     "alt": -2
     },
     {
      "t": "04:00",
