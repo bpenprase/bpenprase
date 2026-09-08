@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-09-07 14:56 PDT
-; Observing window starts 2026-09-07 20:34 PDT  (LST 18:51:56)
+; Generated 2026-09-08 14:42 PDT
+; Observing window starts 2026-09-08 20:32 PDT  (LST 18:53:53)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -78,15 +78,6 @@ NGC 6633
 #filter r',g',i',z'
 M 25
 
-; Comet C/2024 J3 (ATLAS)  mag 13.8
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT C/2024 J3
-#WAITINLIMITS 60
-
 ; Open Cluster  mag 4.6  size 24.00'
 #posang 0
 #count 1,1,1,1
@@ -111,7 +102,7 @@ M 11
 #filter r',g',i',z'
 NGC 6819
 
-; Asteroid 3 Juno  mag 9.4
+; Asteroid 3 Juno  mag 9.5
 #posang 0
 #count 3
 #interval 300
@@ -176,7 +167,7 @@ NGC 7000
 #filter r',g',i',z'
 M 39
 
-; Asteroid 9 Metis  mag 9.4
+; Asteroid 9 Metis  mag 9.5
 #posang 0
 #count 3
 #interval 300
@@ -358,7 +349,7 @@ NGC 0869
 #filter r',g',i',z'
 NGC 0884
 
-; Comet 161P/Hartley-IRAS  mag 13.7
+; Comet 161P/Hartley-IRAS  mag 12.2
 #posang 0
 #count 3
 #interval 300
@@ -390,6 +381,15 @@ M 77
 #binning 1,1
 #filter r',g'
 AT2026rok	02:53:07.234	+16:51:11.98
+
+; Comet 220P/McNaught  mag 11.9
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 220P/McNaught
+#WAITINLIMITS 60
 
 ; Galaxy  mag 9.7  size 4.71'
 #posang 0
@@ -498,6 +498,14 @@ NGC 2238
 MP Ceres
 #WAITINLIMITS 60
 
+; Cluster + Nebula  mag 3.9  size 11.40'  Christmas Tree Cluster
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,3,3,3
+#filter r',Ha,OIII,SII
+NGC 2264
+
 ; Comet 78P/Gehrels  mag 13.6
 #posang 0
 #count 3
@@ -506,14 +514,6 @@ MP Ceres
 #filter r'
 CT 78P/Gehrels
 #WAITINLIMITS 60
-
-; Cluster + Nebula  mag 3.9  size 11.40'  Christmas Tree Cluster
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,3,3,3
-#filter r',Ha,OIII,SII
-NGC 2264
 
 ; Supernova AT2026wyp in none  Type unk  mag 14.5  z=n/a
 #posang 0
