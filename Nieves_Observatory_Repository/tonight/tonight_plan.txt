@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-09-09 14:33 PDT
-; Observing window starts 2026-09-09 20:30 PDT  (LST 18:55:49)
+; Generated 2026-09-10 14:28 PDT
+; Observing window starts 2026-09-10 20:30 PDT  (LST 18:59:45)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -29,6 +29,14 @@ M 10
 #binning 1,1,1,1
 #filter r',g',i',z'
 IC 4665
+
+; Supernova AT2026abbh in none  Type unk  mag 14.1  z=n/a
+#posang 0
+#count 3,3
+#interval 300,300
+#binning 1,1
+#filter r',g'
+AT2026abbh	17:49:57.530	-21:00:41.50
 
 ; Nebula  mag 5.8  size 45.00'  Lagoon Nebula
 #posang 0
@@ -70,15 +78,7 @@ M 17
 #filter r',g',i',z'
 NGC 6633
 
-; Open Cluster  mag 4.6  size 14.10'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 25
-
-; Comet C/2024 J3 (ATLAS)  mag 13.6
+; Comet C/2024 J3 (ATLAS)  mag 14.0
 #posang 0
 #count 3
 #interval 300
@@ -86,6 +86,14 @@ M 25
 #filter r'
 CT C/2024 J3
 #WAITINLIMITS 60
+
+; Open Cluster  mag 4.6  size 14.10'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 25
 
 ; Open Cluster  mag 4.6  size 24.00'
 #posang 0
@@ -218,7 +226,7 @@ Neptune
 #filter r',g',i',z'
 NGC 0147
 
-; Asteroid 192 Nausikaa  mag 9.3
+; Asteroid 192 Nausikaa  mag 9.2
 #posang 0
 #count 3
 #interval 300
@@ -340,6 +348,15 @@ MP Pallas
 #binning 1
 #filter r'
 MP Vesta
+#WAITINLIMITS 60
+
+; Comet 161P/Hartley-IRAS  mag 12.8
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 161P/Hartley-IRAS
 #WAITINLIMITS 60
 
 ; Open Cluster  mag 3.7  size 14.40'  h Persei Cluster
@@ -464,7 +481,7 @@ M 42
 #filter r',Ha,OIII,SII
 NGC 1980
 
-; Comet C/2024 T5 (ATLAS)  mag 14.0
+; Comet C/2024 T5 (ATLAS)  mag 13.6
 #posang 0
 #count 3
 #interval 300
@@ -497,7 +514,7 @@ NGC 2238
 #filter r',Ha,OIII,SII
 NGC 2264
 
-; Asteroid 1 Ceres  mag 8.9
+; Asteroid 1 Ceres  mag 8.8
 #posang 0
 #count 3
 #interval 300
