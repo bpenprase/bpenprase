@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-09-10 14:28 PDT
-; Observing window starts 2026-09-10 20:30 PDT  (LST 18:59:45)
+; Generated 2026-09-11 14:36 PDT
+; Observing window starts 2026-09-11 20:28 PDT  (LST 19:01:42)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -29,14 +29,6 @@ M 10
 #binning 1,1,1,1
 #filter r',g',i',z'
 IC 4665
-
-; Supernova AT2026abbh in none  Type unk  mag 14.1  z=n/a
-#posang 0
-#count 3,3
-#interval 300,300
-#binning 1,1
-#filter r',g'
-AT2026abbh	17:49:57.530	-21:00:41.50
 
 ; Nebula  mag 5.8  size 45.00'  Lagoon Nebula
 #posang 0
@@ -77,15 +69,6 @@ M 17
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 6633
-
-; Comet C/2024 J3 (ATLAS)  mag 14.0
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT C/2024 J3
-#WAITINLIMITS 60
 
 ; Open Cluster  mag 4.6  size 14.10'
 #posang 0
@@ -201,7 +184,7 @@ MP Metis
 #filter r',g',i',z'
 NGC 7331
 
-; Supernova 2026aaiv in NGC 7331  Type Ia  mag 13.9  z=0.003000
+; Supernova 2026aaiv in NGC 7331  Type Ia  mag 12.5  z=0.003000
 #posang 0
 #count 3,3
 #interval 300,300
@@ -324,15 +307,7 @@ IC 0127
 #filter r',g',i',z'
 M 33
 
-; Galaxy  mag 9.3  size 9.89'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 74
-
-; Asteroid 2 Pallas  mag 8.7
+; Asteroid 2 Pallas  mag 8.6
 #posang 0
 #count 3
 #interval 300
@@ -340,6 +315,14 @@ M 74
 #filter r'
 MP Pallas
 #WAITINLIMITS 60
+
+; Galaxy  mag 9.3  size 9.89'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 74
 
 ; Asteroid 4 Vesta  mag 6.8
 #posang 0
@@ -350,7 +333,7 @@ MP Pallas
 MP Vesta
 #WAITINLIMITS 60
 
-; Comet 161P/Hartley-IRAS  mag 12.8
+; Comet 161P/Hartley-IRAS  mag 12.7
 #posang 0
 #count 3
 #interval 300
@@ -399,7 +382,7 @@ M 77
 #filter r',g'
 AT2026rok	02:53:07.234	+16:51:11.98
 
-; Comet 220P/McNaught  mag 11.0
+; Comet 220P/McNaught  mag 11.5
 #posang 0
 #count 3
 #interval 300
@@ -408,14 +391,6 @@ AT2026rok	02:53:07.234	+16:51:11.98
 CT 220P/McNaught
 #WAITINLIMITS 60
 
-; Galaxy  mag 9.7  size 4.71'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 1395
-
 ; Galaxy  mag 9.6  size 6.95'
 #posang 0
 #count 1,1,1,1
@@ -423,14 +398,6 @@ NGC 1395
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 1398
-
-; Galaxy  mag 9.7  size 5.73'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 1407
 
 ; Galaxy  mag 9.7  size 19.77'
 #posang 0
@@ -481,15 +448,6 @@ M 42
 #filter r',Ha,OIII,SII
 NGC 1980
 
-; Comet C/2024 T5 (ATLAS)  mag 13.6
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT C/2024 T5
-#WAITINLIMITS 60
-
 ; Open Cluster  mag 3.9  size 9.90'
 #posang 0
 #count 1,1,1,1
@@ -521,15 +479,6 @@ NGC 2264
 #binning 1
 #filter r'
 MP Ceres
-#WAITINLIMITS 60
-
-; Comet 78P/Gehrels  mag 13.6
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 78P/Gehrels
 #WAITINLIMITS 60
 
 ; Supernova AT2026wyp in none  Type unk  mag 14.5  z=n/a
@@ -580,6 +529,22 @@ NGC 2537
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 2685
+
+; Galaxy  mag 6.9  size 21.63'  Bode's Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 81
+
+; Galaxy  mag 8.3  size 10.99'  Cigar Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 82
 
 ; Galaxy  mag 7.9  size 23.99'
 #posang 0
