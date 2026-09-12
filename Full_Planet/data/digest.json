@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-11T13:07:09.239190+00:00",
-  "generated_human": "11 September 2026, 13:07 UTC",
+  "generated": "2026-09-12T12:31:04.200799+00:00",
+  "generated_human": "12 September 2026, 12:31 UTC",
   "total_items": 120,
   "channels": [
     {
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "How AI can help with early schizophrenia diagnosis",
+          "link": "https://www.scientificamerican.com/article/how-ai-can-help-with-early-schizophrenia-diagnosis/",
+          "source": "Scientific American",
+          "summary": "The speech of people with schizophrenia sounds subtly different from their healthy counterparts. Can AI hear those differences better than human psychiatrists?",
+          "published": "2026-09-12T11:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "What science problem should AI tackle next? A new ‘challenge atlas’ offers answers",
           "link": "https://www.science.org/content/article/what-science-problem-should-ai-tackle-next-new-challenge-atlas-offers-answers",
@@ -31,14 +39,6 @@
           "source": "Quanta Magazine",
           "summary": "In this special live recording from the International Congress of Mathematicians in Philadelphia, July 2026, the central question discussed was what do mathematicians really value about doing mathematics in the first…",
           "published": "2026-09-03T13:41:48+00:00",
-          "regional": false
-        },
-        {
-          "title": "In an Age of AI, a Physicist Seeks What Endures",
-          "link": "https://www.quantamagazine.org/in-an-age-of-ai-a-physicist-seeks-what-endures-20260903/",
-          "source": "Quanta Magazine",
-          "summary": "Sarah Demers, chair of the physics department at Yale University, sees the potential for large language models to both help and harm her field.",
-          "published": "2026-09-03T13:35:59+00:00",
           "regional": false
         },
         {
@@ -481,6 +481,38 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "Help Refine Data from Space Telescopes with Artifact InSPECtor",
+          "link": "https://science.nasa.gov/get-involved/citizen-science/help-refine-data-from-space-telescopes-with-artifact-inspector/",
+          "source": "NASA",
+          "summary": "How do scientists studying space with data from a telescope hundreds of thousands of miles away know that what they are seeing is real?",
+          "published": "2026-09-11T19:48:09+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Chandra Spots Galactic Gem",
+          "link": "https://www.nasa.gov/image-article/nasas-chandra-spots-galactic-gem/",
+          "source": "NASA",
+          "summary": "Two galaxies merge at a furious rate in this Aug. 25, 2026, image of the II Zw 096 system. This and several other images of both visually and scientifically interesting galaxies were released by NASA’s Chandra X-ray…",
+          "published": "2026-09-11T17:19:47+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s SpaceX Crew-12 to Discuss Station Mission, Upcoming Return",
+          "link": "https://www.nasa.gov/news-release/nasas-spacex-crew-12-to-discuss-station-mission-upcoming-return/",
+          "source": "NASA",
+          "summary": "Media are invited to hear from NASA’s SpaceX Crew-12 astronauts during a news conference beginning at 2:45 p.m. EDT, Wednesday, Sept. 16, from the International Space Station.",
+          "published": "2026-09-11T15:05:20+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Boosts Open Science, Data Sharing with Artemis Accords",
+          "link": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-boosts-open-science-data-sharing-with-artemis-accords/",
+          "source": "NASA",
+          "summary": "The science from every Moon rock sample, lunar dataset, and discovery produced through NASA’s Artemis program will be shared by the agency with the global scientific community.",
+          "published": "2026-09-11T14:56:25+00:00",
+          "regional": false
+        },
+        {
           "title": "A team of teams like never before: rehearsing a unique launch at ESA mission control",
           "link": "https://www.esa.int/Enabling_Support/Operations/A_team_of_teams_like_never_before_rehearsing_a_unique_launch_at_ESA_mission_control",
           "source": "ESA",
@@ -521,22 +553,6 @@
           "regional": false
         },
         {
-          "title": "NASA, NFL Team Up to Showcase Space, Aeronautics Innovation",
-          "link": "https://www.nasa.gov/news-release/nasa-nfl-team-up-to-showcase-space-aeronautics-innovation/",
-          "source": "NASA",
-          "summary": "Through a new collaboration between NASA and the National Football League (NFL), the agency will soon bring America’s strengths in space exploration and aeronautics innovation to the football field.",
-          "published": "2026-09-10T17:28:13+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA, IBM Launch AI Foundation Model for Lunar Science",
-          "link": "https://science.nasa.gov/science-research/artificial-intelligence-lunar-foundation-model/",
-          "source": "NASA",
-          "summary": "NASA is bringing artificial intelligence to the study of the Moon, helping researchers transform how they analyze the Moon’s surface.",
-          "published": "2026-09-10T12:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "MTM's selfie footage of BepiColombo's eight-year journey",
           "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/09/MTM_s_selfie_footage_of_BepiColombo_s_eight-year_journey",
           "source": "ESA",
@@ -561,14 +577,6 @@
           "regional": false
         },
         {
-          "title": "Shetland spaceport project secures £30m of UK government investment",
-          "link": "https://www.bbc.co.uk/news/articles/cwyze8ed774o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "The funding will be used to build two more launchpads.",
-          "published": "2026-09-08T08:48:33+00:00",
-          "regional": false
-        },
-        {
           "title": "Does the U.S. need more spaceports?",
           "link": "https://www.scientificamerican.com/article/does-the-u-s-need-more-spaceports/",
           "source": "Scientific American",
@@ -582,14 +590,6 @@
           "source": "Scientific American",
           "summary": "In a critical maneuver on Thursday, the mission successfully deployed its two science orbiters—beginning the final phases of its arrival at Mercury",
           "published": "2026-09-03T14:30:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA scientists discover a giant 10-sided pattern on Saturn",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260903064229.htm",
-          "source": "ScienceDaily",
-          "summary": "A huge 10-sided atmospheric pattern has appeared around Saturn’s south pole, giving the planet a surprising counterpart to its famous northern hexagon.",
-          "published": "2026-09-03T12:41:39+00:00",
           "regional": false
         },
         {
@@ -673,11 +673,11 @@
           "regional": false
         },
         {
-          "title": "Law Firm YK and The Korea Herald team up to launch executive briefing 'Policy Inside'",
-          "link": "https://www.koreaherald.com/article/10870856",
-          "source": "The Korea Herald",
-          "summary": "Law Firm YK and The Korea Herald signed a memorandum of understanding Friday to jointly launch a private breakfast briefing program designed to help corporate leaders navigate changes in government policy and…",
-          "published": "2026-09-11T07:42:13+00:00",
+          "title": "Gaganyaan Episode 6: Life support: Living in space | The Scope",
+          "link": "https://www.thehindu.com/videos/gaganyaan-episode-6-life-support-living-in-space-the-scope/article71456962.ece",
+          "source": "The Hindu",
+          "summary": "Three astronauts inside a sealed spacecraft cannot rely on Earth’s natural environment. In Episode 6 of The Scope: Gaganyaan — India’s Leap, we look at the Environmental Control and Life Support System (ECLSS) that will…",
+          "published": "2026-09-11T14:55:56+00:00",
           "regional": true
         },
         {
