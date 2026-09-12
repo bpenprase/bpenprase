@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-09-11 14:36 PDT
-; Observing window starts 2026-09-11 20:28 PDT  (LST 19:01:42)
+; Generated 2026-09-12 14:19 PDT
+; Observing window starts 2026-09-12 20:26 PDT  (LST 19:03:38)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -69,6 +69,15 @@ M 17
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 6633
+
+; Comet C/2024 J3 (ATLAS)  mag 14.0
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT C/2024 J3
+#WAITINLIMITS 60
 
 ; Open Cluster  mag 4.6  size 14.10'
 #posang 0
@@ -201,14 +210,6 @@ NGC 7331
 Neptune
 #WAITINLIMITS 60
 
-; Galaxy  mag 9.7  size 9.40'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 0147
-
 ; Asteroid 192 Nausikaa  mag 9.2
 #posang 0
 #count 3
@@ -217,6 +218,14 @@ NGC 0147
 #filter r'
 MP Nausikaa
 #WAITINLIMITS 60
+
+; Galaxy  mag 9.7  size 9.40'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 0147
 
 ; Galaxy  mag 9.2  size 12.94'
 #posang 0
@@ -333,7 +342,7 @@ M 74
 MP Vesta
 #WAITINLIMITS 60
 
-; Comet 161P/Hartley-IRAS  mag 12.7
+; Comet 161P/Hartley-IRAS  mag 13.3
 #posang 0
 #count 3
 #interval 300
@@ -382,7 +391,7 @@ M 77
 #filter r',g'
 AT2026rok	02:53:07.234	+16:51:11.98
 
-; Comet 220P/McNaught  mag 11.5
+; Comet 220P/McNaught  mag 10.9
 #posang 0
 #count 3
 #interval 300
