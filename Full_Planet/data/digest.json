@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-12T12:31:04.200799+00:00",
-  "generated_human": "12 September 2026, 12:31 UTC",
-  "total_items": 120,
+  "generated": "2026-09-13T13:32:36.567708+00:00",
+  "generated_human": "13 September 2026, 13:32 UTC",
+  "total_items": 118,
   "channels": [
     {
       "key": "ai",
@@ -42,6 +42,14 @@
           "regional": false
         },
         {
+          "title": "The US and China are racing to build ‘self-improving AI’. Here’s what’s at stake",
+          "link": "https://www.scmp.com/tech/big-tech/article/3367237/us-and-china-are-racing-build-self-improving-ai-heres-whats-stake?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "The US-China race for artificial intelligence dominance has entered a new phase: using AI to build better AI. Leading AI companies in the United States and China are increasingly focused on deploying advanced models to…",
+          "published": "2026-09-13T00:00:10+00:00",
+          "regional": true
+        },
+        {
           "title": "Ant to let AI agents shop via 10 digital wallets, from AlipayHK to Starryblu to KakaoPay",
           "link": "https://www.scmp.com/tech/big-tech/article/3367183/ant-international-let-ai-agents-shop-across-alipayhk-starryblu-kakaopay-and-toss?utm_source=rss_feed",
           "source": "South China Morning Post",
@@ -63,14 +71,6 @@
           "source": "The Korea Herald",
           "summary": "Citi Foundation said Thursday it has launched a $25 million global initiative to help young people build the skills needed for jobs increasingly shaped by artificial intelligence.",
           "published": "2026-09-10T06:38:18+00:00",
-          "regional": true
-        },
-        {
-          "title": "Korea Eximbank expands Africa financing in AI, critical minerals",
-          "link": "https://www.koreaherald.com/article/10869241",
-          "source": "The Korea Herald",
-          "summary": "Korea Eximbank signed a pact with the African Development Bank to expand financing for African projects in artificial intelligence, critical minerals and green infrastructure, the state lender said Thursday.",
-          "published": "2026-09-10T05:24:44+00:00",
           "regional": true
         },
         {
@@ -226,12 +226,20 @@
           "regional": false
         },
         {
-          "title": "Scientists turn tiny “defects” into a 5.5x heat transfer boost",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260823014940.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have developed an ultrathin coating that could dramatically improve how efficiently heat is transferred during condensation.",
-          "published": "2026-08-23T05:49:40+00:00",
-          "regional": false
+          "title": "Forum puts power, talent at center of southwest chip push",
+          "link": "https://www.koreaherald.com/article/10871611",
+          "source": "The Korea Herald",
+          "summary": "South Korea’s plan to establish a major semiconductor production base in the southwest is taking shape, with government officials and industry experts saying its success will depend on whether power, water, permits,…",
+          "published": "2026-09-13T04:55:01+00:00",
+          "regional": true
+        },
+        {
+          "title": "German economic counselor urges long-term approach to Honam chip cluster",
+          "link": "https://www.koreaherald.com/article/10871536",
+          "source": "The Korea Herald",
+          "summary": "Jeonnam-Gwangju should develop research, supplier and workforce networks alongside new semiconductor fabs if it wants the planned cluster to remain competitive over the long term, Germany’s economic counselor in Seoul…",
+          "published": "2026-09-13T02:14:46+00:00",
+          "regional": true
         },
         {
           "title": "Daewoo E&C chief pledges W10b for Honam semiconductor, AI cluster",
@@ -290,27 +298,11 @@
           "regional": true
         },
         {
-          "title": "China’s No 2 foundry Hua Hong invests US$2b in new fab to meet surging AI-driven demand",
-          "link": "https://www.scmp.com/tech/big-tech/article/3366104/chinas-no-2-foundry-hua-hong-invests-us2b-new-fab-meet-surging-ai-driven-demand?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Major Chinese foundry Hua Hong Grace Semiconductor is pouring US$2 billion into a massive capacity expansion in the Chinese chip production hub of Wuxi, racing to meet skyrocketing domestic demand for AI infrastructure…",
-          "published": "2026-09-02T09:30:11+00:00",
-          "regional": true
-        },
-        {
           "title": "Sunscreen for lakes and dams: could a thin floating layer of nanomaterial shield water from evaporation?",
           "link": "https://theconversation.com/sunscreen-for-lakes-and-dams-could-a-thin-floating-layer-of-nanomaterial-shield-water-from-evaporation-289663",
           "source": "The Conversation",
           "summary": "A new nanomaterial ‘blanket’ could reduce evaporation from dams by blocking heat while letting sunlight through, helping save scarce water in hot parts of Africa.",
           "published": "2026-08-26T14:08:31+00:00",
-          "regional": true
-        },
-        {
-          "title": "AI boom, profit surge fuel China’s ambitious chip assembly buildout",
-          "link": "https://www.scmp.com/tech/tech-trends/article/3365337/ai-boom-profit-surge-fuel-chinas-ambitious-chip-assembly-buildout?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "China’s leading semiconductor packaging and testing companies have launched a multibillion-dollar capacity expansion drive, as they ride a surge in artificial intelligence demand, stellar first-half profit growth, and…",
-          "published": "2026-08-26T10:30:08+00:00",
           "regional": true
         }
       ]
@@ -414,14 +406,6 @@
           "source": "The Korea Herald",
           "summary": "Hyundai Motor Group has joined LG Energy Solution, Hyundai Engineering and Wonik PNE to test an energy storage system that repurposes retired electric vehicle batteries to power fast-charging stations.",
           "published": "2026-09-10T08:01:26+00:00",
-          "regional": true
-        },
-        {
-          "title": "Hyosung scales up US factories for AI power boom",
-          "link": "https://www.koreaherald.com/article/10867456",
-          "source": "The Korea Herald",
-          "summary": "Hyosung Heavy Industries is expanding its US manufacturing footprint as surging electricity demand from AI data centers and an aging power grid fuels orders for ultrahigh-voltage equipment.",
-          "published": "2026-09-10T01:00:00+00:00",
           "regional": true
         },
         {
@@ -577,6 +561,14 @@
           "regional": false
         },
         {
+          "title": "Shetland spaceport project secures £30m of UK government investment",
+          "link": "https://www.bbc.co.uk/news/articles/cwyze8ed774o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "The funding will be used to build two more launchpads.",
+          "published": "2026-09-08T08:48:33+00:00",
+          "regional": false
+        },
+        {
           "title": "Does the U.S. need more spaceports?",
           "link": "https://www.scientificamerican.com/article/does-the-u-s-need-more-spaceports/",
           "source": "Scientific American",
@@ -590,14 +582,6 @@
           "source": "Scientific American",
           "summary": "In a critical maneuver on Thursday, the mission successfully deployed its two science orbiters—beginning the final phases of its arrival at Mercury",
           "published": "2026-09-03T14:30:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Astronauts set out on rare all-female spacewalk",
-          "link": "https://www.bbc.co.uk/news/videos/c5ylm5yj20go?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "For the sixth time in history, a team of two women completed a spacewalk outside the International Space Station.",
-          "published": "2026-09-02T11:10:22+00:00",
           "regional": false
         },
         {
@@ -889,6 +873,22 @@
           "regional": false
         },
         {
+          "title": "Rocky planets may have formed just 100 million years after the Big Bang",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260828082345.htm",
+          "source": "ScienceDaily",
+          "summary": "Rocky planets may have been able to start forming just 100 million years after the Big Bang, thanks to enormous early supernovae that scattered planet-building elements across space.",
+          "published": "2026-08-31T05:00:01+00:00",
+          "regional": false
+        },
+        {
+          "title": "This strange “spacetime crystal” can suddenly become a black hole",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260829035225.htm",
+          "source": "ScienceDaily",
+          "summary": "Physicists have mathematically captured a bizarre “spacetime crystal” that can either dissolve or collapse into a microscopic black hole after only a tiny change in energy.",
+          "published": "2026-08-30T15:05:09+00:00",
+          "regional": false
+        },
+        {
           "title": "The universe is still speeding up, but nobody knows why",
           "link": "https://www.sciencedaily.com/releases/2026/08/260828082325.htm",
           "source": "ScienceDaily",
@@ -934,22 +934,6 @@
           "source": "ScienceDaily",
           "summary": "NASA’s Roman Space Telescope has been cleared for final launch preparations ahead of a targeted August 30 liftoff aboard SpaceX’s Falcon Heavy.",
           "published": "2026-08-24T04:45:05+00:00",
-          "regional": false
-        },
-        {
-          "title": "Black holes keep tearing these stars apart, but they survive",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260822015119.htm",
-          "source": "ScienceDaily",
-          "summary": "Astronomers have found stars that repeatedly skim past supermassive black holes, surviving each encounter while producing a new burst of light. In some systems, those flares mysteriously fade with every return.",
-          "published": "2026-08-23T04:08:52+00:00",
-          "regional": false
-        },
-        {
-          "title": "JWST finds early galaxies may be 4 times more massive than thought",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260822015141.htm",
-          "source": "ScienceDaily",
-          "summary": "Astronomers using JWST have discovered that massive early galaxies contain far more small, faint stars than expected.",
-          "published": "2026-08-22T12:36:23+00:00",
           "regional": false
         },
         {
