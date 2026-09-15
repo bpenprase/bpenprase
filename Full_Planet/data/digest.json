@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-14T15:24:40.533894+00:00",
-  "generated_human": "14 September 2026, 15:24 UTC",
-  "total_items": 116,
+  "generated": "2026-09-15T13:58:31.447687+00:00",
+  "generated_human": "15 September 2026, 13:58 UTC",
+  "total_items": 115,
   "channels": [
     {
       "key": "ai",
@@ -42,6 +42,46 @@
           "regional": false
         },
         {
+          "title": "China is beating the US in consumer AI adoption, thanks to super apps: Morgan Stanley",
+          "link": "https://www.scmp.com/tech/big-tech/article/3367601/china-beating-us-consumer-ai-adoption-thanks-super-apps-morgan-stanley?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "China is surging ahead of the US in consumer AI adoption as technology giants like Tencent Holdings and Alibaba Group Holding embed artificial intelligence directly into popular everyday apps, even as American models…",
+          "published": "2026-09-15T11:00:12+00:00",
+          "regional": true
+        },
+        {
+          "title": "Forget AI KPIs: how China’s tech giants are rationing tokens for employees",
+          "link": "https://www.scmp.com/tech/big-tech/article/3367593/forget-ai-kpis-how-chinas-tech-giants-are-rationing-tokens-employees?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "When generative artificial intelligence first swept through China’s technology sector, workers faced a clear directive from management: use AI and use it often.",
+          "published": "2026-09-15T09:30:05+00:00",
+          "regional": true
+        },
+        {
+          "title": "China issues first AI-plus-brain-computer interface medical-device standard",
+          "link": "https://technode.com/2026/09/15/china-ai-brain-computer-interface-standard/",
+          "source": "TechNode",
+          "summary": "China’s National Medical Products Administration has approved YY/T 2029–2026, a medical-device industry standard covering EEG dataset quality requirements and evaluation methods for artificial-intelligence algorithms…",
+          "published": "2026-09-15T07:29:19+00:00",
+          "regional": true
+        },
+        {
+          "title": "[ANALYSIS] Why are AI agents lying, cheating and coordinating?",
+          "link": "https://www.rappler.com/voices/thought-leaders/ai-safety-agents-lying-cheating-coordinating/",
+          "source": "Rappler",
+          "summary": "I believe we should revisit the foundations of how we train AIs, namely the human imitation and the reinforcement learning on which today's most advanced models are built",
+          "published": "2026-09-14T23:30:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "LG takes industrial AI from answers to action",
+          "link": "https://www.koreaherald.com/article/10872720",
+          "source": "The Korea Herald",
+          "summary": "LG AI Research unveiled a suite of industry-specific systems Monday, accelerating its push to build artificial intelligence that does more than answer questions — it predicts problems, makes decisions and takes action.",
+          "published": "2026-09-14T05:13:49+00:00",
+          "regional": true
+        },
+        {
           "title": "Trump downplays need to check AI development, says he is unwilling to cede edge to China",
           "link": "https://www.scmp.com/news/world/united-states-canada/article/3367374/trump-downplays-need-check-ai-development-says-he-unwilling-cede-edge-china?utm_source=rss_feed",
           "source": "South China Morning Post",
@@ -74,51 +114,11 @@
           "regional": true
         },
         {
-          "title": "SK Group chief visits AI data center under construction in Ulsan",
-          "link": "https://www.koreaherald.com/article/10869720",
-          "source": "The Korea Herald",
-          "summary": "SK Group Chairman Chey Tae-won on Thursday visited an artificial intelligence (AI) data center under construction in the southeastern city of Ulsan and SK Innovation Co.'s nearby petrochemical complex, calling for…",
-          "published": "2026-09-10T11:50:53+00:00",
-          "regional": true
-        },
-        {
           "title": "Alibaba sends AI ‘digital employees’ to work in rival apps from ByteDance, Tencent",
           "link": "https://www.scmp.com/tech/big-tech/article/3366919/alibaba-sends-ai-digital-employees-work-rival-apps-bytedance-tencent?utm_source=rss_feed",
           "source": "South China Morning Post",
           "summary": "Alibaba Group Holding is giving users the ability to put artificial intelligence-powered “digital employees” to work within rival office platforms, opening a new competitive front against ByteDance and Tencent Holdings…",
           "published": "2026-09-09T10:30:06+00:00",
-          "regional": true
-        },
-        {
-          "title": "Chinese AI firms Z.ai and MiniMax could remain loss-making until 2030, Macquarie says",
-          "link": "https://www.scmp.com/tech/tech-trends/article/3366784/chinese-ai-firms-zai-and-minimax-could-remain-loss-making-until-2030-macquarie-says?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Chinese artificial intelligence companies Z.ai and MiniMax could remain loss-making through 2030 even as their revenues surge, underscoring the enormous cost of competing at the technological frontier, according to…",
-          "published": "2026-09-08T09:33:07+00:00",
-          "regional": true
-        },
-        {
-          "title": "Why Tencent is swapping Bilibili equity for debt, and what AI has to do with it",
-          "link": "https://www.scmp.com/tech/big-tech/article/3366657/why-tencent-swapping-bilibili-equity-debt-and-what-ai-has-do-it?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Tencent Holdings’ pivot from a core shareholder to a major creditor in Bilibili offers a clear window into how China’s Big Tech players are rebalancing portfolio risk while funding expensive artificial intelligence…",
-          "published": "2026-09-07T11:30:06+00:00",
-          "regional": true
-        },
-        {
-          "title": "Punching above their weight: how China’s AI giants stretch each dollar in compute race",
-          "link": "https://www.scmp.com/tech/big-tech/article/3366407/punching-above-their-weight-how-chinas-ai-giants-stretch-each-dollar-compute-race?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "The massive gap in artificial intelligence spending between US and Chinese tech titans may not buy the advantage expected for American giants, as lower domestic costs and heavy state support allow Chinese firms to…",
-          "published": "2026-09-06T13:00:07+00:00",
-          "regional": true
-        },
-        {
-          "title": "Moonshot AI – creator of Kimi K3 model – has filed for Hong Kong IPO: sources",
-          "link": "https://www.scmp.com/tech/big-tech/article/3366271/moonshot-ai-creator-kimi-k3-model-has-filed-hong-kong-ipo-sources?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Chinese artificial intelligence start-up Moonshot AI – developer of the leading Kimi K3 model – has confidentially filed for an initial public offering in Hong Kong, according to two people with knowledge of the matter,…",
-          "published": "2026-09-03T13:00:02+00:00",
           "regional": true
         }
       ]
@@ -210,14 +210,6 @@
           "regional": false
         },
         {
-          "title": "Atomic catalyst unlocks the hidden value of plant waste",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260824065601.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have created a highly efficient catalyst that breaks down stubborn lignin from plant waste into useful chemicals under relatively mild conditions.",
-          "published": "2026-08-25T10:09:15+00:00",
-          "regional": false
-        },
-        {
           "title": "Beyond North Korea, Seoul’s spy law targets tech theft",
           "link": "https://www.koreaherald.com/article/10872887",
           "source": "The Korea Herald",
@@ -250,22 +242,6 @@
           "regional": true
         },
         {
-          "title": "Daewoo E&C chief pledges W10b for Honam semiconductor, AI cluster",
-          "link": "https://www.koreaherald.com/article/10870693",
-          "source": "The Korea Herald",
-          "summary": "Jung Won-ju, chair of Herald Media Group, Jungheung Group and Daewoo Engineering & Construction, has pledged 10 billion won ($7.4 million) to support the development of a semiconductor and artificial intelligence…",
-          "published": "2026-09-11T06:20:13+00:00",
-          "regional": true
-        },
-        {
-          "title": "Exports up 83% in first 10 days of Sept. on chips",
-          "link": "https://www.koreaherald.com/article/10869986",
-          "source": "The Korea Herald",
-          "summary": "South Korea's exports surged nearly 83 percent on-year in the first 10 days of September, customs data showed Friday, driven by robust semiconductor shipments amid the global artificial intelligence boom.",
-          "published": "2026-09-11T00:21:20+00:00",
-          "regional": true
-        },
-        {
           "title": "DRC’s cobalt exports contain unreported uranium – our study estimates the global nuclear risk",
           "link": "https://theconversation.com/drcs-cobalt-exports-contain-unreported-uranium-our-study-estimates-the-global-nuclear-risk-291107",
           "source": "The Conversation",
@@ -274,19 +250,11 @@
           "regional": true
         },
         {
-          "title": "Osaka Metropolitan University achieves fabrication and manipulation of high-entropy alloys via laser",
-          "link": "https://sj.jst.go.jp/news/202609/n0910-02p.html",
-          "source": "Science Japan",
-          "summary": "A group at Osaka Metropolitan University revealed that they made fine particles of multi-element \"high-entropy alloys\" via laser irradiation underwater, identified the cause of specific elements being unevenly…",
-          "published": "2026-09-10T05:31:53+00:00",
-          "regional": true
-        },
-        {
-          "title": "Water movement deep inside Earth may explain deep-focus earthquakes",
-          "link": "https://sj.jst.go.jp/news/202609/n0910-01k.html",
-          "source": "Science Japan",
-          "summary": "Associate Professor Takayuki Ishii at the Institute for Planetary Materials at Okayama University and an international research team at Peking University and the Center for High Pressure Science and Technology Advanced…",
-          "published": "2026-09-10T05:30:45+00:00",
+          "title": "Huawei paper shows Tau Scaling Law chip solves overheating ahead of Kirin 2026 launch",
+          "link": "https://www.scmp.com/tech/big-tech/article/3366543/huawei-paper-shows-tau-scaling-law-chip-solves-overheating-ahead-kirin-2026-launch?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Huawei Technologies has released a new research paper showing its Tau Scaling Law-based semiconductor architecture can avoid overheating, which analysts view as a key technical hurdle for its anticipated Kirin 2026…",
+          "published": "2026-09-06T12:06:42+00:00",
           "regional": true
         },
         {
@@ -295,6 +263,14 @@
           "source": "The Hindu",
           "summary": "The researchers cautioned that the findings represent an early stage of biomedical research and require extensive validation before any clinical application becomes possible",
           "published": "2026-09-05T05:02:28+00:00",
+          "regional": true
+        },
+        {
+          "title": "China’s No 2 foundry Hua Hong invests US$2b in new fab to meet surging AI-driven demand",
+          "link": "https://www.scmp.com/tech/big-tech/article/3366104/chinas-no-2-foundry-hua-hong-invests-us2b-new-fab-meet-surging-ai-driven-demand?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Major Chinese foundry Hua Hong Grace Semiconductor is pouring US$2 billion into a massive capacity expansion in the Chinese chip production hub of Wuxi, racing to meet skyrocketing domestic demand for AI infrastructure…",
+          "published": "2026-09-02T09:30:11+00:00",
           "regional": true
         }
       ]
@@ -312,6 +288,14 @@
           "summary": "Scientists have engineered yeast to turn PET plastic and agricultural waste into ingredients for protein-rich, 3D-printed cookies called µBites.",
           "published": "2026-09-13T11:54:36+00:00",
           "regional": false
+        },
+        {
+          "title": "Molecular insight into biological nitrogen fixation close to the boiling point",
+          "link": "https://www.mpg.de/26973793/molecular-insight-into-biological-nitrogen-fixation-close-to-the-boiling-point",
+          "source": "Max Planck Society",
+          "summary": "An enzyme with exceptional heat resistance converts atmospheric nitrogen into ammonia, an important fertiliser and biofuel",
+          "published": "2026-09-15T08:09:00+00:00",
+          "regional": true
         }
       ]
     },
@@ -378,12 +362,20 @@
           "regional": false
         },
         {
-          "title": "Tiny plastics in drinking water may be making dangerous bacteria stronger",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260714225532.htm",
-          "source": "ScienceDaily",
-          "summary": "Tiny plastic particles in drinking water may be doing more than contaminating the environment. New research suggests nanoplastics can actually help harmful bacteria survive by strengthening the slimy biofilms they form…",
-          "published": "2026-07-17T13:14:10+00:00",
-          "regional": false
+          "title": "Molecular insight into biological nitrogen fixation close to the boiling point",
+          "link": "https://www.mpg.de/26973793/molecular-insight-into-biological-nitrogen-fixation-close-to-the-boiling-point",
+          "source": "Max Planck Society",
+          "summary": "An enzyme with exceptional heat resistance converts atmospheric nitrogen into ammonia, an important fertiliser and biofuel",
+          "published": "2026-09-15T08:09:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "Iran and US: Two countries and the pistachio between them",
+          "link": "https://www.dw.com/en/iran-and-us-two-countries-and-the-pistachio-between-them/a-79224310?maca=en-rss_en_environment-22607-xml-mrss",
+          "source": "Deutsche Welle",
+          "summary": "The pistachios sold across the United States have a surprising history: California's trees trace their roots to Iran. Now, both regions face the same threat — their farmland is sinking as groundwater disappears.",
+          "published": "2026-09-15T07:48:00+00:00",
+          "regional": true
         },
         {
           "title": "Nepal flash floods wash away illusions of clean, easy hydropower",
@@ -450,6 +442,62 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "FLEX and Sentinel-3C launch highlights",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/09/FLEX_and_Sentinel-3C_launch_highlights",
+          "source": "ESA",
+          "summary": "Video: 00:03:22 ESA’s state-of-the-art FLEX Earth Explorer satellite and the Copernicus Sentinel-3C satellite have been launched together aboard a Vega-C rocket from Europe’s Spaceport in French Guiana, marking a new…",
+          "published": "2026-09-15T07:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "APOD: 2026 September 15 – A Daytime Eclipse: Moon Occults Venus",
+          "link": "https://science.nasa.gov/image-article/apod-2026-september-15-a-daytime-eclipse-moon-occults-venus/",
+          "source": "NASA",
+          "summary": "APOD Science APOD APOD: 2026 September 15 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos!",
+          "published": "2026-09-15T04:05:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "FLEX and Sentinel-3C launched",
+          "link": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_launched",
+          "source": "ESA",
+          "summary": "The European Space Agency’s FLEX Earth Explorer satellite and the Copernicus Sentinel-3C satellite have been launched together aboard a Vega-C rocket from Europe’s Spaceport in French Guiana, marking a new milestone in…",
+          "published": "2026-09-15T03:25:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Webinar 9/23: NASA CSDA Program Update 2026",
+          "link": "https://science.nasa.gov/science-research/earth-science/webinar-9-23-nasa-csda-program-update-2026/",
+          "source": "NASA",
+          "summary": "This webinar will provide an overview of the CSDA program’s goals and activities, including the new Cal/Val initiative, and more.",
+          "published": "2026-09-14T21:04:04+00:00",
+          "regional": false
+        },
+        {
+          "title": "New Crops, Health Research Proposals to Help NASA Advance Exploration",
+          "link": "https://science.nasa.gov/science-research/biological-physical-sciences/new-crops-health-research-proposals-to-help-nasa-advance-exploration/",
+          "source": "NASA",
+          "summary": "NASA has selected 12 new investigations to help support human explorers in space. Six will help advance the ability to produce food off-planet, while another six advance the understanding of how unique conditions…",
+          "published": "2026-09-14T19:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Welcomes Djibouti as Newest Artemis Accords Signatory",
+          "link": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-djibouti-as-newest-artemis-accords-signatory/",
+          "source": "NASA",
+          "summary": "The Republic of Djibouti became the 72nd nation and eighth African country to sign the Artemis Accords during a ceremony Monday at NASA Headquarters in Washington.",
+          "published": "2026-09-14T16:46:07+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Kicks Off Inspiration Tour with Steelers vs. Falcons Game",
+          "link": "https://www.nasa.gov/image-article/nasa-kicks-off-inspiration-tour-with-steelers-vs-falcons-game/",
+          "source": "NASA",
+          "summary": "Fans pose for a photo with an astronaut in the NASA Experience Zone at an NFL game between the Pittsburgh Steelers and the Atlanta Falcons at Acrisure Stadium, Sunday, Sept. 13, 2026, in Pittsburgh, Pennsylvania.",
+          "published": "2026-09-14T16:00:11+00:00",
+          "regional": false
+        },
+        {
           "title": "Summer Training: Catching Up With NASA’s Astronaut Candidates",
           "link": "https://www.nasa.gov/centers-and-facilities/johnson/summer-training-catching-up-with-nasas-astronaut-candidates/",
           "source": "NASA",
@@ -482,59 +530,11 @@
           "regional": false
         },
         {
-          "title": "Help Refine Data from Space Telescopes with Artifact InSPECtor",
-          "link": "https://science.nasa.gov/get-involved/citizen-science/help-refine-data-from-space-telescopes-with-artifact-inspector/",
-          "source": "NASA",
-          "summary": "How do scientists studying space with data from a telescope hundreds of thousands of miles away know that what they are seeing is real?",
-          "published": "2026-09-11T19:48:09+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Chandra Spots Galactic Gem",
-          "link": "https://www.nasa.gov/image-article/nasas-chandra-spots-galactic-gem/",
-          "source": "NASA",
-          "summary": "Two galaxies merge at a furious rate in this Aug. 25, 2026, image of the II Zw 096 system. This and several other images of both visually and scientifically interesting galaxies were released by NASA’s Chandra X-ray…",
-          "published": "2026-09-11T17:19:47+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s SpaceX Crew-12 to Discuss Station Mission, Upcoming Return",
-          "link": "https://www.nasa.gov/news-release/nasas-spacex-crew-12-to-discuss-station-mission-upcoming-return/",
-          "source": "NASA",
-          "summary": "Media are invited to hear from NASA’s SpaceX Crew-12 astronauts during a news conference beginning at 2:45 p.m. EDT, Wednesday, Sept. 16, from the International Space Station.",
-          "published": "2026-09-11T15:05:20+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Boosts Open Science, Data Sharing with Artemis Accords",
-          "link": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-boosts-open-science-data-sharing-with-artemis-accords/",
-          "source": "NASA",
-          "summary": "The science from every Moon rock sample, lunar dataset, and discovery produced through NASA’s Artemis program will be shared by the agency with the global scientific community.",
-          "published": "2026-09-11T14:56:25+00:00",
-          "regional": false
-        },
-        {
-          "title": "A team of teams like never before: rehearsing a unique launch at ESA mission control",
-          "link": "https://www.esa.int/Enabling_Support/Operations/A_team_of_teams_like_never_before_rehearsing_a_unique_launch_at_ESA_mission_control",
-          "source": "ESA",
-          "summary": "On 15 September, two spacecraft will leave Earth together aboard the same launcher from Europe’s spaceport in Kourou: FLEX, ESA’s photosynthesis mission, and Sentinel-3C, Copernicus’ newest satellite monitoring Earth’s…",
-          "published": "2026-09-11T08:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "The Moon may have formed intact just hours after a giant collision",
           "link": "https://www.sciencedaily.com/releases/2026/09/260909231729.htm",
           "source": "ScienceDaily",
           "summary": "Scientists have discovered that the Moon-forming collision may have depended heavily on how hot and physically strong early Earth and Theia were.",
-          "published": "2026-09-11T01:40:57+00:00",
-          "regional": false
-        },
-        {
-          "title": "MTM's selfie footage of BepiColombo's eight-year journey",
-          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/09/MTM_s_selfie_footage_of_BepiColombo_s_eight-year_journey",
-          "source": "ESA",
-          "summary": "Video: 00:04:20 Witness how over the last eight years, the ESA/JAXA BepiColombo mission has been travelling through the inner Solar System and aligning itself with Mercury's orbit.",
-          "published": "2026-09-09T12:00:00+00:00",
+          "published": "2026-09-10T03:17:29+00:00",
           "regional": false
         },
         {
@@ -543,14 +543,6 @@
           "source": "BBC Science",
           "summary": "The funding will be used to build two more launchpads.",
           "published": "2026-09-08T08:48:33+00:00",
-          "regional": false
-        },
-        {
-          "title": "Does the U.S. need more spaceports?",
-          "link": "https://www.scientificamerican.com/article/does-the-u-s-need-more-spaceports/",
-          "source": "Scientific American",
-          "summary": "A new executive order calls for more than 1,000 U.S. rocket launches per year by the end of the decade. Rethinking the nation’s spaceports will be key",
-          "published": "2026-09-07T12:00:00+00:00",
           "regional": false
         },
         {
@@ -610,6 +602,14 @@
           "regional": false
         },
         {
+          "title": "EVA-98: suiting up!",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/09/EVA-98_suiting_up",
+          "source": "ESA",
+          "summary": "Video: 00:01:50 This timelapse was published by ESA astronaut Sophie Adenot on social media with the following caption: Day 198 orbit 3070 — Let’s make it three!",
+          "published": "2026-08-30T12:05:00+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA’s Roman telescope will see 100 times more sky than Hubble",
           "link": "https://www.sciencedaily.com/releases/2026/08/260828082333.htm",
           "source": "ScienceDaily",
@@ -631,14 +631,6 @@
           "source": "ScienceDaily",
           "summary": "NASA’s Roman Space Telescope is now enclosed inside its Falcon Heavy fairing and nearly ready for launch. Its mission could uncover thousands of exoplanets while helping scientists investigate dark matter, dark energy,…",
           "published": "2026-08-26T10:29:17+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA finds Earth microbes could survive on the Moon",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260823094142.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA scientists found that microbes brought by astronauts could survive in cold, shadowed niches around the Moon’s South Pole, potentially complicating future searches for pristine lunar chemistry.",
-          "published": "2026-08-25T06:30:18+00:00",
           "regional": false
         },
         {
@@ -730,6 +722,38 @@
       "accent": "#B98CE0",
       "items": [
         {
+          "title": "Supermassive black hole winds are 100 times more powerful than scientists thought",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260914102429.htm",
+          "source": "ScienceDaily",
+          "summary": "Astronomers have discovered that winds from a supermassive black hole are about 100 times more powerful than previously thought.",
+          "published": "2026-09-15T12:34:32+00:00",
+          "regional": false
+        },
+        {
+          "title": "What if we never find dark matter?",
+          "link": "https://www.scientificamerican.com/article/what-if-we-never-find-dark-matter/",
+          "source": "Scientific American",
+          "summary": "Could the hunt for the universe’s missing matter be the biggest wild goose chase in scientific history?",
+          "published": "2026-09-15T10:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "What are the smallest pieces of the universe?",
+          "link": "https://www.scientificamerican.com/article/what-are-the-smallest-pieces-of-the-universe/",
+          "source": "Scientific American",
+          "summary": "Physicists are searching for what lies underneath the particles we know",
+          "published": "2026-09-15T10:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "See how gravitational waves warp time and space",
+          "link": "https://www.scientificamerican.com/article/see-how-gravitational-waves-warp-time-and-space/",
+          "source": "Scientific American",
+          "summary": "The latest gravitational-wave discoveries include record-breaking cataclysms",
+          "published": "2026-09-15T10:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "Meteor showers and supermoons: Autumn's night sky highlights",
           "link": "https://www.bbc.co.uk/news/videos/c6kgxmk5zkrgo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
@@ -810,14 +834,6 @@
           "regional": false
         },
         {
-          "title": "This star has the strangest sky in the galaxy",
-          "link": "https://www.scientificamerican.com/article/this-star-has-the-strangest-sky-in-the-galaxy/",
-          "source": "Scientific American",
-          "summary": "The newfound star S301 orbits the Milky Way’s supermassive black hole so closely that its view of the heavens gets twisted",
-          "published": "2026-09-04T10:45:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Dying radio galaxies fade faster than scientists expected",
           "link": "https://www.sciencedaily.com/releases/2026/09/260901010656.htm",
           "source": "ScienceDaily",
@@ -866,14 +882,6 @@
           "regional": false
         },
         {
-          "title": "This strange “spacetime crystal” can suddenly become a black hole",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260829035225.htm",
-          "source": "ScienceDaily",
-          "summary": "Physicists have mathematically captured a bizarre “spacetime crystal” that can either dissolve or collapse into a microscopic black hole after only a tiny change in energy.",
-          "published": "2026-08-30T15:05:09+00:00",
-          "regional": false
-        },
-        {
           "title": "The universe is still speeding up, but nobody knows why",
           "link": "https://www.sciencedaily.com/releases/2026/08/260828082325.htm",
           "source": "ScienceDaily",
@@ -890,14 +898,6 @@
           "regional": false
         },
         {
-          "title": "“I jumped from my chair” – Astronomers spot Betelgeuse’s hidden companion",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260827010514.htm",
-          "source": "ScienceDaily",
-          "summary": "Astronomers have captured their clearest image yet of Betelgeuse’s long-suspected companion, potentially ending a search that lasted about 100 years.",
-          "published": "2026-08-27T12:43:27+00:00",
-          "regional": false
-        },
-        {
           "title": "A mysterious cosmic hum may come from 13-billion-year-old dark stars",
           "link": "https://www.sciencedaily.com/releases/2026/08/260827010457.htm",
           "source": "ScienceDaily",
@@ -911,14 +911,6 @@
           "source": "ScienceDaily",
           "summary": "NASA’s Roman Space Telescope is now enclosed inside its Falcon Heavy fairing and nearly ready for launch. Its mission could uncover thousands of exoplanets while helping scientists investigate dark matter, dark energy,…",
           "published": "2026-08-26T10:29:17+00:00",
-          "regional": false
-        },
-        {
-          "title": "One asteroid strike may explain two mysteries of Mars’ moon Deimos",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260824065516.htm",
-          "source": "ScienceDaily",
-          "summary": "A single asteroid impact may explain two of Deimos’s most puzzling features: its huge southern depression and unusually smooth, dusty surface.",
-          "published": "2026-08-26T09:05:48+00:00",
           "regional": false
         },
         {
