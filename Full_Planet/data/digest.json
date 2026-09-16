@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-15T13:58:31.447687+00:00",
-  "generated_human": "15 September 2026, 13:58 UTC",
-  "total_items": 115,
+  "generated": "2026-09-16T13:51:14.842077+00:00",
+  "generated_human": "16 September 2026, 13:51 UTC",
+  "total_items": 114,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "Building the materials foundation for AI",
+          "link": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/",
+          "source": "MIT Technology Review",
+          "summary": "The AI boom is becoming a materials challenge. As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it.",
+          "published": "2026-09-16T12:47:34+00:00",
+          "regional": false
+        },
         {
           "title": "AI uncovers hidden Ozempic side effects across 400,000 Reddit posts",
           "link": "https://www.sciencedaily.com/releases/2026/09/260912222856.htm",
@@ -26,20 +34,20 @@
           "regional": false
         },
         {
-          "title": "What science problem should AI tackle next? A new ‘challenge atlas’ offers answers",
-          "link": "https://www.science.org/content/article/what-science-problem-should-ai-tackle-next-new-challenge-atlas-offers-answers",
-          "source": "Science (AAAS)",
-          "summary": "Four complex physics problems are now within AI’s reach, researchers say",
-          "published": "2026-09-10T04:15:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Architecting memory and storage in the AI era",
           "link": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
           "source": "MIT Technology Review",
           "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of…",
           "published": "2026-09-04T18:39:19+00:00",
           "regional": false
+        },
+        {
+          "title": "The AI Boom Has a Bandwidth Problem",
+          "link": "https://technode.com/2026/09/16/the-ai-boom-has-a-bandwidth-problem/",
+          "source": "TechNode",
+          "summary": "Editor’s note: This article is republished from Jumpstart, a TechNode Group publication. The popular story of artificial intelligence begins with the processor.",
+          "published": "2026-09-16T08:15:09+00:00",
+          "regional": true
         },
         {
           "title": "China is beating the US in consumer AI adoption, thanks to super apps: Morgan Stanley",
@@ -74,27 +82,11 @@
           "regional": true
         },
         {
-          "title": "LG takes industrial AI from answers to action",
-          "link": "https://www.koreaherald.com/article/10872720",
-          "source": "The Korea Herald",
-          "summary": "LG AI Research unveiled a suite of industry-specific systems Monday, accelerating its push to build artificial intelligence that does more than answer questions — it predicts problems, makes decisions and takes action.",
-          "published": "2026-09-14T05:13:49+00:00",
-          "regional": true
-        },
-        {
           "title": "Trump downplays need to check AI development, says he is unwilling to cede edge to China",
           "link": "https://www.scmp.com/news/world/united-states-canada/article/3367374/trump-downplays-need-check-ai-development-says-he-unwilling-cede-edge-china?utm_source=rss_feed",
           "source": "South China Morning Post",
           "summary": "US President Donald Trump on Sunday played down the need for his administration to check the development of artificial intelligence, saying he worried about ceding America’s edge over China in a global competition and…",
           "published": "2026-09-13T19:27:47+00:00",
-          "regional": true
-        },
-        {
-          "title": "SK chief says Big Tech AI data center cooperation gaining pace",
-          "link": "https://www.koreaherald.com/article/10871612",
-          "source": "The Korea Herald",
-          "summary": "SK Group Chairman Chey Tae-won said Friday that the group’s cooperation with Big Tech companies on artificial intelligence data centers was advancing rapidly.",
-          "published": "2026-09-13T04:56:16+00:00",
           "regional": true
         },
         {
@@ -119,6 +111,14 @@
           "source": "South China Morning Post",
           "summary": "Alibaba Group Holding is giving users the ability to put artificial intelligence-powered “digital employees” to work within rival office platforms, opening a new competitive front against ByteDance and Tencent Holdings…",
           "published": "2026-09-09T10:30:06+00:00",
+          "regional": true
+        },
+        {
+          "title": "Chinese AI firms Z.ai and MiniMax could remain loss-making until 2030, Macquarie says",
+          "link": "https://www.scmp.com/tech/tech-trends/article/3366784/chinese-ai-firms-zai-and-minimax-could-remain-loss-making-until-2030-macquarie-says?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Chinese artificial intelligence companies Z.ai and MiniMax could remain loss-making through 2030 even as their revenues surge, underscoring the enormous cost of competing at the technological frontier, according to…",
+          "published": "2026-09-08T09:33:07+00:00",
           "regional": true
         }
       ]
@@ -210,6 +210,22 @@
           "regional": false
         },
         {
+          "title": "Seoul stocks snap 4-day losing streak on chip bargain hunting",
+          "link": "https://www.koreaherald.com/article/10875945",
+          "source": "The Korea Herald",
+          "summary": "Seoul stocks snapped their four-day losing streak to close sharply higher as investors went bargain hunting for major tech shares and semiconductors. The Korean won fell against the US dollar.",
+          "published": "2026-09-16T07:59:39+00:00",
+          "regional": true
+        },
+        {
+          "title": "How Ford could keep CATL in the US battery game",
+          "link": "https://www.koreaherald.com/article/10874025",
+          "source": "The Korea Herald",
+          "summary": "A new US order targeting foreign-linked power-grid equipment appears, at first glance, to give South Korean battery makers an opening against their dominant Chinese rivals.",
+          "published": "2026-09-15T03:44:16+00:00",
+          "regional": true
+        },
+        {
           "title": "Beyond North Korea, Seoul’s spy law targets tech theft",
           "link": "https://www.koreaherald.com/article/10872887",
           "source": "The Korea Herald",
@@ -223,22 +239,6 @@
           "source": "Science Japan",
           "summary": "Photonic crystals, which contain periodic nanostructures with dimensions of several hundred nanometers comparable to the wavelength of light, exhibit so-called structural colors by selectively reflecting specific…",
           "published": "2026-09-14T05:08:08+00:00",
-          "regional": true
-        },
-        {
-          "title": "Forum puts power, talent at center of southwest chip push",
-          "link": "https://www.koreaherald.com/article/10871611",
-          "source": "The Korea Herald",
-          "summary": "South Korea’s plan to establish a major semiconductor production base in the southwest is taking shape, with government officials and industry experts saying its success will depend on whether power, water, permits,…",
-          "published": "2026-09-13T04:55:01+00:00",
-          "regional": true
-        },
-        {
-          "title": "German economic counselor urges long-term approach to Honam chip cluster",
-          "link": "https://www.koreaherald.com/article/10871536",
-          "source": "The Korea Herald",
-          "summary": "Jeonnam-Gwangju should develop research, supplier and workforce networks alongside new semiconductor fabs if it wants the planned cluster to remain competitive over the long term, Germany’s economic counselor in Seoul…",
-          "published": "2026-09-13T02:14:46+00:00",
           "regional": true
         },
         {
@@ -362,6 +362,14 @@
           "regional": false
         },
         {
+          "title": "Seeking energy supply and decarbonization via geothermal heat: Akita University takes on challenge in Tajikistan",
+          "link": "https://sj.jst.go.jp/stories/2026/s0916-02p.html",
+          "source": "Science Japan",
+          "summary": "Whether in the heat of summer or the depths of winter, the temperature underground remains nearly constant just a few dozen meters below the surface.",
+          "published": "2026-09-16T05:42:42+00:00",
+          "regional": true
+        },
+        {
           "title": "Molecular insight into biological nitrogen fixation close to the boiling point",
           "link": "https://www.mpg.de/26973793/molecular-insight-into-biological-nitrogen-fixation-close-to-the-boiling-point",
           "source": "Max Planck Society",
@@ -375,6 +383,14 @@
           "source": "Deutsche Welle",
           "summary": "The pistachios sold across the United States have a surprising history: California's trees trace their roots to Iran. Now, both regions face the same threat — their farmland is sinking as groundwater disappears.",
           "published": "2026-09-15T07:48:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "How Ford could keep CATL in the US battery game",
+          "link": "https://www.koreaherald.com/article/10874025",
+          "source": "The Korea Herald",
+          "summary": "A new US order targeting foreign-linked power-grid equipment appears, at first glance, to give South Korean battery makers an opening against their dominant Chinese rivals.",
+          "published": "2026-09-15T03:44:16+00:00",
           "regional": true
         },
         {
@@ -418,14 +434,6 @@
           "regional": true
         },
         {
-          "title": "Can we go green without forever chemicals?",
-          "link": "https://www.dw.com/en/can-we-go-green-without-forever-chemicals/a-77888704?maca=en-rss_en_environment-22607-xml-mrss",
-          "source": "Deutsche Welle",
-          "summary": "As nations globally move to ban forever chemicals, should renewable energy technologies be exempt for the sake of saving the climate?",
-          "published": "2026-08-13T07:13:00+00:00",
-          "regional": true
-        },
-        {
           "title": "Are gas turbines ready for the hydrogen economy?",
           "link": "https://www.mpg.de/26888011/hydrogen-embrittlement-in-gas-turbines-at-elevated-temperatures",
           "source": "Max Planck Society",
@@ -441,6 +449,62 @@
       "tagline": "New missions, spacecraft, and technologies — NASA, ESA, ISRO, JAXA, SpaceX, CNES, and more.",
       "accent": "#F0894E",
       "items": [
+        {
+          "title": "Rescued moon bears arrive at Suffolk forever home",
+          "link": "https://www.bbc.co.uk/news/articles/cx3051l0r636o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "The bears, rescued from a bile farm, are beginning their new lives in a wildlife park",
+          "published": "2026-09-16T07:07:40+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Ames Stars of the Month: September 2026",
+          "link": "https://www.nasa.gov/general/nasa-ames-stars-of-the-month-september-2026/",
+          "source": "NASA",
+          "summary": "The NASA Ames Science Directorate recognizes the outstanding contributions of (pictured left to right) Steve Ormsby, Aphrodite Kostakis, Alejando Borlaff, Sarah Nickerson, Martina Caussi, Keiko Nomura, and Stephen…",
+          "published": "2026-09-15T23:46:11+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Invites Media to International Observe the Moon Night",
+          "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-international-observe-the-moon-night/",
+          "source": "NASA",
+          "summary": "NASA will host an International Observe the Moon Night celebration from 5:30 to 8 p.m. CST on Saturday, Sept. 19, at the U.S.",
+          "published": "2026-09-15T18:55:33+00:00",
+          "regional": false
+        },
+        {
+          "title": "Warning of space arms race as US confirms weapons in Earth's orbit",
+          "link": "https://www.bbc.co.uk/news/videos/cmn07yjqg5rwo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "The BBC's defence correspondent Jonathan Beale explains what an arms race in space might look like - and what it could mean for us on the ground.",
+          "published": "2026-09-15T17:35:02+00:00",
+          "regional": false
+        },
+        {
+          "title": "Celebrate International Observe the Moon Night with NASA",
+          "link": "https://www.nasa.gov/centers-and-facilities/goddard/celebrate-international-observe-the-moon-night-with-nasa/",
+          "source": "NASA",
+          "summary": "In April, the world watched as four humans circled the Moon for the first time in over 50 years with NASA’s Artemis II mission. On Saturday, Sept.",
+          "published": "2026-09-15T16:15:12+00:00",
+          "regional": false
+        },
+        {
+          "title": "Artemis III Crew Visits NASA Kennedy’s Vehicle Assembly Building",
+          "link": "https://www.nasa.gov/image-article/artemis-iii-crew-visits-nasa-kennedys-vehicle-assembly-building/",
+          "source": "NASA",
+          "summary": "NASA astronaut Randy Bresnik (left) and ESA (European Space Agency) astronaut Luca Parmitano view progress on the solid rocket booster integration in High Bay 3 inside the Vehicle Assembly Building at NASA’s Kennedy…",
+          "published": "2026-09-15T16:14:24+00:00",
+          "regional": false
+        },
+        {
+          "title": "Webb reveals stunning panorama of star formation",
+          "link": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_reveals_stunning_panorama_of_star_formation",
+          "source": "ESA",
+          "summary": "This starry view of the nearby star-forming region IC 348 is one of the largest images from the NASA/ESA/CSA James Webb Space Telescope released to the public so far.",
+          "published": "2026-09-15T14:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "FLEX and Sentinel-3C launch highlights",
           "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/09/FLEX_and_Sentinel-3C_launch_highlights",
@@ -490,30 +554,6 @@
           "regional": false
         },
         {
-          "title": "NASA Kicks Off Inspiration Tour with Steelers vs. Falcons Game",
-          "link": "https://www.nasa.gov/image-article/nasa-kicks-off-inspiration-tour-with-steelers-vs-falcons-game/",
-          "source": "NASA",
-          "summary": "Fans pose for a photo with an astronaut in the NASA Experience Zone at an NFL game between the Pittsburgh Steelers and the Atlanta Falcons at Acrisure Stadium, Sunday, Sept. 13, 2026, in Pittsburgh, Pennsylvania.",
-          "published": "2026-09-14T16:00:11+00:00",
-          "regional": false
-        },
-        {
-          "title": "Summer Training: Catching Up With NASA’s Astronaut Candidates",
-          "link": "https://www.nasa.gov/centers-and-facilities/johnson/summer-training-catching-up-with-nasas-astronaut-candidates/",
-          "source": "NASA",
-          "summary": "Did you spend part of your summer camping, hiking, at the pool, or in an aircraft? So did NASA’s 2025 Astronaut Candidate Class.",
-          "published": "2026-09-14T15:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "ESA Space Environment Report 2026",
-          "link": "https://www.esa.int/Space_Safety/Space_Debris/ESA_Space_Environment_Report_2026",
-          "source": "ESA",
-          "summary": "",
-          "published": "2026-09-14T08:52:00+00:00",
-          "regional": false
-        },
-        {
           "title": "ESA’s FLEX mission reveals the secret glow of plants",
           "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/09/ESA_s_FLEX_mission_reveals_the_secret_glow_of_plants",
           "source": "ESA",
@@ -522,27 +562,11 @@
           "regional": false
         },
         {
-          "title": "FLEX and Sentinel-3C ready for liftoff on Vega-C",
-          "link": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_ready_for_liftoff_on_Vega-C",
-          "source": "ESA",
-          "summary": "Two Earth observation satellites – ESA’s Fluorescence Explorer (FLEX) satellite, and the third satellite for the Copernicus Sentinel-3 mission – are encapsulated inside the nose cone of a Vega-C launcher and are…",
-          "published": "2026-09-14T07:20:00+00:00",
-          "regional": false
-        },
-        {
           "title": "The Moon may have formed intact just hours after a giant collision",
           "link": "https://www.sciencedaily.com/releases/2026/09/260909231729.htm",
           "source": "ScienceDaily",
           "summary": "Scientists have discovered that the Moon-forming collision may have depended heavily on how hot and physically strong early Earth and Theia were.",
           "published": "2026-09-10T03:17:29+00:00",
-          "regional": false
-        },
-        {
-          "title": "Shetland spaceport project secures £30m of UK government investment",
-          "link": "https://www.bbc.co.uk/news/articles/cwyze8ed774o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "The funding will be used to build two more launchpads.",
-          "published": "2026-09-08T08:48:33+00:00",
           "regional": false
         },
         {
@@ -602,14 +626,6 @@
           "regional": false
         },
         {
-          "title": "EVA-98: suiting up!",
-          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/09/EVA-98_suiting_up",
-          "source": "ESA",
-          "summary": "Video: 00:01:50 This timelapse was published by ESA astronaut Sophie Adenot on social media with the following caption: Day 198 orbit 3070 — Let’s make it three!",
-          "published": "2026-08-30T12:05:00+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA’s Roman telescope will see 100 times more sky than Hubble",
           "link": "https://www.sciencedaily.com/releases/2026/08/260828082333.htm",
           "source": "ScienceDaily",
@@ -626,12 +642,28 @@
           "regional": false
         },
         {
-          "title": "NASA’s Roman Space Telescope is ready to hunt thousands of alien worlds",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260826055448.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA’s Roman Space Telescope is now enclosed inside its Falcon Heavy fairing and nearly ready for launch. Its mission could uncover thousands of exoplanets while helping scientists investigate dark matter, dark energy,…",
-          "published": "2026-08-26T10:29:17+00:00",
-          "regional": false
+          "title": "Reusable rocket takeoff and landing test conducted: Re-test of Epsilon S second-stage combustion also completed",
+          "link": "https://sj.jst.go.jp/stories/2026/s0916-01p.html",
+          "source": "Science Japan",
+          "summary": "The Japan Aerospace Exploration Agency (JAXA) conducted a takeoff and landing test of the reusable rocket experimental vehicle \"RV-X\" in Noshiro City, Akita Prefecture.",
+          "published": "2026-09-16T05:44:33+00:00",
+          "regional": true
+        },
+        {
+          "title": "U.S. ‘weapons in orbit’: what we should expect modern space war to look like",
+          "link": "https://www.thehindu.com/sci-tech/science/how-dual-use-satellites-are-blurring-the-lines-of-modern-space-war/article70934695.ece",
+          "source": "The Hindu",
+          "summary": "When the digital backbones of developing economies are hosted on third-party commercial constellations, a silent strike can blind a military and paralyse a state’s ability to govern",
+          "published": "2026-09-15T16:53:14+00:00",
+          "regional": true
+        },
+        {
+          "title": "Nuri gears up for Korea’s first constellation launch",
+          "link": "https://www.koreaherald.com/article/10874212",
+          "source": "The Korea Herald",
+          "summary": "South Korea’s space rocket is set to carry five primary satellites in October, marking the country’s first major step toward deploying an operational satellite constellation in a single launch.",
+          "published": "2026-09-15T06:00:00+00:00",
+          "regional": true
         },
         {
           "title": "Gaganyaan Episode 6: Life support: Living in space | The Scope",
@@ -647,30 +679,6 @@
           "source": "The Hindu",
           "summary": "ISRO and ESA have already signed a Technical Implementing Plan (TIP) document for Ground Tracking Support for Gaganyaan missions",
           "published": "2026-09-09T06:57:25+00:00",
-          "regional": true
-        },
-        {
-          "title": "Ground control: On ISRO, policy and and its focus",
-          "link": "https://www.thehindu.com/opinion/editorial/ground-control-on-isro-policy-and-and-its-focus/article71439288.ece",
-          "source": "The Hindu",
-          "summary": "ISRO must focus on space technology as a tool for development",
-          "published": "2026-09-08T08:59:58+00:00",
-          "regional": true
-        },
-        {
-          "title": "From moon’s far side, a satellite to look for the first radio signal",
-          "link": "https://www.thehindu.com/sci-tech/science/cosmocube-from-moon-far-side-satellite-search-universe-first-radio-signal/article71441824.ece",
-          "source": "The Hindu",
-          "summary": "The 21-cm radio signal emitted by neutral hydrogen is like the proverbial needle in a haystack as it is buried beneath foreground radio emissions thousands of times stronger.",
-          "published": "2026-09-08T08:32:44+00:00",
-          "regional": true
-        },
-        {
-          "title": "ISRO won’t be ‘diminished’, says IN-SPACe chairman",
-          "link": "https://www.thehindu.com/sci-tech/science/isro-staff-bodies-seek-clarification-on-the-trajectory-of-privatisation/article71434745.ece",
-          "source": "The Hindu",
-          "summary": "The clarification follows concerns raised by nine ISRO employee associations over privatisation",
-          "published": "2026-09-08T01:48:23+00:00",
           "regional": true
         },
         {
@@ -826,14 +834,6 @@
           "regional": false
         },
         {
-          "title": "This cosmic particle was never meant to reach Earth. Now scientists think they finally know why it did",
-          "link": "https://www.scientificamerican.com/article/this-cosmic-particle-was-never-meant-to-reach-earth-now-scientists-think-they-finally-know-why-it-did/",
-          "source": "Scientific American",
-          "summary": "In 2022 researchers detected a very odd photon from an enormous gamma-ray burst that should have been destroyed on its way to Earth",
-          "published": "2026-09-08T18:30:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Dying radio galaxies fade faster than scientists expected",
           "link": "https://www.sciencedaily.com/releases/2026/09/260901010656.htm",
           "source": "ScienceDaily",
@@ -882,6 +882,14 @@
           "regional": false
         },
         {
+          "title": "This strange “spacetime crystal” can suddenly become a black hole",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260829035225.htm",
+          "source": "ScienceDaily",
+          "summary": "Physicists have mathematically captured a bizarre “spacetime crystal” that can either dissolve or collapse into a microscopic black hole after only a tiny change in energy.",
+          "published": "2026-08-30T15:05:09+00:00",
+          "regional": false
+        },
+        {
           "title": "The universe is still speeding up, but nobody knows why",
           "link": "https://www.sciencedaily.com/releases/2026/08/260828082325.htm",
           "source": "ScienceDaily",
@@ -898,19 +906,19 @@
           "regional": false
         },
         {
+          "title": "“I jumped from my chair” – Astronomers spot Betelgeuse’s hidden companion",
+          "link": "https://www.sciencedaily.com/releases/2026/08/260827010514.htm",
+          "source": "ScienceDaily",
+          "summary": "Astronomers have captured their clearest image yet of Betelgeuse’s long-suspected companion, potentially ending a search that lasted about 100 years.",
+          "published": "2026-08-27T12:43:27+00:00",
+          "regional": false
+        },
+        {
           "title": "A mysterious cosmic hum may come from 13-billion-year-old dark stars",
           "link": "https://www.sciencedaily.com/releases/2026/08/260827010457.htm",
           "source": "ScienceDaily",
           "summary": "Today’s mysterious gravitational-wave background may preserve clues about how the Universe’s first supermassive black holes formed.",
           "published": "2026-08-27T10:26:04+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Roman Space Telescope is ready to hunt thousands of alien worlds",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260826055448.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA’s Roman Space Telescope is now enclosed inside its Falcon Heavy fairing and nearly ready for launch. Its mission could uncover thousands of exoplanets while helping scientists investigate dark matter, dark energy,…",
-          "published": "2026-08-26T10:29:17+00:00",
           "regional": false
         },
         {
@@ -951,22 +959,6 @@
           "source": "The Hindu",
           "summary": "On September 14, 1959, an object touched by humans struck the surface of the moon. That object, retroactively renamed Luna 2, was the first-ever human-made object from Earth that had reached another cosmic body.",
           "published": "2026-09-03T09:04:04+00:00",
-          "regional": true
-        },
-        {
-          "title": "Enabling images of distant worlds",
-          "link": "https://www.mpg.de/26940719/photos-of-distant-exoplanets-taken-with-the-roman-space-telescope-and-max-planck-technology",
-          "source": "Max Planck Society",
-          "summary": "The Roman Space Telescope is designed to directly image exoplanets using complex opto-mechanical systems developed by the Max Planck Institute for Astronomy",
-          "published": "2026-08-26T12:00:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "Focus on the universe",
-          "link": "https://www.mpg.de/24878805/telescopes-in-comparison",
-          "source": "Max Planck Society",
-          "summary": "Astronomical images not only look beautiful, they also provide a wealth of information. What's behind it and what distinguishes four prominent telescopes? An overview.",
-          "published": "2026-08-26T11:00:00+00:00",
           "regional": true
         }
       ]
