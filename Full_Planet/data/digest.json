@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-16T13:51:14.842077+00:00",
-  "generated_human": "16 September 2026, 13:51 UTC",
-  "total_items": 114,
+  "generated": "2026-09-17T13:55:05.529118+00:00",
+  "generated_human": "17 September 2026, 13:55 UTC",
+  "total_items": 112,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "AI labs are claiming “AGI” is imminent—but does that mean what we think it means?",
+          "link": "https://www.scientificamerican.com/article/ai-labs-are-claiming-agi-is-imminent-but-does-that-mean-what-we-think-it-means/",
+          "source": "Scientific American",
+          "summary": "Artificial general intelligence was once a term confined to technical science papers, but its meaning has slipped",
+          "published": "2026-09-17T10:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "Building the materials foundation for AI",
           "link": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/",
@@ -40,6 +48,22 @@
           "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of…",
           "published": "2026-09-04T18:39:19+00:00",
           "regional": false
+        },
+        {
+          "title": "LG chief urges speed, relentless execution in AI race",
+          "link": "https://www.koreaherald.com/article/10877511",
+          "source": "The Korea Herald",
+          "summary": "LG Group Chair Koo Kwang-mo has urged the conglomerate’s top executives to move faster and execute investment plans with greater persistence as artificial intelligence emerges as the defining battleground for future…",
+          "published": "2026-09-17T08:23:08+00:00",
+          "regional": true
+        },
+        {
+          "title": "Huawei quickens AI chip pace, promises next entrant 3 quarters early",
+          "link": "https://www.scmp.com/tech/big-tech/article/3367832/huawei-quickens-ai-chip-pace-promises-next-entrant-3-quarters-early?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Huawei Technologies said on Thursday that it would launch its next-generation artificial intelligence chip in the first quarter of 2027, moving the target launch forward by nine months as the firm aggressively expands…",
+          "published": "2026-09-17T06:36:28+00:00",
+          "regional": true
         },
         {
           "title": "The AI Boom Has a Bandwidth Problem",
@@ -74,14 +98,6 @@
           "regional": true
         },
         {
-          "title": "[ANALYSIS] Why are AI agents lying, cheating and coordinating?",
-          "link": "https://www.rappler.com/voices/thought-leaders/ai-safety-agents-lying-cheating-coordinating/",
-          "source": "Rappler",
-          "summary": "I believe we should revisit the foundations of how we train AIs, namely the human imitation and the reinforcement learning on which today's most advanced models are built",
-          "published": "2026-09-14T23:30:00+00:00",
-          "regional": true
-        },
-        {
           "title": "Trump downplays need to check AI development, says he is unwilling to cede edge to China",
           "link": "https://www.scmp.com/news/world/united-states-canada/article/3367374/trump-downplays-need-check-ai-development-says-he-unwilling-cede-edge-china?utm_source=rss_feed",
           "source": "South China Morning Post",
@@ -111,14 +127,6 @@
           "source": "South China Morning Post",
           "summary": "Alibaba Group Holding is giving users the ability to put artificial intelligence-powered “digital employees” to work within rival office platforms, opening a new competitive front against ByteDance and Tencent Holdings…",
           "published": "2026-09-09T10:30:06+00:00",
-          "regional": true
-        },
-        {
-          "title": "Chinese AI firms Z.ai and MiniMax could remain loss-making until 2030, Macquarie says",
-          "link": "https://www.scmp.com/tech/tech-trends/article/3366784/chinese-ai-firms-zai-and-minimax-could-remain-loss-making-until-2030-macquarie-says?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Chinese artificial intelligence companies Z.ai and MiniMax could remain loss-making through 2030 even as their revenues surge, underscoring the enormous cost of competing at the technological frontier, according to…",
-          "published": "2026-09-08T09:33:07+00:00",
           "regional": true
         }
       ]
@@ -194,20 +202,12 @@
           "regional": false
         },
         {
-          "title": "AI searched 100 million possibilities and found a cheaper way to 3D-print a NASA rocket alloy",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260827010504.htm",
-          "source": "ScienceDaily",
-          "summary": "Researchers used AI to search through more than 100 million possible settings for 3D-printing a high-performance NASA alloy.",
-          "published": "2026-08-27T13:08:01+00:00",
-          "regional": false
-        },
-        {
-          "title": "Scientists switch on a strange new form of magnetism in an ultrathin material",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260826055454.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have found a surprising way to potentially switch on an unusual form of magnetism in ruthenium dioxide, a material that normally appears nonmagnetic.",
-          "published": "2026-08-27T09:23:20+00:00",
-          "regional": false
+          "title": "Korean battery firms race to secure non-Chinese suppliers",
+          "link": "https://www.koreaherald.com/article/10877234",
+          "source": "The Korea Herald",
+          "summary": "South Korean battery material makers are accelerating efforts to build traceable, non-Chinese supply chains as tighter US rules threaten federal clean energy incentives for products linked to China.",
+          "published": "2026-09-17T05:57:05+00:00",
+          "regional": true
         },
         {
           "title": "Seoul stocks snap 4-day losing streak on chip bargain hunting",
@@ -215,22 +215,6 @@
           "source": "The Korea Herald",
           "summary": "Seoul stocks snapped their four-day losing streak to close sharply higher as investors went bargain hunting for major tech shares and semiconductors. The Korean won fell against the US dollar.",
           "published": "2026-09-16T07:59:39+00:00",
-          "regional": true
-        },
-        {
-          "title": "How Ford could keep CATL in the US battery game",
-          "link": "https://www.koreaherald.com/article/10874025",
-          "source": "The Korea Herald",
-          "summary": "A new US order targeting foreign-linked power-grid equipment appears, at first glance, to give South Korean battery makers an opening against their dominant Chinese rivals.",
-          "published": "2026-09-15T03:44:16+00:00",
-          "regional": true
-        },
-        {
-          "title": "Beyond North Korea, Seoul’s spy law targets tech theft",
-          "link": "https://www.koreaherald.com/article/10872887",
-          "source": "The Korea Herald",
-          "summary": "South Korea’s expanded espionage law took effect Sunday, giving prosecutors a new route to pursue serious foreign-linked theft of state secrets, including potentially sensitive semiconductor and artificial intelligence…",
-          "published": "2026-09-14T06:07:31+00:00",
           "regional": true
         },
         {
@@ -306,6 +290,14 @@
       "accent": "#33C6D6",
       "items": [
         {
+          "title": "Scientists turn seawater into fresh water without harmful brine",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260915100137.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have developed a solar-powered desalination system that turns seawater into fresh water while removing nearly all of the leftover salt as a solid instead of producing harmful brine.",
+          "published": "2026-09-16T14:44:50+00:00",
+          "regional": false
+        },
+        {
           "title": "Australia’s red soil may be hiding a massive clean energy source",
           "link": "https://www.sciencedaily.com/releases/2026/08/260829035214.htm",
           "source": "ScienceDaily",
@@ -362,6 +354,14 @@
           "regional": false
         },
         {
+          "title": "Korean battery firms race to secure non-Chinese suppliers",
+          "link": "https://www.koreaherald.com/article/10877234",
+          "source": "The Korea Herald",
+          "summary": "South Korean battery material makers are accelerating efforts to build traceable, non-Chinese supply chains as tighter US rules threaten federal clean energy incentives for products linked to China.",
+          "published": "2026-09-17T05:57:05+00:00",
+          "regional": true
+        },
+        {
           "title": "Seeking energy supply and decarbonization via geothermal heat: Akita University takes on challenge in Tajikistan",
           "link": "https://sj.jst.go.jp/stories/2026/s0916-02p.html",
           "source": "Science Japan",
@@ -383,14 +383,6 @@
           "source": "Deutsche Welle",
           "summary": "The pistachios sold across the United States have a surprising history: California's trees trace their roots to Iran. Now, both regions face the same threat — their farmland is sinking as groundwater disappears.",
           "published": "2026-09-15T07:48:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "How Ford could keep CATL in the US battery game",
-          "link": "https://www.koreaherald.com/article/10874025",
-          "source": "The Korea Herald",
-          "summary": "A new US order targeting foreign-linked power-grid equipment appears, at first glance, to give South Korean battery makers an opening against their dominant Chinese rivals.",
-          "published": "2026-09-15T03:44:16+00:00",
           "regional": true
         },
         {
@@ -418,19 +410,19 @@
           "regional": true
         },
         {
-          "title": "If solar irrigation is over-drawing groundwater, you’re doing it wrong",
-          "link": "https://www.thehindu.com/sci-tech/energy-and-environment/if-solar-irrigation-is-over-drawing-groundwater-youre-doing-it-wrong/article71364311.ece",
-          "source": "The Hindu",
-          "summary": "Over the past five years, India’s agricultural solar program, PM-KUSUM, has installed over 2.5 million solar pumps, making them affordable for smallholder farmers through subsidies.",
-          "published": "2026-09-02T11:08:34+00:00",
-          "regional": true
-        },
-        {
           "title": "In drought-stricken France, tankers supply drinking water",
           "link": "https://www.dw.com/en/in-drought-stricken-france-tankers-supply-drinking-water/a-78420016?maca=en-rss_en_environment-22607-xml-mrss",
           "source": "Deutsche Welle",
           "summary": "France is seeing water shortages in regions that usually have plenty of supply. This summer's extreme heat is exposing how unprepared much of the country, and Europe, is for increasing water scarcity.",
           "published": "2026-08-19T04:33:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "Can we go green without forever chemicals?",
+          "link": "https://www.dw.com/en/can-we-go-green-without-forever-chemicals/a-77888704?maca=en-rss_en_environment-22607-xml-mrss",
+          "source": "Deutsche Welle",
+          "summary": "As nations globally move to ban forever chemicals, should renewable energy technologies be exempt for the sake of saving the climate?",
+          "published": "2026-08-13T07:13:00+00:00",
           "regional": true
         },
         {
@@ -450,27 +442,83 @@
       "accent": "#F0894E",
       "items": [
         {
-          "title": "Rescued moon bears arrive at Suffolk forever home",
-          "link": "https://www.bbc.co.uk/news/articles/cx3051l0r636o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "The bears, rescued from a bile farm, are beginning their new lives in a wildlife park",
-          "published": "2026-09-16T07:07:40+00:00",
+          "title": "Three space companies win ESA awards for excellence and innovation",
+          "link": "https://www.esa.int/About_Us/Business_with_ESA/Three_space_companies_win_ESA_awards_for_excellence_and_innovation",
+          "source": "ESA",
+          "summary": "On 16 September at its Industry Space Days 2026 event at ESA–ESTEC in the Netherlands, the European Space Agency (ESA) honoured three space companies with this year’s prestigious awards for excellence and innovation.",
+          "published": "2026-09-17T07:10:00+00:00",
           "regional": false
         },
         {
-          "title": "NASA Ames Stars of the Month: September 2026",
-          "link": "https://www.nasa.gov/general/nasa-ames-stars-of-the-month-september-2026/",
-          "source": "NASA",
-          "summary": "The NASA Ames Science Directorate recognizes the outstanding contributions of (pictured left to right) Steve Ormsby, Aphrodite Kostakis, Alejando Borlaff, Sarah Nickerson, Martina Caussi, Keiko Nomura, and Stephen…",
-          "published": "2026-09-15T23:46:11+00:00",
+          "title": "Galileo's first civil authenticated position fix under spoofing conditions",
+          "link": "https://www.esa.int/Applications/Satellite_navigation/Galileo/Galileo_s_first_civil_authenticated_position_fix_under_spoofing_conditions",
+          "source": "ESA",
+          "summary": "For two hours on the afternoon of Wednesday 16 September, five operational Galileo satellites broadcasting over Europe transmitted a new encrypted signal for testing.",
+          "published": "2026-09-17T06:20:00+00:00",
           "regional": false
         },
         {
-          "title": "NASA Invites Media to International Observe the Moon Night",
-          "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-international-observe-the-moon-night/",
+          "title": "NASA’s New Horizons spots signs of liquid nitrogen flowing on Pluto",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260916232525.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have found the first evidence that liquid may have flowed across Pluto’s surface in the recent past. Dark features on the enormous Sputnik Planitia glacier appear consistent with liquid nitrogen rising…",
+          "published": "2026-09-17T04:02:29+00:00",
+          "regional": false
+        },
+        {
+          "title": "Passion Meets Precision at NASA’s Flight Research Lab",
+          "link": "https://www.nasa.gov/people-of-nasa/armstrong-people/passion-meets-precision-at-nasas-flight-research-lab/",
           "source": "NASA",
-          "summary": "NASA will host an International Observe the Moon Night celebration from 5:30 to 8 p.m. CST on Saturday, Sept. 19, at the U.S.",
-          "published": "2026-09-15T18:55:33+00:00",
+          "summary": "Long before they helped shape NASA’s future aerospace breakthroughs, Derek Abramson, Justin Hall, and Justin Link were in their garages and homes building radio‑controlled aircraft, testing new ideas, and flying their…",
+          "published": "2026-09-16T21:06:08+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Moon Orbiter Spots New, ‘Once-in-Century’ Moon Crater",
+          "link": "https://science.nasa.gov/solar-system/moon/nasas-moon-orbiter-spots-new-once-in-century-moon-crater/",
+          "source": "NASA",
+          "summary": "It started as a routine data-quality check. But as Robert Wagner, a scientist with NASA’s Lunar Reconnaissance Orbiter (LRO), scanned a giant Moon map on his computer screen, an unusually large bright spot circled by a…",
+          "published": "2026-09-16T18:06:35+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Watches Earth’s Weight, Finds Center of Mass",
+          "link": "https://www.nasa.gov/science-research/earth-science/nasa-watches-earths-weight-finds-center-of-mass/",
+          "source": "NASA",
+          "summary": "Seasonal changes redistribute enough water around Earth to shift the planet’s center of mass back and forth by fractions of an inch relative to its geometric center.",
+          "published": "2026-09-16T16:08:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Curiosity Postcard Celebrates Rover’s 5,000th Day on Mars",
+          "link": "https://science.nasa.gov/photojournal/curiosity-postcard-celebrates-rovers-5000th-day-on-mars/",
+          "source": "NASA",
+          "summary": "Description While parked at a sand ridge nicknamed “Chocolatal,” NASA’s Curiosity Mars rover used its black-and-white navigation cameras to capture panoramas at two times of day. The first was taken on Aug.",
+          "published": "2026-09-16T15:21:27+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Visits Schools Strengthening Florida’s Skilled Workforce",
+          "link": "https://www.nasa.gov/image-article/nasa-visits-schools-strengthening-floridas-skilled-workforce/",
+          "source": "NASA",
+          "summary": "NASA recently awarded $10.5 million to seven organizations nationwide through its new State Hubs initiative. Space Florida was selected for Project ORBIT, which aims to expand opportunities for middle and high school…",
+          "published": "2026-09-16T15:14:57+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Astronaut Reid Wiseman to Join NFL Fans in Baltimore",
+          "link": "https://www.nasa.gov/news-release/nasa-astronaut-reid-wiseman-to-join-nfl-fans-in-baltimore/",
+          "source": "NASA",
+          "summary": "As part of NASA’s new Inspiration Tour, Reid Wiseman, NASA astronaut and commander of the agency’s Artemis II mission, will highlight America’s strengths in space exploration and aeronautics innovation at the Baltimore…",
+          "published": "2026-09-16T15:00:18+00:00",
+          "regional": false
+        },
+        {
+          "title": "Venus may have swallowed its own moon",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260915232122.htm",
+          "source": "ScienceDaily",
+          "summary": "Venus may have once had a moon, but new research suggests the planet’s incredibly slow rotation could have doomed it.",
+          "published": "2026-09-16T11:49:57+00:00",
           "regional": false
         },
         {
@@ -482,75 +530,11 @@
           "regional": false
         },
         {
-          "title": "Celebrate International Observe the Moon Night with NASA",
-          "link": "https://www.nasa.gov/centers-and-facilities/goddard/celebrate-international-observe-the-moon-night-with-nasa/",
-          "source": "NASA",
-          "summary": "In April, the world watched as four humans circled the Moon for the first time in over 50 years with NASA’s Artemis II mission. On Saturday, Sept.",
-          "published": "2026-09-15T16:15:12+00:00",
-          "regional": false
-        },
-        {
-          "title": "Artemis III Crew Visits NASA Kennedy’s Vehicle Assembly Building",
-          "link": "https://www.nasa.gov/image-article/artemis-iii-crew-visits-nasa-kennedys-vehicle-assembly-building/",
-          "source": "NASA",
-          "summary": "NASA astronaut Randy Bresnik (left) and ESA (European Space Agency) astronaut Luca Parmitano view progress on the solid rocket booster integration in High Bay 3 inside the Vehicle Assembly Building at NASA’s Kennedy…",
-          "published": "2026-09-15T16:14:24+00:00",
-          "regional": false
-        },
-        {
-          "title": "Webb reveals stunning panorama of star formation",
-          "link": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_reveals_stunning_panorama_of_star_formation",
-          "source": "ESA",
-          "summary": "This starry view of the nearby star-forming region IC 348 is one of the largest images from the NASA/ESA/CSA James Webb Space Telescope released to the public so far.",
-          "published": "2026-09-15T14:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "FLEX and Sentinel-3C launch highlights",
           "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/09/FLEX_and_Sentinel-3C_launch_highlights",
           "source": "ESA",
           "summary": "Video: 00:03:22 ESA’s state-of-the-art FLEX Earth Explorer satellite and the Copernicus Sentinel-3C satellite have been launched together aboard a Vega-C rocket from Europe’s Spaceport in French Guiana, marking a new…",
           "published": "2026-09-15T07:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "APOD: 2026 September 15 – A Daytime Eclipse: Moon Occults Venus",
-          "link": "https://science.nasa.gov/image-article/apod-2026-september-15-a-daytime-eclipse-moon-occults-venus/",
-          "source": "NASA",
-          "summary": "APOD Science APOD APOD: 2026 September 15 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos!",
-          "published": "2026-09-15T04:05:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "FLEX and Sentinel-3C launched",
-          "link": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_launched",
-          "source": "ESA",
-          "summary": "The European Space Agency’s FLEX Earth Explorer satellite and the Copernicus Sentinel-3C satellite have been launched together aboard a Vega-C rocket from Europe’s Spaceport in French Guiana, marking a new milestone in…",
-          "published": "2026-09-15T03:25:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Webinar 9/23: NASA CSDA Program Update 2026",
-          "link": "https://science.nasa.gov/science-research/earth-science/webinar-9-23-nasa-csda-program-update-2026/",
-          "source": "NASA",
-          "summary": "This webinar will provide an overview of the CSDA program’s goals and activities, including the new Cal/Val initiative, and more.",
-          "published": "2026-09-14T21:04:04+00:00",
-          "regional": false
-        },
-        {
-          "title": "New Crops, Health Research Proposals to Help NASA Advance Exploration",
-          "link": "https://science.nasa.gov/science-research/biological-physical-sciences/new-crops-health-research-proposals-to-help-nasa-advance-exploration/",
-          "source": "NASA",
-          "summary": "NASA has selected 12 new investigations to help support human explorers in space. Six will help advance the ability to produce food off-planet, while another six advance the understanding of how unique conditions…",
-          "published": "2026-09-14T19:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Welcomes Djibouti as Newest Artemis Accords Signatory",
-          "link": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-djibouti-as-newest-artemis-accords-signatory/",
-          "source": "NASA",
-          "summary": "The Republic of Djibouti became the 72nd nation and eighth African country to sign the Artemis Accords during a ceremony Monday at NASA Headquarters in Washington.",
-          "published": "2026-09-14T16:46:07+00:00",
           "regional": false
         },
         {
@@ -626,6 +610,22 @@
           "regional": false
         },
         {
+          "title": "EVA-98: suiting up!",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/09/EVA-98_suiting_up",
+          "source": "ESA",
+          "summary": "Video: 00:01:50 This timelapse was published by ESA astronaut Sophie Adenot on social media with the following caption: Day 198 orbit 3070 — Let’s make it three!",
+          "published": "2026-08-30T12:05:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Sophie Adenot's third spacewalk (U.S. Spacewalk 99)",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Sophie_Adenot_s_third_spacewalk_U.S._Spacewalk_99",
+          "source": "ESA",
+          "summary": "Video: 00:00:50 ESA astronaut Sophie Adenot will take part in her third spacewalk during U.S. Spacewalk 99 on Tuesday 1 September.",
+          "published": "2026-08-28T14:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA’s Roman telescope will see 100 times more sky than Hubble",
           "link": "https://www.sciencedaily.com/releases/2026/08/260828082333.htm",
           "source": "ScienceDaily",
@@ -634,12 +634,20 @@
           "regional": false
         },
         {
-          "title": "NASA just used satellites and debris to navigate without GPS",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260826055450.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA has successfully tested a system that allows satellites to navigate without GPS by using other spacecraft and debris as landmarks in orbit.",
-          "published": "2026-08-26T23:27:35+00:00",
-          "regional": false
+          "title": "H3 Rocket No. 9 launch successful — Carries Quasi-Zenith Satellite Michibiki No. 7",
+          "link": "https://sj.jst.go.jp/news/202609/n0917-01p.html",
+          "source": "Science Japan",
+          "summary": "Large rocket \"H3\" No. 9 was launched from the Tanegashima Space Center in Kagoshima Prefecture at 4:23:31 a.m. on the 11th.",
+          "published": "2026-09-17T04:33:43+00:00",
+          "regional": true
+        },
+        {
+          "title": "Weapons in orbit are forcing old space laws into new struggles for power",
+          "link": "https://www.thehindu.com/sci-tech/technology/weapons-in-orbit-are-forcing-old-space-laws-into-new-struggles-for-power/article71475210.ece",
+          "source": "The Hindu",
+          "summary": "The U.S. and other major space powers have long developed counter-space capabilities; but why has this sparked a debate now?",
+          "published": "2026-09-17T03:06:28+00:00",
+          "regional": true
         },
         {
           "title": "Reusable rocket takeoff and landing test conducted: Re-test of Epsilon S second-stage combustion also completed",
@@ -647,22 +655,6 @@
           "source": "Science Japan",
           "summary": "The Japan Aerospace Exploration Agency (JAXA) conducted a takeoff and landing test of the reusable rocket experimental vehicle \"RV-X\" in Noshiro City, Akita Prefecture.",
           "published": "2026-09-16T05:44:33+00:00",
-          "regional": true
-        },
-        {
-          "title": "U.S. ‘weapons in orbit’: what we should expect modern space war to look like",
-          "link": "https://www.thehindu.com/sci-tech/science/how-dual-use-satellites-are-blurring-the-lines-of-modern-space-war/article70934695.ece",
-          "source": "The Hindu",
-          "summary": "When the digital backbones of developing economies are hosted on third-party commercial constellations, a silent strike can blind a military and paralyse a state’s ability to govern",
-          "published": "2026-09-15T16:53:14+00:00",
-          "regional": true
-        },
-        {
-          "title": "Nuri gears up for Korea’s first constellation launch",
-          "link": "https://www.koreaherald.com/article/10874212",
-          "source": "The Korea Herald",
-          "summary": "South Korea’s space rocket is set to carry five primary satellites in October, marking the country’s first major step toward deploying an operational satellite constellation in a single launch.",
-          "published": "2026-09-15T06:00:00+00:00",
           "regional": true
         },
         {
@@ -730,6 +722,38 @@
       "accent": "#B98CE0",
       "items": [
         {
+          "title": "Astronomers just found the youngest known planet ever",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260917003712.htm",
+          "source": "ScienceDaily",
+          "summary": "Astronomers have confirmed a Jupiter-size planet less than a million years old, making Elias 2-24 b the youngest known planet and giving scientists a rare look at a world still being born.",
+          "published": "2026-09-17T13:00:19+00:00",
+          "regional": false
+        },
+        {
+          "title": "JWST’s mysterious little red dots may be black holes growing at incredible speeds",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260917003703.htm",
+          "source": "ScienceDaily",
+          "summary": "New supercomputer simulations suggest JWST’s puzzling Little Red Dots are rapidly growing black holes from the early Universe.",
+          "published": "2026-09-17T12:45:48+00:00",
+          "regional": false
+        },
+        {
+          "title": "Venus may have swallowed its own moon",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260915232122.htm",
+          "source": "ScienceDaily",
+          "summary": "Venus may have once had a moon, but new research suggests the planet’s incredibly slow rotation could have doomed it.",
+          "published": "2026-09-16T11:49:57+00:00",
+          "regional": false
+        },
+        {
+          "title": "James Webb reveals Chariklo’s mysterious rings are changing faster than expected",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260915232124.htm",
+          "source": "ScienceDaily",
+          "summary": "The James Webb Space Telescope has revealed surprising changes in the rings around Chariklo, a small object orbiting between Saturn and Uranus.",
+          "published": "2026-09-16T03:51:58+00:00",
+          "regional": false
+        },
+        {
           "title": "Supermassive black hole winds are 100 times more powerful than scientists thought",
           "link": "https://www.sciencedaily.com/releases/2026/09/260914102429.htm",
           "source": "ScienceDaily",
@@ -791,22 +815,6 @@
           "source": "Scientific American",
           "summary": "NASA’s formidable gamma-ray burst hunter is doomed to soon reenter Earth’s atmosphere, leaving a glaring gap in our view of the high-energy sky",
           "published": "2026-09-11T10:45:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "The planet Mercury is shrinking far faster than we thought",
-          "link": "https://www.scientificamerican.com/article/the-planet-mercury-is-shrinking-far-faster-than-we-thought/",
-          "source": "Scientific American",
-          "summary": "The planet’s “wrinkles” give scientists a clue into how the world is contracting in size",
-          "published": "2026-09-10T13:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Astronomers reveal a new type of celestial object that has been hiding in plain sight for decades",
-          "link": "https://www.scientificamerican.com/article/astronomers-reveal-a-new-type-of-celestial-object-that-has-been-hiding-in-plain-sight-for-decades/",
-          "source": "Scientific American",
-          "summary": "It’s unclear what these objects actually are, but evidence for them has been detected by NASA’s Chandra space telescope for years",
-          "published": "2026-09-09T17:00:00+00:00",
           "regional": false
         },
         {
@@ -904,30 +912,6 @@
           "summary": "NASA’s Roman Space Telescope will combine Hubble-like detail with a field of view 100 times larger, giving astronomers a sweeping new way to explore the cosmos.",
           "published": "2026-08-28T13:54:53+00:00",
           "regional": false
-        },
-        {
-          "title": "“I jumped from my chair” – Astronomers spot Betelgeuse’s hidden companion",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260827010514.htm",
-          "source": "ScienceDaily",
-          "summary": "Astronomers have captured their clearest image yet of Betelgeuse’s long-suspected companion, potentially ending a search that lasted about 100 years.",
-          "published": "2026-08-27T12:43:27+00:00",
-          "regional": false
-        },
-        {
-          "title": "A mysterious cosmic hum may come from 13-billion-year-old dark stars",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260827010457.htm",
-          "source": "ScienceDaily",
-          "summary": "Today’s mysterious gravitational-wave background may preserve clues about how the Universe’s first supermassive black holes formed.",
-          "published": "2026-08-27T10:26:04+00:00",
-          "regional": false
-        },
-        {
-          "title": "Hayabusa2 achieves closest flyby in history — 400 meters from asteroid surface",
-          "link": "https://sj.jst.go.jp/stories/2026/s0911-01p.html",
-          "source": "Science Japan",
-          "summary": "It was revealed that when the spacecraft \"Hayabusa2\" explored the asteroid Torifune last month, it achieved the closest flyby crossing an asteroid in history.",
-          "published": "2026-09-11T05:30:30+00:00",
-          "regional": true
         },
         {
           "title": "Black holes outgrow their galaxies",
