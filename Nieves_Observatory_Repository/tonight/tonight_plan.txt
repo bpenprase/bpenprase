@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-09-16 14:58 PDT
-; Observing window starts 2026-09-16 20:20 PDT  (LST 19:13:23)
+; Generated 2026-09-18 14:31 PDT
+; Observing window starts 2026-09-18 20:18 PDT  (LST 19:19:16)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -13,23 +13,6 @@
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 13
-
-; Globular Cluster  mag 5.0  size 9.30'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 10
-
-; Comet C/2026 A2 (Bok)  mag 12.2
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT C/2026 A2
-#WAITINLIMITS 60
 
 ; Open Cluster  mag 4.2  size 24.60'
 #posang 0
@@ -71,7 +54,7 @@ M 17
 #filter r',g',i',z'
 NGC 6633
 
-; Comet C/2024 J3 (ATLAS)  mag 14.0
+; Comet C/2024 J3 (ATLAS)  mag 13.6
 #posang 0
 #count 3
 #interval 300
@@ -185,7 +168,7 @@ M 39
 #filter r',Ha,OIII,SII
 IC 5146
 
-; Asteroid 9 Metis  mag 9.6
+; Asteroid 9 Metis  mag 9.7
 #posang 0
 #count 3
 #interval 300
@@ -202,7 +185,7 @@ MP Metis
 #filter r',g',i',z'
 NGC 7331
 
-; Supernova 2026aaiv in NGC 7331  Type Ia  mag 12.2  z=0.003000
+; Supernova 2026aaiv in NGC 7331  Type Ia  mag 11.5  z=0.003000
 #posang 0
 #count 3,3
 #interval 300,300
@@ -309,6 +292,15 @@ IC 1613
 #filter r',g',i',z'
 NGC 0457
 
+; Comet 161P/Hartley-IRAS  mag 13.1
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 161P/Hartley-IRAS
+#WAITINLIMITS 60
+
 ; Galaxy  mag 9.2  size 1.69'
 #posang 0
 #count 1,1,1,1
@@ -316,14 +308,6 @@ NGC 0457
 #binning 1,1,1,1
 #filter r',g',i',z'
 IC 0127
-
-; Galaxy  mag 5.8  size 62.09'  Triangulum Galaxy,Triangulum Pinwheel
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 33
 
 ; Asteroid 2 Pallas  mag 8.5
 #posang 0
@@ -334,6 +318,14 @@ M 33
 MP Pallas
 #WAITINLIMITS 60
 
+; Galaxy  mag 5.8  size 62.09'  Triangulum Galaxy,Triangulum Pinwheel
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 33
+
 ; Galaxy  mag 9.3  size 9.89'
 #posang 0
 #count 1,1,1,1
@@ -341,15 +333,6 @@ MP Pallas
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 74
-
-; Comet 161P/Hartley-IRAS  mag 12.8
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 161P/Hartley-IRAS
-#WAITINLIMITS 60
 
 ; Asteroid 4 Vesta  mag 6.7
 #posang 0
@@ -400,7 +383,7 @@ M 77
 #filter r',g'
 AT2026rok	02:53:07.234	+16:51:11.98
 
-; Comet 220P/McNaught  mag 12.8
+; Comet 220P/McNaught  mag 12.3
 #posang 0
 #count 3
 #interval 300
@@ -466,6 +449,15 @@ M 42
 #filter r',Ha,OIII,SII
 NGC 1980
 
+; Comet C/2024 T5 (ATLAS)  mag 14.0
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT C/2024 T5
+#WAITINLIMITS 60
+
 ; Open Cluster  mag 3.9  size 9.90'
 #posang 0
 #count 1,1,1,1
@@ -498,6 +490,14 @@ NGC 2264
 #filter r',g'
 AT2026wyp	06:49:05.903	+37:06:08.52
 
+; Open Cluster  mag 6.0  size 10.20'  Great Bird Cluster
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 2301
+
 ; Asteroid 1 Ceres  mag 8.8
 #posang 0
 #count 3
@@ -506,14 +506,6 @@ AT2026wyp	06:49:05.903	+37:06:08.52
 #filter r'
 MP Ceres
 #WAITINLIMITS 60
-
-; Open Cluster  mag 6.0  size 10.20'  Great Bird Cluster
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 2301
 
 ; Galaxy  mag 8.4  size 19.95'
 #posang 0
@@ -539,6 +531,14 @@ Mars
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 2537
+
+; Open Cluster  mag 3.1  size 108.60'  Beehive,Praesepe Cluster
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 44
 
 ; Galaxy  mag 11.3  size 4.33'  Helix Galaxy
 #posang 0
