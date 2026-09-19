@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-09-18 14:31 PDT
-; Observing window starts 2026-09-18 20:18 PDT  (LST 19:19:16)
+; Generated 2026-09-19 14:21 PDT
+; Observing window starts 2026-09-19 20:16 PDT  (LST 19:21:12)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -53,15 +53,6 @@ M 17
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 6633
-
-; Comet C/2024 J3 (ATLAS)  mag 13.6
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT C/2024 J3
-#WAITINLIMITS 60
 
 ; Open Cluster  mag 4.6  size 14.10'
 #posang 0
@@ -202,7 +193,7 @@ NGC 7331
 Neptune
 #WAITINLIMITS 60
 
-; Asteroid 192 Nausikaa  mag 9.0
+; Asteroid 192 Nausikaa  mag 8.9
 #posang 0
 #count 3
 #interval 300
@@ -284,14 +275,6 @@ Saturn
 #filter r',g',i',z'
 IC 1613
 
-; Open Cluster  mag 6.4  size 7.80'  Owl Cluster
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 0457
-
 ; Comet 161P/Hartley-IRAS  mag 13.1
 #posang 0
 #count 3
@@ -300,6 +283,14 @@ NGC 0457
 #filter r'
 CT 161P/Hartley-IRAS
 #WAITINLIMITS 60
+
+; Open Cluster  mag 6.4  size 7.80'  Owl Cluster
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 0457
 
 ; Galaxy  mag 9.2  size 1.69'
 #posang 0
@@ -399,14 +390,6 @@ CT 220P/McNaught
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 1398
-
-; Galaxy  mag 9.7  size 19.77'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-IC 0342
 
 ; Nebula  mag 5.0  size 160.00'  California Nebula
 #posang 0
@@ -563,6 +546,14 @@ M 81
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 82
+
+; Galaxy  mag 10.5  size 12.91'  Coddington's Nebula
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+IC 2574
 
 ; Galaxy  mag 7.9  size 23.99'
 #posang 0
