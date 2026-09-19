@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-18T13:15:47.376946+00:00",
-  "generated_human": "18 September 2026, 13:15 UTC",
-  "total_items": 112,
+  "generated": "2026-09-19T12:46:48.325009+00:00",
+  "generated_human": "19 September 2026, 12:46 UTC",
+  "total_items": 111,
   "channels": [
     {
       "key": "ai",
@@ -42,20 +42,20 @@
           "regional": false
         },
         {
-          "title": "How AI can help with early schizophrenia diagnosis",
-          "link": "https://www.scientificamerican.com/article/how-ai-can-help-with-early-schizophrenia-diagnosis/",
-          "source": "Scientific American",
-          "summary": "The speech of people with schizophrenia sounds subtly different from their healthy counterparts. Can AI hear those differences better than human psychiatrists?",
-          "published": "2026-09-12T11:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Architecting memory and storage in the AI era",
           "link": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
           "source": "MIT Technology Review",
           "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of…",
           "published": "2026-09-04T18:39:19+00:00",
           "regional": false
+        },
+        {
+          "title": "Alibaba open-sources medical AI model that can detect cancer and nearly 150 conditions",
+          "link": "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Alibaba Group Holding’s research arm, Damo Academy, has open-sourced an artificial intelligence model capable of identifying nearly 150 abdominal conditions – including cancers – by reading computed tomography (CT)…",
+          "published": "2026-09-18T14:30:05+00:00",
+          "regional": true
         },
         {
           "title": "Chip foundries better insulated in an AI slowdown than Asia-Pacific tech peers, S&P says",
@@ -127,14 +127,6 @@
           "source": "South China Morning Post",
           "summary": "When generative artificial intelligence first swept through China’s technology sector, workers faced a clear directive from management: use AI and use it often.",
           "published": "2026-09-15T09:30:05+00:00",
-          "regional": true
-        },
-        {
-          "title": "China issues first AI-plus-brain-computer interface medical-device standard",
-          "link": "https://technode.com/2026/09/15/china-ai-brain-computer-interface-standard/",
-          "source": "TechNode",
-          "summary": "China’s National Medical Products Administration has approved YY/T 2029–2026, a medical-device industry standard covering EEG dataset quality requirements and evaluation methods for artificial-intelligence algorithms…",
-          "published": "2026-09-15T07:29:19+00:00",
           "regional": true
         }
       ]
@@ -255,14 +247,6 @@
           "source": "South China Morning Post",
           "summary": "Huawei Technologies has released a new research paper showing its Tau Scaling Law-based semiconductor architecture can avoid overheating, which analysts view as a key technical hurdle for its anticipated Kirin 2026…",
           "published": "2026-09-06T12:06:42+00:00",
-          "regional": true
-        },
-        {
-          "title": "Indian researchers map colonial spider’s venom gland, uncover molecules with potential for future cancer and antimicrobial drug research",
-          "link": "https://www.thehindu.com/sci-tech/science/indian-researchers-map-colonial-spiders-venom-gland-uncover-molecules-with-potential-for-future-cancer-and-antimicrobial-drug-research/article71427539.ece",
-          "source": "The Hindu",
-          "summary": "The researchers cautioned that the findings represent an early stage of biomedical research and require extensive validation before any clinical application becomes possible",
-          "published": "2026-09-05T05:02:28+00:00",
           "regional": true
         },
         {
@@ -466,6 +450,62 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "ESA and The Pokémon Company International reveal Europe-wide exhibition and astronaut Pikachu experience",
+          "link": "https://www.esa.int/About_Us/Branding_and_Partnerships/ESA_and_The_Pokemon_Company_International_reveal_Europe-wide_exhibition_and_astronaut_Pikachu_experience",
+          "source": "ESA",
+          "summary": "The European Space Agency (ESA) and The Pokémon Company International (TPCI) have launched an official collaboration to celebrate World Space Week 2026 from 4–10 October 2026.",
+          "published": "2026-09-18T22:01:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Invites Media to Albania Artemis Accords Signing Ceremony",
+          "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-albania-artemis-accords-signing-ceremony/",
+          "source": "NASA",
+          "summary": "The Republic of Albania will sign the Artemis Accords during a ceremony at 12 p.m. EDT on Monday, Sept. 21, at NASA Headquarters in Washington, becoming the 73rd country signatory.",
+          "published": "2026-09-18T19:56:08+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA-JAXA XRISM Mission Sees Pulsar Gathering Companion’s ‘Wind’",
+          "link": "https://science.nasa.gov/missions/xrism/xrism-sees-pulsar-gathering-companions-wind/",
+          "source": "NASA",
+          "summary": "Using data from the Japan-led XRISM (X-ray Imaging and Spectroscopy Mission) observatory, astronomers have directly observed a giant star’s outflow, called a stellar wind, being captured by its compact companion and…",
+          "published": "2026-09-18T18:02:53+00:00",
+          "regional": false
+        },
+        {
+          "title": "Paris, France",
+          "link": "https://www.esa.int/ESA_Multimedia/Images/2026/09/Paris_France",
+          "source": "ESA",
+          "summary": "Image: Paris, the capital of the French Republic, stretches across this photograph captured by ESA astronaut Sophie Adenot during her long-duration εpsilon mission aboard the International Space Station.",
+          "published": "2026-09-18T16:13:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Awards SpaceX Three Crew Flights to Space Station",
+          "link": "https://www.nasa.gov/missions/station/commercial-crew/nasa-awards-spacex-three-crew-flights-to-space-station/",
+          "source": "NASA",
+          "summary": "To continue regular crew transportation to the International Space Station, NASA has awarded SpaceX three additional missions through a contract modification.",
+          "published": "2026-09-18T16:02:31+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Nancy Grace Roman Telescope glimpses its first cosmic light",
+          "link": "https://www.scientificamerican.com/article/nasas-nancy-grace-roman-telescope-glimpses-its-first-cosmic-light/",
+          "source": "Scientific American",
+          "summary": "The space telescope is set to reveal thousands of new exoplanets and scour the universe for signs of dark matter and energy",
+          "published": "2026-09-18T14:45:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Hubble Spots an Out-of-Sync Galaxy",
+          "link": "https://science.nasa.gov/uncategorized/nasas-hubble-spots-an-out-of-sync-galaxy/",
+          "source": "NASA",
+          "summary": "Though the spiral galaxy in this new image from the NASA/ESA Hubble Space Telescope seems serene, it hides a chaotic secret.",
+          "published": "2026-09-18T13:38:12+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA’s Roman Space Telescope could last more than twice as long as planned",
           "link": "https://www.sciencedaily.com/releases/2026/09/260918024802.htm",
           "source": "ScienceDaily",
@@ -487,6 +527,22 @@
           "source": "ESA",
           "summary": "Image: Though the spiral galaxy in this new image by the NASA/ESA Hubble Space Telescope seems serene, it hides a chaotic secret.",
           "published": "2026-09-18T08:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Department of Energy launches $215 million race to build quantum computer by 2028",
+          "link": "https://www.science.org/content/article/department-energy-launches-215-million-race-build-quantum-computer-2028",
+          "source": "Science (AAAS)",
+          "summary": "Agency aims to select teams for milestone-driven competition by year’s end",
+          "published": "2026-09-18T05:50:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Satellite reveals a world of ‘weird rivers’ shaped by humans",
+          "link": "https://www.science.org/content/article/satellite-reveals-world-weird-rivers-shaped-humans",
+          "source": "Science (AAAS)",
+          "summary": "SWOT is exposing humans’ effects on rivers—and challenging flood prediction models",
+          "published": "2026-09-18T04:10:28+00:00",
           "regional": false
         },
         {
@@ -538,30 +594,6 @@
           "regional": false
         },
         {
-          "title": "Passion Meets Precision at NASA’s Flight Research Lab",
-          "link": "https://www.nasa.gov/people-of-nasa/armstrong-people/passion-meets-precision-at-nasas-flight-research-lab/",
-          "source": "NASA",
-          "summary": "Long before they helped shape NASA’s future aerospace breakthroughs, Derek Abramson, Justin Hall, and Justin Link were in their garages and homes building radio‑controlled aircraft, testing new ideas, and flying their…",
-          "published": "2026-09-16T21:06:08+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Moon Orbiter Spots New, ‘Once-in-Century’ Moon Crater",
-          "link": "https://science.nasa.gov/solar-system/moon/nasas-moon-orbiter-spots-new-once-in-century-moon-crater/",
-          "source": "NASA",
-          "summary": "It started as a routine data-quality check. But as Robert Wagner, a scientist with NASA’s Lunar Reconnaissance Orbiter (LRO), scanned a giant Moon map on his computer screen, an unusually large bright spot circled by a…",
-          "published": "2026-09-16T18:06:35+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Watches Earth’s Weight, Finds Center of Mass",
-          "link": "https://www.nasa.gov/science-research/earth-science/nasa-watches-earths-weight-finds-center-of-mass/",
-          "source": "NASA",
-          "summary": "Seasonal changes redistribute enough water around Earth to shift the planet’s center of mass back and forth by fractions of an inch relative to its geometric center.",
-          "published": "2026-09-16T16:08:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Venus may have swallowed its own moon",
           "link": "https://www.sciencedaily.com/releases/2026/09/260915232122.htm",
           "source": "ScienceDaily",
@@ -570,43 +602,11 @@
           "regional": false
         },
         {
-          "title": "Warning of space arms race as US confirms weapons in Earth's orbit",
-          "link": "https://www.bbc.co.uk/news/videos/cmn07yjqg5rwo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "The BBC's defence correspondent Jonathan Beale explains what an arms race in space might look like - and what it could mean for us on the ground.",
-          "published": "2026-09-15T17:35:02+00:00",
-          "regional": false
-        },
-        {
           "title": "FLEX and Sentinel-3C launch highlights",
           "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/09/FLEX_and_Sentinel-3C_launch_highlights",
           "source": "ESA",
           "summary": "Video: 00:03:22 ESA’s state-of-the-art FLEX Earth Explorer satellite and the Copernicus Sentinel-3C satellite have been launched together aboard a Vega-C rocket from Europe’s Spaceport in French Guiana, marking a new…",
           "published": "2026-09-15T07:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "The Moon may have formed intact just hours after a giant collision",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260909231729.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have discovered that the Moon-forming collision may have depended heavily on how hot and physically strong early Earth and Theia were.",
-          "published": "2026-09-10T03:17:29+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA scientists discover a giant 10-sided pattern on Saturn",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260903064229.htm",
-          "source": "ScienceDaily",
-          "summary": "A huge 10-sided atmospheric pattern has appeared around Saturn’s south pole, giving the planet a surprising counterpart to its famous northern hexagon.",
-          "published": "2026-09-03T12:41:39+00:00",
-          "regional": false
-        },
-        {
-          "title": "September brings a dazzling Venus and a glowing Harvest Moon",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260902234500.htm",
-          "source": "ScienceDaily",
-          "summary": "September’s sky features brilliant Venus, the Milky Way’s hazy center, and the seasonal turning point of the equinox. The month ends with a glowing Harvest Moon rising near Saturn and faint Neptune.",
-          "published": "2026-09-03T06:25:49+00:00",
           "regional": false
         },
         {
@@ -642,20 +642,12 @@
           "regional": false
         },
         {
-          "title": "Scientists discover a massive heat anomaly deep inside Mars",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260828082336.htm",
-          "source": "ScienceDaily",
-          "summary": "Mars has a hidden temperature divide, with its southern interior potentially hundreds of degrees hotter than the north and partially molten.",
-          "published": "2026-08-30T12:27:59+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Roman telescope will see 100 times more sky than Hubble",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260828082333.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA’s Roman Space Telescope will combine Hubble-like detail with a field of view 100 times larger, giving astronomers a sweeping new way to explore the cosmos.",
-          "published": "2026-08-28T13:54:53+00:00",
-          "regional": false
+          "title": "NASA scan discovers new, ‘once in a century’ Moon crater",
+          "link": "https://www.thehindu.com/sci-tech/science/nasa-discovers-massive-moon-crater-mcgetchin/article71482148.ece",
+          "source": "The Hindu",
+          "summary": "The crater, dubbed “McGetchin”, measures 730 feet (222 metres) wide, and it is believed to have been created in the spring of 2024 from a comet or asteroid colliding with the Moon",
+          "published": "2026-09-18T17:03:38+00:00",
+          "regional": true
         },
         {
           "title": "Cities on the moon may run dry far faster than space barons think",
@@ -722,14 +714,6 @@
           "regional": true
         },
         {
-          "title": "ISRO successfully launches Earth observation satellite EOS-05",
-          "link": "https://www.thehindu.com/sci-tech/science/isro-gslv-f17-eos-05-satellite-rocket-launch-september-4-sriharikota-updates/article71425914.ece",
-          "source": "The Hindu",
-          "summary": "GSLV-F17 places 2,367-kg EOS-05, India’s first imaging satellite, into the intended Sub-Geosynchronous Transfer Orbit",
-          "published": "2026-09-04T15:03:36+00:00",
-          "regional": true
-        },
-        {
           "title": "Pallas-1 sees China’s Galactic Energy join reusable launch push, closing in on SpaceX",
           "link": "https://www.scmp.com/tech/big-tech/article/3365964/pallas-1-sees-chinas-galactic-energy-join-reusable-launch-push-closing-spacex?utm_source=rss_feed",
           "source": "South China Morning Post",
@@ -745,6 +729,14 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "NASA’s Nancy Grace Roman Telescope glimpses its first cosmic light",
+          "link": "https://www.scientificamerican.com/article/nasas-nancy-grace-roman-telescope-glimpses-its-first-cosmic-light/",
+          "source": "Scientific American",
+          "summary": "The space telescope is set to reveal thousands of new exoplanets and scour the universe for signs of dark matter and energy",
+          "published": "2026-09-18T14:45:00+00:00",
+          "regional": false
+        },
         {
           "title": "NASA’s Roman Space Telescope could last more than twice as long as planned",
           "link": "https://www.sciencedaily.com/releases/2026/09/260918024802.htm",
@@ -783,6 +775,14 @@
           "source": "ScienceDaily",
           "summary": "New supercomputer simulations suggest JWST’s puzzling Little Red Dots are rapidly growing black holes from the early Universe.",
           "published": "2026-09-17T12:45:48+00:00",
+          "regional": false
+        },
+        {
+          "title": "Venus may have swallowed its own moon",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260915232122.htm",
+          "source": "ScienceDaily",
+          "summary": "Venus may have once had a moon, but new research suggests the planet’s incredibly slow rotation could have doomed it.",
+          "published": "2026-09-16T11:49:57+00:00",
           "regional": false
         },
         {
@@ -922,20 +922,12 @@
           "regional": false
         },
         {
-          "title": "The universe is still speeding up, but nobody knows why",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260828082325.htm",
-          "source": "ScienceDaily",
-          "summary": "A major new analysis challenges recent claims that the universe's expansion is slowing, finding that the evidence for cosmic acceleration remains strong.",
-          "published": "2026-08-29T11:41:30+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Roman telescope will see 100 times more sky than Hubble",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260828082333.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA’s Roman Space Telescope will combine Hubble-like detail with a field of view 100 times larger, giving astronomers a sweeping new way to explore the cosmos.",
-          "published": "2026-08-28T13:54:53+00:00",
-          "regional": false
+          "title": "NASA scan discovers new, ‘once in a century’ Moon crater",
+          "link": "https://www.thehindu.com/sci-tech/science/nasa-discovers-massive-moon-crater-mcgetchin/article71482148.ece",
+          "source": "The Hindu",
+          "summary": "The crater, dubbed “McGetchin”, measures 730 feet (222 metres) wide, and it is believed to have been created in the spring of 2024 from a comet or asteroid colliding with the Moon",
+          "published": "2026-09-18T17:03:38+00:00",
+          "regional": true
         },
         {
           "title": "Black holes outgrow their galaxies",
