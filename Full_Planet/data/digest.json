@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-22T13:48:22.439860+00:00",
-  "generated_human": "22 September 2026, 13:48 UTC",
-  "total_items": 112,
+  "generated": "2026-09-23T13:58:12.612750+00:00",
+  "generated_human": "23 September 2026, 13:58 UTC",
+  "total_items": 116,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "Why Read a Research Paper When You Can Turn It Into an AI Agent?",
+          "link": "https://spectrum.ieee.org/paper2agent-ai-agents-research-papers",
+          "source": "IEEE Spectrum",
+          "summary": "Have you ever read a paper in Science or Nature and thought, “Man, that research was so cool. I wish I could try that method on my own data,” only to spend a week wrestling with someone else’s undocumented repo, broken…",
+          "published": "2026-09-22T15:00:05+00:00",
+          "regional": false
+        },
         {
           "title": "BBC Inside Science",
           "link": "https://www.bbc.co.uk/sounds/play/w3ct9785?at_medium=RSS&at_campaign=rss",
@@ -40,6 +48,14 @@
           "summary": "AI analysis of 400,000 Reddit posts found that users of drugs such as Ozempic, Wegovy, Mounjaro, and Zepbound reported unexpected symptoms including menstrual changes, chills, hot flashes, and fatigue.",
           "published": "2026-09-13T10:46:19+00:00",
           "regional": false
+        },
+        {
+          "title": "LG Electronics, SK Enmove team up on AI data center cooling",
+          "link": "https://www.koreaherald.com/article/10883064",
+          "source": "The Korea Herald",
+          "summary": "LG Electronics and SK Enmove have agreed to jointly develop next-generation cooling materials and technologies for artificial intelligence data centers and other high-heat applications, the companies said Wednesday.",
+          "published": "2026-09-23T01:04:37+00:00",
+          "regional": true
         },
         {
           "title": "China’s active AI agents could reach 197 million by 2030, report says",
@@ -103,14 +119,6 @@
           "source": "The Korea Herald",
           "summary": "Samsung Electronics hosted a technology forum in Silicon Valley to share its artificial intelligence and robotics strategy with senior developers from global technology companies, the company said Sunday.",
           "published": "2026-09-20T05:47:20+00:00",
-          "regional": true
-        },
-        {
-          "title": "LG Innotek taps AI to speed up parts selection, pricing",
-          "link": "https://www.koreaherald.com/article/10879595",
-          "source": "The Korea Herald",
-          "summary": "LG Innotek said Sunday it had deployed an artificial intelligence system that helps engineers identify suitable components, suppliers and estimate prices, cutting the time needed to prepare quotations for new products…",
-          "published": "2026-09-20T05:36:45+00:00",
           "regional": true
         },
         {
@@ -178,11 +186,27 @@
           "regional": false
         },
         {
+          "title": "LG Electronics, SK Enmove team up on AI data center cooling",
+          "link": "https://www.koreaherald.com/article/10883064",
+          "source": "The Korea Herald",
+          "summary": "LG Electronics and SK Enmove have agreed to jointly develop next-generation cooling materials and technologies for artificial intelligence data centers and other high-heat applications, the companies said Wednesday.",
+          "published": "2026-09-23T01:04:37+00:00",
+          "regional": true
+        },
+        {
           "title": "Seoul stocks edge up on chip gains amid renewed AI optimism",
           "link": "https://www.koreaherald.com/article/10882384",
           "source": "The Korea Herald",
           "summary": "South Korean shares extended their winning streak to a third session on Tuesday as investors scooped up major semiconductor stocks, tracking an overnight rally on Wall Street amid renewed optimism over artificial…",
           "published": "2026-09-22T06:58:37+00:00",
+          "regional": true
+        },
+        {
+          "title": "Chemists report ‘milder’ way to swap carbon for nitrogen atoms",
+          "link": "https://www.thehindu.com/sci-tech/science/chemists-report-milder-way-to-swap-carbon-for-nitrogen-atoms/article71494482.ece",
+          "source": "The Hindu",
+          "summary": "Scientists have reported a reaction to replace carbon with nitrogen in types of molecules often encountered in medical research and industry without using harsh oxidants",
+          "published": "2026-09-22T06:53:19+00:00",
           "regional": true
         },
         {
@@ -240,22 +264,6 @@
           "summary": "The amount of undeclared uranium from the DRC’s cobalt mines could – if processed – produce enough material for 600-1,500 nuclear weapons.",
           "published": "2026-09-10T14:08:16+00:00",
           "regional": true
-        },
-        {
-          "title": "Huawei paper shows Tau Scaling Law chip solves overheating ahead of Kirin 2026 launch",
-          "link": "https://www.scmp.com/tech/big-tech/article/3366543/huawei-paper-shows-tau-scaling-law-chip-solves-overheating-ahead-kirin-2026-launch?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Huawei Technologies has released a new research paper showing its Tau Scaling Law-based semiconductor architecture can avoid overheating, which analysts view as a key technical hurdle for its anticipated Kirin 2026…",
-          "published": "2026-09-06T12:06:42+00:00",
-          "regional": true
-        },
-        {
-          "title": "China’s No 2 foundry Hua Hong invests US$2b in new fab to meet surging AI-driven demand",
-          "link": "https://www.scmp.com/tech/big-tech/article/3366104/chinas-no-2-foundry-hua-hong-invests-us2b-new-fab-meet-surging-ai-driven-demand?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Major Chinese foundry Hua Hong Grace Semiconductor is pouring US$2 billion into a massive capacity expansion in the Chinese chip production hub of Wuxi, racing to meet skyrocketing domestic demand for AI infrastructure…",
-          "published": "2026-09-02T09:30:11+00:00",
-          "regional": true
         }
       ]
     },
@@ -289,6 +297,14 @@
       "tagline": "New ways to generate clean energy, capture carbon, and bring fresh water and power to people, cities, and transport.",
       "accent": "#33C6D6",
       "items": [
+        {
+          "title": "India is producing more green energy - but wasting a lot of it",
+          "link": "https://www.bbc.co.uk/news/articles/c8xkvzlz0x4o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "India has rapidly decarbonised electricity generation, but its gains are tempered by transmission shortages.",
+          "published": "2026-09-22T23:02:29+00:00",
+          "regional": false
+        },
         {
           "title": "BBC Inside Science",
           "link": "https://www.bbc.co.uk/sounds/play/w3ct9785?at_medium=RSS&at_campaign=rss",
@@ -362,19 +378,19 @@
           "regional": false
         },
         {
+          "title": "India’s vast canal network offers a land-free path to solar power",
+          "link": "https://www.thehindu.com/sci-tech/energy-and-environment/india-vast-canal-network-offers-land-free-path-solar-power/article71494964.ece",
+          "source": "The Hindu",
+          "summary": "Similar to floating solar, the biggest advantage of canal-top photovoltaics is that they require virtually no additional land, especially as land acquisition for large-scale solar is also becoming increasingly more…",
+          "published": "2026-09-23T08:08:26+00:00",
+          "regional": true
+        },
+        {
           "title": "LG Electronics, LG Energy Solution join Nvidia AI data center push",
           "link": "https://www.koreaherald.com/article/10882095",
           "source": "The Korea Herald",
           "summary": "LG Electronics and LG Energy Solution have joined Nvidia’s newly launched DSX Ready program with cooling solutions and battery storage, respectively, strengthening the LG affiliates' foothold in the global AI data…",
           "published": "2026-09-22T04:32:22+00:00",
-          "regional": true
-        },
-        {
-          "title": "Hyundai E&C zeroes in on next-gen hydrogen plants",
-          "link": "https://www.koreaherald.com/article/10878610",
-          "source": "The Korea Herald",
-          "summary": "Hyundai Engineering & Construction is joining a government-backed project to develop a package design for large-scale water electrolysis plants, seeking to strengthen its foothold in the green hydrogen market.",
-          "published": "2026-09-18T05:54:38+00:00",
           "regional": true
         },
         {
@@ -410,14 +426,6 @@
           "regional": true
         },
         {
-          "title": "From moon’s far side, a satellite to look for the first radio signal",
-          "link": "https://www.thehindu.com/sci-tech/science/cosmocube-from-moon-far-side-satellite-search-universe-first-radio-signal/article71441824.ece",
-          "source": "The Hindu",
-          "summary": "The 21-cm radio signal emitted by neutral hydrogen is like the proverbial needle in a haystack as it is buried beneath foreground radio emissions thousands of times stronger.",
-          "published": "2026-09-08T08:32:44+00:00",
-          "regional": true
-        },
-        {
           "title": "The hidden environmental cost of AI data centers",
           "link": "https://www.dw.com/en/the-hidden-environmental-cost-of-ai-data-centers/a-78789889?maca=en-rss_en_environment-22607-xml-mrss",
           "source": "Deutsche Welle",
@@ -431,6 +439,14 @@
           "source": "Deutsche Welle",
           "summary": "France is seeing water shortages in regions that usually have plenty of supply. This summer's extreme heat is exposing how unprepared much of the country, and Europe, is for increasing water scarcity.",
           "published": "2026-08-19T04:33:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "Can we go green without forever chemicals?",
+          "link": "https://www.dw.com/en/can-we-go-green-without-forever-chemicals/a-77888704?maca=en-rss_en_environment-22607-xml-mrss",
+          "source": "Deutsche Welle",
+          "summary": "As nations globally move to ban forever chemicals, should renewable energy technologies be exempt for the sake of saving the climate?",
+          "published": "2026-08-13T07:13:00+00:00",
           "regional": true
         },
         {
@@ -450,10 +466,66 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "First switch on for ESA-JAXA Ramses asteroid mission",
+          "link": "https://www.esa.int/Space_Safety/Planetary_Defence/First_switch_on_for_ESA-JAXA_Ramses_asteroid_mission",
+          "source": "ESA",
+          "summary": "The European Space Agency’s and Japan Aerospace Exploration Agency’s Ramses planetary defence spacecraft has been turned on for the first time by its prime contractor – marking a major milestone in its time-critical…",
+          "published": "2026-09-23T11:17:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "A hitchhiker’s guide to Hera’s target asteroids",
+          "link": "https://www.esa.int/Space_Safety/Hera/A_hitchhiker_s_guide_to_Hera_s_target_asteroids",
+          "source": "ESA",
+          "summary": "Currently speeding through deep space at 12 km/s relative to Earth, ESA’s Hera spacecraft is due to reach its target Dimorphos asteroid this November.",
+          "published": "2026-09-23T08:10:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "APOD: 2026 September 23 – A New Lunar Crater: McGetchin",
+          "link": "https://science.nasa.gov/image-article/apod-2026-september-23-the-mcgetchin-crater/",
+          "source": "NASA",
+          "summary": "APOD Science APOD APOD: 2026 September 23 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos!",
+          "published": "2026-09-23T04:05:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Scientists discover largest new impact crater in the solar system ever—on our moon",
+          "link": "https://www.scientificamerican.com/article/scientists-discover-largest-new-impact-crater-in-the-solar-system-ever-on-our-moon/",
+          "source": "Scientific American",
+          "summary": "The crater, named after geologist and lunar surface expert Tom McGetchin, spans more than two football fields wide",
+          "published": "2026-09-22T20:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Risks of Decompression Sickness and Venous Thromboembolism during Spaceflight and Patent Foramen Ovale Implications",
+          "link": "https://www.nasa.gov/organizations/ochmo/risks-of-decompression-sickness-and-venous-thromboembolism-during-spaceflight-and-patent-foramen-ovale-implications/",
+          "source": "NASA",
+          "summary": "NASA’s Office of the Chief Health and Medical Officer formed a working group in August 2026 to review the most recent data related to extravehicular activity (EVA) prebreathe testing and decompression sickness (DCS)…",
+          "published": "2026-09-22T19:19:45+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA-Funded Research Finds Complex Life Defying Record Heat",
+          "link": "https://science.nasa.gov/science-research/planetary-science/nasa-funded-research-finds-complex-life-defying-record-heat/",
+          "source": "NASA",
+          "summary": "Lee esta historia en español aquí. NASA-supported scientists have discovered an organism that lives at extreme temperatures previously thought impossible for complex life.",
+          "published": "2026-09-22T17:33:10+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Chandra Finds Unusual Objects in Pinwheel Galaxy",
+          "link": "https://www.nasa.gov/image-article/nasas-chandra-finds-unusual-objects-in-pinwheel-galaxy/",
+          "source": "NASA",
+          "summary": "Using NASA’s Chandra X-ray Observatory, researchers found mysterious objects that give off unusually low-energy X-rays but intense levels of ultraviolet radiation.",
+          "published": "2026-09-22T15:40:48+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA Astronaut to Answer Questions from New Hampshire Students",
           "link": "https://www.nasa.gov/learning-resources/nasa-astronaut-to-answer-questions-from-new-hampshire-students/",
           "source": "NASA",
-          "summary": "Students in New Hampshire will hear from NASA astronaut Anil Menon as he answers prerecorded STEM questions while aboard the International Space Station. The Earth-to-space call will begin at 11:35 a.m.",
+          "summary": "Editor’s Note: This feature was updated Sept. 22, 2026, to note the time change for the in-flight call with students.",
           "published": "2026-09-22T13:38:53+00:00",
           "regional": false
         },
@@ -466,43 +538,19 @@
           "regional": false
         },
         {
-          "title": "NASA Welcomes Albania as Newest Artemis Accords Signatory",
-          "link": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-albania-as-newest-artemis-accords-signatory/",
-          "source": "NASA",
-          "summary": "The Republic of Albania signed the Artemis Accords Monday during a ceremony hosted by NASA at the agency’s headquarters in Washington, joining the coalition of like‑minded nations committed to the responsible and…",
-          "published": "2026-09-21T21:21:32+00:00",
+          "title": "A strange circle on satellite maps turned out to be a 390-million-year-old impact crater",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260921081101.htm",
+          "source": "ScienceDaily",
+          "summary": "An amateur astronomer searching satellite maps for a Quebec camping spot accidentally discovered a massive ancient impact crater.",
+          "published": "2026-09-22T10:43:31+00:00",
           "regional": false
         },
         {
-          "title": "NASA Kicks Off Nationwide Effort to Prepare Tomorrow’s Space Workforce",
-          "link": "https://www.nasa.gov/learning-resources/nasa-kicks-off-nationwide-effort-to-prepare-tomorrows-space-workforce/",
+          "title": "APOD: 2026 September 22 – Chance Triple Alignment: Plane, Space Station, Sun",
+          "link": "https://science.nasa.gov/image-article/apod-2026-september-22-chance-triple-alignment-plane-space-station-sun/",
           "source": "NASA",
-          "summary": "NASA kicked off its State Hubs for Skilled Technical Workforce initiative Sept. 15, 2026 with awardees at Space Center Houston.",
-          "published": "2026-09-21T21:03:04+00:00",
-          "regional": false
-        },
-        {
-          "title": "Perseverance’s View of ‘Turquoise Bay’",
-          "link": "https://science.nasa.gov/photojournal/perseverances-view-of-turquoise-bay/",
-          "source": "NASA",
-          "summary": "Description NASA’s Perseverance Mars rover used its Mastcam-Z camera to capture this 360-degree panorama of “Turquoise Bay,” a geologic area of interest in the “Margin Unit.” The 818 images used to create the…",
-          "published": "2026-09-21T19:17:59+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Astronaut Reid Wiseman Attends Ravens vs. Saints Game",
-          "link": "https://www.nasa.gov/image-article/nasa-astronaut-reid-wiseman-attends-ravens-vs-saints-game/",
-          "source": "NASA",
-          "summary": "NASA astronaut and commander of the agency’s Artemis II mission, Reid Wiseman, a Baltimore native, takes a selfie with fans at an NFL game between the New Orleans Saints and the Baltimore Ravens at M&T Bank Stadium,…",
-          "published": "2026-09-21T18:43:13+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Discovery Reveals Complex Water Systems on Early Mars",
-          "link": "https://www.nasa.gov/solar-system/planets/mars/nasa-discovery-reveals-complex-water-systems-on-early-mars/",
-          "source": "NASA",
-          "summary": "When NASA’s Perseverance rover reached the inner edge of Mars’ Jezero Crater in September 2023, mission scientists were surprised by what they found.",
-          "published": "2026-09-21T16:54:43+00:00",
+          "summary": "APOD Science APOD APOD: 2026 September 22 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos!",
+          "published": "2026-09-22T04:05:00+00:00",
           "regional": false
         },
         {
@@ -511,22 +559,6 @@
           "source": "ESA",
           "summary": "The European Space Agency’s Jupiter Icy Moons Explorer ( Juice ) will return to Earth on 28 September, with flight controllers guiding the spacecraft close to our home planet to alter its speed and direction en route to…",
           "published": "2026-09-21T14:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "ESA brings public and private capital together to accelerate Europe’s space economy",
-          "link": "https://www.esa.int/About_Us/Business_with_ESA/ESA_brings_public_and_private_capital_together_to_accelerate_Europe_s_space_economy",
-          "source": "ESA",
-          "summary": "Paris, 18 September 2026 – Access to appropriate finance is becoming a strategic enabler of Europe’s space ambitions.",
-          "published": "2026-09-21T09:52:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "ESA and ISRO extend and broaden cooperation agreement",
-          "link": "https://www.esa.int/About_Us/Corporate_news/ESA_and_ISRO_extend_and_broaden_cooperation_agreement",
-          "source": "ESA",
-          "summary": "The European Space Agency (ESA) and the Indian Space Research Organisation (ISRO) have signed an exchange of letters extending their long-standing Cooperative Agreement for a further five years, until 8 January 2032,…",
-          "published": "2026-09-21T08:44:00+00:00",
           "regional": false
         },
         {
@@ -590,7 +622,7 @@
           "link": "https://www.science.org/content/article/satellite-reveals-world-weird-rivers-shaped-humans",
           "source": "Science (AAAS)",
           "summary": "SWOT is exposing humans’ effects on rivers—and challenging flood prediction models",
-          "published": "2026-09-18T04:10:28+00:00",
+          "published": "2026-09-18T04:10:00+00:00",
           "regional": false
         },
         {
@@ -626,20 +658,20 @@
           "regional": false
         },
         {
-          "title": "The Moon may have formed intact just hours after a giant collision",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260909231729.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have discovered that the Moon-forming collision may have depended heavily on how hot and physically strong early Earth and Theia were.",
-          "published": "2026-09-10T03:17:29+00:00",
-          "regional": false
+          "title": "Bambu Lab launches R1 55W CO₂ laser cutter in first move beyond 3D printing",
+          "link": "https://technode.com/2026/09/23/bambu-lab-r1-co2-laser-cutter/",
+          "source": "TechNode",
+          "summary": "Bambu Lab has launched the R1, a 55W CO₂ laser cutter and engraver that marks the company’s first product line beyond 3D printing.",
+          "published": "2026-09-23T08:45:54+00:00",
+          "regional": true
         },
         {
-          "title": "ESA’s first lunar rover rolls forward",
-          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ESA_s_first_lunar_rover_rolls_forward",
-          "source": "ESA",
-          "summary": "Yesterday evening, during a signing ceremony at the Space for Inspiration event in Copenhagen, Denmark, the European Space Agency (ESA) and ispace-Europe celebrated the implementation of MAGPIE, set to be the first…",
-          "published": "2026-09-02T07:00:00+00:00",
-          "regional": false
+          "title": "Microsoft launches India South Central cloud region in Hyderabad",
+          "link": "https://www.thehindu.com/sci-tech/technology/microsoft-launches-india-south-central-cloud-region-in-hyderabad/article71490647.ece",
+          "source": "The Hindu",
+          "summary": "Hyderabad region is designed to support mission-critical and AI workloads at scale, with three availability zones and resilience aligned to India’s regulatory and seismic requirements.",
+          "published": "2026-09-21T08:04:11+00:00",
+          "regional": true
         },
         {
           "title": "NASA scan discovers new, ‘once in a century’ Moon crater",
@@ -704,22 +736,6 @@
           "summary": "ISRO and ESA have already signed a Technical Implementing Plan (TIP) document for Ground Tracking Support for Gaganyaan missions",
           "published": "2026-09-09T06:57:25+00:00",
           "regional": true
-        },
-        {
-          "title": "From moon’s far side, a satellite to look for the first radio signal",
-          "link": "https://www.thehindu.com/sci-tech/science/cosmocube-from-moon-far-side-satellite-search-universe-first-radio-signal/article71441824.ece",
-          "source": "The Hindu",
-          "summary": "The 21-cm radio signal emitted by neutral hydrogen is like the proverbial needle in a haystack as it is buried beneath foreground radio emissions thousands of times stronger.",
-          "published": "2026-09-08T08:32:44+00:00",
-          "regional": true
-        },
-        {
-          "title": "We have complete trust in our Indian partners: French National Space Agency",
-          "link": "https://www.thehindu.com/sci-tech/science/we-have-complete-trust-in-our-indian-partners-frenchnational-space-agency/article71440261.ece",
-          "source": "The Hindu",
-          "summary": "The PSLV is scheduled to launch the Indo-French TRISHNA mission next year which is a collaborative endeavor between ISRO and CNES.",
-          "published": "2026-09-07T21:40:53+00:00",
-          "regional": true
         }
       ]
     },
@@ -730,11 +746,35 @@
       "accent": "#B98CE0",
       "items": [
         {
+          "title": "The LHC just ruled out another hiding place for quantum black holes",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260922005649.htm",
+          "source": "ScienceDaily",
+          "summary": "Physicists searching through Large Hadron Collider data found no evidence that the machine has been producing microscopic quantum black holes, but the result sharply narrows where such exotic physics could still be…",
+          "published": "2026-09-23T03:32:54+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA Goddard’s shrinking workforce could stifle future space missions, experts say",
           "link": "https://www.scientificamerican.com/article/nasa-goddards-shrinking-workforce-could-stifle-future-space-missions-experts-say/",
           "source": "Scientific American",
           "summary": "2025 was a brutal year of budget cuts and workforce attrition at NASA’s Goddard Space Flight Center, the home base for the Nancy Grace Roman Space Telescope.",
           "published": "2026-09-22T11:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "A strange circle on satellite maps turned out to be a 390-million-year-old impact crater",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260921081101.htm",
+          "source": "ScienceDaily",
+          "summary": "An amateur astronomer searching satellite maps for a Quebec camping spot accidentally discovered a massive ancient impact crater.",
+          "published": "2026-09-22T10:43:31+00:00",
+          "regional": false
+        },
+        {
+          "title": "Giant telescope project rejects La Palma as backup site",
+          "link": "https://www.science.org/content/article/giant-telescope-project-rejects-la-palma-backup-site",
+          "source": "Science (AAAS)",
+          "summary": "U.S.-led Thirty Meter Telescope declines €1 billion Spanish offer to build the observatory on the Canary Islands",
+          "published": "2026-09-22T02:40:00+00:00",
           "regional": false
         },
         {
@@ -834,14 +874,6 @@
           "regional": false
         },
         {
-          "title": "What are the smallest pieces of the universe?",
-          "link": "https://www.scientificamerican.com/article/what-are-the-smallest-pieces-of-the-universe/",
-          "source": "Scientific American",
-          "summary": "Physicists are searching for what lies underneath the particles we know",
-          "published": "2026-09-15T10:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Meteor showers and supermoons: Autumn's night sky highlights",
           "link": "https://www.bbc.co.uk/news/videos/c6kgxmk5zkrgo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
@@ -890,22 +922,6 @@
           "regional": false
         },
         {
-          "title": "BBC Inside Science",
-          "link": "https://www.bbc.co.uk/sounds/play/w3ct9783?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Researchers may have discovered the signature of a bit of dark matter.",
-          "published": "2026-09-03T20:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA scientists discover a giant 10-sided pattern on Saturn",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260903064229.htm",
-          "source": "ScienceDaily",
-          "summary": "A huge 10-sided atmospheric pattern has appeared around Saturn’s south pole, giving the planet a surprising counterpart to its famous northern hexagon.",
-          "published": "2026-09-03T12:41:39+00:00",
-          "regional": false
-        },
-        {
           "title": "The universe has plenty of hydrogen. So why is star formation collapsing?",
           "link": "https://www.sciencedaily.com/releases/2026/09/260902234442.htm",
           "source": "ScienceDaily",
@@ -920,6 +936,22 @@
           "summary": "Solar sails pushed by powerful lasers could reach incredible speeds, but relativity may eventually make the light itself work against them.",
           "published": "2026-09-02T14:51:21+00:00",
           "regional": false
+        },
+        {
+          "title": "Daily Quiz | The discovery of Neptune",
+          "link": "https://www.thehindu.com/sci-tech/science/daily-quiz-the-discovery-of-neptune/article71498449.ece",
+          "source": "The Hindu",
+          "summary": "Neptune was the first planet to be discovered through mathematical prediction before telescopic observation confirmed its existence. Test your knowledge of the dramatic hunt for the Solar System’s eighth planet.",
+          "published": "2026-09-23T05:43:15+00:00",
+          "regional": true
+        },
+        {
+          "title": "Luna 2: touched by humans, touches the moon",
+          "link": "https://www.thehindu.com/sci-tech/science/luna-2-touched-by-humans-touches-the-moon/article71423036.ece",
+          "source": "The Hindu",
+          "summary": "On September 14, 1959, an object touched by humans struck the surface of the moon. That object, retroactively renamed Luna 2, was the first-ever human-made object from Earth that had reached another cosmic body.",
+          "published": "2026-09-23T01:59:02+00:00",
+          "regional": true
         },
         {
           "title": "NIT-Srinagar to open campus observatory with 14-inch telescope",
