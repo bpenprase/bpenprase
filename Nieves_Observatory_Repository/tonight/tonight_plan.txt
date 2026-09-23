@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-09-22 14:53 PDT
-; Observing window starts 2026-09-22 20:12 PDT  (LST 19:29:01)
+; Generated 2026-09-23 15:08 PDT
+; Observing window starts 2026-09-23 20:10 PDT  (LST 19:30:57)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -45,15 +45,6 @@ IC 4703
 #binning 1,3,3,3
 #filter r',Ha,OIII,SII
 M 17
-
-; Comet C/2024 J3 (ATLAS)  mag 13.7
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT C/2024 J3
-#WAITINLIMITS 60
 
 ; Open Cluster  mag 4.6  size 12.00'
 #posang 0
@@ -168,7 +159,7 @@ M 39
 #filter r',Ha,OIII,SII
 IC 5146
 
-; Asteroid 9 Metis  mag 9.7
+; Asteroid 9 Metis  mag 9.8
 #posang 0
 #count 3
 #interval 300
@@ -251,6 +242,15 @@ M 32
 #filter r',g',i',z'
 M 31
 
+; Comet 161P/Hartley-IRAS  mag 11.3
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 161P/Hartley-IRAS
+#WAITINLIMITS 60
+
 ; Galaxy  mag 9.2  size 19.68'
 #posang 0
 #count 1,1,1,1
@@ -274,15 +274,6 @@ NGC 0253
 #binning 1
 #filter r'
 Saturn
-#WAITINLIMITS 60
-
-; Comet 161P/Hartley-IRAS  mag 12.5
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 161P/Hartley-IRAS
 #WAITINLIMITS 60
 
 ; Galaxy  mag 9.5  size 18.32'
@@ -375,7 +366,7 @@ NGC 1023
 #filter r',g',i',z'
 M 77
 
-; Comet 220P/McNaught  mag 11.6
+; Comet 220P/McNaught  mag 13.1
 #posang 0
 #count 3
 #interval 300
@@ -384,13 +375,13 @@ M 77
 CT 220P/McNaught
 #WAITINLIMITS 60
 
-; Galaxy  mag 9.6  size 6.95'
+; Galaxy  mag 9.7  size 19.77'
 #posang 0
 #count 1,1,1,1
 #interval 600,600,600,600
 #binning 1,1,1,1
 #filter r',g',i',z'
-NGC 1398
+IC 0342
 
 ; Nebula  mag 5.0  size 160.00'  California Nebula
 #posang 0
@@ -432,6 +423,15 @@ M 42
 #binning 1,3,3,3
 #filter r',Ha,OIII,SII
 NGC 1980
+
+; Comet C/2024 T5 (ATLAS)  mag 13.9
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT C/2024 T5
+#WAITINLIMITS 60
 
 ; Open Cluster  mag 3.9  size 9.90'
 #posang 0
@@ -480,15 +480,6 @@ NGC 2301
 #binning 1
 #filter r'
 MP Ceres
-#WAITINLIMITS 60
-
-; Comet 78P/Gehrels  mag 13.9
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 78P/Gehrels
 #WAITINLIMITS 60
 
 ; Galaxy  mag 8.4  size 19.95'
