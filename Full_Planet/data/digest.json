@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-24T13:54:58.486312+00:00",
-  "generated_human": "24 September 2026, 13:54 UTC",
-  "total_items": 117,
+  "generated": "2026-09-25T14:18:09.240478+00:00",
+  "generated_human": "25 September 2026, 14:18 UTC",
+  "total_items": 120,
   "channels": [
     {
       "key": "ai",
@@ -138,6 +138,30 @@
       "accent": "#E8A13A",
       "items": [
         {
+          "title": "Toxic waste: 'Every person that played in the pool is dead'",
+          "link": "https://www.bbc.co.uk/news/videos/cqkgv3dr5gjeo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Michael Phillips played at a lagoon as a child, oblivious to the toxic chemicals within.",
+          "published": "2026-09-24T22:10:35+00:00",
+          "regional": false
+        },
+        {
+          "title": "Diesel fuel prices are rising—chemistry can help explain why",
+          "link": "https://www.scientificamerican.com/article/diesel-fuel-prices-are-rising-chemistry-can-help-explain-why/",
+          "source": "Scientific American",
+          "summary": "Diesel prices have almost doubled over the past year, spelling trouble for farmers, truckers and the entire U.S. economy",
+          "published": "2026-09-24T14:45:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Distant time crystals can somehow fall into the same rhythm",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260923035934.htm",
+          "source": "ScienceDaily",
+          "summary": "Researchers have shown that multiple time crystals inside a semiconductor can synchronize their oscillations, much like pendulum clocks gradually falling into the same rhythm.",
+          "published": "2026-09-24T13:16:41+00:00",
+          "regional": false
+        },
+        {
           "title": "Watch a robot dog run a marathon faster than the average human",
           "link": "https://www.scientificamerican.com/article/watch-a-robot-dog-run-a-marathon-faster-than-the-average-human/",
           "source": "Scientific American",
@@ -192,6 +216,14 @@
           "summary": "Scientists have uncovered an unusual form of electron behavior in zirconium pentatelluride, a quantum material that can act as both an insulator and a conductor.",
           "published": "2026-09-05T04:18:12+00:00",
           "regional": false
+        },
+        {
+          "title": "Beyond CoWoS: Korean firms eye next AI packaging race",
+          "link": "https://www.koreaherald.com/article/10882911",
+          "source": "The Korea Herald",
+          "summary": "Taiwan Semiconductor Manufacturing Co.'s advanced packaging technology, chip-on-wafer-on-substrate-L, or CoWoS-L, remains the dominant force in AI semiconductor packaging.",
+          "published": "2026-09-25T07:00:00+00:00",
+          "regional": true
         },
         {
           "title": "LG Electronics, SK Enmove team up on AI data center cooling",
@@ -263,14 +295,6 @@
           "source": "The Hindu",
           "summary": "Plastic wastes are used to produce fuel using high heat in a process called pyrolysis",
           "published": "2026-09-15T17:27:09+00:00",
-          "regional": true
-        },
-        {
-          "title": "DRC’s cobalt exports contain unreported uranium – our study estimates the global nuclear risk",
-          "link": "https://theconversation.com/drcs-cobalt-exports-contain-unreported-uranium-our-study-estimates-the-global-nuclear-risk-291107",
-          "source": "The Conversation",
-          "summary": "The amount of undeclared uranium from the DRC’s cobalt mines could – if processed – produce enough material for 600-1,500 nuclear weapons.",
-          "published": "2026-09-10T14:08:16+00:00",
           "regional": true
         }
       ]
@@ -466,6 +490,78 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "Jupiter-bound spacecraft Juice to fly by Earth Monday",
+          "link": "https://www.scientificamerican.com/article/jupiter-bound-spacecraft-juice-to-fly-by-earth-monday/",
+          "source": "Scientific American",
+          "summary": "To get to the outer solar system, the Juice spacecraft needs an assist from Earth’s gravity—and it’s going to be taking pictures along the way",
+          "published": "2026-09-25T12:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "What’s the point of the interstellar Fermi Explorer mission?",
+          "link": "https://www.scientificamerican.com/article/whats-the-point-of-the-interstellar-fermi-explorer-mission/",
+          "source": "Scientific American",
+          "summary": "Fermi Explorer, a proposed low-cost private mission to Alpha Centauri, seeks to address a question that’s already been answered",
+          "published": "2026-09-25T10:45:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "ESA and the EU partner with Museo Galileo on new exhibition",
+          "link": "https://www.esa.int/Applications/Satellite_navigation/Galileo/ESA_and_the_EU_partner_with_Museo_Galileo_on_new_exhibition",
+          "source": "ESA",
+          "summary": "The European Space Agency (ESA), Italy’s Museo Galileo - Institute and Museum of the History of Science, and the European Commission (EC) have partnered to uncover the surprising and far-reaching connections between the…",
+          "published": "2026-09-25T09:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Welcomes Côte d’Ivoire as Newest Artemis Accords Signatory",
+          "link": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-cote-divoire-as-newest-artemis-accords-signatory/",
+          "source": "NASA",
+          "summary": "Côte d’Ivoire signed the Artemis Accords on Thursday, becoming the 75th signatory and marking a major milestone for this growing coalition.",
+          "published": "2026-09-24T21:27:17+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Shares SpaceX Crew-14 Assignments for Space Station Mission",
+          "link": "https://www.nasa.gov/news-release/nasa-shares-spacex-crew-14-assignments-for-space-station-mission/",
+          "source": "NASA",
+          "summary": "Four crew members from three space agencies will launch to the International Space Station no earlier than spring 2027 for a long-duration science expedition as part of NASA’s SpaceX Crew-14 mission.",
+          "published": "2026-09-24T21:15:46+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Unveils Winning Designs for Mars Space Food Systems Challenge",
+          "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/centennial-challenges/nasa-unveils-winning-designs-for-mars-space-food-systems-challenge/",
+          "source": "NASA",
+          "summary": "NASA announced the winners of the Deep Space Food Challenge: Mars to Table Thursday, with the top $300,000 prize being awarded to Chinyere Ukeje of Philadelphia, Pa.",
+          "published": "2026-09-24T18:01:45+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Machines for Mars Make Beer Bubbly",
+          "link": "https://www.nasa.gov/technology/tech-transfer-spinoffs/nasas-machines-for-mars-make-beer-bubbly/",
+          "source": "NASA",
+          "summary": "Carbon-capture technology repurposed for breweries spreads and finds new applications",
+          "published": "2026-09-24T16:41:01+00:00",
+          "regional": false
+        },
+        {
+          "title": "Practicing for Safe Landings on the Moon and Beyond",
+          "link": "https://www.nasa.gov/image-article/practicing-for-safe-landings-on-the-moon-and-beyond/",
+          "source": "NASA",
+          "summary": "In this Aug. 27, 2026, image, an Alta-X drone flies an advanced guidance and navigation system known as the Safe and Precise Landing – Integrated Capabilities Evolution (SPLICE) experiment near NASA’s Armstrong Flight…",
+          "published": "2026-09-24T16:29:19+00:00",
+          "regional": false
+        },
+        {
+          "title": "US-India Satellite Captures Time-lapse Video of Volcanic Eruption",
+          "link": "https://www.nasa.gov/missions/nisar/us-india-satellite-captures-time-lapse-video-of-volcanic-eruption/",
+          "source": "NASA",
+          "summary": "Like tendrils on a vine, lava spreads out from the northern crater of Krasheninnikov, a volcano pair on the Pacific coast of Russia’s Kamchatka Peninsula.",
+          "published": "2026-09-24T15:47:17+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA to Study Human Health, Performance During Crew-13 Mission",
           "link": "https://www.nasa.gov/humans-in-space/nasa-to-study-human-health-performance-during-crew-13-mission/",
           "source": "NASA",
@@ -474,10 +570,26 @@
           "regional": false
         },
         {
+          "title": "Win a trip to ESA to witness BepiColombo arrive at Mercury",
+          "link": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Win_a_trip_to_ESA_to_witness_BepiColombo_arrive_at_Mercury",
+          "source": "ESA",
+          "summary": "Get ready to celebrate BepiColombo ’s arrival at Mercury. Craft a welcoming message that could be a drawing, song, poem or any other art form and stand a chance to win a trip to mission control!",
+          "published": "2026-09-24T13:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "“We just need to go back” – Uranus’ moon Ariel may have hidden a 100-mile-deep ocean",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260923035951.htm",
+          "source": "ScienceDaily",
+          "summary": "Ariel, one of Uranus’ moons, may once have contained a subsurface ocean more than 100 miles deep beneath its fractured icy shell.",
+          "published": "2026-09-24T11:19:19+00:00",
+          "regional": false
+        },
+        {
           "title": "When and how to see the Harvest Moon in 2026",
           "link": "https://www.bbc.co.uk/weather/articles/cmp8dr34rz0yo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
-          "summary": "September's full Moon will rise across on Saturday 26 September. The best viewing conditions currently look to be across southern and eastern parts of the UK.",
+          "summary": "September's full Moon will rise on Saturday 26 September. The best viewing conditions currently look to be across southern and eastern parts of the UK.",
           "published": "2026-09-24T10:46:15+00:00",
           "regional": false
         },
@@ -487,70 +599,6 @@
           "source": "ESA",
           "summary": "On 16–17 September, the European Space Agency (ESA) hosted a record 3100 visitors from Europe’s space industry for a two-day Industry Space Days (ISD) event at ESA’s ESTEC technical centre in the Netherlands.",
           "published": "2026-09-24T07:05:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Modernizes Commercial Airline Systems",
-          "link": "https://www.nasa.gov/directorates/armd/aosp/nasa-modernizes-commercial-airline-systems/",
-          "source": "NASA",
-          "summary": "NASA’s researchers know that when you settle into your seat on a commercial flight, you expect a smooth takeoff, views over the clouds, a steady descent, and hopefully an early arrival at your destination.",
-          "published": "2026-09-23T22:08:54+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Welcomes Croatia as Newest Artemis Accords Signatory",
-          "link": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-croatia-as-newest-artemis-accords-signatory/",
-          "source": "NASA",
-          "summary": "The Republic of Croatia became the 74th signatory to the Artemis Accords on Wednesday during a ceremony in the capital city of Zagreb with NASA and U.S. Department of State officials present.",
-          "published": "2026-09-23T20:37:19+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Selects Far-Infrared Telescope as First in New Mission Class",
-          "link": "https://www.nasa.gov/news-release/nasa-selects-far-infrared-telescope-as-first-in-new-mission-class/",
-          "source": "NASA",
-          "summary": "NASA announced Wednesday a mission to explore the history and evolution of the universe, PRIMA (PRobe far-Infrared Mission for Astrophysics), is advancing to the next phase of development.",
-          "published": "2026-09-23T20:09:42+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Aircraft to Make Low-Altitude Research Flights Over Colorado",
-          "link": "https://www.nasa.gov/general/nasa-aircraft-to-make-low-altitude-research-flights-over-colorado/",
-          "source": "NASA",
-          "summary": "Agricultural emissions represent an important and understudied part of Earth’s land and atmosphere systems. The FarmFlux mission will deploy more than a dozen sensors to measure ozone, methane, ammonia, particulates,…",
-          "published": "2026-09-23T19:03:03+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Hubble Telescope Reaches Milestone, Looks for Elusive Supernova",
-          "link": "https://www.nasa.gov/image-article/nasas-hubble-telescope-reaches-milestone-looks-for-elusive-supernova/",
-          "source": "NASA",
-          "summary": "NASA’s Hubble Space Telescope captured this image of massive galaxy cluster MACS J0417 (left of center) on Sept. 19, 2026.",
-          "published": "2026-09-23T18:43:43+00:00",
-          "regional": false
-        },
-        {
-          "title": "Shannon Lucid’s Record-Setting Mission Aboard Mir",
-          "link": "https://www.nasa.gov/image-article/shannon-lucids-record-setting-mission-aboard-mir/",
-          "source": "NASA",
-          "summary": "Shannon Lucid’s Record-Setting Mission Aboard Mir Three days before returning to Earth, Shannon W. Lucid—who joined NASA in 1978 as one of its first six female astronauts—checked in on wheat growing in the Svet…",
-          "published": "2026-09-23T16:03:37+00:00",
-          "regional": false
-        },
-        {
-          "title": "First switch on for ESA-JAXA Ramses asteroid mission",
-          "link": "https://www.esa.int/Space_Safety/Planetary_Defence/First_switch_on_for_ESA-JAXA_Ramses_asteroid_mission",
-          "source": "ESA",
-          "summary": "The European Space Agency’s and Japan Aerospace Exploration Agency’s Ramses planetary defence spacecraft has been turned on for the first time by its prime contractor – marking a major milestone in its time-critical…",
-          "published": "2026-09-23T11:17:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "A hitchhiker’s guide to Hera’s target asteroids",
-          "link": "https://www.esa.int/Space_Safety/Hera/A_hitchhiker_s_guide_to_Hera_s_target_asteroids",
-          "source": "ESA",
-          "summary": "Currently speeding through deep space at 12 km/s relative to Earth, ESA’s Hera spacecraft is due to reach its target Dimorphos asteroid this November.",
-          "published": "2026-09-23T08:10:00+00:00",
           "regional": false
         },
         {
@@ -634,28 +682,20 @@
           "regional": false
         },
         {
-          "title": "Venus may have swallowed its own moon",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260915232122.htm",
-          "source": "ScienceDaily",
-          "summary": "Venus may have once had a moon, but new research suggests the planet’s incredibly slow rotation could have doomed it.",
-          "published": "2026-09-16T11:49:57+00:00",
-          "regional": false
+          "title": "Google to test AI chip in space",
+          "link": "https://www.thehindu.com/sci-tech/technology/google-to-test-ai-chip-in-space/article71507882.ece",
+          "source": "The Hindu",
+          "summary": "Project Suncatcher will enable Google’s experts to test hardware survival, cooling processes, and satellite interconnectivity",
+          "published": "2026-09-25T08:44:02+00:00",
+          "regional": true
         },
         {
-          "title": "Warning of space arms race as US confirms weapons in Earth's orbit",
-          "link": "https://www.bbc.co.uk/news/videos/cmn07yjqg5rwo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "The BBC's defence correspondent Jonathan Beale explains what an arms race in space might look like - and what it could mean for us on the ground.",
-          "published": "2026-09-15T17:35:02+00:00",
-          "regional": false
-        },
-        {
-          "title": "FLEX and Sentinel-3C launch highlights",
-          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/09/FLEX_and_Sentinel-3C_launch_highlights",
-          "source": "ESA",
-          "summary": "Video: 00:03:22 ESA’s state-of-the-art FLEX Earth Explorer satellite and the Copernicus Sentinel-3C satellite have been launched together aboard a Vega-C rocket from Europe’s Spaceport in French Guiana, marking a new…",
-          "published": "2026-09-15T07:00:00+00:00",
-          "regional": false
+          "title": "People's fear and mistrust in authority leads to cybercrime, say experts at report launch on policing",
+          "link": "https://www.thehindu.com/sci-tech/technology/peoples-fear-and-mistrust-in-authority-leads-to-cybercrime-say-experts-at-report-launch-on-policing/article71507054.ece",
+          "source": "The Hindu",
+          "summary": "The report, building onto its earlier reports documenting public trust and experience with police, examines the modus operandi of cybercriminals, the lived experience of victims, the digital habits and vulnerabilities…",
+          "published": "2026-09-25T07:09:36+00:00",
+          "regional": true
         },
         {
           "title": "Sennheiser launches Momentum 5 wireless and Momentum true wireless 5",
@@ -671,6 +711,14 @@
           "source": "The Hindu",
           "summary": "Test your knowledge of historic Mars Orbiter Mission, which made India the first Asian nation to reach Mars orbit and the first nation globally to succeed on its maiden attempt",
           "published": "2026-09-24T06:08:54+00:00",
+          "regional": true
+        },
+        {
+          "title": "Xiaomi launches 18 Pro with 2nm Snapdragon platform and AI back display",
+          "link": "https://technode.com/2026/09/24/xiaomi-launches-18-pro-with-2nm-snapdragon-platform-and-ai-back-display/",
+          "source": "TechNode",
+          "summary": "Xiaomi has launched the Xiaomi 18 Pro in China, with prices starting at RMB 5,999. The phone is the first to use Qualcomm’s sixth-generation Snapdragon 8 Elite platform built on a 2nm process, with a peak CPU frequency…",
+          "published": "2026-09-24T05:37:56+00:00",
           "regional": true
         },
         {
@@ -698,22 +746,6 @@
           "regional": true
         },
         {
-          "title": "H3 Rocket No. 9 launch successful — Carries Quasi-Zenith Satellite Michibiki No. 7",
-          "link": "https://sj.jst.go.jp/news/202609/n0917-01p.html",
-          "source": "Science Japan",
-          "summary": "Large rocket \"H3\" No. 9 was launched from the Tanegashima Space Center in Kagoshima Prefecture at 4:23:31 a.m. on the 11th.",
-          "published": "2026-09-17T04:33:43+00:00",
-          "regional": true
-        },
-        {
-          "title": "Weapons in orbit are forcing old space laws into new struggles for power",
-          "link": "https://www.thehindu.com/sci-tech/technology/weapons-in-orbit-are-forcing-old-space-laws-into-new-struggles-for-power/article71475210.ece",
-          "source": "The Hindu",
-          "summary": "The U.S. and other major space powers have long developed counter-space capabilities; but why has this sparked a debate now?",
-          "published": "2026-09-17T03:06:28+00:00",
-          "regional": true
-        },
-        {
           "title": "U.S. ‘weapons in orbit’: what we should expect modern space war to look like",
           "link": "https://www.thehindu.com/sci-tech/science/how-dual-use-satellites-are-blurring-the-lines-of-modern-space-war/article70934695.ece",
           "source": "The Hindu",
@@ -728,14 +760,6 @@
           "summary": "Three astronauts inside a sealed spacecraft cannot rely on Earth’s natural environment. In Episode 6 of The Scope: Gaganyaan — India’s Leap, we look at the Environmental Control and Life Support System (ECLSS) that will…",
           "published": "2026-09-11T14:55:56+00:00",
           "regional": true
-        },
-        {
-          "title": "ESA to explore cooperation with ISRO in human space flight, lunar and Venus missions",
-          "link": "https://www.thehindu.com/sci-tech/science/esa-to-explore-cooperation-with-isro-in-human-space-flight-lunar-and-venus-missions/article71445422.ece",
-          "source": "The Hindu",
-          "summary": "ISRO and ESA have already signed a Technical Implementing Plan (TIP) document for Ground Tracking Support for Gaganyaan missions",
-          "published": "2026-09-09T06:57:25+00:00",
-          "regional": true
         }
       ]
     },
@@ -746,10 +770,42 @@
       "accent": "#B98CE0",
       "items": [
         {
+          "title": "What’s the point of the interstellar Fermi Explorer mission?",
+          "link": "https://www.scientificamerican.com/article/whats-the-point-of-the-interstellar-fermi-explorer-mission/",
+          "source": "Scientific American",
+          "summary": "Fermi Explorer, a proposed low-cost private mission to Alpha Centauri, seeks to address a question that’s already been answered",
+          "published": "2026-09-25T10:45:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Vox’s Unexplainable and Scientific American explore the mystery of dark matter and the limits of science",
+          "link": "https://www.scientificamerican.com/podcast/episode/voxs-unexplainable-and-scientific-american-explore-the-mystery-of-dark-matter-and-the-limits-of-science/",
+          "source": "Scientific American",
+          "summary": "What if the universe’s biggest mystery has no answer?",
+          "published": "2026-09-25T10:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "“We found something never seen before” – A dead star is producing a shock wave that shouldn’t exist",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260924020410.htm",
+          "source": "ScienceDaily",
+          "summary": "A dead white dwarf with no detectable disk has somehow produced a powerful shock wave that appears to have persisted for at least 1,000 years.",
+          "published": "2026-09-25T03:19:34+00:00",
+          "regional": false
+        },
+        {
+          "title": "These massive stars could explain Webb’s strangest galaxies",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260923035922.htm",
+          "source": "ScienceDaily",
+          "summary": "Hubble observations of massive stars in metal-poor dwarf galaxies are revealing clues to why the early universe looks so unusual.",
+          "published": "2026-09-24T10:42:50+00:00",
+          "regional": false
+        },
+        {
           "title": "See the Taurids light up the fall sky with brilliant shooting stars",
           "link": "https://www.scientificamerican.com/article/see-the-taurids-light-up-the-fall-sky-with-brilliant-shooting-stars/",
           "source": "Scientific American",
-          "summary": "Lasting from mid-September until mid-December, the Taurid meteor showers are among the longest of the year",
+          "summary": "Lasting from mid-September until mid-November, the Taurid meteor showers are among the longest of the year",
           "published": "2026-09-23T19:37:00+00:00",
           "regional": false
         },
@@ -842,14 +898,6 @@
           "regional": false
         },
         {
-          "title": "A $100 detector can see invisible particles raining down from space",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260917003725.htm",
-          "source": "ScienceDaily",
-          "summary": "A pocket-sized, roughly $100 detector can reveal the invisible stream of cosmic particles constantly passing through Earth and even through our bodies.",
-          "published": "2026-09-17T13:54:19+00:00",
-          "regional": false
-        },
-        {
           "title": "Astronomers just found the youngest known planet ever",
           "link": "https://www.sciencedaily.com/releases/2026/09/260917003712.htm",
           "source": "ScienceDaily",
@@ -863,14 +911,6 @@
           "source": "ScienceDaily",
           "summary": "New supercomputer simulations suggest JWST’s puzzling Little Red Dots are rapidly growing black holes from the early Universe.",
           "published": "2026-09-17T12:45:48+00:00",
-          "regional": false
-        },
-        {
-          "title": "Venus may have swallowed its own moon",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260915232122.htm",
-          "source": "ScienceDaily",
-          "summary": "Venus may have once had a moon, but new research suggests the planet’s incredibly slow rotation could have doomed it.",
-          "published": "2026-09-16T11:49:57+00:00",
           "regional": false
         },
         {
@@ -919,22 +959,6 @@
           "source": "ScienceDaily",
           "summary": "Astronomers have detected an exceptionally faint hydrogen radio signal from billions of light-years away using South Africa’s MeerKAT telescope.",
           "published": "2026-09-09T03:06:55+00:00",
-          "regional": false
-        },
-        {
-          "title": "Dying radio galaxies fade faster than scientists expected",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260901010656.htm",
-          "source": "ScienceDaily",
-          "summary": "Astronomers have identified a surprisingly young population of fading radio galaxies whose supermassive black holes have already switched off their powerful jets.",
-          "published": "2026-09-04T10:07:20+00:00",
-          "regional": false
-        },
-        {
-          "title": "BBC Inside Science",
-          "link": "https://www.bbc.co.uk/sounds/play/w3ct9783?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Researchers may have discovered the signature of a bit of dark matter.",
-          "published": "2026-09-03T20:00:00+00:00",
           "regional": false
         },
         {
