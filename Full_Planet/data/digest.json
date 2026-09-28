@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-27T14:24:46.350025+00:00",
-  "generated_human": "27 September 2026, 14:24 UTC",
-  "total_items": 120,
+  "generated": "2026-09-28T17:09:50.732077+00:00",
+  "generated_human": "28 September 2026, 17:09 UTC",
+  "total_items": 119,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "Growing AI energy demands, the search for subatomic particles and the hottest amoeba",
+          "link": "https://www.scientificamerican.com/podcast/episode/growing-ai-energy-demands-the-search-for-subatomic-particles-and-the-hottest-amoeba/",
+          "source": "Scientific American",
+          "summary": "From the smallest building blocks of life to prehistoric vomit and a newly discovered amoeba that can really take the heat.",
+          "published": "2026-09-28T10:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "Why Read a Research Paper When You Can Turn It Into an AI Agent?",
           "link": "https://spectrum.ieee.org/paper2agent-ai-agents-research-papers",
@@ -26,28 +34,28 @@
           "regional": false
         },
         {
-          "title": "AI labs are claiming “AGI” is imminent—but does that mean what we think it means?",
-          "link": "https://www.scientificamerican.com/article/ai-labs-are-claiming-agi-is-imminent-but-does-that-mean-what-we-think-it-means/",
-          "source": "Scientific American",
-          "summary": "Artificial general intelligence was once a term confined to technical science papers, but its meaning has slipped",
-          "published": "2026-09-17T10:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Building the materials foundation for AI",
-          "link": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/",
-          "source": "MIT Technology Review",
-          "summary": "The AI boom is becoming a materials challenge. As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it.",
-          "published": "2026-09-16T12:47:34+00:00",
-          "regional": false
-        },
-        {
           "title": "AI uncovers hidden Ozempic side effects across 400,000 Reddit posts",
           "link": "https://www.sciencedaily.com/releases/2026/09/260912222856.htm",
           "source": "ScienceDaily",
           "summary": "AI analysis of 400,000 Reddit posts found that users of drugs such as Ozempic, Wegovy, Mounjaro, and Zepbound reported unexpected symptoms including menstrual changes, chills, hot flashes, and fatigue.",
           "published": "2026-09-13T10:46:19+00:00",
           "regional": false
+        },
+        {
+          "title": "ByteDance grabs one-fifth of China’s data centre capacity as AI drives infrastructure boom",
+          "link": "https://www.scmp.com/tech/big-tech/article/3369056/bytedance-grabs-one-fifth-chinas-data-centre-capacity-ai-drives-infrastructure-boom?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "ByteDance accounts for roughly one-fifth of China’s delivered data centre capacity, making the TikTok owner the country’s largest tenant and a main driver of its artificial intelligence buildout, according to new…",
+          "published": "2026-09-28T09:00:41+00:00",
+          "regional": true
+        },
+        {
+          "title": "Hanwha Asset Management rolls out AI platform Odin",
+          "link": "https://www.koreaherald.com/article/10886304",
+          "source": "The Korea Herald",
+          "summary": "Hanwha Asset Management has deployed its proprietary artificial intelligence platform, Odin, companywide to help employees analyze markets and manage client relationships, the firm said Monday.",
+          "published": "2026-09-28T05:14:49+00:00",
+          "regional": true
         },
         {
           "title": "Alibaba unveils ‘pragmatic’ AI road map to drive monetisation, infrastructure efficiency",
@@ -90,14 +98,6 @@
           "regional": true
         },
         {
-          "title": "APR obtains two international AI certifications",
-          "link": "https://www.koreaherald.com/article/10882008",
-          "source": "The Korea Herald",
-          "summary": "Korean beauty company APR said Tuesday it has obtained ISO/IEC 42001 certification for artificial intelligence management systems and the AI Trust Mark from Norwegian certification body Nemko.",
-          "published": "2026-09-22T02:45:07+00:00",
-          "regional": true
-        },
-        {
           "title": "US, China agree AI dialogue ahead of Trump-Xi summit",
           "link": "https://www.scmp.com/plus/news/china/diplomacy/article/3368245/us-china-agree-ai-dialogue-ahead-trump-xi-summit?utm_source=rss_feed",
           "source": "South China Morning Post",
@@ -111,14 +111,6 @@
           "source": "South China Morning Post",
           "summary": "Neither Beijing nor Washington can win the race for artificial intelligence dominance without relying on other countries, a Bank of America analyst said ahead of this week’s high-stakes bilateral summit, citing deeply…",
           "published": "2026-09-21T07:00:13+00:00",
-          "regional": true
-        },
-        {
-          "title": "As the US weighs restrictions on cloud computing, how will China’s AI sector adapt?",
-          "link": "https://www.scmp.com/tech/big-tech/article/3368011/us-weighs-restrictions-cloud-computing-how-will-chinas-ai-sector-adapt?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "When Chinese artificial intelligence developers want to train their next-generation frontier models, they all face the same daunting wall: they cannot legally buy the world’s most powerful AI chips.",
-          "published": "2026-09-21T02:00:26+00:00",
           "regional": true
         },
         {
@@ -137,14 +129,6 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
-        {
-          "title": "Toxic waste: 'Every person that played in the pool is dead'",
-          "link": "https://www.bbc.co.uk/news/videos/cqkgv3dr5gjeo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Michael Phillips played at a lagoon as a child, oblivious to the toxic chemicals within.",
-          "published": "2026-09-24T22:10:35+00:00",
-          "regional": false
-        },
         {
           "title": "Diesel fuel prices are rising—chemistry can help explain why",
           "link": "https://www.scientificamerican.com/article/diesel-fuel-prices-are-rising-chemistry-can-help-explain-why/",
@@ -202,12 +186,12 @@
           "regional": false
         },
         {
-          "title": "An important step towards detecting fractons in quantum spin liquids",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260903064222.htm",
-          "source": "ScienceDaily",
-          "summary": "A more realistic quantum model has revealed evidence that strange, nearly immobile quasiparticles called fractons could exist in solid materials.",
-          "published": "2026-09-07T05:45:36+00:00",
-          "regional": false
+          "title": "LG Chem, Volkswagen Group team up on advanced automotive materials",
+          "link": "https://www.koreaherald.com/article/10886150",
+          "source": "The Korea Herald",
+          "summary": "LG Chem has formed a partnership with Volkswagen Group to jointly develop next-generation and environmentally friendly materials for future mobility, the company said Monday.",
+          "published": "2026-09-28T03:16:32+00:00",
+          "regional": true
         },
         {
           "title": "Korea's manufacturing sentiment improves on strong chip, cosmetics exports",
@@ -274,14 +258,6 @@
           "regional": true
         },
         {
-          "title": "Kolon Industries ramps up advanced materials for AI, autos, medical markets",
-          "link": "https://www.koreaherald.com/article/10881774",
-          "source": "The Korea Herald",
-          "summary": "Kolon Industries is expanding its high-value materials portfolio across automotive, medical and artificial intelligence-related markets, targeting about 200 billion won ($145 million) in sales from modified…",
-          "published": "2026-09-22T01:42:00+00:00",
-          "regional": true
-        },
-        {
           "title": "Ways to conquer plastic waste and produce useful materials",
           "link": "https://www.thehindu.com/sci-tech/science/ways-to-conquer-plastic-waste-and-produce-useful-materials/article71465422.ece",
           "source": "The Hindu",
@@ -321,6 +297,14 @@
       "tagline": "New ways to generate clean energy, capture carbon, and bring fresh water and power to people, cities, and transport.",
       "accent": "#33C6D6",
       "items": [
+        {
+          "title": "Offshore wind plant to bring jobs boost to Montrose",
+          "link": "https://www.bbc.co.uk/news/articles/cq62jyk4ekp7o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "The new facility will manufacture parts for offshore wind farms in Scottish waters and for overseas markets.",
+          "published": "2026-09-28T11:01:46+00:00",
+          "regional": false
+        },
         {
           "title": "India is producing more green energy - but wasting a lot of it",
           "link": "https://www.bbc.co.uk/news/articles/c8xkvzlz0x4o?at_medium=RSS&at_campaign=rss",
@@ -400,6 +384,14 @@
           "summary": "A new chemical process can transform three of the most common plastics into high-purity hydrogen without sorting them first.",
           "published": "2026-07-31T12:46:18+00:00",
           "regional": false
+        },
+        {
+          "title": "Child malnutrition is one of Africa’s biggest health challenges: food aid is only part of the solution",
+          "link": "https://theconversation.com/child-malnutrition-is-one-of-africas-biggest-health-challenges-food-aid-is-only-part-of-the-solution-291163",
+          "source": "The Conversation",
+          "summary": "A lack of food is not the only cause of malnutrition. Poverty, disease, poor sanitation, climate pressures and limited access to healthcare also shape it.",
+          "published": "2026-09-28T13:47:25+00:00",
+          "regional": true
         },
         {
           "title": "India’s vast canal network offers a land-free path to solar power",
@@ -482,6 +474,102 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "Watch: Starship splashdown ends in fireball",
+          "link": "https://www.bbc.co.uk/news/videos/c6j9xkdvrd94o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "The mission was supposed to last 10 hours, but SpaceX announced it was ending after 90 minutes.",
+          "published": "2026-09-28T16:28:10+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Celebrates as Artemis Accords Surpasses 75 Signatories",
+          "link": "https://www.nasa.gov/news-release/nasa-celebrates-as-artemis-accords-surpasses-75-signatories/",
+          "source": "NASA",
+          "summary": "Marking a significant expansion in the number of signatories to the Artemis Accords, NASA welcomed Albania, Croatia, Côte d’Ivoire, and San Marino, bringing total participation to 76 countries.",
+          "published": "2026-09-28T16:26:45+00:00",
+          "regional": false
+        },
+        {
+          "title": "Meet NASA’s Artemis II Crew During Houston Public Event",
+          "link": "https://www.nasa.gov/news-release/meet-nasas-artemis-ii-crew-during-houston-public-event/",
+          "source": "NASA",
+          "summary": "The four astronauts of NASA’s Artemis II mission will participate in an event hosted by industry and community partners at the University of Houston to discuss their mission around the Moon aboard the Orion spacecraft.",
+          "published": "2026-09-28T16:16:40+00:00",
+          "regional": false
+        },
+        {
+          "title": "What You Need to Know About NASA’s SpaceX Crew-13 Mission",
+          "link": "https://www.nasa.gov/missions/station/commercial-crew/what-you-need-to-know-about-nasas-spacex-crew-13-mission/",
+          "source": "NASA",
+          "summary": "Four crew members are set to launch to the International Space Station as part of NASA’s SpaceX Crew-13 mission to perform research, technology demonstrations, and maintenance aboard the orbiting laboratory.",
+          "published": "2026-09-28T16:09:09+00:00",
+          "regional": false
+        },
+        {
+          "title": "Space Station View of Earth at Night",
+          "link": "https://www.nasa.gov/image-article/space-station-view-of-earth-at-night/",
+          "source": "NASA",
+          "summary": "This nighttime view of the United States, dotted with city lights looking toward New York City (center), was taken at approximately 3:40 a.m. local time on Sept.",
+          "published": "2026-09-28T15:21:36+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA ORBIT Challenge 2027",
+          "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-orbit-challenge-2027/",
+          "source": "NASA",
+          "summary": "The NASA ORBIT (Opportunities in Research, Business, Innovation, and Technology for the Workforce) Challenge invites university and community college students nationwide to work with real NASA intellectual property and…",
+          "published": "2026-09-28T14:56:39+00:00",
+          "regional": false
+        },
+        {
+          "title": "Watch: SpaceX launches Starship rocket into orbit for first time",
+          "link": "https://www.bbc.co.uk/news/videos/c6ge4lp442npo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Until now, all Starship flights have been suborbital, meaning the capsules did not complete a loop around the Earth.",
+          "published": "2026-09-28T13:59:06+00:00",
+          "regional": false
+        },
+        {
+          "title": "Contractor to Civil Servant: NASA Welcomes Kristie Foster",
+          "link": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-kristie-foster/",
+          "source": "NASA",
+          "summary": "Kristie Foster paved her road to becoming a NASA civil servant with literal miles of dedication. Her work at the agency’s Stennis Space Center near Bay St.",
+          "published": "2026-09-28T13:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "SpaceX’s Starship lifts off in make-or-break orbital test flight",
+          "link": "https://www.scientificamerican.com/article/spacexs-starship-lifts-off-in-make-or-break-orbital-test-flight/",
+          "source": "Scientific American",
+          "summary": "The world’s largest rocket successfully entered orbit for the first time—a milestone for SpaceX and a relief for future NASA moon missions",
+          "published": "2026-09-28T12:40:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "One geology step closer to the Moon",
+          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/One_geology_step_closer_to_the_Moon",
+          "source": "ESA",
+          "summary": "As we prepare to return to the Moon, Europe’s leading geology training for astronauts PANGAEA celebrates its 10th anniversary turning extraordinary places on Earth into classrooms for space exploration.",
+          "published": "2026-09-28T12:03:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "The ups and downs of SpaceX's Starship test flights",
+          "link": "https://www.bbc.co.uk/news/videos/c5zjzx49p049o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "The BBC's Ricky Boleto looks how previous SpaceX test flights went.",
+          "published": "2026-09-27T21:03:42+00:00",
+          "regional": false
+        },
+        {
+          "title": "Watch: The ups and downs of SpaceX's 13 Starship test flights",
+          "link": "https://www.bbc.co.uk/news/videos/cm0e30lpngxpo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "The BBC's Ricky Boleto looks how previous SpaceX test flights went.",
+          "published": "2026-09-27T20:05:07+00:00",
+          "regional": false
+        },
+        {
           "title": "Your pictures of the Harvest Moon shimmering across the UK sky",
           "link": "https://www.bbc.co.uk/weather/articles/cm70lpzywlpdo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
@@ -506,54 +594,6 @@
           "regional": false
         },
         {
-          "title": "NASA, Boeing to Provide Update on Starliner Development",
-          "link": "https://www.nasa.gov/news-release/nasa-boeing-to-provide-update-on-starliner-development/",
-          "source": "NASA",
-          "summary": "During a news conference at 3 p.m. EDT on Monday, Sept. 28, NASA and Boeing leadership will discuss Starliner’s development and plans for regular crew flights to and from the International Space Station.",
-          "published": "2026-09-25T22:06:50+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Welcomes San Marino Signing the Artemis Accords",
-          "link": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-san-marino-signing-the-artemis-accords/",
-          "source": "NASA",
-          "summary": "The Republic of San Marino became the 76th signatory to the Artemis Accords during a ceremony in the city of Rimini on Friday with NASA and U.S. Department of State officials present.",
-          "published": "2026-09-25T19:53:03+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Tests Dual Mode Propulsion CubeSat Ahead of Launch",
-          "link": "https://www.nasa.gov/directorates/rtmd/nasa-tests-dual-mode-propulsion-cubesat-ahead-of-launch/",
-          "source": "NASA",
-          "summary": "Spacecraft propulsion traditionally relies on volatile fuels and separate, bulky systems for different types of maneuvering in space. NASA is working to change that paradigm.",
-          "published": "2026-09-25T19:36:10+00:00",
-          "regional": false
-        },
-        {
-          "title": "Space museum launched by Britain's first astronaut",
-          "link": "https://www.bbc.co.uk/news/articles/crpd00leqy1go?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Helen Sharman officially opened the John Dulcamara Space Flight Museum at Grizedale Observatory.",
-          "published": "2026-09-25T16:49:09+00:00",
-          "regional": false
-        },
-        {
-          "title": "Jupiter-bound spacecraft Juice to fly by Earth Monday",
-          "link": "https://www.scientificamerican.com/article/jupiter-bound-spacecraft-juice-to-fly-by-earth-monday/",
-          "source": "Scientific American",
-          "summary": "To get to the outer solar system, the Juice spacecraft needs an assist from Earth’s gravity—and it’s going to be taking pictures along the way",
-          "published": "2026-09-25T12:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "What’s the point of the interstellar Fermi Explorer mission?",
-          "link": "https://www.scientificamerican.com/article/whats-the-point-of-the-interstellar-fermi-explorer-mission/",
-          "source": "Scientific American",
-          "summary": "Fermi Explorer, a proposed low-cost private mission to Alpha Centauri, seeks to address a question that’s already been answered",
-          "published": "2026-09-25T10:45:00+00:00",
-          "regional": false
-        },
-        {
           "title": "ESA and the EU partner with Museo Galileo on new exhibition",
           "link": "https://www.esa.int/Applications/Satellite_navigation/Galileo/ESA_and_the_EU_partner_with_Museo_Galileo_on_new_exhibition",
           "source": "ESA",
@@ -570,38 +610,6 @@
           "regional": false
         },
         {
-          "title": "Win a trip to ESA to witness BepiColombo arrive at Mercury",
-          "link": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Win_a_trip_to_ESA_to_witness_BepiColombo_arrive_at_Mercury",
-          "source": "ESA",
-          "summary": "Get ready to celebrate BepiColombo ’s arrival at Mercury. Craft a welcoming message that could be a drawing, song, poem or any other art form and stand a chance to win a trip to mission control!",
-          "published": "2026-09-24T13:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "“We just need to go back” – Uranus’ moon Ariel may have hidden a 100-mile-deep ocean",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260923035951.htm",
-          "source": "ScienceDaily",
-          "summary": "Ariel, one of Uranus’ moons, may once have contained a subsurface ocean more than 100 miles deep beneath its fractured icy shell.",
-          "published": "2026-09-24T11:19:19+00:00",
-          "regional": false
-        },
-        {
-          "title": "When and how to see the Harvest Moon in 2026",
-          "link": "https://www.bbc.co.uk/weather/articles/cmp8dr34rz0yo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "September's full Moon will rise on Saturday 26 September. The best viewing conditions currently look to be across southern and eastern parts of the UK.",
-          "published": "2026-09-24T10:46:15+00:00",
-          "regional": false
-        },
-        {
-          "title": "Record participation in ESA’s Industry Space Days 2026",
-          "link": "https://www.esa.int/About_Us/Business_with_ESA/Record_participation_in_ESA_s_Industry_Space_Days_2026",
-          "source": "ESA",
-          "summary": "On 16–17 September, the European Space Agency (ESA) hosted a record 3100 visitors from Europe’s space industry for a two-day Industry Space Days (ISD) event at ESA’s ESTEC technical centre in the Netherlands.",
-          "published": "2026-09-24T07:05:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Scientists discover largest new impact crater in the solar system ever—on our moon",
           "link": "https://www.scientificamerican.com/article/scientists-discover-largest-new-impact-crater-in-the-solar-system-ever-on-our-moon/",
           "source": "Scientific American",
@@ -615,14 +623,6 @@
           "source": "Scientific American",
           "summary": "2025 was a brutal year of budget cuts and workforce attrition at NASA’s Goddard Space Flight Center, the home base for the Nancy Grace Roman Space Telescope.",
           "published": "2026-09-22T11:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "A strange circle on satellite maps turned out to be a 390-million-year-old impact crater",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260921081101.htm",
-          "source": "ScienceDaily",
-          "summary": "An amateur astronomer searching satellite maps for a Quebec camping spot accidentally discovered a massive ancient impact crater.",
-          "published": "2026-09-22T10:43:31+00:00",
           "regional": false
         },
         {
@@ -666,12 +666,20 @@
           "regional": false
         },
         {
-          "title": "A galaxy spinning out of sync",
-          "link": "https://www.esa.int/ESA_Multimedia/Images/2026/09/A_galaxy_spinning_out_of_sync",
-          "source": "ESA",
-          "summary": "Image: Though the spiral galaxy in this new image by the NASA/ESA Hubble Space Telescope seems serene, it hides a chaotic secret.",
-          "published": "2026-09-18T08:00:00+00:00",
-          "regional": false
+          "title": "SpaceX puts Starship megarocket in orbit for first time",
+          "link": "https://www.thehindu.com/news/international/spacex-puts-starship-megarocket-in-orbit-for-first-time/article71521071.ece",
+          "source": "The Hindu",
+          "summary": "The black-and-silver behemoth, standing more than 120 meters (131 yards) tall, rose through a thick cloud of smoke on an ambitious 14th test flight",
+          "published": "2026-09-28T16:23:25+00:00",
+          "regional": true
+        },
+        {
+          "title": "China’s space diplomacy brings Pakistani astronauts closer to orbit",
+          "link": "https://www.thehindu.com/sci-tech/science/chinas-space-diplomacy-brings-pakistani-astronauts-closer-to-orbit/article71518664.ece",
+          "source": "The Hindu",
+          "summary": "Pakistan’s space agency has provided the first insights into the programme to foreign media since the pilots were selected and deployed to China",
+          "published": "2026-09-28T08:05:46+00:00",
+          "regional": true
         },
         {
           "title": "Private spacecraft falls back to Earth after failing to rescue aging NASA telescope",
@@ -714,22 +722,6 @@
           "regional": true
         },
         {
-          "title": "Xiaomi launches 18 Pro with 2nm Snapdragon platform and AI back display",
-          "link": "https://technode.com/2026/09/24/xiaomi-launches-18-pro-with-2nm-snapdragon-platform-and-ai-back-display/",
-          "source": "TechNode",
-          "summary": "Xiaomi has launched the Xiaomi 18 Pro in China, with prices starting at RMB 5,999. The phone is the first to use Qualcomm’s sixth-generation Snapdragon 8 Elite platform built on a 2nm process, with a peak CPU frequency…",
-          "published": "2026-09-24T05:37:56+00:00",
-          "regional": true
-        },
-        {
-          "title": "Microsoft launches India South Central cloud region in Hyderabad",
-          "link": "https://www.thehindu.com/sci-tech/technology/microsoft-launches-india-south-central-cloud-region-in-hyderabad/article71490647.ece",
-          "source": "The Hindu",
-          "summary": "Hyderabad region is designed to support mission-critical and AI workloads at scale, with three availability zones and resilience aligned to India’s regulatory and seismic requirements.",
-          "published": "2026-09-21T08:04:11+00:00",
-          "regional": true
-        },
-        {
           "title": "NASA scan discovers new, ‘once in a century’ Moon crater",
           "link": "https://www.thehindu.com/sci-tech/science/nasa-discovers-massive-moon-crater-mcgetchin/article71482148.ece",
           "source": "The Hindu",
@@ -762,11 +754,27 @@
       "accent": "#B98CE0",
       "items": [
         {
-          "title": "The young women guiding tourists through India's night sky",
-          "link": "https://www.bbc.co.uk/news/articles/cvp8d0nezkeko?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Astronomy tourism is giving young women in Hanle income, confidence and a new role in their community.",
-          "published": "2026-09-26T23:02:47+00:00",
+          "title": "Surprising result seen in primordial matter inside atom smasher",
+          "link": "https://www.scientificamerican.com/article/surprising-result-seen-in-primordial-matter-inside-atom-smasher/",
+          "source": "Scientific American",
+          "summary": "Physicists at the Relativistic Heavy Ion Collider on Long Island have seen hints of a phase transition from the early universe",
+          "published": "2026-09-28T14:20:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "James Webb reveals why planet formation is a race against time",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260925093158.htm",
+          "source": "ScienceDaily",
+          "summary": "JWST has revealed that young planetary systems lose their planet-building gas through a changing mix of powerful jets, molecular winds, and radiation-driven outflows.",
+          "published": "2026-09-28T12:02:24+00:00",
+          "regional": false
+        },
+        {
+          "title": "Is the universe infinite? The answer gets weird fast",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260927225041.htm",
+          "source": "ScienceDaily",
+          "summary": "Measurements of ancient light from the cosmic microwave background suggest that the universe is remarkably flat.",
+          "published": "2026-09-28T03:18:42+00:00",
           "regional": false
         },
         {
@@ -775,14 +783,6 @@
           "source": "Scientific American",
           "summary": "Meet the Milky Way’s first microblazar",
           "published": "2026-09-25T18:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Space museum launched by Britain's first astronaut",
-          "link": "https://www.bbc.co.uk/news/articles/crpd00leqy1go?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Helen Sharman officially opened the John Dulcamara Space Flight Museum at Grizedale Observatory.",
-          "published": "2026-09-25T16:49:09+00:00",
           "regional": false
         },
         {
@@ -839,14 +839,6 @@
           "source": "ScienceDaily",
           "summary": "Astronomers have discovered the first globular cluster stellar stream beyond the Milky Way, opening a new way to study dark matter in distant galaxies.",
           "published": "2026-09-23T11:23:11+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Goddard’s shrinking workforce could stifle future space missions, experts say",
-          "link": "https://www.scientificamerican.com/article/nasa-goddards-shrinking-workforce-could-stifle-future-space-missions-experts-say/",
-          "source": "Scientific American",
-          "summary": "2025 was a brutal year of budget cuts and workforce attrition at NASA’s Goddard Space Flight Center, the home base for the Nancy Grace Roman Space Telescope.",
-          "published": "2026-09-22T11:00:00+00:00",
           "regional": false
         },
         {
