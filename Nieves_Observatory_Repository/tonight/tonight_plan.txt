@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-09-28 16:46 PDT
-; Observing window starts 2026-09-28 20:02 PDT  (LST 19:42:39)
+; Generated 2026-09-29 15:52 PDT
+; Observing window starts 2026-09-29 20:02 PDT  (LST 19:46:35)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -55,14 +55,6 @@ M 17
 #filter r'
 CT C/2024 J3
 #WAITINLIMITS 60
-
-; Open Cluster  mag 4.6  size 24.00'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-IC 4756
 
 ; Open Cluster  mag 5.8  size 9.00'  Amas de l'Ecu de Sobieski,Wild Duck Cluster
 #posang 0
@@ -169,6 +161,14 @@ MP Metis
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 7331
+
+; Supernova 2026aaiv in NGC 7331  Type Ia  mag 11.5  z=0.003000
+#posang 0
+#count 3,3
+#interval 300,300
+#binning 1,1
+#filter r',g'
+2026aaiv	22:37:05.618	+34:24:35.37
 
 ; Comet 161P/Hartley-IRAS  mag 10.7
 #posang 0
@@ -361,7 +361,7 @@ M 77
 CT 88P/Howell
 #WAITINLIMITS 60
 
-; Comet 220P/McNaught  mag 12.0
+; Comet 220P/McNaught  mag 13.0
 #posang 0
 #count 3
 #interval 300
@@ -460,6 +460,14 @@ NGC 2264
 #filter r',g',i',z'
 M 41
 
+; Supernova AT2026wyp in none  Type HPM  mag 14.5  z=n/a
+#posang 0
+#count 3,3
+#interval 300,300
+#binning 1,1
+#filter r',g'
+AT2026wyp	06:49:05.903	+37:06:08.52
+
 ; Open Cluster  mag 6.0  size 10.20'  Great Bird Cluster
 #posang 0
 #count 1,1,1,1
@@ -485,6 +493,14 @@ MP Ceres
 #filter r',g',i',z'
 NGC 2360
 
+; Open Cluster  mag 4.4  size 19.80'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 47
+
 ; Galaxy  mag 8.4  size 19.95'
 #posang 0
 #count 1,1,1,1
@@ -492,6 +508,14 @@ NGC 2360
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 2403
+
+; Galaxy  mag 11.7  size 2.07'  Bear Claw Nebula,Bear-Paw Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 2537
 
 ; Planet: Mars
 #posang 0
@@ -501,14 +525,6 @@ NGC 2403
 #filter r'
 Mars
 #WAITINLIMITS 60
-
-; Galaxy  mag 11.7  size 2.07'  Bear Claw Nebula,Bear-Paw Galaxy
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 2537
 
 ; Open Cluster  mag 3.1  size 108.60'  Beehive,Praesepe Cluster
 #posang 0
@@ -557,6 +573,14 @@ M 82
 #binning 1,1,1,1
 #filter r',g',i',z'
 IC 2574
+
+; Supernova 2026sqf in NGC 3310  Type Ia-CSM  mag 12.3  z=0.003310
+#posang 0
+#count 3,3
+#interval 300,300
+#binning 1,1
+#filter r',g'
+2026sqf	10:38:47.961	+53:30:34.10
 
 ; Globular Cluster  mag 5.8  size 16.50'  Hercules Globular Cluster
 #posang 0
