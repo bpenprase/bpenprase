@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-28T17:09:50.732077+00:00",
-  "generated_human": "28 September 2026, 17:09 UTC",
-  "total_items": 119,
+  "generated": "2026-09-29T15:13:51.736218+00:00",
+  "generated_human": "29 September 2026, 15:13 UTC",
+  "total_items": 113,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "When can we say AI made a scientific discovery?",
+          "link": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
+          "source": "MIT Technology Review",
+          "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here.",
+          "published": "2026-09-28T17:03:16+00:00",
+          "regional": false
+        },
         {
           "title": "Growing AI energy demands, the search for subatomic particles and the hottest amoeba",
           "link": "https://www.scientificamerican.com/podcast/episode/growing-ai-energy-demands-the-search-for-subatomic-particles-and-the-hottest-amoeba/",
@@ -66,14 +74,6 @@
           "regional": true
         },
         {
-          "title": "LG Electronics, SK Enmove team up on AI data center cooling",
-          "link": "https://www.koreaherald.com/article/10883064",
-          "source": "The Korea Herald",
-          "summary": "LG Electronics and SK Enmove have agreed to jointly develop next-generation cooling materials and technologies for artificial intelligence data centers and other high-heat applications, the companies said Wednesday.",
-          "published": "2026-09-23T01:04:37+00:00",
-          "regional": true
-        },
-        {
           "title": "China’s active AI agents could reach 197 million by 2030, report says",
           "link": "https://technode.com/2026/09/22/chinas-active-ai-agents-could-reach-197-million-by-2030-report-says/",
           "source": "TechNode",
@@ -111,6 +111,14 @@
           "source": "South China Morning Post",
           "summary": "Neither Beijing nor Washington can win the race for artificial intelligence dominance without relying on other countries, a Bank of America analyst said ahead of this week’s high-stakes bilateral summit, citing deeply…",
           "published": "2026-09-21T07:00:13+00:00",
+          "regional": true
+        },
+        {
+          "title": "As the US weighs restrictions on cloud computing, how will China’s AI sector adapt?",
+          "link": "https://www.scmp.com/tech/big-tech/article/3368011/us-weighs-restrictions-cloud-computing-how-will-chinas-ai-sector-adapt?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "When Chinese artificial intelligence developers want to train their next-generation frontier models, they all face the same daunting wall: they cannot legally buy the world’s most powerful AI chips.",
+          "published": "2026-09-21T02:00:26+00:00",
           "regional": true
         },
         {
@@ -218,30 +226,6 @@
           "regional": true
         },
         {
-          "title": "SK On signs W1.1tr LFP materials deal with Posco Future M",
-          "link": "https://www.koreaherald.com/article/10883121",
-          "source": "The Korea Herald",
-          "summary": "South Korean battery maker SK On is teaming up with Posco Future M to secure lithium iron phosphate cathode materials, as it builds a supply chain for the US energy storage system market that excludes China.",
-          "published": "2026-09-23T01:22:57+00:00",
-          "regional": true
-        },
-        {
-          "title": "LG Electronics, SK Enmove team up on AI data center cooling",
-          "link": "https://www.koreaherald.com/article/10883064",
-          "source": "The Korea Herald",
-          "summary": "LG Electronics and SK Enmove have agreed to jointly develop next-generation cooling materials and technologies for artificial intelligence data centers and other high-heat applications, the companies said Wednesday.",
-          "published": "2026-09-23T01:04:37+00:00",
-          "regional": true
-        },
-        {
-          "title": "Seoul stocks edge up on chip gains amid renewed AI optimism",
-          "link": "https://www.koreaherald.com/article/10882384",
-          "source": "The Korea Herald",
-          "summary": "South Korean shares extended their winning streak to a third session on Tuesday as investors scooped up major semiconductor stocks, tracking an overnight rally on Wall Street amid renewed optimism over artificial…",
-          "published": "2026-09-22T06:58:37+00:00",
-          "regional": true
-        },
-        {
           "title": "Chemists report ‘milder’ way to swap carbon for nitrogen atoms",
           "link": "https://www.thehindu.com/sci-tech/science/chemists-report-milder-way-to-swap-carbon-for-nitrogen-atoms/article71494482.ece",
           "source": "The Hindu",
@@ -250,11 +234,11 @@
           "regional": true
         },
         {
-          "title": "LG Electronics, LG Energy Solution join Nvidia AI data center push",
-          "link": "https://www.koreaherald.com/article/10882095",
-          "source": "The Korea Herald",
-          "summary": "LG Electronics and LG Energy Solution have joined Nvidia’s newly launched DSX Ready program with cooling solutions and battery storage, respectively, strengthening the LG affiliates' foothold in the global AI data…",
-          "published": "2026-09-22T04:32:22+00:00",
+          "title": "Chip foundries better insulated in an AI slowdown than Asia-Pacific tech peers, S&P says",
+          "link": "https://www.scmp.com/tech/big-tech/article/3367973/chip-foundries-better-insulated-ai-slowdown-asia-pacific-tech-peers-sp-says?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "As market fears mount over waning Big Tech spending and calls to slow down frontier artificial intelligence development, Asia-Pacific semiconductor foundries are better positioned to withstand a potential downturn in AI…",
+          "published": "2026-09-18T07:00:09+00:00",
           "regional": true
         },
         {
@@ -303,14 +287,6 @@
           "source": "BBC Science",
           "summary": "The new facility will manufacture parts for offshore wind farms in Scottish waters and for overseas markets.",
           "published": "2026-09-28T11:01:46+00:00",
-          "regional": false
-        },
-        {
-          "title": "India is producing more green energy - but wasting a lot of it",
-          "link": "https://www.bbc.co.uk/news/articles/c8xkvzlz0x4o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "India has rapidly decarbonised electricity generation, but its gains are tempered by transmission shortages.",
-          "published": "2026-09-22T23:02:29+00:00",
           "regional": false
         },
         {
@@ -378,12 +354,12 @@
           "regional": false
         },
         {
-          "title": "New process turns plastic waste into hydrogen fuel while trapping the carbon",
-          "link": "https://www.sciencedaily.com/releases/2026/07/260729051521.htm",
-          "source": "ScienceDaily",
-          "summary": "A new chemical process can transform three of the most common plastics into high-purity hydrogen without sorting them first.",
-          "published": "2026-07-31T12:46:18+00:00",
-          "regional": false
+          "title": "Korea offers a way out of hydrogen’s supply-demand deadlock",
+          "link": "https://www.koreaherald.com/article/10887630",
+          "source": "The Korea Herald",
+          "summary": "South Korea’s efforts to develop hydrogen production and customers together offers a model for an industry struggling to get either side to commit first, according to Hydrogen Council CEO Ivana Jemelkova.",
+          "published": "2026-09-29T05:21:44+00:00",
+          "regional": true
         },
         {
           "title": "Child malnutrition is one of Africa’s biggest health challenges: food aid is only part of the solution",
@@ -399,22 +375,6 @@
           "source": "The Hindu",
           "summary": "Similar to floating solar, the biggest advantage of canal-top photovoltaics is that they require virtually no additional land, especially as land acquisition for large-scale solar is also becoming increasingly more…",
           "published": "2026-09-23T08:08:26+00:00",
-          "regional": true
-        },
-        {
-          "title": "SK On signs W1.1tr LFP materials deal with Posco Future M",
-          "link": "https://www.koreaherald.com/article/10883121",
-          "source": "The Korea Herald",
-          "summary": "South Korean battery maker SK On is teaming up with Posco Future M to secure lithium iron phosphate cathode materials, as it builds a supply chain for the US energy storage system market that excludes China.",
-          "published": "2026-09-23T01:22:57+00:00",
-          "regional": true
-        },
-        {
-          "title": "LG Electronics, LG Energy Solution join Nvidia AI data center push",
-          "link": "https://www.koreaherald.com/article/10882095",
-          "source": "The Korea Herald",
-          "summary": "LG Electronics and LG Energy Solution have joined Nvidia’s newly launched DSX Ready program with cooling solutions and battery storage, respectively, strengthening the LG affiliates' foothold in the global AI data…",
-          "published": "2026-09-22T04:32:22+00:00",
           "regional": true
         },
         {
@@ -450,14 +410,6 @@
           "regional": true
         },
         {
-          "title": "Can we go green without forever chemicals?",
-          "link": "https://www.dw.com/en/can-we-go-green-without-forever-chemicals/a-77888704?maca=en-rss_en_environment-22607-xml-mrss",
-          "source": "Deutsche Welle",
-          "summary": "As nations globally move to ban forever chemicals, should renewable energy technologies be exempt for the sake of saving the climate?",
-          "published": "2026-08-13T07:13:00+00:00",
-          "regional": true
-        },
-        {
           "title": "Are gas turbines ready for the hydrogen economy?",
           "link": "https://www.mpg.de/26888011/hydrogen-embrittlement-in-gas-turbines-at-elevated-temperatures",
           "source": "Max Planck Society",
@@ -474,6 +426,86 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "Happy New Year on Mars",
+          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Happy_New_Year_on_Mars",
+          "source": "ESA",
+          "summary": "30 September 2026 marks the start of a new year on Mars. At exactly 10:16 CEST/08:16 UTC on Earth, the Red Planet begins a new orbit around our Sun.",
+          "published": "2026-09-30T06:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Opens Applications for Second Season of ORBIT Student Challenge",
+          "link": "https://www.nasa.gov/learning-resources/research-program-for-students/",
+          "source": "NASA",
+          "summary": "Following a successful inaugural year of ingenuity and career building, NASA ORBIT (Opportunities in Research, Business, Innovation, and Technology) has officially returned for a second season to bring university and…",
+          "published": "2026-09-29T15:11:15+00:00",
+          "regional": false
+        },
+        {
+          "title": "Under the Microscope: NASA-Made Material for Moon Manufacturing",
+          "link": "https://www.nasa.gov/image-article/nasa-made-material-moon-manufacturing/",
+          "source": "NASA",
+          "summary": "Photos taken using a microscope reveal the colorful, kaleidoscope-like crystal structure of a new NASA-made material that could be used for manufacturing during future space missions.",
+          "published": "2026-09-29T14:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "ESA investigates potential future European-led orbital outpost",
+          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ESA_investigates_potential_future_European-led_orbital_outpost",
+          "source": "ESA",
+          "summary": "As part of the preparation for the end of utilisation of the International Space Station (ISS), the European Space Agency (ESA) awarded a contract to two European industrial consortia to conduct preliminary studies…",
+          "published": "2026-09-29T10:48:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Crew-13 could go from Florida to the ISS in under 9 hours",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260928100534.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA and SpaceX could launch four astronauts to the International Space Station on October 1, with the Dragon spacecraft reaching orbiting outpost less than nine hours after liftoff.",
+          "published": "2026-09-29T04:38:52+00:00",
+          "regional": false
+        },
+        {
+          "title": "This suitcase-sized spacecraft could hear the universe before stars existed",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260927225034.htm",
+          "source": "ScienceDaily",
+          "summary": "CosmoCube will use the far side of the Moon as a shield from Earth’s radio noise to search for a faint signal from the universe before the first stars existed.",
+          "published": "2026-09-29T03:45:39+00:00",
+          "regional": false
+        },
+        {
+          "title": "Mars Has Its Charmes",
+          "link": "https://science.nasa.gov/blog/mars-has-its-charmes/",
+          "source": "NASA",
+          "summary": "Written by Athanasios (Thanos) Klidaras, Ph.D. candidate at Purdue University Sept. 21, 2026 After a long hiatus, the Perseverance rover updates page is back.",
+          "published": "2026-09-29T01:27:52+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA to attempt uncrewed and crewed missions with Boeing’s troubled Starliner spacecraft",
+          "link": "https://www.scientificamerican.com/article/nasa-to-attempt-uncrewed-and-crewed-missions-with-boeings-troubled-starliner-spacecraft/",
+          "source": "Scientific American",
+          "summary": "Starliner hasn’t flown since its failed 2024 mission left two astronauts onboard the International Space Station for 286 days",
+          "published": "2026-09-28T19:45:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA, Boeing Share Update on Commercial Starliner Development Plans",
+          "link": "https://www.nasa.gov/news-release/nasa-boeing-share-update-on-commercial-starliner-development-plans/",
+          "source": "NASA",
+          "summary": "On Monday, NASA and Boeing provided an update on the company’s Starliner spacecraft, including adding additional crew missions and certifying a new rocket for crew transportation to low Earth orbit.",
+          "published": "2026-09-28T19:26:57+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Highlights Lessons Learned From Swift Boost Mission",
+          "link": "https://science.nasa.gov/missions/swift/nasa-highlights-lessons-learned-from-swift-boost-mission/",
+          "source": "NASA",
+          "summary": "A commercial mission to boost NASA’s Swift observatory concluded without raising the spacecraft’s orbit, but the agency and industry vendor gained valuable experience that will benefit future in-space servicing programs.",
+          "published": "2026-09-28T17:44:33+00:00",
+          "regional": false
+        },
+        {
           "title": "Watch: Starship splashdown ends in fireball",
           "link": "https://www.bbc.co.uk/news/videos/c6j9xkdvrd94o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
@@ -482,59 +514,19 @@
           "regional": false
         },
         {
-          "title": "NASA Celebrates as Artemis Accords Surpasses 75 Signatories",
-          "link": "https://www.nasa.gov/news-release/nasa-celebrates-as-artemis-accords-surpasses-75-signatories/",
-          "source": "NASA",
-          "summary": "Marking a significant expansion in the number of signatories to the Artemis Accords, NASA welcomed Albania, Croatia, Côte d’Ivoire, and San Marino, bringing total participation to 76 countries.",
-          "published": "2026-09-28T16:26:45+00:00",
+          "title": "How ESA astronauts return from space",
+          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/How_ESA_astronauts_return_from_space",
+          "source": "ESA",
+          "summary": "When an astronaut from the European Space Agency (ESA) returns from space, the mission is far from over.",
+          "published": "2026-09-28T15:33:00+00:00",
           "regional": false
         },
         {
-          "title": "Meet NASA’s Artemis II Crew During Houston Public Event",
-          "link": "https://www.nasa.gov/news-release/meet-nasas-artemis-ii-crew-during-houston-public-event/",
-          "source": "NASA",
-          "summary": "The four astronauts of NASA’s Artemis II mission will participate in an event hosted by industry and community partners at the University of Houston to discuss their mission around the Moon aboard the Orion spacecraft.",
-          "published": "2026-09-28T16:16:40+00:00",
-          "regional": false
-        },
-        {
-          "title": "What You Need to Know About NASA’s SpaceX Crew-13 Mission",
-          "link": "https://www.nasa.gov/missions/station/commercial-crew/what-you-need-to-know-about-nasas-spacex-crew-13-mission/",
-          "source": "NASA",
-          "summary": "Four crew members are set to launch to the International Space Station as part of NASA’s SpaceX Crew-13 mission to perform research, technology demonstrations, and maintenance aboard the orbiting laboratory.",
-          "published": "2026-09-28T16:09:09+00:00",
-          "regional": false
-        },
-        {
-          "title": "Space Station View of Earth at Night",
-          "link": "https://www.nasa.gov/image-article/space-station-view-of-earth-at-night/",
-          "source": "NASA",
-          "summary": "This nighttime view of the United States, dotted with city lights looking toward New York City (center), was taken at approximately 3:40 a.m. local time on Sept.",
-          "published": "2026-09-28T15:21:36+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA ORBIT Challenge 2027",
-          "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-orbit-challenge-2027/",
-          "source": "NASA",
-          "summary": "The NASA ORBIT (Opportunities in Research, Business, Innovation, and Technology for the Workforce) Challenge invites university and community college students nationwide to work with real NASA intellectual property and…",
-          "published": "2026-09-28T14:56:39+00:00",
-          "regional": false
-        },
-        {
-          "title": "Watch: SpaceX launches Starship rocket into orbit for first time",
+          "title": "Watch: From launch to fiery splashdown, SpaceX's Starship completes orbit test",
           "link": "https://www.bbc.co.uk/news/videos/c6ge4lp442npo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
-          "summary": "Until now, all Starship flights have been suborbital, meaning the capsules did not complete a loop around the Earth.",
+          "summary": "A thunderous lift off, rapid satellite deployments and a fiery ending. That's how SpaceX's 14th launch of its Starship rocket panned out today.",
           "published": "2026-09-28T13:59:06+00:00",
-          "regional": false
-        },
-        {
-          "title": "Contractor to Civil Servant: NASA Welcomes Kristie Foster",
-          "link": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-kristie-foster/",
-          "source": "NASA",
-          "summary": "Kristie Foster paved her road to becoming a NASA civil servant with literal miles of dedication. Her work at the agency’s Stennis Space Center near Bay St.",
-          "published": "2026-09-28T13:00:00+00:00",
           "regional": false
         },
         {
@@ -570,14 +562,6 @@
           "regional": false
         },
         {
-          "title": "Your pictures of the Harvest Moon shimmering across the UK sky",
-          "link": "https://www.bbc.co.uk/weather/articles/cm70lpzywlpdo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "The full Moon put on a stunning display over the skies of UK on Saturday night and here are some of your photographs.",
-          "published": "2026-09-27T12:32:51+00:00",
-          "regional": false
-        },
-        {
           "title": "Two astronauts who flew farther than anyone before are taking new NASA roles",
           "link": "https://www.sciencedaily.com/releases/2026/09/260925005423.htm",
           "source": "ScienceDaily",
@@ -602,22 +586,6 @@
           "regional": false
         },
         {
-          "title": "New space telescope will reopen astronomers’ view of the far-infrared",
-          "link": "https://www.science.org/content/article/new-space-telescope-will-reopen-astronomers-view-far-infrared",
-          "source": "Science (AAAS)",
-          "summary": "NASA’s $1.2 billion PRIMA will explore how galaxies evolve and how planets emerge from disks of gas and dust",
-          "published": "2026-09-25T04:30:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Scientists discover largest new impact crater in the solar system ever—on our moon",
-          "link": "https://www.scientificamerican.com/article/scientists-discover-largest-new-impact-crater-in-the-solar-system-ever-on-our-moon/",
-          "source": "Scientific American",
-          "summary": "The crater, named after geologist and lunar surface expert Tom McGetchin, spans more than two football fields wide",
-          "published": "2026-09-22T20:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA Goddard’s shrinking workforce could stifle future space missions, experts say",
           "link": "https://www.scientificamerican.com/article/nasa-goddards-shrinking-workforce-could-stifle-future-space-missions-experts-say/",
           "source": "Scientific American",
@@ -631,22 +599,6 @@
           "source": "ScienceDaily",
           "summary": "A massive crater on Mars’ moon Phobos may hide a dense region of compressed material that could reveal whether the moon is a captured asteroid or debris from an ancient impact on Mars.",
           "published": "2026-09-19T12:12:41+00:00",
-          "regional": false
-        },
-        {
-          "title": "Paris, France",
-          "link": "https://www.esa.int/ESA_Multimedia/Images/2026/09/Paris_France",
-          "source": "ESA",
-          "summary": "Image: Paris, the capital of the French Republic, stretches across this photograph captured by ESA astronaut Sophie Adenot during her long-duration εpsilon mission aboard the International Space Station.",
-          "published": "2026-09-18T16:13:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Nancy Grace Roman Telescope glimpses its first cosmic light",
-          "link": "https://www.scientificamerican.com/article/nasas-nancy-grace-roman-telescope-glimpses-its-first-cosmic-light/",
-          "source": "Scientific American",
-          "summary": "The space telescope is set to reveal thousands of new exoplanets and scour the universe for signs of dark matter and energy",
-          "published": "2026-09-18T14:45:00+00:00",
           "regional": false
         },
         {
@@ -666,11 +618,27 @@
           "regional": false
         },
         {
-          "title": "SpaceX puts Starship megarocket in orbit for first time",
-          "link": "https://www.thehindu.com/news/international/spacex-puts-starship-megarocket-in-orbit-for-first-time/article71521071.ece",
+          "title": "Lava launches Spark 2 Pro 5G in India",
+          "link": "https://www.thehindu.com/sci-tech/technology/gadgets/lava-launches-spark-2-pro-5g-in-india/article71523011.ece",
           "source": "The Hindu",
-          "summary": "The black-and-silver behemoth, standing more than 120 meters (131 yards) tall, rose through a thick cloud of smoke on an ambitious 14th test flight",
-          "published": "2026-09-28T16:23:25+00:00",
+          "summary": "It operates on Android 16 out of the box and will receive 1 Android OS upgrade and 2 years of security updates",
+          "published": "2026-09-29T07:40:28+00:00",
+          "regional": true
+        },
+        {
+          "title": "Oppo launches K14 Plus with Dimensity processor in India",
+          "link": "https://www.thehindu.com/sci-tech/technology/gadgets/oppo-launches-k14-plus-with-dimensity-processor-in-india/article71522887.ece",
+          "source": "The Hindu",
+          "summary": "Oppo K14 Plus ships with an 8,000 mAh battery, paired with 45W SUPERVOOC charging. It also supports 10W reverse wired charging",
+          "published": "2026-09-29T07:03:27+00:00",
+          "regional": true
+        },
+        {
+          "title": "SpaceX puts Starship megarocket in orbit for first time",
+          "link": "https://www.thehindu.com/sci-tech/science/spacex-puts-starship-megarocket-in-orbit-for-first-time/article71521071.ece",
+          "source": "The Hindu",
+          "summary": "The black-and-silver behemoth, standing more than 120 metres tall, rose through a thick cloud of smoke on an ambitious 14th test flight",
+          "published": "2026-09-29T05:27:09+00:00",
           "regional": true
         },
         {
@@ -695,22 +663,6 @@
           "source": "The Hindu",
           "summary": "Project Suncatcher will enable Google’s experts to test hardware survival, cooling processes, and satellite interconnectivity",
           "published": "2026-09-25T08:44:02+00:00",
-          "regional": true
-        },
-        {
-          "title": "People's fear and mistrust in authority leads to cybercrime, say experts at report launch on policing",
-          "link": "https://www.thehindu.com/sci-tech/technology/peoples-fear-and-mistrust-in-authority-leads-to-cybercrime-say-experts-at-report-launch-on-policing/article71507054.ece",
-          "source": "The Hindu",
-          "summary": "The report, building onto its earlier reports documenting public trust and experience with police, examines the modus operandi of cybercriminals, the lived experience of victims, the digital habits and vulnerabilities…",
-          "published": "2026-09-25T07:09:36+00:00",
-          "regional": true
-        },
-        {
-          "title": "Sennheiser launches Momentum 5 wireless and Momentum true wireless 5",
-          "link": "https://www.thehindu.com/sci-tech/technology/gadgets/sennheiser-launches-momentum-5-wireless-and-momentum-true-wireless-5/article71503581.ece",
-          "source": "The Hindu",
-          "summary": "Momentum true wireless 5 earbuds are IP54-rated for dust, sweat and splash resistance. Momentum 5 wireless includes both USB-C and 3.5mm audio cables",
-          "published": "2026-09-24T10:11:21+00:00",
           "regional": true
         },
         {
@@ -754,11 +706,11 @@
       "accent": "#B98CE0",
       "items": [
         {
-          "title": "Surprising result seen in primordial matter inside atom smasher",
-          "link": "https://www.scientificamerican.com/article/surprising-result-seen-in-primordial-matter-inside-atom-smasher/",
-          "source": "Scientific American",
-          "summary": "Physicists at the Relativistic Heavy Ion Collider on Long Island have seen hints of a phase transition from the early universe",
-          "published": "2026-09-28T14:20:00+00:00",
+          "title": "This suitcase-sized spacecraft could hear the universe before stars existed",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260927225034.htm",
+          "source": "ScienceDaily",
+          "summary": "CosmoCube will use the far side of the Moon as a shield from Earth’s radio noise to search for a faint signal from the universe before the first stars existed.",
+          "published": "2026-09-29T03:45:39+00:00",
           "regional": false
         },
         {
