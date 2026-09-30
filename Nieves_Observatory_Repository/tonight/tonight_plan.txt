@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-09-29 15:52 PDT
-; Observing window starts 2026-09-29 20:02 PDT  (LST 19:46:35)
+; Generated 2026-09-30 15:52 PDT
+; Observing window starts 2026-09-30 20:00 PDT  (LST 19:48:32)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -14,7 +14,7 @@
 #filter r',g',i',z'
 IC 4665
 
-; Comet C/2026 A2 (Bok)  mag 13.5
+; Comet C/2026 A2 (Bok)  mag 13.0
 #posang 0
 #count 3
 #interval 300
@@ -47,7 +47,7 @@ IC 4703
 #filter r',Ha,OIII,SII
 M 17
 
-; Comet C/2024 J3 (ATLAS)  mag 12.5
+; Comet C/2024 J3 (ATLAS)  mag 13.2
 #posang 0
 #count 3
 #interval 300
@@ -72,6 +72,14 @@ M 11
 #filter r',g',i',z'
 NGC 6819
 
+; Galaxy  mag 10.1  size 17.38'  Barnard's Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 6822
+
 ; Asteroid 3 Juno  mag 9.7
 #posang 0
 #count 3
@@ -80,14 +88,6 @@ NGC 6819
 #filter r'
 MP Juno
 #WAITINLIMITS 60
-
-; Galaxy  mag 10.1  size 17.38'  Barnard's Galaxy
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 6822
 
 ; Galaxy  mag 9.1  size 11.40'  Fireworks Galaxy
 #posang 0
@@ -170,7 +170,7 @@ NGC 7331
 #filter r',g'
 2026aaiv	22:37:05.618	+34:24:35.37
 
-; Comet 161P/Hartley-IRAS  mag 10.7
+; Comet 161P/Hartley-IRAS  mag 11.2
 #posang 0
 #count 3
 #interval 300
@@ -419,7 +419,7 @@ M 42
 #filter r',Ha,OIII,SII
 NGC 1980
 
-; Comet C/2024 T5 (ATLAS)  mag 13.3
+; Comet C/2024 T5 (ATLAS)  mag 13.9
 #posang 0
 #count 3
 #interval 300
@@ -541,6 +541,15 @@ M 44
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 2685
+
+; Planet: Jupiter
+#posang 0
+#count 10
+#interval 30
+#binning 1
+#filter r'
+Jupiter
+#WAITINLIMITS 60
 
 ; Galaxy  mag 8.9  size 11.94'
 #posang 0
