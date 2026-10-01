@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-09-30 15:52 PDT
-; Observing window starts 2026-09-30 20:00 PDT  (LST 19:48:32)
+; Generated 2026-10-01 16:02 PDT
+; Observing window starts 2026-10-01 19:58 PDT  (LST 19:50:28)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -14,7 +14,7 @@
 #filter r',g',i',z'
 IC 4665
 
-; Comet C/2026 A2 (Bok)  mag 13.0
+; Comet C/2026 A2 (Bok)  mag 13.9
 #posang 0
 #count 3
 #interval 300
@@ -361,7 +361,7 @@ M 77
 CT 88P/Howell
 #WAITINLIMITS 60
 
-; Comet 220P/McNaught  mag 13.0
+; Comet 220P/McNaught  mag 13.4
 #posang 0
 #count 3
 #interval 300
