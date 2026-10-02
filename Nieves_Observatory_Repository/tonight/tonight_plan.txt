@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-10-01 16:02 PDT
-; Observing window starts 2026-10-01 19:58 PDT  (LST 19:50:28)
+; Generated 2026-10-02 15:51 PDT
+; Observing window starts 2026-10-02 19:58 PDT  (LST 19:54:24)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -14,7 +14,7 @@
 #filter r',g',i',z'
 IC 4665
 
-; Comet C/2026 A2 (Bok)  mag 13.9
+; Comet C/2026 A2 (Bok)  mag 13.7
 #posang 0
 #count 3
 #interval 300
@@ -47,7 +47,7 @@ IC 4703
 #filter r',Ha,OIII,SII
 M 17
 
-; Comet C/2024 J3 (ATLAS)  mag 13.2
+; Comet C/2024 J3 (ATLAS)  mag 12.9
 #posang 0
 #count 3
 #interval 300
@@ -80,7 +80,7 @@ NGC 6819
 #filter r',g',i',z'
 NGC 6822
 
-; Asteroid 3 Juno  mag 9.7
+; Asteroid 3 Juno  mag 9.8
 #posang 0
 #count 3
 #interval 300
@@ -162,7 +162,7 @@ MP Metis
 #filter r',g',i',z'
 NGC 7331
 
-; Supernova 2026aaiv in NGC 7331  Type Ia  mag 11.5  z=0.003000
+; Supernova 2026aaiv in NGC 7331  Type Ia  mag 13.0  z=0.003000
 #posang 0
 #count 3,3
 #interval 300,300
@@ -170,7 +170,7 @@ NGC 7331
 #filter r',g'
 2026aaiv	22:37:05.618	+34:24:35.37
 
-; Comet 161P/Hartley-IRAS  mag 11.2
+; Comet 161P/Hartley-IRAS  mag 11.3
 #posang 0
 #count 3
 #interval 300
@@ -188,7 +188,7 @@ CT 161P/Hartley-IRAS
 Neptune
 #WAITINLIMITS 60
 
-; Asteroid 192 Nausikaa  mag 8.6
+; Asteroid 192 Nausikaa  mag 8.7
 #posang 0
 #count 3
 #interval 300
@@ -311,7 +311,7 @@ M 33
 #filter r',g',i',z'
 M 74
 
-; Asteroid 4 Vesta  mag 6.5
+; Asteroid 4 Vesta  mag 6.4
 #posang 0
 #count 3
 #interval 300
@@ -361,7 +361,7 @@ M 77
 CT 88P/Howell
 #WAITINLIMITS 60
 
-; Comet 220P/McNaught  mag 13.4
+; Comet 220P/McNaught  mag 12.1
 #posang 0
 #count 3
 #interval 300
@@ -476,7 +476,7 @@ AT2026wyp	06:49:05.903	+37:06:08.52
 #filter r',g',i',z'
 NGC 2301
 
-; Asteroid 1 Ceres  mag 8.7
+; Asteroid 1 Ceres  mag 8.6
 #posang 0
 #count 3
 #interval 300
@@ -583,7 +583,7 @@ M 82
 #filter r',g',i',z'
 IC 2574
 
-; Supernova 2026sqf in NGC 3310  Type Ia-CSM  mag 12.3  z=0.003310
+; Supernova 2026sqf in NGC 3310  Type Ia-CSM  mag 12.5  z=0.003310
 #posang 0
 #count 3,3
 #interval 300,300
