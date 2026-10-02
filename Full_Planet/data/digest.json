@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-01T15:49:24.897863+00:00",
-  "generated_human": "01 October 2026, 15:49 UTC",
-  "total_items": 113,
+  "generated": "2026-10-02T15:10:57.966927+00:00",
+  "generated_human": "02 October 2026, 15:10 UTC",
+  "total_items": 111,
   "channels": [
     {
       "key": "ai",
@@ -50,6 +50,22 @@
           "regional": false
         },
         {
+          "title": "China’s AI compute ambitions demand innovation",
+          "link": "https://www.scmp.com/plus/tech/policy/article/3369537/chinas-ai-compute-ambitions-demand-innovation?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "China has set a five-year goal for the expansion of intelligent computing capacity to drive artificial intelligence (AI) that calls for a more than fourfold increase on what was in place at the end of June this year.",
+          "published": "2026-10-02T07:05:21+00:00",
+          "regional": true
+        },
+        {
+          "title": "Samsung to launch first AI glasses in November, taking aim at Meta",
+          "link": "https://www.koreaherald.com/article/10890619",
+          "source": "The Korea Herald",
+          "summary": "Samsung Electronics will launch its first artificial intelligence glasses in November, entering a still-nascent wearable AI market where Meta has built an overwhelming early lead with camera-equipped, display-less smart…",
+          "published": "2026-10-01T05:31:33+00:00",
+          "regional": true
+        },
+        {
           "title": "Anthropic raises alarm over elite hacking ability of Chinese firm Z.ai’s GLM-5.3",
           "link": "https://www.scmp.com/tech/big-tech/article/3369354/anthropic-raises-alarm-over-elite-hacking-ability-chinese-firm-zais-glm-53?utm_source=rss_feed",
           "source": "South China Morning Post",
@@ -71,14 +87,6 @@
           "source": "The Korea Herald",
           "summary": "South Korea must turn its strengths in semiconductors and manufacturing into leadership in artificial intelligence, business leaders and technology experts said Tuesday, calling for a break from the fast-follower model…",
           "published": "2026-09-30T06:43:03+00:00",
-          "regional": true
-        },
-        {
-          "title": "Cosmax develops AI model to predict hair loss risk",
-          "link": "https://www.koreaherald.com/article/10888987",
-          "source": "The Korea Herald",
-          "summary": "Cosmax, a South Korean cosmetics manufacturer that develops and produces products for global beauty brands, is expanding into personalized hair care using artificial intelligence and research into scalp differences…",
-          "published": "2026-09-30T04:08:00+00:00",
           "regional": true
         },
         {
@@ -111,14 +119,6 @@
           "source": "South China Morning Post",
           "summary": "Alibaba Group Holding has introduced what it called China’s most powerful artificial intelligence chip and teased plans to train an AI model with up to 10 trillion parameters, as top executives reaffirmed the tech…",
           "published": "2026-09-22T05:59:40+00:00",
-          "regional": true
-        },
-        {
-          "title": "Ant Group consolidates Alipay operations in big bet on AI ‘agentic commerce’",
-          "link": "https://www.scmp.com/tech/tech-trends/article/3368325/ant-group-consolidates-alipay-operations-big-bet-ai-agentic-commerce?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Chinese fintech giant Ant Group has revamped its online payments operations by creating a new business group for Alipay, as it sharpens its artificial intelligence focus on “agentic commerce” to drive new growth.",
-          "published": "2026-09-22T03:41:25+00:00",
           "regional": true
         },
         {
@@ -215,30 +215,6 @@
           "source": "The Korea Herald",
           "summary": "South Korea must turn its strengths in semiconductors and manufacturing into leadership in artificial intelligence, business leaders and technology experts said Tuesday, calling for a break from the fast-follower model…",
           "published": "2026-09-30T06:43:03+00:00",
-          "regional": true
-        },
-        {
-          "title": "Why TSMC’s capacity crunch opens the door for Samsung’s foundry",
-          "link": "https://www.koreaherald.com/article/10889110",
-          "source": "The Korea Herald",
-          "summary": "Samsung Electronics has spent years trying to fix one of the biggest weaknesses in its semiconductor empire. It is one of the world's largest memory-chip makers, yet its foundry business, which manufactures chips…",
-          "published": "2026-09-30T05:33:08+00:00",
-          "regional": true
-        },
-        {
-          "title": "LG-GM venture upgrades US plant for EV batteries",
-          "link": "https://www.koreaherald.com/article/10888990",
-          "source": "The Korea Herald",
-          "summary": "Ultium Cells, the battery joint venture between LG Energy Solution and General Motors, will upgrade its Tennessee plant to produce a new generation of batteries designed to lower costs and boost energy density for…",
-          "published": "2026-09-30T04:09:43+00:00",
-          "regional": true
-        },
-        {
-          "title": "Seoul stocks open higher on chip gains",
-          "link": "https://www.koreaherald.com/article/10888474",
-          "source": "The Korea Herald",
-          "summary": "Seoul stocks opened higher Wednesday, tracking overnight gains in US semiconductor shares, though elevated US Treasury yields weighed on the investor sentiment.",
-          "published": "2026-09-30T00:31:45+00:00",
           "regional": true
         },
         {
@@ -354,6 +330,22 @@
           "regional": false
         },
         {
+          "title": "Can there be solar for all, everywhere by 2030?",
+          "link": "https://www.dw.com/en/can-there-be-solar-for-all-everywhere-by-2030/a-79517056?maca=en-rss_en_environment-22607-xml-mrss",
+          "source": "Deutsche Welle",
+          "summary": "Prominent climate leaders have called on governments, businesses, institutions and the public to make a push for solar power before the decade is out, repowering the world with cheap, clean energy. Is that possible?",
+          "published": "2026-10-02T13:48:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "HD Hyundai Heavy secures Taean offshore substation contract",
+          "link": "https://www.koreaherald.com/article/10891544",
+          "source": "The Korea Herald",
+          "summary": "HD Hyundai Heavy Industries has secured a contract to build an offshore substation for the Taean offshore wind farm, expanding its presence in the renewable energy sector.",
+          "published": "2026-10-02T01:54:50+00:00",
+          "regional": true
+        },
+        {
           "title": "Texas power project puts Korean battery makers in spotlight",
           "link": "https://www.koreaherald.com/article/10890733",
           "source": "The Korea Herald",
@@ -367,14 +359,6 @@
           "source": "The Korea Herald",
           "summary": "LG Energy Solution said Thursday it had signed a memorandum of understanding to supply 46-series cylindrical battery cells to Indigo Technologies, a US commercial electric vehicle startup, from 2027 through 2030.",
           "published": "2026-10-01T05:25:44+00:00",
-          "regional": true
-        },
-        {
-          "title": "LG-GM venture upgrades US plant for EV batteries",
-          "link": "https://www.koreaherald.com/article/10888990",
-          "source": "The Korea Herald",
-          "summary": "Ultium Cells, the battery joint venture between LG Energy Solution and General Motors, will upgrade its Tennessee plant to produce a new generation of batteries designed to lower costs and boost energy density for…",
-          "published": "2026-09-30T04:09:43+00:00",
           "regional": true
         },
         {
@@ -434,19 +418,59 @@
       "accent": "#F0894E",
       "items": [
         {
-          "title": "NASA’s Webb Provides Crash Course on Planet-Shattering Collisions",
-          "link": "https://science.nasa.gov/missions/webb/nasas-webb-provides-crash-course-on-planet-shattering-collisions/",
-          "source": "NASA",
-          "summary": "In the early history of our solar system, scientists theorize that a Mars-sized object called Theia smashed into the infant Earth, vaporizing massive amounts of rock and blasting it into space.",
-          "published": "2026-10-01T14:00:00+00:00",
+          "title": "A guide to blood draws in orbit",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/A_guide_to_blood_draws_in_orbit",
+          "source": "ESA",
+          "summary": "Video: 00:01:52 This video was published on social media by ESA astronaut Sophie Adenot with the following caption: Just another morning in space… this one starting with a blood draw!",
+          "published": "2026-10-02T10:30:00+00:00",
           "regional": false
         },
         {
-          "title": "What happened this month at the European Space Agency? (September 2026)",
-          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/What_happened_this_month_at_the_European_Space_Agency_September_2026",
+          "title": "Google’s Project Suncatcher AI data center test has officially launched to space onboard SpaceX rocket",
+          "link": "https://www.scientificamerican.com/article/googles-project-suncatcher-ai-data-center-test-has-officially-launched-to-space-aboard-spacex-rocket/",
+          "source": "Scientific American",
+          "summary": "Project Suncatcher is aimed at testing Google's AI chips in the harsh environment of space",
+          "published": "2026-10-01T19:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s SpaceX Crew-13 Launches",
+          "link": "https://www.nasa.gov/image-article/nasas-spacex-crew-13-launches/",
+          "source": "NASA",
+          "summary": "In this Oct. 1, 2026, photo, a SpaceX Falcon 9 rocket and Dragon spacecraft launch from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida.",
+          "published": "2026-10-01T18:05:38+00:00",
+          "regional": false
+        },
+        {
+          "title": "What’s Up: October 2026 Skywatching Tips from NASA",
+          "link": "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/",
+          "source": "NASA",
+          "summary": "A Meteor Shower and the Moon Near the Pleiades See Saturn at opposition, catch the Orionid meteor shower, and watch the Moon pass close to the Pleiades, also known as the Seven Sisters.",
+          "published": "2026-10-01T16:58:10+00:00",
+          "regional": false
+        },
+        {
+          "title": "SpaceX launches crew to ISS",
+          "link": "https://www.bbc.co.uk/news/videos/c5rm9mdperemo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "The Falcon 9 rocket blasted off from Cape Canaveral with two Americans, a Russian and a Canadian who will spend up to six months aboard the International Space Station.",
+          "published": "2026-10-01T16:32:17+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s SpaceX Crew-13 Launches to International Space Station",
+          "link": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
+          "source": "NASA",
+          "summary": "Four crew members of NASA’s SpaceX Crew-13 mission launched at 11:10 a.m. EDT Thursday from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida for a science expedition aboard the International…",
+          "published": "2026-10-01T15:59:24+00:00",
+          "regional": false
+        },
+        {
+          "title": "ESA at the 77th International Astronautical Congress",
+          "link": "https://www.esa.int/About_Us/Corporate_news/ESA_at_the_77th_International_Astronautical_Congress",
           "source": "ESA",
-          "summary": "Video: 00:03:32 September was a month of milestones and discoveries. FLEX launched aboard Vega-C alongside Sentinel-3C. Sophie Adenot completed her third and final spacewalk, leading the mission as EV-1.",
-          "published": "2026-10-01T12:30:00+00:00",
+          "summary": "The European Space Agency (ESA) will participate in the 77th International Astronautical Congress (IAC), which opens on Monday 5 October and runs until Friday 9 October in Antalya, Türkiye.",
+          "published": "2026-10-01T14:20:00+00:00",
           "regional": false
         },
         {
@@ -455,30 +479,6 @@
           "source": "BBC Science",
           "summary": "The US space agency says ancient rocks at Clachtoll have similarities to those on the Red Planet.",
           "published": "2026-10-01T08:57:33+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Adds New Science Investigations for Moon Base",
-          "link": "https://www.nasa.gov/news-release/nasa-adds-new-science-investigations-for-moon-base/",
-          "source": "NASA",
-          "summary": "Editor’s note: This release was updated on Sept. 30, 2026, to correct the name of the DISCO payload. NASA selected three new scientific investigations and their payload suites to advance our knowledge of the Moon and…",
-          "published": "2026-09-30T21:11:23+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Awards Contract to Develop 5G Communications for Moon",
-          "link": "https://www.nasa.gov/news-release/nasa-awards-contract-to-develop-5g-communications-for-moon/",
-          "source": "NASA",
-          "summary": "NASA has awarded Modulate Space Corporation a contract to develop key elements of a 5G communications system for use on the lunar surface with built-in Wi-Fi 6, for NASA’s Glenn Research Center in Cleveland.",
-          "published": "2026-09-30T20:41:26+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA, International Partners Advance Work on Space Crops",
-          "link": "https://science.nasa.gov/science-research/biological-physical-sciences/nasa-international-partners-advance-work-on-space-crops/",
-          "source": "NASA",
-          "summary": "NASA, CSA (Canadian Space Agency), and the German Aerospace Center signed a joint statement of intent to begin coordinated, preparatory work toward an Earth-based demonstrator to learn how to grow crops on the Moon.",
-          "published": "2026-09-30T18:38:20+00:00",
           "regional": false
         },
         {
@@ -578,27 +578,11 @@
           "regional": false
         },
         {
-          "title": "The ups and downs of SpaceX's Starship test flights",
-          "link": "https://www.bbc.co.uk/news/videos/c5zjzx49p049o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "The BBC's Ricky Boleto looks how previous SpaceX test flights went.",
-          "published": "2026-09-27T21:03:42+00:00",
-          "regional": false
-        },
-        {
           "title": "Two astronauts who flew farther than anyone before are taking new NASA roles",
           "link": "https://www.sciencedaily.com/releases/2026/09/260925005423.htm",
           "source": "ScienceDaily",
           "summary": "Artemis II astronauts Victor Glover and Reid Wiseman are transitioning to emeritus status at NASA after their historic journey around the Moon earlier this year.",
           "published": "2026-09-26T13:21:58+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Goddard’s shrinking workforce could stifle future space missions, experts say",
-          "link": "https://www.scientificamerican.com/article/nasa-goddards-shrinking-workforce-could-stifle-future-space-missions-experts-say/",
-          "source": "Scientific American",
-          "summary": "2025 was a brutal year of budget cuts and workforce attrition at NASA’s Goddard Space Flight Center, the home base for the Nancy Grace Roman Space Telescope.",
-          "published": "2026-09-22T11:00:00+00:00",
           "regional": false
         },
         {
@@ -624,6 +608,14 @@
           "summary": "NASA’s Lunar Reconnaissance Orbiter has revealed a 728-foot-wide crater that formed on the Moon in 2024, making it the largest newly formed crater ever identified in the solar system.",
           "published": "2026-09-18T10:18:54+00:00",
           "regional": false
+        },
+        {
+          "title": "Multiple Indian payloads launched by Space X’s Falcon 9",
+          "link": "https://www.thehindu.com/sci-tech/multiple-indian-payloads-launched-by-space-xs-falcon-9/article71535904.ece",
+          "source": "The Hindu",
+          "summary": "Dhruva Space’s LEAP-2, hosting multiple In-Orbit Demonstration (IOD) missions, which includes a star tracker by France-based Sodern ArianeGroup, and TAPAS-1 by India-based Satleo Labs, was part of the Transporter-18…",
+          "published": "2026-10-02T06:17:45+00:00",
+          "regional": true
         },
         {
           "title": "SpaceX Starship engine failure could hit NASA moon mission plans",
@@ -696,14 +688,6 @@
           "summary": "Test your knowledge of historic Mars Orbiter Mission, which made India the first Asian nation to reach Mars orbit and the first nation globally to succeed on its maiden attempt",
           "published": "2026-09-24T06:08:54+00:00",
           "regional": true
-        },
-        {
-          "title": "NASA scan discovers new, ‘once in a century’ Moon crater",
-          "link": "https://www.thehindu.com/sci-tech/science/nasa-discovers-massive-moon-crater-mcgetchin/article71482148.ece",
-          "source": "The Hindu",
-          "summary": "The crater, dubbed “McGetchin”, measures 730 feet (222 metres) wide, and it is believed to have been created in the spring of 2024 from a comet or asteroid colliding with the Moon",
-          "published": "2026-09-18T17:03:38+00:00",
-          "regional": true
         }
       ]
     },
@@ -714,11 +698,19 @@
       "accent": "#B98CE0",
       "items": [
         {
-          "title": "NASA directive might increase the odds of contaminating Mars",
-          "link": "https://www.scientificamerican.com/article/nasa-directive-might-increase-the-odds-of-contaminating-mars/",
+          "title": "How to see rainbows on exoplanets",
+          "link": "https://www.scientificamerican.com/article/how-to-see-rainbows-on-exoplanets/",
           "source": "Scientific American",
-          "summary": "The new push loosens U.S. regulations for sterilizing spacecraft bound for the Red Planet and calls for modernizing the science of “planetary protection”",
-          "published": "2026-09-30T17:35:00+00:00",
+          "summary": "A future NASA telescope could spot atmospheric phenomena on planets orbiting other stars",
+          "published": "2026-10-02T10:45:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "How to see the Orionid meteor shower from Friday",
+          "link": "https://www.bbc.co.uk/weather/articles/c64gr18jrvx3o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Friday sees the start of the Orionid meteor shower as Earth passes through debris left behind by Halley’s Comet. It peaks later in October.",
+          "published": "2026-10-02T07:16:45+00:00",
           "regional": false
         },
         {
@@ -735,14 +727,6 @@
           "source": "ScienceDaily",
           "summary": "Powerful jets from supermassive black holes can disturb star-forming gas far beyond a galaxy’s visible edge, leaving a glowing trail hundreds of thousands of light-years long.",
           "published": "2026-09-30T10:51:59+00:00",
-          "regional": false
-        },
-        {
-          "title": "Orionid meteor shower to streak across night sky this week",
-          "link": "https://www.bbc.co.uk/weather/articles/c64gr18jrvx3o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "The Orionid meteor shower peaks in October as Earth passes through debris left behind by Halley’s Comet.",
-          "published": "2026-09-30T06:32:14+00:00",
           "regional": false
         },
         {
@@ -906,6 +890,14 @@
           "regional": false
         },
         {
+          "title": "Multiple Indian payloads launched by Space X’s Falcon 9",
+          "link": "https://www.thehindu.com/sci-tech/multiple-indian-payloads-launched-by-space-xs-falcon-9/article71535904.ece",
+          "source": "The Hindu",
+          "summary": "Dhruva Space’s LEAP-2, hosting multiple In-Orbit Demonstration (IOD) missions, which includes a star tracker by France-based Sodern ArianeGroup, and TAPAS-1 by India-based Satleo Labs, was part of the Transporter-18…",
+          "published": "2026-10-02T06:17:45+00:00",
+          "regional": true
+        },
+        {
           "title": "Private spacecraft falls back to Earth after failing to rescue aging NASA telescope",
           "link": "https://www.thehindu.com/sci-tech/science/private-spacecraft-falls-back-to-earth-after-failing-to-rescue-aging-nasa-telescope/article71511767.ece",
           "source": "The Hindu",
@@ -943,14 +935,6 @@
           "source": "The Hindu",
           "summary": "The observatory, developed with the Indian Institute of Astrophysics, will give students hands-on access to astronomical observation and imaging",
           "published": "2026-09-21T12:13:29+00:00",
-          "regional": true
-        },
-        {
-          "title": "NASA scan discovers new, ‘once in a century’ Moon crater",
-          "link": "https://www.thehindu.com/sci-tech/science/nasa-discovers-massive-moon-crater-mcgetchin/article71482148.ece",
-          "source": "The Hindu",
-          "summary": "The crater, dubbed “McGetchin”, measures 730 feet (222 metres) wide, and it is believed to have been created in the spring of 2024 from a comet or asteroid colliding with the Moon",
-          "published": "2026-09-18T17:03:38+00:00",
           "regional": true
         }
       ]
