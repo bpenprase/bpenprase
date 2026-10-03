@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-02T15:10:57.966927+00:00",
-  "generated_human": "02 October 2026, 15:10 UTC",
-  "total_items": 111,
+  "generated": "2026-10-03T14:04:06.892970+00:00",
+  "generated_human": "03 October 2026, 14:04 UTC",
+  "total_items": 115,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "Exclusive: An AI agent emailed hundreds of researchers for help. It told us why",
+          "link": "https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why",
+          "source": "Science (AAAS)",
+          "summary": "To get to the bottom of this perplexing behavior, Science interviewed the agent",
+          "published": "2026-10-02T04:55:00+00:00",
+          "regional": false
+        },
         {
           "title": "When can we say AI made a scientific discovery?",
           "link": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
@@ -138,6 +146,30 @@
       "accent": "#E8A13A",
       "items": [
         {
+          "title": "Scientists just made a superconductor stronger using “empty space”",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260930225456.htm",
+          "source": "ScienceDaily",
+          "summary": "Researchers have demonstrated that quantum fluctuations in supposedly empty space can strengthen superconductivity, raising the transition temperature of an ultrathin material by as much as 5.4%.",
+          "published": "2026-10-03T12:03:23+00:00",
+          "regional": false
+        },
+        {
+          "title": "Scientists just pushed superconductors beyond their usual current limit",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260930225452.htm",
+          "source": "ScienceDaily",
+          "summary": "Ultrashort electrical pulses allowed scientists to push superconductors closer than ever to the point where their electron pairs actually break apart.",
+          "published": "2026-10-02T11:08:12+00:00",
+          "regional": false
+        },
+        {
+          "title": "Electrons slow to a crawl in a strange new quantum state",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260929053548.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists at the University of Chicago have uncovered a surprising quantum state in the layered magnetic material Fe5GeTe2, where huge numbers of electrons move together unusually slowly while remaining quantum…",
+          "published": "2026-10-02T03:10:08+00:00",
+          "regional": false
+        },
+        {
           "title": "Oil wells could become mines for critical minerals",
           "link": "https://www.science.org/content/article/oil-wells-could-become-mines-critical-minerals",
           "source": "Science (AAAS)",
@@ -159,14 +191,6 @@
           "source": "ScienceDaily",
           "summary": "Researchers have shown that multiple time crystals inside a semiconductor can synchronize their oscillations, much like pendulum clocks gradually falling into the same rhythm.",
           "published": "2026-09-24T13:16:41+00:00",
-          "regional": false
-        },
-        {
-          "title": "Watch a robot dog run a marathon faster than the average human",
-          "link": "https://www.scientificamerican.com/article/watch-a-robot-dog-run-a-marathon-faster-than-the-average-human/",
-          "source": "Scientific American",
-          "summary": "The quadrupedal machine finished the course in a solid four hours, 19 minutes and 52 seconds—and on just one battery charge",
-          "published": "2026-09-23T15:00:00+00:00",
           "regional": false
         },
         {
@@ -241,6 +265,14 @@
       "tagline": "Engineered organisms and programmed DNA — cells built for computing, data storage, and chemical synthesis.",
       "accent": "#5FBF9B",
       "items": [
+        {
+          "title": "Can bioengineered bacteria help terraform Mars?",
+          "link": "https://www.scientificamerican.com/article/can-bioengineered-bacteria-help-terraform-mars/",
+          "source": "Scientific American",
+          "summary": "The nonprofit start-up Pioneer Labs claims to have made the first-ever “microbe for Mars.” Other experts aren’t so sure",
+          "published": "2026-10-02T15:30:00+00:00",
+          "regional": false
+        },
         {
           "title": "NASA-backed scientists turn plastic waste into edible cookies",
           "link": "https://www.sciencedaily.com/releases/2026/09/260912220033.htm",
@@ -418,6 +450,30 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "NASA Astronaut Christina Koch to Join NFL Fans in Philadelphia",
+          "link": "https://www.nasa.gov/news-release/nasa-astronaut-christina-koch-to-join-nfl-fans-in-philadelphia/",
+          "source": "NASA",
+          "summary": "As part of NASA’s ongoing Inspiration Tour, NASA astronaut Christina Koch will highlight America’s strengths in space exploration and aeronautics innovation at the Philadelphia Eagles vs.",
+          "published": "2026-10-02T19:54:54+00:00",
+          "regional": false
+        },
+        {
+          "title": "Heading Home: NASA’s SpaceX Crew-12 Concludes Station Science Mission",
+          "link": "https://www.nasa.gov/missions/station/iss-research/heading-home-nasas-spacex-crew-12-concludes-station-science-mission/",
+          "source": "NASA",
+          "summary": "NASA’s SpaceX Crew-12 mission is ending, with the crew scheduled to return in early October. NASA astronauts Jessica Meir and Jack Hathaway, ESA (European Space Agency) astronaut Sophie Adenot, and Roscosmos cosmonaut…",
+          "published": "2026-10-02T19:30:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Opens Applications for Next Class of Flight Directors",
+          "link": "https://www.nasa.gov/news-release/nasa-opens-applications-for-next-class-of-flight-directors/",
+          "source": "NASA",
+          "summary": "NASA is seeking leaders for one of the most esteemed positions on Earth for human spaceflight: flight director in mission control at the agency’s Johnson Space Center in Houston.",
+          "published": "2026-10-02T15:49:26+00:00",
+          "regional": false
+        },
+        {
           "title": "A guide to blood draws in orbit",
           "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/A_guide_to_blood_draws_in_orbit",
           "source": "ESA",
@@ -434,43 +490,11 @@
           "regional": false
         },
         {
-          "title": "NASA’s SpaceX Crew-13 Launches",
-          "link": "https://www.nasa.gov/image-article/nasas-spacex-crew-13-launches/",
-          "source": "NASA",
-          "summary": "In this Oct. 1, 2026, photo, a SpaceX Falcon 9 rocket and Dragon spacecraft launch from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida.",
-          "published": "2026-10-01T18:05:38+00:00",
-          "regional": false
-        },
-        {
-          "title": "What’s Up: October 2026 Skywatching Tips from NASA",
-          "link": "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/",
-          "source": "NASA",
-          "summary": "A Meteor Shower and the Moon Near the Pleiades See Saturn at opposition, catch the Orionid meteor shower, and watch the Moon pass close to the Pleiades, also known as the Seven Sisters.",
-          "published": "2026-10-01T16:58:10+00:00",
-          "regional": false
-        },
-        {
           "title": "SpaceX launches crew to ISS",
           "link": "https://www.bbc.co.uk/news/videos/c5rm9mdperemo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
           "summary": "The Falcon 9 rocket blasted off from Cape Canaveral with two Americans, a Russian and a Canadian who will spend up to six months aboard the International Space Station.",
           "published": "2026-10-01T16:32:17+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s SpaceX Crew-13 Launches to International Space Station",
-          "link": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
-          "source": "NASA",
-          "summary": "Four crew members of NASA’s SpaceX Crew-13 mission launched at 11:10 a.m. EDT Thursday from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida for a science expedition aboard the International…",
-          "published": "2026-10-01T15:59:24+00:00",
-          "regional": false
-        },
-        {
-          "title": "ESA at the 77th International Astronautical Congress",
-          "link": "https://www.esa.int/About_Us/Corporate_news/ESA_at_the_77th_International_Astronautical_Congress",
-          "source": "ESA",
-          "summary": "The European Space Agency (ESA) will participate in the 77th International Astronautical Congress (IAC), which opens on Monday 5 October and runs until Friday 9 October in Antalya, Türkiye.",
-          "published": "2026-10-01T14:20:00+00:00",
           "regional": false
         },
         {
@@ -586,6 +610,14 @@
           "regional": false
         },
         {
+          "title": "ESTEC, ESA’s technical heart, seen from orbit",
+          "link": "https://www.esa.int/ESA_Multimedia/Images/2026/09/ESTEC_ESA_s_technical_heart_seen_from_orbit",
+          "source": "ESA",
+          "summary": "Image: From the International Space Station, ESA astronaut Sophie Adenot has photographed cities, coastlines and landscapes across the world during her nearly eight-month εpsilon mission.",
+          "published": "2026-09-25T16:13:00+00:00",
+          "regional": false
+        },
+        {
           "title": "A giant crater may reveal the origin of Mars’ doomed moon",
           "link": "https://www.sciencedaily.com/releases/2026/09/260919031040.htm",
           "source": "ScienceDaily",
@@ -608,6 +640,14 @@
           "summary": "NASA’s Lunar Reconnaissance Orbiter has revealed a 728-foot-wide crater that formed on the Moon in 2024, making it the largest newly formed crater ever identified in the solar system.",
           "published": "2026-09-18T10:18:54+00:00",
           "regional": false
+        },
+        {
+          "title": "Samsung launches Galaxy A08 for mid segment buyers in India",
+          "link": "https://www.thehindu.com/sci-tech/technology/gadgets/samsung-launches-galaxy-a08-for-mid-segment-buyers-in-india/article71533002.ece",
+          "source": "The Hindu",
+          "summary": "Galaxy A08 ships with a 6,000 mAh battery, and supports 25W charging",
+          "published": "2026-10-02T10:23:10+00:00",
+          "regional": true
         },
         {
           "title": "Multiple Indian payloads launched by Space X’s Falcon 9",
@@ -639,14 +679,6 @@
           "source": "The Hindu",
           "summary": "ISRO must focus on space technology as a tool for development",
           "published": "2026-09-30T10:17:24+00:00",
-          "regional": true
-        },
-        {
-          "title": "Hanwha Aerospace advances reusable launch vehicle technology",
-          "link": "https://www.koreaherald.com/article/10889165",
-          "source": "The Korea Herald",
-          "summary": "Hanwha Aerospace has begun assembling a reusable launch vehicle demonstrator as part of a project to secure key technologies needed to reuse rocket stages, a step toward lowering launch costs and strengthening South…",
-          "published": "2026-09-30T06:00:19+00:00",
           "regional": true
         },
         {
@@ -698,6 +730,38 @@
       "accent": "#B98CE0",
       "items": [
         {
+          "title": "Powerful simulations reveal how the first stars changed the universe",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261001214012.htm",
+          "source": "ScienceDaily",
+          "summary": "Ultra-detailed simulations are showing how the first stars lit up the dark Universe and seeded space with elements such as carbon, oxygen, and iron.",
+          "published": "2026-10-03T12:50:57+00:00",
+          "regional": false
+        },
+        {
+          "title": "This weird particle may have come from a black hole exploding in another dimension",
+          "link": "https://www.scientificamerican.com/article/this-weird-particle-may-have-come-from-a-black-hole-exploding-in-another-dimension/",
+          "source": "Scientific American",
+          "summary": "An unexplained high-energy neutrino detected three years ago could be linked to a primordial black hole, perhaps one more even unusual than previously thought",
+          "published": "2026-10-02T16:30:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Roman telescope just opened its planet-hunting eye",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261001214057.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA’s Roman Space Telescope has demonstrated remarkable pointing stability and given its powerful planet-imaging coronagraph its first look at the cosmos.",
+          "published": "2026-10-02T12:21:30+00:00",
+          "regional": false
+        },
+        {
+          "title": "The early universe wasn’t nearly as pristine as scientists thought",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260930225443.htm",
+          "source": "ScienceDaily",
+          "summary": "JWST has revealed that galaxies were spreading carbon, oxygen, and other heavy elements through space just 500 million years after the Big Bang.",
+          "published": "2026-10-02T11:24:07+00:00",
+          "regional": false
+        },
+        {
           "title": "How to see rainbows on exoplanets",
           "link": "https://www.scientificamerican.com/article/how-to-see-rainbows-on-exoplanets/",
           "source": "Scientific American",
@@ -706,10 +770,10 @@
           "regional": false
         },
         {
-          "title": "How to see the Orionid meteor shower from Friday",
+          "title": "How to see the Orionid meteor shower this weekend",
           "link": "https://www.bbc.co.uk/weather/articles/c64gr18jrvx3o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
-          "summary": "Friday sees the start of the Orionid meteor shower as Earth passes through debris left behind by Halley’s Comet. It peaks later in October.",
+          "summary": "One of the best-known meteor showers is now active until 7 November.",
           "published": "2026-10-02T07:16:45+00:00",
           "regional": false
         },
@@ -735,14 +799,6 @@
           "source": "ScienceDaily",
           "summary": "CosmoCube will use the far side of the Moon as a shield from Earth’s radio noise to search for a faint signal from the universe before the first stars existed.",
           "published": "2026-09-29T03:45:39+00:00",
-          "regional": false
-        },
-        {
-          "title": "These frogs ‘see’ prey with their star-shaped toes",
-          "link": "https://www.science.org/content/article/these-frogs-see-prey-their-star-shaped-toes",
-          "source": "Science (AAAS)",
-          "summary": "Fingertips of Suriname toads are hypersensitive motion detectors, new study reveals",
-          "published": "2026-09-29T01:53:00+00:00",
           "regional": false
         },
         {
@@ -802,14 +858,6 @@
           "regional": false
         },
         {
-          "title": "See the Taurids light up the fall sky with brilliant shooting stars",
-          "link": "https://www.scientificamerican.com/article/see-the-taurids-light-up-the-fall-sky-with-brilliant-shooting-stars/",
-          "source": "Scientific American",
-          "summary": "Lasting from mid-September until mid-November, the Taurid meteor showers are among the longest of the year",
-          "published": "2026-09-23T19:37:00+00:00",
-          "regional": false
-        },
-        {
           "title": "First stellar stream beyond the Milky Way could reveal dark matter",
           "link": "https://www.sciencedaily.com/releases/2026/09/260921081110.htm",
           "source": "ScienceDaily",
@@ -842,14 +890,6 @@
           "regional": false
         },
         {
-          "title": "NASA’s Roman Space Telescope could last more than twice as long as planned",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260918024802.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA’s Roman Space Telescope may now have enough fuel for at least 22 years of science, more than double its original 10 year design life.",
-          "published": "2026-09-18T11:31:56+00:00",
-          "regional": false
-        },
-        {
           "title": "Astronomers just found the youngest known planet ever",
           "link": "https://www.sciencedaily.com/releases/2026/09/260917003712.htm",
           "source": "ScienceDaily",
@@ -879,14 +919,6 @@
           "source": "ScienceDaily",
           "summary": "Astronomers have discovered that winds from a supermassive black hole are about 100 times more powerful than previously thought.",
           "published": "2026-09-15T12:34:32+00:00",
-          "regional": false
-        },
-        {
-          "title": "Physicists can’t agree on how the Universe works",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260912220041.htm",
-          "source": "ScienceDaily",
-          "summary": "A massive worldwide survey of physicists has revealed surprisingly little agreement about some of the universe’s biggest mysteries.",
-          "published": "2026-09-13T13:15:56+00:00",
           "regional": false
         },
         {
