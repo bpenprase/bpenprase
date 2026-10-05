@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-04T14:31:04.271305+00:00",
-  "generated_human": "04 October 2026, 14:31 UTC",
-  "total_items": 115,
+  "generated": "2026-10-05T17:34:29.064685+00:00",
+  "generated_human": "05 October 2026, 17:34 UTC",
+  "total_items": 119,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,22 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "AI Solves a Major Unsolved Math Problem. Not Everyone Is Happy",
+          "link": "https://spectrum.ieee.org/millennium-prize-ai",
+          "source": "IEEE Spectrum",
+          "summary": "On 13 September, leading luminaries and up-and-coming talents in mathematics and computer science congregated at the annual Heidelberg Laureate Forum in Germany for a week of discussion, networking, and—naturally—wurst.",
+          "published": "2026-10-05T12:00:02+00:00",
+          "regional": false
+        },
+        {
+          "title": "EmTech Future 2026: When AI Meets Everything",
+          "link": "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/",
+          "source": "MIT Technology Review",
+          "summary": "Yossi Matias, Vice President & Head of Google Research, explores how AI is beginning to reshape biology, infrastructure, manufacturing, and science, and why its greatest impact may come when it intersects with other…",
+          "published": "2026-10-05T04:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "Exclusive: An AI agent emailed hundreds of researchers for help. It told us why",
           "link": "https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why",
@@ -74,14 +90,6 @@
           "regional": true
         },
         {
-          "title": "IPARK Hyundai Development expands AI-powered residential services",
-          "link": "https://www.koreaherald.com/article/10889415",
-          "source": "The Korea Herald",
-          "summary": "IPARK Hyundai Development is expanding its artificial intelligence-based residential services by integrating digital healthcare, smart home systems and automated security features into its housing developments, the…",
-          "published": "2026-09-30T08:06:19+00:00",
-          "regional": true
-        },
-        {
           "title": "ByteDance grabs one-fifth of China’s data centre capacity as AI drives infrastructure boom",
           "link": "https://www.scmp.com/tech/big-tech/article/3369056/bytedance-grabs-one-fifth-chinas-data-centre-capacity-ai-drives-infrastructure-boom?utm_source=rss_feed",
           "source": "South China Morning Post",
@@ -122,6 +130,14 @@
           "regional": true
         },
         {
+          "title": "US, China agree AI dialogue ahead of Trump-Xi summit",
+          "link": "https://www.scmp.com/plus/news/china/diplomacy/article/3368245/us-china-agree-ai-dialogue-ahead-trump-xi-summit?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Chinese and US negotiators made progress on artificial intelligence (AI) and trade ahead of President Xi Jinping’s visit to the White House later this week.",
+          "published": "2026-09-21T09:01:49+00:00",
+          "regional": true
+        },
+        {
           "title": "Forget AI KPIs: how China’s tech giants are rationing tokens for employees",
           "link": "https://www.scmp.com/tech/big-tech/article/3367593/forget-ai-kpis-how-chinas-tech-giants-are-rationing-tokens-employees?utm_source=rss_feed",
           "source": "South China Morning Post",
@@ -137,6 +153,14 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "A new kind of magnetism could unlock faster, more efficient computers",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261002080015.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have discovered evidence of altermagnetism in a thin, highly tunable material that could help electronics use electron spin instead of relying only on electrical charge.",
+          "published": "2026-10-05T11:35:24+00:00",
+          "regional": false
+        },
         {
           "title": "Scientists just found a new way to make hydrogen from water",
           "link": "https://www.sciencedaily.com/releases/2026/10/261001214017.htm",
@@ -178,14 +202,6 @@
           "regional": false
         },
         {
-          "title": "Diesel fuel prices are rising—chemistry can help explain why",
-          "link": "https://www.scientificamerican.com/article/diesel-fuel-prices-are-rising-chemistry-can-help-explain-why/",
-          "source": "Scientific American",
-          "summary": "Diesel prices have almost doubled over the past year, spelling trouble for farmers, truckers and the entire U.S. economy",
-          "published": "2026-09-24T14:45:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Distant time crystals can somehow fall into the same rhythm",
           "link": "https://www.sciencedaily.com/releases/2026/09/260923035934.htm",
           "source": "ScienceDaily",
@@ -202,12 +218,28 @@
           "regional": false
         },
         {
-          "title": "Chemistry textbooks have been getting this wrong for nearly 100 years",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260913082157.htm",
-          "source": "ScienceDaily",
-          "summary": "A foundational chemistry concept found in textbooks for almost 100 years may have been taught incorrectly. Researchers say the inductive effect in neutral molecules appears to extend only across one chemical bond,…",
-          "published": "2026-09-14T14:13:47+00:00",
-          "regional": false
+          "title": "AMD CEO to visit S. Korea this week for partnerships",
+          "link": "https://www.koreaherald.com/article/10893430",
+          "source": "The Korea Herald",
+          "summary": "Lisa Su, chief executive officer of Advanced Micro Devices Inc. will visit South Korea this week to meet semiconductor industry executives and government officials, the company said Monday.",
+          "published": "2026-10-05T10:49:37+00:00",
+          "regional": true
+        },
+        {
+          "title": "Thermoelectric device switches between power generation and heat-flow sensing",
+          "link": "https://sj.jst.go.jp/news/202610/n1005-02k.html",
+          "source": "Science Japan",
+          "summary": "A research group led by Professor Masayuki Takashiri of the Department of Applied Chemistry, School of Engineering at Tokai University, developed a thermoelectric element utilizing single-walled carbon nanotubes…",
+          "published": "2026-10-05T06:20:33+00:00",
+          "regional": true
+        },
+        {
+          "title": "Nanotube chirality set early and preserved during growth — Structural memory in carbon nanotubes revealed",
+          "link": "https://sj.jst.go.jp/news/202610/n1005-03k.html",
+          "source": "Science Japan",
+          "summary": "A research group including Assistant Professor Keigo Otsuka of the School of Engineering at the University of Tokyo, clarified that even if ambient temperatures and dimensions of catalyst particles change during growth…",
+          "published": "2026-10-05T06:18:19+00:00",
+          "regional": true
         },
         {
           "title": "Foreign investors sell W20.3tr in Korean stocks, led by SK hynix and Samsung Electronics",
@@ -239,14 +271,6 @@
           "source": "The Korea Herald",
           "summary": "LG Energy Solution said Thursday it had signed a memorandum of understanding to supply 46-series cylindrical battery cells to Indigo Technologies, a US commercial electric vehicle startup, from 2027 through 2030.",
           "published": "2026-10-01T05:25:44+00:00",
-          "regional": true
-        },
-        {
-          "title": "Chemists report ‘milder’ way to swap carbon for nitrogen atoms",
-          "link": "https://www.thehindu.com/sci-tech/science/chemists-report-milder-way-to-swap-carbon-for-nitrogen-atoms/article71494482.ece",
-          "source": "The Hindu",
-          "summary": "Scientists have reported a reaction to replace carbon with nitrogen in types of molecules often encountered in medical research and industry without using harsh oxidants",
-          "published": "2026-09-22T06:53:19+00:00",
           "regional": true
         },
         {
@@ -450,19 +474,27 @@
       "accent": "#F0894E",
       "items": [
         {
-          "title": "ESA’s Juice just used Earth as a slingshot to Jupiter",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261001214102.htm",
-          "source": "ScienceDaily",
-          "summary": "ESA’s Juice spacecraft raced past Earth on September 28, using our planet’s gravity to dramatically reshape its path toward Jupiter without burning much fuel.",
-          "published": "2026-10-03T13:34:11+00:00",
+          "title": "United Arab Emirates to launch spacecraft to probe seven asteroids in 2028",
+          "link": "https://www.scientificamerican.com/article/united-arab-emirates-to-launch-spacecraft-to-probe-seven-asteroids-in-2028/",
+          "source": "Scientific American",
+          "summary": "The country’s space program is new and ambitious, having already sent a mission into Mars orbit",
+          "published": "2026-10-05T16:30:00+00:00",
           "regional": false
         },
         {
-          "title": "Chang’e-6 lunar soil contains a surprising magnetic time capsule",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261001214015.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists studying Chang’e-6 lunar soil have discovered a previously unknown magnetic mineral in natural Moon samples: a form of metallic iron called γ-Fe.",
-          "published": "2026-10-03T13:12:14+00:00",
+          "title": "Plaque honours Mars mission scientist",
+          "link": "https://www.bbc.co.uk/news/articles/c617kl241z91o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "The tribute recognises Colin Pillinger who led the 2003 probe mission to Mars.",
+          "published": "2026-10-05T14:36:43+00:00",
+          "regional": false
+        },
+        {
+          "title": "Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino",
+          "link": "https://www.nasa.gov/general/mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richard-spolzino/",
+          "source": "NASA",
+          "summary": "“I want to be able to look at a rocket launch and say, ‘I touched a piece of this.’” That’s how Richard Spolzino describes the thing he’s chasing.",
+          "published": "2026-10-04T19:10:59+00:00",
           "regional": false
         },
         {
@@ -479,14 +511,6 @@
           "source": "NASA",
           "summary": "NASA’s SpaceX Crew-12 mission is ending, with the crew scheduled to return in early October. NASA astronauts Jessica Meir and Jack Hathaway, ESA (European Space Agency) astronaut Sophie Adenot, and Roscosmos cosmonaut…",
           "published": "2026-10-02T19:30:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Opens Applications for Next Class of Flight Directors",
-          "link": "https://www.nasa.gov/news-release/nasa-opens-applications-for-next-class-of-flight-directors/",
-          "source": "NASA",
-          "summary": "NASA is seeking leaders for one of the most esteemed positions on Earth for human spaceflight: flight director in mission control at the agency’s Johnson Space Center in Houston.",
-          "published": "2026-10-02T15:49:26+00:00",
           "regional": false
         },
         {
@@ -642,19 +666,19 @@
           "regional": false
         },
         {
-          "title": "Samsung launches Galaxy A08 for mid segment buyers in India",
-          "link": "https://www.thehindu.com/sci-tech/technology/gadgets/samsung-launches-galaxy-a08-for-mid-segment-buyers-in-india/article71533002.ece",
+          "title": "Oppo launches F35 Pro and F35 featuring Dimensity processors in India",
+          "link": "https://www.thehindu.com/sci-tech/technology/gadgets/oppo-launches-f35-pro-and-f35-featuring-dimensity-processors-in-india/article71546241.ece",
           "source": "The Hindu",
-          "summary": "Galaxy A08 ships with a 6,000 mAh battery, and supports 25W charging",
-          "published": "2026-10-02T10:23:10+00:00",
+          "summary": "The Oppo F35 series comes with IP69K, IP69, IP68 and IP66 water and dust resistance",
+          "published": "2026-10-05T07:35:34+00:00",
           "regional": true
         },
         {
           "title": "Multiple Indian payloads launched by Space X’s Falcon 9",
-          "link": "https://www.thehindu.com/sci-tech/multiple-indian-payloads-launched-by-space-xs-falcon-9/article71535904.ece",
+          "link": "https://www.thehindu.com/sci-tech/science/multiple-indian-payloads-launched-by-space-xs-falcon-9/article71535904.ece",
           "source": "The Hindu",
           "summary": "Dhruva Space’s LEAP-2, hosting multiple In-Orbit Demonstration (IOD) missions, which includes a star tracker by France-based Sodern ArianeGroup, and TAPAS-1 by India-based Satleo Labs, was part of the Transporter-18…",
-          "published": "2026-10-02T06:17:45+00:00",
+          "published": "2026-10-05T03:18:49+00:00",
           "regional": true
         },
         {
@@ -730,6 +754,30 @@
       "accent": "#B98CE0",
       "items": [
         {
+          "title": "United Arab Emirates to launch spacecraft to probe seven asteroids in 2028",
+          "link": "https://www.scientificamerican.com/article/united-arab-emirates-to-launch-spacecraft-to-probe-seven-asteroids-in-2028/",
+          "source": "Scientific American",
+          "summary": "The country’s space program is new and ambitious, having already sent a mission into Mars orbit",
+          "published": "2026-10-05T16:30:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Astronomers catch dwarf stars gobbling up their orbiting companions",
+          "link": "https://www.scientificamerican.com/article/astronomers-catch-dwarf-stars-gobbling-up-their-orbiting-companions/",
+          "source": "Scientific American",
+          "summary": "Red and white dwarf stars may be hungrier than we thought",
+          "published": "2026-10-05T15:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Don't miss: Watch Saturn shine and Halley’s Comet debris streak across the sky",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261005071523.htm",
+          "source": "ScienceDaily",
+          "summary": "October skywatchers can see Saturn at opposition, catch meteors from Halley’s Comet during the Orionid peak, and watch the Moon sweep past the famous Pleiades star cluster.",
+          "published": "2026-10-05T11:59:17+00:00",
+          "regional": false
+        },
+        {
           "title": "A meteor hit Oklahoma 100 million years later than scientists thought",
           "link": "https://www.sciencedaily.com/releases/2026/10/261002080012.htm",
           "source": "ScienceDaily",
@@ -794,14 +842,6 @@
           "regional": false
         },
         {
-          "title": "How to see the Orionid meteor shower this weekend",
-          "link": "https://www.bbc.co.uk/weather/articles/c64gr18jrvx3o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "One of the best-known meteor showers is now active until 7 November.",
-          "published": "2026-10-02T07:16:45+00:00",
-          "regional": false
-        },
-        {
           "title": "A record-breaking X-ray flash may reveal the birth of a magnetar",
           "link": "https://www.sciencedaily.com/releases/2026/09/260930020252.htm",
           "source": "ScienceDaily",
@@ -847,22 +887,6 @@
           "source": "Scientific American",
           "summary": "Meet the Milky Way’s first microblazar",
           "published": "2026-09-25T18:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "What’s the point of the interstellar Fermi Explorer mission?",
-          "link": "https://www.scientificamerican.com/article/whats-the-point-of-the-interstellar-fermi-explorer-mission/",
-          "source": "Scientific American",
-          "summary": "Fermi Explorer, a proposed low-cost private mission to Alpha Centauri, seeks to address a question that’s already been answered",
-          "published": "2026-09-25T10:45:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Vox’s Unexplainable and Scientific American explore the mystery of dark matter and the limits of science",
-          "link": "https://www.scientificamerican.com/podcast/episode/voxs-unexplainable-and-scientific-american-explore-the-mystery-of-dark-matter-and-the-limits-of-science/",
-          "source": "Scientific American",
-          "summary": "What if the universe’s biggest mystery has no answer?",
-          "published": "2026-09-25T10:00:00+00:00",
           "regional": false
         },
         {
@@ -922,11 +946,27 @@
           "regional": false
         },
         {
+          "title": "Anna Mani: a star from the hills",
+          "link": "https://www.thehindu.com/children/anna-mani-a-star-from-the-hills/article71546743.ece",
+          "source": "The Hindu",
+          "summary": "Anna Mani, who dedicated her life to improving weather forecasting in the country, dared to venture into sreas India had never stepped into before",
+          "published": "2026-10-05T10:54:27+00:00",
+          "regional": true
+        },
+        {
           "title": "Multiple Indian payloads launched by Space X’s Falcon 9",
-          "link": "https://www.thehindu.com/sci-tech/multiple-indian-payloads-launched-by-space-xs-falcon-9/article71535904.ece",
+          "link": "https://www.thehindu.com/sci-tech/science/multiple-indian-payloads-launched-by-space-xs-falcon-9/article71535904.ece",
           "source": "The Hindu",
           "summary": "Dhruva Space’s LEAP-2, hosting multiple In-Orbit Demonstration (IOD) missions, which includes a star tracker by France-based Sodern ArianeGroup, and TAPAS-1 by India-based Satleo Labs, was part of the Transporter-18…",
-          "published": "2026-10-02T06:17:45+00:00",
+          "published": "2026-10-05T03:18:49+00:00",
+          "regional": true
+        },
+        {
+          "title": "M31-V1, the star Hubble viewed and changed our universe",
+          "link": "https://www.thehindu.com/sci-tech/science/m31-v1-the-star-hubble-viewed-and-changed-our-universe/article71495038.ece",
+          "source": "The Hindu",
+          "summary": "The observations that American astronomer Edwin Hubble made on the night of October 5-6, 1923 and one that he had made the previous night, enabled him to discover M31-V1, the first Cepheid star in the Andromeda galaxy.",
+          "published": "2026-10-01T05:11:35+00:00",
           "regional": true
         },
         {
@@ -959,14 +999,6 @@
           "source": "The Hindu",
           "summary": "On September 14, 1959, an object touched by humans struck the surface of the moon. That object, retroactively renamed Luna 2, was the first-ever human-made object from Earth that had reached another cosmic body.",
           "published": "2026-09-23T01:59:02+00:00",
-          "regional": true
-        },
-        {
-          "title": "NIT-Srinagar to open campus observatory with 14-inch telescope",
-          "link": "https://www.thehindu.com/sci-tech/science/nit-srinagar-to-open-campus-observatory-with-14-inch-telescope/article71491214.ece",
-          "source": "The Hindu",
-          "summary": "The observatory, developed with the Indian Institute of Astrophysics, will give students hands-on access to astronomical observation and imaging",
-          "published": "2026-09-21T12:13:29+00:00",
           "regional": true
         }
       ]
