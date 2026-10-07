@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-06T15:33:37.808027+00:00",
-  "generated_human": "06 October 2026, 15:33 UTC",
-  "total_items": 117,
+  "generated": "2026-10-07T15:54:35.479379+00:00",
+  "generated_human": "07 October 2026, 15:54 UTC",
+  "total_items": 122,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "As AI Closed In on ‘Unique Games’ Proof, Researchers Raced to Beat the Machines",
+          "link": "https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/",
+          "source": "Quanta Magazine",
+          "summary": "In the shadow of a rumored AI proof of one of the biggest problems in their field, three computer scientists rushed to publish their own milestone result.",
+          "published": "2026-10-07T15:08:46+00:00",
+          "regional": false
+        },
         {
           "title": "What makes a good AI safety test? Experts explain why even the best techniques may not be powerful enough",
           "link": "https://www.scientificamerican.com/article/what-makes-a-good-ai-safety-test-experts-explain-why-even-the-best-techniques-may-not-be-powerful-enough/",
@@ -34,27 +42,11 @@
           "regional": false
         },
         {
-          "title": "Exclusive: An AI agent emailed hundreds of researchers for help. It told us why",
-          "link": "https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why",
-          "source": "Science (AAAS)",
-          "summary": "To get to the bottom of this perplexing behavior, Science interviewed the agent",
-          "published": "2026-10-02T04:55:00+00:00",
-          "regional": false
-        },
-        {
           "title": "When can we say AI made a scientific discovery?",
           "link": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
           "source": "MIT Technology Review",
           "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here.",
           "published": "2026-09-28T17:03:16+00:00",
-          "regional": false
-        },
-        {
-          "title": "Growing AI energy demands, the search for subatomic particles and the hottest amoeba",
-          "link": "https://www.scientificamerican.com/podcast/episode/growing-ai-energy-demands-the-search-for-subatomic-particles-and-the-hottest-amoeba/",
-          "source": "Scientific American",
-          "summary": "From the smallest building blocks of life to prehistoric vomit and a newly discovered amoeba that can really take the heat.",
-          "published": "2026-09-28T10:00:00+00:00",
           "regional": false
         },
         {
@@ -72,6 +64,14 @@
           "summary": "Might the UK and US joining their AI forces help solve nuclear fusion?",
           "published": "2026-09-17T20:00:00+00:00",
           "regional": false
+        },
+        {
+          "title": "China’s open-weight AI models are winning global users. Who is capturing the value?",
+          "link": "https://www.scmp.com/tech/tech-trends/article/3370012/chinas-open-weight-ai-models-are-winning-global-users-who-capturing-value?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "China’s open-weight artificial intelligence models are taking off globally, but much of the money they generate is flowing to third-party providers rather than the companies that create them, according to a new study.",
+          "published": "2026-10-07T11:00:09+00:00",
+          "regional": true
         },
         {
           "title": "As China’s AI race accelerates, ‘model fatigue’ becomes the next challenge",
@@ -144,14 +144,6 @@
           "summary": "Chinese and US negotiators made progress on artificial intelligence (AI) and trade ahead of President Xi Jinping’s visit to the White House later this week.",
           "published": "2026-09-21T09:01:49+00:00",
           "regional": true
-        },
-        {
-          "title": "Neither the US nor China can win the AI race alone, BofA analyst says",
-          "link": "https://www.scmp.com/tech/big-tech/article/3368219/neither-us-nor-china-can-win-ai-race-alone-bofa-analyst-says?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Neither Beijing nor Washington can win the race for artificial intelligence dominance without relying on other countries, a Bank of America analyst said ahead of this week’s high-stakes bilateral summit, citing deeply…",
-          "published": "2026-09-21T07:00:13+00:00",
-          "regional": true
         }
       ]
     },
@@ -161,6 +153,30 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "Chemistry Nobel awarded for solving mystery of life's asymmetry",
+          "link": "https://www.bbc.co.uk/news/articles/c6ly038jg0d4o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "The prize was given to the French and Japanese scientists for solving the mystery of life's asymmetry.",
+          "published": "2026-10-07T11:51:52+00:00",
+          "regional": false
+        },
+        {
+          "title": "2026 Nobel Prize in Chemistry is awarded to Henri Kagan and Kenso Soai for their work in ‘mirror’ chemistry",
+          "link": "https://www.scientificamerican.com/article/2026-nobel-prize-in-chemistry-is-award-to-henri-kagan-and-kenso-soai-for-their-work-in-mirror-chemistry/",
+          "source": "Scientific American",
+          "summary": "The prize recognizes Henri Kagan and Kenso Soai’s discovery of nonlinear effects and autocatalysis in asymmetric organic synthesis",
+          "published": "2026-10-07T09:45:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Nobel Prize honors researchers who solved chemistry’s asymmetry mystery",
+          "link": "https://www.science.org/content/article/chemistry-nobel-honors-researchers-who-developed-reactions-leading-one-handed-molecules",
+          "source": "Science (AAAS)",
+          "summary": "Henri Kagan and Kenso Soai win award for reactions leading to one-handed molecules",
+          "published": "2026-10-07T06:05:00+00:00",
+          "regional": false
+        },
         {
           "title": "Scientists finally see how nature moves energy so efficiently",
           "link": "https://www.sciencedaily.com/releases/2026/10/261004001841.htm",
@@ -226,6 +242,46 @@
           "regional": false
         },
         {
+          "title": "Chemistry Nobel 2026 honours the science of mirrored molecules",
+          "link": "https://www.thehindu.com/sci-tech/science/nobel-prize-in-chemistry-2026-winner/article71554613.ece",
+          "source": "The Hindu",
+          "summary": "The duo was recognised for the discovery of ‘non-linear effects and autocatalysis in asymmetric organic synthesis’",
+          "published": "2026-10-07T15:18:21+00:00",
+          "regional": true
+        },
+        {
+          "title": "Samsung Electronics to pay chip division special bonus in spring 2027",
+          "link": "https://www.koreaherald.com/article/10896185",
+          "source": "The Korea Herald",
+          "summary": "Samsung Electronics will pay a new special performance bonus to employees of its semiconductor division in late March or early April 2027, after the plan is put to a vote at the company’s annual shareholders meeting in…",
+          "published": "2026-10-07T11:29:49+00:00",
+          "regional": true
+        },
+        {
+          "title": "Nobel Prize in Chemistry goes to Henri B. Kagan and Kenso Soai",
+          "link": "https://www.dw.com/en/nobel-prize-in-chemistry-goes-to-henri-b-kagan-and-kenso-soai/a-79573924?maca=en-rss_en_science-22531-xml-mrss",
+          "source": "Deutsche Welle",
+          "summary": "Henri B. Kagan and Kenso Soai won the Nobel Prize in Chemistry for their groundbreaking discoveries related to the origin of chirality and life's building blocks.",
+          "published": "2026-10-07T09:51:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "Posco completes second Argentina lithium plant",
+          "link": "https://www.koreaherald.com/article/10895801",
+          "source": "The Korea Herald",
+          "summary": "Posco Holdings has completed its second lithium plant in Argentina, giving it the capacity to supply 50,000 metric tons of lithium hydroxide as the South Korean steelmaker expands its push into critical battery…",
+          "published": "2026-10-07T05:49:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "First detection of heavy methanol in space",
+          "link": "https://www.mpg.de/26834976/first-detection-of-heavy-methanol-in-space",
+          "source": "Max Planck Society",
+          "summary": "Methanol containing heavy hydrogen is considered the building block of complex organic molecules and allows us to trace how stars and planets form from extremely cold interstellar gas and dust",
+          "published": "2026-10-06T22:00:00+00:00",
+          "regional": true
+        },
+        {
           "title": "Succeeding in synthesizing intermetallic compound of \"metastable phase\" — Paving the way for creating new functional materials via electrochemical reactions",
           "link": "https://sj.jst.go.jp/news/202610/n1006-01j.html",
           "source": "Science Japan",
@@ -258,43 +314,11 @@
           "regional": true
         },
         {
-          "title": "AMD CEO to visit S. Korea this week for partnerships",
-          "link": "https://www.koreaherald.com/article/10893430",
-          "source": "The Korea Herald",
-          "summary": "Lisa Su, chief executive officer of Advanced Micro Devices Inc. will visit South Korea this week to meet semiconductor industry executives and government officials, the company said Monday.",
-          "published": "2026-10-05T10:49:37+00:00",
-          "regional": true
-        },
-        {
-          "title": "Thermoelectric device switches between power generation and heat-flow sensing",
-          "link": "https://sj.jst.go.jp/news/202610/n1005-02k.html",
-          "source": "Science Japan",
-          "summary": "A research group led by Professor Masayuki Takashiri of the Department of Applied Chemistry, School of Engineering at Tokai University, developed a thermoelectric element utilizing single-walled carbon nanotubes…",
-          "published": "2026-10-05T06:20:33+00:00",
-          "regional": true
-        },
-        {
-          "title": "Nanotube chirality set early and preserved during growth — Structural memory in carbon nanotubes revealed",
-          "link": "https://sj.jst.go.jp/news/202610/n1005-03k.html",
-          "source": "Science Japan",
-          "summary": "A research group including Assistant Professor Keigo Otsuka of the School of Engineering at the University of Tokyo, clarified that even if ambient temperatures and dimensions of catalyst particles change during growth…",
-          "published": "2026-10-05T06:18:19+00:00",
-          "regional": true
-        },
-        {
-          "title": "Foreign investors sell W20.3tr in Korean stocks, led by SK hynix and Samsung Electronics",
-          "link": "https://www.koreaherald.com/article/10892894",
-          "source": "The Korea Herald",
-          "summary": "Foreign investors sold a net 20.3 trillion won ($15.1 billion) worth of shares on South Korea’s main Kospi market over the past month, with semiconductor heavyweights SK hynix and Samsung Electronics accounting for most…",
-          "published": "2026-10-04T04:02:32+00:00",
-          "regional": true
-        },
-        {
-          "title": "Chip foundries better insulated in an AI slowdown than Asia-Pacific tech peers, S&P says",
-          "link": "https://www.scmp.com/tech/big-tech/article/3367973/chip-foundries-better-insulated-ai-slowdown-asia-pacific-tech-peers-sp-says?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "As market fears mount over waning Big Tech spending and calls to slow down frontier artificial intelligence development, Asia-Pacific semiconductor foundries are better positioned to withstand a potential downturn in AI…",
-          "published": "2026-09-18T07:00:09+00:00",
+          "title": "In this Delhi studio, tintype brings chemistry into every portrait",
+          "link": "https://www.thehindu.com/sci-tech/science/in-this-delhi-studio-tintype-brings-chemistry-into-every-portrait/article71546707.ece",
+          "source": "The Hindu",
+          "summary": "Tintype is a ‘traditional, hand-made process’ from the mid-19th century to produce photographs; it seems simple yet it conceals a process that demands scientific precision — and therein lies its charm",
+          "published": "2026-10-05T10:19:52+00:00",
           "regional": true
         }
       ]
@@ -386,12 +410,28 @@
           "regional": false
         },
         {
-          "title": "New fuel cell breakthrough could help power energy-hungry data centers",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260807035140.htm",
-          "source": "ScienceDaily",
-          "summary": "A new nanostructured carbon design lets fuel-cell catalysts use tiny amounts of platinum while remaining remarkably stable and efficient.",
-          "published": "2026-08-08T14:09:02+00:00",
-          "regional": false
+          "title": "The solar boom is rapidly transforming emerging economies",
+          "link": "https://www.dw.com/en/the-solar-boom-is-rapidly-transforming-emerging-economies/a-79474847?maca=en-rss_en_environment-22607-xml-mrss",
+          "source": "Deutsche Welle",
+          "summary": "Renewable electricity is cheaper than ever. While the West got rich on coal and oil, some of the world's poorest countries are banking on solar, wind and water instead.",
+          "published": "2026-10-07T07:48:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "Posco completes second Argentina lithium plant",
+          "link": "https://www.koreaherald.com/article/10895801",
+          "source": "The Korea Herald",
+          "summary": "Posco Holdings has completed its second lithium plant in Argentina, giving it the capacity to supply 50,000 metric tons of lithium hydroxide as the South Korean steelmaker expands its push into critical battery…",
+          "published": "2026-10-07T05:49:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "First detection of heavy methanol in space",
+          "link": "https://www.mpg.de/26834976/first-detection-of-heavy-methanol-in-space",
+          "source": "Max Planck Society",
+          "summary": "Methanol containing heavy hydrogen is considered the building block of complex organic molecules and allows us to trace how stars and planets form from extremely cold interstellar gas and dust",
+          "published": "2026-10-06T22:00:00+00:00",
+          "regional": true
         },
         {
           "title": "Posco Future M lands W6tr LFP materials deal with Samsung SDI",
@@ -407,14 +447,6 @@
           "source": "Deutsche Welle",
           "summary": "Prominent climate leaders have called on governments, businesses, institutions and the public to make a push for solar power before the decade is out, repowering the world with cheap, clean energy. Is that possible?",
           "published": "2026-10-02T13:48:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "HD Hyundai Heavy secures Taean offshore substation contract",
-          "link": "https://www.koreaherald.com/article/10891544",
-          "source": "The Korea Herald",
-          "summary": "HD Hyundai Heavy Industries has secured a contract to build an offshore substation for the Taean offshore wind farm, expanding its presence in the renewable energy sector.",
-          "published": "2026-10-02T01:54:50+00:00",
           "regional": true
         },
         {
@@ -448,14 +480,6 @@
           "summary": "As data centers multiply to meet AI demand, they're straining power grids, draining water supplies and reshaping the land and air around them.",
           "published": "2026-09-04T11:08:00+00:00",
           "regional": true
-        },
-        {
-          "title": "In drought-stricken France, tankers supply drinking water",
-          "link": "https://www.dw.com/en/in-drought-stricken-france-tankers-supply-drinking-water/a-78420016?maca=en-rss_en_environment-22607-xml-mrss",
-          "source": "Deutsche Welle",
-          "summary": "France is seeing water shortages in regions that usually have plenty of supply. This summer's extreme heat is exposing how unprepared much of the country, and Europe, is for increasing water scarcity.",
-          "published": "2026-08-19T04:33:00+00:00",
-          "regional": true
         }
       ]
     },
@@ -465,6 +489,38 @@
       "tagline": "New missions, spacecraft, and technologies — NASA, ESA, ISRO, JAXA, SpaceX, CNES, and more.",
       "accent": "#F0894E",
       "items": [
+        {
+          "title": "Artemis II Crew Moon Photo Annotations",
+          "link": "https://www.nasa.gov/image-article/artemis-ii-crew-moon-photo-annotations/",
+          "source": "NASA",
+          "summary": "A visualization of a dark Moon eclipsing the Sun is marked with handwritten notes in this April 6, 2026, screenshot from an Artemis II crew member’s tablet.",
+          "published": "2026-10-07T15:44:59+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Webb finds signs of Mars-sized worlds smashing together",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261007042108.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA’s James Webb Space Telescope is giving astronomers a glimpse of the kinds of violent collisions that may have shaped our own solar system, including the giant impact thought to have created the Moon.",
+          "published": "2026-10-07T13:09:15+00:00",
+          "regional": false
+        },
+        {
+          "title": "Brake! Time for ESA’s Hera asteroid mission to go slow",
+          "link": "https://www.esa.int/Space_Safety/Hera/Brake!_Time_for_ESA_s_Hera_asteroid_mission_to_go_slow",
+          "source": "ESA",
+          "summary": "Launched two years ago today, the European Space Agency’s Hera mission for planetary defence has been hurtling away from Earth ever since.",
+          "published": "2026-10-07T12:33:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA to Cover Northrop Grumman CRS-24 Spacecraft Departure",
+          "link": "https://www.nasa.gov/news-release/nasa-to-cover-northrop-grumman-crs-24-spacecraft-departure/",
+          "source": "NASA",
+          "summary": "After delivering more than 11,000 pounds of supplies, science experiments, and other cargo to the International Space Station for NASA, Northrop Grumman’s Cygnus XL spacecraft is scheduled to depart Friday, Oct.",
+          "published": "2026-10-06T18:31:40+00:00",
+          "regional": false
+        },
         {
           "title": "NASA’s Curiosity Rover Catches Stunning Martian Dawn",
           "link": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-rover-catches-stunning-martian-dawn/",
@@ -479,22 +535,6 @@
           "source": "ESA",
           "summary": "For eight days, a Mars rover prototype travelled 220 metres across a barren landscape, following commands from a science team some 1200 kilometres away.",
           "published": "2026-10-06T08:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA to Stream SpaceX Crew-12 Return, Splashdown Live",
-          "link": "https://www.nasa.gov/news-release/nasa-to-stream-spacex-crew-12-return-splashdown-live/",
-          "source": "NASA",
-          "summary": "NASA and SpaceX are targeting no earlier than 8:05 a.m. EDT, Wednesday, Oct. 7, for the undocking of the agency’s SpaceX Crew-12 mission from the International Space Station, pending weather conditions. An Oct.",
-          "published": "2026-10-05T21:44:40+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Astronaut Christina Koch at Eagles vs. Rams",
-          "link": "https://www.nasa.gov/image-article/nasa-astronaut-christina-koch-at-eagles-vs-rams/",
-          "source": "NASA",
-          "summary": "NASA astronaut and mission specialist of the agency’s Artemis II mission, Christina Koch, leads the fans in singing the Eagles Fight Song from the field at an NFL game between the Philadelphia Eagles and the Los Angeles…",
-          "published": "2026-10-05T17:42:56+00:00",
           "regional": false
         },
         {
@@ -610,14 +650,6 @@
           "regional": false
         },
         {
-          "title": "SpaceX’s Starship lifts off in make-or-break orbital test flight",
-          "link": "https://www.scientificamerican.com/article/spacexs-starship-lifts-off-in-make-or-break-orbital-test-flight/",
-          "source": "Scientific American",
-          "summary": "The world’s largest rocket successfully entered orbit for the first time—a milestone for SpaceX and a relief for future NASA moon missions",
-          "published": "2026-09-28T12:40:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Two astronauts who flew farther than anyone before are taking new NASA roles",
           "link": "https://www.sciencedaily.com/releases/2026/09/260925005423.htm",
           "source": "ScienceDaily",
@@ -642,14 +674,6 @@
           "regional": false
         },
         {
-          "title": "NASA’s Roman Space Telescope could last more than twice as long as planned",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260918024802.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA’s Roman Space Telescope may now have enough fuel for at least 22 years of science, more than double its original 10 year design life.",
-          "published": "2026-09-18T11:31:56+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA’s Moon orbiter finds a 728-foot crater that wasn’t there before",
           "link": "https://www.sciencedaily.com/releases/2026/09/260917003715.htm",
           "source": "ScienceDaily",
@@ -658,19 +682,35 @@
           "regional": false
         },
         {
-          "title": "Nuri rocket erected on launchpad on eve of fifth launch",
+          "title": "Nuri nails five-satellite mission, eyes commercial future",
+          "link": "https://www.koreaherald.com/article/10895872",
+          "source": "The Korea Herald",
+          "summary": "South Korea’s Nuri rocket delivered five primary satellites into orbit Wednesday, completing its most complex deployment yet and taking another step toward commercial launch services.",
+          "published": "2026-10-07T06:21:07+00:00",
+          "regional": true
+        },
+        {
+          "title": "Nuri rocket lifts off on fifth mission with 15 satellites aboard",
+          "link": "https://www.koreaherald.com/article/10895637",
+          "source": "The Korea Herald",
+          "summary": "South Korea’s homegrown Nuri rocket lifted off Wednesday on its fifth mission, carrying 15 satellites toward a sun-synchronous orbit about 575 kilometers above Earth.",
+          "published": "2026-10-07T03:35:13+00:00",
+          "regional": true
+        },
+        {
+          "title": "Analysis: Why NASA wants to build a nuclear reactor on the moon",
+          "link": "https://www.thehindu.com/sci-tech/science/analysis-why-nasa-wants-to-build-nuclear-reactor-on-the-moon/article71552807.ece",
+          "source": "The Hindu",
+          "summary": "The Artemis Accords, to which the U.S. and its allies vis-a-vis the moon are signatories, envisage temporary ‘safety zones’ to prevent harmful interference",
+          "published": "2026-10-07T01:29:39+00:00",
+          "regional": true
+        },
+        {
+          "title": "Nuri rocket on launchpad, ready for fifth launch",
           "link": "https://www.koreaherald.com/article/10894778",
           "source": "The Korea Herald",
           "summary": "South Korea's homegrown Nuri rocket was moved to a launchpad and raised into a vertical position Tuesday, a day before its scheduled fifth launch, the country's space agency said.",
           "published": "2026-10-06T12:50:30+00:00",
-          "regional": true
-        },
-        {
-          "title": "Vivo launches X Fold 6, V80, S2 FE, OriginOS 7 and its mixed reality headset in India",
-          "link": "https://www.thehindu.com/sci-tech/technology/gadgets/vivo-launches-x-fold-6-v80-s2-fe-originos-7-and-its-mixed-reality-headset-in-india/article71551130.ece",
-          "source": "The Hindu",
-          "summary": "The Chinese smartphone player will be competing with Samsung, Google and now Apple in the foldable space with its third generation folding phone",
-          "published": "2026-10-06T10:55:52+00:00",
           "regional": true
         },
         {
@@ -698,14 +738,6 @@
           "regional": true
         },
         {
-          "title": "Ground control: On ISRO, policy and its focus",
-          "link": "https://www.thehindu.com/opinion/editorial/ground-control-on-isro-policy-and-and-its-focus/article71439288.ece",
-          "source": "The Hindu",
-          "summary": "ISRO must focus on space technology as a tool for development",
-          "published": "2026-09-30T10:17:24+00:00",
-          "regional": true
-        },
-        {
           "title": "SpaceX puts Starship megarocket in orbit for first time",
           "link": "https://www.thehindu.com/sci-tech/science/spacex-puts-starship-megarocket-in-orbit-for-first-time/article71521071.ece",
           "source": "The Hindu",
@@ -728,14 +760,6 @@
           "summary": "‘Link’ reentered the atmosphere, bringing the $30 million, NASA-sponsored salvage effort of the Swift Observatory to a close",
           "published": "2026-09-26T06:06:23+00:00",
           "regional": true
-        },
-        {
-          "title": "Daily Quiz | On Mars Orbiter mission",
-          "link": "https://www.thehindu.com/sci-tech/science/daily-quiz-on-mars-orbiter-mission/article71502967.ece",
-          "source": "The Hindu",
-          "summary": "Test your knowledge of historic Mars Orbiter Mission, which made India the first Asian nation to reach Mars orbit and the first nation globally to succeed on its maiden attempt",
-          "published": "2026-09-24T06:08:54+00:00",
-          "regional": true
         }
       ]
     },
@@ -746,11 +770,43 @@
       "accent": "#B98CE0",
       "items": [
         {
+          "title": "NASA’s Webb finds signs of Mars-sized worlds smashing together",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261007042108.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA’s James Webb Space Telescope is giving astronomers a glimpse of the kinds of violent collisions that may have shaped our own solar system, including the giant impact thought to have created the Moon.",
+          "published": "2026-10-07T13:09:15+00:00",
+          "regional": false
+        },
+        {
+          "title": "Webb finds a surprising atmosphere on a scorching lava world",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261005071526.htm",
+          "source": "ScienceDaily",
+          "summary": "The James Webb Space Telescope has found strong evidence that the rocky lava world HD 3167 b has an atmosphere, despite circling its star every 24 hours under extreme heat.",
+          "published": "2026-10-07T11:58:25+00:00",
+          "regional": false
+        },
+        {
+          "title": "Two meteor showers are lighting up the October sky—here’s how to see them",
+          "link": "https://www.scientificamerican.com/article/two-meteor-showers-are-lighting-up-the-october-sky-heres-how-to-see-them/",
+          "source": "Scientific American",
+          "summary": "The Draconids and Orionids both peak this month",
+          "published": "2026-10-06T17:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "'Ghost particles' from space telescope wins physics Nobel",
           "link": "https://www.bbc.co.uk/news/articles/cq203mymlvkeo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
           "summary": "Belgian physicist Prof Francis Halzen has won for his pioneering work on an observatory that detects particles from space.",
           "published": "2026-10-06T11:24:19+00:00",
+          "regional": false
+        },
+        {
+          "title": "The birth of neutrino astronomy nets Nobel Prize in Physics",
+          "link": "https://www.science.org/content/article/architect-south-pole-observatory-wins-physics-nobel",
+          "source": "Science (AAAS)",
+          "summary": "Francis Halzen honored for the IceCube Neutrino Observatory, which discovers ghostly particles from the distant universe and tracks their origins",
+          "published": "2026-10-06T06:00:00+00:00",
           "regional": false
         },
         {
@@ -786,14 +842,6 @@
           "regional": false
         },
         {
-          "title": "Scientists find a surprising clue to why the universe’s expansion doesn’t add up",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261002080026.htm",
-          "source": "ScienceDaily",
-          "summary": "Tiny magnetic fields created shortly after the Big Bang may help explain the long-running disagreement over how fast the universe is expanding.",
-          "published": "2026-10-04T12:05:54+00:00",
-          "regional": false
-        },
-        {
           "title": "Astronomers get permission for mini-observatory",
           "link": "https://www.bbc.co.uk/news/articles/ck5ynpzz4q28o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
@@ -807,14 +855,6 @@
           "source": "ScienceDaily",
           "summary": "Ultra-detailed simulations are showing how the first stars lit up the dark Universe and seeded space with elements such as carbon, oxygen, and iron.",
           "published": "2026-10-03T12:50:57+00:00",
-          "regional": false
-        },
-        {
-          "title": "This weird particle may have come from a black hole exploding in another dimension",
-          "link": "https://www.scientificamerican.com/article/this-weird-particle-may-have-come-from-a-black-hole-exploding-in-another-dimension/",
-          "source": "Scientific American",
-          "summary": "An unexplained high-energy neutrino detected three years ago could be linked to a primordial black hole, perhaps one more even unusual than previously thought",
-          "published": "2026-10-02T16:30:00+00:00",
           "regional": false
         },
         {
@@ -882,14 +922,6 @@
           "regional": false
         },
         {
-          "title": "Scientists just found a bizarre cosmic object ‘hiding in plain sight’",
-          "link": "https://www.scientificamerican.com/article/scientists-just-found-a-bizarre-cosmic-object-hiding-in-plain-sight/",
-          "source": "Scientific American",
-          "summary": "Meet the Milky Way’s first microblazar",
-          "published": "2026-09-25T18:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "“We found something never seen before” – A dead star is producing a shock wave that shouldn’t exist",
           "link": "https://www.sciencedaily.com/releases/2026/09/260924020410.htm",
           "source": "ScienceDaily",
@@ -930,12 +962,20 @@
           "regional": false
         },
         {
-          "title": "James Webb reveals Chariklo’s mysterious rings are changing faster than expected",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260915232124.htm",
-          "source": "ScienceDaily",
-          "summary": "The James Webb Space Telescope has revealed surprising changes in the rings around Chariklo, a small object orbiting between Saturn and Uranus.",
-          "published": "2026-09-16T03:51:58+00:00",
-          "regional": false
+          "title": "The Nobel for IceCube and the search for neutrinos from outer space | Explained",
+          "link": "https://www.thehindu.com/sci-tech/science/the-nobel-for-icecube-and-the-search-for-neutrinos-from-outer-space-explained/article71554101.ece",
+          "source": "The Hindu",
+          "summary": "The IceCube Neutrino Observatory at the South Pole has won Francis Halzen the Nobel Prize for physics by opening a window into parts of the universe that were until recently beyond our reach",
+          "published": "2026-10-07T01:36:47+00:00",
+          "regional": true
+        },
+        {
+          "title": "First detection of heavy methanol in space",
+          "link": "https://www.mpg.de/26834976/first-detection-of-heavy-methanol-in-space",
+          "source": "Max Planck Society",
+          "summary": "Methanol containing heavy hydrogen is considered the building block of complex organic molecules and allows us to trace how stars and planets form from extremely cold interstellar gas and dust",
+          "published": "2026-10-06T22:00:00+00:00",
+          "regional": true
         },
         {
           "title": "IceCube neutrino observatory: The big, chill neutrino-spotter",
