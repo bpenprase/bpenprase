@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-07T15:54:35.479379+00:00",
-  "generated_human": "07 October 2026, 15:54 UTC",
+  "generated": "2026-10-08T15:57:46.087622+00:00",
+  "generated_human": "08 October 2026, 15:57 UTC",
   "total_items": 122,
   "channels": [
     {
@@ -10,11 +10,27 @@
       "accent": "#5AA9E6",
       "items": [
         {
+          "title": "AI breakthroughs in robotics won’t change your life any time soon",
+          "link": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
+          "source": "MIT Technology Review",
+          "summary": "The story is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation that creates and supports content about how technology and science are changing the way we live.",
+          "published": "2026-10-08T09:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "As AI Closed In on ‘Unique Games’ Proof, Researchers Raced to Beat the Machines",
           "link": "https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/",
           "source": "Quanta Magazine",
           "summary": "In the shadow of a rumored AI proof of one of the biggest problems in their field, three computer scientists rushed to publish their own milestone result.",
           "published": "2026-10-07T15:08:46+00:00",
+          "regional": false
+        },
+        {
+          "title": "As AI triggers a tsunami of submissions, computer science conferences impose caps",
+          "link": "https://www.science.org/content/article/ai-triggers-tsunami-submissions-computer-science-conferences-impose-caps",
+          "source": "Science (AAAS)",
+          "summary": "New controls could limit papers by early-career researchers",
+          "published": "2026-10-07T01:40:00+00:00",
           "regional": false
         },
         {
@@ -42,14 +58,6 @@
           "regional": false
         },
         {
-          "title": "When can we say AI made a scientific discovery?",
-          "link": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
-          "source": "MIT Technology Review",
-          "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here.",
-          "published": "2026-09-28T17:03:16+00:00",
-          "regional": false
-        },
-        {
           "title": "Why Read a Research Paper When You Can Turn It Into an AI Agent?",
           "link": "https://spectrum.ieee.org/paper2agent-ai-agents-research-papers",
           "source": "IEEE Spectrum",
@@ -64,6 +72,22 @@
           "summary": "Might the UK and US joining their AI forces help solve nuclear fusion?",
           "published": "2026-09-17T20:00:00+00:00",
           "regional": false
+        },
+        {
+          "title": "Can China match up with Meta’s Muse in race to harness AI agents?",
+          "link": "https://www.scmp.com/tech/big-tech/article/3370123/can-china-match-metas-muse-race-harness-ai-agents?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Meta Platforms’ breakout Muse personal AI agent is shining a spotlight on a new battleground in artificial intelligence – one in which China’s biggest internet companies are already jostling for position.",
+          "published": "2026-10-08T14:00:08+00:00",
+          "regional": true
+        },
+        {
+          "title": "Alibaba’s AI cloud revenue set to surge over 50% as investment blitz pays off: analysts",
+          "link": "https://www.scmp.com/tech/big-tech/article/3370209/alibabas-ai-cloud-revenue-set-surge-over-50-investment-blitz-pays-analysts?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Alibaba Group Holding is expected to report a 50 per cent revenue surge for its cloud and artificial intelligence unit for the September quarter, driven by strong returns on its aggressive AI investments, according to…",
+          "published": "2026-10-08T11:30:22+00:00",
+          "regional": true
         },
         {
           "title": "China’s open-weight AI models are winning global users. Who is capturing the value?",
@@ -128,22 +152,6 @@
           "summary": "Alibaba Group Holding has introduced what it called China’s most powerful artificial intelligence chip and teased plans to train an AI model with up to 10 trillion parameters, as top executives reaffirmed the tech…",
           "published": "2026-09-22T05:59:40+00:00",
           "regional": true
-        },
-        {
-          "title": "Ant Group consolidates Alipay operations in big bet on AI ‘agentic commerce’",
-          "link": "https://www.scmp.com/tech/tech-trends/article/3368325/ant-group-consolidates-alipay-operations-big-bet-ai-agentic-commerce?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Chinese fintech giant Ant Group has revamped its online payments operations by creating a new business group for Alipay, as it sharpens its artificial intelligence focus on “agentic commerce” to drive new growth.",
-          "published": "2026-09-22T03:41:25+00:00",
-          "regional": true
-        },
-        {
-          "title": "US, China agree AI dialogue ahead of Trump-Xi summit",
-          "link": "https://www.scmp.com/plus/news/china/diplomacy/article/3368245/us-china-agree-ai-dialogue-ahead-trump-xi-summit?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Chinese and US negotiators made progress on artificial intelligence (AI) and trade ahead of President Xi Jinping’s visit to the White House later this week.",
-          "published": "2026-09-21T09:01:49+00:00",
-          "regional": true
         }
       ]
     },
@@ -170,10 +178,10 @@
           "regional": false
         },
         {
-          "title": "Nobel Prize honors researchers who solved chemistry’s asymmetry mystery",
+          "title": "Nobel Prize honors researchers who showed how ‘handedness’ can emerge in chemistry",
           "link": "https://www.science.org/content/article/chemistry-nobel-honors-researchers-who-developed-reactions-leading-one-handed-molecules",
           "source": "Science (AAAS)",
-          "summary": "Henri Kagan and Kenso Soai win award for reactions leading to one-handed molecules",
+          "summary": "Henri Kagan and Kenso Soai win award for reactions leading to mirror-image molecules",
           "published": "2026-10-07T06:05:00+00:00",
           "regional": false
         },
@@ -242,6 +250,14 @@
           "regional": false
         },
         {
+          "title": "S. Korea extends current account surplus in Aug. amid solid exports",
+          "link": "https://www.koreaherald.com/article/10896469",
+          "source": "The Korea Herald",
+          "summary": "South Korea posted a current account surplus in August, the central bank said Thursday, the second highest on record, on the back of the robust exports amid the global semiconductor upcycle.",
+          "published": "2026-10-08T00:19:08+00:00",
+          "regional": true
+        },
+        {
           "title": "Chemistry Nobel 2026 honours the science of mirrored molecules",
           "link": "https://www.thehindu.com/sci-tech/science/nobel-prize-in-chemistry-2026-winner/article71554613.ece",
           "source": "The Hindu",
@@ -255,6 +271,14 @@
           "source": "The Korea Herald",
           "summary": "Samsung Electronics will pay a new special performance bonus to employees of its semiconductor division in late March or early April 2027, after the plan is put to a vote at the company’s annual shareholders meeting in…",
           "published": "2026-10-07T11:29:49+00:00",
+          "regional": true
+        },
+        {
+          "title": "Gradiant bets big on India, secures five contracts, including semiconductor fab",
+          "link": "https://www.thehindu.com/business/Industry/gradiant-bets-big-on-india-secures-five-contracts-including-semiconductor-fab/article71555160.ece",
+          "source": "The Hindu",
+          "summary": "Company appoints Hari Prasad as India MD as water-treatment firm wins five contracts across semiconductor, PCB and solar manufacturing",
+          "published": "2026-10-07T11:11:29+00:00",
           "regional": true
         },
         {
@@ -274,14 +298,6 @@
           "regional": true
         },
         {
-          "title": "First detection of heavy methanol in space",
-          "link": "https://www.mpg.de/26834976/first-detection-of-heavy-methanol-in-space",
-          "source": "Max Planck Society",
-          "summary": "Methanol containing heavy hydrogen is considered the building block of complex organic molecules and allows us to trace how stars and planets form from extremely cold interstellar gas and dust",
-          "published": "2026-10-06T22:00:00+00:00",
-          "regional": true
-        },
-        {
           "title": "Succeeding in synthesizing intermetallic compound of \"metastable phase\" — Paving the way for creating new functional materials via electrochemical reactions",
           "link": "https://sj.jst.go.jp/news/202610/n1006-01j.html",
           "source": "Science Japan",
@@ -295,14 +311,6 @@
           "source": "The Korea Herald",
           "summary": "Posco Future M has signed a 6 trillion won ($4.48 billion) deal to supply Samsung SDI with lithium iron phosphate battery materials, expanding their partnership as the battery industry seeks alternatives to Chinese…",
           "published": "2026-10-06T08:55:10+00:00",
-          "regional": true
-        },
-        {
-          "title": "Doosan to lead W98.9b AI robotics projects",
-          "link": "https://www.koreaherald.com/article/10894269",
-          "source": "The Korea Herald",
-          "summary": "Doosan Robotics said Tuesday it had secured two major Korean government R&D deals to build South Korea’s first physical AI manufacturing platform by embedding domestic semiconductors into collaborative robots.",
-          "published": "2026-10-06T04:58:23+00:00",
           "regional": true
         },
         {
@@ -410,8 +418,8 @@
           "regional": false
         },
         {
-          "title": "The solar boom is rapidly transforming emerging economies",
-          "link": "https://www.dw.com/en/the-solar-boom-is-rapidly-transforming-emerging-economies/a-79474847?maca=en-rss_en_environment-22607-xml-mrss",
+          "title": "Emerging economies are embracing solar power and skipping fossil fuels much faster than Europe or the US",
+          "link": "https://www.dw.com/en/emerging-economies-are-embracing-solar-power-and-skipping-fossil-fuels-much-faster-than-europe-or-the-us/a-79474847?maca=en-rss_en_environment-22607-xml-mrss",
           "source": "Deutsche Welle",
           "summary": "Renewable electricity is cheaper than ever. While the West got rich on coal and oil, some of the world's poorest countries are banking on solar, wind and water instead.",
           "published": "2026-10-07T07:48:00+00:00",
@@ -490,6 +498,70 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "NASA Advances LISA Mission Contributions With New Test Telescope",
+          "link": "https://science.nasa.gov/missions/lisa/nasa-advances-lisa-mission-contributions-with-new-test-telescope/",
+          "source": "NASA",
+          "summary": "NASA has taken the next step in the process of developing a new all-glass telescope for the LISA (Laser Interferometer Space Antenna) mission, a space observatory designed to detect ripples in space-time called…",
+          "published": "2026-10-08T15:31:24+00:00",
+          "regional": false
+        },
+        {
+          "title": "Artemis II images boost NASA’s moon base plans",
+          "link": "https://www.scientificamerican.com/article/artemis-ii-images-boost-nasas-moon-base-plans/",
+          "source": "Scientific American",
+          "summary": "The first crewed lunar mission in more than a half-century brought back more than 800 gigabytes of data on colorful craters, flashing meteoroids, and much more",
+          "published": "2026-10-08T15:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA is searching for hidden caves to build its first Moon base",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261008005247.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA is preparing for humanity’s first Moon base with three investigations that will hunt for underground shelters, uncover hidden ice, and track dangerous conditions on the lunar surface.",
+          "published": "2026-10-08T12:19:20+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival",
+          "link": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
+          "source": "NASA",
+          "summary": "NASA and SpaceX are targeting 6:33 a.m. EDT, Tuesday, Oct. 13, for the next launch to deliver science investigations, supplies, and equipment, including the final set of International Space Station Roll-Out Solar…",
+          "published": "2026-10-07T21:16:42+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s SpaceX 35th Commercial Resupply Mission Overview",
+          "link": "https://www.nasa.gov/general/nasas-spacex-35th-commercial-resupply-mission-overview/",
+          "source": "NASA",
+          "summary": "NASA and SpaceX are targeting no earlier than Tuesday, Oct. 13 to launch scientific investigations, supplies, and equipment to the International Space Station.",
+          "published": "2026-10-07T20:17:16+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s PRIMA Spacecraft (Artist’s Concept)",
+          "link": "https://science.nasa.gov/photojournal/nasas-prima-spacecraft-artists-concept/",
+          "source": "NASA",
+          "summary": "Description This artist’s concept depicts the proposed design for NASA’s PRobe far-Infrared Mission for Astrophysics (PRIMA), which was selected by the agency in September 2026.",
+          "published": "2026-10-07T20:15:49+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Curiosity Looks Back After Reaching Elevation Milestone",
+          "link": "https://science.nasa.gov/photojournal/nasas-curiosity-looks-back-after-reaching-elevation-milestone/",
+          "source": "NASA",
+          "summary": "Description NASA’s Curiosity Mars rover captured this view looking back at the floor of Gale Crater, with the crater’s rim visible in the distance, on Sept. 5, 2026, the 5,006th Martian day, or sol, of the mission.",
+          "published": "2026-10-07T17:00:47+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Curiosity Captures Dawn Breaking on Wind-Carved Cliffs",
+          "link": "https://science.nasa.gov/photojournal/nasas-curiosity-captures-dawn-breaking-on-wind-carved-cliffs/",
+          "source": "NASA",
+          "summary": "Description NASA’s Curiosity Mars rover captured this panorama of sunrise illuminating distant, wind-carved features called yardangs on Aug. 11, 2026, the 4,982nd Martian day, or sol, of the mission.",
+          "published": "2026-10-07T16:49:50+00:00",
+          "regional": false
+        },
+        {
           "title": "Artemis II Crew Moon Photo Annotations",
           "link": "https://www.nasa.gov/image-article/artemis-ii-crew-moon-photo-annotations/",
           "source": "NASA",
@@ -503,30 +575,6 @@
           "source": "ScienceDaily",
           "summary": "NASA’s James Webb Space Telescope is giving astronomers a glimpse of the kinds of violent collisions that may have shaped our own solar system, including the giant impact thought to have created the Moon.",
           "published": "2026-10-07T13:09:15+00:00",
-          "regional": false
-        },
-        {
-          "title": "Brake! Time for ESA’s Hera asteroid mission to go slow",
-          "link": "https://www.esa.int/Space_Safety/Hera/Brake!_Time_for_ESA_s_Hera_asteroid_mission_to_go_slow",
-          "source": "ESA",
-          "summary": "Launched two years ago today, the European Space Agency’s Hera mission for planetary defence has been hurtling away from Earth ever since.",
-          "published": "2026-10-07T12:33:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA to Cover Northrop Grumman CRS-24 Spacecraft Departure",
-          "link": "https://www.nasa.gov/news-release/nasa-to-cover-northrop-grumman-crs-24-spacecraft-departure/",
-          "source": "NASA",
-          "summary": "After delivering more than 11,000 pounds of supplies, science experiments, and other cargo to the International Space Station for NASA, Northrop Grumman’s Cygnus XL spacecraft is scheduled to depart Friday, Oct.",
-          "published": "2026-10-06T18:31:40+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Curiosity Rover Catches Stunning Martian Dawn",
-          "link": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-rover-catches-stunning-martian-dawn/",
-          "source": "NASA",
-          "summary": "A newly released panorama captured by NASA’s Curiosity rover offers the most detailed view yet of distant, wind-carved Martian cliffs, highlighting features the mission’s scientists have long been waiting to see up…",
-          "published": "2026-10-06T15:30:07+00:00",
           "regional": false
         },
         {
@@ -562,35 +610,11 @@
           "regional": false
         },
         {
-          "title": "SpaceX launches crew to ISS",
-          "link": "https://www.bbc.co.uk/news/videos/c5rm9mdperemo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "The Falcon 9 rocket blasted off from Cape Canaveral with two Americans, a Russian and a Canadian who will spend up to six months aboard the International Space Station.",
-          "published": "2026-10-01T16:32:17+00:00",
-          "regional": false
-        },
-        {
-          "title": "Nasa heads to Scottish Highlands in its search for life on Mars",
-          "link": "https://www.bbc.co.uk/news/articles/c5gmr3309p7jo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "The US space agency says ancient rocks at Clachtoll have similarities to those on the Red Planet.",
-          "published": "2026-10-01T08:57:33+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA directive might increase the odds of contaminating Mars",
           "link": "https://www.scientificamerican.com/article/nasa-directive-might-increase-the-odds-of-contaminating-mars/",
           "source": "Scientific American",
           "summary": "The new push loosens U.S. regulations for sterilizing spacecraft bound for the Red Planet and calls for modernizing the science of “planetary protection”",
           "published": "2026-09-30T17:35:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Shaping Europe’s future in low Earth orbit",
-          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Shaping_Europe_s_future_in_low_Earth_orbit",
-          "source": "ESA",
-          "summary": "For more than 25 years, the Internation Space Station (ISS) has been humankind's home in space. It has enabled scientists to conduct research in weightlessness, helped astronauts learn how to live and work in orbit and…",
-          "published": "2026-09-30T13:19:00+00:00",
           "regional": false
         },
         {
@@ -634,14 +658,6 @@
           "regional": false
         },
         {
-          "title": "NASA to attempt uncrewed and crewed missions with Boeing’s troubled Starliner spacecraft",
-          "link": "https://www.scientificamerican.com/article/nasa-to-attempt-uncrewed-and-crewed-missions-with-boeings-troubled-starliner-spacecraft/",
-          "source": "Scientific American",
-          "summary": "Starliner hasn’t flown since its failed 2024 mission left two astronauts onboard the International Space Station for 286 days",
-          "published": "2026-09-28T19:45:00+00:00",
-          "regional": false
-        },
-        {
           "title": "How ESA astronauts return from space",
           "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/How_ESA_astronauts_return_from_space",
           "source": "ESA",
@@ -666,20 +682,28 @@
           "regional": false
         },
         {
-          "title": "A giant crater may reveal the origin of Mars’ doomed moon",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260919031040.htm",
-          "source": "ScienceDaily",
-          "summary": "A massive crater on Mars’ moon Phobos may hide a dense region of compressed material that could reveal whether the moon is a captured asteroid or debris from an ancient impact on Mars.",
-          "published": "2026-09-19T12:12:41+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA’s Moon orbiter finds a 728-foot crater that wasn’t there before",
           "link": "https://www.sciencedaily.com/releases/2026/09/260917003715.htm",
           "source": "ScienceDaily",
           "summary": "NASA’s Lunar Reconnaissance Orbiter has revealed a 728-foot-wide crater that formed on the Moon in 2024, making it the largest newly formed crater ever identified in the solar system.",
           "published": "2026-09-18T10:18:54+00:00",
           "regional": false
+        },
+        {
+          "title": "The last human expedition to the moon… so far",
+          "link": "https://www.thehindu.com/children/the-last-human-expedition-to-the-moon...-so-far/article66214095.ece",
+          "source": "The Hindu",
+          "summary": "On December 11, 1972, Apollo 17 achieved lunar landing. The sixth mission in the Apollo program to explore the lunar surface, Apollo 17, for now, is the last human expedition to the moon.",
+          "published": "2026-10-08T07:39:01+00:00",
+          "regional": true
+        },
+        {
+          "title": "ISRO scientists lead space awareness rally in Rajamahendravaram",
+          "link": "https://www.thehindu.com/news/national/andhra-pradesh/isro-scientists-lead-space-awareness-rally-in-rajamahendravaram/article71556662.ece",
+          "source": "The Hindu",
+          "summary": "",
+          "published": "2026-10-07T16:14:29+00:00",
+          "regional": true
         },
         {
           "title": "Nuri nails five-satellite mission, eyes commercial future",
@@ -744,22 +768,6 @@
           "summary": "The black-and-silver behemoth, standing more than 120 metres tall, rose through a thick cloud of smoke on an ambitious 14th test flight",
           "published": "2026-09-29T05:27:09+00:00",
           "regional": true
-        },
-        {
-          "title": "China’s space diplomacy brings Pakistani astronauts closer to orbit",
-          "link": "https://www.thehindu.com/sci-tech/science/chinas-space-diplomacy-brings-pakistani-astronauts-closer-to-orbit/article71518664.ece",
-          "source": "The Hindu",
-          "summary": "Pakistan’s space agency has provided the first insights into the programme to foreign media since the pilots were selected and deployed to China",
-          "published": "2026-09-28T08:05:46+00:00",
-          "regional": true
-        },
-        {
-          "title": "Private spacecraft falls back to Earth after failing to rescue aging NASA telescope",
-          "link": "https://www.thehindu.com/sci-tech/science/private-spacecraft-falls-back-to-earth-after-failing-to-rescue-aging-nasa-telescope/article71511767.ece",
-          "source": "The Hindu",
-          "summary": "‘Link’ reentered the atmosphere, bringing the $30 million, NASA-sponsored salvage effort of the Swift Observatory to a close",
-          "published": "2026-09-26T06:06:23+00:00",
-          "regional": true
         }
       ]
     },
@@ -769,6 +777,14 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "Einstein Probe reveals a hidden phase of neutron star collisions",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261006234511.htm",
+          "source": "ScienceDaily",
+          "summary": "Einstein Probe revealed nearly 10 minutes of soft X-ray activity following a short gamma-ray burst, exposing a phase of neutron star mergers that previous missions may have missed.",
+          "published": "2026-10-08T10:06:06+00:00",
+          "regional": false
+        },
         {
           "title": "NASA’s Webb finds signs of Mars-sized worlds smashing together",
           "link": "https://www.sciencedaily.com/releases/2026/10/261007042108.htm",
@@ -799,14 +815,6 @@
           "source": "BBC Science",
           "summary": "Belgian physicist Prof Francis Halzen has won for his pioneering work on an observatory that detects particles from space.",
           "published": "2026-10-06T11:24:19+00:00",
-          "regional": false
-        },
-        {
-          "title": "The birth of neutrino astronomy nets Nobel Prize in Physics",
-          "link": "https://www.science.org/content/article/architect-south-pole-observatory-wins-physics-nobel",
-          "source": "Science (AAAS)",
-          "summary": "Francis Halzen honored for the IceCube Neutrino Observatory, which discovers ghostly particles from the distant universe and tracks their origins",
-          "published": "2026-10-06T06:00:00+00:00",
           "regional": false
         },
         {
@@ -842,11 +850,11 @@
           "regional": false
         },
         {
-          "title": "Astronomers get permission for mini-observatory",
-          "link": "https://www.bbc.co.uk/news/articles/ck5ynpzz4q28o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "The Shropshire Astronomical Society plans to install the dome at Rodington village hall.",
-          "published": "2026-10-03T19:05:35+00:00",
+          "title": "Scientists find a surprising clue to why the universe’s expansion doesn’t add up",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261002080026.htm",
+          "source": "ScienceDaily",
+          "summary": "Tiny magnetic fields created shortly after the Big Bang may help explain the long-running disagreement over how fast the universe is expanding.",
+          "published": "2026-10-04T12:05:54+00:00",
           "regional": false
         },
         {
@@ -855,6 +863,14 @@
           "source": "ScienceDaily",
           "summary": "Ultra-detailed simulations are showing how the first stars lit up the dark Universe and seeded space with elements such as carbon, oxygen, and iron.",
           "published": "2026-10-03T12:50:57+00:00",
+          "regional": false
+        },
+        {
+          "title": "This weird particle may have come from a black hole exploding in another dimension",
+          "link": "https://www.scientificamerican.com/article/this-weird-particle-may-have-come-from-a-black-hole-exploding-in-another-dimension/",
+          "source": "Scientific American",
+          "summary": "An unexplained high-energy neutrino detected three years ago could be linked to a primordial black hole, perhaps one more even unusual than previously thought",
+          "published": "2026-10-02T16:30:00+00:00",
           "regional": false
         },
         {
@@ -946,19 +962,11 @@
           "regional": false
         },
         {
-          "title": "Astronomers just found the youngest known planet ever",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260917003712.htm",
+          "title": "The LHC just ruled out another hiding place for quantum black holes",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260922005649.htm",
           "source": "ScienceDaily",
-          "summary": "Astronomers have confirmed a Jupiter-size planet less than a million years old, making Elias 2-24 b the youngest known planet and giving scientists a rare look at a world still being born.",
-          "published": "2026-09-17T13:00:19+00:00",
-          "regional": false
-        },
-        {
-          "title": "JWST’s mysterious little red dots may be black holes growing at incredible speeds",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260917003703.htm",
-          "source": "ScienceDaily",
-          "summary": "New supercomputer simulations suggest JWST’s puzzling Little Red Dots are rapidly growing black holes from the early Universe.",
-          "published": "2026-09-17T12:45:48+00:00",
+          "summary": "Physicists searching through Large Hadron Collider data found no evidence that the machine has been producing microscopic quantum black holes, but the result sharply narrows where such exotic physics could still be…",
+          "published": "2026-09-22T04:56:49+00:00",
           "regional": false
         },
         {
@@ -1007,14 +1015,6 @@
           "source": "The Hindu",
           "summary": "The observations that American astronomer Edwin Hubble made on the night of October 5-6, 1923 and one that he had made the previous night, enabled him to discover M31-V1, the first Cepheid star in the Andromeda galaxy.",
           "published": "2026-10-01T05:11:35+00:00",
-          "regional": true
-        },
-        {
-          "title": "Private spacecraft falls back to Earth after failing to rescue aging NASA telescope",
-          "link": "https://www.thehindu.com/sci-tech/science/private-spacecraft-falls-back-to-earth-after-failing-to-rescue-aging-nasa-telescope/article71511767.ece",
-          "source": "The Hindu",
-          "summary": "‘Link’ reentered the atmosphere, bringing the $30 million, NASA-sponsored salvage effort of the Swift Observatory to a close",
-          "published": "2026-09-26T06:06:23+00:00",
           "regional": true
         },
         {
