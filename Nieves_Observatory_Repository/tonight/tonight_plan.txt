@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-10-08 16:41 PDT
-; Observing window starts 2026-10-08 19:50 PDT  (LST 20:10:02)
+; Generated 2026-10-09 16:06 PDT
+; Observing window starts 2026-10-09 19:48 PDT  (LST 20:11:59)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -38,7 +38,7 @@ IC 4703
 #filter r',Ha,OIII,SII
 M 17
 
-; Comet C/2024 J3 (ATLAS)  mag 13.6
+; Comet C/2024 J3 (ATLAS)  mag 13.9
 #posang 0
 #count 3
 #interval 300
@@ -47,7 +47,7 @@ M 17
 CT C/2024 J3
 #WAITINLIMITS 60
 
-; Comet C/2026 A2 (Bok)  mag 12.4
+; Comet C/2026 A2 (Bok)  mag 13.7
 #posang 0
 #count 3
 #interval 300
@@ -145,15 +145,6 @@ M 39
 #filter r',Ha,OIII,SII
 IC 5146
 
-; Comet 161P/Hartley-IRAS  mag 10.6
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 161P/Hartley-IRAS
-#WAITINLIMITS 60
-
 ; Asteroid 9 Metis  mag 10.1
 #posang 0
 #count 3
@@ -179,7 +170,7 @@ NGC 7331
 #filter r',g'
 2026aaiv	22:37:05.618	+34:24:35.37
 
-; Asteroid 192 Nausikaa  mag 8.8
+; Asteroid 192 Nausikaa  mag 8.9
 #posang 0
 #count 3
 #interval 300
@@ -295,14 +286,6 @@ MP Pallas
 #filter r',g',i',z'
 IC 0127
 
-; Galaxy  mag 5.8  size 62.09'  Triangulum Galaxy,Triangulum Pinwheel
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 33
-
 ; Asteroid 4 Vesta  mag 6.4
 #posang 0
 #count 3
@@ -311,6 +294,14 @@ M 33
 #filter r'
 MP Vesta
 #WAITINLIMITS 60
+
+; Galaxy  mag 5.8  size 62.09'  Triangulum Galaxy,Triangulum Pinwheel
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 33
 
 ; Galaxy  mag 9.3  size 9.89'
 #posang 0
@@ -352,7 +343,7 @@ NGC 1023
 #filter r',g',i',z'
 M 77
 
-; Comet 220P/McNaught  mag 11.9
+; Comet 220P/McNaught  mag 11.8
 #posang 0
 #count 3
 #interval 300
@@ -467,6 +458,14 @@ AT2026wyp	06:49:05.903	+37:06:08.52
 #filter r',g',i',z'
 NGC 2301
 
+; Open Cluster  mag 7.2  size 9.00'  Caroline's Cluster
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 2360
+
 ; Asteroid 1 Ceres  mag 8.6
 #posang 0
 #count 3
@@ -475,14 +474,6 @@ NGC 2301
 #filter r'
 MP Ceres
 #WAITINLIMITS 60
-
-; Open Cluster  mag 7.2  size 9.00'  Caroline's Cluster
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 2360
 
 ; Open Cluster  mag 4.4  size 19.80'
 #posang 0
