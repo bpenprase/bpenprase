@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-08T15:57:46.087622+00:00",
-  "generated_human": "08 October 2026, 15:57 UTC",
-  "total_items": 122,
+  "generated": "2026-10-09T15:40:23.352213+00:00",
+  "generated_human": "09 October 2026, 15:40 UTC",
+  "total_items": 125,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,22 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+          "link": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+          "source": "MIT Technology Review",
+          "summary": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for…",
+          "published": "2026-10-09T00:08:24+00:00",
+          "regional": false
+        },
+        {
+          "title": "BBC Inside Science",
+          "link": "https://www.bbc.co.uk/sounds/play/w3ct9788?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "What next for the world of maths after a major intrusion by AI?",
+          "published": "2026-10-08T20:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "AI breakthroughs in robotics won’t change your life any time soon",
           "link": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
@@ -63,14 +79,6 @@
           "source": "IEEE Spectrum",
           "summary": "Have you ever read a paper in Science or Nature and thought, “Man, that research was so cool. I wish I could try that method on my own data,” only to spend a week wrestling with someone else’s undocumented repo, broken…",
           "published": "2026-09-22T15:00:05+00:00",
-          "regional": false
-        },
-        {
-          "title": "BBC Inside Science",
-          "link": "https://www.bbc.co.uk/sounds/play/w3ct9785?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Might the UK and US joining their AI forces help solve nuclear fusion?",
-          "published": "2026-09-17T20:00:00+00:00",
           "regional": false
         },
         {
@@ -138,19 +146,19 @@
           "regional": true
         },
         {
-          "title": "China’s active AI agents could reach 197 million by 2030, report says",
-          "link": "https://technode.com/2026/09/22/chinas-active-ai-agents-could-reach-197-million-by-2030-report-says/",
-          "source": "TechNode",
-          "summary": "China had 4.95 million active AI agents in 2026, and the number could reach 197 million by 2030, according to the 2026 China Artificial Intelligence Computing Power Development Assessment Report released on Sept. 21.",
-          "published": "2026-09-22T07:05:32+00:00",
-          "regional": true
-        },
-        {
           "title": "Alibaba teases 10-trillion-parameter model, debuts ‘China’s most powerful’ AI chip",
           "link": "https://www.scmp.com/tech/big-tech/article/3368338/alibaba-teases-10-trillion-parameter-model-debuts-chinas-most-powerful-ai-chip?utm_source=rss_feed",
           "source": "South China Morning Post",
           "summary": "Alibaba Group Holding has introduced what it called China’s most powerful artificial intelligence chip and teased plans to train an AI model with up to 10 trillion parameters, as top executives reaffirmed the tech…",
           "published": "2026-09-22T05:59:40+00:00",
+          "regional": true
+        },
+        {
+          "title": "Ant Group consolidates Alipay operations in big bet on AI ‘agentic commerce’",
+          "link": "https://www.scmp.com/tech/tech-trends/article/3368325/ant-group-consolidates-alipay-operations-big-bet-ai-agentic-commerce?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Chinese fintech giant Ant Group has revamped its online payments operations by creating a new business group for Alipay, as it sharpens its artificial intelligence focus on “agentic commerce” to drive new growth.",
+          "published": "2026-09-22T03:41:25+00:00",
           "regional": true
         }
       ]
@@ -162,11 +170,11 @@
       "accent": "#E8A13A",
       "items": [
         {
-          "title": "Chemistry Nobel awarded for solving mystery of life's asymmetry",
-          "link": "https://www.bbc.co.uk/news/articles/c6ly038jg0d4o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "The prize was given to the French and Japanese scientists for solving the mystery of life's asymmetry.",
-          "published": "2026-10-07T11:51:52+00:00",
+          "title": "Scientists find hidden materials that could improve batteries and solar fuels",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261007042118.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have uncovered a hidden world of “in-between” materials that briefly form as chemical ingredients are heated, revealing structures that conventional methods can miss.",
+          "published": "2026-10-09T10:20:23+00:00",
           "regional": false
         },
         {
@@ -175,14 +183,6 @@
           "source": "Scientific American",
           "summary": "The prize recognizes Henri Kagan and Kenso Soai’s discovery of nonlinear effects and autocatalysis in asymmetric organic synthesis",
           "published": "2026-10-07T09:45:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Nobel Prize honors researchers who showed how ‘handedness’ can emerge in chemistry",
-          "link": "https://www.science.org/content/article/chemistry-nobel-honors-researchers-who-developed-reactions-leading-one-handed-molecules",
-          "source": "Science (AAAS)",
-          "summary": "Henri Kagan and Kenso Soai win award for reactions leading to mirror-image molecules",
-          "published": "2026-10-07T06:05:00+00:00",
           "regional": false
         },
         {
@@ -250,11 +250,35 @@
           "regional": false
         },
         {
-          "title": "S. Korea extends current account surplus in Aug. amid solid exports",
-          "link": "https://www.koreaherald.com/article/10896469",
+          "title": "China state funds double down on Hua Hong in legacy chip push",
+          "link": "https://www.scmp.com/tech/big-tech/article/3370297/china-state-funds-double-down-hua-hong-legacy-chip-push?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Chinese state funds are ramping up support for the country’s second-largest contract chipmaker, pouring billions of yuan into the parent of Hua Hong Grace Semiconductor and a new manufacturing facility to fuel Beijing’s…",
+          "published": "2026-10-09T08:30:09+00:00",
+          "regional": true
+        },
+        {
+          "title": "Japanese Scientist Kenso Soai Wins Chemistry Nobel Prize With French Scientist Henri B. Kagan",
+          "link": "https://www.asianscientist.com/2026/10/topnews/japanese-scientist-kenso-soai-wins-chemistry-nobel-prize-with-french-scientist-henri-b-kagan/",
+          "source": "Asian Scientist",
+          "summary": "The researchers won the award for solving a long standing mystery in chemistry: homochirality.",
+          "published": "2026-10-09T08:24:40+00:00",
+          "regional": true
+        },
+        {
+          "title": "Battery ETFs among top performers this month: market data",
+          "link": "https://www.koreaherald.com/article/10897728",
           "source": "The Korea Herald",
-          "summary": "South Korea posted a current account surplus in August, the central bank said Thursday, the second highest on record, on the back of the robust exports amid the global semiconductor upcycle.",
-          "published": "2026-10-08T00:19:08+00:00",
+          "summary": "Exchange-traded funds tracking secondary battery companies were among the top performers in the South Korean stock market this month, data showed Friday, as investors bet on the industry amid expectations of rising…",
+          "published": "2026-10-09T01:54:56+00:00",
+          "regional": true
+        },
+        {
+          "title": "Chance and happenstance: On the Nobel Prize in Chemistry",
+          "link": "https://www.thehindu.com/opinion/editorial/chance-and-happenstance-on-the-nobel-prize-in-chemistry/article71559993.ece",
+          "source": "The Hindu",
+          "summary": "Bias is more than human sociology; life makes choices with definite preferences",
+          "published": "2026-10-08T19:21:00+00:00",
           "regional": true
         },
         {
@@ -263,14 +287,6 @@
           "source": "The Hindu",
           "summary": "The duo was recognised for the discovery of ‘non-linear effects and autocatalysis in asymmetric organic synthesis’",
           "published": "2026-10-07T15:18:21+00:00",
-          "regional": true
-        },
-        {
-          "title": "Samsung Electronics to pay chip division special bonus in spring 2027",
-          "link": "https://www.koreaherald.com/article/10896185",
-          "source": "The Korea Herald",
-          "summary": "Samsung Electronics will pay a new special performance bonus to employees of its semiconductor division in late March or early April 2027, after the plan is put to a vote at the company’s annual shareholders meeting in…",
-          "published": "2026-10-07T11:29:49+00:00",
           "regional": true
         },
         {
@@ -287,22 +303,6 @@
           "source": "Deutsche Welle",
           "summary": "Henri B. Kagan and Kenso Soai won the Nobel Prize in Chemistry for their groundbreaking discoveries related to the origin of chirality and life's building blocks.",
           "published": "2026-10-07T09:51:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "Posco completes second Argentina lithium plant",
-          "link": "https://www.koreaherald.com/article/10895801",
-          "source": "The Korea Herald",
-          "summary": "Posco Holdings has completed its second lithium plant in Argentina, giving it the capacity to supply 50,000 metric tons of lithium hydroxide as the South Korean steelmaker expands its push into critical battery…",
-          "published": "2026-10-07T05:49:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "Succeeding in synthesizing intermetallic compound of \"metastable phase\" — Paving the way for creating new functional materials via electrochemical reactions",
-          "link": "https://sj.jst.go.jp/news/202610/n1006-01j.html",
-          "source": "Science Japan",
-          "summary": "Intermetallic compounds, in which two or more metallic elements are regularly arranged at fixed composition ratios, are used in a wide range of applications, including catalysts and electronic materials.",
-          "published": "2026-10-06T10:16:38+00:00",
           "regional": true
         },
         {
@@ -338,6 +338,14 @@
       "accent": "#5FBF9B",
       "items": [
         {
+          "title": "Two teams map development of mammal embryos, cell by cell",
+          "link": "https://www.science.org/content/article/two-teams-map-development-mammal-embryos-cell-cell",
+          "source": "Science (AAAS)",
+          "summary": "Using genome editing to trace cell lineages, researchers capture the early history of the mouse embryo in unprecedented detail",
+          "published": "2026-10-08T02:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "Can bioengineered bacteria help terraform Mars?",
           "link": "https://www.scientificamerican.com/article/can-bioengineered-bacteria-help-terraform-mars/",
           "source": "Scientific American",
@@ -369,6 +377,14 @@
       "tagline": "New ways to generate clean energy, capture carbon, and bring fresh water and power to people, cities, and transport.",
       "accent": "#33C6D6",
       "items": [
+        {
+          "title": "Why are more roofs not made of solar tiles?",
+          "link": "https://www.bbc.co.uk/news/articles/cdr7n610rmzo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Solar tiles were touted as an attractive alternative to solar panels - why have they not taken off?",
+          "published": "2026-10-08T23:09:56+00:00",
+          "regional": false
+        },
         {
           "title": "BBC Inside Science",
           "link": "https://www.bbc.co.uk/sounds/play/w3ct9785?at_medium=RSS&at_campaign=rss",
@@ -416,6 +432,22 @@
           "summary": "Scientists have created an unusually corrosion-resistant stainless steel that could replace costly titanium components used to produce green hydrogen.",
           "published": "2026-08-11T12:59:40+00:00",
           "regional": false
+        },
+        {
+          "title": "Battery ETFs among top performers this month: market data",
+          "link": "https://www.koreaherald.com/article/10897728",
+          "source": "The Korea Herald",
+          "summary": "Exchange-traded funds tracking secondary battery companies were among the top performers in the South Korean stock market this month, data showed Friday, as investors bet on the industry amid expectations of rising…",
+          "published": "2026-10-09T01:54:56+00:00",
+          "regional": true
+        },
+        {
+          "title": "LG Energy Solution sets sales record on EV, ESS growth",
+          "link": "https://www.koreaherald.com/article/10897092",
+          "source": "The Korea Herald",
+          "summary": "LG Energy Solution posted record quarterly revenue in the third quarter, fueled by stronger electric vehicle battery shipments in Europe and rapidly growing demand for energy storage systems in North America.",
+          "published": "2026-10-08T05:52:15+00:00",
+          "regional": true
         },
         {
           "title": "Emerging economies are embracing solar power and skipping fossil fuels much faster than Europe or the US",
@@ -480,14 +512,6 @@
           "summary": "The pistachios sold across the United States have a surprising history: California's trees trace their roots to Iran. Now, both regions face the same threat — their farmland is sinking as groundwater disappears.",
           "published": "2026-09-15T07:48:00+00:00",
           "regional": true
-        },
-        {
-          "title": "The hidden environmental cost of AI data centers",
-          "link": "https://www.dw.com/en/the-hidden-environmental-cost-of-ai-data-centers/a-78789889?maca=en-rss_en_environment-22607-xml-mrss",
-          "source": "Deutsche Welle",
-          "summary": "As data centers multiply to meet AI demand, they're straining power grids, draining water supplies and reshaping the land and air around them.",
-          "published": "2026-09-04T11:08:00+00:00",
-          "regional": true
         }
       ]
     },
@@ -498,11 +522,59 @@
       "accent": "#F0894E",
       "items": [
         {
-          "title": "NASA Advances LISA Mission Contributions With New Test Telescope",
-          "link": "https://science.nasa.gov/missions/lisa/nasa-advances-lisa-mission-contributions-with-new-test-telescope/",
+          "title": "Farewell to the Fluid Science Laboratory after 18 years in orbit",
+          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Farewell_to_the_Fluid_Science_Laboratory_after_18_years_in_orbit",
+          "source": "ESA",
+          "summary": "On 9 October, astronauts on the International Space Station begin supporting the final decommissioning of ESA's Fluid Science Laboratory (FSL), one of the longest-serving scientific facilities inside Europe's Columbus…",
+          "published": "2026-10-09T10:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA astronauts splash down after 100 million miles in space",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261008232629.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA’s SpaceX Crew-12 astronauts have returned to Earth after 237 days in space, traveling more than 100 million miles and completing over 3,792 orbits while conducting research to prepare for future missions to the…",
+          "published": "2026-10-09T03:56:28+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Briefing to Highlight Contributions to Martian Moons Mission",
+          "link": "https://www.nasa.gov/news-release/nasa-briefing-to-highlight-contributions-to-martian-moons-mission/",
           "source": "NASA",
-          "summary": "NASA has taken the next step in the process of developing a new all-glass telescope for the LISA (Laser Interferometer Space Antenna) mission, a space observatory designed to detect ripples in space-time called…",
-          "published": "2026-10-08T15:31:24+00:00",
+          "summary": "Media are invited to join NASA for a media teleconference at 4 p.m. EDT, Thursday, Oct. 15, to preview the agency’s contributions to JAXA’s (Japan Aerospace Exploration Agency) Martian Moons eXploration (MMX) mission.",
+          "published": "2026-10-08T20:22:12+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s SSPICY Mission to Demonstrate In-Space Inspection Technologies",
+          "link": "https://www.nasa.gov/centers-and-facilities/ames/nasas-sspicy-mission-to-demonstrate-in-space-inspection-technologies/",
+          "source": "NASA",
+          "summary": "A new NASA-supported spacecraft will get up close to satellites that are no longer in service, demonstrating technologies that could support future in-space repairs and reduce orbital debris.",
+          "published": "2026-10-08T18:56:25+00:00",
+          "regional": false
+        },
+        {
+          "title": "Crew-12 Returns to Earth",
+          "link": "https://www.nasa.gov/image-article/crew-12-returns-to-earth/",
+          "source": "NASA",
+          "summary": "The SpaceX Crew Dragon Freedom spacecraft is seen moments before splashing down in the Pacific Ocean off the coast of California in this Oct. 8, 2026, photograph.",
+          "published": "2026-10-08T18:52:27+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s SpaceX Crew‑12 Splashes Down, Sets Briefing to Discuss Mission",
+          "link": "https://www.nasa.gov/news-release/nasas-spacex-crew-12-splashes-down-sets-briefing-to-discuss-mission/",
+          "source": "NASA",
+          "summary": "After more than seven months aboard the International Space Station, NASA’s SpaceX Crew-12 mission safely splashed down Thursday in the Pacific Ocean off the coast of Los Angeles.",
+          "published": "2026-10-08T17:02:28+00:00",
+          "regional": false
+        },
+        {
+          "title": "Splashdown confirmed for Sophie Adenot",
+          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Splashdown_confirmed_for_Sophie_Adenot",
+          "source": "ESA",
+          "summary": "ESA astronaut Sophie Adenot returned to Earth with Crew-12 after her nearly eight-month εpsilon mission to the International Space Station, splashing down off the coast of California, USA, at 15:34 GMT/17:34 CEST on 8…",
+          "published": "2026-10-08T16:51:00+00:00",
           "regional": false
         },
         {
@@ -519,54 +591,6 @@
           "source": "ScienceDaily",
           "summary": "NASA is preparing for humanity’s first Moon base with three investigations that will hunt for underground shelters, uncover hidden ice, and track dangerous conditions on the lunar surface.",
           "published": "2026-10-08T12:19:20+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival",
-          "link": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
-          "source": "NASA",
-          "summary": "NASA and SpaceX are targeting 6:33 a.m. EDT, Tuesday, Oct. 13, for the next launch to deliver science investigations, supplies, and equipment, including the final set of International Space Station Roll-Out Solar…",
-          "published": "2026-10-07T21:16:42+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s SpaceX 35th Commercial Resupply Mission Overview",
-          "link": "https://www.nasa.gov/general/nasas-spacex-35th-commercial-resupply-mission-overview/",
-          "source": "NASA",
-          "summary": "NASA and SpaceX are targeting no earlier than Tuesday, Oct. 13 to launch scientific investigations, supplies, and equipment to the International Space Station.",
-          "published": "2026-10-07T20:17:16+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s PRIMA Spacecraft (Artist’s Concept)",
-          "link": "https://science.nasa.gov/photojournal/nasas-prima-spacecraft-artists-concept/",
-          "source": "NASA",
-          "summary": "Description This artist’s concept depicts the proposed design for NASA’s PRobe far-Infrared Mission for Astrophysics (PRIMA), which was selected by the agency in September 2026.",
-          "published": "2026-10-07T20:15:49+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Curiosity Looks Back After Reaching Elevation Milestone",
-          "link": "https://science.nasa.gov/photojournal/nasas-curiosity-looks-back-after-reaching-elevation-milestone/",
-          "source": "NASA",
-          "summary": "Description NASA’s Curiosity Mars rover captured this view looking back at the floor of Gale Crater, with the crater’s rim visible in the distance, on Sept. 5, 2026, the 5,006th Martian day, or sol, of the mission.",
-          "published": "2026-10-07T17:00:47+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Curiosity Captures Dawn Breaking on Wind-Carved Cliffs",
-          "link": "https://science.nasa.gov/photojournal/nasas-curiosity-captures-dawn-breaking-on-wind-carved-cliffs/",
-          "source": "NASA",
-          "summary": "Description NASA’s Curiosity Mars rover captured this panorama of sunrise illuminating distant, wind-carved features called yardangs on Aug. 11, 2026, the 4,982nd Martian day, or sol, of the mission.",
-          "published": "2026-10-07T16:49:50+00:00",
-          "regional": false
-        },
-        {
-          "title": "Artemis II Crew Moon Photo Annotations",
-          "link": "https://www.nasa.gov/image-article/artemis-ii-crew-moon-photo-annotations/",
-          "source": "NASA",
-          "summary": "A visualization of a dark Moon eclipsing the Sun is marked with handwritten notes in this April 6, 2026, screenshot from an Artemis II crew member’s tablet.",
-          "published": "2026-10-07T15:44:59+00:00",
           "regional": false
         },
         {
@@ -618,6 +642,14 @@
           "regional": false
         },
         {
+          "title": "Shaping Europe’s future in low Earth orbit",
+          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Shaping_Europe_s_future_in_low_Earth_orbit",
+          "source": "ESA",
+          "summary": "For more than 25 years, the Internation Space Station (ISS) has been humankind's home in space. It has enabled scientists to conduct research in weightlessness, helped astronauts learn how to live and work in orbit and…",
+          "published": "2026-09-30T13:19:00+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA's Perseverance Mars rover finds groundwater, lakes, and hot fluids in one place",
           "link": "https://www.sciencedaily.com/releases/2026/09/260928100537.htm",
           "source": "ScienceDaily",
@@ -658,14 +690,6 @@
           "regional": false
         },
         {
-          "title": "How ESA astronauts return from space",
-          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/How_ESA_astronauts_return_from_space",
-          "source": "ESA",
-          "summary": "When an astronaut from the European Space Agency (ESA) returns from space, the mission is far from over.",
-          "published": "2026-09-28T15:33:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Two astronauts who flew farther than anyone before are taking new NASA roles",
           "link": "https://www.sciencedaily.com/releases/2026/09/260925005423.htm",
           "source": "ScienceDaily",
@@ -682,12 +706,20 @@
           "regional": false
         },
         {
-          "title": "NASA’s Moon orbiter finds a 728-foot crater that wasn’t there before",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260917003715.htm",
+          "title": "A giant crater may reveal the origin of Mars’ doomed moon",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260919031040.htm",
           "source": "ScienceDaily",
-          "summary": "NASA’s Lunar Reconnaissance Orbiter has revealed a 728-foot-wide crater that formed on the Moon in 2024, making it the largest newly formed crater ever identified in the solar system.",
-          "published": "2026-09-18T10:18:54+00:00",
+          "summary": "A massive crater on Mars’ moon Phobos may hide a dense region of compressed material that could reveal whether the moon is a captured asteroid or debris from an ancient impact on Mars.",
+          "published": "2026-09-19T12:12:41+00:00",
           "regional": false
+        },
+        {
+          "title": "Margaret Hamilton, scientist who worked on NASA's Apollo program, dead at 90",
+          "link": "https://www.thehindu.com/sci-tech/science/margaret-hamilton-scientist-who-worked-on-nasas-apollo-program-dead-at-90/article71558711.ece",
+          "source": "The Hindu",
+          "summary": "NASA chief Jared Isaacmen paid tribute to Hamilton, calling her ‘a pioneer whose work helped make Apollo and humanity's first journeys to the moon possible’",
+          "published": "2026-10-08T07:39:19+00:00",
+          "regional": true
         },
         {
           "title": "The last human expedition to the moon… so far",
@@ -760,14 +792,6 @@
           "summary": "While Starship accomplished a number of key objectives in its latest test launch, the mission was cut short by ‌several hours after a malfunction of its propulsion system",
           "published": "2026-09-30T10:49:29+00:00",
           "regional": true
-        },
-        {
-          "title": "SpaceX puts Starship megarocket in orbit for first time",
-          "link": "https://www.thehindu.com/sci-tech/science/spacex-puts-starship-megarocket-in-orbit-for-first-time/article71521071.ece",
-          "source": "The Hindu",
-          "summary": "The black-and-silver behemoth, standing more than 120 metres tall, rose through a thick cloud of smoke on an ambitious 14th test flight",
-          "published": "2026-09-29T05:27:09+00:00",
-          "regional": true
         }
       ]
     },
@@ -777,6 +801,30 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "A 9-billion-year-old signal could help explain dark energy",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261007042102.htm",
+          "source": "ScienceDaily",
+          "summary": "A Canadian radio telescope has detected the faint glow of hydrogen from billions of years ago using only its own observations, proving a long-awaited way to map the distant universe can actually work.",
+          "published": "2026-10-09T08:53:28+00:00",
+          "regional": false
+        },
+        {
+          "title": "October’s night sky is full of cosmic tricks and treats",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261008102704.htm",
+          "source": "ScienceDaily",
+          "summary": "October’s skies are packed with celestial surprises, from Jupiter disappearing behind the Moon to two meteor showers lighting up the darkness.",
+          "published": "2026-10-09T02:37:22+00:00",
+          "regional": false
+        },
+        {
+          "title": "Astronomers discover record-breaking ancient cosmic outburst",
+          "link": "https://www.scientificamerican.com/article/astronomers-discover-record-breaking-ancient-cosmic-outburst/",
+          "source": "Scientific American",
+          "summary": "Detected by the MeerKAT array, this “fast radio burst” comes from three billion years after the big bang and could help map the universe’s otherwise-invisible intergalactic matter",
+          "published": "2026-10-08T18:30:00+00:00",
+          "regional": false
+        },
         {
           "title": "Einstein Probe reveals a hidden phase of neutron star collisions",
           "link": "https://www.sciencedaily.com/releases/2026/10/261006234511.htm",
@@ -807,14 +855,6 @@
           "source": "Scientific American",
           "summary": "The Draconids and Orionids both peak this month",
           "published": "2026-10-06T17:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "'Ghost particles' from space telescope wins physics Nobel",
-          "link": "https://www.bbc.co.uk/news/articles/cq203mymlvkeo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Belgian physicist Prof Francis Halzen has won for his pioneering work on an observatory that detects particles from space.",
-          "published": "2026-10-06T11:24:19+00:00",
           "regional": false
         },
         {
@@ -863,14 +903,6 @@
           "source": "ScienceDaily",
           "summary": "Ultra-detailed simulations are showing how the first stars lit up the dark Universe and seeded space with elements such as carbon, oxygen, and iron.",
           "published": "2026-10-03T12:50:57+00:00",
-          "regional": false
-        },
-        {
-          "title": "This weird particle may have come from a black hole exploding in another dimension",
-          "link": "https://www.scientificamerican.com/article/this-weird-particle-may-have-come-from-a-black-hole-exploding-in-another-dimension/",
-          "source": "Scientific American",
-          "summary": "An unexplained high-energy neutrino detected three years ago could be linked to a primordial black hole, perhaps one more even unusual than previously thought",
-          "published": "2026-10-02T16:30:00+00:00",
           "regional": false
         },
         {
@@ -959,14 +991,6 @@
           "source": "ScienceDaily",
           "summary": "Astronomers have discovered the first globular cluster stellar stream beyond the Milky Way, opening a new way to study dark matter in distant galaxies.",
           "published": "2026-09-23T11:23:11+00:00",
-          "regional": false
-        },
-        {
-          "title": "The LHC just ruled out another hiding place for quantum black holes",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260922005649.htm",
-          "source": "ScienceDaily",
-          "summary": "Physicists searching through Large Hadron Collider data found no evidence that the machine has been producing microscopic quantum black holes, but the result sharply narrows where such exotic physics could still be…",
-          "published": "2026-09-22T04:56:49+00:00",
           "regional": false
         },
         {
