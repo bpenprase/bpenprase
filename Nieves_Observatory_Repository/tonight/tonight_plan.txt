@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-10-09 16:06 PDT
-; Observing window starts 2026-10-09 19:48 PDT  (LST 20:11:59)
+; Generated 2026-10-10 15:20 PDT
+; Observing window starts 2026-10-10 19:46 PDT  (LST 20:13:55)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -38,7 +38,7 @@ IC 4703
 #filter r',Ha,OIII,SII
 M 17
 
-; Comet C/2024 J3 (ATLAS)  mag 13.9
+; Comet C/2024 J3 (ATLAS)  mag 12.6
 #posang 0
 #count 3
 #interval 300
@@ -47,7 +47,7 @@ M 17
 CT C/2024 J3
 #WAITINLIMITS 60
 
-; Comet C/2026 A2 (Bok)  mag 13.7
+; Comet C/2026 A2 (Bok)  mag 13.1
 #posang 0
 #count 3
 #interval 300
@@ -136,6 +136,15 @@ NGC 7000
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 39
+
+; Comet 161P/Hartley-IRAS  mag 12.7
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 161P/Hartley-IRAS
+#WAITINLIMITS 60
 
 ; Cluster + Nebula  mag 7.2  size 10.00'  Cocoon Nebula
 #posang 0
@@ -261,14 +270,6 @@ NGC 0253
 #filter r',g',i',z'
 IC 1613
 
-; Open Cluster  mag 6.4  size 7.80'  Owl Cluster
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 0457
-
 ; Asteroid 2 Pallas  mag 8.3
 #posang 0
 #count 3
@@ -277,6 +278,14 @@ NGC 0457
 #filter r'
 MP Pallas
 #WAITINLIMITS 60
+
+; Open Cluster  mag 6.4  size 7.80'  Owl Cluster
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 0457
 
 ; Galaxy  mag 9.2  size 1.69'
 #posang 0
@@ -343,7 +352,7 @@ NGC 1023
 #filter r',g',i',z'
 M 77
 
-; Comet 220P/McNaught  mag 11.8
+; Comet 220P/McNaught  mag 13.7
 #posang 0
 #count 3
 #interval 300
@@ -401,7 +410,7 @@ M 42
 #filter r',Ha,OIII,SII
 NGC 1980
 
-; Comet C/2024 T5 (ATLAS)  mag 13.8
+; Comet C/2024 T5 (ATLAS)  mag 13.9
 #posang 0
 #count 3
 #interval 300
@@ -466,7 +475,7 @@ NGC 2301
 #filter r',g',i',z'
 NGC 2360
 
-; Asteroid 1 Ceres  mag 8.6
+; Asteroid 1 Ceres  mag 8.5
 #posang 0
 #count 3
 #interval 300
@@ -499,6 +508,14 @@ NGC 2403
 #filter r',g',i',z'
 NGC 2537
 
+; Open Cluster  mag 3.1  size 108.60'  Beehive,Praesepe Cluster
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 44
+
 ; Planet: Mars
 #posang 0
 #count 10
@@ -507,14 +524,6 @@ NGC 2537
 #filter r'
 Mars
 #WAITINLIMITS 60
-
-; Open Cluster  mag 3.1  size 108.60'  Beehive,Praesepe Cluster
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 44
 
 ; Galaxy  mag 11.3  size 4.33'  Helix Galaxy
 #posang 0
