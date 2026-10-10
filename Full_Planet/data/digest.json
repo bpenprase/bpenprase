@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-09T15:40:23.352213+00:00",
-  "generated_human": "09 October 2026, 15:40 UTC",
-  "total_items": 125,
+  "generated": "2026-10-10T14:55:15.327186+00:00",
+  "generated_human": "10 October 2026, 14:55 UTC",
+  "total_items": 127,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,30 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "Master AI Chip Principles With New IEEE Design Program",
+          "link": "https://spectrum.ieee.org/master-ai-chip-principles-ieee",
+          "source": "IEEE Spectrum",
+          "summary": "Today’s engineers face an unprecedented acceleration in AI hardware complexity, as explained in the recent research article “ Revisiting Edge AI: Opportunities and Challenges .” The article examines the rapid growth of…",
+          "published": "2026-10-09T18:00:02+00:00",
+          "regional": false
+        },
+        {
+          "title": "Problems in 22 scientific fields had solutions hiding in plain sight. An AI has found them",
+          "link": "https://www.science.org/content/article/problems-22-scientific-fields-had-solutions-hiding-plain-sight-ai-has-found-them",
+          "source": "Science (AAAS)",
+          "summary": "Teams led by physicist used “BootLoops” software to produce 36 papers in weeks on everything from linguistics to health policy",
+          "published": "2026-10-09T11:35:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Department of Energy expands ‘Genesis Mission’ to boost AI, awarding larger grants",
+          "link": "https://www.science.org/content/article/department-energy-expands-genesis-mission-boost-ai-awarding-larger-grants",
+          "source": "Science (AAAS)",
+          "summary": "Department will also initiate new fellowship program to shorten path to Ph.D.",
+          "published": "2026-10-09T03:21:00+00:00",
+          "regional": false
+        },
         {
           "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
           "link": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
@@ -39,14 +63,6 @@
           "source": "Quanta Magazine",
           "summary": "In the shadow of a rumored AI proof of one of the biggest problems in their field, three computer scientists rushed to publish their own milestone result.",
           "published": "2026-10-07T15:08:46+00:00",
-          "regional": false
-        },
-        {
-          "title": "As AI triggers a tsunami of submissions, computer science conferences impose caps",
-          "link": "https://www.science.org/content/article/ai-triggers-tsunami-submissions-computer-science-conferences-impose-caps",
-          "source": "Science (AAAS)",
-          "summary": "New controls could limit papers by early-career researchers",
-          "published": "2026-10-07T01:40:00+00:00",
           "regional": false
         },
         {
@@ -169,6 +185,14 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "Chemicals at former fuel depot 'have been removed'",
+          "link": "https://www.bbc.co.uk/news/articles/cq8r6nzp4230o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Barrels of forever chemicals left at a development site have been removed, a developer has said.",
+          "published": "2026-10-10T06:13:15+00:00",
+          "regional": false
+        },
         {
           "title": "Scientists find hidden materials that could improve batteries and solar fuels",
           "link": "https://www.sciencedaily.com/releases/2026/10/261007042118.htm",
@@ -426,14 +450,6 @@
           "regional": false
         },
         {
-          "title": "“Cannot be explained” – New super steel stuns scientists",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260811052717.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have created an unusually corrosion-resistant stainless steel that could replace costly titanium components used to produce green hydrogen.",
-          "published": "2026-08-11T12:59:40+00:00",
-          "regional": false
-        },
-        {
           "title": "Battery ETFs among top performers this month: market data",
           "link": "https://www.koreaherald.com/article/10897728",
           "source": "The Korea Herald",
@@ -522,6 +538,30 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "ESA astronaut Sophie Adenot returns from her first mission to the International Space Station",
+          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/ESA_astronaut_Sophie_Adenot_returns_from_her_first_mission_to_the_International_Space_Station",
+          "source": "ESA",
+          "summary": "ESA astronaut Sophie Adenot has arrived back in Europe, landing in Cologne, Germany, following her return to Earth with Crew-12 after 237 days, nearly eight months, aboard the International Space Station for her εpsilon…",
+          "published": "2026-10-10T09:01:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Seeks US Industry Plans for Commercial Space Stations",
+          "link": "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/",
+          "source": "NASA",
+          "summary": "NASA is advancing American leadership in space by taking the next step toward a future where commercial space stations lead the way in low Earth orbit.",
+          "published": "2026-10-09T18:11:44+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Demonstrates Next-Generation Heat Shield Technologies",
+          "link": "https://www.nasa.gov/centers-and-facilities/ames/nasa-demonstrates-next-generation-heat-shield-technologies/",
+          "source": "NASA",
+          "summary": "NASA is testing heat shields that can keep astronauts safe as they return from missions to the Moon and Mars in an unusual way: by taking out the trash.",
+          "published": "2026-10-09T16:59:24+00:00",
+          "regional": false
+        },
+        {
           "title": "Farewell to the Fluid Science Laboratory after 18 years in orbit",
           "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Farewell_to_the_Fluid_Science_Laboratory_after_18_years_in_orbit",
           "source": "ESA",
@@ -554,22 +594,6 @@
           "regional": false
         },
         {
-          "title": "Crew-12 Returns to Earth",
-          "link": "https://www.nasa.gov/image-article/crew-12-returns-to-earth/",
-          "source": "NASA",
-          "summary": "The SpaceX Crew Dragon Freedom spacecraft is seen moments before splashing down in the Pacific Ocean off the coast of California in this Oct. 8, 2026, photograph.",
-          "published": "2026-10-08T18:52:27+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s SpaceX Crew‑12 Splashes Down, Sets Briefing to Discuss Mission",
-          "link": "https://www.nasa.gov/news-release/nasas-spacex-crew-12-splashes-down-sets-briefing-to-discuss-mission/",
-          "source": "NASA",
-          "summary": "After more than seven months aboard the International Space Station, NASA’s SpaceX Crew-12 mission safely splashed down Thursday in the Pacific Ocean off the coast of Los Angeles.",
-          "published": "2026-10-08T17:02:28+00:00",
-          "regional": false
-        },
-        {
           "title": "Splashdown confirmed for Sophie Adenot",
           "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Splashdown_confirmed_for_Sophie_Adenot",
           "source": "ESA",
@@ -591,6 +615,14 @@
           "source": "ScienceDaily",
           "summary": "NASA is preparing for humanity’s first Moon base with three investigations that will hunt for underground shelters, uncover hidden ice, and track dangerous conditions on the lunar surface.",
           "published": "2026-10-08T12:19:20+00:00",
+          "regional": false
+        },
+        {
+          "title": "Margaret Hamilton, whose software helped land Apollo 11 on the Moon, dies at 90",
+          "link": "https://www.bbc.co.uk/news/articles/cx5yn46j41zpo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Pioneering computer scientist led the development of the software for Nasa's Apollo mission and was awarded the Presidential Medal of Freedom.",
+          "published": "2026-10-08T05:10:40+00:00",
           "regional": false
         },
         {
@@ -631,14 +663,6 @@
           "source": "Scientific American",
           "summary": "Project Suncatcher is aimed at testing Google's AI chips in the harsh environment of space",
           "published": "2026-10-01T19:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA directive might increase the odds of contaminating Mars",
-          "link": "https://www.scientificamerican.com/article/nasa-directive-might-increase-the-odds-of-contaminating-mars/",
-          "source": "Scientific American",
-          "summary": "The new push loosens U.S. regulations for sterilizing spacecraft bound for the Red Planet and calls for modernizing the science of “planetary protection”",
-          "published": "2026-09-30T17:35:00+00:00",
           "regional": false
         },
         {
@@ -703,14 +727,6 @@
           "source": "ESA",
           "summary": "Image: From the International Space Station, ESA astronaut Sophie Adenot has photographed cities, coastlines and landscapes across the world during her nearly eight-month εpsilon mission.",
           "published": "2026-09-25T16:13:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "A giant crater may reveal the origin of Mars’ doomed moon",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260919031040.htm",
-          "source": "ScienceDaily",
-          "summary": "A massive crater on Mars’ moon Phobos may hide a dense region of compressed material that could reveal whether the moon is a captured asteroid or debris from an ancient impact on Mars.",
-          "published": "2026-09-19T12:12:41+00:00",
           "regional": false
         },
         {
