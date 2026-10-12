@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-11T15:12:20.941304+00:00",
-  "generated_human": "11 October 2026, 15:12 UTC",
-  "total_items": 127,
+  "generated": "2026-10-12T18:22:00.503422+00:00",
+  "generated_human": "12 October 2026, 18:22 UTC",
+  "total_items": 131,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "Is ‘Attention’ the Essence of Intelligence?",
+          "link": "https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/",
+          "source": "Quanta Magazine",
+          "summary": "A mathematical mechanism enables AI models to process language at scale, undergirding the current AI revolution. Our columnist asks: Why is attention the key? The post Is ‘Attention’ the Essence of Intelligence?",
+          "published": "2026-10-12T14:20:30+00:00",
+          "regional": false
+        },
         {
           "title": "Master AI Chip Principles With New IEEE Design Program",
           "link": "https://spectrum.ieee.org/master-ai-chip-principles-ieee",
@@ -98,6 +106,14 @@
           "regional": false
         },
         {
+          "title": "SK launches 2-year AI training program with W3m monthly stipend",
+          "link": "https://www.koreaherald.com/article/10899355",
+          "source": "The Korea Herald",
+          "summary": "SK Group said Monday it will launch a two-year, full-time artificial intelligence training program for young adults, offering participants 3 million won ($2,200) a month as they work on real-world AI projects.",
+          "published": "2026-10-12T02:03:29+00:00",
+          "regional": true
+        },
+        {
           "title": "Can China match up with Meta’s Muse in race to harness AI agents?",
           "link": "https://www.scmp.com/tech/big-tech/article/3370123/can-china-match-metas-muse-race-harness-ai-agents?utm_source=rss_feed",
           "source": "South China Morning Post",
@@ -168,14 +184,6 @@
           "summary": "Alibaba Group Holding has introduced what it called China’s most powerful artificial intelligence chip and teased plans to train an AI model with up to 10 trillion parameters, as top executives reaffirmed the tech…",
           "published": "2026-09-22T05:59:40+00:00",
           "regional": true
-        },
-        {
-          "title": "Ant Group consolidates Alipay operations in big bet on AI ‘agentic commerce’",
-          "link": "https://www.scmp.com/tech/tech-trends/article/3368325/ant-group-consolidates-alipay-operations-big-bet-ai-agentic-commerce?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Chinese fintech giant Ant Group has revamped its online payments operations by creating a new business group for Alipay, as it sharpens its artificial intelligence focus on “agentic commerce” to drive new growth.",
-          "published": "2026-09-22T03:41:25+00:00",
-          "regional": true
         }
       ]
     },
@@ -186,11 +194,27 @@
       "accent": "#E8A13A",
       "items": [
         {
-          "title": "Chemicals at former fuel depot 'have been removed'",
-          "link": "https://www.bbc.co.uk/news/articles/cq8r6nzp4230o?at_medium=RSS&at_campaign=rss",
+          "title": "Appeal for major energy storage system rejected",
+          "link": "https://www.bbc.co.uk/news/articles/cwvgdej69m2ro?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
-          "summary": "Barrels of forever chemicals left at a development site have been removed, a developer has said.",
-          "published": "2026-10-10T06:13:15+00:00",
+          "summary": "Plans for the battery system site near the Devon-Dorset border have again been dismissed.",
+          "published": "2026-10-12T12:10:34+00:00",
+          "regional": false
+        },
+        {
+          "title": "Scientists discover a hidden factor that can make or break chemical reactions",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261008005244.htm",
+          "source": "ScienceDaily",
+          "summary": "Researchers discovered a hidden factor that can determine whether chemical reactions succeed or fail, and then used it to boost the proportion of the desired product from 16% to 97%.",
+          "published": "2026-10-12T06:24:46+00:00",
+          "regional": false
+        },
+        {
+          "title": "Nobel week: light-controlled brains, particles from outer space and mirror molecules",
+          "link": "https://www.scientificamerican.com/podcast/episode/nobel-week-light-controlled-brains-particles-from-outer-space-and-mirror-molecules/",
+          "source": "Scientific American",
+          "summary": "Breaking down this year’s Nobel Prize–winning science, from switching brain cells on and off with light to catching cosmic neutrinos in Antarctic ice to building mirror-image molecules.",
+          "published": "2026-10-12T04:00:00+00:00",
           "regional": false
         },
         {
@@ -274,19 +298,19 @@
           "regional": false
         },
         {
+          "title": "US rules give Korean LFP makers rare opening against China",
+          "link": "https://www.koreaherald.com/article/10899834",
+          "source": "The Korea Herald",
+          "summary": "South Korean battery materials makers challenge China’s near-monopoly with a fresh push into lithium iron phosphate cathodes as US restrictions and energy storage demand create an opening for Korean suppliers.",
+          "published": "2026-10-12T06:27:22+00:00",
+          "regional": true
+        },
+        {
           "title": "What was the Chemistry Nobel Prize given for? | Explained",
           "link": "https://www.thehindu.com/sci-tech/science/what-was-the-chemistry-nobel-prize-given-for-explained/article71570533.ece",
           "source": "The Hindu",
           "summary": "What are chirality and molecular ‘handedness’, and why does life favour one form over the other? Why does the handedness of a molecule matter when developing drugs? What did Henri Kagan and Kenso Soai discover?",
           "published": "2026-10-11T04:04:56+00:00",
-          "regional": true
-        },
-        {
-          "title": "China state funds double down on Hua Hong in legacy chip push",
-          "link": "https://www.scmp.com/tech/big-tech/article/3370297/china-state-funds-double-down-hua-hong-legacy-chip-push?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Chinese state funds are ramping up support for the country’s second-largest contract chipmaker, pouring billions of yuan into the parent of Hua Hong Grace Semiconductor and a new manufacturing facility to fuel Beijing’s…",
-          "published": "2026-10-09T08:30:09+00:00",
           "regional": true
         },
         {
@@ -330,10 +354,10 @@
           "regional": true
         },
         {
-          "title": "Nobel Prize in Chemistry goes to Henri B. Kagan and Kenso Soai",
+          "title": "Nobel Prize in chemistry goes to Henri B. Kagan and Kenso Soai",
           "link": "https://www.dw.com/en/nobel-prize-in-chemistry-goes-to-henri-b-kagan-and-kenso-soai/a-79573924?maca=en-rss_en_science-22531-xml-mrss",
           "source": "Deutsche Welle",
-          "summary": "Henri B. Kagan and Kenso Soai won the Nobel Prize in Chemistry for their groundbreaking discoveries related to the origin of chirality and life's building blocks.",
+          "summary": "Henri B. Kagan and Kenso Soai won the Nobel Prize in chemistry for their groundbreaking discoveries related to the origin of chirality and life's building blocks.",
           "published": "2026-10-07T09:51:00+00:00",
           "regional": true
         },
@@ -402,6 +426,14 @@
       "accent": "#33C6D6",
       "items": [
         {
+          "title": "Appeal for major energy storage system rejected",
+          "link": "https://www.bbc.co.uk/news/articles/cwvgdej69m2ro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Plans for the battery system site near the Devon-Dorset border have again been dismissed.",
+          "published": "2026-10-12T12:10:34+00:00",
+          "regional": false
+        },
+        {
           "title": "Scientists may have found a shortcut to fusion energy",
           "link": "https://www.sciencedaily.com/releases/2026/10/261008005242.htm",
           "source": "ScienceDaily",
@@ -450,6 +482,14 @@
           "regional": false
         },
         {
+          "title": "US rules give Korean LFP makers rare opening against China",
+          "link": "https://www.koreaherald.com/article/10899834",
+          "source": "The Korea Herald",
+          "summary": "South Korean battery materials makers challenge China’s near-monopoly with a fresh push into lithium iron phosphate cathodes as US restrictions and energy storage demand create an opening for Korean suppliers.",
+          "published": "2026-10-12T06:27:22+00:00",
+          "regional": true
+        },
+        {
           "title": "Battery ETFs among top performers this month: market data",
           "link": "https://www.koreaherald.com/article/10897728",
           "source": "The Korea Herald",
@@ -471,14 +511,6 @@
           "source": "Deutsche Welle",
           "summary": "Renewable electricity is cheaper than ever. While the West got rich on coal and oil, some of the world's poorest countries are banking on solar, wind and water instead.",
           "published": "2026-10-07T07:48:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "Posco completes second Argentina lithium plant",
-          "link": "https://www.koreaherald.com/article/10895801",
-          "source": "The Korea Herald",
-          "summary": "Posco Holdings has completed its second lithium plant in Argentina, giving it the capacity to supply 50,000 metric tons of lithium hydroxide as the South Korean steelmaker expands its push into critical battery…",
-          "published": "2026-10-07T05:49:00+00:00",
           "regional": true
         },
         {
@@ -538,6 +570,30 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "ExoMars rover twin rehearses first drive",
+          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ExoMars_rover_twin_rehearses_first_drive",
+          "source": "ESA",
+          "summary": "Before the Rosalind Franklin rover can explore Mars, it must first get off its lander.",
+          "published": "2026-10-12T09:30:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Preparing for a first drive on Mars",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Preparing_for_a_first_drive_on_Mars",
+          "source": "ESA",
+          "summary": "Video: 00:01:45 Before Rosalind Franklin can explore Mars, it has to get off its lander. Engineers are rehearsing that first journey on Earth, using a full-size rover model and Mars-like terrain.",
+          "published": "2026-10-12T09:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA spots a giant patch of Moon-like rock on Earth",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261008102707.htm",
+          "source": "ScienceDaily",
+          "summary": "An astronaut aboard the International Space Station photographed a remarkable formation in Madagascar that looks surprisingly similar to the Moon’s bright highlands.",
+          "published": "2026-10-11T15:30:06+00:00",
+          "regional": false
+        },
+        {
           "title": "ESA astronaut Sophie Adenot returns from her first mission to the International Space Station",
           "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/ESA_astronaut_Sophie_Adenot_returns_from_her_first_mission_to_the_International_Space_Station",
           "source": "ESA",
@@ -575,14 +631,6 @@
           "source": "ScienceDaily",
           "summary": "NASA’s SpaceX Crew-12 astronauts have returned to Earth after 237 days in space, traveling more than 100 million miles and completing over 3,792 orbits while conducting research to prepare for future missions to the…",
           "published": "2026-10-09T03:56:28+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Briefing to Highlight Contributions to Martian Moons Mission",
-          "link": "https://www.nasa.gov/news-release/nasa-briefing-to-highlight-contributions-to-martian-moons-mission/",
-          "source": "NASA",
-          "summary": "Media are invited to join NASA for a media teleconference at 4 p.m. EDT, Thursday, Oct. 15, to preview the agency’s contributions to JAXA’s (Japan Aerospace Exploration Agency) Martian Moons eXploration (MMX) mission.",
-          "published": "2026-10-08T20:22:12+00:00",
           "regional": false
         },
         {
@@ -658,14 +706,6 @@
           "regional": false
         },
         {
-          "title": "Google’s Project Suncatcher AI data center test has officially launched to space onboard SpaceX rocket",
-          "link": "https://www.scientificamerican.com/article/googles-project-suncatcher-ai-data-center-test-has-officially-launched-to-space-aboard-spacex-rocket/",
-          "source": "Scientific American",
-          "summary": "Project Suncatcher is aimed at testing Google's AI chips in the harsh environment of space",
-          "published": "2026-10-01T19:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Shaping Europe’s future in low Earth orbit",
           "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Shaping_Europe_s_future_in_low_Earth_orbit",
           "source": "ESA",
@@ -698,14 +738,6 @@
           "regional": false
         },
         {
-          "title": "ESA investigates potential future European-led orbital outpost",
-          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ESA_investigates_potential_future_European-led_orbital_outpost",
-          "source": "ESA",
-          "summary": "As part of the preparation for the end of utilisation of the International Space Station (ISS), the European Space Agency (ESA) awarded a contract to two European industrial consortia to conduct preliminary studies…",
-          "published": "2026-09-29T10:48:00+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA’s Crew-13 could go from Florida to the ISS in under 9 hours",
           "link": "https://www.sciencedaily.com/releases/2026/09/260928100534.htm",
           "source": "ScienceDaily",
@@ -728,6 +760,14 @@
           "summary": "Image: From the International Space Station, ESA astronaut Sophie Adenot has photographed cities, coastlines and landscapes across the world during her nearly eight-month εpsilon mission.",
           "published": "2026-09-25T16:13:00+00:00",
           "regional": false
+        },
+        {
+          "title": "TRISHNA satellite is in advanced stage of realisation, says ISRO official",
+          "link": "https://www.thehindu.com/sci-tech/science/trishna-satellite-is-in-advanced-stage-of-realisation-says-isro-official/article71571635.ece",
+          "source": "The Hindu",
+          "summary": "TRISHNA is the third satellite that India and France are developing after Megha-Tropiques and SARAL (Satellite with ARGOS and ALTIKA) satellites.",
+          "published": "2026-10-11T15:55:29+00:00",
+          "regional": true
         },
         {
           "title": "Margaret Hamilton, scientist who worked on NASA's Apollo program, dead at 90",
@@ -754,6 +794,14 @@
           "regional": true
         },
         {
+          "title": "Tap space-tech start-ups’ capabilities for major projects of Indian space programme: G. Madhavan Nair",
+          "link": "https://www.thehindu.com/news/national/kerala/tap-space-tech-start-ups-capabilities-for-major-projects-of-indian-space-programme-g-madhavan-nair/article71556620.ece",
+          "source": "The Hindu",
+          "summary": "Former ISRO Chairperson says what is required is a cooperative environment rather than unhealthy competition",
+          "published": "2026-10-07T16:35:21+00:00",
+          "regional": true
+        },
+        {
           "title": "ISRO scientists lead space awareness rally in Rajamahendravaram",
           "link": "https://www.thehindu.com/news/national/andhra-pradesh/isro-scientists-lead-space-awareness-rally-in-rajamahendravaram/article71556662.ece",
           "source": "The Hindu",
@@ -762,19 +810,11 @@
           "regional": true
         },
         {
-          "title": "Nuri nails five-satellite mission, eyes commercial future",
-          "link": "https://www.koreaherald.com/article/10895872",
-          "source": "The Korea Herald",
-          "summary": "South Korea’s Nuri rocket delivered five primary satellites into orbit Wednesday, completing its most complex deployment yet and taking another step toward commercial launch services.",
-          "published": "2026-10-07T06:21:07+00:00",
-          "regional": true
-        },
-        {
-          "title": "Nuri rocket lifts off on fifth mission with 15 satellites aboard",
-          "link": "https://www.koreaherald.com/article/10895637",
-          "source": "The Korea Herald",
-          "summary": "South Korea’s homegrown Nuri rocket lifted off Wednesday on its fifth mission, carrying 15 satellites toward a sun-synchronous orbit about 575 kilometers above Earth.",
-          "published": "2026-10-07T03:35:13+00:00",
+          "title": "Students should be encouraged to develop scientific temperament, says Deputy Director of U. R. Rao Satellite Centre",
+          "link": "https://www.thehindu.com/news/cities/Mangalore/students-should-be-encouraged-to-develop-scientific-temperament-says-deputy-director-of-u-r-rao-satellite-centre/article71555841.ece",
+          "source": "The Hindu",
+          "summary": "Pilikula Development Authority organises two-day World Space Week - 2026 programme at Pilikula on October 7",
+          "published": "2026-10-07T13:43:53+00:00",
           "regional": true
         },
         {
@@ -799,14 +839,6 @@
           "source": "The Hindu",
           "summary": "Dhruva Space’s LEAP-2, hosting multiple In-Orbit Demonstration (IOD) missions, which includes a star tracker by France-based Sodern ArianeGroup, and TAPAS-1 by India-based Satleo Labs, was part of the Transporter-18…",
           "published": "2026-10-05T03:18:49+00:00",
-          "regional": true
-        },
-        {
-          "title": "SpaceX Starship engine failure could hit NASA moon mission plans",
-          "link": "https://www.thehindu.com/sci-tech/science/spacex-starship-engine-failure-could-hit-nasa-moon-mission-plans/article71528114.ece",
-          "source": "The Hindu",
-          "summary": "While Starship accomplished a number of key objectives in its latest test launch, the mission was cut short by ‌several hours after a malfunction of its propulsion system",
-          "published": "2026-09-30T10:49:29+00:00",
           "regional": true
         }
       ]
@@ -1010,6 +1042,14 @@
           "regional": false
         },
         {
+          "title": "Young, close-in planets live dangerously",
+          "link": "https://www.mpg.de/27027670/young-close-in-planets-love-to-live-dangerously",
+          "source": "Max Planck Society",
+          "summary": "First discovery of a planet orbiting its host star so closely that the planet's magnetic field triggers radiation bursts from the star",
+          "published": "2026-10-12T11:00:00+00:00",
+          "regional": true
+        },
+        {
           "title": "The Nobel for IceCube and the search for neutrinos from outer space | Explained",
           "link": "https://www.thehindu.com/sci-tech/science/the-nobel-for-icecube-and-the-search-for-neutrinos-from-outer-space-explained/article71554101.ece",
           "source": "The Hindu",
@@ -1047,14 +1087,6 @@
           "source": "The Hindu",
           "summary": "Dhruva Space’s LEAP-2, hosting multiple In-Orbit Demonstration (IOD) missions, which includes a star tracker by France-based Sodern ArianeGroup, and TAPAS-1 by India-based Satleo Labs, was part of the Transporter-18…",
           "published": "2026-10-05T03:18:49+00:00",
-          "regional": true
-        },
-        {
-          "title": "M31-V1, the star Hubble viewed and changed our universe",
-          "link": "https://www.thehindu.com/sci-tech/science/m31-v1-the-star-hubble-viewed-and-changed-our-universe/article71495038.ece",
-          "source": "The Hindu",
-          "summary": "The observations that American astronomer Edwin Hubble made on the night of October 5-6, 1923 and one that he had made the previous night, enabled him to discover M31-V1, the first Cepheid star in the Andromeda galaxy.",
-          "published": "2026-10-01T05:11:35+00:00",
           "regional": true
         },
         {
