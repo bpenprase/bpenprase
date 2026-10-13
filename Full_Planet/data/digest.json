@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-12T18:22:00.503422+00:00",
-  "generated_human": "12 October 2026, 18:22 UTC",
-  "total_items": 131,
+  "generated": "2026-10-13T16:35:18.491351+00:00",
+  "generated_human": "13 October 2026, 16:35 UTC",
+  "total_items": 128,
   "channels": [
     {
       "key": "ai",
@@ -98,12 +98,20 @@
           "regional": false
         },
         {
-          "title": "Why Read a Research Paper When You Can Turn It Into an AI Agent?",
-          "link": "https://spectrum.ieee.org/paper2agent-ai-agents-research-papers",
-          "source": "IEEE Spectrum",
-          "summary": "Have you ever read a paper in Science or Nature and thought, “Man, that research was so cool. I wish I could try that method on my own data,” only to spend a week wrestling with someone else’s undocumented repo, broken…",
-          "published": "2026-09-22T15:00:05+00:00",
-          "regional": false
+          "title": "Kakao bets on AI agents to take it beyond messaging",
+          "link": "https://www.koreaherald.com/article/10901081",
+          "source": "The Korea Herald",
+          "summary": "Kakao on Tuesday unveiled an artificial intelligence assistant for its flagship messaging app KakaoTalk as part of a broader push to transform the service into a platform that can handle everyday tasks, from schedule…",
+          "published": "2026-10-13T05:33:03+00:00",
+          "regional": true
+        },
+        {
+          "title": "Yann LeCun sees Korea edge in AI’s shift to physical world",
+          "link": "https://www.koreaherald.com/article/10899735",
+          "source": "The Korea Herald",
+          "summary": "Artificial intelligence’s next breakthrough will come not from ever-larger language models, but from systems that can understand, predict and act in the physical world, AI pioneer Yann LeCun said Monday, arguing that…",
+          "published": "2026-10-12T05:41:14+00:00",
+          "regional": true
         },
         {
           "title": "SK launches 2-year AI training program with W3m monthly stipend",
@@ -168,22 +176,6 @@
           "summary": "ByteDance accounts for roughly one-fifth of China’s delivered data centre capacity, making the TikTok owner the country’s largest tenant and a main driver of its artificial intelligence buildout, according to new…",
           "published": "2026-09-28T09:00:41+00:00",
           "regional": true
-        },
-        {
-          "title": "Alibaba unveils ‘pragmatic’ AI road map to drive monetisation, infrastructure efficiency",
-          "link": "https://www.scmp.com/tech/big-tech/article/3368650/alibaba-unveils-pragmatic-ai-road-map-drive-monetisation-infrastructure-efficiency?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "The artificial intelligence road map presented at its flagship Apsara Conference this week showcased a pragmatic pivot by Chinese tech giant Alibaba Group Holding, offering a clearer path to monetisation despite a sharp…",
-          "published": "2026-09-24T09:30:22+00:00",
-          "regional": true
-        },
-        {
-          "title": "Alibaba teases 10-trillion-parameter model, debuts ‘China’s most powerful’ AI chip",
-          "link": "https://www.scmp.com/tech/big-tech/article/3368338/alibaba-teases-10-trillion-parameter-model-debuts-chinas-most-powerful-ai-chip?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Alibaba Group Holding has introduced what it called China’s most powerful artificial intelligence chip and teased plans to train an AI model with up to 10 trillion parameters, as top executives reaffirmed the tech…",
-          "published": "2026-09-22T05:59:40+00:00",
-          "regional": true
         }
       ]
     },
@@ -194,11 +186,11 @@
       "accent": "#E8A13A",
       "items": [
         {
-          "title": "Appeal for major energy storage system rejected",
-          "link": "https://www.bbc.co.uk/news/articles/cwvgdej69m2ro?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Plans for the battery system site near the Devon-Dorset border have again been dismissed.",
-          "published": "2026-10-12T12:10:34+00:00",
+          "title": "Physicists discover “astonishing” property of light that defies expectations",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261011211615.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have uncovered a surprising hidden ability of light that allows it to develop spinning, twisting behavior as it travels through empty space, without special lenses, mirrors, or materials.",
+          "published": "2026-10-13T04:19:32+00:00",
           "regional": false
         },
         {
@@ -298,6 +290,14 @@
           "regional": false
         },
         {
+          "title": "Korea launches chip policy office to fast-track W800tr investments",
+          "link": "https://www.koreaherald.com/article/10901144",
+          "source": "The Korea Herald",
+          "summary": "South Korea will launch a dedicated semiconductor policy office next week to fast-track major chip investments and strengthen industry competitiveness as the US, China and Japan intensify their race for advanced chip…",
+          "published": "2026-10-13T06:00:47+00:00",
+          "regional": true
+        },
+        {
           "title": "US rules give Korean LFP makers rare opening against China",
           "link": "https://www.koreaherald.com/article/10899834",
           "source": "The Korea Herald",
@@ -319,14 +319,6 @@
           "source": "Asian Scientist",
           "summary": "The researchers won the award for solving a long standing mystery in chemistry: homochirality.",
           "published": "2026-10-09T08:24:40+00:00",
-          "regional": true
-        },
-        {
-          "title": "Battery ETFs among top performers this month: market data",
-          "link": "https://www.koreaherald.com/article/10897728",
-          "source": "The Korea Herald",
-          "summary": "Exchange-traded funds tracking secondary battery companies were among the top performers in the South Korean stock market this month, data showed Friday, as investors bet on the industry amid expectations of rising…",
-          "published": "2026-10-09T01:54:56+00:00",
           "regional": true
         },
         {
@@ -426,14 +418,6 @@
       "accent": "#33C6D6",
       "items": [
         {
-          "title": "Appeal for major energy storage system rejected",
-          "link": "https://www.bbc.co.uk/news/articles/cwvgdej69m2ro?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Plans for the battery system site near the Devon-Dorset border have again been dismissed.",
-          "published": "2026-10-12T12:10:34+00:00",
-          "regional": false
-        },
-        {
           "title": "Scientists may have found a shortcut to fusion energy",
           "link": "https://www.sciencedaily.com/releases/2026/10/261008005242.htm",
           "source": "ScienceDaily",
@@ -474,12 +458,20 @@
           "regional": false
         },
         {
-          "title": "Scientists detect a nuclear reactor’s ghostly afterglow for the first time",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260814011036.htm",
-          "source": "ScienceDaily",
-          "summary": "Nuclear reactors may go dark, but their fuel continues producing a faint antineutrino “glow” long after shutdown.",
-          "published": "2026-08-14T13:16:36+00:00",
-          "regional": false
+          "title": "Renault targets 2028 for first Korea-built EV",
+          "link": "https://www.koreaherald.com/article/10901161",
+          "source": "The Korea Herald",
+          "summary": "French automaker Renault Group plans to launch a South Korean-made electric vehicle with advanced driver-assistance technology in 2028, as it accelerates electrification and looks to boost exports from its Busan plant.",
+          "published": "2026-10-13T06:13:31+00:00",
+          "regional": true
+        },
+        {
+          "title": "GS Caltex wins London awards for carbon capture campaign",
+          "link": "https://www.koreaherald.com/article/10900883",
+          "source": "The Korea Herald",
+          "summary": "GS Caltex scored two prizes at the 2026 London International Awards for a campaign that employs playful, interactive content to explain carbon capture technology, the company said Tuesday.",
+          "published": "2026-10-13T02:40:09+00:00",
+          "regional": true
         },
         {
           "title": "US rules give Korean LFP makers rare opening against China",
@@ -487,22 +479,6 @@
           "source": "The Korea Herald",
           "summary": "South Korean battery materials makers challenge China’s near-monopoly with a fresh push into lithium iron phosphate cathodes as US restrictions and energy storage demand create an opening for Korean suppliers.",
           "published": "2026-10-12T06:27:22+00:00",
-          "regional": true
-        },
-        {
-          "title": "Battery ETFs among top performers this month: market data",
-          "link": "https://www.koreaherald.com/article/10897728",
-          "source": "The Korea Herald",
-          "summary": "Exchange-traded funds tracking secondary battery companies were among the top performers in the South Korean stock market this month, data showed Friday, as investors bet on the industry amid expectations of rising…",
-          "published": "2026-10-09T01:54:56+00:00",
-          "regional": true
-        },
-        {
-          "title": "LG Energy Solution sets sales record on EV, ESS growth",
-          "link": "https://www.koreaherald.com/article/10897092",
-          "source": "The Korea Herald",
-          "summary": "LG Energy Solution posted record quarterly revenue in the third quarter, fueled by stronger electric vehicle battery shipments in Europe and rapidly growing demand for energy storage systems in North America.",
-          "published": "2026-10-08T05:52:15+00:00",
           "regional": true
         },
         {
@@ -570,6 +546,38 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission",
+          "link": "https://www.nasa.gov/missions/moon-base/nasa-jpl-testing-readies-voyager-technologies-lander-for-moon-mission/",
+          "source": "NASA",
+          "summary": "A commercial lander that will be at the forefront of NASA’s efforts to establish a Moon Base, humanity’s first lunar outpost, has passed a series of critical tests at the agency’s Jet Propulsion Laboratory in Southern…",
+          "published": "2026-10-13T13:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Science, Cargo Launch on 35th SpaceX Resupply Mission to Station",
+          "link": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-35th-spacex-resupply-mission-to-station/",
+          "source": "NASA",
+          "summary": "NASA’s SpaceX 35th commercial resupply mission lifted off at 6:33 a.m. EDT Tuesday aboard a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida, carrying more than 6,300 pounds…",
+          "published": "2026-10-13T11:12:18+00:00",
+          "regional": false
+        },
+        {
+          "title": "Press conference: ESA astronaut Sophie Adenot returns to Europe",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Press_conference_ESA_astronaut_Sophie_Adenot_returns_to_Europe",
+          "source": "ESA",
+          "summary": "Video: 00:59:23 ESA astronaut Sophie Adenot has returned to Europe following her 237-day εpsilon mission aboard the International Space Station.",
+          "published": "2026-10-13T10:20:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s SpaceX CRS-35 Mission to Launch Health Research",
+          "link": "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research/",
+          "source": "NASA",
+          "summary": "NASA experiments focused on human and plant health and drug-resistant organisms will travel to the International Space Station aboard SpaceX’s 35th Commercial Resupply Services mission for the agency from Cape Canaveral…",
+          "published": "2026-10-12T17:45:27+00:00",
+          "regional": false
+        },
+        {
           "title": "ExoMars rover twin rehearses first drive",
           "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ExoMars_rover_twin_rehearses_first_drive",
           "source": "ESA",
@@ -599,22 +607,6 @@
           "source": "ESA",
           "summary": "ESA astronaut Sophie Adenot has arrived back in Europe, landing in Cologne, Germany, following her return to Earth with Crew-12 after 237 days, nearly eight months, aboard the International Space Station for her εpsilon…",
           "published": "2026-10-10T09:01:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Seeks US Industry Plans for Commercial Space Stations",
-          "link": "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/",
-          "source": "NASA",
-          "summary": "NASA is advancing American leadership in space by taking the next step toward a future where commercial space stations lead the way in low Earth orbit.",
-          "published": "2026-10-09T18:11:44+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Demonstrates Next-Generation Heat Shield Technologies",
-          "link": "https://www.nasa.gov/centers-and-facilities/ames/nasa-demonstrates-next-generation-heat-shield-technologies/",
-          "source": "NASA",
-          "summary": "NASA is testing heat shields that can keep astronauts safe as they return from missions to the Moon and Mars in an unusual way: by taking out the trash.",
-          "published": "2026-10-09T16:59:24+00:00",
           "regional": false
         },
         {
@@ -666,14 +658,6 @@
           "regional": false
         },
         {
-          "title": "Audacious space heist aims to bring home bits of mysterious martian moon",
-          "link": "https://www.science.org/content/article/audacious-space-heist-japan-aims-bring-home-bits-martian-moon",
-          "source": "Science (AAAS)",
-          "summary": "Samples from Japan’s MMX mission could reveal how Phobos formed—and may contain pieces of Mars",
-          "published": "2026-10-08T02:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA’s Webb finds signs of Mars-sized worlds smashing together",
           "link": "https://www.sciencedaily.com/releases/2026/10/261007042108.htm",
           "source": "ScienceDaily",
@@ -695,14 +679,6 @@
           "source": "Scientific American",
           "summary": "The country’s space program is new and ambitious, having already sent a mission into Mars orbit",
           "published": "2026-10-05T16:30:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "A guide to blood draws in orbit",
-          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/A_guide_to_blood_draws_in_orbit",
-          "source": "ESA",
-          "summary": "Video: 00:01:52 This video was published on social media by ESA astronaut Sophie Adenot with the following caption: Just another morning in space… this one starting with a blood draw!",
-          "published": "2026-10-02T10:30:00+00:00",
           "regional": false
         },
         {
@@ -850,6 +826,14 @@
       "accent": "#B98CE0",
       "items": [
         {
+          "title": "James Webb reveals a massive cosmic structure that challenges our understanding of the Universe",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261012185021.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA’s James Webb Space Telescope has revealed an ancient galaxy cluster with an unexpectedly dense concentration of dark matter, challenging theories about how the universe developed.",
+          "published": "2026-10-13T11:27:24+00:00",
+          "regional": false
+        },
+        {
           "title": "MIT astronomers catch a star in a feast that could last billions of years",
           "link": "https://www.sciencedaily.com/releases/2026/10/261008005240.htm",
           "source": "ScienceDaily",
@@ -970,14 +954,6 @@
           "regional": false
         },
         {
-          "title": "How to see rainbows on exoplanets",
-          "link": "https://www.scientificamerican.com/article/how-to-see-rainbows-on-exoplanets/",
-          "source": "Scientific American",
-          "summary": "A future NASA telescope could spot atmospheric phenomena on planets orbiting other stars",
-          "published": "2026-10-02T10:45:00+00:00",
-          "regional": false
-        },
-        {
           "title": "A record-breaking X-ray flash may reveal the birth of a magnetar",
           "link": "https://www.sciencedaily.com/releases/2026/09/260930020252.htm",
           "source": "ScienceDaily",
@@ -1042,19 +1018,19 @@
           "regional": false
         },
         {
+          "title": "The Nobel for IceCube and the search for neutrinos from outer space | Explained",
+          "link": "https://www.thehindu.com/sci-tech/science/the-nobel-for-icecube-and-the-search-for-neutrinos-from-outer-space-explained/article71554101.ece",
+          "source": "The Hindu",
+          "summary": "The IceCube Neutrino Observatory at the South Pole has won Francis Halzen the Nobel Prize for physics by opening a window into parts of the universe that were until recently beyond our reach",
+          "published": "2026-10-13T10:10:38+00:00",
+          "regional": true
+        },
+        {
           "title": "Young, close-in planets live dangerously",
           "link": "https://www.mpg.de/27027670/young-close-in-planets-love-to-live-dangerously",
           "source": "Max Planck Society",
           "summary": "First discovery of a planet orbiting its host star so closely that the planet's magnetic field triggers radiation bursts from the star",
           "published": "2026-10-12T11:00:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "The Nobel for IceCube and the search for neutrinos from outer space | Explained",
-          "link": "https://www.thehindu.com/sci-tech/science/the-nobel-for-icecube-and-the-search-for-neutrinos-from-outer-space-explained/article71554101.ece",
-          "source": "The Hindu",
-          "summary": "The IceCube Neutrino Observatory at the South Pole has won Francis Halzen the Nobel Prize for physics by opening a window into parts of the universe that were until recently beyond our reach",
-          "published": "2026-10-07T01:36:47+00:00",
           "regional": true
         },
         {
