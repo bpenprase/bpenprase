@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-10-12 18:10 PDT
-; Observing window starts 2026-10-12 19:44 PDT  (LST 20:19:48)
+; Generated 2026-10-13 16:13 PDT
+; Observing window starts 2026-10-13 19:44 PDT  (LST 20:23:44)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -47,15 +47,6 @@ M 17
 CT C/2024 J3
 #WAITINLIMITS 60
 
-; Comet C/2026 A2 (Bok)  mag 12.9
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT C/2026 A2
-#WAITINLIMITS 60
-
 ; Open Cluster  mag 5.8  size 9.00'  Amas de l'Ecu de Sobieski,Wild Duck Cluster
 #posang 0
 #count 1,1,1,1
@@ -63,6 +54,15 @@ CT C/2026 A2
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 11
+
+; Comet C/2026 A2 (Bok)  mag 12.8
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT C/2026 A2
+#WAITINLIMITS 60
 
 ; Open Cluster  mag 7.3  size 6.90'  Foxhead Cluster
 #posang 0
@@ -129,7 +129,7 @@ NGC 6995
 #filter r',Ha,OIII,SII
 NGC 7000
 
-; Comet 161P/Hartley-IRAS  mag 11.0
+; Comet 161P/Hartley-IRAS  mag 11.3
 #posang 0
 #count 3
 #interval 300
@@ -154,7 +154,7 @@ M 39
 #filter r',Ha,OIII,SII
 IC 5146
 
-; Asteroid 9 Metis  mag 10.1
+; Asteroid 9 Metis  mag 10.2
 #posang 0
 #count 3
 #interval 300
@@ -221,6 +221,15 @@ NGC 0185
 #filter r',g',i',z'
 M 110
 
+; Planet: Saturn
+#posang 0
+#count 10
+#interval 30
+#binning 1
+#filter r'
+Saturn
+#WAITINLIMITS 60
+
 ; Galaxy  mag 8.1  size 7.74'
 #posang 0
 #count 1,1,1,1
@@ -236,15 +245,6 @@ M 32
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 31
-
-; Planet: Saturn
-#posang 0
-#count 10
-#interval 30
-#binning 1
-#filter r'
-Saturn
-#WAITINLIMITS 60
 
 ; Galaxy  mag 9.2  size 19.68'
 #posang 0
@@ -287,14 +287,6 @@ MP Pallas
 #filter r',g',i',z'
 NGC 0457
 
-; Galaxy  mag 9.2  size 1.69'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-IC 0127
-
 ; Asteroid 4 Vesta  mag 6.4
 #posang 0
 #count 3
@@ -303,6 +295,14 @@ IC 0127
 #filter r'
 MP Vesta
 #WAITINLIMITS 60
+
+; Galaxy  mag 9.2  size 1.69'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+IC 0127
 
 ; Galaxy  mag 5.8  size 62.09'  Triangulum Galaxy,Triangulum Pinwheel
 #posang 0
@@ -352,7 +352,7 @@ NGC 1023
 #filter r',g',i',z'
 M 77
 
-; Comet 220P/McNaught  mag 12.7
+; Comet 220P/McNaught  mag 12.5
 #posang 0
 #count 3
 #interval 300
@@ -410,7 +410,7 @@ M 42
 #filter r',Ha,OIII,SII
 NGC 1980
 
-; Comet C/2024 T5 (ATLAS)  mag 13.6
+; Comet C/2024 T5 (ATLAS)  mag 13.4
 #posang 0
 #count 3
 #interval 300
