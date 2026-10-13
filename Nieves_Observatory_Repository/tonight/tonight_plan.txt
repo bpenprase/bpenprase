@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-10-11 15:44 PDT
-; Observing window starts 2026-10-11 19:46 PDT  (LST 20:17:51)
+; Generated 2026-10-12 18:10 PDT
+; Observing window starts 2026-10-12 19:44 PDT  (LST 20:19:48)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -38,7 +38,7 @@ IC 4703
 #filter r',Ha,OIII,SII
 M 17
 
-; Comet C/2024 J3 (ATLAS)  mag 12.6
+; Comet C/2024 J3 (ATLAS)  mag 14.0
 #posang 0
 #count 3
 #interval 300
@@ -47,7 +47,7 @@ M 17
 CT C/2024 J3
 #WAITINLIMITS 60
 
-; Comet C/2026 A2 (Bok)  mag 13.0
+; Comet C/2026 A2 (Bok)  mag 12.9
 #posang 0
 #count 3
 #interval 300
@@ -80,7 +80,7 @@ NGC 6819
 #filter r',g',i',z'
 NGC 6822
 
-; Asteroid 3 Juno  mag 9.8
+; Asteroid 3 Juno  mag 9.9
 #posang 0
 #count 3
 #interval 300
@@ -129,15 +129,7 @@ NGC 6995
 #filter r',Ha,OIII,SII
 NGC 7000
 
-; Open Cluster  mag 4.6  size 19.50'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 39
-
-; Comet 161P/Hartley-IRAS  mag 13.0
+; Comet 161P/Hartley-IRAS  mag 11.0
 #posang 0
 #count 3
 #interval 300
@@ -145,6 +137,14 @@ M 39
 #filter r'
 CT 161P/Hartley-IRAS
 #WAITINLIMITS 60
+
+; Open Cluster  mag 4.6  size 19.50'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 39
 
 ; Cluster + Nebula  mag 7.2  size 10.00'  Cocoon Nebula
 #posang 0
@@ -352,7 +352,7 @@ NGC 1023
 #filter r',g',i',z'
 M 77
 
-; Comet 220P/McNaught  mag 13.7
+; Comet 220P/McNaught  mag 12.7
 #posang 0
 #count 3
 #interval 300
