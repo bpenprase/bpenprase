@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-13T16:35:18.491351+00:00",
-  "generated_human": "13 October 2026, 16:35 UTC",
-  "total_items": 128,
+  "generated": "2026-10-14T14:10:27.903248+00:00",
+  "generated_human": "14 October 2026, 14:10 UTC",
+  "total_items": 124,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "Amateur astronomer harnesses AI to find a possible hidden exoplanet",
+          "link": "https://www.scientificamerican.com/article/amateur-astronomer-harnesses-ai-to-find-a-possible-hidden-exoplanet/",
+          "source": "Scientific American",
+          "summary": "Evidence for the possible super-Earth has been lurking for years in NASA data. Pavel Rabtsevich found it—with a little help from AI",
+          "published": "2026-10-14T11:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "Is ‘Attention’ the Essence of Intelligence?",
           "link": "https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/",
@@ -23,22 +31,6 @@
           "source": "IEEE Spectrum",
           "summary": "Today’s engineers face an unprecedented acceleration in AI hardware complexity, as explained in the recent research article “ Revisiting Edge AI: Opportunities and Challenges .” The article examines the rapid growth of…",
           "published": "2026-10-09T18:00:02+00:00",
-          "regional": false
-        },
-        {
-          "title": "Problems in 22 scientific fields had solutions hiding in plain sight. An AI has found them",
-          "link": "https://www.science.org/content/article/problems-22-scientific-fields-had-solutions-hiding-plain-sight-ai-has-found-them",
-          "source": "Science (AAAS)",
-          "summary": "Teams led by physicist used “BootLoops” software to produce 36 papers in weeks on everything from linguistics to health policy",
-          "published": "2026-10-09T11:35:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Department of Energy expands ‘Genesis Mission’ to boost AI, awarding larger grants",
-          "link": "https://www.science.org/content/article/department-energy-expands-genesis-mission-boost-ai-awarding-larger-grants",
-          "source": "Science (AAAS)",
-          "summary": "Department will also initiate new fellowship program to shorten path to Ph.D.",
-          "published": "2026-10-09T03:21:00+00:00",
           "regional": false
         },
         {
@@ -98,6 +90,30 @@
           "regional": false
         },
         {
+          "title": "China approves Alibaba AI models for use in iPhone Duo and other Apple handsets",
+          "link": "https://www.scmp.com/tech/big-tech/article/3370893/china-approves-alibaba-ai-models-use-iphone-duo-and-other-apple-handsets?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "China has granted approval for Alibaba Group Holding’s artificial intelligence models to be integrated into several Apple handsets, including the new iPhone Duo, in the Chinese market, clearing a key regulatory hurdle…",
+          "published": "2026-10-14T11:06:20+00:00",
+          "regional": true
+        },
+        {
+          "title": "LG CNS teams up with Japan's KDDI to expand AI business in Asia",
+          "link": "https://www.koreaherald.com/article/10902251",
+          "source": "The Korea Herald",
+          "summary": "LG CNS said Wednesday it has partnered with Japanese telecom giant KDDI to expand artificial intelligence and digital transformation businesses across the Asia-Pacific region.",
+          "published": "2026-10-14T02:36:01+00:00",
+          "regional": true
+        },
+        {
+          "title": "LG Electronics expands AI cooling push with GS E&C, GRC",
+          "link": "https://www.koreaherald.com/article/10902204",
+          "source": "The Korea Herald",
+          "summary": "LG Electronics is teaming up with GS E&C and US cooling specialist Green Revolution Cooling to develop standardized immersion-cooling systems for artificial intelligence data centers, expanding its push into…",
+          "published": "2026-10-14T02:24:22+00:00",
+          "regional": true
+        },
+        {
           "title": "Kakao bets on AI agents to take it beyond messaging",
           "link": "https://www.koreaherald.com/article/10901081",
           "source": "The Korea Herald",
@@ -111,14 +127,6 @@
           "source": "The Korea Herald",
           "summary": "Artificial intelligence’s next breakthrough will come not from ever-larger language models, but from systems that can understand, predict and act in the physical world, AI pioneer Yann LeCun said Monday, arguing that…",
           "published": "2026-10-12T05:41:14+00:00",
-          "regional": true
-        },
-        {
-          "title": "SK launches 2-year AI training program with W3m monthly stipend",
-          "link": "https://www.koreaherald.com/article/10899355",
-          "source": "The Korea Herald",
-          "summary": "SK Group said Monday it will launch a two-year, full-time artificial intelligence training program for young adults, offering participants 3 million won ($2,200) a month as they work on real-world AI projects.",
-          "published": "2026-10-12T02:03:29+00:00",
           "regional": true
         },
         {
@@ -160,22 +168,6 @@
           "summary": "China has set a five-year goal for the expansion of intelligent computing capacity to drive artificial intelligence (AI) that calls for a more than fourfold increase on what was in place at the end of June this year.",
           "published": "2026-10-02T07:05:21+00:00",
           "regional": true
-        },
-        {
-          "title": "Anthropic raises alarm over elite hacking ability of Chinese firm Z.ai’s GLM-5.3",
-          "link": "https://www.scmp.com/tech/big-tech/article/3369354/anthropic-raises-alarm-over-elite-hacking-ability-chinese-firm-zais-glm-53?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "The US artificial intelligence giant Anthropic has warned of the potential danger posed by Chinese firm Z.ai’s GLM-5.3, with the open-weight model showing a troubling mix of powerful hacking abilities but weak safety…",
-          "published": "2026-09-30T12:00:08+00:00",
-          "regional": true
-        },
-        {
-          "title": "ByteDance grabs one-fifth of China’s data centre capacity as AI drives infrastructure boom",
-          "link": "https://www.scmp.com/tech/big-tech/article/3369056/bytedance-grabs-one-fifth-chinas-data-centre-capacity-ai-drives-infrastructure-boom?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "ByteDance accounts for roughly one-fifth of China’s delivered data centre capacity, making the TikTok owner the country’s largest tenant and a main driver of its artificial intelligence buildout, according to new…",
-          "published": "2026-09-28T09:00:41+00:00",
-          "regional": true
         }
       ]
     },
@@ -185,6 +177,14 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "AI reveals a hidden chemical shortcut that could turn CO2 into fuel",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261013015758.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists used artificial intelligence to uncover nearly 10,000 chemical reactions involved in transforming carbon dioxide into fuels and chemicals, revealing crucial pathways that traditional models had missed.",
+          "published": "2026-10-14T00:01:11+00:00",
+          "regional": false
+        },
         {
           "title": "Physicists discover “astonishing” property of light that defies expectations",
           "link": "https://www.sciencedaily.com/releases/2026/10/261011211615.htm",
@@ -290,11 +290,19 @@
           "regional": false
         },
         {
-          "title": "Korea launches chip policy office to fast-track W800tr investments",
-          "link": "https://www.koreaherald.com/article/10901144",
+          "title": "ASML’s chip equipment sales to China soar 109% despite US export curb push",
+          "link": "https://www.scmp.com/tech/big-tech/article/3370904/asmls-chip-equipment-sales-china-soar-109-despite-us-export-curb-push?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Dutch semiconductor equipment giant ASML expects China to account for about 20 per cent of its total sales this year, after seeing shipments to the market more than double during the previous quarter despite mounting US…",
+          "published": "2026-10-14T14:00:12+00:00",
+          "regional": true
+        },
+        {
+          "title": "Foreign selloff sends Kospi down 5.5% as chip giants tumble",
+          "link": "https://www.koreaherald.com/article/10901317",
           "source": "The Korea Herald",
-          "summary": "South Korea will launch a dedicated semiconductor policy office next week to fast-track major chip investments and strengthen industry competitiveness as the US, China and Japan intensify their race for advanced chip…",
-          "published": "2026-10-13T06:00:47+00:00",
+          "summary": "Foreign investors' relentless selling sent South Korea's Kospi plunging more than 5 percent Tuesday, briefly pushing the benchmark below 6,000 as sustained capital outflows overshadowed strong semiconductor earnings and…",
+          "published": "2026-10-13T07:21:09+00:00",
           "regional": true
         },
         {
@@ -346,14 +354,6 @@
           "regional": true
         },
         {
-          "title": "Nobel Prize in chemistry goes to Henri B. Kagan and Kenso Soai",
-          "link": "https://www.dw.com/en/nobel-prize-in-chemistry-goes-to-henri-b-kagan-and-kenso-soai/a-79573924?maca=en-rss_en_science-22531-xml-mrss",
-          "source": "Deutsche Welle",
-          "summary": "Henri B. Kagan and Kenso Soai won the Nobel Prize in chemistry for their groundbreaking discoveries related to the origin of chirality and life's building blocks.",
-          "published": "2026-10-07T09:51:00+00:00",
-          "regional": true
-        },
-        {
           "title": "How protein biosensors can shrink the timeline of medical emergencies",
           "link": "https://www.thehindu.com/sci-tech/science/how-protein-biosensors-can-shrink-the-timeline-of-medical-emergencies/article71221365.ece",
           "source": "The Hindu",
@@ -378,19 +378,11 @@
       "accent": "#5FBF9B",
       "items": [
         {
-          "title": "Two teams map development of mammal embryos, cell by cell",
-          "link": "https://www.science.org/content/article/two-teams-map-development-mammal-embryos-cell-cell",
-          "source": "Science (AAAS)",
-          "summary": "Using genome editing to trace cell lineages, researchers capture the early history of the mouse embryo in unprecedented detail",
-          "published": "2026-10-08T02:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Can bioengineered bacteria help terraform Mars?",
-          "link": "https://www.scientificamerican.com/article/can-bioengineered-bacteria-help-terraform-mars/",
+          "title": "Claude just found a CRISPR-like DNA pattern, but even Anthropic's scientists aren't sure what it does",
+          "link": "https://www.scientificamerican.com/article/claude-just-found-a-crispr-like-dna-pattern-but-even-anthropics-scientists-arent-sure-what-it-does/",
           "source": "Scientific American",
-          "summary": "The nonprofit start-up Pioneer Labs claims to have made the first-ever “microbe for Mars.” Other experts aren’t so sure",
-          "published": "2026-10-02T15:30:00+00:00",
+          "summary": "The large language model took less than a day to identify the curious stretch of DNA",
+          "published": "2026-10-14T10:00:00+00:00",
           "regional": false
         },
         {
@@ -546,19 +538,59 @@
       "accent": "#F0894E",
       "items": [
         {
-          "title": "NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission",
-          "link": "https://www.nasa.gov/missions/moon-base/nasa-jpl-testing-readies-voyager-technologies-lander-for-moon-mission/",
+          "title": "NASA to Discuss Artemis Acceleration, Status of Upcoming Moon Missions",
+          "link": "https://www.nasa.gov/news-release/nasa-to-discuss-artemis-acceleration-status-of-upcoming-moon-missions/",
           "source": "NASA",
-          "summary": "A commercial lander that will be at the forefront of NASA’s efforts to establish a Moon Base, humanity’s first lunar outpost, has passed a series of critical tests at the agency’s Jet Propulsion Laboratory in Southern…",
-          "published": "2026-10-13T13:00:00+00:00",
+          "summary": "NASA will provide an update on its plans to return American astronauts to the surface of the Moon by 2028 at 2 p.m. EDT, Friday, Oct. 23, at the agency’s Kennedy Space Center in Florida.",
+          "published": "2026-10-14T13:32:25+00:00",
           "regional": false
         },
         {
-          "title": "NASA Science, Cargo Launch on 35th SpaceX Resupply Mission to Station",
-          "link": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-35th-spacex-resupply-mission-to-station/",
+          "title": "NASA Names Astronaut Christina Koch Acting Deputy Chief Engineer",
+          "link": "https://www.nasa.gov/news-release/nasa-names-astronaut-christina-koch-acting-deputy-chief-engineer/",
           "source": "NASA",
-          "summary": "NASA’s SpaceX 35th commercial resupply mission lifted off at 6:33 a.m. EDT Tuesday aboard a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida, carrying more than 6,300 pounds…",
-          "published": "2026-10-13T11:12:18+00:00",
+          "summary": "NASA engineer and astronaut Christina Koch will serve as the agency’s acting deputy chief engineer beginning on Sunday, Nov.",
+          "published": "2026-10-13T20:41:11+00:00",
+          "regional": false
+        },
+        {
+          "title": "'Jellyfish' effect lights up US sky after SpaceX launch",
+          "link": "https://www.bbc.co.uk/news/videos/cr86zjv5plp5o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "A 'Jellyfish' effect lit up the sky in US after a SpaceX Falcon 9 rocket launch.",
+          "published": "2026-10-13T18:35:34+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Record-Setting Perseverance Rover Team",
+          "link": "https://science.nasa.gov/photojournal/nasas-record-setting-perseverance-rover-team/",
+          "source": "NASA",
+          "summary": "Description Members of NASA’s Perseverance Mars mission team gather in the Mars Yard at the agency’s Jet Propulsion Laboratory in Southern California with a certificate from Guinness World Records marking the rover…",
+          "published": "2026-10-13T17:48:46+00:00",
+          "regional": false
+        },
+        {
+          "title": "Perseverance Navcam Image Marks Record Drive",
+          "link": "https://science.nasa.gov/photojournal/perseverance-navcam-image-marks-record-drive/",
+          "source": "NASA",
+          "summary": "Description Rover tracks and a rocky Martian landscape are shown in this image captured by one of the navigation cameras (navcams) aboard NASA’s Perseverance Mars rover on Oct.",
+          "published": "2026-10-13T17:42:51+00:00",
+          "regional": false
+        },
+        {
+          "title": "Transporter-18 SmallSats Encapsulation",
+          "link": "https://www.nasa.gov/image-article/transporter-18-smallsats-encapsulation/",
+          "source": "NASA",
+          "summary": "Three NASA-supported small spacecraft, along with many commercial payloads, are shown before being encapsulated in a SpaceX Falcon 9 ahead of launch on Oct. 1, 2026.",
+          "published": "2026-10-13T17:38:37+00:00",
+          "regional": false
+        },
+        {
+          "title": "Voyager Technologies’ Griffin-1 Completes Environmental Testing at NASA JPL",
+          "link": "https://science.nasa.gov/photojournal/voyager-technologies-griffin-1-completes-environmental-testing-at-nasa-jpl/",
+          "source": "NASA",
+          "summary": "Description A lunar lander from Voyager Technologies completed nearly three months of environmental testing at NASA’s Jet Propulsion Laboratory in Southern California in late September 2026.",
+          "published": "2026-10-13T17:11:11+00:00",
           "regional": false
         },
         {
@@ -567,30 +599,6 @@
           "source": "ESA",
           "summary": "Video: 00:59:23 ESA astronaut Sophie Adenot has returned to Europe following her 237-day εpsilon mission aboard the International Space Station.",
           "published": "2026-10-13T10:20:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s SpaceX CRS-35 Mission to Launch Health Research",
-          "link": "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research/",
-          "source": "NASA",
-          "summary": "NASA experiments focused on human and plant health and drug-resistant organisms will travel to the International Space Station aboard SpaceX’s 35th Commercial Resupply Services mission for the agency from Cape Canaveral…",
-          "published": "2026-10-12T17:45:27+00:00",
-          "regional": false
-        },
-        {
-          "title": "ExoMars rover twin rehearses first drive",
-          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ExoMars_rover_twin_rehearses_first_drive",
-          "source": "ESA",
-          "summary": "Before the Rosalind Franklin rover can explore Mars, it must first get off its lander.",
-          "published": "2026-10-12T09:30:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Preparing for a first drive on Mars",
-          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Preparing_for_a_first_drive_on_Mars",
-          "source": "ESA",
-          "summary": "Video: 00:01:45 Before Rosalind Franklin can explore Mars, it has to get off its lander. Engineers are rehearsing that first journey on Earth, using a full-size rover model and Mars-like terrain.",
-          "published": "2026-10-12T09:00:00+00:00",
           "regional": false
         },
         {
@@ -626,14 +634,6 @@
           "regional": false
         },
         {
-          "title": "Splashdown confirmed for Sophie Adenot",
-          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Splashdown_confirmed_for_Sophie_Adenot",
-          "source": "ESA",
-          "summary": "ESA astronaut Sophie Adenot returned to Earth with Crew-12 after her nearly eight-month εpsilon mission to the International Space Station, splashing down off the coast of California, USA, at 15:34 GMT/17:34 CEST on 8…",
-          "published": "2026-10-08T16:51:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Artemis II images boost NASA’s moon base plans",
           "link": "https://www.scientificamerican.com/article/artemis-ii-images-boost-nasas-moon-base-plans/",
           "source": "Scientific American",
@@ -647,14 +647,6 @@
           "source": "ScienceDaily",
           "summary": "NASA is preparing for humanity’s first Moon base with three investigations that will hunt for underground shelters, uncover hidden ice, and track dangerous conditions on the lunar surface.",
           "published": "2026-10-08T12:19:20+00:00",
-          "regional": false
-        },
-        {
-          "title": "Margaret Hamilton, whose software helped land Apollo 11 on the Moon, dies at 90",
-          "link": "https://www.bbc.co.uk/news/articles/cx5yn46j41zpo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Pioneering computer scientist led the development of the software for Nasa's Apollo mission and was awarded the Presidential Medal of Freedom.",
-          "published": "2026-10-08T05:10:40+00:00",
           "regional": false
         },
         {
@@ -826,6 +818,30 @@
       "accent": "#B98CE0",
       "items": [
         {
+          "title": "Amateur astronomer harnesses AI to find a possible hidden exoplanet",
+          "link": "https://www.scientificamerican.com/article/amateur-astronomer-harnesses-ai-to-find-a-possible-hidden-exoplanet/",
+          "source": "Scientific American",
+          "summary": "Evidence for the possible super-Earth has been lurking for years in NASA data. Pavel Rabtsevich found it—with a little help from AI",
+          "published": "2026-10-14T11:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Simons Observatory takes a closer look at the infant universe",
+          "link": "https://www.science.org/content/article/simons-observatory-takes-closer-look-infant-universe",
+          "source": "Science (AAAS)",
+          "summary": "New facility in Chile will hunt for signs of cosmic inflation while using the microwave background to discover galaxy clusters",
+          "published": "2026-10-14T05:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "A planet 320 light-years away confirms what scientists long suspected",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261012185015.htm",
+          "source": "ScienceDaily",
+          "summary": "Astronomers have discovered that a scorching-hot planet 320 light-years away shares a striking chemical similarity with its host star, providing the first direct evidence for a fundamental assumption about planet…",
+          "published": "2026-10-14T00:24:40+00:00",
+          "regional": false
+        },
+        {
           "title": "James Webb reveals a massive cosmic structure that challenges our understanding of the Universe",
           "link": "https://www.sciencedaily.com/releases/2026/10/261012185021.htm",
           "source": "ScienceDaily",
@@ -895,22 +911,6 @@
           "source": "ScienceDaily",
           "summary": "The James Webb Space Telescope has found strong evidence that the rocky lava world HD 3167 b has an atmosphere, despite circling its star every 24 hours under extreme heat.",
           "published": "2026-10-07T11:58:25+00:00",
-          "regional": false
-        },
-        {
-          "title": "Two meteor showers are lighting up the October sky—here’s how to see them",
-          "link": "https://www.scientificamerican.com/article/two-meteor-showers-are-lighting-up-the-october-sky-heres-how-to-see-them/",
-          "source": "Scientific American",
-          "summary": "The Draconids and Orionids both peak this month",
-          "published": "2026-10-06T17:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "United Arab Emirates to launch spacecraft to probe seven asteroids in 2028",
-          "link": "https://www.scientificamerican.com/article/united-arab-emirates-to-launch-spacecraft-to-probe-seven-asteroids-in-2028/",
-          "source": "Scientific American",
-          "summary": "The country’s space program is new and ambitious, having already sent a mission into Mars orbit",
-          "published": "2026-10-05T16:30:00+00:00",
           "regional": false
         },
         {
@@ -1010,35 +1010,11 @@
           "regional": false
         },
         {
-          "title": "First stellar stream beyond the Milky Way could reveal dark matter",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260921081110.htm",
-          "source": "ScienceDaily",
-          "summary": "Astronomers have discovered the first globular cluster stellar stream beyond the Milky Way, opening a new way to study dark matter in distant galaxies.",
-          "published": "2026-09-23T11:23:11+00:00",
-          "regional": false
-        },
-        {
           "title": "The Nobel for IceCube and the search for neutrinos from outer space | Explained",
           "link": "https://www.thehindu.com/sci-tech/science/the-nobel-for-icecube-and-the-search-for-neutrinos-from-outer-space-explained/article71554101.ece",
           "source": "The Hindu",
           "summary": "The IceCube Neutrino Observatory at the South Pole has won Francis Halzen the Nobel Prize for physics by opening a window into parts of the universe that were until recently beyond our reach",
           "published": "2026-10-13T10:10:38+00:00",
-          "regional": true
-        },
-        {
-          "title": "Young, close-in planets live dangerously",
-          "link": "https://www.mpg.de/27027670/young-close-in-planets-love-to-live-dangerously",
-          "source": "Max Planck Society",
-          "summary": "First discovery of a planet orbiting its host star so closely that the planet's magnetic field triggers radiation bursts from the star",
-          "published": "2026-10-12T11:00:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "First detection of heavy methanol in space",
-          "link": "https://www.mpg.de/26834976/first-detection-of-heavy-methanol-in-space",
-          "source": "Max Planck Society",
-          "summary": "Methanol containing heavy hydrogen is considered the building block of complex organic molecules and allows us to trace how stars and planets form from extremely cold interstellar gas and dust",
-          "published": "2026-10-06T22:00:00+00:00",
           "regional": true
         },
         {
@@ -1063,14 +1039,6 @@
           "source": "The Hindu",
           "summary": "Dhruva Space’s LEAP-2, hosting multiple In-Orbit Demonstration (IOD) missions, which includes a star tracker by France-based Sodern ArianeGroup, and TAPAS-1 by India-based Satleo Labs, was part of the Transporter-18…",
           "published": "2026-10-05T03:18:49+00:00",
-          "regional": true
-        },
-        {
-          "title": "Astronomers produce the first complete picture of (gas) planet formation in action",
-          "link": "https://www.mpg.de/26990768/astronomers-produce-the-first-complete-picture-of-gas-planet-formation-in-action",
-          "source": "Max Planck Society",
-          "summary": "Astronomers have directly imaged the “swirl” where a protoplanet interacts with the gas in the surrounding protoplanetary disk",
-          "published": "2026-09-24T07:00:00+00:00",
           "regional": true
         }
       ]
