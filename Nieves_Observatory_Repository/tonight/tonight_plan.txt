@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-10-13 16:13 PDT
-; Observing window starts 2026-10-13 19:44 PDT  (LST 20:23:44)
+; Generated 2026-10-14 15:08 PDT
+; Observing window starts 2026-10-14 19:42 PDT  (LST 20:25:40)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -38,7 +38,7 @@ IC 4703
 #filter r',Ha,OIII,SII
 M 17
 
-; Comet C/2024 J3 (ATLAS)  mag 14.0
+; Comet C/2024 J3 (ATLAS)  mag 13.5
 #posang 0
 #count 3
 #interval 300
@@ -55,7 +55,7 @@ CT C/2024 J3
 #filter r',g',i',z'
 M 11
 
-; Comet C/2026 A2 (Bok)  mag 12.8
+; Comet C/2026 A2 (Bok)  mag 12.1
 #posang 0
 #count 3
 #interval 300
@@ -129,7 +129,7 @@ NGC 6995
 #filter r',Ha,OIII,SII
 NGC 7000
 
-; Comet 161P/Hartley-IRAS  mag 11.3
+; Comet 161P/Hartley-IRAS  mag 11.8
 #posang 0
 #count 3
 #interval 300
@@ -179,7 +179,7 @@ NGC 7331
 #filter r',g'
 2026aaiv	22:37:05.618	+34:24:35.37
 
-; Asteroid 192 Nausikaa  mag 9.0
+; Asteroid 192 Nausikaa  mag 9.1
 #posang 0
 #count 3
 #interval 300
@@ -352,7 +352,7 @@ NGC 1023
 #filter r',g',i',z'
 M 77
 
-; Comet 220P/McNaught  mag 12.5
+; Comet 220P/McNaught  mag 12.9
 #posang 0
 #count 3
 #interval 300
@@ -410,7 +410,7 @@ M 42
 #filter r',Ha,OIII,SII
 NGC 1980
 
-; Comet C/2024 T5 (ATLAS)  mag 13.4
+; Comet C/2024 T5 (ATLAS)  mag 13.1
 #posang 0
 #count 3
 #interval 300
