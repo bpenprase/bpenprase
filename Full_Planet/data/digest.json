@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-14T14:10:27.903248+00:00",
-  "generated_human": "14 October 2026, 14:10 UTC",
-  "total_items": 124,
+  "generated": "2026-10-15T13:47:54.588717+00:00",
+  "generated_human": "15 October 2026, 13:47 UTC",
+  "total_items": 126,
   "channels": [
     {
       "key": "ai",
@@ -13,7 +13,7 @@
           "title": "Amateur astronomer harnesses AI to find a possible hidden exoplanet",
           "link": "https://www.scientificamerican.com/article/amateur-astronomer-harnesses-ai-to-find-a-possible-hidden-exoplanet/",
           "source": "Scientific American",
-          "summary": "Evidence for the possible super-Earth has been lurking for years in NASA data. Pavel Rabtsevich found it—with a little help from AI",
+          "summary": "Evidence for this possible super-Earth has been lurking for years in NASA data. Pavel Rabtsevich found it—with a little help from AI",
           "published": "2026-10-14T11:00:00+00:00",
           "regional": false
         },
@@ -66,14 +66,6 @@
           "regional": false
         },
         {
-          "title": "What makes a good AI safety test? Experts explain why even the best techniques may not be powerful enough",
-          "link": "https://www.scientificamerican.com/article/what-makes-a-good-ai-safety-test-experts-explain-why-even-the-best-techniques-may-not-be-powerful-enough/",
-          "source": "Scientific American",
-          "summary": "“With today’s science we usually can’t show with high confidence that dangerous behavior isn’t there”",
-          "published": "2026-10-06T14:30:00+00:00",
-          "regional": false
-        },
-        {
           "title": "AI Solves a Major Unsolved Math Problem. Not Everyone Is Happy",
           "link": "https://spectrum.ieee.org/millennium-prize-ai",
           "source": "IEEE Spectrum",
@@ -90,11 +82,35 @@
           "regional": false
         },
         {
+          "title": "LIVESTREAM: Maria Ressa, WNYC’s Brian Lehrer discuss democracy in the age of AI",
+          "link": "https://www.rappler.com/technology/livestream-maria-ressa-wnyc-brian-lehrer-democracy-age-of-ai/",
+          "source": "Rappler",
+          "summary": "Nobel Peace Prize laureate Maria Ressa joins WNYC's Brian Lehrer for a live conversation on defending and rebuilding democracy in the age of artificial intelligence",
+          "published": "2026-10-15T12:28:09+00:00",
+          "regional": true
+        },
+        {
+          "title": "Z.ai’s GLM-5.3 raises researcher fears the Chinese model can fake AI safety tests",
+          "link": "https://www.scmp.com/tech/big-tech/article/3370963/zais-glm-53-raises-researcher-fears-chinese-model-can-fake-ai-safety-tests?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Chinese artificial intelligence lab Z.ai’s latest flagship model, GLM-5.3, may be sophisticated enough to “fake” its way through safety tests, according to a new report published Thursday, sparking new fears about the…",
+          "published": "2026-10-15T10:00:11+00:00",
+          "regional": true
+        },
+        {
           "title": "China approves Alibaba AI models for use in iPhone Duo and other Apple handsets",
           "link": "https://www.scmp.com/tech/big-tech/article/3370893/china-approves-alibaba-ai-models-use-iphone-duo-and-other-apple-handsets?utm_source=rss_feed",
           "source": "South China Morning Post",
           "summary": "China has granted approval for Alibaba Group Holding’s artificial intelligence models to be integrated into several Apple handsets, including the new iPhone Duo, in the Chinese market, clearing a key regulatory hurdle…",
           "published": "2026-10-14T11:06:20+00:00",
+          "regional": true
+        },
+        {
+          "title": "SK hynix looks beyond HBM to tackle AI memory bottlenecks",
+          "link": "https://www.koreaherald.com/article/10902362",
+          "source": "The Korea Herald",
+          "summary": "SK hynix is expanding its AI memory strategy beyond high-bandwidth memory, developing new technologies to address growing data bottlenecks as artificial intelligence shifts toward more complex inference workloads.",
+          "published": "2026-10-14T04:55:34+00:00",
           "regional": true
         },
         {
@@ -111,22 +127,6 @@
           "source": "The Korea Herald",
           "summary": "LG Electronics is teaming up with GS E&C and US cooling specialist Green Revolution Cooling to develop standardized immersion-cooling systems for artificial intelligence data centers, expanding its push into…",
           "published": "2026-10-14T02:24:22+00:00",
-          "regional": true
-        },
-        {
-          "title": "Kakao bets on AI agents to take it beyond messaging",
-          "link": "https://www.koreaherald.com/article/10901081",
-          "source": "The Korea Herald",
-          "summary": "Kakao on Tuesday unveiled an artificial intelligence assistant for its flagship messaging app KakaoTalk as part of a broader push to transform the service into a platform that can handle everyday tasks, from schedule…",
-          "published": "2026-10-13T05:33:03+00:00",
-          "regional": true
-        },
-        {
-          "title": "Yann LeCun sees Korea edge in AI’s shift to physical world",
-          "link": "https://www.koreaherald.com/article/10899735",
-          "source": "The Korea Herald",
-          "summary": "Artificial intelligence’s next breakthrough will come not from ever-larger language models, but from systems that can understand, predict and act in the physical world, AI pioneer Yann LeCun said Monday, arguing that…",
-          "published": "2026-10-12T05:41:14+00:00",
           "regional": true
         },
         {
@@ -160,14 +160,6 @@
           "summary": "On September 22, the global artificial intelligence landscape spun on its axis within a matter of hours. In Beijing, Xiaomi engineers went live with an unusual broadcast, streaming the training run of their new…",
           "published": "2026-10-06T12:00:07+00:00",
           "regional": true
-        },
-        {
-          "title": "China’s AI compute ambitions demand innovation",
-          "link": "https://www.scmp.com/plus/tech/policy/article/3369537/chinas-ai-compute-ambitions-demand-innovation?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "China has set a five-year goal for the expansion of intelligent computing capacity to drive artificial intelligence (AI) that calls for a more than fourfold increase on what was in place at the end of June this year.",
-          "published": "2026-10-02T07:05:21+00:00",
-          "regional": true
         }
       ]
     },
@@ -177,6 +169,22 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "Microplastics are linked to inflammation—scientists might have finally worked out why",
+          "link": "https://www.scientificamerican.com/article/microplastics-are-linked-to-inflammation-scientists-might-have-finally-worked-out-why/",
+          "source": "Scientific American",
+          "summary": "Microplastics interact with water to create highly reactive molecules, a new study finds",
+          "published": "2026-10-14T17:30:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Industrial fire linked to fish and eels' deaths",
+          "link": "https://www.bbc.co.uk/news/videos/cqrky20ndv1jo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Chemicals from firewater runoff entered a brook and spread downstream where dead fish and eels were later found, the Environment Agency has confirmed.",
+          "published": "2026-10-14T16:36:48+00:00",
+          "regional": false
+        },
         {
           "title": "AI reveals a hidden chemical shortcut that could turn CO2 into fuel",
           "link": "https://www.sciencedaily.com/releases/2026/10/261013015758.htm",
@@ -282,35 +290,27 @@
           "regional": false
         },
         {
-          "title": "Distant time crystals can somehow fall into the same rhythm",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260923035934.htm",
-          "source": "ScienceDaily",
-          "summary": "Researchers have shown that multiple time crystals inside a semiconductor can synchronize their oscillations, much like pendulum clocks gradually falling into the same rhythm.",
-          "published": "2026-09-24T13:16:41+00:00",
-          "regional": false
-        },
-        {
-          "title": "ASML’s chip equipment sales to China soar 109% despite US export curb push",
-          "link": "https://www.scmp.com/tech/big-tech/article/3370904/asmls-chip-equipment-sales-china-soar-109-despite-us-export-curb-push?utm_source=rss_feed",
+          "title": "TSMC confirms talks with Elon Musk over Texas ‘Terafab’ but insists on operational control",
+          "link": "https://www.scmp.com/tech/big-tech/article/3371010/tsmc-confirms-talks-elon-musk-over-texas-terafab-insists-operational-control?utm_source=rss_feed",
           "source": "South China Morning Post",
-          "summary": "Dutch semiconductor equipment giant ASML expects China to account for about 20 per cent of its total sales this year, after seeing shipments to the market more than double during the previous quarter despite mounting US…",
-          "published": "2026-10-14T14:00:12+00:00",
+          "summary": "Taiwan Semiconductor Manufacturing Co (TSMC) is in discussions regarding a potential role in Elon Musk’s proposed Terafab project in Texas, according to company chairman and CEO C.C.",
+          "published": "2026-10-15T09:31:35+00:00",
           "regional": true
         },
         {
-          "title": "Foreign selloff sends Kospi down 5.5% as chip giants tumble",
-          "link": "https://www.koreaherald.com/article/10901317",
-          "source": "The Korea Herald",
-          "summary": "Foreign investors' relentless selling sent South Korea's Kospi plunging more than 5 percent Tuesday, briefly pushing the benchmark below 6,000 as sustained capital outflows overshadowed strong semiconductor earnings and…",
-          "published": "2026-10-13T07:21:09+00:00",
+          "title": "Electron chirality found in a symmetric material: JAEA discovers novel state in a uranium compound",
+          "link": "https://sj.jst.go.jp/news/202610/n1015-01k.html",
+          "source": "Science Japan",
+          "summary": "A research group including Group Leader Yo Tokunaga and Postdoctoral Researcher Takayuki Ishitobi (currently a postdoctoral researcher at the Graduate School of Science, Tohoku University) of the Research Group for…",
+          "published": "2026-10-15T04:27:48+00:00",
           "regional": true
         },
         {
-          "title": "US rules give Korean LFP makers rare opening against China",
-          "link": "https://www.koreaherald.com/article/10899834",
-          "source": "The Korea Herald",
-          "summary": "South Korean battery materials makers challenge China’s near-monopoly with a fresh push into lithium iron phosphate cathodes as US restrictions and energy storage demand create an opening for Korean suppliers.",
-          "published": "2026-10-12T06:27:22+00:00",
+          "title": "IISER researchers make solid material that releases two fuel gases",
+          "link": "https://www.thehindu.com/sci-tech/science/iiser-researchers-make-solid-material-that-releases-two-fuel-gases/article71574650.ece",
+          "source": "The Hindu",
+          "summary": "The team developed a compound called magnesium hydridomethylzincate. When it was heated in solution to 100° C, it released hydrogen, and when its crystals were heated in the absence of a solvent at 80-110° C, it…",
+          "published": "2026-10-12T10:52:01+00:00",
           "regional": true
         },
         {
@@ -450,6 +450,14 @@
           "regional": false
         },
         {
+          "title": "Taihan Cable wins W120b US cable supply deal",
+          "link": "https://www.koreaherald.com/article/10903631",
+          "source": "The Korea Herald",
+          "summary": "Taihan Cable & Solution said Thursday it has secured a high-voltage power grid project in the US, signing a 120 billion won ($89 million) cable supply contract as electricity demand surges amid the expansion of…",
+          "published": "2026-10-15T02:35:00+00:00",
+          "regional": true
+        },
+        {
           "title": "Renault targets 2028 for first Korea-built EV",
           "link": "https://www.koreaherald.com/article/10901161",
           "source": "The Korea Herald",
@@ -458,19 +466,11 @@
           "regional": true
         },
         {
-          "title": "GS Caltex wins London awards for carbon capture campaign",
-          "link": "https://www.koreaherald.com/article/10900883",
-          "source": "The Korea Herald",
-          "summary": "GS Caltex scored two prizes at the 2026 London International Awards for a campaign that employs playful, interactive content to explain carbon capture technology, the company said Tuesday.",
-          "published": "2026-10-13T02:40:09+00:00",
-          "regional": true
-        },
-        {
-          "title": "US rules give Korean LFP makers rare opening against China",
-          "link": "https://www.koreaherald.com/article/10899834",
-          "source": "The Korea Herald",
-          "summary": "South Korean battery materials makers challenge China’s near-monopoly with a fresh push into lithium iron phosphate cathodes as US restrictions and energy storage demand create an opening for Korean suppliers.",
-          "published": "2026-10-12T06:27:22+00:00",
+          "title": "IISER researchers make solid material that releases two fuel gases",
+          "link": "https://www.thehindu.com/sci-tech/science/iiser-researchers-make-solid-material-that-releases-two-fuel-gases/article71574650.ece",
+          "source": "The Hindu",
+          "summary": "The team developed a compound called magnesium hydridomethylzincate. When it was heated in solution to 100° C, it released hydrogen, and when its crystals were heated in the absence of a solvent at 80-110° C, it…",
+          "published": "2026-10-12T10:52:01+00:00",
           "regional": true
         },
         {
@@ -538,19 +538,35 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "NASA Astronauts to Answer Questions from Florida Students",
+          "link": "https://www.nasa.gov/learning-resources/nasa-astronauts-to-answer-questions-from-florida-students/",
+          "source": "NASA",
+          "summary": "Editor’s Note: This article was updated Thursday, Oct. 15, 2026, to reflect a change to the event start time. Students in Florida will hear from NASA astronauts Jessica Watkins and Luke Delaney as they answer…",
+          "published": "2026-10-14T19:12:51+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Space X CRS-35 Launch Jellyfish",
+          "link": "https://www.nasa.gov/image-article/nasas-space-x-crs-35-launch-jellyfish/",
+          "source": "NASA",
+          "summary": "Sunlight illuminates the exhaust plumes of a SpaceX Falcon 9 rocket carrying the company’s Dragon spacecraft on Oct. 13, 2026.",
+          "published": "2026-10-14T15:18:38+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Develops Batteries to Power Humanity’s Return to Moon",
+          "link": "https://www.nasa.gov/centers-and-facilities/langley/nasa-develops-batteries-to-power-humanitys-return-to-moon/",
+          "source": "NASA",
+          "summary": "If you’ve ever had your car start sluggishly, or not at all, on a particularly frigid winter morning, you know standard batteries do not like extreme cold.",
+          "published": "2026-10-14T14:41:21+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA to Discuss Artemis Acceleration, Status of Upcoming Moon Missions",
           "link": "https://www.nasa.gov/news-release/nasa-to-discuss-artemis-acceleration-status-of-upcoming-moon-missions/",
           "source": "NASA",
           "summary": "NASA will provide an update on its plans to return American astronauts to the surface of the Moon by 2028 at 2 p.m. EDT, Friday, Oct. 23, at the agency’s Kennedy Space Center in Florida.",
           "published": "2026-10-14T13:32:25+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Names Astronaut Christina Koch Acting Deputy Chief Engineer",
-          "link": "https://www.nasa.gov/news-release/nasa-names-astronaut-christina-koch-acting-deputy-chief-engineer/",
-          "source": "NASA",
-          "summary": "NASA engineer and astronaut Christina Koch will serve as the agency’s acting deputy chief engineer beginning on Sunday, Nov.",
-          "published": "2026-10-13T20:41:11+00:00",
           "regional": false
         },
         {
@@ -562,43 +578,27 @@
           "regional": false
         },
         {
-          "title": "NASA’s Record-Setting Perseverance Rover Team",
-          "link": "https://science.nasa.gov/photojournal/nasas-record-setting-perseverance-rover-team/",
-          "source": "NASA",
-          "summary": "Description Members of NASA’s Perseverance Mars mission team gather in the Mars Yard at the agency’s Jet Propulsion Laboratory in Southern California with a certificate from Guinness World Records marking the rover…",
-          "published": "2026-10-13T17:48:46+00:00",
-          "regional": false
-        },
-        {
-          "title": "Perseverance Navcam Image Marks Record Drive",
-          "link": "https://science.nasa.gov/photojournal/perseverance-navcam-image-marks-record-drive/",
-          "source": "NASA",
-          "summary": "Description Rover tracks and a rocky Martian landscape are shown in this image captured by one of the navigation cameras (navcams) aboard NASA’s Perseverance Mars rover on Oct.",
-          "published": "2026-10-13T17:42:51+00:00",
-          "regional": false
-        },
-        {
-          "title": "Transporter-18 SmallSats Encapsulation",
-          "link": "https://www.nasa.gov/image-article/transporter-18-smallsats-encapsulation/",
-          "source": "NASA",
-          "summary": "Three NASA-supported small spacecraft, along with many commercial payloads, are shown before being encapsulated in a SpaceX Falcon 9 ahead of launch on Oct. 1, 2026.",
-          "published": "2026-10-13T17:38:37+00:00",
-          "regional": false
-        },
-        {
-          "title": "Voyager Technologies’ Griffin-1 Completes Environmental Testing at NASA JPL",
-          "link": "https://science.nasa.gov/photojournal/voyager-technologies-griffin-1-completes-environmental-testing-at-nasa-jpl/",
-          "source": "NASA",
-          "summary": "Description A lunar lander from Voyager Technologies completed nearly three months of environmental testing at NASA’s Jet Propulsion Laboratory in Southern California in late September 2026.",
-          "published": "2026-10-13T17:11:11+00:00",
-          "regional": false
-        },
-        {
           "title": "Press conference: ESA astronaut Sophie Adenot returns to Europe",
           "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Press_conference_ESA_astronaut_Sophie_Adenot_returns_to_Europe",
           "source": "ESA",
           "summary": "Video: 00:59:23 ESA astronaut Sophie Adenot has returned to Europe following her 237-day εpsilon mission aboard the International Space Station.",
           "published": "2026-10-13T10:20:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "ExoMars rover twin rehearses first drive",
+          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ExoMars_rover_twin_rehearses_first_drive",
+          "source": "ESA",
+          "summary": "Before the Rosalind Franklin rover can explore Mars, it must first get off its lander.",
+          "published": "2026-10-12T09:30:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Preparing for a first drive on Mars",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Preparing_for_a_first_drive_on_Mars",
+          "source": "ESA",
+          "summary": "Video: 00:01:45 Before Rosalind Franklin can explore Mars, it has to get off its lander. Engineers are rehearsing that first journey on Earth, using a full-size rover model and Mars-like terrain.",
+          "published": "2026-10-12T09:00:00+00:00",
           "regional": false
         },
         {
@@ -634,6 +634,14 @@
           "regional": false
         },
         {
+          "title": "Splashdown confirmed for Sophie Adenot",
+          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Splashdown_confirmed_for_Sophie_Adenot",
+          "source": "ESA",
+          "summary": "ESA astronaut Sophie Adenot returned to Earth with Crew-12 after her nearly eight-month εpsilon mission to the International Space Station, splashing down off the coast of California, USA, at 15:34 GMT/17:34 CEST on 8…",
+          "published": "2026-10-08T16:51:00+00:00",
+          "regional": false
+        },
+        {
           "title": "Artemis II images boost NASA’s moon base plans",
           "link": "https://www.scientificamerican.com/article/artemis-ii-images-boost-nasas-moon-base-plans/",
           "source": "Scientific American",
@@ -663,14 +671,6 @@
           "source": "ESA",
           "summary": "For eight days, a Mars rover prototype travelled 220 metres across a barren landscape, following commands from a science team some 1200 kilometres away.",
           "published": "2026-10-06T08:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "United Arab Emirates to launch spacecraft to probe seven asteroids in 2028",
-          "link": "https://www.scientificamerican.com/article/united-arab-emirates-to-launch-spacecraft-to-probe-seven-asteroids-in-2028/",
-          "source": "Scientific American",
-          "summary": "The country’s space program is new and ambitious, having already sent a mission into Mars orbit",
-          "published": "2026-10-05T16:30:00+00:00",
           "regional": false
         },
         {
@@ -730,6 +730,14 @@
           "regional": false
         },
         {
+          "title": "S. Korean microsatellite constellation captures first images within a day of launch",
+          "link": "https://www.koreaherald.com/article/10903690",
+          "source": "The Korea Herald",
+          "summary": "A constellation of five South Korean microsatellites successfully captured and transmitted its first images to a ground station within a day of launch aboard the country's homegrown Nuri space rocket last week, the…",
+          "published": "2026-10-15T03:17:37+00:00",
+          "regional": true
+        },
+        {
           "title": "TRISHNA satellite is in advanced stage of realisation, says ISRO official",
           "link": "https://www.thehindu.com/sci-tech/science/trishna-satellite-is-in-advanced-stage-of-realisation-says-isro-official/article71571635.ece",
           "source": "The Hindu",
@@ -778,14 +786,6 @@
           "regional": true
         },
         {
-          "title": "Students should be encouraged to develop scientific temperament, says Deputy Director of U. R. Rao Satellite Centre",
-          "link": "https://www.thehindu.com/news/cities/Mangalore/students-should-be-encouraged-to-develop-scientific-temperament-says-deputy-director-of-u-r-rao-satellite-centre/article71555841.ece",
-          "source": "The Hindu",
-          "summary": "Pilikula Development Authority organises two-day World Space Week - 2026 programme at Pilikula on October 7",
-          "published": "2026-10-07T13:43:53+00:00",
-          "regional": true
-        },
-        {
           "title": "Analysis: Why NASA wants to build a nuclear reactor on the moon",
           "link": "https://www.thehindu.com/sci-tech/science/analysis-why-nasa-wants-to-build-nuclear-reactor-on-the-moon/article71552807.ece",
           "source": "The Hindu",
@@ -821,15 +821,15 @@
           "title": "Amateur astronomer harnesses AI to find a possible hidden exoplanet",
           "link": "https://www.scientificamerican.com/article/amateur-astronomer-harnesses-ai-to-find-a-possible-hidden-exoplanet/",
           "source": "Scientific American",
-          "summary": "Evidence for the possible super-Earth has been lurking for years in NASA data. Pavel Rabtsevich found it—with a little help from AI",
+          "summary": "Evidence for this possible super-Earth has been lurking for years in NASA data. Pavel Rabtsevich found it—with a little help from AI",
           "published": "2026-10-14T11:00:00+00:00",
           "regional": false
         },
         {
-          "title": "Simons Observatory takes a closer look at the infant universe",
+          "title": "Mountaintop microwave observatory will peer into the infant universe",
           "link": "https://www.science.org/content/article/simons-observatory-takes-closer-look-infant-universe",
           "source": "Science (AAAS)",
-          "summary": "New facility in Chile will hunt for signs of cosmic inflation while using the microwave background to discover galaxy clusters",
+          "summary": "The Simons Observatory in Chile will will hunt for galaxy clusters and signs of cosmic inflation",
           "published": "2026-10-14T05:00:00+00:00",
           "regional": false
         },
@@ -914,19 +914,27 @@
           "regional": false
         },
         {
-          "title": "Astronomers catch dwarf stars gobbling up their orbiting companions",
-          "link": "https://www.scientificamerican.com/article/astronomers-catch-dwarf-stars-gobbling-up-their-orbiting-companions/",
-          "source": "Scientific American",
-          "summary": "Red and white dwarf stars may be hungrier than we thought",
-          "published": "2026-10-05T15:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Don't miss: Watch Saturn shine and Halley’s Comet debris streak across the sky",
           "link": "https://www.sciencedaily.com/releases/2026/10/261005071523.htm",
           "source": "ScienceDaily",
           "summary": "October skywatchers can see Saturn at opposition, catch meteors from Halley’s Comet during the Orionid peak, and watch the Moon sweep past the famous Pleiades star cluster.",
           "published": "2026-10-05T11:59:17+00:00",
+          "regional": false
+        },
+        {
+          "title": "A meteor hit Oklahoma 100 million years later than scientists thought",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261002080012.htm",
+          "source": "ScienceDaily",
+          "summary": "A meteor crater buried beneath Oklahoma has turned out to be nearly 100 million years younger than scientists thought.",
+          "published": "2026-10-04T12:41:43+00:00",
+          "regional": false
+        },
+        {
+          "title": "Scientists find a surprising clue to why the universe’s expansion doesn’t add up",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261002080026.htm",
+          "source": "ScienceDaily",
+          "summary": "Tiny magnetic fields created shortly after the Big Bang may help explain the long-running disagreement over how fast the universe is expanding.",
+          "published": "2026-10-04T12:05:54+00:00",
           "regional": false
         },
         {
@@ -1002,19 +1010,27 @@
           "regional": false
         },
         {
-          "title": "These massive stars could explain Webb’s strangest galaxies",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260923035922.htm",
-          "source": "ScienceDaily",
-          "summary": "Hubble observations of massive stars in metal-poor dwarf galaxies are revealing clues to why the early universe looks so unusual.",
-          "published": "2026-09-24T10:42:50+00:00",
-          "regional": false
-        },
-        {
           "title": "The Nobel for IceCube and the search for neutrinos from outer space | Explained",
           "link": "https://www.thehindu.com/sci-tech/science/the-nobel-for-icecube-and-the-search-for-neutrinos-from-outer-space-explained/article71554101.ece",
           "source": "The Hindu",
           "summary": "The IceCube Neutrino Observatory at the South Pole has won Francis Halzen the Nobel Prize for physics by opening a window into parts of the universe that were until recently beyond our reach",
           "published": "2026-10-13T10:10:38+00:00",
+          "regional": true
+        },
+        {
+          "title": "Young, close-in planets live dangerously",
+          "link": "https://www.mpg.de/27027670/young-close-in-planets-love-to-live-dangerously",
+          "source": "Max Planck Society",
+          "summary": "First discovery of a planet orbiting its host star so closely that the planet's magnetic field triggers radiation bursts from the star",
+          "published": "2026-10-12T11:00:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "First detection of heavy methanol in space",
+          "link": "https://www.mpg.de/26834976/first-detection-of-heavy-methanol-in-space",
+          "source": "Max Planck Society",
+          "summary": "Methanol containing heavy hydrogen is considered the building block of complex organic molecules and allows us to trace how stars and planets form from extremely cold interstellar gas and dust",
+          "published": "2026-10-06T22:00:00+00:00",
           "regional": true
         },
         {
