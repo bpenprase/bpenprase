@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-15T13:47:54.588717+00:00",
-  "generated_human": "15 October 2026, 13:47 UTC",
-  "total_items": 126,
+  "generated": "2026-10-16T13:37:58.671790+00:00",
+  "generated_human": "16 October 2026, 13:37 UTC",
+  "total_items": 121,
   "channels": [
     {
       "key": "ai",
@@ -58,14 +58,6 @@
           "regional": false
         },
         {
-          "title": "As AI Closed In on ‘Unique Games’ Proof, Researchers Raced to Beat the Machines",
-          "link": "https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/",
-          "source": "Quanta Magazine",
-          "summary": "In the shadow of a rumored AI proof of one of the biggest problems in their field, three computer scientists rushed to publish their own milestone result.",
-          "published": "2026-10-07T15:08:46+00:00",
-          "regional": false
-        },
-        {
           "title": "AI Solves a Major Unsolved Math Problem. Not Everyone Is Happy",
           "link": "https://spectrum.ieee.org/millennium-prize-ai",
           "source": "IEEE Spectrum",
@@ -80,6 +72,14 @@
           "summary": "Yossi Matias, Vice President & Head of Google Research, explores how AI is beginning to reshape biology, infrastructure, manufacturing, and science, and why its greatest impact may come when it intersects with other…",
           "published": "2026-10-05T04:00:00+00:00",
           "regional": false
+        },
+        {
+          "title": "CERN and Mistral partner to build AI foundation models for physics",
+          "link": "https://www.thehindu.com/sci-tech/science/cern-and-mistral-partner-to-build-ai-foundation-models-for-physics/article71591196.ece",
+          "source": "The Hindu",
+          "summary": "It is meant to replace some specialised ‌algorithms now used to reconstruct ​and identify particles",
+          "published": "2026-10-16T05:19:00+00:00",
+          "regional": true
         },
         {
           "title": "LIVESTREAM: Maria Ressa, WNYC’s Brian Lehrer discuss democracy in the age of AI",
@@ -152,14 +152,6 @@
           "summary": "China’s open-weight artificial intelligence models are taking off globally, but much of the money they generate is flowing to third-party providers rather than the companies that create them, according to a new study.",
           "published": "2026-10-07T11:00:09+00:00",
           "regional": true
-        },
-        {
-          "title": "As China’s AI race accelerates, ‘model fatigue’ becomes the next challenge",
-          "link": "https://www.scmp.com/tech/big-tech/article/3369757/chinas-ai-race-accelerates-model-fatigue-becomes-next-challenge?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "On September 22, the global artificial intelligence landscape spun on its axis within a matter of hours. In Beijing, Xiaomi engineers went live with an unusual broadcast, streaming the training run of their new…",
-          "published": "2026-10-06T12:00:07+00:00",
-          "regional": true
         }
       ]
     },
@@ -169,6 +161,14 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "A quantum highway just one atom high could transform superconductors",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261014072018.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists discovered that atomic steps just one atom high can guide quantum vortices through superconductors, making them move more than 1,000 times more easily in one direction than another.",
+          "published": "2026-10-16T04:22:01+00:00",
+          "regional": false
+        },
         {
           "title": "Microplastics are linked to inflammation—scientists might have finally worked out why",
           "link": "https://www.scientificamerican.com/article/microplastics-are-linked-to-inflammation-scientists-might-have-finally-worked-out-why/",
@@ -234,14 +234,6 @@
           "regional": false
         },
         {
-          "title": "2026 Nobel Prize in Chemistry is awarded to Henri Kagan and Kenso Soai for their work in ‘mirror’ chemistry",
-          "link": "https://www.scientificamerican.com/article/2026-nobel-prize-in-chemistry-is-award-to-henri-kagan-and-kenso-soai-for-their-work-in-mirror-chemistry/",
-          "source": "Scientific American",
-          "summary": "The prize recognizes Henri Kagan and Kenso Soai’s discovery of nonlinear effects and autocatalysis in asymmetric organic synthesis",
-          "published": "2026-10-07T09:45:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Scientists finally see how nature moves energy so efficiently",
           "link": "https://www.sciencedaily.com/releases/2026/10/261004001841.htm",
           "source": "ScienceDaily",
@@ -290,11 +282,27 @@
           "regional": false
         },
         {
+          "title": "ASML eyes hybrid bonding, report finds, as Chinese firms adopt chip packaging technique",
+          "link": "https://www.scmp.com/tech/tech-trends/article/3371181/asml-eyes-hybrid-bonding-report-finds-chinese-firms-adopt-chip-packaging-technique?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Dutch semiconductor equipment giant ASML is expanding into next-generation hybrid bonding, a technique that creates dense electrical connections by directly joining chips or silicon wafers, according to a new report.",
+          "published": "2026-10-16T12:30:12+00:00",
+          "regional": true
+        },
+        {
           "title": "TSMC confirms talks with Elon Musk over Texas ‘Terafab’ but insists on operational control",
           "link": "https://www.scmp.com/tech/big-tech/article/3371010/tsmc-confirms-talks-elon-musk-over-texas-terafab-insists-operational-control?utm_source=rss_feed",
           "source": "South China Morning Post",
           "summary": "Taiwan Semiconductor Manufacturing Co (TSMC) is in discussions regarding a potential role in Elon Musk’s proposed Terafab project in Texas, according to company chairman and CEO C.C.",
           "published": "2026-10-15T09:31:35+00:00",
+          "regional": true
+        },
+        {
+          "title": "Samsung's top brass converge in Tokyo as Japan chip ties deepen",
+          "link": "https://www.koreaherald.com/article/10903844",
+          "source": "The Korea Herald",
+          "summary": "Samsung Electronics Chairman Lee Jae-yong reportedly met with five top executives in Tokyo this week, fueling speculation over the company's semiconductor strategy in Japan and broader business priorities.",
+          "published": "2026-10-15T05:26:18+00:00",
           "regional": true
         },
         {
@@ -352,22 +360,6 @@
           "summary": "Company appoints Hari Prasad as India MD as water-treatment firm wins five contracts across semiconductor, PCB and solar manufacturing",
           "published": "2026-10-07T11:11:29+00:00",
           "regional": true
-        },
-        {
-          "title": "How protein biosensors can shrink the timeline of medical emergencies",
-          "link": "https://www.thehindu.com/sci-tech/science/how-protein-biosensors-can-shrink-the-timeline-of-medical-emergencies/article71221365.ece",
-          "source": "The Hindu",
-          "summary": "Proteins are important diagnostic targets because they are involved in almost every biological process; over the last two decades, scientists have developed aptamers for hundreds of disease-relevant proteins and have…",
-          "published": "2026-10-05T16:16:25+00:00",
-          "regional": true
-        },
-        {
-          "title": "In this Delhi studio, tintype brings chemistry into every portrait",
-          "link": "https://www.thehindu.com/sci-tech/science/in-this-delhi-studio-tintype-brings-chemistry-into-every-portrait/article71546707.ece",
-          "source": "The Hindu",
-          "summary": "Tintype is a ‘traditional, hand-made process’ from the mid-19th century to produce photographs; it seems simple yet it conceals a process that demands scientific precision — and therein lies its charm",
-          "published": "2026-10-05T10:19:52+00:00",
-          "regional": true
         }
       ]
     },
@@ -418,14 +410,6 @@
           "regional": false
         },
         {
-          "title": "BBC Inside Science",
-          "link": "https://www.bbc.co.uk/sounds/play/w3ct9785?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Might the UK and US joining their AI forces help solve nuclear fusion?",
-          "published": "2026-09-17T20:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Scientists turn seawater into fresh water without harmful brine",
           "link": "https://www.sciencedaily.com/releases/2026/09/260915100137.htm",
           "source": "ScienceDaily",
@@ -455,14 +439,6 @@
           "source": "The Korea Herald",
           "summary": "Taihan Cable & Solution said Thursday it has secured a high-voltage power grid project in the US, signing a 120 billion won ($89 million) cable supply contract as electricity demand surges amid the expansion of…",
           "published": "2026-10-15T02:35:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "Renault targets 2028 for first Korea-built EV",
-          "link": "https://www.koreaherald.com/article/10901161",
-          "source": "The Korea Herald",
-          "summary": "French automaker Renault Group plans to launch a South Korean-made electric vehicle with advanced driver-assistance technology in 2028, as it accelerates electrification and looks to boost exports from its Busan plant.",
-          "published": "2026-10-13T06:13:31+00:00",
           "regional": true
         },
         {
@@ -498,14 +474,6 @@
           "regional": true
         },
         {
-          "title": "Child malnutrition is one of Africa’s biggest health challenges: food aid is only part of the solution",
-          "link": "https://theconversation.com/child-malnutrition-is-one-of-africas-biggest-health-challenges-food-aid-is-only-part-of-the-solution-291163",
-          "source": "The Conversation",
-          "summary": "A lack of food is not the only cause of malnutrition. Poverty, disease, poor sanitation, climate pressures and limited access to healthcare also shape it.",
-          "published": "2026-09-28T13:47:25+00:00",
-          "regional": true
-        },
-        {
           "title": "Molecular insight into biological nitrogen fixation close to the boiling point",
           "link": "https://www.mpg.de/26973793/molecular-insight-into-biological-nitrogen-fixation-close-to-the-boiling-point",
           "source": "Max Planck Society",
@@ -538,43 +506,35 @@
       "accent": "#F0894E",
       "items": [
         {
-          "title": "NASA Astronauts to Answer Questions from Florida Students",
-          "link": "https://www.nasa.gov/learning-resources/nasa-astronauts-to-answer-questions-from-florida-students/",
+          "title": "NASA to Help Unlock Mysteries of Mars’ Moons in Upcoming Mission",
+          "link": "https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-to-help-unlock-mysteries-of-mars-moons-in-upcoming-mission/",
           "source": "NASA",
-          "summary": "Editor’s Note: This article was updated Thursday, Oct. 15, 2026, to reflect a change to the event start time. Students in Florida will hear from NASA astronauts Jessica Watkins and Luke Delaney as they answer…",
-          "published": "2026-10-14T19:12:51+00:00",
+          "summary": "NASA is playing an important role in JAXA’s (Japan Aerospace Exploration Agency) MMX (Martian Moons eXploration) mission, to advance our understanding of Mars’ moons and build on the agency’s long history of exploring…",
+          "published": "2026-10-15T19:58:08+00:00",
           "regional": false
         },
         {
-          "title": "NASA’s Space X CRS-35 Launch Jellyfish",
-          "link": "https://www.nasa.gov/image-article/nasas-space-x-crs-35-launch-jellyfish/",
+          "title": "NASA Satellites Observe Historic 2026 El Niño",
+          "link": "https://science.nasa.gov/earth/nasa-satellites-observe-historic-2026-el-nino/",
           "source": "NASA",
-          "summary": "Sunlight illuminates the exhaust plumes of a SpaceX Falcon 9 rocket carrying the company’s Dragon spacecraft on Oct. 13, 2026.",
-          "published": "2026-10-14T15:18:38+00:00",
+          "summary": "A phenomenon rarer than a solar eclipse and more powerful than any single storm system is unfolding this fall, and NASA is tracking it closely.",
+          "published": "2026-10-15T17:59:22+00:00",
           "regional": false
         },
         {
-          "title": "NASA Develops Batteries to Power Humanity’s Return to Moon",
-          "link": "https://www.nasa.gov/centers-and-facilities/langley/nasa-develops-batteries-to-power-humanitys-return-to-moon/",
+          "title": "NASA Awards Enable Research, Technology to Build Future Workforce",
+          "link": "https://www.nasa.gov/learning-resources/nasa-awards-enable-research-technology-to-build-future-workforce/",
           "source": "NASA",
-          "summary": "If you’ve ever had your car start sluggishly, or not at all, on a particularly frigid winter morning, you know standard batteries do not like extreme cold.",
-          "published": "2026-10-14T14:41:21+00:00",
+          "summary": "NASA has selected 12 U.S. institutions to receive $12 million to accelerate academic research and technology development in support of the agency’s priorities for exploring the Moon, Mars, and deep space.",
+          "published": "2026-10-15T15:57:47+00:00",
           "regional": false
         },
         {
-          "title": "NASA to Discuss Artemis Acceleration, Status of Upcoming Moon Missions",
-          "link": "https://www.nasa.gov/news-release/nasa-to-discuss-artemis-acceleration-status-of-upcoming-moon-missions/",
+          "title": "Rigorous Analysis Confirms NASA’s Artemis II Heat Shield Performance",
+          "link": "https://www.nasa.gov/missions/artemis/artemis-2/rigorous-analysis-confirms-nasas-artemis-ii-heat-shield-performance/",
           "source": "NASA",
-          "summary": "NASA will provide an update on its plans to return American astronauts to the surface of the Moon by 2028 at 2 p.m. EDT, Friday, Oct. 23, at the agency’s Kennedy Space Center in Florida.",
-          "published": "2026-10-14T13:32:25+00:00",
-          "regional": false
-        },
-        {
-          "title": "'Jellyfish' effect lights up US sky after SpaceX launch",
-          "link": "https://www.bbc.co.uk/news/videos/cr86zjv5plp5o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "A 'Jellyfish' effect lit up the sky in US after a SpaceX Falcon 9 rocket launch.",
-          "published": "2026-10-13T18:35:34+00:00",
+          "summary": "NASA’s Artemis II mission sent four astronauts around the Moon and brought them safely back to Earth, laying a foundation for crewed flights to the Moon’s surface.",
+          "published": "2026-10-15T14:57:21+00:00",
           "regional": false
         },
         {
@@ -671,6 +631,14 @@
           "source": "ESA",
           "summary": "For eight days, a Mars rover prototype travelled 220 metres across a barren landscape, following commands from a science team some 1200 kilometres away.",
           "published": "2026-10-06T08:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "A guide to blood draws in orbit",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/A_guide_to_blood_draws_in_orbit",
+          "source": "ESA",
+          "summary": "Video: 00:01:52 This video was published on social media by ESA astronaut Sophie Adenot with the following caption: Just another morning in space… this one starting with a blood draw!",
+          "published": "2026-10-02T10:30:00+00:00",
           "regional": false
         },
         {
@@ -786,6 +754,14 @@
           "regional": true
         },
         {
+          "title": "Students should be encouraged to develop scientific temperament, says Deputy Director of U. R. Rao Satellite Centre",
+          "link": "https://www.thehindu.com/news/cities/Mangalore/students-should-be-encouraged-to-develop-scientific-temperament-says-deputy-director-of-u-r-rao-satellite-centre/article71555841.ece",
+          "source": "The Hindu",
+          "summary": "Pilikula Development Authority organises two-day World Space Week - 2026 programme at Pilikula on October 7",
+          "published": "2026-10-07T13:43:53+00:00",
+          "regional": true
+        },
+        {
           "title": "Analysis: Why NASA wants to build a nuclear reactor on the moon",
           "link": "https://www.thehindu.com/sci-tech/science/analysis-why-nasa-wants-to-build-nuclear-reactor-on-the-moon/article71552807.ece",
           "source": "The Hindu",
@@ -800,14 +776,6 @@
           "summary": "This article is part of Space Wrap, a round-up of space news and developments in and related to India every month",
           "published": "2026-10-06T10:48:45+00:00",
           "regional": true
-        },
-        {
-          "title": "Multiple Indian payloads launched by Space X’s Falcon 9",
-          "link": "https://www.thehindu.com/sci-tech/science/multiple-indian-payloads-launched-by-space-xs-falcon-9/article71535904.ece",
-          "source": "The Hindu",
-          "summary": "Dhruva Space’s LEAP-2, hosting multiple In-Orbit Demonstration (IOD) missions, which includes a star tracker by France-based Sodern ArianeGroup, and TAPAS-1 by India-based Satleo Labs, was part of the Transporter-18…",
-          "published": "2026-10-05T03:18:49+00:00",
-          "regional": true
         }
       ]
     },
@@ -817,6 +785,22 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "Astronomers discover a strange universal rule behind black hole eruptions",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261014015507.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have discovered that black holes of vastly different sizes appear to launch powerful jets according to the same universal rule.",
+          "published": "2026-10-16T10:45:33+00:00",
+          "regional": false
+        },
+        {
+          "title": "How many planets could fit in the solar system?",
+          "link": "https://www.scientificamerican.com/article/how-many-planets-could-fit-in-the-solar-system/",
+          "source": "Scientific American",
+          "summary": "As far-fetched as it may seem, quirks of orbital mechanics could allow hundreds of planets to be packed around a star",
+          "published": "2026-10-16T10:45:00+00:00",
+          "regional": false
+        },
         {
           "title": "Amateur astronomer harnesses AI to find a possible hidden exoplanet",
           "link": "https://www.scientificamerican.com/article/amateur-astronomer-harnesses-ai-to-find-a-possible-hidden-exoplanet/",
@@ -930,14 +914,6 @@
           "regional": false
         },
         {
-          "title": "Scientists find a surprising clue to why the universe’s expansion doesn’t add up",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261002080026.htm",
-          "source": "ScienceDaily",
-          "summary": "Tiny magnetic fields created shortly after the Big Bang may help explain the long-running disagreement over how fast the universe is expanding.",
-          "published": "2026-10-04T12:05:54+00:00",
-          "regional": false
-        },
-        {
           "title": "Powerful simulations reveal how the first stars changed the universe",
           "link": "https://www.sciencedaily.com/releases/2026/10/261001214012.htm",
           "source": "ScienceDaily",
@@ -1002,14 +978,6 @@
           "regional": false
         },
         {
-          "title": "“We found something never seen before” – A dead star is producing a shock wave that shouldn’t exist",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260924020410.htm",
-          "source": "ScienceDaily",
-          "summary": "A dead white dwarf with no detectable disk has somehow produced a powerful shock wave that appears to have persisted for at least 1,000 years.",
-          "published": "2026-09-25T03:19:34+00:00",
-          "regional": false
-        },
-        {
           "title": "The Nobel for IceCube and the search for neutrinos from outer space | Explained",
           "link": "https://www.thehindu.com/sci-tech/science/the-nobel-for-icecube-and-the-search-for-neutrinos-from-outer-space-explained/article71554101.ece",
           "source": "The Hindu",
@@ -1047,14 +1015,6 @@
           "source": "The Hindu",
           "summary": "Anna Mani, who dedicated her life to improving weather forecasting in the country, dared to venture into areas India had never stepped into before",
           "published": "2026-10-06T07:23:14+00:00",
-          "regional": true
-        },
-        {
-          "title": "Multiple Indian payloads launched by Space X’s Falcon 9",
-          "link": "https://www.thehindu.com/sci-tech/science/multiple-indian-payloads-launched-by-space-xs-falcon-9/article71535904.ece",
-          "source": "The Hindu",
-          "summary": "Dhruva Space’s LEAP-2, hosting multiple In-Orbit Demonstration (IOD) missions, which includes a star tracker by France-based Sodern ArianeGroup, and TAPAS-1 by India-based Satleo Labs, was part of the Transporter-18…",
-          "published": "2026-10-05T03:18:49+00:00",
           "regional": true
         }
       ]
