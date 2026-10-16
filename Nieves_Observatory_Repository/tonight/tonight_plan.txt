@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-10-15 15:01 PDT
-; Observing window starts 2026-10-15 19:40 PDT  (LST 20:27:37)
+; Generated 2026-10-16 14:57 PDT
+; Observing window starts 2026-10-16 19:40 PDT  (LST 20:31:33)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -55,7 +55,7 @@ CT C/2024 J3
 #filter r',g',i',z'
 M 11
 
-; Comet C/2026 A2 (Bok)  mag 12.7
+; Comet C/2026 A2 (Bok)  mag 13.3
 #posang 0
 #count 3
 #interval 300
@@ -128,15 +128,6 @@ NGC 6995
 #binning 1,3,3,3
 #filter r',Ha,OIII,SII
 NGC 7000
-
-; Comet 161P/Hartley-IRAS  mag 10.7
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 161P/Hartley-IRAS
-#WAITINLIMITS 60
 
 ; Cluster + Nebula  mag 7.2  size 10.00'  Cocoon Nebula
 #posang 0
@@ -344,16 +335,7 @@ NGC 1023
 #filter r',g',i',z'
 M 77
 
-; Comet 88P/Howell  mag 13.5
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 88P/Howell
-#WAITINLIMITS 60
-
-; Comet 220P/McNaught  mag 12.4
+; Comet 220P/McNaught  mag 13.1
 #posang 0
 #count 3
 #interval 300
@@ -403,7 +385,7 @@ M 42
 #filter r',Ha,OIII,SII
 NGC 1980
 
-; Comet C/2024 T5 (ATLAS)  mag 13.0
+; Comet C/2024 T5 (ATLAS)  mag 13.8
 #posang 0
 #count 3
 #interval 300
@@ -500,6 +482,15 @@ M 47
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 2403
+
+; Comet 78P/Gehrels  mag 13.3
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT 78P/Gehrels
+#WAITINLIMITS 60
 
 ; Galaxy  mag 11.7  size 2.07'  Bear Claw Nebula,Bear-Paw Galaxy
 #posang 0
