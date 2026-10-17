@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-16T13:37:58.671790+00:00",
-  "generated_human": "16 October 2026, 13:37 UTC",
-  "total_items": 121,
+  "generated": "2026-10-17T12:34:36.495935+00:00",
+  "generated_human": "17 October 2026, 12:34 UTC",
+  "total_items": 119,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+          "link": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+          "source": "MIT Technology Review",
+          "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints…",
+          "published": "2026-10-16T18:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "Amateur astronomer harnesses AI to find a possible hidden exoplanet",
           "link": "https://www.scientificamerican.com/article/amateur-astronomer-harnesses-ai-to-find-a-possible-hidden-exoplanet/",
@@ -31,14 +39,6 @@
           "source": "IEEE Spectrum",
           "summary": "Today’s engineers face an unprecedented acceleration in AI hardware complexity, as explained in the recent research article “ Revisiting Edge AI: Opportunities and Challenges .” The article examines the rapid growth of…",
           "published": "2026-10-09T18:00:02+00:00",
-          "regional": false
-        },
-        {
-          "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-          "link": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-          "source": "MIT Technology Review",
-          "summary": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for…",
-          "published": "2026-10-09T00:08:24+00:00",
           "regional": false
         },
         {
@@ -72,6 +72,22 @@
           "summary": "Yossi Matias, Vice President & Head of Google Research, explores how AI is beginning to reshape biology, infrastructure, manufacturing, and science, and why its greatest impact may come when it intersects with other…",
           "published": "2026-10-05T04:00:00+00:00",
           "regional": false
+        },
+        {
+          "title": "China’s proposed AI tech export bans may create short-term costs, long-term gains: analysts",
+          "link": "https://www.scmp.com/tech/big-tech/article/3371247/chinas-proposed-ai-tech-export-bans-may-create-short-term-costs-long-term-gains-analysts?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "China’s proposed export bans and controls of artificial intelligence technologies aim to tighten Beijing’s grip in the strategically vital sector, casting a cloud over the commercial prospects of domestic model…",
+          "published": "2026-10-17T12:00:11+00:00",
+          "regional": true
+        },
+        {
+          "title": "Alibaba to embed AI throughout Taobao, Tmall merchant operations in 2027: executive",
+          "link": "https://www.scmp.com/tech/big-tech/article/3371203/alibaba-embed-ai-throughout-taobao-tmall-merchant-operations-2027-executive?utm_source=rss_feed",
+          "source": "South China Morning Post",
+          "summary": "Alibaba Group Holding’s two major domestic online marketplaces, Taobao and Tmall, plan to greatly expand the use of artificial intelligence across merchants’ operations next year, a senior executive said, as the…",
+          "published": "2026-10-16T13:37:50+00:00",
+          "regional": true
         },
         {
           "title": "CERN and Mistral partner to build AI foundation models for physics",
@@ -114,22 +130,6 @@
           "regional": true
         },
         {
-          "title": "LG CNS teams up with Japan's KDDI to expand AI business in Asia",
-          "link": "https://www.koreaherald.com/article/10902251",
-          "source": "The Korea Herald",
-          "summary": "LG CNS said Wednesday it has partnered with Japanese telecom giant KDDI to expand artificial intelligence and digital transformation businesses across the Asia-Pacific region.",
-          "published": "2026-10-14T02:36:01+00:00",
-          "regional": true
-        },
-        {
-          "title": "LG Electronics expands AI cooling push with GS E&C, GRC",
-          "link": "https://www.koreaherald.com/article/10902204",
-          "source": "The Korea Herald",
-          "summary": "LG Electronics is teaming up with GS E&C and US cooling specialist Green Revolution Cooling to develop standardized immersion-cooling systems for artificial intelligence data centers, expanding its push into…",
-          "published": "2026-10-14T02:24:22+00:00",
-          "regional": true
-        },
-        {
           "title": "Can China match up with Meta’s Muse in race to harness AI agents?",
           "link": "https://www.scmp.com/tech/big-tech/article/3370123/can-china-match-metas-muse-race-harness-ai-agents?utm_source=rss_feed",
           "source": "South China Morning Post",
@@ -162,6 +162,14 @@
       "accent": "#E8A13A",
       "items": [
         {
+          "title": "Plants move to get away from their decaying brethren",
+          "link": "https://www.scientificamerican.com/article/plants-move-to-get-away-from-their-decaying-brethren/",
+          "source": "Scientific American",
+          "summary": "A new discovery reveals how plants protect themselves from microbes in rotting material",
+          "published": "2026-10-17T11:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "A quantum highway just one atom high could transform superconductors",
           "link": "https://www.sciencedaily.com/releases/2026/10/261014072018.htm",
           "source": "ScienceDaily",
@@ -175,14 +183,6 @@
           "source": "Scientific American",
           "summary": "Microplastics interact with water to create highly reactive molecules, a new study finds",
           "published": "2026-10-14T17:30:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Industrial fire linked to fish and eels' deaths",
-          "link": "https://www.bbc.co.uk/news/videos/cqrky20ndv1jo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Chemicals from firewater runoff entered a brook and spread downstream where dead fish and eels were later found, the Environment Agency has confirmed.",
-          "published": "2026-10-14T16:36:48+00:00",
           "regional": false
         },
         {
@@ -282,6 +282,22 @@
           "regional": false
         },
         {
+          "title": "Gradiant bets big on India, secures five contracts, including semiconductor fab",
+          "link": "https://www.thehindu.com/business/Industry/gradiant-bets-big-on-india-secures-five-contracts-including-semiconductor-fab/article71555160.ece",
+          "source": "The Hindu",
+          "summary": "Company appoints Hari Prasad as India MD as water-treatment firm wins five contracts across semiconductor, PCB and solar manufacturing",
+          "published": "2026-10-16T21:55:38+00:00",
+          "regional": true
+        },
+        {
+          "title": "Chemistry Nobel 2026 honours the science of mirrored molecules",
+          "link": "https://www.thehindu.com/sci-tech/science/nobel-prize-in-chemistry-2026-winner/article71554613.ece",
+          "source": "The Hindu",
+          "summary": "The duo was recognised for the discovery of ‘non-linear effects and autocatalysis in asymmetric organic synthesis’",
+          "published": "2026-10-16T21:25:50+00:00",
+          "regional": true
+        },
+        {
           "title": "ASML eyes hybrid bonding, report finds, as Chinese firms adopt chip packaging technique",
           "link": "https://www.scmp.com/tech/tech-trends/article/3371181/asml-eyes-hybrid-bonding-report-finds-chinese-firms-adopt-chip-packaging-technique?utm_source=rss_feed",
           "source": "South China Morning Post",
@@ -343,22 +359,6 @@
           "source": "The Hindu",
           "summary": "Bias is more than human sociology; life makes choices with definite preferences",
           "published": "2026-10-08T19:21:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "Chemistry Nobel 2026 honours the science of mirrored molecules",
-          "link": "https://www.thehindu.com/sci-tech/science/nobel-prize-in-chemistry-2026-winner/article71554613.ece",
-          "source": "The Hindu",
-          "summary": "The duo was recognised for the discovery of ‘non-linear effects and autocatalysis in asymmetric organic synthesis’",
-          "published": "2026-10-07T15:18:21+00:00",
-          "regional": true
-        },
-        {
-          "title": "Gradiant bets big on India, secures five contracts, including semiconductor fab",
-          "link": "https://www.thehindu.com/business/Industry/gradiant-bets-big-on-india-secures-five-contracts-including-semiconductor-fab/article71555160.ece",
-          "source": "The Hindu",
-          "summary": "Company appoints Hari Prasad as India MD as water-treatment firm wins five contracts across semiconductor, PCB and solar manufacturing",
-          "published": "2026-10-07T11:11:29+00:00",
           "regional": true
         }
       ]
@@ -458,27 +458,11 @@
           "regional": true
         },
         {
-          "title": "First detection of heavy methanol in space",
-          "link": "https://www.mpg.de/26834976/first-detection-of-heavy-methanol-in-space",
-          "source": "Max Planck Society",
-          "summary": "Methanol containing heavy hydrogen is considered the building block of complex organic molecules and allows us to trace how stars and planets form from extremely cold interstellar gas and dust",
-          "published": "2026-10-06T22:00:00+00:00",
-          "regional": true
-        },
-        {
           "title": "Climate leaders called for solar energy for 'everyone, everywhere' by 2030, but with three years to go, is that goal attainable?",
           "link": "https://www.dw.com/en/climate-leaders-called-for-solar-energy-for-everyone-everywhere-by-2030-but-with-three-years-to-go-is-that-goal-attainable/a-79517056?maca=en-rss_en_environment-22607-xml-mrss",
           "source": "Deutsche Welle",
           "summary": "Prominent climate leaders have called on governments, businesses, institutions and the public to make a push for solar power before the decade is out, repowering the world with cheap, clean energy. Is that possible?",
           "published": "2026-10-02T13:48:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "Molecular insight into biological nitrogen fixation close to the boiling point",
-          "link": "https://www.mpg.de/26973793/molecular-insight-into-biological-nitrogen-fixation-close-to-the-boiling-point",
-          "source": "Max Planck Society",
-          "summary": "An enzyme with exceptional heat resistance converts atmospheric nitrogen into ammonia, an important fertiliser and biofuel",
-          "published": "2026-09-15T08:09:00+00:00",
           "regional": true
         },
         {
@@ -506,6 +490,30 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "Artemis II Heat Shield After Splashdown",
+          "link": "https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/",
+          "source": "NASA",
+          "summary": "Shortly after NASA’s Artemis II mission splashed down on April 10, 2026, U.S. Navy divers captured underwater imagery of the Orion spacecraft’s heat shield.",
+          "published": "2026-10-16T16:28:01+00:00",
+          "regional": false
+        },
+        {
+          "title": "I Am Artemis: Allison Mjoen",
+          "link": "https://www.nasa.gov/missions/station/i-am-artemis-allison-mjoen/",
+          "source": "NASA",
+          "summary": "As the supercooled propellant flowed into the core stage, and NASA’s SLS (Space Launch System) rocket roared to life, Allison Mjoen and her family watched with awe and pride.",
+          "published": "2026-10-16T14:24:29+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Hubble Spies Spiral’s Edge",
+          "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/",
+          "source": "NASA",
+          "summary": "This NASA Hubble Space Telescope image features the edge-on, intermediate spiral galaxy NGC 1827, located roughly 37 million light-years away in the constellation Columba, the Dove.",
+          "published": "2026-10-16T12:42:08+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA to Help Unlock Mysteries of Mars’ Moons in Upcoming Mission",
           "link": "https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-to-help-unlock-mysteries-of-mars-moons-in-upcoming-mission/",
           "source": "NASA",
@@ -519,22 +527,6 @@
           "source": "NASA",
           "summary": "A phenomenon rarer than a solar eclipse and more powerful than any single storm system is unfolding this fall, and NASA is tracking it closely.",
           "published": "2026-10-15T17:59:22+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Awards Enable Research, Technology to Build Future Workforce",
-          "link": "https://www.nasa.gov/learning-resources/nasa-awards-enable-research-technology-to-build-future-workforce/",
-          "source": "NASA",
-          "summary": "NASA has selected 12 U.S. institutions to receive $12 million to accelerate academic research and technology development in support of the agency’s priorities for exploring the Moon, Mars, and deep space.",
-          "published": "2026-10-15T15:57:47+00:00",
-          "regional": false
-        },
-        {
-          "title": "Rigorous Analysis Confirms NASA’s Artemis II Heat Shield Performance",
-          "link": "https://www.nasa.gov/missions/artemis/artemis-2/rigorous-analysis-confirms-nasas-artemis-ii-heat-shield-performance/",
-          "source": "NASA",
-          "summary": "NASA’s Artemis II mission sent four astronauts around the Moon and brought them safely back to Earth, laying a foundation for crewed flights to the Moon’s surface.",
-          "published": "2026-10-15T14:57:21+00:00",
           "regional": false
         },
         {
@@ -690,12 +682,44 @@
           "regional": false
         },
         {
-          "title": "ESTEC, ESA’s technical heart, seen from orbit",
-          "link": "https://www.esa.int/ESA_Multimedia/Images/2026/09/ESTEC_ESA_s_technical_heart_seen_from_orbit",
-          "source": "ESA",
-          "summary": "Image: From the International Space Station, ESA astronaut Sophie Adenot has photographed cities, coastlines and landscapes across the world during her nearly eight-month εpsilon mission.",
-          "published": "2026-09-25T16:13:00+00:00",
-          "regional": false
+          "title": "Tap space-tech start-ups’ capabilities for major projects of Indian space programme: G. Madhavan Nair",
+          "link": "https://www.thehindu.com/news/national/kerala/tap-space-tech-start-ups-capabilities-for-major-projects-of-indian-space-programme-g-madhavan-nair/article71556620.ece",
+          "source": "The Hindu",
+          "summary": "Former ISRO Chairperson says what is required is a cooperative environment rather than unhealthy competition",
+          "published": "2026-10-17T00:41:51+00:00",
+          "regional": true
+        },
+        {
+          "title": "Students should be encouraged to develop scientific temperament, says Deputy Director of U. R. Rao Satellite Centre",
+          "link": "https://www.thehindu.com/news/cities/Mangalore/students-should-be-encouraged-to-develop-scientific-temperament-says-deputy-director-of-u-r-rao-satellite-centre/article71555841.ece",
+          "source": "The Hindu",
+          "summary": "Pilikula Development Authority organises two-day World Space Week - 2026 programme at Pilikula on October 7",
+          "published": "2026-10-16T21:55:27+00:00",
+          "regional": true
+        },
+        {
+          "title": "ISRO scientists lead space awareness rally in Rajamahendravaram",
+          "link": "https://www.thehindu.com/news/national/andhra-pradesh/isro-scientists-lead-space-awareness-rally-in-rajamahendravaram/article71556662.ece",
+          "source": "The Hindu",
+          "summary": "",
+          "published": "2026-10-16T21:55:08+00:00",
+          "regional": true
+        },
+        {
+          "title": "Analysis: Why NASA wants to build a nuclear reactor on the moon",
+          "link": "https://www.thehindu.com/sci-tech/science/analysis-why-nasa-wants-to-build-nuclear-reactor-on-the-moon/article71552807.ece",
+          "source": "The Hindu",
+          "summary": "The Artemis Accords, to which the U.S. and its allies vis-a-vis the moon are signatories, envisage temporary ‘safety zones’ to prevent harmful interference",
+          "published": "2026-10-16T19:03:32+00:00",
+          "regional": true
+        },
+        {
+          "title": "Gaganyaan: ISRO completes key test ahead of first uncrewed mission",
+          "link": "https://www.thehindu.com/sci-tech/science/gaganyaan-isro-completes-key-test-ahead-of-first-uncrewed-mission/article71592436.ece",
+          "source": "The Hindu",
+          "summary": "",
+          "published": "2026-10-16T15:13:07+00:00",
+          "regional": true
         },
         {
           "title": "S. Korean microsatellite constellation captures first images within a day of launch",
@@ -730,46 +754,6 @@
           "regional": true
         },
         {
-          "title": "SpaceX exec renews Starlink pitch as approvals lay pending",
-          "link": "https://www.thehindu.com/sci-tech/technology/spacex-exec-renews-starlink-pitch-as-approvals-lay-pending/article71554510.ece",
-          "source": "The Hindu",
-          "summary": "The Union government has held up satellite internet in India with a bevy of security requirements; Lauren Dreyer, a SpaceX executive, hoped that the service would be operational by next year.",
-          "published": "2026-10-07T18:33:28+00:00",
-          "regional": true
-        },
-        {
-          "title": "Tap space-tech start-ups’ capabilities for major projects of Indian space programme: G. Madhavan Nair",
-          "link": "https://www.thehindu.com/news/national/kerala/tap-space-tech-start-ups-capabilities-for-major-projects-of-indian-space-programme-g-madhavan-nair/article71556620.ece",
-          "source": "The Hindu",
-          "summary": "Former ISRO Chairperson says what is required is a cooperative environment rather than unhealthy competition",
-          "published": "2026-10-07T16:35:21+00:00",
-          "regional": true
-        },
-        {
-          "title": "ISRO scientists lead space awareness rally in Rajamahendravaram",
-          "link": "https://www.thehindu.com/news/national/andhra-pradesh/isro-scientists-lead-space-awareness-rally-in-rajamahendravaram/article71556662.ece",
-          "source": "The Hindu",
-          "summary": "",
-          "published": "2026-10-07T16:14:29+00:00",
-          "regional": true
-        },
-        {
-          "title": "Students should be encouraged to develop scientific temperament, says Deputy Director of U. R. Rao Satellite Centre",
-          "link": "https://www.thehindu.com/news/cities/Mangalore/students-should-be-encouraged-to-develop-scientific-temperament-says-deputy-director-of-u-r-rao-satellite-centre/article71555841.ece",
-          "source": "The Hindu",
-          "summary": "Pilikula Development Authority organises two-day World Space Week - 2026 programme at Pilikula on October 7",
-          "published": "2026-10-07T13:43:53+00:00",
-          "regional": true
-        },
-        {
-          "title": "Analysis: Why NASA wants to build a nuclear reactor on the moon",
-          "link": "https://www.thehindu.com/sci-tech/science/analysis-why-nasa-wants-to-build-nuclear-reactor-on-the-moon/article71552807.ece",
-          "source": "The Hindu",
-          "summary": "The Artemis Accords, to which the U.S. and its allies vis-a-vis the moon are signatories, envisage temporary ‘safety zones’ to prevent harmful interference",
-          "published": "2026-10-07T01:29:39+00:00",
-          "regional": true
-        },
-        {
           "title": "Buzz on space privatisation upstages ISRO’s moment of glory",
           "link": "https://www.thehindu.com/sci-tech/science/space-wrap-newsletter-buzz-on-space-privatisation-upstages-isros-moment-of-glory/article71527147.ece",
           "source": "The Hindu",
@@ -797,7 +781,7 @@
           "title": "How many planets could fit in the solar system?",
           "link": "https://www.scientificamerican.com/article/how-many-planets-could-fit-in-the-solar-system/",
           "source": "Scientific American",
-          "summary": "As far-fetched as it may seem, quirks of orbital mechanics could allow hundreds of planets to be packed around a star",
+          "summary": "As far-fetched as it may seem, quirks of orbital mechanics could allow dozens of planets to be packed around a star",
           "published": "2026-10-16T10:45:00+00:00",
           "regional": false
         },
@@ -978,6 +962,14 @@
           "regional": false
         },
         {
+          "title": "Anna Mani: a star from the hills",
+          "link": "https://www.thehindu.com/children/anna-mani-a-star-from-the-hills/article71546743.ece",
+          "source": "The Hindu",
+          "summary": "Anna Mani, who dedicated her life to improving weather forecasting in the country, dared to venture into areas India had never stepped into before",
+          "published": "2026-10-16T13:39:50+00:00",
+          "regional": true
+        },
+        {
           "title": "The Nobel for IceCube and the search for neutrinos from outer space | Explained",
           "link": "https://www.thehindu.com/sci-tech/science/the-nobel-for-icecube-and-the-search-for-neutrinos-from-outer-space-explained/article71554101.ece",
           "source": "The Hindu",
@@ -1007,14 +999,6 @@
           "source": "The Hindu",
           "summary": "Francis Halzen will receive the Nobel Prize in Physics in 2026 for ideating the IceCube Neutrino Observatory",
           "published": "2026-10-06T10:38:12+00:00",
-          "regional": true
-        },
-        {
-          "title": "Anna Mani: a star from the hills",
-          "link": "https://www.thehindu.com/children/anna-mani-a-star-from-the-hills/article71546743.ece",
-          "source": "The Hindu",
-          "summary": "Anna Mani, who dedicated her life to improving weather forecasting in the country, dared to venture into areas India had never stepped into before",
-          "published": "2026-10-06T07:23:14+00:00",
           "regional": true
         }
       ]
