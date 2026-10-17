@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-10-16 14:57 PDT
-; Observing window starts 2026-10-16 19:40 PDT  (LST 20:31:33)
+; Generated 2026-10-17 14:20 PDT
+; Observing window starts 2026-10-17 19:38 PDT  (LST 20:33:29)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -55,7 +55,7 @@ CT C/2024 J3
 #filter r',g',i',z'
 M 11
 
-; Comet C/2026 A2 (Bok)  mag 13.3
+; Comet C/2026 A2 (Bok)  mag 13.5
 #posang 0
 #count 3
 #interval 300
@@ -162,7 +162,7 @@ NGC 7331
 #filter r',g'
 2026aaiv	22:37:05.618	+34:24:35.37
 
-; Asteroid 192 Nausikaa  mag 9.1
+; Asteroid 192 Nausikaa  mag 9.2
 #posang 0
 #count 3
 #interval 300
@@ -335,7 +335,7 @@ NGC 1023
 #filter r',g',i',z'
 M 77
 
-; Comet 220P/McNaught  mag 13.1
+; Comet 220P/McNaught  mag 13.4
 #posang 0
 #count 3
 #interval 300
@@ -385,7 +385,7 @@ M 42
 #filter r',Ha,OIII,SII
 NGC 1980
 
-; Comet C/2024 T5 (ATLAS)  mag 13.8
+; Comet C/2024 T5 (ATLAS)  mag 13.6
 #posang 0
 #count 3
 #interval 300
@@ -516,6 +516,14 @@ M 44
 #filter r',g',i',z'
 NGC 2683
 
+; Galaxy  mag 11.3  size 4.33'  Helix Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 2685
+
 ; Planet: Mars
 #posang 0
 #count 10
@@ -524,14 +532,6 @@ NGC 2683
 #filter r'
 Mars
 #WAITINLIMITS 60
-
-; Galaxy  mag 11.3  size 4.33'  Helix Galaxy
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 2685
 
 ; Galaxy  mag 8.9  size 11.94'
 #posang 0
