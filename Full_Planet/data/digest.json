@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-19T16:01:04.063253+00:00",
-  "generated_human": "19 October 2026, 16:01 UTC",
-  "total_items": 122,
+  "generated": "2026-10-20T13:58:27.054271+00:00",
+  "generated_human": "20 October 2026, 13:58 UTC",
+  "total_items": 125,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,22 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "A visit to Samsung’s massive new semiconductor hub",
+          "link": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
+          "source": "MIT Technology Review",
+          "summary": "Generative AI models run on powerful chips known as GPUs, which depend on stacks of specialized memory chips packaged with the processor.",
+          "published": "2026-10-20T09:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Can AI predict whether you’ll die from cancer from just an image of your face?",
+          "link": "https://www.scientificamerican.com/article/can-ai-predict-whether-youll-die-from-cancer-from-just-an-image-of-your-face/",
+          "source": "Scientific American",
+          "summary": "Researchers tasked an algorithm with predicting cancer patients’ risk of dying. For some people, it was shockingly accurate",
+          "published": "2026-10-19T22:30:00+00:00",
+          "regional": false
+        },
         {
           "title": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
           "link": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
@@ -74,6 +90,22 @@
           "regional": false
         },
         {
+          "title": "China creates state-owned firm in Xiongan to develop nation’s AI data resources",
+          "link": "https://www.scmp.com/tech/policy/article/3371540/china-creates-state-owned-firm-xiongan-develop-nations-ai-data-resources",
+          "source": "South China Morning Post",
+          "summary": "China has set up a new state-owned enterprise dedicated to managing the country’s massive data resources, a significant move designed to turbocharge the nation’s artificial intelligence industry and bolster its digital…",
+          "published": "2026-10-20T12:23:29+00:00",
+          "regional": true
+        },
+        {
+          "title": "Finance minister pledges support for global 'AI basic society'",
+          "link": "https://www.koreaherald.com/article/10908495",
+          "source": "The Korea Herald",
+          "summary": "South Korea will help build a global \"artificial intelligence basic society\" in which no country is left behind in the AI transformation, the finance minister said Tuesday.",
+          "published": "2026-10-20T02:37:43+00:00",
+          "regional": true
+        },
+        {
           "title": "LG seeks tangible AI returns in monthlong business reviews",
           "link": "https://www.koreaherald.com/article/10907262",
           "source": "The Korea Herald",
@@ -83,7 +115,7 @@
         },
         {
           "title": "The AI promise was automation. The reality? Managing digital workers",
-          "link": "https://www.scmp.com/tech/big-tech/article/3371246/ai-promise-was-automation-reality-managing-digital-workers?utm_source=rss_feed",
+          "link": "https://www.scmp.com/tech/big-tech/article/3371246/ai-promise-was-automation-reality-managing-digital-workers",
           "source": "South China Morning Post",
           "summary": "When artificial intelligence agents first arrived, they came with a tantalising promise: autonomous “digital workers” that would finally free humans from corporate drudgery.",
           "published": "2026-10-18T14:00:08+00:00",
@@ -99,7 +131,7 @@
         },
         {
           "title": "China’s proposed AI tech export bans may create short-term costs, long-term gains: analysts",
-          "link": "https://www.scmp.com/tech/big-tech/article/3371247/chinas-proposed-ai-tech-export-bans-may-create-short-term-costs-long-term-gains-analysts?utm_source=rss_feed",
+          "link": "https://www.scmp.com/tech/big-tech/article/3371247/chinas-proposed-ai-tech-export-bans-may-create-short-term-costs-long-term-gains-analysts",
           "source": "South China Morning Post",
           "summary": "China’s proposed export bans and controls of artificial intelligence technologies aim to tighten Beijing’s grip in the strategically vital sector, casting a cloud over the commercial prospects of domestic model…",
           "published": "2026-10-17T12:00:11+00:00",
@@ -107,7 +139,7 @@
         },
         {
           "title": "Alibaba to embed AI throughout Taobao, Tmall merchant operations in 2027: executive",
-          "link": "https://www.scmp.com/tech/big-tech/article/3371203/alibaba-embed-ai-throughout-taobao-tmall-merchant-operations-2027-executive?utm_source=rss_feed",
+          "link": "https://www.scmp.com/tech/big-tech/article/3371203/alibaba-embed-ai-throughout-taobao-tmall-merchant-operations-2027-executive",
           "source": "South China Morning Post",
           "summary": "Alibaba Group Holding’s two major domestic online marketplaces, Taobao and Tmall, plan to greatly expand the use of artificial intelligence across merchants’ operations next year, a senior executive said, as the…",
           "published": "2026-10-16T13:37:50+00:00",
@@ -123,7 +155,7 @@
         },
         {
           "title": "Z.ai’s GLM-5.3 raises researcher fears the Chinese model can fake AI safety tests",
-          "link": "https://www.scmp.com/tech/big-tech/article/3370963/zais-glm-53-raises-researcher-fears-chinese-model-can-fake-ai-safety-tests?utm_source=rss_feed",
+          "link": "https://www.scmp.com/tech/big-tech/article/3370963/zais-glm-53-raises-researcher-fears-chinese-model-can-fake-ai-safety-tests",
           "source": "South China Morning Post",
           "summary": "Chinese artificial intelligence lab Z.ai’s latest flagship model, GLM-5.3, may be sophisticated enough to “fake” its way through safety tests, according to a new report published Thursday, sparking new fears about the…",
           "published": "2026-10-15T10:00:11+00:00",
@@ -131,26 +163,10 @@
         },
         {
           "title": "China approves Alibaba AI models for use in iPhone Duo and other Apple handsets",
-          "link": "https://www.scmp.com/tech/big-tech/article/3370893/china-approves-alibaba-ai-models-use-iphone-duo-and-other-apple-handsets?utm_source=rss_feed",
+          "link": "https://www.scmp.com/tech/big-tech/article/3370893/china-approves-alibaba-ai-models-use-iphone-duo-and-other-apple-handsets",
           "source": "South China Morning Post",
           "summary": "China has granted approval for Alibaba Group Holding’s artificial intelligence models to be integrated into several Apple handsets, including the new iPhone Duo, in the Chinese market, clearing a key regulatory hurdle…",
           "published": "2026-10-14T11:06:20+00:00",
-          "regional": true
-        },
-        {
-          "title": "Can China match up with Meta’s Muse in race to harness AI agents?",
-          "link": "https://www.scmp.com/tech/big-tech/article/3370123/can-china-match-metas-muse-race-harness-ai-agents?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Meta Platforms’ breakout Muse personal AI agent is shining a spotlight on a new battleground in artificial intelligence – one in which China’s biggest internet companies are already jostling for position.",
-          "published": "2026-10-08T14:00:08+00:00",
-          "regional": true
-        },
-        {
-          "title": "Alibaba’s AI cloud revenue set to surge over 50% as investment blitz pays off: analysts",
-          "link": "https://www.scmp.com/tech/big-tech/article/3370209/alibabas-ai-cloud-revenue-set-surge-over-50-investment-blitz-pays-analysts?utm_source=rss_feed",
-          "source": "South China Morning Post",
-          "summary": "Alibaba Group Holding is expected to report a 50 per cent revenue surge for its cloud and artificial intelligence unit for the September quarter, driven by strong returns on its aggressive AI investments, according to…",
-          "published": "2026-10-08T11:30:22+00:00",
           "regional": true
         }
       ]
@@ -161,6 +177,14 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "Scientists reach the ultimate quantum limit on a surface",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261018205053.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have achieved a quantum breakthrough by creating an ultra-clean surface where individual molecules can maintain their delicate quantum properties at the fundamental limit.",
+          "published": "2026-10-20T03:02:41+00:00",
+          "regional": false
+        },
         {
           "title": "Plants move to get away from their decaying brethren",
           "link": "https://www.scientificamerican.com/article/plants-move-to-get-away-from-their-decaying-brethren/",
@@ -207,14 +231,6 @@
           "source": "ScienceDaily",
           "summary": "Researchers discovered a hidden factor that can determine whether chemical reactions succeed or fail, and then used it to boost the proportion of the desired product from 16% to 97%.",
           "published": "2026-10-12T06:24:46+00:00",
-          "regional": false
-        },
-        {
-          "title": "Nobel week: light-controlled brains, particles from outer space and mirror molecules",
-          "link": "https://www.scientificamerican.com/podcast/episode/nobel-week-light-controlled-brains-particles-from-outer-space-and-mirror-molecules/",
-          "source": "Scientific American",
-          "summary": "Breaking down this year’s Nobel Prize–winning science, from switching brain cells on and off with light to catching cosmic neutrinos in Antarctic ice to building mirror-image molecules.",
-          "published": "2026-10-12T04:00:00+00:00",
           "regional": false
         },
         {
@@ -338,11 +354,19 @@
           "regional": true
         },
         {
-          "title": "Electron chirality found in a symmetric material: JAEA discovers novel state in a uranium compound",
-          "link": "https://sj.jst.go.jp/news/202610/n1015-01k.html",
-          "source": "Science Japan",
-          "summary": "A research group including Group Leader Yo Tokunaga and Postdoctoral Researcher Takayuki Ishitobi (currently a postdoctoral researcher at the Graduate School of Science, Tohoku University) of the Research Group for…",
-          "published": "2026-10-15T04:27:48+00:00",
+          "title": "ASML eyes hybrid bonding, report finds, as Chinese firms adopt chip packaging technique",
+          "link": "https://www.scmp.com/tech/tech-trends/article/3371181/asml-eyes-hybrid-bonding-report-finds-chinese-firms-adopt-chip-packaging-technique",
+          "source": "South China Morning Post",
+          "summary": "Dutch semiconductor equipment giant ASML is expanding into next-generation hybrid bonding, a technique that creates dense electrical connections by directly joining chips or silicon wafers, according to a new report.",
+          "published": "2026-10-16T12:30:12+00:00",
+          "regional": true
+        },
+        {
+          "title": "TSMC confirms talks with Elon Musk over Texas ‘Terafab’ but insists on operational control",
+          "link": "https://www.scmp.com/tech/big-tech/article/3371010/tsmc-confirms-talks-elon-musk-over-texas-terafab-insists-operational-control",
+          "source": "South China Morning Post",
+          "summary": "Taiwan Semiconductor Manufacturing Co (TSMC) is in discussions regarding a potential role in Elon Musk’s proposed Terafab project in Texas, according to company chairman and CEO C.C.",
+          "published": "2026-10-15T09:31:35+00:00",
           "regional": true
         },
         {
@@ -351,14 +375,6 @@
           "source": "Asian Scientist",
           "summary": "The researchers won the award for solving a long standing mystery in chemistry: homochirality.",
           "published": "2026-10-09T08:24:40+00:00",
-          "regional": true
-        },
-        {
-          "title": "Chance and happenstance: On the Nobel Prize in Chemistry",
-          "link": "https://www.thehindu.com/opinion/editorial/chance-and-happenstance-on-the-nobel-prize-in-chemistry/article71559993.ece",
-          "source": "The Hindu",
-          "summary": "Bias is more than human sociology; life makes choices with definite preferences",
-          "published": "2026-10-08T19:21:00+00:00",
           "regional": true
         }
       ]
@@ -432,6 +448,14 @@
           "summary": "Researchers have discovered that Western Australia’s iron-rich rocks can naturally generate hydrogen and that the process may be boosted to produce much larger amounts.",
           "published": "2026-08-29T10:05:43+00:00",
           "regional": false
+        },
+        {
+          "title": "BYD surges to No. 4 in Korea's imported car market",
+          "link": "https://www.koreaherald.com/article/10908721",
+          "source": "The Korea Herald",
+          "summary": "Chinese electric vehicle giant BYD is rapidly expanding its foothold in South Korea, climbing to fourth place in the country’s imported passenger market in the first nine months of this year.",
+          "published": "2026-10-20T05:29:23+00:00",
+          "regional": true
         },
         {
           "title": "Mercedes-Benz steps up Korea EV push with new CLA, GLC",
@@ -514,19 +538,59 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "Lunar Link complete and ready for a new adventure",
+          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Lunar_Link_complete_and_ready_for_a_new_adventure",
+          "source": "ESA",
+          "summary": "ESA’s Lunar Link telecommunications element has completed its final major integration and testing campaign at Thales Alenia Space in Cannes, France.",
+          "published": "2026-10-20T12:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Japan launches a probe to collect rocks from Mars’s moon Phobos",
+          "link": "https://www.scientificamerican.com/article/japans-mission-to-collect-rocks-from-mars-moon-phobos-achieves-liftoff/",
+          "source": "Scientific American",
+          "summary": "The Martian Moons Exploration mission will aim to bring back samples from Phobos",
+          "published": "2026-10-19T20:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Mission blasts off for Mars to grab a piece of its moon",
+          "link": "https://www.bbc.co.uk/news/articles/cmvgxvkv54w1o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "A spacecraft is set to launch on an ambitious mission to bring 10g of Martian moon dust back to Earth.",
+          "published": "2026-10-19T19:45:46+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Improves Shock, Vibration Analysis",
+          "link": "https://www.nasa.gov/centers-and-facilities/kennedy/nasa-improves-shock-vibration-analysis/",
+          "source": "NASA",
+          "summary": "Rockets vibrate, shake, and flex intensely as they climb into space, and spacecraft packed with delicate scientific instruments must survive those forces.",
+          "published": "2026-10-19T19:28:32+00:00",
+          "regional": false
+        },
+        {
+          "title": "Alarm grows over Russian satellite’s provocative approach to U.S.-owned satellite",
+          "link": "https://www.scientificamerican.com/article/alarm-grows-over-russian-satellites-provocative-approach-to-u-s-owned-satellite/",
+          "source": "Scientific American",
+          "summary": "How close is too close for encounters between sensitive spacecraft orbiting Earth? With a mysterious approach to another satellite, Russia’s military may be trying to find out",
+          "published": "2026-10-19T18:30:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Simulated Mars Crew Marks One Year Inside Habitat",
+          "link": "https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/",
+          "source": "NASA",
+          "summary": "The four crew members in NASA’s simulated Mars mission have spent the past year living and working in isolation in a confined habitat at NASA’s Johnson Space Center in Houston.",
+          "published": "2026-10-19T18:01:51+00:00",
+          "regional": false
+        },
+        {
           "title": "The first mission to sample Mars’s moons launches today",
           "link": "https://www.scientificamerican.com/article/the-first-mission-to-sample-marss-moons-launches-today/",
           "source": "Scientific American",
           "summary": "For the first time ever, a spacecraft will travel all the way to the Mars system and return. But first, it has to get through the launch",
           "published": "2026-10-19T15:20:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Mission set to blast off for Mars to grab a piece of its moon",
-          "link": "https://www.bbc.co.uk/news/articles/cmvgxvkv54w1o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "A spacecraft is set to launch on an ambitious mission to bring 10g of Martian moon dust back to Earth.",
-          "published": "2026-10-19T08:03:49+00:00",
           "regional": false
         },
         {
@@ -551,22 +615,6 @@
           "source": "ScienceDaily",
           "summary": "SpaceX just delivered some surprisingly strange cargo to the International Space Station, including tiny brain models, 3D heart tissue, and technology for making artificial retinas in space.",
           "published": "2026-10-16T23:51:58+00:00",
-          "regional": false
-        },
-        {
-          "title": "Artemis II Heat Shield After Splashdown",
-          "link": "https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/",
-          "source": "NASA",
-          "summary": "Shortly after NASA’s Artemis II mission splashed down on April 10, 2026, U.S. Navy divers captured underwater imagery of the Orion spacecraft’s heat shield.",
-          "published": "2026-10-16T16:28:01+00:00",
-          "regional": false
-        },
-        {
-          "title": "I Am Artemis: Allison Mjoen",
-          "link": "https://www.nasa.gov/missions/station/i-am-artemis-allison-mjoen/",
-          "source": "NASA",
-          "summary": "As the supercooled propellant flowed into the core stage, and NASA’s SLS (Space Launch System) rocket roared to life, Allison Mjoen and her family watched with awe and pride.",
-          "published": "2026-10-16T14:24:29+00:00",
           "regional": false
         },
         {
@@ -634,14 +682,6 @@
           "regional": false
         },
         {
-          "title": "Splashdown confirmed for Sophie Adenot",
-          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Splashdown_confirmed_for_Sophie_Adenot",
-          "source": "ESA",
-          "summary": "ESA astronaut Sophie Adenot returned to Earth with Crew-12 after her nearly eight-month εpsilon mission to the International Space Station, splashing down off the coast of California, USA, at 15:34 GMT/17:34 CEST on 8…",
-          "published": "2026-10-08T16:51:00+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA is searching for hidden caves to build its first Moon base",
           "link": "https://www.sciencedaily.com/releases/2026/10/261008005247.htm",
           "source": "ScienceDaily",
@@ -655,14 +695,6 @@
           "source": "ScienceDaily",
           "summary": "NASA’s James Webb Space Telescope is giving astronomers a glimpse of the kinds of violent collisions that may have shaped our own solar system, including the giant impact thought to have created the Moon.",
           "published": "2026-10-07T13:09:15+00:00",
-          "regional": false
-        },
-        {
-          "title": "European rover trains for Mars in the desert",
-          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/European_rover_trains_for_Mars_in_the_desert",
-          "source": "ESA",
-          "summary": "For eight days, a Mars rover prototype travelled 220 metres across a barren landscape, following commands from a science team some 1200 kilometres away.",
-          "published": "2026-10-06T08:00:00+00:00",
           "regional": false
         },
         {
@@ -698,12 +730,20 @@
           "regional": false
         },
         {
-          "title": "NASA’s Crew-13 could go from Florida to the ISS in under 9 hours",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260928100534.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA and SpaceX could launch four astronauts to the International Space Station on October 1, with the Dragon spacecraft reaching orbiting outpost less than nine hours after liftoff.",
-          "published": "2026-09-29T04:38:52+00:00",
-          "regional": false
+          "title": "Lee Moon Won Bio secures patent for hair-loss care platform",
+          "link": "https://www.koreaherald.com/article/10909017",
+          "source": "The Korea Herald",
+          "summary": "South Korean biotech firm Lee Moon Won Bio has secured a patent for a patient health monitoring system, bringing its portfolio of registered patents to 12 as it seeks to integrate hair-loss diagnosis, treatment and…",
+          "published": "2026-10-20T08:26:43+00:00",
+          "regional": true
+        },
+        {
+          "title": "India’s first solar mission Aditya-L1 generates Doppler velocity images of the solar corona",
+          "link": "https://www.thehindu.com/sci-tech/science/indias-first-solar-mission-aditya-l1-generates-doppler-velocity-images-of-the-solar-corona/article71603276.ece",
+          "source": "The Hindu",
+          "summary": "these images are expected to provide information on the propagation of the coronal mass ejections along the Sun-Earth direction, which were unavailable till date",
+          "published": "2026-10-20T05:18:33+00:00",
+          "regional": true
         },
         {
           "title": "Russian military satellite makes ‘close approach’ to U.S. radar satellite in orbit",
@@ -768,22 +808,6 @@
           "summary": "TRISHNA is the third satellite that India and France are developing after Megha-Tropiques and SARAL (Satellite with ARGOS and ALTIKA) satellites.",
           "published": "2026-10-11T15:55:29+00:00",
           "regional": true
-        },
-        {
-          "title": "Margaret Hamilton, scientist who worked on NASA's Apollo program, dead at 90",
-          "link": "https://www.thehindu.com/sci-tech/science/margaret-hamilton-scientist-who-worked-on-nasas-apollo-program-dead-at-90/article71558711.ece",
-          "source": "The Hindu",
-          "summary": "NASA chief Jared Isaacmen paid tribute to Hamilton, calling her ‘a pioneer whose work helped make Apollo and humanity's first journeys to the moon possible’",
-          "published": "2026-10-08T07:39:19+00:00",
-          "regional": true
-        },
-        {
-          "title": "The last human expedition to the moon… so far",
-          "link": "https://www.thehindu.com/children/the-last-human-expedition-to-the-moon...-so-far/article66214095.ece",
-          "source": "The Hindu",
-          "summary": "On December 11, 1972, Apollo 17 achieved lunar landing. The sixth mission in the Apollo program to explore the lunar surface, Apollo 17, for now, is the last human expedition to the moon.",
-          "published": "2026-10-08T07:39:01+00:00",
-          "regional": true
         }
       ]
     },
@@ -793,6 +817,30 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "Astronomers uncover new secrets of the Universe’s first five minutes",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261019093442.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have achieved a major breakthrough in understanding the Universe’s earliest moments, measuring the amount of helium formed in the first five minutes after the Big Bang with unprecedented precision.",
+          "published": "2026-10-20T12:34:15+00:00",
+          "regional": false
+        },
+        {
+          "title": "These extreme cosmic explosions are breaking physics",
+          "link": "https://www.scientificamerican.com/article/these-extreme-cosmic-explosions-are-breaking-physics/",
+          "source": "Scientific American",
+          "summary": "Astronomers are finally figuring out what powers mysterious gamma-ray bursts",
+          "published": "2026-10-20T10:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA reveals 16 stunning galaxies hiding cosmic chaos",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261018205050.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA's stunning new gallery of 16 galaxies reveals colossal black hole jets, explosive star formation, and spectacular cosmic collisions through the combined power of Chandra, James Webb, Hubble, and other telescopes.",
+          "published": "2026-10-20T06:17:55+00:00",
+          "regional": false
+        },
         {
           "title": "Astronomers discover a ghostly green star unlike any known before",
           "link": "https://www.sciencedaily.com/releases/2026/10/261017230018.htm",
@@ -858,14 +906,6 @@
           "regional": false
         },
         {
-          "title": "Mountaintop microwave observatory will peer into the infant universe",
-          "link": "https://www.science.org/content/article/simons-observatory-takes-closer-look-infant-universe",
-          "source": "Science (AAAS)",
-          "summary": "The Simons Observatory in Chile will will hunt for galaxy clusters and signs of cosmic inflation",
-          "published": "2026-10-14T05:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "A planet 320 light-years away confirms what scientists long suspected",
           "link": "https://www.sciencedaily.com/releases/2026/10/261012185015.htm",
           "source": "ScienceDaily",
@@ -911,14 +951,6 @@
           "source": "ScienceDaily",
           "summary": "October’s skies are packed with celestial surprises, from Jupiter disappearing behind the Moon to two meteor showers lighting up the darkness.",
           "published": "2026-10-09T02:37:22+00:00",
-          "regional": false
-        },
-        {
-          "title": "Astronomers discover record-breaking ancient cosmic outburst",
-          "link": "https://www.scientificamerican.com/article/astronomers-discover-record-breaking-ancient-cosmic-outburst/",
-          "source": "Scientific American",
-          "summary": "Detected by the MeerKAT array, this “fast radio burst” comes from three billion years after the big bang and could help map the universe’s otherwise-invisible intergalactic matter",
-          "published": "2026-10-08T18:30:00+00:00",
           "regional": false
         },
         {
@@ -975,14 +1007,6 @@
           "source": "ScienceDaily",
           "summary": "Powerful jets from supermassive black holes can disturb star-forming gas far beyond a galaxy’s visible edge, leaving a glowing trail hundreds of thousands of light-years long.",
           "published": "2026-09-30T10:51:59+00:00",
-          "regional": false
-        },
-        {
-          "title": "This suitcase-sized spacecraft could hear the universe before stars existed",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260927225034.htm",
-          "source": "ScienceDaily",
-          "summary": "CosmoCube will use the far side of the Moon as a shield from Earth’s radio noise to search for a faint signal from the universe before the first stars existed.",
-          "published": "2026-09-29T03:45:39+00:00",
           "regional": false
         },
         {
