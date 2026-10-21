@@ -162,38 +162,32 @@ FEEDS += [
         '"Botho University" OR "Academic City University" OR "Zamorano University" OR '
         '"London Interdisciplinary School" OR "Atria University" OR "Newstate University"'),
 
-    # --- Future Universities Alliance network: established members ---
+    # --- Future Universities Alliance network: established universities in
+    #     the official Innovation Sandbox cohort (Pathways 2 and 3) ---
     # Large universities appear in the news daily, so their queries carry
     # a qualifier that keeps results to institutional and teaching news.
     google_news_feed("FUA network sweep 1 (via GN)",
         '"Duke University" ("higher education" OR "new program" OR "new degree" OR "new school" OR launches OR partnership OR innovation)', watchlist_only=True),
     google_news_feed("FUA network sweep 2 (via GN)",
-        '("Stanford University" OR "University of Pennsylvania") ("higher education" OR "new program" OR "new degree" OR "new school" OR launches OR partnership OR innovation)',
-        watchlist_only=True),
+        '("Georgetown University" OR "Northeastern University" OR '
+        '"University of North Texas") ("higher education" OR "new program" OR "new degree" OR "new school" OR launches OR partnership OR innovation)', watchlist_only=True),
     google_news_feed("FUA network sweep 3 (via GN)",
-        '("Arizona State University" OR "University of Texas at Austin" OR '
-        '"Georgetown University") ("higher education" OR "new program" OR "new degree" OR "new school" OR launches OR partnership OR innovation)', watchlist_only=True),
-    google_news_feed("FUA network sweep 4 (via GN)",
-        '("Northeastern University" OR "George Washington University" OR '
-        '"North Carolina State University" OR "University of North Texas") '
-        '("higher education" OR "new program" OR "new degree" OR "new school" OR launches OR partnership OR innovation)', watchlist_only=True),
-    google_news_feed("FUA network sweep 5 (via GN)",
-        '("University of Nebraska" OR "Tecnológico de Monterrey" OR '
-        '"Tec de Monterrey" OR "Chulalongkorn University" OR "UNC System") '
-        '("higher education" OR "new program" OR "new degree" OR "new school" OR launches OR partnership OR innovation)', watchlist_only=True),
+        '("University of Nebraska" OR "Chulalongkorn University" OR '
+        '"Tecnológico de Monterrey" OR "Tec de Monterrey") ("higher education" OR "new program" OR "new degree" OR "new school" OR launches OR partnership OR innovation)',
+        watchlist_only=True),
     # smaller members: any news that names them
+    google_news_feed("FUA network sweep 4 (via GN)",
+        '"Bard College" OR "Lehigh University" OR "Montclair State University" OR '
+        '"Drew University" OR "Mercy University" OR "UNC Asheville" OR '
+        '"University of North Carolina Asheville"', watchlist_only=True),
+    google_news_feed("FUA network sweep 5 (via GN)",
+        '"Vermont State Colleges" OR "Vermont State University" OR '
+        '"Harper Adams University" OR "James Cook University" OR '
+        '"Western Sydney University" OR "Elmbridge University"', watchlist_only=True),
     google_news_feed("FUA network sweep 6 (via GN)",
-        '"Duke Kunshan University" OR "Bard College" OR "Lehigh University" OR '
-        '"Montclair State University" OR "Drew University" OR "Mercy University" OR '
-        '"Pomona College"', watchlist_only=True),
-    google_news_feed("FUA network sweep 7 (via GN)",
-        '"Wesleyan University" OR "North Carolina Central University" OR '
-        '"UNC Asheville" OR "Vermont State University" OR "Elmbridge University" OR '
-        '"Harper Adams University"', watchlist_only=True),
-    google_news_feed("FUA network sweep 8 (via GN)",
-        '"James Cook University" OR "Western Sydney University" OR '
         '"Singapore Management University" OR "Universidad Francisco de Vitoria" OR '
-        '"University of Central Punjab"', watchlist_only=True),
+        '"University of Central Punjab" OR "Duke Kunshan University" OR '
+        '"Pomona College" OR "Soka University of America"', watchlist_only=True),
 
     # --- members' own websites (institutional newsrooms indexed by Google
     #     News); stories are matched to an institution by their web domain
@@ -206,22 +200,18 @@ FEEDS += [
         "site:ozyegin.edu.tr OR site:um6p.ma OR site:udst.edu.qa OR "
         "site:zamorano.edu OR site:habib.edu.pk OR site:plaksha.edu.in OR "
         "site:ahduni.edu.in OR site:atriauniversity.edu.in OR site:acity.edu.gh OR "
-        "site:minerva.edu OR site:soka.edu", watchlist_only=True),
+        "site:minerva.edu", watchlist_only=True),
     google_news_feed("FUA member sites sweep 1 (via GN)",
-        "site:dukekunshan.edu.cn OR site:bard.edu OR site:lehigh.edu OR "
-        "site:montclair.edu OR site:drew.edu OR site:mercy.edu OR "
-        "site:pomona.edu OR site:wesleyan.edu", watchlist_only=True),
+        "site:bard.edu OR site:lehigh.edu OR site:montclair.edu OR site:drew.edu OR "
+        "site:mercy.edu OR site:unca.edu OR site:vermontstate.edu", watchlist_only=True),
     google_news_feed("FUA member sites sweep 2 (via GN)",
-        "site:nccu.edu OR site:unca.edu OR site:vermontstate.edu OR "
         "site:harper-adams.ac.uk OR site:jcu.edu.au OR site:westernsydney.edu.au OR "
-        "site:smu.edu.sg OR site:ufv.es OR site:ucp.edu.pk", watchlist_only=True),
+        "site:smu.edu.sg OR site:ufv.es OR site:ucp.edu.pk OR "
+        "site:dukekunshan.edu.cn OR site:pomona.edu OR site:soka.edu",
+        watchlist_only=True),
     google_news_feed("FUA member sites sweep 3 (via GN)",
-        "(site:duke.edu OR site:stanford.edu OR site:upenn.edu OR site:utexas.edu) "
-        '("higher education" OR "new program" OR "new degree" OR "new school" OR launches OR partnership OR innovation)', watchlist_only=True),
-    google_news_feed("FUA member sites sweep 4 (via GN)",
-        "(site:asu.edu OR site:georgetown.edu OR site:northeastern.edu OR "
-        "site:gwu.edu OR site:ncsu.edu OR site:unt.edu OR site:unl.edu OR "
-        "site:tec.mx OR site:chula.ac.th OR site:northcarolina.edu) "
+        "(site:duke.edu OR site:georgetown.edu OR site:northeastern.edu OR "
+        "site:unt.edu OR site:unl.edu OR site:chula.ac.th OR site:tec.mx) "
         '("higher education" OR "new program" OR "new degree" OR "new school" OR launches OR partnership OR innovation)', watchlist_only=True),
 ]
 
@@ -245,7 +235,7 @@ WATCHLIST = [
     "southern university of science and technology", "sustech",
     "shanghaitech", "shenzhen technology university",
     # United States
-    "minerva university", "olin college", "soka university",
+    "minerva university", "olin college",
     "harrisburg university", "nevada state university",
     "georgia gwinnett", "florida polytechnic", "florida poly",
     # Future Universities Alliance Sandbox cohort (safe name forms -
@@ -274,7 +264,12 @@ def watchlist_hit(story):
     like an education story - the second test stops name collisions
     (athletes, businesses, places) from leaking into the channel."""
     text = (story["title"] + " " + story["summary"]).lower()
-    if not any(keyword_present(name, text) for name in WATCHLIST):
+    # broad dailies and search feeds must name the school in the headline,
+    # so a passing mention deep in a story is not enough
+    where = story["title"].lower() if story.get("watchlist_only") else text
+    if not any(keyword_present(name, where) for name in WATCHLIST):
+        return False
+    if any(keyword_present(t, text) for t in SPORTS_TERMS):
         return False
     lenient_terms = TOPIC_TERMS + ["education", "school", "institute",
                                    "learning", "scholar"]
@@ -290,63 +285,46 @@ STARTUP_DOMAINS = [
     "lis.ac.uk", "musizifoundation.org", "code.berlin", "ozyegin.edu.tr",
     "um6p.ma", "udst.edu.qa", "zamorano.edu", "habib.edu.pk",
     "plaksha.edu.in", "ahduni.edu.in", "atriauniversity.edu.in",
-    "acity.edu.gh", "minerva.edu", "soka.edu", "krea.edu.in",
+    "acity.edu.gh", "minerva.edu", "krea.edu.in",
     "ashesi.edu.gh", "fulbright.edu.vn", "alueducation.com",
     "harrisburgu.edu", "floridapoly.edu",
 ]
 
-# Future Universities Alliance network: the established universities
-# that joined the Alliance's October 2026 Global Summit. (The summit's
-# startup institutions are already on the WATCHLIST above and keep going
-# to the Startups channel.) Stories naming a member go to the FUA
-# Network channel.
+# Future Universities Alliance network: the established universities in
+# the Alliance's official Innovation Sandbox cohort (Pathway 2, "New
+# Initiatives in Existing Institutions", and Pathway 3, "Amplifying
+# Signature Innovations"), plus Elmbridge University, a Sandbox
+# participant at the October 2026 summit, and four institutions close to
+# the Alliance: Tecnologico de Monterrey, Duke Kunshan University, Pomona
+# College, and Soka University of America. Cohort members that are also
+# on the startup WATCHLIST above (Habib, Plaksha, UM6P and others) keep
+# going to the Startups channel. Stories naming a member below go to the
+# FUA Network channel.
 #   tier "strict": large universities with heavy daily news - a story
 #                  must also be about institutional change or teaching
 #                  innovation, not sports, hospitals, or lab results
 #   tier "open":   smaller members - any higher-education story counts
 FUA_NETWORK = [
     {"names": ["duke university"], "domain": "duke.edu", "tier": "strict"},
-    {"names": ["stanford university"], "domain": "stanford.edu", "tier": "strict"},
-    {"names": ["university of pennsylvania", "upenn"], "domain": "upenn.edu",
-     "tier": "strict"},
-    {"names": ["university of texas at austin", "ut austin", "ut-austin"],
-     "domain": "utexas.edu", "tier": "strict"},
-    {"names": ["arizona state university"], "domain": "asu.edu", "tier": "strict"},
     {"names": ["georgetown university"], "domain": "georgetown.edu", "tier": "strict"},
     {"names": ["northeastern university"], "domain": "northeastern.edu",
      "tier": "strict"},
-    {"names": ["george washington university", "gwu"], "domain": "gwu.edu",
-     "tier": "strict"},
-    {"names": ["north carolina state university", "nc state university"],
-     "domain": "ncsu.edu", "tier": "strict"},
     {"names": ["university of north texas"], "domain": "unt.edu", "tier": "strict"},
-    {"names": ["university of nebraska-lincoln", "university of nebraska–lincoln",
+    {"names": ["university of nebraska-lincoln", "university of nebraska\u2013lincoln",
                "university of nebraska lincoln"], "domain": "unl.edu",
      "tier": "strict"},
-    {"names": ["tecnológico de monterrey", "tecnologico de monterrey",
-               "tec de monterrey", "monterrey tech"], "domain": "tec.mx",
-     "tier": "strict"},
     {"names": ["chulalongkorn university"], "domain": "chula.ac.th", "tier": "strict"},
-    {"names": ["unc system", "university of north carolina system"],
-     "domain": "northcarolina.edu", "tier": "strict"},
-    {"names": ["duke kunshan university", "duke kunshan"],
-     "domain": "dukekunshan.edu.cn", "tier": "open"},
     {"names": ["bard college"], "domain": "bard.edu", "tier": "open"},
     {"names": ["lehigh university"], "domain": "lehigh.edu", "tier": "open"},
     {"names": ["montclair state university", "montclair state"],
      "domain": "montclair.edu", "tier": "open"},
     {"names": ["drew university"], "domain": "drew.edu", "tier": "open"},
     {"names": ["mercy university"], "domain": "mercy.edu", "tier": "open"},
-    {"names": ["pomona college"], "domain": "pomona.edu", "tier": "open"},
-    {"names": ["wesleyan university"], "domain": "wesleyan.edu", "tier": "open"},
-    {"names": ["north carolina central university"],
-     "domain": "nccu.edu", "tier": "open"},
     {"names": ["unc asheville", "university of north carolina asheville",
                "university of north carolina at asheville"],
      "domain": "unca.edu", "tier": "open"},
     {"names": ["vermont state university", "vermont state colleges"],
      "domain": "vermontstate.edu", "tier": "open"},
-    {"names": ["elmbridge university"], "domain": None, "tier": "open"},
     {"names": ["harper adams university"], "domain": "harper-adams.ac.uk",
      "tier": "open"},
     {"names": ["james cook university"], "domain": "jcu.edu.au", "tier": "open"},
@@ -358,20 +336,20 @@ FUA_NETWORK = [
      "domain": "ufv.es", "tier": "open"},
     {"names": ["university of central punjab"], "domain": "ucp.edu.pk",
      "tier": "open"},
+    {"names": ["elmbridge university"], "domain": None, "tier": "open"},
+    {"names": ["tecnológico de monterrey", "tecnologico de monterrey",
+               "tec de monterrey", "monterrey tech"], "domain": "tec.mx",
+     "tier": "strict"},
+    {"names": ["duke kunshan university", "duke kunshan"],
+     "domain": "dukekunshan.edu.cn", "tier": "open"},
+    {"names": ["pomona college"], "domain": "pomona.edu", "tier": "open"},
+    {"names": ["soka university of america"], "domain": "soka.edu",
+     "tier": "open"},
 ]
 
 # Names that sit inside other institutions' names: a match is ignored
 # when one of these longer phrases is what the story actually says.
 NAME_EXCLUSIONS = {
-    "university of pennsylvania": ["indiana university of pennsylvania",
-                                   "california university of pennsylvania"],
-    "wesleyan university": ["ohio wesleyan", "illinois wesleyan",
-                            "kentucky wesleyan", "indiana wesleyan",
-                            "iowa wesleyan", "nebraska wesleyan",
-                            "texas wesleyan", "virginia wesleyan",
-                            "kansas wesleyan", "oklahoma wesleyan",
-                            "tennessee wesleyan", "dakota wesleyan",
-                            "north carolina wesleyan"],
     "mercy university": ["mercy university hospital"],
     "james cook university": ["james cook university hospital"],
 }
@@ -406,30 +384,46 @@ def domain_matches(domain, target):
 def startup_site_hit(story):
     """True when a story was published on a startup institution's site."""
     domain = site_domain(story.get("origin", ""))
-    return any(domain_matches(domain, d) for d in STARTUP_DOMAINS)
+    if not any(domain_matches(domain, d) for d in STARTUP_DOMAINS):
+        return False
+    text = (story["title"] + " " + story["summary"]).lower()
+    return not any(keyword_present(t, text) for t in SPORTS_TERMS)
 
 
 def network_tier(story, text):
-    """The tier of the FUA member a story concerns, or None."""
+    """The tier of the FUA member a story concerns, and how it was found
+    ("title", "text" or "site"), or (None, None)."""
     domain = site_domain(story.get("origin", ""))
-    found = None
+    title = story["title"].lower()
+    best = (None, None)
     for member in FUA_NETWORK:
-        named = any(keyword_present(n, text)
-                    and not any(x in text for x in NAME_EXCLUSIONS.get(n, []))
-                    for n in member["names"])
-        if named or domain_matches(domain, member["domain"]):
-            if member["tier"] == "open":
-                return "open"
-            found = "strict"
-    return found
+        def named_in(where):
+            return any(keyword_present(n, where)
+                       and not any(x in text for x in NAME_EXCLUSIONS.get(n, []))
+                       for n in member["names"])
+        if named_in(title):
+            how = "title"
+        elif named_in(text):
+            how = "text"
+        elif domain_matches(domain, member["domain"]):
+            how = "site"
+        else:
+            continue
+        if member["tier"] == "open":
+            return ("open", how)
+        best = ("strict", how)
+    return best
 
 
 def network_hit(story):
     """True when a story concerns an FUA network member and passes that
     member's tier test."""
     text = (story["title"] + " " + story["summary"]).lower()
-    tier = network_tier(story, text)
+    tier, how = network_tier(story, text)
     if not tier:
+        return False
+    # broad dailies and search feeds must name the member in the headline
+    if how == "text" and story.get("watchlist_only"):
         return False
     if any(keyword_present(t, text) for t in SPORTS_TERMS):
         return False
@@ -437,16 +431,22 @@ def network_hit(story):
                                    "learning", "scholar"]
     if not any(term in text for term in lenient_terms):
         return False
-    if tier == "open":
-        return True
-    if any(keyword_present(t, text) for t in MEDICAL_TERMS):
-        return False
     strict_signals = INSTITUTION_SIGNALS + [
         "higher education", "future of higher education",
         "future universities", "teaching and learning", "student success",
         "provost", "new model"]
-    return (any(keyword_present(s, text) for s in strict_signals)
-            or offering_signal(text))
+    has_signal = (any(keyword_present(s, text) for s in strict_signals)
+                  or offering_signal(text))
+    # a post found only through its website (homecoming notes, event
+    # pages) must be about programs, partnerships or institutional change
+    if how == "site":
+        return has_signal and not any(keyword_present(t, text)
+                                      for t in MEDICAL_TERMS)
+    if tier == "open":
+        return True
+    if any(keyword_present(t, text) for t in MEDICAL_TERMS):
+        return False
+    return has_signal
 
 
 # Signals that a story is about building, changing, or founding
@@ -530,8 +530,8 @@ CATEGORIES = [
         # filled by network_hit() and by FUA's own posts, not by keywords
         "id": "fua",
         "title": "Future Universities Alliance Network",
-        "blurb": ("News from the universities of the Future Universities Alliance "
-                  "summit - how established institutions are reinventing themselves "
+        "blurb": ("News from the established universities of the Future Universities "
+                  "Alliance and its Innovation Sandbox - how they are reinventing themselves "
                   "alongside the startups. Startup members appear under New Startup "
                   "Universities."),
         "color": "#E07A5F",
@@ -671,6 +671,14 @@ USER_AGENT = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
 
 # Stories whose HEADLINE contains any of these are skipped entirely -
 # they are exam administration and contest noise, not institution news.
+# Web pages that are not news, sometimes picked up from university sites.
+PAGE_NOISE_TERMS = [
+    "student catalog", "course catalog", "academic catalog", "catalogue",
+    "endnote", "citation manager", "referencing", "libguides",
+    "research guide", "library guide", "privacy policy", "terms of use",
+    "cookie policy", "contact us", "frequently asked questions",
+]
+
 NOISE_TERMS = [
     "admit card", "answer key", "exam date", "exam dates", "hall ticket",
     "school assembly", "olympiad", "cut-off", "cutoff", "result declared",
@@ -879,6 +887,11 @@ def categorize(stories):
         seen_titles.add(title_key)
         title = story["title"].lower()
         if any(keyword_present(t, title) for t in NOISE_TERMS):
+            continue
+        if any(keyword_present(t, title) for t in PAGE_NOISE_TERMS):
+            continue
+        # search results titled with one or two words are pages, not news
+        if story.get("origin") and len(title.split()) < 3:
             continue
         # institutional newsrooms: every story is about the institution
         if story.get("assign"):
