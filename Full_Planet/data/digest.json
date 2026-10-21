@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-20T13:58:27.054271+00:00",
-  "generated_human": "20 October 2026, 13:58 UTC",
-  "total_items": 125,
+  "generated": "2026-10-21T14:14:24.999003+00:00",
+  "generated_human": "21 October 2026, 14:14 UTC",
+  "total_items": 122,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "How Wikipedia’s Editors Keep the Online Encyclopedia Human-Written",
+          "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+          "source": "IEEE Spectrum",
+          "summary": "Ellia Lebleu is a founding member of the WikiProject AI Cleanup , a volunteer effort launched in 2023 to find and remove AI-generated material from Wikipedia that breaks the website’s guidelines.",
+          "published": "2026-10-21T13:00:02+00:00",
+          "regional": false
+        },
         {
           "title": "A visit to Samsung’s massive new semiconductor hub",
           "link": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
@@ -42,14 +50,6 @@
           "regional": false
         },
         {
-          "title": "Amateur astronomer harnesses AI to find a possible hidden exoplanet",
-          "link": "https://www.scientificamerican.com/article/amateur-astronomer-harnesses-ai-to-find-a-possible-hidden-exoplanet/",
-          "source": "Scientific American",
-          "summary": "Evidence for this possible super-Earth has been lurking for years in NASA data. Pavel Rabtsevich found it—with a little help from AI",
-          "published": "2026-10-14T11:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Is ‘Attention’ the Essence of Intelligence?",
           "link": "https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/",
           "source": "Quanta Magazine",
@@ -74,20 +74,28 @@
           "regional": false
         },
         {
-          "title": "AI breakthroughs in robotics won’t change your life any time soon",
-          "link": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
-          "source": "MIT Technology Review",
-          "summary": "The story is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation that creates and supports content about how technology and science are changing the way we live.",
-          "published": "2026-10-08T09:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "AI Solves a Major Unsolved Math Problem. Not Everyone Is Happy",
           "link": "https://spectrum.ieee.org/millennium-prize-ai",
           "source": "IEEE Spectrum",
           "summary": "On 13 September, leading luminaries and up-and-coming talents in mathematics and computer science congregated at the annual Heidelberg Laureate Forum in Germany for a week of discussion, networking, and—naturally—wurst.",
           "published": "2026-10-05T12:00:02+00:00",
           "regional": false
+        },
+        {
+          "title": "Washington’s DeepSeek ban may deter US firms from adopting Chinese AI models: experts",
+          "link": "https://www.scmp.com/tech/big-tech/article/3371649/washingtons-deepseek-ban-may-deter-us-firms-adopting-chinese-ai-models-experts",
+          "source": "South China Morning Post",
+          "summary": "The US government’s latest ban on Chinese artificial intelligence start-up DeepSeek could have a chilling effect on the wider American business community and deter companies from adopting low-cost Chinese AI models,…",
+          "published": "2026-10-21T14:00:12+00:00",
+          "regional": true
+        },
+        {
+          "title": "DeepSeek seeks ‘total victory’ over closed-source AI with new open-source tool",
+          "link": "https://www.scmp.com/tech/big-tech/article/3371592/deepseek-open-sources-new-tool-slash-ai-costs-fight-against-closed-source-rivals",
+          "source": "South China Morning Post",
+          "summary": "Chinese artificial intelligence start-up DeepSeek has fully open-sourced an internally developed framework designed to run AI models efficiently, as a senior researcher at the company described the growing divide…",
+          "published": "2026-10-21T05:03:27+00:00",
+          "regional": true
         },
         {
           "title": "China creates state-owned firm in Xiongan to develop nation’s AI data resources",
@@ -146,27 +154,11 @@
           "regional": true
         },
         {
-          "title": "LIVESTREAM: Maria Ressa, WNYC’s Brian Lehrer discuss democracy in the age of AI",
-          "link": "https://www.rappler.com/technology/livestream-maria-ressa-wnyc-brian-lehrer-democracy-age-of-ai/",
-          "source": "Rappler",
-          "summary": "Nobel Peace Prize laureate Maria Ressa joins WNYC's Brian Lehrer for a live conversation on defending and rebuilding democracy in the age of artificial intelligence",
-          "published": "2026-10-15T12:28:09+00:00",
-          "regional": true
-        },
-        {
           "title": "Z.ai’s GLM-5.3 raises researcher fears the Chinese model can fake AI safety tests",
           "link": "https://www.scmp.com/tech/big-tech/article/3370963/zais-glm-53-raises-researcher-fears-chinese-model-can-fake-ai-safety-tests",
           "source": "South China Morning Post",
           "summary": "Chinese artificial intelligence lab Z.ai’s latest flagship model, GLM-5.3, may be sophisticated enough to “fake” its way through safety tests, according to a new report published Thursday, sparking new fears about the…",
           "published": "2026-10-15T10:00:11+00:00",
-          "regional": true
-        },
-        {
-          "title": "China approves Alibaba AI models for use in iPhone Duo and other Apple handsets",
-          "link": "https://www.scmp.com/tech/big-tech/article/3370893/china-approves-alibaba-ai-models-use-iphone-duo-and-other-apple-handsets",
-          "source": "South China Morning Post",
-          "summary": "China has granted approval for Alibaba Group Holding’s artificial intelligence models to be integrated into several Apple handsets, including the new iPhone Duo, in the Chinese market, clearing a key regulatory hurdle…",
-          "published": "2026-10-14T11:06:20+00:00",
           "regional": true
         }
       ]
@@ -298,19 +290,35 @@
           "regional": false
         },
         {
+          "title": "Seoul stocks rebound over 3% on eased AI spending woes",
+          "link": "https://www.koreaherald.com/article/10910314",
+          "source": "The Korea Herald",
+          "summary": "South Korean stocks rebounded Wednesday, recovering from the previous session's steep losses as semiconductor shares rallied on easing concerns over artificial intelligence spending.",
+          "published": "2026-10-21T07:09:17+00:00",
+          "regional": true
+        },
+        {
+          "title": "China talks up EUV progress, but gap with ASML remains wide",
+          "link": "https://www.koreaherald.com/article/10910205",
+          "source": "The Korea Herald",
+          "summary": "China is touting a breakthrough in one of the semiconductor industry's toughest technologies: extreme ultraviolet lithography. But how close is it really to challenging global chipmaking leaders?",
+          "published": "2026-10-21T06:21:14+00:00",
+          "regional": true
+        },
+        {
+          "title": "Infrared imaging reveals protein structure distribution in living nematodes",
+          "link": "https://sj.jst.go.jp/news/202610/n1021-03k.html",
+          "source": "Science Japan",
+          "summary": "A research group led by Nodoka Wakita, a second-year master's student in the Program of Life and Materials Chemistry at Nagoya Institute of Technology, Assistant Professor Tatsuro Nishikino and Associate Professor Yuji…",
+          "published": "2026-10-21T04:42:31+00:00",
+          "regional": true
+        },
+        {
           "title": "Magnetic \"waves\" discovered in uranium semiconductor open path to magnetic control of layered materials",
           "link": "https://sj.jst.go.jp/news/202610/n1019-01k.html",
           "source": "Science Japan",
           "summary": "Senior Scientist Hironori Sakai and Group Leader Yo Tokunaga of the Strongly Correlated Actinide Science Group, together with Group Leader Koji Kaneko of the Strongly Correlated Materials Research Group at the Nuclear…",
           "published": "2026-10-19T06:25:12+00:00",
-          "regional": true
-        },
-        {
-          "title": "SK hynix launches W2tr financing program to bolster chip suppliers",
-          "link": "https://www.koreaherald.com/article/10907390",
-          "source": "The Korea Herald",
-          "summary": "SK hynix has launched a 2 trillion won ($1.5 billion) financing program with major commercial banks and a state-run trade insurer to help domestic semiconductor suppliers secure affordable funding and strengthen Korea's…",
-          "published": "2026-10-19T06:02:27+00:00",
           "regional": true
         },
         {
@@ -354,22 +362,6 @@
           "regional": true
         },
         {
-          "title": "ASML eyes hybrid bonding, report finds, as Chinese firms adopt chip packaging technique",
-          "link": "https://www.scmp.com/tech/tech-trends/article/3371181/asml-eyes-hybrid-bonding-report-finds-chinese-firms-adopt-chip-packaging-technique",
-          "source": "South China Morning Post",
-          "summary": "Dutch semiconductor equipment giant ASML is expanding into next-generation hybrid bonding, a technique that creates dense electrical connections by directly joining chips or silicon wafers, according to a new report.",
-          "published": "2026-10-16T12:30:12+00:00",
-          "regional": true
-        },
-        {
-          "title": "TSMC confirms talks with Elon Musk over Texas ‘Terafab’ but insists on operational control",
-          "link": "https://www.scmp.com/tech/big-tech/article/3371010/tsmc-confirms-talks-elon-musk-over-texas-terafab-insists-operational-control",
-          "source": "South China Morning Post",
-          "summary": "Taiwan Semiconductor Manufacturing Co (TSMC) is in discussions regarding a potential role in Elon Musk’s proposed Terafab project in Texas, according to company chairman and CEO C.C.",
-          "published": "2026-10-15T09:31:35+00:00",
-          "regional": true
-        },
-        {
           "title": "Japanese Scientist Kenso Soai Wins Chemistry Nobel Prize With French Scientist Henri B. Kagan",
           "link": "https://www.asianscientist.com/2026/10/topnews/japanese-scientist-kenso-soai-wins-chemistry-nobel-prize-with-french-scientist-henri-b-kagan/",
           "source": "Asian Scientist",
@@ -385,14 +377,6 @@
       "tagline": "Engineered organisms and programmed DNA — cells built for computing, data storage, and chemical synthesis.",
       "accent": "#5FBF9B",
       "items": [
-        {
-          "title": "Claude just found a CRISPR-like DNA pattern, but even Anthropic's scientists aren't sure what it does",
-          "link": "https://www.scientificamerican.com/article/claude-just-found-a-crispr-like-dna-pattern-but-even-anthropics-scientists-arent-sure-what-it-does/",
-          "source": "Scientific American",
-          "summary": "The large language model took less than a day to identify the curious stretch of DNA",
-          "published": "2026-10-14T10:00:00+00:00",
-          "regional": false
-        },
         {
           "title": "NASA-backed scientists turn plastic waste into edible cookies",
           "link": "https://www.sciencedaily.com/releases/2026/09/260912220033.htm",
@@ -418,14 +402,6 @@
       "accent": "#33C6D6",
       "items": [
         {
-          "title": "Turning the tides: Could hidden sea power energise our coastal towns?",
-          "link": "https://www.bbc.co.uk/news/articles/c8y56y6xg9n9o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Engineer David Mummery has developed a tidal energy generator that he says can change lives for people living in coastal communities.",
-          "published": "2026-10-18T08:12:24+00:00",
-          "regional": false
-        },
-        {
           "title": "Scientists may have found a shortcut to fusion energy",
           "link": "https://www.sciencedaily.com/releases/2026/10/261008005242.htm",
           "source": "ScienceDaily",
@@ -450,6 +426,14 @@
           "regional": false
         },
         {
+          "title": "Being a good doctor is risky in India",
+          "link": "https://www.thehindu.com/sci-tech/health/being-a-good-doctor-is-risky-in-india/article71599608.ece",
+          "source": "The Hindu",
+          "summary": "When people cannot access adequate food, clean water, or timely healthcare, can the solution to their illness really end with a prescription?",
+          "published": "2026-10-21T07:19:56+00:00",
+          "regional": true
+        },
+        {
           "title": "BYD surges to No. 4 in Korea's imported car market",
           "link": "https://www.koreaherald.com/article/10908721",
           "source": "The Korea Herald",
@@ -463,14 +447,6 @@
           "source": "The Korea Herald",
           "summary": "Mercedes-Benz is ramping up its electrification push in South Korea, with the debut of the all-new electric CLA sedan and GLC SUV in the country’s fiercely competitive electric vehicle market.",
           "published": "2026-10-19T08:51:41+00:00",
-          "regional": true
-        },
-        {
-          "title": "Being a good doctor is risky in India",
-          "link": "https://www.thehindu.com/sci-tech/health/being-a-good-doctor-is-risky-in-india/article71599608.ece",
-          "source": "The Hindu",
-          "summary": "When people cannot access adequate food, clean water, or timely healthcare, can the solution to their illness really end with a prescription?",
-          "published": "2026-10-19T01:21:31+00:00",
           "regional": true
         },
         {
@@ -538,11 +514,75 @@
       "accent": "#F0894E",
       "items": [
         {
-          "title": "Lunar Link complete and ready for a new adventure",
-          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Lunar_Link_complete_and_ready_for_a_new_adventure",
-          "source": "ESA",
-          "summary": "ESA’s Lunar Link telecommunications element has completed its final major integration and testing campaign at Thales Alenia Space in Cannes, France.",
-          "published": "2026-10-20T12:00:00+00:00",
+          "title": "NASA’s CASALS Instrument Bridges Gaps in 3D Maps of Earth’s Surface",
+          "link": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/",
+          "source": "NASA",
+          "summary": "From orbit, today’s space-based laser instruments measure Earth’s forests and terrain one narrow line at a time.",
+          "published": "2026-10-21T12:17:58+00:00",
+          "regional": false
+        },
+        {
+          "title": "Astronaut surprise video leaves pupils starstruck",
+          "link": "https://www.bbc.co.uk/news/articles/cmvg9vlgxkv8o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "The surprise came after a teacher's father met Peake while working on a cruise ship.",
+          "published": "2026-10-21T11:55:19+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Perseverance Mars rover just shattered the all-time off-world driving record",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261020084818.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA’s Perseverance rover has shattered a historic space exploration record, traveling farther across another world than any vehicle before it.",
+          "published": "2026-10-21T09:22:36+00:00",
+          "regional": false
+        },
+        {
+          "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+          "link": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
+          "published": "2026-10-21T08:42:49+00:00",
+          "regional": false
+        },
+        {
+          "title": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
+          "link": "https://www.bbc.co.uk/news/articles/cr93z1e87e0do?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Musk says there's \"a lot to be gained\" by combining the firms in what would be the biggest merger in history.",
+          "published": "2026-10-21T06:36:39+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s SR-1 Freedom Advances with Progress on Nuclear Power Module",
+          "link": "https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module/",
+          "source": "NASA",
+          "summary": "Destined for Mars and beyond, NASA’s Space Reactor-1 (SR-1) Freedom will be humanity’s first fission-powered spacecraft to travel outside Earth’s orbit.",
+          "published": "2026-10-20T18:11:33+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Experimental Mars Helicopter Blade Designs Target Longer Flights",
+          "link": "https://www.nasa.gov/science-research/aeronautics-research/nasa-experimental-mars-helicopter-blade-designs-target-longer-flights/",
+          "source": "NASA",
+          "summary": "NASA researchers are developing the future of flight on Mars, laying the groundwork for helicopters with the ability to fly higher and farther while conducting science on the Red Planet.",
+          "published": "2026-10-20T16:02:35+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Provides Progress Update on Moon Base Rovers",
+          "link": "https://www.nasa.gov/missions/moon-base/nasa-provides-progress-update-on-moon-base-rovers/",
+          "source": "NASA",
+          "summary": "As NASA works to build the Moon Base, crewed and robotic lunar rovers will play a crucial role during early development through technology demonstrations, astronaut transport, terrain mapping, scientific investigations,…",
+          "published": "2026-10-20T15:00:10+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Welcomes Uzbekistan as Newest Artemis Accords Signatory",
+          "link": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-uzbekistan-as-newest-artemis-accords-signatory/",
+          "source": "NASA",
+          "summary": "The Republic of Uzbekistan became the 77th signatory of the Artemis Accords during a ceremony in Samarkand on Monday, committing to the practical principles that guide safe, transparent, and responsible civil space…",
+          "published": "2026-10-20T14:21:42+00:00",
           "regional": false
         },
         {
@@ -562,27 +602,11 @@
           "regional": false
         },
         {
-          "title": "NASA Improves Shock, Vibration Analysis",
-          "link": "https://www.nasa.gov/centers-and-facilities/kennedy/nasa-improves-shock-vibration-analysis/",
-          "source": "NASA",
-          "summary": "Rockets vibrate, shake, and flex intensely as they climb into space, and spacecraft packed with delicate scientific instruments must survive those forces.",
-          "published": "2026-10-19T19:28:32+00:00",
-          "regional": false
-        },
-        {
           "title": "Alarm grows over Russian satellite’s provocative approach to U.S.-owned satellite",
           "link": "https://www.scientificamerican.com/article/alarm-grows-over-russian-satellites-provocative-approach-to-u-s-owned-satellite/",
           "source": "Scientific American",
           "summary": "How close is too close for encounters between sensitive spacecraft orbiting Earth? With a mysterious approach to another satellite, Russia’s military may be trying to find out",
           "published": "2026-10-19T18:30:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Simulated Mars Crew Marks One Year Inside Habitat",
-          "link": "https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/",
-          "source": "NASA",
-          "summary": "The four crew members in NASA’s simulated Mars mission have spent the past year living and working in isolation in a confined habitat at NASA’s Johnson Space Center in Houston.",
-          "published": "2026-10-19T18:01:51+00:00",
           "regional": false
         },
         {
@@ -618,59 +642,11 @@
           "regional": false
         },
         {
-          "title": "Small lunar missions, big ambitions",
-          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Small_lunar_missions_big_ambitions",
-          "source": "ESA",
-          "summary": "Europe is preparing for a future in which astronauts, robots and scientific instruments work on and around the Moon.",
-          "published": "2026-10-16T08:05:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Press conference: ESA astronaut Sophie Adenot returns to Europe",
-          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Press_conference_ESA_astronaut_Sophie_Adenot_returns_to_Europe",
-          "source": "ESA",
-          "summary": "Video: 00:59:23 ESA astronaut Sophie Adenot has returned to Europe following her 237-day εpsilon mission aboard the International Space Station.",
-          "published": "2026-10-13T10:20:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "ExoMars rover twin rehearses first drive",
-          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ExoMars_rover_twin_rehearses_first_drive",
-          "source": "ESA",
-          "summary": "Before the Rosalind Franklin rover can explore Mars, it must first get off its lander.",
-          "published": "2026-10-12T09:30:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Preparing for a first drive on Mars",
-          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Preparing_for_a_first_drive_on_Mars",
-          "source": "ESA",
-          "summary": "Video: 00:01:45 Before Rosalind Franklin can explore Mars, it has to get off its lander. Engineers are rehearsing that first journey on Earth, using a full-size rover model and Mars-like terrain.",
-          "published": "2026-10-12T09:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA spots a giant patch of Moon-like rock on Earth",
           "link": "https://www.sciencedaily.com/releases/2026/10/261008102707.htm",
           "source": "ScienceDaily",
           "summary": "An astronaut aboard the International Space Station photographed a remarkable formation in Madagascar that looks surprisingly similar to the Moon’s bright highlands.",
           "published": "2026-10-11T15:30:06+00:00",
-          "regional": false
-        },
-        {
-          "title": "ESA astronaut Sophie Adenot returns from her first mission to the International Space Station",
-          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/ESA_astronaut_Sophie_Adenot_returns_from_her_first_mission_to_the_International_Space_Station",
-          "source": "ESA",
-          "summary": "ESA astronaut Sophie Adenot has arrived back in Europe, landing in Cologne, Germany, following her return to Earth with Crew-12 after 237 days, nearly eight months, aboard the International Space Station for her εpsilon…",
-          "published": "2026-10-10T09:01:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Farewell to the Fluid Science Laboratory after 18 years in orbit",
-          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Farewell_to_the_Fluid_Science_Laboratory_after_18_years_in_orbit",
-          "source": "ESA",
-          "summary": "On 9 October, astronauts on the International Space Station begin supporting the final decommissioning of ESA's Fluid Science Laboratory (FSL), one of the longest-serving scientific facilities inside Europe's Columbus…",
-          "published": "2026-10-09T10:00:00+00:00",
           "regional": false
         },
         {
@@ -698,51 +674,51 @@
           "regional": false
         },
         {
-          "title": "A guide to blood draws in orbit",
-          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/A_guide_to_blood_draws_in_orbit",
-          "source": "ESA",
-          "summary": "Video: 00:01:52 This video was published on social media by ESA astronaut Sophie Adenot with the following caption: Just another morning in space… this one starting with a blood draw!",
-          "published": "2026-10-02T10:30:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA's Perseverance Mars rover finds groundwater, lakes, and hot fluids in one place",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260928100537.htm",
+          "title": "This mysterious hole on the Moon may open into a giant cave",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261003234013.htm",
           "source": "ScienceDaily",
-          "summary": "NASA’s Perseverance rover has uncovered a surprisingly complicated history of water in Jezero Crater. Scientists expected the crater’s Margin Unit to contain lake sediments, but instead found ancient igneous rocks that…",
-          "published": "2026-09-30T11:34:31+00:00",
+          "summary": "NASA has selected the GIMLI project to investigate whether the Marius Hill Pit opens into a vast underground cave or lava tube.",
+          "published": "2026-10-05T04:47:40+00:00",
           "regional": false
         },
         {
-          "title": "Watch Live: NASA’s Crew-13 could make the fastest U.S. trip to the ISS ever",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260930020312.htm",
+          "title": "ESA’s Juice just used Earth as a slingshot to Jupiter",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261001214102.htm",
           "source": "ScienceDaily",
-          "summary": "NASA’s SpaceX Crew-13 mission is scheduled to launch four astronauts to the International Space Station on October 1.",
-          "published": "2026-09-30T08:36:42+00:00",
+          "summary": "ESA’s Juice spacecraft raced past Earth on September 28, using our planet’s gravity to dramatically reshape its path toward Jupiter without burning much fuel.",
+          "published": "2026-10-03T13:34:11+00:00",
           "regional": false
         },
         {
-          "title": "NASA’s Curiosity rover just hit 5,000 days on Mars and sent back this stunning view",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260928100556.htm",
+          "title": "Chang’e-6 lunar soil contains a surprising magnetic time capsule",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261001214015.htm",
           "source": "ScienceDaily",
-          "summary": "NASA’s Curiosity rover marked 5,000 Martian days by capturing morning and afternoon views that were blended into a striking Mars “postcard.” The panorama shows Curiosity, its tracks, and the enormous landscape…",
-          "published": "2026-09-30T04:34:34+00:00",
+          "summary": "Scientists studying Chang’e-6 lunar soil have discovered a previously unknown magnetic mineral in natural Moon samples: a form of metallic iron called γ-Fe.",
+          "published": "2026-10-03T13:12:14+00:00",
           "regional": false
         },
         {
-          "title": "Lee Moon Won Bio secures patent for hair-loss care platform",
-          "link": "https://www.koreaherald.com/article/10909017",
-          "source": "The Korea Herald",
-          "summary": "South Korean biotech firm Lee Moon Won Bio has secured a patent for a patient health monitoring system, bringing its portfolio of registered patents to 12 as it seeks to integrate hair-loss diagnosis, treatment and…",
-          "published": "2026-10-20T08:26:43+00:00",
+          "title": "NASA’s Roman telescope just opened its planet-hunting eye",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261001214057.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA’s Roman Space Telescope has demonstrated remarkable pointing stability and given its powerful planet-imaging coronagraph its first look at the cosmos.",
+          "published": "2026-10-02T12:21:30+00:00",
+          "regional": false
+        },
+        {
+          "title": "BYD launches second-generation Seagull from RMB 65,900 with flash charging on higher trims",
+          "link": "https://technode.com/2026/10/21/byd-launches-second-generation-seagull-from-rmb-65900-with-flash-charging-on-higher-trims/",
+          "source": "TechNode",
+          "summary": "BYD launched its second-generation Seagull electric hatchback in China on October 20, with five variants priced from RMB 65,900 to RMB 99,900.",
+          "published": "2026-10-21T07:46:08+00:00",
           "regional": true
         },
         {
-          "title": "India’s first solar mission Aditya-L1 generates Doppler velocity images of the solar corona",
-          "link": "https://www.thehindu.com/sci-tech/science/indias-first-solar-mission-aditya-l1-generates-doppler-velocity-images-of-the-solar-corona/article71603276.ece",
+          "title": "Elon Musk says he backs SpaceX-Tesla merger as rocket firm turns profit",
+          "link": "https://www.thehindu.com/sci-tech/technology/elon-musk-says-he-backs-spacex-tesla-merger-as-rocket-firm-turns-profit/article71606098.ece",
           "source": "The Hindu",
-          "summary": "these images are expected to provide information on the propagation of the coronal mass ejections along the Sun-Earth direction, which were unavailable till date",
-          "published": "2026-10-20T05:18:33+00:00",
+          "summary": "Elon Musk’s remarks came after SpaceX posted net income of $4.4 billion for the July-September period, compared with a loss of $1.1 billion a year earlier",
+          "published": "2026-10-21T04:00:04+00:00",
           "regional": true
         },
         {
@@ -817,6 +793,22 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "See the Orionids meteor shower at its peak this week",
+          "link": "https://www.scientificamerican.com/article/see-the-orionids-meteor-shower-at-its-peak-this-week/",
+          "source": "Scientific American",
+          "summary": "The shower’s shooting stars originate from Halley’s Comet",
+          "published": "2026-10-20T21:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Green stars do exist—and others shine pink or purple, too",
+          "link": "https://www.scientificamerican.com/article/green-stars-do-exist-and-others-shine-pink-or-purple-too/",
+          "source": "Scientific American",
+          "summary": "The colors of dead stars come in a surprising rainbow of choices",
+          "published": "2026-10-20T14:30:00+00:00",
+          "regional": false
+        },
         {
           "title": "Astronomers uncover new secrets of the Universe’s first five minutes",
           "link": "https://www.sciencedaily.com/releases/2026/10/261019093442.htm",
@@ -895,14 +887,6 @@
           "source": "Scientific American",
           "summary": "As far-fetched as it may seem, quirks of orbital mechanics could allow dozens of planets to be packed around a star",
           "published": "2026-10-16T10:45:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Amateur astronomer harnesses AI to find a possible hidden exoplanet",
-          "link": "https://www.scientificamerican.com/article/amateur-astronomer-harnesses-ai-to-find-a-possible-hidden-exoplanet/",
-          "source": "Scientific American",
-          "summary": "Evidence for this possible super-Earth has been lurking for years in NASA data. Pavel Rabtsevich found it—with a little help from AI",
-          "published": "2026-10-14T11:00:00+00:00",
           "regional": false
         },
         {
@@ -999,14 +983,6 @@
           "source": "ScienceDaily",
           "summary": "NASA’s Roman Space Telescope has demonstrated remarkable pointing stability and given its powerful planet-imaging coronagraph its first look at the cosmos.",
           "published": "2026-10-02T12:21:30+00:00",
-          "regional": false
-        },
-        {
-          "title": "Black hole jets may decide the fate of entire galaxies",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260928100527.htm",
-          "source": "ScienceDaily",
-          "summary": "Powerful jets from supermassive black holes can disturb star-forming gas far beyond a galaxy’s visible edge, leaving a glowing trail hundreds of thousands of light-years long.",
-          "published": "2026-09-30T10:51:59+00:00",
           "regional": false
         },
         {
