@@ -1,18 +1,10 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-10-21 15:12 PDT
-; Observing window starts 2026-10-21 19:34 PDT  (LST 20:45:15)
+; Generated 2026-10-22 15:12 PDT
+; Observing window starts 2026-10-22 19:34 PDT  (LST 20:49:12)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
 #TRACKON
-
-; Open Cluster  mag 4.2  size 24.60'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-IC 4665
 
 ; Nebula  mag 6.0  size 120.00'  Eagle Nebula
 #posang 0
@@ -30,6 +22,15 @@ M 16
 #filter r',Ha,OIII,SII
 IC 4703
 
+; Comet C/2024 J3 (ATLAS)  mag 13.9
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+CT C/2024 J3
+#WAITINLIMITS 60
+
 ; Open Cluster  mag 5.8  size 9.00'  Amas de l'Ecu de Sobieski,Wild Duck Cluster
 #posang 0
 #count 1,1,1,1
@@ -38,7 +39,7 @@ IC 4703
 #filter r',g',i',z'
 M 11
 
-; Comet C/2026 A2 (Bok)  mag 13.5
+; Comet C/2026 A2 (Bok)  mag 13.1
 #posang 0
 #count 3
 #interval 300
@@ -70,15 +71,6 @@ NGC 6822
 #binning 1
 #filter r'
 MP Juno
-#WAITINLIMITS 60
-
-; Comet 161P/Hartley-IRAS  mag 14.0
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT 161P/Hartley-IRAS
 #WAITINLIMITS 60
 
 ; Galaxy  mag 9.1  size 11.40'  Fireworks Galaxy
@@ -154,7 +146,7 @@ MP Metis
 #filter r',g',i',z'
 NGC 7331
 
-; Supernova 2026aaiv in NGC 7331  Type Ia  mag 13.0  z=0.003000
+; Supernova 2026aaiv in NGC 7331  Type Ia  mag 14.1  z=0.003000
 #posang 0
 #count 3,3
 #interval 300,300
@@ -571,5 +563,13 @@ M 105
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 13
+
+; Open Cluster  mag 4.2  size 24.60'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+IC 4665
 
 #SHUTDOWN
