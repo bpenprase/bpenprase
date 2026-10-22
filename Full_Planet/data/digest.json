@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-21T14:14:24.999003+00:00",
-  "generated_human": "21 October 2026, 14:14 UTC",
-  "total_items": 122,
+  "generated": "2026-10-22T14:13:37.472249+00:00",
+  "generated_human": "22 October 2026, 14:13 UTC",
+  "total_items": 119,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "People are taking an unapproved weight-loss drug. AI found something surprising",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261020085018.htm",
+          "source": "ScienceDaily",
+          "summary": "Researchers analyzing nearly 150,000 Reddit posts uncovered unexpected symptom reports linked by users to unapproved versions of retatrutide, including increased appetite, sleep disturbances, and elevated heart rates.",
+          "published": "2026-10-22T02:37:01+00:00",
+          "regional": false
+        },
         {
           "title": "How Wikipedia’s Editors Keep the Online Encyclopedia Human-Written",
           "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
@@ -50,14 +58,6 @@
           "regional": false
         },
         {
-          "title": "Is ‘Attention’ the Essence of Intelligence?",
-          "link": "https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/",
-          "source": "Quanta Magazine",
-          "summary": "A mathematical mechanism enables AI models to process language at scale, undergirding the current AI revolution. Our columnist asks: Why is attention the key? The post Is ‘Attention’ the Essence of Intelligence?",
-          "published": "2026-10-12T14:20:30+00:00",
-          "regional": false
-        },
-        {
           "title": "Master AI Chip Principles With New IEEE Design Program",
           "link": "https://spectrum.ieee.org/master-ai-chip-principles-ieee",
           "source": "IEEE Spectrum",
@@ -82,11 +82,27 @@
           "regional": false
         },
         {
+          "title": "Government websites go dark after AI-discovered flaw sparks security scramble",
+          "link": "https://www.rappler.com/technology/ai-discovered-flaw-php-security-scramble/",
+          "source": "Rappler",
+          "summary": "Because a fix is now public and artificial intelligence tools are able to reverse engineer the bug with little effort, experts say they are bracing for a wave of intrusions as hackers jump to get ahead of the updates",
+          "published": "2026-10-22T03:34:27+00:00",
+          "regional": true
+        },
+        {
           "title": "Washington’s DeepSeek ban may deter US firms from adopting Chinese AI models: experts",
           "link": "https://www.scmp.com/tech/big-tech/article/3371649/washingtons-deepseek-ban-may-deter-us-firms-adopting-chinese-ai-models-experts",
           "source": "South China Morning Post",
           "summary": "The US government’s latest ban on Chinese artificial intelligence start-up DeepSeek could have a chilling effect on the wider American business community and deter companies from adopting low-cost Chinese AI models,…",
           "published": "2026-10-21T14:00:12+00:00",
+          "regional": true
+        },
+        {
+          "title": "Chinese AI powers half of Korea's new models: study",
+          "link": "https://www.koreaherald.com/article/10910085",
+          "source": "The Korea Herald",
+          "summary": "Nearly half of the artificial intelligence models released by South Korean developers this year were built on Chinese technology, led overwhelmingly by Alibaba's Qwen, according to a new study that raises questions…",
+          "published": "2026-10-21T05:26:57+00:00",
           "regional": true
         },
         {
@@ -103,22 +119,6 @@
           "source": "South China Morning Post",
           "summary": "China has set up a new state-owned enterprise dedicated to managing the country’s massive data resources, a significant move designed to turbocharge the nation’s artificial intelligence industry and bolster its digital…",
           "published": "2026-10-20T12:23:29+00:00",
-          "regional": true
-        },
-        {
-          "title": "Finance minister pledges support for global 'AI basic society'",
-          "link": "https://www.koreaherald.com/article/10908495",
-          "source": "The Korea Herald",
-          "summary": "South Korea will help build a global \"artificial intelligence basic society\" in which no country is left behind in the AI transformation, the finance minister said Tuesday.",
-          "published": "2026-10-20T02:37:43+00:00",
-          "regional": true
-        },
-        {
-          "title": "LG seeks tangible AI returns in monthlong business reviews",
-          "link": "https://www.koreaherald.com/article/10907262",
-          "source": "The Korea Herald",
-          "summary": "LG Group began a monthlong series of business reviews across its affiliates on Monday, with artificial intelligence, investment efficiency and global technology partnerships expected to dominate discussions as the…",
-          "published": "2026-10-19T05:22:00+00:00",
           "regional": true
         },
         {
@@ -170,6 +170,14 @@
       "accent": "#E8A13A",
       "items": [
         {
+          "title": "Iron at Earth’s heart may take a surprising form",
+          "link": "https://www.science.org/content/article/iron-earth-s-heart-may-take-surprising-form",
+          "source": "Science (AAAS)",
+          "summary": "X-ray experiments reveal cubic crystals that could complicate the picture of the inner core",
+          "published": "2026-10-22T09:10:09+00:00",
+          "regional": false
+        },
+        {
           "title": "Scientists reach the ultimate quantum limit on a surface",
           "link": "https://www.sciencedaily.com/releases/2026/10/261018205053.htm",
           "source": "ScienceDaily",
@@ -191,14 +199,6 @@
           "source": "ScienceDaily",
           "summary": "Scientists discovered that atomic steps just one atom high can guide quantum vortices through superconductors, making them move more than 1,000 times more easily in one direction than another.",
           "published": "2026-10-16T04:22:01+00:00",
-          "regional": false
-        },
-        {
-          "title": "Microplastics are linked to inflammation—scientists might have finally worked out why",
-          "link": "https://www.scientificamerican.com/article/microplastics-are-linked-to-inflammation-scientists-might-have-finally-worked-out-why/",
-          "source": "Scientific American",
-          "summary": "Microplastics interact with water to create highly reactive molecules, a new study finds",
-          "published": "2026-10-14T17:30:00+00:00",
           "regional": false
         },
         {
@@ -290,19 +290,19 @@
           "regional": false
         },
         {
-          "title": "Seoul stocks rebound over 3% on eased AI spending woes",
-          "link": "https://www.koreaherald.com/article/10910314",
+          "title": "Samsung SDI to sponsor Korea's Chemistry Olympiad team",
+          "link": "https://www.koreaherald.com/article/10911288",
           "source": "The Korea Herald",
-          "summary": "South Korean stocks rebounded Wednesday, recovering from the previous session's steep losses as semiconductor shares rallied on easing concerns over artificial intelligence spending.",
-          "published": "2026-10-21T07:09:17+00:00",
+          "summary": "Samsung SDI has signed an agreement to sponsor South Korea's national team at the International Chemistry Olympiad, expanding the Samsung Group's support for young science talent.",
+          "published": "2026-10-22T02:44:34+00:00",
           "regional": true
         },
         {
-          "title": "China talks up EUV progress, but gap with ASML remains wide",
-          "link": "https://www.koreaherald.com/article/10910205",
+          "title": "Merck opens Korean chip materials plant to meet advanced memory demand",
+          "link": "https://www.koreaherald.com/article/10911036",
           "source": "The Korea Herald",
-          "summary": "China is touting a breakthrough in one of the semiconductor industry's toughest technologies: extreme ultraviolet lithography. But how close is it really to challenging global chipmaking leaders?",
-          "published": "2026-10-21T06:21:14+00:00",
+          "summary": "German science and technology company Merck opened a new semiconductor materials plant in South Korea on Thursday, expanding local production of molybdenum as chipmakers adopt the metal for increasingly advanced memory…",
+          "published": "2026-10-22T01:27:43+00:00",
           "regional": true
         },
         {
@@ -442,14 +442,6 @@
           "regional": true
         },
         {
-          "title": "Mercedes-Benz steps up Korea EV push with new CLA, GLC",
-          "link": "https://www.koreaherald.com/article/10907690",
-          "source": "The Korea Herald",
-          "summary": "Mercedes-Benz is ramping up its electrification push in South Korea, with the debut of the all-new electric CLA sedan and GLC SUV in the country’s fiercely competitive electric vehicle market.",
-          "published": "2026-10-19T08:51:41+00:00",
-          "regional": true
-        },
-        {
           "title": "IISER researchers make solid material that releases two fuel gases",
           "link": "https://www.thehindu.com/sci-tech/science/iiser-researchers-make-solid-material-that-releases-two-fuel-gases/article71574650.ece",
           "source": "The Hindu",
@@ -466,27 +458,11 @@
           "regional": true
         },
         {
-          "title": "First detection of heavy methanol in space",
-          "link": "https://www.mpg.de/26834976/first-detection-of-heavy-methanol-in-space",
-          "source": "Max Planck Society",
-          "summary": "Methanol containing heavy hydrogen is considered the building block of complex organic molecules and allows us to trace how stars and planets form from extremely cold interstellar gas and dust",
-          "published": "2026-10-06T22:00:00+00:00",
-          "regional": true
-        },
-        {
           "title": "Climate leaders called for solar energy for 'everyone, everywhere' by 2030, but with three years to go, is that goal attainable?",
           "link": "https://www.dw.com/en/climate-leaders-called-for-solar-energy-for-everyone-everywhere-by-2030-but-with-three-years-to-go-is-that-goal-attainable/a-79517056?maca=en-rss_en_environment-22607-xml-mrss",
           "source": "Deutsche Welle",
           "summary": "Prominent climate leaders have called on governments, businesses, institutions and the public to make a push for solar power before the decade is out, repowering the world with cheap, clean energy. Is that possible?",
           "published": "2026-10-02T13:48:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "Molecular insight into biological nitrogen fixation close to the boiling point",
-          "link": "https://www.mpg.de/26973793/molecular-insight-into-biological-nitrogen-fixation-close-to-the-boiling-point",
-          "source": "Max Planck Society",
-          "summary": "An enzyme with exceptional heat resistance converts atmospheric nitrogen into ammonia, an important fertiliser and biofuel",
-          "published": "2026-09-15T08:09:00+00:00",
           "regional": true
         },
         {
@@ -514,19 +490,51 @@
       "accent": "#F0894E",
       "items": [
         {
-          "title": "NASA’s CASALS Instrument Bridges Gaps in 3D Maps of Earth’s Surface",
-          "link": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/",
-          "source": "NASA",
-          "summary": "From orbit, today’s space-based laser instruments measure Earth’s forests and terrain one narrow line at a time.",
-          "published": "2026-10-21T12:17:58+00:00",
+          "title": "NASA’s Curiosity rover reveals a spectacular new view of Mars with a mystery on the horizon",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261021231238.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA’s Curiosity rover has revealed a spectacular new view of mysterious, wind-carved cliffs on Mars that may hold evidence of ancient volcanic activity.",
+          "published": "2026-10-22T11:03:49+00:00",
           "regional": false
         },
         {
-          "title": "Astronaut surprise video leaves pupils starstruck",
-          "link": "https://www.bbc.co.uk/news/articles/cmvg9vlgxkv8o?at_medium=RSS&at_campaign=rss",
+          "title": "NASA Conducts RS-25 Engine Test in Support of Future Artemis Missions",
+          "link": "https://www.nasa.gov/image-article/rs-25-engine-test-in-support-of-future-artemis-missions/",
+          "source": "NASA",
+          "summary": "NASA tested RS-25 engine No. 10001 on Oct. 21 on the Fred Haise Test Stand at NASA’s Stennis Space Center near Bay St. Louis, Mississippi.",
+          "published": "2026-10-21T20:51:50+00:00",
+          "regional": false
+        },
+        {
+          "title": "Pupils who designed a badge sent to space meet NASA astronaut",
+          "link": "https://www.bbc.co.uk/news/articles/cq78pzl85nglo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
-          "summary": "The surprise came after a teacher's father met Peake while working on a cruise ship.",
-          "published": "2026-10-21T11:55:19+00:00",
+          "summary": "Frank Rubio is set to be in the crew for the Artemis III mission and previously spent a year in space.",
+          "published": "2026-10-21T19:39:38+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA JPL Looks to Next 90 Years of Innovation, Exploration",
+          "link": "https://www.nasa.gov/centers-and-facilities/jpl/nasa-jpl-looks-to-next-90-years-of-innovation-exploration/",
+          "source": "NASA",
+          "summary": "Interstellar probes. Lunar drones. Helicopters on Mars. When a group of Caltech graduate students and enthusiasts began conducting rocket-propulsion tests in Pasadena’s Arroyo Seco on Oct.",
+          "published": "2026-10-21T18:35:56+00:00",
+          "regional": false
+        },
+        {
+          "title": "Report pinpoints future exploration sites on the moon",
+          "link": "https://www.scientificamerican.com/article/report-pinpoints-future-exploration-sites-on-the-moon/",
+          "source": "Scientific American",
+          "summary": "Besides building crewed outposts at the lunar south pole, where else should astronauts go on the moon? An authoritative new report has suggestions",
+          "published": "2026-10-21T15:30:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Science on the Space Station with NASA Astronaut Jessica Watkins",
+          "link": "https://www.nasa.gov/image-article/science-on-the-space-station-with-nasa-astronaut-jessica-watkins/",
+          "source": "NASA",
+          "summary": "NASA astronaut and Expedition 75 flight engineer Jessica Watkins works inside the Kibo laboratory module’s Life Science Glovebox on Oct.",
+          "published": "2026-10-21T15:05:08+00:00",
           "regional": false
         },
         {
@@ -535,54 +543,6 @@
           "source": "ScienceDaily",
           "summary": "NASA’s Perseverance rover has shattered a historic space exploration record, traveling farther across another world than any vehicle before it.",
           "published": "2026-10-21T09:22:36+00:00",
-          "regional": false
-        },
-        {
-          "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
-          "link": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
-          "published": "2026-10-21T08:42:49+00:00",
-          "regional": false
-        },
-        {
-          "title": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
-          "link": "https://www.bbc.co.uk/news/articles/cr93z1e87e0do?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Musk says there's \"a lot to be gained\" by combining the firms in what would be the biggest merger in history.",
-          "published": "2026-10-21T06:36:39+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s SR-1 Freedom Advances with Progress on Nuclear Power Module",
-          "link": "https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module/",
-          "source": "NASA",
-          "summary": "Destined for Mars and beyond, NASA’s Space Reactor-1 (SR-1) Freedom will be humanity’s first fission-powered spacecraft to travel outside Earth’s orbit.",
-          "published": "2026-10-20T18:11:33+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Experimental Mars Helicopter Blade Designs Target Longer Flights",
-          "link": "https://www.nasa.gov/science-research/aeronautics-research/nasa-experimental-mars-helicopter-blade-designs-target-longer-flights/",
-          "source": "NASA",
-          "summary": "NASA researchers are developing the future of flight on Mars, laying the groundwork for helicopters with the ability to fly higher and farther while conducting science on the Red Planet.",
-          "published": "2026-10-20T16:02:35+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Provides Progress Update on Moon Base Rovers",
-          "link": "https://www.nasa.gov/missions/moon-base/nasa-provides-progress-update-on-moon-base-rovers/",
-          "source": "NASA",
-          "summary": "As NASA works to build the Moon Base, crewed and robotic lunar rovers will play a crucial role during early development through technology demonstrations, astronaut transport, terrain mapping, scientific investigations,…",
-          "published": "2026-10-20T15:00:10+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Welcomes Uzbekistan as Newest Artemis Accords Signatory",
-          "link": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-uzbekistan-as-newest-artemis-accords-signatory/",
-          "source": "NASA",
-          "summary": "The Republic of Uzbekistan became the 77th signatory of the Artemis Accords during a ceremony in Samarkand on Monday, committing to the practical principles that guide safe, transparent, and responsible civil space…",
-          "published": "2026-10-20T14:21:42+00:00",
           "regional": false
         },
         {
@@ -599,14 +559,6 @@
           "source": "BBC Science",
           "summary": "A spacecraft is set to launch on an ambitious mission to bring 10g of Martian moon dust back to Earth.",
           "published": "2026-10-19T19:45:46+00:00",
-          "regional": false
-        },
-        {
-          "title": "Alarm grows over Russian satellite’s provocative approach to U.S.-owned satellite",
-          "link": "https://www.scientificamerican.com/article/alarm-grows-over-russian-satellites-provocative-approach-to-u-s-owned-satellite/",
-          "source": "Scientific American",
-          "summary": "How close is too close for encounters between sensitive spacecraft orbiting Earth? With a mysterious approach to another satellite, Russia’s military may be trying to find out",
-          "published": "2026-10-19T18:30:00+00:00",
           "regional": false
         },
         {
@@ -642,11 +594,59 @@
           "regional": false
         },
         {
+          "title": "Small lunar missions, big ambitions",
+          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Small_lunar_missions_big_ambitions",
+          "source": "ESA",
+          "summary": "Europe is preparing for a future in which astronauts, robots and scientific instruments work on and around the Moon.",
+          "published": "2026-10-16T08:05:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Press conference: ESA astronaut Sophie Adenot returns to Europe",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Press_conference_ESA_astronaut_Sophie_Adenot_returns_to_Europe",
+          "source": "ESA",
+          "summary": "Video: 00:59:23 ESA astronaut Sophie Adenot has returned to Europe following her 237-day εpsilon mission aboard the International Space Station.",
+          "published": "2026-10-13T10:20:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "ExoMars rover twin rehearses first drive",
+          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ExoMars_rover_twin_rehearses_first_drive",
+          "source": "ESA",
+          "summary": "Before the Rosalind Franklin rover can explore Mars, it must first get off its lander.",
+          "published": "2026-10-12T09:30:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Preparing for a first drive on Mars",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Preparing_for_a_first_drive_on_Mars",
+          "source": "ESA",
+          "summary": "Video: 00:01:45 Before Rosalind Franklin can explore Mars, it has to get off its lander. Engineers are rehearsing that first journey on Earth, using a full-size rover model and Mars-like terrain.",
+          "published": "2026-10-12T09:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA spots a giant patch of Moon-like rock on Earth",
           "link": "https://www.sciencedaily.com/releases/2026/10/261008102707.htm",
           "source": "ScienceDaily",
           "summary": "An astronaut aboard the International Space Station photographed a remarkable formation in Madagascar that looks surprisingly similar to the Moon’s bright highlands.",
           "published": "2026-10-11T15:30:06+00:00",
+          "regional": false
+        },
+        {
+          "title": "ESA astronaut Sophie Adenot returns from her first mission to the International Space Station",
+          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/ESA_astronaut_Sophie_Adenot_returns_from_her_first_mission_to_the_International_Space_Station",
+          "source": "ESA",
+          "summary": "ESA astronaut Sophie Adenot has arrived back in Europe, landing in Cologne, Germany, following her return to Earth with Crew-12 after 237 days, nearly eight months, aboard the International Space Station for her εpsilon…",
+          "published": "2026-10-10T09:01:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Farewell to the Fluid Science Laboratory after 18 years in orbit",
+          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Farewell_to_the_Fluid_Science_Laboratory_after_18_years_in_orbit",
+          "source": "ESA",
+          "summary": "On 9 October, astronauts on the International Space Station begin supporting the final decommissioning of ESA's Fluid Science Laboratory (FSL), one of the longest-serving scientific facilities inside Europe's Columbus…",
+          "published": "2026-10-09T10:00:00+00:00",
           "regional": false
         },
         {
@@ -674,43 +674,27 @@
           "regional": false
         },
         {
-          "title": "This mysterious hole on the Moon may open into a giant cave",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261003234013.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA has selected the GIMLI project to investigate whether the Marius Hill Pit opens into a vast underground cave or lava tube.",
-          "published": "2026-10-05T04:47:40+00:00",
+          "title": "A guide to blood draws in orbit",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/A_guide_to_blood_draws_in_orbit",
+          "source": "ESA",
+          "summary": "Video: 00:01:52 This video was published on social media by ESA astronaut Sophie Adenot with the following caption: Just another morning in space… this one starting with a blood draw!",
+          "published": "2026-10-02T10:30:00+00:00",
           "regional": false
         },
         {
-          "title": "ESA’s Juice just used Earth as a slingshot to Jupiter",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261001214102.htm",
-          "source": "ScienceDaily",
-          "summary": "ESA’s Juice spacecraft raced past Earth on September 28, using our planet’s gravity to dramatically reshape its path toward Jupiter without burning much fuel.",
-          "published": "2026-10-03T13:34:11+00:00",
-          "regional": false
+          "title": "Oppo launches Find X10 Pro Max, Find X10, Pad Mini and Enco X4 in India",
+          "link": "https://www.thehindu.com/sci-tech/technology/gadgets/oppo-launches-find-x10-pro-max-find-x10-pad-mini-and-enco-x4-in-india/article71611355.ece",
+          "source": "The Hindu",
+          "summary": "With the Find X10 series, Oppo has officially rolled out its new operating skin, ColorOS 17, based on Android 17 in India. Gradually, it will arrive in other Oppo devices",
+          "published": "2026-10-22T13:31:27+00:00",
+          "regional": true
         },
         {
-          "title": "Chang’e-6 lunar soil contains a surprising magnetic time capsule",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261001214015.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists studying Chang’e-6 lunar soil have discovered a previously unknown magnetic mineral in natural Moon samples: a form of metallic iron called γ-Fe.",
-          "published": "2026-10-03T13:12:14+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Roman telescope just opened its planet-hunting eye",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261001214057.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA’s Roman Space Telescope has demonstrated remarkable pointing stability and given its powerful planet-imaging coronagraph its first look at the cosmos.",
-          "published": "2026-10-02T12:21:30+00:00",
-          "regional": false
-        },
-        {
-          "title": "BYD launches second-generation Seagull from RMB 65,900 with flash charging on higher trims",
-          "link": "https://technode.com/2026/10/21/byd-launches-second-generation-seagull-from-rmb-65900-with-flash-charging-on-higher-trims/",
-          "source": "TechNode",
-          "summary": "BYD launched its second-generation Seagull electric hatchback in China on October 20, with five variants priced from RMB 65,900 to RMB 99,900.",
-          "published": "2026-10-21T07:46:08+00:00",
+          "title": "Hanwha Asset raises bet on US startup Impulse Space",
+          "link": "https://www.koreaherald.com/article/10911489",
+          "source": "The Korea Herald",
+          "summary": "Hanwha Asset Management has made an additional investment in US space transportation startup Impulse Space, joining a $308 million funding extension as it expands its portfolio of overseas deep-tech companies, the firm…",
+          "published": "2026-10-22T05:40:45+00:00",
           "regional": true
         },
         {
@@ -775,14 +759,6 @@
           "source": "The Hindu",
           "summary": "The Artemis Accords, to which the U.S. and its allies vis-a-vis the moon are signatories, envisage temporary ‘safety zones’ to prevent harmful interference",
           "published": "2026-10-16T19:03:32+00:00",
-          "regional": true
-        },
-        {
-          "title": "TRISHNA satellite is in advanced stage of realisation, says ISRO official",
-          "link": "https://www.thehindu.com/sci-tech/science/trishna-satellite-is-in-advanced-stage-of-realisation-says-isro-official/article71571635.ece",
-          "source": "The Hindu",
-          "summary": "TRISHNA is the third satellite that India and France are developing after Megha-Tropiques and SARAL (Satellite with ARGOS and ALTIKA) satellites.",
-          "published": "2026-10-11T15:55:29+00:00",
           "regional": true
         }
       ]
