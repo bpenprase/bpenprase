@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-10-22 15:12 PDT
-; Observing window starts 2026-10-22 19:34 PDT  (LST 20:49:12)
+; Generated 2026-10-23 14:55 PDT
+; Observing window starts 2026-10-23 19:32 PDT  (LST 20:51:08)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -22,15 +22,6 @@ M 16
 #filter r',Ha,OIII,SII
 IC 4703
 
-; Comet C/2024 J3 (ATLAS)  mag 13.9
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT C/2024 J3
-#WAITINLIMITS 60
-
 ; Open Cluster  mag 5.8  size 9.00'  Amas de l'Ecu de Sobieski,Wild Duck Cluster
 #posang 0
 #count 1,1,1,1
@@ -38,15 +29,6 @@ CT C/2024 J3
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 11
-
-; Comet C/2026 A2 (Bok)  mag 13.1
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT C/2026 A2
-#WAITINLIMITS 60
 
 ; Open Cluster  mag 7.3  size 6.90'  Foxhead Cluster
 #posang 0
@@ -63,15 +45,6 @@ NGC 6819
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 6822
-
-; Asteroid 3 Juno  mag 9.9
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-MP Juno
-#WAITINLIMITS 60
 
 ; Galaxy  mag 9.1  size 11.40'  Fireworks Galaxy
 #posang 0
@@ -129,15 +102,6 @@ NGC 7023
 #filter r',Ha,OIII,SII
 IC 5146
 
-; Asteroid 9 Metis  mag 10.3
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-MP Metis
-#WAITINLIMITS 60
-
 ; Galaxy  mag 9.4  size 9.27'
 #posang 0
 #count 1,1,1,1
@@ -153,15 +117,6 @@ NGC 7331
 #binning 1,1
 #filter r',g'
 2026aaiv	22:37:05.618	+34:24:35.37
-
-; Asteroid 192 Nausikaa  mag 9.3
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-MP Nausikaa
-#WAITINLIMITS 60
 
 ; Planet: Neptune
 #posang 0
@@ -229,23 +184,6 @@ NGC 0247
 #filter r',g',i',z'
 NGC 0253
 
-; Galaxy  mag 9.5  size 18.32'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-IC 1613
-
-; Asteroid 2 Pallas  mag 8.4
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-MP Pallas
-#WAITINLIMITS 60
-
 ; Open Cluster  mag 6.4  size 7.80'  Owl Cluster
 #posang 0
 #count 1,1,1,1
@@ -253,15 +191,6 @@ MP Pallas
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 0457
-
-; Asteroid 4 Vesta  mag 6.5
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-MP Vesta
-#WAITINLIMITS 60
 
 ; Galaxy  mag 9.2  size 1.69'
 #posang 0
@@ -360,15 +289,6 @@ M 42
 #filter r',Ha,OIII,SII
 NGC 1980
 
-; Comet C/2024 T5 (ATLAS)  mag 13.5
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-CT C/2024 T5
-#WAITINLIMITS 60
-
 ; Open Cluster  mag 3.9  size 9.90'
 #posang 0
 #count 1,1,1,1
@@ -432,15 +352,6 @@ NGC 2360
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 2362
-
-; Asteroid 1 Ceres  mag 8.4
-#posang 0
-#count 3
-#interval 300
-#binning 1
-#filter r'
-MP Ceres
-#WAITINLIMITS 60
 
 ; Open Cluster  mag 4.4  size 19.80'
 #posang 0
@@ -556,6 +467,14 @@ M 96
 #filter r',g',i',z'
 M 105
 
+; Galaxy  mag 9.3  size 16.98'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 106
+
 ; Globular Cluster  mag 5.8  size 16.50'  Hercules Globular Cluster
 #posang 0
 #count 1,1,1,1
@@ -571,5 +490,59 @@ M 13
 #binning 1,1,1,1
 #filter r',g',i',z'
 IC 4665
+
+; Asteroid Vesta (ACP resolves position; WAITINLIMITS guards)
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+MP Vesta
+#WAITINLIMITS 60
+
+; Asteroid Ceres (ACP resolves position; WAITINLIMITS guards)
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+MP Ceres
+#WAITINLIMITS 60
+
+; Asteroid Pallas (ACP resolves position; WAITINLIMITS guards)
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+MP Pallas
+#WAITINLIMITS 60
+
+; Asteroid Juno (ACP resolves position; WAITINLIMITS guards)
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+MP Juno
+#WAITINLIMITS 60
+
+; Asteroid Iris (ACP resolves position; WAITINLIMITS guards)
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+MP Iris
+#WAITINLIMITS 60
+
+; Asteroid Hebe (ACP resolves position; WAITINLIMITS guards)
+#posang 0
+#count 3
+#interval 300
+#binning 1
+#filter r'
+MP Hebe
+#WAITINLIMITS 60
 
 #SHUTDOWN
