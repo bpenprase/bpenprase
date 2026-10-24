@@ -1,26 +1,10 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-10-23 14:55 PDT
-; Observing window starts 2026-10-23 19:32 PDT  (LST 20:51:08)
+; Generated 2026-10-24 14:27 PDT
+; Observing window starts 2026-10-24 19:32 PDT  (LST 20:55:04)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
 #TRACKON
-
-; Nebula  mag 6.0  size 120.00'  Eagle Nebula
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,3,3,3
-#filter r',Ha,OIII,SII
-M 16
-
-; Nebula  mag 6.0  size 5.05'  Eagle Nebula,Star Queen
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,3,3,3
-#filter r',Ha,OIII,SII
-IC 4703
 
 ; Open Cluster  mag 5.8  size 9.00'  Amas de l'Ecu de Sobieski,Wild Duck Cluster
 #posang 0
@@ -45,6 +29,14 @@ NGC 6819
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 6822
+
+; HII Region  mag 7.4  size 20.00'  Crescent Nebula
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,3,3,3
+#filter r',Ha,OIII,SII
+NGC 6888
 
 ; Galaxy  mag 9.1  size 11.40'  Fireworks Galaxy
 #posang 0
@@ -102,6 +94,14 @@ NGC 7023
 #filter r',Ha,OIII,SII
 IC 5146
 
+; Planetary Nebula  mag 7.3  size 16.33'  Helix Nebula
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,3,3,3
+#filter r',Ha,OIII,SII
+NGC 7293
+
 ; Galaxy  mag 9.4  size 9.27'
 #posang 0
 #count 1,1,1,1
@@ -110,7 +110,7 @@ IC 5146
 #filter r',g',i',z'
 NGC 7331
 
-; Supernova 2026aaiv in NGC 7331  Type Ia  mag 14.1  z=0.003000
+; Supernova 2026aaiv in NGC 7331  Type Ia  mag 14.4  z=0.003000
 #posang 0
 #count 3,3
 #interval 300,300
@@ -231,14 +231,6 @@ NGC 0869
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 0884
-
-; Galaxy  mag 9.5  size 7.40'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 1023
 
 ; Galaxy  mag 9.3  size 6.11'
 #posang 0
@@ -434,6 +426,14 @@ M 81
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 82
+
+; Galaxy  mag 9.1  size 7.10'  Spindle Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 3115
 
 ; Galaxy  mag 10.5  size 12.91'  Coddington's Nebula
 #posang 0
