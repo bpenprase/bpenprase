@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-24T13:01:04.602775+00:00",
-  "generated_human": "24 October 2026, 13:01 UTC",
-  "total_items": 116,
+  "generated": "2026-10-25T13:27:31.808001+00:00",
+  "generated_human": "25 October 2026, 13:27 UTC",
+  "total_items": 118,
   "channels": [
     {
       "key": "ai",
@@ -106,14 +106,6 @@
           "regional": true
         },
         {
-          "title": "Chinese AI powers half of Korea's new models: study",
-          "link": "https://www.koreaherald.com/article/10910085",
-          "source": "The Korea Herald",
-          "summary": "Nearly half of the artificial intelligence models released by South Korean developers this year were built on Chinese technology, led overwhelmingly by Alibaba's Qwen, according to a new study that raises questions…",
-          "published": "2026-10-21T05:26:57+00:00",
-          "regional": true
-        },
-        {
           "title": "DeepSeek seeks ‘total victory’ over closed-source AI with new open-source tool",
           "link": "https://www.scmp.com/tech/big-tech/article/3371592/deepseek-open-sources-new-tool-slash-ai-costs-fight-against-closed-source-rivals",
           "source": "South China Morning Post",
@@ -160,6 +152,14 @@
           "summary": "Alibaba Group Holding’s two major domestic online marketplaces, Taobao and Tmall, plan to greatly expand the use of artificial intelligence across merchants’ operations next year, a senior executive said, as the…",
           "published": "2026-10-16T13:37:50+00:00",
           "regional": true
+        },
+        {
+          "title": "Z.ai’s GLM-5.3 raises researcher fears the Chinese model can fake AI safety tests",
+          "link": "https://www.scmp.com/tech/big-tech/article/3370963/zais-glm-53-raises-researcher-fears-chinese-model-can-fake-ai-safety-tests",
+          "source": "South China Morning Post",
+          "summary": "Chinese artificial intelligence lab Z.ai’s latest flagship model, GLM-5.3, may be sophisticated enough to “fake” its way through safety tests, according to a new report published Thursday, sparking new fears about the…",
+          "published": "2026-10-15T10:00:11+00:00",
+          "regional": true
         }
       ]
     },
@@ -169,6 +169,14 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "Scientists discover a hidden flaw that challenges 40 years of superconductor science",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261023023731.htm",
+          "source": "ScienceDaily",
+          "summary": "A superconducting material studied for 40 years has turned out to be far more complex than scientists believed. Advanced 3D imaging revealed a hidden patchwork of crystal structures, with unusually wide boundaries that…",
+          "published": "2026-10-25T02:19:07+00:00",
+          "regional": false
+        },
         {
           "title": "Wales plans to ban steel pylons as government launches consultation",
           "link": "https://www.bbc.co.uk/news/articles/c9x28dgj2r0go?at_medium=RSS&at_campaign=rss",
@@ -263,14 +271,6 @@
           "source": "ScienceDaily",
           "summary": "Scientists have discovered evidence of altermagnetism in a thin, highly tunable material that could help electronics use electron spin instead of relying only on electrical charge.",
           "published": "2026-10-05T11:35:24+00:00",
-          "regional": false
-        },
-        {
-          "title": "Scientists just found a new way to make hydrogen from water",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261001214017.htm",
-          "source": "ScienceDaily",
-          "summary": "A new light-activated material can efficiently produce hydrogen from water without requiring an additional expensive metal catalyst.",
-          "published": "2026-10-04T11:11:24+00:00",
           "regional": false
         },
         {
@@ -562,14 +562,6 @@
           "regional": false
         },
         {
-          "title": "The first mission to sample Mars’s moons launches today",
-          "link": "https://www.scientificamerican.com/article/the-first-mission-to-sample-marss-moons-launches-today/",
-          "source": "Scientific American",
-          "summary": "For the first time ever, a spacecraft will travel all the way to the Mars system and return. But first, it has to get through the launch",
-          "published": "2026-10-19T15:20:00+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA’s SpaceX launch lights up the sky with a giant glowing jellyfish",
           "link": "https://www.sciencedaily.com/releases/2026/10/261016070635.htm",
           "source": "ScienceDaily",
@@ -618,6 +610,14 @@
           "regional": false
         },
         {
+          "title": "Preparing for a first drive on Mars",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Preparing_for_a_first_drive_on_Mars",
+          "source": "ESA",
+          "summary": "Video: 00:01:45 Before Rosalind Franklin can explore Mars, it has to get off its lander. Engineers are rehearsing that first journey on Earth, using a full-size rover model and Mars-like terrain.",
+          "published": "2026-10-12T09:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA spots a giant patch of Moon-like rock on Earth",
           "link": "https://www.sciencedaily.com/releases/2026/10/261008102707.htm",
           "source": "ScienceDaily",
@@ -656,6 +656,22 @@
           "summary": "NASA’s James Webb Space Telescope is giving astronomers a glimpse of the kinds of violent collisions that may have shaped our own solar system, including the giant impact thought to have created the Moon.",
           "published": "2026-10-07T13:09:15+00:00",
           "regional": false
+        },
+        {
+          "title": "ISRO to have four launch pads by 2029, says Narayanan",
+          "link": "https://www.thehindu.com/news/national/isro-to-add-four-launch-pads-by-2029/article71622643.ece",
+          "source": "The Hindu",
+          "summary": "The ISRO chief said that the upcoming Kulasekarapattinam spaceport facility will feature crucial infrastructure such as integration buildings, launch pads, rail-track systems, telemetry, tracking, and command systems",
+          "published": "2026-10-25T05:53:44+00:00",
+          "regional": true
+        },
+        {
+          "title": "ISRO will not be privatised, says chairperson Narayanan",
+          "link": "https://www.thehindu.com/news/cities/chennai/isro-will-not-be-privatised-says-chairperson-narayanan/article71620020.ece",
+          "source": "The Hindu",
+          "summary": "Contributions from private companies should not be misinterpreted as privatisation of the space agency, says the chairperson",
+          "published": "2026-10-24T16:30:18+00:00",
+          "regional": true
         },
         {
           "title": "US Nancy Grace Roman Space Telescope launches successfully to challenge \"mysteries of darkness\": Japan also participates",
@@ -706,22 +722,6 @@
           "regional": true
         },
         {
-          "title": "Tap space-tech start-ups’ capabilities for major projects of Indian space programme: G. Madhavan Nair",
-          "link": "https://www.thehindu.com/news/national/kerala/tap-space-tech-start-ups-capabilities-for-major-projects-of-indian-space-programme-g-madhavan-nair/article71556620.ece",
-          "source": "The Hindu",
-          "summary": "Former ISRO Chairperson says what is required is a cooperative environment rather than unhealthy competition",
-          "published": "2026-10-17T00:41:51+00:00",
-          "regional": true
-        },
-        {
-          "title": "Students should be encouraged to develop scientific temperament, says Deputy Director of U. R. Rao Satellite Centre",
-          "link": "https://www.thehindu.com/news/cities/Mangalore/students-should-be-encouraged-to-develop-scientific-temperament-says-deputy-director-of-u-r-rao-satellite-centre/article71555841.ece",
-          "source": "The Hindu",
-          "summary": "Pilikula Development Authority organises two-day World Space Week - 2026 programme at Pilikula on October 7",
-          "published": "2026-10-16T21:55:27+00:00",
-          "regional": true
-        },
-        {
           "title": "ISRO scientists lead space awareness rally in Rajamahendravaram",
           "link": "https://www.thehindu.com/news/national/andhra-pradesh/isro-scientists-lead-space-awareness-rally-in-rajamahendravaram/article71556662.ece",
           "source": "The Hindu",
@@ -746,19 +746,27 @@
       "accent": "#B98CE0",
       "items": [
         {
+          "title": "Three giant black holes discovered in a galaxy from the dawn of time",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261024222000.htm",
+          "source": "ScienceDaily",
+          "summary": "Astronomers have discovered three actively feeding black holes inside a single galaxy more than 12.5 billion light-years away, revealing a remarkable scene from the universe’s infancy.",
+          "published": "2026-10-25T12:07:01+00:00",
+          "regional": false
+        },
+        {
+          "title": "Astronomers uncover a mysterious magnetic web above the Sun",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261023023723.htm",
+          "source": "ScienceDaily",
+          "summary": "The Sun’s seemingly peaceful regions are hiding a surprisingly complex magnetic world. Using a balloon-borne telescope high above Earth, scientists discovered delicate, thread-like magnetic structures woven through the…",
+          "published": "2026-10-24T12:23:38+00:00",
+          "regional": false
+        },
+        {
           "title": "Nearly 3,000 exploding stars challenge our understanding of the Universe",
           "link": "https://www.sciencedaily.com/releases/2026/10/261021231244.htm",
           "source": "ScienceDaily",
           "summary": "A massive analysis of 2,884 exploding stars has uncovered new evidence that dark energy, the mysterious force accelerating the universe’s expansion, may change over time.",
           "published": "2026-10-23T02:54:41+00:00",
-          "regional": false
-        },
-        {
-          "title": "Astronomers unlock a mystery hidden in van Gogh’s The Starry Night",
-          "link": "https://www.scientificamerican.com/article/astronomers-unlock-a-mystery-hidden-in-van-goghs-the-starry-night/",
-          "source": "Scientific American",
-          "summary": "A misidentified constellation could revise the timeline for Vincent van Gogh’s creation of his iconic painting",
-          "published": "2026-10-22T16:00:00+00:00",
           "regional": false
         },
         {
@@ -790,14 +798,6 @@
           "link": "https://www.scientificamerican.com/article/these-extreme-cosmic-explosions-are-breaking-physics/",
           "source": "Scientific American",
           "summary": "Astronomers are finally figuring out what powers mysterious gamma-ray bursts",
-          "published": "2026-10-20T10:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Inside the bold, quixotic quest to store planet-warming carbon in the ocean",
-          "link": "https://www.scientificamerican.com/article/inside-the-bold-quixotic-quest-to-store-planet-warming-carbon-in-the-ocean/",
-          "source": "Scientific American",
-          "summary": "These start-ups are trying to suck CO 2 from the air and stash in the sea. Is it working?",
           "published": "2026-10-20T10:00:00+00:00",
           "regional": false
         },
@@ -975,6 +975,22 @@
           "source": "The Hindu",
           "summary": "Anna Mani, who dedicated her life to improving weather forecasting in the country, dared to venture into areas India had never stepped into before",
           "published": "2026-10-16T13:39:50+00:00",
+          "regional": true
+        },
+        {
+          "title": "Young, close-in planets live dangerously",
+          "link": "https://www.mpg.de/27027670/young-close-in-planets-love-to-live-dangerously",
+          "source": "Max Planck Society",
+          "summary": "First discovery of a planet orbiting its host star so closely that the planet's magnetic field triggers radiation bursts from the star",
+          "published": "2026-10-12T11:00:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "First detection of heavy methanol in space",
+          "link": "https://www.mpg.de/26834976/first-detection-of-heavy-methanol-in-space",
+          "source": "Max Planck Society",
+          "summary": "Methanol containing heavy hydrogen is considered the building block of complex organic molecules and allows us to trace how stars and planets form from extremely cold interstellar gas and dust",
+          "published": "2026-10-06T22:00:00+00:00",
           "regional": true
         }
       ]
