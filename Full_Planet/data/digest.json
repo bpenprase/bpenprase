@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-25T13:27:31.808001+00:00",
-  "generated_human": "25 October 2026, 13:27 UTC",
-  "total_items": 118,
+  "generated": "2026-10-26T15:37:16.737753+00:00",
+  "generated_human": "26 October 2026, 15:37 UTC",
+  "total_items": 117,
   "channels": [
     {
       "key": "ai",
@@ -74,12 +74,28 @@
           "regional": false
         },
         {
-          "title": "AI Solves a Major Unsolved Math Problem. Not Everyone Is Happy",
-          "link": "https://spectrum.ieee.org/millennium-prize-ai",
-          "source": "IEEE Spectrum",
-          "summary": "On 13 September, leading luminaries and up-and-coming talents in mathematics and computer science congregated at the annual Heidelberg Laureate Forum in Germany for a week of discussion, networking, and—naturally—wurst.",
-          "published": "2026-10-05T12:00:02+00:00",
-          "regional": false
+          "title": "Alibaba Cloud founder on how AI can unlock human potential",
+          "link": "https://www.scmp.com/plus/tech/tech-trends/article/3372106/alibaba-cloud-founder-how-ai-can-unlock-human-potential",
+          "source": "South China Morning Post",
+          "summary": "Long before artificial intelligence became the next big thing in the tech industry, Wang Jian was crafting the foundational infrastructure that would eventually power it.",
+          "published": "2026-10-26T02:26:16+00:00",
+          "regional": true
+        },
+        {
+          "title": "China shoots ahead on AI video models",
+          "link": "https://www.scmp.com/plus/tech/big-tech/article/3371915/china-shoots-ahead-ai-video-models",
+          "source": "South China Morning Post",
+          "summary": "While few dispute that China is narrowing the gap with the United States in developing artificial intelligence (AI) models, there is one area where Chinese firms are already the undisputed leaders: video.",
+          "published": "2026-10-26T01:06:01+00:00",
+          "regional": true
+        },
+        {
+          "title": "Why cloud computing pioneer Wang Jian thinks space is the next AI frontier",
+          "link": "https://www.scmp.com/tech/tech-trends/article/3371979/why-cloud-computing-pioneer-wang-jian-thinks-space-next-ai-frontier",
+          "source": "South China Morning Post",
+          "summary": "Long before artificial intelligence became the next big thing in the tech industry, Wang Jian was crafting the foundational infrastructure that would eventually power it.",
+          "published": "2026-10-25T22:00:20+00:00",
+          "regional": true
         },
         {
           "title": "GS Caltex showcases AI-driven workplace innovations",
@@ -136,30 +152,6 @@
           "summary": "It is meant to replace some specialised ‌algorithms now used to reconstruct ​and identify particles",
           "published": "2026-10-18T01:49:44+00:00",
           "regional": true
-        },
-        {
-          "title": "China’s proposed AI tech export bans may create short-term costs, long-term gains: analysts",
-          "link": "https://www.scmp.com/tech/big-tech/article/3371247/chinas-proposed-ai-tech-export-bans-may-create-short-term-costs-long-term-gains-analysts",
-          "source": "South China Morning Post",
-          "summary": "China’s proposed export bans and controls of artificial intelligence technologies aim to tighten Beijing’s grip in the strategically vital sector, casting a cloud over the commercial prospects of domestic model…",
-          "published": "2026-10-17T12:00:11+00:00",
-          "regional": true
-        },
-        {
-          "title": "Alibaba to embed AI throughout Taobao, Tmall merchant operations in 2027: executive",
-          "link": "https://www.scmp.com/tech/big-tech/article/3371203/alibaba-embed-ai-throughout-taobao-tmall-merchant-operations-2027-executive",
-          "source": "South China Morning Post",
-          "summary": "Alibaba Group Holding’s two major domestic online marketplaces, Taobao and Tmall, plan to greatly expand the use of artificial intelligence across merchants’ operations next year, a senior executive said, as the…",
-          "published": "2026-10-16T13:37:50+00:00",
-          "regional": true
-        },
-        {
-          "title": "Z.ai’s GLM-5.3 raises researcher fears the Chinese model can fake AI safety tests",
-          "link": "https://www.scmp.com/tech/big-tech/article/3370963/zais-glm-53-raises-researcher-fears-chinese-model-can-fake-ai-safety-tests",
-          "source": "South China Morning Post",
-          "summary": "Chinese artificial intelligence lab Z.ai’s latest flagship model, GLM-5.3, may be sophisticated enough to “fake” its way through safety tests, according to a new report published Thursday, sparking new fears about the…",
-          "published": "2026-10-15T10:00:11+00:00",
-          "regional": true
         }
       ]
     },
@@ -175,14 +167,6 @@
           "source": "ScienceDaily",
           "summary": "A superconducting material studied for 40 years has turned out to be far more complex than scientists believed. Advanced 3D imaging revealed a hidden patchwork of crystal structures, with unusually wide boundaries that…",
           "published": "2026-10-25T02:19:07+00:00",
-          "regional": false
-        },
-        {
-          "title": "Wales plans to ban steel pylons as government launches consultation",
-          "link": "https://www.bbc.co.uk/news/articles/c9x28dgj2r0go?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "The Welsh government says it is consulting on an \"undergrounding-first approach\" to electricity lines.",
-          "published": "2026-10-24T10:04:29+00:00",
           "regional": false
         },
         {
@@ -266,12 +250,20 @@
           "regional": false
         },
         {
-          "title": "A new kind of magnetism could unlock faster, more efficient computers",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261002080015.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have discovered evidence of altermagnetism in a thin, highly tunable material that could help electronics use electron spin instead of relying only on electrical charge.",
-          "published": "2026-10-05T11:35:24+00:00",
-          "regional": false
+          "title": "Inside Henkel's Korean factory making adhesives for AI chips",
+          "link": "https://www.koreaherald.com/article/10915087",
+          "source": "The Korea Herald",
+          "summary": "SONGDO, Incheon — Inside a tightly controlled factory in Songdo, German chemicals giant Henkel is producing a critical but often overlooked ingredient in AI chips: semiconductor adhesives.",
+          "published": "2026-10-26T06:20:34+00:00",
+          "regional": true
+        },
+        {
+          "title": "Samsung SDI wins 1 GWh US energy storage deal",
+          "link": "https://www.koreaherald.com/article/10914992",
+          "source": "The Korea Herald",
+          "summary": "Samsung SDI has secured a 1-gigawatt-hour energy storage system supply deal with US power developer Alpha Omega Power, bringing their combined contracts to 1.5 GWh as the Korean battery maker expands its North American…",
+          "published": "2026-10-26T05:43:47+00:00",
+          "regional": true
         },
         {
           "title": "Seoul shares open sharply lower amid persistent AI woes, rising oil prices",
@@ -282,27 +274,11 @@
           "regional": true
         },
         {
-          "title": "Samsung SDI to sponsor Korea's Chemistry Olympiad team",
-          "link": "https://www.koreaherald.com/article/10911288",
-          "source": "The Korea Herald",
-          "summary": "Samsung SDI has signed an agreement to sponsor South Korea's national team at the International Chemistry Olympiad, expanding the Samsung Group's support for young science talent.",
-          "published": "2026-10-22T02:44:34+00:00",
-          "regional": true
-        },
-        {
-          "title": "Merck opens Korean chip materials plant to meet advanced memory demand",
-          "link": "https://www.koreaherald.com/article/10911036",
-          "source": "The Korea Herald",
-          "summary": "German science and technology company Merck opened a new semiconductor materials plant in South Korea on Thursday, expanding local production of molybdenum as chipmakers adopt the metal for increasingly advanced memory…",
-          "published": "2026-10-22T01:27:43+00:00",
-          "regional": true
-        },
-        {
-          "title": "Infrared imaging reveals protein structure distribution in living nematodes",
-          "link": "https://sj.jst.go.jp/news/202610/n1021-03k.html",
+          "title": "World-leading white printing achieved without pigments or paints",
+          "link": "https://sj.jst.go.jp/news/202610/n1022-03k.html",
           "source": "Science Japan",
-          "summary": "A research group led by Nodoka Wakita, a second-year master's student in the Program of Life and Materials Chemistry at Nagoya Institute of Technology, Assistant Professor Tatsuro Nishikino and Associate Professor Yuji…",
-          "published": "2026-10-21T04:42:31+00:00",
+          "summary": "Currently, very few materials can achieve the level of whiteness required for practical white pigments.",
+          "published": "2026-10-22T05:48:09+00:00",
           "regional": true
         },
         {
@@ -402,6 +378,22 @@
           "regional": false
         },
         {
+          "title": "Deutsch Motors' profit rises 25% on strong BYD sales",
+          "link": "https://www.koreaherald.com/article/10915073",
+          "source": "The Korea Herald",
+          "summary": "South Korean auto dealer Deutsch Motors reported a 25.4 percent rise in operating profit for the first nine months of 2026, buoyed by growing sales of Chinese electric vehicles from BYD and improved performance across…",
+          "published": "2026-10-26T06:13:52+00:00",
+          "regional": true
+        },
+        {
+          "title": "Samsung SDI wins 1 GWh US energy storage deal",
+          "link": "https://www.koreaherald.com/article/10914992",
+          "source": "The Korea Herald",
+          "summary": "Samsung SDI has secured a 1-gigawatt-hour energy storage system supply deal with US power developer Alpha Omega Power, bringing their combined contracts to 1.5 GWh as the Korean battery maker expands its North American…",
+          "published": "2026-10-26T05:43:47+00:00",
+          "regional": true
+        },
+        {
           "title": "Being a good doctor is risky in India",
           "link": "https://www.thehindu.com/sci-tech/health/being-a-good-doctor-is-risky-in-india/article71599608.ece",
           "source": "The Hindu",
@@ -466,6 +458,22 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "Ice mission CRISTAL opens its wings",
+          "link": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Ice_mission_CRISTAL_opens_its_wings",
+          "source": "ESA",
+          "summary": "With its solar arrays integrated and key qualification reviews under way, Europe’s new ice-monitoring satellite, CRISTAL, is moving from assembly into the demanding testing phase that will demonstrate its readiness for…",
+          "published": "2026-10-26T10:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Snakes that cartwheel, vultures that groan, a mysterious Martian moon, and more",
+          "link": "https://www.scientificamerican.com/podcast/episode/snakes-that-cartwheel-vultures-that-groan-a-mysterious-martian-moon-and-more/",
+          "source": "Scientific American",
+          "summary": "This week in science we check out gymnastic snakes, chatty vultures and missions to faraway moons",
+          "published": "2026-10-26T10:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA, Partners Accelerate Lander Development for 2028 Moon Missions",
           "link": "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/",
           "source": "NASA",
@@ -495,14 +503,6 @@
           "source": "Scientific American",
           "summary": "The mission, scheduled for the summer of 2027, will include be pivotal in deciding whether SpaceX or Blue Origin supplies the lunar lander for the first crewed trip to the lunar surface in decades",
           "published": "2026-10-23T20:20:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA, Virginia Launch Power Partnership for Energy Security",
-          "link": "https://www.nasa.gov/centers-and-facilities/langley/nasa-power-energy-partnership/",
-          "source": "NASA",
-          "summary": "NASA is helping to foster long-term energy security in Virginia. NASA’s Langley Research Center in Hampton, Virginia, is partnering with the Virginia Department of Energy to support informed decisions for effective…",
-          "published": "2026-10-23T17:50:21+00:00",
           "regional": false
         },
         {
@@ -543,14 +543,6 @@
           "source": "ScienceDaily",
           "summary": "NASA’s Perseverance rover has shattered a historic space exploration record, traveling farther across another world than any vehicle before it.",
           "published": "2026-10-21T09:22:36+00:00",
-          "regional": false
-        },
-        {
-          "title": "Japan launches a probe to collect rocks from Mars’s moon Phobos",
-          "link": "https://www.scientificamerican.com/article/japans-mission-to-collect-rocks-from-mars-moon-phobos-achieves-liftoff/",
-          "source": "Scientific American",
-          "summary": "The Martian Moons Exploration mission will aim to bring back samples from Phobos",
-          "published": "2026-10-19T20:00:00+00:00",
           "regional": false
         },
         {
@@ -746,6 +738,14 @@
       "accent": "#B98CE0",
       "items": [
         {
+          "title": "A 2,700-year-old solar eclipse just revealed something surprising about Earth",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261025073055.htm",
+          "source": "ScienceDaily",
+          "summary": "A solar eclipse recorded more than 2,700 years ago is revealing surprising secrets about Earth's rotation and the Sun's ancient behavior.",
+          "published": "2026-10-26T11:06:08+00:00",
+          "regional": false
+        },
+        {
           "title": "Three giant black holes discovered in a galaxy from the dawn of time",
           "link": "https://www.sciencedaily.com/releases/2026/10/261024222000.htm",
           "source": "ScienceDaily",
@@ -927,14 +927,6 @@
           "source": "ScienceDaily",
           "summary": "The James Webb Space Telescope has found strong evidence that the rocky lava world HD 3167 b has an atmosphere, despite circling its star every 24 hours under extreme heat.",
           "published": "2026-10-07T11:58:25+00:00",
-          "regional": false
-        },
-        {
-          "title": "Don't miss: Watch Saturn shine and Halley’s Comet debris streak across the sky",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261005071523.htm",
-          "source": "ScienceDaily",
-          "summary": "October skywatchers can see Saturn at opposition, catch meteors from Halley’s Comet during the Orionid peak, and watch the Moon sweep past the famous Pleiades star cluster.",
-          "published": "2026-10-05T11:59:17+00:00",
           "regional": false
         },
         {
