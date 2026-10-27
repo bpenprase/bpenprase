@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-10-26 16:04 PDT
-; Observing window starts 2026-10-26 19:30 PDT  (LST 21:00:57)
+; Generated 2026-10-27 15:53 PDT
+; Observing window starts 2026-10-27 19:28 PDT  (LST 21:02:53)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -119,14 +119,6 @@ NGC 7293
 Neptune
 #WAITINLIMITS 60
 
-; Galaxy  mag 9.2  size 12.94'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 0185
-
 ; Planet: Saturn
 #posang 0
 #count 10
@@ -135,6 +127,14 @@ NGC 0185
 #filter r'
 Saturn
 #WAITINLIMITS 60
+
+; Galaxy  mag 9.2  size 12.94'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 0185
 
 ; Galaxy  mag 8.2  size 16.22'
 #posang 0
