@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-26T15:37:16.737753+00:00",
-  "generated_human": "26 October 2026, 15:37 UTC",
-  "total_items": 117,
+  "generated": "2026-10-27T15:01:29.620599+00:00",
+  "generated_human": "27 October 2026, 15:01 UTC",
+  "total_items": 116,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,22 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "I Used AI to Fake a Scientific Paper. Here’s What Happened",
+          "link": "https://spectrum.ieee.org/ai-generated-scientific-papers",
+          "source": "IEEE Spectrum",
+          "summary": "Science has a spam problem. And the spam filter is getting clogged up. According to all reports, academic publishing is drowning in what has come to be called AI slop: low-quality, mass-produced content generated with…",
+          "published": "2026-10-27T13:00:03+00:00",
+          "regional": false
+        },
+        {
+          "title": "IEEE Xplore Digital Library Adds AI Assistant",
+          "link": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
+          "source": "IEEE Spectrum",
+          "summary": "IEEE recently released the IEEE Xplore AI Research Suite , built on the full text of millions of peer-reviewed publications in the IEEE Xplore Digital Library .",
+          "published": "2026-10-26T18:00:03+00:00",
+          "regional": false
+        },
         {
           "title": "The Foundations of Scalable AI",
           "link": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
@@ -39,14 +55,6 @@
           "source": "MIT Technology Review",
           "summary": "Generative AI models run on powerful chips known as GPUs, which depend on stacks of specialized memory chips packaged with the processor.",
           "published": "2026-10-20T09:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Can AI predict whether you’ll die from cancer from just an image of your face?",
-          "link": "https://www.scientificamerican.com/article/can-ai-predict-whether-youll-die-from-cancer-from-just-an-image-of-your-face/",
-          "source": "Scientific American",
-          "summary": "Researchers tasked an algorithm with predicting cancer patients’ risk of dying. For some people, it was shockingly accurate",
-          "published": "2026-10-19T22:30:00+00:00",
           "regional": false
         },
         {
@@ -98,22 +106,6 @@
           "regional": true
         },
         {
-          "title": "GS Caltex showcases AI-driven workplace innovations",
-          "link": "https://www.koreaherald.com/article/10912481",
-          "source": "The Korea Herald",
-          "summary": "GS Caltex showcased a range of artificial intelligence-driven workplace innovations, from employee training tools to robotics and energy-saving initiatives, at its annual Deep Transformation Day held Thursday at GS…",
-          "published": "2026-10-23T01:32:38+00:00",
-          "regional": true
-        },
-        {
-          "title": "Government websites go dark after AI-discovered flaw sparks security scramble",
-          "link": "https://www.rappler.com/technology/ai-discovered-flaw-php-security-scramble/",
-          "source": "Rappler",
-          "summary": "Because a fix is now public and artificial intelligence tools are able to reverse engineer the bug with little effort, experts say they are bracing for a wave of intrusions as hackers jump to get ahead of the updates",
-          "published": "2026-10-22T03:34:27+00:00",
-          "regional": true
-        },
-        {
           "title": "Washington’s DeepSeek ban may deter US firms from adopting Chinese AI models: experts",
           "link": "https://www.scmp.com/tech/big-tech/article/3371649/washingtons-deepseek-ban-may-deter-us-firms-adopting-chinese-ai-models-experts",
           "source": "South China Morning Post",
@@ -152,6 +144,22 @@
           "summary": "It is meant to replace some specialised ‌algorithms now used to reconstruct ​and identify particles",
           "published": "2026-10-18T01:49:44+00:00",
           "regional": true
+        },
+        {
+          "title": "China’s proposed AI tech export bans may create short-term costs, long-term gains: analysts",
+          "link": "https://www.scmp.com/tech/big-tech/article/3371247/chinas-proposed-ai-tech-export-bans-may-create-short-term-costs-long-term-gains-analysts",
+          "source": "South China Morning Post",
+          "summary": "China’s proposed export bans and controls of artificial intelligence technologies aim to tighten Beijing’s grip in the strategically vital sector, casting a cloud over the commercial prospects of domestic model…",
+          "published": "2026-10-17T12:00:11+00:00",
+          "regional": true
+        },
+        {
+          "title": "Alibaba to embed AI throughout Taobao, Tmall merchant operations in 2027: executive",
+          "link": "https://www.scmp.com/tech/big-tech/article/3371203/alibaba-embed-ai-throughout-taobao-tmall-merchant-operations-2027-executive",
+          "source": "South China Morning Post",
+          "summary": "Alibaba Group Holding’s two major domestic online marketplaces, Taobao and Tmall, plan to greatly expand the use of artificial intelligence across merchants’ operations next year, a senior executive said, as the…",
+          "published": "2026-10-16T13:37:50+00:00",
+          "regional": true
         }
       ]
     },
@@ -175,14 +183,6 @@
           "source": "ScienceDaily",
           "summary": "Researchers have solved a long-standing challenge in understanding how tiny defects in materials like diamond and silicon carbide behave when exposed to light.",
           "published": "2026-10-23T10:22:55+00:00",
-          "regional": false
-        },
-        {
-          "title": "Iron at Earth’s heart may take a surprising form",
-          "link": "https://www.science.org/content/article/iron-earth-s-heart-may-take-surprising-form",
-          "source": "Science (AAAS)",
-          "summary": "X-ray experiments reveal cubic crystals that could complicate the picture of the inner core",
-          "published": "2026-10-22T09:10:09+00:00",
           "regional": false
         },
         {
@@ -242,43 +242,43 @@
           "regional": false
         },
         {
-          "title": "Scientists finally see how nature moves energy so efficiently",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261004001841.htm",
-          "source": "ScienceDaily",
-          "summary": "Researchers have captured key steps in a chemical reaction that helps nature transfer energy with remarkable efficiency.",
-          "published": "2026-10-06T07:49:51+00:00",
-          "regional": false
-        },
-        {
-          "title": "Inside Henkel's Korean factory making adhesives for AI chips",
-          "link": "https://www.koreaherald.com/article/10915087",
+          "title": "LG Innotek posts record Q3 sales, but profit misses forecasts",
+          "link": "https://www.koreaherald.com/article/10916657",
           "source": "The Korea Herald",
-          "summary": "SONGDO, Incheon — Inside a tightly controlled factory in Songdo, German chemicals giant Henkel is producing a critical but often overlooked ingredient in AI chips: semiconductor adhesives.",
-          "published": "2026-10-26T06:20:34+00:00",
+          "summary": "LG Innotek’s record third-quarter sales failed to cushion a sharp currency hit, with operating profit more than halving as higher material costs eroded gains from strong demand for smartphone cameras.",
+          "published": "2026-10-27T08:41:59+00:00",
           "regional": true
         },
         {
-          "title": "Samsung SDI wins 1 GWh US energy storage deal",
-          "link": "https://www.koreaherald.com/article/10914992",
+          "title": "Four years on, Lee Jae-yong steers Samsung from chip slump to AI boom",
+          "link": "https://www.koreaherald.com/article/10916413",
           "source": "The Korea Herald",
-          "summary": "Samsung SDI has secured a 1-gigawatt-hour energy storage system supply deal with US power developer Alpha Omega Power, bringing their combined contracts to 1.5 GWh as the Korean battery maker expands its North American…",
-          "published": "2026-10-26T05:43:47+00:00",
+          "summary": "Samsung Electronics Chairman Lee Jae-yong marked four years in the role on Tuesday with the company forecasting its biggest quarterly profit, a dramatic reversal from the semiconductor downturn that engulfed the early…",
+          "published": "2026-10-27T06:18:12+00:00",
           "regional": true
         },
         {
-          "title": "Seoul shares open sharply lower amid persistent AI woes, rising oil prices",
-          "link": "https://www.koreaherald.com/article/10912318",
+          "title": "Chip boom drives Korea's surprise 1% GDP growth in Q3",
+          "link": "https://www.koreaherald.com/article/10916408",
           "source": "The Korea Herald",
-          "summary": "South Korean shares opened sharply lower Friday, weighed down by overnight losses in US artificial intelligence and semiconductor stocks, while rising oil prices added to market jitters.",
-          "published": "2026-10-23T00:41:31+00:00",
+          "summary": "South Korea's economy grew more than three times faster than expected in the third quarter, powered by booming semiconductor exports and investment, raising the prospect of a significant upgrade to the country's annual…",
+          "published": "2026-10-27T06:12:26+00:00",
           "regional": true
         },
         {
-          "title": "World-leading white printing achieved without pigments or paints",
-          "link": "https://sj.jst.go.jp/news/202610/n1022-03k.html",
+          "title": "Degrading enzymes safely destroy only unnecessary membranes — AI and experiments verify activation, contributing to understanding of autophagy",
+          "link": "https://sj.jst.go.jp/news/202610/n1027-01j.html",
           "source": "Science Japan",
-          "summary": "Currently, very few materials can achieve the level of whiteness required for practical white pigments.",
-          "published": "2026-10-22T05:48:09+00:00",
+          "summary": "Cells possess a mechanism called autophagy that wraps unnecessary components in membranes, transports them into the interiors of lysosomes or vacuoles in the cytoplasm, and degrades them.",
+          "published": "2026-10-27T05:33:05+00:00",
+          "regional": true
+        },
+        {
+          "title": "Nobel Prize in Chemistry awarded to Kenso Soai and partner for the discovery of non-linear effects and autocatalysis in asymmetric organic synthesis",
+          "link": "https://sj.jst.go.jp/news/202610/n1027-01p.html",
+          "source": "Science Japan",
+          "summary": "The Royal Swedish Academy of Sciences (RSAS) announced on October 7 that it will award the 2026 Nobel Prize in Chemistry to Emeritus Professor Kenso Soai (76) of Tokyo University of Science and Emeritus Professor Henri…",
+          "published": "2026-10-27T05:32:10+00:00",
           "regional": true
         },
         {
@@ -314,14 +314,6 @@
           "regional": true
         },
         {
-          "title": "Chemistry Nobel 2026 honours the science of mirrored molecules",
-          "link": "https://www.thehindu.com/sci-tech/science/nobel-prize-in-chemistry-2026-winner/article71554613.ece",
-          "source": "The Hindu",
-          "summary": "The duo was recognised for the discovery of ‘non-linear effects and autocatalysis in asymmetric organic synthesis’",
-          "published": "2026-10-16T21:25:50+00:00",
-          "regional": true
-        },
-        {
           "title": "Japanese Scientist Kenso Soai Wins Chemistry Nobel Prize With French Scientist Henri B. Kagan",
           "link": "https://www.asianscientist.com/2026/10/topnews/japanese-scientist-kenso-soai-wins-chemistry-nobel-prize-with-french-scientist-henri-b-kagan/",
           "source": "Asian Scientist",
@@ -354,6 +346,14 @@
       "accent": "#33C6D6",
       "items": [
         {
+          "title": "Wind turbines kill ‘shocking’ number of bats each year",
+          "link": "https://www.science.org/content/article/wind-turbines-kill-shocking-number-bats-each-year",
+          "source": "Science (AAAS)",
+          "summary": "Deaths can be prevented by regulating when wind turbines operate, scientists say",
+          "published": "2026-10-26T03:45:00+00:00",
+          "regional": false
+        },
+        {
           "title": "Scientists may have found a shortcut to fusion energy",
           "link": "https://www.sciencedaily.com/releases/2026/10/261008005242.htm",
           "source": "ScienceDaily",
@@ -376,6 +376,14 @@
           "summary": "Researchers have discovered that Western Australia’s iron-rich rocks can naturally generate hydrogen and that the process may be boosted to produce much larger amounts.",
           "published": "2026-08-29T10:05:43+00:00",
           "regional": false
+        },
+        {
+          "title": "LG Energy Solution eyes 2 GWh ESS supply deal with Israel's Energix",
+          "link": "https://www.koreaherald.com/article/10916296",
+          "source": "The Korea Herald",
+          "summary": "LG Energy Solution said Tuueday it had signed a nonbinding agreement with Israeli renewable energy developer Energix to supply 2 gigawatt-hours of energy storage systems across Europe and North America over the next two…",
+          "published": "2026-10-27T05:24:10+00:00",
+          "regional": true
         },
         {
           "title": "Deutsch Motors' profit rises 25% on strong BYD sales",
@@ -418,14 +426,6 @@
           "regional": true
         },
         {
-          "title": "First detection of heavy methanol in space",
-          "link": "https://www.mpg.de/26834976/first-detection-of-heavy-methanol-in-space",
-          "source": "Max Planck Society",
-          "summary": "Methanol containing heavy hydrogen is considered the building block of complex organic molecules and allows us to trace how stars and planets form from extremely cold interstellar gas and dust",
-          "published": "2026-10-06T22:00:00+00:00",
-          "regional": true
-        },
-        {
           "title": "Climate leaders called for solar energy for 'everyone, everywhere' by 2030, but with three years to go, is that goal attainable?",
           "link": "https://www.dw.com/en/climate-leaders-called-for-solar-energy-for-everyone-everywhere-by-2030-but-with-three-years-to-go-is-that-goal-attainable/a-79517056?maca=en-rss_en_environment-22607-xml-mrss",
           "source": "Deutsche Welle",
@@ -458,43 +458,51 @@
       "accent": "#F0894E",
       "items": [
         {
-          "title": "Ice mission CRISTAL opens its wings",
-          "link": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Ice_mission_CRISTAL_opens_its_wings",
+          "title": "What is Nasa's Artemis III mission? And what comes next?",
+          "link": "https://www.bbc.co.uk/news/articles/cr5j40ezgz4o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Artemis III will help test crucial systems needed for the planned Artemis IV Moon landing in 2028.",
+          "published": "2026-10-27T10:33:26+00:00",
+          "regional": false
+        },
+        {
+          "title": "ESA procures four new Galileo Second Generation satellites",
+          "link": "https://www.esa.int/Applications/Satellite_navigation/Galileo/ESA_procures_four_new_Galileo_Second_Generation_satellites",
           "source": "ESA",
-          "summary": "With its solar arrays integrated and key qualification reviews under way, Europe’s new ice-monitoring satellite, CRISTAL, is moving from assembly into the demanding testing phase that will demonstrate its readiness for…",
-          "published": "2026-10-26T10:00:00+00:00",
+          "summary": "The European Space Agency (ESA) has extended ongoing contracts to build four additional Galileo Second Generation (G2) satellites, ensuring the long-term continuity of the constellation and supporting the rollout of new…",
+          "published": "2026-10-27T10:00:00+00:00",
           "regional": false
         },
         {
-          "title": "Snakes that cartwheel, vultures that groan, a mysterious Martian moon, and more",
-          "link": "https://www.scientificamerican.com/podcast/episode/snakes-that-cartwheel-vultures-that-groan-a-mysterious-martian-moon-and-more/",
-          "source": "Scientific American",
-          "summary": "This week in science we check out gymnastic snakes, chatty vultures and missions to faraway moons",
-          "published": "2026-10-26T10:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA, Partners Accelerate Lander Development for 2028 Moon Missions",
-          "link": "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/",
+          "title": "NASA’s Perseverance Views Dust at Neretva Vallis",
+          "link": "https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/",
           "source": "NASA",
-          "summary": "As NASA returns humans to the lunar surface and establishes a long-term presence on our closest celestial neighbor, the agency and commercial human landing system providers Blue Origin and SpaceX have streamlined the…",
-          "published": "2026-10-23T22:39:39+00:00",
+          "summary": "Description This 360-degree look at Neretva Vallis within Mars’ Jezero Crater was stitched together using 217 images acquired by the rover’s Mastcam-Z on May 20, 2024, the 1,155th Martian day, or sol, of the mission.",
+          "published": "2026-10-26T22:48:12+00:00",
           "regional": false
         },
         {
-          "title": "NASA’s Artemis III Mission to Test Future Moon Lander Operations",
-          "link": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
+          "title": "NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust",
+          "link": "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/",
           "source": "NASA",
-          "summary": "Before astronauts return to the lunar surface, NASA will first conduct one of the most ambitious and complex test missions in the agency’s history.",
-          "published": "2026-10-23T22:37:53+00:00",
+          "summary": "Over 1,645 Martian days, NASA’s Perseverance Mars rover measured the fine and ultrafine Martian dust particles found clinging to samples of spacesuit materials that are carried aboard the rover, including some that are…",
+          "published": "2026-10-26T21:07:28+00:00",
           "regional": false
         },
         {
-          "title": "NASA’s Swift Mission Ends, Leaves Behind Scientific Bonanza",
-          "link": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
+          "title": "NASA SEES Interns Tackle Real-World Challenges in Lunar Exploration",
+          "link": "https://science.nasa.gov/learning-resources/science-activation/nasa-sees-interns-tackle-real-world-challenges-in-lunar-exploration/",
           "source": "NASA",
-          "summary": "NASA’s Neil Gehrels Swift Observatory has ended its science mission now that the spacecraft is orbiting less than 171 miles (275 kilometers) above Earth’s surface.",
-          "published": "2026-10-23T21:51:19+00:00",
+          "summary": "The NASA STEM (Science, Technology, Engineering, and Mathematics) Enhancement in Earth Science (SEES) Internship Program at the University of Texas Center for Space Research places high school students on small,…",
+          "published": "2026-10-26T19:28:08+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Invites Media to Moon Landing Simulation Experience in California",
+          "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-moon-landing-simulation-experience-in-california/",
+          "source": "NASA",
+          "summary": "Members of the media are invited to tour a new lunar landing simulator at NASA’s Ames Research Center in California's Silicon Valley on Thursday, Oct. 29, and Friday, Oct. 30.",
+          "published": "2026-10-26T17:13:44+00:00",
           "regional": false
         },
         {
@@ -578,8 +586,8 @@
           "regional": false
         },
         {
-          "title": "Small lunar missions, big ambitions",
-          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Small_lunar_missions_big_ambitions",
+          "title": "Moon Explore sprinter missions",
+          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Moon_Explore_sprinter_missions",
           "source": "ESA",
           "summary": "Europe is preparing for a future in which astronauts, robots and scientific instruments work on and around the Moon.",
           "published": "2026-10-16T08:05:00+00:00",
@@ -599,14 +607,6 @@
           "source": "ESA",
           "summary": "Before the Rosalind Franklin rover can explore Mars, it must first get off its lander.",
           "published": "2026-10-12T09:30:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Preparing for a first drive on Mars",
-          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Preparing_for_a_first_drive_on_Mars",
-          "source": "ESA",
-          "summary": "Video: 00:01:45 Before Rosalind Franklin can explore Mars, it has to get off its lander. Engineers are rehearsing that first journey on Earth, using a full-size rover model and Mars-like terrain.",
-          "published": "2026-10-12T09:00:00+00:00",
           "regional": false
         },
         {
@@ -714,19 +714,19 @@
           "regional": true
         },
         {
-          "title": "ISRO scientists lead space awareness rally in Rajamahendravaram",
-          "link": "https://www.thehindu.com/news/national/andhra-pradesh/isro-scientists-lead-space-awareness-rally-in-rajamahendravaram/article71556662.ece",
+          "title": "Tap space-tech start-ups’ capabilities for major projects of Indian space programme: G. Madhavan Nair",
+          "link": "https://www.thehindu.com/news/national/kerala/tap-space-tech-start-ups-capabilities-for-major-projects-of-indian-space-programme-g-madhavan-nair/article71556620.ece",
           "source": "The Hindu",
-          "summary": "",
-          "published": "2026-10-16T21:55:08+00:00",
+          "summary": "Former ISRO Chairperson says what is required is a cooperative environment rather than unhealthy competition",
+          "published": "2026-10-17T00:41:51+00:00",
           "regional": true
         },
         {
-          "title": "Analysis: Why NASA wants to build a nuclear reactor on the moon",
-          "link": "https://www.thehindu.com/sci-tech/science/analysis-why-nasa-wants-to-build-nuclear-reactor-on-the-moon/article71552807.ece",
+          "title": "Students should be encouraged to develop scientific temperament, says Deputy Director of U. R. Rao Satellite Centre",
+          "link": "https://www.thehindu.com/news/cities/Mangalore/students-should-be-encouraged-to-develop-scientific-temperament-says-deputy-director-of-u-r-rao-satellite-centre/article71555841.ece",
           "source": "The Hindu",
-          "summary": "The Artemis Accords, to which the U.S. and its allies vis-a-vis the moon are signatories, envisage temporary ‘safety zones’ to prevent harmful interference",
-          "published": "2026-10-16T19:03:32+00:00",
+          "summary": "Pilikula Development Authority organises two-day World Space Week - 2026 programme at Pilikula on October 7",
+          "published": "2026-10-16T21:55:27+00:00",
           "regional": true
         }
       ]
@@ -738,11 +738,27 @@
       "accent": "#B98CE0",
       "items": [
         {
-          "title": "A 2,700-year-old solar eclipse just revealed something surprising about Earth",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261025073055.htm",
+          "title": "Dead star and planetary bodies: astronomers spot unique disc of debris that foretells Solar System’s future",
+          "link": "https://www.eso.org/public/news/eso2613/",
+          "source": "ESO",
+          "summary": "Astronomers using the European Southern Observatory’s Very Large Telescope (ESO’s VLT) have found a rare disc of debris around a dead star that provides a glimpse of what may happen to our Solar System.",
+          "published": "2026-10-27T13:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "James Webb discovers a scorching lava planet with a “giant sunscreen”",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261026225603.htm",
           "source": "ScienceDaily",
-          "summary": "A solar eclipse recorded more than 2,700 years ago is revealing surprising secrets about Earth's rotation and the Sun's ancient behavior.",
-          "published": "2026-10-26T11:06:08+00:00",
+          "summary": "A scorching lava planet 280 light-years away has surprised astronomers by apparently maintaining a thick atmosphere despite conditions that should have stripped it away billions of years ago.",
+          "published": "2026-10-27T10:20:52+00:00",
+          "regional": false
+        },
+        {
+          "title": "Smithsonian scientists just recreated the first 2 billion years of the Universe",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261026225600.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have created one of the largest and most detailed simulations of the early universe ever made, offering an extraordinary new glimpse into the cosmos shortly after the Big Bang.",
+          "published": "2026-10-27T09:48:35+00:00",
           "regional": false
         },
         {
@@ -834,14 +850,6 @@
           "regional": false
         },
         {
-          "title": "NASA’s Webb reveals the wild weather of a mysterious world 20 light-years away",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261015073215.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA’s James Webb Space Telescope has revealed that a turbulent world 20 light-years away has a surprisingly orderly weather system, with three recurring atmospheric states driven by temperature changes and shifting…",
-          "published": "2026-10-17T12:26:49+00:00",
-          "regional": false
-        },
-        {
           "title": "James Webb reveals a strange bulge in an alien planet's atmosphere",
           "link": "https://www.sciencedaily.com/releases/2026/10/261015073205.htm",
           "source": "ScienceDaily",
@@ -898,14 +906,6 @@
           "regional": false
         },
         {
-          "title": "October’s night sky is full of cosmic tricks and treats",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261008102704.htm",
-          "source": "ScienceDaily",
-          "summary": "October’s skies are packed with celestial surprises, from Jupiter disappearing behind the Moon to two meteor showers lighting up the darkness.",
-          "published": "2026-10-09T02:37:22+00:00",
-          "regional": false
-        },
-        {
           "title": "Einstein Probe reveals a hidden phase of neutron star collisions",
           "link": "https://www.sciencedaily.com/releases/2026/10/261006234511.htm",
           "source": "ScienceDaily",
@@ -959,14 +959,6 @@
           "source": "The Hindu",
           "summary": "The findings suggest protecting the interests of astronomers requires operators to regulate licensed transmissions as well as stray radiation from onboard electronics",
           "published": "2026-10-19T01:51:35+00:00",
-          "regional": true
-        },
-        {
-          "title": "Anna Mani: a star from the hills",
-          "link": "https://www.thehindu.com/children/anna-mani-a-star-from-the-hills/article71546743.ece",
-          "source": "The Hindu",
-          "summary": "Anna Mani, who dedicated her life to improving weather forecasting in the country, dared to venture into areas India had never stepped into before",
-          "published": "2026-10-16T13:39:50+00:00",
           "regional": true
         },
         {
