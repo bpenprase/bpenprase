@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-27T15:01:29.620599+00:00",
-  "generated_human": "27 October 2026, 15:01 UTC",
-  "total_items": 116,
+  "generated": "2026-10-28T15:37:08.709769+00:00",
+  "generated_human": "28 October 2026, 15:37 UTC",
+  "total_items": 114,
   "channels": [
     {
       "key": "ai",
@@ -10,11 +10,27 @@
       "accent": "#5AA9E6",
       "items": [
         {
+          "title": "A bust-up between mathematicians is fuelling fears that AI could undermine science",
+          "link": "https://www.bbc.co.uk/news/articles/c6gelgxjwzdzo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "AI has made some awesome scientific discoveries. But now, questions are being raised about its accuracy",
+          "published": "2026-10-28T01:01:02+00:00",
+          "regional": false
+        },
+        {
           "title": "I Used AI to Fake a Scientific Paper. Here’s What Happened",
           "link": "https://spectrum.ieee.org/ai-generated-scientific-papers",
           "source": "IEEE Spectrum",
           "summary": "Science has a spam problem. And the spam filter is getting clogged up. According to all reports, academic publishing is drowning in what has come to be called AI slop: low-quality, mass-produced content generated with…",
           "published": "2026-10-27T13:00:03+00:00",
+          "regional": false
+        },
+        {
+          "title": "AI is shaking up math. But can its proofs be trusted?",
+          "link": "https://www.science.org/content/article/ai-shaking-math-can-its-proofs-be-trusted",
+          "source": "Science (AAAS)",
+          "summary": "As AI firms churn out math breakthroughs, researchers question use of Lean software as proof checker",
+          "published": "2026-10-27T04:10:00+00:00",
           "regional": false
         },
         {
@@ -50,14 +66,6 @@
           "regional": false
         },
         {
-          "title": "A visit to Samsung’s massive new semiconductor hub",
-          "link": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
-          "source": "MIT Technology Review",
-          "summary": "Generative AI models run on powerful chips known as GPUs, which depend on stacks of specialized memory chips packaged with the processor.",
-          "published": "2026-10-20T09:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
           "link": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
           "source": "Quanta Magazine",
@@ -80,6 +88,22 @@
           "summary": "What next for the world of maths after a major intrusion by AI?",
           "published": "2026-10-08T20:00:00+00:00",
           "regional": false
+        },
+        {
+          "title": "Elon Musk, Jensen Huang have opposing outlooks on AI neoclouds. Who is likely correct?",
+          "link": "https://www.scmp.com/tech/big-tech/article/3372447/elon-musk-jensen-huang-have-opposing-outlooks-ai-neoclouds-who-likely-correct",
+          "source": "South China Morning Post",
+          "summary": "As investor anxiety over an artificial intelligence bubble mounts, SpaceX’s Elon Musk and Nvidia chief Jensen Huang have offered starkly divergent outlooks on whether the specialist cloud providers powering the boom can…",
+          "published": "2026-10-28T13:30:10+00:00",
+          "regional": true
+        },
+        {
+          "title": "Samsung Electro-Mechanics' Q3 profit soars 165% as AI substrate business accelerates",
+          "link": "https://www.koreaherald.com/article/10917654",
+          "source": "The Korea Herald",
+          "summary": "Samsung Electro-Mechanics reported record quarterly revenue and operating profit Wednesday, driven by strong demand for artificial intelligence data center components and accelerating growth in its semiconductor…",
+          "published": "2026-10-28T05:06:52+00:00",
+          "regional": true
         },
         {
           "title": "Alibaba Cloud founder on how AI can unlock human potential",
@@ -143,22 +167,6 @@
           "source": "The Hindu",
           "summary": "It is meant to replace some specialised ‌algorithms now used to reconstruct ​and identify particles",
           "published": "2026-10-18T01:49:44+00:00",
-          "regional": true
-        },
-        {
-          "title": "China’s proposed AI tech export bans may create short-term costs, long-term gains: analysts",
-          "link": "https://www.scmp.com/tech/big-tech/article/3371247/chinas-proposed-ai-tech-export-bans-may-create-short-term-costs-long-term-gains-analysts",
-          "source": "South China Morning Post",
-          "summary": "China’s proposed export bans and controls of artificial intelligence technologies aim to tighten Beijing’s grip in the strategically vital sector, casting a cloud over the commercial prospects of domestic model…",
-          "published": "2026-10-17T12:00:11+00:00",
-          "regional": true
-        },
-        {
-          "title": "Alibaba to embed AI throughout Taobao, Tmall merchant operations in 2027: executive",
-          "link": "https://www.scmp.com/tech/big-tech/article/3371203/alibaba-embed-ai-throughout-taobao-tmall-merchant-operations-2027-executive",
-          "source": "South China Morning Post",
-          "summary": "Alibaba Group Holding’s two major domestic online marketplaces, Taobao and Tmall, plan to greatly expand the use of artificial intelligence across merchants’ operations next year, a senior executive said, as the…",
-          "published": "2026-10-16T13:37:50+00:00",
           "regional": true
         }
       ]
@@ -242,27 +250,27 @@
           "regional": false
         },
         {
-          "title": "LG Innotek posts record Q3 sales, but profit misses forecasts",
-          "link": "https://www.koreaherald.com/article/10916657",
+          "title": "OCI posts record nine-month operating profit since 2023 spin-off",
+          "link": "https://www.koreaherald.com/article/10917914",
           "source": "The Korea Herald",
-          "summary": "LG Innotek’s record third-quarter sales failed to cushion a sharp currency hit, with operating profit more than halving as higher material costs eroded gains from strong demand for smartphone cameras.",
-          "published": "2026-10-27T08:41:59+00:00",
+          "summary": "OCI reported third-quarter revenue of 599.1 billion won ($451 million) and operating profit of 30.3 billion won Tuesday, supported by stronger semiconductor materials sales and higher carbon black prices.",
+          "published": "2026-10-28T07:07:57+00:00",
           "regional": true
         },
         {
-          "title": "Four years on, Lee Jae-yong steers Samsung from chip slump to AI boom",
-          "link": "https://www.koreaherald.com/article/10916413",
+          "title": "Samsung Electro-Mechanics' Q3 profit soars 165% as AI substrate business accelerates",
+          "link": "https://www.koreaherald.com/article/10917654",
           "source": "The Korea Herald",
-          "summary": "Samsung Electronics Chairman Lee Jae-yong marked four years in the role on Tuesday with the company forecasting its biggest quarterly profit, a dramatic reversal from the semiconductor downturn that engulfed the early…",
-          "published": "2026-10-27T06:18:12+00:00",
+          "summary": "Samsung Electro-Mechanics reported record quarterly revenue and operating profit Wednesday, driven by strong demand for artificial intelligence data center components and accelerating growth in its semiconductor…",
+          "published": "2026-10-28T05:06:52+00:00",
           "regional": true
         },
         {
-          "title": "Chip boom drives Korea's surprise 1% GDP growth in Q3",
-          "link": "https://www.koreaherald.com/article/10916408",
+          "title": "Seoul stocks open sharply higher on revived AI optimism, SK hynix earnings",
+          "link": "https://www.koreaherald.com/article/10917155",
           "source": "The Korea Herald",
-          "summary": "South Korea's economy grew more than three times faster than expected in the third quarter, powered by booming semiconductor exports and investment, raising the prospect of a significant upgrade to the country's annual…",
-          "published": "2026-10-27T06:12:26+00:00",
+          "summary": "South Korean stocks opened sharply higher Wednesday, tracking overnight gains on Wall Street, as strong artificial intelligence-driven semiconductor earnings lifted investor sentiment ahead of the Federal Reserve's…",
+          "published": "2026-10-28T00:37:43+00:00",
           "regional": true
         },
         {
@@ -328,16 +336,7 @@
       "name": "Synthetic Biology",
       "tagline": "Engineered organisms and programmed DNA — cells built for computing, data storage, and chemical synthesis.",
       "accent": "#5FBF9B",
-      "items": [
-        {
-          "title": "NASA-backed scientists turn plastic waste into edible cookies",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260912220033.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have engineered yeast to turn PET plastic and agricultural waste into ingredients for protein-rich, 3D-printed cookies called µBites.",
-          "published": "2026-09-13T11:54:36+00:00",
-          "regional": false
-        }
-      ]
+      "items": []
     },
     {
       "key": "energywater",
@@ -370,35 +369,19 @@
           "regional": false
         },
         {
-          "title": "Australia’s red soil may be hiding a massive clean energy source",
-          "link": "https://www.sciencedaily.com/releases/2026/08/260829035214.htm",
-          "source": "ScienceDaily",
-          "summary": "Researchers have discovered that Western Australia’s iron-rich rocks can naturally generate hydrogen and that the process may be boosted to produce much larger amounts.",
-          "published": "2026-08-29T10:05:43+00:00",
-          "regional": false
-        },
-        {
-          "title": "LG Energy Solution eyes 2 GWh ESS supply deal with Israel's Energix",
-          "link": "https://www.koreaherald.com/article/10916296",
-          "source": "The Korea Herald",
-          "summary": "LG Energy Solution said Tuueday it had signed a nonbinding agreement with Israeli renewable energy developer Energix to supply 2 gigawatt-hours of energy storage systems across Europe and North America over the next two…",
-          "published": "2026-10-27T05:24:10+00:00",
+          "title": "Who gets the clean energy jobs and contracts? How Ghana and South Africa’s plans can do more for women",
+          "link": "https://theconversation.com/who-gets-the-clean-energy-jobs-and-contracts-how-ghana-and-south-africas-plans-can-do-more-for-women-290663",
+          "source": "The Conversation",
+          "summary": "Solar and wind could bring women jobs and businesses in Ghana and South Africa, but governments must overturn inequalities in access to skills, loans and assets.",
+          "published": "2026-10-28T13:33:03+00:00",
           "regional": true
         },
         {
-          "title": "Deutsch Motors' profit rises 25% on strong BYD sales",
-          "link": "https://www.koreaherald.com/article/10915073",
+          "title": "Mercedes-Benz Korea touts 20-year service edge over EV newcomers",
+          "link": "https://www.koreaherald.com/article/10917819",
           "source": "The Korea Herald",
-          "summary": "South Korean auto dealer Deutsch Motors reported a 25.4 percent rise in operating profit for the first nine months of 2026, buoyed by growing sales of Chinese electric vehicles from BYD and improved performance across…",
-          "published": "2026-10-26T06:13:52+00:00",
-          "regional": true
-        },
-        {
-          "title": "Samsung SDI wins 1 GWh US energy storage deal",
-          "link": "https://www.koreaherald.com/article/10914992",
-          "source": "The Korea Herald",
-          "summary": "Samsung SDI has secured a 1-gigawatt-hour energy storage system supply deal with US power developer Alpha Omega Power, bringing their combined contracts to 1.5 GWh as the Korean battery maker expands its North American…",
-          "published": "2026-10-26T05:43:47+00:00",
+          "summary": "YONGIN, Gyeonggi Province — Emerging automakers, particularly Chinese electric vehicle brands, are rapidly expanding their presence in South Korea.",
+          "published": "2026-10-28T06:23:51+00:00",
           "regional": true
         },
         {
@@ -423,6 +406,14 @@
           "source": "Deutsche Welle",
           "summary": "Renewable electricity is cheaper than ever. While the West got rich on coal and oil, some of the world's poorest countries are banking on solar, wind and water instead.",
           "published": "2026-10-07T07:48:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "First detection of heavy methanol in space",
+          "link": "https://www.mpg.de/26834976/first-detection-of-heavy-methanol-in-space",
+          "source": "Max Planck Society",
+          "summary": "Methanol containing heavy hydrogen is considered the building block of complex organic molecules and allows us to trace how stars and planets form from extremely cold interstellar gas and dust",
+          "published": "2026-10-06T22:00:00+00:00",
           "regional": true
         },
         {
@@ -458,6 +449,30 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "NASA’s Artemis I mission reveals surprising radiation levels near the Moon",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261027063659.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA’s Artemis I mission has revealed that cosmic radiation near the Moon is higher than in Earth orbit, but not by as much as scientists might expect.",
+          "published": "2026-10-28T10:29:36+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Invites Media to Crew Completion of Yearlong Mars Simulation",
+          "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/",
+          "source": "NASA",
+          "summary": "The four volunteers who lived and worked in a simulated NASA Mars mission for more than a year will exit their habitat on Saturday, Oct.",
+          "published": "2026-10-27T19:27:22+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Neo Surveyor Sunshade",
+          "link": "https://www.nasa.gov/image-article/nasas-neo-surveyor-sunshade/",
+          "source": "NASA",
+          "summary": "A technician inspects the large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission in this image released on Oct. 26, 2026.",
+          "published": "2026-10-27T17:58:57+00:00",
+          "regional": false
+        },
+        {
           "title": "What is Nasa's Artemis III mission? And what comes next?",
           "link": "https://www.bbc.co.uk/news/articles/cr5j40ezgz4o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
@@ -479,30 +494,6 @@
           "source": "NASA",
           "summary": "Description This 360-degree look at Neretva Vallis within Mars’ Jezero Crater was stitched together using 217 images acquired by the rover’s Mastcam-Z on May 20, 2024, the 1,155th Martian day, or sol, of the mission.",
           "published": "2026-10-26T22:48:12+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust",
-          "link": "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/",
-          "source": "NASA",
-          "summary": "Over 1,645 Martian days, NASA’s Perseverance Mars rover measured the fine and ultrafine Martian dust particles found clinging to samples of spacesuit materials that are carried aboard the rover, including some that are…",
-          "published": "2026-10-26T21:07:28+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA SEES Interns Tackle Real-World Challenges in Lunar Exploration",
-          "link": "https://science.nasa.gov/learning-resources/science-activation/nasa-sees-interns-tackle-real-world-challenges-in-lunar-exploration/",
-          "source": "NASA",
-          "summary": "The NASA STEM (Science, Technology, Engineering, and Mathematics) Enhancement in Earth Science (SEES) Internship Program at the University of Texas Center for Space Research places high school students on small,…",
-          "published": "2026-10-26T19:28:08+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Invites Media to Moon Landing Simulation Experience in California",
-          "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-moon-landing-simulation-experience-in-california/",
-          "source": "NASA",
-          "summary": "Members of the media are invited to tour a new lunar landing simulator at NASA’s Ames Research Center in California's Silicon Valley on Thursday, Oct. 29, and Friday, Oct. 30.",
-          "published": "2026-10-26T17:13:44+00:00",
           "regional": false
         },
         {
@@ -610,6 +601,14 @@
           "regional": false
         },
         {
+          "title": "Preparing for a first drive on Mars",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Preparing_for_a_first_drive_on_Mars",
+          "source": "ESA",
+          "summary": "Video: 00:01:45 Before Rosalind Franklin can explore Mars, it has to get off its lander. Engineers are rehearsing that first journey on Earth, using a full-size rover model and Mars-like terrain.",
+          "published": "2026-10-12T09:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA spots a giant patch of Moon-like rock on Earth",
           "link": "https://www.sciencedaily.com/releases/2026/10/261008102707.htm",
           "source": "ScienceDaily",
@@ -642,12 +641,20 @@
           "regional": false
         },
         {
-          "title": "NASA’s Webb finds signs of Mars-sized worlds smashing together",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261007042108.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA’s James Webb Space Telescope is giving astronomers a glimpse of the kinds of violent collisions that may have shaped our own solar system, including the giant impact thought to have created the Moon.",
-          "published": "2026-10-07T13:09:15+00:00",
-          "regional": false
+          "title": "Searching the Milky Way for bits of Mars",
+          "link": "https://news.cnrs.fr/articles/searching-the-milky-way-for-bits-of-mars",
+          "source": "CNRS News",
+          "summary": "The MMX mission successfully launched on 19 October, heading for Phobos, one of Mars's moons. The aim is to deploy the Idefix mini-rover on the surface, and for the very first time return samples from the Mars system to…",
+          "published": "2026-10-28T11:14:04+00:00",
+          "regional": true
+        },
+        {
+          "title": "Apple launches M6 MacBook Pro and iMac, pitches faster on-device AI",
+          "link": "https://www.thehindu.com/sci-tech/technology/apple-launches-m6-macbook-pro-and-imac-pitches-faster-on-device-ai/article71634165.ece",
+          "source": "The Hindu",
+          "summary": "Apple said the M6 MacBook Pro delivers up to 30% faster graphics ‌and up to 25% ​faster AI performance than its M5 predecessor",
+          "published": "2026-10-28T07:47:30+00:00",
+          "regional": true
         },
         {
           "title": "ISRO to have four launch pads by 2029, says Narayanan",
@@ -682,14 +689,6 @@
           "regional": true
         },
         {
-          "title": "Elon Musk says he backs SpaceX-Tesla merger as rocket firm turns profit",
-          "link": "https://www.thehindu.com/sci-tech/technology/elon-musk-says-he-backs-spacex-tesla-merger-as-rocket-firm-turns-profit/article71606098.ece",
-          "source": "The Hindu",
-          "summary": "Elon Musk’s remarks came after SpaceX posted net income of $4.4 billion for the July-September period, compared with a loss of $1.1 billion a year earlier",
-          "published": "2026-10-21T04:00:04+00:00",
-          "regional": true
-        },
-        {
           "title": "Russian military satellite makes ‘close approach’ to U.S. radar satellite in orbit",
           "link": "https://www.thehindu.com/sci-tech/science/russian-military-satellite-stalks-us-radar-satellite-in-orbit/article71599219.ece",
           "source": "The Hindu",
@@ -720,14 +719,6 @@
           "summary": "Former ISRO Chairperson says what is required is a cooperative environment rather than unhealthy competition",
           "published": "2026-10-17T00:41:51+00:00",
           "regional": true
-        },
-        {
-          "title": "Students should be encouraged to develop scientific temperament, says Deputy Director of U. R. Rao Satellite Centre",
-          "link": "https://www.thehindu.com/news/cities/Mangalore/students-should-be-encouraged-to-develop-scientific-temperament-says-deputy-director-of-u-r-rao-satellite-centre/article71555841.ece",
-          "source": "The Hindu",
-          "summary": "Pilikula Development Authority organises two-day World Space Week - 2026 programme at Pilikula on October 7",
-          "published": "2026-10-16T21:55:27+00:00",
-          "regional": true
         }
       ]
     },
@@ -737,6 +728,14 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "The Vera C. Rubin Observatory may have just discovered our solar system’s sixth dwarf planet",
+          "link": "https://www.scientificamerican.com/article/the-vera-c-rubin-observatory-may-have-just-discovered-our-solar-systems-sixth-dwarf-planet/",
+          "source": "Scientific American",
+          "summary": "Located farther away from Earth than Pluto, the object was hidden in the light of the Milky Way’s stars",
+          "published": "2026-10-27T21:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "Dead star and planetary bodies: astronomers spot unique disc of debris that foretells Solar System’s future",
           "link": "https://www.eso.org/public/news/eso2613/",
@@ -810,14 +809,6 @@
           "regional": false
         },
         {
-          "title": "These extreme cosmic explosions are breaking physics",
-          "link": "https://www.scientificamerican.com/article/these-extreme-cosmic-explosions-are-breaking-physics/",
-          "source": "Scientific American",
-          "summary": "Astronomers are finally figuring out what powers mysterious gamma-ray bursts",
-          "published": "2026-10-20T10:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA reveals 16 stunning galaxies hiding cosmic chaos",
           "link": "https://www.sciencedaily.com/releases/2026/10/261018205050.htm",
           "source": "ScienceDaily",
@@ -847,6 +838,14 @@
           "source": "ScienceDaily",
           "summary": "NASA’s Nancy Grace Roman Space Telescope has exceeded expectations after engineers made incredibly tiny adjustments to sharpen its view of the universe.",
           "published": "2026-10-17T13:28:13+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Webb reveals the wild weather of a mysterious world 20 light-years away",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261015073215.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA’s James Webb Space Telescope has revealed that a turbulent world 20 light-years away has a surprisingly orderly weather system, with three recurring atmospheric states driven by temperature changes and shifting…",
+          "published": "2026-10-17T12:26:49+00:00",
           "regional": false
         },
         {
@@ -906,27 +905,19 @@
           "regional": false
         },
         {
+          "title": "October’s night sky is full of cosmic tricks and treats",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261008102704.htm",
+          "source": "ScienceDaily",
+          "summary": "October’s skies are packed with celestial surprises, from Jupiter disappearing behind the Moon to two meteor showers lighting up the darkness.",
+          "published": "2026-10-09T02:37:22+00:00",
+          "regional": false
+        },
+        {
           "title": "Einstein Probe reveals a hidden phase of neutron star collisions",
           "link": "https://www.sciencedaily.com/releases/2026/10/261006234511.htm",
           "source": "ScienceDaily",
           "summary": "Einstein Probe revealed nearly 10 minutes of soft X-ray activity following a short gamma-ray burst, exposing a phase of neutron star mergers that previous missions may have missed.",
           "published": "2026-10-08T10:06:06+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Webb finds signs of Mars-sized worlds smashing together",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261007042108.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA’s James Webb Space Telescope is giving astronomers a glimpse of the kinds of violent collisions that may have shaped our own solar system, including the giant impact thought to have created the Moon.",
-          "published": "2026-10-07T13:09:15+00:00",
-          "regional": false
-        },
-        {
-          "title": "Webb finds a surprising atmosphere on a scorching lava world",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261005071526.htm",
-          "source": "ScienceDaily",
-          "summary": "The James Webb Space Telescope has found strong evidence that the rocky lava world HD 3167 b has an atmosphere, despite circling its star every 24 hours under extreme heat.",
-          "published": "2026-10-07T11:58:25+00:00",
           "regional": false
         },
         {
@@ -967,14 +958,6 @@
           "source": "Max Planck Society",
           "summary": "First discovery of a planet orbiting its host star so closely that the planet's magnetic field triggers radiation bursts from the star",
           "published": "2026-10-12T11:00:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "First detection of heavy methanol in space",
-          "link": "https://www.mpg.de/26834976/first-detection-of-heavy-methanol-in-space",
-          "source": "Max Planck Society",
-          "summary": "Methanol containing heavy hydrogen is considered the building block of complex organic molecules and allows us to trace how stars and planets form from extremely cold interstellar gas and dust",
-          "published": "2026-10-06T22:00:00+00:00",
           "regional": true
         }
       ]
