@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-10-29 16:08 PDT
-; Observing window starts 2026-10-29 19:26 PDT  (LST 21:08:46)
+; Generated 2026-10-30 15:52 PDT
+; Observing window starts 2026-10-30 19:26 PDT  (LST 21:12:43)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -101,14 +101,6 @@ IC 5146
 #binning 1,3,3,3
 #filter r',Ha,OIII,SII
 NGC 7293
-
-; Supernova 2026aaiv in NGC 7331  Type Ia  mag 14.4  z=0.003000
-#posang 0
-#count 3,3
-#interval 300,300
-#binning 1,1
-#filter r',g'
-2026aaiv	22:37:05.618	+34:24:35.37
 
 ; Planet: Neptune
 #posang 0
@@ -305,14 +297,6 @@ NGC 2264
 #filter r',g',i',z'
 M 41
 
-; Supernova AT2026wyp in none  Type HPM  mag 14.5  z=n/a
-#posang 0
-#count 3,3
-#interval 300,300
-#binning 1,1
-#filter r',g'
-AT2026wyp	06:49:05.903	+37:06:08.52
-
 ; Open Cluster  mag 6.0  size 10.20'  Great Bird Cluster
 #posang 0
 #count 1,1,1,1
@@ -435,14 +419,6 @@ NGC 3115
 #filter r',g',i',z'
 IC 2574
 
-; Supernova 2026sqf in NGC 3310  Type Ia-CSM  mag 12.8  z=0.003310
-#posang 0
-#count 3,3
-#interval 300,300
-#binning 1,1
-#filter r',g'
-2026sqf	10:38:47.961	+53:30:34.10
-
 ; Galaxy  mag 9.2  size 8.26'
 #posang 0
 #count 1,1,1,1
@@ -459,6 +435,14 @@ M 96
 #filter r',g',i',z'
 M 105
 
+; Galaxy  mag 9.1  size 8.32'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 3521
+
 ; Galaxy  mag 8.9  size 10.28'
 #posang 0
 #count 1,1,1,1
@@ -466,14 +450,6 @@ M 105
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 66
-
-; Galaxy  mag 9.3  size 16.98'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 106
 
 ; Globular Cluster  mag 5.8  size 16.50'  Hercules Globular Cluster
 #posang 0
