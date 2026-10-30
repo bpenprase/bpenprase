@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-29T15:43:53.561368+00:00",
-  "generated_human": "29 October 2026, 15:43 UTC",
-  "total_items": 118,
+  "generated": "2026-10-30T15:26:29.521439+00:00",
+  "generated_human": "30 October 2026, 15:26 UTC",
+  "total_items": 116,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,22 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "An exclusive conversation with the developer of REA, the viral AI reverse engineering tool",
+          "link": "https://www.scientificamerican.com/article/an-exclusive-conversation-with-the-developer-of-rea-the-viral-ai-reverse-engineering-tool/",
+          "source": "Scientific American",
+          "summary": "An AI tool called REA can take apart software that isn’t meant to be opened in printers, smart TVs, cars, and more. Its pseudonymous creator wants everyone to get a peek",
+          "published": "2026-10-30T11:30:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Who wrote that paper? AI use spurs debate over scientific authorship",
+          "link": "https://www.science.org/content/article/ai-generates-findings-authorship-and-disclosure-rules-draw-fresh-scrutiny",
+          "source": "Science (AAAS)",
+          "summary": "Rules governing credit and responsibility for machine-written papers may need a reboot",
+          "published": "2026-10-29T11:55:00+00:00",
+          "regional": false
+        },
         {
           "title": "Systems Thinking Is Vital in the Age of AI",
           "link": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
@@ -82,12 +98,20 @@
           "regional": false
         },
         {
-          "title": "BBC Inside Science",
-          "link": "https://www.bbc.co.uk/sounds/play/w3ct9788?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "What next for the world of maths after a major intrusion by AI?",
-          "published": "2026-10-08T20:00:00+00:00",
-          "regional": false
+          "title": "AI, fuelled by advanced chips, set to power semiconductor manufacturing: industry veteran",
+          "link": "https://www.scmp.com/tech/big-tech/article/3372774/ai-fuelled-advanced-chips-set-power-semiconductor-manufacturing-industry-veteran",
+          "source": "South China Morning Post",
+          "summary": "Artificial intelligence is no longer merely the driving force behind global semiconductor demand, but is also actively reinventing how chips are designed and built, industry leaders and scientists said at a major…",
+          "published": "2026-10-30T12:59:39+00:00",
+          "regional": true
+        },
+        {
+          "title": "Kai-Fu Lee’s 01.AI secures Hangzhou state investment worth hundreds of millions of RMB",
+          "link": "https://technode.com/2026/10/30/kai-fu-lees-01-ai-secures-hangzhou-state-investment-worth-hundreds-of-millions-of-rmb/",
+          "source": "TechNode",
+          "summary": "01.AI, the artificial intelligence company founded by Kai-Fu Lee, has secured investment totaling hundreds of millions of RMB from state-backed investors in Hangzhou and the city’s Linping district.",
+          "published": "2026-10-30T05:46:56+00:00",
+          "regional": true
         },
         {
           "title": "Tencent targets Southeast Asia as launch pad for AI agent WorkBuddy amid tough local market",
@@ -98,19 +122,19 @@
           "regional": true
         },
         {
+          "title": "AI data center boom powers Samsung SDI's profit comeback",
+          "link": "https://www.koreaherald.com/article/10919331",
+          "source": "The Korea Herald",
+          "summary": "Samsung SDI returned to an operating profit in the third quarter, driven by robust demand for energy storage systems and backup batteries amid the rapid expansion of artificial intelligence data centers.",
+          "published": "2026-10-29T06:05:08+00:00",
+          "regional": true
+        },
+        {
           "title": "Business leaders urged to embrace AI, rethink old strategies",
           "link": "https://www.koreaherald.com/article/10919199",
           "source": "The Korea Herald",
           "summary": "Companies that want to survive the artificial intelligence shake-up need more than new tools: They need leaders willing to use them and rethink strategies that once worked, speakers at this week's Global Business Forum…",
           "published": "2026-10-29T05:28:34+00:00",
-          "regional": true
-        },
-        {
-          "title": "Samsung Electronics posts record profit in Q3 on AI chip supercycle",
-          "link": "https://www.koreaherald.com/article/10918815",
-          "source": "The Korea Herald",
-          "summary": "Samsung Electronics Co. said Thursday its third-quarter net profit jumped more than sixfold from a year earlier as strong demand for artificial intelligence-related semiconductors boosted earnings.",
-          "published": "2026-10-29T02:08:10+00:00",
           "regional": true
         },
         {
@@ -146,22 +170,6 @@
           "regional": true
         },
         {
-          "title": "Washington’s DeepSeek ban may deter US firms from adopting Chinese AI models: experts",
-          "link": "https://www.scmp.com/tech/big-tech/article/3371649/washingtons-deepseek-ban-may-deter-us-firms-adopting-chinese-ai-models-experts",
-          "source": "South China Morning Post",
-          "summary": "The US government’s latest ban on Chinese artificial intelligence start-up DeepSeek could have a chilling effect on the wider American business community and deter companies from adopting low-cost Chinese AI models,…",
-          "published": "2026-10-21T14:00:12+00:00",
-          "regional": true
-        },
-        {
-          "title": "DeepSeek seeks ‘total victory’ over closed-source AI with new open-source tool",
-          "link": "https://www.scmp.com/tech/big-tech/article/3371592/deepseek-open-sources-new-tool-slash-ai-costs-fight-against-closed-source-rivals",
-          "source": "South China Morning Post",
-          "summary": "Chinese artificial intelligence start-up DeepSeek has fully open-sourced an internally developed framework designed to run AI models efficiently, as a senior researcher at the company described the growing divide…",
-          "published": "2026-10-21T05:03:27+00:00",
-          "regional": true
-        },
-        {
           "title": "CERN and Mistral partner to build AI foundation models for physics",
           "link": "https://www.thehindu.com/sci-tech/science/cern-and-mistral-partner-to-build-ai-foundation-models-for-physics/article71591196.ece",
           "source": "The Hindu",
@@ -177,14 +185,6 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
-        {
-          "title": "RAF base chemical contamination worst in UK, report says",
-          "link": "https://www.bbc.co.uk/news/articles/c64g1je3034ko?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Testing at RAF Upper Heyford finds \"unacceptable\" levels of polyfluoroalkyl substances (PFAS).",
-          "published": "2026-10-29T06:13:24+00:00",
-          "regional": false
-        },
         {
           "title": "‘Forever chemicals’ are everywhere. Can new technologies get rid of them for good?",
           "link": "https://www.science.org/content/article/forever-chemicals-are-everywhere-can-new-technologies-get-rid-them-good",
@@ -258,12 +258,28 @@
           "regional": false
         },
         {
-          "title": "Scientists find hidden materials that could improve batteries and solar fuels",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261007042118.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have uncovered a hidden world of “in-between” materials that briefly form as chemical ingredients are heated, revealing structures that conventional methods can miss.",
-          "published": "2026-10-09T10:20:23+00:00",
-          "regional": false
+          "title": "AI, fuelled by advanced chips, set to power semiconductor manufacturing: industry veteran",
+          "link": "https://www.scmp.com/tech/big-tech/article/3372774/ai-fuelled-advanced-chips-set-power-semiconductor-manufacturing-industry-veteran",
+          "source": "South China Morning Post",
+          "summary": "Artificial intelligence is no longer merely the driving force behind global semiconductor demand, but is also actively reinventing how chips are designed and built, industry leaders and scientists said at a major…",
+          "published": "2026-10-30T12:59:39+00:00",
+          "regional": true
+        },
+        {
+          "title": "Posco Future M to supply 720,000 tons of battery materials to LG Energy Solution",
+          "link": "https://www.koreaherald.com/article/10920979",
+          "source": "The Korea Herald",
+          "summary": "Posco Future M has signed an agreement with LG Energy Solution to supply 720,000 metric tons of battery materials over seven years starting in 2027, expanding their partnership to include lithium iron phosphate cathodes…",
+          "published": "2026-10-30T08:45:55+00:00",
+          "regional": true
+        },
+        {
+          "title": "Seoul shares dip over 3% on tech sell-off amid AI concerns",
+          "link": "https://www.koreaherald.com/article/10920828",
+          "source": "The Korea Herald",
+          "summary": "South Korean shares dropped by more than 3 percent Friday, dragged down by a sell-off in semiconductor stocks amid lingering concerns over the sustainability of artificial intelligence investments.",
+          "published": "2026-10-30T07:16:52+00:00",
+          "regional": true
         },
         {
           "title": "Korea's battery rebound yet to reach suppliers: KBIA chief",
@@ -271,22 +287,6 @@
           "source": "The Korea Herald",
           "summary": "South Korea's battery industry is showing early signs of recovery as stalled electric vehicle projects resume and growing demand for energy storage systems helps offset a slowdown in the US EV market, a leading industry…",
           "published": "2026-10-29T08:55:11+00:00",
-          "regional": true
-        },
-        {
-          "title": "Samsung Electronics posts record profit in Q3 on AI chip supercycle",
-          "link": "https://www.koreaherald.com/article/10918815",
-          "source": "The Korea Herald",
-          "summary": "Samsung Electronics Co. said Thursday its third-quarter net profit jumped more than sixfold from a year earlier as strong demand for artificial intelligence-related semiconductors boosted earnings.",
-          "published": "2026-10-29T02:08:10+00:00",
-          "regional": true
-        },
-        {
-          "title": "OCI posts record nine-month operating profit since 2023 spin-off",
-          "link": "https://www.koreaherald.com/article/10917914",
-          "source": "The Korea Herald",
-          "summary": "OCI reported third-quarter revenue of 599.1 billion won ($451 million) and operating profit of 30.3 billion won Tuesday, supported by stronger semiconductor materials sales and higher carbon black prices.",
-          "published": "2026-10-28T07:07:57+00:00",
           "regional": true
         },
         {
@@ -314,14 +314,6 @@
           "regional": true
         },
         {
-          "title": "IISER researchers make solid material that releases two fuel gases",
-          "link": "https://www.thehindu.com/sci-tech/science/iiser-researchers-make-solid-material-that-releases-two-fuel-gases/article71574650.ece",
-          "source": "The Hindu",
-          "summary": "The team developed a compound called magnesium hydridomethylzincate. When it was heated in solution to 100° C, it released hydrogen, and when its crystals were heated in the absence of a solvent at 80-110° C, it…",
-          "published": "2026-10-17T19:53:54+00:00",
-          "regional": true
-        },
-        {
           "title": "ASML eyes hybrid bonding, report finds, as Chinese firms adopt chip packaging technique",
           "link": "https://www.scmp.com/tech/tech-trends/article/3371181/asml-eyes-hybrid-bonding-report-finds-chinese-firms-adopt-chip-packaging-technique",
           "source": "South China Morning Post",
@@ -338,11 +330,11 @@
           "regional": true
         },
         {
-          "title": "Japanese Scientist Kenso Soai Wins Chemistry Nobel Prize With French Scientist Henri B. Kagan",
-          "link": "https://www.asianscientist.com/2026/10/topnews/japanese-scientist-kenso-soai-wins-chemistry-nobel-prize-with-french-scientist-henri-b-kagan/",
-          "source": "Asian Scientist",
-          "summary": "The researchers won the award for solving a long standing mystery in chemistry: homochirality.",
-          "published": "2026-10-09T08:24:40+00:00",
+          "title": "ASML’s chip equipment sales to China soar 109% despite US export curb push",
+          "link": "https://www.scmp.com/tech/big-tech/article/3370904/asmls-chip-equipment-sales-china-soar-109-despite-us-export-curb-push",
+          "source": "South China Morning Post",
+          "summary": "Dutch semiconductor equipment giant ASML expects China to account for about 20 per cent of its total sales this year, after seeing shipments to the market more than double during the previous quarter despite mounting US…",
+          "published": "2026-10-14T14:00:12+00:00",
           "regional": true
         }
       ]
@@ -358,7 +350,7 @@
           "link": "https://www.thehindu.com/sci-tech/science/gene-therapy-offers-to-beat-hepatitis-b-virus-by-muting-its-dna/article71635399.ece",
           "source": "The Hindu",
           "summary": "An experimental therapy called CRMA-1001 is a remarkable development because, instead of targeting the virus directly, it silences the viral DNA; this is promising because current treatments rarely eliminate the DNA,…",
-          "published": "2026-10-28T10:37:14+00:00",
+          "published": "2026-10-30T04:48:02+00:00",
           "regional": true
         }
       ]
@@ -394,11 +386,43 @@
           "regional": false
         },
         {
+          "title": "Posco Future M to supply 720,000 tons of battery materials to LG Energy Solution",
+          "link": "https://www.koreaherald.com/article/10920979",
+          "source": "The Korea Herald",
+          "summary": "Posco Future M has signed an agreement with LG Energy Solution to supply 720,000 metric tons of battery materials over seven years starting in 2027, expanding their partnership to include lithium iron phosphate cathodes…",
+          "published": "2026-10-30T08:45:55+00:00",
+          "regional": true
+        },
+        {
+          "title": "Hyosung, Siemens partner on digital power grid and AI data center solutions",
+          "link": "https://www.koreaherald.com/article/10920730",
+          "source": "The Korea Herald",
+          "summary": "Hyosung Heavy Industries is partnering with Germany's Siemens to develop digital power infrastructure and AI data center solutions. The company signed a Global Strategic Partnership Agreement with Siemens on Friday.",
+          "published": "2026-10-30T06:25:15+00:00",
+          "regional": true
+        },
+        {
+          "title": "LS Cable to invest $262m in rare earth magnet plant",
+          "link": "https://www.koreaherald.com/article/10920566",
+          "source": "The Korea Herald",
+          "summary": "LS Cable & System will invest 350 billion won ($262 million) to build a rare earth magnet plant in Gumi, North Gyeongsang Province, forming part of the company's supply chain for defense, robotics and electric vehicles.",
+          "published": "2026-10-30T04:49:28+00:00",
+          "regional": true
+        },
+        {
           "title": "Korea's battery rebound yet to reach suppliers: KBIA chief",
           "link": "https://www.koreaherald.com/article/10919668",
           "source": "The Korea Herald",
           "summary": "South Korea's battery industry is showing early signs of recovery as stalled electric vehicle projects resume and growing demand for energy storage systems helps offset a slowdown in the US EV market, a leading industry…",
           "published": "2026-10-29T08:55:11+00:00",
+          "regional": true
+        },
+        {
+          "title": "AI data center boom powers Samsung SDI's profit comeback",
+          "link": "https://www.koreaherald.com/article/10919331",
+          "source": "The Korea Herald",
+          "summary": "Samsung SDI returned to an operating profit in the third quarter, driven by robust demand for energy storage systems and backup batteries amid the rapid expansion of artificial intelligence data centers.",
+          "published": "2026-10-29T06:05:08+00:00",
           "regional": true
         },
         {
@@ -410,27 +434,11 @@
           "regional": true
         },
         {
-          "title": "Mercedes-Benz Korea touts 20-year service edge over EV newcomers",
-          "link": "https://www.koreaherald.com/article/10917819",
-          "source": "The Korea Herald",
-          "summary": "YONGIN, Gyeonggi Province — Emerging automakers, particularly Chinese electric vehicle brands, are rapidly expanding their presence in South Korea.",
-          "published": "2026-10-28T06:23:51+00:00",
-          "regional": true
-        },
-        {
           "title": "Being a good doctor is risky in India",
           "link": "https://www.thehindu.com/sci-tech/health/being-a-good-doctor-is-risky-in-india/article71599608.ece",
           "source": "The Hindu",
           "summary": "When people cannot access adequate food, clean water, or timely healthcare, can the solution to their illness really end with a prescription?",
           "published": "2026-10-21T07:19:56+00:00",
-          "regional": true
-        },
-        {
-          "title": "IISER researchers make solid material that releases two fuel gases",
-          "link": "https://www.thehindu.com/sci-tech/science/iiser-researchers-make-solid-material-that-releases-two-fuel-gases/article71574650.ece",
-          "source": "The Hindu",
-          "summary": "The team developed a compound called magnesium hydridomethylzincate. When it was heated in solution to 100° C, it released hydrogen, and when its crystals were heated in the absence of a solvent at 80-110° C, it…",
-          "published": "2026-10-17T19:53:54+00:00",
           "regional": true
         },
         {
@@ -456,22 +464,6 @@
           "summary": "Prominent climate leaders have called on governments, businesses, institutions and the public to make a push for solar power before the decade is out, repowering the world with cheap, clean energy. Is that possible?",
           "published": "2026-10-02T13:48:00+00:00",
           "regional": true
-        },
-        {
-          "title": "Iran and US: Two countries and the pistachio between them",
-          "link": "https://www.dw.com/en/iran-and-us-two-countries-and-the-pistachio-between-them/a-79224310?maca=en-rss_en_environment-22607-xml-mrss",
-          "source": "Deutsche Welle",
-          "summary": "The pistachios sold across the United States have a surprising history: California's trees trace their roots to Iran. Now, both regions face the same threat — their farmland is sinking as groundwater disappears.",
-          "published": "2026-09-15T07:48:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "The hidden environmental cost of AI data centers",
-          "link": "https://www.dw.com/en/the-hidden-environmental-cost-of-ai-data-centers/a-78789889?maca=en-rss_en_environment-22607-xml-mrss",
-          "source": "Deutsche Welle",
-          "summary": "As data centers multiply to meet AI demand, they're straining power grids, draining water supplies and reshaping the land and air around them.",
-          "published": "2026-09-04T11:08:00+00:00",
-          "regional": true
         }
       ]
     },
@@ -482,35 +474,43 @@
       "accent": "#F0894E",
       "items": [
         {
-          "title": "Send Your Name to Titan Aboard NASA’s Dragonfly Mission",
-          "link": "https://www.nasa.gov/news-release/send-your-name-to-titan-aboard-nasas-dragonfly-mission/",
-          "source": "NASA",
-          "summary": "You may never soar under the clouds or over the organic sands of Saturn’s moon Titan, but your name can. NASA is inviting the public to send their names aboard the agency’s Dragonfly rotorcraft and be part of the first…",
-          "published": "2026-10-29T15:10:18+00:00",
+          "title": "What happened this month at the European Space Agency? (October 2026)",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/What_happened_this_month_at_the_European_Space_Agency_October_2026",
+          "source": "ESA",
+          "summary": "Video: 00:04:30 October was a month of discoveries and milestones. ESA’s Rosalind Franklin rover team trained in Spain’s desert, preparing for Mars.",
+          "published": "2026-10-30T15:00:00+00:00",
           "regional": false
         },
         {
-          "title": "NASA’s Hubble Marks Way for Roman Space Telescope",
-          "link": "https://www.nasa.gov/image-article/nasas-hubble-marks-way-for-roman-space-telescope/",
-          "source": "NASA",
-          "summary": "A sweeping barred galaxy takes center stage in this Oct. 22, 2026, image, but the gravitational lensing at bottom right is the real target.",
-          "published": "2026-10-29T14:49:27+00:00",
+          "title": "Astronauts just gave the International Space Station a powerful upgrade",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261030002931.htm",
+          "source": "ScienceDaily",
+          "summary": "Two astronauts completed a 7-hour, 11-minute spacewalk to install a new solar array on the International Space Station, bringing NASA one step closer to a major power upgrade.",
+          "published": "2026-10-30T06:12:55+00:00",
           "regional": false
         },
         {
-          "title": "Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy",
-          "link": "https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/",
+          "title": "Halloween Aboard the International Space Station",
+          "link": "https://www.nasa.gov/centers-and-facilities/johnson/halloween-aboard-the-international-space-station/",
           "source": "NASA",
-          "summary": "Artemis II Commander Reid Wiseman has been named Caltech associate vice president and deputy director of NASA’s Jet Propulsion Laboratory in Southern California. The emeritus astronaut and retired U.S.",
-          "published": "2026-10-29T02:49:59+00:00",
+          "summary": "Although no ghouls, goblins, or trick-or-treaters come knocking at the International Space Station’s front hatch, crew members aboard the orbiting laboratory still like to get in the Halloween spirit.",
+          "published": "2026-10-29T21:44:23+00:00",
           "regional": false
         },
         {
-          "title": "NASA Welcomes Vietnam as Newest Artemis Accords Signatory",
-          "link": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-vietnam-as-newest-artemis-accords-signatory/",
+          "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
+          "link": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
           "source": "NASA",
-          "summary": "The Socialist Republic of Vietnam became the 78th nation to sign the Artemis Accords, joining a growing coalition of like-minded nations committed to the peaceful, transparent, and responsible exploration of space.",
-          "published": "2026-10-28T21:50:01+00:00",
+          "summary": "When a rose-colored meteorite was found in the Sahara Desert in 2022, no one knew how old it was or where it came from.",
+          "published": "2026-10-29T18:18:09+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA discovers Jupiter’s invisible shield is more complex than Earth’s",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261028232715.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA’s Juno spacecraft has discovered that Jupiter uses a surprisingly complex system of powerful plasma waves and multiple shock regions to defend against the solar wind.",
+          "published": "2026-10-29T12:26:25+00:00",
           "regional": false
         },
         {
@@ -543,6 +543,14 @@
           "source": "ESA",
           "summary": "The European Space Agency (ESA) has extended ongoing contracts to build four additional Galileo Second Generation (G2) satellites, ensuring the long-term continuity of the constellation and supporting the rollout of new…",
           "published": "2026-10-27T10:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Ice mission CRISTAL opens its wings",
+          "link": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Ice_mission_CRISTAL_opens_its_wings",
+          "source": "ESA",
+          "summary": "With its solar arrays integrated and key qualification reviews under way, Europe’s new ice-monitoring satellite, CRISTAL, is moving from assembly into the demanding testing phase that will demonstrate its readiness for…",
+          "published": "2026-10-26T10:00:00+00:00",
           "regional": false
         },
         {
@@ -658,43 +666,35 @@
           "regional": false
         },
         {
-          "title": "Farewell to the Fluid Science Laboratory after 18 years in orbit",
-          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Farewell_to_the_Fluid_Science_Laboratory_after_18_years_in_orbit",
-          "source": "ESA",
-          "summary": "On 9 October, astronauts on the International Space Station begin supporting the final decommissioning of ESA's Fluid Science Laboratory (FSL), one of the longest-serving scientific facilities inside Europe's Columbus…",
-          "published": "2026-10-09T10:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA astronauts splash down after 100 million miles in space",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261008232629.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA’s SpaceX Crew-12 astronauts have returned to Earth after 237 days in space, traveling more than 100 million miles and completing over 3,792 orbits while conducting research to prepare for future missions to the…",
-          "published": "2026-10-09T03:56:28+00:00",
-          "regional": false
-        },
-        {
-          "title": "Samsung SDS targets Asia-first Nvidia Vera Rubin cloud launch",
-          "link": "https://www.koreaherald.com/article/10919636",
-          "source": "The Korea Herald",
-          "summary": "Samsung SDS is seeking to become Asia's first cloud provider to offer Nvidia's next-generation Vera Rubin GPUs in March 2027, accelerating its push into AI infrastructure as demand for computing power surges.",
-          "published": "2026-10-29T08:30:12+00:00",
+          "title": "ISRO set to launch GSLV-F18 carrying navigation satellite NVS-03 | LIVE",
+          "link": "https://www.thehindu.com/sci-tech/science/isro-gslv-f18-nvs-03-navigation-satellite-launch-sriharikota-october-30-2026-live-updates/article71645088.ece",
+          "source": "The Hindu",
+          "summary": "",
+          "published": "2026-10-30T15:06:57+00:00",
           "regional": true
         },
         {
-          "title": "Tencent targets Southeast Asia as launch pad for AI agent WorkBuddy amid tough local market",
-          "link": "https://www.scmp.com/tech/big-tech/article/3372550/tencent-targets-southeast-asia-launch-pad-ai-agent-workbuddy-amid-tough-local-market",
-          "source": "South China Morning Post",
-          "summary": "Chinese tech giant Tencent Holdings is using Southeast Asia as a launch pad to take its “cost-effective” artificial intelligence tools global, fronted by its workplace assistant WorkBuddy, amid cutthroat competition at…",
-          "published": "2026-10-29T07:30:10+00:00",
-          "regional": true
-        },
-        {
-          "title": "Chinese AAA wuxia action game Phantom Blade Zero launches on PS5 and PC",
-          "link": "https://technode.com/2026/10/29/chinese-aaa-wuxia-action-game-phantom-blade-zero-launches-on-ps5-and-pc/",
+          "title": "Former Xiaomi executive launches smart ring and AI-powered sleep system",
+          "link": "https://technode.com/2026/10/30/former-xiaomi-executive-launches-smart-ring-and-ai-powered-sleep-system/",
           "source": "TechNode",
-          "summary": "Chinese developer S-GAME released its AAA wuxia action game Phantom Blade Zero on October 29 for PlayStation 5 and PC. The standard PC edition is priced at RMB 268 in China, while the deluxe edition costs RMB 328.",
-          "published": "2026-10-29T05:16:53+00:00",
+          "summary": "ISHO, the sleep technology startup founded by former Xiaomi executive Wang Teng, unveiled its first products on October 29: the ISHO Ring smart ring and the iFlow bed temperature-control system.",
+          "published": "2026-10-30T05:46:56+00:00",
+          "regional": true
+        },
+        {
+          "title": "Why is ISRO’s NVS-03 satellite launch crucial? | Explained",
+          "link": "https://www.thehindu.com/sci-tech/science/why-is-isros-nvs-03-satellite-launch-crucial-explained/article71643798.ece",
+          "source": "The Hindu",
+          "summary": "The mission could help restore the functioning of India’s regional satellite navigation system NavIC; its development began following the 1999 Kargil War, when the U.S reportedly clamped down on GPS data access",
+          "published": "2026-10-30T05:44:47+00:00",
+          "regional": true
+        },
+        {
+          "title": "Countdown progressing for ISRO’s crucial GSLV-F18 launch carrying navigation satellite NVS-03",
+          "link": "https://www.thehindu.com/sci-tech/science/isros-crucial-gslv-f18-launch-carrying-navigation-satellite-nvs-03/article71643519.ece",
+          "source": "The Hindu",
+          "summary": "The Geosynchronous Satellite Launch Vehicle carrying on board the GSLV-F18 rocket is scheduled to lift off at 11.51 p.m. on Friday (October 30, 2026) from the second launch pad at the Satish Dhawan Space Centre",
+          "published": "2026-10-30T03:48:05+00:00",
           "regional": true
         },
         {
@@ -719,14 +719,6 @@
           "source": "The Hindu",
           "summary": "Contributions from private companies should not be misinterpreted as privatisation of the space agency, says the chairperson",
           "published": "2026-10-24T16:30:18+00:00",
-          "regional": true
-        },
-        {
-          "title": "US Nancy Grace Roman Space Telescope launches successfully to challenge \"mysteries of darkness\": Japan also participates",
-          "link": "https://sj.jst.go.jp/stories/2026/s1023-02p.html",
-          "source": "Science Japan",
-          "summary": "The \"Nancy Grace Roman Space Telescope\" of the National Aeronautics and Space Administration (NASA), developed as a large space telescope following \"Hubble\" and \"James Webb,\" successfully launched.",
-          "published": "2026-10-23T06:34:24+00:00",
           "regional": true
         },
         {
@@ -762,19 +754,43 @@
       "accent": "#B98CE0",
       "items": [
         {
+          "title": "Physicists created a tiny universe and watched time emerge without a clock",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261028234703.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have created a miniature universe in the laboratory that could help answer one of the biggest mysteries in physics: What is time, and where does it come from?",
+          "published": "2026-10-30T11:42:36+00:00",
+          "regional": false
+        },
+        {
+          "title": "Hubble reveals a stunning twist in how the universe emerged from darkness",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261029072113.htm",
+          "source": "ScienceDaily",
+          "summary": "A surprising discovery by astronomers using the Hubble Space Telescope is challenging a leading explanation for how the early universe emerged from a dense fog of hydrogen roughly 13 billion years ago.",
+          "published": "2026-10-30T10:50:22+00:00",
+          "regional": false
+        },
+        {
+          "title": "What’s the scariest thing in the universe?",
+          "link": "https://www.scientificamerican.com/article/whats-the-scariest-thing-in-the-universe/",
+          "source": "Scientific American",
+          "summary": "It’s Halloween, and nothing is scarier than our terrifying universe",
+          "published": "2026-10-30T10:45:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "A mysterious star system just 16 light-years away may be hiding habitable planets",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261028232711.htm",
+          "source": "ScienceDaily",
+          "summary": "Astronomers have solved a 170-year-old planetary mystery in a nearby two-star system, discovering that a mysterious wobble was caused by stellar activity rather than a giant planet.",
+          "published": "2026-10-30T03:17:17+00:00",
+          "regional": false
+        },
+        {
           "title": "Einstein's equations may explain the universe without dark energy",
           "link": "https://www.sciencedaily.com/releases/2026/10/261028232719.htm",
           "source": "ScienceDaily",
           "summary": "Mathematicians have uncovered what they argue is a fundamental flaw in the standard model of the universe, potentially challenging the need for dark energy.",
           "published": "2026-10-29T12:07:58+00:00",
-          "regional": false
-        },
-        {
-          "title": "Meteors don't just burn up. What really happens is far more violent",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261027063710.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have uncovered seven surprising stages that space rocks go through as they hurtle toward Earth, revealing that melting and violent fragmentation, rather than simple evaporation, determine their fate.",
-          "published": "2026-10-29T03:06:41+00:00",
           "regional": false
         },
         {
@@ -831,14 +847,6 @@
           "source": "ScienceDaily",
           "summary": "A massive analysis of 2,884 exploding stars has uncovered new evidence that dark energy, the mysterious force accelerating the universe’s expansion, may change over time.",
           "published": "2026-10-23T02:54:41+00:00",
-          "regional": false
-        },
-        {
-          "title": "See the Orionids meteor shower at its peak this week",
-          "link": "https://www.scientificamerican.com/article/see-the-orionids-meteor-shower-at-its-peak-this-week/",
-          "source": "Scientific American",
-          "summary": "The shower’s shooting stars originate from Halley’s Comet",
-          "published": "2026-10-20T21:00:00+00:00",
           "regional": false
         },
         {
@@ -938,22 +946,6 @@
           "regional": false
         },
         {
-          "title": "A 9-billion-year-old signal could help explain dark energy",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261007042102.htm",
-          "source": "ScienceDaily",
-          "summary": "A Canadian radio telescope has detected the faint glow of hydrogen from billions of years ago using only its own observations, proving a long-awaited way to map the distant universe can actually work.",
-          "published": "2026-10-09T08:53:28+00:00",
-          "regional": false
-        },
-        {
-          "title": "October’s night sky is full of cosmic tricks and treats",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261008102704.htm",
-          "source": "ScienceDaily",
-          "summary": "October’s skies are packed with celestial surprises, from Jupiter disappearing behind the Moon to two meteor showers lighting up the darkness.",
-          "published": "2026-10-09T02:37:22+00:00",
-          "regional": false
-        },
-        {
           "title": "Ashoke Sen becomes first Indian physicist to receive Oskar Klein Medal",
           "link": "https://www.thehindu.com/news/national/ashoke-sen-becomes-first-indian-physicist-to-receive-oskar-klein-medal/article71619342.ece",
           "source": "The Hindu",
@@ -967,14 +959,6 @@
           "source": "The Hindu",
           "summary": "The discovery of Ariel and Umbriel — two of Uranus’ many moons — took place 175 years ago on October 24, 1851. It was an amateur astronomer, William Lassell, who discovered these two satellites and two more as well.",
           "published": "2026-10-24T05:04:02+00:00",
-          "regional": true
-        },
-        {
-          "title": "US Nancy Grace Roman Space Telescope launches successfully to challenge \"mysteries of darkness\": Japan also participates",
-          "link": "https://sj.jst.go.jp/stories/2026/s1023-02p.html",
-          "source": "Science Japan",
-          "summary": "The \"Nancy Grace Roman Space Telescope\" of the National Aeronautics and Space Administration (NASA), developed as a large space telescope following \"Hubble\" and \"James Webb,\" successfully launched.",
-          "published": "2026-10-23T06:34:24+00:00",
           "regional": true
         },
         {
