@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-30T15:26:29.521439+00:00",
-  "generated_human": "30 October 2026, 15:26 UTC",
-  "total_items": 116,
+  "generated": "2026-10-31T14:54:48.917215+00:00",
+  "generated_human": "31 October 2026, 14:54 UTC",
+  "total_items": 115,
   "channels": [
     {
       "key": "ai",
@@ -90,14 +90,6 @@
           "regional": false
         },
         {
-          "title": "Master AI Chip Principles With New IEEE Design Program",
-          "link": "https://spectrum.ieee.org/master-ai-chip-principles-ieee",
-          "source": "IEEE Spectrum",
-          "summary": "Today’s engineers face an unprecedented acceleration in AI hardware complexity, as explained in the recent research article “ Revisiting Edge AI: Opportunities and Challenges .” The article examines the rapid growth of…",
-          "published": "2026-10-09T18:00:02+00:00",
-          "regional": false
-        },
-        {
           "title": "AI, fuelled by advanced chips, set to power semiconductor manufacturing: industry veteran",
           "link": "https://www.scmp.com/tech/big-tech/article/3372774/ai-fuelled-advanced-chips-set-power-semiconductor-manufacturing-industry-veteran",
           "source": "South China Morning Post",
@@ -127,14 +119,6 @@
           "source": "The Korea Herald",
           "summary": "Samsung SDI returned to an operating profit in the third quarter, driven by robust demand for energy storage systems and backup batteries amid the rapid expansion of artificial intelligence data centers.",
           "published": "2026-10-29T06:05:08+00:00",
-          "regional": true
-        },
-        {
-          "title": "Business leaders urged to embrace AI, rethink old strategies",
-          "link": "https://www.koreaherald.com/article/10919199",
-          "source": "The Korea Herald",
-          "summary": "Companies that want to survive the artificial intelligence shake-up need more than new tools: They need leaders willing to use them and rethink strategies that once worked, speakers at this week's Global Business Forum…",
-          "published": "2026-10-29T05:28:34+00:00",
           "regional": true
         },
         {
@@ -170,11 +154,19 @@
           "regional": true
         },
         {
-          "title": "CERN and Mistral partner to build AI foundation models for physics",
-          "link": "https://www.thehindu.com/sci-tech/science/cern-and-mistral-partner-to-build-ai-foundation-models-for-physics/article71591196.ece",
-          "source": "The Hindu",
-          "summary": "It is meant to replace some specialised ‌algorithms now used to reconstruct ​and identify particles",
-          "published": "2026-10-18T01:49:44+00:00",
+          "title": "Washington’s DeepSeek ban may deter US firms from adopting Chinese AI models: experts",
+          "link": "https://www.scmp.com/tech/big-tech/article/3371649/washingtons-deepseek-ban-may-deter-us-firms-adopting-chinese-ai-models-experts",
+          "source": "South China Morning Post",
+          "summary": "The US government’s latest ban on Chinese artificial intelligence start-up DeepSeek could have a chilling effect on the wider American business community and deter companies from adopting low-cost Chinese AI models,…",
+          "published": "2026-10-21T14:00:12+00:00",
+          "regional": true
+        },
+        {
+          "title": "DeepSeek seeks ‘total victory’ over closed-source AI with new open-source tool",
+          "link": "https://www.scmp.com/tech/big-tech/article/3371592/deepseek-open-sources-new-tool-slash-ai-costs-fight-against-closed-source-rivals",
+          "source": "South China Morning Post",
+          "summary": "Chinese artificial intelligence start-up DeepSeek has fully open-sourced an internally developed framework designed to run AI models efficiently, as a senior researcher at the company described the growing divide…",
+          "published": "2026-10-21T05:03:27+00:00",
           "regional": true
         }
       ]
@@ -185,6 +177,22 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "Scientists discover metals that defy the deep freeze at -424°F",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261029072127.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have discovered a surprising mechanism that allows certain metals to resist cracking at temperatures as low as -253°C (-424°F), when similar materials typically become dangerously brittle.",
+          "published": "2026-10-31T12:45:59+00:00",
+          "regional": false
+        },
+        {
+          "title": "Bones may release proteins that slow aging and extend life span",
+          "link": "https://www.science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span",
+          "source": "Science (AAAS)",
+          "summary": "Exercise triggers bone cells called osteocytes to secrete antiaging chemicals in mice",
+          "published": "2026-10-30T02:50:00+00:00",
+          "regional": false
+        },
         {
           "title": "‘Forever chemicals’ are everywhere. Can new technologies get rid of them for good?",
           "link": "https://www.science.org/content/article/forever-chemicals-are-everywhere-can-new-technologies-get-rid-them-good",
@@ -250,14 +258,6 @@
           "regional": false
         },
         {
-          "title": "A famous quantum effect can finally be predicted in real materials",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261006234520.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have developed a powerful new way to calculate the Kondo effect, a strange quantum phenomenon that appears when magnetic atoms are embedded in metals.",
-          "published": "2026-10-10T01:59:39+00:00",
-          "regional": false
-        },
-        {
           "title": "AI, fuelled by advanced chips, set to power semiconductor manufacturing: industry veteran",
           "link": "https://www.scmp.com/tech/big-tech/article/3372774/ai-fuelled-advanced-chips-set-power-semiconductor-manufacturing-industry-veteran",
           "source": "South China Morning Post",
@@ -303,14 +303,6 @@
           "source": "Science Japan",
           "summary": "The Royal Swedish Academy of Sciences (RSAS) announced on October 7 that it will award the 2026 Nobel Prize in Chemistry to Emeritus Professor Kenso Soai (76) of Tokyo University of Science and Emeritus Professor Henri…",
           "published": "2026-10-27T05:32:10+00:00",
-          "regional": true
-        },
-        {
-          "title": "Two-Face molecule could help make IBD treatments more effective",
-          "link": "https://www.thehindu.com/sci-tech/science/two-face-molecule-could-help-make-ibd-treatments-more-effective/article71599361.ece",
-          "source": "The Hindu",
-          "summary": "A drug that targets an overactive immune response may also weaken the gut’s ability to fight harmful bacteria. Understanding where the molecule is helping or not could be important before this pathway is considered for…",
-          "published": "2026-10-18T07:24:31+00:00",
           "regional": true
         },
         {
@@ -361,14 +353,6 @@
       "tagline": "New ways to generate clean energy, capture carbon, and bring fresh water and power to people, cities, and transport.",
       "accent": "#33C6D6",
       "items": [
-        {
-          "title": "Wind turbines kill ‘shocking’ number of bats each year",
-          "link": "https://www.science.org/content/article/wind-turbines-kill-shocking-number-bats-each-year",
-          "source": "Science (AAAS)",
-          "summary": "Deaths can be prevented by regulating when wind turbines operate, scientists say",
-          "published": "2026-10-26T03:45:00+00:00",
-          "regional": false
-        },
         {
           "title": "Scientists may have found a shortcut to fusion energy",
           "link": "https://www.sciencedaily.com/releases/2026/10/261008005242.htm",
@@ -474,11 +458,27 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "NASA’s James Webb Space Telescope Captures Eerie Cat’s Head",
+          "link": "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/",
+          "source": "NASA",
+          "summary": "Intricate structures within the Cat’s Head Nebula are illuminated in this mid-infrared view from NASA’s James Webb Space Telescope released on Oct. 29, 2026.",
+          "published": "2026-10-30T15:56:26+00:00",
+          "regional": false
+        },
+        {
           "title": "What happened this month at the European Space Agency? (October 2026)",
           "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/What_happened_this_month_at_the_European_Space_Agency_October_2026",
           "source": "ESA",
           "summary": "Video: 00:04:30 October was a month of discoveries and milestones. ESA’s Rosalind Franklin rover team trained in Spain’s desert, preparing for Mars.",
           "published": "2026-10-30T15:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Explores Potential Commercial Servicing for Hubble Telescope",
+          "link": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+          "source": "NASA",
+          "summary": "NASA issued a Request for Information Oct. 29 to learn more about industry capabilities for in-space servicing to support the agency’s Hubble Space Telescope.",
+          "published": "2026-10-30T14:51:21+00:00",
           "regional": false
         },
         {
@@ -495,14 +495,6 @@
           "source": "NASA",
           "summary": "Although no ghouls, goblins, or trick-or-treaters come knocking at the International Space Station’s front hatch, crew members aboard the orbiting laboratory still like to get in the Halloween spirit.",
           "published": "2026-10-29T21:44:23+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
-          "link": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
-          "source": "NASA",
-          "summary": "When a rose-colored meteorite was found in the Sahara Desert in 2022, no one knew how old it was or where it came from.",
-          "published": "2026-10-29T18:18:09+00:00",
           "regional": false
         },
         {
@@ -575,14 +567,6 @@
           "source": "ScienceDaily",
           "summary": "NASA’s Curiosity rover has revealed a spectacular new view of mysterious, wind-carved cliffs on Mars that may hold evidence of ancient volcanic activity.",
           "published": "2026-10-22T11:03:49+00:00",
-          "regional": false
-        },
-        {
-          "title": "Report pinpoints future exploration sites on the moon",
-          "link": "https://www.scientificamerican.com/article/report-pinpoints-future-exploration-sites-on-the-moon/",
-          "source": "Scientific American",
-          "summary": "Besides building crewed outposts at the lunar south pole, where else should astronauts go on the moon? An authoritative new report has suggestions",
-          "published": "2026-10-21T15:30:00+00:00",
           "regional": false
         },
         {
@@ -666,19 +650,35 @@
           "regional": false
         },
         {
-          "title": "ISRO set to launch GSLV-F18 carrying navigation satellite NVS-03 | LIVE",
-          "link": "https://www.thehindu.com/sci-tech/science/isro-gslv-f18-nvs-03-navigation-satellite-launch-sriharikota-october-30-2026-live-updates/article71645088.ece",
+          "title": "NASA telescope on verge of plunging back to Earth after failed rescue mission",
+          "link": "https://www.thehindu.com/sci-tech/science/nasa-telescope-on-verge-of-plunging-back-to-earth-after-failed-rescue-mission/article71649422.ece",
           "source": "The Hindu",
-          "summary": "",
-          "published": "2026-10-30T15:06:57+00:00",
+          "summary": "Most of the 1 ½-ton telescope is expected to burn up in the atmosphere. But a handful of pieces made of denser-than-lead tungsten and some mirror parts could survive reentry, according to NASA's Brad Cenko, the…",
+          "published": "2026-10-31T12:57:13+00:00",
           "regional": true
         },
         {
-          "title": "Former Xiaomi executive launches smart ring and AI-powered sleep system",
-          "link": "https://technode.com/2026/10/30/former-xiaomi-executive-launches-smart-ring-and-ai-powered-sleep-system/",
-          "source": "TechNode",
-          "summary": "ISHO, the sleep technology startup founded by former Xiaomi executive Wang Teng, unveiled its first products on October 29: the ISHO Ring smart ring and the iFlow bed temperature-control system.",
-          "published": "2026-10-30T05:46:56+00:00",
+          "title": "ISRO NVS-03 launch: 5 things to know about India’s new navigation satellite",
+          "link": "https://www.thehindu.com/sci-tech/science/isro-nvs-03-launch-navic-constellation-5-things-to-know-about-india-next-generation-satellite/article71648294.ece",
+          "source": "The Hindu",
+          "summary": "ISRO successfully launched the NVS-03 navigation satellite from the Satish Dhawan Space Centre in Sriharikota on October 30, 2026, restoring NavIC to a four-satellite, standalone operational status and advancing India’s…",
+          "published": "2026-10-31T10:29:18+00:00",
+          "regional": true
+        },
+        {
+          "title": "Launch of NVS-03: PM Modi congratulates scientists, engineers at ISRO",
+          "link": "https://www.thehindu.com/sci-tech/science/pm-modi-congratulates-isro-scientists-on-gslv-f18-launch-of-nvs-03/article71648465.ece",
+          "source": "The Hindu",
+          "summary": "Mr. Modi also said that equipped with enhanced capabilities, NVS-03 will further India’s pursuit of self-reliance in critical technologies and support navigation services that benefit the people",
+          "published": "2026-10-31T07:22:55+00:00",
+          "regional": true
+        },
+        {
+          "title": "To overcome technical hurdles, ISRO flew NVS-03 satellite with pyro valves open: Narayanan",
+          "link": "https://www.thehindu.com/sci-tech/science/to-overcome-technical-hurdles-isro-flew-nvs-03-satellite-with-pyro-valves-open-narayanan/article71648408.ece",
+          "source": "The Hindu",
+          "summary": "Pyro valves are crucial in spacecraft propulsion, and it may be recalled that the NVS-02 (launched in 2025), the second spacecraft in the NVS series, was a failure",
+          "published": "2026-10-31T06:26:57+00:00",
           "regional": true
         },
         {
@@ -686,7 +686,23 @@
           "link": "https://www.thehindu.com/sci-tech/science/why-is-isros-nvs-03-satellite-launch-crucial-explained/article71643798.ece",
           "source": "The Hindu",
           "summary": "The mission could help restore the functioning of India’s regional satellite navigation system NavIC; its development began following the 1999 Kargil War, when the U.S reportedly clamped down on GPS data access",
-          "published": "2026-10-30T05:44:47+00:00",
+          "published": "2026-10-31T02:49:09+00:00",
+          "regional": true
+        },
+        {
+          "title": "GSLV places next-generation navigation satellite NVS-03 into orbit",
+          "link": "https://www.thehindu.com/sci-tech/science/nvs-03-satellite-launch-successful-isro/article71646807.ece",
+          "source": "The Hindu",
+          "summary": "The NVS-03, with a mission life of 12 years, is expected to restore the functioning of the NavIC constellation; satellite carries an indigenous atomic clock, along with procured atomic clocks",
+          "published": "2026-10-31T02:39:54+00:00",
+          "regional": true
+        },
+        {
+          "title": "NVS-03 launched successfully; satellite placed in intended orbit | Highlights",
+          "link": "https://www.thehindu.com/sci-tech/science/isro-gslv-f18-nvs-03-navigation-satellite-launch-sriharikota-october-30-2026-live-updates/article71645088.ece",
+          "source": "The Hindu",
+          "summary": "NVS-03 satellite is equipped with an indigenous atomic clock alongside procured atomic clocks",
+          "published": "2026-10-31T00:41:29+00:00",
           "regional": true
         },
         {
@@ -698,14 +714,6 @@
           "regional": true
         },
         {
-          "title": "Searching the Milky Way for bits of Mars",
-          "link": "https://news.cnrs.fr/articles/searching-the-milky-way-for-bits-of-mars",
-          "source": "CNRS News",
-          "summary": "The MMX mission successfully launched on 19 October, heading for Phobos, one of Mars's moons. The aim is to deploy the Idefix mini-rover on the surface, and for the very first time return samples from the Mars system to…",
-          "published": "2026-10-28T11:14:04+00:00",
-          "regional": true
-        },
-        {
           "title": "ISRO to have four launch pads by 2029, says Narayanan",
           "link": "https://www.thehindu.com/news/national/isro-to-add-four-launch-pads-by-2029/article71622643.ece",
           "source": "The Hindu",
@@ -714,35 +722,11 @@
           "regional": true
         },
         {
-          "title": "ISRO will not be privatised, says chairperson Narayanan",
-          "link": "https://www.thehindu.com/news/cities/chennai/isro-will-not-be-privatised-says-chairperson-narayanan/article71620020.ece",
-          "source": "The Hindu",
-          "summary": "Contributions from private companies should not be misinterpreted as privatisation of the space agency, says the chairperson",
-          "published": "2026-10-24T16:30:18+00:00",
-          "regional": true
-        },
-        {
           "title": "Russian military satellite makes ‘close approach’ to U.S. radar satellite in orbit",
           "link": "https://www.thehindu.com/sci-tech/science/russian-military-satellite-stalks-us-radar-satellite-in-orbit/article71599219.ece",
           "source": "The Hindu",
           "summary": "Russia’s Cosmos-2612 satellite has changed its orbit repeatedly to approach ICEYE-X36, a commercial radar-imaging satellite registered in the U.S. and whose operator currently supplies data to Ukraine",
           "published": "2026-10-19T05:10:25+00:00",
-          "regional": true
-        },
-        {
-          "title": "Japan to launch spacecraft on a mission to get samples from a Martian moon",
-          "link": "https://www.thehindu.com/sci-tech/science/japan-to-launch-mmx-to-phobos-to-collect-moon-samples/article71599258.ece",
-          "source": "The Hindu",
-          "summary": "Scientists hope the mission, which is expected to take five years, will provide clues to how Phobos and its smaller sibling Deimos formed, and hopefully even shed light on the origins of life in the solar system",
-          "published": "2026-10-19T00:50:15+00:00",
-          "regional": true
-        },
-        {
-          "title": "Gaganyaan: ISRO completes key test ahead of first uncrewed mission",
-          "link": "https://www.thehindu.com/sci-tech/science/gaganyaan-isro-completes-key-test-ahead-of-first-uncrewed-mission/article71592436.ece",
-          "source": "The Hindu",
-          "summary": "",
-          "published": "2026-10-18T03:41:37+00:00",
           "regional": true
         }
       ]
@@ -753,6 +737,14 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "Boo! See the universe’s spookiest sights in time for Halloween",
+          "link": "https://www.scientificamerican.com/article/boo-see-the-universes-spookiest-sights-in-time-for-halloween/",
+          "source": "Scientific American",
+          "summary": "From ghosts to skeletons and even spiders, the cosmos is full of scary surprises",
+          "published": "2026-10-31T10:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "Physicists created a tiny universe and watched time emerge without a clock",
           "link": "https://www.sciencedaily.com/releases/2026/10/261028234703.htm",
@@ -938,12 +930,12 @@
           "regional": false
         },
         {
-          "title": "Hubble Space Telescope may have found a planet born after its star died",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261007042106.htm",
-          "source": "ScienceDaily",
-          "summary": "A strange chemical signature in old Hubble observations may point to a planet that formed after its star had already died.",
-          "published": "2026-10-09T17:31:02+00:00",
-          "regional": false
+          "title": "NASA telescope on verge of plunging back to Earth after failed rescue mission",
+          "link": "https://www.thehindu.com/sci-tech/science/nasa-telescope-on-verge-of-plunging-back-to-earth-after-failed-rescue-mission/article71649422.ece",
+          "source": "The Hindu",
+          "summary": "Most of the 1 ½-ton telescope is expected to burn up in the atmosphere. But a handful of pieces made of denser-than-lead tungsten and some mirror parts could survive reentry, according to NASA's Brad Cenko, the…",
+          "published": "2026-10-31T12:57:13+00:00",
+          "regional": true
         },
         {
           "title": "Ashoke Sen becomes first Indian physicist to receive Oskar Klein Medal",
