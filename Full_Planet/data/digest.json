@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-31T14:54:48.917215+00:00",
-  "generated_human": "31 October 2026, 14:54 UTC",
-  "total_items": 115,
+  "generated": "2026-11-01T15:34:13.370078+00:00",
+  "generated_human": "01 November 2026, 15:34 UTC",
+  "total_items": 116,
   "channels": [
     {
       "key": "ai",
@@ -90,6 +90,22 @@
           "regional": false
         },
         {
+          "title": "[APK 2026] APK 2026 in Seoul sets stage for deeper AI, supply chain ties amid global turmoil",
+          "link": "https://www.koreaherald.com/article/10921701",
+          "source": "The Korea Herald",
+          "summary": "Germany and Asia-Pacific economies are seeking to deepen industrial cooperation in artificial intelligence, semiconductors and advanced manufacturing, as escalating trade tensions and geopolitical uncertainty drive…",
+          "published": "2026-11-01T04:17:13+00:00",
+          "regional": true
+        },
+        {
+          "title": "HD Hyundai Robotics partners with Palantir on AI solutions",
+          "link": "https://www.koreaherald.com/article/10921633",
+          "source": "The Korea Herald",
+          "summary": "HD Hyundai Robotics, a robotics solutions unit of South Korea's shipbuilding conglomerate HD Hyundai, said Sunday it has partnered with Palantir Technologies Inc. to develop physical artificial intelligence solutions.",
+          "published": "2026-11-01T02:29:03+00:00",
+          "regional": true
+        },
+        {
           "title": "AI, fuelled by advanced chips, set to power semiconductor manufacturing: industry veteran",
           "link": "https://www.scmp.com/tech/big-tech/article/3372774/ai-fuelled-advanced-chips-set-power-semiconductor-manufacturing-industry-veteran",
           "source": "South China Morning Post",
@@ -111,14 +127,6 @@
           "source": "South China Morning Post",
           "summary": "Chinese tech giant Tencent Holdings is using Southeast Asia as a launch pad to take its “cost-effective” artificial intelligence tools global, fronted by its workplace assistant WorkBuddy, amid cutthroat competition at…",
           "published": "2026-10-29T07:30:10+00:00",
-          "regional": true
-        },
-        {
-          "title": "AI data center boom powers Samsung SDI's profit comeback",
-          "link": "https://www.koreaherald.com/article/10919331",
-          "source": "The Korea Herald",
-          "summary": "Samsung SDI returned to an operating profit in the third quarter, driven by robust demand for energy storage systems and backup batteries amid the rapid expansion of artificial intelligence data centers.",
-          "published": "2026-10-29T06:05:08+00:00",
           "regional": true
         },
         {
@@ -160,14 +168,6 @@
           "summary": "The US government’s latest ban on Chinese artificial intelligence start-up DeepSeek could have a chilling effect on the wider American business community and deter companies from adopting low-cost Chinese AI models,…",
           "published": "2026-10-21T14:00:12+00:00",
           "regional": true
-        },
-        {
-          "title": "DeepSeek seeks ‘total victory’ over closed-source AI with new open-source tool",
-          "link": "https://www.scmp.com/tech/big-tech/article/3371592/deepseek-open-sources-new-tool-slash-ai-costs-fight-against-closed-source-rivals",
-          "source": "South China Morning Post",
-          "summary": "Chinese artificial intelligence start-up DeepSeek has fully open-sourced an internally developed framework designed to run AI models efficiently, as a senior researcher at the company described the growing divide…",
-          "published": "2026-10-21T05:03:27+00:00",
-          "regional": true
         }
       ]
     },
@@ -177,6 +177,14 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "Scientists shrink Archimedes’ screw to the size of a single molecule",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261030002940.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have built a groundbreaking molecular motor that spins in either direction using electricity, inspired by a machine invented more than 2,000 years ago.",
+          "published": "2026-11-01T11:55:46+00:00",
+          "regional": false
+        },
         {
           "title": "Scientists discover metals that defy the deep freeze at -424°F",
           "link": "https://www.sciencedaily.com/releases/2026/10/261029072127.htm",
@@ -258,6 +266,46 @@
           "regional": false
         },
         {
+          "title": "Samsung chief Lee visits Japan chip packaging lab",
+          "link": "https://www.koreaherald.com/article/10921887",
+          "source": "The Korea Herald",
+          "summary": "Samsung Electronics Executive Chair Lee Jae-yong visited the company's advanced semiconductor packaging research facility in Japan on Sunday, emphasizing the need to secure cutting-edge packaging technologies to sharpen…",
+          "published": "2026-11-01T11:32:52+00:00",
+          "regional": true
+        },
+        {
+          "title": "[APK 2026] Korean PM urges deeper high-tech ties with Germany in AI, chips",
+          "link": "https://www.koreaherald.com/article/10921704",
+          "source": "The Korea Herald",
+          "summary": "South Korean Prime Minister Han Seong-sook on Friday called for greater high-tech cooperation between South Korea and Germany, identifying batteries, semiconductors and industrial AI as key drivers of future growth amid…",
+          "published": "2026-11-01T04:17:48+00:00",
+          "regional": true
+        },
+        {
+          "title": "[APK 2026] APK 2026 in Seoul sets stage for deeper AI, supply chain ties amid global turmoil",
+          "link": "https://www.koreaherald.com/article/10921701",
+          "source": "The Korea Herald",
+          "summary": "Germany and Asia-Pacific economies are seeking to deepen industrial cooperation in artificial intelligence, semiconductors and advanced manufacturing, as escalating trade tensions and geopolitical uncertainty drive…",
+          "published": "2026-11-01T04:17:13+00:00",
+          "regional": true
+        },
+        {
+          "title": "SK hynix hosts first Partners Day in Japan to strengthen chip supply chain",
+          "link": "https://www.koreaherald.com/article/10921611",
+          "source": "The Korea Herald",
+          "summary": "SK hynix brought together more than 20 Japanese semiconductor suppliers at its first Partners Day in Japan, seeking closer cooperation on advanced chip technologies and supply chain stability as artificial…",
+          "published": "2026-11-01T02:03:28+00:00",
+          "regional": true
+        },
+        {
+          "title": "S. Korea's monthly exports hit $115.3b in Oct. on strong chip sales",
+          "link": "https://www.koreaherald.com/article/10921544",
+          "source": "The Korea Herald",
+          "summary": "South Korea's exports jumped 93.7 percent to a record $115.3 billion in October from a year earlier, driven largely by a sharp increase in semiconductor shipments, data showed Sunday.",
+          "published": "2026-11-01T00:57:00+00:00",
+          "regional": true
+        },
+        {
           "title": "AI, fuelled by advanced chips, set to power semiconductor manufacturing: industry veteran",
           "link": "https://www.scmp.com/tech/big-tech/article/3372774/ai-fuelled-advanced-chips-set-power-semiconductor-manufacturing-industry-veteran",
           "source": "South China Morning Post",
@@ -271,14 +319,6 @@
           "source": "The Korea Herald",
           "summary": "Posco Future M has signed an agreement with LG Energy Solution to supply 720,000 metric tons of battery materials over seven years starting in 2027, expanding their partnership to include lithium iron phosphate cathodes…",
           "published": "2026-10-30T08:45:55+00:00",
-          "regional": true
-        },
-        {
-          "title": "Seoul shares dip over 3% on tech sell-off amid AI concerns",
-          "link": "https://www.koreaherald.com/article/10920828",
-          "source": "The Korea Herald",
-          "summary": "South Korean shares dropped by more than 3 percent Friday, dragged down by a sell-off in semiconductor stocks amid lingering concerns over the sustainability of artificial intelligence investments.",
-          "published": "2026-10-30T07:16:52+00:00",
           "regional": true
         },
         {
@@ -303,30 +343,6 @@
           "source": "Science Japan",
           "summary": "The Royal Swedish Academy of Sciences (RSAS) announced on October 7 that it will award the 2026 Nobel Prize in Chemistry to Emeritus Professor Kenso Soai (76) of Tokyo University of Science and Emeritus Professor Henri…",
           "published": "2026-10-27T05:32:10+00:00",
-          "regional": true
-        },
-        {
-          "title": "ASML eyes hybrid bonding, report finds, as Chinese firms adopt chip packaging technique",
-          "link": "https://www.scmp.com/tech/tech-trends/article/3371181/asml-eyes-hybrid-bonding-report-finds-chinese-firms-adopt-chip-packaging-technique",
-          "source": "South China Morning Post",
-          "summary": "Dutch semiconductor equipment giant ASML is expanding into next-generation hybrid bonding, a technique that creates dense electrical connections by directly joining chips or silicon wafers, according to a new report.",
-          "published": "2026-10-16T12:30:12+00:00",
-          "regional": true
-        },
-        {
-          "title": "TSMC confirms talks with Elon Musk over Texas ‘Terafab’ but insists on operational control",
-          "link": "https://www.scmp.com/tech/big-tech/article/3371010/tsmc-confirms-talks-elon-musk-over-texas-terafab-insists-operational-control",
-          "source": "South China Morning Post",
-          "summary": "Taiwan Semiconductor Manufacturing Co (TSMC) is in discussions regarding a potential role in Elon Musk’s proposed Terafab project in Texas, according to company chairman and CEO C.C.",
-          "published": "2026-10-15T09:31:35+00:00",
-          "regional": true
-        },
-        {
-          "title": "ASML’s chip equipment sales to China soar 109% despite US export curb push",
-          "link": "https://www.scmp.com/tech/big-tech/article/3370904/asmls-chip-equipment-sales-china-soar-109-despite-us-export-curb-push",
-          "source": "South China Morning Post",
-          "summary": "Dutch semiconductor equipment giant ASML expects China to account for about 20 per cent of its total sales this year, after seeing shipments to the market more than double during the previous quarter despite mounting US…",
-          "published": "2026-10-14T14:00:12+00:00",
           "regional": true
         }
       ]
@@ -402,14 +418,6 @@
           "regional": true
         },
         {
-          "title": "AI data center boom powers Samsung SDI's profit comeback",
-          "link": "https://www.koreaherald.com/article/10919331",
-          "source": "The Korea Herald",
-          "summary": "Samsung SDI returned to an operating profit in the third quarter, driven by robust demand for energy storage systems and backup batteries amid the rapid expansion of artificial intelligence data centers.",
-          "published": "2026-10-29T06:05:08+00:00",
-          "regional": true
-        },
-        {
           "title": "Who gets the clean energy jobs and contracts? How Ghana and South Africa’s plans can do more for women",
           "link": "https://theconversation.com/who-gets-the-clean-energy-jobs-and-contracts-how-ghana-and-south-africas-plans-can-do-more-for-women-290663",
           "source": "The Conversation",
@@ -447,6 +455,14 @@
           "source": "Deutsche Welle",
           "summary": "Prominent climate leaders have called on governments, businesses, institutions and the public to make a push for solar power before the decade is out, repowering the world with cheap, clean energy. Is that possible?",
           "published": "2026-10-02T13:48:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "Iran and US: Two countries and the pistachio between them",
+          "link": "https://www.dw.com/en/iran-and-us-two-countries-and-the-pistachio-between-them/a-79224310?maca=en-rss_en_environment-22607-xml-mrss",
+          "source": "Deutsche Welle",
+          "summary": "The pistachios sold across the United States have a surprising history: California's trees trace their roots to Iran. Now, both regions face the same threat — their farmland is sinking as groundwater disappears.",
+          "published": "2026-09-15T07:48:00+00:00",
           "regional": true
         }
       ]
@@ -487,14 +503,6 @@
           "source": "ScienceDaily",
           "summary": "Two astronauts completed a 7-hour, 11-minute spacewalk to install a new solar array on the International Space Station, bringing NASA one step closer to a major power upgrade.",
           "published": "2026-10-30T06:12:55+00:00",
-          "regional": false
-        },
-        {
-          "title": "Halloween Aboard the International Space Station",
-          "link": "https://www.nasa.gov/centers-and-facilities/johnson/halloween-aboard-the-international-space-station/",
-          "source": "NASA",
-          "summary": "Although no ghouls, goblins, or trick-or-treaters come knocking at the International Space Station’s front hatch, crew members aboard the orbiting laboratory still like to get in the Halloween spirit.",
-          "published": "2026-10-29T21:44:23+00:00",
           "regional": false
         },
         {
@@ -546,6 +554,14 @@
           "regional": false
         },
         {
+          "title": "Snakes that cartwheel, vultures that groan, a mysterious Martian moon, and more",
+          "link": "https://www.scientificamerican.com/podcast/episode/snakes-that-cartwheel-vultures-that-groan-a-mysterious-martian-moon-and-more/",
+          "source": "Scientific American",
+          "summary": "This week in science we check out gymnastic snakes, chatty vultures and missions to faraway moons",
+          "published": "2026-10-26T10:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA lays out a packed 14-day schedule for 2027’s Artemis III moon mission",
           "link": "https://www.scientificamerican.com/article/nasa-lays-out-a-packed-14-day-schedule-for-2027s-artemis-iii-moon-mission/",
           "source": "Scientific American",
@@ -575,6 +591,14 @@
           "source": "ScienceDaily",
           "summary": "NASA’s Perseverance rover has shattered a historic space exploration record, traveling farther across another world than any vehicle before it.",
           "published": "2026-10-21T09:22:36+00:00",
+          "regional": false
+        },
+        {
+          "title": "Lunar Link complete and ready for a new adventure",
+          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Lunar_Link_complete_and_ready_for_a_new_adventure",
+          "source": "ESA",
+          "summary": "ESA’s Lunar Link telecommunications element has completed its final major integration and testing campaign at Thales Alenia Space in Cannes, France.",
+          "published": "2026-10-20T12:00:00+00:00",
           "regional": false
         },
         {
@@ -639,14 +663,6 @@
           "source": "ESA",
           "summary": "Video: 00:01:45 Before Rosalind Franklin can explore Mars, it has to get off its lander. Engineers are rehearsing that first journey on Earth, using a full-size rover model and Mars-like terrain.",
           "published": "2026-10-12T09:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA spots a giant patch of Moon-like rock on Earth",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261008102707.htm",
-          "source": "ScienceDaily",
-          "summary": "An astronaut aboard the International Space Station photographed a remarkable formation in Madagascar that looks surprisingly similar to the Moon’s bright highlands.",
-          "published": "2026-10-11T15:30:06+00:00",
           "regional": false
         },
         {
@@ -737,6 +753,14 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "Scientists say a forgotten particle may explain why the universe exists",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261031221201.htm",
+          "source": "ScienceDaily",
+          "summary": "A mysterious particle overlooked for decades may hold the key to why matter survived the Big Bang, allowing stars, planets, and life to exist.",
+          "published": "2026-11-01T04:33:36+00:00",
+          "regional": false
+        },
         {
           "title": "Boo! See the universe’s spookiest sights in time for Halloween",
           "link": "https://www.scientificamerican.com/article/boo-see-the-universes-spookiest-sights-in-time-for-halloween/",
@@ -922,14 +946,6 @@
           "regional": false
         },
         {
-          "title": "MIT astronomers catch a star in a feast that could last billions of years",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261008005240.htm",
-          "source": "ScienceDaily",
-          "summary": "Astronomers have discovered a bizarre star system about 300 light-years from Earth where a small star is slowly devouring a nearby brown dwarf, an object too massive to be a planet but too small to be a true star.",
-          "published": "2026-10-10T18:56:25+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA telescope on verge of plunging back to Earth after failed rescue mission",
           "link": "https://www.thehindu.com/sci-tech/science/nasa-telescope-on-verge-of-plunging-back-to-earth-after-failed-rescue-mission/article71649422.ece",
           "source": "The Hindu",
@@ -951,14 +967,6 @@
           "source": "The Hindu",
           "summary": "The discovery of Ariel and Umbriel — two of Uranus’ many moons — took place 175 years ago on October 24, 1851. It was an amateur astronomer, William Lassell, who discovered these two satellites and two more as well.",
           "published": "2026-10-24T05:04:02+00:00",
-          "regional": true
-        },
-        {
-          "title": "Satellite radiation: blocking the view",
-          "link": "https://www.thehindu.com/sci-tech/science/satellite-radiation-blocking-the-view/article71599497.ece",
-          "source": "The Hindu",
-          "summary": "The findings suggest protecting the interests of astronomers requires operators to regulate licensed transmissions as well as stray radiation from onboard electronics",
-          "published": "2026-10-19T01:51:35+00:00",
           "regional": true
         },
         {
