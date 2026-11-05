@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-04T16:41:49.726955+00:00",
-  "generated_human": "04 November 2026, 16:41 UTC",
-  "total_items": 112,
+  "generated": "2026-11-05T16:57:07.570274+00:00",
+  "generated_human": "05 November 2026, 16:57 UTC",
+  "total_items": 117,
   "channels": [
     {
       "key": "ai",
@@ -15,6 +15,14 @@
           "source": "Quanta Magazine",
           "summary": "By injecting “thoughts” directly into large language models, researchers are trying to map out AI’s capacity for introspection.",
           "published": "2026-11-04T15:32:52+00:00",
+          "regional": false
+        },
+        {
+          "title": "Wearable device makers are harvesting brain data to train AI—without telling users",
+          "link": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users",
+          "source": "Science (AAAS)",
+          "summary": "Science investigation reveals firms have amassed tens of millions of hours of brain wave data from neurotech headbands, and face few constraints in using it",
+          "published": "2026-11-04T01:40:00+00:00",
           "regional": false
         },
         {
@@ -72,6 +80,22 @@
           "summary": "Ellia Lebleu is a founding member of the WikiProject AI Cleanup , a volunteer effort launched in 2023 to find and remove AI-generated material from Wikipedia that breaks the website’s guidelines.",
           "published": "2026-10-21T13:00:02+00:00",
           "regional": false
+        },
+        {
+          "title": "Chinese chipmaker Hua Hong bets big on silicon photonics amid AI boom",
+          "link": "https://www.scmp.com/tech/big-tech/article/3373445/chinese-chipmaker-hua-hong-bets-big-silicon-photonics-amid-ai-boom",
+          "source": "South China Morning Post",
+          "summary": "China’s second-largest contract chipmaker, Hua Hong Grace Semiconductor, is aggressively expanding into silicon photonics, as the company looks to capture the next wave of the global artificial intelligence…",
+          "published": "2026-11-05T13:27:39+00:00",
+          "regional": true
+        },
+        {
+          "title": "Korea Eximbank commits $170m to Tanzania's first EDCF AI project",
+          "link": "https://www.koreaherald.com/article/10926998",
+          "source": "The Korea Herald",
+          "summary": "The Export-Import Bank of Korea will provide a $170 million loan to build an artificial intelligence education center in Tanzania, marking the first AI project financed through South Korea's Economic Development…",
+          "published": "2026-11-05T02:43:08+00:00",
+          "regional": true
         },
         {
           "title": "Tencent unveils Hy4 as open-weight AI race with DeepSeek, Z.ai, Alibaba heats up",
@@ -136,22 +160,6 @@
           "summary": "Long before artificial intelligence became the next big thing in the tech industry, Wang Jian was crafting the foundational infrastructure that would eventually power it.",
           "published": "2026-10-26T02:26:16+00:00",
           "regional": true
-        },
-        {
-          "title": "China shoots ahead on AI video models",
-          "link": "https://www.scmp.com/plus/tech/big-tech/article/3371915/china-shoots-ahead-ai-video-models",
-          "source": "South China Morning Post",
-          "summary": "While few dispute that China is narrowing the gap with the United States in developing artificial intelligence (AI) models, there is one area where Chinese firms are already the undisputed leaders: video.",
-          "published": "2026-10-26T01:06:01+00:00",
-          "regional": true
-        },
-        {
-          "title": "Why cloud computing pioneer Wang Jian thinks space is the next AI frontier",
-          "link": "https://www.scmp.com/tech/tech-trends/article/3371979/why-cloud-computing-pioneer-wang-jian-thinks-space-next-ai-frontier",
-          "source": "South China Morning Post",
-          "summary": "Long before artificial intelligence became the next big thing in the tech industry, Wang Jian was crafting the foundational infrastructure that would eventually power it.",
-          "published": "2026-10-25T22:00:20+00:00",
-          "regional": true
         }
       ]
     },
@@ -161,6 +169,22 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "Scientists discover that a clogged filter could revolutionize oil refining",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261103003207.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have developed a remarkable new membrane that separates crude oil at room temperature, using the oil itself to create microscopic filtration channels.",
+          "published": "2026-11-05T14:04:07+00:00",
+          "regional": false
+        },
+        {
+          "title": "A clever molecular trick unlocks previously impossible properties in glass",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261103003202.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have discovered how to reprogram the internal structure of glass using a special molecule that rearranges chemical bonds while lowering the melting temperature.",
+          "published": "2026-11-05T13:36:51+00:00",
+          "regional": false
+        },
         {
           "title": "A tiny squeeze dramatically changes the magnetism of exotic materials",
           "link": "https://www.sciencedaily.com/releases/2026/11/261101010541.htm",
@@ -191,14 +215,6 @@
           "source": "BBC Science",
           "summary": "The government is launching the first study to measure PFAS in the UK population to understand the risks.",
           "published": "2026-11-03T07:19:27+00:00",
-          "regional": false
-        },
-        {
-          "title": "‘Cellophane’ bees make their nests from biodegradable plastic",
-          "link": "https://www.science.org/content/article/cellophane-bees-make-their-nests-biodegradable-plastic",
-          "source": "Science (AAAS)",
-          "summary": "Strong, waterproof polyester could seed new ideas for sustainable materials",
-          "published": "2026-11-02T03:00:00+00:00",
           "regional": false
         },
         {
@@ -250,19 +266,11 @@
           "regional": false
         },
         {
-          "title": "LG Energy Solution Q3 profit climbs 26% on strong ESS demand",
-          "link": "https://www.koreaherald.com/article/10924264",
-          "source": "The Korea Herald",
-          "summary": "LG Energy Solution reported a 25.7 percent increase in third-quarter operating profit Tuesday, boosted by strong demand for energy storage systems in North America and recovering electric-vehicle battery sales, as the…",
-          "published": "2026-11-03T06:01:36+00:00",
-          "regional": true
-        },
-        {
-          "title": "Hyundai mulls W100b stake in Posco Future M's Vietnam plant",
-          "link": "https://www.koreaherald.com/article/10923990",
-          "source": "The Korea Herald",
-          "summary": "Posco Future M has signed a letter of intent with Hyundai Motor Group to explore a 100 billion won ($74.4 million) equity investment in its synthetic graphite anode materials project in Vietnam, the South Korean battery…",
-          "published": "2026-11-03T06:00:00+00:00",
+          "title": "Chinese chipmaker Hua Hong bets big on silicon photonics amid AI boom",
+          "link": "https://www.scmp.com/tech/big-tech/article/3373445/chinese-chipmaker-hua-hong-bets-big-silicon-photonics-amid-ai-boom",
+          "source": "South China Morning Post",
+          "summary": "China’s second-largest contract chipmaker, Hua Hong Grace Semiconductor, is aggressively expanding into silicon photonics, as the company looks to capture the next wave of the global artificial intelligence…",
+          "published": "2026-11-05T13:27:39+00:00",
           "regional": true
         },
         {
@@ -270,7 +278,39 @@
           "link": "https://www.thehindu.com/opinion/editorial/the-hindu-editorial-november-2-2026-slow-recovery-on-the-isros-gslv-f18-mission/article71654004.ece",
           "source": "The Hindu",
           "summary": "ISRO needs more human and material resources to fulfil its mandate",
-          "published": "2026-11-02T04:07:41+00:00",
+          "published": "2026-11-05T08:11:21+00:00",
+          "regional": true
+        },
+        {
+          "title": "Korean battery-makers gain ground in North American ESS market",
+          "link": "https://www.koreaherald.com/article/10927237",
+          "source": "The Korea Herald",
+          "summary": "South Korean battery-makers are gaining ground in North America's fast-growing energy storage system market, as tighter trade restrictions on Chinese products create new opportunities for Korean suppliers.",
+          "published": "2026-11-05T05:47:06+00:00",
+          "regional": true
+        },
+        {
+          "title": "Posco, Korea University cut voltage loss in next-gen battery cathodes",
+          "link": "https://www.koreaherald.com/article/10927214",
+          "source": "The Korea Herald",
+          "summary": "Posco Holdings and Korea University have developed a new manufacturing method that could improve the performance and lifespan of next-generation lithium-ion batteries by adjusting heat-treatment temperatures without…",
+          "published": "2026-11-05T05:37:22+00:00",
+          "regional": true
+        },
+        {
+          "title": "S. Korea posts record high current account surplus of over $60b in Sept. on chip supercycle",
+          "link": "https://www.koreaherald.com/article/10926827",
+          "source": "The Korea Herald",
+          "summary": "South Korea posted an all-time high current account surplus of over $60 billion in September on strong exports of semiconductors, central bank data showed Thursday.",
+          "published": "2026-11-05T02:00:45+00:00",
+          "regional": true
+        },
+        {
+          "title": "S. Korea's current account surplus tops $60b for 1st time on chip boom",
+          "link": "https://www.koreaherald.com/article/10926429",
+          "source": "The Korea Herald",
+          "summary": "South Korea posted an all-time high current account surplus of over $60 billion won in September on strong exports of semiconductors, central bank data showed Thursday.",
+          "published": "2026-11-04T23:57:55+00:00",
           "regional": true
         },
         {
@@ -304,14 +344,6 @@
           "summary": "Dutch semiconductor equipment giant ASML is expanding into next-generation hybrid bonding, a technique that creates dense electrical connections by directly joining chips or silicon wafers, according to a new report.",
           "published": "2026-10-16T12:30:12+00:00",
           "regional": true
-        },
-        {
-          "title": "TSMC confirms talks with Elon Musk over Texas ‘Terafab’ but insists on operational control",
-          "link": "https://www.scmp.com/tech/big-tech/article/3371010/tsmc-confirms-talks-elon-musk-over-texas-terafab-insists-operational-control",
-          "source": "South China Morning Post",
-          "summary": "Taiwan Semiconductor Manufacturing Co (TSMC) is in discussions regarding a potential role in Elon Musk’s proposed Terafab project in Texas, according to company chairman and CEO C.C.",
-          "published": "2026-10-15T09:31:35+00:00",
-          "regional": true
         }
       ]
     },
@@ -338,6 +370,14 @@
       "accent": "#33C6D6",
       "items": [
         {
+          "title": "Hunt for natural hydrogen, an elusive clean fuel, hits roadblocks",
+          "link": "https://www.science.org/content/article/hunt-natural-hydrogen-elusive-clean-fuel-hits-roadblocks",
+          "source": "Science (AAAS)",
+          "summary": "As prospectors struggle, a new French borehole hints at potential of extracting gas from groundwater",
+          "published": "2026-11-04T01:20:00+00:00",
+          "regional": false
+        },
+        {
           "title": "Scientists may have found a shortcut to fusion energy",
           "link": "https://www.sciencedaily.com/releases/2026/10/261008005242.htm",
           "source": "ScienceDaily",
@@ -352,6 +392,30 @@
           "summary": "Scientists have developed a solar-powered desalination system that turns seawater into fresh water while removing nearly all of the leftover salt as a solid instead of producing harmful brine.",
           "published": "2026-09-16T14:44:50+00:00",
           "regional": false
+        },
+        {
+          "title": "Korean battery-makers gain ground in North American ESS market",
+          "link": "https://www.koreaherald.com/article/10927237",
+          "source": "The Korea Herald",
+          "summary": "South Korean battery-makers are gaining ground in North America's fast-growing energy storage system market, as tighter trade restrictions on Chinese products create new opportunities for Korean suppliers.",
+          "published": "2026-11-05T05:47:06+00:00",
+          "regional": true
+        },
+        {
+          "title": "Posco, Korea University cut voltage loss in next-gen battery cathodes",
+          "link": "https://www.koreaherald.com/article/10927214",
+          "source": "The Korea Herald",
+          "summary": "Posco Holdings and Korea University have developed a new manufacturing method that could improve the performance and lifespan of next-generation lithium-ion batteries by adjusting heat-treatment temperatures without…",
+          "published": "2026-11-05T05:37:22+00:00",
+          "regional": true
+        },
+        {
+          "title": "Hyundai chief meets Erdogan to discuss EV cooperation",
+          "link": "https://www.koreaherald.com/article/10926798",
+          "source": "The Korea Herald",
+          "summary": "Hyundai Motor Group Executive Chair Chung Euisun met Turkish President Recep Tayyip Erdogan on Wednesday to discuss electric vehicle cooperation, as the South Korean automaker seeks to strengthen its manufacturing…",
+          "published": "2026-11-05T01:52:05+00:00",
+          "regional": true
         },
         {
           "title": "Hyundai Motor to showcase hydrogen technologies at local expo",
@@ -383,30 +447,6 @@
           "source": "The Conversation",
           "summary": "European countries want north Africa to set up green hydrogen industries for them, but this will come at a huge cost to water supplies and coastal areas.",
           "published": "2026-11-03T14:09:22+00:00",
-          "regional": true
-        },
-        {
-          "title": "LG Energy Solution Q3 profit climbs 26% on strong ESS demand",
-          "link": "https://www.koreaherald.com/article/10924264",
-          "source": "The Korea Herald",
-          "summary": "LG Energy Solution reported a 25.7 percent increase in third-quarter operating profit Tuesday, boosted by strong demand for energy storage systems in North America and recovering electric-vehicle battery sales, as the…",
-          "published": "2026-11-03T06:01:36+00:00",
-          "regional": true
-        },
-        {
-          "title": "Hyundai mulls W100b stake in Posco Future M's Vietnam plant",
-          "link": "https://www.koreaherald.com/article/10923990",
-          "source": "The Korea Herald",
-          "summary": "Posco Future M has signed a letter of intent with Hyundai Motor Group to explore a 100 billion won ($74.4 million) equity investment in its synthetic graphite anode materials project in Vietnam, the South Korean battery…",
-          "published": "2026-11-03T06:00:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "Finance minister, Hyundai Motor chief discuss EV policies: sources",
-          "link": "https://www.koreaherald.com/article/10923225",
-          "source": "The Korea Herald",
-          "summary": "South Korea's finance minister met with the head of Hyundai Motor Group to discuss ways to develop the country's electric vehicle industry, along with government tax incentives for the sector, sources said Monday.",
-          "published": "2026-11-02T10:15:58+00:00",
           "regional": true
         },
         {
@@ -442,6 +482,54 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "NASA Astronauts to Answer Questions from Florida Students",
+          "link": "https://www.nasa.gov/learning-resources/nasa-astronauts-to-answer-questions-from-florida-students-2/",
+          "source": "NASA",
+          "summary": "Students in Florida will hear from NASA astronauts Jessica Watkins and Luke Delaney as they answer prerecorded STEM questions while aboard the International Space Station.",
+          "published": "2026-11-05T15:11:25+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Shares Plans to Accelerate Artemis, Return to Moon",
+          "link": "https://www.nasa.gov/missions/artemis/nasa-shares-plans-to-accelerate-artemis-return-to-moon/",
+          "source": "NASA",
+          "summary": "In an update on Oct. 23, NASA Administrator Jared Isaacman and other agency leaders shared the agency’s path to returning Americans to the lunar surface in 2028.",
+          "published": "2026-11-04T21:04:10+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Announces Ka-Band Satellite Relay Awards for Space Communications",
+          "link": "https://www.nasa.gov/news-release/nasa-announces-ka-band-satellite-relay-awards-for-space-communications/",
+          "source": "NASA",
+          "summary": "NASA selected three companies on Wednesday to perform work to develop Ka-band space relay capability concepts that are compatible with current missions in space, ensuring service continuity for existing spacecraft…",
+          "published": "2026-11-04T18:00:02+00:00",
+          "regional": false
+        },
+        {
+          "title": "Could SpaceX’s retirement of Falcon 9 spark a launch crisis?",
+          "link": "https://www.scientificamerican.com/article/could-spacexs-retirement-of-falcon-9-spark-a-launch-crisis/",
+          "source": "Scientific American",
+          "summary": "What happens when the most successful rocket in history stops flying? The world is about to find out",
+          "published": "2026-11-04T17:15:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Navigation Experiment Shows Promise for Planetary Landings",
+          "link": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/",
+          "source": "NASA",
+          "summary": "NASA successfully demonstrated technology designed to help spacecraft autonomously navigate to safe landing sites on the Moon and on other planets.",
+          "published": "2026-11-04T16:52:43+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Swift telescope plunges back to Earth",
+          "link": "https://www.scientificamerican.com/article/nasas-swift-telescope-plunges-back-to-earth/",
+          "source": "Scientific American",
+          "summary": "The observatory had spent decades studying powerful cosmic explosions and was the target of an unsuccessful rescue mission earlier this year",
+          "published": "2026-11-04T16:45:00+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA’s James Webb Space Telescope is wobbly—scientists have a fix that could reveal new alien worlds",
           "link": "https://www.scientificamerican.com/article/nasas-james-webb-space-telescope-is-wobbly-scientists-have-a-fix-that-could-reveal-new-alien-worlds/",
           "source": "Scientific American",
@@ -458,27 +546,11 @@
           "regional": false
         },
         {
-          "title": "Time to wake up MetOp-SG-B1 weather satellite",
-          "link": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/MetOp_Second_Generation/Time_to_wake_up_MetOp-SG-B1_weather_satellite",
-          "source": "ESA",
-          "summary": "Following a short period in storage after arriving at Europe’s Spaceport in French Guiana, the MetOp Second Generation-B1 satellite has been transferred to a cleanroom and removed from its transport container.",
-          "published": "2026-11-04T09:10:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Astronaut and Earth",
-          "link": "https://www.nasa.gov/image-article/astronaut-and-earth/",
-          "source": "NASA",
-          "summary": "CSA (Canadian Space Agency) astronaut Joshua Kutryk is pictured during the Oct. 29, 2026, spacewalk. The International Space Station was soaring 267 miles above the South Atlantic Ocean at the time of this photograph.",
-          "published": "2026-11-03T16:37:42+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Astronaut, STEM Creator Connect with Students for STEM Day",
-          "link": "https://www.nasa.gov/learning-resources/nasa-astronaut-stem-creator-connect-with-students-for-stem-day/",
-          "source": "NASA",
-          "summary": "Students across the country will have the opportunity to connect directly with the International Space Station during a live, interactive in-flight call with NASA astronaut Anil Menon and Mark Rober STEM content creator…",
-          "published": "2026-11-03T15:15:50+00:00",
+          "title": "Goodbye Swift: After 22 years, NASA spacecraft burns up in atmosphere",
+          "link": "https://www.science.org/content/article/goodbye-swift-after-22-years-nasa-spacecraft-burns-atmosphere",
+          "source": "Science (AAAS)",
+          "summary": "Astronomers mourn telescope that supercharged study of cosmic explosions",
+          "published": "2026-11-04T04:25:00+00:00",
           "regional": false
         },
         {
@@ -514,11 +586,19 @@
           "regional": false
         },
         {
-          "title": "What happened this month at the European Space Agency? (October 2026)",
-          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/What_happened_this_month_at_the_European_Space_Agency_October_2026",
+          "title": "ESA welcomes new UK space and defence gateway",
+          "link": "https://www.esa.int/articles/about-us/who-we-are/member-states/united-kingdom/esa-welcomes-new-uk-space-and-defence-gateway",
           "source": "ESA",
-          "summary": "Video: 00:04:30 October was a month of discoveries and milestones. ESA’s Rosalind Franklin rover team trained in Spain’s desert, preparing for Mars.",
-          "published": "2026-10-30T15:00:00+00:00",
+          "summary": "His Majesty King Charles III visited the UK’s largest space cluster on 10 July to launch a new initiative designed to shape the future of the space and defence economy.",
+          "published": "2026-10-31T00:33:56+00:00",
+          "regional": false
+        },
+        {
+          "title": "ESA Council appoints two new directors",
+          "link": "https://www.esa.int/articles/business/business-with-esa/esa-council-appoints-two-new-directors",
+          "source": "ESA",
+          "summary": "The European Space Agency Council has approved the appointment of two new directors: Christine Klein as Director of Controlling, Finance and Operational Procurement, and Jean-Luc Trullemans as Director of Strategy,…",
+          "published": "2026-10-31T00:33:36+00:00",
           "regional": false
         },
         {
@@ -527,14 +607,6 @@
           "source": "ScienceDaily",
           "summary": "Two astronauts completed a 7-hour, 11-minute spacewalk to install a new solar array on the International Space Station, bringing NASA one step closer to a major power upgrade.",
           "published": "2026-10-30T06:12:55+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA discovers Jupiter’s invisible shield is more complex than Earth’s",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261028232715.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA’s Juno spacecraft has discovered that Jupiter uses a surprisingly complex system of powerful plasma waves and multiple shock regions to defend against the solar wind.",
-          "published": "2026-10-29T12:26:25+00:00",
           "regional": false
         },
         {
@@ -554,14 +626,6 @@
           "regional": false
         },
         {
-          "title": "Snakes that cartwheel, vultures that groan, a mysterious Martian moon, and more",
-          "link": "https://www.scientificamerican.com/podcast/episode/snakes-that-cartwheel-vultures-that-groan-a-mysterious-martian-moon-and-more/",
-          "source": "Scientific American",
-          "summary": "This week in science we check out gymnastic snakes, chatty vultures and missions to faraway moons",
-          "published": "2026-10-26T10:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA’s Curiosity rover reveals a spectacular new view of Mars with a mystery on the horizon",
           "link": "https://www.sciencedaily.com/releases/2026/10/261021231238.htm",
           "source": "ScienceDaily",
@@ -578,27 +642,11 @@
           "regional": false
         },
         {
-          "title": "Lunar Link complete and ready for a new adventure",
-          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Lunar_Link_complete_and_ready_for_a_new_adventure",
-          "source": "ESA",
-          "summary": "ESA’s Lunar Link telecommunications element has completed its final major integration and testing campaign at Thales Alenia Space in Cannes, France.",
-          "published": "2026-10-20T12:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Mission blasts off for Mars to grab a piece of its moon",
           "link": "https://www.bbc.co.uk/news/articles/cmvgxvkv54w1o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
           "summary": "A spacecraft is set to launch on an ambitious mission to bring 10g of Martian moon dust back to Earth.",
           "published": "2026-10-19T19:45:46+00:00",
-          "regional": false
-        },
-        {
-          "title": "Science and technology for the Moon",
-          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Science_and_technology_for_the_Moon",
-          "source": "ESA",
-          "summary": "Returning to the Moon is about more than reaching the surface. Before we can live and work there long-term, we need to learn how to operate safely and sustainably in the lunar environment, understand its resources and…",
-          "published": "2026-10-19T09:12:00+00:00",
           "regional": false
         },
         {
@@ -626,12 +674,28 @@
           "regional": false
         },
         {
-          "title": "Moon Explore sprinter missions",
-          "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Moon_Explore_sprinter_missions",
-          "source": "ESA",
-          "summary": "Europe is preparing for a future in which astronauts, robots and scientific instruments work on and around the Moon.",
-          "published": "2026-10-16T08:05:00+00:00",
-          "regional": false
+          "title": "ISRO’s latest navigation satellite NVS-03 is fully healthy, says Chairman V. Narayanan",
+          "link": "https://www.thehindu.com/news/cities/chennai/isros-latest-navigation-satellite-nvs-03-is-fully-healthy-says-chairman-v-narayanan/article71670095.ece",
+          "source": "The Hindu",
+          "summary": "ISRO to conduct in-orbit testing for satellite payload as part of developing NavIC, an indigenous GPS alternative; ISRO chief recalls Indian scientists’ role in saving lives on the Axiom-4 mission; praises Russian…",
+          "published": "2026-11-05T15:30:20+00:00",
+          "regional": true
+        },
+        {
+          "title": "Slow recovery: On the ISRO’s GSLV-F18 mission",
+          "link": "https://www.thehindu.com/opinion/editorial/the-hindu-editorial-november-2-2026-slow-recovery-on-the-isros-gslv-f18-mission/article71654004.ece",
+          "source": "The Hindu",
+          "summary": "ISRO needs more human and material resources to fulfil its mandate",
+          "published": "2026-11-05T08:11:21+00:00",
+          "regional": true
+        },
+        {
+          "title": "NVS-03 reaches geosynchronous orbit; satellite in good health",
+          "link": "https://www.thehindu.com/sci-tech/science/nvs-03-reaches-geosynchronous-orbit-satellite-in-good-health/article71667218.ece",
+          "source": "The Hindu",
+          "summary": "‘Four orbit manoeuvres have been successfully completed with a cumulative LAM engine burn of 6164 seconds; with this the satellite has reached Geo Synchronous Orbit at an inclination of 29.980,’ said ISRO",
+          "published": "2026-11-05T05:34:06+00:00",
+          "regional": true
         },
         {
           "title": "Back to back GSLV successes help ISRO win back some pride",
@@ -642,27 +706,11 @@
           "regional": true
         },
         {
-          "title": "Slow recovery: On the ISRO’s GSLV-F18 mission",
-          "link": "https://www.thehindu.com/opinion/editorial/the-hindu-editorial-november-2-2026-slow-recovery-on-the-isros-gslv-f18-mission/article71654004.ece",
-          "source": "The Hindu",
-          "summary": "ISRO needs more human and material resources to fulfil its mandate",
-          "published": "2026-11-02T04:07:41+00:00",
-          "regional": true
-        },
-        {
           "title": "Explained | What is the Gaia space mission and what has it revealed about the Milky Way?",
           "link": "https://www.thehindu.com/sci-tech/science/explained-what-is-the-gaia-space-mission-and-what-has-it-revealed-about-the-milky-way/article65527518.ece",
           "source": "The Hindu",
           "summary": "The new data released by the European Space Agency’s Gaia mission has revealed the surprise phenomena of ‘starquakes’—massive tsunami-like movements on the surface of stars",
           "published": "2026-11-01T13:03:46+00:00",
-          "regional": true
-        },
-        {
-          "title": "NASA telescope on verge of plunging back to Earth after failed rescue mission",
-          "link": "https://www.thehindu.com/sci-tech/science/nasa-telescope-on-verge-of-plunging-back-to-earth-after-failed-rescue-mission/article71649422.ece",
-          "source": "The Hindu",
-          "summary": "Most of the 1 ½-ton telescope is expected to burn up in the atmosphere. But a handful of pieces made of denser-than-lead tungsten and some mirror parts could survive reentry, according to NASA's Brad Cenko, the…",
-          "published": "2026-10-31T12:57:13+00:00",
           "regional": true
         },
         {
@@ -704,14 +752,6 @@
           "summary": "The Geosynchronous Satellite Launch Vehicle carrying on board the GSLV-F18 rocket is scheduled to lift off at 11.51 p.m. on Friday (October 30, 2026) from the second launch pad at the Satish Dhawan Space Centre",
           "published": "2026-10-30T03:48:05+00:00",
           "regional": true
-        },
-        {
-          "title": "ISRO to have four launch pads by 2029, says Narayanan",
-          "link": "https://www.thehindu.com/news/national/isro-to-add-four-launch-pads-by-2029/article71622643.ece",
-          "source": "The Hindu",
-          "summary": "The ISRO chief said that the upcoming Kulasekarapattinam spaceport facility will feature crucial infrastructure such as integration buildings, launch pads, rail-track systems, telemetry, tracking, and command systems",
-          "published": "2026-10-25T05:53:44+00:00",
-          "regional": true
         }
       ]
     },
@@ -721,6 +761,14 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "NASA’s Swift telescope plunges back to Earth",
+          "link": "https://www.scientificamerican.com/article/nasas-swift-telescope-plunges-back-to-earth/",
+          "source": "Scientific American",
+          "summary": "The observatory had spent decades studying powerful cosmic explosions and was the target of an unsuccessful rescue mission earlier this year",
+          "published": "2026-11-04T16:45:00+00:00",
+          "regional": false
+        },
         {
           "title": "NASA’s James Webb Space Telescope is wobbly—scientists have a fix that could reveal new alien worlds",
           "link": "https://www.scientificamerican.com/article/nasas-james-webb-space-telescope-is-wobbly-scientists-have-a-fix-that-could-reveal-new-alien-worlds/",
@@ -735,6 +783,14 @@
           "source": "ScienceDaily",
           "summary": "NASA is exploring a daring plan to save the legendary Hubble Space Telescope from its eventual fiery plunge into Earth's atmosphere.",
           "published": "2026-11-04T11:22:33+00:00",
+          "regional": false
+        },
+        {
+          "title": "Astronomers sharpen JWST’s view of distant worlds",
+          "link": "https://www.science.org/content/article/astronomers-sharpen-jwst-s-view-distant-worlds",
+          "source": "Science (AAAS)",
+          "summary": "Model of the telescope’s imperfections helps strip away starlight obscuring faint exoplanets",
+          "published": "2026-11-04T11:00:00+00:00",
           "regional": false
         },
         {
@@ -879,22 +935,6 @@
           "source": "ScienceDaily",
           "summary": "Astronomers have uncovered compelling evidence of two supermassive black holes spiraling toward a potentially spectacular collision at the center of galaxy Mrk 501.",
           "published": "2026-10-18T12:03:18+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Roman Space Telescope exceeds expectations by nearly 30%",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA’s Nancy Grace Roman Space Telescope has exceeded expectations after engineers made incredibly tiny adjustments to sharpen its view of the universe.",
-          "published": "2026-10-17T13:28:13+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Webb reveals the wild weather of a mysterious world 20 light-years away",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261015073215.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA’s James Webb Space Telescope has revealed that a turbulent world 20 light-years away has a surprisingly orderly weather system, with three recurring atmospheric states driven by temperature changes and shifting…",
-          "published": "2026-10-17T12:26:49+00:00",
           "regional": false
         },
         {
