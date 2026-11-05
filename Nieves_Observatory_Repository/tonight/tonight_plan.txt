@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-11-03 15:53 PST
-; Observing window starts 2026-11-03 18:22 PST  (LST 21:24:28)
+; Generated 2026-11-04 16:13 PST
+; Observing window starts 2026-11-04 18:22 PST  (LST 21:28:25)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -191,14 +191,6 @@ IC 0127
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 33
-
-; Galaxy  mag 9.3  size 9.89'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 74
 
 ; Open Cluster  mag 3.7  size 14.40'  h Persei Cluster
 #posang 0
@@ -442,6 +434,14 @@ NGC 3521
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 66
+
+; Galaxy  mag 10.9  size 16.75'  Needle Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 4565
 
 ; Galaxy  mag 9.2  size 14.45'  Whale Galaxy
 #posang 0
