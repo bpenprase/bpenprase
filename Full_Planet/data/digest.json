@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-05T16:57:07.570274+00:00",
-  "generated_human": "05 November 2026, 16:57 UTC",
-  "total_items": 117,
+  "generated": "2026-11-06T16:29:00.090406+00:00",
+  "generated_human": "06 November 2026, 16:29 UTC",
+  "total_items": 116,
   "channels": [
     {
       "key": "ai",
@@ -82,6 +82,22 @@
           "regional": false
         },
         {
+          "title": "China’s AI chipmakers report first profits, but will the trend continue?",
+          "link": "https://www.scmp.com/tech/big-tech/article/3373532/chinas-ai-chipmakers-report-first-profits-will-trend-continue",
+          "source": "South China Morning Post",
+          "summary": "China’s pure-play artificial intelligence chipmakers crossed an important milestone in the third quarter as several firms swung into profit, but severe supply chain hurdles and soaring memory costs cloud their long-term…",
+          "published": "2026-11-06T10:30:06+00:00",
+          "regional": true
+        },
+        {
+          "title": "Woori, MSCI chiefs discuss climate and AI",
+          "link": "https://www.koreaherald.com/article/10928616",
+          "source": "The Korea Herald",
+          "summary": "Woori Financial Group Chairman Yim Jong-yong met Henry Fernandez, chairman and chief executive of global index provider MSCI, in Seoul on Thursday to discuss climate change and artificial intelligence's impact on…",
+          "published": "2026-11-06T05:20:31+00:00",
+          "regional": true
+        },
+        {
           "title": "Chinese chipmaker Hua Hong bets big on silicon photonics amid AI boom",
           "link": "https://www.scmp.com/tech/big-tech/article/3373445/chinese-chipmaker-hua-hong-bets-big-silicon-photonics-amid-ai-boom",
           "source": "South China Morning Post",
@@ -143,22 +159,6 @@
           "source": "South China Morning Post",
           "summary": "Chinese tech giant Tencent Holdings is using Southeast Asia as a launch pad to take its “cost-effective” artificial intelligence tools global, fronted by its workplace assistant WorkBuddy, amid cutthroat competition at…",
           "published": "2026-10-29T07:30:10+00:00",
-          "regional": true
-        },
-        {
-          "title": "Elon Musk, Jensen Huang have opposing outlooks on AI neoclouds. Who is likely correct?",
-          "link": "https://www.scmp.com/tech/big-tech/article/3372447/elon-musk-jensen-huang-have-opposing-outlooks-ai-neoclouds-who-likely-correct",
-          "source": "South China Morning Post",
-          "summary": "As investor anxiety over an artificial intelligence bubble mounts, SpaceX’s Elon Musk and Nvidia chief Jensen Huang have offered starkly divergent outlooks on whether the specialist cloud providers powering the boom can…",
-          "published": "2026-10-28T13:30:10+00:00",
-          "regional": true
-        },
-        {
-          "title": "Alibaba Cloud founder on how AI can unlock human potential",
-          "link": "https://www.scmp.com/plus/tech/tech-trends/article/3372106/alibaba-cloud-founder-how-ai-can-unlock-human-potential",
-          "source": "South China Morning Post",
-          "summary": "Long before artificial intelligence became the next big thing in the tech industry, Wang Jian was crafting the foundational infrastructure that would eventually power it.",
-          "published": "2026-10-26T02:26:16+00:00",
           "regional": true
         }
       ]
@@ -258,12 +258,20 @@
           "regional": false
         },
         {
-          "title": "A quantum highway just one atom high could transform superconductors",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261014072018.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists discovered that atomic steps just one atom high can guide quantum vortices through superconductors, making them move more than 1,000 times more easily in one direction than another.",
-          "published": "2026-10-16T04:22:01+00:00",
-          "regional": false
+          "title": "Samsung, SK hynix slide 10% as AI data center fears spread",
+          "link": "https://www.koreaherald.com/article/10927984",
+          "source": "The Korea Herald",
+          "summary": "Blue-chip semiconductor stocks plunged around 10 percent during intraday trading Friday, dragging the benchmark Kospi below the 5,000-point mark as investor sentiment was rattled by a sharp overnight sell-off in major…",
+          "published": "2026-11-06T00:28:13+00:00",
+          "regional": true
+        },
+        {
+          "title": "Covid-related stress causes adolescents to age faster epigenetically",
+          "link": "https://www.mpg.de/27071988/covid-related-stress-causes-adolescents-to-age-faster-epigenetically",
+          "source": "Max Planck Society",
+          "summary": "Especially the lack of social interaction during the lockdowns led to epigenetic changes in the genetic material of adolescents",
+          "published": "2026-11-05T15:01:00+00:00",
+          "regional": true
         },
         {
           "title": "Chinese chipmaker Hua Hong bets big on silicon photonics amid AI boom",
@@ -306,14 +314,6 @@
           "regional": true
         },
         {
-          "title": "S. Korea's current account surplus tops $60b for 1st time on chip boom",
-          "link": "https://www.koreaherald.com/article/10926429",
-          "source": "The Korea Herald",
-          "summary": "South Korea posted an all-time high current account surplus of over $60 billion won in September on strong exports of semiconductors, central bank data showed Thursday.",
-          "published": "2026-11-04T23:57:55+00:00",
-          "regional": true
-        },
-        {
           "title": "AI, fuelled by advanced chips, set to power semiconductor manufacturing: industry veteran",
           "link": "https://www.scmp.com/tech/big-tech/article/3372774/ai-fuelled-advanced-chips-set-power-semiconductor-manufacturing-industry-veteran",
           "source": "South China Morning Post",
@@ -335,14 +335,6 @@
           "source": "Science Japan",
           "summary": "The Royal Swedish Academy of Sciences (RSAS) announced on October 7 that it will award the 2026 Nobel Prize in Chemistry to Emeritus Professor Kenso Soai (76) of Tokyo University of Science and Emeritus Professor Henri…",
           "published": "2026-10-27T05:32:10+00:00",
-          "regional": true
-        },
-        {
-          "title": "ASML eyes hybrid bonding, report finds, as Chinese firms adopt chip packaging technique",
-          "link": "https://www.scmp.com/tech/tech-trends/article/3371181/asml-eyes-hybrid-bonding-report-finds-chinese-firms-adopt-chip-packaging-technique",
-          "source": "South China Morning Post",
-          "summary": "Dutch semiconductor equipment giant ASML is expanding into next-generation hybrid bonding, a technique that creates dense electrical connections by directly joining chips or silicon wafers, according to a new report.",
-          "published": "2026-10-16T12:30:12+00:00",
           "regional": true
         }
       ]
@@ -394,6 +386,14 @@
           "regional": false
         },
         {
+          "title": "Solar for whom? What Philippines can learn from Pakistan’s rooftop boom",
+          "link": "https://www.rappler.com/business/philippines-lessons-pakistan-solar-rooftop-boom/",
+          "source": "Rappler",
+          "summary": "As rooftop solar begins to catch on in the Philippines, Pakistan shows why the country must make sure the boom reaches more Filipinos without leaving the power grid struggling to keep up",
+          "published": "2026-11-06T11:17:51+00:00",
+          "regional": true
+        },
+        {
           "title": "Korean battery-makers gain ground in North American ESS market",
           "link": "https://www.koreaherald.com/article/10927237",
           "source": "The Korea Herald",
@@ -431,14 +431,6 @@
           "source": "The Korea Herald",
           "summary": "Sales of imported vehicles in South Korea rose a sharp 29.3 percent in October from a year earlier, driven by robust demand for electric vehicles (EVs), industry data showed Wednesday.",
           "published": "2026-11-04T07:19:52+00:00",
-          "regional": true
-        },
-        {
-          "title": "From fuel cells to AI hubs: Hyundai unveils hydrogen value chain at WHE 2026",
-          "link": "https://www.koreaherald.com/article/10925671",
-          "source": "The Korea Herald",
-          "summary": "Hyundai Motor Group has unveiled an end-to-end hydrogen value chain vision at the World Hydrogen Expo 2026, showcasing how hydrogen can expand beyond traditional mobility to power AI data centers, manufacturing and…",
-          "published": "2026-11-04T05:07:15+00:00",
           "regional": true
         },
         {
@@ -482,6 +474,14 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "US rockets firm eyes up mothballed Highland spaceport",
+          "link": "https://www.bbc.co.uk/news/articles/cmrlyy5xw276o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Colorado-based Leap is looking at the spaceport near Tongue as its first launch site outside of the US.",
+          "published": "2026-11-06T12:47:23+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA Astronauts to Answer Questions from Florida Students",
           "link": "https://www.nasa.gov/learning-resources/nasa-astronauts-to-answer-questions-from-florida-students-2/",
           "source": "NASA",
@@ -498,27 +498,11 @@
           "regional": false
         },
         {
-          "title": "NASA Announces Ka-Band Satellite Relay Awards for Space Communications",
-          "link": "https://www.nasa.gov/news-release/nasa-announces-ka-band-satellite-relay-awards-for-space-communications/",
-          "source": "NASA",
-          "summary": "NASA selected three companies on Wednesday to perform work to develop Ka-band space relay capability concepts that are compatible with current missions in space, ensuring service continuity for existing spacecraft…",
-          "published": "2026-11-04T18:00:02+00:00",
-          "regional": false
-        },
-        {
           "title": "Could SpaceX’s retirement of Falcon 9 spark a launch crisis?",
           "link": "https://www.scientificamerican.com/article/could-spacexs-retirement-of-falcon-9-spark-a-launch-crisis/",
           "source": "Scientific American",
           "summary": "What happens when the most successful rocket in history stops flying? The world is about to find out",
           "published": "2026-11-04T17:15:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Navigation Experiment Shows Promise for Planetary Landings",
-          "link": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/",
-          "source": "NASA",
-          "summary": "NASA successfully demonstrated technology designed to help spacecraft autonomously navigate to safe landing sites on the Moon and on other planets.",
-          "published": "2026-11-04T16:52:43+00:00",
           "regional": false
         },
         {
@@ -602,6 +586,14 @@
           "regional": false
         },
         {
+          "title": "Watch the total solar eclipse with ESA in León",
+          "link": "https://www.esa.int/articles/about-us/directorates/science/watch-the-total-solar-eclipse-with-esa-in-leon",
+          "source": "ESA",
+          "summary": "Discover the science behind one of nature's most extraordinary phenomena and experience a total solar eclipse with the European Space Agency (ESA), the City of León and the University of León.Quick links:- Overview of…",
+          "published": "2026-10-31T00:32:30+00:00",
+          "regional": false
+        },
+        {
           "title": "Astronauts just gave the International Space Station a powerful upgrade",
           "link": "https://www.sciencedaily.com/releases/2026/10/261030002931.htm",
           "source": "ScienceDaily",
@@ -610,11 +602,11 @@
           "regional": false
         },
         {
-          "title": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
-          "link": "https://www.bbc.co.uk/news/articles/c63djl148n3eo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "The Russian President praised Musk and said they are in \"close\" contact.",
-          "published": "2026-10-28T19:15:58+00:00",
+          "title": "NASA discovers Jupiter’s invisible shield is more complex than Earth’s",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261028232715.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA’s Juno spacecraft has discovered that Jupiter uses a surprisingly complex system of powerful plasma waves and multiple shock regions to defend against the solar wind.",
+          "published": "2026-10-29T12:26:25+00:00",
           "regional": false
         },
         {
@@ -678,7 +670,7 @@
           "link": "https://www.thehindu.com/news/cities/chennai/isros-latest-navigation-satellite-nvs-03-is-fully-healthy-says-chairman-v-narayanan/article71670095.ece",
           "source": "The Hindu",
           "summary": "ISRO to conduct in-orbit testing for satellite payload as part of developing NavIC, an indigenous GPS alternative; ISRO chief recalls Indian scientists’ role in saving lives on the Axiom-4 mission; praises Russian…",
-          "published": "2026-11-05T15:30:20+00:00",
+          "published": "2026-11-05T17:14:46+00:00",
           "regional": true
         },
         {
@@ -762,6 +754,30 @@
       "accent": "#B98CE0",
       "items": [
         {
+          "title": "Have astronomers spotted Planet Nine?",
+          "link": "https://www.scientificamerican.com/article/have-astronomers-spotted-planet-nine/",
+          "source": "Scientific American",
+          "summary": "Archived observations appear to show a moving object in the far-distant outer solar system, but its reality is unclear",
+          "published": "2026-11-06T11:45:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Swift telescope falls to Earth after nearly 22 years in space",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261105224545.htm",
+          "source": "ScienceDaily",
+          "summary": "After nearly 22 years of exploring the universe’s most violent explosions, NASA’s Swift Observatory has re-entered Earth’s atmosphere over Indonesia.",
+          "published": "2026-11-06T07:12:55+00:00",
+          "regional": false
+        },
+        {
+          "title": "Dead stars could break one of physics' most famous limits",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261102202835.htm",
+          "source": "ScienceDaily",
+          "summary": "A surprising new discovery suggests that some dead stars can grow far more massive than scientists once thought possible.",
+          "published": "2026-11-06T03:11:09+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA’s Swift telescope plunges back to Earth",
           "link": "https://www.scientificamerican.com/article/nasas-swift-telescope-plunges-back-to-earth/",
           "source": "Scientific American",
@@ -783,14 +799,6 @@
           "source": "ScienceDaily",
           "summary": "NASA is exploring a daring plan to save the legendary Hubble Space Telescope from its eventual fiery plunge into Earth's atmosphere.",
           "published": "2026-11-04T11:22:33+00:00",
-          "regional": false
-        },
-        {
-          "title": "Astronomers sharpen JWST’s view of distant worlds",
-          "link": "https://www.science.org/content/article/astronomers-sharpen-jwst-s-view-distant-worlds",
-          "source": "Science (AAAS)",
-          "summary": "Model of the telescope’s imperfections helps strip away starlight obscuring faint exoplanets",
-          "published": "2026-11-04T11:00:00+00:00",
           "regional": false
         },
         {
@@ -890,14 +898,6 @@
           "regional": false
         },
         {
-          "title": "Astronomers uncover a mysterious magnetic web above the Sun",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261023023723.htm",
-          "source": "ScienceDaily",
-          "summary": "The Sun’s seemingly peaceful regions are hiding a surprisingly complex magnetic world. Using a balloon-borne telescope high above Earth, scientists discovered delicate, thread-like magnetic structures woven through the…",
-          "published": "2026-10-24T12:23:38+00:00",
-          "regional": false
-        },
-        {
           "title": "Nearly 3,000 exploding stars challenge our understanding of the Universe",
           "link": "https://www.sciencedaily.com/releases/2026/10/261021231244.htm",
           "source": "ScienceDaily",
@@ -946,19 +946,11 @@
           "regional": false
         },
         {
-          "title": "Astronomers discover a strange universal rule behind black hole eruptions",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261014015507.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have discovered that black holes of vastly different sizes appear to launch powerful jets according to the same universal rule.",
-          "published": "2026-10-16T10:45:33+00:00",
-          "regional": false
-        },
-        {
           "title": "The Milky Way grew by devouring galaxies, leaving a trail of ghost stars",
           "link": "https://www.thehindu.com/sci-tech/science/the-milky-way-grew-by-devouring-galaxies-leaving-a-trail-of-ghost-stars/article71652934.ece",
           "source": "The Hindu",
           "summary": "Galactic archaeologists are using precise measures and larger sample sizes afforded by new missions to tease apart minute differences between groups of stars, revealing the history of the Milky Way going back almost 12…",
-          "published": "2026-11-04T11:54:39+00:00",
+          "published": "2026-11-06T04:40:39+00:00",
           "regional": true
         },
         {
