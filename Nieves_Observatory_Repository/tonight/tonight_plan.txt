@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-11-05 15:58 PST
-; Observing window starts 2026-11-05 18:20 PST  (LST 21:30:21)
+; Generated 2026-11-06 15:40 PST
+; Observing window starts 2026-11-06 18:20 PST  (LST 21:34:18)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -152,14 +152,6 @@ M 32
 #filter r',g',i',z'
 M 31
 
-; Galaxy  mag 9.2  size 19.68'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 0247
-
 ; Galaxy  mag 11.1  size 26.79'  Sculptor Filament,Silver Coin
 #posang 0
 #count 1,1,1,1
@@ -175,14 +167,6 @@ NGC 0253
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 0457
-
-; Galaxy  mag 9.2  size 1.69'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-IC 0127
 
 ; Galaxy  mag 5.8  size 62.09'  Triangulum Galaxy,Triangulum Pinwheel
 #posang 0
@@ -411,14 +395,6 @@ IC 2574
 #filter r',g'
 2026sqf	10:38:47.961	+53:30:34.10
 
-; Galaxy  mag 9.2  size 8.26'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 96
-
 ; Galaxy  mag 9.1  size 8.32'
 #posang 0
 #count 1,1,1,1
@@ -434,6 +410,22 @@ NGC 3521
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 66
+
+; Galaxy  mag 9.8  size 5.04'  Coma Pinwheel,Virgo Cluster Pinwheel
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 99
+
+; Galaxy  mag 9.1  size 6.95'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 85
 
 ; Galaxy  mag 10.9  size 16.75'  Needle Galaxy
 #posang 0
@@ -458,6 +450,14 @@ NGC 4631
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 94
+
+; Galaxy  mag 8.6  size 11.83'  Sunflower Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 63
 
 ; Globular Cluster  mag 5.8  size 16.50'  Hercules Globular Cluster
 #posang 0
