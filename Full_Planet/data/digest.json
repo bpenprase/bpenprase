@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-08T15:40:47.989003+00:00",
-  "generated_human": "08 November 2026, 15:40 UTC",
+  "generated": "2026-11-09T19:19:20.534400+00:00",
+  "generated_human": "09 November 2026, 19:19 UTC",
   "total_items": 113,
   "channels": [
     {
@@ -9,6 +9,22 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "Innovating with AI in the special chemicals industry",
+          "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+          "source": "MIT Technology Review",
+          "summary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the…",
+          "published": "2026-11-09T13:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "AI beats scientists at finding errors in clinical research papers",
+          "link": "https://www.science.org/content/article/ai-beats-scientists-finding-errors-clinical-research-papers",
+          "source": "Science (AAAS)",
+          "summary": "New findings demonstrate AI’s aptitude for identifying technical flaws in studies where medical decisions are on the line",
+          "published": "2026-11-09T10:00:21+00:00",
+          "regional": false
+        },
         {
           "title": "New Research Tests Whether AI Models Know Their Own Thoughts",
           "link": "https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104/",
@@ -74,6 +90,22 @@
           "regional": false
         },
         {
+          "title": "[WDAF 2026] AI agents to reshape global finance: Don Tapscott",
+          "link": "https://www.koreaherald.com/article/10931105",
+          "source": "The Korea Herald",
+          "summary": "Don Tapscott, executive chairman of the Blockchain Research Institute, predicted Monday that artificial intelligence agents would increasingly manage assets, execute transactions and make financial decisions on behalf…",
+          "published": "2026-11-09T08:20:26+00:00",
+          "regional": true
+        },
+        {
+          "title": "Can DeepSeek challenge OpenAI, Anthropic in AI agents as Harness adoption takes off?",
+          "link": "https://www.scmp.com/tech/big-tech/article/3373757/can-deepseek-challenge-openai-anthropic-ai-agents-harness-adoption-takes",
+          "source": "South China Morning Post",
+          "summary": "DeepSeek’s Harness artificial intelligence agent framework has reached 1.54 million daily active users less than three months after launch, the Chinese AI champion said on Sunday, marking rapid growth in a new…",
+          "published": "2026-11-09T07:00:04+00:00",
+          "regional": true
+        },
+        {
           "title": "AI will soon master biology, unleashing new safety risks, Tencent AI chief warns",
           "link": "https://www.scmp.com/tech/big-tech/article/3373697/ai-will-soon-master-biology-unleashing-new-safety-risks-tencent-ai-chief-warns",
           "source": "South China Morning Post",
@@ -90,27 +122,11 @@
           "regional": true
         },
         {
-          "title": "Woori, MSCI chiefs discuss climate and AI",
-          "link": "https://www.koreaherald.com/article/10928616",
-          "source": "The Korea Herald",
-          "summary": "Woori Financial Group Chairman Yim Jong-yong met Henry Fernandez, chairman and chief executive of global index provider MSCI, in Seoul on Thursday to discuss climate change and artificial intelligence's impact on…",
-          "published": "2026-11-06T05:20:31+00:00",
-          "regional": true
-        },
-        {
           "title": "Chinese chipmaker Hua Hong bets big on silicon photonics amid AI boom",
           "link": "https://www.scmp.com/tech/big-tech/article/3373445/chinese-chipmaker-hua-hong-bets-big-silicon-photonics-amid-ai-boom",
           "source": "South China Morning Post",
           "summary": "China’s second-largest contract chipmaker, Hua Hong Grace Semiconductor, is aggressively expanding into silicon photonics, as the company looks to capture the next wave of the global artificial intelligence…",
           "published": "2026-11-05T13:27:39+00:00",
-          "regional": true
-        },
-        {
-          "title": "Korea Eximbank commits $170m to Tanzania's first EDCF AI project",
-          "link": "https://www.koreaherald.com/article/10926998",
-          "source": "The Korea Herald",
-          "summary": "The Export-Import Bank of Korea will provide a $170 million loan to build an artificial intelligence education center in Tanzania, marking the first AI project financed through South Korea's Economic Development…",
-          "published": "2026-11-05T02:43:08+00:00",
           "regional": true
         },
         {
@@ -161,6 +177,22 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "How yesterday's waste is becoming tomorrow's fashion",
+          "link": "https://www.bbc.co.uk/news/articles/cm5yd1q12g1no?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Brands including Dr Martens, Nike and Coach are among those using recycled materials.",
+          "published": "2026-11-09T13:18:38+00:00",
+          "regional": false
+        },
+        {
+          "title": "A quantum breakthrough makes light behave like both a solid and a liquid",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261105224536.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have observed a bizarre quantum state of matter that combines the structure of a crystal with the frictionless flow of a liquid, all at room temperature.",
+          "published": "2026-11-09T11:19:39+00:00",
+          "regional": false
+        },
         {
           "title": "Nothing can be fully transparent, physicists discover",
           "link": "https://www.scientificamerican.com/article/nothing-can-be-fully-transparent-physicists-discover/",
@@ -258,14 +290,6 @@
           "regional": false
         },
         {
-          "title": "Samsung, SK hynix slide 10% as AI data center fears spread",
-          "link": "https://www.koreaherald.com/article/10927984",
-          "source": "The Korea Herald",
-          "summary": "Blue-chip semiconductor stocks plunged around 10 percent during intraday trading Friday, dragging the benchmark Kospi below the 5,000-point mark as investor sentiment was rattled by a sharp overnight sell-off in major…",
-          "published": "2026-11-06T00:28:13+00:00",
-          "regional": true
-        },
-        {
           "title": "Covid-related stress causes adolescents to age faster epigenetically",
           "link": "https://www.mpg.de/27071988/covid-related-stress-causes-adolescents-to-age-faster-epigenetically",
           "source": "Max Planck Society",
@@ -287,22 +311,6 @@
           "source": "The Hindu",
           "summary": "ISRO needs more human and material resources to fulfil its mandate",
           "published": "2026-11-05T08:11:21+00:00",
-          "regional": true
-        },
-        {
-          "title": "Korean battery-makers gain ground in North American ESS market",
-          "link": "https://www.koreaherald.com/article/10927237",
-          "source": "The Korea Herald",
-          "summary": "South Korean battery-makers are gaining ground in North America's fast-growing energy storage system market, as tighter trade restrictions on Chinese products create new opportunities for Korean suppliers.",
-          "published": "2026-11-05T05:47:06+00:00",
-          "regional": true
-        },
-        {
-          "title": "Posco, Korea University cut voltage loss in next-gen battery cathodes",
-          "link": "https://www.koreaherald.com/article/10927214",
-          "source": "The Korea Herald",
-          "summary": "Posco Holdings and Korea University have developed a new manufacturing method that could improve the performance and lifespan of next-generation lithium-ion batteries by adjusting heat-treatment temperatures without…",
-          "published": "2026-11-05T05:37:22+00:00",
           "regional": true
         },
         {
@@ -370,27 +378,19 @@
           "regional": false
         },
         {
+          "title": "Hyundai Motor's HTWO teams up with Air Liquide to expand hydrogen mobility in China",
+          "link": "https://www.koreaherald.com/article/10930228",
+          "source": "The Korea Herald",
+          "summary": "Hyundai Motor Group said Monday its hydrogen business brand HTWO will partner with French industrial gas company Air Liquide to expand hydrogen-powered mobility in China.",
+          "published": "2026-11-09T00:49:36+00:00",
+          "regional": true
+        },
+        {
           "title": "Solar for whom? What Philippines can learn from Pakistan’s rooftop boom",
           "link": "https://www.rappler.com/business/philippines-lessons-pakistan-solar-rooftop-boom/",
           "source": "Rappler",
           "summary": "As rooftop solar begins to catch on in the Philippines, Pakistan shows why the country must make sure the boom reaches more Filipinos without leaving the power grid struggling to keep up",
           "published": "2026-11-06T11:17:51+00:00",
-          "regional": true
-        },
-        {
-          "title": "Korean battery-makers gain ground in North American ESS market",
-          "link": "https://www.koreaherald.com/article/10927237",
-          "source": "The Korea Herald",
-          "summary": "South Korean battery-makers are gaining ground in North America's fast-growing energy storage system market, as tighter trade restrictions on Chinese products create new opportunities for Korean suppliers.",
-          "published": "2026-11-05T05:47:06+00:00",
-          "regional": true
-        },
-        {
-          "title": "Posco, Korea University cut voltage loss in next-gen battery cathodes",
-          "link": "https://www.koreaherald.com/article/10927214",
-          "source": "The Korea Herald",
-          "summary": "Posco Holdings and Korea University have developed a new manufacturing method that could improve the performance and lifespan of next-generation lithium-ion batteries by adjusting heat-treatment temperatures without…",
-          "published": "2026-11-05T05:37:22+00:00",
           "regional": true
         },
         {
@@ -450,6 +450,54 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "NASA Advanced Mid-Power Electric Rocket Challenge",
+          "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-advanced-mid-power-electric-rocket-challenge/",
+          "source": "NASA",
+          "summary": "Mid-power (3-7 kW) Hall effect thruster systems have been identified by government and industry stakeholders as critical capabilities for satellite, defense, and exploration missions.",
+          "published": "2026-11-09T17:42:42+00:00",
+          "regional": false
+        },
+        {
+          "title": "La NASA destina un millón de dólares al reto estudiantil Base Lunar",
+          "link": "https://www.nasa.gov/news-release/la-nasa-destina-un-millon-de-dolares-al-reto-estudiantil-base-lunar/",
+          "source": "NASA",
+          "summary": "Read this release in English here.El domingo 8 de noviembre de 2026, la NASA anunció la convocatoria del reto estudiantil Base Lunar, dotado con un millón de dólares, durante un acto de MAX POWER celebrado en el…",
+          "published": "2026-11-09T17:36:33+00:00",
+          "regional": false
+        },
+        {
+          "title": "Astronauts Across Generations Share the Stage",
+          "link": "https://www.nasa.gov/image-article/astronauts-across-generations-share-the-stage/",
+          "source": "NASA",
+          "summary": "On Nov. 6, 2026, Purpose Entertainment hosted the Artemis Celebration Gala at NASA’s Kennedy Space Center Visitor Complex in Merritt Island, Florida.",
+          "published": "2026-11-09T16:56:29+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s ESCAPADE Completes Powered Earth Flybys, Now En Route to Mars",
+          "link": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/",
+          "source": "NASA",
+          "summary": "NASA’s two ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) spacecraft have each successfully completed a powered Earth flyby, using Earth’s gravity in combination with a sustained engine burn to…",
+          "published": "2026-11-09T16:01:47+00:00",
+          "regional": false
+        },
+        {
+          "title": "CHAPEA Mission 2 Crew Reflects After 378 Days on Simulated Mars",
+          "link": "https://www.nasa.gov/centers-and-facilities/johnson/chapea-mission-2-crew-reflects-after-378-days-on-simulated-mars/",
+          "source": "NASA",
+          "summary": "After 378 days without windows, the sounds of the outside world, or real-time calls with family and friends, four research volunteers stepped out of NASA’s Mars Dune Alpha habitat on Oct.",
+          "published": "2026-11-09T11:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA reveals bold new plan to return astronauts to the Moon in 2028",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261108233054.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA has revealed an accelerated plan to land astronauts on the Moon in 2028, with SpaceX and Blue Origin developing competing lunar landers and a crucial orbital test scheduled for 2027.",
+          "published": "2026-11-09T09:13:28+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA Announces $1 Million to Students for Moon Base Challenge",
           "link": "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/",
           "source": "NASA",
@@ -458,35 +506,11 @@
           "regional": false
         },
         {
-          "title": "Mysterious gas leaks suggest Mars may still be volcanically alive",
-          "link": "https://www.sciencedaily.com/releases/2026/11/261106174525.htm",
-          "source": "ScienceDaily",
-          "summary": "Mysterious gas emissions and fresh volcanic fissures suggest that Mars may not be geologically dead after all, with hot magma potentially still active deep underground.",
-          "published": "2026-11-08T01:09:55+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Awards Moon Base Transportation, Technology, Science Projects",
-          "link": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
-          "source": "NASA",
-          "summary": "NASA announced a suite of awards and mission updates on Saturday to expand the agency’s Moon Base exploration, science, and infrastructure capabilities.",
-          "published": "2026-11-07T22:47:03+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA reveals new lunar rover, PROMISE, to launch to moon in 2028",
           "link": "https://www.scientificamerican.com/article/nasa-reveals-new-lunar-rover-promise-to-launch-to-moon-in-2028/",
           "source": "Scientific American",
           "summary": "At a press event on Saturday, the agency’s officials stressed that rovers and other infrastructure will be critical to ensuring human survival on the moon",
           "published": "2026-11-07T22:45:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Seeks Next Generation of Explorers to Join Astronaut Corps",
-          "link": "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/",
-          "source": "NASA",
-          "summary": "NASA is looking for the explorers who will help write the next chapter of human spaceflight. Applications are now open for the agency’s next class of astronauts, who will join NASA as America returns to the Moon, builds…",
-          "published": "2026-11-07T18:11:57+00:00",
           "regional": false
         },
         {
@@ -527,14 +551,6 @@
           "source": "ScienceDaily",
           "summary": "NASA is exploring a daring plan to save the legendary Hubble Space Telescope from its eventual fiery plunge into Earth's atmosphere.",
           "published": "2026-11-04T11:22:33+00:00",
-          "regional": false
-        },
-        {
-          "title": "Goodbye Swift: After 22 years, NASA spacecraft burns up in atmosphere",
-          "link": "https://www.science.org/content/article/goodbye-swift-after-22-years-nasa-spacecraft-burns-atmosphere",
-          "source": "Science (AAAS)",
-          "summary": "Astronomers mourn telescope that supercharged study of cosmic explosions",
-          "published": "2026-11-04T04:25:00+00:00",
           "regional": false
         },
         {
@@ -586,27 +602,11 @@
           "regional": false
         },
         {
-          "title": "Watch the total solar eclipse with ESA in León",
-          "link": "https://www.esa.int/articles/about-us/directorates/science/watch-the-total-solar-eclipse-with-esa-in-leon",
-          "source": "ESA",
-          "summary": "Discover the science behind one of nature's most extraordinary phenomena and experience a total solar eclipse with the European Space Agency (ESA), the City of León and the University of León.Quick links:- Overview of…",
-          "published": "2026-10-31T00:32:30+00:00",
-          "regional": false
-        },
-        {
           "title": "Astronauts just gave the International Space Station a powerful upgrade",
           "link": "https://www.sciencedaily.com/releases/2026/10/261030002931.htm",
           "source": "ScienceDaily",
           "summary": "Two astronauts completed a 7-hour, 11-minute spacewalk to install a new solar array on the International Space Station, bringing NASA one step closer to a major power upgrade.",
           "published": "2026-10-30T06:12:55+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA discovers Jupiter’s invisible shield is more complex than Earth’s",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261028232715.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA’s Juno spacecraft has discovered that Jupiter uses a surprisingly complex system of powerful plasma waves and multiple shock regions to defend against the solar wind.",
-          "published": "2026-10-29T12:26:25+00:00",
           "regional": false
         },
         {
@@ -642,6 +642,14 @@
           "regional": false
         },
         {
+          "title": "Innospace to launch upgraded suborbital rocket in Brazil on Nov. 29",
+          "link": "https://www.koreaherald.com/article/10930098",
+          "source": "The Korea Herald",
+          "summary": "South Korean space startup Innospace Co. said Monday it plans to launch its upgraded multipurpose suborbital rocket, Sebit, in Brazil on Nov. 29, following an unsuccessful maiden test flight in August.",
+          "published": "2026-11-09T00:26:25+00:00",
+          "regional": true
+        },
+        {
           "title": "ISRO’s latest navigation satellite NVS-03 is fully healthy, says Chairman V. Narayanan",
           "link": "https://www.thehindu.com/news/cities/chennai/isros-latest-navigation-satellite-nvs-03-is-fully-healthy-says-chairman-v-narayanan/article71670095.ece",
           "source": "The Hindu",
@@ -663,14 +671,6 @@
           "source": "The Hindu",
           "summary": "‘Four orbit manoeuvres have been successfully completed with a cumulative LAM engine burn of 6164 seconds; with this the satellite has reached Geo Synchronous Orbit at an inclination of 29.980,’ said ISRO",
           "published": "2026-11-05T05:34:06+00:00",
-          "regional": true
-        },
-        {
-          "title": "Back to back GSLV successes help ISRO win back some pride",
-          "link": "https://www.thehindu.com/newsletter/space-wrap/space-wrap-newsletter-back-to-back-gslv-successes-help-isro-win-back-some-pride/article71665366.ece",
-          "source": "The Hindu",
-          "summary": "",
-          "published": "2026-11-04T14:57:29+00:00",
           "regional": true
         },
         {
@@ -729,6 +729,14 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "A nuclear blast could save Earth from an asteroid, but there's a catch",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261106174532.htm",
+          "source": "ScienceDaily",
+          "summary": "A nuclear explosion might save Earth from a deadly asteroid, but new research suggests that hitting the wrong side could make the difference between success and disaster.",
+          "published": "2026-11-08T10:11:25+00:00",
+          "regional": false
+        },
         {
           "title": "Rubin Observatory discovers two hidden companions of the Milky Way. Hundreds more may be waiting",
           "link": "https://www.sciencedaily.com/releases/2026/11/261104012252.htm",
@@ -911,14 +919,6 @@
           "source": "ScienceDaily",
           "summary": "NASA's stunning new gallery of 16 galaxies reveals colossal black hole jets, explosive star formation, and spectacular cosmic collisions through the combined power of Chandra, James Webb, Hubble, and other telescopes.",
           "published": "2026-10-20T06:17:55+00:00",
-          "regional": false
-        },
-        {
-          "title": "Astronomers discover a ghostly green star unlike any known before",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261017230018.htm",
-          "source": "ScienceDaily",
-          "summary": "Astronomers have uncovered a surprising rainbow of dead stars, including the first known star that would appear genuinely green to human eyes.",
-          "published": "2026-10-19T10:26:03+00:00",
           "regional": false
         },
         {
