@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-11-08 14:42 PST
-; Observing window starts 2026-11-08 18:18 PST  (LST 21:40:10)
+; Generated 2026-11-09 17:56 PST
+; Observing window starts 2026-11-09 18:18 PST  (LST 21:44:07)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -411,14 +411,6 @@ M 66
 #filter r',g',i',z'
 M 99
 
-; Galaxy  mag 8.9  size 11.53'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 86
-
 ; Galaxy  mag 11.0  size 3.03'  Eyes
 #posang 0
 #count 1,1,1,1
@@ -426,6 +418,14 @@ M 86
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 4435
+
+; Galaxy  mag 10.9  size 9.16'  Eyes
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 4438
 
 ; Galaxy  mag 10.9  size 16.75'  Needle Galaxy
 #posang 0
@@ -467,13 +467,13 @@ M 63
 #filter r',g',i',z'
 M 51
 
-; Globular Cluster  mag 5.8  size 16.50'  Hercules Globular Cluster
+; Open Cluster  mag 4.6  size 24.00'
 #posang 0
 #count 1,1,1,1
 #interval 600,600,600,600
 #binning 1,1,1,1
 #filter r',g',i',z'
-M 13
+IC 4756
 
 ; Asteroid Vesta (ACP resolves position; WAITINLIMITS guards)
 #posang 0
