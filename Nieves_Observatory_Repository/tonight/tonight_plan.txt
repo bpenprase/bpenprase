@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-11-09 17:56 PST
-; Observing window starts 2026-11-09 18:18 PST  (LST 21:44:07)
+; Generated 2026-11-10 15:56 PST
+; Observing window starts 2026-11-10 18:18 PST  (LST 21:48:03)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -329,14 +329,6 @@ M 44
 #filter r',g',i',z'
 NGC 2685
 
-; Galaxy  mag 8.9  size 11.94'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 2903
-
 ; Planet: Mars
 #posang 0
 #count 10
@@ -395,14 +387,6 @@ IC 2574
 #filter r',g'
 2026sqf	10:38:47.961	+53:30:34.10
 
-; Galaxy  mag 8.9  size 10.28'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 66
-
 ; Galaxy  mag 9.8  size 5.04'  Coma Pinwheel,Virgo Cluster Pinwheel
 #posang 0
 #count 1,1,1,1
@@ -427,6 +411,14 @@ NGC 4435
 #filter r',g',i',z'
 NGC 4438
 
+; Galaxy  mag 9.0  size 7.11'  Virgo Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 87
+
 ; Galaxy  mag 10.9  size 16.75'  Needle Galaxy
 #posang 0
 #count 1,1,1,1
@@ -442,6 +434,14 @@ NGC 4565
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 4631
+
+; Galaxy  mag 10.8  size 3.87'  Umbrella Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 4651
 
 ; Galaxy  mag 8.2  size 7.74'
 #posang 0
