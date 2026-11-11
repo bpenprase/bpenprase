@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-10T16:41:13.851428+00:00",
-  "generated_human": "10 November 2026, 16:41 UTC",
-  "total_items": 117,
+  "generated": "2026-11-11T16:46:09.353514+00:00",
+  "generated_human": "11 November 2026, 16:46 UTC",
+  "total_items": 116,
   "channels": [
     {
       "key": "ai",
@@ -15,14 +15,6 @@
           "source": "MIT Technology Review",
           "summary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the…",
           "published": "2026-11-09T13:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "AI beats scientists at finding errors in clinical research papers",
-          "link": "https://www.science.org/content/article/ai-beats-scientists-finding-errors-clinical-research-papers",
-          "source": "Science (AAAS)",
-          "summary": "New findings demonstrate AI’s aptitude for identifying technical flaws in studies where medical decisions are on the line",
-          "published": "2026-11-09T10:00:21+00:00",
           "regional": false
         },
         {
@@ -74,12 +66,12 @@
           "regional": false
         },
         {
-          "title": "How Wikipedia’s Editors Keep the Online Encyclopedia Human-Written",
-          "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
-          "source": "IEEE Spectrum",
-          "summary": "Ellia Lebleu is a founding member of the WikiProject AI Cleanup , a volunteer effort launched in 2023 to find and remove AI-generated material from Wikipedia that breaks the website’s guidelines.",
-          "published": "2026-10-21T13:00:02+00:00",
-          "regional": false
+          "title": "S. Korea ranks 10th place in global AI, digital competitiveness",
+          "link": "https://www.koreaherald.com/article/10933096",
+          "source": "The Korea Herald",
+          "summary": "South Korea came in 10th place among 70 countries in a global digital and artificial intelligence competitiveness ranking, the science ministry said Wednesday.",
+          "published": "2026-11-11T00:28:30+00:00",
+          "regional": true
         },
         {
           "title": "Adaspace Put AI on Satellites. Now It Wants to Sell Computing Time.",
@@ -95,14 +87,6 @@
           "source": "Max Planck Society",
           "summary": "Generative AI is transforming science, industry, and society while raising urgent questions about governance and public participation.",
           "published": "2026-11-09T23:00:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "[WDAF 2026] AI agents to reshape global finance: Don Tapscott",
-          "link": "https://www.koreaherald.com/article/10931105",
-          "source": "The Korea Herald",
-          "summary": "Don Tapscott, executive chairman of the Blockchain Research Institute, predicted Monday that artificial intelligence agents would increasingly manage assets, execute transactions and make financial decisions on behalf…",
-          "published": "2026-11-09T08:20:26+00:00",
           "regional": true
         },
         {
@@ -266,6 +250,38 @@
           "regional": false
         },
         {
+          "title": "Amid Nvidia saga, T-Head IPO a crucial test for Alibaba – and China’s AI ambitions",
+          "link": "https://www.scmp.com/tech/big-tech/article/3374090/amid-nvidia-saga-t-head-ipo-crucial-test-alibaba-and-chinas-ai-ambitions",
+          "source": "South China Morning Post",
+          "summary": "Alibaba Group Holding’s planned Hong Kong listing of its semiconductor design arm, T-Head, is poised to reshape China’s artificial intelligence hardware arena while unlocking billions of dollars in trapped valuation for…",
+          "published": "2026-11-11T10:31:02+00:00",
+          "regional": true
+        },
+        {
+          "title": "What Taiwanese chip giant TSMC gains from taking stakes in OpenAI and Anthropic’s AI race",
+          "link": "https://www.scmp.com/tech/big-tech/article/3374037/what-taiwanese-chip-giant-tsmc-gains-taking-stakes-openai-and-anthropics-ai-race",
+          "source": "South China Morning Post",
+          "summary": "Taiwan Semiconductor Manufacturing Company’s (TSMC) move to take equity stakes in both OpenAI and Anthropic will give the world’s largest contract chipmaker direct financial ties to the frontier AI labs driving demand…",
+          "published": "2026-11-11T07:30:21+00:00",
+          "regional": true
+        },
+        {
+          "title": "Crystalline supramolecular material created from low-molecular-weight compounds",
+          "link": "https://sj.jst.go.jp/news/202611/n1111-02k.html",
+          "source": "Science Japan",
+          "summary": "In recent years, supramolecular materials composed solely of low-molecular-weight compounds have attracted attention as next-generation materials owing to their excellent degradability and recyclability.",
+          "published": "2026-11-11T05:26:45+00:00",
+          "regional": true
+        },
+        {
+          "title": "Govt. to foster sensor, actuator, humanoid battery industries",
+          "link": "https://www.koreaherald.com/article/10933026",
+          "source": "The Korea Herald",
+          "summary": "South Korea will add the sensor, actuator and humanoid battery industries to its existing 15 flagship projects aimed at building an \"ultra-innovative economy,\" the finance ministry said Wednesday.",
+          "published": "2026-11-11T00:10:30+00:00",
+          "regional": true
+        },
+        {
           "title": "Green chemistry: Producing hydrogen peroxide more efficiently",
           "link": "https://www.mpg.de/27052948/making-the-sustainable-production-of-hydrogen-peroxide-more-efficient",
           "source": "Max Planck Society",
@@ -282,19 +298,19 @@
           "regional": true
         },
         {
+          "title": "How Posco fortifies Korea's energy, battery supply chains",
+          "link": "https://www.koreaherald.com/article/10932372",
+          "source": "The Korea Herald",
+          "summary": "GWANGYANG, Jeonnam-Gwangju — Just a few kilometers from Posco's sprawling steelworks, Gwangyang Bay and the neighboring Yulchon Industrial Complex are emerging as key hubs in South Korea's efforts to strengthen energy…",
+          "published": "2026-11-10T06:06:55+00:00",
+          "regional": true
+        },
+        {
           "title": "Samsung SDI, LG Energy Solution secure BMW battery cell deals",
           "link": "https://www.koreaherald.com/article/10932364",
           "source": "The Korea Herald",
           "summary": "South Korean battery-makers Samsung SDI and LG Energy Solution have signed deals to supply battery cells for BMW Group’s sixth-generation high-voltage batteries, the German luxury automaker said Tuesday.",
           "published": "2026-11-10T06:03:54+00:00",
-          "regional": true
-        },
-        {
-          "title": "Rare earths off Minamitorishima: Over half are precious elements, numerous issues remain for domestic production",
-          "link": "https://sj.jst.go.jp/stories/2026/s1110-01p.html",
-          "source": "Science Japan",
-          "summary": "Analysis of rare earth elements recovered from the deep seafloor off Minamitorishima, Japan's easternmost island, has confirmed that more than half of the material consists of medium-to-heavy rare earth elements, which…",
-          "published": "2026-11-10T03:02:01+00:00",
           "regional": true
         },
         {
@@ -306,43 +322,11 @@
           "regional": true
         },
         {
-          "title": "LG Energy Solution's AI cuts battery testing time to 10 minutes",
-          "link": "https://www.koreaherald.com/article/10932025",
-          "source": "The Korea Herald",
-          "summary": "LG Energy Solution said Monday its AI-powered battery diagnostic software, Re.Pulse, has won a CES 2027 Innovation Award for cutting the time needed to assess used batteries from more than seven hours to less than 10…",
-          "published": "2026-11-10T02:28:38+00:00",
-          "regional": true
-        },
-        {
-          "title": "Covid-related stress causes adolescents to age faster epigenetically",
-          "link": "https://www.mpg.de/27071988/covid-related-stress-causes-adolescents-to-age-faster-epigenetically",
-          "source": "Max Planck Society",
-          "summary": "Especially the lack of social interaction during the lockdowns led to epigenetic changes in the genetic material of adolescents",
-          "published": "2026-11-05T15:01:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "Chinese chipmaker Hua Hong bets big on silicon photonics amid AI boom",
-          "link": "https://www.scmp.com/tech/big-tech/article/3373445/chinese-chipmaker-hua-hong-bets-big-silicon-photonics-amid-ai-boom",
-          "source": "South China Morning Post",
-          "summary": "China’s second-largest contract chipmaker, Hua Hong Grace Semiconductor, is aggressively expanding into silicon photonics, as the company looks to capture the next wave of the global artificial intelligence…",
-          "published": "2026-11-05T13:27:39+00:00",
-          "regional": true
-        },
-        {
           "title": "AI, fuelled by advanced chips, set to power semiconductor manufacturing: industry veteran",
           "link": "https://www.scmp.com/tech/big-tech/article/3372774/ai-fuelled-advanced-chips-set-power-semiconductor-manufacturing-industry-veteran",
           "source": "South China Morning Post",
           "summary": "Artificial intelligence is no longer merely the driving force behind global semiconductor demand, but is also actively reinventing how chips are designed and built, industry leaders and scientists said at a major…",
           "published": "2026-10-30T12:59:39+00:00",
-          "regional": true
-        },
-        {
-          "title": "Degrading enzymes safely destroy only unnecessary membranes — AI and experiments verify activation, contributing to understanding of autophagy",
-          "link": "https://sj.jst.go.jp/news/202610/n1027-01j.html",
-          "source": "Science Japan",
-          "summary": "Cells possess a mechanism called autophagy that wraps unnecessary components in membranes, transports them into the interiors of lysosomes or vacuoles in the cytoplasm, and degrades them.",
-          "published": "2026-10-27T05:33:05+00:00",
           "regional": true
         }
       ]
@@ -354,11 +338,11 @@
       "accent": "#5FBF9B",
       "items": [
         {
-          "title": "To deter bioterrorism, U.S. imposes new rules on ordering synthetic DNA",
-          "link": "https://www.science.org/content/article/deter-bioterrorism-u-s-imposes-new-rules-ordering-synthetic-dna",
+          "title": "Two teams map development of mammal embryos, cell by cell",
+          "link": "https://www.science.org/content/article/two-teams-map-development-mammal-embryos-cell-cell",
           "source": "Science (AAAS)",
-          "summary": "New policy draws tempered praise from biosecurity experts",
-          "published": "2026-11-09T03:30:00+00:00",
+          "summary": "Using genome editing to trace cell lineages, researchers capture the early history of the mouse embryo in unprecedented detail",
+          "published": "2026-10-08T02:00:00+00:00",
           "regional": false
         },
         {
@@ -378,6 +362,14 @@
       "accent": "#33C6D6",
       "items": [
         {
+          "title": "Global fossil fuel emissions set to fall in 2026, but total CO2 keeps rising",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261109205358.htm",
+          "source": "ScienceDaily",
+          "summary": "Global fossil fuel emissions are projected to fall in 2026 as renewable energy and electric vehicles gain ground, but rising emissions from deforestation threaten to push total CO2 emissions to a new record.",
+          "published": "2026-11-10T06:05:25+00:00",
+          "regional": false
+        },
+        {
           "title": "Scientists may have found a shortcut to fusion energy",
           "link": "https://www.sciencedaily.com/releases/2026/10/261008005242.htm",
           "source": "ScienceDaily",
@@ -394,11 +386,27 @@
           "regional": false
         },
         {
+          "title": "Govt. to foster sensor, actuator, humanoid battery industries",
+          "link": "https://www.koreaherald.com/article/10933026",
+          "source": "The Korea Herald",
+          "summary": "South Korea will add the sensor, actuator and humanoid battery industries to its existing 15 flagship projects aimed at building an \"ultra-innovative economy,\" the finance ministry said Wednesday.",
+          "published": "2026-11-11T00:10:30+00:00",
+          "regional": true
+        },
+        {
           "title": "Green chemistry: Producing hydrogen peroxide more efficiently",
           "link": "https://www.mpg.de/27052948/making-the-sustainable-production-of-hydrogen-peroxide-more-efficient",
           "source": "Max Planck Society",
           "summary": "The versatile substance can be produced sustainably and with high yield using a custom-designed photocatalyst.",
           "published": "2026-11-10T12:00:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "How Posco fortifies Korea's energy, battery supply chains",
+          "link": "https://www.koreaherald.com/article/10932372",
+          "source": "The Korea Herald",
+          "summary": "GWANGYANG, Jeonnam-Gwangju — Just a few kilometers from Posco's sprawling steelworks, Gwangyang Bay and the neighboring Yulchon Industrial Complex are emerging as key hubs in South Korea's efforts to strengthen energy…",
+          "published": "2026-11-10T06:06:55+00:00",
           "regional": true
         },
         {
@@ -423,22 +431,6 @@
           "source": "The Korea Herald",
           "summary": "Samsung SDI has won a CES 2027 Innovation Award for a battery system designed to provide reliable backup power for AI data centers, where surging electricity demand is increasing the need for stable power supplies.",
           "published": "2026-11-10T02:44:18+00:00",
-          "regional": true
-        },
-        {
-          "title": "LG Energy Solution's AI cuts battery testing time to 10 minutes",
-          "link": "https://www.koreaherald.com/article/10932025",
-          "source": "The Korea Herald",
-          "summary": "LG Energy Solution said Monday its AI-powered battery diagnostic software, Re.Pulse, has won a CES 2027 Innovation Award for cutting the time needed to assess used batteries from more than seven hours to less than 10…",
-          "published": "2026-11-10T02:28:38+00:00",
-          "regional": true
-        },
-        {
-          "title": "Hyundai Motor, Air Liquide China partner on hydrogen mobility",
-          "link": "https://www.koreaherald.com/article/10930692",
-          "source": "The Korea Herald",
-          "summary": "HTWO Guangzhou, Hyundai Motor Group’s first overseas hydrogen fuel cell production hub, has partnered with Air Liquide China to accelerate the development of a hydrogen mobility value chain in China’s rapidly growing…",
-          "published": "2026-11-09T04:31:00+00:00",
           "regional": true
         },
         {
@@ -482,19 +474,27 @@
       "accent": "#F0894E",
       "items": [
         {
-          "title": "NASA Scientists Show How Gravitational Waves Can Reveal New Worlds",
-          "link": "https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/",
-          "source": "NASA",
-          "summary": "The LISA (Laser Interferometer Space Antenna) observatory, now in development, will detect gravitational waves, the tiny ripples in space-time caused by orbiting masses.",
-          "published": "2026-11-10T16:00:26+00:00",
+          "title": "Toby Jones stars in film about UK Mars mission",
+          "link": "https://www.bbc.co.uk/news/articles/cqm2l304w0x9o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Mackenzie Crook directs the story of the British professor whose probe lost contact upon touchdown.",
+          "published": "2026-11-11T14:10:11+00:00",
           "regional": false
         },
         {
-          "title": "Sales of tinned food and bottled water jump after 'Be Ready' campaign launch",
-          "link": "https://www.bbc.co.uk/news/articles/cqev3vl4ek33o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Sales of essential goods such as hand sanitiser soar after the government called on households to be prepared for emergencies.",
-          "published": "2026-11-10T15:10:20+00:00",
+          "title": "NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities",
+          "link": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
+          "source": "NASA",
+          "summary": "Launched nearly 50 years ago in 1977, NASA’s Voyager 1 on Wednesday, Nov. 18 will have traveled one light-day from Earth, which is more than 16 billion miles (25.9 billion kilometers).",
+          "published": "2026-11-10T19:22:45+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA to Welcome Expedition 74 Astronauts Home at Space Center Houston",
+          "link": "https://www.nasa.gov/news-release/nasa-to-welcome-expedition-74-astronauts-home-at-space-center-houston/",
+          "source": "NASA",
+          "summary": "NASA will welcome home the Expedition 74 crew during a public event at Space Center Houston following their return from a long-duration mission aboard the International Space Station.",
+          "published": "2026-11-10T18:06:33+00:00",
           "regional": false
         },
         {
@@ -506,19 +506,19 @@
           "regional": false
         },
         {
-          "title": "European orbiter detects hints of volcanic activity on Mars",
-          "link": "https://www.esa.int/articles/news-media/news/european-orbiter-detects-hints-of-volcanic-activity-on-mars",
-          "source": "ESA",
-          "summary": "New evidence from gas seeping above volcanic rifts suggests Mars is not geologically dead deep inside, but merely sleeping.",
-          "published": "2026-11-10T12:02:37+00:00",
+          "title": "NASA’s CHAPEA Mars crew finally emerges after more than a year in isolation",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261109205406.htm",
+          "source": "ScienceDaily",
+          "summary": "After more than a year of simulated life on Mars, four NASA volunteers have finally emerged from isolation, bringing a remarkable space exploration experiment to an end.",
+          "published": "2026-11-10T05:00:41+00:00",
           "regional": false
         },
         {
-          "title": "Rubies on Mars?",
-          "link": "https://science.nasa.gov/blog/rubies-on-mars/",
-          "source": "NASA",
-          "summary": "Written by Roger C. Wiens, SuperCam Principal Investigator for NASA’s Perseverance rover at Purdue University Nov. 4, 2026 Exploration on Mars turns up the unexpected.",
-          "published": "2026-11-09T22:27:12+00:00",
+          "title": "NASA offers $500,000 to develop next-generation electric rocket engines",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261109205404.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA is putting $500,000 on the line in a new competition to accelerate the development of advanced electric rocket engines for satellites and future space exploration. The AMPERE Challenge will reward up to two U.S.",
+          "published": "2026-11-10T02:36:21+00:00",
           "regional": false
         },
         {
@@ -666,14 +666,6 @@
           "regional": false
         },
         {
-          "title": "NASA’s Perseverance Mars rover just shattered the all-time off-world driving record",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261020084818.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA’s Perseverance rover has shattered a historic space exploration record, traveling farther across another world than any vehicle before it.",
-          "published": "2026-10-21T09:22:36+00:00",
-          "regional": false
-        },
-        {
           "title": "ISRO’s latest navigation satellite NVS-03 is fully healthy, says Chairman V. Narayanan",
           "link": "https://www.thehindu.com/news/cities/chennai/isros-latest-navigation-satellite-nvs-03-is-fully-healthy-says-chairman-v-narayanan/article71670095.ece",
           "source": "The Hindu",
@@ -714,11 +706,27 @@
           "regional": true
         },
         {
+          "title": "NASA telescope on verge of plunging back to Earth after failed rescue mission",
+          "link": "https://www.thehindu.com/sci-tech/science/nasa-telescope-on-verge-of-plunging-back-to-earth-after-failed-rescue-mission/article71649422.ece",
+          "source": "The Hindu",
+          "summary": "Most of the 1 ½-ton telescope is expected to burn up in the atmosphere. But a handful of pieces made of denser-than-lead tungsten and some mirror parts could survive reentry, according to NASA's Brad Cenko, the…",
+          "published": "2026-10-31T12:57:13+00:00",
+          "regional": true
+        },
+        {
           "title": "ISRO NVS-03 launch: 5 things to know about India’s new navigation satellite",
           "link": "https://www.thehindu.com/sci-tech/science/isro-nvs-03-launch-navic-constellation-5-things-to-know-about-india-next-generation-satellite/article71648294.ece",
           "source": "The Hindu",
           "summary": "ISRO successfully launched the NVS-03 navigation satellite from the Satish Dhawan Space Centre in Sriharikota on October 30, 2026, restoring NavIC to a four-satellite, standalone operational status and advancing India’s…",
           "published": "2026-10-31T10:29:18+00:00",
+          "regional": true
+        },
+        {
+          "title": "Launch of NVS-03: PM Modi congratulates scientists, engineers at ISRO",
+          "link": "https://www.thehindu.com/sci-tech/science/pm-modi-congratulates-isro-scientists-on-gslv-f18-launch-of-nvs-03/article71648465.ece",
+          "source": "The Hindu",
+          "summary": "Mr. Modi also said that equipped with enhanced capabilities, NVS-03 will further India’s pursuit of self-reliance in critical technologies and support navigation services that benefit the people",
+          "published": "2026-10-31T07:22:55+00:00",
           "regional": true
         },
         {
@@ -736,22 +744,6 @@
           "summary": "The mission could help restore the functioning of India’s regional satellite navigation system NavIC; its development began following the 1999 Kargil War, when the U.S reportedly clamped down on GPS data access",
           "published": "2026-10-31T02:49:09+00:00",
           "regional": true
-        },
-        {
-          "title": "GSLV places next-generation navigation satellite NVS-03 into orbit",
-          "link": "https://www.thehindu.com/sci-tech/science/nvs-03-satellite-launch-successful-isro/article71646807.ece",
-          "source": "The Hindu",
-          "summary": "The NVS-03, with a mission life of 12 years, is expected to restore the functioning of the NavIC constellation; satellite carries an indigenous atomic clock, along with procured atomic clocks",
-          "published": "2026-10-31T02:39:54+00:00",
-          "regional": true
-        },
-        {
-          "title": "Countdown progressing for ISRO’s crucial GSLV-F18 launch carrying navigation satellite NVS-03",
-          "link": "https://www.thehindu.com/sci-tech/science/isros-crucial-gslv-f18-launch-carrying-navigation-satellite-nvs-03/article71643519.ece",
-          "source": "The Hindu",
-          "summary": "The Geosynchronous Satellite Launch Vehicle carrying on board the GSLV-F18 rocket is scheduled to lift off at 11.51 p.m. on Friday (October 30, 2026) from the second launch pad at the Satish Dhawan Space Centre",
-          "published": "2026-10-30T03:48:05+00:00",
-          "regional": true
         }
       ]
     },
@@ -762,11 +754,35 @@
       "accent": "#B98CE0",
       "items": [
         {
-          "title": "A nuclear blast could save Earth from an asteroid, but there's a catch",
-          "link": "https://www.sciencedaily.com/releases/2026/11/261106174532.htm",
+          "title": "Toby Jones stars in film about UK Mars mission",
+          "link": "https://www.bbc.co.uk/news/articles/cqm2l304w0x9o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Mackenzie Crook directs the story of the British professor whose probe lost contact upon touchdown.",
+          "published": "2026-11-11T14:10:11+00:00",
+          "regional": false
+        },
+        {
+          "title": "A radical theory says the universe is twice as old as we thought",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261108233040.htm",
           "source": "ScienceDaily",
-          "summary": "A nuclear explosion might save Earth from a deadly asteroid, but new research suggests that hitting the wrong side could make the difference between success and disaster.",
-          "published": "2026-11-08T10:11:25+00:00",
+          "summary": "A provocative new cosmological model suggests the Universe could be 26.7 billion years old and might not need dark matter or dark energy to explain its behavior.",
+          "published": "2026-11-11T06:46:30+00:00",
+          "regional": false
+        },
+        {
+          "title": "Astronomers discover hidden alien planet in James Webb images",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261108233028.htm",
+          "source": "ScienceDaily",
+          "summary": "A breakthrough in telescope imaging could reveal countless alien worlds that have been hiding in plain sight. Scientists developed a new technique that uses a digital twin of the James Webb Space Telescope to remove the…",
+          "published": "2026-11-10T23:56:04+00:00",
+          "regional": false
+        },
+        {
+          "title": "A mysterious 93-billion-mile cosmic structure may be the wreckage of colliding worlds",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261105224555.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA's Hubble Space Telescope has revealed surprising new details about a mysterious, 93-billion-mile-long cloud of dark, fluffy dust that may have formed when massive planetary bodies collided.",
+          "published": "2026-11-10T12:30:09+00:00",
           "regional": false
         },
         {
@@ -775,14 +791,6 @@
           "source": "ScienceDaily",
           "summary": "The Vera C. Rubin Observatory has already uncovered two previously unknown companions of the Milky Way using preliminary observations covering just 7% of the night sky.",
           "published": "2026-11-07T09:12:43+00:00",
-          "regional": false
-        },
-        {
-          "title": "One of the year's most prolific meteor showers visible in the night sky throughout November",
-          "link": "https://www.bbc.co.uk/weather/articles/cmlykqq7zg9zo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "The Leonid meteor shower, known for its bright and fast meteors continues through November.",
-          "published": "2026-11-07T02:03:28+00:00",
           "regional": false
         },
         {
@@ -799,14 +807,6 @@
           "source": "Scientific American",
           "summary": "Archived observations appear to show a moving object in the far-distant outer solar system, but its reality is unclear",
           "published": "2026-11-06T11:45:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Don't miss: Meteor showers, fireballs, and a supermoon light up November's night sky",
-          "link": "https://www.sciencedaily.com/releases/2026/11/261105224547.htm",
-          "source": "ScienceDaily",
-          "summary": "November's night sky is packed with celestial wonders, from bright meteor fireballs and a close pairing of Mars and Jupiter to a spectacular supermoon.",
-          "published": "2026-11-06T08:21:08+00:00",
           "regional": false
         },
         {
@@ -871,14 +871,6 @@
           "source": "ScienceDaily",
           "summary": "A mysterious particle overlooked for decades may hold the key to why matter survived the Big Bang, allowing stars, planets, and life to exist.",
           "published": "2026-11-01T04:33:36+00:00",
-          "regional": false
-        },
-        {
-          "title": "Boo! See the universe’s spookiest sights in time for Halloween",
-          "link": "https://www.scientificamerican.com/article/boo-see-the-universes-spookiest-sights-in-time-for-halloween/",
-          "source": "Scientific American",
-          "summary": "From ghosts to skeletons and even spiders, the cosmos is full of scary surprises",
-          "published": "2026-10-31T10:00:00+00:00",
           "regional": false
         },
         {
