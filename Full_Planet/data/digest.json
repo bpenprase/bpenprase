@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-11T16:46:09.353514+00:00",
-  "generated_human": "11 November 2026, 16:46 UTC",
-  "total_items": 116,
+  "generated": "2026-11-12T17:13:58.638448+00:00",
+  "generated_human": "12 November 2026, 17:13 UTC",
+  "total_items": 118,
   "channels": [
     {
       "key": "ai",
@@ -10,19 +10,19 @@
       "accent": "#5AA9E6",
       "items": [
         {
+          "title": "AI is disrupting math. Is science next?",
+          "link": "https://www.scientificamerican.com/article/ai-is-disrupting-math-is-science-next/",
+          "source": "Scientific American",
+          "summary": "Mathematicians will remember 2026 as the year AI changed everything about their field. Scientists may be next in line for disruption",
+          "published": "2026-11-12T16:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "Innovating with AI in the special chemicals industry",
           "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
           "source": "MIT Technology Review",
           "summary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the…",
           "published": "2026-11-09T13:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "New Research Tests Whether AI Models Know Their Own Thoughts",
-          "link": "https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104/",
-          "source": "Quanta Magazine",
-          "summary": "By injecting “thoughts” directly into large language models, researchers are trying to map out AI’s capacity for introspection.",
-          "published": "2026-11-04T15:32:52+00:00",
           "regional": false
         },
         {
@@ -55,14 +55,6 @@
           "source": "IEEE Spectrum",
           "summary": "IEEE recently released the IEEE Xplore AI Research Suite , built on the full text of millions of peer-reviewed publications in the IEEE Xplore Digital Library .",
           "published": "2026-10-26T18:00:03+00:00",
-          "regional": false
-        },
-        {
-          "title": "People are taking an unapproved weight-loss drug. AI found something surprising",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261020085018.htm",
-          "source": "ScienceDaily",
-          "summary": "Researchers analyzing nearly 150,000 Reddit posts uncovered unexpected symptom reports linked by users to unapproved versions of retatrutide, including increased appetite, sleep disturbances, and elevated heart rates.",
-          "published": "2026-10-22T02:37:01+00:00",
           "regional": false
         },
         {
@@ -153,6 +145,22 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "Significant drop in levels of toxic 'forever' chemicals in England's rivers",
+          "link": "https://www.bbc.co.uk/news/articles/cmze75r55g3jo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "The decline has been put down to severe restrictions placed on the substances' use.",
+          "published": "2026-11-12T00:12:59+00:00",
+          "regional": false
+        },
+        {
+          "title": "Metal-rich deep-sea ‘nodules’ also harbor diverse ocean life",
+          "link": "https://www.scientificamerican.com/article/metal-rich-deep-sea-nodules-also-harbor-diverse-ocean-life/",
+          "source": "Scientific American",
+          "summary": "The finding, researchers say, should factor into plans to mine the seafloor for the metal-rich nodules",
+          "published": "2026-11-11T20:30:00+00:00",
+          "regional": false
+        },
         {
           "title": "A quantum breakthrough makes light behave like both a solid and a liquid",
           "link": "https://www.sciencedaily.com/releases/2026/11/261105224536.htm",
@@ -250,6 +258,22 @@
           "regional": false
         },
         {
+          "title": "ISRO successfully carries out ground static test of PSLV third stage",
+          "link": "https://www.thehindu.com/sci-tech/science/isro-successfully-carries-out-ground-static-test-of-pslv-third-stage/article71694068.ece",
+          "source": "The Hindu",
+          "summary": "The configuration of the third stage was revisited comprehensively with respect to the design margins, raw material acceptance criteria, assembly procedures, and the quality checks that were followed so far",
+          "published": "2026-11-12T16:04:53+00:00",
+          "regional": true
+        },
+        {
+          "title": "US defense rules spur Korean investment in rare-earth magnets",
+          "link": "https://www.koreaherald.com/article/10935318",
+          "source": "The Korea Herald",
+          "summary": "Ahead of tougher US curbs on Chinese-sourced materials in defense equipment starting next year, South Korean firms are ramping up investments in rare-earth permanent magnets, seeking to capitalize on growing demand for…",
+          "published": "2026-11-12T06:17:19+00:00",
+          "regional": true
+        },
+        {
           "title": "Amid Nvidia saga, T-Head IPO a crucial test for Alibaba – and China’s AI ambitions",
           "link": "https://www.scmp.com/tech/big-tech/article/3374090/amid-nvidia-saga-t-head-ipo-crucial-test-alibaba-and-chinas-ai-ambitions",
           "source": "South China Morning Post",
@@ -266,19 +290,19 @@
           "regional": true
         },
         {
+          "title": "Joint patents signal deeper Samsung-Hyundai battery ties",
+          "link": "https://www.koreaherald.com/article/10933858",
+          "source": "The Korea Herald",
+          "summary": "Samsung and Hyundai Motor Group are expanding their battery partnership from supply deals to joint development, newly disclosed patents show, amid a recent push by the two conglomerates to step up cooperation across…",
+          "published": "2026-11-11T05:48:13+00:00",
+          "regional": true
+        },
+        {
           "title": "Crystalline supramolecular material created from low-molecular-weight compounds",
           "link": "https://sj.jst.go.jp/news/202611/n1111-02k.html",
           "source": "Science Japan",
           "summary": "In recent years, supramolecular materials composed solely of low-molecular-weight compounds have attracted attention as next-generation materials owing to their excellent degradability and recyclability.",
           "published": "2026-11-11T05:26:45+00:00",
-          "regional": true
-        },
-        {
-          "title": "Govt. to foster sensor, actuator, humanoid battery industries",
-          "link": "https://www.koreaherald.com/article/10933026",
-          "source": "The Korea Herald",
-          "summary": "South Korea will add the sensor, actuator and humanoid battery industries to its existing 15 flagship projects aimed at building an \"ultra-innovative economy,\" the finance ministry said Wednesday.",
-          "published": "2026-11-11T00:10:30+00:00",
           "regional": true
         },
         {
@@ -298,27 +322,11 @@
           "regional": true
         },
         {
-          "title": "How Posco fortifies Korea's energy, battery supply chains",
-          "link": "https://www.koreaherald.com/article/10932372",
-          "source": "The Korea Herald",
-          "summary": "GWANGYANG, Jeonnam-Gwangju — Just a few kilometers from Posco's sprawling steelworks, Gwangyang Bay and the neighboring Yulchon Industrial Complex are emerging as key hubs in South Korea's efforts to strengthen energy…",
-          "published": "2026-11-10T06:06:55+00:00",
-          "regional": true
-        },
-        {
-          "title": "Samsung SDI, LG Energy Solution secure BMW battery cell deals",
-          "link": "https://www.koreaherald.com/article/10932364",
-          "source": "The Korea Herald",
-          "summary": "South Korean battery-makers Samsung SDI and LG Energy Solution have signed deals to supply battery cells for BMW Group’s sixth-generation high-voltage batteries, the German luxury automaker said Tuesday.",
-          "published": "2026-11-10T06:03:54+00:00",
-          "regional": true
-        },
-        {
-          "title": "Samsung SDI's backup battery for AI data centers wins CES award",
-          "link": "https://www.koreaherald.com/article/10932079",
-          "source": "The Korea Herald",
-          "summary": "Samsung SDI has won a CES 2027 Innovation Award for a battery system designed to provide reliable backup power for AI data centers, where surging electricity demand is increasing the need for stable power supplies.",
-          "published": "2026-11-10T02:44:18+00:00",
+          "title": "Rare earths off Minamitorishima: Over half are precious elements, numerous issues remain for domestic production",
+          "link": "https://sj.jst.go.jp/stories/2026/s1110-01p.html",
+          "source": "Science Japan",
+          "summary": "Analysis of rare earth elements recovered from the deep seafloor off Minamitorishima, Japan's easternmost island, has confirmed that more than half of the material consists of medium-to-heavy rare earth elements, which…",
+          "published": "2026-11-10T03:02:01+00:00",
           "regional": true
         },
         {
@@ -338,11 +346,11 @@
       "accent": "#5FBF9B",
       "items": [
         {
-          "title": "Two teams map development of mammal embryos, cell by cell",
-          "link": "https://www.science.org/content/article/two-teams-map-development-mammal-embryos-cell-cell",
+          "title": "To deter bioterrorism, U.S. imposes new rules on ordering synthetic DNA",
+          "link": "https://www.science.org/content/article/deter-bioterrorism-u-s-imposes-new-rules-ordering-synthetic-dna",
           "source": "Science (AAAS)",
-          "summary": "Using genome editing to trace cell lineages, researchers capture the early history of the mouse embryo in unprecedented detail",
-          "published": "2026-10-08T02:00:00+00:00",
+          "summary": "New policy draws tempered praise from biosecurity experts",
+          "published": "2026-11-09T03:30:00+00:00",
           "regional": false
         },
         {
@@ -386,11 +394,27 @@
           "regional": false
         },
         {
-          "title": "Govt. to foster sensor, actuator, humanoid battery industries",
-          "link": "https://www.koreaherald.com/article/10933026",
+          "title": "India undergoing massive transformation in renewable energy: Earthshot Prize CEO",
+          "link": "https://www.thehindu.com/sci-tech/energy-and-environment/india-undergoing-massive-transformation-in-renewable-energy-earthshot-prize-ceo/article71694272.ece",
+          "source": "The Hindu",
+          "summary": "“There is a race on right now. The first country that can have access to cheap, clean and abundant energy, is going to have a huge economic advantage. And India knows that,” says Jason Knauf",
+          "published": "2026-11-12T16:39:28+00:00",
+          "regional": true
+        },
+        {
+          "title": "Germany slips in climate protection rankings as other countries make gains",
+          "link": "https://www.dw.com/en/germany-slips-in-climate-protection-rankings-as-other-countries-make-gains/a-79913635?maca=en-rss_en_environment-22607-xml-mrss",
+          "source": "Deutsche Welle",
+          "summary": "Record renewable energy growth is driving climate progress in some countries, but Germany and many major emitters are falling behind.",
+          "published": "2026-11-11T06:41:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "Joint patents signal deeper Samsung-Hyundai battery ties",
+          "link": "https://www.koreaherald.com/article/10933858",
           "source": "The Korea Herald",
-          "summary": "South Korea will add the sensor, actuator and humanoid battery industries to its existing 15 flagship projects aimed at building an \"ultra-innovative economy,\" the finance ministry said Wednesday.",
-          "published": "2026-11-11T00:10:30+00:00",
+          "summary": "Samsung and Hyundai Motor Group are expanding their battery partnership from supply deals to joint development, newly disclosed patents show, amid a recent push by the two conglomerates to step up cooperation across…",
+          "published": "2026-11-11T05:48:13+00:00",
           "regional": true
         },
         {
@@ -402,35 +426,11 @@
           "regional": true
         },
         {
-          "title": "How Posco fortifies Korea's energy, battery supply chains",
-          "link": "https://www.koreaherald.com/article/10932372",
-          "source": "The Korea Herald",
-          "summary": "GWANGYANG, Jeonnam-Gwangju — Just a few kilometers from Posco's sprawling steelworks, Gwangyang Bay and the neighboring Yulchon Industrial Complex are emerging as key hubs in South Korea's efforts to strengthen energy…",
-          "published": "2026-11-10T06:06:55+00:00",
-          "regional": true
-        },
-        {
-          "title": "Samsung SDI, LG Energy Solution secure BMW battery cell deals",
-          "link": "https://www.koreaherald.com/article/10932364",
-          "source": "The Korea Herald",
-          "summary": "South Korean battery-makers Samsung SDI and LG Energy Solution have signed deals to supply battery cells for BMW Group’s sixth-generation high-voltage batteries, the German luxury automaker said Tuesday.",
-          "published": "2026-11-10T06:03:54+00:00",
-          "regional": true
-        },
-        {
-          "title": "World's 1st hydrogen engine for large ships cuts CO 2 emissions by 95%",
-          "link": "https://sj.jst.go.jp/news/202611/n1110-01n.html",
-          "source": "Science Japan",
-          "summary": "A Japanese marine engine manufacturer has developed what it says is the world's first hydrogen-fueled engine for large commercial vessels, capable of cutting carbon dioxide emissions by more than 95 percent compared…",
-          "published": "2026-11-10T03:00:48+00:00",
-          "regional": true
-        },
-        {
-          "title": "Samsung SDI's backup battery for AI data centers wins CES award",
-          "link": "https://www.koreaherald.com/article/10932079",
-          "source": "The Korea Herald",
-          "summary": "Samsung SDI has won a CES 2027 Innovation Award for a battery system designed to provide reliable backup power for AI data centers, where surging electricity demand is increasing the need for stable power supplies.",
-          "published": "2026-11-10T02:44:18+00:00",
+          "title": "Why electrification is the climate game changer we need",
+          "link": "https://www.dw.com/en/why-electrification-is-the-climate-game-changer-we-need/a-79615979?maca=en-rss_en_environment-22607-xml-mrss",
+          "source": "Deutsche Welle",
+          "summary": "From EVs and electric buses on the road, heat pumps warming homes and solar panels powering appliances, the shift to electrifying tech is already in full swing. But what exactly does \"electrification\" mean?",
+          "published": "2026-11-10T08:00:00+00:00",
           "regional": true
         },
         {
@@ -458,6 +458,14 @@
           "regional": true
         },
         {
+          "title": "First detection of heavy methanol in space",
+          "link": "https://www.mpg.de/26834976/first-detection-of-heavy-methanol-in-space",
+          "source": "Max Planck Society",
+          "summary": "Methanol containing heavy hydrogen is considered the building block of complex organic molecules and allows us to trace how stars and planets form from extremely cold interstellar gas and dust",
+          "published": "2026-10-06T22:00:00+00:00",
+          "regional": true
+        },
+        {
           "title": "Climate leaders called for solar energy for 'everyone, everywhere' by 2030, but with three years to go, is that goal attainable?",
           "link": "https://www.dw.com/en/climate-leaders-called-for-solar-energy-for-everyone-everywhere-by-2030-but-with-three-years-to-go-is-that-goal-attainable/a-79517056?maca=en-rss_en_environment-22607-xml-mrss",
           "source": "Deutsche Welle",
@@ -473,6 +481,30 @@
       "tagline": "New missions, spacecraft, and technologies — NASA, ESA, ISRO, JAXA, SpaceX, CNES, and more.",
       "accent": "#F0894E",
       "items": [
+        {
+          "title": "NASA’s Hubble Offers Cosmic Sampler of Targets for Roman",
+          "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/",
+          "source": "NASA",
+          "summary": "A gallery of gravitational lenses captured by NASA’s Hubble Space Telescope showcases the diversity of this cosmic phenomenon and lays the groundwork for follow-up observations by the Nancy Grace Roman Space Telescope.",
+          "published": "2026-11-12T13:18:40+00:00",
+          "regional": false
+        },
+        {
+          "title": "Through NASA’s Lens: Capturing Space Shuttle Endeavour’s Move to LA",
+          "link": "https://www.nasa.gov/centers-and-facilities/armstrong/through-nasas-lens-capturing-space-shuttle-endeavours-move-to-la/",
+          "source": "NASA",
+          "summary": "As a new exhibit opens showcasing NASA’s space shuttle Endeavour, NASA photographers look back at the final mission. These photographers documented the iconic images shared around the world on Sept.",
+          "published": "2026-11-12T13:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "APOD: 2026 November 12 – Moon, Venus and Spica Meet",
+          "link": "https://science.nasa.gov/image-article/apod-2026-november-12-moon-venus-and-spica-meet/",
+          "source": "NASA",
+          "summary": "APOD Science APOD APOD: 2026 November 12 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos!",
+          "published": "2026-11-12T05:05:00+00:00",
+          "regional": false
+        },
         {
           "title": "Toby Jones stars in film about UK Mars mission",
           "link": "https://www.bbc.co.uk/news/articles/cqm2l304w0x9o?at_medium=RSS&at_campaign=rss",
@@ -495,14 +527,6 @@
           "source": "NASA",
           "summary": "NASA will welcome home the Expedition 74 crew during a public event at Space Center Houston following their return from a long-duration mission aboard the International Space Station.",
           "published": "2026-11-10T18:06:33+00:00",
-          "regional": false
-        },
-        {
-          "title": "CHAPEA Crew Leaves a Mark",
-          "link": "https://www.nasa.gov/image-article/chapea-crew-leaves-a-mark/",
-          "source": "NASA",
-          "summary": "The Crew Health and Performance Exploration Analog (CHAPEA) Mission 2 crew arranged photos around a boot print in the simulated Martian sand outside their habitat on Aug. 31, 2026.",
-          "published": "2026-11-10T14:57:55+00:00",
           "regional": false
         },
         {
@@ -618,14 +642,6 @@
           "regional": false
         },
         {
-          "title": "ESA Council appoints two new directors",
-          "link": "https://www.esa.int/articles/business/business-with-esa/esa-council-appoints-two-new-directors",
-          "source": "ESA",
-          "summary": "The European Space Agency Council has approved the appointment of two new directors: Christine Klein as Director of Controlling, Finance and Operational Procurement, and Jean-Luc Trullemans as Director of Strategy,…",
-          "published": "2026-10-31T00:33:36+00:00",
-          "regional": false
-        },
-        {
           "title": "Watch the total solar eclipse with ESA in León",
           "link": "https://www.esa.int/articles/about-us/directorates/science/watch-the-total-solar-eclipse-with-esa-in-leon",
           "source": "ESA",
@@ -658,12 +674,20 @@
           "regional": false
         },
         {
-          "title": "NASA’s Curiosity rover reveals a spectacular new view of Mars with a mystery on the horizon",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261021231238.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA’s Curiosity rover has revealed a spectacular new view of mysterious, wind-carved cliffs on Mars that may hold evidence of ancient volcanic activity.",
-          "published": "2026-10-22T11:03:49+00:00",
-          "regional": false
+          "title": "ISRO successfully carries out ground static test of PSLV third stage",
+          "link": "https://www.thehindu.com/sci-tech/science/isro-successfully-carries-out-ground-static-test-of-pslv-third-stage/article71694068.ece",
+          "source": "The Hindu",
+          "summary": "The configuration of the third stage was revisited comprehensively with respect to the design margins, raw material acceptance criteria, assembly procedures, and the quality checks that were followed so far",
+          "published": "2026-11-12T16:04:53+00:00",
+          "regional": true
+        },
+        {
+          "title": "Rockstar Games joins Douyin ahead of GTA 6 launch",
+          "link": "https://technode.com/2026/11/12/rockstar-games-joins-douyin-ahead-of-gta-6-launch/",
+          "source": "TechNode",
+          "summary": "Rockstar Games has opened a verified account on Douyin, ByteDance’s Chinese short-video platform, GamerSky reported Thursday.",
+          "published": "2026-11-12T07:10:15+00:00",
+          "regional": true
         },
         {
           "title": "ISRO’s latest navigation satellite NVS-03 is fully healthy, says Chairman V. Narayanan",
@@ -698,6 +722,14 @@
           "regional": true
         },
         {
+          "title": "Daily Quiz: On the early Space Race",
+          "link": "https://www.thehindu.com/sci-tech/science/daily-quiz-on-most-significant-and-poignant-episodes-of-the-early-space-race/article71659219.ece",
+          "source": "The Hindu",
+          "summary": "From the launch of Sputnik 2 to Laika’s historic journey, test your knowledge of one of the most significant and poignant episodes of the early Space Race",
+          "published": "2026-11-03T10:58:21+00:00",
+          "regional": true
+        },
+        {
           "title": "Explained | What is the Gaia space mission and what has it revealed about the Milky Way?",
           "link": "https://www.thehindu.com/sci-tech/science/explained-what-is-the-gaia-space-mission-and-what-has-it-revealed-about-the-milky-way/article65527518.ece",
           "source": "The Hindu",
@@ -714,35 +746,11 @@
           "regional": true
         },
         {
-          "title": "ISRO NVS-03 launch: 5 things to know about India’s new navigation satellite",
-          "link": "https://www.thehindu.com/sci-tech/science/isro-nvs-03-launch-navic-constellation-5-things-to-know-about-india-next-generation-satellite/article71648294.ece",
-          "source": "The Hindu",
-          "summary": "ISRO successfully launched the NVS-03 navigation satellite from the Satish Dhawan Space Centre in Sriharikota on October 30, 2026, restoring NavIC to a four-satellite, standalone operational status and advancing India’s…",
-          "published": "2026-10-31T10:29:18+00:00",
-          "regional": true
-        },
-        {
-          "title": "Launch of NVS-03: PM Modi congratulates scientists, engineers at ISRO",
-          "link": "https://www.thehindu.com/sci-tech/science/pm-modi-congratulates-isro-scientists-on-gslv-f18-launch-of-nvs-03/article71648465.ece",
-          "source": "The Hindu",
-          "summary": "Mr. Modi also said that equipped with enhanced capabilities, NVS-03 will further India’s pursuit of self-reliance in critical technologies and support navigation services that benefit the people",
-          "published": "2026-10-31T07:22:55+00:00",
-          "regional": true
-        },
-        {
-          "title": "To overcome technical hurdles, ISRO flew NVS-03 satellite with pyro valves open: Narayanan",
-          "link": "https://www.thehindu.com/sci-tech/science/to-overcome-technical-hurdles-isro-flew-nvs-03-satellite-with-pyro-valves-open-narayanan/article71648408.ece",
-          "source": "The Hindu",
-          "summary": "Pyro valves are crucial in spacecraft propulsion, and it may be recalled that the NVS-02 (launched in 2025), the second spacecraft in the NVS series, was a failure",
-          "published": "2026-10-31T06:26:57+00:00",
-          "regional": true
-        },
-        {
-          "title": "Why is ISRO’s NVS-03 satellite launch crucial? | Explained",
-          "link": "https://www.thehindu.com/sci-tech/science/why-is-isros-nvs-03-satellite-launch-crucial-explained/article71643798.ece",
-          "source": "The Hindu",
-          "summary": "The mission could help restore the functioning of India’s regional satellite navigation system NavIC; its development began following the 1999 Kargil War, when the U.S reportedly clamped down on GPS data access",
-          "published": "2026-10-31T02:49:09+00:00",
+          "title": "Searching the Milky Way for bits of Mars",
+          "link": "https://news.cnrs.fr/articles/searching-the-milky-way-for-bits-of-mars",
+          "source": "CNRS News",
+          "summary": "The MMX mission successfully launched on 19 October, heading for Phobos, one of Mars's moons. The aim is to deploy the Idefix mini-rover on the surface, and for the very first time return samples from the Mars system to…",
+          "published": "2026-10-28T11:14:04+00:00",
           "regional": true
         }
       ]
@@ -753,6 +761,30 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "This asteroid was born at the dawn of the solar system",
+          "link": "https://www.scientificamerican.com/article/this-asteroid-was-born-at-the-dawn-of-the-solar-system/",
+          "source": "Scientific American",
+          "summary": "Ryugu might have formed in the very first generation of planetary building blocks",
+          "published": "2026-11-12T11:45:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "A massive new simulation reveals how the universe emerged from darkness",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261110042534.htm",
+          "source": "ScienceDaily",
+          "summary": "A groundbreaking new supercomputer simulation is revealing how the universe escaped its cosmic dark age and transformed into a cosmos filled with stars and galaxies.",
+          "published": "2026-11-12T04:07:24+00:00",
+          "regional": false
+        },
+        {
+          "title": "Newfound invisible object in space could be a rare supermassive neutron star",
+          "link": "https://www.scientificamerican.com/article/newfound-invisible-object-in-space-could-be-a-rare-supermassive-neutron-star/",
+          "source": "Scientific American",
+          "summary": "Astronomers saw something strange in a distant star system—or rather what’s strange is what they didn’t see. Solving the mystery could reveal new astrophysics",
+          "published": "2026-11-11T19:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "Toby Jones stars in film about UK Mars mission",
           "link": "https://www.bbc.co.uk/news/articles/cqm2l304w0x9o?at_medium=RSS&at_campaign=rss",
@@ -898,27 +930,11 @@
           "regional": false
         },
         {
-          "title": "Dead star and planetary bodies: astronomers spot unique disc of debris that foretells Solar System’s future",
-          "link": "https://www.eso.org/public/news/eso2613/",
-          "source": "ESO",
-          "summary": "Astronomers using the European Southern Observatory’s Very Large Telescope (ESO’s VLT) have found a rare disc of debris around a dead star that provides a glimpse of what may happen to our Solar System.",
-          "published": "2026-10-27T13:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "James Webb discovers a scorching lava planet with a “giant sunscreen”",
           "link": "https://www.sciencedaily.com/releases/2026/10/261026225603.htm",
           "source": "ScienceDaily",
           "summary": "A scorching lava planet 280 light-years away has surprised astronomers by apparently maintaining a thick atmosphere despite conditions that should have stripped it away billions of years ago.",
           "published": "2026-10-27T10:20:52+00:00",
-          "regional": false
-        },
-        {
-          "title": "Smithsonian scientists just recreated the first 2 billion years of the Universe",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261026225600.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have created one of the largest and most detailed simulations of the early universe ever made, offering an extraordinary new glimpse into the cosmos shortly after the Big Bang.",
-          "published": "2026-10-27T09:48:35+00:00",
           "regional": false
         },
         {
@@ -930,14 +946,6 @@
           "regional": false
         },
         {
-          "title": "Astronomers uncover a mysterious magnetic web above the Sun",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261023023723.htm",
-          "source": "ScienceDaily",
-          "summary": "The Sun’s seemingly peaceful regions are hiding a surprisingly complex magnetic world. Using a balloon-borne telescope high above Earth, scientists discovered delicate, thread-like magnetic structures woven through the…",
-          "published": "2026-10-24T12:23:38+00:00",
-          "regional": false
-        },
-        {
           "title": "Nearly 3,000 exploding stars challenge our understanding of the Universe",
           "link": "https://www.sciencedaily.com/releases/2026/10/261021231244.htm",
           "source": "ScienceDaily",
@@ -946,19 +954,27 @@
           "regional": false
         },
         {
+          "title": "Best-Ever 3D Map of the Universe to date",
+          "link": "https://www.mpg.de/27073683/euclid-lays-the-foundation-for-its-best-ever-3d-map-of-the-universe",
+          "source": "Max Planck Society",
+          "summary": "Germany’s role in unveiling the dark Universe with the Euclid Space Telescope",
+          "published": "2026-11-12T11:00:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "Gravitational-wave astronomy is entering its statistical era",
+          "link": "https://www.thehindu.com/sci-tech/science/gravitational-wave-astronomy-is-entering-its-statistical-era/article71681068.ece",
+          "source": "The Hindu",
+          "summary": "Humankind has a stake in understanding the universe simply, but no less importantly, because it can. And gravitational waves have emerged as a way for us to piece together the processes that shaped the cosmos long…",
+          "published": "2026-11-08T15:06:35+00:00",
+          "regional": true
+        },
+        {
           "title": "The Milky Way grew by devouring galaxies, leaving a trail of ghost stars",
           "link": "https://www.thehindu.com/sci-tech/science/the-milky-way-grew-by-devouring-galaxies-leaving-a-trail-of-ghost-stars/article71652934.ece",
           "source": "The Hindu",
           "summary": "Galactic archaeologists are using precise measures and larger sample sizes afforded by new missions to tease apart minute differences between groups of stars, revealing the history of the Milky Way going back almost 12…",
           "published": "2026-11-06T04:40:39+00:00",
-          "regional": true
-        },
-        {
-          "title": "Is this a lion as well? Its appearance fits perfectly, but... Planetary nebula NGC 2392",
-          "link": "https://sj.jst.go.jp/news/202611/n1102-01p.html",
-          "source": "Science Japan",
-          "summary": "An image of planetary nebula \"NGC 2392\" was newly released by National Aeronautics and Space Administration (NASA) and other organizations.",
-          "published": "2026-11-02T00:58:55+00:00",
           "regional": true
         },
         {
