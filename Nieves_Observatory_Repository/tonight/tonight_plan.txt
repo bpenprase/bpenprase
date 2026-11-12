@@ -1,18 +1,10 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-11-10 15:56 PST
-; Observing window starts 2026-11-10 18:18 PST  (LST 21:48:03)
+; Generated 2026-11-11 17:24 PST
+; Observing window starts 2026-11-11 18:18 PST  (LST 21:52:00)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
 #TRACKON
-
-; Open Cluster  mag 5.8  size 9.00'  Amas de l'Ecu de Sobieski,Wild Duck Cluster
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 11
 
 ; Open Cluster  mag 7.3  size 6.90'  Foxhead Cluster
 #posang 0
@@ -127,22 +119,6 @@ Neptune
 #filter r'
 Saturn
 #WAITINLIMITS 60
-
-; Galaxy  mag 8.2  size 16.22'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 110
-
-; Galaxy  mag 8.1  size 7.74'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 32
 
 ; Galaxy  mag 3.4  size 177.83'  Andromeda Galaxy
 #posang 0
@@ -297,14 +273,6 @@ NGC 2362
 #filter r',g',i',z'
 M 47
 
-; Galaxy  mag 8.4  size 19.95'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 2403
-
 ; Galaxy  mag 11.7  size 2.07'  Bear Claw Nebula,Bear-Paw Galaxy
 #posang 0
 #count 1,1,1,1
@@ -427,6 +395,22 @@ M 87
 #filter r',g',i',z'
 NGC 4565
 
+; Galaxy  mag 11.3  size 2.74'  Butterfly Galaxies,Siamese Twins
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 4567
+
+; Galaxy  mag 10.8  size 4.31'  Butterfly Galaxies,Siamese Twins
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 4568
+
 ; Galaxy  mag 9.2  size 14.45'  Whale Galaxy
 #posang 0
 #count 1,1,1,1
@@ -443,13 +427,13 @@ NGC 4631
 #filter r',g',i',z'
 NGC 4651
 
-; Galaxy  mag 8.2  size 7.74'
+; Galaxy  mag 8.5  size 10.52'  Black Eye Galaxy,Evil Eye Galaxy
 #posang 0
 #count 1,1,1,1
 #interval 600,600,600,600
 #binning 1,1,1,1
 #filter r',g',i',z'
-M 94
+M 64
 
 ; Galaxy  mag 8.6  size 11.83'  Sunflower Galaxy
 #posang 0
@@ -467,6 +451,14 @@ M 63
 #filter r',g',i',z'
 M 51
 
+; Galaxy  mag 7.9  size 23.99'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 101
+
 ; Open Cluster  mag 4.6  size 24.00'
 #posang 0
 #count 1,1,1,1
@@ -474,6 +466,14 @@ M 51
 #binning 1,1,1,1
 #filter r',g',i',z'
 IC 4756
+
+; Open Cluster  mag 5.8  size 9.00'  Amas de l'Ecu de Sobieski,Wild Duck Cluster
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 11
 
 ; Asteroid Vesta (ACP resolves position; WAITINLIMITS guards)
 #posang 0
