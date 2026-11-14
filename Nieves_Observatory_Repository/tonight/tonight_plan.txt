@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-11-12 16:00 PST
-; Observing window starts 2026-11-12 18:16 PST  (LST 21:53:56)
+; Generated 2026-11-13 16:15 PST
+; Observing window starts 2026-11-13 18:16 PST  (LST 21:57:53)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -354,6 +354,14 @@ IC 2574
 #binning 1,1
 #filter r',g'
 2026sqf	10:38:47.961	+53:30:34.10
+
+; Supernova 2026ahvi in NGC 4189  Type Ia  mag 12.5  z=0.006997
+#posang 0
+#count 3,3
+#interval 300,300
+#binning 1,1
+#filter r',g'
+2026ahvi	12:13:50.410	+13:25:28.10
 
 ; Galaxy  mag 9.8  size 5.04'  Coma Pinwheel,Virgo Cluster Pinwheel
 #posang 0
