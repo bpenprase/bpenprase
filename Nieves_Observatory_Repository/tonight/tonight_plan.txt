@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-11-13 16:15 PST
-; Observing window starts 2026-11-13 18:16 PST  (LST 21:57:53)
+; Generated 2026-11-14 14:54 PST
+; Observing window starts 2026-11-14 18:16 PST  (LST 22:01:49)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -297,15 +297,6 @@ M 44
 #filter r',g',i',z'
 NGC 2685
 
-; Planet: Mars
-#posang 0
-#count 10
-#interval 30
-#binning 1
-#filter r'
-Mars
-#WAITINLIMITS 60
-
 ; Planet: Jupiter
 #posang 0
 #count 10
@@ -313,6 +304,15 @@ Mars
 #binning 1
 #filter r'
 Jupiter
+#WAITINLIMITS 60
+
+; Planet: Mars
+#posang 0
+#count 10
+#interval 30
+#binning 1
+#filter r'
+Mars
 #WAITINLIMITS 60
 
 ; Galaxy  mag 6.9  size 21.63'  Bode's Galaxy
@@ -467,6 +467,14 @@ M 51
 #filter r',g',i',z'
 M 101
 
+; Open Cluster  mag 4.6  size 12.00'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 6633
+
 ; Open Cluster  mag 4.6  size 24.00'
 #posang 0
 #count 1,1,1,1
@@ -474,14 +482,6 @@ M 101
 #binning 1,1,1,1
 #filter r',g',i',z'
 IC 4756
-
-; Open Cluster  mag 5.8  size 9.00'  Amas de l'Ecu de Sobieski,Wild Duck Cluster
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 11
 
 ; Asteroid Vesta (ACP resolves position; WAITINLIMITS guards)
 #posang 0
