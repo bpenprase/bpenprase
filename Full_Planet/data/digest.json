@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-14T15:25:51.250572+00:00",
-  "generated_human": "14 November 2026, 15:25 UTC",
-  "total_items": 118,
+  "generated": "2026-11-15T15:58:47.145730+00:00",
+  "generated_human": "15 November 2026, 15:58 UTC",
+  "total_items": 117,
   "channels": [
     {
       "key": "ai",
@@ -74,6 +74,14 @@
           "regional": false
         },
         {
+          "title": "Hyundai Home Shopping to debut fully AI-generated sales show",
+          "link": "https://www.koreaherald.com/article/10937399",
+          "source": "The Korea Herald",
+          "summary": "Hyundai Home Shopping said Sunday it will air its first regularly scheduled sales program made entirely with artificial intelligence, in what the retailer calls a home shopping industry first.",
+          "published": "2026-11-15T02:22:55+00:00",
+          "regional": true
+        },
+        {
           "title": "Will Jensen Huang’s downfall tip the scales against open-source AI?",
           "link": "https://www.scmp.com/tech/big-tech/article/3374376/will-jensen-huangs-downfall-tip-scales-against-open-source-ai",
           "source": "South China Morning Post",
@@ -144,14 +152,6 @@
           "summary": "Chinese tech giant Tencent Holdings has rolled out its latest flagship artificial intelligence model, Hy4, seeking to challenge top open-weight rivals with enhanced agentic capabilities built to power its enterprise…",
           "published": "2026-11-04T07:01:09+00:00",
           "regional": true
-        },
-        {
-          "title": "Why Chinese AI stars like Z.ai, MiniMax struggle to match Anthropic’s profit margin",
-          "link": "https://www.scmp.com/tech/big-tech/article/3373124/why-chinese-ai-stars-zai-minimax-struggle-match-anthropics-profit-margin",
-          "source": "South China Morning Post",
-          "summary": "US artificial intelligence giant Anthropic’s initial public offering prospectus has exposed a vast profitability gap between it and rivals Z.ai and MiniMax, highlighting the challenges facing China’s AI model developers…",
-          "published": "2026-11-03T12:30:13+00:00",
-          "regional": true
         }
       ]
     },
@@ -161,6 +161,14 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "Physicists use laser light to unlock a crystal's hidden electrical powers",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261112230500.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have discovered how to use flashes of laser light to organize tiny electrical regions inside a crystal, solving a decades-old mystery about how the material behaves.",
+          "published": "2026-11-15T02:18:16+00:00",
+          "regional": false
+        },
         {
           "title": "Scientists discover a surprisingly simple way to turn coffee waste into fuel",
           "link": "https://www.sciencedaily.com/releases/2026/11/261112025544.htm",
@@ -274,14 +282,6 @@
           "regional": false
         },
         {
-          "title": "Scientists discover a hidden flaw that challenges 40 years of superconductor science",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261023023731.htm",
-          "source": "ScienceDaily",
-          "summary": "A superconducting material studied for 40 years has turned out to be far more complex than scientists believed. Advanced 3D imaging revealed a hidden patchwork of crystal structures, with unusually wide boundaries that…",
-          "published": "2026-10-25T02:19:07+00:00",
-          "regional": false
-        },
-        {
           "title": "NPS' US stock holdings gain as tech giants outperform",
           "link": "https://www.koreaherald.com/article/10936767",
           "source": "The Korea Herald",
@@ -368,16 +368,7 @@
       "name": "Synthetic Biology",
       "tagline": "Engineered organisms and programmed DNA — cells built for computing, data storage, and chemical synthesis.",
       "accent": "#5FBF9B",
-      "items": [
-        {
-          "title": "Gene therapy offers to beat hepatitis B virus by muting its DNA",
-          "link": "https://www.thehindu.com/sci-tech/science/gene-therapy-offers-to-beat-hepatitis-b-virus-by-muting-its-dna/article71635399.ece",
-          "source": "The Hindu",
-          "summary": "An experimental therapy called CRMA-1001 is a remarkable development because, instead of targeting the virus directly, it silences the viral DNA; this is promising because current treatments rarely eliminate the DNA,…",
-          "published": "2026-11-01T05:32:39+00:00",
-          "regional": true
-        }
-      ]
+      "items": []
     },
     {
       "key": "energywater",
@@ -402,12 +393,12 @@
           "regional": false
         },
         {
-          "title": "Scientists turn seawater into fresh water without harmful brine",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260915100137.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have developed a solar-powered desalination system that turns seawater into fresh water while removing nearly all of the leftover salt as a solid instead of producing harmful brine.",
-          "published": "2026-09-16T14:44:50+00:00",
-          "regional": false
+          "title": "Super El Niño could leave South Africa short of grazing. Timing of livestock fodder crops is crucial",
+          "link": "https://theconversation.com/super-el-nino-could-leave-south-africa-short-of-grazing-timing-of-livestock-fodder-crops-is-crucial-294630",
+          "source": "The Conversation",
+          "summary": "Timing matters: planting fodder radish in the right months can help South African farmers grow more nutritious livestock feed even without irrigation.",
+          "published": "2026-11-15T09:21:31+00:00",
+          "regional": true
         },
         {
           "title": "India undergoing massive transformation in renewable energy: Earthshot Prize CEO",
@@ -490,11 +481,27 @@
       "accent": "#F0894E",
       "items": [
         {
-          "title": "Second catch attempt for SpaceX Starship rocket",
+          "title": "SpaceX catches part of its Starship rocket on return to Earth",
+          "link": "https://www.bbc.co.uk/news/videos/cw23j8pkk421o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "SpaceX has performed the historic catch using mechanical arms nicknamed \"chopsticks\".",
+          "published": "2026-11-14T23:15:10+00:00",
+          "regional": false
+        },
+        {
+          "title": "SpaceX successfully catches top of huge Starship rocket for first time",
           "link": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
-          "summary": "The attempt follows an unsuccessful effort to catch of the rocket’s booster which instead came down in the ocean.",
-          "published": "2026-11-14T14:18:41+00:00",
+          "summary": "The rocket stage was caught mid air using huge mechanical arms nicknamed \"chopsticks\".",
+          "published": "2026-11-14T22:15:52+00:00",
+          "regional": false
+        },
+        {
+          "title": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
+          "link": "https://www.bbc.co.uk/news/videos/cwlym2gy3y3eo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "SpaceX has performed the historic catch using mechanical arms nicknamed \"chopsticks\".",
+          "published": "2026-11-14T22:09:40+00:00",
           "regional": false
         },
         {
@@ -517,7 +524,7 @@
           "title": "Can SpaceX catch its Starship?",
           "link": "https://www.scientificamerican.com/article/can-spacex-catch-its-starship/",
           "source": "Scientific American",
-          "summary": "The 15th spaceflight of SpaceX’s giant launch vehicle aimed for something unprecedented: snatching both rocket stages from midair after a journey to orbit. So far, it’s proved only partially successful.",
+          "summary": "The 15th spaceflight of SpaceX’s giant launch vehicle aimed for something unprecedented: snatching both rocket stages from midair after a journey to orbit.",
           "published": "2026-11-13T18:45:00+00:00",
           "regional": false
         },
@@ -602,22 +609,6 @@
           "regional": false
         },
         {
-          "title": "US rockets firm eyes up mothballed Highland spaceport",
-          "link": "https://www.bbc.co.uk/news/articles/cmrlyy5xw276o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Colorado-based Leap is looking at the spaceport near Tongue as its first launch site outside of the US.",
-          "published": "2026-11-06T12:47:23+00:00",
-          "regional": false
-        },
-        {
-          "title": "Could SpaceX’s retirement of Falcon 9 spark a launch crisis?",
-          "link": "https://www.scientificamerican.com/article/could-spacexs-retirement-of-falcon-9-spark-a-launch-crisis/",
-          "source": "Scientific American",
-          "summary": "What happens when the most successful rocket in history stops flying? The world is about to find out",
-          "published": "2026-11-04T17:15:00+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA is racing against time to save the Hubble Space Telescope",
           "link": "https://www.sciencedaily.com/releases/2026/11/261104012254.htm",
           "source": "ScienceDaily",
@@ -682,19 +673,35 @@
           "regional": false
         },
         {
+          "title": "SpaceX pulls off first-ever spaceship ‘catch’",
+          "link": "https://www.thehindu.com/news/international/spacexs-starship-returns-from-orbit-and-is-captured-by-launch-pad-arms-in-a-dramatic-first/article71703046.ece",
+          "source": "The Hindu",
+          "summary": "The Starship emerged from the clouds after surviving the extreme heat of re-entering Earth’s atmosphere, then descended slowly over SpaceX’s south Texas Starbase before slipping smoothly between mechanical “chopstick…",
+          "published": "2026-11-15T07:24:53+00:00",
+          "regional": true
+        },
+        {
+          "title": "From pills to orbit: Boryung heir's bold space bet",
+          "link": "https://www.koreaherald.com/article/10937558",
+          "source": "The Korea Herald",
+          "summary": "When Boryung signed a research cooperation agreement with German aerospace agency DLR last month, the Korean drugmaker gained something its space ambitions had long lacked: a prospective user for its planned research…",
+          "published": "2026-11-15T07:12:30+00:00",
+          "regional": true
+        },
+        {
+          "title": "NASA's Voyager 1 closes in on a light-day in interstellar space for new distance record",
+          "link": "https://www.thehindu.com/sci-tech/science/nasas-voyager-1-closes-in-on-a-light-day-in-interstellar-space-for-new-distance-record/article71704036.ece",
+          "source": "The Hindu",
+          "summary": "NASA is looking at another 18,000 years before the spacecraft achieves a full light-year and more than double that before it comes near another star",
+          "published": "2026-11-15T05:59:47+00:00",
+          "regional": true
+        },
+        {
           "title": "SpaceX launches 15th Starship flight with hopes of achieving first round trip",
           "link": "https://www.thehindu.com/sci-tech/science/spacex-launches-15th-starship-flight-with-hopes-of-achieving-first-round-trip/article71700818.ece",
           "source": "The Hindu",
           "summary": "Starship expected to descend from space after completing 14 orbits around Earth, setting up its debut catch landing for ​Saturday afternoon; the Super Heavy booster was diverted from its return flight path to a fixed…",
           "published": "2026-11-14T04:17:31+00:00",
-          "regional": true
-        },
-        {
-          "title": "BYD’s Denza launches five-seat N8 SUV with up to 1,003 km of electric range",
-          "link": "https://technode.com/2026/11/13/byds-denza-launches-five-seat-n8-suv-with-up-to-1003-km-of-electric-range/",
-          "source": "TechNode",
-          "summary": "BYD’s premium brand Denza has launched the N8 in China, with prices ranging from RMB 269,900 to RMB 329,900. The five-seat SUV comes in four battery-electric and two plug-in hybrid versions.",
-          "published": "2026-11-13T08:20:58+00:00",
           "regional": true
         },
         {
@@ -738,22 +745,6 @@
           "regional": true
         },
         {
-          "title": "Daily Quiz: On the early Space Race",
-          "link": "https://www.thehindu.com/sci-tech/science/daily-quiz-on-most-significant-and-poignant-episodes-of-the-early-space-race/article71659219.ece",
-          "source": "The Hindu",
-          "summary": "From the launch of Sputnik 2 to Laika’s historic journey, test your knowledge of one of the most significant and poignant episodes of the early Space Race",
-          "published": "2026-11-03T10:58:21+00:00",
-          "regional": true
-        },
-        {
-          "title": "Explained | What is the Gaia space mission and what has it revealed about the Milky Way?",
-          "link": "https://www.thehindu.com/sci-tech/science/explained-what-is-the-gaia-space-mission-and-what-has-it-revealed-about-the-milky-way/article65527518.ece",
-          "source": "The Hindu",
-          "summary": "The new data released by the European Space Agency’s Gaia mission has revealed the surprise phenomena of ‘starquakes’—massive tsunami-like movements on the surface of stars",
-          "published": "2026-11-01T13:03:46+00:00",
-          "regional": true
-        },
-        {
           "title": "Searching the Milky Way for bits of Mars",
           "link": "https://news.cnrs.fr/articles/searching-the-milky-way-for-bits-of-mars",
           "source": "CNRS News",
@@ -770,19 +761,27 @@
       "accent": "#B98CE0",
       "items": [
         {
+          "title": "Astronomers discover a dead star spinning every 8 minutes and sending mysterious radio pulses",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261114202136.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have discovered a strange stellar pair more than 5,000 light-years away, where a dead star spinning every eight minutes produces mysterious radio pulses while orbiting a Sun-like star.",
+          "published": "2026-11-15T13:04:09+00:00",
+          "regional": false
+        },
+        {
+          "title": "Euclid discovers ancient cosmic beacons from the dawn of time, shining like a trillion suns",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261112230504.htm",
+          "source": "ScienceDaily",
+          "summary": "ESA’s Euclid space telescope has discovered 31 ancient quasars, including two record-breaking objects that shone with the brightness of a trillion Suns when the Universe was just 670 million years old.",
+          "published": "2026-11-15T01:52:47+00:00",
+          "regional": false
+        },
+        {
           "title": "See new images from the Euclid space telescope, spanning one billion cosmic objects",
           "link": "https://www.scientificamerican.com/article/see-new-images-from-the-euclid-space-telescope-spanning-one-billion-cosmic-objects/",
           "source": "Scientific American",
           "summary": "The images are part of Euclid’s first major data release",
           "published": "2026-11-14T14:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "A giant icy world hiding beyond Pluto could be our sixth dwarf planet",
-          "link": "https://www.sciencedaily.com/releases/2026/11/261112230447.htm",
-          "source": "ScienceDaily",
-          "summary": "Astronomers have uncovered a potentially enormous new dwarf planet beyond Pluto, hidden for years in one of the most crowded regions of the night sky.",
-          "published": "2026-11-14T11:58:42+00:00",
           "regional": false
         },
         {
@@ -954,12 +953,12 @@
           "regional": false
         },
         {
-          "title": "Three giant black holes discovered in a galaxy from the dawn of time",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261024222000.htm",
-          "source": "ScienceDaily",
-          "summary": "Astronomers have discovered three actively feeding black holes inside a single galaxy more than 12.5 billion light-years away, revealing a remarkable scene from the universe’s infancy.",
-          "published": "2026-10-25T12:07:01+00:00",
-          "regional": false
+          "title": "NASA's Voyager 1 closes in on a light-day in interstellar space for new distance record",
+          "link": "https://www.thehindu.com/sci-tech/science/nasas-voyager-1-closes-in-on-a-light-day-in-interstellar-space-for-new-distance-record/article71704036.ece",
+          "source": "The Hindu",
+          "summary": "NASA is looking at another 18,000 years before the spacecraft achieves a full light-year and more than double that before it comes near another star",
+          "published": "2026-11-15T05:59:47+00:00",
+          "regional": true
         },
         {
           "title": "Best-Ever 3D Map of the Universe to date",
@@ -983,14 +982,6 @@
           "source": "The Hindu",
           "summary": "Galactic archaeologists are using precise measures and larger sample sizes afforded by new missions to tease apart minute differences between groups of stars, revealing the history of the Milky Way going back almost 12…",
           "published": "2026-11-06T04:40:39+00:00",
-          "regional": true
-        },
-        {
-          "title": "Explained | What is the Gaia space mission and what has it revealed about the Milky Way?",
-          "link": "https://www.thehindu.com/sci-tech/science/explained-what-is-the-gaia-space-mission-and-what-has-it-revealed-about-the-milky-way/article65527518.ece",
-          "source": "The Hindu",
-          "summary": "The new data released by the European Space Agency’s Gaia mission has revealed the surprise phenomena of ‘starquakes’—massive tsunami-like movements on the surface of stars",
-          "published": "2026-11-01T13:03:46+00:00",
           "regional": true
         }
       ]
