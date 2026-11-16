@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-15T15:58:47.145730+00:00",
-  "generated_human": "15 November 2026, 15:58 UTC",
-  "total_items": 117,
+  "generated": "2026-11-16T19:02:10.298816+00:00",
+  "generated_human": "16 November 2026, 19:02 UTC",
+  "total_items": 119,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,22 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "Math students fear AI will take their jobs—they’re using it anyway",
+          "link": "https://www.scientificamerican.com/article/math-students-fear-ai-will-take-their-jobs-theyre-using-it-anyway/",
+          "source": "Scientific American",
+          "summary": "A survey of 268 graduate students and postdocs reveals researchers are unsure of their future in mathematics and uneasy about using AI—the very technology they fear",
+          "published": "2026-11-16T14:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "28 Zero-Day Findings in Under Two Days. Is Robotics Security Keeping Pace?",
+          "link": "https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security",
+          "source": "IEEE Spectrum",
+          "summary": "This article is brought to you by VicOne . VicOne identified an initial set of 28 zero-day findings in less than two days using AI-assisted research across software and tools supporting the Physical AI ecosystem.",
+          "published": "2026-11-16T10:00:01+00:00",
+          "regional": false
+        },
         {
           "title": "How Microcredentials Help Engineers Build Trustworthy AI",
           "link": "https://spectrum.ieee.org/microcredentials-trustworthy-ai",
@@ -66,12 +82,12 @@
           "regional": false
         },
         {
-          "title": "IEEE Xplore Digital Library Adds AI Assistant",
-          "link": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
-          "source": "IEEE Spectrum",
-          "summary": "IEEE recently released the IEEE Xplore AI Research Suite , built on the full text of millions of peer-reviewed publications in the IEEE Xplore Digital Library .",
-          "published": "2026-10-26T18:00:03+00:00",
-          "regional": false
+          "title": "LS Electric wins $94m US AI data center equipment deal",
+          "link": "https://www.koreaherald.com/article/10938560",
+          "source": "The Korea Herald",
+          "summary": "LS Electric, a South Korean electrical equipment manufacturer, said Monday it secured a $93.83 million contract to supply power distribution systems for a hyper-scale artificial intelligence data center in the US.",
+          "published": "2026-11-16T04:04:05+00:00",
+          "regional": true
         },
         {
           "title": "Hyundai Home Shopping to debut fully AI-generated sales show",
@@ -143,14 +159,6 @@
           "source": "South China Morning Post",
           "summary": "China’s second-largest contract chipmaker, Hua Hong Grace Semiconductor, is aggressively expanding into silicon photonics, as the company looks to capture the next wave of the global artificial intelligence…",
           "published": "2026-11-05T13:27:39+00:00",
-          "regional": true
-        },
-        {
-          "title": "Tencent unveils Hy4 as open-weight AI race with DeepSeek, Z.ai, Alibaba heats up",
-          "link": "https://www.scmp.com/tech/big-tech/article/3373227/tencent-unveils-hy4-open-weight-ai-race-deepseek-zai-alibaba-heats",
-          "source": "South China Morning Post",
-          "summary": "Chinese tech giant Tencent Holdings has rolled out its latest flagship artificial intelligence model, Hy4, seeking to challenge top open-weight rivals with enhanced agentic capabilities built to power its enterprise…",
-          "published": "2026-11-04T07:01:09+00:00",
           "regional": true
         }
       ]
@@ -282,6 +290,30 @@
           "regional": false
         },
         {
+          "title": "Kyoto University develops tmPhoxID to simultaneously map protein networks on both sides of membrane proteins",
+          "link": "https://sj.jst.go.jp/news/202611/n1116-04k.html",
+          "source": "Science Japan",
+          "summary": "A research group led by Professor Itaru Hamachi (currently Program-Specific Professor at the Institute of Advanced Energy, Kyoto University), Associate Professor Tomonori Tamura, and doctoral student Fátima Yuri…",
+          "published": "2026-11-16T09:07:57+00:00",
+          "regional": true
+        },
+        {
+          "title": "HD Hyundai targets North American energy market at RE+ 2026",
+          "link": "https://www.koreaherald.com/article/10938519",
+          "source": "The Korea Herald",
+          "summary": "HD Hyundai is stepping up efforts to expand its presence in the North American energy market, showcasing its solar power, battery energy storage system and power grid technologies.",
+          "published": "2026-11-16T02:51:16+00:00",
+          "regional": true
+        },
+        {
+          "title": "SK chief outlines ‘AI flywheel’ strategy at 2026 CEO Seminar",
+          "link": "https://www.koreaherald.com/article/10937482",
+          "source": "The Korea Herald",
+          "summary": "SK Group Chairman Chey Tae-won urged affiliates to pursue an “AI flywheel” strategy linking its semiconductor, infrastructure and energy businesses to new artificial intelligence services, the company said Sunday.",
+          "published": "2026-11-15T05:00:05+00:00",
+          "regional": true
+        },
+        {
           "title": "NPS' US stock holdings gain as tech giants outperform",
           "link": "https://www.koreaherald.com/article/10936767",
           "source": "The Korea Herald",
@@ -311,30 +343,6 @@
           "source": "The Hindu",
           "summary": "The configuration of the third stage was revisited comprehensively with respect to the design margins, raw material acceptance criteria, assembly procedures, and the quality checks that were followed so far",
           "published": "2026-11-12T17:26:35+00:00",
-          "regional": true
-        },
-        {
-          "title": "US defense rules spur Korean investment in rare-earth magnets",
-          "link": "https://www.koreaherald.com/article/10935318",
-          "source": "The Korea Herald",
-          "summary": "Ahead of tougher US curbs on Chinese-sourced materials in defense equipment starting next year, South Korean firms are ramping up investments in rare-earth permanent magnets, seeking to capitalize on growing demand for…",
-          "published": "2026-11-12T06:17:19+00:00",
-          "regional": true
-        },
-        {
-          "title": "Amid Nvidia saga, T-Head IPO a crucial test for Alibaba – and China’s AI ambitions",
-          "link": "https://www.scmp.com/tech/big-tech/article/3374090/amid-nvidia-saga-t-head-ipo-crucial-test-alibaba-and-chinas-ai-ambitions",
-          "source": "South China Morning Post",
-          "summary": "Alibaba Group Holding’s planned Hong Kong listing of its semiconductor design arm, T-Head, is poised to reshape China’s artificial intelligence hardware arena while unlocking billions of dollars in trapped valuation for…",
-          "published": "2026-11-11T10:31:02+00:00",
-          "regional": true
-        },
-        {
-          "title": "What Taiwanese chip giant TSMC gains from taking stakes in OpenAI and Anthropic’s AI race",
-          "link": "https://www.scmp.com/tech/big-tech/article/3374037/what-taiwanese-chip-giant-tsmc-gains-taking-stakes-openai-and-anthropics-ai-race",
-          "source": "South China Morning Post",
-          "summary": "Taiwan Semiconductor Manufacturing Company’s (TSMC) move to take equity stakes in both OpenAI and Anthropic will give the world’s largest contract chipmaker direct financial ties to the frontier AI labs driving demand…",
-          "published": "2026-11-11T07:30:21+00:00",
           "regional": true
         },
         {
@@ -393,6 +401,22 @@
           "regional": false
         },
         {
+          "title": "Samsung SDI to supply LFP ESS batteries to US Jupiter Power",
+          "link": "https://www.koreaherald.com/article/10938684",
+          "source": "The Korea Herald",
+          "summary": "Samsung SDI said Monday it signed a deal to supply 16 gigawatt-hours of lithium iron phosphate energy storage system batteries to Jupiter Power — a Texas-based utility-scale ESS operator — expanding its footprint in the…",
+          "published": "2026-11-16T05:16:21+00:00",
+          "regional": true
+        },
+        {
+          "title": "HD Hyundai targets North American energy market at RE+ 2026",
+          "link": "https://www.koreaherald.com/article/10938519",
+          "source": "The Korea Herald",
+          "summary": "HD Hyundai is stepping up efforts to expand its presence in the North American energy market, showcasing its solar power, battery energy storage system and power grid technologies.",
+          "published": "2026-11-16T02:51:16+00:00",
+          "regional": true
+        },
+        {
           "title": "Super El Niño could leave South Africa short of grazing. Timing of livestock fodder crops is crucial",
           "link": "https://theconversation.com/super-el-nino-could-leave-south-africa-short-of-grazing-timing-of-livestock-fodder-crops-is-crucial-294630",
           "source": "The Conversation",
@@ -409,6 +433,14 @@
           "regional": true
         },
         {
+          "title": "Can global leaders put their money where their mouth is on climate?",
+          "link": "https://www.dw.com/en/can-global-leaders-put-their-money-where-their-mouth-is-on-climate/a-79918744?maca=en-rss_en_environment-22607-xml-mrss",
+          "source": "Deutsche Welle",
+          "summary": "World leaders warn that geopolitical divisions are distracting from the climate crisis as negotiations focus on clean energy and financing, while Iran calls for compensation for war-related environmental damage.",
+          "published": "2026-11-11T14:21:00+00:00",
+          "regional": true
+        },
+        {
           "title": "Germany slips in climate protection rankings as other countries make gains",
           "link": "https://www.dw.com/en/germany-slips-in-climate-protection-rankings-as-other-countries-make-gains/a-79913635?maca=en-rss_en_environment-22607-xml-mrss",
           "source": "Deutsche Welle",
@@ -422,14 +454,6 @@
           "source": "Max Planck Society",
           "summary": "The versatile substance can be produced sustainably and with high yield using a custom-designed photocatalyst.",
           "published": "2026-11-10T12:00:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "Why electrification is the climate game changer we need",
-          "link": "https://www.dw.com/en/why-electrification-is-the-climate-game-changer-we-need/a-79615979?maca=en-rss_en_environment-22607-xml-mrss",
-          "source": "Deutsche Welle",
-          "summary": "From EVs and electric buses on the road, heat pumps warming homes and solar panels powering appliances, the shift to electrifying tech is already in full swing. But what exactly does \"electrification\" mean?",
-          "published": "2026-11-10T08:00:00+00:00",
           "regional": true
         },
         {
@@ -455,22 +479,6 @@
           "summary": "Renewable electricity is cheaper than ever. While the West got rich on coal and oil, some of the world's poorest countries are banking on solar, wind and water instead.",
           "published": "2026-10-07T07:48:00+00:00",
           "regional": true
-        },
-        {
-          "title": "First detection of heavy methanol in space",
-          "link": "https://www.mpg.de/26834976/first-detection-of-heavy-methanol-in-space",
-          "source": "Max Planck Society",
-          "summary": "Methanol containing heavy hydrogen is considered the building block of complex organic molecules and allows us to trace how stars and planets form from extremely cold interstellar gas and dust",
-          "published": "2026-10-06T22:00:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "Climate leaders called for solar energy for 'everyone, everywhere' by 2030, but with three years to go, is that goal attainable?",
-          "link": "https://www.dw.com/en/climate-leaders-called-for-solar-energy-for-everyone-everywhere-by-2030-but-with-three-years-to-go-is-that-goal-attainable/a-79517056?maca=en-rss_en_environment-22607-xml-mrss",
-          "source": "Deutsche Welle",
-          "summary": "Prominent climate leaders have called on governments, businesses, institutions and the public to make a push for solar power before the decade is out, repowering the world with cheap, clean energy. Is that possible?",
-          "published": "2026-10-02T13:48:00+00:00",
-          "regional": true
         }
       ]
     },
@@ -480,6 +488,38 @@
       "tagline": "New missions, spacecraft, and technologies — NASA, ESA, ISRO, JAXA, SpaceX, CNES, and more.",
       "accent": "#F0894E",
       "items": [
+        {
+          "title": "Contractor to Civil Servant: NASA Welcomes Jim Mirandy",
+          "link": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jim-mirandy/",
+          "source": "NASA",
+          "summary": "The rumble of a rocket engine might be considered a soundtrack for Jim Mirandy’s life. Mirandy has grown up with NASA as a constant presence, and his path to becoming a civil servant at NASA’s Stennis Space Center near…",
+          "published": "2026-11-16T15:22:09+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA is offering $1 million for bold ideas to help build a Moon base",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261115085542.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA is offering $1 million in its new Moon Base Challenge, inviting U.S. students to develop innovative solutions for building humanity’s first permanent lunar outpost.",
+          "published": "2026-11-16T14:02:10+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA smashed into an asteroid. Now Hera has revealed a strange new world",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261116023351.htm",
+          "source": "ScienceDaily",
+          "summary": "A European spacecraft has revealed a mysterious, crater-covered side of the asteroid Didymos as it prepares to investigate the aftermath of NASA’s historic 2022 asteroid impact.",
+          "published": "2026-11-16T13:40:11+00:00",
+          "regional": false
+        },
+        {
+          "title": "The secret to building Moon bases may be hiding in emergency blankets",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261115085549.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have turned the thin plastic used in emergency blankets into remarkably strong insulation that could help astronauts survive the Moon's extreme temperatures.",
+          "published": "2026-11-16T03:51:01+00:00",
+          "regional": false
+        },
         {
           "title": "SpaceX catches part of its Starship rocket on return to Earth",
           "link": "https://www.bbc.co.uk/news/videos/cw23j8pkk421o?at_medium=RSS&at_campaign=rss",
@@ -513,15 +553,7 @@
           "regional": false
         },
         {
-          "title": "The Euclid space telescope captures nearly a billion celestial objects in stunning detail",
-          "link": "https://www.scientificamerican.com/article/the-euclid-space-telescope-captures-nearly-a-billion-celestial-objects-in-stunning-detail/",
-          "source": "Scientific American",
-          "summary": "The enormous trove of galaxies and quasars will help astronomers piece together the most in-depth 3D map of the universe yet made",
-          "published": "2026-11-13T19:30:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Can SpaceX catch its Starship?",
+          "title": "Did SpaceX catch its Starship?",
           "link": "https://www.scientificamerican.com/article/can-spacex-catch-its-starship/",
           "source": "Scientific American",
           "summary": "The 15th spaceflight of SpaceX’s giant launch vehicle aimed for something unprecedented: snatching both rocket stages from midair after a journey to orbit.",
@@ -545,35 +577,11 @@
           "regional": false
         },
         {
-          "title": "NASA’s Hubble Offers Cosmic Sampler of Targets for Roman",
-          "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/",
-          "source": "NASA",
-          "summary": "A gallery of gravitational lenses captured by NASA’s Hubble Space Telescope showcases the diversity of this cosmic phenomenon and lays the groundwork for follow-up observations by the Nancy Grace Roman Space Telescope.",
-          "published": "2026-11-12T13:18:40+00:00",
-          "regional": false
-        },
-        {
-          "title": "Through NASA’s Lens: Capturing Space Shuttle Endeavour’s Move to LA",
-          "link": "https://www.nasa.gov/centers-and-facilities/armstrong/through-nasas-lens-capturing-space-shuttle-endeavours-move-to-la/",
-          "source": "NASA",
-          "summary": "As a new exhibit opens showcasing NASA’s space shuttle Endeavour, NASA photographers look back at the final mission. These photographers documented the iconic images shared around the world on Sept.",
-          "published": "2026-11-12T13:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA’s Perseverance confirms a key ingredient for life hidden in ancient Mars rocks",
           "link": "https://www.sciencedaily.com/releases/2026/11/261111005908.htm",
           "source": "ScienceDaily",
           "summary": "NASA's Perseverance rover has confirmed complex organic carbon just beneath the surface of ancient Martian rocks, raising intriguing questions about the Red Planet's potential to have supported life.",
           "published": "2026-11-12T11:37:06+00:00",
-          "regional": false
-        },
-        {
-          "title": "Toby Jones stars in film about UK Mars mission",
-          "link": "https://www.bbc.co.uk/news/articles/cqm2l304w0x9o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Mackenzie Crook directs the story of the British professor whose probe lost contact upon touchdown.",
-          "published": "2026-11-11T14:10:11+00:00",
           "regional": false
         },
         {
@@ -676,8 +684,8 @@
           "title": "SpaceX pulls off first-ever spaceship ‘catch’",
           "link": "https://www.thehindu.com/news/international/spacexs-starship-returns-from-orbit-and-is-captured-by-launch-pad-arms-in-a-dramatic-first/article71703046.ece",
           "source": "The Hindu",
-          "summary": "The Starship emerged from the clouds after surviving the extreme heat of re-entering Earth’s atmosphere, then descended slowly over SpaceX’s south Texas Starbase before slipping smoothly between mechanical “chopstick…",
-          "published": "2026-11-15T07:24:53+00:00",
+          "summary": "Starship returned from orbit and was caught by the “chopstick arms” at SpaceX’s Starbase launch pad in Texas, in a milestone for fully reusable rockets",
+          "published": "2026-11-15T12:55:36+00:00",
           "regional": true
         },
         {
@@ -761,6 +769,14 @@
       "accent": "#B98CE0",
       "items": [
         {
+          "title": "Pupils fascinated by space get astronomy lesson",
+          "link": "https://www.bbc.co.uk/news/articles/c67428w9vvkqo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Pupils at First Tower School get a visit from a University of Cambridge astronomer.",
+          "published": "2026-11-16T06:11:42+00:00",
+          "regional": false
+        },
+        {
           "title": "Astronomers discover a dead star spinning every 8 minutes and sending mysterious radio pulses",
           "link": "https://www.sciencedaily.com/releases/2026/11/261114202136.htm",
           "source": "ScienceDaily",
@@ -814,14 +830,6 @@
           "source": "Scientific American",
           "summary": "Astronomers saw something strange in a distant star system—or rather what’s strange is what they didn’t see. Solving the mystery could reveal new astrophysics",
           "published": "2026-11-11T19:00:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Toby Jones stars in film about UK Mars mission",
-          "link": "https://www.bbc.co.uk/news/articles/cqm2l304w0x9o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Mackenzie Crook directs the story of the British professor whose probe lost contact upon touchdown.",
-          "published": "2026-11-11T14:10:11+00:00",
           "regional": false
         },
         {
@@ -953,19 +961,27 @@
           "regional": false
         },
         {
+          "title": "Daily Quiz: Communication with extraterrestrial intelligence",
+          "link": "https://www.thehindu.com/sci-tech/science/daily-quiz-communication-with-extraterrestrial-intelligence/article71706616.ece",
+          "source": "The Hindu",
+          "summary": "From a radio telescope in Puerto Rico to a distant globular cluster, explore the science, symbolism and audacious ambition behind humanity’s 1974 attempt to communicate with extraterrestrial intelligence",
+          "published": "2026-11-16T01:42:50+00:00",
+          "regional": true
+        },
+        {
+          "title": "Nāpōwawāʻenakaulua",
+          "link": "https://www.thehindu.com/sci-tech/science/napowawa%CA%BBenakaulua/article71704825.ece",
+          "source": "The Hindu",
+          "summary": "Two celestial bodies—Nāpōwawāʻenakaulua—are a close pair of ancient quasars challenging ideas about early black hole growth",
+          "published": "2026-11-16T00:11:01+00:00",
+          "regional": true
+        },
+        {
           "title": "NASA's Voyager 1 closes in on a light-day in interstellar space for new distance record",
           "link": "https://www.thehindu.com/sci-tech/science/nasas-voyager-1-closes-in-on-a-light-day-in-interstellar-space-for-new-distance-record/article71704036.ece",
           "source": "The Hindu",
           "summary": "NASA is looking at another 18,000 years before the spacecraft achieves a full light-year and more than double that before it comes near another star",
           "published": "2026-11-15T05:59:47+00:00",
-          "regional": true
-        },
-        {
-          "title": "Best-Ever 3D Map of the Universe to date",
-          "link": "https://www.mpg.de/27073683/euclid-lays-the-foundation-for-its-best-ever-3d-map-of-the-universe",
-          "source": "Max Planck Society",
-          "summary": "Germany’s role in unveiling the dark Universe with the Euclid Space Telescope",
-          "published": "2026-11-12T11:00:00+00:00",
           "regional": true
         },
         {
