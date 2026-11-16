@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portrait Head Mapper</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Layout idea: a drawing board on the left, a narrow tray of controls on the right.
+   Colors follow studio pencils: graphite outline, blue construction pencil, red pencil for the side circles. */
+:root {
+  --page: #dfe3e1;
+  --paper: #eef0ed;
+  --panel: #f7f8f6;
+  --ink: #22272a;
+  --muted: #586064;
+  --rule: #c5cbc8;
+  --blue: #2874b5;
+  --red: #c4432c;
+  --form-light: #fcfcfa;
+  --form-shade: #c3c9c6;
+  --font-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", sans-serif;
+  --font-body: "Figtree", "Segoe UI", system-ui, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --page: #141618;
+    --paper: #1c1f21;
+    --panel: #23272a;
+    --ink: #ecebe6;
+    --muted: #a3abae;
+    --rule: #3a4044;
+    --blue: #7db9ea;
+    --red: #f08f7e;
+    --form-light: #34393d;
+    --form-shade: #15181a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --page: #141618;
+  --paper: #1c1f21;
+  --panel: #23272a;
+  --ink: #ecebe6;
+  --muted: #a3abae;
+  --rule: #3a4044;
+  --blue: #7db9ea;
+  --red: #f08f7e;
+  --form-light: #34393d;
+  --form-shade: #15181a;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--page);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.45;
+}
+.app {
+  max-width: 1560px;
+  margin: 0 auto;
+  padding: 20px 16px 28px;
+  display: grid;
+  grid-template-columns: minmax(0, 0.82fr) minmax(0, 1fr) 320px;
+  gap: 18px;
+  align-items: start;
+}
+.board {
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+.board canvas {
+  display: block;
+  width: 100%;
+  touch-action: none;
+  cursor: grab;
+}
+.board canvas:active { cursor: grabbing; }
+.board canvas:focus-visible { outline: 2px solid var(--blue); outline-offset: -2px; }
+.hint {
+  position: absolute;
+  left: 12px;
+  bottom: 9px;
+  font-size: 12.5px;
+  color: var(--muted);
+  pointer-events: none;
+}
+.tray {
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  padding: 18px 18px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+h1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1;
+  margin: 0;
+  text-wrap: balance;
+}
+.lede { margin: 6px 0 0; color: var(--muted); font-size: 14px; }
+h2 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 8px;
+}
+.slider { display: grid; gap: 4px; }
+.slider + .slider { margin-top: 12px; }
+.slider-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.slider label { font-weight: 600; }
+.slider output { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 14px; }
+input[type="range"] { width: 100%; accent-color: var(--blue); margin: 0; height: 24px; }
+.row { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 8px; }
+.row h2 { margin: 0; }
+.presets { display: flex; flex-wrap: wrap; gap: 6px; }
+button {
+  font: inherit;
+  font-size: 13.5px;
+  color: var(--ink);
+  background: transparent;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+button:hover { border-color: var(--ink); }
+button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.toggles { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 10px; }
+.toggles label { display: flex; align-items: center; gap: 7px; font-size: 14px; cursor: pointer; }
+.toggles input { accent-color: var(--blue); width: 15px; height: 15px; margin: 0; flex: none; }
+.swatch { display: inline-block; width: 14px; height: 0; border-top: 2px solid var(--ink); flex: none; }
+.swatch.blue { border-color: var(--blue); }
+.swatch.red { border-color: var(--red); }
+.key { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; font-size: 13.5px; color: var(--muted); }
+.key b { color: var(--ink); font-weight: 600; }
+.bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; padding: 9px 12px; border-top: 1px solid var(--rule); font-size: 12.5px; color: var(--muted); }
+.filebtn { font-size: 13.5px; color: var(--ink); border: 1px solid var(--ink); border-radius: 4px; padding: 5px 10px; cursor: pointer; font-weight: 600; }
+.filebtn:focus-within { outline: 2px solid var(--blue); outline-offset: 2px; }
+.filebtn input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.steps { margin: 0; padding-left: 18px; display: grid; gap: 5px; font-size: 13.5px; color: var(--muted); }
+#photo { cursor: default; }
+.empty { min-height: 300px; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 6px; padding: 28px; text-align: center; color: var(--muted); }
+.empty b { font-family: var(--font-display); font-size: 20px; color: var(--ink); }
+.empty[hidden] { display: none; }
+@media (max-width: 1180px) {
+  .app { grid-template-columns: minmax(0, 0.82fr) minmax(0, 1fr); }
+  .tray { grid-column: 1 / -1; }
+}
+@media (max-width: 720px) {
+  .app { grid-template-columns: 1fr; }
+}
+@media (max-width: 420px) {
+  .toggles { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<main class="app">
+  <div class="board" id="photoBoard">
+    <div class="empty" id="empty"><b>Choose a photo to begin</b><span>A face looking straight at the camera works best. You can also drop a photo here.</span></div>
+    <canvas id="photo" hidden role="img" aria-label="The photo, with nine dots to place on the features"></canvas>
+    <div class="bar">
+      <label class="filebtn"><input type="file" id="file" accept="image/*">Choose a photo</label>
+      <span>Use a straight-on photo. It stays on your device.</span>
+    </div>
+  </div>
+
+  <div class="board" id="board">
+    <canvas id="view" tabindex="0" role="img" aria-label="The head with the photo mapped onto it, turning with the sliders"></canvas>
+    <div class="hint">Drag the head to turn it</div>
+  </div>
+
+  <aside class="tray">
+    <header>
+      <h1>Portrait Head Mapper</h1>
+      <p class="lede">Fit the construction head to a photo, then turn the person to any angle.</p>
+    </header>
+
+    <section>
+      <h2>How to use it</h2>
+      <ol class="steps">
+        <li>Choose a photo of a face looking straight at the camera.</li>
+        <li>Drag the nine dots onto the pupils, the base of the nose, the line between the lips, the bottom of the chin, the two sides of the face at the cheekbones, and the points where the ear lobes join the head.</li>
+        <li>The head reshapes to match. Turn it, light it, and fine-tune with the sliders.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>View</h2>
+      <div class="slider">
+        <div class="slider-head"><label for="turn">Turn</label><output id="turnOut" for="turn"></output></div>
+        <input type="range" id="turn" min="-180" max="180" step="1" value="-30">
+      </div>
+      <div class="slider">
+        <div class="slider-head"><label for="tilt">Tilt</label><output id="tiltOut" for="tilt"></output></div>
+        <input type="range" id="tilt" min="-70" max="70" step="1" value="0">
+      </div>
+      <div class="presets" id="presets" style="margin-top:12px">
+        <button type="button" data-turn="0" data-tilt="0">Front</button>
+        <button type="button" data-turn="-40" data-tilt="0">Three-quarter left</button>
+        <button type="button" data-turn="40" data-tilt="0">Three-quarter right</button>
+        <button type="button" data-turn="-30" data-tilt="25">Looking up</button>
+        <button type="button" data-turn="-30" data-tilt="-25">Looking down</button>
+      </div>
+    </section>
+
+    <section>
+      <div class="row"><h2>Fit of this head</h2><button type="button" id="resetProps">Refit to the dots</button></div>
+      <div class="slider">
+        <div class="slider-head"><label for="pWide">Head width</label><output id="pWideOut" for="pWide"></output></div>
+        <input type="range" id="pWide" min="75" max="135" step="1" value="100">
+      </div>
+      <div class="slider">
+        <div class="slider-head"><label for="pCheekW">Cheek width</label><output id="pCheekWOut" for="pCheekW"></output></div>
+        <input type="range" id="pCheekW" min="80" max="115" step="1" value="100">
+      </div>
+      <div class="slider">
+        <div class="slider-head"><label for="pEye">Eye spacing</label><output id="pEyeOut" for="pEye"></output></div>
+        <input type="range" id="pEye" min="70" max="130" step="1" value="100">
+      </div>
+      <div class="slider">
+        <div class="slider-head"><label for="pSize">Eye size</label><output id="pSizeOut" for="pSize"></output></div>
+        <input type="range" id="pSize" min="70" max="130" step="1" value="100">
+      </div>
+      <div class="slider">
+        <div class="slider-head"><label for="pLen">Nose length</label><output id="pLenOut" for="pLen"></output></div>
+        <input type="range" id="pLen" min="70" max="135" step="1" value="100">
+      </div>
+      <div class="slider">
+        <div class="slider-head"><label for="pProj">Nose projection</label><output id="pProjOut" for="pProj"></output></div>
+        <input type="range" id="pProj" min="70" max="130" step="1" value="100">
+      </div>
+      <div class="slider">
+        <div class="slider-head"><label for="pMouth">Mouth height</label><output id="pMouthOut" for="pMouth"></output></div>
+        <input type="range" id="pMouth" min="20" max="55" step="1" value="36">
+      </div>
+      <div class="slider">
+        <div class="slider-head"><label for="pCheek">Cheekbone height</label><output id="pCheekOut" for="pCheek"></output></div>
+        <input type="range" id="pCheek" min="-10" max="10" step="1" value="0">
+      </div>
+    </section>
+
+    <section>
+      <h2>Light</h2>
+      <div class="slider">
+        <div class="slider-head"><label for="lStr">Strength</label><output id="lStrOut" for="lStr"></output></div>
+        <input type="range" id="lStr" min="0" max="100" step="1" value="25">
+      </div>
+      <div class="slider">
+        <div class="slider-head"><label for="lTurn">Side to side</label><output id="lTurnOut" for="lTurn"></output></div>
+        <input type="range" id="lTurn" min="-180" max="180" step="1" value="-35">
+      </div>
+      <div class="slider">
+        <div class="slider-head"><label for="lHigh">Height</label><output id="lHighOut" for="lHigh"></output></div>
+        <input type="range" id="lHigh" min="-80" max="80" step="1" value="38">
+      </div>
+    </section>
+
+    <section>
+      <h2>Show</h2>
+      <div class="toggles">
+        <label><input type="checkbox" id="tPhoto" checked>Photo on the head</label>
+        <label><input type="checkbox" id="tLat" checked><span class="swatch blue"></span>Latitude lines</label>
+        <label><input type="checkbox" id="tCen" checked><span class="swatch blue"></span>Center lines</label>
+        <label><input type="checkbox" id="tCir" checked><span class="swatch red"></span>Side circles</label>
+        <label><input type="checkbox" id="tFea"><span class="swatch"></span>Drawn features</label>
+        <label><input type="checkbox" id="tNeck" checked>Neck</label>
+        <label><input type="checkbox" id="tHid">Hidden lines dotted</label>
+        <label><input type="checkbox" id="tShade" checked>Light and shade</label>
+        <label><input type="checkbox" id="tLab">Labels</label>
+      </div>
+    </section>
+  </aside>
+</main>
+
+<script>
+(function () {
+  "use strict";
+
+  /* ------------------------------------------------------------------
+     HEAD PARAMETERS. Everything about the generic head is set here so
+     later versions can connect sliders to these numbers.
+     Units: the ball has radius 1. x = toward the head's left ear,
+     y = up, z = forward out of the face.
+  ------------------------------------------------------------------ */
+  var HEAD = {
+    slice: 0.75,            // where the side planes cut the ball
+    mouthDrop: 0.36,        // mouth, as a fraction of the nose-to-chin third
+    eyeHalfGap: 0.15,       // inner corner of each eye from the center line
+    eyeWidth: 0.30,
+    eyeOpen: 0.07,
+    noseOut: 0.23,          // how far the tip stands off the face
+    noseHalfWidth: 0.15,
+    noseBridgeY: -0.12,
+    mouthHalfWidth: 0.26,
+    cheekWidth: 0.75,       // half-width of the face at the cheekbones
+    // the four adjustable proportions (1 = the generic head)
+    eyeSep: 1,              // spacing of the eyes
+    noseLen: 1,             // brow to base of nose
+    noseProj: 1,            // how far the nose stands out
+    cheekY: -0.42,          // height of the cheekbones
+    faceX: 1,               // overall width of the head
+    eyeScale: 1             // size of the eyes
+  };
+  var s = HEAD.slice;
+  var r = Math.sqrt(1 - s * s);              // radius of the side circle
+  var G = { nose: -r, mouth: -r * (1 + HEAD.mouthDrop) };   // generic levels, which shape the skull
+  var Y = { hair: r, brow: 0, nose: G.nose, chin: -2 * r, eye: (1 - 2 * r) / 2, mouth: G.mouth };
+  function setLevels() {
+    Y.nose = -r * HEAD.noseLen;
+    Y.mouth = Y.nose + (Y.chin - Y.nose) * HEAD.mouthDrop;
+  }
+  var CAP_Y = Y.chin + 0.10;                 // where the chin starts to round under
+  var PIVOT = [0, -0.55, -0.10];             // the head nods about this point
+
+  /* ---------- small math helpers ---------- */
+  function smooth(a, b, x) { var t = (x - a) / (b - a); t = t < 0 ? 0 : t > 1 ? 1 : t; return t * t * (3 - 2 * t); }
+  function spow(v, e) { return v < 0 ? -Math.pow(-v, e) : Math.pow(v, e); }
+  function spline(keys) {
+    keys = keys.slice().sort(function (a, b) { return a[0] - b[0]; });
+    var n = keys.length, m = [];
+    for (var i = 0; i < n; i++) {
+      var a = keys[Math.max(0, i - 1)], b = keys[Math.min(n - 1, i + 1)];
+      m.push((b[1] - a[1]) / (b[0] - a[0]));
+    }
+    return function (x) {
+      if (x <= keys[0][0]) return keys[0][1];
+      if (x >= keys[n - 1][0]) return keys[n - 1][1];
+      var i = 0; while (x > keys[i + 1][0]) i++;
+      var h = keys[i + 1][0] - keys[i][0], t = (x - keys[i][0]) / h, t2 = t * t, t3 = t2 * t;
+      return (2 * t3 - 3 * t2 + 1) * keys[i][1] + (t3 - 2 * t2 + t) * h * m[i] +
+             (-2 * t3 + 3 * t2) * keys[i + 1][1] + (t3 - t2) * h * m[i + 1];
+    };
+  }
+
+  /* ---------- profiles of the face and jaw, by height ---------- */
+  var cw = HEAD.cheekWidth;
+  var faceFront = spline([[0.2, 1.0], [0, 1.0], [Y.eye, 0.94], [-0.36, 0.95], [G.nose, 0.96],
+                          [G.mouth, 0.97], [-1.09, 0.90], [-1.20, 0.915], [Y.chin, 0.86]]);
+  var faceWidth;
+  function makeFaceWidth() {
+    var c = HEAD.cheekY, cw = HEAD.cheekWidth;
+    faceWidth = spline([[0.2, cw], [0, cw], [c + 0.08, cw], [c - 0.24, cw * 0.94], [G.mouth, cw * 0.85],
+                        [-1.02, cw * 0.775], [-1.12, cw * 0.63], [-1.22, cw * 0.44], [Y.chin, cw * 0.30]]);
+  }
+  var jawBack = spline([[-0.75, -0.661], [-0.85, -0.42], [-0.95, -0.16], [-1.02, -0.06],
+                        [-1.12, 0.14], [-1.22, 0.34], [Y.chin, 0.52]]);
+  var widest = spline([[-0.75, 0], [-0.98, 0.15], [-1.02, 0.20], [-1.12, 0.36], [-1.22, 0.52], [Y.chin, 0.66]]);
+  var frontSquare = spline([[0, 2.8], [-0.7, 2.8], [-0.95, 2.5], [Y.chin, 2.2]]);
+
+  /* The head surface. For a height y and an angle th around the vertical
+     axis (0 = front, 90 deg = the head's left side) it returns a point.
+     Above the brow it is the sliced ball. Below, it blends into the face
+     mask and jaw. */
+  function surf(y, th) {
+    var sn = Math.sin(th), cs = Math.cos(th);
+    var R = Math.sqrt(Math.max(0, 1 - y * y));
+    var bx = R * sn; bx = bx > s ? s : bx < -s ? -s : bx;
+    var bz = R * cs;
+    if (y >= 0) return [bx, y, bz];
+    var w = faceWidth(y), zf = faceFront(y), zb = y >= -0.75 ? -R : jawBack(y), zc = widest(y);
+    var nb = 2 + 3 * smooth(-0.75, -1.0, y);
+    var e = 2 / (cs >= 0 ? frontSquare(y) : nb);
+    var fx = w * spow(sn, e);
+    var fz = zc + (cs >= 0 ? (zf - zc) : (zc - zb)) * spow(cs, e);
+    if (y < CAP_Y) {
+      var u = Math.min(1, (CAP_Y - y) / (CAP_Y - Y.chin));
+      var k = Math.sqrt(Math.max(0, 1 - u * u)), zm = (zf + zb) / 2;
+      fx *= k; fz = zm + (fz - zm) * k;
+    }
+    var bf = smooth(0, -0.18, y), bb = smooth(-0.75, -0.98, y), g = smooth(-0.35, 0.35, cs);
+    var b = bb + (bf - bb) * g;
+    // cheekbone: a soft swelling on the front corner of the face
+    var dk = (y - HEAD.cheekY) / 0.12, da = (Math.acos(cs < -1 ? -1 : cs > 1 ? 1 : cs) - 0.92) / 0.36;
+    var bump = 0.055 * Math.exp(-dk * dk - da * da) * smooth(0, -0.1, y);
+    return [bx + (fx - bx) * b + sn * bump, y, bz + (fz - bz) * b + cs * bump];
+  }
+  // depth of the face at a given height and distance from the center line
+  function onFace(y, x) {
+    var ax = Math.abs(x), lo = 0, hi = Math.PI / 2;
+    for (var i = 0; i < 26; i++) { var mid = (lo + hi) / 2; if (surf(y, mid)[0] < ax) lo = mid; else hi = mid; }
+    var p = surf(y, (lo + hi) / 2);
+    return [x, y, p[2]];
+  }
+  // point on the left side of the head at a given height and depth
+  function onSide(y, z) {
+    var lo = 0, hi = Math.PI;
+    for (var i = 0; i < 26; i++) { var mid = (lo + hi) / 2; if (surf(y, mid)[2] > z) lo = mid; else hi = mid; }
+    return surf(y, (lo + hi) / 2);
+  }
+
+  /* ------------------------------------------------------------------
+     BUILD THE SOLID. Used only to hide lines behind the form, to find
+     the outline, and for the soft shading.
+  ------------------------------------------------------------------ */
+  var gridEnd = 0, neckEnd = 0, earStart = 0, NZ, TUa, TVa, TWa;
+  var verts, vgroup, tris, tgroup, lines, NV, NT, V, TRI, NRM, EDGE, chinPoint, TV, SH, facing;
+  function build() {
+  setLevels(); makeFaceWidth();
+  verts = []; vgroup = []; tris = []; tgroup = []; lines = [];   // group: 0 head, 1 neck, 2 nose and ears
+  function addVert(p, g) { verts.push(p[0], p[1], p[2]); vgroup.push(g); return vgroup.length - 1; }
+  function addTri(a, b, c, g) { tris.push(a, b, c); tgroup.push(g); }
+
+  (function buildHead() {
+    var rows = [], i, j;
+    for (i = 0; i <= 18; i++) rows.push(Math.cos(i * Math.PI / 36));
+    for (i = 1; i <= 42; i++) rows.push(CAP_Y * i / 42);
+    for (i = 1; i <= 8; i++) rows.push(CAP_Y - (CAP_Y - Y.chin) * Math.sin(i * Math.PI / 16));
+    rows[rows.length - 1] = Y.chin;
+    var NU = 96, base = vgroup.length;
+    for (i = 0; i < rows.length; i++)
+      for (j = 0; j < NU; j++) addVert(surf(rows[i], j * 2 * Math.PI / NU), 0);
+    for (i = 0; i < rows.length - 1; i++)
+      for (j = 0; j < NU; j++) {
+        var a = base + i * NU + j, b = base + i * NU + (j + 1) % NU, c = a + NU, d = b + NU;
+        addTri(a, c, b, 0); addTri(b, c, d, 0);
+      }
+    gridEnd = vgroup.length;
+  })();
+
+  (function buildNeck() {
+    var NS = 40, NR = 10, base = vgroup.length, i, j;
+    for (i = 0; i <= NR; i++) {
+      var t = i / NR, y = PIVOT[1] + (-2.2 - PIVOT[1]) * t, zc = PIVOT[2] - 0.27 * t, flare = 1 + 0.14 * t * t;
+      for (j = 0; j < NS; j++) {
+        var a = j * 2 * Math.PI / NS;
+        addVert([0.37 * flare * Math.sin(a), y, zc + 0.42 * flare * Math.cos(a)], 1);
+      }
+    }
+    for (i = 0; i < NR; i++)
+      for (j = 0; j < NS; j++) {
+        var p = base + i * NS + j, q = base + i * NS + (j + 1) % NS;
+        addTri(p, p + NS, q, 1); addTri(q, p + NS, q + NS, 1);
+      }
+    neckEnd = vgroup.length;
+  })();
+
+  /* ---------- the line work, stored as lists of 3D points ---------- */
+  function addLine(pts, kind, color, width, dotted) {
+    var f = new Float32Array(pts.length * 3);
+    for (var i = 0; i < pts.length; i++) { f[i * 3] = pts[i][0]; f[i * 3 + 1] = pts[i][1]; f[i * 3 + 2] = pts[i][2]; }
+    var L = { pts: f, n: pts.length, kind: kind, color: color, width: width, dotted: dotted, label: null };
+    lines.push(L); return L;
+  }
+  function mirror(pts) { return pts.map(function (p) { return [-p[0], p[1], p[2]]; }); }
+  function both(pts, kind, color, width, dotted) { addLine(pts, kind, color, width, dotted); addLine(mirror(pts), kind, color, width, dotted); }
+
+  // latitude rings
+  var rings = [["Hairline", Y.hair], ["Brow line", Y.brow], ["Eye line", Y.eye], ["Base of nose", Y.nose], ["Mouth", Y.mouth]];
+  if (Math.abs(Y.nose - G.nose) > 0.012) rings.push(["Circle bottom", G.nose]);
+  rings.forEach(function (d) {
+      var pts = [];
+      for (var i = 0; i <= 220; i++) pts.push(surf(d[1], i * 2 * Math.PI / 220));
+      addLine(pts, "lat", "blue", 1.4, true).label = d[0];
+    });
+
+  // center line of the face, carried over the crown and down the back
+  (function () {
+    var pts = [], i, y;
+    for (i = 0; i <= 90; i++) { y = Y.chin + (1 - Y.chin) * i / 90; pts.push(surf(y, 0)); }
+    for (i = 1; i <= 60; i++) { y = 1 - 1.85 * i / 60; pts.push(surf(y, Math.PI)); }
+    addLine(pts, "center", "blue", 1.8, true);
+    // ear line over the top, joining the vertical arms of the two side circles
+    pts = [];
+    for (i = 0; i <= 30; i++) { y = r + (1 - r) * i / 30; pts.push(surf(y, Math.PI / 2)); }
+    for (i = 1; i <= 30; i++) { y = 1 - (1 - r) * i / 30; pts.push(surf(y, 3 * Math.PI / 2)); }
+    addLine(pts, "center", "blue", 1.4, true);
+  })();
+
+  // side circles with their quadrant cross
+  (function () {
+    var pts = [], i, a, y, z;
+    for (i = 0; i <= 96; i++) {
+      a = i * 2 * Math.PI / 96; y = r * Math.sin(a); z = r * Math.cos(a);
+      pts.push(y >= 0 ? [s, y, z] : [onSide(y, z)[0], y, z]);
+    }
+    both(pts, "circle", "red", 1.6, true);
+    pts = [];
+    for (i = 0; i <= 24; i++) { z = -r + 2 * r * i / 24; pts.push([s, 0, z]); }
+    both(pts, "circle", "red", 1.2, true);
+    pts = [];
+    for (i = 0; i <= 24; i++) { y = r - 2 * r * i / 24; pts.push(y >= 0 ? [s, y, 0] : [onSide(y, 0)[0], y, 0]); }
+    both(pts, "circle", "red", 1.2, true);
+  })();
+
+  // jaw line, from below the ear to the corner of the jaw and on toward the chin
+  (function () {
+    var pts = [], i, y, corner = surf(-1.02, 0.75 * Math.PI);
+    for (i = 0; i <= 14; i++) {
+      y = G.nose - 0.02 + (-1.02 - G.nose + 0.02) * i / 14;
+      pts.push(onSide(y, -0.12 + (corner[2] + 0.12) * i / 14));
+    }
+    for (i = 1; i <= 12; i++) pts.push(surf(-1.02 - 0.19 * i / 12, 0.75 * Math.PI));
+    both(pts, "feature", "ink", 1.5, false);
+  })();
+
+  // eyes: an eyeball swelling under the lids, an uneven lid opening, iris and pupil
+  (function () {
+    var es = HEAD.eyeScale, wd = HEAD.eyeWidth * es, ex = (HEAD.eyeHalfGap + HEAD.eyeWidth / 2) * HEAD.eyeSep, x0 = ex - wd / 2;
+    var ey = Y.eye, open = HEAD.eyeOpen * es, i, j, u, a;
+    function lift(x, y) {                       // the ball of the eye pushing the lids forward
+      var dx = (Math.abs(x) - ex) / (0.19 * es), dy = (y - ey) / (0.125 * es), d = dx * dx + dy * dy;
+      return d >= 1 ? 0 : 0.05 * es * Math.pow(1 - d, 0.8);
+    }
+    function onEye(y, x) { var p = onFace(y, x); p[2] += lift(x, y) + 0.004; return p; }
+    function base(u) { return ey - 0.012 + 0.026 * u; }                                   // outer corner sits a little higher
+    function upY(u) { return base(u) + open * 1.05 * Math.sin(Math.PI * Math.pow(u, 0.72)); }  // upper lid peaks toward the nose
+    function loY(u) { return base(u) - open * 0.55 * Math.sin(Math.PI * Math.pow(u, 1.45)); }  // lower lid dips toward the ear
+    var up = [], lo = [], crease = [], iris = [], pupil = [], brow = [];
+    up.push(onEye(base(0) - 0.016, x0 - 0.03));                                           // tear duct
+    for (i = 0; i <= 24; i++) { u = i / 24; up.push(onEye(upY(u), x0 + wd * u)); lo.push(onEye(loY(u), x0 + wd * u)); }
+    up.push(onEye(base(1) - 0.014, x0 + wd + 0.022));                                     // upper lid overlaps the lower
+    for (i = 0; i <= 20; i++) { u = 0.06 + 0.9 * i / 20; crease.push(onEye(upY(u) + 0.026 + 0.016 * Math.sin(Math.PI * u), x0 + wd * u)); }
+    var icx = ex - 0.004, icy = ey + 0.012;
+    for (i = 0; i <= 32; i++) {
+      a = i * 2 * Math.PI / 32;
+      var ix = icx + 0.058 * es * Math.cos(a), iy = icy + 0.058 * es * Math.sin(a);
+      u = (ix - x0) / wd; iy = Math.max(loY(u), Math.min(upY(u), iy));                    // the lids cover part of the iris
+      iris.push(onEye(iy, ix));
+    }
+    for (i = 0; i <= 12; i++) { a = i * 2 * Math.PI / 12; pupil.push(onEye(icy + 0.016 * Math.sin(a), icx + 0.016 * Math.cos(a))); }
+    for (i = 0; i <= 20; i++) {
+      u = i / 20;
+      brow.push(onFace(0.035 + 0.05 * Math.sin(Math.PI * (0.15 + 0.85 * u)) - 0.05 * u * u, x0 - 0.03 + (wd + 0.09) * u));
+    }
+    both(up, "feature", "ink", 2.2, false);
+    both(lo, "feature", "ink", 1.1, false);
+    both(crease, "feature", "ink", 0.9, false);
+    both(iris, "feature", "ink", 1.3, false);
+    both(pupil, "feature", "ink", 3.0, false);
+    both(brow, "feature", "ink", 2.6, false);
+    [1, -1].forEach(function (side) {            // the swelling itself, so light and shadow can model it
+      var NR = 7, NS = 28, c = addVert(onFace(ey, side * ex), 0), ids = [];
+      verts[c * 3 + 2] += lift(ex, ey);
+      for (i = 1; i <= NR; i++) {
+        ids.push([]);
+        for (j = 0; j < NS; j++) {
+          a = j * 2 * Math.PI / NS;
+          var px = side * (ex + 0.19 * es * (i / NR) * Math.cos(a)), py = ey + 0.125 * es * (i / NR) * Math.sin(a);
+          var q = onFace(py, px); q[2] += lift(px, py);
+          ids[i - 1].push(addVert(q, 0));
+        }
+      }
+      for (j = 0; j < NS; j++) addTri(c, ids[0][j], ids[0][(j + 1) % NS], 2);
+      for (i = 0; i < NR - 1; i++)
+        for (j = 0; j < NS; j++) {
+          var k = (j + 1) % NS;
+          addTri(ids[i][j], ids[i + 1][j], ids[i][k], 2); addTri(ids[i][k], ids[i + 1][j], ids[i + 1][k], 2);
+        }
+    });
+    var cheek = [];
+    for (i = 0; i <= 14; i++) { u = i / 14; cheek.push(surf(HEAD.cheekY - 0.05 - 0.10 * u * u, 1.28 - 0.62 * u)); }
+    both(cheek, "feature", "ink", 1.0, false);
+  })();
+
+  // lips: a bowed upper lip, a fuller lower lip, and the groove under the nose
+  (function () {
+    var mw = HEAD.mouthHalfWidth, ym = Y.mouth, hu = 0.07, hl = 0.092, i, j, q;
+    function mid(q) {          // the line between the lips, with its small dip under the center of the upper lip
+      var e = Math.abs(q);
+      return ym + 0.014 * q * q - 0.011 * Math.exp(-(q / 0.17) * (q / 0.17)) + 0.007 * Math.exp(-Math.pow((e - 0.38) / 0.2, 2));
+    }
+    function top(q) { var e = Math.abs(q); return mid(q) + hu * Math.pow(1 - e, 0.8) * (1 - 0.24 * Math.exp(-(q / 0.12) * (q / 0.12))); }
+    function bot(q) { return mid(q) - hl * Math.pow(Math.max(0, 1 - q * q), 0.75); }
+    function lip(q, f) {       // f: -1 = bottom of lower lip, 0 = between the lips, 1 = top of upper lip
+      var y = f >= 0 ? mid(q) + (top(q) - mid(q)) * f : mid(q) + (bot(q) - mid(q)) * -f;
+      var p = onFace(y, q * mw), swell = (f >= 0 ? 0.026 : 0.04) * Math.pow(Math.sin(Math.PI * Math.abs(f)), 0.8);
+      p[2] += 0.004 + swell * Math.sqrt(Math.max(0, 1 - q * q));
+      return p;
+    }
+    var NQ = 28, NF = 12, ids = [], between = [], upper = [], lower = [];
+    for (i = 0; i <= NF; i++) { ids.push([]); for (j = 0; j <= NQ; j++) ids[i].push(addVert(lip(-1 + 2 * j / NQ, -1 + 2 * i / NF), 0)); }
+    for (i = 0; i < NF; i++)
+      for (j = 0; j < NQ; j++) {
+        addTri(ids[i][j], ids[i][j + 1], ids[i + 1][j], 2); addTri(ids[i][j + 1], ids[i + 1][j + 1], ids[i + 1][j], 2);
+      }
+    for (i = 0; i <= 40; i++) { q = -1 + 2 * i / 40; between.push(lip(q, 0)); upper.push(lip(q, 1)); }
+    for (i = 0; i <= 24; i++) { q = -0.62 + 1.24 * i / 24; lower.push(lip(q, -1)); }
+    addLine(between, "feature", "ink", 1.9, false);
+    addLine(upper, "feature", "ink", 1.0, false);
+    addLine(lower, "feature", "ink", 1.1, false);
+    var groove = [onFace(Y.nose - 0.025, 0.03), onFace((Y.nose + top(0.14)) / 2, 0.034), onFace(top(0.14) + 0.006, 0.14 * mw)];
+    both(groove, "feature", "ink", 0.8, false);
+  })();
+
+  // nose: a rounded ridge that grows out of the face, widest at the wings
+  (function () {
+    var by = HEAD.noseBridgeY, out = HEAD.noseOut * HEAD.noseProj, nw = HEAD.noseHalfWidth;
+    var NA = 20, NB = 14, vt = 0.84, i, j, ids = [], base = [], wingL = [], wingR = [];
+    function height(v) {            // side profile: gentle scoop to the tip, then rounded under
+      if (v <= vt) return out * (0.07 + 0.93 * Math.pow(v / vt, 1.3));
+      var q = (v - vt) / (1 - vt);
+      return out * (0.2 + 0.8 * Math.sqrt(Math.max(0, 1 - q * q)));
+    }
+    function point(v, u) {
+      var w = 0.048 + (nw - 0.048) * smooth(0.4, 0.92, v);
+      var p = onFace(by + (Y.nose - by) * v, u * w);
+      p[2] += 0.004 + height(v) * (1 - Math.pow(Math.abs(u), 2.4));
+      return p;
+    }
+    for (i = 0; i <= NA; i++) { ids.push([]); for (j = 0; j <= NB; j++) ids[i].push(addVert(point(i / NA, -1 + 2 * j / NB), 0)); }
+    for (i = 0; i < NA; i++)
+      for (j = 0; j < NB; j++) {
+        addTri(ids[i][j], ids[i + 1][j], ids[i][j + 1], 2);
+        addTri(ids[i][j + 1], ids[i + 1][j], ids[i + 1][j + 1], 2);
+      }
+    for (j = 0; j <= 24; j++) base.push(point(0.975, -0.95 + 1.9 * j / 24));
+    for (i = 0; i <= 12; i++) {
+      var v = 0.62 + 0.355 * i / 12, a = point(v, 0.95);
+      wingL.push(a); wingR.push([-a[0], a[1], a[2]]);
+    }
+    addLine(base, "feature", "ink", 1.5, false);
+    addLine(wingL, "feature", "ink", 1.1, false);
+    addLine(wingR, "feature", "ink", 1.1, false);
+  })();
+
+  // ears: a flat plate hinged at its front edge, between brow and nose
+  (function () {
+    earStart = vgroup.length;
+    var h = r / 2, ct = Math.cos(0.62), st = Math.sin(0.62);
+    function ear(a, k, side) {
+      var u = 0.16 + k * 0.16 * Math.cos(a) * (0.8 + 0.2 * Math.sin(a)) + 0.06 * k * Math.sin(a);
+      return [side * (s + 0.004 + u * st), -h + k * h * Math.sin(a), -0.04 - u * ct];
+    }
+    [1, -1].forEach(function (side) {
+      var rim = [], inner = [], i, ids = [];
+      for (i = 0; i <= 36; i++) rim.push(ear(i * 2 * Math.PI / 36, 1, side));
+      for (i = 0; i <= 20; i++) inner.push(ear(-0.9 + 4.4 * i / 20, 0.58, side));
+      var c = addVert(ear(0, 0, side), 0);
+      for (i = 0; i < 36; i++) ids.push(addVert(rim[i], 0));
+      for (i = 0; i < 36; i++) addTri(c, ids[i], ids[(i + 1) % 36], 2);
+      addLine(rim, "feature", "ink", 1.6, false);
+      addLine(inner, "feature", "ink", 1.0, false);
+    });
+  })();
+
+  /* ---------- typed arrays, normals, shared edges ---------- */
+  NV = vgroup.length; NT = tgroup.length;
+  V = new Float32Array(verts); TRI = new Uint32Array(tris);
+  NRM = new Float32Array(NV * 3);
+  (function () {
+    for (var t = 0; t < NT; t++) {
+      var a = TRI[t * 3] * 3, b = TRI[t * 3 + 1] * 3, c = TRI[t * 3 + 2] * 3;
+      var ux = V[b] - V[a], uy = V[b + 1] - V[a + 1], uz = V[b + 2] - V[a + 2];
+      var vx = V[c] - V[a], vy = V[c + 1] - V[a + 1], vz = V[c + 2] - V[a + 2];
+      var nx = uy * vz - uz * vy, ny = uz * vx - ux * vz, nz = ux * vy - uy * vx;
+      [a, b, c].forEach(function (i) { NRM[i] += nx; NRM[i + 1] += ny; NRM[i + 2] += nz; });
+    }
+    for (var i = 0; i < NV * 3; i += 3) {
+      var l = Math.hypot(NRM[i], NRM[i + 1], NRM[i + 2]) || 1;
+      NRM[i] /= l; NRM[i + 1] /= l; NRM[i + 2] /= l;
+    }
+  })();
+  EDGE = (function () {
+    var map = new Map(), out = [];
+    for (var t = 0; t < NT; t++) {
+      for (var k = 0; k < 3; k++) {
+        var a = TRI[t * 3 + k], b = TRI[t * 3 + (k + 1) % 3];
+        var key = a < b ? a * NV + b : b * NV + a;
+        if (map.has(key)) out.push(a, b, map.get(key), t); else map.set(key, t);
+      }
+    }
+    return new Uint32Array(out);
+  })();
+  // how squarely each point of the surface faces forward: decides how much photo it takes
+  NZ = new Float32Array(NV);
+  var sg = NRM[18 * 96 * 3 + 2] < 0 ? -1 : 1, sn2 = NRM[gridEnd * 3 + 2] < 0 ? -1 : 1;
+  for (var vi = 0; vi < NV; vi++) NZ[vi] = vi < gridEnd ? sg * NRM[vi * 3 + 2] : vi < neckEnd ? sn2 * NRM[vi * 3 + 2] : Math.abs(NRM[vi * 3 + 2]);
+  TUa = new Float32Array(NV); TVa = new Float32Array(NV); TWa = new Float32Array(NV);
+  chinPoint = surf(Y.chin, 0);
+  TV = new Float32Array(NV * 3); LV = new Float32Array(NV * 3); SH = new Float32Array(NV); facing = new Int8Array(NT);
+  }   // end of build()
+
+  /* ------------------------------------------------------------------
+     DRAWING
+  ------------------------------------------------------------------ */
+  var canvas = document.getElementById("view"), ctx = canvas.getContext("2d");
+  var board = document.getElementById("board");
+  var B = 600, SPAN = 3.2, VIEW_Y = -0.5, EPS = 0.04;
+  var zbuf = new Float32Array(B * B), sbuf = new Float32Array(B * B);
+  var ubuf = new Float32Array(B * B), vbuf = new Float32Array(B * B), wbuf = new Float32Array(B * B);
+  var off = document.createElement("canvas"); off.width = off.height = B;
+  var offCtx = off.getContext("2d"), img = offCtx.createImageData(B, B);
+  var needBuild = true;
+  var SBN = 420, SSPAN = 3.9;                         // the light's own depth picture, for cast shadows
+  var smap = new Float32Array(SBN * SBN), LV = new Float32Array(0);
+  var light = { turn: -35, height: 38, strength: 25 };
+  var texDirty = true;
+  var state = { turn: -30, tilt: 0 };
+  var opt = {};
+  var cssW = 800, cssH = 640, dpr = 1, colors = {};
+
+  function readColors() {
+    var cs = getComputedStyle(document.documentElement);
+    ["ink", "muted", "blue", "red", "form-light", "form-shade", "paper"].forEach(function (k) {
+      var v = cs.getPropertyValue("--" + k).trim(), h = v.replace("#", "");
+      colors[k] = v;
+      colors[k + "_rgb"] = [parseInt(h.slice(0, 2), 16), parseInt(h.slice(2, 4), 16), parseInt(h.slice(4, 6), 16)];
+    });
+  }
+
+  function resize() {
+    cssW = Math.max(280, board.clientWidth);
+    cssH = Math.round(Math.max(300, Math.min(cssW * 1.02, window.innerHeight ? Math.max(420, window.innerHeight - 60) : 700, 760)));
+    dpr = Math.min(2, window.devicePixelRatio || 1);
+    canvas.width = Math.round(cssW * dpr); canvas.height = Math.round(cssH * dpr);
+    canvas.style.height = cssH + "px";
+    schedule();
+  }
+
+  function raster(i0, i1, i2, t) {
+    var sb = B / SPAN, h = B / 2;
+    var ax = h + TV[i0] * sb, ay = h - (TV[i0 + 1] - VIEW_Y) * sb, az = TV[i0 + 2];
+    var bx = h + TV[i1] * sb, by = h - (TV[i1 + 1] - VIEW_Y) * sb, bz = TV[i1 + 2];
+    var cx = h + TV[i2] * sb, cy = h - (TV[i2 + 1] - VIEW_Y) * sb, cz = TV[i2 + 2];
+    var area = (bx - ax) * (cy - ay) - (by - ay) * (cx - ax);
+    if (area > -1e-7 && area < 1e-7) { facing[t] = 0; return; }
+    facing[t] = area > 0 ? 1 : -1;
+    var minX = Math.max(0, Math.floor(Math.min(ax, bx, cx))), maxX = Math.min(B - 1, Math.ceil(Math.max(ax, bx, cx)));
+    var minY = Math.max(0, Math.floor(Math.min(ay, by, cy))), maxY = Math.min(B - 1, Math.ceil(Math.max(ay, by, cy)));
+    if (minX > maxX || minY > maxY) return;
+    var inv = 1 / area, v0 = i0 / 3, v1 = i1 / 3, v2 = i2 / 3, s0 = SH[v0], s1 = SH[v1], s2 = SH[v2];
+    for (var py = minY; py <= maxY; py++) {
+      var y = py + 0.5;
+      for (var px = minX; px <= maxX; px++) {
+        var x = px + 0.5;
+        var w0 = ((bx - x) * (cy - y) - (by - y) * (cx - x)) * inv;
+        var w1 = ((cx - x) * (ay - y) - (cy - y) * (ax - x)) * inv;
+        var w2 = 1 - w0 - w1;
+        if (w0 < -0.001 || w1 < -0.001 || w2 < -0.001) continue;
+        var z = w0 * az + w1 * bz + w2 * cz, idx = py * B + px;
+        if (z > zbuf[idx]) {
+          zbuf[idx] = z; sbuf[idx] = w0 * s0 + w1 * s1 + w2 * s2;
+          ubuf[idx] = w0 * TUa[v0] + w1 * TUa[v1] + w2 * TUa[v2];
+          vbuf[idx] = w0 * TVa[v0] + w1 * TVa[v1] + w2 * TVa[v2];
+          wbuf[idx] = w0 * TWa[v0] + w1 * TWa[v1] + w2 * TWa[v2];
+        }
+      }
+    }
+  }
+
+  // the same solid as seen from the light: keeps the surface nearest the light at each spot
+  function rasterShadow(i0, i1, i2) {
+    var k = SBN / SSPAN, h = SBN / 2;
+    var ax = h + LV[i0] * k, ay = h - LV[i0 + 1] * k, az = LV[i0 + 2];
+    var bx = h + LV[i1] * k, by = h - LV[i1 + 1] * k, bz = LV[i1 + 2];
+    var cx = h + LV[i2] * k, cy = h - LV[i2 + 1] * k, cz = LV[i2 + 2];
+    var area = (bx - ax) * (cy - ay) - (by - ay) * (cx - ax);
+    if (area > -1e-7 && area < 1e-7) return;
+    var minX = Math.max(0, Math.floor(Math.min(ax, bx, cx))), maxX = Math.min(SBN - 1, Math.ceil(Math.max(ax, bx, cx)));
+    var minY = Math.max(0, Math.floor(Math.min(ay, by, cy))), maxY = Math.min(SBN - 1, Math.ceil(Math.max(ay, by, cy)));
+    var inv = 1 / area;
+    for (var py = minY; py <= maxY; py++) {
+      var y = py + 0.5;
+      for (var px = minX; px <= maxX; px++) {
+        var x = px + 0.5;
+        var w0 = ((bx - x) * (cy - y) - (by - y) * (cx - x)) * inv;
+        var w1 = ((cx - x) * (ay - y) - (cy - y) * (ax - x)) * inv;
+        var w2 = 1 - w0 - w1;
+        if (w0 < -0.001 || w1 < -0.001 || w2 < -0.001) continue;
+        var z = w0 * az + w1 * bz + w2 * cz, idx = py * SBN + px;
+        if (z > smap[idx]) smap[idx] = z;
+      }
+    }
+  }
+
+  // Is a point at this depth in front of everything drawn at this spot?
+  function visible(x, y, z) {
+    var sb = B / SPAN, px = Math.floor(B / 2 + x * sb), py = Math.floor(B / 2 - (y - VIEW_Y) * sb);
+    if (px < 1 || py < 1 || px > B - 2 || py > B - 2) return true;
+    var far = Infinity;
+    for (var dy = -1; dy <= 1; dy++)
+      for (var dx = -1; dx <= 1; dx++) { var v = zbuf[(py + dy) * B + px + dx]; if (v < far) far = v; }
+    return far <= z + EPS;
+  }
+
+  var pending = false;
+
+  /* ------------------------------------------------------------------
+     THE PHOTO: seven dots mark the features. From them the page works
+     out the head's proportions and where each part of the photo lands
+     on the head.
+  ------------------------------------------------------------------ */
+  var EXAMPLE = "";          // optional sample photo (a data: address); empty = start with no photo
+  var EXAMPLE_DOTS = [[0.4263, 0.4085], [0.5505, 0.4123], [0.4776, 0.553], [0.4749, 0.626], [0.480, 0.7586], [0.3454, 0.45], [0.6557, 0.45], [0.3373, 0.5247], [0.6611, 0.5247]];
+  var GUESS_DOTS = [[0.40, 0.40], [0.60, 0.40], [0.50, 0.55], [0.50, 0.64], [0.50, 0.78], [0.30, 0.45], [0.70, 0.45], [0.28, 0.53], [0.72, 0.53]];
+  var DOT_NAMES = ["Pupil", "Pupil", "Base of nose", "Between lips", "Bottom of chin", "Cheek", "Cheek", "Ear base", "Ear base"];
+  var photo = null, dots = [], skin = [200, 170, 150];
+  var pcan = document.getElementById("photo"), pctx = pcan.getContext("2d"), photoBoard = document.getElementById("photoBoard");
+  var pW = 400, pH = 300, pScale = 1;
+
+  function loadPhoto(src, fractions) {
+    var im = new Image();
+    im.onload = function () {
+      var k = Math.min(1, 1400 / Math.max(im.width, im.height));
+      var c = document.createElement("canvas"); c.width = Math.round(im.width * k); c.height = Math.round(im.height * k);
+      var g = c.getContext("2d"); g.drawImage(im, 0, 0, c.width, c.height);
+      photo = { w: c.width, h: c.height, canvas: c, data: g.getImageData(0, 0, c.width, c.height).data };
+      dots = fractions.map(function (f) { return [f[0] * c.width, f[1] * c.height]; });
+      pcan.hidden = false; document.getElementById("empty").hidden = true;
+      resizePhoto(); refit();
+    };
+    im.src = src;
+  }
+
+  // the photo's own ruler: where the eye line is, which way is up, and how many pixels make one head unit
+  function frame() {
+    var L = dots[0], R = dots[1];
+    if (L[0] > R[0]) { var tmp = L; L = R; R = tmp; }
+    var mx = (L[0] + R[0]) / 2, my = (L[1] + R[1]) / 2, dx = R[0] - L[0], dy = R[1] - L[1], len = Math.hypot(dx, dy) || 1;
+    var e1x = dx / len, e1y = dy / len, e2x = e1y, e2y = -e1x;
+    function below(p) { return -((p[0] - mx) * e2x + (p[1] - my) * e2y); }
+    var s = Math.max(20, below(dots[4])) / (Y.eye - Y.chin);
+    return { mx: mx, my: my, e1x: e1x, e1y: e1y, e2x: e2x, e2y: e2y, s: s, below: below, eyes: len };
+  }
+  function clamp(v, a, b) { return v < a ? a : v > b ? b : v; }
+
+  function fit() {
+    if (!photo) return;
+    var f = frame();
+    var half = Math.abs((dots[6][0] - dots[5][0]) * f.e1x + (dots[6][1] - dots[5][1]) * f.e1y) / 2;
+    // the ear bases set the width of the whole head; the cheek dots then set how wide the face is within it
+    var earHalf = Math.abs((dots[8][0] - dots[7][0]) * f.e1x + (dots[8][1] - dots[7][1]) * f.e1y) / 2;
+    HEAD.faceX = clamp(earHalf / f.s / 0.72, 0.75, 1.35);
+    HEAD.cheekWidth = clamp(half / f.s / HEAD.faceX, 0.6, 0.86);
+    HEAD.eyeSep = clamp(f.eyes / 2 / f.s / HEAD.faceX / (HEAD.eyeHalfGap + HEAD.eyeWidth / 2), 0.7, 1.3);
+    HEAD.noseLen = clamp(-(Y.eye - f.below(dots[2]) / f.s) / r, 0.7, 1.35);
+    var yn = -r * HEAD.noseLen, ym = Y.eye - f.below(dots[3]) / f.s;
+    HEAD.mouthDrop = clamp((ym - yn) / (Y.chin - yn), 0.2, 0.55);
+  }
+
+  function computeTex() {
+    if (!photo) return;
+    var f = frame(), i, n = 0, acc = [0, 0, 0];
+    for (i = 0; i < NV; i++) {
+      var x = V[i * 3] * (vgroup[i] === 0 ? HEAD.faceX : 1), dy = V[i * 3 + 1] - Y.eye;
+      TUa[i] = f.mx + f.s * (x * f.e1x + dy * f.e2x);
+      TVa[i] = f.my + f.s * (x * f.e1y + dy * f.e2y);
+      TWa[i] = i >= earStart ? 0 : smooth(0.08, 0.42, NZ[i]);      // the ears stay plain: a front photo cannot place them
+    }
+    // a plain skin tone for the sides and back, averaged from the forehead and cheeks
+    [[0, 0.3], [0.38, -0.42], [-0.38, -0.42], [0, -1.05]].forEach(function (m) {
+      var px = Math.round(f.mx + f.s * (m[0] * HEAD.faceX * f.e1x + (m[1] - Y.eye) * f.e2x));
+      var py = Math.round(f.my + f.s * (m[0] * HEAD.faceX * f.e1y + (m[1] - Y.eye) * f.e2y));
+      for (var oy = -3; oy <= 3; oy++) for (var ox = -3; ox <= 3; ox++) {
+        var qx = px + ox, qy = py + oy;
+        if (qx < 0 || qy < 0 || qx >= photo.w || qy >= photo.h) continue;
+        var a = (qy * photo.w + qx) * 4; acc[0] += photo.data[a]; acc[1] += photo.data[a + 1]; acc[2] += photo.data[a + 2]; n++;
+      }
+    });
+    if (n) skin = [acc[0] / n, acc[1] / n, acc[2] / n];
+  }
+
+  function resizePhoto() {
+    if (!photo) return;
+    pW = Math.max(240, photoBoard.clientWidth); pScale = pW / photo.w; pH = Math.round(photo.h * pScale);
+    var k = Math.min(2, window.devicePixelRatio || 1);
+    pcan.width = Math.round(pW * k); pcan.height = Math.round(pH * k); pcan.style.height = pH + "px";
+    drawPhoto();
+  }
+  function drawPhoto() {
+    if (!photo) return;
+    var k = pcan.width / pW;
+    pctx.setTransform(k, 0, 0, k, 0, 0);
+    pctx.drawImage(photo.canvas, 0, 0, pW, pH);
+    var f = frame(), s = pScale;
+    // the eye line and the center line the fit is using
+    pctx.lineWidth = 1.2; pctx.strokeStyle = "rgba(255,255,255,0.85)"; pctx.setLineDash([5, 4]);
+    pctx.beginPath();
+    pctx.moveTo((f.mx - f.e1x * f.s) * s, (f.my - f.e1y * f.s) * s); pctx.lineTo((f.mx + f.e1x * f.s) * s, (f.my + f.e1y * f.s) * s);
+    pctx.moveTo((f.mx + f.e2x * f.s * 1.2) * s, (f.my + f.e2y * f.s * 1.2) * s);
+    pctx.lineTo((f.mx - f.e2x * f.s * 1.25) * s, (f.my - f.e2y * f.s * 1.25) * s);
+    pctx.stroke(); pctx.setLineDash([]);
+    pctx.font = "600 12px Figtree, 'Segoe UI', system-ui, sans-serif"; pctx.textBaseline = "middle";
+    dots.forEach(function (p, i) {
+      var x = p[0] * s, y = p[1] * s, right = i !== 5 && i !== 7 && !(i === 0 && dots[0][0] < dots[1][0]) && !(i === 1 && dots[1][0] < dots[0][0]);
+      pctx.beginPath(); pctx.arc(x, y, 7, 0, 2 * Math.PI);
+      pctx.fillStyle = i < 2 ? "#3d9be9" : i < 5 ? "#ef5b41" : i < 7 ? "#f2c230" : "#4fbf7a"; pctx.fill();
+      pctx.lineWidth = 2; pctx.strokeStyle = "#fff"; pctx.stroke();
+      pctx.beginPath(); pctx.arc(x, y, 1.5, 0, 2 * Math.PI); pctx.fillStyle = "#fff"; pctx.fill();
+      var label = DOT_NAMES[i], tw = pctx.measureText(label).width;
+      var tx = right ? x + 12 : x - 12 - tw, ty = i < 2 ? y - 16 : y;
+      if (i < 2) tx = x - tw / 2;
+      pctx.lineWidth = 3; pctx.strokeStyle = "rgba(0,0,0,0.75)"; pctx.strokeText(label, tx, ty);
+      pctx.fillStyle = "#fff"; pctx.fillText(label, tx, ty);
+    });
+  }
+
+  var grabbed = -1;
+  function photoPoint(e) { var b = pcan.getBoundingClientRect(); return [(e.clientX - b.left) / pScale, (e.clientY - b.top) / pScale]; }
+  pcan.addEventListener("pointerdown", function (e) {
+    if (!photo) return;
+    var p = photoPoint(e), best = 30 / pScale; grabbed = -1;
+    dots.forEach(function (d, i) { var dist = Math.hypot(d[0] - p[0], d[1] - p[1]); if (dist < best) { best = dist; grabbed = i; } });
+    if (grabbed >= 0) { try { pcan.setPointerCapture(e.pointerId); } catch (err) {} e.preventDefault(); }
+  });
+  pcan.addEventListener("pointermove", function (e) {
+    if (grabbed < 0) { 
+      var p0 = photoPoint(e), near = dots.some(function (d) { return Math.hypot(d[0] - p0[0], d[1] - p0[1]) < 30 / pScale; });
+      pcan.style.cursor = near ? "grab" : "default"; return;
+    }
+    var p = photoPoint(e);
+    dots[grabbed] = [clamp(p[0], 0, photo.w), clamp(p[1], 0, photo.h)];
+    refit();
+  });
+  ["pointerup", "pointercancel"].forEach(function (n) { pcan.addEventListener(n, function () { grabbed = -1; }); });
+  pcan.style.touchAction = "none";
+
+  function readFile(file) {
+    if (!file || !/^image\//.test(file.type)) return;
+    var fr = new FileReader();
+    fr.onload = function () { loadPhoto(fr.result, GUESS_DOTS); };
+    fr.readAsDataURL(file);
+  }
+  document.getElementById("file").addEventListener("change", function (e) { readFile(e.target.files[0]); e.target.value = ""; });
+  photoBoard.addEventListener("dragover", function (e) { e.preventDefault(); });
+  photoBoard.addEventListener("drop", function (e) { e.preventDefault(); if (e.dataTransfer && e.dataTransfer.files[0]) readFile(e.dataTransfer.files[0]); });
+  if (window.ResizeObserver) new ResizeObserver(resizePhoto).observe(photoBoard); else window.addEventListener("resize", resizePhoto);
+
+  function schedule() { if (!pending) { pending = true; requestAnimationFrame(draw); } }
+
+  function draw() {
+    pending = false;
+    if (needBuild) { build(); needBuild = false; texDirty = true; }
+    if (texDirty) { computeTex(); texDirty = false; }
+    var W = cssW, H = cssH;
+    var labelCol = opt.labels ? (W < 560 ? 92 : 150) : 0;
+    var sq = Math.min(H, W - labelCol), sc = sq / SPAN, cx = (W - labelCol) / 2, cy = H / 2;
+    var ya = state.turn * Math.PI / 180, pa = state.tilt * Math.PI / 180;
+    var ca = Math.cos(ya), sa = Math.sin(ya), cp = Math.cos(pa), sp = Math.sin(pa);
+    // direction toward the light, fixed in the room while the head turns
+    var la = light.turn * Math.PI / 180, le = light.height * Math.PI / 180;
+    var lx = Math.sin(la) * Math.cos(le), ly = Math.sin(le), lz = Math.cos(la) * Math.cos(le);
+    var rl = Math.hypot(lz, lx), Rx = lz / rl, Rz = -lx / rl;                 // light's "right"
+    var Ux = ly * Rz, Uy = lz * Rx - lx * Rz, Uz = -ly * Rx;                  // light's "up"
+    var FX = HEAD.faceX;
+    function head(x, y, z, o) {
+      x *= FX;
+      var dy = y - PIVOT[1], dz = z - PIVOT[2];
+      var y1 = dy * cp + dz * sp + PIVOT[1], z1 = -dy * sp + dz * cp + PIVOT[2];
+      o[0] = x * ca + z1 * sa; o[1] = y1; o[2] = -x * sa + z1 * ca;
+    }
+    function SX(x) { return cx + x * sc; }
+    function SY(y) { return cy - (y - VIEW_Y) * sc; }
+    var o = [0, 0, 0], i, t;
+
+    // 1. move every point of the solid, and work out its shading
+    for (i = 0; i < NV; i++) {
+      var k = i * 3, x = V[k], y = V[k + 1], z = V[k + 2], nx = NRM[k], ny = NRM[k + 1], nz = NRM[k + 2];
+      if (vgroup[i] === 0) {
+        head(x, y, z, o);
+        nx /= FX; var nl2 = Math.hypot(nx, ny, nz) || 1; nx /= nl2; ny /= nl2; nz /= nl2;
+        var ny1 = ny * cp + nz * sp, nz1 = -ny * sp + nz * cp; ny = ny1; nz = nz1;
+      } else { o[0] = x * ca + z * sa; o[1] = y; o[2] = -x * sa + z * ca; }
+      var rx = nx * ca + nz * sa, rz = -nx * sa + nz * ca;
+      if (rz < 0) { rx = -rx; ny = -ny; rz = -rz; }
+      TV[k] = o[0]; TV[k + 1] = o[1]; TV[k + 2] = o[2];
+      var qy = o[1] - VIEW_Y;
+      LV[k] = o[0] * Rx + o[2] * Rz; LV[k + 1] = o[0] * Ux + qy * Uy + o[2] * Uz; LV[k + 2] = o[0] * lx + qy * ly + o[2] * lz;
+      SH[i] = Math.max(0, rx * lx + ny * ly + rz * lz);
+    }
+
+    // 2. depth picture of the solid
+    zbuf.fill(-Infinity); smap.fill(-Infinity);
+    var castShadows = opt.shade && light.strength > 0;
+    for (t = 0; t < NT; t++) {
+      var g = tgroup[t];
+      if (g === 1 && !opt.neck) { facing[t] = 0; continue; }
+      raster(TRI[t * 3] * 3, TRI[t * 3 + 1] * 3, TRI[t * 3 + 2] * 3, t);
+      if (castShadows) rasterShadow(TRI[t * 3] * 3, TRI[t * 3 + 1] * 3, TRI[t * 3 + 2] * 3);
+    }
+
+    // 3. paint the form: light and shade, plus shadows cast by one part onto another
+    var d = img.data, li = colors["form-light_rgb"], da = colors["form-shade_rgb"];
+    var usePhoto = opt.photo && photo, PD = photo ? photo.data : null, PW = photo ? photo.w : 0, PH = photo ? photo.h : 0;
+    var gain = opt.shade ? light.strength / 45 : 0, sbv = B / SPAN, ks = SBN / SSPAN, hs = SBN / 2;
+    for (var ry = 0; ry < B; ry++) {
+      var vy = (B / 2 - (ry + 0.5)) / sbv;
+      for (var rx2 = 0; rx2 < B; rx2++) {
+        i = ry * B + rx2; var p = i * 4, zz = zbuf[i];
+        if (zz === -Infinity) { d[p + 3] = 0; continue; }
+        var dark = 0;
+        if (gain > 0) {
+          var vx = (rx2 + 0.5 - B / 2) / sbv, lit = Math.pow(sbuf[i], 0.85);
+          if (lit > 0.02) {
+            var su = Math.floor(hs + (vx * Rx + zz * Rz) * ks), sv = Math.floor(hs - (vx * Ux + vy * Uy + zz * Uz) * ks);
+            var nl = sbuf[i] > 1 ? 1 : sbuf[i];       // surfaces that skim the light need more tolerance
+            var depth = vx * lx + vy * ly + zz * lz + 0.025 + 0.016 * Math.min(8, Math.sqrt(1 - nl * nl) / nl), hit = 0;
+            if (su > 0 && sv > 0 && su < SBN - 1 && sv < SBN - 1) {
+              for (var oy = -1; oy <= 1; oy++)
+                for (var ox = -1; ox <= 1; ox++) if (smap[(sv + oy) * SBN + su + ox] > depth) hit++;
+            }
+            lit *= 1 - 0.9 * hit / 9;
+          }
+          dark = (1 - (0.1 + 0.9 * lit)) * gain;
+        }
+        if (usePhoto) {
+          // colour from the photo where the surface faces forward, fading to a plain skin tone round the sides
+          var w = wbuf[i], tu = ubuf[i] - 0.5, tv = vbuf[i] - 0.5, c0 = skin[0], c1 = skin[1], c2 = skin[2];
+          if (w > 0.004 && tu >= 0 && tv >= 0 && tu < PW - 1 && tv < PH - 1) {
+            var x0 = tu | 0, y0 = tv | 0, fx = tu - x0, fy = tv - y0, a = (y0 * PW + x0) * 4, b2 = a + PW * 4;
+            var k00 = (1 - fx) * (1 - fy), k10 = fx * (1 - fy), k01 = (1 - fx) * fy, k11 = fx * fy;
+            c0 += (PD[a] * k00 + PD[a + 4] * k10 + PD[b2] * k01 + PD[b2 + 4] * k11 - c0) * w;
+            c1 += (PD[a + 1] * k00 + PD[a + 5] * k10 + PD[b2 + 1] * k01 + PD[b2 + 5] * k11 - c1) * w;
+            c2 += (PD[a + 2] * k00 + PD[a + 6] * k10 + PD[b2 + 2] * k01 + PD[b2 + 6] * k11 - c2) * w;
+          }
+          var keep = 1 - 0.8 * (dark > 1 ? 1 : dark);
+          d[p] = c0 * keep; d[p + 1] = c1 * keep; d[p + 2] = c2 * keep;
+        } else {
+          for (var c = 0; c < 3; c++) {
+            var col = li[c] + (da[c] - li[c]) * dark;
+            d[p + c] = col < 0 ? 0 : col > 255 ? 255 : col;
+          }
+        }
+        d[p + 3] = 255;
+      }
+    }
+    offCtx.putImageData(img, 0, 0);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.clearRect(0, 0, W, H);
+    ctx.imageSmoothingEnabled = true; ctx.imageSmoothingQuality = "high";
+    ctx.drawImage(off, cx - sq / 2, cy - sq / 2, sq, sq);
+    ctx.lineJoin = "round"; ctx.lineCap = "round";
+
+    // 4. construction lines and features
+    var labels = [];
+    var show = { lat: opt.lat, center: opt.center, circle: opt.circle, feature: opt.features || !photo };      // with no photo yet, show the drawn features
+    for (var pass = 0; pass < 2; pass++) {             // pass 0: hidden parts, pass 1: visible parts
+      for (var li2 = 0; li2 < lines.length; li2++) {
+        var L = lines[li2];
+        if (!show[L.kind]) continue;
+        if (pass === 0 && !(L.dotted && opt.hidden)) continue;
+        if (pass === 0 ? L.kind === "feature" : false) continue;
+        ctx.beginPath();
+        var prevOK = false, px = 0, py = 0, pv = false, best = null;
+        for (i = 0; i < L.n; i++) {
+          head(L.pts[i * 3], L.pts[i * 3 + 1], L.pts[i * 3 + 2], o);
+          var vis = visible(o[0], o[1], o[2]);
+          var X = SX(o[0]), Yp = SY(o[1]);
+          if (i > 0) {
+            var want = pass === 1 ? (vis && pv) : !(vis && pv);
+            if (want) { if (!prevOK) ctx.moveTo(px, py); ctx.lineTo(X, Yp); prevOK = true; } else prevOK = false;
+          }
+          if (pass === 1 && vis && L.label && (!best || X > best[0])) best = [X, Yp];
+          px = X; py = Yp; pv = vis;
+        }
+        ctx.strokeStyle = colors[L.color];
+        ctx.lineWidth = pass === 0 ? Math.max(1, L.width * 0.8) : L.width;
+        ctx.globalAlpha = pass === 0 ? 0.55 : 1;
+        ctx.setLineDash(pass === 0 ? [1.5, 4.5] : []);
+        ctx.stroke();
+        if (best) labels.push({ text: L.label, x: best[0], y: best[1] });
+      }
+    }
+    ctx.globalAlpha = 1; ctx.setLineDash([]);
+
+    // 5. the outline: edges where the form turns away from view
+    ctx.beginPath();
+    for (i = 0; i < EDGE.length; i += 4) {
+      if (facing[EDGE[i + 2]] * facing[EDGE[i + 3]] >= 0) continue;
+      var a3 = EDGE[i] * 3, b3 = EDGE[i + 1] * 3;
+      var mx = (TV[a3] + TV[b3]) / 2, my = (TV[a3 + 1] + TV[b3 + 1]) / 2, mz = (TV[a3 + 2] + TV[b3 + 2]) / 2;
+      if (!visible(mx, my, mz)) continue;
+      if (Math.hypot(TV[a3] - TV[b3], TV[a3 + 1] - TV[b3 + 1]) * sc < 1) continue;   // skip specks
+      ctx.moveTo(SX(TV[a3]), SY(TV[a3 + 1])); ctx.lineTo(SX(TV[b3]), SY(TV[b3 + 1]));
+    }
+    ctx.strokeStyle = colors.ink; ctx.lineWidth = 2.2; ctx.stroke();
+
+    // a small dial showing where the light is: filled dot = in front of the head, ring = behind it
+    if (opt.shade && light.strength > 0) {
+      var gx = 34, gy = 34, gr = 17;
+      ctx.beginPath(); ctx.arc(gx, gy, gr, 0, 2 * Math.PI);
+      ctx.moveTo(gx - gr, gy); ctx.lineTo(gx + gr, gy); ctx.moveTo(gx, gy - gr); ctx.lineTo(gx, gy + gr);
+      ctx.strokeStyle = colors.muted; ctx.globalAlpha = 0.5; ctx.lineWidth = 1; ctx.stroke(); ctx.globalAlpha = 1;
+      ctx.beginPath(); ctx.arc(gx + lx * gr, gy - ly * gr, 4.5, 0, 2 * Math.PI);
+      if (lz >= 0) { ctx.fillStyle = colors.ink; ctx.fill(); }
+      else { ctx.fillStyle = colors.paper; ctx.fill(); ctx.strokeStyle = colors.ink; ctx.lineWidth = 1.5; ctx.stroke(); }
+      ctx.font = "500 12px Figtree, 'Segoe UI', system-ui, sans-serif"; ctx.textBaseline = "middle";
+      ctx.fillStyle = colors.muted; ctx.fillText("Light", gx + gr + 9, gy);
+    }
+
+    // 6. labels in the right margin
+    if (opt.labels) {
+      head(chinPoint[0], chinPoint[1], chinPoint[2], o);
+      if (visible(o[0], o[1], o[2] + 0.05)) labels.push({ text: "Chin", x: SX(o[0]), y: SY(o[1]) });
+      labels.sort(function (a, b) { return a.y - b.y; });
+      var fs = W < 560 ? 11.5 : 13, gap = fs + 5, tx = W - labelCol + 6;
+      for (i = 0; i < labels.length; i++) labels[i].ly = Math.max(labels[i].y, i ? labels[i - 1].ly + gap : fs);
+      for (i = labels.length - 1; i >= 0; i--) {
+        var maxY = i === labels.length - 1 ? H - 26 : labels[i + 1].ly - gap;
+        if (labels[i].ly > maxY) labels[i].ly = maxY;
+      }
+      ctx.font = "500 " + fs + "px Figtree, 'Segoe UI', system-ui, sans-serif";
+      ctx.textBaseline = "middle";
+      labels.forEach(function (lb) {
+        ctx.beginPath();
+        ctx.moveTo(lb.x + 3, lb.y); ctx.lineTo(tx - 14, lb.ly); ctx.lineTo(tx - 5, lb.ly);
+        ctx.strokeStyle = colors.muted; ctx.globalAlpha = 0.55; ctx.lineWidth = 1; ctx.stroke();
+        ctx.globalAlpha = 1;
+        ctx.fillStyle = colors.ink; ctx.fillText(lb.text, tx, lb.ly);
+      });
+    }
+  }
+
+  /* ---------- controls ---------- */
+  var turn = document.getElementById("turn"), tilt = document.getElementById("tilt");
+  var turnOut = document.getElementById("turnOut"), tiltOut = document.getElementById("tiltOut");
+  function describe() {
+    var a = Math.round(state.turn), b = Math.round(state.tilt);
+    turnOut.textContent = a === 0 ? "0° facing you" : Math.abs(a) + "° to the " + (a > 0 ? "right" : "left");
+    tiltOut.textContent = b === 0 ? "0° level" : Math.abs(b) + "° " + (b > 0 ? "up" : "down");
+  }
+  function setView(a, b) {
+    a = ((a + 180) % 360 + 360) % 360 - 180;
+    state.turn = a; state.tilt = Math.max(-70, Math.min(70, b));
+    turn.value = Math.round(state.turn); tilt.value = Math.round(state.tilt);
+    describe(); schedule();
+  }
+  turn.addEventListener("input", function () { setView(+turn.value, state.tilt); });
+  tilt.addEventListener("input", function () { setView(state.turn, +tilt.value); });
+  document.getElementById("presets").addEventListener("click", function (e) {
+    var b = e.target.closest("button"); if (b) setView(+b.dataset.turn, +b.dataset.tilt);
+  });
+  var toggles = { tPhoto: "photo", tLat: "lat", tCen: "center", tCir: "circle", tFea: "features", tNeck: "neck", tHid: "hidden", tShade: "shade", tLab: "labels" };
+  Object.keys(toggles).forEach(function (id) {
+    var el = document.getElementById(id);
+    opt[toggles[id]] = el.checked;
+    el.addEventListener("change", function () { opt[toggles[id]] = el.checked; schedule(); });
+  });
+
+  var props = [
+    ["pWide", function (v) { HEAD.faceX = v / 100; }, function () { return HEAD.faceX * 100; }, pct],
+    ["pCheekW", function (v) { HEAD.cheekWidth = 0.75 * v / 100; }, function () { return HEAD.cheekWidth / 0.75 * 100; }, pct],
+    ["pEye", function (v) { HEAD.eyeSep = v / 100; }, function () { return HEAD.eyeSep * 100; }, pct],
+    ["pSize", function (v) { HEAD.eyeScale = v / 100; }, function () { return HEAD.eyeScale * 100; }, pct],
+    ["pLen", function (v) { HEAD.noseLen = v / 100; }, function () { return HEAD.noseLen * 100; }, pct],
+    ["pProj", function (v) { HEAD.noseProj = v / 100; }, function () { return HEAD.noseProj * 100; }, pct],
+    ["pMouth", function (v) { HEAD.mouthDrop = v / 100; }, function () { return HEAD.mouthDrop * 100; },
+      function (v) { return v + "% of nose to chin"; }],
+    ["pCheek", function (v) { HEAD.cheekY = -0.42 + v * 0.01; }, function () { return (HEAD.cheekY + 0.42) * 100; },
+      function (v) { return v === 0 ? "generic" : Math.abs(v) + (v > 0 ? " higher" : " lower"); }]
+  ];
+  function pct(v) { return v === 100 ? "generic" : (v > 100 ? "+" : "\u2212") + Math.abs(v - 100) + "%"; }
+  function showProp(p) { var el = document.getElementById(p[0]); document.getElementById(p[0] + "Out").textContent = p[3](+el.value); }
+  function applyProp(p) {
+    p[1](+document.getElementById(p[0]).value); showProp(p);
+    needBuild = true; schedule();
+  }
+  // read the dots, set the head to match, and move the sliders to show what was found
+  function refit() {
+    fit();
+    props.forEach(function (p) { document.getElementById(p[0]).value = Math.round(p[2]()); showProp(p); });
+    needBuild = true; schedule(); drawPhoto();
+  }
+  props.forEach(function (p) {
+    document.getElementById(p[0]).addEventListener("input", function () { applyProp(p); });
+    showProp(p);
+  });
+  document.getElementById("resetProps").addEventListener("click", refit);
+
+  [["lStr", "strength", function (v) { return v === 0 ? "off" : v + "%"; }],
+   ["lTurn", "turn", function (v) {
+      var a = Math.abs(v);
+      return a === 0 ? "from the front" : a === 180 ? "from behind" : a + "\u00b0 " + (v > 0 ? "right" : "left") + (a > 90 ? ", behind" : "");
+    }],
+   ["lHigh", "height", function (v) { return v === 0 ? "level" : Math.abs(v) + "\u00b0 " + (v > 0 ? "above" : "below"); }]
+  ].forEach(function (c) {
+    var el = document.getElementById(c[0]), out = document.getElementById(c[0] + "Out");
+    function go() { light[c[1]] = +el.value; out.textContent = c[2](+el.value); schedule(); }
+    el.addEventListener("input", go); go();
+  });
+
+  var dragging = null;
+  canvas.addEventListener("pointerdown", function (e) {
+    dragging = { x: e.clientX, y: e.clientY, turn: state.turn, tilt: state.tilt };
+    try { canvas.setPointerCapture(e.pointerId); } catch (err) {}
+  });
+  canvas.addEventListener("pointermove", function (e) {
+    if (!dragging) return;
+    setView(dragging.turn + (e.clientX - dragging.x) * 0.45, dragging.tilt - (e.clientY - dragging.y) * 0.35);
+  });
+  ["pointerup", "pointercancel"].forEach(function (n) { canvas.addEventListener(n, function () { dragging = null; }); });
+  canvas.addEventListener("keydown", function (e) {
+    var step = { ArrowLeft: [-5, 0], ArrowRight: [5, 0], ArrowUp: [0, 5], ArrowDown: [0, -5] }[e.key];
+    if (step) { e.preventDefault(); setView(state.turn + step[0], state.tilt + step[1]); }
+  });
+
+  function recolor() { readColors(); schedule(); }
+  new MutationObserver(recolor).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+  if (window.matchMedia) {
+    var mq = window.matchMedia("(prefers-color-scheme: dark)");
+    if (mq.addEventListener) mq.addEventListener("change", recolor);
+  }
+  if (window.ResizeObserver) new ResizeObserver(resize).observe(board); else window.addEventListener("resize", resize);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(schedule);
+
+  readColors(); describe(); resize();
+  if (EXAMPLE) loadPhoto(EXAMPLE, EXAMPLE_DOTS);
+})();
+</script>
+</body>
+</html>
