@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Art Guides</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Layout idea: one quiet column, a list of guides that grows over time. Same pencil colors as the guides themselves. */
+:root {
+  --page: #dfe3e1; --panel: #f7f8f6; --ink: #22272a; --muted: #586064; --rule: #c5cbc8; --blue: #2874b5;
+  --font-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", sans-serif;
+  --font-body: "Figtree", "Segoe UI", system-ui, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --page: #141618; --panel: #23272a; --ink: #ecebe6; --muted: #a3abae; --rule: #3a4044; --blue: #7db9ea; color-scheme: dark; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--page); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.5; }
+main { max-width: 720px; margin: 0 auto; padding: 56px 20px 64px; }
+h1 { font-family: var(--font-display); font-weight: 700; font-size: 44px; line-height: 1.05; margin: 0 0 10px; }
+.lede { color: var(--muted); margin: 0 0 36px; max-width: 58ch; }
+h2 { font-family: var(--font-display); font-weight: 500; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin: 0 0 10px; }
+.guides { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.guides a { display: block; background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: 18px 20px; color: inherit; text-decoration: none; }
+.guides a:hover { border-color: var(--blue); }
+.guides a:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.guides b { font-family: var(--font-display); font-size: 21px; font-weight: 700; display: block; }
+.guides span { color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Art Guides</h1>
+  <p class="lede">Interactive guides for learning to draw and paint.</p>
+  <h2>Guides</h2>
+  <ul class="guides">
+    <li><a href="Loomis_Head/">
+      <b>Loomis Head Rotator</b>
+      <span>Turn a construction head to any angle, adjust its proportions, and move the light to study the shadows.</span>
+    </a></li>
+  </ul>
+</main>
+</body>
+</html>
