@@ -24,6 +24,7 @@
   --spine: #8fb4d6;
   --skin: #dfbfa8;
   --muscle: #dcb9a2;
+  --contour: #2f5878;
   --plate: #d9d6cb;
   --font-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", sans-serif;
   --font-body: "Figtree", "Segoe UI", system-ui, sans-serif;
@@ -44,6 +45,7 @@
     --spine: #6f9dc6;
     --skin: #b08a72;
     --muscle: #ad856d;
+    --contour: #a9d0f0;
     --plate: #a9a598;
     color-scheme: dark;
   }
@@ -62,6 +64,7 @@
   --spine: #6f9dc6;
   --skin: #b08a72;
   --muscle: #ad856d;
+  --contour: #a9d0f0;
   --plate: #a9a598;
   color-scheme: dark;
 }
@@ -172,6 +175,14 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
 details { border-top: 1px solid var(--rule); padding: 9px 0 4px; margin-top: 10px; }
 summary { font-weight: 600; cursor: pointer; margin-bottom: 8px; }
 summary:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+details.group { border-top: none; padding: 0; margin: 0; }
+details.group > summary { list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 8px; margin: 0; padding: 2px 0; }
+details.group > summary::-webkit-details-marker { display: none; }
+details.group > summary h2 { margin: 0; }
+details.group > summary::after { content: ""; width: 7px; height: 7px; border-right: 1.5px solid var(--muted); border-bottom: 1.5px solid var(--muted); transform: rotate(45deg); margin: 0 4px 4px 0; flex: none; }
+details.group[open] > summary { margin-bottom: 10px; }
+details.group[open] > summary::after { transform: rotate(-135deg); margin: 4px 4px 0 0; }
+details.group > summary:hover h2 { color: var(--ink); }
 details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var(--muted); }
 .check { display: flex; align-items: center; gap: 7px; font-size: 14px; margin-bottom: 10px; cursor: pointer; }
 .check input { accent-color: var(--blue); width: 15px; height: 15px; margin: 0; }
@@ -205,8 +216,8 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
       </div>
     </section>
 
-    <section>
-      <h2>View</h2>
+    <details class="group" open>
+      <summary><h2>View</h2></summary>
       <div id="viewSliders"></div>
       <div class="presets" id="views" style="margin-top:12px">
         <button type="button" data-turn="0">Front</button>
@@ -217,10 +228,10 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
         <button type="button" data-zoom="upper">Upper body</button>
         <button type="button" data-zoom="head">Head</button>
       </div>
-    </section>
+    </details>
 
-    <section>
-      <h2>Build it up</h2>
+    <details class="group">
+      <summary><h2>Build it up</h2></summary>
       <div class="toggles one">
         <label><input type="checkbox" id="tMasses" checked>1. Pelvis and rib cage</label>
         <label><input type="checkbox" id="tSpine" checked>2. Spine</label>
@@ -230,19 +241,33 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
         <label><input type="checkbox" id="tBody" checked>6. Basic form</label>
         <label><input type="checkbox" id="tMuscle" checked>7. Realistic mannequin</label>
       </div>
-      <div class="slider" style="margin-top:10px">
-        <div class="slider-head"><label for="see">Outer layers</label><output id="seeOut" for="see"></output></div>
+    </details>
+
+    <details class="group">
+      <summary><h2>Outer layers</h2></summary>
+      <div class="slider">
+        <div class="slider-head"><label for="see">Basic form and mannequin</label><output id="seeOut" for="see"></output></div>
         <input type="range" id="see" min="10" max="100" step="1" value="70">
       </div>
-      <div class="toggles" style="margin-top:10px">
+    </details>
+
+    <details class="group">
+      <summary><h2>Drawing aids</h2></summary>
+      <div class="toggles">
+        <label><input type="checkbox" id="tContours">Contours</label>
+        <label><input type="checkbox" id="tPlanes">Major planes</label>
         <label><input type="checkbox" id="tDots" checked>Landmarks</label>
         <label><input type="checkbox" id="tLab" checked>Names</label>
         <label><input type="checkbox" id="tRuler" checked>Head-unit ruler</label>
       </div>
-    </section>
+      <div class="slider" style="margin-top:10px">
+        <div class="slider-head"><label for="gap">Contour spacing</label><output id="gapOut" for="gap"></output></div>
+        <input type="range" id="gap" min="5" max="30" step="1" value="10">
+      </div>
+    </details>
 
-    <section>
-      <h2>Pose</h2>
+    <details class="group" open>
+      <summary><h2>Pose</h2></summary>
       <div class="presets" id="poses">
         <button type="button" data-pose="standing">Standing</button>
         <button type="button" data-pose="walking">Walking</button>
@@ -250,7 +275,11 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
         <button type="button" data-pose="bowing">Bowing</button>
         <button type="button" data-pose="twisting">Twisting</button>
         <button type="button" data-pose="sitting">Sitting</button>
+        <button type="button" data-pose="reclining">Reclining</button>
+        <button type="button" data-pose="guard">Martial arts</button>
+        <button type="button" data-pose="kneeling">Kneeling</button>
       </div>
+      <details><summary>Whole body</summary><div id="bodySliders"></div></details>
       <details open><summary>Waist</summary><div id="torsoSliders"></div></details>
       <details open><summary>Head</summary><div id="headSliders"></div></details>
       <details open><summary>Arms</summary>
@@ -263,18 +292,20 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
         <div id="legLSliders"></div>
         <div id="legRBox"><h3>The figure's right leg</h3><div id="legRSliders"></div></div>
       </details>
-    </section>
+    </details>
 
-    <section>
-      <h2>Proportions built in</h2>
+    <details class="group">
+      <summary><h2>Proportions built in</h2></summary>
       <ul class="key">
         <li><b>Eight heads tall.</b> Chin at 7, nipples near 6, navel near 5, crotch at 4, bottom of the knees at 2.</li>
         <li><b>Man:</b> shoulders 2&#8531; heads wide. <b>Woman:</b> shoulders 2 heads, waist 1 head, hips 1&#189; heads.</li>
         <li><b>Arms:</b> elbows at the waist, wrists at the crotch, fingertips at mid-thigh.</li>
         <li><b>Realistic mannequin</b> adds simplified muscle groups over the basic form. Switch it off and on to compare the two.</li>
+        <li><b>Contours</b> are slices taken at even heights while the figure stands. They wrap round each form and follow it as the figure bends, so they show which way every surface turns.</li>
+        <li><b>Major planes</b> square the round forms into flat facets in three tones, light, halftone and shadow, as a first carving of the surface.</li>
         <li><b>Landmarks</b> are the places where bone shows at the surface. Watch how the line through them tilts as the figure bends.</li>
       </ul>
-    </section>
+    </details>
   </aside>
 </main>
 
@@ -651,7 +682,7 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
     }
   };
   var state = { sex: "man", turn: -28, tilt: 0, zoom: "whole" };
-  var pose = { bend: 0, lean: 0, twist: 0, hturn: 0, hnod: 0, htilt: 0,
+  var pose = { lie: 0, bend: 0, lean: 0, twist: 0, hturn: 0, hnod: 0, htilt: 0,
                aLf: 0, aLs: 6, aLe: 8, aRf: 0, aRs: 6, aRe: 8, lLf: 0, lLs: 0, lLk: 0, lRf: 0, lRs: 0, lRk: 0 };
   var KHEAD = 1 / (1 - Y.chin);                 // one head, from crown to chin, in units of the head's ball
   var LUMBAR = [0, 5.0, -0.15], NECK = [0, 6.95, -0.10];
@@ -666,6 +697,7 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
     return NECK0 + Math.round(smooth(6.72, 7.10, y) * 32);
   }
 
+  var GROUND = [], TQ, TQI, QD, QI, FS, CSV, CSU, CST, CSN = 0, contourGap = 0.1;
   var P, MI, TR, TP, TM, LINES, DOTS, NV, NT, V, NRM, TRI, EDGE, TVW, SH, facing, RULER, joints;
 
   function catmull(pts, per) {
@@ -685,18 +717,33 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
 
   function build() {
     var S = SEXES[state.sex], i, j;
-    P = []; MI = []; TR = []; TP = []; TM = []; LINES = []; DOTS = [];
+    GROUND = []; P = []; MI = []; TR = []; TP = []; TM = []; TQ = []; TQI = []; LINES = []; DOTS = []; var qid = 0;
     function vert(p, mi) { P.push(p[0], p[1], p[2]); MI.push(mi); return MI.length - 1; }
-    function tri(a, b, c, part, mat) { TR.push(a, b, c); TP.push(part); TM.push(mat); }
+    function tri(a, b, c, part, mat, q) {
+      TR.push(a, b, c); TP.push(part); TM.push(mat);
+      if (q) { TQ.push(q[0], q[1], q[2], q[3]); TQI.push(q[4]); } else { TQ.push(a, b, c, c); TQI.push(qid++); }
+    }
+    // major planes: keep only a few of the rings and of the points round each ring, so the form becomes a set of flat facets
+    function facet(rings) {
+      var n = rings[0].length, m = rings.length;
+      var C = n <= 8 ? n / 2 : n <= 24 ? 6 : n <= 40 ? 8 : 12;                                   // limbs six planes round, the trunk eight to twelve
+      var R = Math.max(4, Math.round(m / (m > 60 ? 9.5 : m > 30 ? 6 : 3.6)));
+      var cols = [], out = [];
+      for (var i = 0; i < C; i++) cols.push(Math.round((i + 0.5) * n / C) % n);      // offset by half a step, so the front is a face, not a ridge
+      for (var j = 0; j < R; j++) { var row = rings[Math.round(j * (m - 1) / (R - 1))]; out.push(cols.map(function (c) { return row[c]; })); }
+      return out;
+    }
     function miOf(mi, p) { return typeof mi === "function" ? mi(p) : mi; }
     // a skin stretched over a stack of rings
     function grid(rings, mi, part, mat) {
+      if (opt.planes && part >= PART.body) rings = facet(rings);
       var ids = [], n = rings[0].length;
       rings.forEach(function (ring) { ids.push(ring.map(function (p) { return vert(p, miOf(mi, p)); })); });
       for (var a = 0; a < rings.length - 1; a++)
         for (var b = 0; b < n; b++) {
           var c = (b + 1) % n;
-          tri(ids[a][b], ids[a + 1][b], ids[a][c], part, mat); tri(ids[a][c], ids[a + 1][b], ids[a + 1][c], part, mat);
+          var q = [ids[a][b], ids[a + 1][b], ids[a + 1][c], ids[a][c], qid++];
+          tri(ids[a][b], ids[a + 1][b], ids[a][c], part, mat, q); tri(ids[a][c], ids[a + 1][b], ids[a + 1][c], part, mat, q);
         }
     }
     function line(pts, mi, part, color, width) {
@@ -844,6 +891,9 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
       var sh = [sd * S.jointX, 6.5, -0.04], el = [sd * (S.jointX + 0.07), 5.12, -0.04], wr = [sd * (S.jointX + 0.10), 4.0, 0.04], fi = [sd * (S.jointX + 0.11), 3.25, 0.08];
       var hip = [sd * S.hipX, 4.2, -0.02], kn = [sd * (S.hipX - 0.06), 2.1, 0.02], an = [sd * (S.hipX - 0.08), 0.32, -0.05], toe = [sd * (S.hipX - 0.06), 0.05, 0.75];
       joints[L ? "L" : "R"] = { sh: sh, el: el, hip: hip, kn: kn };
+      // points that can touch the floor, with how far the surface lies beyond each one
+      GROUND.push([[an[0], 0.0, -0.05], shin, 0], [[an[0], 0.0, 0.7], shin, 0], [an, shin, 0.12], [kn, thigh, 0.2], [hip, thigh, 0.3],
+                  [el, arm, 0.12], [wr, fore, 0.08], [fi, fore, 0.05], [sh, arm, 0.25]);
       tube([sh, sh, el, el], 0.05, arm, PART.bones, 4); tube([el, el, wr, wr], 0.042, fore, PART.bones, 4); tube([wr, wr, fi, fi], 0.032, fore, PART.bones, 4);
       tube([hip, hip, kn, kn], 0.06, thigh, PART.bones, 4); tube([kn, kn, an, an], 0.05, shin, PART.bones, 4); tube([an, an, toe, toe], 0.04, shin, PART.bones, 4);
       [[sh, arm, 0.085], [el, arm, 0.07], [wr, fore, 0.055], [hip, thigh, 0.1], [kn, thigh, 0.085], [an, shin, 0.065]].forEach(function (q) { ball(q[0], q[2], q[2], q[2], q[1], PART.bones, 1); });
@@ -871,7 +921,7 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
       for (j = 0; j < 36; j++) { var q = torsoPt(y, j * 2 * Math.PI / 36); rg2.push([q[0] * k, q[1], q[2] * k]); }
       rings.push(rg2);
     }
-    grid(rings, function (p) { return trunkIndex(p[1]); }, PART.body, 2);
+    grid(rings, function (p) { return trunkIndex(p[1]); }, PART.body, 7);
     rings = [];
     for (i = 0; i <= 8; i++) { var ny = 6.8 + 0.5 * i / 8; rings.push(ring([0, ny, -0.15 + 0.13 * i / 8], S.neckR * (i === 8 ? 0.02 : 1), S.neckR * (i === 8 ? 0.02 : 1), 16)); }
     grid(rings, function (p) { return trunkIndex(p[1]); }, PART.body, 2);
@@ -993,8 +1043,36 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
     }
     EDGE = new Uint32Array(out);
     TVW = new Float32Array(NV * 3); SH = new Float32Array(NV); facing = new Int8Array(NT);
+    QD = new Int32Array(TQ); QI = new Int32Array(TQI); FS = new Float32Array(NT);
+    buildContours();
     LINES.forEach(function (L) { L.f = new Float32Array(L.pts.length * 3); L.pts.forEach(function (p, q) { L.f[q * 3] = p[0]; L.f[q * 3 + 1] = p[1]; L.f[q * 3 + 2] = p[2]; }); });
+    GROUND.push([[0, 8, 0], HEADB, 0], [[0, 7.5, 0.4], HEADB, 0], [[0, 7.5, -0.45], HEADB, 0], [[0.38, 7.5, 0], HEADB, 0], [[-0.38, 7.5, 0], HEADB, 0],
+                [[0, 4.3, -0.4], PELVIS, 0.1], [[0, 6.0, -0.5], CHEST, 0], [[0, 6.0, 0.5], CHEST, 0]);
+    [1, -1].forEach(function (sd) { GROUND.push([[sd * 0.7, 4.35, 0], PELVIS, 0.05], [[sd * 0.75, 6.0, 0], CHEST, 0.05], [[sd * 0.55, 5.0, 0], TRUNK0 + 16, 0]); });
     RULER = [[8, "Top of the head"], [7, "Chin"], [6.667, "Shoulders"], [S.nipples, "Nipples"], [S.navel, "Navel"], [4, "Crotch"], [2, "Bottom of the knees"], [0, "Heels"]];
+  }
+
+  /* ------------------------------------------------------------------
+     CONTOURS: slice the surface at even heights while the figure stands
+     at rest. Each slice is stored as a pair of points on mesh edges, so
+     the lines bend and turn with the pose and wrap round each limb.
+  ------------------------------------------------------------------ */
+  function buildContours() {
+    var vs = [], us = [], ts = [], off = 0.0137;
+    for (var t = 0; t < NT; t++) {
+      var part = TP[t];
+      if (part !== PART.masses && part !== PART.head && part < PART.body) continue;
+      var a = TRI[t * 3], b = TRI[t * 3 + 1], c = TRI[t * 3 + 2], ya = V[a * 3 + 1], yb = V[b * 3 + 1], yc = V[c * 3 + 1];
+      var lo = Math.ceil((Math.min(ya, yb, yc) - off) / contourGap), hi = Math.floor((Math.max(ya, yb, yc) - off) / contourGap);
+      for (var k = lo; k <= hi; k++) {
+        var L = k * contourGap + off, hit = [];
+        [[a, b, ya, yb], [b, c, yb, yc], [c, a, yc, ya]].forEach(function (e) {
+          if ((e[2] - L) * (e[3] - L) < 0) hit.push(e[0], e[1], (L - e[2]) / (e[3] - e[2]));
+        });
+        if (hit.length === 6) { vs.push(hit[0], hit[1], hit[3], hit[4]); us.push(hit[2], hit[5]); ts.push(t); }
+      }
+    }
+    CSV = new Uint32Array(vs); CSU = new Float32Array(us); CST = new Uint32Array(ts); CSN = ts.length;
   }
 
   /* ------------------------------------------------------------------
@@ -1031,6 +1109,15 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
       M[q[4]] = about(Rt, J.hip, J.hip);
       M[q[5]] = about(mul(Rt, rotX(pose["l" + s + "k"] * D)), J.kn, apply(M[q[4]], J.kn));
     });
+    // the whole body: lie it down on its right side, then rest the lowest point on the floor
+    var Rr = rotZ(pose.lie * D), P0 = [0, 4.2, 0], root = about(Rr, P0, P0);
+    for (i = 0; i < NMAT; i++) if (M[i]) {
+      var R2 = mul(Rr, M[i]), tq = apply(root, [M[i][9], M[i][10], M[i][11]]);
+      R2[9] = tq[0]; R2[10] = tq[1]; R2[11] = tq[2]; M[i] = R2;
+    }
+    var low = Infinity;
+    GROUND.forEach(function (g) { var q = apply(M[g[1]], g[0]); if (q[1] - g[2] < low) low = q[1] - g[2]; });
+    if (isFinite(low)) for (i = 0; i < NMAT; i++) if (M[i]) M[i][10] -= low;
     return M;
   }
 
@@ -1048,7 +1135,7 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
 
   function readColors() {
     var cs = getComputedStyle(document.documentElement);
-    ["ink", "muted", "blue", "red", "bone", "spine", "skin", "plate", "rod", "muscle", "paper"].forEach(function (k) {
+    ["ink", "muted", "blue", "red", "bone", "spine", "skin", "plate", "rod", "muscle", "contour", "paper"].forEach(function (k) {
       var v = cs.getPropertyValue("--" + k).trim(), h = v.replace("#", "");
       colors[k] = v; colors[k + "_rgb"] = [parseInt(h.slice(0, 2), 16), parseInt(h.slice(2, 4), 16), parseInt(h.slice(4, 6), 16)];
     });
@@ -1070,7 +1157,8 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
     facing[t] = area > 0 ? 1 : -1;
     var minX = Math.max(0, Math.floor(Math.min(ax, bx, cx))), maxX = Math.min(B - 1, Math.ceil(Math.max(ax, bx, cx)));
     var minY = Math.max(0, Math.floor(Math.min(ay, by, cy))), maxY = Math.min(B - 1, Math.ceil(Math.max(ay, by, cy)));
-    var inv = 1 / area, s0 = SH[i0 / 3], s1 = SH[i1 / 3], s2 = SH[i2 / 3];
+    var flat = opt.planes && TP[t] >= PART.body, inv = 1 / area;
+    var s0 = flat ? FS[t] : SH[i0 / 3], s1 = flat ? FS[t] : SH[i1 / 3], s2 = flat ? FS[t] : SH[i2 / 3];
     for (var py = minY; py <= maxY; py++) {
       var y = py + 0.5;
       for (var px = minX; px <= maxX; px++) {
@@ -1082,12 +1170,12 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
       }
     }
   }
-  function seen(zb, x, y, z) {
+  function seen(zb, x, y, z, eps) {
     var k = B / SPAN, px = Math.floor(B / 2 + x * k), py = Math.floor(B / 2 - (y - VIEW_Y) * k);
     if (px < 1 || py < 1 || px > B - 2 || py > B - 2) return true;
     var far = Infinity;
     for (var dy = -1; dy <= 1; dy++) for (var dx = -1; dx <= 1; dx++) { var v = zb[(py + dy) * B + px + dx]; if (v < far) far = v; }
-    return far <= z + EPS;
+    return far <= z + (eps === undefined ? EPS : eps);
   }
   function schedule() { if (!pending) { pending = true; requestAnimationFrame(draw); } }
 
@@ -1095,6 +1183,7 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
     pending = false;
     if (needBuild) { build(); needBuild = false; }
     SPAN = ZOOMS[state.zoom][0]; VIEW_Y = ZOOMS[state.zoom][1];
+    if (state.zoom === "whole") { var lk = pose.lie / 90; SPAN *= 1 + 0.12 * lk; VIEW_Y -= 2.0 * lk; }      // frame a figure lying down
     var W = cssW, H = cssH, labelCol = opt.labels ? (W < 560 ? 104 : 178) : 0, rulerCol = opt.ruler ? (W < 560 ? 26 : 132) : 0;
     var sq = Math.min(H, W - labelCol - rulerCol * 0.35), sc = sq / SPAN, cx = rulerCol * 0.35 + (W - labelCol - rulerCol * 0.35) / 2, cy = H / 2;
     var partOn = [opt.masses, opt.spine, opt.girdle, opt.head, opt.bones, opt.body, opt.muscle];
@@ -1115,6 +1204,15 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
       if (rz < 0) { rx = -rx; ry = -ry; rz = -rz; }
       SH[i] = Math.max(0, rx * lx + ry * ly + rz * lz);
     }
+    if (opt.planes) for (t = 0; t < NT; t++) {           // one tone for each whole facet
+      if (TP[t] < PART.body) continue;
+      var qa = QD[t * 4] * 3, qb = QD[t * 4 + 1] * 3, qc = QD[t * 4 + 2] * 3, qd = QD[t * 4 + 3] * 3;
+      var d1x = TVW[qc] - TVW[qa], d1y = TVW[qc + 1] - TVW[qa + 1], d1z = TVW[qc + 2] - TVW[qa + 2];
+      var d2x = TVW[qd] - TVW[qb], d2y = TVW[qd + 1] - TVW[qb + 1], d2z = TVW[qd + 2] - TVW[qb + 2];
+      var fx = d1y * d2z - d1z * d2y, fy = d1z * d2x - d1x * d2z, fz = d1x * d2y - d1y * d2x, fl = Math.hypot(fx, fy, fz) || 1;
+      if (fz < 0) fl = -fl;
+      FS[t] = Math.max(0, (fx * lx + fy * ly + fz * lz) / fl);
+    }
     zA.fill(-Infinity); zB.fill(-Infinity);
     for (t = 0; t < NT; t++) {
       var part = TP[t];
@@ -1134,7 +1232,7 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
       if (hasA) { var mc = mats[mA[i]]; v = 0.48 + 0.52 * Math.pow(sA[i], 0.85); r0 = mc[0] * v; g0 = mc[1] * v; b0 = mc[2] * v; a0 = 1; }
       if (hasB) {
         skin = mB[i] === 5 ? musc : skin0;
-        v = 0.5 + 0.5 * Math.pow(sB[i], 0.85);
+        v = !opt.planes ? 0.5 + 0.5 * Math.pow(sB[i], 0.85) : sB[i] > 0.7 ? 1 : sB[i] > 0.4 ? 0.8 : 0.58;   // planes: light, halftone, shadow
         if (a0) { r0 += (skin[0] * v - r0) * al; g0 += (skin[1] * v - g0) * al; b0 += (skin[2] * v - b0) * al; }
         else { r0 = skin[0] * v; g0 = skin[1] * v; b0 = skin[2] * v; a0 = Math.max(0.16, al); }
       }
@@ -1166,9 +1264,25 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
     ctx.save(); ctx.beginPath(); ctx.rect(cx - sq / 2, cy - sq / 2, sq, sq); ctx.clip();      // keep the line work inside the painted area
 
     var ws = Math.max(0.7, Math.min(1.3, sc / 80)), hs = Math.max(0.42, Math.min(1, sc * KHEAD / 150));
-    function canSee(part, x, y, z) {
-      if (part >= PART.body) return seen(zB, x, y, z);
-      return seen(zA, x, y, z) && (!solidBody || seen(zB, x, y, z));
+    function canSee(part, x, y, z, eps) {
+      if (part >= PART.body) return seen(zB, x, y, z, eps);
+      return seen(zA, x, y, z, eps) && (!solidBody || seen(zB, x, y, z));
+    }
+    // contours: the slices that wrap round the outermost form showing
+    if (opt.contours && CSN) {
+      var outer = opt.body || opt.muscle;
+      ctx.beginPath();
+      for (var s = 0; s < CSN; s++) {
+        var ct = CST[s], cp = TP[ct];
+        if (!partOn[cp] || (cp === PART.masses && outer)) continue;
+        if (opt.muscle && (TM[ct] === 6 || TM[ct] === 7)) continue;          // the mannequin's own trunk carries these
+        var va = CSV[s * 4] * 3, vb = CSV[s * 4 + 1] * 3, vc = CSV[s * 4 + 2] * 3, vd = CSV[s * 4 + 3] * 3, u1 = CSU[s * 2], u2 = CSU[s * 2 + 1];
+        var x1 = TVW[va] + (TVW[vb] - TVW[va]) * u1, y1 = TVW[va + 1] + (TVW[vb + 1] - TVW[va + 1]) * u1, z1 = TVW[va + 2] + (TVW[vb + 2] - TVW[va + 2]) * u1;
+        var x2 = TVW[vc] + (TVW[vd] - TVW[vc]) * u2, y2 = TVW[vc + 1] + (TVW[vd + 1] - TVW[vc + 1]) * u2, z2 = TVW[vc + 2] + (TVW[vd + 2] - TVW[vc + 2]) * u2;
+        if (!canSee(cp, (x1 + x2) / 2, (y1 + y2) / 2, (z1 + z2) / 2, 0.025)) continue;
+        ctx.moveTo(SX(x1), SY(y1)); ctx.lineTo(SX(x2), SY(y2));
+      }
+      ctx.strokeStyle = colors.contour; ctx.lineWidth = 0.95 * ws; ctx.globalAlpha = 0.8; ctx.stroke(); ctx.globalAlpha = 1;
     }
     // drawn lines
     LINES.forEach(function (L) {
@@ -1197,6 +1311,19 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
       }
       ctx.strokeStyle = colors.ink; ctx.lineWidth = (layer ? 2 : 1.5) * ws; ctx.globalAlpha = layer && !solidBody ? 0.75 : 1; ctx.stroke(); ctx.globalAlpha = 1;
     });
+    // planes: the edges between facets
+    if (opt.planes) {
+      ctx.beginPath();
+      for (var e2 = 0; e2 < EDGE.length; e2 += 4) {
+        var f1 = EDGE[e2 + 2], f2 = EDGE[e2 + 3];
+        if (TP[f1] < PART.body || TP[f2] < PART.body || QI[f1] === QI[f2] || !facing[f1] || !facing[f2]) continue;
+        var p3 = EDGE[e2] * 3, q3 = EDGE[e2 + 1] * 3;
+        if (Math.hypot(TVW[p3] - TVW[q3], TVW[p3 + 1] - TVW[q3 + 1]) * sc < 1.5) continue;
+        if (!canSee(TP[f1], (TVW[p3] + TVW[q3]) / 2, (TVW[p3 + 1] + TVW[q3 + 1]) / 2, (TVW[p3 + 2] + TVW[q3 + 2]) / 2, 0.03)) continue;
+        ctx.moveTo(SX(TVW[p3]), SY(TVW[p3 + 1])); ctx.lineTo(SX(TVW[q3]), SY(TVW[q3 + 1]));
+      }
+      ctx.strokeStyle = colors.ink; ctx.lineWidth = 0.9 * ws; ctx.globalAlpha = 0.4; ctx.stroke(); ctx.globalAlpha = 1;
+    }
     // landmark dots and their names
     var labels = [], inX0 = cx - sq / 2, inX1 = cx + sq / 2, inY0 = cy - sq / 2, inY1 = cy + sq / 2;
     if (opt.dots) DOTS.forEach(function (dt) {
@@ -1231,6 +1358,7 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
   var SLIDERS = {
     viewSliders: [["turn", "Turn the figure", -180, 180, function (v) { return v === 0 ? "front view" : Math.abs(v) === 180 ? "back view" : deg(v, "to the right", "to the left"); }, state],
                   ["tilt", "Eye level", -30, 70, function (v) { return v === 0 ? "level" : deg(v, "from above", "from below"); }, state]],
+    bodySliders: [["lie", "Lie down on its right side", 0, 90, function (v) { return v === 0 ? "standing" : v === 90 ? "lying flat" : v + "\u00b0"; }]],
     torsoSliders: [["bend", "Bend at the waist", -35, 80, function (v) { return deg(v, "forward", "back", "upright"); }],
                    ["lean", "Lean to the side", -35, 35, function (v) { return deg(v, "to its left", "to its right", "upright"); }],
                    ["twist", "Twist", -50, 50, function (v) { return deg(v, "to its left", "to its right", "square"); }]],
@@ -1239,8 +1367,8 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
                   ["htilt", "Tilt", -30, 30, function (v) { return deg(v, "to its left", "to its right", "level"); }]],
     armLSliders: [["aLf", "Swing forward", -50, 175, function (v) { return deg(v, "forward", "back"); }], ["aLs", "Raise to the side", 0, 170, function (v) { return v + "°"; }], ["aLe", "Bend the elbow", 0, 145, function (v) { return v + "°"; }]],
     armRSliders: [["aRf", "Swing forward", -50, 175, function (v) { return deg(v, "forward", "back"); }], ["aRs", "Raise to the side", 0, 170, function (v) { return v + "°"; }], ["aRe", "Bend the elbow", 0, 145, function (v) { return v + "°"; }]],
-    legLSliders: [["lLf", "Swing forward", -35, 110, function (v) { return deg(v, "forward", "back"); }], ["lLs", "Out to the side", 0, 60, function (v) { return v + "°"; }], ["lLk", "Bend the knee", 0, 140, function (v) { return v + "°"; }]],
-    legRSliders: [["lRf", "Swing forward", -35, 110, function (v) { return deg(v, "forward", "back"); }], ["lRs", "Out to the side", 0, 60, function (v) { return v + "°"; }], ["lRk", "Bend the knee", 0, 140, function (v) { return v + "°"; }]]
+    legLSliders: [["lLf", "Swing forward", -35, 110, function (v) { return deg(v, "forward", "back"); }], ["lLs", "Out to the side", -20, 60, function (v) { return v < 0 ? -v + "° across" : v + "°"; }], ["lLk", "Bend the knee", 0, 140, function (v) { return v + "°"; }]],
+    legRSliders: [["lRf", "Swing forward", -35, 110, function (v) { return deg(v, "forward", "back"); }], ["lRs", "Out to the side", -20, 60, function (v) { return v < 0 ? -v + "° across" : v + "°"; }], ["lRk", "Bend the knee", 0, 140, function (v) { return v + "°"; }]]
   };
   var sliderEls = {};
   Object.keys(SLIDERS).forEach(function (box) {
@@ -1271,7 +1399,13 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
     reaching: { aLf: 20, aLs: 150, aLe: 12, aRf: 20, aRs: 150, aRe: 12, hnod: 18, bend: -8 },
     bowing: { bend: 58, hnod: -12, aLf: 25, aRf: 25, aLe: 10, aRe: 10 },
     twisting: { twist: 38, hturn: 32, lean: 8, aLs: 28, aLe: 70, aLf: 30, aRs: 40, aRf: -20, aRe: 30, lLs: 8, lRs: 8, together: false },
-    sitting: { lLf: 88, lLk: 92, lRf: 88, lRk: 92, aLf: 28, aLe: 60, aRf: 28, aRe: 60, bend: 6 }
+    sitting: { lLf: 88, lLk: 92, lRf: 88, lRk: 92, aLf: 28, aLe: 60, aRf: 28, aRe: 60, bend: 6 },
+    reclining: { lie: 66, lean: 30, htilt: 30, hturn: 12, aRs: 36, aRf: 4, aRe: 86, aLs: 6, aLf: 16, aLe: 30,
+                 lLf: 20, lLs: -6, lLk: 30, lRf: 12, lRs: -20, lRk: 24, together: false },
+    kneeling: { hnod: -6, hturn: -8, bend: 4, aLf: 46, aLs: 6, aLe: 10, aRf: 4, aRs: 8, aRe: 14,
+                lLf: 85, lLs: 6, lLk: 85, lRf: -15, lRs: 6, lRk: 90, together: false },
+    guard: { bend: 10, twist: -18, hturn: 16, hnod: -6, aLf: 40, aLs: 12, aLe: 96, aRf: 28, aRs: 16, aRe: 122,
+             lLf: 45, lLs: 18, lLk: 60, lRf: 25, lRs: 20, lRk: 80, together: false }
   };
   $("poses").addEventListener("click", function (e) {
     var b = e.target.closest("button"); if (!b) return;
@@ -1288,11 +1422,18 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
   document.querySelectorAll('input[name="sex"]').forEach(function (el) {
     el.addEventListener("change", function () { if (el.checked) { state.sex = el.value; needBuild = true; schedule(); } });
   });
-  var toggles = { tMasses: "masses", tSpine: "spine", tGirdle: "girdle", tHead: "head", tBones: "bones", tBody: "body", tMuscle: "muscle", tDots: "dots", tLab: "labels", tRuler: "ruler" };
+  var toggles = { tMasses: "masses", tSpine: "spine", tGirdle: "girdle", tHead: "head", tBones: "bones", tBody: "body", tMuscle: "muscle", tContours: "contours", tPlanes: "planes", tDots: "dots", tLab: "labels", tRuler: "ruler" };
   Object.keys(toggles).forEach(function (id) {
     var el = $(id); opt[toggles[id]] = el.checked;
     el.addEventListener("change", function () { opt[toggles[id]] = el.checked; schedule(); });
   });
+  $("tPlanes").addEventListener("change", function () { needBuild = true; schedule(); });
+  var gapEl = $("gap"), gapOut = $("gapOut");
+  function gapGo(rebuild) {
+    contourGap = +gapEl.value / 100; gapOut.textContent = "every " + contourGap.toFixed(2) + " head";
+    if (rebuild && NT) { buildContours(); schedule(); }
+  }
+  gapEl.addEventListener("input", function () { gapGo(true); }); gapGo(false);
   var seeEl = $("see"), seeOut = $("seeOut");
   function seeGo() { bodyAlpha = +seeEl.value / 100; seeOut.textContent = +seeEl.value >= 98 ? "solid" : +seeEl.value + "% solid"; schedule(); }
   seeEl.addEventListener("input", seeGo); seeGo();
