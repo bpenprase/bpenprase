@@ -195,6 +195,11 @@ details.group[open] > summary { margin-bottom: 10px; }
 details.group[open] > summary::after { transform: rotate(-135deg); margin: 4px 4px 0 0; }
 details.group > summary:hover h2 { color: var(--ink); }
 details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var(--muted); }
+.seg.side { display: flex; margin-bottom: 12px; }
+.seg.side label { flex: 1; text-align: center; }
+.seg.side span { padding: 5px 0; font-size: 13.5px; }
+.seg.side label + label span { border-left: 1px solid var(--rule); }
+.note { margin: 12px 0 0; font-size: 13px; color: var(--muted); }
 .check { display: flex; align-items: center; gap: 7px; font-size: 14px; margin-bottom: 10px; cursor: pointer; }
 .check input { accent-color: var(--blue); width: 15px; height: 15px; margin: 0; }
 [hidden] { display: none !important; }
@@ -293,19 +298,18 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
         <button type="button" data-pose="guard">Martial arts</button>
         <button type="button" data-pose="kneeling">Kneeling</button>
       </div>
-      <details><summary>Whole body</summary><div id="bodySliders"></div></details>
-      <details open><summary>Waist</summary><div id="torsoSliders"></div></details>
+      <p class="note">Left and right are the figure's own.</p>
       <details open><summary>Head</summary><div id="headSliders"></div></details>
       <details open><summary>Arms</summary>
-        <label class="check"><input type="checkbox" id="armsTogether" checked>Move both arms together</label>
-        <div id="armLSliders"></div>
-        <div id="armRBox"><h3>The figure's right arm</h3><div id="armRSliders"></div></div>
+        <div class="seg side" role="radiogroup" aria-label="Which arm to move"><label><input type="radio" name="armSide" value="both" checked><span>Both</span></label><label><input type="radio" name="armSide" value="L"><span>Left</span></label><label><input type="radio" name="armSide" value="R"><span>Right</span></label></div>
+        <div id="armSliders"></div>
       </details>
+      <details open><summary>Waist</summary><div id="torsoSliders"></div></details>
       <details><summary>Legs</summary>
-        <label class="check"><input type="checkbox" id="legsTogether" checked>Move both legs together</label>
-        <div id="legLSliders"></div>
-        <div id="legRBox"><h3>The figure's right leg</h3><div id="legRSliders"></div></div>
+        <div class="seg side" role="radiogroup" aria-label="Which leg to move"><label><input type="radio" name="legSide" value="both" checked><span>Both</span></label><label><input type="radio" name="legSide" value="L"><span>Left</span></label><label><input type="radio" name="legSide" value="R"><span>Right</span></label></div>
+        <div id="legSliders"></div>
       </details>
+      <details><summary>Whole body</summary><div id="bodySliders"></div></details>
     </details>
 
     <details class="group">
@@ -697,14 +701,14 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
   };
   var state = { sex: "man", turn: -28, tilt: 0, zoom: "whole" };
   var pose = { lie: 0, bend: 0, lean: 0, twist: 0, hturn: 0, hnod: 0, htilt: 0,
-               aLf: 0, aLs: 6, aLe: 8, aRf: 0, aRs: 6, aRe: 8, lLf: 0, lLs: 0, lLk: 0, lRf: 0, lRs: 0, lRk: 0 };
+               aLf: 0, aLs: 6, aLe: 8, aRf: 0, aRs: 6, aRe: 8, lLf: 0, lLs: 0, lLk: 0, lLa: 0, lRf: 0, lRs: 0, lRk: 0, lRa: 0 };
   var KHEAD = 1 / (1 - Y.chin);                 // one head, from crown to chin, in units of the head's ball
   var LUMBAR = [0, 5.0, -0.15], NECK = [0, 6.95, -0.10];
 
   // parts that can be switched on and off, in the order a drawing is built up
   var PART = { masses: 0, spine: 1, girdle: 2, head: 3, bones: 4, body: 5, muscle: 6 };
   // which moving piece each point belongs to
-  var ARM_L = 0, FORE_L = 1, ARM_R = 2, FORE_R = 3, THIGH_L = 4, SHIN_L = 5, THIGH_R = 6, SHIN_R = 7, TRUNK0 = 8, NECK0 = 41, NMAT = 74;
+  var ARM_L = 0, FORE_L = 1, ARM_R = 2, FORE_R = 3, THIGH_L = 4, SHIN_L = 5, THIGH_R = 6, SHIN_R = 7, TRUNK0 = 8, NECK0 = 41, FOOT_L = 74, FOOT_R = 75, NMAT = 76;
   var PELVIS = TRUNK0, CHEST = TRUNK0 + 32, HEADB = NECK0 + 32;
   function trunkIndex(y) {                      // the waist and the neck bend gradually, not at a hinge
     if (y < 6.62) return TRUNK0 + Math.round(smooth(4.75, 5.45, y) * 32);
@@ -904,12 +908,13 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
       var L = sd > 0, arm = L ? ARM_L : ARM_R, fore = L ? FORE_L : FORE_R, thigh = L ? THIGH_L : THIGH_R, shin = L ? SHIN_L : SHIN_R;
       var sh = [sd * S.jointX, 6.5, -0.04], el = [sd * (S.jointX + 0.07), 5.12, -0.04], wr = [sd * (S.jointX + 0.10), 4.0, 0.04], fi = [sd * (S.jointX + 0.11), 3.25, 0.08];
       var hip = [sd * S.hipX, 4.2, -0.02], kn = [sd * (S.hipX - 0.06), 2.1, 0.02], an = [sd * (S.hipX - 0.08), 0.32, -0.05], toe = [sd * (S.hipX - 0.06), 0.05, 0.75];
-      joints[L ? "L" : "R"] = { sh: sh, el: el, hip: hip, kn: kn };
+      var foot = L ? FOOT_L : FOOT_R;
+      joints[L ? "L" : "R"] = { sh: sh, el: el, hip: hip, kn: kn, an: an };
       // points that can touch the floor, with how far the surface lies beyond each one
-      GROUND.push([[an[0], 0.0, -0.05], shin, 0], [[an[0], 0.0, 0.7], shin, 0], [an, shin, 0.12], [kn, thigh, 0.2], [hip, thigh, 0.3],
+      GROUND.push([[an[0], 0.0, -0.05], foot, 0], [[an[0], 0.0, 0.7], foot, 0], [an, shin, 0.12], [kn, thigh, 0.2], [hip, thigh, 0.3],
                   [el, arm, 0.12], [wr, fore, 0.08], [fi, fore, 0.05], [sh, arm, 0.25]);
       tube([sh, sh, el, el], 0.05, arm, PART.bones, 4); tube([el, el, wr, wr], 0.042, fore, PART.bones, 4); tube([wr, wr, fi, fi], 0.032, fore, PART.bones, 4);
-      tube([hip, hip, kn, kn], 0.06, thigh, PART.bones, 4); tube([kn, kn, an, an], 0.05, shin, PART.bones, 4); tube([an, an, toe, toe], 0.04, shin, PART.bones, 4);
+      tube([hip, hip, kn, kn], 0.06, thigh, PART.bones, 4); tube([kn, kn, an, an], 0.05, shin, PART.bones, 4); tube([an, an, toe, toe], 0.04, foot, PART.bones, 4);
       [[sh, arm, 0.085], [el, arm, 0.07], [wr, fore, 0.055], [hip, thigh, 0.1], [kn, thigh, 0.085], [an, shin, 0.065]].forEach(function (q) { ball(q[0], q[2], q[2], q[2], q[1], PART.bones, 1); });
 
       /* ---- 6. the outer forms of the limbs ---- */
@@ -920,7 +925,7 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
       limb(hip, kn, [[0, .36 * tk, .38 * tk], [.3, .33 * tk, .36 * tk], [.7, .25 * lr, .27 * lr], [1, .19 * lr, .2 * lr]], thigh, PART.body, 2, { n: 14, cap0: 0.6 });
       limb(kn, an, [[0, .19 * lr, .2 * lr], [.28, .21 * lr, .235 * lr], [.75, .13 * lr, .14 * lr], [1, .10 * lr, .11 * lr]], shin, PART.body, 2,
            { n: 14, back: function (t) { return -0.06 * Math.sin(Math.PI * Math.min(1, t * 1.6)) * (t < 0.625 ? 1 : 0); } });
-      ball([an[0], 0.15, 0.24], 0.16 * lr, 0.17, 0.52 * lr, shin, PART.body, 2, 0.0);
+      ball([an[0], 0.15, 0.24], 0.16 * lr, 0.17, 0.52 * lr, foot, PART.body, 2, 0.0);
     });
 
     /* ---- 6. the outer form of the trunk and neck ---- */
@@ -1114,14 +1119,16 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
       w = i / 32;
       M[NECK0 + i] = about(mul(chest, mul(rotY(pose.hturn * D * w), mul(rotX(-pose.hnod * D * w), rotZ(-pose.htilt * D * w)))), NECK, neckNow);
     }
-    [["L", 1, ARM_L, FORE_L, THIGH_L, SHIN_L], ["R", -1, ARM_R, FORE_R, THIGH_R, SHIN_R]].forEach(function (q) {
+    [["L", 1, ARM_L, FORE_L, THIGH_L, SHIN_L, FOOT_L], ["R", -1, ARM_R, FORE_R, THIGH_R, SHIN_R, FOOT_R]].forEach(function (q) {
       var J = joints[q[0]], sd = q[1], s = q[0];
       var Ra = mul(chest, mul(rotX(-pose["a" + s + "f"] * D), rotZ(sd * pose["a" + s + "s"] * D)));
       M[q[2]] = about(Ra, J.sh, apply(chest, J.sh));
       M[q[3]] = about(mul(Ra, rotX(-pose["a" + s + "e"] * D)), J.el, apply(M[q[2]], J.el));
       var Rt = mul(rotX(-pose["l" + s + "f"] * D), rotZ(sd * pose["l" + s + "s"] * D));
       M[q[4]] = about(Rt, J.hip, J.hip);
-      M[q[5]] = about(mul(Rt, rotX(pose["l" + s + "k"] * D)), J.kn, apply(M[q[4]], J.kn));
+      var Rs = mul(Rt, rotX(pose["l" + s + "k"] * D));
+      M[q[5]] = about(Rs, J.kn, apply(M[q[4]], J.kn));
+      M[q[6]] = about(mul(Rs, rotX(pose["l" + s + "a"] * D)), J.an, apply(M[q[5]], J.an));
     });
     // the whole body: lie it down on its right side, then rest the lowest point on the floor
     var Rr = rotZ(pose.lie * D), P0 = [0, 4.2, 0], root = about(Rr, P0, P0);
@@ -1382,53 +1389,52 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
     headSliders: [["hturn", "Swivel", -75, 75, function (v) { return deg(v, "to its left", "to its right", "straight"); }],
                   ["hnod", "Nod", -45, 45, function (v) { return deg(v, "up", "down", "level"); }],
                   ["htilt", "Tilt", -30, 30, function (v) { return deg(v, "to its left", "to its right", "level"); }]],
-    armLSliders: [["aLf", "Swing forward", -50, 175, function (v) { return deg(v, "forward", "back"); }], ["aLs", "Raise to the side", 0, 170, function (v) { return v + "°"; }], ["aLe", "Bend the elbow", 0, 145, function (v) { return v + "°"; }]],
-    armRSliders: [["aRf", "Swing forward", -50, 175, function (v) { return deg(v, "forward", "back"); }], ["aRs", "Raise to the side", 0, 170, function (v) { return v + "°"; }], ["aRe", "Bend the elbow", 0, 145, function (v) { return v + "°"; }]],
-    legLSliders: [["lLf", "Swing forward", -35, 110, function (v) { return deg(v, "forward", "back"); }], ["lLs", "Out to the side", -20, 60, function (v) { return v < 0 ? -v + "° across" : v + "°"; }], ["lLk", "Bend the knee", 0, 140, function (v) { return v + "°"; }]],
-    legRSliders: [["lRf", "Swing forward", -35, 110, function (v) { return deg(v, "forward", "back"); }], ["lRs", "Out to the side", -20, 60, function (v) { return v < 0 ? -v + "° across" : v + "°"; }], ["lRk", "Bend the knee", 0, 140, function (v) { return v + "°"; }]]
+    armSliders: [["a?f", "Swing forward", -50, 175, function (v) { return deg(v, "forward", "back"); }], ["a?s", "Raise to the side", 0, 170, function (v) { return v + "\u00b0"; }], ["a?e", "Bend the elbow", 0, 145, function (v) { return v + "\u00b0"; }]],
+    legSliders: [["l?f", "Swing forward", -35, 110, function (v) { return deg(v, "forward", "back"); }], ["l?s", "Out to the side", -20, 60, function (v) { return v < 0 ? -v + "\u00b0 across" : v + "\u00b0"; }], ["l?k", "Bend the knee", 0, 140, function (v) { return v + "\u00b0"; }],
+                 ["l?a", "Bend the ankle", -30, 60, function (v) { return v === 0 ? "level" : Math.abs(v) + "\u00b0 " + (v > 0 ? "toes down" : "toes up"); }]]
   };
   var sliderEls = {};
   Object.keys(SLIDERS).forEach(function (box) {
     SLIDERS[box].forEach(function (c) {
-      var target = c[5] || pose, wrap = document.createElement("div"); wrap.className = "slider";
-      wrap.innerHTML = '<div class="slider-head"><label for="s_' + c[0] + '">' + c[1] + '</label><output id="o_' + c[0] + '" for="s_' + c[0] + '"></output></div>' +
-                       '<input type="range" id="s_' + c[0] + '" min="' + c[2] + '" max="' + c[3] + '" step="1">';
+      var target = c[5] || pose, wrap = document.createElement("div"), id = c[0].replace("?", "X"); wrap.className = "slider";
+      wrap.innerHTML = '<div class="slider-head"><label for="s_' + id + '">' + c[1] + '</label><output id="o_' + id + '" for="s_' + id + '"></output></div>' +
+                       '<input type="range" id="s_' + id + '" min="' + c[2] + '" max="' + c[3] + '" step="1">';
       $(box).appendChild(wrap);
       var el = wrap.querySelector("input"), out = wrap.querySelector("output");
-      function show() { el.value = Math.round(target[c[0]]); out.textContent = c[4](+el.value); }
-      el.addEventListener("input", function () { target[c[0]] = +el.value; mirror(c[0]); out.textContent = c[4](+el.value); schedule(); });
-      sliderEls[c[0]] = show; show();
+      // "a?f" stands for the same control on the left and right arm; the Both / Left / Right choice decides which it moves
+      function keys() { return c[0].indexOf("?") < 0 ? [c[0]] : sidesFor(c[0][0]).map(function (sd) { return c[0].replace("?", sd); }); }
+      function show() { el.value = Math.round(target[keys()[0]]); out.textContent = c[4](+el.value); }
+      el.addEventListener("input", function () { keys().forEach(function (k) { target[k] = +el.value; }); out.textContent = c[4](+el.value); schedule(); });
+      sliderEls[id] = show;
     });
   });
-  function mirror(key) {             // when a pair moves together, the right side copies the left
-    if (key[0] === "a" && key[1] === "L" && $("armsTogether").checked) pose["aR" + key[2]] = pose[key];
-    if (key[0] === "l" && key[1] === "L" && $("legsTogether").checked) pose["lR" + key[2]] = pose[key];
-  }
+  var limbSide = { a: "both", l: "both" };
+  function sidesFor(limb) { return limbSide[limb] === "both" ? ["L", "R"] : [limbSide[limb]]; }
   function syncAll() { Object.keys(sliderEls).forEach(function (k) { sliderEls[k](); }); }
-  [["armsTogether", "armRBox", "a"], ["legsTogether", "legRBox", "l"]].forEach(function (q) {
-    var el = $(q[0]);
-    function go() { $(q[1]).hidden = el.checked; if (el.checked) ["f", "s", q[2] === "a" ? "e" : "k"].forEach(function (c) { pose[q[2] + "R" + c] = pose[q[2] + "L" + c]; }); syncAll(); schedule(); }
-    el.addEventListener("change", go); go();
+  [["armSide", "a"], ["legSide", "l"]].forEach(function (q) {
+    document.querySelectorAll('input[name="' + q[0] + '"]').forEach(function (el) {
+      el.addEventListener("change", function () { if (el.checked) { limbSide[q[1]] = el.value; syncAll(); } });
+    });
   });
+  syncAll();
   var POSES = {
     standing: {},
-    walking: { twist: -8, aLf: 32, aLe: 22, aRf: -26, aRe: 12, lLf: -22, lLk: 14, lRf: 28, lRk: 16, together: false },
+    walking: { twist: -8, aLf: 32, aLe: 22, aRf: -26, aRe: 12, lLf: -22, lLk: 14, lRf: 28, lRk: 16 },
     reaching: { aLf: 20, aLs: 150, aLe: 12, aRf: 20, aRs: 150, aRe: 12, hnod: 18, bend: -8 },
     bowing: { bend: 58, hnod: -12, aLf: 25, aRf: 25, aLe: 10, aRe: 10 },
-    twisting: { twist: 38, hturn: 32, lean: 8, aLs: 28, aLe: 70, aLf: 30, aRs: 40, aRf: -20, aRe: 30, lLs: 8, lRs: 8, together: false },
-    sitting: { lLf: 88, lLk: 92, lRf: 88, lRk: 92, aLf: 28, aLe: 60, aRf: 28, aRe: 60, bend: 6 },
+    twisting: { twist: 38, hturn: 32, lean: 8, aLs: 28, aLe: 70, aLf: 30, aRs: 40, aRf: -20, aRe: 30, lLs: 8, lRs: 8 },
+    sitting: { lLf: 88, lLk: 92, lLa: -4, lRf: 88, lRk: 92, lRa: -4, aLf: 28, aLe: 60, aRf: 28, aRe: 60, bend: 6 },
     reclining: { lie: 66, lean: 30, htilt: 30, hturn: 12, aRs: 36, aRf: 4, aRe: 86, aLs: 6, aLf: 16, aLe: 30,
-                 lLf: 20, lLs: -6, lLk: 30, lRf: 12, lRs: -20, lRk: 24, together: false },
+                 lLf: 20, lLs: -6, lLk: 30, lLa: 30, lRf: 12, lRs: -20, lRk: 24, lRa: 30 },
     kneeling: { hnod: -6, hturn: -8, bend: 4, aLf: 46, aLs: 6, aLe: 10, aRf: 4, aRs: 8, aRe: 14,
-                lLf: 85, lLs: 6, lLk: 85, lRf: -15, lRs: 6, lRk: 90, together: false },
+                lLf: 85, lLs: 6, lLk: 85, lRf: -15, lRs: 6, lRk: 90 },
     guard: { bend: 10, twist: -18, hturn: 16, hnod: -6, aLf: 40, aLs: 12, aLe: 96, aRf: 28, aRs: 16, aRe: 122,
-             lLf: 45, lLs: 18, lLk: 60, lRf: 25, lRs: 20, lRk: 80, together: false }
+             lLf: 45, lLs: 18, lLk: 60, lRf: 25, lRs: 20, lRk: 80 }
   };
   $("poses").addEventListener("click", function (e) {
     var b = e.target.closest("button"); if (!b) return;
     var q = POSES[b.dataset.pose];
     Object.keys(pose).forEach(function (k) { pose[k] = q[k] !== undefined ? q[k] : (k === "aLs" || k === "aRs") ? 6 : (k === "aLe" || k === "aRe") ? 8 : 0; });
-    var tog = q.together !== false; $("armsTogether").checked = tog; $("legsTogether").checked = tog; $("armRBox").hidden = tog; $("legRBox").hidden = tog;
     syncAll(); schedule();
   });
   $("views").addEventListener("click", function (e) {
