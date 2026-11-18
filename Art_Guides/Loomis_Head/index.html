@@ -93,6 +93,19 @@ body {
 }
 .board canvas:active { cursor: grabbing; }
 .board canvas:focus-visible { outline: 2px solid var(--blue); outline-offset: -2px; }
+.bar { display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-top: 1px solid var(--rule); background: var(--panel); }
+.bar .hint2 { font-size: 12.5px; color: var(--muted); margin-right: auto; }
+.bar .status { font-size: 12.5px; color: var(--ink); }
+button.primary { background: var(--blue); border-color: var(--blue); color: var(--panel); font-weight: 600; }
+button.primary:hover { filter: brightness(1.08); border-color: var(--blue); }
+.dialog-back { position: fixed; inset: 0; background: rgba(20, 24, 26, 0.38); display: flex; align-items: center; justify-content: center; z-index: 20; padding: 16px; }
+.dialog-back[hidden] { display: none; }
+.dialog { background: var(--panel); color: var(--ink); border: 1px solid var(--rule); border-radius: 8px; padding: 20px; width: min(420px, 100%); display: grid; gap: 8px; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25); }
+.dialog h2 { font-size: 18px; letter-spacing: 0; text-transform: none; color: var(--ink); margin: 0 0 4px; }
+.dialog label { font-weight: 600; font-size: 14px; }
+.dialog input[type="text"] { font: inherit; padding: 7px 9px; border: 1px solid var(--rule); border-radius: 4px; background: var(--paper); color: var(--ink); }
+.dialog input[type="text"]:focus-visible { outline: 2px solid var(--blue); outline-offset: 1px; }
+.dialog-buttons { display: flex; justify-content: flex-end; gap: 8px; margin-top: 6px; }
 .hint {
   position: absolute;
   left: 12px;
@@ -199,7 +212,26 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
 <main class="app">
   <div class="board" id="board">
     <canvas id="view" tabindex="0" role="img" aria-label="Line drawing of a Loomis construction head that turns with the sliders"></canvas>
-    <div class="hint">Drag the head to turn it</div>
+    <div class="bar">
+      <span class="hint2">Drag the head to turn it</span>
+      <span class="status" id="fileStatus" role="status"></span>
+      <button type="button" id="saveBtn">Save</button>
+      <button type="button" id="loadBtn">Load</button>
+      <input type="file" id="loadFile" accept=".json,application/json" hidden>
+    </div>
+  </div>
+
+  <div class="dialog-back" id="saveDialog" hidden>
+    <form class="dialog" id="saveForm" role="dialog" aria-modal="true" aria-labelledby="saveTitle">
+      <h2 id="saveTitle">Save this head</h2>
+      <label for="prefix">File name</label>
+      <input type="text" id="prefix" value="loomis-head" autocomplete="off" spellcheck="false">
+      <p class="note" id="saveNote"></p>
+      <div class="dialog-buttons">
+        <button type="button" id="saveCancel">Cancel</button>
+        <button type="submit" class="primary" id="saveGo">Save</button>
+      </div>
+    </form>
   </div>
 
   <aside class="tray">
@@ -794,8 +826,8 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
     cssW = Math.max(280, board.clientWidth);
     var vh = window.innerHeight || 800;
     if (window.matchMedia && window.matchMedia("(max-width: 880px)").matches)
-      cssH = Math.round(Math.max(220, Math.min(cssW * 0.86, vh * 0.52)));        // leave room below for the controls
-    else cssH = Math.round(Math.max(300, Math.min(cssW * 0.86, vh - 52, 760)));
+      cssH = Math.round(Math.max(200, Math.min(cssW * 0.86, vh * 0.52 - 46)));        // leave room below for the controls
+    else cssH = Math.round(Math.max(300, Math.min(cssW * 0.86, vh - 100, 760)));      // room for the Save and Load bar
     dpr = Math.min(2, window.devicePixelRatio || 1);
     canvas.width = Math.round(cssW * dpr); canvas.height = Math.round(cssH * dpr);
     canvas.style.height = cssH + "px";
@@ -1129,6 +1161,89 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
     var on = !steps.every(function (k) { return STEP[k]; });
     steps.forEach(function (k) { STEP[k] = on; document.getElementById("b_" + k).checked = on; });
     this.textContent = on ? "Clear all" : "Check all"; needBuild = true; schedule();
+  });
+
+
+  /* ------------------------------------------------------------------
+     SAVE AND LOAD. A settings file holds every control in the panel,
+     and a JPEG of the drawing is saved beside it with the same name.
+  ------------------------------------------------------------------ */
+  var tray = document.querySelector(".tray"), statusEl = document.getElementById("fileStatus"), statusTimer = 0;
+  function say(msg) {
+    statusEl.textContent = msg; clearTimeout(statusTimer);
+    statusTimer = setTimeout(function () { statusEl.textContent = ""; }, 6000);
+  }
+  function settings() {
+    var out = {};
+    tray.querySelectorAll("input[id]").forEach(function (el) {
+      if (el.type === "range") out[el.id] = +el.value;
+      else if (el.type === "checkbox") out[el.id] = el.checked;
+    });
+    return { app: "loomis-head", version: 1, saved: new Date().toISOString(), controls: out };
+  }
+  function applySettings(data) {
+    if (!data || data.app !== "loomis-head" || !data.controls) throw new Error("not a Loomis head settings file");
+    var c = data.controls;
+    tray.querySelectorAll('input[type="checkbox"][id]').forEach(function (el) {
+      if (typeof c[el.id] === "boolean" && el.checked !== c[el.id]) { el.checked = c[el.id]; el.dispatchEvent(new Event("change")); }
+    });
+    tray.querySelectorAll('input[type="range"][id]').forEach(function (el) {
+      if (typeof c[el.id] === "number") { el.value = c[el.id]; el.dispatchEvent(new Event("input")); }
+    });
+    var stepKeys = Object.keys(STEP).filter(function (k) { return !STUDY[k]; });
+    document.getElementById("buildAll").textContent = stepKeys.every(function (k) { return STEP[k]; }) ? "Clear all" : "Check all";
+  }
+  function jpegBlob() {
+    return new Promise(function (resolve, reject) {
+      var c = document.createElement("canvas"); c.width = canvas.width; c.height = canvas.height;
+      var g = c.getContext("2d"); g.fillStyle = colors.paper || "#ffffff"; g.fillRect(0, 0, c.width, c.height);
+      g.drawImage(canvas, 0, 0);
+      c.toBlob(function (b) { b ? resolve(b) : reject(new Error("could not make the picture")); }, "image/jpeg", 0.92);
+    });
+  }
+  function cleanName(s) { return (s || "").trim().replace(/[\\/:*?"<>|]+/g, "-").replace(/\.(json|jpe?g)$/i, "") || "loomis-head"; }
+  var canPickFolder = typeof window.showDirectoryPicker === "function";
+  var dlg = document.getElementById("saveDialog"), prefixEl = document.getElementById("prefix");
+  document.getElementById("saveNote").textContent = canPickFolder
+    ? "Next you choose a folder. Two files go in it: the settings (.json) and a picture of the drawing (.jpg)."
+    : "Two files will be saved to your browser's downloads folder: the settings (.json) and a picture of the drawing (.jpg).";
+  document.getElementById("saveGo").textContent = canPickFolder ? "Choose folder and save" : "Save";
+  function closeDialog() { dlg.hidden = true; document.getElementById("saveBtn").focus(); }
+  document.getElementById("saveBtn").addEventListener("click", function () { dlg.hidden = false; prefixEl.focus(); prefixEl.select(); });
+  document.getElementById("saveCancel").addEventListener("click", closeDialog);
+  dlg.addEventListener("keydown", function (e) { if (e.key === "Escape") closeDialog(); });
+  dlg.addEventListener("click", function (e) { if (e.target === dlg) closeDialog(); });
+  function download(blob, name) {
+    var a = document.createElement("a"), url = URL.createObjectURL(blob);
+    a.href = url; a.download = name; document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(function () { URL.revokeObjectURL(url); }, 4000);
+  }
+  document.getElementById("saveForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+    var name = cleanName(prefixEl.value), json = new Blob([JSON.stringify(settings(), null, 2)], { type: "application/json" });
+    closeDialog();
+    jpegBlob().then(function (jpg) {
+      if (!canPickFolder) { download(json, name + ".json"); download(jpg, name + ".jpg"); say("Saved " + name + ".json and " + name + ".jpg to your downloads."); return; }
+      return window.showDirectoryPicker({ id: "loomis-head", mode: "readwrite" }).then(function (dir) {
+        function put(file, blob) {
+          return dir.getFileHandle(file, { create: true }).then(function (h) { return h.createWritable(); })
+            .then(function (w) { return w.write(blob).then(function () { return w.close(); }); });
+        }
+        return put(name + ".json", json).then(function () { return put(name + ".jpg", jpg); })
+          .then(function () { say("Saved " + name + ".json and " + name + ".jpg in " + dir.name + "."); });
+      });
+    }).catch(function (err) {
+      if (err && err.name === "AbortError") { say("Nothing was saved."); return; }
+      say("Could not save here. Open the page on its own site to save files.");
+    });
+  });
+  var loadFile = document.getElementById("loadFile");
+  document.getElementById("loadBtn").addEventListener("click", function () { loadFile.click(); });
+  loadFile.addEventListener("change", function () {
+    var f = loadFile.files[0]; loadFile.value = "";
+    if (!f) return;
+    f.text().then(function (txt) { applySettings(JSON.parse(txt)); say("Loaded " + f.name + "."); })
+      .catch(function () { say("That file is not a Loomis head settings file."); });
   });
 
   var props = [
