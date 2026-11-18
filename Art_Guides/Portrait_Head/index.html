@@ -87,6 +87,18 @@ body {
 }
 .board canvas:active { cursor: grabbing; }
 .board canvas:focus-visible { outline: 2px solid var(--blue); outline-offset: -2px; }
+.bar .hint2 { font-size: 12.5px; color: var(--muted); margin-right: auto; }
+.bar .status { font-size: 12.5px; color: var(--ink); }
+button.primary { background: var(--blue); border-color: var(--blue); color: var(--panel); font-weight: 600; }
+button.primary:hover { filter: brightness(1.08); border-color: var(--blue); }
+.dialog-back { position: fixed; inset: 0; background: rgba(20, 24, 26, 0.38); display: flex; align-items: center; justify-content: center; z-index: 20; padding: 16px; }
+.dialog-back[hidden] { display: none; }
+.dialog { background: var(--panel); color: var(--ink); border: 1px solid var(--rule); border-radius: 8px; padding: 20px; width: min(420px, 100%); display: grid; gap: 8px; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25); }
+.dialog h2 { font-size: 18px; letter-spacing: 0; text-transform: none; color: var(--ink); margin: 0 0 4px; }
+.dialog label { font-weight: 600; font-size: 14px; }
+.dialog input[type="text"] { font: inherit; padding: 7px 9px; border: 1px solid var(--rule); border-radius: 4px; background: var(--paper); color: var(--ink); }
+.dialog input[type="text"]:focus-visible { outline: 2px solid var(--blue); outline-offset: 1px; }
+.dialog-buttons { display: flex; justify-content: flex-end; gap: 8px; margin-top: 6px; }
 .hint {
   position: absolute;
   left: 12px;
@@ -105,7 +117,7 @@ body {
   gap: 18px;
   position: sticky;
   top: 12px;
-  max-height: calc(100vh - 24px);
+  max-height: calc(100vh - 48px);
   overflow-y: auto;              /* the controls scroll on their own */
   overscroll-behavior: contain;
   scrollbar-width: thin;
@@ -193,6 +205,7 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
   .app { gap: 8px; padding: 8px; }
   .bar { padding: 6px 8px; gap: 6px; }
   .bar span { display: none; }
+  .bar .status { display: inline; }
   .hint { display: none; }
 }
 @media (max-width: 420px) {
@@ -214,7 +227,26 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
 
   <div class="board" id="board">
     <canvas id="view" tabindex="0" role="img" aria-label="The head with the photo mapped onto it, turning with the sliders"></canvas>
-    <div class="hint">Drag the head to turn it</div>
+    <div class="bar">
+      <span class="hint2">Drag the head to turn it</span>
+      <span class="status" id="fileStatus" role="status"></span>
+      <button type="button" id="saveBtn">Save</button>
+      <button type="button" id="loadBtn">Load</button>
+      <input type="file" id="loadFile" accept=".json,application/json" hidden>
+    </div>
+  </div>
+
+  <div class="dialog-back" id="saveDialog" hidden>
+    <form class="dialog" id="saveForm" role="dialog" aria-modal="true" aria-labelledby="saveTitle">
+      <h2 id="saveTitle">Save this portrait head</h2>
+      <label for="prefix">File name</label>
+      <input type="text" id="prefix" value="portrait-head" autocomplete="off" spellcheck="false">
+      <p class="note" id="saveNote"></p>
+      <div class="dialog-buttons">
+        <button type="button" id="saveCancel">Cancel</button>
+        <button type="submit" class="primary" id="saveGo">Save</button>
+      </div>
+    </form>
   </div>
 
   <aside class="tray">
@@ -747,9 +779,9 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
   function resize() {
     cssW = Math.max(140, board.clientWidth);
     var vh = window.innerHeight || 800, w = window.innerWidth || 1300;
-    cssH = Math.round(w <= 720 ? Math.max(160, Math.min(cssW * 1.15, vh * 0.36)) :
-                      w <= 1180 ? Math.max(220, Math.min(cssW * 1.02, vh * 0.5)) :
-                      Math.max(300, Math.min(cssW * 1.02, vh - 52, 760)));
+    cssH = Math.round(w <= 720 ? Math.max(150, Math.min(cssW * 1.15, vh * 0.36 - 40)) :         // room below for the Save and Load bar
+                      w <= 1180 ? Math.max(200, Math.min(cssW * 1.02, vh * 0.5 - 46)) :
+                      Math.max(300, Math.min(cssW * 1.02, vh - 100, 760)));
     dpr = Math.min(2, window.devicePixelRatio || 1);
     canvas.width = Math.round(cssW * dpr); canvas.height = Math.round(cssH * dpr);
     canvas.style.height = cssH + "px";
@@ -838,17 +870,19 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
   var pcan = document.getElementById("photo"), pctx = pcan.getContext("2d"), photoBoard = document.getElementById("photoBoard");
   var pW = 400, pH = 300, pScale = 1;
 
-  function loadPhoto(src, fractions) {
+  function loadPhoto(src, fractions, done) {
     var im = new Image();
     im.onload = function () {
       var k = Math.min(1, 1400 / Math.max(im.width, im.height));
       var c = document.createElement("canvas"); c.width = Math.round(im.width * k); c.height = Math.round(im.height * k);
       var g = c.getContext("2d"); g.drawImage(im, 0, 0, c.width, c.height);
-      photo = { w: c.width, h: c.height, canvas: c, data: g.getImageData(0, 0, c.width, c.height).data };
+      photo = { w: c.width, h: c.height, canvas: c, data: g.getImageData(0, 0, c.width, c.height).data, example: src === EXAMPLE };
       dots = fractions.map(function (f) { return [f[0] * c.width, f[1] * c.height]; });
       pcan.hidden = false; document.getElementById("empty").hidden = true;
       resizePhoto(); refit();
+      if (done) done();
     };
+    if (done) im.onerror = function () { done(new Error("the photo in the file could not be read")); };
     im.src = src;
   }
 
@@ -903,7 +937,7 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
   function resizePhoto() {
     if (!photo) return;
     var vh = window.innerHeight || 800, w = window.innerWidth || 1300, bar = 46;
-    var maxH = w <= 720 ? vh * 0.36 - 40 : w <= 1180 ? vh * 0.5 - bar : vh - 52 - bar;      // never taller than the window allows
+    var maxH = w <= 720 ? vh * 0.36 - 40 : w <= 1180 ? vh * 0.5 - bar : vh - 54 - bar;      // never taller than the window allows
     pScale = Math.min(Math.max(140, photoBoard.clientWidth) / photo.w, Math.max(180, maxH) / photo.h);
     pW = Math.round(photo.w * pScale); pH = Math.round(photo.h * pScale);
     var k = Math.min(2, window.devicePixelRatio || 1);
@@ -1180,6 +1214,99 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
     var el = document.getElementById(id);
     opt[toggles[id]] = el.checked;
     el.addEventListener("change", function () { opt[toggles[id]] = el.checked; schedule(); });
+  });
+
+  /* ------------------------------------------------------------------
+     SAVE AND LOAD. A settings file holds the photo, the dots, the fit,
+     the view and the light, and a JPEG of the head is saved beside it.
+  ------------------------------------------------------------------ */
+  var tray = document.querySelector(".tray"), statusEl = document.getElementById("fileStatus"), statusTimer = 0;
+  function say(msg) {
+    statusEl.textContent = msg; clearTimeout(statusTimer);
+    statusTimer = setTimeout(function () { statusEl.textContent = ""; }, 6000);
+  }
+  function settings() {
+    var controls = {};
+    tray.querySelectorAll("input[id]").forEach(function (el) {
+      if (el.type === "range") controls[el.id] = +el.value;
+      else if (el.type === "checkbox") controls[el.id] = el.checked;
+    });
+    var out = { app: "portrait-head", version: 1, saved: new Date().toISOString(), controls: controls };
+    if (photo) {
+      out.dots = dots.map(function (d) { return [+(d[0] / photo.w).toFixed(5), +(d[1] / photo.h).toFixed(5)]; });
+      out.photo = photo.example ? "example" : photo.canvas.toDataURL("image/jpeg", 0.9);   // your own photo travels inside the file
+    }
+    return out;
+  }
+  function applyControls(c) {
+    tray.querySelectorAll('input[type="checkbox"][id]').forEach(function (el) {
+      if (typeof c[el.id] === "boolean" && el.checked !== c[el.id]) { el.checked = c[el.id]; el.dispatchEvent(new Event("change")); }
+    });
+    tray.querySelectorAll('input[type="range"][id]').forEach(function (el) {
+      if (typeof c[el.id] === "number") { el.value = c[el.id]; el.dispatchEvent(new Event("input")); }
+    });
+  }
+  function applySettings(data, done) {
+    if (!data || data.app !== "portrait-head" || !data.controls) throw new Error("not a Portrait Head Mapper settings file");
+    var src = data.photo === "example" ? EXAMPLE : data.photo;
+    if (typeof src === "string" && /^data:image\//.test(src) && Array.isArray(data.dots) && data.dots.length === GUESS_DOTS.length)
+      loadPhoto(src, data.dots, function (err) { if (!err) applyControls(data.controls); done(err); });   // fit sliders go on after the dots refit the head
+    else { applyControls(data.controls); done(); }
+  }
+  function jpegBlob() {
+    return new Promise(function (resolve, reject) {
+      var c = document.createElement("canvas"); c.width = canvas.width; c.height = canvas.height;
+      var g = c.getContext("2d"); g.fillStyle = colors.paper || "#ffffff"; g.fillRect(0, 0, c.width, c.height);
+      g.drawImage(canvas, 0, 0);
+      c.toBlob(function (b) { b ? resolve(b) : reject(new Error("could not make the picture")); }, "image/jpeg", 0.92);
+    });
+  }
+  function cleanName(s) { return (s || "").trim().replace(/[\\/:*?"<>|]+/g, "-").replace(/\.(json|jpe?g)$/i, "") || "portrait-head"; }
+  var canPickFolder = typeof window.showDirectoryPicker === "function";
+  var dlg = document.getElementById("saveDialog"), prefixEl = document.getElementById("prefix");
+  document.getElementById("saveNote").textContent = (canPickFolder
+    ? "Next you choose a folder. Two files go in it: the settings (.json) and a picture of the head (.jpg)."
+    : "Two files will be saved to your browser's downloads folder: the settings (.json) and a picture of the head (.jpg).")
+    + " Your photo is kept inside the settings file, so loading it brings the photo back too.";
+  document.getElementById("saveGo").textContent = canPickFolder ? "Choose folder and save" : "Save";
+  function closeDialog() { dlg.hidden = true; document.getElementById("saveBtn").focus(); }
+  document.getElementById("saveBtn").addEventListener("click", function () { dlg.hidden = false; prefixEl.focus(); prefixEl.select(); });
+  document.getElementById("saveCancel").addEventListener("click", closeDialog);
+  dlg.addEventListener("keydown", function (e) { if (e.key === "Escape") closeDialog(); });
+  dlg.addEventListener("click", function (e) { if (e.target === dlg) closeDialog(); });
+  function download(blob, name) {
+    var a = document.createElement("a"), url = URL.createObjectURL(blob);
+    a.href = url; a.download = name; document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(function () { URL.revokeObjectURL(url); }, 4000);
+  }
+  document.getElementById("saveForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+    var name = cleanName(prefixEl.value), json = new Blob([JSON.stringify(settings(), null, 1)], { type: "application/json" });
+    closeDialog();
+    jpegBlob().then(function (jpg) {
+      if (!canPickFolder) { download(json, name + ".json"); download(jpg, name + ".jpg"); say("Saved " + name + ".json and " + name + ".jpg to your downloads."); return; }
+      return window.showDirectoryPicker({ id: "portrait-head", mode: "readwrite" }).then(function (dir) {
+        function put(file, blob) {
+          return dir.getFileHandle(file, { create: true }).then(function (h) { return h.createWritable(); })
+            .then(function (w) { return w.write(blob).then(function () { return w.close(); }); });
+        }
+        return put(name + ".json", json).then(function () { return put(name + ".jpg", jpg); })
+          .then(function () { say("Saved " + name + ".json and " + name + ".jpg in " + dir.name + "."); });
+      });
+    }).catch(function (err) {
+      if (err && err.name === "AbortError") { say("Nothing was saved."); return; }
+      say("Could not save here. Open the page on its own site to save files.");
+    });
+  });
+  var loadFile = document.getElementById("loadFile");
+  document.getElementById("loadBtn").addEventListener("click", function () { loadFile.click(); });
+  loadFile.addEventListener("change", function () {
+    var f = loadFile.files[0]; loadFile.value = "";
+    if (!f) return;
+    f.text().then(function (txt) {
+      return new Promise(function (resolve, reject) { applySettings(JSON.parse(txt), function (err) { err ? reject(err) : resolve(); }); });
+    }).then(function () { say("Loaded " + f.name + "."); })
+      .catch(function () { say("That file is not a Portrait Head Mapper settings file."); });
   });
 
   var props = [
