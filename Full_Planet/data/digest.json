@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-17T17:59:46.771309+00:00",
-  "generated_human": "17 November 2026, 17:59 UTC",
-  "total_items": 123,
+  "generated": "2026-11-18T17:42:01.571568+00:00",
+  "generated_human": "18 November 2026, 17:42 UTC",
+  "total_items": 124,
   "channels": [
     {
       "key": "ai",
@@ -50,14 +50,6 @@
           "regional": false
         },
         {
-          "title": "AI is disrupting math. Is science next?",
-          "link": "https://www.scientificamerican.com/article/ai-is-disrupting-math-is-science-next/",
-          "source": "Scientific American",
-          "summary": "Mathematicians will remember 2026 as the year AI changed everything about their field. Scientists may be next in line for disruption",
-          "published": "2026-11-12T16:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "AI-powered bionic eye breakthrough could help the blind see again",
           "link": "https://www.sciencedaily.com/releases/2026/11/261110042553.htm",
           "source": "ScienceDaily",
@@ -66,7 +58,7 @@
           "regional": false
         },
         {
-          "title": "Innovating with AI in the special chemicals industry",
+          "title": "Innovating with AI in the specialty chemicals industry",
           "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
           "source": "MIT Technology Review",
           "summary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the…",
@@ -82,12 +74,28 @@
           "regional": false
         },
         {
-          "title": "A bust-up between mathematicians is fuelling fears that AI could undermine science",
-          "link": "https://www.bbc.co.uk/news/articles/c6gelgxjwzdzo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "AI has made some awesome scientific discoveries. But now, questions are being raised about its accuracy",
-          "published": "2026-10-28T01:01:02+00:00",
-          "regional": false
+          "title": "AI a ‘growing concern’ at ASEAN’s parliamentary org, but no concrete measures yet",
+          "link": "https://www.rappler.com/philippines/artificial-intelligence-growing-concern-asean-inter-parliamentary-assembly-november-2026/",
+          "source": "Rappler",
+          "summary": "'Artificial intelligence is advancing faster than many of our laws can keep pace with. No single parliament can manage these challenges alone,' House Speaker Bojie Dy tells ASEAN parliamentarians",
+          "published": "2026-11-18T12:21:35+00:00",
+          "regional": true
+        },
+        {
+          "title": "Innovate Korea marks 10th anniversary with focus on human-centered AI",
+          "link": "https://www.koreaherald.com/article/10941448",
+          "source": "The Korea Herald",
+          "summary": "DAEJEON — A KAIST president dressed as Iron Man and a paralyzed researcher walking with a robotic exoskeleton opened Innovate Korea 2026 on Tuesday, setting the stage for discussions on how artificial intelligence could…",
+          "published": "2026-11-18T06:22:23+00:00",
+          "regional": true
+        },
+        {
+          "title": "Samsung SDI showcases batteries for AI data centers at RE+ 2026",
+          "link": "https://www.koreaherald.com/article/10941218",
+          "source": "The Korea Herald",
+          "summary": "Samsung SDI said Wednesday it is showcasing three types of battery solutions for artificial intelligence data centers at RE+ 2026 in Las Vegas, highlighting US-made energy storage systems, backup power technology and…",
+          "published": "2026-11-18T04:02:35+00:00",
+          "regional": true
         },
         {
           "title": "Posco hosts global forum on AI, decarbonization in steel industry",
@@ -98,27 +106,19 @@
           "regional": true
         },
         {
+          "title": "IMF raises Korea's 2026 growth forecast to 3.9% on AI chip boom",
+          "link": "https://www.koreaherald.com/article/10939843",
+          "source": "The Korea Herald",
+          "summary": "The International Monetary Fund on Tuesday raised its growth forecast for South Korea to 3.9 percent this year, citing the global artificial intelligence boom driving semiconductor exports, while warning that gains…",
+          "published": "2026-11-17T05:02:26+00:00",
+          "regional": true
+        },
+        {
           "title": "AI exam cheating puts Korean industry on alert",
           "link": "https://www.koreaherald.com/article/10939742",
           "source": "The Korea Herald",
           "summary": "The recent use of artificial intelligence to cheat on a national exam in South Korea has brought renewed attention to a security risk for companies that handle sensitive technology, including chipmakers, automakers and…",
           "published": "2026-11-17T03:11:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "LS Electric wins $94m US AI data center equipment deal",
-          "link": "https://www.koreaherald.com/article/10938560",
-          "source": "The Korea Herald",
-          "summary": "LS Electric, a South Korean electrical equipment manufacturer, said Monday it secured a $93.83 million contract to supply power distribution systems for a hyper-scale artificial intelligence data center in the US.",
-          "published": "2026-11-16T04:04:05+00:00",
-          "regional": true
-        },
-        {
-          "title": "Hyundai Home Shopping to debut fully AI-generated sales show",
-          "link": "https://www.koreaherald.com/article/10937399",
-          "source": "The Korea Herald",
-          "summary": "Hyundai Home Shopping said Sunday it will air its first regularly scheduled sales program made entirely with artificial intelligence, in what the retailer calls a home shopping industry first.",
-          "published": "2026-11-15T02:22:55+00:00",
           "regional": true
         },
         {
@@ -152,22 +152,6 @@
           "summary": "Generative AI is transforming science, industry, and society while raising urgent questions about governance and public participation.",
           "published": "2026-11-09T23:00:00+00:00",
           "regional": true
-        },
-        {
-          "title": "Can DeepSeek challenge OpenAI, Anthropic in AI agents as Harness adoption takes off?",
-          "link": "https://www.scmp.com/tech/big-tech/article/3373757/can-deepseek-challenge-openai-anthropic-ai-agents-harness-adoption-takes",
-          "source": "South China Morning Post",
-          "summary": "DeepSeek’s Harness artificial intelligence agent framework has reached 1.54 million daily active users less than three months after launch, the Chinese AI champion said on Sunday, marking rapid growth in a new…",
-          "published": "2026-11-09T07:00:04+00:00",
-          "regional": true
-        },
-        {
-          "title": "AI will soon master biology, unleashing new safety risks, Tencent AI chief warns",
-          "link": "https://www.scmp.com/tech/big-tech/article/3373697/ai-will-soon-master-biology-unleashing-new-safety-risks-tencent-ai-chief-warns",
-          "source": "South China Morning Post",
-          "summary": "Artificial intelligence models will soon be powerful enough to master biology, presenting both benefits and serious risks, Tencent Holdings’ chief AI scientist and former OpenAI star researcher Vinces Yao Shunyu said…",
-          "published": "2026-11-08T10:22:27+00:00",
-          "regional": true
         }
       ]
     },
@@ -177,6 +161,22 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "Scientists create a remarkable new rechargeable battery using vitamin B12",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261117033909.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have found a surprising new use for vitamin B12, developing a rechargeable battery that uses the essential nutrient to help generate and store electricity.",
+          "published": "2026-11-18T12:26:20+00:00",
+          "regional": false
+        },
+        {
+          "title": "New discovery reveals what may be holding back room-temperature superconductors",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261116023358.htm",
+          "source": "ScienceDaily",
+          "summary": "A major breakthrough in superconductivity research has revealed that one of the essential ingredients for electricity to flow without resistance can exist at room temperature.",
+          "published": "2026-11-18T12:16:46+00:00",
+          "regional": false
+        },
         {
           "title": "This remarkable new material could solve a major carbon capture problem",
           "link": "https://www.sciencedaily.com/releases/2026/11/261116023405.htm",
@@ -231,14 +231,6 @@
           "source": "ScienceDaily",
           "summary": "Scientists have discovered a faster way to identify diamond-based materials that could power quantum computers and sensors at room temperature.",
           "published": "2026-11-13T05:26:41+00:00",
-          "regional": false
-        },
-        {
-          "title": "Metal-rich deep-sea ‘nodules’ also harbor diverse ocean life",
-          "link": "https://www.scientificamerican.com/article/metal-rich-deep-sea-nodules-also-harbor-diverse-ocean-life/",
-          "source": "Scientific American",
-          "summary": "The finding, researchers say, should factor into plans to mine the seafloor for the metal-rich nodules",
-          "published": "2026-11-11T20:30:00+00:00",
           "regional": false
         },
         {
@@ -306,6 +298,38 @@
           "regional": false
         },
         {
+          "title": "Posco, CATL signs 3-year lithium supply deal",
+          "link": "https://www.koreaherald.com/article/10941739",
+          "source": "The Korea Herald",
+          "summary": "Posco Group said Wednesday it finalized a three-year lithium supply deal with CATL, the world’s largest electric vehicle battery manufacturer, expanding its footprint in a global critical minerals market long dominated…",
+          "published": "2026-11-18T08:46:27+00:00",
+          "regional": true
+        },
+        {
+          "title": "Samsung SDI showcases batteries for AI data centers at RE+ 2026",
+          "link": "https://www.koreaherald.com/article/10941218",
+          "source": "The Korea Herald",
+          "summary": "Samsung SDI said Wednesday it is showcasing three types of battery solutions for artificial intelligence data centers at RE+ 2026 in Las Vegas, highlighting US-made energy storage systems, backup power technology and…",
+          "published": "2026-11-18T04:02:35+00:00",
+          "regional": true
+        },
+        {
+          "title": "Boston Dynamics to deploy robots at GlobalFoundries' chip plants",
+          "link": "https://www.koreaherald.com/article/10940963",
+          "source": "The Korea Herald",
+          "summary": "Boston Dynamics, a US robotics subsidiary of Hyundai Motor Group, has said it plans to deploy its four-legged robot Spot at semiconductor plants operated by US chipmaker GlobalFoundries (GF) worldwide.",
+          "published": "2026-11-18T01:47:45+00:00",
+          "regional": true
+        },
+        {
+          "title": "Kospi slides below 5,000 for first time since February",
+          "link": "https://www.koreaherald.com/article/10940220",
+          "source": "The Korea Herald",
+          "summary": "The South Korean benchmark Kospi fell below the 5,000-point mark at the closing bell Tuesday for the first time since February, surrendering much of its gains from a semiconductor-led rally.",
+          "published": "2026-11-17T08:30:27+00:00",
+          "regional": true
+        },
+        {
           "title": "Japan sake brewer turns waste charcoal into odor-cutting cattle feed",
           "link": "https://sj.jst.go.jp/news/202611/n1117-01n.html",
           "source": "Science Japan",
@@ -322,35 +346,19 @@
           "regional": true
         },
         {
-          "title": "Kyoto University develops tmPhoxID to simultaneously map protein networks on both sides of membrane proteins",
-          "link": "https://sj.jst.go.jp/news/202611/n1116-04k.html",
-          "source": "Science Japan",
-          "summary": "A research group led by Professor Itaru Hamachi (currently Program-Specific Professor at the Institute of Advanced Energy, Kyoto University), Associate Professor Tomonori Tamura, and doctoral student Fátima Yuri…",
-          "published": "2026-11-16T09:07:57+00:00",
+          "title": "IMF raises Korea's 2026 growth forecast to 3.9% on AI chip boom",
+          "link": "https://www.koreaherald.com/article/10939843",
+          "source": "The Korea Herald",
+          "summary": "The International Monetary Fund on Tuesday raised its growth forecast for South Korea to 3.9 percent this year, citing the global artificial intelligence boom driving semiconductor exports, while warning that gains…",
+          "published": "2026-11-17T05:02:26+00:00",
           "regional": true
         },
         {
-          "title": "Korea's wage, productivity gaps widen amid chip-led growth: KDI",
-          "link": "https://www.koreaherald.com/article/10938715",
-          "source": "The Korea Herald",
-          "summary": "South Korea's economic rebound has brought little improvement in workers' purchasing power, as weak productivity outside semiconductors holds back wage growth and widens the divide between industries, a state-run think…",
-          "published": "2026-11-16T05:41:51+00:00",
-          "regional": true
-        },
-        {
-          "title": "HD Hyundai targets North American energy market at RE+ 2026",
-          "link": "https://www.koreaherald.com/article/10938519",
-          "source": "The Korea Herald",
-          "summary": "HD Hyundai is stepping up efforts to expand its presence in the North American energy market, showcasing its solar power, battery energy storage system and power grid technologies.",
-          "published": "2026-11-16T02:51:16+00:00",
-          "regional": true
-        },
-        {
-          "title": "Korea makes world-class memory chips. Can SK hynix-backed Trinity Fab help local suppliers catch up?",
-          "link": "https://www.koreaherald.com/article/10938000",
-          "source": "The Korea Herald",
-          "summary": "YONGIN, Gyeonggi Province — On an unfinished floor of SK hynix's new memory-chip plant, space is being set aside for companies struggling to get their equipment and materials approved for use in major semiconductor…",
-          "published": "2026-11-16T00:02:48+00:00",
+          "title": "China’s SMIC sees AI computing crunch until 2028 as Nvidia heat risks tighter chip curbs",
+          "link": "https://www.scmp.com/tech/big-tech/article/3374305/chinas-smic-sees-ai-computing-crunch-until-2028-nvidia-heat-risks-tighter-chip-curbs",
+          "source": "South China Morning Post",
+          "summary": "China’s Semiconductor Manufacturing International Corporation (SMIC) is betting that a relentless data centre buildout will keep artificial intelligence computing power in short supply for the next two years.",
+          "published": "2026-11-13T05:55:56+00:00",
           "regional": true
         },
         {
@@ -368,22 +376,6 @@
           "summary": "New machine learning framework makes metal recycling more sustainable without compromising on mechanical properties.",
           "published": "2026-11-10T11:00:00+00:00",
           "regional": true
-        },
-        {
-          "title": "How Oura shrank its smart ring by 40% without cutting battery or accuracy",
-          "link": "https://indianexpress.com/article/technology/tech-news-technology/oura-ring-5-jason-russell-interview-smaller-smart-ring-battery-life-10956612/",
-          "source": "Indian Express",
-          "summary": "",
-          "published": "2026-11-09T12:13:39+00:00",
-          "regional": true
-        },
-        {
-          "title": "AI, fuelled by advanced chips, set to power semiconductor manufacturing: industry veteran",
-          "link": "https://www.scmp.com/tech/big-tech/article/3372774/ai-fuelled-advanced-chips-set-power-semiconductor-manufacturing-industry-veteran",
-          "source": "South China Morning Post",
-          "summary": "Artificial intelligence is no longer merely the driving force behind global semiconductor demand, but is also actively reinventing how chips are designed and built, industry leaders and scientists said at a major…",
-          "published": "2026-10-30T12:59:39+00:00",
-          "regional": true
         }
       ]
     },
@@ -400,6 +392,22 @@
       "tagline": "New ways to generate clean energy, capture carbon, and bring fresh water and power to people, cities, and transport.",
       "accent": "#33C6D6",
       "items": [
+        {
+          "title": "Why the bipartisan BAAJA permitting bill could quietly revolutionize nuclear power",
+          "link": "https://www.scientificamerican.com/article/why-the-bipartisan-baaja-permitting-bill-could-quietly-revolutionize-nuclear-power/",
+          "source": "Scientific American",
+          "summary": "A sweeping permit bill making its way through the Senate this week could smooth the way for new nuclear power projects",
+          "published": "2026-11-18T13:30:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Pakistan's solar revolution is so successful the national grid is lagging behind",
+          "link": "https://www.bbc.co.uk/news/articles/ckvg2n2q3103o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "People installing their own solar panels has helped boost the solar share of Pakistan's electricity from 1% to 28%.",
+          "published": "2026-11-17T23:34:56+00:00",
+          "regional": false
+        },
         {
           "title": "This remarkable new material could solve a major carbon capture problem",
           "link": "https://www.sciencedaily.com/releases/2026/11/261116023405.htm",
@@ -425,6 +433,30 @@
           "regional": false
         },
         {
+          "title": "Posco, CATL signs 3-year lithium supply deal",
+          "link": "https://www.koreaherald.com/article/10941739",
+          "source": "The Korea Herald",
+          "summary": "Posco Group said Wednesday it finalized a three-year lithium supply deal with CATL, the world’s largest electric vehicle battery manufacturer, expanding its footprint in a global critical minerals market long dominated…",
+          "published": "2026-11-18T08:46:27+00:00",
+          "regional": true
+        },
+        {
+          "title": "Super El Niño : quand le calendrier des semis devient un atout pour nourrir le bétail",
+          "link": "https://theconversation.com/super-el-nino-quand-le-calendrier-des-semis-devient-un-atout-pour-nourrir-le-betail-296716",
+          "source": "The Conversation",
+          "summary": "Semer le radis fourrager aux bons mois peut aider les agriculteurs sud-africains à produire des aliments pour le bétail plus nutritifs, même sans irrigation.",
+          "published": "2026-11-18T08:38:13+00:00",
+          "regional": true
+        },
+        {
+          "title": "Samsung SDI showcases batteries for AI data centers at RE+ 2026",
+          "link": "https://www.koreaherald.com/article/10941218",
+          "source": "The Korea Herald",
+          "summary": "Samsung SDI said Wednesday it is showcasing three types of battery solutions for artificial intelligence data centers at RE+ 2026 in Las Vegas, highlighting US-made energy storage systems, backup power technology and…",
+          "published": "2026-11-18T04:02:35+00:00",
+          "regional": true
+        },
+        {
           "title": "Is solar energy only for the rich?",
           "link": "https://www.rappler.com/philippines/video-rooftop-solar-financing-options/",
           "source": "Rappler",
@@ -438,22 +470,6 @@
           "source": "The Korea Herald",
           "summary": "Korea Zinc is establishing a joint venture with US-based solar panel recycler SolarCycle to expand its resource recycling operations in the US.",
           "published": "2026-11-17T05:55:33+00:00",
-          "regional": true
-        },
-        {
-          "title": "Samsung SDI to supply LFP ESS batteries to US Jupiter Power",
-          "link": "https://www.koreaherald.com/article/10938684",
-          "source": "The Korea Herald",
-          "summary": "Samsung SDI said Monday it signed a deal to supply 16 gigawatt-hours of lithium iron phosphate energy storage system batteries to Jupiter Power — a Texas-based utility-scale ESS operator — expanding its footprint in the…",
-          "published": "2026-11-16T05:16:21+00:00",
-          "regional": true
-        },
-        {
-          "title": "HD Hyundai targets North American energy market at RE+ 2026",
-          "link": "https://www.koreaherald.com/article/10938519",
-          "source": "The Korea Herald",
-          "summary": "HD Hyundai is stepping up efforts to expand its presence in the North American energy market, showcasing its solar power, battery energy storage system and power grid technologies.",
-          "published": "2026-11-16T02:51:16+00:00",
           "regional": true
         },
         {
@@ -473,6 +489,14 @@
           "regional": true
         },
         {
+          "title": "Can global leaders put their money where their mouth is on climate?",
+          "link": "https://www.dw.com/en/can-global-leaders-put-their-money-where-their-mouth-is-on-climate/a-79918744?maca=en-rss_en_environment-22607-xml-mrss",
+          "source": "Deutsche Welle",
+          "summary": "World leaders warn that geopolitical divisions are distracting from the climate crisis as negotiations focus on clean energy and financing, while Iran calls for compensation for war-related environmental damage.",
+          "published": "2026-11-11T14:21:00+00:00",
+          "regional": true
+        },
+        {
           "title": "Green chemistry: Producing hydrogen peroxide more efficiently",
           "link": "https://www.mpg.de/27052948/making-the-sustainable-production-of-hydrogen-peroxide-more-efficient",
           "source": "Max Planck Society",
@@ -481,27 +505,11 @@
           "regional": true
         },
         {
-          "title": "How Oura shrank its smart ring by 40% without cutting battery or accuracy",
-          "link": "https://indianexpress.com/article/technology/tech-news-technology/oura-ring-5-jason-russell-interview-smaller-smart-ring-battery-life-10956612/",
-          "source": "Indian Express",
-          "summary": "",
-          "published": "2026-11-09T12:13:39+00:00",
-          "regional": true
-        },
-        {
           "title": "North Africa’s green hydrogen exports to Europe could harm water supply and marine life – study",
           "link": "https://theconversation.com/north-africas-green-hydrogen-exports-to-europe-could-harm-water-supply-and-marine-life-study-294368",
           "source": "The Conversation",
           "summary": "European countries want north Africa to set up green hydrogen industries for them, but this will come at a huge cost to water supplies and coastal areas.",
           "published": "2026-11-03T14:09:22+00:00",
-          "regional": true
-        },
-        {
-          "title": "Emerging economies are embracing solar power and skipping fossil fuels much faster than Europe or the US",
-          "link": "https://www.dw.com/en/emerging-economies-are-embracing-solar-power-and-skipping-fossil-fuels-much-faster-than-europe-or-the-us/a-79474847?maca=en-rss_en_environment-22607-xml-mrss",
-          "source": "Deutsche Welle",
-          "summary": "Renewable electricity is cheaper than ever. While the West got rich on coal and oil, some of the world's poorest countries are banking on solar, wind and water instead.",
-          "published": "2026-10-07T07:48:00+00:00",
           "regional": true
         }
       ]
@@ -513,19 +521,51 @@
       "accent": "#F0894E",
       "items": [
         {
-          "title": "NASA Invites Media, Public to View Roman Telescope’s First Images",
-          "link": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-view-roman-telescopes-first-images/",
+          "title": "What Is the Moon Base?",
+          "link": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-the-moon-base/",
           "source": "NASA",
-          "summary": "NASA will release the first images from its Nancy Grace Roman Space Telescope during a live stream from the American Geophysical Union (AGU) Annual Meeting in San Francisco at 3:30 p.m. EST (12:30 p.m. PST) Monday, Dec.",
-          "published": "2026-11-17T17:00:29+00:00",
+          "summary": "This article is for students. NASA is returning astronauts to the Moon – and this time they will spend more time on the lunar surface. The Moon Base is humanity’s first lunar outpost.",
+          "published": "2026-11-18T17:36:03+00:00",
           "regional": false
         },
         {
-          "title": "Space Selfie",
-          "link": "https://www.nasa.gov/image-article/space-selfie-2/",
+          "title": "The Vulcan rocket failure could haunt U.S. spaceflight for years to come",
+          "link": "https://www.scientificamerican.com/article/the-vulcan-rocket-failure-could-haunt-u-s-spaceflight-for-years-to-come/",
+          "source": "Scientific American",
+          "summary": "The latest setback for Vulcan, a next-generation rocket built by United Launch Alliance, is a heavy blow for the company and its customers—including Amazon, NASA and the U.S. Space Force",
+          "published": "2026-11-18T17:30:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "How bad would SpaceX’s million AI satellites be for Earth’s atmosphere?",
+          "link": "https://www.scientificamerican.com/article/how-bad-would-spacexs-million-ai-satellites-be-for-earths-atmosphere/",
+          "source": "Scientific American",
+          "summary": "A new study estimates that the company’s plans to launch a million orbital data centers could increase Earth’s upper atmospheric pollution by more than a 100-fold",
+          "published": "2026-11-18T13:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA pushes Mars helicopter blades beyond the speed of sound",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261117033920.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA has successfully tested Mars helicopter rotor blades at supersonic speeds, boosting potential lift by 30% and overcoming a major obstacle to more powerful aircraft on the Red Planet.",
+          "published": "2026-11-18T03:16:19+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Launches Nuclear Power Systems Student Contest",
+          "link": "https://science.nasa.gov/centers-and-facilities/glenn/nasa-launches-nuclear-power-systems-student-contest/",
           "source": "NASA",
-          "summary": "NASA astronaut Anil Menon took this selfie during a spacewalk on Oct. 29, 2026. He and CSA (Canadian Space Agency) astronaut Joshua Kutryk installed a new roll-out solar array on the International Space Station.",
-          "published": "2026-11-17T16:51:14+00:00",
+          "summary": "NASA’s Power to Explore Student Challenge kicked off Tuesday, Nov. 17. The science, engineering, technology, and mathematics (STEM) challenge invites kindergarten through 12th grade students in the United States to…",
+          "published": "2026-11-17T22:02:48+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA to Cover 35th SpaceX Resupply Mission Space Station Departure",
+          "link": "https://www.nasa.gov/news-release/nasa-to-cover-35th-spacex-resupply-mission-space-station-departure/",
+          "source": "NASA",
+          "summary": "Editor’s note: This advisory was updated on Nov. 18, 2026, to reflect changes to coverage and the return timeline.",
+          "published": "2026-11-17T19:16:22+00:00",
           "regional": false
         },
         {
@@ -542,30 +582,6 @@
           "source": "ScienceDaily",
           "summary": "Europe’s Hera spacecraft has arrived at the scene of NASA’s historic asteroid collision to uncover what really happened when a spacecraft slammed into Dimorphos in 2022.",
           "published": "2026-11-17T10:45:41+00:00",
-          "regional": false
-        },
-        {
-          "title": "Perseverance Update: The Ghostly Rocks of ‘Idubi’ — Bright Remnants of Aqueous Systems from Long Ago",
-          "link": "https://science.nasa.gov/blog/perseverance-update-the-ghostly-rocks-of-idubi-bright-remnants-of-aqueous-systems-from-long-ago/",
-          "source": "NASA",
-          "summary": "Written by Candice Bedford, Research Scientist at Purdue University Date: Nov. 16, 2026 During the Perseverance rover’s investigation of “Idubi” — an area of ancient Martian crust exposed in the “Lac de Charmes” region,…",
-          "published": "2026-11-16T23:12:45+00:00",
-          "regional": false
-        },
-        {
-          "title": "A Collage Showing 49 Drill Holes Made by NASA’s Curiosity Mars Rover",
-          "link": "https://science.nasa.gov/photojournal/a-collage-showing-49-drill-holes-made-by-nasas-curiosity-mars-rover/",
-          "source": "NASA",
-          "summary": "Description This collage shows 49 drill holes captured by NASA’s Curiosity Mars rover as of November 2026. Each hole represents a sample collected from rocks on the Martian surface; Curiosity’s drill, located on the end…",
-          "published": "2026-11-16T22:05:23+00:00",
-          "regional": false
-        },
-        {
-          "title": "Sentinel-6B in Orbit Around Earth",
-          "link": "https://science.nasa.gov/photojournal/sentinel-6b-in-orbit-around-earth/",
-          "source": "NASA",
-          "summary": "Description This artist’s concept shows the Sentinel-6B satellite, which will become the reference satellite for other missions studying sea surface height.",
-          "published": "2026-11-16T18:52:32+00:00",
           "regional": false
         },
         {
@@ -633,6 +649,14 @@
           "regional": false
         },
         {
+          "title": "Hera spacecraft in ‘rectangular orbit’ around target asteroids",
+          "link": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/hera-spacecraft-in-rectangular-orbit-around-target-asteroids",
+          "source": "ESA",
+          "summary": "The European Space Agency’s Hera mission for planetary defence has arrived at its target asteroids. Positioned just 30-25 km away from the binary Didymos system, the small-car-sized spacecraft has commenced its ‘early…",
+          "published": "2026-11-11T13:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA’s CHAPEA Mars crew finally emerges after more than a year in isolation",
           "link": "https://www.sciencedaily.com/releases/2026/11/261109205406.htm",
           "source": "ScienceDaily",
@@ -657,27 +681,19 @@
           "regional": false
         },
         {
+          "title": "Prometheus reusable rocket engine fires up at improved test bench",
+          "link": "https://www.esa.int/articles/about-us/directorates/space-transportation/future-space-transportation/prometheus-reusable-rocket-engine-fires-up-at-improved-test-bench",
+          "source": "ESA",
+          "summary": "The Prometheus firing tests validated both the upgraded test bench and a new way of producing the engine’s combustion chamber.",
+          "published": "2026-11-06T08:56:52+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA is racing against time to save the Hubble Space Telescope",
           "link": "https://www.sciencedaily.com/releases/2026/11/261104012254.htm",
           "source": "ScienceDaily",
           "summary": "NASA is exploring a daring plan to save the legendary Hubble Space Telescope from its eventual fiery plunge into Earth's atmosphere.",
           "published": "2026-11-04T11:22:33+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA smashed into an asteroid. Now Hera is closing in to see what happened",
-          "link": "https://www.sciencedaily.com/releases/2026/11/261103003154.htm",
-          "source": "ScienceDaily",
-          "summary": "Europe’s Hera spacecraft has captured its first clear view of two asteroids involved in NASA’s historic 2022 experiment to redirect a potentially dangerous space rock.",
-          "published": "2026-11-03T09:46:21+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Voyager 1 is about to reach a historic one-light-day milestone",
-          "link": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA’s Voyager 1 is approaching an extraordinary milestone nearly 50 years after its launch, even as engineers battle dwindling power and mysterious technical problems.",
-          "published": "2026-11-03T08:11:10+00:00",
           "regional": false
         },
         {
@@ -697,12 +713,12 @@
           "regional": false
         },
         {
-          "title": "NASA’s Artemis I mission reveals surprising radiation levels near the Moon",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261027063659.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA’s Artemis I mission has revealed that cosmic radiation near the Moon is higher than in Earth orbit, but not by as much as scientists might expect.",
-          "published": "2026-10-28T10:29:36+00:00",
-          "regional": false
+          "title": "NASA’s Voyager 1 reaches one light-day from Earth on November 18: What does it mean?",
+          "link": "https://www.thehindu.com/sci-tech/science/voyager-1-reaches-one-light-day-from-earth-on-november-18-what-it-means-nasa-latest-news/article71704297.ece",
+          "source": "The Hindu",
+          "summary": "NASA’s Voyager 1, humanity’s farthest spacecraft, is about to reach one light-day from Earth, more than 16 billion miles away; Know what it means",
+          "published": "2026-11-18T05:00:29+00:00",
+          "regional": true
         },
         {
           "title": "Orbital computing could let scientists rent ‘brainpower’ in space",
@@ -713,27 +729,11 @@
           "regional": true
         },
         {
-          "title": "Rocket from Boeing-Lockheed firm fails mid-flight, destroys payload of Amazon satellites",
-          "link": "https://indianexpress.com/article/technology/science/rocket-from-boeing-lockheed-firm-fails-mid-flight-destroys-payload-of-amazon-satellites-10964766/",
-          "source": "Indian Express",
-          "summary": "",
-          "published": "2026-11-16T04:15:46+00:00",
-          "regional": true
-        },
-        {
           "title": "SpaceX pulls off first-ever spaceship ‘catch’",
           "link": "https://www.thehindu.com/news/international/spacexs-starship-returns-from-orbit-and-is-captured-by-launch-pad-arms-in-a-dramatic-first/article71703046.ece",
           "source": "The Hindu",
           "summary": "Starship returned from orbit and was caught by the “chopstick arms” at SpaceX’s Starbase launch pad in Texas, in a milestone for fully reusable rockets",
           "published": "2026-11-15T12:55:36+00:00",
-          "regional": true
-        },
-        {
-          "title": "From pills to orbit: Boryung heir's bold space bet",
-          "link": "https://www.koreaherald.com/article/10937558",
-          "source": "The Korea Herald",
-          "summary": "When Boryung signed a research cooperation agreement with German aerospace agency DLR last month, the Korean drugmaker gained something its space ambitions had long lacked: a prospective user for its planned research…",
-          "published": "2026-11-15T07:12:30+00:00",
           "regional": true
         },
         {
@@ -782,6 +782,14 @@
           "source": "The Hindu",
           "summary": "‘Four orbit manoeuvres have been successfully completed with a cumulative LAM engine burn of 6164 seconds; with this the satellite has reached Geo Synchronous Orbit at an inclination of 29.980,’ said ISRO",
           "published": "2026-11-05T05:34:06+00:00",
+          "regional": true
+        },
+        {
+          "title": "Back to back GSLV successes help ISRO win back some pride",
+          "link": "https://www.thehindu.com/newsletter/space-wrap/space-wrap-newsletter-back-to-back-gslv-successes-help-isro-win-back-some-pride/article71665366.ece",
+          "source": "The Hindu",
+          "summary": "",
+          "published": "2026-11-04T14:57:29+00:00",
           "regional": true
         }
       ]
@@ -849,6 +857,14 @@
           "regional": false
         },
         {
+          "title": "A giant icy world hiding beyond Pluto could be our sixth dwarf planet",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261112230447.htm",
+          "source": "ScienceDaily",
+          "summary": "Astronomers have uncovered a potentially enormous new dwarf planet beyond Pluto, hidden for years in one of the most crowded regions of the night sky.",
+          "published": "2026-11-14T11:58:42+00:00",
+          "regional": false
+        },
+        {
           "title": "The Euclid space telescope captures nearly a billion celestial objects in stunning detail",
           "link": "https://www.scientificamerican.com/article/the-euclid-space-telescope-captures-nearly-a-billion-celestial-objects-in-stunning-detail/",
           "source": "Scientific American",
@@ -870,14 +886,6 @@
           "source": "ScienceDaily",
           "summary": "A groundbreaking new supercomputer simulation is revealing how the universe escaped its cosmic dark age and transformed into a cosmos filled with stars and galaxies.",
           "published": "2026-11-12T04:07:24+00:00",
-          "regional": false
-        },
-        {
-          "title": "Newfound invisible object in space could be a rare supermassive neutron star",
-          "link": "https://www.scientificamerican.com/article/newfound-invisible-object-in-space-could-be-a-rare-supermassive-neutron-star/",
-          "source": "Scientific American",
-          "summary": "Astronomers saw something strange in a distant star system—or rather what’s strange is what they didn’t see. Solving the mystery could reveal new astrophysics",
-          "published": "2026-11-11T19:00:00+00:00",
           "regional": false
         },
         {
