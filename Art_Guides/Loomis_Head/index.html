@@ -19,6 +19,8 @@
   --rule: #c5cbc8;
   --blue: #2874b5;
   --red: #c4432c;
+  --contour: #8a5a2b;
+  --slice: #2a7a6b;
   --form-light: #fcfcfa;
   --form-shade: #c3c9c6;
   --font-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", sans-serif;
@@ -35,6 +37,8 @@
     --rule: #3a4044;
     --blue: #7db9ea;
     --red: #f08f7e;
+    --contour: #d6a46c;
+    --slice: #7fcab9;
     --form-light: #34393d;
     --form-shade: #15181a;
     color-scheme: dark;
@@ -49,6 +53,8 @@
   --rule: #3a4044;
   --blue: #7db9ea;
   --red: #f08f7e;
+  --contour: #d6a46c;
+  --slice: #7fcab9;
   --form-light: #34393d;
   --form-shade: #15181a;
   color-scheme: dark;
@@ -76,7 +82,8 @@ body {
   border: 1px solid var(--rule);
   border-radius: 6px;
   overflow: hidden;
-  position: relative;
+  position: sticky;              /* the head stays in view while the controls scroll */
+  top: 12px;
 }
 .board canvas {
   display: block;
@@ -102,7 +109,34 @@ body {
   display: flex;
   flex-direction: column;
   gap: 18px;
+  position: sticky;
+  top: 12px;
+  max-height: calc(100vh - 48px);
+  overflow-y: auto;              /* the controls scroll on their own */
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: var(--rule) transparent;
 }
+.tray::-webkit-scrollbar { width: 9px; }
+.tray::-webkit-scrollbar-thumb { background: var(--rule); border-radius: 5px; border: 2px solid var(--panel); }
+.tray > * { flex: none; }
+details.group > summary { list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 2px 0; cursor: pointer; }
+details.group > summary::-webkit-details-marker { display: none; }
+details.group > summary h2 { margin: 0; }
+details.group > summary::after { content: ""; width: 7px; height: 7px; border-right: 1.5px solid var(--muted); border-bottom: 1.5px solid var(--muted); transform: rotate(45deg); margin: 0 4px 4px 0; flex: none; }
+details.group[open] > summary { margin-bottom: 10px; }
+details.group[open] > summary::after { transform: rotate(-135deg); margin: 4px 4px 0 0; }
+details.group > summary:hover h2 { color: var(--ink); }
+summary:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.steps { display: grid; gap: 7px; }
+.steps label { display: flex; align-items: flex-start; gap: 8px; font-size: 14px; cursor: pointer; line-height: 1.3; }
+.steps input { accent-color: var(--blue); width: 15px; height: 15px; margin: 1px 0 0; flex: none; }
+.steps .num { color: var(--muted); font-variant-numeric: tabular-nums; min-width: 1.1em; }
+.steps .sub { padding-left: 20px; }
+.note { font-size: 13px; color: var(--muted); margin: 0; }
+.swatch.contour { border-color: var(--contour); }
+.swatch.slice { border-color: var(--slice); }
+h3.study { font-size: 13px; font-weight: 600; color: var(--muted); margin: 16px 0 8px; padding-top: 12px; border-top: 1px solid var(--rule); }
 h1 {
   font-family: var(--font-display);
   font-weight: 700;
@@ -151,7 +185,10 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
 .key { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; font-size: 13.5px; color: var(--muted); }
 .key b { color: var(--ink); font-weight: 600; }
 @media (max-width: 880px) {
-  .app { grid-template-columns: 1fr; }
+  /* head on top, the controls below it in their own scrolling area */
+  .app { grid-template-columns: 1fr; grid-template-rows: auto minmax(0, 1fr); height: 100vh; height: 100dvh; padding: 10px 10px 12px; gap: 10px; }
+  .board { position: relative; top: 0; }
+  .tray { position: relative; top: 0; max-height: none; height: 100%; min-height: 0; }
 }
 @media (max-width: 420px) {
   .toggles { grid-template-columns: 1fr; }
@@ -168,11 +205,11 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
   <aside class="tray">
     <header>
       <h1>Loomis Head Rotator</h1>
-      <p class="lede">A ball with its sides sliced off, a jaw hung beneath it, and the lines that place the features. Turn it and watch how the lines wrap.</p>
+      <p class="lede">A ball with its sides sliced off, a jaw hung beneath it, and the lines that place the features. Build it up step by step, then turn it and watch how the lines wrap.</p>
     </header>
 
-    <section>
-      <h2>View</h2>
+    <details class="group" open>
+      <summary><h2>View</h2></summary>
       <div class="slider">
         <div class="slider-head"><label for="turn">Turn</label><output id="turnOut" for="turn"></output></div>
         <input type="range" id="turn" min="-180" max="180" step="1" value="-35">
@@ -181,11 +218,7 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
         <div class="slider-head"><label for="tilt">Tilt</label><output id="tiltOut" for="tilt"></output></div>
         <input type="range" id="tilt" min="-70" max="70" step="1" value="8">
       </div>
-    </section>
-
-    <section>
-      <h2>Standard views</h2>
-      <div class="presets" id="presets">
+      <div class="presets" id="presets" style="margin-top:12px">
         <button type="button" data-turn="0" data-tilt="0">Front</button>
         <button type="button" data-turn="-40" data-tilt="0">Three-quarter</button>
         <button type="button" data-turn="-90" data-tilt="0">Profile</button>
@@ -193,10 +226,35 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
         <button type="button" data-turn="-35" data-tilt="-35">Looking down</button>
         <button type="button" data-turn="-140" data-tilt="0">From behind</button>
       </div>
-    </section>
+    </details>
 
-    <section>
-      <div class="row"><h2>Adjust this head</h2><button type="button" id="resetProps">Reset</button></div>
+    <details class="group" open>
+      <summary><h2>Build it up</h2></summary>
+      <div class="row"><p class="note">Work down the list to construct the head step by step.</p><button type="button" id="buildAll">Clear all</button></div>
+      <div class="steps">
+        <label><input type="checkbox" id="b_ball" checked><span class="num">1</span><span>The ball, sliced at the sides <span class="swatch red"></span></span></label>
+        <label><input type="checkbox" id="b_guides" checked><span class="num">2</span><span>Center line, hairline, brow line and base of the nose <span class="swatch blue"></span></span></label>
+        <label><input type="checkbox" id="b_mask" checked><span class="num">3</span><span>Face mask, dropping from the brow to the chin, and the jaw</span></label>
+        <label><input type="checkbox" id="b_features" checked><span class="num">4</span><span>Basic eyebrows, eyes, nose, mouth and ears</span></label>
+        <label><input type="checkbox" id="b_cheek" checked><span class="num">5</span><span>Cheekbones</span></label>
+        <label><input type="checkbox" id="b_maxilla" checked><span class="num">6</span><span>Maxillary sphere around the mouth <span class="swatch contour"></span></span></label>
+        <label><input type="checkbox" id="b_orbit" checked><span class="num">7</span><span>Orbits of the eyes <span class="swatch contour"></span></span></label>
+        <label><input type="checkbox" id="b_detail" checked><span class="num">8</span><span>Detailed eyes, with the eyeball under the lids</span></label>
+      </div>
+      <h3 class="study">Study the form</h3>
+      <div class="steps">
+        <label><input type="checkbox" id="b_contours"><span class="num">9</span><span>Contours: horizontal slices round the head <span class="swatch slice"></span></span></label>
+        <div class="slider sub">
+          <div class="slider-head"><label for="gap">Contour spacing</label><output id="gapOut" for="gap"></output></div>
+          <input type="range" id="gap" min="4" max="20" step="1" value="8">
+        </div>
+        <label><input type="checkbox" id="b_planes"><span class="num">10</span><span>Major planes: the head cut into flat facets</span></label>
+      </div>
+    </details>
+
+    <details class="group">
+      <summary><h2>Adjust this head</h2></summary>
+      <div class="row"><p class="note">Small changes away from the generic head.</p><button type="button" id="resetProps">Reset</button></div>
       <div class="slider">
         <div class="slider-head"><label for="pEye">Eye spacing</label><output id="pEyeOut" for="pEye"></output></div>
         <input type="range" id="pEye" min="80" max="120" step="1" value="100">
@@ -213,10 +271,11 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
         <div class="slider-head"><label for="pCheek">Cheekbone height</label><output id="pCheekOut" for="pCheek"></output></div>
         <input type="range" id="pCheek" min="-10" max="10" step="1" value="0">
       </div>
-    </section>
+    </details>
 
-    <section>
-      <h2>Light</h2>
+    <details class="group">
+      <summary><h2>Light</h2></summary>
+      <div class="toggles" style="grid-template-columns:1fr;margin-bottom:10px"><label><input type="checkbox" id="tShade" checked>Light and shade</label></div>
       <div class="slider">
         <div class="slider-head"><label for="lStr">Strength</label><output id="lStrOut" for="lStr"></output></div>
         <input type="range" id="lStr" min="0" max="100" step="1" value="45">
@@ -229,33 +288,29 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
         <div class="slider-head"><label for="lHigh">Height</label><output id="lHighOut" for="lHigh"></output></div>
         <input type="range" id="lHigh" min="-80" max="80" step="1" value="38">
       </div>
-    </section>
+    </details>
 
-    <section>
-      <h2>Show</h2>
+    <details class="group">
+      <summary><h2>Show</h2></summary>
       <div class="toggles">
-        <label><input type="checkbox" id="tLat" checked><span class="swatch blue"></span>Latitude lines</label>
-        <label><input type="checkbox" id="tCen" checked><span class="swatch blue"></span>Center lines</label>
-        <label><input type="checkbox" id="tCir" checked><span class="swatch red"></span>Side circles</label>
-        <label><input type="checkbox" id="tFea" checked><span class="swatch"></span>Features</label>
         <label><input type="checkbox" id="tNeck" checked>Neck</label>
         <label><input type="checkbox" id="tHid" checked>Hidden lines dotted</label>
-        <label><input type="checkbox" id="tShade" checked>Light and shade</label>
         <label><input type="checkbox" id="tLab" checked>Labels</label>
       </div>
-    </section>
+    </details>
 
-    <section>
-      <h2>Rules built in</h2>
+    <details class="group">
+      <summary><h2>Rules built in</h2></summary>
       <ul class="key">
         <li><b>Side circle</b> is two-thirds the width of the ball. Its cross marks the brow line and the ear line.</li>
         <li><b>Hairline, brow, nose</b> sit at the top, middle and bottom of the circle.</li>
         <li><b>Chin</b> drops one more of those thirds below the nose.</li>
         <li><b>Eyes</b> sit halfway between the crown and the chin, one eye-width apart.</li>
         <li><b>Mouth</b> is a third of the way from nose to chin. The ear spans brow to nose.</li>
+        <li><b>Contours</b> slice the head at even heights, so you can see which way each surface turns. <b>Major planes</b> square the round forms into flat facets in light, halftone and shadow.</li>
         <li>The four proportion sliders move this head away from those rules. The side circle stays put, so you can see the difference.</li>
       </ul>
-    </section>
+    </details>
   </aside>
 </main>
 
@@ -341,7 +396,7 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
     var R = Math.sqrt(Math.max(0, 1 - y * y));
     var bx = R * sn; bx = bx > s ? s : bx < -s ? -s : bx;
     var bz = R * cs;
-    if (y >= 0) return [bx, y, bz];
+    if (y >= 0 || !STEP.mask) return [bx, y, bz];
     var w = faceWidth(y), zf = faceFront(y), zb = y >= -0.75 ? -R : jawBack(y), zc = widest(y);
     var nb = 2 + 3 * smooth(-0.75, -1.0, y);
     var e = 2 / (cs >= 0 ? frontSquare(y) : nb);
@@ -356,7 +411,11 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
     var b = bb + (bf - bb) * g;
     // cheekbone: a soft swelling on the front corner of the face
     var dk = (y - HEAD.cheekY) / 0.12, da = (Math.acos(cs < -1 ? -1 : cs > 1 ? 1 : cs) - 0.92) / 0.36;
-    var bump = 0.055 * Math.exp(-dk * dk - da * da) * smooth(0, -0.1, y);
+    var bump = STEP.cheek ? 0.055 * Math.exp(-dk * dk - da * da) * smooth(0, -0.1, y) : 0;
+    if (STEP.maxilla) {          // the barrel of the upper and lower teeth, pushing the mouth forward
+      var mq = (y - (Y.mouth + 0.01)) / 0.24, ma = Math.acos(cs < -1 ? -1 : cs > 1 ? 1 : cs) / 0.62;
+      bump += 0.028 * Math.exp(-mq * mq * mq * mq - ma * ma * ma * ma);
+    }
     return [bx + (fx - bx) * b + sn * bump, y, bz + (fz - bz) * b + cs * bump];
   }
   // depth of the face at a given height and distance from the center line
@@ -377,26 +436,45 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
      BUILD THE SOLID. Used only to hide lines behind the form, to find
      the outline, and for the soft shading.
   ------------------------------------------------------------------ */
+  // the steps of building a head, in teaching order; the checkboxes in "Build it up" switch them
+  var STEP = { ball: true, guides: true, mask: true, features: true, cheek: true, maxilla: true, orbit: true, detail: true, contours: false, planes: false };
+  var STUDY = { contours: 1, planes: 1 };           // study aids, left out of Check all / Clear all
+  var contourGap = 0.08, CSV, CSU, CST, CSN = 0, QD, QI, FL, FS;
   var verts, vgroup, tris, tgroup, lines, NV, NT, V, TRI, NRM, EDGE, chinPoint, TV, SH, facing;
   function build() {
   setLevels(); makeFaceWidth();
   verts = []; vgroup = []; tris = []; tgroup = []; lines = [];   // group: 0 head, 1 neck, 2 nose and ears
   function addVert(p, g) { verts.push(p[0], p[1], p[2]); vgroup.push(g); return vgroup.length - 1; }
-  function addTri(a, b, c, g) { tris.push(a, b, c); tgroup.push(g); }
+  var tq = [], tqi = [], tfl = [], qid = 0;
+  function addTri(a, b, c, g, q) {
+    tris.push(a, b, c); tgroup.push(g);
+    if (q) { tq.push(q[0], q[1], q[2], q[3]); tqi.push(q[4]); tfl.push(1); } else { tq.push(a, b, c, c); tqi.push(qid++); tfl.push(0); }
+  }
 
   (function buildHead() {
     var rows = [], i, j;
-    for (i = 0; i <= 18; i++) rows.push(Math.cos(i * Math.PI / 36));
-    for (i = 1; i <= 42; i++) rows.push(CAP_Y * i / 42);
-    for (i = 1; i <= 8; i++) rows.push(CAP_Y - (CAP_Y - Y.chin) * Math.sin(i * Math.PI / 16));
-    rows[rows.length - 1] = Y.chin;
-    var NU = 96, base = vgroup.length;
+    if (STEP.mask) {
+      for (i = 0; i <= 18; i++) rows.push(Math.cos(i * Math.PI / 36));
+      for (i = 1; i <= 42; i++) rows.push(CAP_Y * i / 42);
+      for (i = 1; i <= 8; i++) rows.push(CAP_Y - (CAP_Y - Y.chin) * Math.sin(i * Math.PI / 16));
+      rows[rows.length - 1] = Y.chin;
+    } else for (i = 0; i <= 48; i++) rows.push(Math.cos(i * Math.PI / 48));
+    var NU = 96, flat = STEP.planes;
+    if (flat) {
+      // major planes: a few rows at the landmarks and sixteen planes round the head, each one flat
+      rows = STEP.mask ? [1, 0.86, Y.hair, 0.32, Y.brow, -0.24, Y.nose, Y.mouth, -1.05, CAP_Y, Y.chin]
+                       : [1, 0.86, Y.hair, 0.32, Y.brow, -0.33, Y.nose, -0.86, -1];
+    }
+    // the edges between planes, in degrees round the head: a broad front plane, the corners of the face, the sides and the back
+    var cols = [22, 52, 78, 104, 135, 165, 195, 225, 256, 282, 308, 338];
+    if (flat) NU = cols.length;
+    var base = vgroup.length;
     for (i = 0; i < rows.length; i++)
-      for (j = 0; j < NU; j++) addVert(surf(rows[i], j * 2 * Math.PI / NU), 0);
+      for (j = 0; j < NU; j++) addVert(surf(rows[i], flat ? cols[j] * Math.PI / 180 : j * 2 * Math.PI / NU), 0);
     for (i = 0; i < rows.length - 1; i++)
       for (j = 0; j < NU; j++) {
-        var a = base + i * NU + j, b = base + i * NU + (j + 1) % NU, c = a + NU, d = b + NU;
-        addTri(a, c, b, 0); addTri(b, c, d, 0);
+        var a = base + i * NU + j, b = base + i * NU + (j + 1) % NU, c = a + NU, d = b + NU, q = flat ? [a, c, d, b, qid++] : null;
+        addTri(a, c, b, 0, q); addTri(b, c, d, 0, q);
       }
   })();
 
@@ -427,8 +505,10 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
   function both(pts, kind, color, width, dotted) { addLine(pts, kind, color, width, dotted); addLine(mirror(pts), kind, color, width, dotted); }
 
   // latitude rings
-  var rings = [["Hairline", Y.hair], ["Brow line", Y.brow], ["Eye line", Y.eye], ["Base of nose", Y.nose], ["Mouth", Y.mouth]];
-  if (Math.abs(Y.nose - G.nose) > 0.012) rings.push(["Circle bottom", G.nose]);
+  var rings = [];
+  if (STEP.guides) rings.push(["Hairline", Y.hair], ["Brow line", Y.brow], ["Base of nose", Y.nose]);
+  if (STEP.guides && Math.abs(Y.nose - G.nose) > 0.012) rings.push(["Circle bottom", G.nose]);
+  if (STEP.features) rings.push(["Eye line", Y.eye], ["Mouth", Y.mouth]);
   rings.forEach(function (d) {
       var pts = [];
       for (var i = 0; i <= 220; i++) pts.push(surf(d[1], i * 2 * Math.PI / 220));
@@ -437,10 +517,13 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
 
   // center line of the face, carried over the crown and down the back
   (function () {
-    var pts = [], i, y;
-    for (i = 0; i <= 90; i++) { y = Y.chin + (1 - Y.chin) * i / 90; pts.push(surf(y, 0)); }
-    for (i = 1; i <= 60; i++) { y = 1 - 1.85 * i / 60; pts.push(surf(y, Math.PI)); }
-    addLine(pts, "center", "blue", 1.8, true);
+    var pts = [], i, y, low = STEP.mask ? Y.chin : -1;
+    if (STEP.guides) {
+      for (i = 0; i <= 90; i++) { y = low + (1 - low) * i / 90; pts.push(surf(y, 0)); }
+      for (i = 1; i <= 60; i++) { y = 1 - 1.85 * i / 60; pts.push(surf(y, Math.PI)); }
+      addLine(pts, "center", "blue", 1.8, true);
+    }
+    if (!STEP.ball) return;
     // ear line over the top, joining the vertical arms of the two side circles
     pts = [];
     for (i = 0; i <= 30; i++) { y = r + (1 - r) * i / 30; pts.push(surf(y, Math.PI / 2)); }
@@ -449,7 +532,7 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
   })();
 
   // side circles with their quadrant cross
-  (function () {
+  if (STEP.ball) (function () {
     var pts = [], i, a, y, z;
     for (i = 0; i <= 96; i++) {
       a = i * 2 * Math.PI / 96; y = r * Math.sin(a); z = r * Math.cos(a);
@@ -465,7 +548,7 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
   })();
 
   // jaw line, from below the ear to the corner of the jaw and on toward the chin
-  (function () {
+  if (STEP.mask) (function () {
     var pts = [], i, y, corner = surf(-1.02, 0.75 * Math.PI);
     for (i = 0; i <= 14; i++) {
       y = G.nose - 0.02 + (-1.02 - G.nose + 0.02) * i / 14;
@@ -475,8 +558,9 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
     both(pts, "feature", "ink", 1.5, false);
   })();
 
-  // eyes: an eyeball swelling under the lids, an uneven lid opening, iris and pupil
-  (function () {
+  // eyebrows and eyes. Basic step: a plain almond with the iris. Detailed step: an eyeball
+  // swelling under the lids, an uneven lid opening, the lid crease, iris and pupil
+  if (STEP.features) (function () {
     var wd = HEAD.eyeWidth, x0 = (HEAD.eyeHalfGap + wd / 2) * HEAD.eyeSep - wd / 2;
     var ex = x0 + wd / 2, ey = Y.eye, open = HEAD.eyeOpen, i, j, u, a;
     function lift(x, y) {                       // the ball of the eye pushing the lids forward
@@ -488,11 +572,17 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
     function upY(u) { return base(u) + open * 1.05 * Math.sin(Math.PI * Math.pow(u, 0.72)); }  // upper lid peaks toward the nose
     function loY(u) { return base(u) - open * 0.55 * Math.sin(Math.PI * Math.pow(u, 1.45)); }  // lower lid dips toward the ear
     var up = [], lo = [], crease = [], iris = [], pupil = [], brow = [];
-    up.push(onEye(base(0) - 0.016, x0 - 0.03));                                           // tear duct
+    if (!STEP.detail) {          // the plain almond, the same shape top and bottom
+      lift = function () { return 0; };
+      base = function () { return ey; };
+      upY = function (u) { return ey + open * Math.sin(Math.PI * u); };
+      loY = function (u) { return ey - open * 0.7 * Math.sin(Math.PI * u); };
+    }
+    if (STEP.detail) up.push(onEye(base(0) - 0.016, x0 - 0.03));                          // tear duct
     for (i = 0; i <= 24; i++) { u = i / 24; up.push(onEye(upY(u), x0 + wd * u)); lo.push(onEye(loY(u), x0 + wd * u)); }
-    up.push(onEye(base(1) - 0.014, x0 + wd + 0.022));                                     // upper lid overlaps the lower
+    if (STEP.detail) up.push(onEye(base(1) - 0.014, x0 + wd + 0.022));                    // upper lid overlaps the lower
     for (i = 0; i <= 20; i++) { u = 0.06 + 0.9 * i / 20; crease.push(onEye(upY(u) + 0.026 + 0.016 * Math.sin(Math.PI * u), x0 + wd * u)); }
-    var icx = ex - 0.004, icy = ey + 0.012;
+    var icx = ex - (STEP.detail ? 0.004 : 0), icy = ey + (STEP.detail ? 0.012 : 0.005);
     for (i = 0; i <= 32; i++) {
       a = i * 2 * Math.PI / 32;
       var ix = icx + 0.058 * Math.cos(a), iy = icy + 0.058 * Math.sin(a);
@@ -506,11 +596,11 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
     }
     both(up, "feature", "ink", 2.2, false);
     both(lo, "feature", "ink", 1.1, false);
-    both(crease, "feature", "ink", 0.9, false);
+    if (STEP.detail) both(crease, "feature", "ink", 0.9, false);
     both(iris, "feature", "ink", 1.3, false);
     both(pupil, "feature", "ink", 3.0, false);
     both(brow, "feature", "ink", 2.6, false);
-    [1, -1].forEach(function (side) {            // the swelling itself, so light and shadow can model it
+    if (STEP.detail) [1, -1].forEach(function (side) {            // the swelling itself, so light and shadow can model it
       var NR = 7, NS = 28, c = addVert(onFace(ey, side * ex), 0), ids = [];
       verts[c * 3 + 2] += lift(ex, ey);
       for (i = 1; i <= NR; i++) {
@@ -529,13 +619,38 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
           addTri(ids[i][j], ids[i + 1][j], ids[i][k], 2); addTri(ids[i][k], ids[i + 1][j], ids[i + 1][k], 2);
         }
     });
-    var cheek = [];
+  })();
+
+  // cheekbones: the line under the swelling where the face turns from front to side
+  if (STEP.cheek) (function () {
+    var cheek = [], i, u;
     for (i = 0; i <= 14; i++) { u = i / 14; cheek.push(surf(HEAD.cheekY - 0.05 - 0.10 * u * u, 1.28 - 0.62 * u)); }
     both(cheek, "feature", "ink", 1.0, false);
   })();
 
+  // eye orbits: the bony rim of the socket, under the brow and over the cheek
+  if (STEP.orbit) (function () {
+    var wd = HEAD.eyeWidth, ex = (HEAD.eyeHalfGap + wd / 2) * HEAD.eyeSep, cy = Y.eye + 0.035, pts = [], i, a;
+    for (i = 0; i <= 48; i++) {
+      a = i * 2 * Math.PI / 48;
+      var x = ex + 0.025 + 0.25 * Math.cos(a) * (Math.cos(a) > 0 ? 1.1 : 0.86), y = cy + (Math.sin(a) > 0 ? 0.155 : 0.15) * Math.sin(a);
+      var p = onFace(y, x); p[2] += 0.006; pts.push(p);
+    }
+    both(pts, "feature", "contour", 1.2, false);
+  })();
+
+  // maxillary sphere: the curve round the mouth, from the wings of the nose to above the chin
+  if (STEP.maxilla) (function () {
+    var cyM = (Y.nose + (STEP.mask ? Y.chin : -1)) / 2 + 0.02, hw = 0.42, top = Y.nose - 0.02, hh = top - cyM, pts = [], i, a;
+    for (i = 0; i <= 40; i++) {
+      a = -2.5 + 5.0 * i / 40;                       // runs round the bottom, open at the top under the nose
+      var p = onFace(cyM - hh * Math.cos(a) * (Math.cos(a) > 0 ? 0.92 : 1), hw * Math.sin(a)); p[2] += 0.006; pts.push(p);
+    }
+    addLine(pts, "feature", "contour", 1.2, false);
+  })();
+
   // lips: a bowed upper lip, a fuller lower lip, and the groove under the nose
-  (function () {
+  if (STEP.features) (function () {
     var mw = HEAD.mouthHalfWidth, ym = Y.mouth, hu = 0.07, hl = 0.092, i, j, q;
     function mid(q) {          // the line between the lips, with its small dip under the center of the upper lip
       var e = Math.abs(q);
@@ -565,9 +680,9 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
   })();
 
   // nose: a rounded ridge that grows out of the face, widest at the wings
-  (function () {
+  if (STEP.features) (function () {
     var by = HEAD.noseBridgeY, out = HEAD.noseOut * HEAD.noseProj, nw = HEAD.noseHalfWidth;
-    var NA = 20, NB = 14, vt = 0.84, i, j, ids = [], base = [], wingL = [], wingR = [];
+    var NA = STEP.planes ? 4 : 20, NB = STEP.planes ? 4 : 14, vt = 0.84, i, j, ids = [], base = [], wingL = [], wingR = [];
     function height(v) {            // side profile: gentle scoop to the tip, then rounded under
       if (v <= vt) return out * (0.07 + 0.93 * Math.pow(v / vt, 1.3));
       var q = (v - vt) / (1 - vt);
@@ -582,8 +697,9 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
     for (i = 0; i <= NA; i++) { ids.push([]); for (j = 0; j <= NB; j++) ids[i].push(addVert(point(i / NA, -1 + 2 * j / NB), 0)); }
     for (i = 0; i < NA; i++)
       for (j = 0; j < NB; j++) {
-        addTri(ids[i][j], ids[i + 1][j], ids[i][j + 1], 2);
-        addTri(ids[i][j + 1], ids[i + 1][j], ids[i + 1][j + 1], 2);
+        var nq = STEP.planes ? [ids[i][j], ids[i + 1][j], ids[i + 1][j + 1], ids[i][j + 1], qid++] : null;
+        addTri(ids[i][j], ids[i + 1][j], ids[i][j + 1], 2, nq);
+        addTri(ids[i][j + 1], ids[i + 1][j], ids[i + 1][j + 1], 2, nq);
       }
     for (j = 0; j <= 24; j++) base.push(point(0.975, -0.95 + 1.9 * j / 24));
     for (i = 0; i <= 12; i++) {
@@ -596,7 +712,7 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
   })();
 
   // ears: a flat plate hinged at its front edge, between brow and nose
-  (function () {
+  if (STEP.features) (function () {
     var h = r / 2, ct = Math.cos(0.62), st = Math.sin(0.62);
     function ear(a, k, side) {
       var u = 0.16 + k * 0.16 * Math.cos(a) * (0.8 + 0.2 * Math.sin(a)) + 0.06 * k * Math.sin(a);
@@ -616,6 +732,7 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
 
   /* ---------- typed arrays, normals, shared edges ---------- */
   NV = vgroup.length; NT = tgroup.length;
+  QD = new Int32Array(tq); QI = new Int32Array(tqi); FL = new Uint8Array(tfl); FS = new Float32Array(NT);
   V = new Float32Array(verts); TRI = new Uint32Array(tris);
   NRM = new Float32Array(NV * 3);
   (function () {
@@ -643,6 +760,7 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
     return new Uint32Array(out);
   })();
   chinPoint = surf(Y.chin, 0);
+  buildContours();
   TV = new Float32Array(NV * 3); LV = new Float32Array(NV * 3); SH = new Float32Array(NV); facing = new Int8Array(NT);
   }   // end of build()
 
@@ -665,7 +783,7 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
 
   function readColors() {
     var cs = getComputedStyle(document.documentElement);
-    ["ink", "muted", "blue", "red", "form-light", "form-shade", "paper"].forEach(function (k) {
+    ["ink", "muted", "blue", "red", "contour", "slice", "form-light", "form-shade", "paper"].forEach(function (k) {
       var v = cs.getPropertyValue("--" + k).trim(), h = v.replace("#", "");
       colors[k] = v;
       colors[k + "_rgb"] = [parseInt(h.slice(0, 2), 16), parseInt(h.slice(2, 4), 16), parseInt(h.slice(4, 6), 16)];
@@ -674,7 +792,10 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
 
   function resize() {
     cssW = Math.max(280, board.clientWidth);
-    cssH = Math.round(Math.max(300, Math.min(cssW * 0.86, window.innerHeight ? Math.max(420, window.innerHeight - 60) : 700, 760)));
+    var vh = window.innerHeight || 800;
+    if (window.matchMedia && window.matchMedia("(max-width: 880px)").matches)
+      cssH = Math.round(Math.max(220, Math.min(cssW * 0.86, vh * 0.52)));        // leave room below for the controls
+    else cssH = Math.round(Math.max(300, Math.min(cssW * 0.86, vh - 52, 760)));
     dpr = Math.min(2, window.devicePixelRatio || 1);
     canvas.width = Math.round(cssW * dpr); canvas.height = Math.round(cssH * dpr);
     canvas.style.height = cssH + "px";
@@ -692,7 +813,7 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
     var minX = Math.max(0, Math.floor(Math.min(ax, bx, cx))), maxX = Math.min(B - 1, Math.ceil(Math.max(ax, bx, cx)));
     var minY = Math.max(0, Math.floor(Math.min(ay, by, cy))), maxY = Math.min(B - 1, Math.ceil(Math.max(ay, by, cy)));
     if (minX > maxX || minY > maxY) return;
-    var inv = 1 / area, s0 = SH[i0 / 3], s1 = SH[i1 / 3], s2 = SH[i2 / 3];
+    var inv = 1 / area, s0 = FL[t] ? FS[t] : SH[i0 / 3], s1 = FL[t] ? FS[t] : SH[i1 / 3], s2 = FL[t] ? FS[t] : SH[i2 / 3];
     for (var py = minY; py <= maxY; py++) {
       var y = py + 0.5;
       for (var px = minX; px <= maxX; px++) {
@@ -742,6 +863,24 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
     return far <= z + EPS;
   }
 
+  // contours: slices of the head at even heights, stored as pairs of points on mesh edges
+  function buildContours() {
+    var vs = [], us = [], ts = [], off = 0.0137;
+    for (var t = 0; t < NT; t++) {
+      if (tgroup[t] === 1) continue;
+      var a = TRI[t * 3], b = TRI[t * 3 + 1], c = TRI[t * 3 + 2], ya = V[a * 3 + 1], yb = V[b * 3 + 1], yc = V[c * 3 + 1];
+      var lo = Math.ceil((Math.min(ya, yb, yc) - off) / contourGap), hi = Math.floor((Math.max(ya, yb, yc) - off) / contourGap);
+      for (var k = lo; k <= hi; k++) {
+        var L = k * contourGap + off, hit = [];
+        [[a, b, ya, yb], [b, c, yb, yc], [c, a, yc, ya]].forEach(function (e) {
+          if ((e[2] - L) * (e[3] - L) < 0) hit.push(e[0], e[1], (L - e[2]) / (e[3] - e[2]));
+        });
+        if (hit.length === 6) { vs.push(hit[0], hit[1], hit[3], hit[4]); us.push(hit[2], hit[5]); ts.push(t); }
+      }
+    }
+    CSV = new Uint32Array(vs); CSU = new Float32Array(us); CST = new Uint32Array(ts); CSN = ts.length;
+  }
+
   var pending = false;
   function schedule() { if (!pending) { pending = true; requestAnimationFrame(draw); } }
 
@@ -782,12 +921,24 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
       SH[i] = Math.max(0, rx * lx + ny * ly + rz * lz);
     }
 
+    // major planes: one tone for each whole plane
+    if (STEP.planes) for (t = 0; t < NT; t++) {
+      if (!FL[t]) continue;
+      var qa = QD[t * 4] * 3, qb = QD[t * 4 + 1] * 3, qc = QD[t * 4 + 2] * 3, qd = QD[t * 4 + 3] * 3;
+      var d1x = TV[qc] - TV[qa], d1y = TV[qc + 1] - TV[qa + 1], d1z = TV[qc + 2] - TV[qa + 2];
+      var d2x = TV[qd] - TV[qb], d2y = TV[qd + 1] - TV[qb + 1], d2z = TV[qd + 2] - TV[qb + 2];
+      var fx = d1y * d2z - d1z * d2y, fy = d1z * d2x - d1x * d2z, fz = d1x * d2y - d1y * d2x, fl = Math.hypot(fx, fy, fz) || 1;
+      if (fz < 0) fl = -fl;
+      var fsv = Math.max(0, (fx * lx + fy * ly + fz * lz) / fl);
+      FS[t] = fsv > 0.7 ? 1 : fsv > 0.4 ? 0.62 : fsv > 0.12 ? 0.32 : 0.1;       // light, halftone, shadow, core
+    }
+
     // 2. depth picture of the solid
     zbuf.fill(-Infinity); smap.fill(-Infinity);
     var castShadows = opt.shade && light.strength > 0;
     for (t = 0; t < NT; t++) {
       var g = tgroup[t];
-      if ((g === 1 && !opt.neck) || (g === 2 && !opt.features)) { facing[t] = 0; continue; }
+      if ((g === 1 && !opt.neck) || (g === 0 && !STEP.ball)) { facing[t] = 0; continue; }
       raster(TRI[t * 3] * 3, TRI[t * 3 + 1] * 3, TRI[t * 3 + 2] * 3, t);
       if (castShadows) rasterShadow(TRI[t * 3] * 3, TRI[t * 3 + 1] * 3, TRI[t * 3 + 2] * 3);
     }
@@ -831,7 +982,7 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
 
     // 4. construction lines and features
     var labels = [];
-    var show = { lat: opt.lat, center: opt.center, circle: opt.circle, feature: opt.features };
+    var show = { lat: true, center: true, circle: true, feature: true };
     for (var pass = 0; pass < 2; pass++) {             // pass 0: hidden parts, pass 1: visible parts
       for (var li2 = 0; li2 < lines.length; li2++) {
         var L = lines[li2];
@@ -873,6 +1024,33 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
     }
     ctx.strokeStyle = colors.ink; ctx.lineWidth = 2.2; ctx.stroke();
 
+    // major planes: the edges between planes
+    if (STEP.planes) {
+      ctx.beginPath();
+      for (i = 0; i < EDGE.length; i += 4) {
+        var f1 = EDGE[i + 2], f2 = EDGE[i + 3];
+        if (!FL[f1] || !FL[f2] || QI[f1] === QI[f2] || !facing[f1] || !facing[f2]) continue;
+        var e3 = EDGE[i] * 3, g3 = EDGE[i + 1] * 3;
+        if (!visible((TV[e3] + TV[g3]) / 2, (TV[e3 + 1] + TV[g3 + 1]) / 2, (TV[e3 + 2] + TV[g3 + 2]) / 2 + 0.02)) continue;
+        ctx.moveTo(SX(TV[e3]), SY(TV[e3 + 1])); ctx.lineTo(SX(TV[g3]), SY(TV[g3 + 1]));
+      }
+      ctx.strokeStyle = colors.ink; ctx.lineWidth = 1; ctx.globalAlpha = 0.45; ctx.stroke(); ctx.globalAlpha = 1;
+    }
+    // contours: the slices that wrap round the head
+    if (STEP.contours && CSN) {
+      ctx.beginPath();
+      for (var s2 = 0; s2 < CSN; s2++) {
+        var ct = CST[s2];
+        if ((tgroup[ct] === 0 && !STEP.ball) || !facing[ct]) continue;
+        var va = CSV[s2 * 4] * 3, vb = CSV[s2 * 4 + 1] * 3, vc = CSV[s2 * 4 + 2] * 3, vd = CSV[s2 * 4 + 3] * 3, u1 = CSU[s2 * 2], u2 = CSU[s2 * 2 + 1];
+        var x1 = TV[va] + (TV[vb] - TV[va]) * u1, y1 = TV[va + 1] + (TV[vb + 1] - TV[va + 1]) * u1, z1 = TV[va + 2] + (TV[vb + 2] - TV[va + 2]) * u1;
+        var x2 = TV[vc] + (TV[vd] - TV[vc]) * u2, y2 = TV[vc + 1] + (TV[vd + 1] - TV[vc + 1]) * u2, z2 = TV[vc + 2] + (TV[vd + 2] - TV[vc + 2]) * u2;
+        if (!visible((x1 + x2) / 2, (y1 + y2) / 2, (z1 + z2) / 2)) continue;
+        ctx.moveTo(SX(x1), SY(y1)); ctx.lineTo(SX(x2), SY(y2));
+      }
+      ctx.strokeStyle = colors.slice; ctx.lineWidth = 1; ctx.globalAlpha = 0.85; ctx.stroke(); ctx.globalAlpha = 1;
+    }
+
     // a small dial showing where the light is: filled dot = in front of the head, ring = behind it
     if (opt.shade && light.strength > 0) {
       var gx = 34, gy = 34, gr = 17;
@@ -889,7 +1067,7 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
     // 6. labels in the right margin
     if (opt.labels) {
       head(chinPoint[0], chinPoint[1], chinPoint[2], o);
-      if (visible(o[0], o[1], o[2] + 0.05)) labels.push({ text: "Chin", x: SX(o[0]), y: SY(o[1]) });
+      if (STEP.mask && visible(o[0], o[1], o[2] + 0.05)) labels.push({ text: "Chin", x: SX(o[0]), y: SY(o[1]) });
       labels.sort(function (a, b) { return a.y - b.y; });
       var fs = W < 560 ? 11.5 : 13, gap = fs + 5, tx = W - labelCol + 6;
       for (i = 0; i < labels.length; i++) labels[i].ly = Math.max(labels[i].y, i ? labels[i - 1].ly + gap : fs);
@@ -928,11 +1106,29 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
   document.getElementById("presets").addEventListener("click", function (e) {
     var b = e.target.closest("button"); if (b) setView(+b.dataset.turn, +b.dataset.tilt);
   });
-  var toggles = { tLat: "lat", tCen: "center", tCir: "circle", tFea: "features", tNeck: "neck", tHid: "hidden", tShade: "shade", tLab: "labels" };
+  var toggles = { tNeck: "neck", tHid: "hidden", tShade: "shade", tLab: "labels" };
   Object.keys(toggles).forEach(function (id) {
     var el = document.getElementById(id);
     opt[toggles[id]] = el.checked;
     el.addEventListener("change", function () { opt[toggles[id]] = el.checked; schedule(); });
+  });
+
+  Object.keys(STEP).forEach(function (k) {
+    var el = document.getElementById("b_" + k);
+    STEP[k] = el.checked;
+    el.addEventListener("change", function () { STEP[k] = el.checked; needBuild = true; schedule(); });
+  });
+  var gapEl = document.getElementById("gap"), gapOut = document.getElementById("gapOut");
+  function gapGo(rebuild) {
+    contourGap = +gapEl.value / 100; gapOut.textContent = "about " + Math.round((1 - Y.chin) / contourGap) + " lines";
+    if (rebuild && NT) { buildContours(); schedule(); }
+  }
+  gapEl.addEventListener("input", function () { gapGo(true); }); gapGo(false);
+  document.getElementById("buildAll").addEventListener("click", function () {
+    var steps = Object.keys(STEP).filter(function (k) { return !STUDY[k]; });
+    var on = !steps.every(function (k) { return STEP[k]; });
+    steps.forEach(function (k) { STEP[k] = on; document.getElementById("b_" + k).checked = on; });
+    this.textContent = on ? "Clear all" : "Check all"; needBuild = true; schedule();
   });
 
   var props = [
@@ -989,7 +1185,8 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
     var mq = window.matchMedia("(prefers-color-scheme: dark)");
     if (mq.addEventListener) mq.addEventListener("change", recolor);
   }
-  if (window.ResizeObserver) new ResizeObserver(resize).observe(board); else window.addEventListener("resize", resize);
+  if (window.ResizeObserver) new ResizeObserver(resize).observe(board);
+  window.addEventListener("resize", resize);
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(schedule);
 
   readColors(); describe(); resize();
