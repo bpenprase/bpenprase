@@ -102,6 +102,19 @@ body {
 }
 .board canvas:active { cursor: grabbing; }
 .board canvas:focus-visible { outline: 2px solid var(--blue); outline-offset: -2px; }
+.bar { display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-top: 1px solid var(--rule); background: var(--panel); }
+.bar .hint2 { font-size: 12.5px; color: var(--muted); margin-right: auto; }
+.bar .status { font-size: 12.5px; color: var(--ink); }
+button.primary { background: var(--blue); border-color: var(--blue); color: var(--panel); font-weight: 600; }
+button.primary:hover { filter: brightness(1.08); border-color: var(--blue); }
+.dialog-back { position: fixed; inset: 0; background: rgba(20, 24, 26, 0.38); display: flex; align-items: center; justify-content: center; z-index: 20; padding: 16px; }
+.dialog-back[hidden] { display: none; }
+.dialog { background: var(--panel); color: var(--ink); border: 1px solid var(--rule); border-radius: 8px; padding: 20px; width: min(420px, 100%); display: grid; gap: 8px; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25); }
+.dialog h2 { font-size: 18px; letter-spacing: 0; text-transform: none; color: var(--ink); margin: 0 0 4px; }
+.dialog label { font-weight: 600; font-size: 14px; }
+.dialog input[type="text"] { font: inherit; padding: 7px 9px; border: 1px solid var(--rule); border-radius: 4px; background: var(--paper); color: var(--ink); }
+.dialog input[type="text"]:focus-visible { outline: 2px solid var(--blue); outline-offset: 1px; }
+.dialog-buttons { display: flex; justify-content: flex-end; gap: 8px; margin-top: 6px; }
 .hint {
   position: absolute;
   left: 12px;
@@ -120,7 +133,7 @@ body {
   gap: 18px;
   position: sticky;
   top: 12px;
-  max-height: calc(100vh - 24px);
+  max-height: calc(100vh - 48px);
   overflow-y: auto;              /* the controls scroll on their own */
   overscroll-behavior: contain;
   scrollbar-width: thin;
@@ -218,7 +231,26 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
 <main class="app">
   <div class="board" id="board">
     <canvas id="view" tabindex="0" role="img" aria-label="A posable figure built from the pelvis, rib cage and spine, with the outer body drawn around them"></canvas>
-    <div class="hint">Drag the figure to turn it</div>
+    <div class="bar">
+      <span class="hint2">Drag the figure to turn it</span>
+      <span class="status" id="fileStatus" role="status"></span>
+      <button type="button" id="saveBtn">Save</button>
+      <button type="button" id="loadBtn">Load</button>
+      <input type="file" id="loadFile" accept=".json,application/json" hidden>
+    </div>
+  </div>
+
+  <div class="dialog-back" id="saveDialog" hidden>
+    <form class="dialog" id="saveForm" role="dialog" aria-modal="true" aria-labelledby="saveTitle">
+      <h2 id="saveTitle">Save this figure</h2>
+      <label for="prefix">File name</label>
+      <input type="text" id="prefix" value="figure" autocomplete="off" spellcheck="false">
+      <p class="note" id="saveNote"></p>
+      <div class="dialog-buttons">
+        <button type="button" id="saveCancel">Cancel</button>
+        <button type="submit" class="primary" id="saveGo">Save</button>
+      </div>
+    </form>
   </div>
 
   <aside class="tray">
@@ -1165,8 +1197,8 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
     cssW = Math.max(280, board.clientWidth);
     var vh = window.innerHeight || 800;
     if (window.matchMedia && window.matchMedia("(max-width: 880px)").matches)
-      cssH = Math.round(Math.max(220, Math.min(cssW * 1.02, vh * 0.56)));       // leave room below for the controls
-    else cssH = Math.round(Math.max(360, Math.min(cssW * 1.02, vh - 52, 900)));      // fits the window with no page scrolling
+      cssH = Math.round(Math.max(200, Math.min(cssW * 1.02, vh * 0.56 - 46)));       // leave room below for the controls
+    else cssH = Math.round(Math.max(360, Math.min(cssW * 1.02, vh - 100, 900)));      // fits the window with no page scrolling
     dpr = Math.min(2, window.devicePixelRatio || 1);
     canvas.width = Math.round(cssW * dpr); canvas.height = Math.round(cssH * dpr); canvas.style.height = cssH + "px";
     schedule();
@@ -1460,6 +1492,100 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
   var seeEl = $("see"), seeOut = $("seeOut");
   function seeGo() { bodyAlpha = +seeEl.value / 100; seeOut.textContent = +seeEl.value >= 98 ? "solid" : +seeEl.value + "% solid"; schedule(); }
   seeEl.addEventListener("input", seeGo); seeGo();
+
+
+  /* ------------------------------------------------------------------
+     SAVE AND LOAD. A settings file holds the pose, the view and every
+     switch in the panel, and a JPEG of the drawing is saved beside it.
+  ------------------------------------------------------------------ */
+  var tray = document.querySelector(".tray"), statusEl = $("fileStatus"), statusTimer = 0;
+  function say(msg) {
+    statusEl.textContent = msg; clearTimeout(statusTimer);
+    statusTimer = setTimeout(function () { statusEl.textContent = ""; }, 6000);
+  }
+  function settings() {
+    var controls = {}, radios = {};
+    tray.querySelectorAll("input[id]").forEach(function (el) {
+      if (el.type === "checkbox") controls[el.id] = el.checked;
+      else if (el.type === "range" && el.id.indexOf("s_") !== 0) controls[el.id] = +el.value;   // pose sliders are kept in "pose"
+    });
+    tray.querySelectorAll('input[type="radio"]:checked').forEach(function (el) { radios[el.name] = el.value; });
+    return { app: "figure-builder", version: 1, saved: new Date().toISOString(),
+             view: { turn: state.turn, tilt: state.tilt, zoom: state.zoom }, pose: Object.assign({}, pose), radios: radios, controls: controls };
+  }
+  function applySettings(data) {
+    if (!data || data.app !== "figure-builder" || !data.pose) throw new Error("not a Figure Builder settings file");
+    var r = data.radios || {}, c = data.controls || {};
+    Object.keys(r).forEach(function (name) {
+      var el = tray.querySelector('input[type="radio"][name="' + name + '"][value="' + r[name] + '"]');
+      if (el && !el.checked) { el.checked = true; el.dispatchEvent(new Event("change")); }
+    });
+    tray.querySelectorAll('input[type="checkbox"][id]').forEach(function (el) {
+      if (typeof c[el.id] === "boolean" && el.checked !== c[el.id]) { el.checked = c[el.id]; el.dispatchEvent(new Event("change")); }
+    });
+    tray.querySelectorAll('input[type="range"][id]').forEach(function (el) {
+      if (el.id.indexOf("s_") !== 0 && typeof c[el.id] === "number") { el.value = c[el.id]; el.dispatchEvent(new Event("input")); }
+    });
+    Object.keys(pose).forEach(function (k) { if (typeof data.pose[k] === "number") pose[k] = data.pose[k]; });
+    if (data.view) {
+      if (typeof data.view.turn === "number") state.turn = data.view.turn;
+      if (typeof data.view.tilt === "number") state.tilt = data.view.tilt;
+      if (ZOOMS[data.view.zoom]) state.zoom = data.view.zoom;
+    }
+    syncAll(); needBuild = true; schedule();
+  }
+  function jpegBlob() {
+    return new Promise(function (resolve, reject) {
+      var c = document.createElement("canvas"); c.width = canvas.width; c.height = canvas.height;
+      var g = c.getContext("2d"); g.fillStyle = colors.paper || "#ffffff"; g.fillRect(0, 0, c.width, c.height);
+      g.drawImage(canvas, 0, 0);
+      c.toBlob(function (b) { b ? resolve(b) : reject(new Error("could not make the picture")); }, "image/jpeg", 0.92);
+    });
+  }
+  function cleanName(s) { return (s || "").trim().replace(/[\\/:*?"<>|]+/g, "-").replace(/\.(json|jpe?g)$/i, "") || "figure"; }
+  var canPickFolder = typeof window.showDirectoryPicker === "function";
+  var dlg = $("saveDialog"), prefixEl = $("prefix");
+  $("saveNote").textContent = canPickFolder
+    ? "Next you choose a folder. Two files go in it: the settings (.json) and a picture of the drawing (.jpg)."
+    : "Two files will be saved to your browser's downloads folder: the settings (.json) and a picture of the drawing (.jpg).";
+  $("saveGo").textContent = canPickFolder ? "Choose folder and save" : "Save";
+  function closeDialog() { dlg.hidden = true; $("saveBtn").focus(); }
+  $("saveBtn").addEventListener("click", function () { dlg.hidden = false; prefixEl.focus(); prefixEl.select(); });
+  $("saveCancel").addEventListener("click", closeDialog);
+  dlg.addEventListener("keydown", function (e) { if (e.key === "Escape") closeDialog(); });
+  dlg.addEventListener("click", function (e) { if (e.target === dlg) closeDialog(); });
+  function download(blob, name) {
+    var a = document.createElement("a"), url = URL.createObjectURL(blob);
+    a.href = url; a.download = name; document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(function () { URL.revokeObjectURL(url); }, 4000);
+  }
+  $("saveForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+    var name = cleanName(prefixEl.value), json = new Blob([JSON.stringify(settings(), null, 2)], { type: "application/json" });
+    closeDialog();
+    jpegBlob().then(function (jpg) {
+      if (!canPickFolder) { download(json, name + ".json"); download(jpg, name + ".jpg"); say("Saved " + name + ".json and " + name + ".jpg to your downloads."); return; }
+      return window.showDirectoryPicker({ id: "figure-builder", mode: "readwrite" }).then(function (dir) {
+        function put(file, blob) {
+          return dir.getFileHandle(file, { create: true }).then(function (h) { return h.createWritable(); })
+            .then(function (w) { return w.write(blob).then(function () { return w.close(); }); });
+        }
+        return put(name + ".json", json).then(function () { return put(name + ".jpg", jpg); })
+          .then(function () { say("Saved " + name + ".json and " + name + ".jpg in " + dir.name + "."); });
+      });
+    }).catch(function (err) {
+      if (err && err.name === "AbortError") { say("Nothing was saved."); return; }
+      say("Could not save here. Open the page on its own site to save files.");
+    });
+  });
+  var loadFile = $("loadFile");
+  $("loadBtn").addEventListener("click", function () { loadFile.click(); });
+  loadFile.addEventListener("change", function () {
+    var f = loadFile.files[0]; loadFile.value = "";
+    if (!f) return;
+    f.text().then(function (txt) { applySettings(JSON.parse(txt)); say("Loaded " + f.name + "."); })
+      .catch(function () { say("That file is not a Figure Builder settings file."); });
+  });
 
   var dragging = null;
   canvas.addEventListener("pointerdown", function (e) { dragging = { x: e.clientX, y: e.clientY, turn: state.turn, tilt: state.tilt }; try { canvas.setPointerCapture(e.pointerId); } catch (err) {} });
