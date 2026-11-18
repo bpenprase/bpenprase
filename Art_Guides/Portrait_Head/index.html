@@ -76,7 +76,8 @@ body {
   border: 1px solid var(--rule);
   border-radius: 6px;
   overflow: hidden;
-  position: relative;
+  position: sticky;              /* the photo and the head stay in view while the controls scroll */
+  top: 12px;
 }
 .board canvas {
   display: block;
@@ -102,7 +103,27 @@ body {
   display: flex;
   flex-direction: column;
   gap: 18px;
+  position: sticky;
+  top: 12px;
+  max-height: calc(100vh - 24px);
+  overflow-y: auto;              /* the controls scroll on their own */
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: var(--rule) transparent;
 }
+.tray::-webkit-scrollbar { width: 9px; }
+.tray::-webkit-scrollbar-thumb { background: var(--rule); border-radius: 5px; border: 2px solid var(--panel); }
+.tray > * { flex: none; }
+#photo { margin: 0 auto; }
+details.group > summary { list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 2px 0; cursor: pointer; }
+details.group > summary::-webkit-details-marker { display: none; }
+details.group > summary h2 { margin: 0; }
+details.group > summary::after { content: ""; width: 7px; height: 7px; border-right: 1.5px solid var(--muted); border-bottom: 1.5px solid var(--muted); transform: rotate(45deg); margin: 0 4px 4px 0; flex: none; }
+details.group[open] > summary { margin-bottom: 10px; }
+details.group[open] > summary::after { transform: rotate(-135deg); margin: 4px 4px 0 0; }
+details.group > summary:hover h2 { color: var(--ink); }
+summary:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+h3.sub { font-size: 13px; font-weight: 600; color: var(--muted); margin: 16px 0 8px; }
 h1 {
   font-family: var(--font-display);
   font-weight: 700;
@@ -127,6 +148,8 @@ h2 {
 .slider label { font-weight: 600; }
 .slider output { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 14px; }
 input[type="range"] { width: 100%; accent-color: var(--blue); margin: 0; height: 24px; }
+.toggles.one { grid-template-columns: 1fr; }
+.note { font-size: 13px; color: var(--muted); }
 .row { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 8px; }
 .row h2 { margin: 0; }
 .presets { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -160,11 +183,17 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
 .empty b { font-family: var(--font-display); font-size: 20px; color: var(--ink); }
 .empty[hidden] { display: none; }
 @media (max-width: 1180px) {
-  .app { grid-template-columns: minmax(0, 0.82fr) minmax(0, 1fr); }
-  .tray { grid-column: 1 / -1; }
+  /* photo and head side by side on top, the controls below in their own scrolling area */
+  .app { grid-template-columns: minmax(0, 0.82fr) minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr); height: 100vh; height: 100dvh; padding: 10px 10px 12px; gap: 10px; }
+  .board { position: relative; top: 0; }
+  .tray { grid-column: 1 / -1; position: relative; top: 0; max-height: none; height: 100%; min-height: 0; }
 }
 @media (max-width: 720px) {
-  .app { grid-template-columns: 1fr; }
+  /* phone: photo and head stay side by side, smaller, above the scrolling controls */
+  .app { gap: 8px; padding: 8px; }
+  .bar { padding: 6px 8px; gap: 6px; }
+  .bar span { display: none; }
+  .hint { display: none; }
 }
 @media (max-width: 420px) {
   .toggles { grid-template-columns: 1fr; }
@@ -194,17 +223,17 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
       <p class="lede">Fit the construction head to a photo, then turn the person to any angle.</p>
     </header>
 
-    <section>
-      <h2>How to use it</h2>
+    <details class="group">
+      <summary><h2>How to use it</h2></summary>
       <ol class="steps">
         <li>Choose a photo of a face looking straight at the camera.</li>
         <li>Drag the nine dots onto the pupils, the base of the nose, the line between the lips, the bottom of the chin, the two sides of the face at the cheekbones, and the points where the ear lobes join the head.</li>
         <li>The head reshapes to match. Turn it, light it, and fine-tune with the sliders.</li>
       </ol>
-    </section>
+    </details>
 
-    <section>
-      <h2>View</h2>
+    <details class="group" open>
+      <summary><h2>View</h2></summary>
       <div class="slider">
         <div class="slider-head"><label for="turn">Turn</label><output id="turnOut" for="turn"></output></div>
         <input type="range" id="turn" min="-180" max="180" step="1" value="-30">
@@ -220,10 +249,22 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
         <button type="button" data-turn="-30" data-tilt="25">Looking up</button>
         <button type="button" data-turn="-30" data-tilt="-25">Looking down</button>
       </div>
-    </section>
+      <h3 class="sub">Show</h3>
+      <div class="toggles">
+        <label><input type="checkbox" id="tPhoto" checked>Photo on the head</label>
+        <label><input type="checkbox" id="tLat" checked><span class="swatch blue"></span>Latitude lines</label>
+        <label><input type="checkbox" id="tCen" checked><span class="swatch blue"></span>Center lines</label>
+        <label><input type="checkbox" id="tCir" checked><span class="swatch red"></span>Side circles</label>
+        <label><input type="checkbox" id="tFea"><span class="swatch"></span>Drawn features</label>
+        <label><input type="checkbox" id="tNeck" checked>Neck</label>
+        <label><input type="checkbox" id="tHid">Hidden lines dotted</label>
+        <label><input type="checkbox" id="tLab">Labels</label>
+      </div>
+    </details>
 
-    <section>
-      <div class="row"><h2>Fit of this head</h2><button type="button" id="resetProps">Refit to the dots</button></div>
+    <details class="group" open>
+      <summary><h2>Fit of the head</h2></summary>
+      <div class="row"><span class="note">The dots set these. Fine-tune them here.</span><button type="button" id="resetProps">Refit to the dots</button></div>
       <div class="slider">
         <div class="slider-head"><label for="pWide">Head width</label><output id="pWideOut" for="pWide"></output></div>
         <input type="range" id="pWide" min="75" max="135" step="1" value="100">
@@ -256,10 +297,11 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
         <div class="slider-head"><label for="pCheek">Cheekbone height</label><output id="pCheekOut" for="pCheek"></output></div>
         <input type="range" id="pCheek" min="-10" max="10" step="1" value="0">
       </div>
-    </section>
+    </details>
 
-    <section>
-      <h2>Light</h2>
+    <details class="group" open>
+      <summary><h2>Lighting</h2></summary>
+      <div class="toggles one" style="margin-bottom:10px"><label><input type="checkbox" id="tShade" checked>Light and shade</label></div>
       <div class="slider">
         <div class="slider-head"><label for="lStr">Strength</label><output id="lStrOut" for="lStr"></output></div>
         <input type="range" id="lStr" min="0" max="100" step="1" value="25">
@@ -272,22 +314,7 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
         <div class="slider-head"><label for="lHigh">Height</label><output id="lHighOut" for="lHigh"></output></div>
         <input type="range" id="lHigh" min="-80" max="80" step="1" value="38">
       </div>
-    </section>
-
-    <section>
-      <h2>Show</h2>
-      <div class="toggles">
-        <label><input type="checkbox" id="tPhoto" checked>Photo on the head</label>
-        <label><input type="checkbox" id="tLat" checked><span class="swatch blue"></span>Latitude lines</label>
-        <label><input type="checkbox" id="tCen" checked><span class="swatch blue"></span>Center lines</label>
-        <label><input type="checkbox" id="tCir" checked><span class="swatch red"></span>Side circles</label>
-        <label><input type="checkbox" id="tFea"><span class="swatch"></span>Drawn features</label>
-        <label><input type="checkbox" id="tNeck" checked>Neck</label>
-        <label><input type="checkbox" id="tHid">Hidden lines dotted</label>
-        <label><input type="checkbox" id="tShade" checked>Light and shade</label>
-        <label><input type="checkbox" id="tLab">Labels</label>
-      </div>
-    </section>
+    </details>
   </aside>
 </main>
 
@@ -718,8 +745,11 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
   }
 
   function resize() {
-    cssW = Math.max(280, board.clientWidth);
-    cssH = Math.round(Math.max(300, Math.min(cssW * 1.02, window.innerHeight ? Math.max(420, window.innerHeight - 60) : 700, 760)));
+    cssW = Math.max(140, board.clientWidth);
+    var vh = window.innerHeight || 800, w = window.innerWidth || 1300;
+    cssH = Math.round(w <= 720 ? Math.max(160, Math.min(cssW * 1.15, vh * 0.36)) :
+                      w <= 1180 ? Math.max(220, Math.min(cssW * 1.02, vh * 0.5)) :
+                      Math.max(300, Math.min(cssW * 1.02, vh - 52, 760)));
     dpr = Math.min(2, window.devicePixelRatio || 1);
     canvas.width = Math.round(cssW * dpr); canvas.height = Math.round(cssH * dpr);
     canvas.style.height = cssH + "px";
@@ -872,9 +902,12 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
 
   function resizePhoto() {
     if (!photo) return;
-    pW = Math.max(240, photoBoard.clientWidth); pScale = pW / photo.w; pH = Math.round(photo.h * pScale);
+    var vh = window.innerHeight || 800, w = window.innerWidth || 1300, bar = 46;
+    var maxH = w <= 720 ? vh * 0.36 - 40 : w <= 1180 ? vh * 0.5 - bar : vh - 52 - bar;      // never taller than the window allows
+    pScale = Math.min(Math.max(140, photoBoard.clientWidth) / photo.w, Math.max(180, maxH) / photo.h);
+    pW = Math.round(photo.w * pScale); pH = Math.round(photo.h * pScale);
     var k = Math.min(2, window.devicePixelRatio || 1);
-    pcan.width = Math.round(pW * k); pcan.height = Math.round(pH * k); pcan.style.height = pH + "px";
+    pcan.width = Math.round(pW * k); pcan.height = Math.round(pH * k); pcan.style.width = pW + "px"; pcan.style.height = pH + "px";
     drawPhoto();
   }
   function drawPhoto() {
@@ -935,7 +968,8 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
   document.getElementById("useExample").addEventListener("click", function () { loadPhoto(EXAMPLE, EXAMPLE_DOTS); });
   photoBoard.addEventListener("dragover", function (e) { e.preventDefault(); });
   photoBoard.addEventListener("drop", function (e) { e.preventDefault(); if (e.dataTransfer && e.dataTransfer.files[0]) readFile(e.dataTransfer.files[0]); });
-  if (window.ResizeObserver) new ResizeObserver(resizePhoto).observe(photoBoard); else window.addEventListener("resize", resizePhoto);
+  if (window.ResizeObserver) new ResizeObserver(resizePhoto).observe(photoBoard);
+  window.addEventListener("resize", resizePhoto);
 
   function schedule() { if (!pending) { pending = true; requestAnimationFrame(draw); } }
 
@@ -1211,7 +1245,8 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--blue); outl
     var mq = window.matchMedia("(prefers-color-scheme: dark)");
     if (mq.addEventListener) mq.addEventListener("change", recolor);
   }
-  if (window.ResizeObserver) new ResizeObserver(resize).observe(board); else window.addEventListener("resize", resize);
+  if (window.ResizeObserver) new ResizeObserver(resize).observe(board);
+  window.addEventListener("resize", resize);
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(schedule);
 
   readColors(); describe(); resize();
