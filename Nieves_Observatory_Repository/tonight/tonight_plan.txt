@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-11-17 17:32 PST
-; Observing window starts 2026-11-17 18:14 PST  (LST 22:11:39)
+; Generated 2026-11-18 17:01 PST
+; Observing window starts 2026-11-18 18:14 PST  (LST 22:15:35)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -13,14 +13,6 @@
 #binning 1,1,1,1
 #filter r',g',i',z'
 NGC 6819
-
-; Galaxy  mag 10.1  size 17.38'  Barnard's Galaxy
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 6822
 
 ; HII Region  mag 7.4  size 20.00'  Crescent Nebula
 #posang 0
@@ -119,6 +111,14 @@ Neptune
 #filter r'
 Saturn
 #WAITINLIMITS 60
+
+; Galaxy  mag 8.1  size 7.74'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 32
 
 ; Galaxy  mag 3.4  size 177.83'  Andromeda Galaxy
 #posang 0
@@ -346,22 +346,6 @@ NGC 3115
 #binning 1,1,1,1
 #filter r',g',i',z'
 IC 2574
-
-; Supernova 2026sqf in NGC 3310  Type Ia-CSM  mag 13.3  z=0.003310
-#posang 0
-#count 3,3
-#interval 300,300
-#binning 1,1
-#filter r',g'
-2026sqf	10:38:47.961	+53:30:34.10
-
-; Supernova 2026ahvi in NGC 4189  Type Ia  mag 12.5  z=0.006997
-#posang 0
-#count 3,3
-#interval 300,300
-#binning 1,1
-#filter r',g'
-2026ahvi	12:13:50.410	+13:25:28.10
 
 ; Galaxy  mag 9.8  size 5.04'  Coma Pinwheel,Virgo Cluster Pinwheel
 #posang 0
