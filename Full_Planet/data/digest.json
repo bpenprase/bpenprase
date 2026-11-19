@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-18T17:42:01.571568+00:00",
-  "generated_human": "18 November 2026, 17:42 UTC",
-  "total_items": 124,
+  "generated": "2026-11-19T17:50:22.887306+00:00",
+  "generated_human": "19 November 2026, 17:50 UTC",
+  "total_items": 126,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,22 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "The AI ‘supertelescope’ that could transform the universe",
+          "link": "https://www.scientificamerican.com/article/the-ai-supertelescope-that-could-transform-the-universe/",
+          "source": "Scientific American",
+          "summary": "Astronomers want to combine data from three new giant telescope surveys into a fourth virtual observatory",
+          "published": "2026-11-19T14:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Ancient Maya site uncovered with ‘vibe archaeology’ ignites firestorm over AI in science",
+          "link": "https://www.scientificamerican.com/article/ancient-maya-site-uncovered-with-vibe-archaeology-ignites-firestorm-over-ai-in-science/",
+          "source": "Scientific American",
+          "summary": "Contrary to online claims, AI did not discover an ancient Maya site. But it did spark a clash over how the technology should be used in science",
+          "published": "2026-11-19T11:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "AI Is Giving Optical Computing Another Shot",
           "link": "https://spectrum.ieee.org/optical-computing-ai",
@@ -31,14 +47,6 @@
           "source": "IEEE Spectrum",
           "summary": "This article is brought to you by VicOne . VicOne identified an initial set of 28 zero-day findings in less than two days using AI-assisted research across software and tools supporting the Physical AI ecosystem.",
           "published": "2026-11-16T10:00:01+00:00",
-          "regional": false
-        },
-        {
-          "title": "Energy Department to delay atom smasher and speed AI, quantum, and fusion projects",
-          "link": "https://www.science.org/content/article/energy-department-delay-atom-smasher-and-speed-ai-quantum-and-fusion-projects",
-          "source": "Science (AAAS)",
-          "summary": "First new to-do list in 23 years reflects rapidly evolving science and budget realities",
-          "published": "2026-11-16T05:55:00+00:00",
           "regional": false
         },
         {
@@ -66,12 +74,20 @@
           "regional": false
         },
         {
-          "title": "Systems Thinking Is Vital in the Age of AI",
-          "link": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
-          "source": "IEEE Spectrum",
-          "summary": "Modern engineering projects increasingly combine human judgment with machine capability. An engineer can define a problem, then ask an artificial intelligence tool to search relevant research and technical standards,…",
-          "published": "2026-10-28T18:00:02+00:00",
-          "regional": false
+          "title": "Hyundai Card deepens brand partnerships with AI-powered customer analytics",
+          "link": "https://www.koreaherald.com/article/10942890",
+          "source": "The Korea Herald",
+          "summary": "Hyundai Card is expanding its role in co-branded credit card partnerships with the addition of artificial intelligence tools that help brands analyze customer behavior and personalize marketing, broadening cooperation…",
+          "published": "2026-11-19T06:09:41+00:00",
+          "regional": true
+        },
+        {
+          "title": "Korea, Germany seek closer industrial AI ties at Herald forum",
+          "link": "https://www.koreaherald.com/article/10942805",
+          "source": "The Korea Herald",
+          "summary": "South Korea and Germany have long relied on each other's manufacturing strengths. Business leaders say that partnership could become even more important as artificial intelligence moves into factories and vehicles.",
+          "published": "2026-11-19T05:36:29+00:00",
+          "regional": true
         },
         {
           "title": "AI a ‘growing concern’ at ASEAN’s parliamentary org, but no concrete measures yet",
@@ -103,22 +119,6 @@
           "source": "The Korea Herald",
           "summary": "Posco is hosting its 2026 Sustainable Materials Forum in Incheon, bringing together around 1,000 representatives from 450 customer companies worldwide to explore how artificial intelligence and decarbonization are…",
           "published": "2026-11-17T05:49:07+00:00",
-          "regional": true
-        },
-        {
-          "title": "IMF raises Korea's 2026 growth forecast to 3.9% on AI chip boom",
-          "link": "https://www.koreaherald.com/article/10939843",
-          "source": "The Korea Herald",
-          "summary": "The International Monetary Fund on Tuesday raised its growth forecast for South Korea to 3.9 percent this year, citing the global artificial intelligence boom driving semiconductor exports, while warning that gains…",
-          "published": "2026-11-17T05:02:26+00:00",
-          "regional": true
-        },
-        {
-          "title": "AI exam cheating puts Korean industry on alert",
-          "link": "https://www.koreaherald.com/article/10939742",
-          "source": "The Korea Herald",
-          "summary": "The recent use of artificial intelligence to cheat on a national exam in South Korea has brought renewed attention to a security risk for companies that handle sensitive technology, including chipmakers, automakers and…",
-          "published": "2026-11-17T03:11:00+00:00",
           "regional": true
         },
         {
@@ -298,6 +298,14 @@
           "regional": false
         },
         {
+          "title": "How semiconductors powered South Korea’s $1tr export milestone",
+          "link": "https://www.koreaherald.com/article/10943146",
+          "source": "The Korea Herald",
+          "summary": "Semiconductors were the driving force behind South Korea’s first $1 trillion in annual exports, as surging demand for AI memory chips and rising prices fueled overseas sales.",
+          "published": "2026-11-19T08:59:52+00:00",
+          "regional": true
+        },
+        {
           "title": "Posco, CATL signs 3-year lithium supply deal",
           "link": "https://www.koreaherald.com/article/10941739",
           "source": "The Korea Herald",
@@ -346,14 +354,6 @@
           "regional": true
         },
         {
-          "title": "IMF raises Korea's 2026 growth forecast to 3.9% on AI chip boom",
-          "link": "https://www.koreaherald.com/article/10939843",
-          "source": "The Korea Herald",
-          "summary": "The International Monetary Fund on Tuesday raised its growth forecast for South Korea to 3.9 percent this year, citing the global artificial intelligence boom driving semiconductor exports, while warning that gains…",
-          "published": "2026-11-17T05:02:26+00:00",
-          "regional": true
-        },
-        {
           "title": "China’s SMIC sees AI computing crunch until 2028 as Nvidia heat risks tighter chip curbs",
           "link": "https://www.scmp.com/tech/big-tech/article/3374305/chinas-smic-sees-ai-computing-crunch-until-2028-nvidia-heat-risks-tighter-chip-curbs",
           "source": "South China Morning Post",
@@ -384,7 +384,16 @@
       "name": "Synthetic Biology",
       "tagline": "Engineered organisms and programmed DNA — cells built for computing, data storage, and chemical synthesis.",
       "accent": "#5FBF9B",
-      "items": []
+      "items": [
+        {
+          "title": "NIH director calls for new probe of controversial COVID-19 origin paper",
+          "link": "https://www.science.org/content/article/nih-director-calls-new-probe-controversial-covid-19-origin-paper",
+          "source": "Science (AAAS)",
+          "summary": "Bhattacharya wants Nature Medicine to review whether former NIH leaders ghostwrote manuscript challenging theory an engineered virus caused pandemic",
+          "published": "2026-11-18T04:49:00+00:00",
+          "regional": false
+        }
+      ]
     },
     {
       "key": "energywater",
@@ -521,11 +530,43 @@
       "accent": "#F0894E",
       "items": [
         {
-          "title": "What Is the Moon Base?",
-          "link": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-the-moon-base/",
+          "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
+          "link": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/",
           "source": "NASA",
-          "summary": "This article is for students. NASA is returning astronauts to the Moon – and this time they will spend more time on the lunar surface. The Moon Base is humanity’s first lunar outpost.",
-          "published": "2026-11-18T17:36:03+00:00",
+          "summary": "Open data from NASA’s Fermi mission helped an international team of scientists develop a method for finding pulsars about a million times faster than before.",
+          "published": "2026-11-19T15:33:55+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Conducts Latest RS-25 Engine Test in Support of Future Artemis Missions",
+          "link": "https://www.nasa.gov/image-article/latest-rs-25-engine-test-in-support-of-future-artemis-missions/",
+          "source": "NASA",
+          "summary": "NASA tested RS-25 engine No. 10001 on Nov. 18 on the Fred Haise Test Stand at NASA’s Stennis Space Center near Bay St. Louis, Mississippi.",
+          "published": "2026-11-19T14:44:39+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
+          "link": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+          "source": "NASA",
+          "summary": "NASA’s Voyager 1 probe, humanity’s farthest-flying spacecraft, has reached one light-day from Earth, after more than 49 years of constant travel.",
+          "published": "2026-11-19T14:31:15+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
+          "link": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/",
+          "source": "NASA",
+          "summary": "NASA, Northrop Grumman, and SpaceX are targeting no earlier than 10:47 a.m. EST, Sunday, Nov. 29, for the next launch delivering science investigations, supplies, and equipment to the International Space Station.",
+          "published": "2026-11-18T22:19:17+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Announces Mid-Power Electric Rocket Challenge for US Companies",
+          "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-announces-mid-power-electric-rocket-challenge-for-us-companies/",
+          "source": "NASA",
+          "summary": "NASA launched a new competition inviting U.S. companies to produce prototypes of mid-power Hall effect thrusters – a type of electric propulsion system considered crucial for future space operations and exploration.",
+          "published": "2026-11-18T18:12:32+00:00",
           "regional": false
         },
         {
@@ -550,22 +591,6 @@
           "source": "ScienceDaily",
           "summary": "NASA has successfully tested Mars helicopter rotor blades at supersonic speeds, boosting potential lift by 30% and overcoming a major obstacle to more powerful aircraft on the Red Planet.",
           "published": "2026-11-18T03:16:19+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Launches Nuclear Power Systems Student Contest",
-          "link": "https://science.nasa.gov/centers-and-facilities/glenn/nasa-launches-nuclear-power-systems-student-contest/",
-          "source": "NASA",
-          "summary": "NASA’s Power to Explore Student Challenge kicked off Tuesday, Nov. 17. The science, engineering, technology, and mathematics (STEM) challenge invites kindergarten through 12th grade students in the United States to…",
-          "published": "2026-11-17T22:02:48+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA to Cover 35th SpaceX Resupply Mission Space Station Departure",
-          "link": "https://www.nasa.gov/news-release/nasa-to-cover-35th-spacex-resupply-mission-space-station-departure/",
-          "source": "NASA",
-          "summary": "Editor’s note: This advisory was updated on Nov. 18, 2026, to reflect changes to coverage and the return timeline.",
-          "published": "2026-11-17T19:16:22+00:00",
           "regional": false
         },
         {
@@ -622,22 +647,6 @@
           "source": "BBC Science",
           "summary": "The rocket stage was caught mid air using huge mechanical arms nicknamed \"chopsticks\".",
           "published": "2026-11-14T22:15:52+00:00",
-          "regional": false
-        },
-        {
-          "title": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
-          "link": "https://www.bbc.co.uk/news/videos/cwlym2gy3y3eo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "SpaceX has performed the historic catch using mechanical arms nicknamed \"chopsticks\".",
-          "published": "2026-11-14T22:09:40+00:00",
-          "regional": false
-        },
-        {
-          "title": "Did SpaceX catch its Starship?",
-          "link": "https://www.scientificamerican.com/article/can-spacex-catch-its-starship/",
-          "source": "Scientific American",
-          "summary": "The 15th spaceflight of SpaceX’s giant launch vehicle aimed for something unprecedented: snatching both rocket stages from midair after a journey to orbit.",
-          "published": "2026-11-13T18:45:00+00:00",
           "regional": false
         },
         {
@@ -713,11 +722,35 @@
           "regional": false
         },
         {
+          "title": "Hyundai Motor launches 4 task forces for future mobility",
+          "link": "https://www.koreaherald.com/article/10942765",
+          "source": "The Korea Herald",
+          "summary": "Hyundai Motor Group has formed four task forces — spanning software-defined vehicles, architecture, chassis and production efficiency — to sharpen its competitive edge in future mobility.",
+          "published": "2026-11-19T05:13:21+00:00",
+          "regional": true
+        },
+        {
+          "title": "How did ISRO pick astronaut candidates for the Gaganyaan mission?",
+          "link": "https://www.thehindu.com/sci-tech/science/how-did-isro-pick-astronaut-candidates-for-the-gaganyaan-mission/article71707743.ece",
+          "source": "The Hindu",
+          "summary": "As India embarks on its first manned space mission, developing indigenous capabilities in crew selection and training not only lays the foundation for sustained space activities but also gives an impetus to…",
+          "published": "2026-11-18T12:10:13+00:00",
+          "regional": true
+        },
+        {
           "title": "NASA’s Voyager 1 reaches one light-day from Earth on November 18: What does it mean?",
           "link": "https://www.thehindu.com/sci-tech/science/voyager-1-reaches-one-light-day-from-earth-on-november-18-what-it-means-nasa-latest-news/article71704297.ece",
           "source": "The Hindu",
           "summary": "NASA’s Voyager 1, humanity’s farthest spacecraft, is about to reach one light-day from Earth, more than 16 billion miles away; Know what it means",
           "published": "2026-11-18T05:00:29+00:00",
+          "regional": true
+        },
+        {
+          "title": "NASA's Voyager 1 reaches a light-day away from Earth",
+          "link": "https://www.dw.com/en/nasa-s-voyager-1-reaches-a-light-day-away-from-earth/a-79961817?maca=en-rss_en_science-22531-xml-mrss",
+          "source": "Deutsche Welle",
+          "summary": "When just saying 'hello' takes a two-day round trip, you're a light-day, or 26 billion kilometers, from Earth. Only one human-made object has ever traveled that far — and its journey into interstellar space continues.",
+          "published": "2026-11-16T17:24:00+00:00",
           "regional": true
         },
         {
@@ -767,30 +800,6 @@
           "summary": "ISRO to conduct in-orbit testing for satellite payload as part of developing NavIC, an indigenous GPS alternative; ISRO chief recalls Indian scientists’ role in saving lives on the Axiom-4 mission; praises Russian…",
           "published": "2026-11-05T17:14:46+00:00",
           "regional": true
-        },
-        {
-          "title": "Slow recovery: On the ISRO’s GSLV-F18 mission",
-          "link": "https://www.thehindu.com/opinion/editorial/the-hindu-editorial-november-2-2026-slow-recovery-on-the-isros-gslv-f18-mission/article71654004.ece",
-          "source": "The Hindu",
-          "summary": "ISRO needs more human and material resources to fulfil its mandate",
-          "published": "2026-11-05T08:11:21+00:00",
-          "regional": true
-        },
-        {
-          "title": "NVS-03 reaches geosynchronous orbit; satellite in good health",
-          "link": "https://www.thehindu.com/sci-tech/science/nvs-03-reaches-geosynchronous-orbit-satellite-in-good-health/article71667218.ece",
-          "source": "The Hindu",
-          "summary": "‘Four orbit manoeuvres have been successfully completed with a cumulative LAM engine burn of 6164 seconds; with this the satellite has reached Geo Synchronous Orbit at an inclination of 29.980,’ said ISRO",
-          "published": "2026-11-05T05:34:06+00:00",
-          "regional": true
-        },
-        {
-          "title": "Back to back GSLV successes help ISRO win back some pride",
-          "link": "https://www.thehindu.com/newsletter/space-wrap/space-wrap-newsletter-back-to-back-gslv-successes-help-isro-win-back-some-pride/article71665366.ece",
-          "source": "The Hindu",
-          "summary": "",
-          "published": "2026-11-04T14:57:29+00:00",
-          "regional": true
         }
       ]
     },
@@ -800,6 +809,22 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "Astronomers just witnessed a dying star gobble up its neighbor in real time",
+          "link": "https://www.scientificamerican.com/article/astronomers-just-witnessed-a-dying-star-gobble-up-its-neighbor-in-real-time/",
+          "source": "Scientific American",
+          "summary": "The stellar collision of a dying star with its smaller companion may have left behind a single, rejuvenated remnant, astronomers say",
+          "published": "2026-11-19T17:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "The AI ‘supertelescope’ that could transform the universe",
+          "link": "https://www.scientificamerican.com/article/the-ai-supertelescope-that-could-transform-the-universe/",
+          "source": "Scientific American",
+          "summary": "Astronomers want to combine data from three new giant telescope surveys into a fourth virtual observatory",
+          "published": "2026-11-19T14:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "A mysterious twist in the universe’s oldest light could reveal new physics",
           "link": "https://www.sciencedaily.com/releases/2026/11/261116023348.htm",
@@ -865,19 +890,11 @@
           "regional": false
         },
         {
-          "title": "The Euclid space telescope captures nearly a billion celestial objects in stunning detail",
-          "link": "https://www.scientificamerican.com/article/the-euclid-space-telescope-captures-nearly-a-billion-celestial-objects-in-stunning-detail/",
-          "source": "Scientific American",
-          "summary": "The enormous trove of galaxies and quasars will help astronomers piece together the most in-depth 3D map of the universe yet made",
-          "published": "2026-11-13T19:30:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Record-breaking simulation sheds light on cosmic ‘dark ages’",
-          "link": "https://www.scientificamerican.com/article/record-breaking-simulation-sheds-light-on-cosmic-dark-ages/",
-          "source": "Scientific American",
-          "summary": "Lumina, a huge computer model laden with complex astrophysics, is giving scientists a breathtaking virtual view of the young universe",
-          "published": "2026-11-13T11:45:00+00:00",
+          "title": "Dark energy may have flipped from negative to positive 9.5 billion years ago",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261111005901.htm",
+          "source": "ScienceDaily",
+          "summary": "A mysterious force driving the expansion of the Universe may have undergone a dramatic reversal billions of years ago.",
+          "published": "2026-11-13T11:08:34+00:00",
           "regional": false
         },
         {
@@ -985,12 +1002,12 @@
           "regional": false
         },
         {
-          "title": "Einstein's equations may explain the universe without dark energy",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261028232719.htm",
-          "source": "ScienceDaily",
-          "summary": "Mathematicians have uncovered what they argue is a fundamental flaw in the standard model of the universe, potentially challenging the need for dark energy.",
-          "published": "2026-10-29T12:07:58+00:00",
-          "regional": false
+          "title": "Neutrinos: Why these ghost particles matter",
+          "link": "https://www.mpg.de/27091921/neutrinos-why-these-ghost-particles-matter",
+          "source": "Max Planck Society",
+          "summary": "Astronomers are detecting more and more neutrinos from deep space, opening a new window to the Universe",
+          "published": "2026-11-18T23:00:00+00:00",
+          "regional": true
         },
         {
           "title": "Daily Quiz: Communication with extraterrestrial intelligence",
