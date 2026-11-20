@@ -3,58 +3,185 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Art Guides</title>
+<title>Seeing and Knowing: Figure Drawing Apps</title>
+<meta name="description" content="Interactive apps for learning to draw the human head and figure, by Bryan Penprase.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 <style>
-/* Layout idea: one quiet column, a list of guides that grows over time. Same pencil colors as the guides themselves. */
+/* Same pencil palette and type as the apps themselves, so the landing page and the tools feel like one set. */
 :root {
-  --page: #dfe3e1; --panel: #f7f8f6; --ink: #22272a; --muted: #586064; --rule: #c5cbc8; --blue: #2874b5;
-  --font-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", sans-serif;
-  --font-body: "Figtree", "Segoe UI", system-ui, sans-serif;
+  /* earth palette taken from the Mona Lisa: parchment, tan, burnt umber, raw sienna and ochre */
+  --page: #eadcc3; --panel: #f7f0e3; --ink: #2f2016; --muted: #6f5944; --rule: #d3bf9e;
+  --blue: #8a4720; --blue-hover: #6f3716; --red: #b8802f; --shot: #efe6d6;
+  --font-display: "Cormorant Garamond", "Garamond", "Times New Roman", serif;   /* Renaissance serifs, in keeping with the Mona Lisa */
+  --font-body: "EB Garamond", "Garamond", Georgia, serif;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
-  :root { --page: #141618; --panel: #23272a; --ink: #ecebe6; --muted: #a3abae; --rule: #3a4044; --blue: #7db9ea; color-scheme: dark; }
+  :root { --page: #1d150f; --panel: #2a1f17; --ink: #f1e5d0; --muted: #bea88b; --rule: #4b3a2b; --blue: #d9965a; --blue-hover: #e8ab72; --red: #d1a04c; --shot: #2a1f17; color-scheme: dark; }
 }
 * { box-sizing: border-box; }
-body { margin: 0; background: var(--page); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.5; }
-main { max-width: 720px; margin: 0 auto; padding: 56px 20px 64px; }
-h1 { font-family: var(--font-display); font-weight: 700; font-size: 44px; line-height: 1.05; margin: 0 0 10px; }
-.lede { color: var(--muted); margin: 0 0 36px; max-width: 58ch; }
-h2 { font-family: var(--font-display); font-weight: 500; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin: 0 0 10px; }
-.guides { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
-.guides a { display: block; background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: 18px 20px; color: inherit; text-decoration: none; }
-.guides a:hover { border-color: var(--blue); }
-.guides a:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
-.guides b { font-family: var(--font-display); font-size: 21px; font-weight: 700; display: block; }
-.guides span { color: var(--muted); }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--page); color: var(--ink); font-family: var(--font-body); font-size: 19.5px; line-height: 1.6; }
+a { color: var(--blue); }
+a:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; border-radius: 3px; }
+
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+/* ---- header ---- */
+header { padding: 64px 0 40px; }
+.eyebrow { font-family: var(--font-body); font-weight: 500; font-size: 14px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); margin: 0 0 14px; }
+h1 { font-family: var(--font-display); font-weight: 600; font-size: clamp(54px, 9vw, 96px); line-height: 0.95; letter-spacing: -0.005em; margin: 0 0 20px; }
+h1 .amp { color: var(--blue); font-style: italic; font-weight: 500; }
+.lede { font-size: 22px; font-style: italic; color: var(--muted); max-width: 52ch; margin: 0 0 26px; }
+.jump { display: inline-flex; align-items: center; gap: 8px; font-weight: 500; font-size: 18px; letter-spacing: 0.02em; text-decoration: none; background: var(--blue); color: #fbf5ea; padding: 10px 18px; border-radius: 6px; }
+.jump:hover { background: var(--blue-hover); }
+.jump svg { width: 14px; height: 14px; }
+
+/* ---- story ---- */
+.story { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 56px; align-items: start; padding: 40px 0 56px; border-top: 1px solid var(--rule); }
+.story h2, .apps h2 { font-family: var(--font-display); font-weight: 600; font-size: 36px; line-height: 1.15; margin: 0 0 18px; }
+.story p { margin: 0 0 18px; max-width: 64ch; }
+.story p:last-child { margin-bottom: 0; }
+.aside { position: sticky; top: 24px; display: grid; gap: 22px; }
+.quote { margin: 0; padding: 22px 22px 20px; background: var(--panel); border: 1px solid var(--rule); border-left: 4px solid var(--red); border-radius: 6px; }
+.quote p { font-family: var(--font-display); font-style: italic; font-weight: 600; font-size: 34px; line-height: 1.1; margin: 0 0 10px; }
+.quote footer { font-size: 16px; font-style: italic; color: var(--muted); }
+.schools { font-size: 17px; color: var(--muted); margin: 0; padding-left: 2px; }
+.schools b { display: block; color: var(--ink); font-family: var(--font-body); font-weight: 500; font-size: 14px; letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 6px; }
+
+/* ---- apps ---- */
+.apps { padding: 40px 0 64px; border-top: 1px solid var(--rule); }
+.apps-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 24px; margin-bottom: 22px; }
+.apps-head h2 { margin: 0; }
+.apps-head p { margin: 0; color: var(--muted); font-size: 17px; font-style: italic; }
+.grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+.card { display: flex; flex-direction: column; height: 100%; background: var(--panel); border: 1px solid var(--rule); border-radius: 8px; overflow: hidden; color: inherit; text-decoration: none; transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s; }
+.card:hover { border-color: var(--blue); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(60, 35, 15, 0.16); }
+.card:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+.shot { position: relative; aspect-ratio: 3 / 2; background: var(--shot); border-bottom: 1px solid var(--rule); }
+.shot img { display: block; width: 100%; height: 100%; object-fit: cover; filter: sepia(0.22) saturate(1.05); }   /* warms the apps' grey paper to match the page */
+.step { position: absolute; left: 12px; top: 12px; font-family: var(--font-body); font-weight: 500; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; background: rgba(247, 240, 227, 0.94); color: #2f2016; border: 1px solid #d3bf9e; border-radius: 999px; padding: 3px 10px; }
+.body { display: flex; flex-direction: column; gap: 8px; padding: 18px 20px 20px; flex: 1; }
+.body h3 { font-family: var(--font-display); font-weight: 600; font-size: 30px; line-height: 1.15; margin: 0; }
+.body p { margin: 0; color: var(--muted); font-size: 18px; line-height: 1.5; }
+.open { margin-top: auto; padding-top: 8px; font-weight: 500; font-style: italic; font-size: 19px; color: var(--blue); display: inline-flex; align-items: center; gap: 6px; }
+.open svg { width: 15px; height: 15px; transition: transform 0.15s; }
+.card:hover .open svg { transform: translateX(3px); }
+.note { margin: 20px 0 0; font-size: 17px; font-style: italic; color: var(--muted); }
+
+/* ---- links ---- */
+.more { padding: 40px 0 72px; border-top: 1px solid var(--rule); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px 32px; }
+.more p { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 32px; }
+.links { display: flex; flex-wrap: wrap; gap: 12px; }
+.links a { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: 11px 16px; font-weight: 500; font-size: 18px; }
+.links a:hover { border-color: var(--blue); }
+.links svg { width: 20px; height: 20px; color: var(--blue); flex: none; }
+.links small { display: block; font-weight: 400; color: var(--muted); font-size: 15px; font-style: italic; line-height: 1.2; }
+
+@media (max-width: 860px) {
+  .story { grid-template-columns: 1fr; gap: 28px; }
+  .aside { position: static; }
+}
+@media (max-width: 640px) {
+  header { padding: 40px 0 28px; }
+  .grid { grid-template-columns: 1fr; }
+  body { font-size: 18.5px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .card, .open svg { transition: none; }
+  .card:hover { transform: none; }
+}
 </style>
 </head>
 <body>
 <main>
-  <h1>Art Guides</h1>
-  <p class="lede">Interactive guides for learning to draw and paint.</p>
-  <h2>Guides</h2>
-  <ul class="guides">
-    <li><a href="Loomis_Head/">
-      <b>Loomis Head Rotator</b>
-      <span>Turn a construction head to any angle, adjust its proportions, and move the light to study the shadows.</span>
-    </a></li>
-    <li><a href="Portrait_Head/">
-      <b>Portrait Head Mapper</b>
-      <span>Fit the construction head to a photo of a real face, then turn the person to any angle as a reference for a portrait.</span>
-    </a></li>
-    <li><a href="Figure_Builder/">
-      <b>Figure Builder</b>
-      <span>Build a posable eight-head figure from the pelvis and rib cage up to the basic form and a muscled mannequin.</span>
-    </a></li>
-    <li><a href="Buildable_Head/">
-      <b>Buildable Head</b>
-      <span>A finished Loomis head with sculpted eyes, nose, mouth and ears. Change their size and the shape of the head, then turn it and move the light.</span>
-    </a></li>
-  </ul>
+  <div class="wrap">
+    <header>
+      <p class="eyebrow">Art Guides &middot; Bryan Penprase</p>
+      <h1>Seeing <span class="amp">&amp;</span> Knowing</h1>
+      <p class="lede">Four interactive apps for learning to draw the human head and figure, made by an astronomer who went back to art school.</p>
+      <a class="jump" href="#apps">Go to the apps
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v12M3 9l5 5 5-5"/></svg>
+      </a>
+    </header>
+
+    <section class="story" aria-labelledby="storyTitle">
+      <div>
+        <h2 id="storyTitle">How these apps came to be</h2>
+        <p>In my regular work as an astronomy professor and academic leader, I have been steeped in the exacting analysis of stars, galaxies and the universe. I have also spent many years studying another kind of universe, the world of higher education with all of its forces and dynamics.</p>
+        <p>To cross-train my mind and tap into other ways of knowing, I set out to develop my dormant artistic abilities. Art was a central part of who I was in high school, but I shelved it to pursue my career. Coming back to it has meant enrolling in classes at Laguna College of Art and Design and at Saddleback College, where I have been working to build my skills in drawing and painting.</p>
+        <p>The process has had many unexpected benefits, and the biggest one is that it has taught me to see differently. A yoga instructor once told me that &ldquo;if you&rsquo;re breathing, you&rsquo;re doing yoga.&rdquo; In the same spirit, I believe that if you&rsquo;re seeing, you&rsquo;re doing art. Seeing color through painting, and seeing the underlying structure of the human body through figure drawing, has enriched my life very deeply.</p>
+        <p>Being a student again has also taught me things I bring back to my work as a professor and educational leader. Facing a difficult challenge and struggling in a new field is an invaluable experience for anyone who teaches, and it has pushed me toward a more compassionate and effective approach to teaching. I have also found that cultivating an artistic side is part of a more general process, an ongoing dialog between seeing and knowing.</p>
+        <p>To help others on the same journey, I have built a set of apps for drawing the human figure. They are below, and they are still being tested so I can refine them and make them more useful for people like me who are new to figure drawing. Enjoy!</p>
+      </div>
+      <div class="aside">
+        <blockquote class="quote">
+          <p>If you&rsquo;re seeing, you&rsquo;re doing art.</p>
+          <footer>After a yoga teacher&rsquo;s advice about breathing</footer>
+        </blockquote>
+        <p class="schools"><b>Where I study</b>Laguna College of Art and Design, plein air workshops in Laguna Beach, and figure drawing at Saddleback College.</p>
+      </div>
+    </section>
+
+    <section class="apps" id="apps" aria-labelledby="appsTitle">
+      <div class="apps-head">
+        <h2 id="appsTitle">The apps</h2>
+        <p>They run in your browser on a computer, tablet or phone. Nothing to install.</p>
+      </div>
+      <ul class="grid">
+        <li><a class="card" href="Loomis_Head/">
+          <div class="shot"><img src="images/loomis-head.jpg" alt="The Loomis Head Rotator, showing a construction head turned to three-quarter view with its guide lines labelled" width="900" height="600"><span class="step">Start here</span></div>
+          <div class="body">
+            <h3>Loomis Head Rotator</h3>
+            <p>Build the classic Loomis head step by step, from the sliced ball and jaw to the features. Turn it to any angle and move the light to study the shadows.</p>
+            <span class="open">Open the app <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5"/></svg></span>
+          </div>
+        </a></li>
+        <li><a class="card" href="Portrait_Head/">
+          <div class="shot"><img src="images/portrait-head.jpg" alt="The Portrait Head Mapper, with dots placed on the Mona Lisa and her face wrapped onto a turning construction head" width="900" height="600"><span class="step">Portraits</span></div>
+          <div class="body">
+            <h3>Portrait Head Mapper</h3>
+            <p>Place a few dots on a photo of a face and the app wraps it onto a construction head. Then turn the person to any angle as a reference for a portrait.</p>
+            <span class="open">Open the app <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5"/></svg></span>
+          </div>
+        </a></li>
+        <li><a class="card" href="Figure_Builder/">
+          <div class="shot"><img src="images/figure-builder.jpg" alt="The Figure Builder, showing a walking mannequin seen from the side with the rib cage and pelvis visible through the body" width="900" height="600"><span class="step">Full figure</span></div>
+          <div class="body">
+            <h3>Figure Builder</h3>
+            <p>Build a posable figure from the pelvis and rib cage out to a muscled mannequin. Pick a pose, turn it, zoom in, and see the structure under the skin.</p>
+            <span class="open">Open the app <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5"/></svg></span>
+          </div>
+        </a></li>
+        <li><a class="card" href="Buildable_Head/">
+          <div class="shot"><img src="images/buildable-head.jpg" alt="The Buildable Head, a sculpted head with eyes, nose, mouth and ears, lit from the upper left" width="900" height="600"><span class="step">Advanced</span></div>
+          <div class="body">
+            <h3>Buildable Head</h3>
+            <p>A finished head with sculpted eyes, nose, mouth and ears. Reshape the features and the head, or let the app fit it to a photo of a real face.</p>
+            <span class="open">Open the app <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5"/></svg></span>
+          </div>
+        </a></li>
+      </ul>
+      <p class="note">Photos you use in the portrait apps stay on your own device. Each app can save your settings so you can pick up where you left off.</p>
+    </section>
+
+    <section class="more" aria-label="More of my work">
+      <p>See more of my work</p>
+      <div class="links">
+        <a href="https://www.instagram.com/bryanpenpraseart/">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.6" fill="currentColor"/></svg>
+          <span>Instagram<small>@bryanpenpraseart</small></span>
+        </a>
+        <a href="https://bryanpenprase.com">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg>
+          <span>Website<small>bryanpenprase.com</small></span>
+        </a>
+      </div>
+    </section>
+  </div>
 </main>
 </body>
 </html>
