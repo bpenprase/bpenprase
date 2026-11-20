@@ -102,8 +102,18 @@ body {
 }
 .board canvas:active { cursor: grabbing; }
 .board canvas:focus-visible { outline: 2px solid var(--blue); outline-offset: -2px; }
-.bar { display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-top: 1px solid var(--rule); background: var(--panel); }
+.bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding: 8px 12px; border-top: 1px solid var(--rule); background: var(--panel); }
 .bar .hint2 { font-size: 12.5px; color: var(--muted); margin-right: auto; }
+.zoombar { display: inline-flex; align-items: center; gap: 4px; }
+.zoombar button { min-width: 34px; padding-left: 8px; padding-right: 8px; }
+.zoombar output { min-width: 44px; text-align: center; font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+@media (max-width: 560px) {
+  .bar { gap: 6px; padding: 8px 10px; }
+  .bar .hint2 { flex-basis: 100%; }
+  .zoombar output { min-width: 38px; }
+  .bar button { padding-left: 9px; padding-right: 9px; }
+}
+#moveBtn[aria-pressed="true"] { background: var(--blue); border-color: var(--blue); color: var(--panel); }
 .bar .status { font-size: 12.5px; color: var(--ink); }
 button.primary { background: var(--blue); border-color: var(--blue); color: var(--panel); font-weight: 600; }
 button.primary:hover { filter: brightness(1.08); border-color: var(--blue); }
@@ -232,7 +242,14 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
   <div class="board" id="board">
     <canvas id="view" tabindex="0" role="img" aria-label="A posable figure built from the pelvis, rib cage and spine, with the outer body drawn around them"></canvas>
     <div class="bar">
-      <span class="hint2">Drag the figure to turn it</span>
+      <span class="hint2" id="hint2">Drag to turn the figure. Pinch or scroll to zoom.</span>
+      <span class="zoombar" role="group" aria-label="Zoom">
+        <button type="button" id="zoomOut" aria-label="Zoom out" title="Zoom out">&minus;</button>
+        <output id="zoomOut2" aria-live="polite">100%</output>
+        <button type="button" id="zoomIn" aria-label="Zoom in" title="Zoom in">+</button>
+        <button type="button" id="moveBtn" aria-pressed="false" title="Drag to move the view instead of turning the figure">Move</button>
+        <button type="button" id="fitBtn" title="Back to the whole view">Fit</button>
+      </span>
       <span class="status" id="fileStatus" role="status"></span>
       <button type="button" id="saveBtn">Save</button>
       <button type="button" id="loadBtn">Load</button>
@@ -731,7 +748,7 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
               [6.72, .42, .24, .34], [6.88, .21, .19, .27]]
     }
   };
-  var state = { sex: "man", turn: -28, tilt: 0, zoom: "whole" };
+  var state = { sex: "man", turn: -28, tilt: 0, zoom: "whole", mag: 1, panX: 0, panY: 0 };   // mag and pan come from the zoom buttons, wheel and pinch
   var pose = { lie: 0, bend: 0, lean: 0, twist: 0, hturn: 0, hnod: 0, htilt: 0,
                aLf: 0, aLs: 6, aLe: 8, aRf: 0, aRs: 6, aRe: 8, lLf: 0, lLs: 0, lLk: 0, lLa: 0, lRf: 0, lRs: 0, lRk: 0, lRa: 0 };
   var KHEAD = 1 / (1 - Y.chin);                 // one head, from crown to chin, in units of the head's ball
@@ -1218,12 +1235,12 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
      layers, so the body can be seen through.
   ------------------------------------------------------------------ */
   var canvas = document.getElementById("view"), ctx = canvas.getContext("2d"), board = document.getElementById("board");
-  var B = 640, EPS = 0.05, PIV_Y = 4.3;
+  var B = 800, EPS = 0.05, PIV_Y = 4.3;
   var ZOOMS = { whole: [9.2, 4.2], upper: [5.0, 5.8], head: [2.3, 7.45] };
   var zA = new Float32Array(B * B), sA = new Float32Array(B * B), mA = new Uint8Array(B * B), zB = new Float32Array(B * B), sB = new Float32Array(B * B), mB = new Uint8Array(B * B);
   var off = document.createElement("canvas"); off.width = off.height = B;
   var offCtx = off.getContext("2d"), img = offCtx.createImageData(B, B);
-  var opt = {}, bodyAlpha = 0.5, cssW = 800, cssH = 700, dpr = 1, colors = {}, needBuild = true, pending = false, SPAN = 10, VIEW_Y = 4.45;
+  var opt = {}, bodyAlpha = 0.5, cssW = 800, cssH = 700, dpr = 1, colors = {}, needBuild = true, pending = false, SPAN = 10, VIEW_Y = 4.45, VIEW_X = 0, RK = 1, RX0 = 0, RY0 = 0, LAST = null;
 
   function readColors() {
     var cs = getComputedStyle(document.documentElement);
@@ -1243,10 +1260,9 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
     schedule();
   }
   function raster(zb, sb, mb, i0, i1, i2, t, mat) {
-    var k = B / SPAN, h = B / 2;
-    var ax = h + TVW[i0] * k, ay = h - (TVW[i0 + 1] - VIEW_Y) * k, az = TVW[i0 + 2];
-    var bx = h + TVW[i1] * k, by = h - (TVW[i1 + 1] - VIEW_Y) * k, bz = TVW[i1 + 2];
-    var cx = h + TVW[i2] * k, cy = h - (TVW[i2 + 1] - VIEW_Y) * k, cz = TVW[i2 + 2];
+    var ax = RX0 + TVW[i0] * RK, ay = RY0 - TVW[i0 + 1] * RK, az = TVW[i0 + 2];
+    var bx = RX0 + TVW[i1] * RK, by = RY0 - TVW[i1 + 1] * RK, bz = TVW[i1 + 2];
+    var cx = RX0 + TVW[i2] * RK, cy = RY0 - TVW[i2 + 1] * RK, cz = TVW[i2 + 2];
     var area = (bx - ax) * (cy - ay) - (by - ay) * (cx - ax);
     if (area > -1e-7 && area < 1e-7) { facing[t] = 0; return; }
     facing[t] = area > 0 ? 1 : -1;
@@ -1266,7 +1282,7 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
     }
   }
   function seen(zb, x, y, z, eps) {
-    var k = B / SPAN, px = Math.floor(B / 2 + x * k), py = Math.floor(B / 2 - (y - VIEW_Y) * k);
+    var px = Math.floor(RX0 + x * RK), py = Math.floor(RY0 - y * RK);
     if (px < 1 || py < 1 || px > B - 2 || py > B - 2) return true;
     var far = Infinity;
     for (var dy = -1; dy <= 1; dy++) for (var dx = -1; dx <= 1; dx++) { var v = zb[(py + dy) * B + px + dx]; if (v < far) far = v; }
@@ -1280,7 +1296,12 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
     SPAN = ZOOMS[state.zoom][0]; VIEW_Y = ZOOMS[state.zoom][1];
     if (state.zoom === "whole") { var lk = pose.lie / 90; SPAN *= 1 + 0.12 * lk; VIEW_Y -= 2.0 * lk; }      // frame a figure lying down
     var W = cssW, H = cssH, labelCol = opt.labels ? (W < 560 ? 104 : 178) : 0, rulerCol = opt.ruler ? (W < 560 ? 26 : 132) : 0;
+    SPAN /= state.mag; VIEW_X = state.panX; VIEW_Y += state.panY;
     var sq = Math.min(H, W - labelCol - rulerCol * 0.35), sc = sq / SPAN, cx = rulerCol * 0.35 + (W - labelCol - rulerCol * 0.35) / 2, cy = H / 2;
+    // the depth buffers cover the whole canvas, so a zoomed or moved figure is never cut off at the edges
+    var SM = Math.max(W, H), ox = (W - SM) / 2, oy = (H - SM) / 2, kb = B / SM;
+    RK = sc * kb; RX0 = (cx - ox) * kb - VIEW_X * RK; RY0 = (cy - oy) * kb + VIEW_Y * RK;
+    LAST = { cx: cx, cy: cy, sc: sc, vx: VIEW_X, vy: VIEW_Y };
     var partOn = [opt.masses, opt.spine, opt.girdle, opt.head, opt.bones, opt.body, opt.muscle];
     var outerOn = opt.body || opt.muscle;
     function isOuter(part) { return part >= PART.body || (part === PART.head && outerOn); }   // the head is skin when the body is on
@@ -1337,7 +1358,7 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
     }
     offCtx.putImageData(img, 0, 0);
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0); ctx.clearRect(0, 0, W, H);
-    function SX(x) { return cx + x * sc; }
+    function SX(x) { return cx + (x - VIEW_X) * sc; }
     function SY(y) { return cy - (y - VIEW_Y) * sc; }
     ctx.lineJoin = "round"; ctx.lineCap = "round";
 
@@ -1357,7 +1378,7 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
       });
     }
     ctx.imageSmoothingEnabled = true; ctx.imageSmoothingQuality = "high";
-    ctx.drawImage(off, cx - sq / 2, cy - sq / 2, sq, sq);
+    ctx.drawImage(off, ox, oy, SM, SM);
     ctx.save(); ctx.beginPath(); ctx.rect(cx - sq / 2, cy - sq / 2, sq, sq); ctx.clip();      // keep the line work inside the painted area
 
     var ws = Math.max(0.7, Math.min(1.3, sc / 80)), hs = Math.max(0.42, Math.min(1, sc * KHEAD / 150));
@@ -1512,7 +1533,7 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
   });
   $("views").addEventListener("click", function (e) {
     var b = e.target.closest("button"); if (!b) return;
-    if (b.dataset.zoom) state.zoom = b.dataset.zoom; else { state.turn = +b.dataset.turn; state.tilt = 0; }
+    if (b.dataset.zoom) { state.zoom = b.dataset.zoom; resetZoom(); } else { state.turn = +b.dataset.turn; state.tilt = 0; }
     syncAll(); schedule();
   });
   document.querySelectorAll('input[name="sex"]').forEach(function (el) {
@@ -1552,7 +1573,7 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
     });
     tray.querySelectorAll('input[type="radio"]:checked').forEach(function (el) { radios[el.name] = el.value; });
     return { app: "figure-builder", version: 1, saved: new Date().toISOString(),
-             view: { turn: state.turn, tilt: state.tilt, zoom: state.zoom }, pose: Object.assign({}, pose), radios: radios, controls: controls };
+             view: { turn: state.turn, tilt: state.tilt, zoom: state.zoom, mag: state.mag, panX: state.panX, panY: state.panY }, pose: Object.assign({}, pose), radios: radios, controls: controls };
   }
   function applySettings(data) {
     if (!data || data.app !== "figure-builder" || !data.pose) throw new Error("not a Figure Builder settings file");
@@ -1572,6 +1593,11 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
       if (typeof data.view.turn === "number") state.turn = data.view.turn;
       if (typeof data.view.tilt === "number") state.tilt = data.view.tilt;
       if (ZOOMS[data.view.zoom]) state.zoom = data.view.zoom;
+      resetZoom();
+      if (typeof data.view.mag === "number") state.mag = clampMag(data.view.mag);
+      if (typeof data.view.panX === "number") state.panX = data.view.panX;
+      if (typeof data.view.panY === "number") state.panY = data.view.panY;
+      clampPan(); showZoom();
     }
     syncAll(); needBuild = true; schedule();
   }
@@ -1628,15 +1654,90 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
       .catch(function () { say("That file is not a Figure Builder settings file."); });
   });
 
-  var dragging = null;
-  canvas.addEventListener("pointerdown", function (e) { dragging = { x: e.clientX, y: e.clientY, turn: state.turn, tilt: state.tilt }; try { canvas.setPointerCapture(e.pointerId); } catch (err) {} });
+  // ---- zoom and move ----
+  var MAG_MIN = 0.5, MAG_MAX = 8, moveMode = false;
+  function clampMag(m) { return Math.max(MAG_MIN, Math.min(MAG_MAX, m)); }
+  function clampPan() { state.panX = Math.max(-6, Math.min(6, state.panX)); state.panY = Math.max(-6, Math.min(6, state.panY)); }
+  function showZoom() {
+    $("zoomOut2").textContent = Math.round(state.mag * 100) + "%";
+    $("zoomIn").disabled = state.mag >= MAG_MAX - 1e-6; $("zoomOut").disabled = state.mag <= MAG_MIN + 1e-6;
+  }
+  function resetZoom() { state.mag = 1; state.panX = 0; state.panY = 0; showZoom(); }
+  // zoom by f, keeping the spot under (px, py) in place; with no point, zoom about the middle of the view
+  function zoomAt(f, px, py) {
+    var L = LAST, m = clampMag(state.mag * f); if (!L || m === state.mag) return;
+    if (px === undefined) { px = L.cx; py = L.cy; }
+    var wx = L.vx + (px - L.cx) / L.sc, wy = L.vy - (py - L.cy) / L.sc, sc2 = L.sc * m / state.mag;
+    var py0 = state.panY;
+    state.panX += (wx - (px - L.cx) / sc2) - L.vx; state.panY += (wy + (py - L.cy) / sc2) - L.vy;
+    state.mag = m; clampPan();
+    LAST = { cx: L.cx, cy: L.cy, sc: sc2, vx: state.panX, vy: L.vy + state.panY - py0 };   // so several steps before the next draw add up
+    showZoom(); schedule();
+  }
+  function moveBy(dx, dy) {
+    var L = LAST; if (!L) return;
+    var x0 = state.panX, y0 = state.panY;
+    state.panX -= dx / L.sc; state.panY += dy / L.sc; clampPan();
+    L.vx += state.panX - x0; L.vy += state.panY - y0; schedule();
+  }
+  function setMoveMode(on) {
+    moveMode = on; $("moveBtn").setAttribute("aria-pressed", on ? "true" : "false");
+    $("hint2").textContent = on ? "Drag to move the view. Pinch or scroll to zoom." : "Drag to turn the figure. Pinch or scroll to zoom.";
+    canvas.style.cursor = on ? "move" : "";
+  }
+  $("zoomIn").addEventListener("click", function () { zoomAt(1.25); });
+  $("zoomOut").addEventListener("click", function () { zoomAt(0.8); });
+  $("fitBtn").addEventListener("click", function () { resetZoom(); schedule(); });
+  $("moveBtn").addEventListener("click", function () { setMoveMode(!moveMode); });
+  canvas.addEventListener("wheel", function (e) {
+    e.preventDefault();
+    var r = canvas.getBoundingClientRect(), dy = e.deltaMode === 1 ? e.deltaY * 16 : e.deltaY;
+    zoomAt(Math.exp(-dy * (e.ctrlKey ? 0.01 : 0.0015)), e.clientX - r.left, e.clientY - r.top);   // ctrlKey: a trackpad pinch
+  }, { passive: false });
+  canvas.addEventListener("keydown", function (e) {
+    if (e.key === "+" || e.key === "=") { zoomAt(1.25); e.preventDefault(); }
+    else if (e.key === "-" || e.key === "_") { zoomAt(0.8); e.preventDefault(); }
+    else if (e.key === "0") { resetZoom(); schedule(); e.preventDefault(); }
+  });
+
+  // one pointer turns the figure (or moves the view in Move mode, or with Shift held); two fingers pinch and move
+  var pts = {}, dragging = null, pinch = null;
+  function two() { var k = Object.keys(pts); return k.length === 2 ? [pts[k[0]], pts[k[1]]] : null; }
+  function startPinch() {
+    var p = two(); if (!p) { pinch = null; return; }
+    pinch = { d: Math.hypot(p[0].x - p[1].x, p[0].y - p[1].y) || 1, mx: (p[0].x + p[1].x) / 2, my: (p[0].y + p[1].y) / 2 };
+  }
+  canvas.addEventListener("pointerdown", function (e) {
+    pts[e.pointerId] = { x: e.clientX, y: e.clientY };
+    try { canvas.setPointerCapture(e.pointerId); } catch (err) {}
+    if (Object.keys(pts).length >= 2) { dragging = null; startPinch(); return; }
+    dragging = { x: e.clientX, y: e.clientY, turn: state.turn, tilt: state.tilt, move: moveMode || e.shiftKey || e.button === 2 };
+  });
   canvas.addEventListener("pointermove", function (e) {
+    if (!pts[e.pointerId]) return;
+    pts[e.pointerId] = { x: e.clientX, y: e.clientY };
+    if (pinch) {
+      var p = two(); if (!p) return;
+      var d = Math.hypot(p[0].x - p[1].x, p[0].y - p[1].y) || 1, mx = (p[0].x + p[1].x) / 2, my = (p[0].y + p[1].y) / 2, r = canvas.getBoundingClientRect();
+      moveBy(mx - pinch.mx, my - pinch.my);
+      zoomAt(d / pinch.d, mx - r.left, my - r.top);
+      pinch = { d: d, mx: mx, my: my };
+      return;
+    }
     if (!dragging) return;
+    if (dragging.move) { moveBy(e.clientX - dragging.x, e.clientY - dragging.y); dragging.x = e.clientX; dragging.y = e.clientY; return; }
     var a = dragging.turn + (e.clientX - dragging.x) * 0.45; state.turn = ((a + 180) % 360 + 360) % 360 - 180;
     state.tilt = Math.max(-30, Math.min(70, dragging.tilt + (e.clientY - dragging.y) * 0.3));
     syncAll(); schedule();
   });
-  ["pointerup", "pointercancel"].forEach(function (n) { canvas.addEventListener(n, function () { dragging = null; }); });
+  ["pointerup", "pointercancel"].forEach(function (n) {
+    canvas.addEventListener(n, function (e) {
+      delete pts[e.pointerId]; dragging = null;
+      if (pinch) { pinch = null; var k = Object.keys(pts); if (k.length === 1) { var q = pts[k[0]]; dragging = { x: q.x, y: q.y, turn: state.turn, tilt: state.tilt, move: true }; } }
+    });
+  });
+  canvas.addEventListener("contextmenu", function (e) { e.preventDefault(); });
+  showZoom();
 
   function recolor() { readColors(); schedule(); }
   new MutationObserver(recolor).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
