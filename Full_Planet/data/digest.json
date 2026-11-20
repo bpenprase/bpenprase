@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-19T17:50:22.887306+00:00",
-  "generated_human": "19 November 2026, 17:50 UTC",
-  "total_items": 126,
+  "generated": "2026-11-20T17:25:57.145865+00:00",
+  "generated_human": "20 November 2026, 17:25 UTC",
+  "total_items": 129,
   "channels": [
     {
       "key": "ai",
@@ -23,6 +23,14 @@
           "source": "Scientific American",
           "summary": "Contrary to online claims, AI did not discover an ancient Maya site. But it did spark a clash over how the technology should be used in science",
           "published": "2026-11-19T11:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Exclusive: I got to eavesdrop on AI agents doing science. It was eye opening",
+          "link": "https://www.science.org/content/article/exclusive-i-got-eavesdrop-ai-agents-doing-science-it-was-eye-opening",
+          "source": "Science (AAAS)",
+          "summary": "936 agents exchanged thousands of messages, each publishing end-to-end research on their own preprint server. But was it any good?",
+          "published": "2026-11-19T04:08:12+00:00",
           "regional": false
         },
         {
@@ -74,6 +82,14 @@
           "regional": false
         },
         {
+          "title": "Olive Young charts AI-led path to global beauty platform",
+          "link": "https://www.koreaherald.com/article/10942872",
+          "source": "The Korea Herald",
+          "summary": "CJ Olive Young plans to elevate its shopping experience with artificial intelligence and take its omnichannel model global, the beauty retailer said Thursday at its first tech conference.",
+          "published": "2026-11-19T21:00:00+00:00",
+          "regional": true
+        },
+        {
           "title": "Hyundai Card deepens brand partnerships with AI-powered customer analytics",
           "link": "https://www.koreaherald.com/article/10942890",
           "source": "The Korea Herald",
@@ -114,14 +130,6 @@
           "regional": true
         },
         {
-          "title": "Posco hosts global forum on AI, decarbonization in steel industry",
-          "link": "https://www.koreaherald.com/article/10939950",
-          "source": "The Korea Herald",
-          "summary": "Posco is hosting its 2026 Sustainable Materials Forum in Incheon, bringing together around 1,000 representatives from 450 customer companies worldwide to explore how artificial intelligence and decarbonization are…",
-          "published": "2026-11-17T05:49:07+00:00",
-          "regional": true
-        },
-        {
           "title": "Will Jensen Huang’s downfall tip the scales against open-source AI?",
           "link": "https://www.scmp.com/tech/big-tech/article/3374376/will-jensen-huangs-downfall-tip-scales-against-open-source-ai",
           "source": "South China Morning Post",
@@ -138,19 +146,19 @@
           "regional": true
         },
         {
-          "title": "Adaspace Put AI on Satellites. Now It Wants to Sell Computing Time.",
-          "link": "https://technode.com/2026/11/10/adaspace-satellite-ai-computing-hong-kong-ipo/",
-          "source": "TechNode",
-          "summary": "Editor’s note: This article is republished from Jumpstart, a TechNode Group publication. At an algorithms competition in Guangzhou, a team working on traffic analysis sent its model somewhere unusual: to a satellite…",
-          "published": "2026-11-10T08:00:53+00:00",
-          "regional": true
-        },
-        {
           "title": "AI100 Report: AI has entered the mainstream and is reshaping society",
           "link": "https://www.mpg.de/27078596/ai100-report-ai-has-entered-the-mainstream-and-is-reshaping-society",
           "source": "Max Planck Society",
           "summary": "Generative AI is transforming science, industry, and society while raising urgent questions about governance and public participation.",
           "published": "2026-11-09T23:00:00+00:00",
+          "regional": true
+        },
+        {
+          "title": "Can DeepSeek challenge OpenAI, Anthropic in AI agents as Harness adoption takes off?",
+          "link": "https://www.scmp.com/tech/big-tech/article/3373757/can-deepseek-challenge-openai-anthropic-ai-agents-harness-adoption-takes",
+          "source": "South China Morning Post",
+          "summary": "DeepSeek’s Harness artificial intelligence agent framework has reached 1.54 million daily active users less than three months after launch, the Chinese AI champion said on Sunday, marking rapid growth in a new…",
+          "published": "2026-11-09T07:00:04+00:00",
           "regional": true
         }
       ]
@@ -161,6 +169,22 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "The U.S. Army is about to blow up a cache of dangerous lead azide in Iowa—here’s what to know",
+          "link": "https://www.scientificamerican.com/article/the-u-s-army-is-about-to-blow-up-a-cache-of-dangerous-lead-azide-in-iowa-heres-what-to-know/",
+          "source": "Scientific American",
+          "summary": "Lead azide is used to make explosives, but it can also form unstable crystals that can detonate spontaneously",
+          "published": "2026-11-19T21:20:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Chemists are uncovering a hidden world of pollution",
+          "link": "https://www.science.org/content/article/chemists-are-uncovering-hidden-world-pollution",
+          "source": "Science (AAAS)",
+          "summary": "New analytical tools are revealing thousands of chemicals that conventional tests miss",
+          "published": "2026-11-19T02:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "Scientists create a remarkable new rechargeable battery using vitamin B12",
           "link": "https://www.sciencedaily.com/releases/2026/11/261117033909.htm",
@@ -298,6 +322,22 @@
           "regional": false
         },
         {
+          "title": "Nanoscale pressure sensor enables real-time measurement of microscopic environments in living tissues",
+          "link": "https://sj.jst.go.jp/news/202611/n1120-02k.html",
+          "source": "Science Japan",
+          "summary": "A research group led by Hayato Mizuno, Assistant Professor, and Yasutaka Anraku, Associate Professor of the School of Materials and Chemical Technology at the Institute of Science Tokyo, in collaboration with Yuki…",
+          "published": "2026-11-20T04:31:33+00:00",
+          "regional": true
+        },
+        {
+          "title": "Samsung names new memory, mobile chiefs as chips sweep promotions",
+          "link": "https://www.koreaherald.com/article/10943786",
+          "source": "The Korea Herald",
+          "summary": "Samsung Electronics named new heads of its memory chip and smartphone businesses Friday in a leadership reshuffle that awarded three promotions to president to semiconductor executives following record earnings driven…",
+          "published": "2026-11-20T01:35:35+00:00",
+          "regional": true
+        },
+        {
           "title": "How semiconductors powered South Korea’s $1tr export milestone",
           "link": "https://www.koreaherald.com/article/10943146",
           "source": "The Korea Herald",
@@ -322,43 +362,27 @@
           "regional": true
         },
         {
-          "title": "Boston Dynamics to deploy robots at GlobalFoundries' chip plants",
-          "link": "https://www.koreaherald.com/article/10940963",
-          "source": "The Korea Herald",
-          "summary": "Boston Dynamics, a US robotics subsidiary of Hyundai Motor Group, has said it plans to deploy its four-legged robot Spot at semiconductor plants operated by US chipmaker GlobalFoundries (GF) worldwide.",
-          "published": "2026-11-18T01:47:45+00:00",
-          "regional": true
-        },
-        {
-          "title": "Kospi slides below 5,000 for first time since February",
-          "link": "https://www.koreaherald.com/article/10940220",
-          "source": "The Korea Herald",
-          "summary": "The South Korean benchmark Kospi fell below the 5,000-point mark at the closing bell Tuesday for the first time since February, surrendering much of its gains from a semiconductor-led rally.",
-          "published": "2026-11-17T08:30:27+00:00",
-          "regional": true
-        },
-        {
-          "title": "Japan sake brewer turns waste charcoal into odor-cutting cattle feed",
-          "link": "https://sj.jst.go.jp/news/202611/n1117-01n.html",
-          "source": "Science Japan",
-          "summary": "A Japanese sake brewer has found an unlikely use for brewing waste, turning it into cattle feed that reduces manure odors and gives new value to a material once costly to dispose of.",
-          "published": "2026-11-17T06:32:57+00:00",
-          "regional": true
-        },
-        {
-          "title": "Posco hosts global forum on AI, decarbonization in steel industry",
-          "link": "https://www.koreaherald.com/article/10939950",
-          "source": "The Korea Herald",
-          "summary": "Posco is hosting its 2026 Sustainable Materials Forum in Incheon, bringing together around 1,000 representatives from 450 customer companies worldwide to explore how artificial intelligence and decarbonization are…",
-          "published": "2026-11-17T05:49:07+00:00",
-          "regional": true
-        },
-        {
           "title": "China’s SMIC sees AI computing crunch until 2028 as Nvidia heat risks tighter chip curbs",
           "link": "https://www.scmp.com/tech/big-tech/article/3374305/chinas-smic-sees-ai-computing-crunch-until-2028-nvidia-heat-risks-tighter-chip-curbs",
           "source": "South China Morning Post",
           "summary": "China’s Semiconductor Manufacturing International Corporation (SMIC) is betting that a relentless data centre buildout will keep artificial intelligence computing power in short supply for the next two years.",
           "published": "2026-11-13T05:55:56+00:00",
+          "regional": true
+        },
+        {
+          "title": "ISRO successfully carries out ground static test of PSLV third stage",
+          "link": "https://www.thehindu.com/sci-tech/science/isro-successfully-carries-out-ground-static-test-of-pslv-third-stage/article71694068.ece",
+          "source": "The Hindu",
+          "summary": "The configuration of the third stage was revisited comprehensively with respect to the design margins, raw material acceptance criteria, assembly procedures, and the quality checks that were followed so far",
+          "published": "2026-11-12T17:26:35+00:00",
+          "regional": true
+        },
+        {
+          "title": "Amid Nvidia saga, T-Head IPO a crucial test for Alibaba – and China’s AI ambitions",
+          "link": "https://www.scmp.com/tech/big-tech/article/3374090/amid-nvidia-saga-t-head-ipo-crucial-test-alibaba-and-chinas-ai-ambitions",
+          "source": "South China Morning Post",
+          "summary": "Alibaba Group Holding’s planned Hong Kong listing of its semiconductor design arm, T-Head, is poised to reshape China’s artificial intelligence hardware arena while unlocking billions of dollars in trapped valuation for…",
+          "published": "2026-11-11T10:31:02+00:00",
           "regional": true
         },
         {
@@ -442,6 +466,14 @@
           "regional": false
         },
         {
+          "title": "Xiaomi files trademarks for key EVs ahead of Korea debut",
+          "link": "https://www.koreaherald.com/article/10942791",
+          "source": "The Korea Herald",
+          "summary": "Xiaomi has filed trademark applications for its key electric vehicle models in South Korea, laying the groundwork to enter an EV market increasingly populated by Chinese automakers.",
+          "published": "2026-11-19T05:31:44+00:00",
+          "regional": true
+        },
+        {
           "title": "Posco, CATL signs 3-year lithium supply deal",
           "link": "https://www.koreaherald.com/article/10941739",
           "source": "The Korea Herald",
@@ -471,14 +503,6 @@
           "source": "Rappler",
           "summary": "Learn about the current options and possibilities for going solar",
           "published": "2026-11-17T07:37:46+00:00",
-          "regional": true
-        },
-        {
-          "title": "Korea Zinc to establish US solar panel recycling venture with SolarCycle",
-          "link": "https://www.koreaherald.com/article/10939963",
-          "source": "The Korea Herald",
-          "summary": "Korea Zinc is establishing a joint venture with US-based solar panel recycler SolarCycle to expand its resource recycling operations in the US.",
-          "published": "2026-11-17T05:55:33+00:00",
           "regional": true
         },
         {
@@ -530,6 +554,38 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "NASA Honor Awards Ceremony Recognizes Employees at Stennis Space Center",
+          "link": "https://www.nasa.gov/centers-and-facilities/stennis/honor-awards-ceremony-at-stennis/",
+          "source": "NASA",
+          "summary": "Employees contributing to NASA’s mission at the agency’s Stennis Space Center near Bay St. Louis, Mississippi, were recognized during the center’s Honor Awards ceremony on Nov. 18.",
+          "published": "2026-11-20T16:27:46+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Curiosity Mars Rover Collects Samples",
+          "link": "https://www.nasa.gov/image-article/nasas-curiosity-mars-rover-collects-samples/",
+          "source": "NASA",
+          "summary": "This Nov. 16 collage shows 49 drill holes captured by NASA’s Curiosity Mars rover as of November 2026. Each hole represents a sample collected from rocks on the Martian surface; Curiosity’s drill, located on the end of…",
+          "published": "2026-11-20T15:53:24+00:00",
+          "regional": false
+        },
+        {
+          "title": "Scientists turn Moon dust into LEGO-like bricks for future lunar bases",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261119194525.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have found a way to 3D-print Moon dust into LEGO-like bricks, raising the possibility of building lunar bases using materials already on the Moon.",
+          "published": "2026-11-20T12:34:56+00:00",
+          "regional": false
+        },
+        {
+          "title": "Mysterious Mercury is about to get a visitor - after spacecraft's eight-year epic voyage",
+          "link": "https://www.bbc.co.uk/news/articles/c39w9l4v1p9ro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "The mission is set to give us our best ever view of Mercury - the closest planet to the Sun.",
+          "published": "2026-11-20T05:59:56+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
           "link": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/",
           "source": "NASA",
@@ -554,19 +610,11 @@
           "regional": false
         },
         {
-          "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
-          "link": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/",
-          "source": "NASA",
-          "summary": "NASA, Northrop Grumman, and SpaceX are targeting no earlier than 10:47 a.m. EST, Sunday, Nov. 29, for the next launch delivering science investigations, supplies, and equipment to the International Space Station.",
-          "published": "2026-11-18T22:19:17+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA Announces Mid-Power Electric Rocket Challenge for US Companies",
-          "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-announces-mid-power-electric-rocket-challenge-for-us-companies/",
-          "source": "NASA",
-          "summary": "NASA launched a new competition inviting U.S. companies to produce prototypes of mid-power Hall effect thrusters – a type of electric propulsion system considered crucial for future space operations and exploration.",
-          "published": "2026-11-18T18:12:32+00:00",
+          "title": "Seven-spacecraft observatory to study plasma universe",
+          "link": "https://www.esa.int/articles/about-us/directorates/science/seven-spacecraft-observatory-to-study-plasma-universe",
+          "source": "ESA",
+          "summary": "ESA Member States have selected Plasma Observatory as the agency’s next medium-class mission. Its seven coordinated spacecraft will track how the Sun’s energy moves through Earth’s magnetic shield, across different…",
+          "published": "2026-11-18T23:00:00+00:00",
           "regional": false
         },
         {
@@ -615,22 +663,6 @@
           "source": "ScienceDaily",
           "summary": "NASA is offering $1 million in its new Moon Base Challenge, inviting U.S. students to develop innovative solutions for building humanity’s first permanent lunar outpost.",
           "published": "2026-11-16T14:02:10+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA smashed into an asteroid. Now Hera has revealed a strange new world",
-          "link": "https://www.sciencedaily.com/releases/2026/11/261116023351.htm",
-          "source": "ScienceDaily",
-          "summary": "A European spacecraft has revealed a mysterious, crater-covered side of the asteroid Didymos as it prepares to investigate the aftermath of NASA’s historic 2022 asteroid impact.",
-          "published": "2026-11-16T13:40:11+00:00",
-          "regional": false
-        },
-        {
-          "title": "The secret to building Moon bases may be hiding in emergency blankets",
-          "link": "https://www.sciencedaily.com/releases/2026/11/261115085549.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have turned the thin plastic used in emergency blankets into remarkably strong insulation that could help astronauts survive the Moon's extreme temperatures.",
-          "published": "2026-11-16T03:51:01+00:00",
           "regional": false
         },
         {
@@ -714,19 +746,19 @@
           "regional": false
         },
         {
-          "title": "Astronauts just gave the International Space Station a powerful upgrade",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261030002931.htm",
-          "source": "ScienceDaily",
-          "summary": "Two astronauts completed a 7-hour, 11-minute spacewalk to install a new solar array on the International Space Station, bringing NASA one step closer to a major power upgrade.",
-          "published": "2026-10-30T06:12:55+00:00",
-          "regional": false
+          "title": "BYD launches six-seat Ti9 SUV from RMB 279,900, offers folding steering wheel",
+          "link": "https://technode.com/2026/11/20/byd-launches-six-seat-ti9-suv-from-rmb-279900-offers-folding-steering-wheel/",
+          "source": "TechNode",
+          "summary": "BYD’s Fang Cheng Bao brand launched the Ti9 plug-in hybrid SUV on Thursday, priced from RMB 279,900 to RMB 329,900.",
+          "published": "2026-11-20T14:14:16+00:00",
+          "regional": true
         },
         {
-          "title": "Hyundai Motor launches 4 task forces for future mobility",
-          "link": "https://www.koreaherald.com/article/10942765",
-          "source": "The Korea Herald",
-          "summary": "Hyundai Motor Group has formed four task forces — spanning software-defined vehicles, architecture, chassis and production efficiency — to sharpen its competitive edge in future mobility.",
-          "published": "2026-11-19T05:13:21+00:00",
+          "title": "Lava launches Smart 4 Pro 4G phone for offline buyers in India",
+          "link": "https://www.thehindu.com/sci-tech/technology/gadgets/lava-launches-smart-4-pro-4g-phone-for-offline-buyers-in-india/article71723467.ece",
+          "source": "The Hindu",
+          "summary": "Lava Smart 4 Pro ships with a 7,000 mAh battery with an 18W Type-C charging support",
+          "published": "2026-11-20T07:03:17+00:00",
           "regional": true
         },
         {
@@ -792,14 +824,6 @@
           "summary": "The configuration of the third stage was revisited comprehensively with respect to the design margins, raw material acceptance criteria, assembly procedures, and the quality checks that were followed so far",
           "published": "2026-11-12T17:26:35+00:00",
           "regional": true
-        },
-        {
-          "title": "ISRO’s latest navigation satellite NVS-03 is fully healthy, says Chairman V. Narayanan",
-          "link": "https://www.thehindu.com/news/cities/chennai/isros-latest-navigation-satellite-nvs-03-is-fully-healthy-says-chairman-v-narayanan/article71670095.ece",
-          "source": "The Hindu",
-          "summary": "ISRO to conduct in-orbit testing for satellite payload as part of developing NavIC, an indigenous GPS alternative; ISRO chief recalls Indian scientists’ role in saving lives on the Axiom-4 mission; praises Russian…",
-          "published": "2026-11-05T17:14:46+00:00",
-          "regional": true
         }
       ]
     },
@@ -809,6 +833,22 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "How one lemur species evolved to sing like an opera star",
+          "link": "https://www.scientificamerican.com/podcast/episode/how-one-lemur-species-evolved-to-sing-like-an-opera-star/",
+          "source": "Scientific American",
+          "summary": "After millions of years of evolution turned these lemurs into showstopping singers, scientists are tuning in with conservation in mind",
+          "published": "2026-11-20T11:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Two massive stars may be secretly feeding the Milky Way’s supermassive black hole",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261119194605.htm",
+          "source": "ScienceDaily",
+          "summary": "Astronomers have traced mysterious gas clouds near the Milky Way's central supermassive black hole to a massive pair of stars whose colliding winds appear to create dense clumps of material.",
+          "published": "2026-11-20T05:41:16+00:00",
+          "regional": false
+        },
         {
           "title": "Astronomers just witnessed a dying star gobble up its neighbor in real time",
           "link": "https://www.scientificamerican.com/article/astronomers-just-witnessed-a-dying-star-gobble-up-its-neighbor-in-real-time/",
@@ -871,14 +911,6 @@
           "source": "ScienceDaily",
           "summary": "ESA’s Euclid space telescope has discovered 31 ancient quasars, including two record-breaking objects that shone with the brightness of a trillion Suns when the Universe was just 670 million years old.",
           "published": "2026-11-15T01:52:47+00:00",
-          "regional": false
-        },
-        {
-          "title": "See new images from the Euclid space telescope, spanning one billion cosmic objects",
-          "link": "https://www.scientificamerican.com/article/see-new-images-from-the-euclid-space-telescope-spanning-one-billion-cosmic-objects/",
-          "source": "Scientific American",
-          "summary": "The images are part of Euclid’s first major data release",
-          "published": "2026-11-14T14:00:00+00:00",
           "regional": false
         },
         {
@@ -970,6 +1002,14 @@
           "regional": false
         },
         {
+          "title": "A hidden star is plowing through Betelgeuse’s atmosphere, new evidence suggests",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261103003149.htm",
+          "source": "ScienceDaily",
+          "summary": "Something mysterious is disturbing Betelgeuse, and astronomers believe they have identified the culprit: a hidden companion star called Siwarha.",
+          "published": "2026-11-04T02:52:16+00:00",
+          "regional": false
+        },
+        {
           "title": "NASA's Hubble and Webb discover ancient worlds that remember their past",
           "link": "https://www.sciencedaily.com/releases/2026/10/261031221209.htm",
           "source": "ScienceDaily",
@@ -983,22 +1023,6 @@
           "source": "ScienceDaily",
           "summary": "A mysterious particle overlooked for decades may hold the key to why matter survived the Big Bang, allowing stars, planets, and life to exist.",
           "published": "2026-11-01T04:33:36+00:00",
-          "regional": false
-        },
-        {
-          "title": "Hubble reveals a stunning twist in how the universe emerged from darkness",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261029072113.htm",
-          "source": "ScienceDaily",
-          "summary": "A surprising discovery by astronomers using the Hubble Space Telescope is challenging a leading explanation for how the early universe emerged from a dense fog of hydrogen roughly 13 billion years ago.",
-          "published": "2026-10-30T10:50:22+00:00",
-          "regional": false
-        },
-        {
-          "title": "A mysterious star system just 16 light-years away may be hiding habitable planets",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261028232711.htm",
-          "source": "ScienceDaily",
-          "summary": "Astronomers have solved a 170-year-old planetary mystery in a nearby two-star system, discovering that a mysterious wobble was caused by stellar activity rather than a giant planet.",
-          "published": "2026-10-30T03:17:17+00:00",
           "regional": false
         },
         {
