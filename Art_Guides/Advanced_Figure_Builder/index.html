@@ -83,6 +83,12 @@ details.group > summary::after { content: ""; width: 7px; height: 7px; border-ri
 details.group[open] > summary { margin-bottom: 10px; }
 details.group[open] > summary::after { transform: rotate(-135deg); margin: 4px 4px 0 0; }
 .note { margin: 10px 0 0; font-size: 13px; color: var(--muted); }
+.gesture { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.gesture .primary { background: var(--blue); border-color: var(--blue); color: var(--panel); font-weight: 600; }
+.gesture output { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.gclock { position: absolute; top: 10px; right: 10px; z-index: 5; font: 600 22px/1 var(--font-display); font-variant-numeric: tabular-nums;
+  color: #22272a; background: rgba(247, 248, 246, 0.9); border: 1px solid rgba(34, 39, 42, 0.2); border-radius: 6px; padding: 7px 11px; pointer-events: none; }
+.gclock.low { color: #b23a26; }
 .subhead { font-size: 13.5px; font-weight: 600; color: var(--muted); margin: 14px 0 6px; }
 .key { display: grid; gap: 4px; margin-top: 8px; font-size: 13px; color: var(--muted); }
 .key span { display: flex; align-items: center; gap: 7px; }
@@ -110,6 +116,7 @@ details.group[open] > summary::after { transform: rotate(-135deg); margin: 4px 4
       <div class="horizon" id="horizon" hidden><span>Eye level</span></div>
       <svg class="labels" id="labelLines" aria-hidden="true"></svg>
       <div class="labels" id="labelBox"></div>
+      <div class="gclock" id="gClock" hidden></div>
       <div class="loading" id="loading">Loading the figure&hellip;</div>
     </div>
     <div class="bar">
@@ -146,6 +153,26 @@ details.group[open] > summary::after { transform: rotate(-135deg); margin: 4px 4
         <label><input type="radio" name="surf" value="clay"><span>Clay</span></label>
         <label><input type="radio" name="surf" value="skin"><span>Skin</span></label>
       </div>
+    </details>
+
+    <details class="group" open>
+      <summary><h2>Gesture drawing</h2></summary>
+      <div class="gesture">
+        <button type="button" id="gPrev" aria-label="Previous pose" disabled>&larr; Back</button>
+        <button type="button" id="gNext" class="primary">New pose &rarr;</button>
+        <output id="gCount" aria-live="polite"></output>
+      </div>
+      <p class="subhead">Change pose every</p>
+      <div class="seg" role="radiogroup" aria-label="Change pose every">
+        <label><input type="radio" name="gTime" value="0" checked><span>Off</span></label>
+        <label><input type="radio" name="gTime" value="30"><span>30 s</span></label>
+        <label><input type="radio" name="gTime" value="60"><span>1 min</span></label>
+        <label><input type="radio" name="gTime" value="120"><span>2 min</span></label>
+        <label><input type="radio" name="gTime" value="300"><span>5 min</span></label>
+      </div>
+      <div id="gSliders" style="margin-top:12px"></div>
+      <label class="check"><input type="checkbox" id="gTurn" checked> Turn the figure to a new angle each time</label>
+      <p class="note">Each new pose starts from one of the preset poses and shifts the head, body, arms and legs a little at random, sometimes as a mirror image, always within what a body can do. Back returns to earlier poses. The right and left arrow keys work too.</p>
     </details>
 
     <details class="group" open>
@@ -198,6 +225,17 @@ details.group[open] > summary::after { transform: rotate(-135deg); margin: 4px 4
       <div id="lightSliders" style="margin-top:12px"></div>
       <label class="check"><input type="checkbox" id="rimOn"> Add a rim light from behind</label>
       <label class="check"><input type="checkbox" id="sunOn" checked> Show where the light is</label>
+    </details>
+
+    <details class="group" open>
+      <summary><h2>Surface study</h2></summary>
+      <div class="seg" role="radiogroup" aria-label="How to show the surface">
+        <label><input type="radio" name="study" value="0" checked><span>Regular</span></label>
+        <label><input type="radio" name="study" value="1"><span>Major planes</span></label>
+        <label><input type="radio" name="study" value="2"><span>Contours</span></label>
+      </div>
+      <div id="studySliders" style="margin-top:12px"></div>
+      <p class="note" id="studyNote">Major planes squares each muscle into a few flat facets, so you can see which way each part of the form faces. Contours draws rings around the body and limbs. They rise over every muscle and dip into every groove, showing how the surface turns.</p>
     </details>
 
     <details class="group" open>
@@ -284,7 +322,7 @@ const VU = {
   uMode: { value: 0 }, uEdge: { value: 0 }, uTypes: { value: 0 },
   uKeyDir: { value: new THREE.Vector3(0, 0, 1) }, uKeyLum: { value: 3 },
   uLight: { value: new THREE.Color(0xf3efe7) }, uMid: { value: new THREE.Color(0x8b857d) }, uDark: { value: new THREE.Color(0x2b2826) },
-  uMusc: { value: 0 },
+  uMusc: { value: 0 }, uStudy: { value: 0 }, uSpacing: { value: 0.03 },
   uEdgeCol: { value: new THREE.Color(0xd8341f) }, uCore: { value: new THREE.Color(0x3d6ea8) }, uCast: { value: new THREE.Color(0x9a4a8c) },
 };
 function patch(mat, musc) {
@@ -292,10 +330,18 @@ function patch(mat, musc) {
     Object.assign(sh.uniforms, VU);
     if (musc) {
       sh.vertexShader = sh.vertexShader
-        .replace('void main() {', 'attribute vec3 _mcolor; attribute float _medge; varying vec3 vMCol; varying float vMEdge;\nvoid main() {')
-        .replace('#include <begin_vertex>', '#include <begin_vertex>\n  vMCol = _mcolor; vMEdge = _medge;');
+        .replace('void main() {', 'attribute vec3 _mcolor; attribute float _medge; attribute float _contour; attribute vec3 _pa; attribute vec3 _pb; attribute vec3 _pc; attribute vec3 _pw;\nvarying vec3 vMCol; varying float vMEdge; varying float vCont; varying vec3 vPW; flat varying vec3 vPA; flat varying vec3 vPB; flat varying vec3 vPC;\nvoid main() {')
+        .replace('#include <begin_vertex>', '#include <begin_vertex>\n  vMCol = _mcolor; vMEdge = _medge; vCont = _contour;')
+        .replace('#include <skinnormal_vertex>', `#include <skinnormal_vertex>
+  vPW = _pw;
+  #ifdef USE_SKINNING
+    vPA = normalMatrix * (skinMatrix * vec4(_pa, 0.0)).xyz; vPB = normalMatrix * (skinMatrix * vec4(_pb, 0.0)).xyz; vPC = normalMatrix * (skinMatrix * vec4(_pc, 0.0)).xyz;
+  #else
+    vPA = normalMatrix * _pa; vPB = normalMatrix * _pb; vPC = normalMatrix * _pc;
+  #endif`);
       sh.fragmentShader = sh.fragmentShader
-        .replace('void main() {', 'uniform float uMusc; varying vec3 vMCol; varying float vMEdge;\nvoid main() {')
+        .replace('void main() {', 'uniform float uMusc, uStudy, uSpacing; varying vec3 vMCol; varying float vMEdge; varying float vCont; varying vec3 vPW; flat varying vec3 vPA; flat varying vec3 vPB; flat varying vec3 vPC;\nvoid main() {')
+        .replace('#include <normal_fragment_maps>', '#include <normal_fragment_maps>\n  if (uStudy > 0.5 && uStudy < 1.5) normal = normalize(vPW.x >= vPW.y && vPW.x >= vPW.z ? vPA : (vPW.y >= vPW.z ? vPB : vPC));')
         .replace('#include <color_fragment>', `#include <color_fragment>
   if (uMusc > 0.5) {
     diffuseColor.rgb = mix(diffuseColor.rgb, vMCol, 0.85);
@@ -320,10 +366,16 @@ void main() {`)
       float e = 1.0 - smoothstep(0.0, w, abs(lit - T));
       outgoingLight = mix(outgoingLight, uEdgeCol, e);
     }
+    ${musc ? `if (uStudy > 1.5) {
+      float c = vCont / uSpacing, dd = abs(fract(c + 0.5) - 0.5), fw = fwidth(c);
+      float ln = 1.0 - smoothstep(fw * 0.35, fw * 1.05, dd);
+      vec3 lc = dot(outgoingLight, W) > 0.33 ? vec3(0.27, 0.16, 0.1) : vec3(0.93, 0.88, 0.8);
+      outgoingLight = mix(outgoingLight, lc, ln * 0.8);
+    }` : ''}
   }
   #include <opaque_fragment>`);
   };
-  mat.customProgramCacheKey = () => musc ? 'values-musc' : 'values1';
+  mat.customProgramCacheKey = () => musc ? 'values-musc3' : 'values1';
 }
 const SURF = {
   plaster: { color: 0xe9e5dd, rough: 0.82 },
@@ -374,7 +426,8 @@ function loadModel(name) {
     loader.load('models/' + name + '.glb', ok, undefined, () => loader.load('models/' + name + '-glb.wasm', ok, undefined, rej));
   }).then(m => {
     if (m.labels) return m;
-    return fetch('models/' + name + '-muscles.json').then(r => r.json()).then(j => { m.labels = j.labels; return m; }).catch(() => { m.labels = []; return m; });
+    return fetch('models/' + name + '-muscles.json').then(r => r.json()).then(j => { m.labels = j.labels; m.meta = j; return m; })
+      .catch(() => { m.labels = []; m.meta = { planes: [200, 300, 500, 950], height: 1.8 }; return m; });
   });
 }
 
@@ -462,7 +515,8 @@ ADJ.forEach(a => { if (a.side) { adj[a.id + 'L'] = 0; adj[a.id + 'R'] = 0; } els
 
 const state = { sex: 'man', pose: 'contrapposto', surf: 'plaster', turn: -20, x: 0, z: 0,
   az: -45, el: 40, bright: 3.2, dark: 0.18, warm: 0, rimOn: false, sunOn: true, values: 0, edge: false, types: false,
-  eye: 1.45, shadow: 0.55, horizon: 0.42, horizonOn: false, lens: 45, musc: false, names: false };
+  eye: 1.45, shadow: 0.55, horizon: 0.42, horizonOn: false, lens: 45, musc: false, names: false,
+  study: 0, planeLevel: 0, cSpace: 0.12 };
 
 const qTmp = new THREE.Quaternion(), qA = new THREE.Quaternion(), eTmp = new THREE.Euler();
 function eq(x, y, z) { return new THREE.Quaternion().setFromEuler(eTmp.set(x * DEG, y * DEG, z * DEG, 'YXZ')); }
@@ -860,8 +914,102 @@ async function setSex(name) {
   $('loading').hidden = true;
   if (cur && cur !== m) figure.remove(cur.root);
   cur = m; figure.add(m.root);
+  if (typeof applyStudy === 'function') applyStudy();
   setPose(state.pose, true);
 }
+
+
+// ---------------------------------------------------------------- gesture drawing
+// "New pose" picks a preset at random, sometimes mirrors it, and nudges the head, body, arms and
+// legs by random amounts. The range-of-motion limits still apply, so every pose is one a body can make.
+// Poses are kept in order so Back can step through them; a timer can change the pose on its own.
+const gState = { vary: 0.5 };
+const gHist = []; let gAt = -1, gSecs = 0, gLeft = 0, gTick = null;
+SL.push(slider($('gSliders'), { id: 'gVary', label: 'How much each pose varies', min: 0, max: 100, step: 5, unit: '',
+  get: () => Math.round(gState.vary * 100), set: v => { gState.vary = v / 100; }, fmt: v => v === 0 ? 'presets only' : v + '%' }));
+const WANDER = { headTurn: 35, headNod: 18, headTilt: 12, twist: 18, bend: 12, sideBend: 10,
+  armOut: 35, armFwd: 40, elbow: 45, legFwd: 18, legOut: 10, knee: 20 };
+function mirrorPose(P) {
+  const flipName = n => n.endsWith('_L') ? n.slice(0, -2) + '_R' : n.endsWith('_R') ? n.slice(0, -2) + '_L' : n;
+  const out = { label: P.label, stool: P.stool, rest: P.rest, e: {}, aim: {} };
+  if (P.root) out.root = { rot: [P.root.rot[0], -P.root.rot[1], -P.root.rot[2]] };
+  for (const [k, v] of Object.entries(P.e || {})) out.e[flipName(k)] = [v[0], -v[1], -v[2]];
+  for (const [k, v] of Object.entries(P.aim || {})) out.aim[flipName(k)] = [-v[0], v[1], v[2], -(v[3] || 0)];
+  return out;
+}
+function makeGesture() {
+  const names = Object.keys(POSES).filter(n => n !== '_gesture' && n !== 'apose' && (n !== 'standing' || Math.random() < 0.5));
+  const name = names[Math.floor(Math.random() * names.length)];
+  const mir = Math.random() < 0.5;
+  const P = mir ? mirrorPose(POSES[name]) : JSON.parse(JSON.stringify(POSES[name]));
+  P.label = 'Gesture';
+  const a = {};
+  const r = () => Math.random() * 2 - 1;
+  ADJ.forEach(d => {
+    const w = (WANDER[d.id] || 10) * gState.vary;
+    const pick = () => {
+      let v = r() * w;
+      if (d.id === 'elbow' || d.id === 'knee') v = Math.abs(v) * (Math.random() < 0.7 ? 1 : -0.4);  // mostly bend more
+      if (d.id === 'armOut' || d.id === 'legOut') v = Math.random() < 0.75 ? Math.abs(v) : -Math.abs(v) * 0.4;
+      return Math.round(THREE.MathUtils.clamp(v, d.min, d.max));
+    };
+    if (d.side) { a[d.id + 'L'] = pick(); a[d.id + 'R'] = pick(); } else a[d.id] = pick();
+  });
+  if (P.stool) { a.legFwdL = a.legFwdR = a.legOutL = a.legOutR = 0; }      // keep the seat under the hips
+  if (name === 'kneeling') { a.legFwdL = a.legFwdR = a.kneeL = a.kneeR = 0; } // keep the knee on the floor
+  const turn = gTurnOn() ? Math.round((Math.random() < 0.8 ? r() * 110 : 180 + r() * 40) / 5) * 5 : state.turn;
+  return { P, adj: a, turn: ((turn + 540) % 360) - 180, name };
+}
+const gTurnOn = () => $('gTurn').checked;
+function showGesture(i, instant) {
+  gAt = i; const g = gHist[i];
+  POSES._gesture = g.P;
+  for (const k in adj) adj[k] = g.adj[k] ?? 0;
+  ADJS.forEach(s => s.sync());
+  const dTurn = g.turn - state.turn;
+  state.turn = g.turn;
+  if (bgURL) { /* keep the camera where it is in front of a picture */ }
+  else {        // swing the view with the figure so the new angle shows as a new view
+    const off = camera.position.clone().sub(controls.target);
+    controls.target.set(state.x, controls.target.y, state.z);
+    camera.position.copy(controls.target).add(off);
+  }
+  syncSliders();
+  setPose('_gesture', instant);
+  $('gCount').textContent = 'Pose ' + (i + 1) + ' of ' + gHist.length;
+  $('gPrev').disabled = i <= 0;
+  if (gSecs) { gLeft = gSecs; clockShow(); }
+}
+function gestureNext() {
+  if (gAt < gHist.length - 1) showGesture(gAt + 1);
+  else { gHist.push(makeGesture()); if (gHist.length > 200) gHist.shift(); showGesture(gHist.length - 1); }
+}
+function gesturePrev() { if (gAt > 0) showGesture(gAt - 1); }
+function clockShow() {
+  const c = $('gClock');
+  if (!gSecs) { c.hidden = true; return; }
+  c.hidden = false;
+  c.textContent = Math.floor(gLeft / 60) + ':' + String(gLeft % 60).padStart(2, '0');
+  c.classList.toggle('low', gLeft <= 5);
+}
+$('gNext').onclick = gestureNext;
+$('gPrev').onclick = gesturePrev;
+document.querySelectorAll('input[name="gTime"]').forEach(el => el.onchange = () => {
+  if (!el.checked) return;
+  gSecs = +el.value; clearInterval(gTick); gTick = null;
+  if (gSecs) {
+    if (gAt < 0) gestureNext();
+    gLeft = gSecs;
+    gTick = setInterval(() => { gLeft--; if (gLeft <= 0) gestureNext(); else clockShow(); }, 1000);
+  }
+  clockShow();
+});
+document.addEventListener('keydown', e => {
+  const t = e.target, tag = t && t.tagName;
+  if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || (t && t.isContentEditable) || e.metaKey || e.ctrlKey || e.altKey) return;
+  if (e.key === 'ArrowRight') { gestureNext(); e.preventDefault(); }
+  else if (e.key === 'ArrowLeft') { gesturePrev(); e.preventDefault(); }
+});
 
 // ---------------------------------------------------------------- background picture
 let bgURL = null;
@@ -905,7 +1053,7 @@ $('bgClear').onclick = () => setBackground(null);
 
 // ---------------------------------------------------------------- save and load
 $('saveBtn').onclick = () => {
-  const data = { app: 'advanced-figure-builder', version: 1, state, adj,
+  const data = { app: 'advanced-figure-builder', version: 1, state, adj, gesture: POSES._gesture || null,
     camera: { pos: camera.position.toArray(), target: controls.target.toArray() }, background: bgURL };
   const blob = new Blob([JSON.stringify(data)], { type: 'application/json' });
   const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'figure-scene.json';
@@ -918,18 +1066,131 @@ $('loadFile').onchange = async e => {
   const f = e.target.files[0]; if (!f) return; e.target.value = '';
   try {
     const d = JSON.parse(await f.text());
+    if (d.gesture) POSES._gesture = d.gesture;
     Object.assign(state, d.state || {}); Object.assign(adj, d.adj || {});
+    if (!POSES[state.pose]) state.pose = 'contrapposto';
     document.querySelector(`input[name="sex"][value="${state.sex}"]`).checked = true;
     document.querySelector(`input[name="surf"][value="${state.surf}"]`).checked = true;
     document.querySelector(`input[name="values"][value="${state.values}"]`).checked = true;
+    document.querySelector(`input[name="study"][value="${state.study || 0}"]`).checked = true;
     $('horizonOn').checked = state.horizonOn; $('muscOn').checked = state.musc; $('namesOn').checked = state.names; $('rimOn').checked = state.rimOn; $('sunOn').checked = state.sunOn; $('edgeOn').checked = state.edge; $('typesOn').checked = state.types; $('typesKey').hidden = !state.types;
     setSurf(state.surf); syncSliders(); ADJS.forEach(s => s.sync());
     setBackground(d.background || null);
     await setSex(state.sex);
     if (d.camera) { camera.position.fromArray(d.camera.pos); controls.target.fromArray(d.camera.target); controls.update(); }
+    applyStudy();
     $('status').textContent = 'Loaded ' + f.name; render();
   } catch (err) { $('status').textContent = 'That file could not be read'; }
 };
+
+
+// ---------------------------------------------------------------- surface study: planes and contours
+// Each plane takes the average facing of all the skin in it, so it stays flat however the figure is posed.
+// The planes view uses a copy of the body in which every triangle is its own, so each triangle
+// takes one plane and the edges between planes run cleanly along the mesh.
+function planesMesh(m) {
+  if (m.pmesh) return m.pmesh;
+  const g0 = m.mesh.geometry, ix = g0.index.array, nI = ix.length;
+  const g = new THREE.BufferGeometry();
+  for (const k of ['position', 'normal', 'skinIndex', 'skinWeight', '_mcolor', '_medge', '_contour']) {
+    const a = g0.attributes[k]; if (!a) continue;
+    const sz = a.itemSize, Arr = a.array.constructor, out = new Arr(nI * sz);
+    for (let i = 0; i < nI; i++) for (let c = 0; c < sz; c++) out[i * sz + c] = a.getComponent(ix[i], c);
+    g.setAttribute(k, new THREE.BufferAttribute(out, sz, a.normalized));
+  }
+  for (const k of ['_pa', '_pb', '_pc', '_pw']) g.setAttribute(k, new THREE.BufferAttribute(new Float32Array(nI * 3), 3));
+  const pm = new THREE.SkinnedMesh(g, bodyMat);
+  pm.castShadow = pm.receiveShadow = true; pm.frustumCulled = false;
+  pm.position.copy(m.mesh.position); pm.quaternion.copy(m.mesh.quaternion); pm.scale.copy(m.mesh.scale);
+  m.mesh.parent.add(pm);
+  pm.bind(m.mesh.skeleton, m.mesh.bindMatrix.clone());
+  m.pmesh = pm; return pm;
+}
+// Every point of the skin has a smooth "belonging" to each nearby plane. Inside a triangle the plane
+// with the strongest belonging wins, so the edges between planes are smooth lines that can cross
+// triangles, not stair steps along them.
+function setPlaneLevel(m, L) {
+  if (!m) return;
+  const pm = planesMesh(m), g0 = m.mesh.geometry, ids = g0.attributes._planes, pos = g0.attributes.position, ix = g0.index.array;
+  const nV = pos.count, nF = ix.length / 3;
+  m.planeCache = m.planeCache || {};
+  if (!m.vNb) {                                   // vertex neighbours, once per figure
+    const sets = Array.from({ length: nV }, () => new Set());
+    for (let f = 0; f < nF; f++) for (let k = 0; k < 3; k++) { const u = ix[f * 3 + k], v = ix[f * 3 + (k + 1) % 3]; sets[u].add(v); sets[v].add(u); }
+    m.vNb = sets.map(st => Int32Array.from(st));
+  }
+  if (!m.planeCache[L]) {
+    const lab = new Int32Array(nV); let max = 0;
+    for (let i = 0; i < nV; i++) { lab[i] = ids.getComponent(i, L); if (lab[i] > max) max = lab[i]; }
+    // plane facings: area-weighted average of each plane's triangles (taken from the vertex labels)
+    const sum = new Float64Array((max + 1) * 3), A = new THREE.Vector3(), B = new THREE.Vector3(), C = new THREE.Vector3();
+    for (let f = 0; f < nF; f++) {
+      const a = ix[f * 3], b = ix[f * 3 + 1], c = ix[f * 3 + 2];
+      A.fromBufferAttribute(pos, a); B.fromBufferAttribute(pos, b); C.fromBufferAttribute(pos, c);
+      C.sub(A); B.sub(A); B.cross(C);
+      for (const v of [a, b, c]) { const p = lab[v] * 3; sum[p] += B.x; sum[p + 1] += B.y; sum[p + 2] += B.z; }
+    }
+    const nrm = new Float32Array((max + 1) * 3);
+    for (let i = 0; i <= max; i++) { const l = Math.hypot(sum[i * 3], sum[i * 3 + 1], sum[i * 3 + 2]) || 1; for (let k = 0; k < 3; k++) nrm[i * 3 + k] = sum[i * 3 + k] / l; }
+    // smooth belonging: start from each vertex's own plane and spread it over the neighbours a few times
+    let M = Array.from({ length: nV }, (_, i) => new Map([[lab[i], 1]]));
+    for (let it = 0; it < 4; it++) {
+      const nx = new Array(nV);
+      for (let v = 0; v < nV; v++) {
+        const out = new Map(), nb = m.vNb[v], w = 0.5 / nb.length;
+        for (const [k, x] of M[v]) out.set(k, (out.get(k) || 0) + 0.5 * x);
+        for (let j = 0; j < nb.length; j++) for (const [k, x] of M[nb[j]]) out.set(k, (out.get(k) || 0) + w * x);
+        nx[v] = out;
+      }
+      M = nx;
+    }
+    const pa = new Float32Array(nF * 9), pb = new Float32Array(nF * 9), pc = new Float32Array(nF * 9), pw = new Float32Array(nF * 9);
+    for (let f = 0; f < nF; f++) {
+      const vs = [ix[f * 3], ix[f * 3 + 1], ix[f * 3 + 2]];
+      // the three candidate planes for this triangle: the strongest belongings across its corners
+      const tot = new Map();
+      for (const v of vs) for (const [k, x] of M[v]) tot.set(k, (tot.get(k) || 0) + x);
+      const cand = [...tot.entries()].sort((p, q) => q[1] - p[1]).slice(0, 3).map(e => e[0]);
+      while (cand.length < 3) cand.push(cand[0]);
+      for (let c = 0; c < 3; c++) {
+        const o = f * 9 + c * 3, v = vs[c];
+        for (let k = 0; k < 3; k++) { pa[o + k] = nrm[cand[0] * 3 + k]; pb[o + k] = nrm[cand[1] * 3 + k]; pc[o + k] = nrm[cand[2] * 3 + k]; }
+        pw[o] = M[v].get(cand[0]) || 0; pw[o + 1] = cand[1] === cand[0] ? -1 : (M[v].get(cand[1]) || 0); pw[o + 2] = cand[2] === cand[0] || cand[2] === cand[1] ? -1 : (M[v].get(cand[2]) || 0);
+      }
+    }
+    m.planeCache[L] = { pa, pb, pc, pw };
+  }
+  const c = m.planeCache[L], ga = pm.geometry.attributes;
+  for (const k of ['pa', 'pb', 'pc', 'pw']) { ga['_' + k].array.set(c[k]); ga['_' + k].needsUpdate = true; }
+}
+function applyStudy() {
+  VU.uStudy.value = state.study;
+  const head = (cur && cur.meta ? cur.meta.height : 1.8) / 8;
+  VU.uSpacing.value = state.cSpace * head;
+  const show = () => {
+    if (!cur) return;
+    if (state.study === 1) setPlaneLevel(cur, state.planeLevel);
+    cur.mesh.visible = state.study !== 1;
+    if (cur.pmesh) cur.pmesh.visible = state.study === 1;
+    render();
+  };
+  if (cur && state.study === 1 && !(cur.planeCache && cur.planeCache[state.planeLevel])) {
+    const L = $('loading'); L.textContent = 'Carving the planes\u2026'; L.hidden = false;
+    setTimeout(() => { show(); L.hidden = true; L.textContent = 'Loading the figure\u2026'; }, 40);
+  } else show();
+  planeSl.wrap.hidden = state.study !== 1; contSl.wrap.hidden = state.study !== 2;
+  planeSl.sync(); contSl.sync();
+  render();
+}
+const planeSl = slider($('studySliders'), { id: 'planeLevel', label: 'Number of planes', min: 0, max: 3, step: 1,
+  get: () => state.planeLevel, set: v => { state.planeLevel = v; applyStudy(); },
+  fmt: v => { const c = cur && cur.meta && cur.meta.planes ? cur.meta.planes[v] : null; return (['Fewest', 'Fewer', 'More', 'Most'][v]) + (c ? ' (' + c + ')' : ''); } });
+const contSl = slider($('studySliders'), { id: 'cSpace', label: 'Contour spacing', min: 0.04, max: 0.5, step: 0.01,
+  get: () => state.cSpace, set: v => { state.cSpace = v; applyStudy(); },
+  fmt: v => { const cm = (cur && cur.meta ? cur.meta.height : 1.8) / 8 * v * 100; return 'every ' + v.toFixed(2) + ' head (' + cm.toFixed(1) + ' cm)'; } });
+planeSl.wrap = $('s_planeLevel').closest('.slider'); contSl.wrap = $('s_cSpace').closest('.slider');
+SL.push(planeSl, contSl);
+document.querySelectorAll('input[name="study"]').forEach(r => r.onchange = () => { state.study = +r.value; applyStudy(); });
 
 // ---------------------------------------------------------------- muscle names
 // Each label points at a spot deep inside its muscle. The spot is found on the posed body every frame
@@ -1029,7 +1290,7 @@ setSurf('plaster');
 frame('three');
 resize();
 setSex('man').then(() => { resize(); frame('three'); document.title = 'Advanced Figure Builder'; window.__ready = true; });
-window.__afb = { resize, draw, renderer, scene, get cur() { return cur; }, models, state, adj, setPose, setSex, frame, render, setBackground, camera, controls, POSES, syncSliders, setSurf };
+window.__afb = { applyStudy, gestureNext, gesturePrev, gState, resize, draw, renderer, scene, get cur() { return cur; }, models, state, adj, setPose, setSex, frame, render, setBackground, camera, controls, POSES, syncSliders, setSurf };
 </script>
 </body>
 </html>

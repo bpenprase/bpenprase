@@ -223,6 +223,15 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
 .seg.side span { padding: 5px 0; font-size: 13.5px; }
 .seg.side label + label span { border-left: 1px solid var(--rule); }
 .note { margin: 12px 0 0; font-size: 13px; color: var(--muted); }
+/* gesture drawing */
+.gesture { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.gesture .primary { background: var(--blue); border-color: var(--blue); color: var(--panel); font-weight: 600; }
+.gesture output { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.gsub { font-size: 13.5px; font-weight: 600; color: var(--muted); margin: 12px 0 6px; }
+.gtime span { padding: 6px 10px; }
+.gclock { position: absolute; top: 10px; right: 10px; z-index: 5; font: 600 22px/1 var(--font-display); font-variant-numeric: tabular-nums;
+  color: #22272a; background: rgba(247, 248, 246, 0.9); border: 1px solid rgba(34, 39, 42, 0.2); border-radius: 6px; padding: 7px 11px; pointer-events: none; }
+.gclock.low { color: #b23a26; }
 .check { display: flex; align-items: center; gap: 7px; font-size: 14px; margin-bottom: 10px; cursor: pointer; }
 .check input { accent-color: var(--blue); width: 15px; height: 15px; margin: 0; }
 [hidden] { display: none !important; }
@@ -241,6 +250,7 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
 <main class="app">
   <div class="board" id="board">
     <canvas id="view" tabindex="0" role="img" aria-label="A posable figure built from the pelvis, rib cage and spine, with the outer body drawn around them"></canvas>
+    <div class="gclock" id="gClock" hidden aria-live="off"></div>
     <div class="bar">
       <span class="hint2" id="hint2">Drag to turn the figure. Pinch or scroll to zoom.</span>
       <span class="zoombar" role="group" aria-label="Zoom">
@@ -332,6 +342,29 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
         <div class="slider-head"><label for="gap">Contour spacing</label><output id="gapOut" for="gap"></output></div>
         <input type="range" id="gap" min="5" max="30" step="1" value="10">
       </div>
+    </details>
+
+    <details class="group" open>
+      <summary><h2>Gesture drawing</h2></summary>
+      <div class="gesture">
+        <button type="button" id="gPrev" aria-label="Previous pose" disabled>&larr; Back</button>
+        <button type="button" id="gNext" class="primary">New pose &rarr;</button>
+        <output id="gCount" aria-live="polite"></output>
+      </div>
+      <p class="gsub">Change pose every</p>
+      <div class="seg gtime" role="radiogroup" aria-label="Change pose every">
+        <label><input type="radio" name="gTime" value="0" checked><span>Off</span></label>
+        <label><input type="radio" name="gTime" value="30"><span>30 s</span></label>
+        <label><input type="radio" name="gTime" value="60"><span>1 min</span></label>
+        <label><input type="radio" name="gTime" value="120"><span>2 min</span></label>
+        <label><input type="radio" name="gTime" value="300"><span>5 min</span></label>
+      </div>
+      <div class="slider" style="margin-top:12px">
+        <div class="slider-head"><label for="gVary">How much each pose varies</label><output id="gVaryOut" for="gVary"></output></div>
+        <input type="range" id="gVary" min="0" max="100" step="5" value="50">
+      </div>
+      <label class="check" style="margin-top:10px"><input type="checkbox" id="gTurn" checked> Turn the figure to a new angle each time</label>
+      <p class="note">Each new pose starts from one of the preset poses and shifts the head, body, arms and legs a little at random, sometimes as a mirror image. Back returns to earlier poses. The right and left arrow keys work too.</p>
     </details>
 
     <details class="group" open>
@@ -1530,6 +1563,103 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
     var q = POSES[b.dataset.pose];
     Object.keys(pose).forEach(function (k) { pose[k] = q[k] !== undefined ? q[k] : (k === "aLs" || k === "aRs") ? 6 : (k === "aLe" || k === "aRe") ? 8 : 0; });
     syncAll(); schedule();
+  });
+
+  /* ------------------------------------------------------------------
+     GESTURE DRAWING. "New pose" starts from a random preset, shifts every
+     joint a little at random (sometimes as a mirror image), and can turn the
+     figure to a new angle. The poses are kept in order, so Back steps through
+     earlier ones. An optional timer changes the pose on its own.
+  ------------------------------------------------------------------ */
+  var gHist = [], gAt = -1, gSecs = 0, gLeft = 0, gTick = null;
+  var RANGE = {};
+  Object.keys(SLIDERS).forEach(function (box) {
+    SLIDERS[box].forEach(function (c) {
+      if (c[5]) return;
+      var ks = c[0].indexOf("?") < 0 ? [c[0]] : [c[0].replace("?", "L"), c[0].replace("?", "R")];
+      ks.forEach(function (k) { RANGE[k] = [c[2], c[3]]; });
+    });
+  });
+  // how far each kind of joint may wander, in degrees, at full variation
+  var WANDER = { hturn: 35, hnod: 20, htilt: 14, bend: 18, lean: 14, twist: 24, lie: 0 };
+  function wander(k) {
+    if (WANDER[k] !== undefined) return WANDER[k];
+    var j = k.charAt(2);
+    if (k.charAt(0) === "a") return j === "f" ? 45 : j === "s" ? 35 : 45;
+    return j === "f" ? 22 : j === "s" ? 12 : j === "k" ? 25 : 14;
+  }
+  function rnd(a) { return (Math.random() * 2 - 1) * a; }
+  function makeGesture() {
+    var names = Object.keys(POSES).filter(function (n) { return n !== "standing" || Math.random() < 0.5; });
+    var name = names[Math.floor(Math.random() * names.length)], base = POSES[name];
+    var vary = +$("gVary").value / 100, mir = Math.random() < 0.5;
+    var p = {};
+    Object.keys(pose).forEach(function (k) {
+      var v = base[k] !== undefined ? base[k] : (k === "aLs" || k === "aRs") ? 6 : (k === "aLe" || k === "aRe") ? 8 : 0;
+      p[k] = v;
+    });
+    if (mir) {           // mirror image: swap the two sides and reverse the sideways motions
+      var q = {};
+      Object.keys(p).forEach(function (k) {
+        var m = /^([al])([LR])(.)$/.exec(k);
+        q[k] = m ? p[m[1] + (m[2] === "L" ? "R" : "L") + m[3]] : p[k];
+      });
+      ["twist", "lean", "hturn", "htilt"].forEach(function (k) { q[k] = -q[k]; });
+      p = q;
+    }
+    Object.keys(p).forEach(function (k) {
+      var r = RANGE[k]; if (!r) return;
+      var v = p[k] + rnd(wander(k) * vary);
+      p[k] = Math.round(Math.max(r[0], Math.min(r[1], v)));
+    });
+    // stay sensible: no lying down unless the preset already does, and keep sitting and kneeling grounded
+    if (!base.lie) p.lie = 0;
+    var turn = $("gTurn").checked ? Math.round((Math.random() < 0.8 ? rnd(110) : 180 + rnd(40)) / 5) * 5 : state.turn;
+    if (turn > 180) turn -= 360;
+    return { pose: p, turn: turn, name: name };
+  }
+  function showGesture(i) {
+    gAt = i; var g = gHist[i];
+    Object.keys(g.pose).forEach(function (k) { pose[k] = g.pose[k]; });
+    state.turn = g.turn;
+    syncAll(); schedule();
+    $("gCount").textContent = "Pose " + (i + 1) + " of " + gHist.length;
+    $("gPrev").disabled = i <= 0;
+    if (gSecs) { gLeft = gSecs; clockShow(); }
+  }
+  function gestureNext() {
+    if (gAt < gHist.length - 1) showGesture(gAt + 1);
+    else { gHist.push(makeGesture()); if (gHist.length > 200) gHist.shift(); showGesture(gHist.length - 1); }
+  }
+  function gesturePrev() { if (gAt > 0) showGesture(gAt - 1); }
+  function clockShow() {
+    var c = $("gClock");
+    if (!gSecs) { c.hidden = true; return; }
+    c.hidden = false;
+    c.textContent = Math.floor(gLeft / 60) + ":" + ("0" + (gLeft % 60)).slice(-2);
+    c.classList.toggle("low", gLeft <= 5);
+  }
+  $("gNext").addEventListener("click", gestureNext);
+  $("gPrev").addEventListener("click", gesturePrev);
+  document.querySelectorAll('input[name="gTime"]').forEach(function (el) {
+    el.addEventListener("change", function () {
+      if (!el.checked) return;
+      gSecs = +el.value; clearInterval(gTick); gTick = null;
+      if (gSecs) {
+        if (gAt < 0) gestureNext();
+        gLeft = gSecs;
+        gTick = setInterval(function () { gLeft--; if (gLeft <= 0) gestureNext(); else clockShow(); }, 1000);
+      }
+      clockShow();
+    });
+  });
+  var gv = $("gVary"); function gvShow() { $("gVaryOut").textContent = gv.value === "0" ? "presets only" : gv.value + "%"; }
+  gv.addEventListener("input", gvShow); gvShow();
+  document.addEventListener("keydown", function (e) {
+    var t = e.target, tag = t && t.tagName;
+    if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT" || (t && t.isContentEditable) || e.metaKey || e.ctrlKey || e.altKey) return;
+    if (e.key === "ArrowRight") { gestureNext(); e.preventDefault(); }
+    else if (e.key === "ArrowLeft") { gesturePrev(); e.preventDefault(); }
   });
   $("views").addEventListener("click", function (e) {
     var b = e.target.closest("button"); if (!b) return;
