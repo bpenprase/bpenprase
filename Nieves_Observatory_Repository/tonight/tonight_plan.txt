@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-11-20 11:09 PST
-; Observing window starts 2026-11-20 18:14 PST  (LST 22:23:28)
+; Generated 2026-11-21 11:07 PST
+; Observing window starts 2026-11-21 18:12 PST  (LST 22:25:25)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -330,6 +330,14 @@ M 81
 #filter r',g',i',z'
 M 82
 
+; Galaxy  mag 9.1  size 7.10'  Spindle Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+NGC 3115
+
 ; Planet: Mars
 #posang 0
 #count 10
@@ -338,14 +346,6 @@ M 82
 #filter r'
 Mars
 #WAITINLIMITS 60
-
-; Galaxy  mag 9.1  size 7.10'  Spindle Galaxy
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-NGC 3115
 
 ; Galaxy  mag 10.5  size 12.91'  Coddington's Nebula
 #posang 0
