@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Advanced Figure Builder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="importmap">{ "imports": { "three": "./lib/three.module.min.js" } }</script>
+<style>
+/* Same studio look as the other apps in the set: a stage on the left, a tray of controls on the right. */
+:root {
+  --page: #dfe3e1; --paper: #e9e7e2; --panel: #f7f8f6; --ink: #22272a; --muted: #586064; --rule: #c5cbc8;
+  --blue: #2874b5; --red: #c4432c;
+  --font-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", sans-serif;
+  --font-body: "Figtree", "Segoe UI", system-ui, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --page: #141618; --paper: #1c1f21; --panel: #23272a; --ink: #ecebe6; --muted: #a3abae; --rule: #3a4044; --blue: #7db9ea; --red: #f08f7e; color-scheme: dark; }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--page); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.45; }
+.app { max-width: 1320px; margin: 0 auto; padding: 20px 16px 28px; display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 18px; align-items: start; }
+.board { background: var(--paper); border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; position: sticky; top: 12px; }
+.stage { position: relative; width: 100%; height: min(calc(100vh - 110px), 860px); min-height: 380px;
+  background: radial-gradient(ellipse at 50% 35%, #f1efea 0%, #d9d5cd 70%, #c9c4ba 100%); background-size: cover; background-position: center; }
+.stage.has-bg { background-color: #000; }
+.stage canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; touch-action: none; cursor: grab; }
+.stage canvas:active { cursor: grabbing; }
+.stage canvas:focus-visible { outline: 2px solid var(--blue); outline-offset: -2px; }
+.horizon { position: absolute; left: 0; right: 0; height: 0; border-top: 1.5px dashed rgba(196, 67, 44, 0.9); pointer-events: none; }
+.horizon span { position: absolute; right: 8px; top: -19px; font-size: 12px; font-weight: 600; color: #fff; background: rgba(196, 67, 44, 0.9); padding: 0 6px; border-radius: 3px; }
+.labels { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; overflow: hidden; }
+.labels line { stroke: #2b2f31; stroke-width: 1; }
+.labels circle { fill: #2b2f31; }
+.mlabel { position: absolute; font-size: 12px; line-height: 1.2; font-weight: 600; color: #22272a; background: rgba(247, 248, 246, 0.88);
+  border: 1px solid rgba(34, 39, 42, 0.25); border-radius: 3px; padding: 1px 5px; white-space: nowrap; transform: translateY(-50%); }
+.loading { position: absolute; inset: 0; display: grid; place-items: center; color: #4a4f52; font-weight: 600; pointer-events: none; }
+.loading[hidden] { display: none; }
+.bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding: 8px 12px; border-top: 1px solid var(--rule); background: var(--panel); }
+.bar .hint2 { font-size: 12.5px; color: var(--muted); margin-right: auto; }
+.zoombar { display: inline-flex; align-items: center; gap: 4px; }
+.zoombar button { min-width: 34px; padding-left: 8px; padding-right: 8px; }
+.zoombar output { min-width: 44px; text-align: center; font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+button[aria-pressed="true"] { background: var(--blue); border-color: var(--blue); color: var(--panel); }
+.status { font-size: 12.5px; }
+.tray { background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: 18px 18px 16px; display: flex; flex-direction: column; gap: 18px;
+  position: sticky; top: 12px; max-height: calc(100vh - 48px); overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: var(--rule) transparent; }
+.tray > * { flex: none; }
+h1 { font-family: var(--font-display); font-weight: 700; font-size: 26px; line-height: 1.1; margin: 0; }
+.lede { margin: 6px 0 0; color: var(--muted); font-size: 14px; }
+h2 { font-family: var(--font-display); font-weight: 500; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
+.slider { display: grid; gap: 2px; }
+.slider + .slider { margin-top: 10px; }
+.slider-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.slider label { font-weight: 600; }
+.slider output { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 14px; }
+input[type="range"] { width: 100%; accent-color: var(--blue); margin: 0; height: 24px; }
+.presets { display: flex; flex-wrap: wrap; gap: 6px; }
+button { font: inherit; font-size: 13.5px; color: var(--ink); background: transparent; border: 1px solid var(--rule); border-radius: 4px; padding: 5px 10px; cursor: pointer; }
+button:hover { border-color: var(--ink); }
+button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.presets button[aria-pressed="true"] { font-weight: 600; }
+.seg { display: flex; border: 1px solid var(--rule); border-radius: 4px; overflow: hidden; }
+.seg label { flex: 1; text-align: center; cursor: pointer; }
+.seg label + label span { border-left: 1px solid var(--rule); }
+.seg input { position: absolute; opacity: 0; }
+.seg span { display: block; padding: 6px 0; font-weight: 600; font-size: 14px; }
+.seg input:checked + span { background: var(--blue); color: var(--panel); }
+.seg input:focus-visible + span { outline: 2px solid var(--blue); outline-offset: -3px; }
+.check { display: flex; align-items: center; gap: 7px; font-size: 14px; margin-top: 10px; cursor: pointer; }
+.check input { accent-color: var(--blue); width: 15px; height: 15px; margin: 0; }
+details { border-top: 1px solid var(--rule); padding: 9px 0 4px; margin-top: 10px; }
+summary { font-weight: 600; cursor: pointer; margin-bottom: 8px; }
+details.group { border-top: none; padding: 0; margin: 0; }
+details.group > summary { list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 8px; margin: 0; padding: 2px 0; }
+details.group > summary::-webkit-details-marker { display: none; }
+details.group > summary h2 { margin: 0; }
+details.group > summary::after { content: ""; width: 7px; height: 7px; border-right: 1.5px solid var(--muted); border-bottom: 1.5px solid var(--muted); transform: rotate(45deg); margin: 0 4px 4px 0; flex: none; }
+details.group[open] > summary { margin-bottom: 10px; }
+details.group[open] > summary::after { transform: rotate(-135deg); margin: 4px 4px 0 0; }
+.note { margin: 10px 0 0; font-size: 13px; color: var(--muted); }
+.subhead { font-size: 13.5px; font-weight: 600; color: var(--muted); margin: 14px 0 6px; }
+.key { display: grid; gap: 4px; margin-top: 8px; font-size: 13px; color: var(--muted); }
+.key span { display: flex; align-items: center; gap: 7px; }
+.key i { display: inline-block; width: 14px; height: 10px; border-radius: 2px; flex: none; }
+.filebtn { display: flex; gap: 6px; flex-wrap: wrap; }
+.filebtn label { display: inline-block; font-size: 13.5px; border: 1px solid var(--rule); border-radius: 4px; padding: 5px 10px; cursor: pointer; }
+.filebtn label:hover { border-color: var(--ink); }
+.filebtn label:focus-within { outline: 2px solid var(--blue); outline-offset: 2px; }
+.filebtn input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+[hidden] { display: none !important; }
+@media (max-width: 880px) {
+  .app { grid-template-columns: 1fr; padding: 10px 10px 12px; gap: 10px; }
+  .board { position: relative; top: 0; }
+  .stage { height: min(68vh, 620px); }
+  .tray { position: relative; top: 0; max-height: none; }
+}
+@media (max-width: 560px) { .bar .hint2 { flex-basis: 100%; } .bar { gap: 6px; padding: 8px 10px; } }
+</style>
+</head>
+<body>
+<main class="app">
+  <div class="board">
+    <div class="stage" id="stage">
+      <canvas id="view" tabindex="0" role="img" aria-label="A posable three-dimensional figure, lit by an adjustable light"></canvas>
+      <div class="horizon" id="horizon" hidden><span>Eye level</span></div>
+      <svg class="labels" id="labelLines" aria-hidden="true"></svg>
+      <div class="labels" id="labelBox"></div>
+      <div class="loading" id="loading">Loading the figure&hellip;</div>
+    </div>
+    <div class="bar">
+      <span class="hint2" id="hint2">Drag to look around. Pinch or scroll to zoom.</span>
+      <span class="zoombar" role="group" aria-label="Zoom">
+        <button type="button" id="zoomOut" aria-label="Zoom out" title="Zoom out">&minus;</button>
+        <output id="zoomPct" aria-live="polite">100%</output>
+        <button type="button" id="zoomIn" aria-label="Zoom in" title="Zoom in">+</button>
+        <button type="button" id="moveBtn" aria-pressed="false" title="Drag to move the figure around the floor">Move</button>
+        <button type="button" id="fitBtn" title="Frame the whole figure again">Fit</button>
+      </span>
+      <span class="status" id="status" role="status"></span>
+      <button type="button" id="saveBtn">Save</button>
+      <button type="button" id="loadBtn">Load</button>
+      <input type="file" id="loadFile" accept=".json,application/json" hidden>
+    </div>
+  </div>
+
+  <aside class="tray" aria-label="Controls">
+    <header>
+      <h1>Advanced Figure Builder</h1>
+      <p class="lede">Pose a realistic figure, place it in a scene, and light it to study where light turns to shadow.</p>
+    </header>
+
+    <details class="group" open>
+      <summary><h2>Figure</h2></summary>
+      <div class="seg" role="radiogroup" aria-label="Figure">
+        <label><input type="radio" name="sex" value="man" checked><span>Man</span></label>
+        <label><input type="radio" name="sex" value="woman"><span>Woman</span></label>
+      </div>
+      <p class="subhead">Surface</p>
+      <div class="seg" role="radiogroup" aria-label="Surface">
+        <label><input type="radio" name="surf" value="plaster" checked><span>Plaster</span></label>
+        <label><input type="radio" name="surf" value="clay"><span>Clay</span></label>
+        <label><input type="radio" name="surf" value="skin"><span>Skin</span></label>
+      </div>
+    </details>
+
+    <details class="group" open>
+      <summary><h2>Pose</h2></summary>
+      <div class="presets" id="poses"></div>
+      <details>
+        <summary>Adjust the pose</summary>
+        <div class="seg" role="radiogroup" aria-label="Which side the limb sliders move" style="margin-bottom:10px">
+          <label><input type="radio" name="side" value="both" checked><span>Both</span></label>
+          <label><input type="radio" name="side" value="L"><span>Left</span></label>
+          <label><input type="radio" name="side" value="R"><span>Right</span></label>
+        </div>
+        <div id="adjSliders"></div>
+        <button type="button" id="adjReset" style="margin-top:10px">Reset adjustments</button>
+      </details>
+    </details>
+
+    <details class="group" open>
+      <summary><h2>Muscles</h2></summary>
+      <label class="check" style="margin-top:0"><input type="checkbox" id="muscOn"> Color the muscle groups</label>
+      <label class="check"><input type="checkbox" id="namesOn"> Label the muscles</label>
+      <p class="note">The muscle map follows the class charts. Names appear for the muscles that face you, so walk around the figure to see the back.</p>
+    </details>
+
+    <details class="group" open>
+      <summary><h2>Place in the scene</h2></summary>
+      <div id="placeSliders"></div>
+      <p class="subhead">View from</p>
+      <div class="presets" id="views">
+        <button type="button" data-view="front">Front</button>
+        <button type="button" data-view="three">Three-quarter</button>
+        <button type="button" data-view="side">Side</button>
+        <button type="button" data-view="back">Back</button>
+        <button type="button" data-view="low">Low</button>
+        <button type="button" data-view="high">High</button>
+      </div>
+      <p class="note">Use Move figure under the stage to drag the figure across the floor.</p>
+    </details>
+
+    <details class="group" open>
+      <summary><h2>Light</h2></summary>
+      <div class="presets" id="lightPresets">
+        <button type="button" data-light="ul">Upper left</button>
+        <button type="button" data-light="ur">Upper right</button>
+        <button type="button" data-light="side">Raking side</button>
+        <button type="button" data-light="top">Overhead</button>
+        <button type="button" data-light="under">From below</button>
+        <button type="button" data-light="back">Behind</button>
+      </div>
+      <div id="lightSliders" style="margin-top:12px"></div>
+      <label class="check"><input type="checkbox" id="rimOn"> Add a rim light from behind</label>
+      <label class="check"><input type="checkbox" id="sunOn" checked> Show where the light is</label>
+    </details>
+
+    <details class="group" open>
+      <summary><h2>Light and dark</h2></summary>
+      <div class="seg" role="radiogroup" aria-label="How to show the values">
+        <label><input type="radio" name="values" value="0" checked><span>Full tone</span></label>
+        <label><input type="radio" name="values" value="3"><span>3 values</span></label>
+        <label><input type="radio" name="values" value="2"><span>2 values</span></label>
+      </div>
+      <label class="check"><input type="checkbox" id="edgeOn"> Mark the edge between light and shadow</label>
+      <label class="check"><input type="checkbox" id="typesOn"> Color the form shadow and cast shadow</label>
+      <div class="key" id="typesKey" hidden>
+        <span><i style="background:#3d6ea8"></i>Form shadow: the side turned away from the light</span>
+        <span><i style="background:#9a4a8c"></i>Cast shadow: blocked by another part of the body</span>
+      </div>
+      <p class="note">Two values splits the figure into light and shadow only. Three values adds the halftone between them.</p>
+    </details>
+
+    <details class="group" open>
+      <summary><h2>Background</h2></summary>
+      <div class="filebtn">
+        <label>Choose a background picture<input type="file" id="bgFile" accept="image/*"></label>
+        <button type="button" id="bgClear" hidden>Remove</button>
+      </div>
+      <div id="bgSliders" style="margin-top:10px"></div>
+      <label class="check"><input type="checkbox" id="horizonOn"> Show the eye level line</label>
+      <p class="note">With a picture behind it, the view stays level, the way a camera sees a scene. Slide the eye level line onto the horizon in your picture, then set how high your eye is above the floor. The figure casts its shadow onto the picture's floor. Your picture stays on your own device.</p>
+    </details>
+    <p class="note">The man and woman are built from the open MakeHuman body model (released to the public domain under CC0), shaped toward the eight-heads ideal proportions.</p>
+  </aside>
+</main>
+
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from './lib/loaders/GLTFLoader.js';
+import { OrbitControls } from './lib/OrbitControls.js';
+
+const $ = id => document.getElementById(id);
+const DEG = Math.PI / 180;
+const stage = $('stage'), canvas = $('view');
+
+// ---------------------------------------------------------------- renderer, camera, controls
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.toneMapping = THREE.NeutralToneMapping;
+renderer.setClearColor(0x000000, 0);
+
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(30, 1, 0.05, 60);
+const controls = new OrbitControls(camera, canvas);
+controls.enableDamping = true; controls.dampingFactor = 0.12;
+controls.minDistance = 0.5; controls.maxDistance = 14;
+controls.maxPolarAngle = 100 * DEG;
+controls.screenSpacePanning = true;
+
+// ---------------------------------------------------------------- floor, stool, lights
+const floorMat = new THREE.MeshStandardMaterial({ color: 0xcfcac1, roughness: 0.95 });
+const floorShadowMat = new THREE.ShadowMaterial({ opacity: 0.55 });
+const floor = new THREE.Mesh(new THREE.PlaneGeometry(40, 40), floorMat);
+floor.rotation.x = -Math.PI / 2; floor.receiveShadow = true; scene.add(floor);
+
+const stool = new THREE.Mesh(new THREE.BoxGeometry(0.42, 1, 0.38), new THREE.MeshStandardMaterial({ color: 0x8a6a4e, roughness: 0.8 }));
+stool.castShadow = stool.receiveShadow = true; stool.visible = false;
+
+const key = new THREE.DirectionalLight(0xffffff, 3);
+key.castShadow = true;
+key.shadow.mapSize.set(2048, 2048);
+key.shadow.bias = -0.0003; key.shadow.normalBias = 0.015; key.shadow.radius = 2;
+Object.assign(key.shadow.camera, { left: -1.6, right: 1.6, top: 1.6, bottom: -1.6, near: 0.5, far: 12 });
+scene.add(key, key.target);
+const fill = new THREE.HemisphereLight(0xffffff, 0x8a7d70, 0.3);
+scene.add(fill);
+const rim = new THREE.DirectionalLight(0xfff4e6, 0); scene.add(rim, rim.target);
+const sun = new THREE.Mesh(new THREE.SphereGeometry(0.05, 20, 14), new THREE.MeshBasicMaterial({ color: 0xffd34d }));
+scene.add(sun);
+
+// ---------------------------------------------------------------- the light/shadow shader additions
+// Added to the figure's material: it measures how much of the key light reaches each point
+// (turned away = form shadow, blocked = cast shadow) and can redraw the figure in 2 or 3 values.
+const VU = {
+  uMode: { value: 0 }, uEdge: { value: 0 }, uTypes: { value: 0 },
+  uKeyDir: { value: new THREE.Vector3(0, 0, 1) }, uKeyLum: { value: 3 },
+  uLight: { value: new THREE.Color(0xf3efe7) }, uMid: { value: new THREE.Color(0x8b857d) }, uDark: { value: new THREE.Color(0x2b2826) },
+  uMusc: { value: 0 },
+  uEdgeCol: { value: new THREE.Color(0xd8341f) }, uCore: { value: new THREE.Color(0x3d6ea8) }, uCast: { value: new THREE.Color(0x9a4a8c) },
+};
+function patch(mat, musc) {
+  mat.onBeforeCompile = sh => {
+    Object.assign(sh.uniforms, VU);
+    if (musc) {
+      sh.vertexShader = sh.vertexShader
+        .replace('void main() {', 'attribute vec3 _mcolor; attribute float _medge; varying vec3 vMCol; varying float vMEdge;\nvoid main() {')
+        .replace('#include <begin_vertex>', '#include <begin_vertex>\n  vMCol = _mcolor; vMEdge = _medge;');
+      sh.fragmentShader = sh.fragmentShader
+        .replace('void main() {', 'uniform float uMusc; varying vec3 vMCol; varying float vMEdge;\nvoid main() {')
+        .replace('#include <color_fragment>', `#include <color_fragment>
+  if (uMusc > 0.5) {
+    diffuseColor.rgb = mix(diffuseColor.rgb, vMCol, 0.85);
+    diffuseColor.rgb *= 1.0 - 0.45 * (1.0 - smoothstep(0.0, 0.55, vMEdge));   // soft dark seam between muscles
+  }`);
+    }
+    sh.fragmentShader = sh.fragmentShader
+      .replace('void main() {', `uniform float uMode, uEdge, uTypes, uKeyLum; uniform vec3 uKeyDir, uLight, uMid, uDark, uEdgeCol, uCore, uCast;
+void main() {`)
+      .replace('#include <opaque_fragment>', `
+  {
+    vec3 W = vec3(0.2126, 0.7152, 0.0722);
+    float nl = dot(normal, uKeyDir);
+    float lit = dot(reflectedLight.directDiffuse, W) / max(uKeyLum * dot(material.diffuseColor, W) * RECIPROCAL_PI, 1e-5);
+    lit = clamp(lit, 0.0, 1.0);
+    float T = 0.04;
+    if (uMode > 2.5) outgoingLight = lit > 0.42 ? uLight : (lit > T ? uMid : uDark);
+    else if (uMode > 1.5) outgoingLight = lit > T ? uLight : uDark;
+    if (uTypes > 0.5 && lit <= T) outgoingLight = mix(outgoingLight, nl > 0.06 ? uCast : uCore, uMode > 0.5 ? 0.75 : 0.5);
+    if (uEdge > 0.5) {
+      float w = fwidth(lit) * 1.6 + 0.003;
+      float e = 1.0 - smoothstep(0.0, w, abs(lit - T));
+      outgoingLight = mix(outgoingLight, uEdgeCol, e);
+    }
+  }
+  #include <opaque_fragment>`);
+  };
+  mat.customProgramCacheKey = () => musc ? 'values-musc' : 'values1';
+}
+const SURF = {
+  plaster: { color: 0xe9e5dd, rough: 0.82 },
+  clay: { color: 0xb87656, rough: 0.7 },
+  skin: { color: 0xd9ab8c, rough: 0.55 },
+};
+const bodyMat = new THREE.MeshStandardMaterial({ color: SURF.plaster.color, roughness: SURF.plaster.rough, metalness: 0 });
+patch(bodyMat, true);
+
+// ---------------------------------------------------------------- figures
+const figure = new THREE.Group();      // moved and turned in the scene
+scene.add(figure);
+figure.add(stool);
+const models = {};                     // man / woman: { root, mesh, bones, rest, eyes }
+let cur = null;
+const loader = new GLTFLoader();
+
+function prepare(gltf) {
+  const root = gltf.scene;
+  let mesh = null, eyes = null;
+  root.traverse(o => {
+    if (o.isSkinnedMesh) {
+      o.castShadow = o.receiveShadow = true; o.frustumCulled = false;
+      if (o.name === 'eyes' || o.parent?.name === 'eyes') eyes = o;
+      else mesh = o;
+    }
+  });
+  mesh.material = bodyMat;
+  const em = eyes.material; em.roughness = 0.25; patch(em, false);
+  const bones = {};
+  mesh.skeleton.bones.forEach(b => bones[b.name] = b);
+  // rest positions of every joint in figure space (the skeleton is bound with no rotations)
+  const rest = {};
+  (function walk(b, p) { const q = p.clone().add(b.position); rest[b.name] = q; b.children.forEach(c => c.isBone && walk(c, q)); })(bones.root, new THREE.Vector3());
+  for (const n in bones) bones[n].userData.rest = bones[n].position.clone();
+  // vertices used to find the floor and the stool height (every 5th one is plenty)
+  const pos = mesh.geometry.attributes.position, sk = mesh.geometry.attributes.skinIndex;
+  const seatBones = new Set(['root', 'spine05', 'pelvis_L', 'pelvis_R', 'upperleg01_L', 'upperleg01_R', 'upperleg02_L', 'upperleg02_R'].map(n => mesh.skeleton.bones.indexOf(bones[n])));
+  const sample = [], seat = [];
+  for (let i = 0; i < pos.count; i += 5) { sample.push(i); if (seatBones.has(sk.getX(i))) seat.push(i); }
+  return { root, mesh, eyes, bones, rest, sample, seat };
+}
+function loadModel(name) {
+  return new Promise((res, rej) => {
+    if (models[name]) return res(models[name]);
+    // the figure files are plain .glb; a copy named -glb.wasm is used where a host will not serve .glb
+    const ok = g => { models[name] = prepare(g); res(models[name]); };
+    loader.load('models/' + name + '.glb', ok, undefined, () => loader.load('models/' + name + '-glb.wasm', ok, undefined, rej));
+  }).then(m => {
+    if (m.labels) return m;
+    return fetch('models/' + name + '-muscles.json').then(r => r.json()).then(j => { m.labels = j.labels; return m; }).catch(() => { m.labels = []; return m; });
+  });
+}
+
+// ---------------------------------------------------------------- posing
+// A pose lists, for the main bones, either an aim (the direction a limb segment should point,
+// in the figure's own space: +x is the figure's left, +y up, +z forward) or a plain rotation in degrees.
+const V3 = (x, y, z) => new THREE.Vector3(x, y, z).normalize();
+function mirror(p) {             // build the right side from the left
+  const out = { e: { ...(p.e || {}) }, aim: { ...(p.aim || {}) } };
+  for (const [k, v] of Object.entries(p.e || {})) if (k.endsWith('_L') && !p.e[k.slice(0, -2) + '_R']) out.e[k.slice(0, -2) + '_R'] = [v[0], -v[1], -v[2]];
+  for (const [k, v] of Object.entries(p.aim || {})) if (k.endsWith('_L') && !p.aim[k.slice(0, -2) + '_R']) out.aim[k.slice(0, -2) + '_R'] = [-v[0], v[1], v[2], -(v[3] || 0)];
+  return Object.assign({}, p, out);
+}
+const ARMS_DOWN = { 'upperarm01_L': [0.2, -1, 0.02], 'lowerarm01_L': [0.12, -1, 0.14] };
+const LEGS = { 'upperleg01_L': [0.06, -1, 0.01], 'lowerleg01_L': [0.04, -1, -0.02] };
+const POSES = {
+  standing: { label: 'Standing', ...mirror({ aim: { ...ARMS_DOWN, ...LEGS } }) },
+  contrapposto: { label: 'Contrapposto', ...mirror({
+    root: { rot: [0, 6, -7] },
+    e: { 'spine03': [0, 0, 3], 'spine02': [0, -3, 4], 'spine01': [0, -2, 3], 'neck02': [0, 6, -4], 'head': [3, 8, -5] },
+    aim: { 'upperleg01_R': [0.16, -1, 0.02], 'lowerleg01_R': [0.02, -1, -0.02],
+           'upperleg01_L': [0.02, -1, 0.2], 'lowerleg01_L': [0.08, -1, -0.12],
+           'upperarm01_L': [0.16, -1, 0.06], 'lowerarm01_L': [0.06, -1, 0.22],
+           'upperarm01_R': [-0.2, -1, -0.02], 'lowerarm01_R': [-0.14, -1, 0.1] } }) },
+  hip: { label: 'Hand on hip', ...mirror({
+    root: { rot: [0, -6, 5] },
+    e: { 'spine02': [0, 4, -4], 'spine01': [0, 3, -3], 'neck02': [0, -8, 4], 'head': [-4, -10, 4], 'wrist_L': [0, 0, -15] },
+    aim: { 'upperleg01_L': [-0.14, -1, 0.0], 'lowerleg01_L': [-0.02, -1, -0.02],
+           'upperleg01_R': [-0.04, -1, 0.16], 'lowerleg01_R': [-0.1, -1, -0.12],
+           'upperarm01_L': [0.8, -0.5, -0.32], 'lowerarm01_L': [-0.62, -0.62, 0.3, -40],
+           'upperarm01_R': [-0.18, -1, 0.02], 'lowerarm01_R': [-0.12, -1, 0.14] } }) },
+  walking: { label: 'Walking', ...mirror({
+    root: { rot: [4, -6, 0] },
+    e: { 'spine03': [0, 4, 0], 'spine02': [0, 4, 0], 'neck02': [-4, 4, 0], 'head': [0, 4, 0], 'foot_R': [-12, 0, 0] },
+    aim: { 'upperleg01_L': [0.04, -0.94, 0.36], 'lowerleg01_L': [0.03, -1, 0.06],
+           'upperleg01_R': [-0.03, -0.96, -0.28], 'lowerleg01_R': [-0.02, -0.82, -0.58],
+           'upperarm01_L': [0.16, -0.97, -0.28], 'lowerarm01_L': [0.1, -0.98, -0.06],
+           'upperarm01_R': [-0.14, -0.96, 0.3], 'lowerarm01_R': [-0.04, -0.75, 0.66] } }) },
+  reaching: { label: 'Reaching up', ...mirror({
+    root: { rot: [0, 0, 5] },
+    e: { 'spine03': [0, 0, -4], 'spine02': [-4, 0, -6], 'spine01': [-4, 0, -5], 'neck02': [-10, 0, 0], 'head': [-14, -6, 0] },
+    aim: { 'upperleg01_L': [-0.12, -1, 0.0], 'lowerleg01_L': [-0.02, -1, -0.02],
+           'upperleg01_R': [-0.1, -1, 0.14], 'lowerleg01_R': [-0.1, -1, -0.1],
+           'upperarm01_R': [-0.22, 1, 0.12], 'lowerarm01_R': [-0.08, 1, 0.1],
+           'upperarm01_L': [0.22, -1, 0.04], 'lowerarm01_L': [0.12, -1, 0.16] } }) },
+  seated: { label: 'Seated', stool: true, ...mirror({
+    e: { 'spine04': [-6, 0, 0], 'spine02': [4, 0, 0], 'spine01': [4, 0, 0], 'head': [4, -10, 0] },
+    aim: { 'upperleg01_L': [0.14, -0.12, 1], 'lowerleg01_L': [0.04, -1, 0.06],
+           'upperarm01_L': [0.14, -0.95, 0.3], 'lowerarm01_L': [-0.02, -0.4, 0.92, -30] } }) },
+  kneeling: { label: 'Kneeling', ...mirror({
+    root: { rot: [0, 8, 0] },
+    e: { 'spine03': [6, 0, 0], 'spine02': [6, 0, 0], 'head': [6, 10, 0], 'foot_R': [70, 0, 0] },
+    aim: { 'upperleg01_R': [-0.06, -1, -0.02], 'lowerleg01_R': [-0.02, -0.06, -1],
+           'upperleg01_L': [0.16, -0.04, 1], 'lowerleg01_L': [0.04, -1, 0.02],
+           'upperarm01_L': [0.14, -0.8, 0.55], 'lowerarm01_L': [-0.1, -0.25, 0.96, -30],
+           'upperarm01_R': [-0.2, -1, 0.04], 'lowerarm01_R': [-0.12, -1, 0.14] } }) },
+  twisting: { label: 'Looking back', ...mirror({
+    root: { rot: [0, 0, -3] },
+    e: { 'spine04': [0, -8, 0], 'spine03': [0, -10, 0], 'spine02': [0, -12, 2], 'spine01': [0, -12, 2], 'neck02': [0, -16, 0], 'head': [-4, -22, 4] },
+    aim: { 'upperleg01_L': [0.02, -1, 0.04], 'lowerleg01_L': [0.04, -1, -0.02],
+           'upperleg01_R': [-0.14, -1, 0.12], 'lowerleg01_R': [-0.08, -1, -0.12],
+           'upperarm01_L': [0.12, -0.9, 0.42], 'lowerarm01_L': [-0.5, -0.5, 0.7, -30],
+           'upperarm01_R': [-0.3, -0.92, -0.28], 'lowerarm01_R': [-0.16, -0.96, -0.1] } }) },
+  apose: { label: 'A-pose', rest: true, e: {}, aim: {} },
+};
+const AIM_END = { 'upperarm01': 'lowerarm01', 'lowerarm01': 'wrist', 'upperleg01': 'lowerleg01', 'lowerleg01': 'foot' };
+
+// the adjustment sliders, added on top of any preset
+const ADJ = [
+  { id: 'headTurn', label: 'Head turn', min: -70, max: 70, group: 'Head and body' },
+  { id: 'headNod', label: 'Head nod', min: -40, max: 40 },
+  { id: 'headTilt', label: 'Head tilt', min: -30, max: 30 },
+  { id: 'twist', label: 'Body twist', min: -45, max: 45 },
+  { id: 'bend', label: 'Bend forward', min: -25, max: 60 },
+  { id: 'sideBend', label: 'Side bend', min: -30, max: 30 },
+  { id: 'armOut', label: 'Arm out to the side', min: -15, max: 130, side: true, group: 'Arms and legs' },
+  { id: 'armFwd', label: 'Arm forward (back is negative)', min: -50, max: 150, side: true },
+  { id: 'elbow', label: 'Bend elbow', min: -40, max: 140, side: true },
+  { id: 'legFwd', label: 'Leg forward (back is negative)', min: -20, max: 100, side: true },
+  { id: 'legOut', label: 'Leg out to the side', min: -15, max: 40, side: true },
+  { id: 'knee', label: 'Bend knee', min: 0, max: 135, side: true },
+];
+const adj = {};
+ADJ.forEach(a => { if (a.side) { adj[a.id + 'L'] = 0; adj[a.id + 'R'] = 0; } else adj[a.id] = 0; });
+
+const state = { sex: 'man', pose: 'contrapposto', surf: 'plaster', turn: -20, x: 0, z: 0,
+  az: -45, el: 40, bright: 3.2, dark: 0.18, warm: 0, rimOn: false, sunOn: true, values: 0, edge: false, types: false,
+  eye: 1.45, shadow: 0.55, horizon: 0.42, horizonOn: false, lens: 45, musc: false, names: false };
+
+const qTmp = new THREE.Quaternion(), qA = new THREE.Quaternion(), eTmp = new THREE.Euler();
+function eq(x, y, z) { return new THREE.Quaternion().setFromEuler(eTmp.set(x * DEG, y * DEG, z * DEG, 'YXZ')); }
+// world-space (figure-space) quaternion of a bone, without the figure's own placement
+function figQuat(b) {
+  const q = new THREE.Quaternion();
+  for (let p = b; p && p.isBone; p = p.parent) q.premultiply(p.quaternion);
+  return q;
+}
+// ---- arms and legs: a ball joint at the shoulder or hip, and a one-way hinge at the elbow or knee.
+// A limb is aimed by pointing the upper segment; the lower segment can only swing in the hinge's
+// own plane, never backwards past straight. Raising an arm also lifts the collarbone and shoulder
+// blade a little, the way a real shoulder moves, so the shoulder doesn't crumple.
+const FWD = new THREE.Vector3(0, 0, 1);
+const LIMB = {
+  arm: { u: 'upperarm01', f: 'lowerarm01', end: 'wrist', twistBone: 'lowerarm02', maxFlex: 145, humeral: 100 },
+  leg: { u: 'upperleg01', f: 'lowerleg01', end: 'foot', maxFlex: 140, humeral: 40 },
+};
+function limbRest(m, kind, S) {
+  const key = kind + S;
+  m.limbRest = m.limbRest || {};
+  if (m.limbRest[key]) return m.limbRest[key];
+  const L = LIMB[kind], R = m.rest;
+  const rU = R[L.f + '_' + S].clone().sub(R[L.u + '_' + S]).normalize();
+  const rF = R[L.end + '_' + S].clone().sub(R[L.f + '_' + S]).normalize();
+  // the hinge axis: for the arm, the plane of the slightly bent elbow at rest; for the leg, sideways
+  const rA = kind === 'arm' ? rU.clone().cross(rF).normalize() : FWD.clone().cross(rU).normalize();
+  const phi0 = Math.atan2(rU.clone().cross(rF).dot(rA), rU.dot(rF));
+  return (m.limbRest[key] = { rU, rF, rA, phi0 });
+}
+function frameQuat(a, b) {            // rotation whose x axis is a and y axis is b
+  const c = a.clone().cross(b);
+  return new THREE.Quaternion().setFromRotationMatrix(new THREE.Matrix4().makeBasis(a, b, c));
+}
+function solveLimb(m, P, kind, S, extraQ, flexAdd) {
+  const L = LIMB[kind], R = limbRest(m, kind, S);
+  const au = P.aim && P.aim[L.u + '_' + S], af = P.aim && P.aim[L.f + '_' + S];
+  const relaxed = kind === 'arm' ? 12 : 2;
+  let u = au ? V3(au[0], au[1], au[2]) : R.rU.clone();
+  if (!au && !P.rest && kind === 'arm') u = V3(S === 'L' ? 0.2 : -0.2, -1, 0.02);
+  if (!au && !P.rest && kind === 'leg') u = V3(S === 'L' ? 0.06 : -0.06, -1, 0.01);
+  // the hinge axis the limb would naturally have, carried along by the swing
+  const nat = R.rA.clone().applyQuaternion(new THREE.Quaternion().setFromUnitVectors(R.rU, u));
+  nat.sub(u.clone().multiplyScalar(nat.dot(u))).normalize();
+  let axis = nat.clone(), phi = P.rest ? R.phi0 : relaxed * DEG;
+  if (af) {
+    const f = V3(af[0], af[1], af[2]);
+    const ang = Math.acos(THREE.MathUtils.clamp(u.dot(f), -1, 1));
+    if (ang > 4 * DEG) {
+      const want = u.clone().cross(f).normalize();
+      const d = THREE.MathUtils.clamp(want.dot(nat), -1, 1), turn = Math.acos(d);
+      if (kind === 'leg' && d < 0) { phi = 0; }                      // a knee never bends forward
+      else {
+        phi = ang;
+        const lim = L.humeral * DEG;
+        if (turn > lim) {                                             // turning the upper bone only so far
+          const sg = Math.sign(nat.clone().cross(want).dot(u)) || 1;
+          axis = nat.clone().applyAxisAngle(u, sg * lim);
+        } else axis = want;
+      }
+    } else phi = ang;
+  }
+  if (au && au[3]) axis.applyAxisAngle(u, au[3] * DEG);
+  phi = THREE.MathUtils.clamp(phi + flexAdd * DEG, 0, L.maxFlex * DEG);
+  // the upper bone's turn in figure space, then any slider swing on top of it
+  const Q = frameQuat(u, axis).multiply(frameQuat(R.rU, R.rA).invert());
+  if (extraQ) Q.premultiply(extraQ);
+  const flex = new THREE.Quaternion().setFromAxisAngle(R.rA, phi - R.phi0);
+  const tw = (af && af[3] ? af[3] : 0) * DEG;
+  return { Q, uFinal: R.rU.clone().applyQuaternion(Q), flex, tw, R, phi, sg: S === 'L' ? 1 : -1, kind };
+}
+
+// ---- human range of motion, measured in the chest's frame for an arm and the pelvis's frame for a leg.
+// Whatever a preset and the sliders ask for, the upper arm or thigh is pulled back inside what a body
+// can do: arms reach overhead but only a little behind the body or across it; legs lift forward about
+// 90 degrees with a straight knee (more with the knee bent), barely go back, and spread about 45.
+const R2D = 180 / Math.PI;
+function romOK(v, kind, sg, phi) {
+  const up = v.y, fwd = v.z, lat = sg * v.x;
+  if (kind === 'arm') {
+    if (Math.acos(THREE.MathUtils.clamp(-up, -1, 1)) * R2D > 165) return false;            // overhead
+    const k = THREE.MathUtils.clamp((up + 0.7) / 0.7, 0, 1);
+    if (fwd < 0 && Math.asin(-fwd) * R2D > 50 - 22 * k) return false;                        // behind the body
+    if (lat < 0) {                                                                            // across the body
+      const mu = Math.asin(Math.min(1, -lat)) * R2D;
+      const lim = fwd > 0 ? 10 + 35 * THREE.MathUtils.clamp(fwd / 0.7, 0, 1) : 8;
+      if (mu > lim) return false;
+    }
+    return true;
+  }
+  const fa = Math.atan2(fwd, -up) * R2D, la = Math.atan2(lat, -up) * R2D;
+  if (fa > 85 + 35 * THREE.MathUtils.clamp(phi * R2D / 90, 0, 1)) return false;               // thigh forward
+  if (fa < -22) return false;                                                                 // thigh back
+  if (la > 45 || la < (fa > 30 ? -35 : -22)) return false;                                    // out / across
+  return true;
+}
+function romClamp(v, kind, sg, phi) {
+  if (romOK(v, kind, sg, phi)) return v;
+  const safe = kind === 'arm' ? V3(sg * 0.6, -0.3, 0.75) : V3(sg * 0.08, -1, 0.15);
+  const arc = new THREE.Quaternion().setFromUnitVectors(v, safe), I = new THREE.Quaternion(), q = new THREE.Quaternion();
+  let lo = 0, hi = 1;
+  for (let i = 0; i < 16; i++) {
+    const mid = (lo + hi) / 2;
+    q.slerpQuaternions(I, arc, mid);
+    if (romOK(v.clone().applyQuaternion(q), kind, sg, phi)) hi = mid; else lo = mid;
+  }
+  q.slerpQuaternions(I, arc, hi);
+  return v.clone().applyQuaternion(q);
+}
+function applyROM(A, frame) {
+  if (A.clamped) return;
+  A.clamped = true;
+  const inv = frame.clone().invert();
+  const vb = A.uFinal.clone().applyQuaternion(inv);
+  const vc = romClamp(vb, A.kind, A.sg, A.phi);
+  if (vc.distanceToSquared(vb) < 1e-10) return;
+  const C = frame.clone().multiply(new THREE.Quaternion().setFromUnitVectors(vb, vc)).multiply(inv);
+  A.Q.premultiply(C);
+  A.uFinal = A.R.rU.clone().applyQuaternion(A.Q);
+}
+
+function computePose(m, P) {
+  const B = m.bones, out = {};
+  for (const n in B) B[n].quaternion.identity();
+  const s = (n) => adj[n];
+  const order = m.mesh.skeleton.bones;
+  const local = {};             // local rotations added by the sliders, per bone
+  const addL = (n, q) => { local[n] = (local[n] || new THREE.Quaternion()).multiply(q); };
+  // head and body sliders, spread over the spine and neck
+  ['spine04', 'spine03', 'spine02', 'spine01'].forEach(n => addL(n, eq(s('bend') / 4, s('twist') / 4, -s('sideBend') / 4)));
+  addL('neck02', eq(s('headNod') * 0.35, s('headTurn') * 0.35, -s('headTilt') * 0.35));
+  addL('head', eq(s('headNod') * 0.65, s('headTurn') * 0.65, -s('headTilt') * 0.65));
+  const limbs = {};
+  const X = new THREE.Vector3(1, 0, 0), Z = new THREE.Vector3(0, 0, 1);
+  for (const S of ['L', 'R']) {
+    const sg = S === 'L' ? 1 : -1;
+    const ea = new THREE.Quaternion().setFromAxisAngle(X, -s('armFwd' + S) * DEG)
+      .multiply(new THREE.Quaternion().setFromAxisAngle(Z, sg * s('armOut' + S) * DEG));
+    const el = new THREE.Quaternion().setFromAxisAngle(X, -s('legFwd' + S) * DEG)
+      .multiply(new THREE.Quaternion().setFromAxisAngle(Z, sg * s('legOut' + S) * DEG));
+    limbs['arm' + S] = solveLimb(m, P, 'arm', S, ea, s('elbow' + S));
+    limbs['leg' + S] = solveLimb(m, P, 'leg', S, el, s('knee' + S));
+  }
+  const rootRot = P.root?.rot || [0, 0, 0];
+  for (const b of order) {
+    const n = b.name;
+    let q = new THREE.Quaternion();
+    if (n === 'root') q = eq(rootRot[0], rootRot[1], rootRot[2]);
+    if (P.e && P.e[n]) q.multiply(eq(...P.e[n]));
+    const base = n.replace(/_[LR]$/, ''), S = n.slice(-1);
+    const qp = () => (b.parent && b.parent.isBone ? figQuat(b.parent) : new THREE.Quaternion());
+    if (base === 'pelvis') applyROM(limbs['leg' + S], figQuat(b.parent));
+    if (base === 'clavicle') applyROM(limbs['arm' + S], figQuat(b.parent));
+    if (base === 'clavicle' || base === 'shoulder01') {
+      // shoulder rhythm: once the arm rises above its resting slope, the collarbone and shoulder
+      // blade take part of the lift
+      const A = limbs['arm' + S];
+      const chest = figQuat(b.parent);
+      const uc = A.uFinal.clone().applyQuaternion(chest.clone().invert());
+      const e = Math.asin(THREE.MathUtils.clamp(uc.y, -1, 1)) - Math.asin(THREE.MathUtils.clamp(A.R.rU.y, -1, 1));
+      if (e > 0) {
+        const ax = A.R.rU.clone().cross(uc);
+        if (ax.lengthSq() > 1e-8) q.multiply(new THREE.Quaternion().setFromAxisAngle(ax.normalize(), (base === 'clavicle' ? 0.14 : 0.16) * e));
+      }
+    } else if (base === 'upperarm01' || base === 'upperleg01') {
+      const A = limbs[(base === 'upperarm01' ? 'arm' : 'leg') + S];
+      q = qp().invert().multiply(A.Q);
+    } else if (base === 'lowerarm01' || base === 'lowerleg01') {
+      const A = limbs[(base === 'lowerarm01' ? 'arm' : 'leg') + S];
+      q = A.flex.clone();
+      if (A.tw) q.multiply(new THREE.Quaternion().setFromAxisAngle(A.R.rF, A.tw * 0.4));
+    } else if (base === 'lowerarm02') {
+      const A = limbs['arm' + S];
+      if (A.tw) q.multiply(new THREE.Quaternion().setFromAxisAngle(A.R.rF, A.tw * 0.6));
+    }
+    if (local[n]) q.multiply(local[n]);
+    b.quaternion.copy(q);
+    out[n] = q.clone();
+  }
+  // stand on the floor: drop or lift the figure until its lowest point touches y = 0
+  B.root.position.copy(B.root.userData.rest);
+  m.root.updateMatrixWorld(true);
+  const lowest = lowestPoint(m, m.sample);
+  let stoolH = 0;
+  if (P.stool) {
+    stoolH = lowestPoint(m, m.seat) - lowest;
+  }
+  return { q: out, rootY: B.root.userData.rest.y - lowest, stoolH };
+}
+const vTmp = new THREE.Vector3(), mInv = new THREE.Matrix4();
+function lowestPoint(m, list) {
+  // positions relative to the figure group (ignores where the figure stands in the scene)
+  mInv.copy(m.root.matrixWorld).invert();
+  let y = Infinity;
+  const mesh = m.mesh;
+  for (const i of list) {
+    mesh.getVertexPosition(i, vTmp);
+    vTmp.applyMatrix4(mesh.matrixWorld).applyMatrix4(mInv);
+    if (vTmp.y < y) y = vTmp.y;
+  }
+  return y;
+}
+
+// smooth change from one pose to the next
+let anim = null;
+function setPose(name, instant) {
+  state.pose = name;
+  document.querySelectorAll('#poses button').forEach(b => b.setAttribute('aria-pressed', b.dataset.pose === name ? 'true' : 'false'));
+  if (!cur) return;
+  const m = cur, P = POSES[name];
+  const from = {};
+  for (const n in m.bones) from[n] = m.bones[n].quaternion.clone();
+  const fromY = m.bones.root.position.y, fromStool = stool.visible ? stool.scale.y : 0;
+  const target = computePose(m, P);
+  const T = { q: target.q, rootY: target.rootY, stoolH: target.stoolH };
+  if (instant) { applyTarget(m, T, 1, from, fromY, fromStool); anim = null; refreshShadowCam(); render(); return; }
+  anim = { m, T, from, fromY, fromStool, t0: performance.now() };
+  applyTarget(m, T, 0, from, fromY, fromStool);
+  loop();
+}
+function applyTarget(m, T, k, from, fromY, fromStool) {
+  const e = k * k * (3 - 2 * k);
+  for (const n in m.bones) m.bones[n].quaternion.slerpQuaternions(from[n], T.q[n], e);
+  m.bones.root.position.y = fromY + (T.rootY - fromY) * e;
+  const h = fromStool + (T.stoolH - fromStool) * e;
+  stool.visible = h > 0.02;
+  stool.scale.y = Math.max(h, 0.001); stool.position.set(0, h / 2, -0.03);
+}
+
+// ---------------------------------------------------------------- lights from the sliders
+const figCentre = new THREE.Vector3();
+function placeLights() {
+  figure.position.set(state.x, 0, state.z);
+  figure.rotation.y = state.turn * DEG;
+  figCentre.set(state.x, 0.9, state.z);
+  const az = state.az * DEG, el = state.el * DEG, R = 5;
+  const a = az;   // the light stays put in the scene when you walk around the figure
+  key.position.set(figCentre.x + Math.sin(a) * Math.cos(el) * R, figCentre.y + Math.sin(el) * R, figCentre.z + Math.cos(a) * Math.cos(el) * R);
+  key.target.position.copy(figCentre);
+  const warm = state.warm;
+  key.color.setRGB(1, 1 - Math.max(0, warm) * 0.12, 1 - Math.max(0, warm) * 0.32 + Math.max(0, -warm) * 0);
+  if (warm < 0) key.color.setRGB(1 + warm * 0.25, 1 + warm * 0.1, 1);
+  key.intensity = state.bright;
+  fill.intensity = state.dark;
+  rim.intensity = state.rimOn ? state.bright * 0.7 : 0;
+  rim.position.set(figCentre.x - Math.sin(a) * 4, figCentre.y + 2.2, figCentre.z - Math.cos(a) * 4);
+  rim.target.position.copy(figCentre);
+  sun.visible = state.sunOn;
+  sun.position.copy(figCentre).add(key.position.clone().sub(figCentre).setLength(1.7));
+  VU.uKeyLum.value = state.bright * (0.2126 * key.color.r + 0.7152 * key.color.g + 0.0722 * key.color.b);
+  VU.uMusc.value = state.musc ? 1 : 0;
+  VU.uMode.value = state.values; VU.uEdge.value = state.edge ? 1 : 0; VU.uTypes.value = state.types ? 1 : 0;
+  floorShadowMat.opacity = state.shadow;
+}
+function refreshShadowCam() {
+  key.shadow.camera.updateProjectionMatrix();
+}
+
+// ---------------------------------------------------------------- view framing
+function frame(view, keepDist) {
+  const t = new THREE.Vector3(state.x, 0.92, state.z);
+  let dist = keepDist ? camera.position.distanceTo(controls.target) : 4.6;
+  if (bgURL && !keepDist) {
+    // far enough back that the feet and the head both fit between the frame edges
+    const tf = Math.tan(state.lens * DEG / 2) * 2;
+    dist = Math.max(state.eye / Math.max((1 - state.horizon) * tf, 0.05), (2 - state.eye) / Math.max(state.horizon * tf, 0.05)) * 1.12;
+  }
+  const turns = { front: 0, three: 38, side: 90, back: 180, low: 20, high: 25 };
+  const heights = { low: 0.35, high: 2.6 };
+  const a = (state.turn + (turns[view] ?? 0)) * DEG;
+  const h = bgURL ? state.eye : (heights[view] ?? state.eye);
+  if (bgURL) t.y = state.eye;
+  controls.target.copy(t);
+  const flat = Math.sqrt(Math.max(dist * dist - (h - t.y) * (h - t.y), 0.5));
+  camera.position.set(t.x + Math.sin(a) * flat, h, t.z + Math.cos(a) * flat);
+  controls.update(); showZoom(); render();
+}
+let baseDist = 4.6;
+function showZoom() {
+  const d = camera.position.distanceTo(controls.target);
+  $('zoomPct').textContent = Math.round(baseDist / d * 100) + '%';
+}
+function zoomBy(f) {
+  const off = camera.position.clone().sub(controls.target);
+  const d = THREE.MathUtils.clamp(off.length() / f, controls.minDistance, controls.maxDistance);
+  camera.position.copy(controls.target).add(off.setLength(d));
+  controls.update(); showZoom(); render();
+}
+$('zoomIn').onclick = () => zoomBy(1.25);
+$('zoomOut').onclick = () => zoomBy(0.8);
+$('fitBtn').onclick = () => frame('front');
+document.querySelectorAll('#views button').forEach(b => b.onclick = () => frame(b.dataset.view));
+
+// ---------------------------------------------------------------- moving the figure around the floor
+let moveMode = false, dragFloor = null;
+const ray = new THREE.Raycaster(), plane = new THREE.Plane(new THREE.Vector3(0, 1, 0), 0), ndc = new THREE.Vector2();
+function floorAt(e) {
+  const r = canvas.getBoundingClientRect();
+  ndc.set((e.clientX - r.left) / r.width * 2 - 1, -(e.clientY - r.top) / r.height * 2 + 1);
+  ray.setFromCamera(ndc, camera);
+  const p = new THREE.Vector3();
+  return ray.ray.intersectPlane(plane, p) ? p : null;
+}
+function setMove(on) {
+  moveMode = on; controls.enableRotate = !on;
+  $('moveBtn').setAttribute('aria-pressed', on ? 'true' : 'false');
+  $('hint2').textContent = on ? 'Drag to slide the figure across the floor.' : 'Drag to look around. Pinch or scroll to zoom.';
+  canvas.style.cursor = on ? 'move' : '';
+}
+$('moveBtn').onclick = () => setMove(!moveMode);
+canvas.addEventListener('pointerdown', e => {
+  if (!moveMode || e.button !== 0 || !e.isPrimary) return;
+  const p = floorAt(e); if (!p) return;
+  dragFloor = { p, x: state.x, z: state.z };
+  canvas.setPointerCapture(e.pointerId);
+});
+canvas.addEventListener('pointermove', e => {
+  if (!dragFloor) return;
+  const p = floorAt(e); if (!p) return;
+  const dx = p.x - dragFloor.p.x, dz = p.z - dragFloor.p.z;
+  state.x = THREE.MathUtils.clamp(dragFloor.x + dx, -8, 8); state.z = THREE.MathUtils.clamp(dragFloor.z + dz, -8, 8);
+  controls.target.x += state.x - figure.position.x; controls.target.z += state.z - figure.position.z;
+  camera.position.x += state.x - figure.position.x; camera.position.z += state.z - figure.position.z;
+  syncSliders(); render();
+});
+['pointerup', 'pointercancel'].forEach(n => canvas.addEventListener(n, () => dragFloor = null));
+controls.addEventListener('change', () => { showZoom(); render(); });
+
+// ---------------------------------------------------------------- sliders
+function slider(host, s) {
+  const w = document.createElement('div'); w.className = 'slider';
+  w.innerHTML = `<div class="slider-head"><label for="s_${s.id}">${s.label}</label><output id="o_${s.id}"></output></div>
+    <input type="range" id="s_${s.id}" min="${s.min}" max="${s.max}" step="${s.step || 1}">`;
+  host.appendChild(w);
+  const input = w.querySelector('input'), out = w.querySelector('output');
+  const show = () => out.textContent = s.fmt ? s.fmt(+input.value) : input.value + (s.unit ?? '°');
+  input.addEventListener('input', () => { s.set(+input.value); show(); });
+  s.sync = () => { input.value = s.get(); show(); };
+  s.sync();
+  return s;
+}
+const SL = [];
+const pct = v => Math.round(v * 100) + '%';
+SL.push(slider($('placeSliders'), { id: 'turn', label: 'Turn the figure', min: -180, max: 180, get: () => state.turn, set: v => { state.turn = v; render(); } }));
+SL.push(slider($('placeSliders'), { id: 'eye', label: 'Your eye level', min: 0.2, max: 3, step: 0.05, unit: ' m', get: () => state.eye,
+  set: v => { const d = v - state.eye; state.eye = v; camera.position.y += d; controls.target.y += bgURL ? d : d * 0.15; controls.update(); render(); }, fmt: v => v.toFixed(2) + ' m' }));
+SL.push(slider($('lightSliders'), { id: 'az', label: 'Light direction around', min: -180, max: 180, get: () => state.az, set: v => { state.az = v; render(); } }));
+SL.push(slider($('lightSliders'), { id: 'el', label: 'Light height', min: -30, max: 90, get: () => state.el, set: v => { state.el = v; render(); } }));
+SL.push(slider($('lightSliders'), { id: 'bright', label: 'Brightness of the light', min: 0, max: 12, step: 0.1, get: () => state.bright, set: v => { state.bright = v; render(); }, fmt: v => v.toFixed(1) }));
+SL.push(slider($('lightSliders'), { id: 'dark', label: 'Shadow fill (0 is black)', min: 0, max: 1.5, step: 0.01, get: () => state.dark, set: v => { state.dark = v; render(); }, fmt: v => v.toFixed(2) }));
+SL.push(slider($('lightSliders'), { id: 'warm', label: 'Cool to warm light', min: -1, max: 1, step: 0.05, get: () => state.warm, set: v => { state.warm = v; render(); }, fmt: v => v === 0 ? 'white' : v < 0 ? 'cool' : 'warm' }));
+SL.push(slider($('bgSliders'), { id: 'horizon', label: 'Eye level line in the picture', min: 0.05, max: 0.95, step: 0.005, get: () => state.horizon, set: v => { state.horizon = v; applyView(); render(); }, fmt: v => Math.round(v * 100) + '% down' }));
+SL.push(slider($('bgSliders'), { id: 'lens', label: 'Camera lens (wide to narrow)', min: 20, max: 75, get: () => 95 - state.lens, set: v => { state.lens = 95 - v; applyView(); render(); }, fmt: v => (95 - v) + '° view' }));
+SL.push(slider($('bgSliders'), { id: 'shadow', label: 'Floor shadow strength', min: 0, max: 1, step: 0.05, get: () => state.shadow, set: v => { state.shadow = v; render(); }, fmt: pct }));
+function syncSliders() { SL.forEach(s => s.sync()); }
+
+let side = 'both';
+const adjHost = $('adjSliders'), ADJS = [];
+ADJ.forEach(a => {
+  if (a.group) { const h = document.createElement('p'); h.className = 'subhead'; h.textContent = a.group; adjHost.appendChild(h); }
+  ADJS.push(slider(adjHost, { id: a.id, label: a.label, min: a.min, max: a.max,
+    get: () => a.side ? (side === 'R' ? adj[a.id + 'R'] : adj[a.id + 'L']) : adj[a.id],
+    set: v => { if (a.side) { if (side !== 'R') adj[a.id + 'L'] = v; if (side !== 'L') adj[a.id + 'R'] = v; } else adj[a.id] = v; setPose(state.pose, true); } }));
+});
+document.querySelectorAll('input[name="side"]').forEach(r => r.onchange = () => { side = r.value; ADJS.forEach(s => s.sync()); });
+$('adjReset').onclick = () => { for (const k in adj) adj[k] = 0; ADJS.forEach(s => s.sync()); setPose(state.pose); };
+
+// pose buttons
+for (const [k, p] of Object.entries(POSES)) {
+  const b = document.createElement('button'); b.type = 'button'; b.dataset.pose = k; b.textContent = p.label;
+  b.onclick = () => setPose(k); $('poses').appendChild(b);
+}
+// light presets: around (from the viewer's side) and height
+const LP = { ul: [-45, 40], ur: [45, 40], side: [-90, 12], top: [0, 80], under: [-10, -25], back: [160, 25] };
+// presets are set from where you are standing, so "upper left" is upper left on your screen
+document.querySelectorAll('#lightPresets button').forEach(b => b.onclick = () => {
+  const camAz = Math.atan2(camera.position.x - controls.target.x, camera.position.z - controls.target.z) / DEG;
+  const [off, el] = LP[b.dataset.light];
+  state.az = Math.round(((camAz + off + 540) % 360) - 180); state.el = el; syncSliders(); render();
+});
+$('rimOn').onchange = e => { state.rimOn = e.target.checked; render(); };
+$('sunOn').onchange = e => { state.sunOn = e.target.checked; render(); };
+document.querySelectorAll('input[name="values"]').forEach(r => r.onchange = () => { state.values = +r.value; render(); });
+$('edgeOn').onchange = e => { state.edge = e.target.checked; render(); };
+$('typesOn').onchange = e => { state.types = e.target.checked; $('typesKey').hidden = !state.types; render(); };
+document.querySelectorAll('input[name="surf"]').forEach(r => r.onchange = () => setSurf(r.value));
+function setSurf(v) { state.surf = v; bodyMat.color.set(SURF[v].color); bodyMat.roughness = SURF[v].rough; render(); }
+document.querySelectorAll('input[name="sex"]').forEach(r => r.onchange = () => setSex(r.value));
+
+async function setSex(name) {
+  state.sex = name;
+  document.querySelector(`input[name="sex"][value="${name}"]`).checked = true;
+  $('loading').hidden = false;
+  const m = await loadModel(name);
+  $('loading').hidden = true;
+  if (cur && cur !== m) figure.remove(cur.root);
+  cur = m; figure.add(m.root);
+  setPose(state.pose, true);
+}
+
+// ---------------------------------------------------------------- background picture
+let bgURL = null;
+$('bgFile').onchange = e => {
+  const f = e.target.files[0]; if (!f) return;
+  const r = new FileReader();
+  r.onload = () => setBackground(r.result);
+  r.readAsDataURL(f);
+  e.target.value = '';
+};
+// With a picture behind, the camera stays level (no tilt) and the view is shifted up or down
+// so the scene's horizon lands on the picture's horizon. That keeps the figure's perspective
+// consistent with the photograph.
+function applyView() {
+  const w = stage.clientWidth || 1, h = stage.clientHeight || 1;
+  camera.fov = bgURL ? state.lens : 30;
+  if (bgURL) {
+    controls.minPolarAngle = controls.maxPolarAngle = Math.PI / 2;
+    camera.setViewOffset(w, h, 0, (0.5 - state.horizon) * h, w, h);
+  } else {
+    controls.minPolarAngle = 0; controls.maxPolarAngle = 100 * DEG;
+    camera.clearViewOffset();
+  }
+  const show = bgURL ? state.horizonOn : false;
+  $('horizon').hidden = !show;
+  $('horizon').style.top = (state.horizon * 100) + '%';
+  camera.updateProjectionMatrix();
+}
+$('horizonOn').onchange = e => { state.horizonOn = e.target.checked; applyView(); render(); };
+function setBackground(url) {
+  bgURL = url;
+  if (url) { camera.position.y = state.eye; controls.target.y = state.eye; }
+  applyView(); controls.update();
+  stage.style.backgroundImage = url ? `url("${url}")` : '';
+  stage.classList.toggle('has-bg', !!url);
+  floor.material = url ? floorShadowMat : floorMat;
+  $('bgClear').hidden = !url;
+  render();
+}
+$('bgClear').onclick = () => setBackground(null);
+
+// ---------------------------------------------------------------- save and load
+$('saveBtn').onclick = () => {
+  const data = { app: 'advanced-figure-builder', version: 1, state, adj,
+    camera: { pos: camera.position.toArray(), target: controls.target.toArray() }, background: bgURL };
+  const blob = new Blob([JSON.stringify(data)], { type: 'application/json' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'figure-scene.json';
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+  $('status').textContent = 'Saved figure-scene.json';
+};
+$('loadBtn').onclick = () => $('loadFile').click();
+$('loadFile').onchange = async e => {
+  const f = e.target.files[0]; if (!f) return; e.target.value = '';
+  try {
+    const d = JSON.parse(await f.text());
+    Object.assign(state, d.state || {}); Object.assign(adj, d.adj || {});
+    document.querySelector(`input[name="sex"][value="${state.sex}"]`).checked = true;
+    document.querySelector(`input[name="surf"][value="${state.surf}"]`).checked = true;
+    document.querySelector(`input[name="values"][value="${state.values}"]`).checked = true;
+    $('horizonOn').checked = state.horizonOn; $('muscOn').checked = state.musc; $('namesOn').checked = state.names; $('rimOn').checked = state.rimOn; $('sunOn').checked = state.sunOn; $('edgeOn').checked = state.edge; $('typesOn').checked = state.types; $('typesKey').hidden = !state.types;
+    setSurf(state.surf); syncSliders(); ADJS.forEach(s => s.sync());
+    setBackground(d.background || null);
+    await setSex(state.sex);
+    if (d.camera) { camera.position.fromArray(d.camera.pos); controls.target.fromArray(d.camera.target); controls.update(); }
+    $('status').textContent = 'Loaded ' + f.name; render();
+  } catch (err) { $('status').textContent = 'That file could not be read'; }
+};
+
+// ---------------------------------------------------------------- muscle names
+// Each label points at a spot deep inside its muscle. The spot is found on the posed body every frame
+// (so labels follow the pose), and a muscle is named only on the side that faces you.
+const lp = new THREE.Vector3(), ln = new THREE.Vector3(), lcam = new THREE.Vector3(), mtx = new THREE.Matrix4(), m3 = new THREE.Matrix3();
+const nmTmp = new THREE.Matrix4();
+function skinnedNormal(mesh, i, out) {
+  const g = mesh.geometry, si = g.attributes.skinIndex, sw = g.attributes.skinWeight, na = g.attributes.normal;
+  const sk = mesh.skeleton;
+  mtx.set(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+  for (let k = 0; k < 4; k++) {
+    const w = sw.getComponent(i, k); if (!w) continue;
+    const j = si.getComponent(i, k);
+    nmTmp.multiplyMatrices(sk.bones[j].matrixWorld, sk.boneInverses[j]);
+    for (let e = 0; e < 16; e++) mtx.elements[e] += nmTmp.elements[e] * w;
+  }
+  m3.setFromMatrix4(mtx);
+  return out.fromBufferAttribute(na, i).applyMatrix3(m3).normalize();
+}
+function drawLabels() {
+  const box = $('labelBox'), svg = $('labelLines');
+  if (!state.names || !cur || !cur.labels) { box.textContent = ''; svg.innerHTML = ''; return; }
+  const W = stage.clientWidth, H = stage.clientHeight, mesh = cur.mesh;
+  camera.getWorldPosition(lcam);
+  const best = {};
+  for (const L of cur.labels) {
+    mesh.getVertexPosition(L.v, lp); lp.applyMatrix4(mesh.matrixWorld);
+    skinnedNormal(mesh, L.v, ln);
+    const toCam = lcam.clone().sub(lp).normalize();
+    const facing = ln.dot(toCam);
+    if (facing < 0.25) continue;
+    const s = lp.clone().project(camera);
+    if (s.z > 1 || Math.abs(s.x) > 1 || Math.abs(s.y) > 1) continue;
+    const sx = (s.x + 1) / 2 * W, sy = (1 - s.y) / 2 * H;
+    if (!best[L.name] || facing > best[L.name].facing) best[L.name] = { name: L.name, sx, sy, facing };
+  }
+  const items = Object.values(best);
+  const mid = items.length ? items.reduce((a, b) => a + b.sx, 0) / items.length : W / 2;
+  const cols = [items.filter(i => i.sx < mid), items.filter(i => i.sx >= mid)];
+  const gap = 19, top = 14, bottom = H - 14;
+  let html = '', lines = '';
+  cols.forEach((col, ci) => {
+    col.sort((a, b) => a.sy - b.sy);
+    // spread the labels so they do not overlap, keeping each near its muscle's height
+    let y = top;
+    col.forEach(it => { it.ly = Math.max(it.sy, y); y = it.ly + gap; });
+    let over = y - gap - bottom;
+    for (let k = col.length - 1; k >= 0 && over > 0; k--) { const nxt = k < col.length - 1 ? col[k + 1].ly - gap : bottom; col[k].ly = Math.min(col[k].ly, nxt); }
+    col.forEach(it => {
+      const lx = ci === 0 ? 10 : W - 10;
+      html += `<div class="mlabel" style="${ci === 0 ? 'left' : 'right'}:${ci === 0 ? 10 : 10}px;top:${it.ly}px">${it.name}</div>`;
+      const ex = ci === 0 ? lx + it.name.length * 6.6 + 14 : lx - it.name.length * 6.6 - 14;
+      lines += `<line x1="${ex}" y1="${it.ly}" x2="${it.sx}" y2="${it.sy}"/><circle cx="${it.sx}" cy="${it.sy}" r="2.4"/>`;
+    });
+  });
+  box.innerHTML = html;
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  svg.innerHTML = lines;
+}
+$('muscOn').onchange = e => { state.musc = e.target.checked; render(); };
+$('namesOn').onchange = e => { state.names = e.target.checked; render(); };
+
+// ---------------------------------------------------------------- drawing
+function resize() {
+  const w = stage.clientWidth, h = stage.clientHeight;
+  const pr = renderer.getPixelRatio();
+  if (canvas.width === Math.floor(w * pr) && canvas.height === Math.floor(h * pr)) return;
+  renderer.setSize(w, h, false);
+  camera.aspect = w / h; applyView();
+  render();
+}
+let pending = false;
+function render() { if (!pending) { pending = true; requestAnimationFrame(draw); } }
+const lv = new THREE.Vector3();
+function draw() {
+  pending = false;
+  if (anim) {
+    const k = Math.min(1, (performance.now() - anim.t0) / 450);
+    applyTarget(anim.m, anim.T, k, anim.from, anim.fromY, anim.fromStool);
+    if (k >= 1) anim = null;
+  }
+  if (controls.enableDamping) controls.update();
+  placeLights();
+  // the key light's direction in view space, for the light/shadow shader
+  lv.copy(key.position).sub(key.target.position).normalize().transformDirection(camera.matrixWorldInverse);
+  VU.uKeyDir.value.copy(lv);
+  renderer.render(scene, camera);
+  drawLabels();
+  if (anim) render();
+}
+function loop() { render(); }
+new ResizeObserver(resize).observe(stage);
+
+// ---------------------------------------------------------------- start
+syncSliders();
+setSurf('plaster');
+frame('three');
+resize();
+setSex('man').then(() => { resize(); frame('three'); document.title = 'Advanced Figure Builder'; window.__ready = true; });
+window.__afb = { resize, draw, renderer, scene, get cur() { return cur; }, models, state, adj, setPose, setSex, frame, render, setBackground, camera, controls, POSES, syncSliders, setSurf };
+</script>
+</body>
+</html>

@@ -59,6 +59,10 @@ h1 .amp { color: var(--blue); font-style: italic; font-weight: 500; }
 .grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
 .card { display: flex; flex-direction: column; height: 100%; background: var(--panel); border: 1px solid var(--rule); border-radius: 8px; overflow: hidden; color: inherit; text-decoration: none; transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s; }
 .card:hover { border-color: var(--blue); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(60, 35, 15, 0.16); }
+.grid li.wide { grid-column: 1 / -1; }
+.wide .card { flex-direction: row; }
+.wide .shot { flex: 0 0 55%; border-bottom: none; border-right: 1px solid var(--rule); }
+@media (max-width: 640px) { .wide .card { flex-direction: column; } .wide .shot { flex: none; border-right: none; border-bottom: 1px solid var(--rule); } }
 .card:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
 .shot { position: relative; aspect-ratio: 3 / 2; background: var(--shot); border-bottom: 1px solid var(--rule); }
 .shot img { display: block; width: 100%; height: 100%; object-fit: cover; filter: sepia(0.22) saturate(1.05); }   /* warms the apps' grey paper to match the page */
@@ -102,7 +106,7 @@ h1 .amp { color: var(--blue); font-style: italic; font-weight: 500; }
     <header>
       <p class="eyebrow">Art Guides &middot; Bryan Penprase</p>
       <h1>Seeing <span class="amp">&amp;</span> Knowing</h1>
-      <p class="lede">Four interactive apps for learning to draw the human head and figure, made by an astronomer who went back to art school.</p>
+      <p class="lede">Five interactive apps for learning to draw the human head and figure, made by an astronomer who went back to art school.</p>
       <a class="jump" href="#apps">Go to the apps
         <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v12M3 9l5 5 5-5"/></svg>
       </a>
@@ -164,8 +168,16 @@ h1 .amp { color: var(--blue); font-style: italic; font-weight: 500; }
             <span class="open">Open the app <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5"/></svg></span>
           </div>
         </a></li>
+        <li class="wide"><a class="card" href="Advanced_Figure_Builder/">
+          <div class="shot"><img src="images/advanced-figure-builder.jpg" alt="The Advanced Figure Builder, a realistic posed man with his muscle groups colored and labeled like an anatomy chart" width="900" height="600"><span class="step">Advanced figure</span></div>
+          <div class="body">
+            <h3>Advanced Figure Builder</h3>
+            <p>A realistic man and woman you can pose, place in front of your own background picture, and light from any direction. Push the light brighter and the shadows darker, then switch to two or three values to see exactly where light turns to shadow. A muscle map drawn from my class charts can color and label the muscle groups.</p>
+            <span class="open">Open the app <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5"/></svg></span>
+          </div>
+        </a></li>
       </ul>
-      <p class="note">Photos you use in the portrait apps stay on your own device. Each app can save your settings so you can pick up where you left off.</p>
+      <p class="note">Photos you use in the portrait apps, and background pictures, stay on your own device. Each app can save your settings so you can pick up where you left off.</p>
     </section>
 
     <section class="more" aria-label="More of my work">
