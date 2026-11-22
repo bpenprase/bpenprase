@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-11-21 11:07 PST
-; Observing window starts 2026-11-21 18:12 PST  (LST 22:25:25)
+; Generated 2026-11-22 11:07 PST
+; Observing window starts 2026-11-22 18:12 PST  (LST 22:29:21)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -168,6 +168,14 @@ NGC 0869
 #filter r',g',i',z'
 NGC 0884
 
+; Open Cluster  mag 5.2  size 22.50'
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 34
+
 ; Nebula  mag 5.0  size 160.00'  California Nebula
 #posang 0
 #count 1,1,1,1
@@ -305,6 +313,14 @@ M 44
 #filter r',g',i',z'
 NGC 2685
 
+; Galaxy  mag 6.9  size 21.63'  Bode's Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 81
+
 ; Planet: Jupiter
 #posang 0
 #count 10
@@ -313,14 +329,6 @@ NGC 2685
 #filter r'
 Jupiter
 #WAITINLIMITS 60
-
-; Galaxy  mag 6.9  size 21.63'  Bode's Galaxy
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 81
 
 ; Galaxy  mag 8.3  size 10.99'  Cigar Galaxy
 #posang 0
@@ -474,14 +482,6 @@ M 51
 #binning 1,1,1,1
 #filter r',g',i',z'
 M 101
-
-; Open Cluster  mag 4.6  size 24.00'
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-IC 4756
 
 ; Asteroid Vesta (ACP resolves position; WAITINLIMITS guards)
 #posang 0
