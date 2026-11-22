@@ -259,7 +259,7 @@ h3.sub { font-size: 13px; font-weight: 600; color: var(--muted); margin: 14px 0 
       <label><input type="radio" name="mode" value="photo"><span>Photo-based</span></label>
     </div>
 
-    <details class="group" open id="photoGroup" hidden>
+    <details class="group" id="photoGroup" hidden>
       <summary><h2>Photo</h2></summary>
       <div class="presets">
         <label class="filebtn"><input type="file" id="photoFile" accept="image/*">Choose a photo</label>
@@ -274,7 +274,7 @@ h3.sub { font-size: 13px; font-weight: 600; color: var(--muted); margin: 14px 0 
       <p class="note" style="margin-top:8px">Use a photo of a face looking straight at the camera. It stays on your device. The sliders below fine-tune the fit.</p>
     </details>
 
-    <details class="group" open>
+    <details class="group">
       <summary><h2>View</h2></summary>
       <div class="slider">
         <div class="slider-head"><label for="turn">Turn</label><output id="turnOut" for="turn"></output></div>
@@ -325,22 +325,22 @@ h3.sub { font-size: 13px; font-weight: 600; color: var(--muted); margin: 14px 0 
       </div>
     </details>
 
-    <details class="group" open>
+    <details class="group">
       <summary><h2>Eyes</h2></summary>
       <div class="row"><span class="note">Eyeball, lids and brow.</span><button type="button" data-reset="eyeSliders">Reset</button></div>
       <div id="eyeSliders"></div>
     </details>
-    <details class="group" open>
+    <details class="group">
       <summary><h2>Nose</h2></summary>
       <div class="row"><span class="note">Bridge, tip, wings and nostrils.</span><button type="button" data-reset="noseSliders">Reset</button></div>
       <div id="noseSliders"></div>
     </details>
-    <details class="group" open>
+    <details class="group">
       <summary><h2>Mouth</h2></summary>
       <div class="row"><span class="note">Upper lip with its bow, fuller lower lip.</span><button type="button" data-reset="mouthSliders">Reset</button></div>
       <div id="mouthSliders"></div>
     </details>
-    <details class="group" open>
+    <details class="group">
       <summary><h2>Ears</h2></summary>
       <div class="row"><span class="note">Helix, antihelix, concha and lobe.</span><button type="button" data-reset="earSliders">Reset</button></div>
       <div id="earSliders"></div>
@@ -1281,7 +1281,7 @@ h3.sub { font-size: 13px; font-weight: 600; color: var(--muted); margin: 14px 0 
     var toPhoto = m === "photo";
     if (toPhoto === photoMode) return;
     photoMode = toPhoto;
-    $("photoGroup").hidden = !toPhoto;
+    $("photoGroup").hidden = !toPhoto; if (toPhoto) $("photoGroup").open = true;
     var ids = Object.keys(shows);
     if (toPhoto) {
       standaloneP = {}; ids.forEach(function (id) { standaloneP[id] = +$(id).value; });            // remember the standalone head
@@ -1330,7 +1330,7 @@ h3.sub { font-size: 13px; font-weight: 600; color: var(--muted); margin: 14px 0 
     var wantPhoto = data.mode === "photo" && data.photo;
     document.querySelector('input[name="mode"][value="' + (wantPhoto ? "photo" : "standalone") + '"]').checked = true;
     if (!wantPhoto) { if (photoMode) { photoMode = false; $("photoGroup").hidden = true; P.faceW = 1; P.mouthDY = 0; } needBuild = true; schedule(); return; }
-    photoMode = true; $("photoGroup").hidden = false;
+    photoMode = true; $("photoGroup").hidden = false; $("photoGroup").open = true;   // show the photo controls when switching to photo mode
     var ph = data.photo, src = ph.src === "example" ? EXAMPLE : ph.src;
     if (typeof src !== "string" || !/^data:image\//.test(src)) return;
     var im = new Image();

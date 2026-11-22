@@ -294,7 +294,7 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
       </div>
     </section>
 
-    <details class="group" open>
+    <details class="group">
       <summary><h2>View</h2></summary>
       <div id="viewSliders"></div>
       <div class="presets" id="views" style="margin-top:12px">
@@ -308,7 +308,7 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
       </div>
     </details>
 
-    <details class="group">
+    <details class="group" open>
       <summary><h2>Build it up</h2></summary>
       <div class="toggles one">
         <label><input type="checkbox" id="tMasses" checked>1. Pelvis and rib cage</label>
@@ -344,7 +344,7 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
       </div>
     </details>
 
-    <details class="group" open>
+    <details class="group">
       <summary><h2>Gesture drawing</h2></summary>
       <div class="gesture">
         <button type="button" id="gPrev" aria-label="Previous pose" disabled>&larr; Back</button>
@@ -368,7 +368,7 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
     </details>
 
     <details class="group" open>
-      <summary><h2>Pose</h2></summary>
+      <summary><h2>Preset poses</h2></summary>
       <div class="presets" id="poses">
         <button type="button" data-pose="standing">Standing</button>
         <button type="button" data-pose="walking">Walking</button>
@@ -382,7 +382,11 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
         <button type="button" data-pose="lyingBack">Lying on the back</button>
         <button type="button" data-pose="lyingFront">Lying face down</button>
       </div>
-      <p class="note">Left and right are the figure's own.</p>
+    </details>
+
+    <details class="group">
+      <summary><h2>Adjust the pose</h2></summary>
+      <p class="note" style="margin-top:0">Left and right are the figure's own.</p>
       <details open><summary>Head</summary><div id="headSliders"></div></details>
       <details open><summary>Arms</summary>
         <div class="seg side" role="radiogroup" aria-label="Which arm to move"><label><input type="radio" name="armSide" value="both" checked><span>Both</span></label><label><input type="radio" name="armSide" value="L"><span>Left</span></label><label><input type="radio" name="armSide" value="R"><span>Right</span></label></div>
@@ -1007,8 +1011,8 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
       return Math.hypot(gx, gz) >= gq ? p : [q[0], p[1], q[2]];
     }
     [1, -1].forEach(function (sd) {
-      var m = ribPt(0.9, 0, 0.02), acr = [sd * (S.jointX - 0.07), 6.64, -0.12];
-      var cl = catmull([[sd * 0.045, m[1] + 0.015, m[2] - 0.005], [sd * 0.25, m[1] + 0.03, m[2] + 0.005], [sd * 0.5, 6.645, m[2] - 0.08], acr], 6)
+      var m = ribPt(0.9, 0, 0.02), acr = [sd * (S.jointX - 0.13), 6.64, -0.12];
+      var cl = catmull([[sd * 0.045, m[1] + 0.015, m[2] - 0.005], [sd * 0.23, m[1] + 0.03, m[2] + 0.005], [sd * 0.46, 6.645, m[2] - 0.08], acr], 6)
                  .map(function (p) { return onCage(p, 0.03); });
       tube(cl, function (t) { return 0.024 * (1 + 0.25 * Math.sin(Math.PI * t)); }, CHEST, PART.girdle, 0);
       box([sd * 0.03, m[1] - 0.02, m[2] - 0.01], 0.07, 0.09, 0.04, CHEST, PART.girdle, 3);     // the manubrium, where the collar bone pivots
@@ -1064,17 +1068,17 @@ details h3 { font-size: 13.5px; font-weight: 600; margin: 14px 0 8px; color: var
       function mid(a, b, t, dx, dz) { return [a[0] + (b[0] - a[0]) * t + sd * dx, a[1] + (b[1] - a[1]) * t, a[2] + (b[2] - a[2]) * t + dz]; }
       function bone(pts, r, mi) { tube(catmull([pts[0]].concat(pts, [pts[pts.length - 1]]), 6), r, mi, PART.bones, 4); }
       // upper arm and forearm: a slight bow, not ruler-straight
-      bone([sh, mid(sh, el, 0.5, 0.018, -0.03), el], 0.05, arm);
-      bone([el, mid(el, wr, 0.45, 0.022, 0.015), wr], 0.042, fore);
+      bone([sh, mid(sh, el, 0.5, 0.05, -0.03), el], 0.05, arm);
+      bone([el, mid(el, wr, 0.5, 0.04, -0.015), wr], 0.042, fore);
       tube([wr, wr, fi, fi], 0.032, fore, PART.bones, 4);
       // thigh bone: the ball sits in the side of the pelvis, the neck runs out to the knob of the
       // greater trochanter (a small L), then the shaft slants in to the knee, bowing forward and out
       var troc = [sd * (S.hipX + 0.17), hip[1] - 0.08, hip[2] - 0.04];
       bone([hip, mid(hip, troc, 0.5, 0, 0.0), troc], 0.05, thigh);
       ball(troc, 0.07, 0.08, 0.07, thigh, PART.bones, 1);
-      bone([troc, mid(troc, kn, 0.45, 0.035, 0.07), kn], 0.058, thigh);
+      bone([troc, mid(troc, kn, 0.45, 0.035, 0.12), kn], 0.058, thigh);
       // shin bone: bows the other way, back and slightly in, so thigh and shin make a pair of parentheses
-      bone([kn, mid(kn, an, 0.5, -0.02, -0.045), an], 0.05, shin);
+      bone([kn, mid(kn, an, 0.5, 0.02, 0.09), an], 0.05, shin);
       tube([an, an, toe, toe], 0.04, foot, PART.bones, 4);
       // the kneecap: a small flat oval floating in front of the knee joint
       var pat = [kn[0], kn[1] + 0.05, kn[2] + 0.16];
