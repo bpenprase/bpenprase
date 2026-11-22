@@ -172,7 +172,7 @@ details.group[open] > summary::after { transform: rotate(-135deg); margin: 4px 4
       </div>
       <div id="gSliders" style="margin-top:12px"></div>
       <label class="check"><input type="checkbox" id="gTurn" checked> Turn the figure to a new angle each time</label>
-      <p class="note">Each new pose starts from one of the preset poses and shifts the head, body, arms and legs a little at random, sometimes as a mirror image, always within what a body can do. Back returns to earlier poses. The right and left arrow keys work too.</p>
+      <p class="note">Each new pose starts from one of the presets, sometimes as a mirror image, then gives some of the arms, legs, body and head a new action at random: an arm raised, reaching or on the hip, a step or a lifted knee, a bend or a twist, a turn of the head. The more variation, the more of them change, always within what a body can do. Back returns to earlier poses. The right and left arrow keys work too.</p>
     </details>
 
     <details class="group" open>
@@ -444,54 +444,68 @@ function mirror(p) {             // build the right side from the left
 const ARMS_DOWN = { 'upperarm01_L': [0.2, -1, 0.02], 'lowerarm01_L': [0.12, -1, 0.14] };
 const LEGS = { 'upperleg01_L': [0.06, -1, 0.01], 'lowerleg01_L': [0.04, -1, -0.02] };
 const POSES = {
-  standing: { label: 'Standing', ...mirror({ aim: { ...ARMS_DOWN, ...LEGS } }) },
-  contrapposto: { label: 'Contrapposto', ...mirror({
+  standing: { label: 'Standing', plant: { L: 0, R: 0 }, ...mirror({ aim: { ...ARMS_DOWN, ...LEGS } }) },
+  contrapposto: { label: 'Contrapposto', plant: { L: 12, R: 0 }, weight: 'R', ...mirror({
     root: { rot: [0, 6, -7] },
     e: { 'spine03': [0, 0, 3], 'spine02': [0, -3, 4], 'spine01': [0, -2, 3], 'neck02': [0, 6, -4], 'head': [3, 8, -5] },
-    aim: { 'upperleg01_R': [0.16, -1, 0.02], 'lowerleg01_R': [0.02, -1, -0.02],
-           'upperleg01_L': [0.02, -1, 0.2], 'lowerleg01_L': [0.08, -1, -0.12],
+    aim: { 'upperleg01_R': [0.08, -1, 0.0], 'lowerleg01_R': [0.0, -1, -0.02],
+           'upperleg01_L': [0.13, -1, 0.17], 'lowerleg01_L': [0.1, -1, -0.1, 18],
            'upperarm01_L': [0.16, -1, 0.06], 'lowerarm01_L': [0.06, -1, 0.22],
            'upperarm01_R': [-0.2, -1, -0.02], 'lowerarm01_R': [-0.14, -1, 0.1] } }) },
-  hip: { label: 'Hand on hip', ...mirror({
+  hip: { label: 'Hand on hip', plant: { L: 0, R: 10 }, weight: 'L', ...mirror({
     root: { rot: [0, -6, 5] },
     e: { 'spine02': [0, 4, -4], 'spine01': [0, 3, -3], 'neck02': [0, -8, 4], 'head': [-4, -10, 4], 'wrist_L': [0, 0, -15] },
     aim: { 'upperleg01_L': [-0.14, -1, 0.0], 'lowerleg01_L': [-0.02, -1, -0.02],
            'upperleg01_R': [-0.04, -1, 0.16], 'lowerleg01_R': [-0.1, -1, -0.12],
            'upperarm01_L': [0.8, -0.5, -0.32], 'lowerarm01_L': [-0.62, -0.62, 0.3, -40],
            'upperarm01_R': [-0.18, -1, 0.02], 'lowerarm01_R': [-0.12, -1, 0.14] } }) },
-  walking: { label: 'Walking', ...mirror({
+  walking: { label: 'Walking', plant: { L: 0, R: 38 }, ...mirror({
     root: { rot: [4, -6, 0] },
-    e: { 'spine03': [0, 4, 0], 'spine02': [0, 4, 0], 'neck02': [-4, 4, 0], 'head': [0, 4, 0], 'foot_R': [-12, 0, 0] },
+    e: { 'spine03': [0, 4, 0], 'spine02': [0, 4, 0], 'neck02': [-4, 4, 0], 'head': [0, 4, 0] },
     aim: { 'upperleg01_L': [0.04, -0.94, 0.36], 'lowerleg01_L': [0.03, -1, 0.06],
            'upperleg01_R': [-0.03, -0.96, -0.28], 'lowerleg01_R': [-0.02, -0.82, -0.58],
            'upperarm01_L': [0.16, -0.97, -0.28], 'lowerarm01_L': [0.1, -0.98, -0.06],
            'upperarm01_R': [-0.14, -0.96, 0.3], 'lowerarm01_R': [-0.04, -0.75, 0.66] } }) },
-  reaching: { label: 'Reaching up', ...mirror({
+  reaching: { label: 'Reaching up', plant: { L: 0, R: 8 }, weight: 'L', ...mirror({
     root: { rot: [0, 0, 5] },
     e: { 'spine03': [0, 0, -4], 'spine02': [-4, 0, -6], 'spine01': [-4, 0, -5], 'neck02': [-10, 0, 0], 'head': [-14, -6, 0] },
     aim: { 'upperleg01_L': [-0.12, -1, 0.0], 'lowerleg01_L': [-0.02, -1, -0.02],
            'upperleg01_R': [-0.1, -1, 0.14], 'lowerleg01_R': [-0.1, -1, -0.1],
            'upperarm01_R': [-0.22, 1, 0.12], 'lowerarm01_R': [-0.08, 1, 0.1],
            'upperarm01_L': [0.22, -1, 0.04], 'lowerarm01_L': [0.12, -1, 0.16] } }) },
-  seated: { label: 'Seated', stool: true, ...mirror({
+  seated: { label: 'Seated', stool: true, plant: { L: 0, R: 0 }, ...mirror({
     e: { 'spine04': [-6, 0, 0], 'spine02': [4, 0, 0], 'spine01': [4, 0, 0], 'head': [4, -10, 0] },
     aim: { 'upperleg01_L': [0.14, -0.12, 1], 'lowerleg01_L': [0.04, -1, 0.06],
            'upperarm01_L': [0.14, -0.95, 0.3], 'lowerarm01_L': [-0.02, -0.4, 0.92, -30] } }) },
-  kneeling: { label: 'Kneeling', ...mirror({
+  kneeling: { label: 'Kneeling', floor: 'lowest', plant: { L: 0 }, ...mirror({
     root: { rot: [0, 8, 0] },
     e: { 'spine03': [6, 0, 0], 'spine02': [6, 0, 0], 'head': [6, 10, 0], 'foot_R': [70, 0, 0] },
     aim: { 'upperleg01_R': [-0.06, -1, -0.02], 'lowerleg01_R': [-0.02, -0.06, -1],
            'upperleg01_L': [0.16, -0.04, 1], 'lowerleg01_L': [0.04, -1, 0.02],
            'upperarm01_L': [0.14, -0.8, 0.55], 'lowerarm01_L': [-0.1, -0.25, 0.96, -30],
            'upperarm01_R': [-0.2, -1, 0.04], 'lowerarm01_R': [-0.12, -1, 0.14] } }) },
-  twisting: { label: 'Looking back', ...mirror({
+  twisting: { label: 'Looking back', plant: { L: 0, R: 10 }, weight: 'L', ...mirror({
     root: { rot: [0, 0, -3] },
     e: { 'spine04': [0, -8, 0], 'spine03': [0, -10, 0], 'spine02': [0, -12, 2], 'spine01': [0, -12, 2], 'neck02': [0, -16, 0], 'head': [-4, -22, 4] },
     aim: { 'upperleg01_L': [0.02, -1, 0.04], 'lowerleg01_L': [0.04, -1, -0.02],
            'upperleg01_R': [-0.14, -1, 0.12], 'lowerleg01_R': [-0.08, -1, -0.12],
            'upperarm01_L': [0.12, -0.9, 0.42], 'lowerarm01_L': [-0.5, -0.5, 0.7, -30],
            'upperarm01_R': [-0.3, -0.92, -0.28], 'lowerarm01_R': [-0.16, -0.96, -0.1] } }) },
-  apose: { label: 'A-pose', rest: true, e: {}, aim: {} },
+  lyingBack: { label: 'Lying on the back', lying: true, bodyFrame: true, floor: 'lowest', plant: {},
+    root: { rot: [-90, 0, 0] },
+    e: { 'spine02': [-3, 0, 0], 'neck02': [0, 10, 0], 'head': [-4, 18, 4] },
+    aim: { 'upperleg01_L': [0.06, -1, 0.02], 'lowerleg01_L': [0.04, -1, -0.02],
+           'upperleg01_R': [-0.08, -0.55, 0.83], 'lowerleg01_R': [-0.03, -0.72, -0.69],
+           'upperarm01_R': [-0.3, 1, -0.08], 'lowerarm01_R': [-0.05, 1, -0.12],
+           'upperarm01_L': [0.25, -1, 0.12], 'lowerarm01_L': [-0.8, -0.2, 0.45] } },
+  lyingFront: { label: 'Lying face down', lying: true, bodyFrame: true, floor: 'lowest', plant: {},
+    root: { rot: [90, 0, 0] },
+    e: { 'neck02': [0, 30, 0], 'head': [0, 45, 0] },
+    aim: { 'upperleg01_L': [0.08, -1, 0.02], 'lowerleg01_L': [0.05, -1, 0.0],
+           'upperleg01_R': [-0.07, -1, 0.04], 'lowerleg01_R': [-0.03, -0.55, -0.83],
+           'upperarm01_L': [0.92, 0.3, 0.08], 'lowerarm01_L': [0.1, 1, 0.1],
+           'upperarm01_R': [-0.2, -1, 0.12], 'lowerarm01_R': [-0.1, -1, 0.16] } },
+  apose: { label: 'A-pose', rest: true, plant: { L: 0, R: 0 }, e: {}, aim: {} },
 };
 const AIM_END = { 'upperarm01': 'lowerarm01', 'lowerarm01': 'wrist', 'upperleg01': 'lowerleg01', 'lowerleg01': 'foot' };
 
@@ -513,7 +527,7 @@ const ADJ = [
 const adj = {};
 ADJ.forEach(a => { if (a.side) { adj[a.id + 'L'] = 0; adj[a.id + 'R'] = 0; } else adj[a.id] = 0; });
 
-const state = { sex: 'man', pose: 'contrapposto', surf: 'plaster', turn: -20, x: 0, z: 0,
+const state = { sex: 'man', pose: 'standing', surf: 'plaster', turn: -20, x: 0, z: 0,
   az: -45, el: 40, bright: 3.2, dark: 0.18, warm: 0, rimOn: false, sunOn: true, values: 0, edge: false, types: false,
   eye: 1.45, shadow: 0.55, horizon: 0.42, horizonOn: false, lens: 45, musc: false, names: false,
   study: 0, planeLevel: 0, cSpace: 0.12 };
@@ -584,6 +598,7 @@ function solveLimb(m, P, kind, S, extraQ, flexAdd) {
   // the upper bone's turn in figure space, then any slider swing on top of it
   const Q = frameQuat(u, axis).multiply(frameQuat(R.rU, R.rA).invert());
   if (extraQ) Q.premultiply(extraQ);
+  if (P.bodyFrame && P.root) Q.premultiply(eq(...P.root.rot));      // a lying pose: the limbs are set relative to the body
   const flex = new THREE.Quaternion().setFromAxisAngle(R.rA, phi - R.phi0);
   const tw = (af && af[3] ? af[3] : 0) * DEG;
   return { Q, uFinal: R.rU.clone().applyQuaternion(Q), flex, tw, R, phi, sg: S === 'L' ? 1 : -1, kind };
@@ -696,15 +711,109 @@ function computePose(m, P) {
     b.quaternion.copy(q);
     out[n] = q.clone();
   }
-  // stand on the floor: drop or lift the figure until its lowest point touches y = 0
+  // stand on the floor: plant the feet, balance the body over them, and set the floor beneath
   B.root.position.copy(B.root.userData.rest);
   m.root.updateMatrixWorld(true);
-  const lowest = lowestPoint(m, m.sample);
+  const F = plantFeet(m, P);
+  for (const b of order) out[b.name] = b.quaternion.clone();
+  m.root.updateMatrixWorld(true);
   let stoolH = 0;
-  if (P.stool) {
-    stoolH = lowestPoint(m, m.seat) - lowest;
+  if (P.stool) stoolH = lowestPoint(m, m.seat) - F;
+  const rootPos = B.root.position.clone(); rootPos.y = B.root.userData.rest.y - F;
+  return { q: out, rootPos, stoolH };
+}
+
+// ---- planting the feet
+// Each foot that carries weight is laid flat on the floor (or rolled up onto the ball of the foot,
+// with the heel lifted, for a relaxed or trailing leg). The hips shift a little so the body's weight
+// sits over the supporting foot, then each leg is bent or straightened (thigh and shin, knee kept
+// pointing the way it was) so its ankle lands exactly where the foot needs it.
+const _fp = new THREE.Vector3();
+function figPos(m, b) { return b.getWorldPosition(_fp).applyMatrix4(mInv).clone(); }
+function setFigQuat(b, Qw) { const qp = b.parent && b.parent.isBone ? figQuat(b.parent) : new THREE.Quaternion(); b.quaternion.copy(qp.invert().multiply(Qw)); }
+function turnBone(b, from, to) {
+  if (from.lengthSq() < 1e-10 || to.lengthSq() < 1e-10) return;
+  const R = new THREE.Quaternion().setFromUnitVectors(from.clone().normalize(), to.clone().normalize());
+  setFigQuat(b, R.multiply(figQuat(b)));
+}
+function footInfo(m) {
+  if (m.footInfo) return m.footInfo;
+  const R = m.rest, out = {};
+  for (const S of ['L', 'R']) {
+    const an = R['foot_' + S], ball = new THREE.Vector3(); let n = 0;
+    for (let k = 1; k <= 5; k++) { const t = R['toe' + k + '-1_' + S]; if (t) { ball.add(t); n++; } }
+    ball.multiplyScalar(1 / Math.max(n, 1));
+    out[S] = { h0: an.y, lz: Math.hypot(ball.x - an.x, ball.z - an.z),
+      a: R['lowerleg01_' + S].distanceTo(R['upperleg01_' + S]), b: an.distanceTo(R['lowerleg01_' + S]) };
   }
-  return { q: out, rootY: B.root.userData.rest.y - lowest, stoolH };
+  return (m.footInfo = out);
+}
+function plantFeet(m, P) {
+  const B = m.bones, fi = footInfo(m);
+  const upd = () => { m.root.updateMatrixWorld(true); mInv.copy(m.root.matrixWorld).invert(); };
+  upd();
+  const plant = P.plant || {};
+  const want = ['L', 'R'].filter(S => plant[S] !== undefined && B['foot_' + S]);
+  const Qf = {}, h = {}, A = {};
+  const flatten = S => {                  // the foot's sole flat on the floor, pointing the way the leg points it
+    const f = B['foot_' + S], fw = new THREE.Vector3(0, 0, 1).applyQuaternion(figQuat(f));
+    const heel = plant[S] || 0;
+    Qf[S] = Qf[S] || eq(heel, Math.atan2(fw.x, fw.z) / DEG, 0);
+    setFigQuat(f, Qf[S]);
+    for (let k = 1; k <= 5; k++) { const t = B['toe' + k + '-1_' + S]; if (t) t.quaternion.copy(eq(-heel, 0, 0)); }
+    h[S] = fi[S].h0 * Math.cos(heel * DEG) + fi[S].lz * Math.sin(heel * DEG);
+  };
+  want.forEach(flatten); upd();
+  want.forEach(S => { A[S] = figPos(m, B['foot_' + S]); });
+  // feet that are near the floor stand on it; a leg lifted well clear (by a slider) stays in the air
+  const lowA = Math.min(...want.map(S => A[S].y - h[S]));
+  const planted = want.filter(S => A[S].y - h[S] - lowA < 0.15);
+  let F = planted.length ? Math.min(...planted.map(S => A[S].y - h[S])) : lowestPoint(m, m.sample);
+  if (P.floor === 'lowest') F = lowestPoint(m, m.sample);
+  // balance: bring the body's weight over the supporting foot (or between the feet)
+  if (!P.stool && P.floor !== 'lowest' && !P.rest && planted.length) {
+    const W = [['root', .3], ['spine03', .22], ['spine01', .1], ['neck02', .05], ['head', .08], ['upperarm01_L', .05], ['upperarm01_R', .05],
+               ['lowerarm01_L', .03], ['lowerarm01_R', .03], ['lowerleg01_L', .045], ['lowerleg01_R', .045]];
+    const com = new THREE.Vector3(); let wsum = 0;
+    for (const [n, w] of W) if (B[n]) { com.addScaledVector(figPos(m, B[n]), w); wsum += w; }
+    com.multiplyScalar(1 / wsum);
+    const sup = new THREE.Vector3(), feet = planted.includes(P.weight) ? [P.weight] : planted;
+    feet.forEach(S => { const fw = new THREE.Vector3(0, 0, 1).applyQuaternion(Qf[S]); sup.add(A[S]).addScaledVector(fw, fi[S].lz * 0.35); });
+    sup.multiplyScalar(1 / feet.length);
+    const d = new THREE.Vector3(sup.x - com.x, 0, sup.z - com.z);
+    if (d.length() > 0.12) d.setLength(0.12);
+    B.root.position.add(d); upd();
+  }
+  // legs reach their footholds; if a foot can't be reached the whole body sinks a little (the knees bend)
+  for (let it = 0; it < 3; it++) {
+    let short = 0;
+    for (const S of planted) {
+      const T = new THREE.Vector3(A[S].x, F + h[S], A[S].z);
+      short = Math.max(short, ikLeg(m, S, T, fi[S]));
+      upd(); flatten(S); upd();
+    }
+    if (short < 1e-4) break;
+    F += short;
+  }
+  return F;
+}
+function ikLeg(m, S, T, f) {
+  const B = m.bones, U = B['upperleg01_' + S], K = B['lowerleg01_' + S], Ft = B['foot_' + S];
+  const H = figPos(m, U), Kc = figPos(m, K);
+  const D = T.clone().sub(H), d = D.length(), reach = (f.a + f.b) * 0.998;
+  const dd = THREE.MathUtils.clamp(d, Math.abs(f.a - f.b) + 1e-3, reach), u = D.clone().normalize();
+  // the knee keeps pointing the way it did, nudged forward so a straight leg still knows which way to bend
+  const fwd = new THREE.Vector3(0, 0, 1).applyQuaternion(figQuat(B.root));
+  const p = Kc.clone().sub(H); p.addScaledVector(fwd, 0.04); p.addScaledVector(u, -p.dot(u));
+  if (p.lengthSq() < 1e-8) p.copy(fwd).addScaledVector(u, -fwd.dot(u));
+  p.normalize();
+  const cb = THREE.MathUtils.clamp((f.a * f.a + dd * dd - f.b * f.b) / (2 * f.a * dd), -1, 1), sb = Math.sqrt(1 - cb * cb);
+  const Kn = H.clone().addScaledVector(u, f.a * cb).addScaledVector(p, f.a * sb);
+  turnBone(U, Kc.clone().sub(H), Kn.clone().sub(H));
+  m.root.updateMatrixWorld(true); mInv.copy(m.root.matrixWorld).invert();
+  const K2 = figPos(m, K), A2 = figPos(m, Ft), Tr = H.clone().addScaledVector(u, dd);
+  turnBone(K, A2.clone().sub(K2), Tr.clone().sub(K2));
+  return Math.max(0, d - reach);
 }
 const vTmp = new THREE.Vector3(), mInv = new THREE.Matrix4();
 function lowestPoint(m, list) {
@@ -729,9 +838,9 @@ function setPose(name, instant) {
   const m = cur, P = POSES[name];
   const from = {};
   for (const n in m.bones) from[n] = m.bones[n].quaternion.clone();
-  const fromY = m.bones.root.position.y, fromStool = stool.visible ? stool.scale.y : 0;
+  const fromY = m.bones.root.position.clone(), fromStool = stool.visible ? stool.scale.y : 0;
   const target = computePose(m, P);
-  const T = { q: target.q, rootY: target.rootY, stoolH: target.stoolH };
+  const T = { q: target.q, rootPos: target.rootPos, stoolH: target.stoolH };
   if (instant) { applyTarget(m, T, 1, from, fromY, fromStool); anim = null; refreshShadowCam(); render(); return; }
   anim = { m, T, from, fromY, fromStool, t0: performance.now() };
   applyTarget(m, T, 0, from, fromY, fromStool);
@@ -740,7 +849,7 @@ function setPose(name, instant) {
 function applyTarget(m, T, k, from, fromY, fromStool) {
   const e = k * k * (3 - 2 * k);
   for (const n in m.bones) m.bones[n].quaternion.slerpQuaternions(from[n], T.q[n], e);
-  m.bones.root.position.y = fromY + (T.rootY - fromY) * e;
+  m.bones.root.position.lerpVectors(fromY, T.rootPos, e);
   const h = fromStool + (T.stoolH - fromStool) * e;
   stool.visible = h > 0.02;
   stool.scale.y = Math.max(h, 0.001); stool.position.set(0, h / 2, -0.03);
@@ -777,8 +886,9 @@ function refreshShadowCam() {
 
 // ---------------------------------------------------------------- view framing
 function frame(view, keepDist) {
-  const t = new THREE.Vector3(state.x, 0.92, state.z);
-  let dist = keepDist ? camera.position.distanceTo(controls.target) : 4.6;
+  const lying = POSES[state.pose] && POSES[state.pose].lying;
+  const t = new THREE.Vector3(state.x, lying ? 0.3 : 0.92, state.z);
+  let dist = keepDist ? camera.position.distanceTo(controls.target) : lying ? 3.6 : 4.6;
   if (bgURL && !keepDist) {
     // far enough back that the feet and the head both fit between the frame edges
     const tf = Math.tan(state.lens * DEG / 2) * 2;
@@ -923,7 +1033,7 @@ async function setSex(name) {
 // "New pose" picks a preset at random, sometimes mirrors it, and nudges the head, body, arms and
 // legs by random amounts. The range-of-motion limits still apply, so every pose is one a body can make.
 // Poses are kept in order so Back can step through them; a timer can change the pose on its own.
-const gState = { vary: 0.5 };
+const gState = { vary: 0.6 };
 const gHist = []; let gAt = -1, gSecs = 0, gLeft = 0, gTick = null;
 SL.push(slider($('gSliders'), { id: 'gVary', label: 'How much each pose varies', min: 0, max: 100, step: 5, unit: '',
   get: () => Math.round(gState.vary * 100), set: v => { gState.vary = v / 100; }, fmt: v => v === 0 ? 'presets only' : v + '%' }));
@@ -931,32 +1041,92 @@ const WANDER = { headTurn: 35, headNod: 18, headTilt: 12, twist: 18, bend: 12, s
   armOut: 35, armFwd: 40, elbow: 45, legFwd: 18, legOut: 10, knee: 20 };
 function mirrorPose(P) {
   const flipName = n => n.endsWith('_L') ? n.slice(0, -2) + '_R' : n.endsWith('_R') ? n.slice(0, -2) + '_L' : n;
-  const out = { label: P.label, stool: P.stool, rest: P.rest, e: {}, aim: {} };
+  const out = { label: P.label, stool: P.stool, rest: P.rest, floor: P.floor, lying: P.lying, bodyFrame: P.bodyFrame, e: {}, aim: {},
+    weight: P.weight === 'L' ? 'R' : P.weight === 'R' ? 'L' : P.weight, plant: {} };
+  for (const [k, v] of Object.entries(P.plant || {})) out.plant[k === 'L' ? 'R' : 'L'] = v;
   if (P.root) out.root = { rot: [P.root.rot[0], -P.root.rot[1], -P.root.rot[2]] };
   for (const [k, v] of Object.entries(P.e || {})) out.e[flipName(k)] = [v[0], -v[1], -v[2]];
   for (const [k, v] of Object.entries(P.aim || {})) out.aim[flipName(k)] = [-v[0], v[1], v[2], -(v[3] || 0)];
   return out;
 }
+// actions a limb, the body or the head can take, as slider settings (ranges in degrees)
+const ARM_ACTS = [
+  { armOut: [0, 12], armFwd: [-10, 15], elbow: [0, 25] },        // hanging relaxed
+  { armOut: [100, 130], armFwd: [10, 40], elbow: [0, 40] },      // raised overhead
+  { armOut: [0, 20], armFwd: [70, 100], elbow: [0, 25] },        // reaching forward
+  { armOut: [70, 95], armFwd: [-5, 20], elbow: [0, 35] },        // out to the side
+  { armOut: [60, 90], armFwd: [40, 70], elbow: [110, 135] },     // hand to the head
+  { armOut: [35, 55], armFwd: [-30, -10], elbow: [85, 115] },    // hand on the hip
+  { armOut: [0, 12], armFwd: [60, 85], elbow: [95, 130] },       // across the chest
+  { armOut: [5, 15], armFwd: [-45, -25], elbow: [55, 95] },      // behind the back
+  { armOut: [25, 55], armFwd: [25, 55], elbow: [35, 85] },       // gesturing
+];
+const LEG_ACTS = [
+  { legFwd: [-3, 5], legOut: [0, 6], knee: [0, 5], heel: 0, w: 1 },          // straight, carrying the weight
+  { legFwd: [18, 32], legOut: [0, 8], knee: [5, 20], heel: 0, w: 0 },        // step forward
+  { legFwd: [-18, -10], legOut: [0, 6], knee: [15, 30], heel: 30, w: 0 },    // step back, onto the toes
+  { legFwd: [0, 10], legOut: [15, 28], knee: [0, 12], heel: 0, w: 0 },       // step out to the side
+  { legFwd: [8, 18], legOut: [2, 10], knee: [20, 40], heel: 14, w: 0 },      // relaxed, knee bent
+  { legFwd: [60, 85], legOut: [0, 12], knee: [70, 100], lift: true, w: 0 },  // knee lifted
+];
 function makeGesture() {
-  const names = Object.keys(POSES).filter(n => n !== '_gesture' && n !== 'apose' && (n !== 'standing' || Math.random() < 0.5));
-  const name = names[Math.floor(Math.random() * names.length)];
+  // lying poses come up about one time in six, standing and moving poses the rest of the time
+  const names = Object.keys(POSES).filter(n => n !== '_gesture' && n !== 'apose');
+  const wt = names.map(n => POSES[n].lying ? 0.35 : n === 'standing' ? 1.5 : 1);
+  let r0 = Math.random() * wt.reduce((a, b) => a + b, 0), name = names[0];
+  for (let i = 0; i < names.length; i++) { r0 -= wt[i]; if (r0 <= 0) { name = names[i]; break; } }
   const mir = Math.random() < 0.5;
   const P = mir ? mirrorPose(POSES[name]) : JSON.parse(JSON.stringify(POSES[name]));
   P.label = 'Gesture';
-  const a = {};
-  const r = () => Math.random() * 2 - 1;
+  const a = {}, v = gState.vary;
+  const r = () => Math.random() * 2 - 1, U = q => q[0] + Math.random() * (q[1] - q[0]), pick = l => l[Math.floor(Math.random() * l.length)];
+  // a little wander everywhere
   ADJ.forEach(d => {
-    const w = (WANDER[d.id] || 10) * gState.vary;
-    const pick = () => {
-      let v = r() * w;
-      if (d.id === 'elbow' || d.id === 'knee') v = Math.abs(v) * (Math.random() < 0.7 ? 1 : -0.4);  // mostly bend more
-      if (d.id === 'armOut' || d.id === 'legOut') v = Math.random() < 0.75 ? Math.abs(v) : -Math.abs(v) * 0.4;
-      return Math.round(THREE.MathUtils.clamp(v, d.min, d.max));
+    const w = (WANDER[d.id] || 10) * v;
+    const one = () => {
+      let x = r() * w;
+      if (d.id === 'elbow' || d.id === 'knee') x = Math.abs(x) * (Math.random() < 0.7 ? 1 : -0.4);
+      if (d.id === 'armOut' || d.id === 'legOut') x = Math.random() < 0.75 ? Math.abs(x) : -Math.abs(x) * 0.4;
+      return x;
     };
-    if (d.side) { a[d.id + 'L'] = pick(); a[d.id + 'R'] = pick(); } else a[d.id] = pick();
+    if (d.side) { a[d.id + 'L'] = one(); a[d.id + 'R'] = one(); } else a[d.id] = one();
   });
+  // then whole new actions for some of the limbs, the body and the head
+  if (v > 0) {
+    const chance = 0.25 + 0.55 * v;
+    let acted = 0;
+    for (const S of ['L', 'R']) {
+      if (Math.random() >= chance) continue;
+      const act = pick(ARM_ACTS);
+      delete P.aim['upperarm01_' + S]; delete P.aim['lowerarm01_' + S];
+      a['armOut' + S] = U(act.armOut); a['armFwd' + S] = U(act.armFwd); a['elbow' + S] = U(act.elbow); acted++;
+    }
+    const standing = !P.lying && !P.stool && name !== 'kneeling';
+    if (standing && Math.random() < chance * 0.8) {
+      // one leg takes a new action; the other carries the weight
+      const S = Math.random() < 0.5 ? 'L' : 'R', O = S === 'L' ? 'R' : 'L';
+      const act = pick(LEG_ACTS.slice(1));
+      for (const k of [S, O]) { delete P.aim['upperleg01_' + k]; delete P.aim['lowerleg01_' + k]; }
+      a['legFwd' + S] = U(act.legFwd); a['legOut' + S] = U(act.legOut); a['knee' + S] = U(act.knee);
+      a['legFwd' + O] = U([-3, 6]); a['legOut' + O] = U([0, 6]); a['knee' + O] = U([0, 5]);
+      P.plant = act.lift ? { [O]: 0 } : { [S]: act.heel, [O]: 0 };
+      P.weight = O; acted++;
+    }
+    if (!P.lying && Math.random() < chance * 0.7) { a.twist = U([-30, 30]); a.bend = U([-12, P.stool ? 20 : 35]); a.sideBend = U([-18, 18]); acted++; }
+    if (Math.random() < chance) { a.headTurn = U([-55, 55]); a.headNod = U([-25, 25]); a.headTilt = U([-15, 15]); acted++; }
+    if (!acted) {
+      const S = Math.random() < 0.5 ? 'L' : 'R', act = pick(ARM_ACTS.slice(1));
+      delete P.aim['upperarm01_' + S]; delete P.aim['lowerarm01_' + S];
+      a['armOut' + S] = U(act.armOut); a['armFwd' + S] = U(act.armFwd); a['elbow' + S] = U(act.elbow);
+    }
+  }
   if (P.stool) { a.legFwdL = a.legFwdR = a.legOutL = a.legOutR = 0; }      // keep the seat under the hips
   if (name === 'kneeling') { a.legFwdL = a.legFwdR = a.kneeL = a.kneeR = 0; } // keep the knee on the floor
+  if (P.lying) { a.legFwdL = a.legFwdR = a.legOutL = a.legOutR = 0; a.twist = a.bend = a.sideBend = 0; }
+  ADJ.forEach(d => {
+    const ks = d.side ? [d.id + 'L', d.id + 'R'] : [d.id];
+    ks.forEach(k => { a[k] = Math.round(THREE.MathUtils.clamp(a[k] || 0, d.min, d.max)); });
+  });
   const turn = gTurnOn() ? Math.round((Math.random() < 0.8 ? r() * 110 : 180 + r() * 40) / 5) * 5 : state.turn;
   return { P, adj: a, turn: ((turn + 540) % 360) - 180, name };
 }
@@ -971,7 +1141,7 @@ function showGesture(i, instant) {
   if (bgURL) { /* keep the camera where it is in front of a picture */ }
   else {        // swing the view with the figure so the new angle shows as a new view
     const off = camera.position.clone().sub(controls.target);
-    controls.target.set(state.x, controls.target.y, state.z);
+    controls.target.set(state.x, g.P.lying ? 0.3 : 0.92, state.z);
     camera.position.copy(controls.target).add(off);
   }
   syncSliders();
