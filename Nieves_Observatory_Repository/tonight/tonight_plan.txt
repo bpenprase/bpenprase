@@ -1,6 +1,6 @@
 ; ACP observing plan -- Nieves Observatory
-; Generated 2026-11-22 11:07 PST
-; Observing window starts 2026-11-22 18:12 PST  (LST 22:29:21)
+; Generated 2026-11-23 11:08 PST
+; Observing window starts 2026-11-23 18:12 PST  (LST 22:33:18)
 ; Targets sorted by RA from the western horizon eastward.
 
 #AUTOFOCUS
@@ -321,6 +321,14 @@ NGC 2685
 #filter r',g',i',z'
 M 81
 
+; Galaxy  mag 8.3  size 10.99'  Cigar Galaxy
+#posang 0
+#count 1,1,1,1
+#interval 600,600,600,600
+#binning 1,1,1,1
+#filter r',g',i',z'
+M 82
+
 ; Planet: Jupiter
 #posang 0
 #count 10
@@ -329,14 +337,6 @@ M 81
 #filter r'
 Jupiter
 #WAITINLIMITS 60
-
-; Galaxy  mag 8.3  size 10.99'  Cigar Galaxy
-#posang 0
-#count 1,1,1,1
-#interval 600,600,600,600
-#binning 1,1,1,1
-#filter r',g',i',z'
-M 82
 
 ; Galaxy  mag 9.1  size 7.10'  Spindle Galaxy
 #posang 0
