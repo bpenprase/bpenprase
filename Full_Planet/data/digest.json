@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-22T09:03:32.232571+00:00",
-  "generated_human": "22 November 2026, 09:03 UTC",
-  "total_items": 130,
+  "generated": "2026-11-23T09:04:19.687149+00:00",
+  "generated_human": "23 November 2026, 09:04 UTC",
+  "total_items": 131,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "AI uncovers hidden bladder cancer warning signs years before diagnosis",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261120075604.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have developed an AI tool that can uncover hidden warning signs of bladder cancer up to five years before diagnosis, identifying 85% of cases in a major study involving nearly 70,000 patients.",
+          "published": "2026-11-22T03:43:18+00:00",
+          "regional": false
+        },
         {
           "title": "AI may not work like the human brain after all, scientists discover",
           "link": "https://www.sciencedaily.com/releases/2026/11/261120075701.htm",
@@ -98,6 +106,14 @@
           "regional": false
         },
         {
+          "title": "AI chip boom lifts Samsung Electro-Mechanics ahead of LG Innotek in substrate profits",
+          "link": "https://www.koreaherald.com/article/10946536",
+          "source": "The Korea Herald",
+          "summary": "Samsung Electro-Mechanics earned 2.7 times as much operating profit as LG Innotek in its substrate business in the first nine months of 2026, helped by sales of higher-value substrates for AI data centers.",
+          "published": "2026-11-23T08:51:33+00:00",
+          "regional": true
+        },
+        {
           "title": "AI agents are getting wallets. Is Hong Kong ready for them?",
           "link": "https://www.scmp.com/tech/big-tech/article/3375253/ai-agents-are-getting-wallets-hong-kong-ready-them",
           "source": "South China Morning Post",
@@ -111,22 +127,6 @@
           "source": "The Korea Herald",
           "summary": "CJ Olive Young plans to elevate its shopping experience with artificial intelligence and take its omnichannel model global, the beauty retailer said Thursday at its first tech conference.",
           "published": "2026-11-19T21:00:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "Hyundai Card deepens brand partnerships with AI-powered customer analytics",
-          "link": "https://www.koreaherald.com/article/10942890",
-          "source": "The Korea Herald",
-          "summary": "Hyundai Card is expanding its role in co-branded credit card partnerships with the addition of artificial intelligence tools that help brands analyze customer behavior and personalize marketing, broadening cooperation…",
-          "published": "2026-11-19T06:09:41+00:00",
-          "regional": true
-        },
-        {
-          "title": "Korea, Germany seek closer industrial AI ties at Herald forum",
-          "link": "https://www.koreaherald.com/article/10942805",
-          "source": "The Korea Herald",
-          "summary": "South Korea and Germany have long relied on each other's manufacturing strengths. Business leaders say that partnership could become even more important as artificial intelligence moves into factories and vehicles.",
-          "published": "2026-11-19T05:36:29+00:00",
           "regional": true
         },
         {
@@ -176,6 +176,14 @@
           "summary": "China’s pure-play artificial intelligence chipmakers crossed an important milestone in the third quarter as several firms swung into profit, but severe supply chain hurdles and soaring memory costs cloud their long-term…",
           "published": "2026-11-06T10:30:06+00:00",
           "regional": true
+        },
+        {
+          "title": "Chinese chipmaker Hua Hong bets big on silicon photonics amid AI boom",
+          "link": "https://www.scmp.com/tech/big-tech/article/3373445/chinese-chipmaker-hua-hong-bets-big-silicon-photonics-amid-ai-boom",
+          "source": "South China Morning Post",
+          "summary": "China’s second-largest contract chipmaker, Hua Hong Grace Semiconductor, is aggressively expanding into silicon photonics, as the company looks to capture the next wave of the global artificial intelligence…",
+          "published": "2026-11-05T13:27:39+00:00",
+          "regional": true
         }
       ]
     },
@@ -199,6 +207,14 @@
           "source": "ScienceDaily",
           "summary": "A promising material for ultra-fast optical communications has held a secret for decades, but scientists may have finally cracked it.",
           "published": "2026-11-21T00:02:01+00:00",
+          "regional": false
+        },
+        {
+          "title": "Einstein’s relativity just upended a fundamental rule of chemistry",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261120075602.htm",
+          "source": "ScienceDaily",
+          "summary": "A surprising discovery at Brown University is challenging one of chemistry's most fundamental textbook explanations.",
+          "published": "2026-11-20T12:56:02+00:00",
           "regional": false
         },
         {
@@ -338,12 +354,20 @@
           "regional": false
         },
         {
-          "title": "Scientists shrink Archimedes’ screw to the size of a single molecule",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261030002940.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have built a groundbreaking molecular motor that spins in either direction using electricity, inspired by a machine invented more than 2,000 years ago.",
-          "published": "2026-11-01T11:55:46+00:00",
-          "regional": false
+          "title": "Can 2008-era tool stop the latest market rout?",
+          "link": "https://www.koreaherald.com/article/10946448",
+          "source": "The Korea Herald",
+          "summary": "South Korean financial authorities are preparing to activate the stock market stabilization fund, as markets reel from a sharp sell-off in US semiconductor shares that sent the Kospi tumbling for a second consecutive…",
+          "published": "2026-11-23T07:39:55+00:00",
+          "regional": true
+        },
+        {
+          "title": "Exports more than double in 1st 20 days of Nov., with chip shipments surging to new high",
+          "link": "https://www.koreaherald.com/article/10945683",
+          "source": "The Korea Herald",
+          "summary": "South Korea's exports more than doubled during the first 20 days of November, with shipments of semiconductors surging to a record high, customs data showed Monday. Outbound shipments reached $77.4 billion in the Nov.",
+          "published": "2026-11-23T00:58:25+00:00",
+          "regional": true
         },
         {
           "title": "BOK likely to hike interest rate on resilient growth, inflation",
@@ -386,27 +410,11 @@
           "regional": true
         },
         {
-          "title": "Samsung names new memory, mobile chiefs as chips sweep promotions",
-          "link": "https://www.koreaherald.com/article/10943786",
-          "source": "The Korea Herald",
-          "summary": "Samsung Electronics named new heads of its memory chip and smartphone businesses Friday in a leadership reshuffle that awarded three promotions to president to semiconductor executives following record earnings driven…",
-          "published": "2026-11-20T01:35:35+00:00",
-          "regional": true
-        },
-        {
           "title": "How semiconductors powered South Korea’s $1tr export milestone",
           "link": "https://www.koreaherald.com/article/10943146",
           "source": "The Korea Herald",
           "summary": "Semiconductors were the driving force behind South Korea’s first $1 trillion in annual exports, as surging demand for AI memory chips and rising prices fueled overseas sales.",
           "published": "2026-11-19T08:59:52+00:00",
-          "regional": true
-        },
-        {
-          "title": "Posco, CATL signs 3-year lithium supply deal",
-          "link": "https://www.koreaherald.com/article/10941739",
-          "source": "The Korea Herald",
-          "summary": "Posco Group said Wednesday it finalized a three-year lithium supply deal with CATL, the world’s largest electric vehicle battery manufacturer, expanding its footprint in a global critical minerals market long dominated…",
-          "published": "2026-11-18T08:46:27+00:00",
           "regional": true
         },
         {
@@ -482,19 +490,19 @@
           "regional": false
         },
         {
-          "title": "Xiaomi files trademarks for key EVs ahead of Korea debut",
-          "link": "https://www.koreaherald.com/article/10942791",
+          "title": "Google's Korea Maps push gains pace with investment plans",
+          "link": "https://www.koreaherald.com/article/10946522",
           "source": "The Korea Herald",
-          "summary": "Xiaomi has filed trademark applications for its key electric vehicle models in South Korea, laying the groundwork to enter an EV market increasingly populated by Chinese automakers.",
-          "published": "2026-11-19T05:31:44+00:00",
+          "summary": "Google said Monday it plans to expand its mapping services in South Korea through partnerships on public transit, parking and electric vehicle charging data.",
+          "published": "2026-11-23T08:45:40+00:00",
           "regional": true
         },
         {
-          "title": "Posco, CATL signs 3-year lithium supply deal",
-          "link": "https://www.koreaherald.com/article/10941739",
+          "title": "LS Cable & System to supply W700b in cables for New York power grid project",
+          "link": "https://www.koreaherald.com/article/10946276",
           "source": "The Korea Herald",
-          "summary": "Posco Group said Wednesday it finalized a three-year lithium supply deal with CATL, the world’s largest electric vehicle battery manufacturer, expanding its footprint in a global critical minerals market long dominated…",
-          "published": "2026-11-18T08:46:27+00:00",
+          "summary": "South Korean cable-maker LS Cable & System said Monday it will supply about 700 billion won ($520 million) worth of high-voltage cables for a major New York transmission project, aimed at expanding grid capacity and…",
+          "published": "2026-11-23T05:51:57+00:00",
           "regional": true
         },
         {
@@ -503,14 +511,6 @@
           "source": "The Conversation",
           "summary": "Semer le radis fourrager aux bons mois peut aider les agriculteurs sud-africains à produire des aliments pour le bétail plus nutritifs, même sans irrigation.",
           "published": "2026-11-18T08:38:13+00:00",
-          "regional": true
-        },
-        {
-          "title": "Is solar energy only for the rich?",
-          "link": "https://www.rappler.com/philippines/video-rooftop-solar-financing-options/",
-          "source": "Rappler",
-          "summary": "Learn about the current options and possibilities for going solar",
-          "published": "2026-11-17T07:37:46+00:00",
           "regional": true
         },
         {
@@ -554,6 +554,14 @@
           "regional": true
         },
         {
+          "title": "Why electrification is the climate game changer we need",
+          "link": "https://www.dw.com/en/why-electrification-is-the-climate-game-changer-we-need/a-79615979?maca=en-rss_en_environment-22607-xml-mrss",
+          "source": "Deutsche Welle",
+          "summary": "From EVs and electric buses on the road, heat pumps warming homes and solar panels powering appliances, the shift to electrifying tech is already in full swing. But what exactly does \"electrification\" mean?",
+          "published": "2026-11-10T08:00:00+00:00",
+          "regional": true
+        },
+        {
           "title": "North Africa’s green hydrogen exports to Europe could harm water supply and marine life – study",
           "link": "https://theconversation.com/north-africas-green-hydrogen-exports-to-europe-could-harm-water-supply-and-marine-life-study-294368",
           "source": "The Conversation",
@@ -569,6 +577,22 @@
       "tagline": "New missions, spacecraft, and technologies — NASA, ESA, ISRO, JAXA, SpaceX, CNES, and more.",
       "accent": "#F0894E",
       "items": [
+        {
+          "title": "65 Years of Human Spaceflight at NASA Johnson",
+          "link": "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/",
+          "source": "NASA",
+          "summary": "For 65 years, NASA’s Johnson Space Center in Houston has helped shape human spaceflight, from the Gemini missions that demonstrated rendezvous and docking techniques needed for Apollo to the research conducted aboard…",
+          "published": "2026-11-22T19:13:25+00:00",
+          "regional": false
+        },
+        {
+          "title": "Mysterious Mercury gets a visitor - after spacecraft's eight-year epic voyage",
+          "link": "https://www.bbc.co.uk/news/articles/c39w9l4v1p9ro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "The mission is set to give us our best ever view of Mercury - the closest planet to the Sun.",
+          "published": "2026-11-22T10:44:12+00:00",
+          "regional": false
+        },
         {
           "title": "Curiosity Spots Drifting Twilight Clouds",
           "link": "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/",
@@ -586,27 +610,11 @@
           "regional": false
         },
         {
-          "title": "NASA Honor Awards Ceremony Recognizes Employees at Stennis Space Center",
-          "link": "https://www.nasa.gov/centers-and-facilities/stennis/honor-awards-ceremony-at-stennis/",
-          "source": "NASA",
-          "summary": "Employees contributing to NASA’s mission at the agency’s Stennis Space Center near Bay St. Louis, Mississippi, were recognized during the center’s Honor Awards ceremony on Nov. 18.",
-          "published": "2026-11-20T16:27:46+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA’s Curiosity Mars Rover Collects Samples",
           "link": "https://www.nasa.gov/image-article/nasas-curiosity-mars-rover-collects-samples/",
           "source": "NASA",
           "summary": "This Nov. 16 collage shows 49 drill holes captured by NASA’s Curiosity Mars rover as of November 2026. Each hole represents a sample collected from rocks on the Martian surface; Curiosity’s drill, located on the end of…",
           "published": "2026-11-20T15:53:24+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it",
-          "link": "https://www.sciencedaily.com/releases/2026/11/261120075554.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA’s Voyager 1 has reached an extraordinary milestone, traveling 16.1 billion miles from Earth to become the first spacecraft so distant that its signals take a full day to reach us.",
-          "published": "2026-11-20T12:55:54+00:00",
           "regional": false
         },
         {
@@ -762,11 +770,19 @@
           "regional": false
         },
         {
-          "title": "Google launches Gemini 4 Neon taking on Claude Opus 5.5 and GPT-6.2 Sol",
-          "link": "https://www.thehindu.com/sci-tech/technology/google-launches-gemini-4-neon-taking-on-claude-opus-55-and-gpt-62-sol/article71727599.ece",
+          "title": "Xiaomi reportedly hires former Xpeng Europe executive ahead of 2027 car launch",
+          "link": "https://technode.com/2026/11/23/xiaomi-reportedly-hires-former-xpeng-europe-executive-ahead-of-2027-car-launch/",
+          "source": "TechNode",
+          "summary": "Xiaomi has hired former Xpeng Western and Southern Europe managing director Qiang Shunqiang to lead its European car business, Jiemian reported, citing people familiar with the matter.",
+          "published": "2026-11-23T06:52:02+00:00",
+          "regional": true
+        },
+        {
+          "title": "Japan-Europe spacecraft BepiColombo begins orbit of Mercury, with a glitch reported",
+          "link": "https://www.thehindu.com/sci-tech/science/japan-europe-spacecraft-bepicolombo-begins-orbit-of-mercury-with-a-glitch-reported/article71733234.ece",
           "source": "The Hindu",
-          "summary": "Google said the new model was built for complex coding, analytical reasoning, and enterprise workflows",
-          "published": "2026-11-21T08:33:51+00:00",
+          "summary": "The mission will seek to answer questions about Mercury such as why it has a magnetic field, why ice exists in the polar craters of a sun-scorched planet, and what is the nature of enigmatic depressions called \"hollows\"…",
+          "published": "2026-11-23T05:24:30+00:00",
           "regional": true
         },
         {
@@ -791,14 +807,6 @@
           "source": "The Hindu",
           "summary": "NASA’s Voyager 1, humanity’s farthest spacecraft, is about to reach one light-day from Earth, more than 16 billion miles away; Know what it means",
           "published": "2026-11-18T05:00:29+00:00",
-          "regional": true
-        },
-        {
-          "title": "NASA's Voyager 1 reaches a light-day away from Earth",
-          "link": "https://www.dw.com/en/nasa-s-voyager-1-reaches-a-light-day-away-from-earth/a-79961817?maca=en-rss_en_science-22531-xml-mrss",
-          "source": "Deutsche Welle",
-          "summary": "When just saying 'hello' takes a two-day round trip, you're a light-day, or 26 billion kilometers, from Earth. Only one human-made object has ever traveled that far — and its journey into interstellar space continues.",
-          "published": "2026-11-16T17:24:00+00:00",
           "regional": true
         },
         {
@@ -849,6 +857,22 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "A mysterious gap hints at black holes born from stars that never exploded",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261121221126.htm",
+          "source": "ScienceDaily",
+          "summary": "Massive stars may be quietly collapsing into black holes without ever producing the spectacular supernova explosions scientists typically expect.",
+          "published": "2026-11-22T11:46:42+00:00",
+          "regional": false
+        },
+        {
+          "title": "Listen to the sounds of a baby star as it explodes into life",
+          "link": "https://www.scientificamerican.com/article/listen-to-the-sounds-of-a-baby-star-as-it-explodes-into-life/",
+          "source": "Scientific American",
+          "summary": "NASA just released a new album of sounds created from observations of stellar formation",
+          "published": "2026-11-22T11:00:00+00:00",
+          "regional": false
+        },
         {
           "title": "A giant star swallowed another star. James Webb reveals the aftermath",
           "link": "https://www.sciencedaily.com/releases/2026/11/261120075556.htm",
@@ -1026,20 +1050,12 @@
           "regional": false
         },
         {
-          "title": "A hidden star is plowing through Betelgeuse’s atmosphere, new evidence suggests",
-          "link": "https://www.sciencedaily.com/releases/2026/11/261103003149.htm",
-          "source": "ScienceDaily",
-          "summary": "Something mysterious is disturbing Betelgeuse, and astronomers believe they have identified the culprit: a hidden companion star called Siwarha.",
-          "published": "2026-11-04T02:52:16+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA's Hubble and Webb discover ancient worlds that remember their past",
-          "link": "https://www.sciencedaily.com/releases/2026/10/261031221209.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA’s Hubble and James Webb Space Telescopes have uncovered surprising clues about the solar system’s origins by studying 27 tiny, distant objects beyond Neptune.",
-          "published": "2026-11-02T03:07:01+00:00",
-          "regional": false
+          "title": "Japan-Europe spacecraft BepiColombo begins orbit of Mercury, with a glitch reported",
+          "link": "https://www.thehindu.com/sci-tech/science/japan-europe-spacecraft-bepicolombo-begins-orbit-of-mercury-with-a-glitch-reported/article71733234.ece",
+          "source": "The Hindu",
+          "summary": "The mission will seek to answer questions about Mercury such as why it has a magnetic field, why ice exists in the polar craters of a sun-scorched planet, and what is the nature of enigmatic depressions called \"hollows\"…",
+          "published": "2026-11-23T05:24:30+00:00",
+          "regional": true
         },
         {
           "title": "Neutrinos: Why these ghost particles matter",
@@ -1079,14 +1095,6 @@
           "source": "Max Planck Society",
           "summary": "Germany’s role in unveiling the dark Universe with the Euclid Space Telescope",
           "published": "2026-11-12T11:00:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "Gravitational-wave astronomy is entering its statistical era",
-          "link": "https://www.thehindu.com/sci-tech/science/gravitational-wave-astronomy-is-entering-its-statistical-era/article71681068.ece",
-          "source": "The Hindu",
-          "summary": "Humankind has a stake in understanding the universe simply, but no less importantly, because it can. And gravitational waves have emerged as a way for us to piece together the processes that shaped the cosmos long…",
-          "published": "2026-11-08T15:06:35+00:00",
           "regional": true
         }
       ]
