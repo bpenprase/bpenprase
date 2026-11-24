@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-23T09:04:19.687149+00:00",
-  "generated_human": "23 November 2026, 09:04 UTC",
-  "total_items": 131,
+  "generated": "2026-11-24T09:04:05.805974+00:00",
+  "generated_human": "24 November 2026, 09:04 UTC",
+  "total_items": 128,
   "channels": [
     {
       "key": "ai",
@@ -106,11 +106,27 @@
           "regional": false
         },
         {
-          "title": "AI chip boom lifts Samsung Electro-Mechanics ahead of LG Innotek in substrate profits",
-          "link": "https://www.koreaherald.com/article/10946536",
+          "title": "Hanwha to establish defense AI data center in Changwon",
+          "link": "https://www.koreaherald.com/article/10947959",
           "source": "The Korea Herald",
-          "summary": "Samsung Electro-Mechanics earned 2.7 times as much operating profit as LG Innotek in its substrate business in the first nine months of 2026, helped by sales of higher-value substrates for AI data centers.",
-          "published": "2026-11-23T08:51:33+00:00",
+          "summary": "Hanwha Aerospace said Tuesday it is building a defense AI data center in Changwon, South Gyeongsang Province, with initial operations targeted for July 2028 and an eventual capacity of 180 megawatts.",
+          "published": "2026-11-24T08:53:44+00:00",
+          "regional": true
+        },
+        {
+          "title": "China’s Z.ai ‘aggressively’ using looped transformer method to improve AI models",
+          "link": "https://www.scmp.com/tech/big-tech/article/3375517/chinas-zai-aggressively-using-looped-transformer-method-improve-ai-models",
+          "source": "South China Morning Post",
+          "summary": "Chinese artificial intelligence company Z.ai has credited an emerging technique – one that has drawn scrutiny from AI safety researchers – with helping its newly released flagship model achieve significant performance…",
+          "published": "2026-11-24T02:30:08+00:00",
+          "regional": true
+        },
+        {
+          "title": "Samsung, SK hynix, LG redraw playbooks for AI boom",
+          "link": "https://www.koreaherald.com/article/10946347",
+          "source": "The Korea Herald",
+          "summary": "Samsung Electronics, SK hynix and LG Electronics are putting experienced executives in charge of turning the artificial intelligence boom into business results, with their latest leadership reshuffles targeting chip…",
+          "published": "2026-11-23T06:31:35+00:00",
           "regional": true
         },
         {
@@ -119,14 +135,6 @@
           "source": "South China Morning Post",
           "summary": "Minds by Animoca Brands, an agentic artificial intelligence platform created by the Web3 firm, is riding on Hong Kong’s push to turn automated agents into everyday shopping tools, piloting live transactions on Visa’s…",
           "published": "2026-11-21T02:30:05+00:00",
-          "regional": true
-        },
-        {
-          "title": "Olive Young charts AI-led path to global beauty platform",
-          "link": "https://www.koreaherald.com/article/10942872",
-          "source": "The Korea Herald",
-          "summary": "CJ Olive Young plans to elevate its shopping experience with artificial intelligence and take its omnichannel model global, the beauty retailer said Thursday at its first tech conference.",
-          "published": "2026-11-19T21:00:00+00:00",
           "regional": true
         },
         {
@@ -175,14 +183,6 @@
           "source": "South China Morning Post",
           "summary": "China’s pure-play artificial intelligence chipmakers crossed an important milestone in the third quarter as several firms swung into profit, but severe supply chain hurdles and soaring memory costs cloud their long-term…",
           "published": "2026-11-06T10:30:06+00:00",
-          "regional": true
-        },
-        {
-          "title": "Chinese chipmaker Hua Hong bets big on silicon photonics amid AI boom",
-          "link": "https://www.scmp.com/tech/big-tech/article/3373445/chinese-chipmaker-hua-hong-bets-big-silicon-photonics-amid-ai-boom",
-          "source": "South China Morning Post",
-          "summary": "China’s second-largest contract chipmaker, Hua Hong Grace Semiconductor, is aggressively expanding into silicon photonics, as the company looks to capture the next wave of the global artificial intelligence…",
-          "published": "2026-11-05T13:27:39+00:00",
           "regional": true
         }
       ]
@@ -255,14 +255,6 @@
           "source": "ScienceDaily",
           "summary": "Scientists have developed a new carbon capture material that turns moisture from an obstacle into an advantage, potentially solving a major problem with removing CO2 from industrial emissions.",
           "published": "2026-11-17T11:29:36+00:00",
-          "regional": false
-        },
-        {
-          "title": "Why Nvidia is betting on silicon photonics to scale AI",
-          "link": "https://www.scientificamerican.com/article/why-nvidia-is-betting-on-silicon-photonics-to-scale-ai/",
-          "source": "Scientific American",
-          "summary": "By moving optics right next to the chips that run those networks, Nvidia aims to ease one of AI’s central data bottlenecks—and make itself even harder for the industry to do without",
-          "published": "2026-11-17T11:00:00+00:00",
           "regional": false
         },
         {
@@ -354,6 +346,22 @@
           "regional": false
         },
         {
+          "title": "Samsung pares promotions but elevates HBM4 engineers",
+          "link": "https://www.koreaherald.com/article/10947717",
+          "source": "The Korea Herald",
+          "summary": "Samsung Electronics on Tuesday promoted key engineers behind its AI memory business while reducing executive promotions by nearly 19 percent overall, rewarding strong semiconductor performance as it builds up talent in…",
+          "published": "2026-11-24T06:42:52+00:00",
+          "regional": true
+        },
+        {
+          "title": "Nvidia reinstates Jensen Huang as CEO after scandal-driven exit",
+          "link": "https://www.koreaherald.com/article/10946708",
+          "source": "The Korea Herald",
+          "summary": "The US semiconductor company said Monday that its board unanimously voted to restore Huang as president and CEO, effective immediately, after holding a series of discussions with him.",
+          "published": "2026-11-23T14:19:42+00:00",
+          "regional": true
+        },
+        {
           "title": "Can 2008-era tool stop the latest market rout?",
           "link": "https://www.koreaherald.com/article/10946448",
           "source": "The Korea Herald",
@@ -402,22 +410,6 @@
           "regional": true
         },
         {
-          "title": "Nanoscale pressure sensor enables real-time measurement of microscopic environments in living tissues",
-          "link": "https://sj.jst.go.jp/news/202611/n1120-02k.html",
-          "source": "Science Japan",
-          "summary": "A research group led by Hayato Mizuno, Assistant Professor, and Yasutaka Anraku, Associate Professor of the School of Materials and Chemical Technology at the Institute of Science Tokyo, in collaboration with Yuki…",
-          "published": "2026-11-20T04:31:33+00:00",
-          "regional": true
-        },
-        {
-          "title": "How semiconductors powered South Korea’s $1tr export milestone",
-          "link": "https://www.koreaherald.com/article/10943146",
-          "source": "The Korea Herald",
-          "summary": "Semiconductors were the driving force behind South Korea’s first $1 trillion in annual exports, as surging demand for AI memory chips and rising prices fueled overseas sales.",
-          "published": "2026-11-19T08:59:52+00:00",
-          "regional": true
-        },
-        {
           "title": "Green chemistry: Producing hydrogen peroxide more efficiently",
           "link": "https://www.mpg.de/27052948/making-the-sustainable-production-of-hydrogen-peroxide-more-efficient",
           "source": "Max Planck Society",
@@ -440,16 +432,7 @@
       "name": "Synthetic Biology",
       "tagline": "Engineered organisms and programmed DNA — cells built for computing, data storage, and chemical synthesis.",
       "accent": "#5FBF9B",
-      "items": [
-        {
-          "title": "NIH director calls for new probe of controversial COVID-19 origin paper",
-          "link": "https://www.science.org/content/article/nih-director-calls-new-probe-controversial-covid-19-origin-paper",
-          "source": "Science (AAAS)",
-          "summary": "Bhattacharya wants Nature Medicine to review whether former NIH leaders ghostwrote manuscript challenging theory an engineered virus caused pandemic",
-          "published": "2026-11-18T04:49:00+00:00",
-          "regional": false
-        }
-      ]
+      "items": []
     },
     {
       "key": "energywater",
@@ -560,14 +543,6 @@
           "summary": "From EVs and electric buses on the road, heat pumps warming homes and solar panels powering appliances, the shift to electrifying tech is already in full swing. But what exactly does \"electrification\" mean?",
           "published": "2026-11-10T08:00:00+00:00",
           "regional": true
-        },
-        {
-          "title": "North Africa’s green hydrogen exports to Europe could harm water supply and marine life – study",
-          "link": "https://theconversation.com/north-africas-green-hydrogen-exports-to-europe-could-harm-water-supply-and-marine-life-study-294368",
-          "source": "The Conversation",
-          "summary": "European countries want north Africa to set up green hydrogen industries for them, but this will come at a huge cost to water supplies and coastal areas.",
-          "published": "2026-11-03T14:09:22+00:00",
-          "regional": true
         }
       ]
     },
@@ -578,43 +553,51 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "NASA Awards Contract for NOAA’s Near Earth Orbit Network Program",
+          "link": "https://www.nasa.gov/news-release/nasa-awards-contract-for-noaas-near-earth-orbit-network-program/",
+          "source": "NASA",
+          "summary": "NASA, on behalf of the National Oceanic and Atmospheric Administration (NOAA), has awarded a contract to Northrop Grumman Systems Corporation for the Sounder for Microwave-Based Applications (SMBA) instruments on NOAA’s…",
+          "published": "2026-11-23T21:10:03+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Seeks Partners to Design First Nuclear Reactor for the Moon",
+          "link": "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/",
+          "source": "NASA",
+          "summary": "NASA is seeking industry partners to develop and test the first nuclear reactor designed to provide electricity on the Moon, a major step toward establishing a sustained human presence on the lunar surface.",
+          "published": "2026-11-23T17:23:50+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA+ Documentary Captures Europa Clipper’s Journey Into Deep Space",
+          "link": "https://www.nasa.gov/missions/europa-clipper/nasa-documentary-captures-europa-clippers-journey-into-deep-space/",
+          "source": "NASA",
+          "summary": "NASA invites the world behind the scenes to witness the story of Europa Clipper’s journey from a far-off vision to a cutting-edge deep space exploration mission with the release of the agency’s newest documentary, “The…",
+          "published": "2026-11-23T16:08:23+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Webb Shows How Supernova Dust Chronicles Star Evolution",
+          "link": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/",
+          "source": "NASA",
+          "summary": "NASA’s James Webb Space Telescope has painted a vibrant tapestry of the legendary supernova remnant Cassiopeia A (Cas A).",
+          "published": "2026-11-23T15:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Voyager 1, SpaceX Starship and BepiColombo mark major space milestones",
+          "link": "https://www.scientificamerican.com/podcast/episode/voyager-1-spacex-starship-and-bepicolombo-mark-major-space-milestones/",
+          "source": "Scientific American",
+          "summary": "Three major milestones showcase the next era of space exploration",
+          "published": "2026-11-23T11:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "65 Years of Human Spaceflight at NASA Johnson",
           "link": "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/",
           "source": "NASA",
           "summary": "For 65 years, NASA’s Johnson Space Center in Houston has helped shape human spaceflight, from the Gemini missions that demonstrated rendezvous and docking techniques needed for Apollo to the research conducted aboard…",
           "published": "2026-11-22T19:13:25+00:00",
-          "regional": false
-        },
-        {
-          "title": "Mysterious Mercury gets a visitor - after spacecraft's eight-year epic voyage",
-          "link": "https://www.bbc.co.uk/news/articles/c39w9l4v1p9ro?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "The mission is set to give us our best ever view of Mercury - the closest planet to the Sun.",
-          "published": "2026-11-22T10:44:12+00:00",
-          "regional": false
-        },
-        {
-          "title": "Curiosity Spots Drifting Twilight Clouds",
-          "link": "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/",
-          "source": "NASA",
-          "summary": "Description NASA’s Curiosity Mars rover captured these drifting clouds on Oct. 31, 2026, the 5,061st Martian day, or sol, of the mission.",
-          "published": "2026-11-20T22:27:05+00:00",
-          "regional": false
-        },
-        {
-          "title": "New NASA Seed Funding Primes Small Businesses for Innovation",
-          "link": "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation/",
-          "source": "NASA",
-          "summary": "Awards to small businesses around the country are addressing some of NASA’s most crucial technology needs for exploration of the Moon and Mars while fueling the U.S. space economy.",
-          "published": "2026-11-20T20:46:14+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Curiosity Mars Rover Collects Samples",
-          "link": "https://www.nasa.gov/image-article/nasas-curiosity-mars-rover-collects-samples/",
-          "source": "NASA",
-          "summary": "This Nov. 16 collage shows 49 drill holes captured by NASA’s Curiosity Mars rover as of November 2026. Each hole represents a sample collected from rocks on the Martian surface; Curiosity’s drill, located on the end of…",
-          "published": "2026-11-20T15:53:24+00:00",
           "regional": false
         },
         {
@@ -762,19 +745,19 @@
           "regional": false
         },
         {
-          "title": "NASA’s Perseverance Mars rover breaks historic record after traveling 28 miles",
-          "link": "https://www.sciencedaily.com/releases/2026/11/261101010536.htm",
-          "source": "ScienceDaily",
-          "summary": "NASA’s Perseverance rover has set a historic record by traveling 28.10 miles across Mars, farther than any vehicle has ever driven on another world.",
-          "published": "2026-11-02T11:28:04+00:00",
-          "regional": false
+          "title": "What happens if a nuclear weapon explodes in space?",
+          "link": "https://www.dw.com/en/what-happens-if-a-nuclear-weapon-explodes-in-space/a-80025827?maca=en-rss_en_science-22531-xml-mrss",
+          "source": "Deutsche Welle",
+          "summary": "Earth's atmosphere offers protection from a nuclear blast in space, but satellites are more exposed. We explain how radiation could damage them, why the effects can linger and what protection is possible.",
+          "published": "2026-11-24T08:34:00+00:00",
+          "regional": true
         },
         {
-          "title": "Xiaomi reportedly hires former Xpeng Europe executive ahead of 2027 car launch",
-          "link": "https://technode.com/2026/11/23/xiaomi-reportedly-hires-former-xpeng-europe-executive-ahead-of-2027-car-launch/",
-          "source": "TechNode",
-          "summary": "Xiaomi has hired former Xpeng Western and Southern Europe managing director Qiang Shunqiang to lead its European car business, Jiemian reported, citing people familiar with the matter.",
-          "published": "2026-11-23T06:52:02+00:00",
+          "title": "China's Shenzhou-24 spaceship to include first foreign astronaut from Pakistan",
+          "link": "https://www.thehindu.com/sci-tech/science/chinas-shenzhou-24-spaceship-to-include-first-foreign-astronaut-from-pakistan/article71737165.ece",
+          "source": "The Hindu",
+          "summary": "Pakistani payload specialist Zeeshan Ali's participation is ‌part of bilateral cooperation under Beijing’s ‌Belt ⁠and Road Initiative",
+          "published": "2026-11-24T04:22:29+00:00",
           "regional": true
         },
         {
@@ -786,14 +769,6 @@
           "regional": true
         },
         {
-          "title": "Pune startup develops atomic clock prototype amid growing export curbs on critical technologies",
-          "link": "https://www.thehindu.com/sci-tech/technology/pune-startup-develops-atomic-clock-prototype-amid-growing-export-curbs-on-critical-technologies/article71727456.ece",
-          "source": "The Hindu",
-          "summary": "Atomic clocks are critical to satellite navigation, telecommunications, space missions and strategic systems, where highly precise and stable timekeeping is essential.",
-          "published": "2026-11-21T06:33:51+00:00",
-          "regional": true
-        },
-        {
           "title": "How did ISRO pick astronaut candidates for the Gaganyaan mission?",
           "link": "https://www.thehindu.com/sci-tech/science/how-did-isro-pick-astronaut-candidates-for-the-gaganyaan-mission/article71707743.ece",
           "source": "The Hindu",
@@ -802,19 +777,19 @@
           "regional": true
         },
         {
-          "title": "NASA’s Voyager 1 reaches one light-day from Earth on November 18: What does it mean?",
-          "link": "https://www.thehindu.com/sci-tech/science/voyager-1-reaches-one-light-day-from-earth-on-november-18-what-it-means-nasa-latest-news/article71704297.ece",
-          "source": "The Hindu",
-          "summary": "NASA’s Voyager 1, humanity’s farthest spacecraft, is about to reach one light-day from Earth, more than 16 billion miles away; Know what it means",
-          "published": "2026-11-18T05:00:29+00:00",
-          "regional": true
-        },
-        {
           "title": "Orbital computing could let scientists rent ‘brainpower’ in space",
           "link": "https://www.thehindu.com/sci-tech/science/orbital-computing-could-let-scientists-rent-brainpower-in-space/article71707329.ece",
           "source": "The Hindu",
           "summary": "To bridge the gap between data being recorded by satellites and data being available to users on the ground, operators are pursuing a solution called in-orbit computing: the basic idea is to analyse some data onboard…",
           "published": "2026-11-16T13:01:30+00:00",
+          "regional": true
+        },
+        {
+          "title": "Rocket from Boeing-Lockheed firm fails mid-flight, destroys payload of Amazon satellites",
+          "link": "https://indianexpress.com/article/technology/science/rocket-from-boeing-lockheed-firm-fails-mid-flight-destroys-payload-of-amazon-satellites-10964766/",
+          "source": "Indian Express",
+          "summary": "",
+          "published": "2026-11-16T04:15:46+00:00",
           "regional": true
         },
         {
@@ -857,6 +832,22 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "A galactic shock wave could rewrite the map of the Milky Way",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261122060329.htm",
+          "source": "ScienceDaily",
+          "summary": "A surprising discovery suggests the Milky Way may be making stars in places where most galaxies cannot. Scientists found evidence that a massive rotating structure near the galactic center is creating powerful shock…",
+          "published": "2026-11-23T11:41:39+00:00",
+          "regional": false
+        },
+        {
+          "title": "Two monster black holes from the dawn of time defy explanation",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261122060342.htm",
+          "source": "ScienceDaily",
+          "summary": "Astronomers have discovered the oldest known compact pair of quasars, powered by two enormous black holes that existed just 900 million years after the Big Bang.",
+          "published": "2026-11-23T11:21:06+00:00",
+          "regional": false
+        },
         {
           "title": "A mysterious gap hints at black holes born from stars that never exploded",
           "link": "https://www.sciencedaily.com/releases/2026/11/261121221126.htm",
@@ -930,14 +921,6 @@
           "regional": false
         },
         {
-          "title": "A 52,000-year-old runaway star was a long-standing cosmic cold case. Now scientists think they’ve cracked it",
-          "link": "https://www.scientificamerican.com/article/a-52-000-year-old-runaway-star-was-a-long-standing-cosmic-cold-case-now-scientists-think-theyve-cracked-it/",
-          "source": "Scientific American",
-          "summary": "A stubborn stellar mystery is finally solved",
-          "published": "2026-11-17T11:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "Pupils fascinated by space get astronomy lesson",
           "link": "https://www.bbc.co.uk/news/articles/c67428w9vvkqo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
@@ -967,14 +950,6 @@
           "source": "ScienceDaily",
           "summary": "Astronomers have uncovered a potentially enormous new dwarf planet beyond Pluto, hidden for years in one of the most crowded regions of the night sky.",
           "published": "2026-11-14T11:58:42+00:00",
-          "regional": false
-        },
-        {
-          "title": "Dark energy may have flipped from negative to positive 9.5 billion years ago",
-          "link": "https://www.sciencedaily.com/releases/2026/11/261111005901.htm",
-          "source": "ScienceDaily",
-          "summary": "A mysterious force driving the expansion of the Universe may have undergone a dramatic reversal billions of years ago.",
-          "published": "2026-11-13T11:08:34+00:00",
           "regional": false
         },
         {
