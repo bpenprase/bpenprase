@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-24T09:04:05.805974+00:00",
-  "generated_human": "24 November 2026, 09:04 UTC",
+  "generated": "2026-11-25T09:03:27.404998+00:00",
+  "generated_human": "25 November 2026, 09:03 UTC",
   "total_items": 128,
   "channels": [
     {
@@ -66,14 +66,6 @@
           "regional": false
         },
         {
-          "title": "Exclusive: I got to eavesdrop on AI agents doing science. It was eye opening",
-          "link": "https://www.science.org/content/article/exclusive-i-got-eavesdrop-ai-agents-doing-science-it-was-eye-opening",
-          "source": "Science (AAAS)",
-          "summary": "936 agents exchanged thousands of messages, each publishing end-to-end research on their own preprint server. But was it any good?",
-          "published": "2026-11-19T04:08:12+00:00",
-          "regional": false
-        },
-        {
           "title": "AI Is Giving Optical Computing Another Shot",
           "link": "https://spectrum.ieee.org/optical-computing-ai",
           "source": "IEEE Spectrum",
@@ -106,11 +98,35 @@
           "regional": false
         },
         {
-          "title": "Hanwha to establish defense AI data center in Changwon",
-          "link": "https://www.koreaherald.com/article/10947959",
+          "title": "AmCham hosts Korea-US AI talks with Apple, AWS and Qualcomm",
+          "link": "https://www.koreaherald.com/article/10949349",
           "source": "The Korea Herald",
-          "summary": "Hanwha Aerospace said Tuesday it is building a defense AI data center in Changwon, South Gyeongsang Province, with initial operations targeted for July 2028 and an eventual capacity of 180 megawatts.",
-          "published": "2026-11-24T08:53:44+00:00",
+          "summary": "Representatives from Apple, Amazon Web Services and Qualcomm met with South Korean AI policymaker Ha Jung-woo on Wednesday to discuss how US companies could help expand Korea’s AI infrastructure and speed up AI adoption…",
+          "published": "2026-11-25T08:15:51+00:00",
+          "regional": true
+        },
+        {
+          "title": "OceanBase’s Databricks moment: Building an enterprise AI platform on its core database roots",
+          "link": "https://technode.com/2026/11/25/oceanbases-databricks-moment-building-an-enterprise-ai-platform-on-its-core-database-roots/",
+          "source": "TechNode",
+          "summary": "OceanBase made its name keeping payment systems and core banking workloads running. Now it wants to help enterprises run AI agents. On the surface, those are different businesses.",
+          "published": "2026-11-25T07:00:16+00:00",
+          "regional": true
+        },
+        {
+          "title": "AI cracks math’s most famous problem. Have mathematicians lost a guiding light?",
+          "link": "https://www.thehindu.com/sci-tech/science/anthropic-scientist-claims-proof-of-maths-most-famous-problem-with-ai-help/article71727161.ece",
+          "source": "The Hindu",
+          "summary": "Levent Alpöge of Anthropic has announced that he and the company’s AI model Claude have found a proof of the Riemann hypothesis, which concerns the distribution of prime numbers.",
+          "published": "2026-11-25T04:55:30+00:00",
+          "regional": true
+        },
+        {
+          "title": "AI agent accounts on Bilibili and beyond: Who owns the conversation?",
+          "link": "https://technode.com/2026/11/25/ai-agent-accounts-on-bilibili-and-beyond-who-owns-the-conversation/",
+          "source": "TechNode",
+          "summary": "AI agent accounts are starting to make their presence felt on Bilibili. Some go by names such as “Big Fat Fish” (大肥鱼) and “Little Flying Whale” (小飞鲸), posting videos and interacting with other accounts in comment…",
+          "published": "2026-11-25T02:52:09+00:00",
           "regional": true
         },
         {
@@ -160,30 +176,6 @@
           "summary": "Generative AI is transforming science, industry, and society while raising urgent questions about governance and public participation.",
           "published": "2026-11-09T23:00:00+00:00",
           "regional": true
-        },
-        {
-          "title": "Can DeepSeek challenge OpenAI, Anthropic in AI agents as Harness adoption takes off?",
-          "link": "https://www.scmp.com/tech/big-tech/article/3373757/can-deepseek-challenge-openai-anthropic-ai-agents-harness-adoption-takes",
-          "source": "South China Morning Post",
-          "summary": "DeepSeek’s Harness artificial intelligence agent framework has reached 1.54 million daily active users less than three months after launch, the Chinese AI champion said on Sunday, marking rapid growth in a new…",
-          "published": "2026-11-09T07:00:04+00:00",
-          "regional": true
-        },
-        {
-          "title": "AI will soon master biology, unleashing new safety risks, Tencent AI chief warns",
-          "link": "https://www.scmp.com/tech/big-tech/article/3373697/ai-will-soon-master-biology-unleashing-new-safety-risks-tencent-ai-chief-warns",
-          "source": "South China Morning Post",
-          "summary": "Artificial intelligence models will soon be powerful enough to master biology, presenting both benefits and serious risks, Tencent Holdings’ chief AI scientist and former OpenAI star researcher Vinces Yao Shunyu said…",
-          "published": "2026-11-08T10:22:27+00:00",
-          "regional": true
-        },
-        {
-          "title": "China’s AI chipmakers report first profits, but will the trend continue?",
-          "link": "https://www.scmp.com/tech/big-tech/article/3373532/chinas-ai-chipmakers-report-first-profits-will-trend-continue",
-          "source": "South China Morning Post",
-          "summary": "China’s pure-play artificial intelligence chipmakers crossed an important milestone in the third quarter as several firms swung into profit, but severe supply chain hurdles and soaring memory costs cloud their long-term…",
-          "published": "2026-11-06T10:30:06+00:00",
-          "regional": true
         }
       ]
     },
@@ -193,6 +185,14 @@
       "tagline": "New molecules, metals, and polymers for cleaner energy, water, and air.",
       "accent": "#E8A13A",
       "items": [
+        {
+          "title": "A simple metal is hiding a strange new form of magnetism",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261123005341.htm",
+          "source": "ScienceDaily",
+          "summary": "Scientists have discovered a strange form of magnetism in an ordinary-looking metal that has no overall magnetization yet profoundly changes how electrons behave.",
+          "published": "2026-11-24T11:18:20+00:00",
+          "regional": false
+        },
         {
           "title": "What do other planets smell like? The answer hides in their chemistry",
           "link": "https://www.scientificamerican.com/article/what-do-other-planets-smell-like-the-answer-hides-in-their-chemistry/",
@@ -223,14 +223,6 @@
           "source": "Scientific American",
           "summary": "Lead azide is used to make explosives, but it can also form unstable crystals that can detonate spontaneously",
           "published": "2026-11-19T21:20:00+00:00",
-          "regional": false
-        },
-        {
-          "title": "Chemists are uncovering a hidden world of pollution",
-          "link": "https://www.science.org/content/article/chemists-are-uncovering-hidden-world-pollution",
-          "source": "Science (AAAS)",
-          "summary": "New analytical tools are revealing thousands of chemicals that conventional tests miss",
-          "published": "2026-11-19T02:00:00+00:00",
           "regional": false
         },
         {
@@ -346,11 +338,35 @@
           "regional": false
         },
         {
+          "title": "Samsung Display to become ams Osram’s largest shareholder",
+          "link": "https://www.koreaherald.com/article/10949386",
+          "source": "The Korea Herald",
+          "summary": "Samsung Display said Wednesday it had agreed to buy a 9.1 percent stake in Austrian semiconductor maker ams Osram for 210 million euros ($230 million) as part of a partnership to develop ultra-small micro-LEDs for…",
+          "published": "2026-11-25T08:43:11+00:00",
+          "regional": true
+        },
+        {
+          "title": "AI trust crisis exposes cracks in Korea's stock market",
+          "link": "https://www.koreaherald.com/article/10949190",
+          "source": "The Korea Herald",
+          "summary": "South Korea's stock market has lost nearly half its value in five months, as doubts about returns on artificial intelligence investment expose the risks of its heavy reliance on semiconductor stocks.",
+          "published": "2026-11-25T06:41:03+00:00",
+          "regional": true
+        },
+        {
           "title": "Samsung pares promotions but elevates HBM4 engineers",
           "link": "https://www.koreaherald.com/article/10947717",
           "source": "The Korea Herald",
           "summary": "Samsung Electronics on Tuesday promoted key engineers behind its AI memory business while reducing executive promotions by nearly 19 percent overall, rewarding strong semiconductor performance as it builds up talent in…",
           "published": "2026-11-24T06:42:52+00:00",
+          "regional": true
+        },
+        {
+          "title": "Micron recruits Korean chip engineers for Asian operations",
+          "link": "https://www.koreaherald.com/article/10947716",
+          "source": "The Korea Herald",
+          "summary": "US memory chipmaker Micron Technology has launched a recruitment drive in South Korea, seeking engineers for its Asian operations in roles ranging from semiconductor manufacturing to advanced packaging and HBM chip…",
+          "published": "2026-11-24T06:42:34+00:00",
           "regional": true
         },
         {
@@ -370,43 +386,19 @@
           "regional": true
         },
         {
-          "title": "Exports more than double in 1st 20 days of Nov., with chip shipments surging to new high",
-          "link": "https://www.koreaherald.com/article/10945683",
-          "source": "The Korea Herald",
-          "summary": "South Korea's exports more than doubled during the first 20 days of November, with shipments of semiconductors surging to a record high, customs data showed Monday. Outbound shipments reached $77.4 billion in the Nov.",
-          "published": "2026-11-23T00:58:25+00:00",
-          "regional": true
-        },
-        {
-          "title": "BOK likely to hike interest rate on resilient growth, inflation",
-          "link": "https://www.koreaherald.com/article/10945119",
-          "source": "The Korea Herald",
-          "summary": "The Bank of Korea is expected to raise its benchmark interest rate by 0.25 percentage point on Thursday, as resilient growth fueled by a semiconductor boom adds to inflationary pressures.",
-          "published": "2026-11-22T05:46:28+00:00",
-          "regional": true
-        },
-        {
-          "title": "Samsung, SK hynix tumble as analysts split on chip outlook",
-          "link": "https://www.koreaherald.com/article/10944729",
-          "source": "The Korea Herald",
-          "summary": "Samsung Electronics and SK hynix shares plunged Friday amid a Wall Street tech sell-off and growing concerns over an AI bubble, fueling a debate over the semiconductor outlook.",
-          "published": "2026-11-21T07:48:43+00:00",
-          "regional": true
-        },
-        {
-          "title": "Bitcoin outlook darkens as analysts warn of further losses",
-          "link": "https://www.koreaherald.com/article/10944623",
-          "source": "The Korea Herald",
-          "summary": "Pessimism is spreading across the cryptocurrency market. Analysts who predicted Bitcoin would hit a record high by year-end just months ago are now warning of further losses, citing a lack of positive catalysts and…",
-          "published": "2026-11-21T02:50:06+00:00",
-          "regional": true
-        },
-        {
           "title": "Nvidia faces further blow after shock US export permit data release: analysts",
           "link": "https://www.scmp.com/tech/big-tech/article/3375287/nvidia-faces-further-blow-after-shock-us-export-permit-data-release-analysts",
           "source": "South China Morning Post",
           "summary": "US lawmakers have thrown the cross-border semiconductor trade into fresh turmoil after releasing confidential licensing records showing Washington approved the sale of nearly 880,000 advanced AI chips to Chinese tech…",
           "published": "2026-11-21T01:00:13+00:00",
+          "regional": true
+        },
+        {
+          "title": "Nanoscale pressure sensor enables real-time measurement of microscopic environments in living tissues",
+          "link": "https://sj.jst.go.jp/news/202611/n1120-02k.html",
+          "source": "Science Japan",
+          "summary": "A research group led by Hayato Mizuno, Assistant Professor, and Yasutaka Anraku, Associate Professor of the School of Materials and Chemical Technology at the Institute of Science Tokyo, in collaboration with Yuki…",
+          "published": "2026-11-20T04:31:33+00:00",
           "regional": true
         },
         {
@@ -481,14 +473,6 @@
           "regional": true
         },
         {
-          "title": "LS Cable & System to supply W700b in cables for New York power grid project",
-          "link": "https://www.koreaherald.com/article/10946276",
-          "source": "The Korea Herald",
-          "summary": "South Korean cable-maker LS Cable & System said Monday it will supply about 700 billion won ($520 million) worth of high-voltage cables for a major New York transmission project, aimed at expanding grid capacity and…",
-          "published": "2026-11-23T05:51:57+00:00",
-          "regional": true
-        },
-        {
           "title": "Super El Niño : quand le calendrier des semis devient un atout pour nourrir le bétail",
           "link": "https://theconversation.com/super-el-nino-quand-le-calendrier-des-semis-devient-un-atout-pour-nourrir-le-betail-296716",
           "source": "The Conversation",
@@ -553,35 +537,51 @@
       "accent": "#F0894E",
       "items": [
         {
-          "title": "NASA Awards Contract for NOAA’s Near Earth Orbit Network Program",
-          "link": "https://www.nasa.gov/news-release/nasa-awards-contract-for-noaas-near-earth-orbit-network-program/",
-          "source": "NASA",
-          "summary": "NASA, on behalf of the National Oceanic and Atmospheric Administration (NOAA), has awarded a contract to Northrop Grumman Systems Corporation for the Sounder for Microwave-Based Applications (SMBA) instruments on NOAA’s…",
-          "published": "2026-11-23T21:10:03+00:00",
+          "title": "Four years after huge asteroid crash, a spacecraft has now returned to assess the damage",
+          "link": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "The mission is studying an asteroid deliberately knocked off course by a colliding spacecraft.",
+          "published": "2026-11-25T06:00:36+00:00",
           "regional": false
         },
         {
-          "title": "NASA Seeks Partners to Design First Nuclear Reactor for the Moon",
-          "link": "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/",
-          "source": "NASA",
-          "summary": "NASA is seeking industry partners to develop and test the first nuclear reactor designed to provide electricity on the Moon, a major step toward establishing a sustained human presence on the lunar surface.",
-          "published": "2026-11-23T17:23:50+00:00",
+          "title": "China's Shenzhou-24 carries Pakistan's first astronaut into space",
+          "link": "https://www.bbc.co.uk/news/articles/c6x2e0j3kx28o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "Muhammad Zeeshan Ali, a former fighter pilot, is the first foreigner to join a Chinese crewed space mission.",
+          "published": "2026-11-25T04:46:23+00:00",
           "regional": false
         },
         {
-          "title": "NASA+ Documentary Captures Europa Clipper’s Journey Into Deep Space",
-          "link": "https://www.nasa.gov/missions/europa-clipper/nasa-documentary-captures-europa-clippers-journey-into-deep-space/",
+          "title": "Teams Lock in Mission Architecture for NASA’s SR-1 Freedom",
+          "link": "https://www.nasa.gov/general/nasa-locks-in-sr1-freedom-mission-architecture/",
           "source": "NASA",
-          "summary": "NASA invites the world behind the scenes to witness the story of Europa Clipper’s journey from a far-off vision to a cutting-edge deep space exploration mission with the release of the agency’s newest documentary, “The…",
-          "published": "2026-11-23T16:08:23+00:00",
+          "summary": "NASA completed a major review for Space Reactor-1 (SR-1) Freedom and locked in key elements of the spacecraft, which is targeted to launch in 2028 and demonstrate nuclear electric propulsion in deep space for the first…",
+          "published": "2026-11-24T21:04:32+00:00",
           "regional": false
         },
         {
-          "title": "NASA’s Webb Shows How Supernova Dust Chronicles Star Evolution",
-          "link": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/",
+          "title": "NASA’s Northrop Grumman CRS-25 Mission Overview",
+          "link": "https://www.nasa.gov/missions/station/nasas-northrop-grumman-crs-25-mission-overview/",
           "source": "NASA",
-          "summary": "NASA’s James Webb Space Telescope has painted a vibrant tapestry of the legendary supernova remnant Cassiopeia A (Cas A).",
-          "published": "2026-11-23T15:00:00+00:00",
+          "summary": "NASA’s Northrop Grumman Commercial Resupply Services 25 mission, or Northrop Grumman CRS-25, will deliver about 11,000 pounds of science and supplies to the International Space Station.",
+          "published": "2026-11-24T19:09:16+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Titan-Bound Dragonfly Rotorcraft Gets Its Eyes",
+          "link": "https://science.nasa.gov/missions/dragonfly/nasas-titan-bound-dragonfly-rotorcraft-gets-its-eyes/",
+          "source": "NASA",
+          "summary": "Science instruments for NASA’s Dragonfly are starting to arrive at the Johns Hopkins Applied Physics Laboratory (APL) in Laurel, Maryland, where the car-sized rotorcraft is coming together for its mission to explore…",
+          "published": "2026-11-24T15:44:38+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA Hubble’s New View of NGC 4394 Raises the Bar",
+          "link": "https://science.nasa.gov/missions/hubble/nasa-hubbles-new-view-of-ngc-4394-raises-the-bar/",
+          "source": "NASA",
+          "summary": "The brilliant galaxy NGC 4394 with its distinct galactic bar takes center stage in this Hubble Space Telescope image",
+          "published": "2026-11-24T13:58:28+00:00",
           "regional": false
         },
         {
@@ -593,11 +593,11 @@
           "regional": false
         },
         {
-          "title": "65 Years of Human Spaceflight at NASA Johnson",
-          "link": "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/",
-          "source": "NASA",
-          "summary": "For 65 years, NASA’s Johnson Space Center in Houston has helped shape human spaceflight, from the Gemini missions that demonstrated rendezvous and docking techniques needed for Apollo to the research conducted aboard…",
-          "published": "2026-11-22T19:13:25+00:00",
+          "title": "Mysterious Mercury gets a visitor - after spacecraft's eight-year epic voyage",
+          "link": "https://www.bbc.co.uk/news/articles/c39w9l4v1p9ro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "The mission is set to give us our best ever view of Mercury - the closest planet to the Sun.",
+          "published": "2026-11-22T10:44:12+00:00",
           "regional": false
         },
         {
@@ -673,14 +673,6 @@
           "regional": false
         },
         {
-          "title": "SpaceX catches part of its Starship rocket on return to Earth",
-          "link": "https://www.bbc.co.uk/news/videos/cw23j8pkk421o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "SpaceX has performed the historic catch using mechanical arms nicknamed \"chopsticks\".",
-          "published": "2026-11-14T23:15:10+00:00",
-          "regional": false
-        },
-        {
           "title": "SpaceX successfully catches top of huge Starship rocket for first time",
           "link": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
@@ -729,14 +721,6 @@
           "regional": false
         },
         {
-          "title": "Prometheus reusable rocket engine fires up at improved test bench",
-          "link": "https://www.esa.int/articles/about-us/directorates/space-transportation/future-space-transportation/prometheus-reusable-rocket-engine-fires-up-at-improved-test-bench",
-          "source": "ESA",
-          "summary": "The Prometheus firing tests validated both the upgraded test bench and a new way of producing the engine’s combustion chamber.",
-          "published": "2026-11-06T08:56:52+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA is racing against time to save the Hubble Space Telescope",
           "link": "https://www.sciencedaily.com/releases/2026/11/261104012254.htm",
           "source": "ScienceDaily",
@@ -745,11 +729,27 @@
           "regional": false
         },
         {
-          "title": "What happens if a nuclear weapon explodes in space?",
-          "link": "https://www.dw.com/en/what-happens-if-a-nuclear-weapon-explodes-in-space/a-80025827?maca=en-rss_en_science-22531-xml-mrss",
-          "source": "Deutsche Welle",
-          "summary": "Earth's atmosphere offers protection from a nuclear blast in space, but satellites are more exposed. We explain how radiation could damage them, why the effects can linger and what protection is possible.",
-          "published": "2026-11-24T08:34:00+00:00",
+          "title": "China launches crewed spaceship carrying first Pakistani astronaut to its space station",
+          "link": "https://www.thehindu.com/sci-tech/science/chinas-shenzhou-24-space-flight-takes-off-with-pakistani-national-as-first-foreign-astronaut/article71740891.ece",
+          "source": "The Hindu",
+          "summary": "Using a Long March-2F rocket, the spacecraft took ‌off at 8:18 a.m. (0018 GMT) ‌from ⁠the Jiuquan Satellite Launch Centre ⁠in northwest China",
+          "published": "2026-11-25T06:11:02+00:00",
+          "regional": true
+        },
+        {
+          "title": "Indian space companies sign largest-of-its-kind deal on satellite systems",
+          "link": "https://www.thehindu.com/business/Industry/indian-space-companies-sign-largest-of-its-kind-deal-on-satellite-systems/article71739125.ece",
+          "source": "The Hindu",
+          "summary": "Bellatrix Aerospace to supply in-space propulsion systems for GalaxEye’s 30 satellites",
+          "published": "2026-11-24T15:57:58+00:00",
+          "regional": true
+        },
+        {
+          "title": "Japan-Europe spacecraft BepiColombo begins orbit of Mercury, with a glitch reported",
+          "link": "https://www.thehindu.com/sci-tech/science/japan-europe-spacecraft-bepicolombo-begins-orbit-of-mercury-with-a-glitch-reported/article71733234.ece",
+          "source": "The Hindu",
+          "summary": "The mission will seek to answer questions about Mercury such as why it has a magnetic field, why ice exists in the polar craters of a sun-scorched planet, and what is the nature of enigmatic depressions called \"hollows\"…",
+          "published": "2026-11-24T04:52:01+00:00",
           "regional": true
         },
         {
@@ -758,14 +758,6 @@
           "source": "The Hindu",
           "summary": "Pakistani payload specialist Zeeshan Ali's participation is ‌part of bilateral cooperation under Beijing’s ‌Belt ⁠and Road Initiative",
           "published": "2026-11-24T04:22:29+00:00",
-          "regional": true
-        },
-        {
-          "title": "Japan-Europe spacecraft BepiColombo begins orbit of Mercury, with a glitch reported",
-          "link": "https://www.thehindu.com/sci-tech/science/japan-europe-spacecraft-bepicolombo-begins-orbit-of-mercury-with-a-glitch-reported/article71733234.ece",
-          "source": "The Hindu",
-          "summary": "The mission will seek to answer questions about Mercury such as why it has a magnetic field, why ice exists in the polar craters of a sun-scorched planet, and what is the nature of enigmatic depressions called \"hollows\"…",
-          "published": "2026-11-23T05:24:30+00:00",
           "regional": true
         },
         {
@@ -815,14 +807,6 @@
           "summary": "Starship expected to descend from space after completing 14 orbits around Earth, setting up its debut catch landing for ​Saturday afternoon; the Super Heavy booster was diverted from its return flight path to a fixed…",
           "published": "2026-11-14T04:17:31+00:00",
           "regional": true
-        },
-        {
-          "title": "ISRO successfully carries out ground static test of PSLV third stage",
-          "link": "https://www.thehindu.com/sci-tech/science/isro-successfully-carries-out-ground-static-test-of-pslv-third-stage/article71694068.ece",
-          "source": "The Hindu",
-          "summary": "The configuration of the third stage was revisited comprehensively with respect to the design margins, raw material acceptance criteria, assembly procedures, and the quality checks that were followed so far",
-          "published": "2026-11-12T17:26:35+00:00",
-          "regional": true
         }
       ]
     },
@@ -832,6 +816,14 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "A black hole the size of an atom could destroy an entire star",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261122060332.htm",
+          "source": "ScienceDaily",
+          "summary": "MIT scientists have discovered that tiny black holes left over from the Big Bang could slowly devour stars from within, eventually triggering spectacular explosions visible across galaxies.",
+          "published": "2026-11-24T20:58:15+00:00",
+          "regional": false
+        },
         {
           "title": "A galactic shock wave could rewrite the map of the Milky Way",
           "link": "https://www.sciencedaily.com/releases/2026/11/261122060329.htm",
@@ -918,14 +910,6 @@
           "source": "ScienceDaily",
           "summary": "Scientists have spotted hints of a mysterious rotation in the universe’s oldest light that could reveal new physics and shed light on dark matter and dark energy.",
           "published": "2026-11-17T12:14:04+00:00",
-          "regional": false
-        },
-        {
-          "title": "Pupils fascinated by space get astronomy lesson",
-          "link": "https://www.bbc.co.uk/news/articles/c67428w9vvkqo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Pupils at First Tower School get a visit from a University of Cambridge astronomer.",
-          "published": "2026-11-16T06:11:42+00:00",
           "regional": false
         },
         {
@@ -1025,11 +1009,27 @@
           "regional": false
         },
         {
+          "title": "2 white dwarfs and a red dwarf: Astronomers discover unusual star system near Earth",
+          "link": "https://indianexpress.com/article/technology/science/2-white-dwarfs-and-a-red-dwarf-astronomers-discover-unusual-star-system-near-earth-10976442/",
+          "source": "Indian Express",
+          "summary": "",
+          "published": "2026-11-24T10:04:39+00:00",
+          "regional": true
+        },
+        {
+          "title": "New quasar record tightens constraints on black hole formation scenarios",
+          "link": "https://www.mpg.de/27030818/new-quasar-record-tightens-constraints-on-black-hole-formation-scenarios",
+          "source": "Max Planck Society",
+          "summary": "Euclid observes a supermassive black hole only 630 million years after the big bang",
+          "published": "2026-11-24T08:00:00+00:00",
+          "regional": true
+        },
+        {
           "title": "Japan-Europe spacecraft BepiColombo begins orbit of Mercury, with a glitch reported",
           "link": "https://www.thehindu.com/sci-tech/science/japan-europe-spacecraft-bepicolombo-begins-orbit-of-mercury-with-a-glitch-reported/article71733234.ece",
           "source": "The Hindu",
           "summary": "The mission will seek to answer questions about Mercury such as why it has a magnetic field, why ice exists in the polar craters of a sun-scorched planet, and what is the nature of enigmatic depressions called \"hollows\"…",
-          "published": "2026-11-23T05:24:30+00:00",
+          "published": "2026-11-24T04:52:01+00:00",
           "regional": true
         },
         {
