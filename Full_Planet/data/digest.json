@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-26T09:03:38.310465+00:00",
-  "generated_human": "26 November 2026, 09:03 UTC",
-  "total_items": 129,
+  "generated": "2026-11-27T09:03:20.572163+00:00",
+  "generated_human": "27 November 2026, 09:03 UTC",
+  "total_items": 123,
   "channels": [
     {
       "key": "ai",
@@ -10,11 +10,19 @@
       "accent": "#5AA9E6",
       "items": [
         {
-          "title": "US approves SpaceX plan to send a million data satellites to space",
+          "title": "BBC Inside Science",
+          "link": "https://www.bbc.co.uk/sounds/play/w3ct978n?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "One of the greatest problems in the history of mathematics has been solved by AI.",
+          "published": "2026-11-26T21:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Musk's plan to send a million SpaceX data satellites into space approved",
           "link": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
           "summary": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power.",
-          "published": "2026-11-26T00:07:51+00:00",
+          "published": "2026-11-26T09:27:44+00:00",
           "regional": false
         },
         {
@@ -98,12 +106,20 @@
           "regional": false
         },
         {
-          "title": "28 Zero-Day Findings in Under Two Days. Is Robotics Security Keeping Pace?",
-          "link": "https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security",
-          "source": "IEEE Spectrum",
-          "summary": "This article is brought to you by VicOne . VicOne identified an initial set of 28 zero-day findings in less than two days using AI-assisted research across software and tools supporting the Physical AI ecosystem.",
-          "published": "2026-11-16T10:00:01+00:00",
-          "regional": false
+          "title": "AI agents used in five cyber attacks in Switzerland, government says",
+          "link": "https://www.thehindu.com/sci-tech/technology/ai-agents-used-in-five-cyber-attacks-in-switzerland-government-says/article71749266.ece",
+          "source": "The Hindu",
+          "summary": "In four ⁠of the five cases, the attacks were ​successful and systems ‌were compromised, BACS said",
+          "published": "2026-11-27T05:42:31+00:00",
+          "regional": true
+        },
+        {
+          "title": "Nobel Committee chair emphasizes human accountability for AI’s potential harms",
+          "link": "https://www.rappler.com/technology/sgs-2026-nobel-chair-jorgen-watne-frydnes-ai-harms-human-accountability/",
+          "source": "Rappler",
+          "summary": "The Nobel Committee chair says human accountability and the rule of law must keep pace with AI’s growing power",
+          "published": "2026-11-27T04:43:41+00:00",
+          "regional": true
         },
         {
           "title": "Top 10 math problems AI models have taken a run at in 2026 (so far)",
@@ -138,14 +154,6 @@
           "regional": true
         },
         {
-          "title": "AmCham hosts Korea-US AI talks with Apple, AWS and Qualcomm",
-          "link": "https://www.koreaherald.com/article/10949349",
-          "source": "The Korea Herald",
-          "summary": "Representatives from Apple, Amazon Web Services and Qualcomm met with South Korean AI policymaker Ha Jung-woo on Wednesday to discuss how US companies could help expand Korea’s AI infrastructure and speed up AI adoption…",
-          "published": "2026-11-25T08:15:51+00:00",
-          "regional": true
-        },
-        {
           "title": "China’s Z.ai ‘aggressively’ using looped transformer method to improve AI models",
           "link": "https://www.scmp.com/tech/big-tech/article/3375517/chinas-zai-aggressively-using-looped-transformer-method-improve-ai-models",
           "source": "South China Morning Post",
@@ -167,14 +175,6 @@
           "source": "South China Morning Post",
           "summary": "Jensen Huang’s abrupt resignation from Nvidia has cast uncertainty over the US chip giant’s multibillion-dollar investments in open-source artificial intelligence, while potentially depriving Chinese developers of one…",
           "published": "2026-11-13T14:00:09+00:00",
-          "regional": true
-        },
-        {
-          "title": "China’s SMIC sees AI computing crunch until 2028 as Nvidia heat risks tighter chip curbs",
-          "link": "https://www.scmp.com/tech/big-tech/article/3374305/chinas-smic-sees-ai-computing-crunch-until-2028-nvidia-heat-risks-tighter-chip-curbs",
-          "source": "South China Morning Post",
-          "summary": "China’s Semiconductor Manufacturing International Corporation (SMIC) is betting that a relentless data centre buildout will keep artificial intelligence computing power in short supply for the next two years.",
-          "published": "2026-11-13T05:55:56+00:00",
           "regional": true
         },
         {
@@ -330,20 +330,12 @@
           "regional": false
         },
         {
-          "title": "Scientists discover that a clogged filter could revolutionize oil refining",
-          "link": "https://www.sciencedaily.com/releases/2026/11/261103003207.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have developed a remarkable new membrane that separates crude oil at room temperature, using the oil itself to create microscopic filtration channels.",
-          "published": "2026-11-05T14:04:07+00:00",
-          "regional": false
-        },
-        {
-          "title": "A clever molecular trick unlocks previously impossible properties in glass",
-          "link": "https://www.sciencedaily.com/releases/2026/11/261103003202.htm",
-          "source": "ScienceDaily",
-          "summary": "Scientists have discovered how to reprogram the internal structure of glass using a special molecule that rearranges chemical bonds while lowering the melting temperature.",
-          "published": "2026-11-05T13:36:51+00:00",
-          "regional": false
+          "title": "China’s tech ambitions to stay on track despite Shanghai party chief’s ouster: analysts",
+          "link": "https://www.scmp.com/tech/big-tech/article/3375938/chinas-tech-ambitions-stay-track-despite-shanghai-party-chiefs-ouster-analysts",
+          "source": "South China Morning Post",
+          "summary": "The ousting of Shanghai Communist Party chief Chen Jining, a prominent technocrat who championed the city’s artificial intelligence and semiconductor sectors, could heighten scrutiny of state-backed tech investments,…",
+          "published": "2026-11-26T13:00:14+00:00",
+          "regional": true
         },
         {
           "title": "BOK revises up S. Korea's 2026 growth outlook to 3.9%, 4.1% for 2027",
@@ -378,35 +370,11 @@
           "regional": true
         },
         {
-          "title": "Samsung pares promotions but elevates HBM4 engineers",
-          "link": "https://www.koreaherald.com/article/10947717",
-          "source": "The Korea Herald",
-          "summary": "Samsung Electronics on Tuesday promoted key engineers behind its AI memory business while reducing executive promotions by nearly 19 percent overall, rewarding strong semiconductor performance as it builds up talent in…",
-          "published": "2026-11-24T06:42:52+00:00",
-          "regional": true
-        },
-        {
-          "title": "Micron recruits Korean chip engineers for Asian operations",
-          "link": "https://www.koreaherald.com/article/10947716",
-          "source": "The Korea Herald",
-          "summary": "US memory chipmaker Micron Technology has launched a recruitment drive in South Korea, seeking engineers for its Asian operations in roles ranging from semiconductor manufacturing to advanced packaging and HBM chip…",
-          "published": "2026-11-24T06:42:34+00:00",
-          "regional": true
-        },
-        {
           "title": "Nvidia faces further blow after shock US export permit data release: analysts",
           "link": "https://www.scmp.com/tech/big-tech/article/3375287/nvidia-faces-further-blow-after-shock-us-export-permit-data-release-analysts",
           "source": "South China Morning Post",
           "summary": "US lawmakers have thrown the cross-border semiconductor trade into fresh turmoil after releasing confidential licensing records showing Washington approved the sale of nearly 880,000 advanced AI chips to Chinese tech…",
           "published": "2026-11-21T01:00:13+00:00",
-          "regional": true
-        },
-        {
-          "title": "China’s SMIC sees AI computing crunch until 2028 as Nvidia heat risks tighter chip curbs",
-          "link": "https://www.scmp.com/tech/big-tech/article/3374305/chinas-smic-sees-ai-computing-crunch-until-2028-nvidia-heat-risks-tighter-chip-curbs",
-          "source": "South China Morning Post",
-          "summary": "China’s Semiconductor Manufacturing International Corporation (SMIC) is betting that a relentless data centre buildout will keep artificial intelligence computing power in short supply for the next two years.",
-          "published": "2026-11-13T05:55:56+00:00",
           "regional": true
         },
         {
@@ -489,14 +457,6 @@
           "regional": true
         },
         {
-          "title": "India undergoing massive transformation in renewable energy: Earthshot Prize CEO",
-          "link": "https://www.thehindu.com/sci-tech/energy-and-environment/india-undergoing-massive-transformation-in-renewable-energy-earthshot-prize-ceo/article71694272.ece",
-          "source": "The Hindu",
-          "summary": "“There is a race on right now. The first country that can have access to cheap, clean and abundant energy, is going to have a huge economic advantage. And India knows that,” says Jason Knauf",
-          "published": "2026-11-12T17:14:40+00:00",
-          "regional": true
-        },
-        {
           "title": "Can global leaders put their money where their mouth is on climate?",
           "link": "https://www.dw.com/en/can-global-leaders-put-their-money-where-their-mouth-is-on-climate/a-79918744?maca=en-rss_en_environment-22607-xml-mrss",
           "source": "Deutsche Welle",
@@ -537,11 +497,11 @@
       "accent": "#F0894E",
       "items": [
         {
-          "title": "US approves SpaceX plan to send a million data satellites to space",
+          "title": "Musk's plan to send a million SpaceX data satellites into space approved",
           "link": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
           "summary": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power.",
-          "published": "2026-11-26T00:07:51+00:00",
+          "published": "2026-11-26T09:27:44+00:00",
           "regional": false
         },
         {
@@ -577,11 +537,11 @@
           "regional": false
         },
         {
-          "title": "Canadian astronaut welcomes baby girl from space station",
-          "link": "https://www.bbc.co.uk/news/articles/ckx283y8wwwgo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Joshua Kutryk, currently on his first space mission, is just the fourth astronaut in history to miss the birth of a child while aboard the International Space Station.",
-          "published": "2026-11-25T15:41:39+00:00",
+          "title": "NASA’s Hubble Views Ocean of Stars in Groundwork for Roman",
+          "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman/",
+          "source": "NASA",
+          "summary": "These Hubble observations are part of a survey that will help researchers better interpret upcoming Nancy Grace Roman Space Telescope observations as they seek to characterize the stars and search for exoplanets in this…",
+          "published": "2026-11-25T14:56:54+00:00",
           "regional": false
         },
         {
@@ -593,19 +553,11 @@
           "regional": false
         },
         {
-          "title": "Why has China sent the first Pakistani astronaut to space?",
-          "link": "https://www.bbc.co.uk/news/videos/cj5y1p067kxno?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Pakistan's Muhammad Zeeshan Ali has become the first foreign national to board China's Tiangong space station.",
-          "published": "2026-11-25T10:26:50+00:00",
-          "regional": false
-        },
-        {
-          "title": "China's Shenzhou-24 carries Pakistan's first astronaut into space",
-          "link": "https://www.bbc.co.uk/news/articles/c6x2e0j3kx28o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Science",
-          "summary": "Muhammad Zeeshan Ali, a former fighter pilot, is the first foreigner to join a Chinese crewed space mission.",
-          "published": "2026-11-25T04:46:23+00:00",
+          "title": "A space telescope hunting for dark matter just discovered something unexpected",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261124055852.htm",
+          "source": "ScienceDaily",
+          "summary": "ESA’s Euclid space telescope has discovered its first previously unknown comet, despite being designed to study distant galaxies and the mysteries of the dark Universe.",
+          "published": "2026-11-25T10:35:04+00:00",
           "regional": false
         },
         {
@@ -614,6 +566,22 @@
           "source": "Scientific American",
           "summary": "Three major milestones showcase the next era of space exploration",
           "published": "2026-11-23T11:00:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "Mysterious Mercury gets a visitor - after spacecraft's eight-year epic voyage",
+          "link": "https://www.bbc.co.uk/news/articles/c39w9l4v1p9ro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Science",
+          "summary": "The mission is set to give us our best ever view of Mercury - the closest planet to the Sun.",
+          "published": "2026-11-22T10:44:12+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261120075554.htm",
+          "source": "ScienceDaily",
+          "summary": "NASA’s Voyager 1 has reached an extraordinary milestone, traveling 16.1 billion miles from Earth to become the first spacecraft so distant that its signals take a full day to reach us.",
+          "published": "2026-11-20T12:55:54+00:00",
           "regional": false
         },
         {
@@ -649,14 +617,6 @@
           "regional": false
         },
         {
-          "title": "How bad would SpaceX’s million AI satellites be for Earth’s atmosphere?",
-          "link": "https://www.scientificamerican.com/article/how-bad-would-spacexs-million-ai-satellites-be-for-earths-atmosphere/",
-          "source": "Scientific American",
-          "summary": "A new study estimates that the company’s plans to launch a million orbital data centers could increase Earth’s upper atmospheric pollution by more than a 100-fold",
-          "published": "2026-11-18T13:00:00+00:00",
-          "regional": false
-        },
-        {
           "title": "NASA pushes Mars helicopter blades beyond the speed of sound",
           "link": "https://www.sciencedaily.com/releases/2026/11/261117033920.htm",
           "source": "ScienceDaily",
@@ -681,6 +641,14 @@
           "regional": false
         },
         {
+          "title": "NASA smashed into an asteroid. Now Hera has revealed a strange new world",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261116023351.htm",
+          "source": "ScienceDaily",
+          "summary": "A European spacecraft has revealed a mysterious, crater-covered side of the asteroid Didymos as it prepares to investigate the aftermath of NASA’s historic 2022 asteroid impact.",
+          "published": "2026-11-16T13:40:11+00:00",
+          "regional": false
+        },
+        {
           "title": "SpaceX successfully catches top of huge Starship rocket for first time",
           "link": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
@@ -694,14 +662,6 @@
           "source": "ScienceDaily",
           "summary": "NASA's Perseverance rover has confirmed complex organic carbon just beneath the surface of ancient Martian rocks, raising intriguing questions about the Red Planet's potential to have supported life.",
           "published": "2026-11-12T11:37:06+00:00",
-          "regional": false
-        },
-        {
-          "title": "Hera spacecraft in ‘rectangular orbit’ around target asteroids",
-          "link": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/hera-spacecraft-in-rectangular-orbit-around-target-asteroids",
-          "source": "ESA",
-          "summary": "The European Space Agency’s Hera mission for planetary defence has arrived at its target asteroids. Positioned just 30-25 km away from the binary Didymos system, the small-car-sized spacecraft has commenced its ‘early…",
-          "published": "2026-11-11T13:00:00+00:00",
           "regional": false
         },
         {
@@ -727,6 +687,14 @@
           "summary": "NASA has revealed an accelerated plan to land astronauts on the Moon in 2028, with SpaceX and Blue Origin developing competing lunar landers and a crucial orbital test scheduled for 2027.",
           "published": "2026-11-09T09:13:28+00:00",
           "regional": false
+        },
+        {
+          "title": "Prototype of Chandrayaan-5/LUPEX rover unveiled",
+          "link": "https://www.thehindu.com/sci-tech/science/prototype-of-chandrayaan-5lupex-rover-unveiled/article71746762.ece",
+          "source": "The Hindu",
+          "summary": "The Chandrayaan-5/LuPEX mission is the fifth mission in the Chandrayaan series of lunar missions; JAXA, the Japanese space agency, unveiled the rover in Japan on November 25",
+          "published": "2026-11-27T06:26:59+00:00",
+          "regional": true
         },
         {
           "title": "New images reveal crater on asteroid hit by NASA’s DART planetary defence mission",
@@ -761,11 +729,27 @@
           "regional": true
         },
         {
+          "title": "Indian space companies sign largest-of-its-kind deal on satellite systems",
+          "link": "https://www.thehindu.com/business/Industry/indian-space-companies-sign-largest-of-its-kind-deal-on-satellite-systems/article71739125.ece",
+          "source": "The Hindu",
+          "summary": "Bellatrix Aerospace to supply in-space propulsion systems for GalaxEye’s 30 satellites",
+          "published": "2026-11-24T15:57:58+00:00",
+          "regional": true
+        },
+        {
           "title": "Japan-Europe spacecraft BepiColombo begins orbit of Mercury, with a glitch reported",
           "link": "https://www.thehindu.com/sci-tech/science/japan-europe-spacecraft-bepicolombo-begins-orbit-of-mercury-with-a-glitch-reported/article71733234.ece",
           "source": "The Hindu",
           "summary": "The mission will seek to answer questions about Mercury such as why it has a magnetic field, why ice exists in the polar craters of a sun-scorched planet, and what is the nature of enigmatic depressions called \"hollows\"…",
           "published": "2026-11-24T04:52:01+00:00",
+          "regional": true
+        },
+        {
+          "title": "China's Shenzhou-24 spaceship to include first foreign astronaut from Pakistan",
+          "link": "https://www.thehindu.com/sci-tech/science/chinas-shenzhou-24-spaceship-to-include-first-foreign-astronaut-from-pakistan/article71737165.ece",
+          "source": "The Hindu",
+          "summary": "Pakistani payload specialist Zeeshan Ali's participation is ‌part of bilateral cooperation under Beijing’s ‌Belt ⁠and Road Initiative",
+          "published": "2026-11-24T04:22:29+00:00",
           "regional": true
         },
         {
@@ -782,30 +766,6 @@
           "source": "The Hindu",
           "summary": "To bridge the gap between data being recorded by satellites and data being available to users on the ground, operators are pursuing a solution called in-orbit computing: the basic idea is to analyse some data onboard…",
           "published": "2026-11-16T13:01:30+00:00",
-          "regional": true
-        },
-        {
-          "title": "SpaceX pulls off first-ever spaceship ‘catch’",
-          "link": "https://www.thehindu.com/news/international/spacexs-starship-returns-from-orbit-and-is-captured-by-launch-pad-arms-in-a-dramatic-first/article71703046.ece",
-          "source": "The Hindu",
-          "summary": "Starship returned from orbit and was caught by the “chopstick arms” at SpaceX’s Starbase launch pad in Texas, in a milestone for fully reusable rockets",
-          "published": "2026-11-15T12:55:36+00:00",
-          "regional": true
-        },
-        {
-          "title": "NASA's Voyager 1 closes in on a light-day in interstellar space for new distance record",
-          "link": "https://www.thehindu.com/sci-tech/science/nasas-voyager-1-closes-in-on-a-light-day-in-interstellar-space-for-new-distance-record/article71704036.ece",
-          "source": "The Hindu",
-          "summary": "NASA is looking at another 18,000 years before the spacecraft achieves a full light-year and more than double that before it comes near another star",
-          "published": "2026-11-15T05:59:47+00:00",
-          "regional": true
-        },
-        {
-          "title": "SpaceX launches 15th Starship flight with hopes of achieving first round trip",
-          "link": "https://www.thehindu.com/sci-tech/science/spacex-launches-15th-starship-flight-with-hopes-of-achieving-first-round-trip/article71700818.ece",
-          "source": "The Hindu",
-          "summary": "Starship expected to descend from space after completing 14 orbits around Earth, setting up its debut catch landing for ​Saturday afternoon; the Super Heavy booster was diverted from its return flight path to a fixed…",
-          "published": "2026-11-14T04:17:31+00:00",
           "regional": true
         }
       ]
@@ -889,11 +849,27 @@
           "regional": false
         },
         {
+          "title": "Listen to the sounds of a baby star as it explodes into life",
+          "link": "https://www.scientificamerican.com/article/listen-to-the-sounds-of-a-baby-star-as-it-explodes-into-life/",
+          "source": "Scientific American",
+          "summary": "NASA just released a new album of sounds created from observations of stellar formation",
+          "published": "2026-11-22T11:00:00+00:00",
+          "regional": false
+        },
+        {
           "title": "A giant star swallowed another star. James Webb reveals the aftermath",
           "link": "https://www.sciencedaily.com/releases/2026/11/261120075556.htm",
           "source": "ScienceDaily",
           "summary": "Astronomers have witnessed a spectacular cosmic collision in the Andromeda galaxy, where a small star spiraled into a giant star 18,000 times brighter than the Sun, triggering a violent eruption.",
           "published": "2026-11-21T14:53:40+00:00",
+          "regional": false
+        },
+        {
+          "title": "Weirdly accelerating space rock keeps puzzling astronomers",
+          "link": "https://www.scientificamerican.com/article/weirdly-accelerating-space-rock-keeps-puzzling-astronomers/",
+          "source": "Scientific American",
+          "summary": "The strange “dark comet” 1998 KY26 is moving in a way scientists have yet to fully understand. A Japanese space probe was set to visit in 2031, but engine trouble will prevent that encounter, leaving the mystery unsolved",
+          "published": "2026-11-21T12:00:00+00:00",
           "regional": false
         },
         {
@@ -993,22 +969,6 @@
           "regional": false
         },
         {
-          "title": "NASA’s Swift telescope falls to Earth after nearly 22 years in space",
-          "link": "https://www.sciencedaily.com/releases/2026/11/261105224545.htm",
-          "source": "ScienceDaily",
-          "summary": "After nearly 22 years of exploring the universe’s most violent explosions, NASA’s Swift Observatory has re-entered Earth’s atmosphere over Indonesia.",
-          "published": "2026-11-06T07:12:55+00:00",
-          "regional": false
-        },
-        {
-          "title": "Dead stars could break one of physics' most famous limits",
-          "link": "https://www.sciencedaily.com/releases/2026/11/261102202835.htm",
-          "source": "ScienceDaily",
-          "summary": "A surprising new discovery suggests that some dead stars can grow far more massive than scientists once thought possible.",
-          "published": "2026-11-06T03:11:09+00:00",
-          "regional": false
-        },
-        {
           "title": "New images reveal crater on asteroid hit by NASA’s DART planetary defence mission",
           "link": "https://www.thehindu.com/sci-tech/science/new-images-reveal-crater-on-asteroid-struck-by-dart-spacecraft/article71745339.ece",
           "source": "The Hindu",
@@ -1062,14 +1022,6 @@
           "source": "The Hindu",
           "summary": "Two celestial bodies—Nāpōwawāʻenakaulua—are a close pair of ancient quasars challenging ideas about early black hole growth",
           "published": "2026-11-16T00:11:01+00:00",
-          "regional": true
-        },
-        {
-          "title": "NASA's Voyager 1 closes in on a light-day in interstellar space for new distance record",
-          "link": "https://www.thehindu.com/sci-tech/science/nasas-voyager-1-closes-in-on-a-light-day-in-interstellar-space-for-new-distance-record/article71704036.ece",
-          "source": "The Hindu",
-          "summary": "NASA is looking at another 18,000 years before the spacecraft achieves a full light-year and more than double that before it comes near another star",
-          "published": "2026-11-15T05:59:47+00:00",
           "regional": true
         },
         {
