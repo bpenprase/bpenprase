@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-27T09:03:20.572163+00:00",
-  "generated_human": "27 November 2026, 09:03 UTC",
-  "total_items": 123,
+  "generated": "2026-11-28T09:03:43.164700+00:00",
+  "generated_human": "28 November 2026, 09:03 UTC",
+  "total_items": 120,
   "channels": [
     {
       "key": "ai",
@@ -9,6 +9,14 @@
       "tagline": "AI put to work in science and engineering — new materials, proteins, medicines, and discoveries.",
       "accent": "#5AA9E6",
       "items": [
+        {
+          "title": "This ER Doctor Became a Hospital’s First Clinical AI Engineer",
+          "link": "https://spectrum.ieee.org/clinical-ai-engineer-dinesh-rai",
+          "source": "IEEE Spectrum",
+          "summary": "When Boston Children’s Hospital posted a job listing for a prompt engineer in 2023, Dinesh Rai decided to apply. He didn’t expect to get the job.",
+          "published": "2026-11-27T14:00:01+00:00",
+          "regional": false
+        },
         {
           "title": "BBC Inside Science",
           "link": "https://www.bbc.co.uk/sounds/play/w3ct978n?at_medium=RSS&at_campaign=rss",
@@ -98,19 +106,35 @@
           "regional": false
         },
         {
-          "title": "AI Is Giving Optical Computing Another Shot",
-          "link": "https://spectrum.ieee.org/optical-computing-ai",
-          "source": "IEEE Spectrum",
-          "summary": "The idea of computing with light has been around for over 70 years, but until recently it’s remained largely in the realm of research.",
-          "published": "2026-11-17T14:00:03+00:00",
-          "regional": false
+          "title": "Lee vows all-out efforts to lead AI race at data center groundbreaking in Gangwon",
+          "link": "https://www.koreaherald.com/article/10952453",
+          "source": "The Korea Herald",
+          "summary": "President Lee Jae Myung pledged Saturday to mobilize all government resources to make South Korea a leading country in the global artificial intelligence race, as he attended a groundbreaking ceremony for GS Group's AI…",
+          "published": "2026-11-28T05:06:25+00:00",
+          "regional": true
+        },
+        {
+          "title": "Mercedes launches hybrid CLA in China with Doubao AI and Momenta driving system",
+          "link": "https://technode.com/2026/11/27/mercedes-launches-hybrid-cla-in-china-with-doubao-ai-and-momenta-driving-system/",
+          "source": "TechNode",
+          "summary": "Mercedes-Benz launched its new hybrid CLA at the Guangzhou Auto Show on Friday, with introductory prices ranging from RMB199,000 to RMB245,600. The two versions have official list prices of RMB229,000 and RMB285,600.",
+          "published": "2026-11-27T13:47:10+00:00",
+          "regional": true
+        },
+        {
+          "title": "AI goes from math dunce to genius",
+          "link": "https://www.dw.com/en/ai-goes-from-math-dunce-to-genius/a-80067691?maca=en-rss_en_science-22531-xml-mrss",
+          "source": "Deutsche Welle",
+          "summary": "It once struggled to get simple sums right. But AI is now tackling tough mathematical problems like the Riemann hypothesis. How AI made this extraordinary leap — and why mathematicians should be \"deeply worried.\"",
+          "published": "2026-11-27T11:13:00+00:00",
+          "regional": true
         },
         {
           "title": "AI agents used in five cyber attacks in Switzerland, government says",
           "link": "https://www.thehindu.com/sci-tech/technology/ai-agents-used-in-five-cyber-attacks-in-switzerland-government-says/article71749266.ece",
           "source": "The Hindu",
           "summary": "In four ⁠of the five cases, the attacks were ​successful and systems ‌were compromised, BACS said",
-          "published": "2026-11-27T05:42:31+00:00",
+          "published": "2026-11-27T08:41:22+00:00",
           "regional": true
         },
         {
@@ -127,22 +151,6 @@
           "source": "The Hindu",
           "summary": "A flurry of announcements landed in the third week of November claiming that various artificial intelligence (AI) models had solved longstanding mathematical problems",
           "published": "2026-11-26T05:02:39+00:00",
-          "regional": true
-        },
-        {
-          "title": "How China got access to Nvidia’s AI chips despite rules to stop them",
-          "link": "https://www.rappler.com/world/us-canada/how-china-got-access-nvidia-ai-chips/",
-          "source": "Rappler",
-          "summary": "The drama around Nvidia, the top US exporter of AI chips to China, thrusts the rules into the spotlight",
-          "published": "2026-11-26T01:08:31+00:00",
-          "regional": true
-        },
-        {
-          "title": "76% of Australians struggling to tell apart real and AI content – new report",
-          "link": "https://www.rappler.com/technology/australians-struggling-real-ai-content-report/",
-          "source": "Rappler",
-          "summary": "The challenge is not just that AI-generated content is becoming more realistic. It’s that many people are unsure whether they’re able to recognize it at all.",
-          "published": "2026-11-26T00:43:28+00:00",
           "regional": true
         },
         {
@@ -167,14 +175,6 @@
           "source": "South China Morning Post",
           "summary": "Minds by Animoca Brands, an agentic artificial intelligence platform created by the Web3 firm, is riding on Hong Kong’s push to turn automated agents into everyday shopping tools, piloting live transactions on Visa’s…",
           "published": "2026-11-21T02:30:05+00:00",
-          "regional": true
-        },
-        {
-          "title": "Will Jensen Huang’s downfall tip the scales against open-source AI?",
-          "link": "https://www.scmp.com/tech/big-tech/article/3374376/will-jensen-huangs-downfall-tip-scales-against-open-source-ai",
-          "source": "South China Morning Post",
-          "summary": "Jensen Huang’s abrupt resignation from Nvidia has cast uncertainty over the US chip giant’s multibillion-dollar investments in open-source artificial intelligence, while potentially depriving Chinese developers of one…",
-          "published": "2026-11-13T14:00:09+00:00",
           "regional": true
         },
         {
@@ -322,14 +322,6 @@
           "regional": false
         },
         {
-          "title": "Scientists accidentally solve a chemistry mystery that lasted 60 years",
-          "link": "https://www.sciencedaily.com/releases/2026/11/261103003205.htm",
-          "source": "ScienceDaily",
-          "summary": "After more than 60 years of unsuccessful attempts, scientists have finally isolated stable examples of elusive boron-oxygen molecules once considered too unstable to capture.",
-          "published": "2026-11-06T21:28:04+00:00",
-          "regional": false
-        },
-        {
           "title": "China’s tech ambitions to stay on track despite Shanghai party chief’s ouster: analysts",
           "link": "https://www.scmp.com/tech/big-tech/article/3375938/chinas-tech-ambitions-stay-track-despite-shanghai-party-chiefs-ouster-analysts",
           "source": "South China Morning Post",
@@ -409,14 +401,6 @@
       "accent": "#33C6D6",
       "items": [
         {
-          "title": "Why the bipartisan BAAJA permitting bill could quietly revolutionize nuclear power",
-          "link": "https://www.scientificamerican.com/article/why-the-bipartisan-baaja-permitting-bill-could-quietly-revolutionize-nuclear-power/",
-          "source": "Scientific American",
-          "summary": "A sweeping permit bill making its way through the Senate this week could smooth the way for new nuclear power projects",
-          "published": "2026-11-18T13:30:00+00:00",
-          "regional": false
-        },
-        {
           "title": "This remarkable new material could solve a major carbon capture problem",
           "link": "https://www.sciencedaily.com/releases/2026/11/261116023405.htm",
           "source": "ScienceDaily",
@@ -439,6 +423,14 @@
           "summary": "Princeton Plasma Physics Laboratory may have found a dramatically more efficient route to fusion energy by reversing the traditional approach: heating plasma first, then increasing its density.",
           "published": "2026-10-10T18:57:27+00:00",
           "regional": false
+        },
+        {
+          "title": "SK On takes 37% share in Korea’s largest energy storage tender",
+          "link": "https://www.koreaherald.com/article/10951924",
+          "source": "The Korea Herald",
+          "summary": "SK On said Friday it is set to supply batteries for energy storage projects totaling 443 megawatts in South Korea's largest energy storage tender to date, expanding its market presence as it converts electric vehicle…",
+          "published": "2026-11-27T05:38:51+00:00",
+          "regional": true
         },
         {
           "title": "Super El Niño : quand le calendrier des semis devient un atout pour nourrir le bétail",
@@ -497,6 +489,22 @@
       "accent": "#F0894E",
       "items": [
         {
+          "title": "Artemis III Astronaut Andre Douglas Visits VAB",
+          "link": "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab/",
+          "source": "NASA",
+          "summary": "NASA astronaut Andre Douglas, Artemis III mission specialist, stands inside an RS-25 engine test article during a visit to the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida on Tuesday, Nov.",
+          "published": "2026-11-27T15:01:00+00:00",
+          "regional": false
+        },
+        {
+          "title": "NASA’s NG-25 Mission to Launch Pioneering Space Crops Research",
+          "link": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/",
+          "source": "NASA",
+          "summary": "NASA experiments, including a first-of-its-kind space crop production system, will travel to the International Space Station aboard Northrop Grumman’s 25th Commercial Resupply Services mission for the agency.",
+          "published": "2026-11-27T14:22:00+00:00",
+          "regional": false
+        },
+        {
           "title": "Musk's plan to send a million SpaceX data satellites into space approved",
           "link": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
@@ -534,14 +542,6 @@
           "source": "NASA",
           "summary": "As NASA prepares for future missions to the Moon and Mars, researchers are studying crops that could provide astronauts with fresh food, nutrition, and variety far from Earth.",
           "published": "2026-11-25T17:53:42+00:00",
-          "regional": false
-        },
-        {
-          "title": "NASA’s Hubble Views Ocean of Stars in Groundwork for Roman",
-          "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman/",
-          "source": "NASA",
-          "summary": "These Hubble observations are part of a survey that will help researchers better interpret upcoming Nancy Grace Roman Space Telescope observations as they seek to characterize the stars and search for exoplanets in this…",
-          "published": "2026-11-25T14:56:54+00:00",
           "regional": false
         },
         {
@@ -641,14 +641,6 @@
           "regional": false
         },
         {
-          "title": "NASA smashed into an asteroid. Now Hera has revealed a strange new world",
-          "link": "https://www.sciencedaily.com/releases/2026/11/261116023351.htm",
-          "source": "ScienceDaily",
-          "summary": "A European spacecraft has revealed a mysterious, crater-covered side of the asteroid Didymos as it prepares to investigate the aftermath of NASA’s historic 2022 asteroid impact.",
-          "published": "2026-11-16T13:40:11+00:00",
-          "regional": false
-        },
-        {
           "title": "SpaceX successfully catches top of huge Starship rocket for first time",
           "link": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Science",
@@ -687,6 +679,14 @@
           "summary": "NASA has revealed an accelerated plan to land astronauts on the Moon in 2028, with SpaceX and Blue Origin developing competing lunar landers and a crucial orbital test scheduled for 2027.",
           "published": "2026-11-09T09:13:28+00:00",
           "regional": false
+        },
+        {
+          "title": "ISRO invites Indian industry to develop human space flight analog simulation facility",
+          "link": "https://www.thehindu.com/sci-tech/science/isro-invites-indian-industry-to-develop-human-space-flight-analog-simulation-facility/article71751015.ece",
+          "source": "The Hindu",
+          "summary": "The Bengaluru-based HSFC has issued an Expression of Interest in this regard on November 26, 2026.",
+          "published": "2026-11-28T08:26:57+00:00",
+          "regional": true
         },
         {
           "title": "Prototype of Chandrayaan-5/LUPEX rover unveiled",
@@ -759,14 +759,6 @@
           "summary": "As India embarks on its first manned space mission, developing indigenous capabilities in crew selection and training not only lays the foundation for sustained space activities but also gives an impetus to…",
           "published": "2026-11-18T12:10:13+00:00",
           "regional": true
-        },
-        {
-          "title": "Orbital computing could let scientists rent ‘brainpower’ in space",
-          "link": "https://www.thehindu.com/sci-tech/science/orbital-computing-could-let-scientists-rent-brainpower-in-space/article71707329.ece",
-          "source": "The Hindu",
-          "summary": "To bridge the gap between data being recorded by satellites and data being available to users on the ground, operators are pursuing a solution called in-orbit computing: the basic idea is to analyse some data onboard…",
-          "published": "2026-11-16T13:01:30+00:00",
-          "regional": true
         }
       ]
     },
@@ -776,6 +768,14 @@
       "tagline": "New telescopes, satellites, and discoveries across the cosmos.",
       "accent": "#B98CE0",
       "items": [
+        {
+          "title": "Where are all the Milky Way’s black holes?",
+          "link": "https://www.scientificamerican.com/article/where-are-all-the-milky-ways-black-holes/",
+          "source": "Scientific American",
+          "summary": "Astronomers are missing hundreds of millions of quiet black holes",
+          "published": "2026-11-27T11:45:00+00:00",
+          "regional": false
+        },
         {
           "title": "Astronomers may have discovered a black hole born before the first stars",
           "link": "https://www.sciencedaily.com/releases/2026/11/261122060346.htm",
@@ -961,14 +961,6 @@
           "regional": false
         },
         {
-          "title": "A dead star's mysterious rings reveal what could happen when our Sun dies",
-          "link": "https://www.sciencedaily.com/releases/2026/11/261104012250.htm",
-          "source": "ScienceDaily",
-          "summary": "Astronomers have discovered a strange double ring of planetary wreckage around a dead star, revealing a possible preview of our Solar System's distant future.",
-          "published": "2026-11-06T22:12:56+00:00",
-          "regional": false
-        },
-        {
           "title": "New images reveal crater on asteroid hit by NASA’s DART planetary defence mission",
           "link": "https://www.thehindu.com/sci-tech/science/new-images-reveal-crater-on-asteroid-struck-by-dart-spacecraft/article71745339.ece",
           "source": "The Hindu",
@@ -1006,22 +998,6 @@
           "source": "Max Planck Society",
           "summary": "Astronomers are detecting more and more neutrinos from deep space, opening a new window to the Universe",
           "published": "2026-11-18T23:00:00+00:00",
-          "regional": true
-        },
-        {
-          "title": "Daily Quiz: Communication with extraterrestrial intelligence",
-          "link": "https://www.thehindu.com/sci-tech/science/daily-quiz-communication-with-extraterrestrial-intelligence/article71706616.ece",
-          "source": "The Hindu",
-          "summary": "From a radio telescope in Puerto Rico to a distant globular cluster, explore the science, symbolism and audacious ambition behind humanity’s 1974 attempt to communicate with extraterrestrial intelligence",
-          "published": "2026-11-16T01:42:50+00:00",
-          "regional": true
-        },
-        {
-          "title": "Nāpōwawāʻenakaulua",
-          "link": "https://www.thehindu.com/sci-tech/science/napowawa%CA%BBenakaulua/article71704825.ece",
-          "source": "The Hindu",
-          "summary": "Two celestial bodies—Nāpōwawāʻenakaulua—are a close pair of ancient quasars challenging ideas about early black hole growth",
-          "published": "2026-11-16T00:11:01+00:00",
           "regional": true
         },
         {
